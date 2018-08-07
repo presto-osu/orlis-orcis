@@ -64,7 +64,7 @@ documents are shown as below:
 
 * ProGuard: https://www.guardsquare.com/en/proguard
 * Allatori: http://www.allatori.com/doc.html
-* DashO   : https://www.preemptive.com/products/dasho/videos-a-resources(need request)
+* DashO: https://www.preemptive.com/products/dasho/videos-a-resources (need request)
 
 ### Experiment Replica:
 * Obfuscate the apps using the obfuscators with the config files and get the mapping files for each app.
