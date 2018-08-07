@@ -30,11 +30,11 @@ The output is text message that indicates whether they are clone or not.
 * [AndroZoo Data](https://androzoo.uni.lu/repackaging)
 * [CodeMatch Data](http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/)
 
-The links of Piggyback Data and AndroZoo data contain the all necessary
+The links of Piggyback Data and AndroZoo data contain all necessary
 information of apps and ground truth. All these apps can be downloaded from the app
 repository of [AndroZoo](https://androzoo.uni.lu/).
 
-The link of CodeMatch Data also contains the name of apps and the ground truth.
+The link of CodeMatch Data contains the name of apps and the ground truth.
 However, we only successfully downloaded 1589 apps. Also we found 41 possible
 mistakes in the ground truth. These 41 pairs seem to be clones while they are marked
 as not clones in the ground truth of CodeMatch Data. The list of apps is shown in
