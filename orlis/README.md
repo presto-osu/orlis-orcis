@@ -28,11 +28,11 @@ This means the app class in the APK file.
 The open-source apps are from F-droid. They are in the tar.gz file
 "./open_source_benchmarks/apps.tar.gz".
 
-###Libraries:
+### Libraries:
 The library jar files in this benchmarks is in zip file
 "./open_source_benchmarks/libraries.zip".
 
-###Obfuscators:
+### Obfuscators:
 The obfuscators used in our evaluation are 
 * ProGuard 5.2.1
 * Allatori Obfuscator v5.9 Educational
@@ -43,7 +43,7 @@ The configuration file of each obfuscator is shown as below:
 * Allatori: ./open_source_benchmarks/obfuscator_configs/allatori_config.xml
 * DashO   : ./open_source_benchmarks/obfuscator_configs/dasho_config.dox
 
-###Ground Truth:
+### Ground Truth:
  The ground truth for unobfuscated apps is in file
 "./open_source_benchmarks/ground_truth.txt". Each line is in the
 format of "<app>: <lib jar>, <lib jar>, ...".  The "lib jar" is the

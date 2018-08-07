@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dasho version="8.0.0">
+    <propertylist>
+        <property name="build.dir" value="build" />
+        <property name="gradleSupport" value="" />
+        <property name="gradleOutput" value="${build.dir}/dasho/${buildType}/classes.jar" />
+        <property name="dasho.results.dir" value="${build.dir}/dasho-results/${buildType}" />
+        <property name="KEY_ALIAS" value="${key.alias:-androiddebugkey}" />
+        <property name="AndroidManifestFile" value="${build.dir}/intermediates/manifests/full/${buildType}/AndroidManifest.xml" />
+        <property name="AndroidManifestOutput" value="../../../intermediates/manifests/full/dasho-${buildType}" />
+        <property name="projectname" value="dasho" />
+        <property name="key.store" value="${user.home}/.android/debug.keystore" />
+        <property name="KEYSTORE_PASSWORD" value="${key.store.password:-android}" />
+        <property name="KEYSTORE" value="${key.store}" />
+        <property name="KEY_ALIAS_PASSWORD" value="${key.alias.password:-android}" />
+        <property name="manifest.package" value="anupam.acrylic" />
+        <property name="sdk.target" value="android-21" />
+        <property name="buildType" value="debug" />
+        <property name="gradleInput" value="build/intermediates/classes/debug" />
+        <property name="sdk.dir" value="/home/yan/Android/Sdk" />
+    </propertylist>
+    <global>
+        <option>IGNORENOTFOUNDCLASSES</option>
+        <option>FORNAMEDETECTION</option>
+        <option>FORCE</option>
+    </global>
+    <inputpath>
+        <pathelement location="${gradleInput}" />
+    </inputpath>
+    <classpath appendrtjar="false">
+        <pathelement location="${sdk.dir}/platforms/${sdk.target}/android.jar" />
+        <pathelement location="${gradleSupport:-}" />
+    </classpath>
+    <entrypoints>
+        <android name="anupam.acrylic.AboutActivity" rename-class="true" />
+        <android name="anupam.acrylic.EasyPaint" rename-class="true" />
+        <android name="anupam.acrylic.Splash" />
+    </entrypoints>
+    <report path="${dasho.results.dir}/${projectname}-report.txt" />
+    <output compress="false" level="0">
+        <jar path="${gradleOutput}" />
+    </output>
+    <removal classes="unused-non-public" members="unused-non-public">
+        <debug />
+        <attributes />
+    </removal>
+    <methodCallRemoval />
+    <renaming option="on">
+        <class-options prefix="${manifest.package}." randomize="true" />
+        <member-options randomize="true" />
+        <mapping>
+            <mapreport path="${dasho.results.dir}/${projectname}-mapreport.txt" />
+            <mapoutput overwrite="true" path="${dasho.results.dir}/${projectname}.map" />
+        </mapping>
+    </renaming>
+    <optimization option="on" />
+    <controlflow option="on" tryCatch="on" />
+    <stringencrypt implementations="2" level="2" option="on">
+        <seOutput path="${dasho.results.dir}/${projectname}-se.map" />
+    </stringencrypt>
+    <includenonclassfiles>
+        <copy relativedest="${AndroidManifestOutput}" source="${AndroidManifestFile}" />
+    </includenonclassfiles>
+    <injection>
+        <instrumentation option="off">
+            <runtime target="android4" />
+        </instrumentation>
+    </injection>
+</dasho>
