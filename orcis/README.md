@@ -32,7 +32,7 @@ The output is text message that indicates whether they are clone or not.
 
 The links of Piggyback Data and AndroZoo data contain the all necessary
 information of apps and ground truth. All these apps can be downloaded from the app
-repository of [AndroZoo](https://androzoo.uni.lu/)
+repository of [AndroZoo](https://androzoo.uni.lu/).
 
 The link of CodeMatch Data also contains the name of apps and the ground truth.
 However, we only successfully downloaded 712 apps. Also we found 41 possible

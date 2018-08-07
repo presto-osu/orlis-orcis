@@ -1,6 +1,5 @@
 Orlis library class detection tool for Android apps.
 
-
 ## Library File Generation:
 To detect library classes, a library repository should be built using the
 library jar file. To generate the library file for a particular library jar,
@@ -19,8 +18,8 @@ directory:
 ```
 
 ## Output Format 
-The output is a list of class pair in the format of <app class, lib class> printed on the screen. 
-This means the app class in the APK file.
+The output is a list of class pair in the format of
+<app class, lib class> printed on the screen. This means the app class in the APK file.
 
 
 ## Open-Source Apps Benchmarks

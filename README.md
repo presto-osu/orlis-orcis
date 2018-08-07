@@ -6,7 +6,6 @@ of their corresponding directories.
 The paper is available in [here](http://web.cse.ohio-state.edu/presto/pubs/msoft18.pdf):
 
 ## Prerequest:
-To be able to run both tools, please install the components shown in the below:
  * python2.7
  * JDK1.8 or later
  * Android SDK
