@@ -45,11 +45,10 @@ The configuration file of each obfuscator is shown as below:
 ### Ground Truth:
  The ground truth for unobfuscated apps is in file
 "./open_source_benchmarks/ground_truth.txt". Each line is in the
-format of "<app>: <lib jar>, <lib jar>, ...".  The "lib jar" is the
-library jar used in the app. Because the apps are not obfuscated,
-the classes in the library jars also exist in the app.
+format of <app>: <lib jar>, <lib jar>, ....  The <lib jar> is the
+library jar used in the app. 
    
- As for obfuscated apps, applying the obfusctor and a mapping file
+As for obfuscated apps, applying the obfusctor and a mapping file
 will be generated. In the mapping file, the class signature before
 and after obfuscation will be shown. For example:
 "org.apache.commons.codec.net.URLCodec -> wy.ael" is a case in the
@@ -86,3 +85,7 @@ using the library jars and run Orlis on each app. The ground truth
 can be obtained from the authors of CodeMatch. For more details,
 please refer to the
 [website](http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
+
+The list of apps we successfully downloaded that have the same version is shown
+in "closed_apps_benchmarks/apps_list.txt".  The list of libraries we
+successfully downloaded is shown in "closed_apps_benchmarks/library_list.txt".
