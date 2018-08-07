@@ -48,7 +48,7 @@ The configuration file of each obfuscator is shown as below:
 format of <app>: <lib jar>, <lib jar>, ....  The <lib jar> is the
 library jar used in the app. 
    
-As for obfuscated apps, applying the obfuscator and a mapping file
+As for obfuscated apps, applying the obfusctor and a mapping file
 will be generated. In the mapping file, the class signature before
 and after obfuscation will be shown. For example:
 "org.apache.commons.codec.net.URLCodec -> wy.ael" is a case in the
@@ -56,7 +56,7 @@ mapping file of ProGuard. It means
 "org.apache.commons.codec.net.URLCodec" is renamed to "wy.ael" in
 the obfuscated app. Both Allatori and DashO have a similar mapping
 file. Based on the mapping file and the ground truth for
-unobfuscated apps, the ground truth for obfuscated apps can be
+unobfsucated apps, the ground truth for obfuscated apps can be
 built. Please refer to the document of each obfuscator for the
 details about how to get the mapping files. The links of the
 documents are shown as below: 
@@ -88,6 +88,5 @@ please refer to the
 
 The list of apps we successfully downloaded that have the same version is shown
 in "closed_apps_benchmarks/apps_list.txt". It contains all the hashes that could be
-used to download the apps from [AndroZoo](https://androzoo.uni.lu/).  The list
-of library jar name we successfully downloaded is shown in
-"closed_apps_benchmarks/library_list.txt".
+used to download the apps from AndroZoo.  The list of library jar name we
+successfully downloaded is shown in "closed_apps_benchmarks/library_list.txt".
