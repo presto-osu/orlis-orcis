@@ -8,14 +8,14 @@ The hashes are persisted in files for future use.
 To generate the hash file for an app:
 
 ```
-./gen_app_hash.py <path of apk file of an app>  <output directory> [<library repository directory>]
+./gen_app_hash.py <path of apk file of an app>  <output directory>
 ```
 
 The third parameter is optional. It is the repository of the library used in Orlis. With this 
 parameter set, all the library classes will be removed when detecting the clones. 
 
 ## Clone Detection:
-To detect clone for two APKs(apk1 and apk2):
+To detect clone for two APKs (apk1 and apk2):
 
 ```
 ./clone_detection.py <path of hash file of apk1> <path of the hash file of apk2>
@@ -35,7 +35,7 @@ information of apps and ground truth. All these apps can be downloaded from the 
 repository of [AndroZoo](https://androzoo.uni.lu/).
 
 The link of CodeMatch Data also contains the name of apps and the ground truth.
-However, we only successfully downloaded 712 apps. Also we found 41 possible
+However, we only successfully downloaded 1589 apps. Also we found 41 possible
 mistakes in the ground truth. These 41 pairs seem to be clones while they are marked
 as not clones in the ground truth of CodeMatch Data. The list of apps is shown in
 "benchmarks/apps_list.txt" while the ground truth used in our evaluation is shown
