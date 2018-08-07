@@ -77,14 +77,13 @@ documents are shown as below:
 ## Closed-Source Apps Benchmarks
 The libraries and apps in closed-source apps benchmarks are from the
 website of
-CodeMatch(http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
+[CodeMatch](http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
 The links to the lists of libraries and apps are shown as below:
-
-Libraries : https://github.com/stg-tud/CodeMatch-LibDetect/blob/master/CodeMatch/LibDetectDatabase.txt
-Apps      : http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/LibDetectionEvaluation.txt
+* Libraries : https://github.com/stg-tud/CodeMatch-LibDetect/blob/master/CodeMatch/LibDetectDatabase.txt
+* Apps      : http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/LibDetectionEvaluation.txt
 
 To run the experiment in the paper, build the library repository
 using the library jars and run Orlis on each app. The ground truth
 can be obtained from the authors of CodeMatch. For more details,
 please refer to the
-website(http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
+[website](http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
