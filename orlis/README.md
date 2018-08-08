@@ -45,7 +45,7 @@ The configuration file of each obfuscator is shown as below:
 ### Ground Truth:
  The ground truth for unobfuscated apps is in file
 "./open_source_benchmarks/ground_truth.txt". Each line is in the
-format of <app>: <lib jar>, <lib jar>, ....  The <lib jar> is the
+format of "<app>: <lib jar>, <lib jar>, ...."  The <lib jar> is the
 library jar used in the app. 
    
 As for obfuscated apps, applying the obfuscator and a mapping file
