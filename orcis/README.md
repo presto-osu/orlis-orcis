@@ -1,4 +1,4 @@
-Orcis is a clone detection tool for Android apps
+Orcis is a clone detection tool for Android apps.
 
 ## App Hash File Generation:
 To detect clones of two APKs, the first step is to obtain their similarity hash.
