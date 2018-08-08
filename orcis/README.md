@@ -1,6 +1,6 @@
 Orcis is a clone detection tool for Android apps
 
-## Generate App Hash File:
+## App Hash File Generation:
 To detect clones of two APKs, the first step is to obtain their similarity hash.
 The hash function used in Orcis is [Sdhash](https://github.com/sptonkin/fuzzyhashlib).
 The hashes are persisted in files for future use.
