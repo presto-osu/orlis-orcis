@@ -8,7 +8,7 @@ The paper is available in [here](http://web.cse.ohio-state.edu/presto/pubs/msoft
 ## Prerequisites:
  * python2.7
  * JDK1.8 or later
- * Android SDK (set environment variable ANDROID_SDK=/path/to/Android SDK)
+ * Android SDK (To run the tools, please set environment variable ANDROID_SDK=/path/to/Android SDK)
  * Similarity Digest libraries for Python:
    * [tlsh](https://github.com/trendmicro/tlsh)
    * [fuzzyhashlib](https://github.com/sptonkin/fuzzyhashlib)
