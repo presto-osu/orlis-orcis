@@ -22,7 +22,7 @@ To detect clone for two APKs (apk1 and apk2):
 ```
 
 ## Output Format 
-The output is text message that indicates whether they are clone or not.
+The output is a text message that indicates whether they are clone or not.
 
 
 ## Benchmarks
