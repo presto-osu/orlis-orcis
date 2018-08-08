@@ -66,14 +66,14 @@ documents are shown as below:
 * DashO: https://www.preemptive.com/products/dasho/videos-a-resources (need request)
 
 ### Experiment Replica:
-* Obfuscate the apps using the obfuscators with the config files and get the mapping files for each app.
-* Build the ground truth for obfuscated apps using ground truth for unobfuscated apps and the mapping files.
-* Build library repository using the library jar files.
+* Obfuscate the apps using the obfuscators with the corresponding config files and get the mapping files for each app.
+* Build the ground truth for obfuscated apps using the ground truth for unobfuscated apps and the mapping files.
+* Build the library repository using the library jar files.
 * Run Orlis on each obfuscated app.
-* Measure the performance using the result of Orlis and ground truth.
+* Measure the performance using the result of Orlis and the ground truth.
 
 ## Closed-Source Apps Benchmarks
-The libraries and apps in closed-source apps benchmarks are from the
+The libraries and apps in closed-source apps benchmarks can be found on the
 website of
 [LibDetect](http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
 The links to the lists of libraries and apps are shown as below:
