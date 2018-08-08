@@ -35,7 +35,7 @@ information of apps and ground truth. All these apps can be downloaded from the 
 repository of [AndroZoo](https://androzoo.uni.lu/).
 
 The link of CodeMatch Data contains the name of apps and the ground truth.
-However, we successfully downloaded 1589 apps. Also we found 41 possible
+We successfully downloaded 1589 apps. In our evaluation, we found 41 possible
 mistakes in the ground truth. These 41 pairs seem to be clones while they are marked
 as not clones in the ground truth of CodeMatch Data. The list of apps is shown in
 "benchmarks/apps_list.txt" while the ground truth used in our evaluation is shown
