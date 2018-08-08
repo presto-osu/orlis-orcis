@@ -28,7 +28,7 @@ The open-source apps are from F-droid. They are in the tar.gz file
 "./open_source_benchmarks/apps.tar.gz".
 
 ### Libraries:
-The library jar files in this benchmarks is in zip file
+The library jar files in this benchmark are in zip file
 "./open_source_benchmarks/libraries.zip".
 
 ### Obfuscators:
@@ -54,7 +54,7 @@ and after obfuscation will be shown. For example:
 "org.apache.commons.codec.net.URLCodec -> wy.ael" is a case in the
 mapping file of ProGuard. It means
 "org.apache.commons.codec.net.URLCodec" is renamed to "wy.ael" in
-the obfuscated app. Both Allatori and DashO have a similar mapping
+the corresponding obfuscated app. Both Allatori and DashO have a similar mapping
 file. Based on the mapping file and the ground truth for
 unobfuscated apps, the ground truth for obfuscated apps can be
 built. Please refer to the document of each obfuscator for the
@@ -75,7 +75,7 @@ documents are shown as below:
 ## Closed-Source Apps Benchmarks
 The libraries and apps in closed-source apps benchmarks are from the
 website of
-[CodeMatch](http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
+[LibDetect](http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
 The links to the lists of libraries and apps are shown as below:
 * Libraries : https://github.com/stg-tud/CodeMatch-LibDetect/blob/master/CodeMatch/LibDetectDatabase.txt
 * Apps      : http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/LibDetectionEvaluation.txt
@@ -86,8 +86,9 @@ can be obtained from the authors of CodeMatch. For more details,
 please refer to the
 [website](http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
 
-The list of apps we successfully downloaded that have the same version is shown
-in "closed_apps_benchmarks/apps_list.txt". It contains all the hashes that could be
+The list of same version apps we successfully downloaded is shown
+in "closed_apps_benchmarks/apps_list.txt". It contains all the hashes of the apps 
+that could be
 used to download the apps from [AndroZoo](https://androzoo.uni.lu/).  The list
-of library jar name we successfully downloaded is shown in
+of library jar names we successfully downloaded is shown in
 "closed_apps_benchmarks/library_list.txt".
