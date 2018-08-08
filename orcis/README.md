@@ -42,7 +42,7 @@ as not clones in the ground truth of CodeMatch Data. The list of apps we have is
 in "benchmarks/ground_truth_codematch.txt", which only contains apps we used and
 the results of the 41 pairs are changed to clones. In the list of apps and ground
 truth, the app name is changed to its hash value that we used to download from AndroZoo,
-because AndroZoo creates a hash for each app and one could only downloaded an app based on
+because AndroZoo creates a hash for each app and one could only download an app based on
 its hash. The boolean value in the end of each line in the ground truth
 indicates the cloneness. "True" means these two apps are clone, while "False"
 means they are not.
