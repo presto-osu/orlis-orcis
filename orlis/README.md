@@ -18,13 +18,13 @@ directory:
 ```
 
 ## Output Format 
-The output is a list of class pair in the format of
-<app class, lib class> printed on the screen. This means the app class in the APK file.
+The output is a list of class pairs in the format of
+<app class, lib class> printed on the screen.
 
 
 ## Open-Source Apps Benchmarks
 ### Apps:
-The open-source apps are from F-droid. They are in the tar.gz file
+The open-source apps are from F-droid repository. They are in the tar.gz file
 "./open_source_benchmarks/apps.tar.gz".
 
 ### Libraries:
@@ -37,7 +37,7 @@ The obfuscators used in our evaluation are
 * Allatori Obfuscator v5.9 Educational
 * DashO 8.0.0
 
-The configuration file of each obfuscator is shown as below:
+The configuration file of each obfuscator is available at:
 * ProGuard: ./open_source_benchmarks/obfuscator_configs/proguard_config.txt
 * Allatori: ./open_source_benchmarks/obfuscator_configs/allatori_config.xml
 * DashO   : ./open_source_benchmarks/obfuscator_configs/dasho_config.dox
@@ -65,7 +65,7 @@ documents are shown as below:
 * Allatori: http://www.allatori.com/doc.html
 * DashO: https://www.preemptive.com/products/dasho/videos-a-resources (need request)
 
-### Experiment Replica:
+### Replication of Experimental Results from MOBILESoft’18 paper:
 * Obfuscate the apps using the obfuscators with the corresponding config files and get the mapping files for each app.
 * Build the ground truth for obfuscated apps using the ground truth for unobfuscated apps and the mapping files.
 * Build the library repository using the library jar files.
