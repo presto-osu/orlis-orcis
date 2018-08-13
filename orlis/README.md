@@ -78,7 +78,7 @@ The libraries and apps in closed-source apps benchmarks can be found on the
 website of
 [LibDetect](http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
 
-From the library list from the LibDetect web page, we have managed to obtain 7519 libraries out of 
+Based on the library list from the LibDetect web page, we have managed to obtain 7519 libraries out of 
 those listed at the LibDetect web site. The names of library jar we successfully downloaded could be found
 in "closed_apps_benchmarks/library_list.txt". As described in the MOBILESoft’18 paper, we obtained 712 apps that matched the ones used in the evaluation of LibDetect. The list of these apps is available at “closed_source_benchmarks/apps_list.txt”
 It contains all the hashes of the apps 
