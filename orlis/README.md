@@ -25,7 +25,8 @@ The output is a list of class pairs in the format of
 ## Open-Source Apps Benchmarks
 ### Apps:
 The open-source apps are from F-droid repository. They are in the tar.gz file
-"./open_source_benchmarks/apps.tar.gz".
+"./open_source_benchmarks/apps.tar.gz". There is a number with underscore in the
+name of each apk, this number is to distinguish apks when they have the same name.
 
 ### Libraries:
 The library jar files in this benchmark are in zip file
