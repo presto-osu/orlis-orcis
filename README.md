@@ -2,7 +2,7 @@ Orlis is a tool for obfuscation-resilient detection of third-party libraries in 
 
 Detailed usage instructions for both tools can be found in the ‘README.md’ files in their corresponding directories.
 
-Orlis is described in the paper “Orlis: Obfuscation-Resilient Library Detection for Android” by Yan Wang, Haowei Wu, Hailong Zhang, and Atanas Rountev, which appeared at the IEEE/ACM International Conference on Mobile Software Engineering and Systems (MOBILESoft'18) \[[PDF](http://web.cse.ohio-state.edu/presto/pubs/msoft18.pdf)\] \[[BibTeX](http://web.cse.ohio-state.edu/presto/pubs/msoft18.bib)\] (here put links to the PDF and the BibTex files on the web page]. Orcis is described in Yan Wang’s Ph.D. dissertation \[[PDF](http://web.cse.ohio-state.edu/presto/pubs/wang_phd18.pdf)\] \[[BibTeX](http://web.cse.ohio-state.edu/presto/pubs/wang_phd18.bib)\]. 
+Orlis is described in the paper “Orlis: Obfuscation-Resilient Library Detection for Android” by Yan Wang, Haowei Wu, Hailong Zhang, and Atanas Rountev, which appeared at the IEEE/ACM International Conference on Mobile Software Engineering and Systems (MOBILESoft'18) \[[PDF](http://web.cse.ohio-state.edu/presto/pubs/msoft18.pdf)\] \[[BibTeX](http://web.cse.ohio-state.edu/presto/pubs/msoft18.bib)\]. Orcis is described in Yan Wang’s Ph.D. dissertation \[[PDF](http://web.cse.ohio-state.edu/presto/pubs/wang_phd18.pdf)\] \[[BibTeX](http://web.cse.ohio-state.edu/presto/pubs/wang_phd18.bib)\]. 
 
 ## Prerequisites:
  * python2.7
