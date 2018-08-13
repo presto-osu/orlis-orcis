@@ -76,19 +76,15 @@ documents are shown as below:
 The libraries and apps in closed-source apps benchmarks can be found on the
 website of
 [LibDetect](http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
-The links to the lists of libraries and apps are shown as below:
-* Libraries : https://github.com/stg-tud/CodeMatch-LibDetect/blob/master/CodeMatch/LibDetectDatabase.txt
-* Apps      : http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/LibDetectionEvaluation.txt
+
+From the library list from the LibDetect web page, we have managed to obtain 7519 libraries out of 
+those listed at the LibDetect web site. The names of library jar we successfully downloaded could be found
+in "closed_apps_benchmarks/library_list.txt". As described in the MOBILESoft’18 paper, we obtained 712 apps that matched the ones used in the evaluation of LibDetect. The list of these apps is available at closed_source_benchmarks/apps_list.txt
+It contains all the hashes of the apps 
+that could be used to download the apps from [AndroZoo](https://androzoo.uni.lu/).  .
 
 To run the experiment in the paper, build the library repository
 using the library jars and run Orlis on each app. The ground truth
 can be obtained from the authors of CodeMatch. For more details,
 please refer to the
 [website](http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
-
-The list of same version apps we successfully downloaded is shown
-in "closed_apps_benchmarks/apps_list.txt". It contains all the hashes of the apps 
-that could be
-used to download the apps from [AndroZoo](https://androzoo.uni.lu/).  The list
-of library jar names we successfully downloaded is shown in
-"closed_apps_benchmarks/library_list.txt".
