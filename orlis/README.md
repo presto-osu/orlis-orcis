@@ -84,7 +84,7 @@ It contains all the hashes of the apps
 that could be used to download the apps from [AndroZoo](https://androzoo.uni.lu/).  .
 
 To run the experiment in the paper, build the library repository
-using the library jars and run Orlis on each app. The ground truth
+using the library jars and run Orlis on each app. The ground truth for package-level mapping
 can be obtained from the authors of CodeMatch. For more details,
 please refer to the
 [website](http://www.st.informatik.tu-darmstadt.de/artifacts/codematch/).
