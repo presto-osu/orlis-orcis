@@ -1,4 +1,4 @@
-Orlis is a tool for **o**bfuscation-**r**esilient detection of third-party **l**ibraries in Android apps, using **i**nterprocedural code features and **s**imilarity digests. The related Orcis tool can be used for **o**bfuscation-**r**esilient detection of app **c**lones. The library detection tool is in the folder ‘orlis’, while the app clone detection tool is in the folder ‘orcis’.
+Orlis is a tool for (**o**)bfuscation-(**r**)esilient detection of third-party (**l**)ibraries in Android apps, using (**i**)nterprocedural code features and (**s**)imilarity digests. The related Orcis tool can be used for (**o**)bfuscation-(**r**)esilient detection of app (**c**)lones. The library detection tool is in the folder ‘orlis’, while the app clone detection tool is in the folder ‘orcis’.
 
 Detailed usage instructions for both tools can be found in the ‘README.md’ files in their corresponding directories.
 
