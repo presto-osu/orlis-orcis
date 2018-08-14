@@ -1,0 +1,447 @@
+com.doomy.torch.BuildConfig -> com.doomy.torch.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+com.doomy.torch.FlashDevice -> com.doomy.torch.b:
+    int OFF -> f
+    int ON -> g
+    int STROBE -> h
+    java.lang.String TAG -> TAG
+    java.lang.String mFlashDevice -> i
+    com.doomy.torch.FlashDevice mInstance -> j
+    android.content.SharedPreferences mPreferences -> k
+    boolean mSurfaceCreated -> l
+    android.graphics.SurfaceTexture mSurfaceTexture -> m
+    boolean mUseCameraInterface -> n
+    int mValueOff -> o
+    int mValueOn -> p
+    android.hardware.Camera mCamera -> q
+    android.content.Context mContext -> mContext
+    java.io.FileWriter mFlashDeviceWriter -> r
+    int mFlashMode -> s
+    android.hardware.Camera$Parameters mParams -> t
+    android.os.PowerManager$WakeLock mWakeLock -> u
+    void <clinit>() -> <clinit>
+    void <init>(android.content.Context) -> <init>
+    com.doomy.torch.FlashDevice getInstance(android.content.Context) -> a
+    int getFlashMode() -> a
+    void setFlashMode(int) -> a
+com.doomy.torch.MainActivity -> com.doomy.torch.MainActivity:
+    int ANIMATION_DURATION -> v
+    int DEMI_DURATION -> w
+    java.lang.String TAG -> TAG
+    com.doomy.torch.MainActivity mActivity -> x
+    android.content.Context mContext -> mContext
+    float mFullScreenScale -> y
+    android.widget.ImageView mImageViewOff -> z
+    android.widget.ImageView mImageViewOn -> A
+    android.widget.ImageView mImageViewShape -> B
+    android.content.SharedPreferences mPreferences -> k
+    android.content.BroadcastReceiver mStateReceiver -> C
+    boolean mTorchOn -> D
+    boolean mValue -> E
+    com.doomy.torch.TorchWidgetProvider mWidgetProvider -> F
+    void <init>() -> <init>
+    void access$000(com.doomy.torch.MainActivity) -> a
+    boolean access$100(com.doomy.torch.MainActivity) -> b
+    boolean access$102(com.doomy.torch.MainActivity,boolean) -> a
+    void access$200(com.doomy.torch.MainActivity) -> c
+    void access$300(com.doomy.torch.MainActivity) -> d
+    android.content.Context access$400(com.doomy.torch.MainActivity) -> e
+    com.doomy.torch.MainActivity getInstance() -> b
+    float getMeasureScale() -> c
+    void hideSystemUi(android.view.View) -> a
+    void onCreateIntent() -> d
+    void openFirstDialog() -> e
+    void setFlashOff() -> f
+    void setFlashOn() -> g
+    void setShapeColor() -> h
+    void setThemeColor() -> i
+    int setThemeDialog() -> j
+    void showSystemUi(android.view.View) -> b
+    void onAttachedToWindow() -> onAttachedToWindow
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void updateWidget() -> k
+com.doomy.torch.MainActivity$1 -> com.doomy.torch.c:
+    com.doomy.torch.MainActivity this$0 -> G
+    void <init>(com.doomy.torch.MainActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.doomy.torch.MainActivity$2 -> com.doomy.torch.d:
+    com.doomy.torch.MainActivity this$0 -> G
+    void <init>(com.doomy.torch.MainActivity) -> <init>
+    boolean onLongClick(android.view.View) -> onLongClick
+com.doomy.torch.MainActivity$3 -> com.doomy.torch.MainActivity$3:
+    com.doomy.torch.MainActivity this$0 -> G
+    void <init>(com.doomy.torch.MainActivity) -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.doomy.torch.MainActivity$4 -> com.doomy.torch.e:
+    com.doomy.torch.MainActivity this$0 -> G
+    void <init>(com.doomy.torch.MainActivity) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.doomy.torch.R -> com.doomy.torch.f:
+    void <init>() -> <init>
+com.doomy.torch.R$array -> com.doomy.torch.R$array:
+    int colors -> colors
+    void <init>() -> <init>
+com.doomy.torch.R$attr -> com.doomy.torch.R$attr:
+    void <init>() -> <init>
+com.doomy.torch.R$bool -> com.doomy.torch.R$bool:
+    int useCameraInterface -> useCameraInterface
+    void <init>() -> <init>
+com.doomy.torch.R$color -> com.doomy.torch.R$color:
+    int amber -> amber
+    int amberDark -> amberDark
+    int blue -> blue
+    int blueDark -> blueDark
+    int blueGrey -> blueGrey
+    int blueGreyDark -> blueGreyDark
+    int brown -> brown
+    int brownDark -> brownDark
+    int cyan -> cyan
+    int cyanDark -> cyanDark
+    int deepOrange -> deepOrange
+    int deepOrangeDark -> deepOrangeDark
+    int deepPurple -> deepPurple
+    int deepPurpleDark -> deepPurpleDark
+    int green -> green
+    int greenDark -> greenDark
+    int grey -> grey
+    int greyDark -> greyDark
+    int greyEmpty -> greyEmpty
+    int greyMaterialDark -> greyMaterialDark
+    int greyMaterialLight -> greyMaterialLight
+    int indigo -> indigo
+    int indigoDark -> indigoDark
+    int lightBlue -> lightBlue
+    int lightBlueDark -> lightBlueDark
+    int lightGreen -> lightGreen
+    int lightGreenDark -> lightGreenDark
+    int lime -> lime
+    int limeDark -> limeDark
+    int orange -> orange
+    int orangeDark -> orangeDark
+    int pink -> pink
+    int pinkDark -> pinkDark
+    int purple -> purple
+    int purpleDark -> purpleDark
+    int red -> red
+    int redDark -> redDark
+    int teal -> teal
+    int tealDark -> tealDark
+    int yellow -> yellow
+    int yellowDark -> yellowDark
+    void <init>() -> <init>
+com.doomy.torch.R$dimen -> com.doomy.torch.R$dimen:
+    int activity_horizontal_margin -> activity_horizontal_margin
+    int activity_vertical_margin -> activity_vertical_margin
+    int image_height -> image_height
+    int image_widht -> image_widht
+    int size_github -> size_github
+    int size_image -> size_image
+    int size_shape -> size_shape
+    void <init>() -> <init>
+com.doomy.torch.R$drawable -> com.doomy.torch.R$drawable:
+    int ic_accept -> ic_accept
+    int ic_off -> ic_off
+    int ic_on -> ic_on
+    int img_github -> img_github
+    int img_mrdoomy -> img_mrdoomy
+    int img_off -> img_off
+    int img_on -> img_on
+    int img_studio -> img_studio
+    int preview -> preview
+    int shape -> shape
+    int widget_off -> widget_off
+    int widget_on -> widget_on
+    void <init>() -> <init>
+com.doomy.torch.R$id -> com.doomy.torch.R$id:
+    int action_settings -> action_settings
+    int action_widget -> action_widget
+    int button -> button
+    int imageViewGitHub -> imageViewGitHub
+    int imageViewMrDoomy -> imageViewMrDoomy
+    int imageViewOff -> imageViewOff
+    int imageViewOn -> imageViewOn
+    int imageViewShape -> imageViewShape
+    int imageViewStudio -> imageViewStudio
+    int main -> main
+    int shape -> shape
+    int textViewAbout -> textViewAbout
+    int textViewCopyright -> textViewCopyright
+    int widget -> widget
+    void <init>() -> <init>
+com.doomy.torch.R$integer -> com.doomy.torch.R$integer:
+    int valueOff -> valueOff
+    int valueOn -> valueOn
+    void <init>() -> <init>
+com.doomy.torch.R$layout -> com.doomy.torch.R$layout:
+    int activity_main -> activity_main
+    int activity_settings -> activity_settings
+    int activity_widget -> activity_widget
+    int view_about -> view_about
+    int widget -> widget
+    void <init>() -> <init>
+com.doomy.torch.R$menu -> com.doomy.torch.R$menu:
+    int menu_main -> menu_main
+    int menu_widget -> menu_widget
+    void <init>() -> <init>
+com.doomy.torch.R$mipmap -> com.doomy.torch.R$mipmap:
+    int ic_launcher -> ic_launcher
+    void <init>() -> <init>
+com.doomy.torch.R$string -> com.doomy.torch.R$string:
+    int about -> about
+    int add -> add
+    int amber -> amber
+    int app_name -> app_name
+    int apply -> apply
+    int blue -> blue
+    int blueGrey -> blueGrey
+    int brown -> brown
+    int choose -> choose
+    int color -> color
+    int colorful -> colorful
+    int copyright -> copyright
+    int custom -> custom
+    int cyan -> cyan
+    int deepOrange -> deepOrange
+    int deepPurple -> deepPurple
+    int developer -> developer
+    int disabled -> disabled
+    int discolored -> discolored
+    int enabled -> enabled
+    int first -> first
+    int flashDevice -> flashDevice
+    int green -> green
+    int grey -> grey
+    int hello -> hello
+    int hide -> hide
+    int indigo -> indigo
+    int lightBlue -> lightBlue
+    int lightGreen -> lightGreen
+    int lime -> lime
+    int message -> message
+    int mode -> mode
+    int no -> no
+    int okay -> okay
+    int orange -> orange
+    int pink -> pink
+    int purple -> purple
+    int red -> red
+    int screen -> screen
+    int settings -> settings
+    int sos -> sos
+    int teal -> teal
+    int title -> title
+    int torch_title -> torch_title
+    int torch_toggle -> torch_toggle
+    int url -> url
+    int widget -> widget
+    int yellow -> yellow
+    int yes -> yes
+    void <init>() -> <init>
+com.doomy.torch.R$style -> com.doomy.torch.R$style:
+    int Holo -> Holo
+    int HoloDialog -> HoloDialog
+    int HoloTranslucent -> HoloTranslucent
+    int HoloWithoutBar -> HoloWithoutBar
+    int Material -> Material
+    int MaterialDialog -> MaterialDialog
+    int MaterialTranslucent -> MaterialTranslucent
+    void <init>() -> <init>
+com.doomy.torch.R$xml -> com.doomy.torch.R$xml:
+    int widget_info -> widget_info
+    void <init>() -> <init>
+com.doomy.torch.SettingsActivity -> com.doomy.torch.SettingsActivity:
+    java.lang.String KEY_COLOR -> H
+    java.lang.String KEY_HIDE -> I
+    java.lang.String KEY_SCREEN -> J
+    java.lang.String KEY_SOS -> K
+    java.lang.String TAG -> TAG
+    com.doomy.torch.SettingsActivity mActivity -> L
+    java.lang.Boolean mPrefBright -> M
+    android.preference.ListPreference mColor -> N
+    android.content.Context mContext -> mContext
+    android.preference.Preference mHide -> O
+    android.content.SharedPreferences mPreferences -> k
+    android.preference.CheckBoxPreference mScreen -> P
+    android.preference.CheckBoxPreference mSos -> Q
+    com.doomy.torch.TorchWidgetProvider mWidgetProvider -> F
+    void <init>() -> <init>
+    com.doomy.torch.SettingsActivity access$000() -> l
+    android.content.Context access$100(com.doomy.torch.SettingsActivity) -> a
+    java.lang.Boolean access$200() -> m
+    java.lang.Boolean access$202(java.lang.Boolean) -> a
+    android.content.SharedPreferences access$300(com.doomy.torch.SettingsActivity) -> b
+    void deviceHasNoFlash() -> n
+    void enablementKeys() -> o
+    void enablementSOS() -> p
+    void enablementScreen() -> q
+    void openAboutDialog() -> r
+    int setThemeDialog() -> j
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+    void updateWidget() -> k
+com.doomy.torch.SettingsActivity$1 -> com.doomy.torch.g:
+    com.doomy.torch.SettingsActivity this$0 -> R
+    void <init>(com.doomy.torch.SettingsActivity) -> <init>
+    boolean onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange
+com.doomy.torch.SettingsActivity$2 -> com.doomy.torch.h:
+    com.doomy.torch.SettingsActivity this$0 -> R
+    void <init>(com.doomy.torch.SettingsActivity) -> <init>
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+com.doomy.torch.SettingsActivity$2$1 -> com.doomy.torch.i:
+    com.doomy.torch.SettingsActivity$2 this$1 -> S
+    void <init>(com.doomy.torch.SettingsActivity$2) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.doomy.torch.SettingsActivity$2$2 -> com.doomy.torch.j:
+    com.doomy.torch.SettingsActivity$2 this$1 -> S
+    void <init>(com.doomy.torch.SettingsActivity$2) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.doomy.torch.SettingsActivity$3 -> com.doomy.torch.k:
+    com.doomy.torch.SettingsActivity this$0 -> R
+    void <init>(com.doomy.torch.SettingsActivity) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.doomy.torch.SettingsActivity$4 -> com.doomy.torch.l:
+    com.doomy.torch.SettingsActivity this$0 -> R
+    void <init>(com.doomy.torch.SettingsActivity) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.doomy.torch.SettingsActivity$5 -> com.doomy.torch.m:
+    com.doomy.torch.SettingsActivity this$0 -> R
+    void <init>(com.doomy.torch.SettingsActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.doomy.torch.SettingsActivity$6 -> com.doomy.torch.n:
+    com.doomy.torch.SettingsActivity this$0 -> R
+    void <init>(com.doomy.torch.SettingsActivity) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.doomy.torch.TorchService -> com.doomy.torch.TorchService:
+    java.lang.String TAG -> TAG
+    android.content.Context mContext -> mContext
+    android.app.NotificationManager mNotificationManager -> T
+    android.content.SharedPreferences mPreferences -> k
+    boolean mSos -> U
+    int mSosCount -> V
+    java.lang.Runnable mSosOffRunnable -> W
+    java.lang.Runnable mSosOnRunnable -> X
+    com.doomy.torch.TorchService$WrapperTask mSosTask -> Y
+    java.util.Timer mSosTimer -> Z
+    boolean mStrobe -> aa
+    int mStrobePeriod -> ab
+    java.lang.Runnable mStrobeRunnable -> ac
+    com.doomy.torch.TorchService$WrapperTask mStrobeTask -> ad
+    java.util.Timer mStrobeTimer -> ae
+    java.util.TimerTask mTorchTask -> af
+    java.util.Timer mTorchTimer -> ag
+    void <init>() -> <init>
+    android.content.SharedPreferences access$000(com.doomy.torch.TorchService) -> a
+    android.content.SharedPreferences access$002(com.doomy.torch.TorchService,android.content.SharedPreferences) -> a
+    android.content.Context access$100(com.doomy.torch.TorchService) -> b
+    com.doomy.torch.TorchService$WrapperTask access$200(com.doomy.torch.TorchService) -> c
+    com.doomy.torch.TorchService$WrapperTask access$202(com.doomy.torch.TorchService,com.doomy.torch.TorchService$WrapperTask) -> a
+    java.lang.Runnable access$300(com.doomy.torch.TorchService) -> d
+    int access$400(com.doomy.torch.TorchService) -> e
+    int access$402(com.doomy.torch.TorchService,int) -> a
+    int access$408(com.doomy.torch.TorchService) -> f
+    java.util.Timer access$500(com.doomy.torch.TorchService) -> g
+    java.lang.Runnable access$600(com.doomy.torch.TorchService) -> h
+    void updateState(boolean) -> a
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+com.doomy.torch.TorchService$1 -> com.doomy.torch.o:
+    com.doomy.torch.TorchService this$0 -> ah
+    void <init>(com.doomy.torch.TorchService) -> <init>
+    void run() -> run
+com.doomy.torch.TorchService$2 -> com.doomy.torch.p:
+    int mCounter -> ai
+    com.doomy.torch.TorchService this$0 -> ah
+    void <init>(com.doomy.torch.TorchService) -> <init>
+    void run() -> run
+com.doomy.torch.TorchService$3 -> com.doomy.torch.q:
+    com.doomy.torch.TorchService this$0 -> ah
+    void <init>(com.doomy.torch.TorchService) -> <init>
+    void run() -> run
+com.doomy.torch.TorchService$4 -> com.doomy.torch.r:
+    com.doomy.torch.TorchService this$0 -> ah
+    void <init>(com.doomy.torch.TorchService) -> <init>
+    void run() -> run
+com.doomy.torch.TorchService$WrapperTask -> com.doomy.torch.s:
+    java.lang.Runnable mTarget -> aj
+    com.doomy.torch.TorchService this$0 -> ah
+    void <init>(com.doomy.torch.TorchService,java.lang.Runnable) -> <init>
+    void run() -> run
+com.doomy.torch.TorchSwitch -> com.doomy.torch.TorchSwitch:
+    java.lang.String TAG -> TAG
+    java.lang.String TOGGLE_FLASHLIGHT -> ak
+    java.lang.String TORCH_STATE_CHANGED -> al
+    android.content.SharedPreferences mPreferences -> k
+    void <init>() -> <init>
+    boolean isTorchServiceRunning(android.content.Context) -> b
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.doomy.torch.TorchWidgetProvider -> com.doomy.torch.TorchWidgetProvider:
+    java.lang.String TAG -> TAG
+    com.doomy.torch.TorchWidgetProvider mInstance -> am
+    void <init>() -> <init>
+    com.doomy.torch.TorchWidgetProvider getInstance() -> s
+    android.app.PendingIntent getLaunchPendingIntent(android.content.Context,int,int) -> a
+    void disableWidget(android.content.Context) -> c
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[]) -> onUpdate
+    void updateAppWidget(android.content.Context) -> d
+    void updateState(android.content.Context,int) -> a
+com.doomy.torch.TorchWidgetProvider$widgetState -> com.doomy.torch.t:
+    com.doomy.torch.TorchWidgetProvider$widgetState[] $VALUES -> an
+    com.doomy.torch.TorchWidgetProvider$widgetState OFF -> ao
+    com.doomy.torch.TorchWidgetProvider$widgetState ON -> ap
+    int mDrawImgRes -> aq
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String,int,int) -> <init>
+    com.doomy.torch.TorchWidgetProvider$widgetState valueOf(java.lang.String) -> valueOf
+    com.doomy.torch.TorchWidgetProvider$widgetState[] values() -> values
+    int getImgDrawable() -> t
+com.doomy.torch.Utils -> com.doomy.torch.u:
+    android.hardware.Camera mCamera -> q
+    java.lang.Boolean mPrefDevice -> ar
+    android.content.SharedPreferences mPreferences -> k
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void colorizeBar(android.app.Activity,android.content.Context,java.lang.String) -> a
+    boolean deviceHasCameraFlash(android.content.Context) -> e
+    int getPrefColor(android.content.Context,java.lang.String) -> a
+    void setMainTheme(android.app.Activity) -> a
+    void setPreferenceTheme(android.app.Activity) -> b
+com.doomy.torch.WidgetActivity -> com.doomy.torch.WidgetActivity:
+    java.lang.String KEY_WIDGET_COLOR -> as
+    java.lang.String KEY_WIDGET_SOS -> at
+    java.lang.String TAG -> TAG
+    com.doomy.torch.WidgetActivity mActivity -> au
+    int mAppWidgetId -> av
+    android.preference.ListPreference mColor -> N
+    android.content.Context mContext -> mContext
+    android.content.SharedPreferences mPreferences -> k
+    com.doomy.torch.TorchWidgetProvider mWidgetProvider -> F
+    void <init>() -> <init>
+    com.doomy.torch.WidgetActivity access$000() -> u
+    android.content.Context access$100(com.doomy.torch.WidgetActivity) -> a
+    void addWidget() -> v
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+    void updateWidget() -> k
+com.doomy.torch.WidgetActivity$1 -> com.doomy.torch.v:
+    com.doomy.torch.WidgetActivity this$0 -> aw
+    void <init>(com.doomy.torch.WidgetActivity) -> <init>
+    boolean onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange

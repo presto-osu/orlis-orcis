@@ -1,0 +1,49 @@
+io.github.sanbeg.flashlight.BuildConfig -> io.github.sanbeg.flashlight.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+io.github.sanbeg.flashlight.Flash -> io.github.sanbeg.flashlight.b:
+    android.hardware.Camera camera -> f
+    android.hardware.Camera$Parameters cameraParameters -> g
+    java.lang.String previousFlashMode -> h
+    void <init>() -> <init>
+    void close() -> close
+    void off() -> a
+    void on() -> b
+    void open() -> open
+io.github.sanbeg.flashlight.FlashLightActivity -> io.github.sanbeg.flashlight.FlashLightActivity:
+    android.view.View background -> i
+    android.graphics.drawable.Drawable dark -> j
+    io.github.sanbeg.flashlight.Flash flash -> k
+    android.widget.ToggleButton theButton -> l
+    void <init>() -> <init>
+    android.widget.ToggleButton access$000(io.github.sanbeg.flashlight.FlashLightActivity) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onToggleClicked(android.view.View) -> onToggleClicked
+io.github.sanbeg.flashlight.FlashLightActivity$LongClickListener -> io.github.sanbeg.flashlight.c:
+    io.github.sanbeg.flashlight.FlashLightActivity this$0 -> m
+    void <init>(io.github.sanbeg.flashlight.FlashLightActivity) -> <init>
+    boolean onLongClick(android.view.View) -> onLongClick
+io.github.sanbeg.flashlight.R -> io.github.sanbeg.flashlight.d:
+    void <init>() -> <init>
+io.github.sanbeg.flashlight.R$attr -> io.github.sanbeg.flashlight.R$attr:
+    void <init>() -> <init>
+io.github.sanbeg.flashlight.R$drawable -> io.github.sanbeg.flashlight.R$drawable:
+    int ic_launcher -> ic_launcher
+    void <init>() -> <init>
+io.github.sanbeg.flashlight.R$id -> io.github.sanbeg.flashlight.R$id:
+    int backgroundLayout -> backgroundLayout
+    int flashlightButton -> flashlightButton
+    void <init>() -> <init>
+io.github.sanbeg.flashlight.R$layout -> io.github.sanbeg.flashlight.R$layout:
+    int main -> main
+    void <init>() -> <init>
+io.github.sanbeg.flashlight.R$string -> io.github.sanbeg.flashlight.R$string:
+    int app_name -> app_name
+    void <init>() -> <init>

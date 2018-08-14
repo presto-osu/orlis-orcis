@@ -1,0 +1,357 @@
+com.alexkang.bluechat.BuildConfig -> com.alexkang.bluechat.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+com.alexkang.bluechat.ChatManager -> com.alexkang.bluechat.b:
+    int BODY_LENGTH_END -> f
+    int BODY_LENGTH_END_SIGNED -> g
+    int MESSAGE_ID -> h
+    int MESSAGE_NAME -> i
+    int MESSAGE_RECEIVE -> j
+    int MESSAGE_RECEIVE_IMAGE -> k
+    int MESSAGE_SEND -> l
+    int MESSAGE_SEND_IMAGE -> m
+    java.util.ArrayList connections -> n
+    int id -> id
+    boolean isHost -> o
+    boolean isInitialized -> p
+    android.app.Activity mActivity -> q
+    com.alexkang.bluechat.ChatManager$ConnectedThread mConnectedThread -> r
+    com.alexkang.bluechat.MessageFeedAdapter mFeedAdapter -> s
+    android.os.Handler mHandler -> mHandler
+    android.widget.ListView mMessageFeed -> t
+    java.util.ArrayList mMessageList -> u
+    android.app.ProgressDialog mProgressDialog -> v
+    void <init>(android.app.Activity,boolean) -> <init>
+    int access$000(com.alexkang.bluechat.ChatManager) -> a
+    int access$002(com.alexkang.bluechat.ChatManager,int) -> a
+    boolean access$100(com.alexkang.bluechat.ChatManager) -> b
+    boolean access$200(com.alexkang.bluechat.ChatManager) -> c
+    boolean access$202(com.alexkang.bluechat.ChatManager,boolean) -> a
+    android.app.Activity access$300(com.alexkang.bluechat.ChatManager) -> d
+    android.app.ProgressDialog access$400(com.alexkang.bluechat.ChatManager) -> e
+    void access$500(com.alexkang.bluechat.ChatManager,com.alexkang.bluechat.MessageBox) -> a
+    java.util.ArrayList access$600(com.alexkang.bluechat.ChatManager) -> f
+    android.os.Handler access$700(com.alexkang.bluechat.ChatManager) -> g
+    void addMessage(com.alexkang.bluechat.MessageBox) -> a
+    byte[] buildPacket(int,int,java.lang.String,byte[]) -> a
+    byte[] buildPacket(int,java.lang.String,byte[]) -> a
+    void startConnection(android.bluetooth.BluetoothSocket) -> a
+    void startConnection(android.bluetooth.BluetoothSocket,android.app.ProgressDialog) -> a
+    void writeChatRoomName(byte[]) -> a
+    void writeMessage(byte[]) -> b
+    void writeMessage(byte[],int) -> a
+com.alexkang.bluechat.ChatManager$1 -> com.alexkang.bluechat.c:
+    com.alexkang.bluechat.ChatManager this$0 -> w
+    void <init>(com.alexkang.bluechat.ChatManager) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+com.alexkang.bluechat.ChatManager$ConnectedThread -> com.alexkang.bluechat.d:
+    java.io.InputStream mmInStream -> x
+    java.io.OutputStream mmOutStream -> y
+    com.alexkang.bluechat.ChatManager this$0 -> w
+    void <init>(com.alexkang.bluechat.ChatManager,android.bluetooth.BluetoothSocket) -> <init>
+    void endActivity() -> a
+    void run() -> run
+    void write(byte[]) -> write
+com.alexkang.bluechat.ChatManager$ConnectedThread$1 -> com.alexkang.bluechat.e:
+    com.alexkang.bluechat.ChatManager$ConnectedThread this$1 -> z
+    void <init>(com.alexkang.bluechat.ChatManager$ConnectedThread) -> <init>
+    void run() -> run
+com.alexkang.bluechat.ChatManager$DistributeThread -> com.alexkang.bluechat.f:
+    byte[] mByteArray -> A
+    int mReceiveType -> B
+    int mSenderId -> C
+    com.alexkang.bluechat.ChatManager this$0 -> w
+    void <init>(com.alexkang.bluechat.ChatManager,int,int,byte[]) -> <init>
+    void run() -> run
+com.alexkang.bluechat.ClientActivity -> com.alexkang.bluechat.ClientActivity:
+    int PICK_IMAGE -> D
+    java.util.ArrayList acceptableDevices -> E
+    android.bluetooth.BluetoothAdapter mBluetoothAdapter -> F
+    com.alexkang.bluechat.ChatManager mChatManager -> G
+    android.widget.EditText mMessage -> H
+    android.app.ProgressDialog mProgressDialog -> v
+    android.content.BroadcastReceiver mReceiver -> I
+    android.bluetooth.BluetoothSocket mSocket -> J
+    java.lang.String mUsername -> K
+    void <init>() -> <init>
+    java.util.ArrayList access$000(com.alexkang.bluechat.ClientActivity) -> a
+    void access$100(com.alexkang.bluechat.ClientActivity) -> b
+    void access$200(com.alexkang.bluechat.ClientActivity) -> c
+    android.bluetooth.BluetoothAdapter access$400(com.alexkang.bluechat.ClientActivity) -> d
+    java.lang.String access$500(com.alexkang.bluechat.ClientActivity) -> e
+    com.alexkang.bluechat.ChatManager access$600(com.alexkang.bluechat.ClientActivity) -> f
+    void access$800(com.alexkang.bluechat.ClientActivity,android.bluetooth.BluetoothSocket) -> a
+    void manageSocket(android.bluetooth.BluetoothSocket) -> b
+    void sendMessage() -> b
+    void startDeviceSearch() -> c
+    void uploadAttachment() -> d
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDestroy() -> onDestroy
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.alexkang.bluechat.ClientActivity$1 -> com.alexkang.bluechat.ClientActivity$1:
+    com.alexkang.bluechat.ClientActivity this$0 -> L
+    void <init>(com.alexkang.bluechat.ClientActivity) -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.alexkang.bluechat.ClientActivity$2 -> com.alexkang.bluechat.g:
+    com.alexkang.bluechat.ClientActivity this$0 -> L
+    void <init>(com.alexkang.bluechat.ClientActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.alexkang.bluechat.ClientActivity$3 -> com.alexkang.bluechat.h:
+    com.alexkang.bluechat.ClientActivity this$0 -> L
+    void <init>(com.alexkang.bluechat.ClientActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.alexkang.bluechat.ClientActivity$4 -> com.alexkang.bluechat.i:
+    com.alexkang.bluechat.ClientActivity this$0 -> L
+    void <init>(com.alexkang.bluechat.ClientActivity) -> <init>
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.alexkang.bluechat.ClientActivity$ConnectThread -> com.alexkang.bluechat.j:
+    android.bluetooth.BluetoothSocket mmSocket -> M
+    com.alexkang.bluechat.ClientActivity this$0 -> L
+    void <init>(com.alexkang.bluechat.ClientActivity,android.bluetooth.BluetoothDevice) -> <init>
+    android.bluetooth.BluetoothSocket access$700(com.alexkang.bluechat.ClientActivity$ConnectThread) -> a
+    void run() -> run
+com.alexkang.bluechat.ClientActivity$ConnectThread$1 -> com.alexkang.bluechat.k:
+    com.alexkang.bluechat.ClientActivity$ConnectThread this$1 -> N
+    void <init>(com.alexkang.bluechat.ClientActivity$ConnectThread) -> <init>
+    void run() -> run
+com.alexkang.bluechat.ClientActivity$SendImageThread -> com.alexkang.bluechat.l:
+    android.graphics.Bitmap bitmap -> O
+    com.alexkang.bluechat.ClientActivity this$0 -> L
+    void <init>(com.alexkang.bluechat.ClientActivity,java.lang.String) -> <init>
+    void run() -> run
+com.alexkang.bluechat.ClientActivity$SendImageThread$1 -> com.alexkang.bluechat.m:
+    com.alexkang.bluechat.ClientActivity$SendImageThread this$1 -> P
+    void <init>(com.alexkang.bluechat.ClientActivity$SendImageThread) -> <init>
+    void run() -> run
+com.alexkang.bluechat.ClientActivity$WaitForBluetoothThread -> com.alexkang.bluechat.n:
+    com.alexkang.bluechat.ClientActivity this$0 -> L
+    void <init>(com.alexkang.bluechat.ClientActivity) -> <init>
+    void <init>(com.alexkang.bluechat.ClientActivity,com.alexkang.bluechat.ClientActivity$1) -> <init>
+    void run() -> run
+com.alexkang.bluechat.HostActivity -> com.alexkang.bluechat.HostActivity:
+    int PICK_IMAGE -> D
+    int REQUEST_DISCOVERABLE -> Q
+    com.alexkang.bluechat.HostActivity$AcceptThread mAcceptThread -> R
+    android.bluetooth.BluetoothAdapter mBluetoothAdapter -> F
+    com.alexkang.bluechat.ChatManager mChatManager -> G
+    java.lang.String mChatRoomName -> S
+    android.widget.EditText mMessage -> H
+    java.util.ArrayList mSockets -> T
+    java.lang.String mUsername -> K
+    void <init>() -> <init>
+    void access$000(com.alexkang.bluechat.HostActivity) -> a
+    void access$100(com.alexkang.bluechat.HostActivity) -> b
+    java.lang.String access$200(com.alexkang.bluechat.HostActivity) -> c
+    java.lang.String access$202(com.alexkang.bluechat.HostActivity,java.lang.String) -> a
+    void access$300(com.alexkang.bluechat.HostActivity) -> d
+    java.lang.String access$400(com.alexkang.bluechat.HostActivity) -> e
+    com.alexkang.bluechat.ChatManager access$500(com.alexkang.bluechat.HostActivity) -> f
+    android.bluetooth.BluetoothAdapter access$600(com.alexkang.bluechat.HostActivity) -> g
+    void access$700(com.alexkang.bluechat.HostActivity,android.bluetooth.BluetoothSocket) -> a
+    void initializeBluetooth() -> e
+    void manageSocket(android.bluetooth.BluetoothSocket) -> b
+    void sendMessage() -> b
+    void uploadAttachment() -> d
+    void initializeRoom() -> f
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    void onDestroy() -> onDestroy
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.alexkang.bluechat.HostActivity$1 -> com.alexkang.bluechat.o:
+    com.alexkang.bluechat.HostActivity this$0 -> U
+    void <init>(com.alexkang.bluechat.HostActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.alexkang.bluechat.HostActivity$2 -> com.alexkang.bluechat.p:
+    com.alexkang.bluechat.HostActivity this$0 -> U
+    void <init>(com.alexkang.bluechat.HostActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.alexkang.bluechat.HostActivity$3 -> com.alexkang.bluechat.q:
+    com.alexkang.bluechat.HostActivity this$0 -> U
+    android.view.inputmethod.InputMethodManager val$imm -> V
+    android.widget.EditText val$nameInput -> W
+    void <init>(com.alexkang.bluechat.HostActivity,android.widget.EditText,android.view.inputmethod.InputMethodManager) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.alexkang.bluechat.HostActivity$4 -> com.alexkang.bluechat.r:
+    com.alexkang.bluechat.HostActivity this$0 -> U
+    android.view.inputmethod.InputMethodManager val$imm -> V
+    android.widget.EditText val$nameInput -> W
+    void <init>(com.alexkang.bluechat.HostActivity,android.view.inputmethod.InputMethodManager,android.widget.EditText) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.alexkang.bluechat.HostActivity$5 -> com.alexkang.bluechat.s:
+    com.alexkang.bluechat.HostActivity this$0 -> U
+    void <init>(com.alexkang.bluechat.HostActivity) -> <init>
+    void onCancel(android.content.DialogInterface) -> onCancel
+com.alexkang.bluechat.HostActivity$6 -> com.alexkang.bluechat.t:
+    com.alexkang.bluechat.HostActivity this$0 -> U
+    android.app.AlertDialog val$dialog -> X
+    void <init>(com.alexkang.bluechat.HostActivity,android.app.AlertDialog) -> <init>
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.alexkang.bluechat.HostActivity$AcceptThread -> com.alexkang.bluechat.u:
+    boolean isAccepting -> Y
+    android.bluetooth.BluetoothServerSocket mmServerSocket -> Z
+    com.alexkang.bluechat.HostActivity this$0 -> U
+    void <init>(com.alexkang.bluechat.HostActivity) -> <init>
+    void cancel() -> cancel
+    void run() -> run
+com.alexkang.bluechat.HostActivity$AcceptThread$1 -> com.alexkang.bluechat.v:
+    com.alexkang.bluechat.HostActivity$AcceptThread this$1 -> aa
+    android.bluetooth.BluetoothSocket val$socket -> ab
+    void <init>(com.alexkang.bluechat.HostActivity$AcceptThread,android.bluetooth.BluetoothSocket) -> <init>
+    void run() -> run
+com.alexkang.bluechat.HostActivity$SendImageThread -> com.alexkang.bluechat.w:
+    android.graphics.Bitmap bitmap -> O
+    com.alexkang.bluechat.HostActivity this$0 -> U
+    void <init>(com.alexkang.bluechat.HostActivity,java.lang.String) -> <init>
+    void run() -> run
+com.alexkang.bluechat.HostActivity$SendImageThread$1 -> com.alexkang.bluechat.x:
+    com.alexkang.bluechat.HostActivity$SendImageThread this$1 -> ac
+    void <init>(com.alexkang.bluechat.HostActivity$SendImageThread) -> <init>
+    void run() -> run
+com.alexkang.bluechat.MainActivity -> com.alexkang.bluechat.MainActivity:
+    java.lang.String UUID -> ad
+    void <init>() -> <init>
+    void access$000(com.alexkang.bluechat.MainActivity) -> a
+    void access$100(com.alexkang.bluechat.MainActivity) -> b
+    void hostRoom() -> g
+    void joinRoom() -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onResume() -> onResume
+com.alexkang.bluechat.MainActivity$1 -> com.alexkang.bluechat.y:
+    com.alexkang.bluechat.MainActivity this$0 -> ae
+    void <init>(com.alexkang.bluechat.MainActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.alexkang.bluechat.MainActivity$2 -> com.alexkang.bluechat.z:
+    com.alexkang.bluechat.MainActivity this$0 -> ae
+    void <init>(com.alexkang.bluechat.MainActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.alexkang.bluechat.MainActivity$3 -> com.alexkang.bluechat.aa:
+    com.alexkang.bluechat.MainActivity this$0 -> ae
+    android.view.inputmethod.InputMethodManager val$imm -> V
+    android.widget.EditText val$nameInput -> W
+    android.content.SharedPreferences val$sharedPref -> af
+    void <init>(com.alexkang.bluechat.MainActivity,android.view.inputmethod.InputMethodManager,android.widget.EditText,android.content.SharedPreferences) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.alexkang.bluechat.MainActivity$4 -> com.alexkang.bluechat.ab:
+    com.alexkang.bluechat.MainActivity this$0 -> ae
+    android.view.inputmethod.InputMethodManager val$imm -> V
+    android.widget.EditText val$nameInput -> W
+    void <init>(com.alexkang.bluechat.MainActivity,android.view.inputmethod.InputMethodManager,android.widget.EditText) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.alexkang.bluechat.MainActivity$5 -> com.alexkang.bluechat.ac:
+    com.alexkang.bluechat.MainActivity this$0 -> ae
+    android.app.AlertDialog val$dialog -> X
+    void <init>(com.alexkang.bluechat.MainActivity,android.app.AlertDialog) -> <init>
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.alexkang.bluechat.MessageBox -> com.alexkang.bluechat.ad:
+    android.graphics.Bitmap image -> ag
+    boolean isImage -> ah
+    java.lang.String message -> ai
+    boolean self -> aj
+    java.lang.String sender -> ak
+    java.util.Date time -> al
+    void <init>(java.lang.String,android.graphics.Bitmap,java.util.Date,boolean) -> <init>
+    void <init>(java.lang.String,java.lang.String,java.util.Date,boolean) -> <init>
+    android.graphics.Bitmap getImage() -> i
+    java.lang.String getMessage() -> getMessage
+    java.lang.String getSender() -> j
+    java.lang.String getTime() -> k
+    boolean isImage() -> l
+    boolean isSelf() -> m
+com.alexkang.bluechat.MessageFeedAdapter -> com.alexkang.bluechat.ae:
+    android.content.ClipboardManager clipboard -> am
+    android.content.Context mContext -> mContext
+    void <init>(android.content.Context,java.util.ArrayList) -> <init>
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.alexkang.bluechat.MessageFeedAdapter$1 -> com.alexkang.bluechat.af:
+    com.alexkang.bluechat.MessageFeedAdapter this$0 -> an
+    com.alexkang.bluechat.MessageBox val$message -> ao
+    void <init>(com.alexkang.bluechat.MessageFeedAdapter,com.alexkang.bluechat.MessageBox) -> <init>
+    boolean onLongClick(android.view.View) -> onLongClick
+com.alexkang.bluechat.MessageFeedAdapter$2 -> com.alexkang.bluechat.ag:
+    com.alexkang.bluechat.MessageFeedAdapter this$0 -> an
+    void <init>(com.alexkang.bluechat.MessageFeedAdapter) -> <init>
+    void onClick(android.view.View) -> onClick
+com.alexkang.bluechat.R -> com.alexkang.bluechat.ah:
+    void <init>() -> <init>
+com.alexkang.bluechat.R$attr -> com.alexkang.bluechat.R$attr:
+    void <init>() -> <init>
+com.alexkang.bluechat.R$color -> com.alexkang.bluechat.R$color:
+    int blue -> blue
+    int blue_darker -> blue_darker
+    int blue_darker_darker -> blue_darker_darker
+    int dark_gray -> dark_gray
+    int light_gray -> light_gray
+    int off_white -> off_white
+    void <init>() -> <init>
+com.alexkang.bluechat.R$dimen -> com.alexkang.bluechat.R$dimen:
+    int activity_horizontal_margin -> activity_horizontal_margin
+    int activity_vertical_margin -> activity_vertical_margin
+    void <init>() -> <init>
+com.alexkang.bluechat.R$drawable -> com.alexkang.bluechat.R$drawable:
+    int edit_text_background_blue -> edit_text_background_blue
+    int editor_background -> editor_background
+    int host_button -> host_button
+    int ic_action_edit -> ic_action_edit
+    int ic_action_group -> ic_action_group
+    int ic_action_new_attachment -> ic_action_new_attachment
+    int ic_action_send_now -> ic_action_send_now
+    int ic_launcher -> ic_launcher
+    int ic_launcher_white -> ic_launcher_white
+    int join_button -> join_button
+    int message_background -> message_background
+    int message_background_selected -> message_background_selected
+    int message_background_unselected -> message_background_unselected
+    void <init>() -> <init>
+com.alexkang.bluechat.R$id -> com.alexkang.bluechat.R$id:
+    int action_edit_name -> action_edit_name
+    int action_reopen -> action_reopen
+    int attach -> attach
+    int body -> body
+    int host_button -> host_button
+    int image -> image
+    int join_button -> join_button
+    int message -> message
+    int message_feed -> message_feed
+    int name -> name
+    int send -> send
+    int send_bar -> send_bar
+    int time -> time
+    void <init>() -> <init>
+com.alexkang.bluechat.R$layout -> com.alexkang.bluechat.R$layout:
+    int activity_chatroom -> activity_chatroom
+    int activity_main -> activity_main
+    int message_row -> message_row
+    void <init>() -> <init>
+com.alexkang.bluechat.R$menu -> com.alexkang.bluechat.R$menu:
+    int client -> client
+    int host -> host
+    int main -> main
+    void <init>() -> <init>
+com.alexkang.bluechat.R$string -> com.alexkang.bluechat.R$string:
+    int action_reopen -> action_reopen
+    int app_name -> app_name
+    int content_desc -> content_desc
+    int edit_name -> edit_name
+    int host -> host
+    int join -> join
+    int title_activity_client -> title_activity_client
+    int title_activity_host -> title_activity_host
+    void <init>() -> <init>
+com.alexkang.bluechat.R$style -> com.alexkang.bluechat.R$style:
+    int ActionBarStyle -> ActionBarStyle
+    int ActionBarTitle -> ActionBarTitle
+    int AppTheme -> AppTheme
+    void <init>() -> <init>

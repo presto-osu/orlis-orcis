@@ -1,0 +1,107 @@
+com.termux.widget.BuildConfig -> com.termux.widget.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+com.termux.widget.R -> com.termux.widget.b:
+    void <init>() -> <init>
+com.termux.widget.R$attr -> com.termux.widget.R$attr:
+    void <init>() -> <init>
+com.termux.widget.R$drawable -> com.termux.widget.R$drawable:
+    int ic_launcher -> ic_launcher
+    int ripple_mask -> ripple_mask
+    int widgetpreview -> widgetpreview
+    void <init>() -> <init>
+com.termux.widget.R$id -> com.termux.widget.R$id:
+    int empty_view -> empty_view
+    int list -> list
+    int refresh_button -> refresh_button
+    int top_row -> top_row
+    int widget_item -> widget_item
+    int widget_item_layout -> widget_item_layout
+    int widget_list -> widget_list
+    void <init>() -> <init>
+com.termux.widget.R$layout -> com.termux.widget.R$layout:
+    int shortcuts_listview -> shortcuts_listview
+    int widget_item -> widget_item
+    int widget_layout -> widget_layout
+    void <init>() -> <init>
+com.termux.widget.R$string -> com.termux.widget.R$string:
+    int app_name -> app_name
+    int bad_token_message -> bad_token_message
+    int no_shortcut_scripts -> no_shortcut_scripts
+    int refresh -> refresh
+    int scripts_reloaded -> scripts_reloaded
+    int shortcut_widget_name -> shortcut_widget_name
+    int single_shortcut_name -> single_shortcut_name
+    int termux -> termux
+    void <init>() -> <init>
+com.termux.widget.R$xml -> com.termux.widget.R$xml:
+    int termux_appwidget_info -> termux_appwidget_info
+    void <init>() -> <init>
+com.termux.widget.TermuxCreateShortcutActivity -> com.termux.widget.TermuxCreateShortcutActivity:
+    android.widget.ListView mListView -> f
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+com.termux.widget.TermuxCreateShortcutActivity$1 -> com.termux.widget.c:
+    com.termux.widget.TermuxCreateShortcutActivity this$0 -> g
+    void <init>(com.termux.widget.TermuxCreateShortcutActivity) -> <init>
+    boolean accept(java.io.File) -> accept
+com.termux.widget.TermuxCreateShortcutActivity$2 -> com.termux.widget.d:
+    com.termux.widget.TermuxCreateShortcutActivity this$0 -> g
+    void <init>(com.termux.widget.TermuxCreateShortcutActivity) -> <init>
+    void onDismiss(android.content.DialogInterface) -> onDismiss
+com.termux.widget.TermuxCreateShortcutActivity$3 -> com.termux.widget.e:
+    com.termux.widget.TermuxCreateShortcutActivity this$0 -> g
+    java.io.File[] val$files -> h
+    void <init>(com.termux.widget.TermuxCreateShortcutActivity,java.io.File[]) -> <init>
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.termux.widget.TermuxLaunchShortcutActivity -> com.termux.widget.TermuxLaunchShortcutActivity:
+    java.lang.String TOKEN_NAME -> i
+    void <init>() -> <init>
+    java.lang.String getGeneratedToken(android.content.Context) -> a
+    void onResume() -> onResume
+com.termux.widget.TermuxWidgetProvider -> com.termux.widget.TermuxWidgetProvider:
+    java.lang.String ACTION_EXECUTE -> j
+    java.lang.String EXTRA_CLICKED_FILE -> k
+    java.lang.String LIST_ITEM_CLICKED_ACTION -> l
+    java.lang.String REFRESH_WIDGET_ACTION -> m
+    java.lang.String TERMUX_SERVICE -> n
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[]) -> onUpdate
+com.termux.widget.TermuxWidgetService -> com.termux.widget.TermuxWidgetService:
+    java.io.File SHORTCUTS_DIR -> o
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    android.widget.RemoteViewsService$RemoteViewsFactory onGetViewFactory(android.content.Intent) -> onGetViewFactory
+com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory -> com.termux.widget.f:
+    android.content.Context mContext -> mContext
+    java.util.List mWidgetItems -> p
+    void <init>(android.content.Context) -> <init>
+    int getCount() -> getCount
+    long getItemId(int) -> getItemId
+    android.widget.RemoteViews getLoadingView() -> getLoadingView
+    android.widget.RemoteViews getViewAt(int) -> getViewAt
+    int getViewTypeCount() -> getViewTypeCount
+    boolean hasStableIds() -> hasStableIds
+    void onCreate() -> onCreate
+    void onDataSetChanged() -> onDataSetChanged
+    void onDestroy() -> onDestroy
+com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory$1 -> com.termux.widget.g:
+    com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory this$0 -> q
+    void <init>(com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory) -> <init>
+    boolean accept(java.io.File) -> accept
+com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory$2 -> com.termux.widget.h:
+    com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory this$0 -> q
+    void <init>(com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory) -> <init>
+    int compare(java.io.File,java.io.File) -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.termux.widget.TermuxWidgetService$TermuxWidgetItem -> com.termux.widget.i:
+    java.lang.String mFile -> r
+    java.lang.String mLabel -> s
+    void <init>(java.io.File) -> <init>

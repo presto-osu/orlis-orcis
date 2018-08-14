@@ -1,0 +1,1710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v5.9 Educational
+   Web: http://www.allatori.com
+
+   Log created: Mon Aug 13 21:27:39 EDT 2018
+-->
+
+<allatori>
+ <mapping>
+  <class old="vnd.blueararat.kaleidoscope6.filters.Negative" new="vnd.blueararat.kaleidoscope6.filters.c_k">
+   <method old="getEffect()Ljava/lang/String;" new="m_h"/>
+   <method old="getName()Ljava/lang/String;" new="m_j"/>
+   <method old="processYUV420SP([I[BII)V" new="m_H"/>
+   <method old="setString(Ljava/lang/String;)V" new="m_m"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="DEFAULT Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="f_a"/>
+   <field old="YUV_PROCESSORS [Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="f_D"/>
+   <field old="s Ljava/lang/String;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.R$style" new="vnd.blueararat.kaleidoscope6.R$style">
+   <field old="CustomTheme I" new="CustomTheme"/>
+   <field old="DefaultTheme I" new="DefaultTheme"/>
+   <field old="MyListView I" new="MyListView"/>
+   <field old="NewTheme I" new="NewTheme"/>
+   <field old="RadioButton I" new="RadioButton"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.YUVProcessor" new="vnd.blueararat.kaleidoscope6.c_e">
+   <method old="getEffect()Ljava/lang/String;" new="m_h"/>
+   <method old="getName()Ljava/lang/String;" new="m_j"/>
+   <method old="processYUV420SP([I[BII)V" new="m_H"/>
+   <method old="setString(Ljava/lang/String;)V" new="m_m"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="DEFAULT Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="f_a"/>
+   <field old="YUV_PROCESSORS [Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.R$menu" new="vnd.blueararat.kaleidoscope6.R$menu">
+   <field old="camera_menu I" new="camera_menu"/>
+   <field old="menu I" new="menu"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.KCamera$1" new="vnd.blueararat.kaleidoscope6.c_I">
+   <method old="onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V" new="onItemClick"/>
+   <field old="this$0 Lvnd/blueararat/kaleidoscope6/KCamera;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.K3DRenderer" new="vnd.blueararat.kaleidoscope6.c_M">
+   <method old="onAccuracyChanged(Landroid/hardware/Sensor;I)V" new="onAccuracyChanged"/>
+   <method old="onDrawFrame(Ljavax/microedition/khronos/opengles/GL10;)V" new="onDrawFrame"/>
+   <method old="onSensorChanged(Landroid/hardware/SensorEvent;)V" new="onSensorChanged"/>
+   <method old="onSurfaceChanged(Ljavax/microedition/khronos/opengles/GL10;II)V" new="onSurfaceChanged"/>
+   <method old="onSurfaceCreated(Ljavax/microedition/khronos/opengles/GL10;Ljavax/microedition/khronos/egl/EGLConfig;)V" new="onSurfaceCreated"/>
+   <method old="savePixels(IIIILjavax/microedition/khronos/opengles/GL10;)V" new="m_y"/>
+   <method old="setBitmap(Landroid/graphics/Bitmap;)V" new="m_c"/>
+   <method old="setShouldExport(Z)V" new="m_la"/>
+   <method old="start()V" new="m_q"/>
+   <method old="stop()V" new="m_Ia"/>
+   <field old="angle F" new="f_M"/>
+   <field old="axis [F" new="f_a"/>
+   <field old="isLandscape Z" new="f_e"/>
+   <field old="isNewBitmap Z" new="f_k"/>
+   <field old="mBitmap Landroid/graphics/Bitmap;" new="f_J"/>
+   <field old="mContext Landroid/content/Context;" new="f_B"/>
+   <field old="mRotationMatrix [F" new="f_D"/>
+   <field old="mRotationMatrix2 [F" new="f_i"/>
+   <field old="mRotationVectorSensor Landroid/hardware/Sensor;" new="f_f"/>
+   <field old="mSensorManager Landroid/hardware/SensorManager;" new="f_m"/>
+   <field old="mSphere Lvnd/blueararat/kaleidoscope6/Sphere;" new="f_c"/>
+   <field old="shouldExport Z" new="f_K"/>
+   <field old="useSensors Z" new="f_E"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.R" new="vnd.blueararat.kaleidoscope6.R">
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.filters.Aqua" new="vnd.blueararat.kaleidoscope6.filters.c_D">
+   <method old="getEffect()Ljava/lang/String;" new="m_h"/>
+   <method old="getName()Ljava/lang/String;" new="m_j"/>
+   <method old="processYUV420SP([I[BII)V" new="m_H"/>
+   <method old="setString(Ljava/lang/String;)V" new="m_m"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="DEFAULT Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="f_a"/>
+   <field old="YUV_PROCESSORS [Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="f_D"/>
+   <field old="s Ljava/lang/String;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.SeekbarPref" new="vnd.blueararat.kaleidoscope6.SeekbarPref">
+   <method old="onBindView(Landroid/view/View;)V" new="onBindView"/>
+   <method old="onCreateView(Landroid/view/ViewGroup;)Landroid/view/View;" new="onCreateView"/>
+   <method old="onProgressChanged(Landroid/widget/SeekBar;IZ)V" new="onProgressChanged"/>
+   <method old="onSetInitialValue(ZLjava/lang/Object;)V" new="onSetInitialValue"/>
+   <method old="onStartTrackingTouch(Landroid/widget/SeekBar;)V" new="onStartTrackingTouch"/>
+   <method old="onStopTrackingTouch(Landroid/widget/SeekBar;)V" new="onStopTrackingTouch"/>
+   <method old="setProgressValue(I)V" new="m_i"/>
+   <field old="ADDITIONAL Ljava/lang/String;" new="f_D"/>
+   <field old="ANDROIDNS Ljava/lang/String;" new="f_m"/>
+   <field old="mDefault I" new="f_e"/>
+   <field old="mMax I" new="f_B"/>
+   <field old="mMin I" new="f_K"/>
+   <field old="mSeekBar Landroid/widget/SeekBar;" new="f_E"/>
+   <field old="mTextView Landroid/widget/TextView;" new="f_a"/>
+   <field old="mValue I" new="f_c"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.KView" new="vnd.blueararat.kaleidoscope6.KView">
+   <method old="calculateOffset(I)I" new="m_z"/>
+   <method old="currentYUVProcessor()I" new="m_r"/>
+   <method old="destroy()V" new="m_p"/>
+   <method old="drawIntoBitmap()V" new="m_Q"/>
+   <method old="drawIntoBitmap(I)V" new="m_V"/>
+   <method old="drawIntoBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;II)V" new="m_n"/>
+   <method old="exportImage(Landroid/graphics/Bitmap;)Ljava/lang/String;" new="m_s"/>
+   <method old="getBlurValue()I" new="getBlurValue"/>
+   <method old="getNumberOfMirrors()I" new="getNumberOfMirrors"/>
+   <method old="getYUVProcessor()Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="getYUVProcessor"/>
+   <method old="isBlur()Z" new="m_X"/>
+   <method old="onDraw(Landroid/graphics/Canvas;)V" new="onDraw"/>
+   <method old="onPreviewFrame([BLandroid/hardware/Camera;)V" new="onPreviewFrame"/>
+   <method old="onSizeChanged(IIII)V" new="onSizeChanged"/>
+   <method old="onTouchEvent(Landroid/view/MotionEvent;)Z" new="onTouchEvent"/>
+   <method old="paint(Landroid/graphics/Canvas;Landroid/graphics/Bitmap;)V" new="m_S"/>
+   <method old="paint(Landroid/graphics/Canvas;Landroid/graphics/Bitmap;I)V" new="m_W"/>
+   <method old="resetSizes(II)V" new="m_R"/>
+   <method old="setBitmap()V" new="setBitmap"/>
+   <method old="setBitmap(Landroid/graphics/Bitmap;)V" new="setBitmap"/>
+   <method old="setBlur(Z)V" new="setBlur"/>
+   <method old="setBlurValue(I)V" new="setBlurValue"/>
+   <method old="setK3DMode(ZLvnd/blueararat/kaleidoscope6/K3DRenderer;)V" new="setK3DMode"/>
+   <method old="setNewSettings(I)V" new="setNewSettings"/>
+   <method old="setViewBitmapSizes(I)V" new="setViewBitmapSizes"/>
+   <method old="setYUVProcessor(Lvnd/blueararat/kaleidoscope6/YUVProcessor;)V" new="setYUVProcessor"/>
+   <method old="toastString(Ljava/lang/String;I)V" new="m_P"/>
+   <method old="updateTexture()V" new="m_T"/>
+   <field old="KEY_BLUR Ljava/lang/String;" new="f_f"/>
+   <field old="KEY_BLUR_VALUE Ljava/lang/String;" new="f_V"/>
+   <field old="KEY_NUMBER_OF_MIRRORS Ljava/lang/String;" new="f_I"/>
+   <field old="MIN_NOM I" new="f_E"/>
+   <field old="mAlpha Z" new="f_L"/>
+   <field old="mAlphaMark Z" new="f_M"/>
+   <field old="mAngle F" new="f_h"/>
+   <field old="mAngle2 F" new="f_d"/>
+   <field old="mBitmap Landroid/graphics/Bitmap;" new="f_F"/>
+   <field old="mBitmapHeight I" new="f_J"/>
+   <field old="mBitmapNewHeight I" new="f_p"/>
+   <field old="mBitmapViewHeight I" new="f_n"/>
+   <field old="mBitmapViewWidth I" new="f_ca"/>
+   <field old="mBitmapViewWidthInitial I" new="f_b"/>
+   <field old="mBitmapWidth I" new="f_S"/>
+   <field old="mBlur Z" new="f_H"/>
+   <field old="mBlurVal I" new="f_R"/>
+   <field old="mCenterX I" new="f_m"/>
+   <field old="mCenterY I" new="f_e"/>
+   <field old="mContext Landroid/content/Context;" new="f_O"/>
+   <field old="mCurX I" new="f_G"/>
+   <field old="mCurY I" new="f_k"/>
+   <field old="mDataLength I" new="f_P"/>
+   <field old="mK3DRenderer Lvnd/blueararat/kaleidoscope6/K3DRenderer;" new="f_X"/>
+   <field old="mNumberOfMirrors I" new="f_q"/>
+   <field old="mOffset I" new="f_U"/>
+   <field old="mPaint Landroid/graphics/Paint;" new="f_N"/>
+   <field old="mPreviewHeight I" new="f_v"/>
+   <field old="mPreviewWidth I" new="f_C"/>
+   <field old="mRadius I" new="f_Y"/>
+   <field old="mScale F" new="f_T"/>
+   <field old="mScaledHeight I" new="f_i"/>
+   <field old="mScaledWidth I" new="f_g"/>
+   <field old="mScreenRadius I" new="f_Z"/>
+   <field old="mStartAngle F" new="f_w"/>
+   <field old="mTopOffset F" new="f_B"/>
+   <field old="mViewBitmap Landroid/graphics/Bitmap;" new="f_r"/>
+   <field old="mX I" new="f_D"/>
+   <field old="mY I" new="f_y"/>
+   <field old="mYUVProcessor Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="f_W"/>
+   <field old="msgNextTime Z" new="f_a"/>
+   <field old="preferences Landroid/content/SharedPreferences;" new="f_A"/>
+   <field old="sD F" new="f_c"/>
+   <field old="sHeight I" new="f_s"/>
+   <field old="sMx F" new="f_l"/>
+   <field old="sMy F" new="f_Q"/>
+   <field old="sWidth I" new="f_z"/>
+   <field old="sX1 F" new="f_u"/>
+   <field old="sY1 F" new="f_t"/>
+   <field old="texWidth I" new="f_j"/>
+   <field old="texX I" new="f_K"/>
+   <field old="texY I" new="f_o"/>
+   <field old="use3D Z" new="f_x"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.R$anim" new="vnd.blueararat.kaleidoscope6.R$anim">
+   <field old="translation_menu_in I" new="translation_menu_in"/>
+   <field old="translation_menu_out I" new="translation_menu_out"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.R$id" new="vnd.blueararat.kaleidoscope6.R$id">
+   <field old="K3D I" new="K3D"/>
+   <field old="Value I" new="Value"/>
+   <field old="button1 I" new="button1"/>
+   <field old="camera I" new="camera"/>
+   <field old="color_mode I" new="color_mode"/>
+   <field old="export I" new="export"/>
+   <field old="fdButtonCancel I" new="fdButtonCancel"/>
+   <field old="fdButtonCreate I" new="fdButtonCreate"/>
+   <field old="fdButtonNew I" new="fdButtonNew"/>
+   <field old="fdButtonSelect I" new="fdButtonSelect"/>
+   <field old="fdEditTextFile I" new="fdEditTextFile"/>
+   <field old="fdLinearLayoutCreate I" new="fdLinearLayoutCreate"/>
+   <field old="fdLinearLayoutList I" new="fdLinearLayoutList"/>
+   <field old="fdLinearLayoutSelect I" new="fdLinearLayoutSelect"/>
+   <field old="fdrowimage I" new="fdrowimage"/>
+   <field old="fdrowtext I" new="fdrowtext"/>
+   <field old="focus I" new="focus"/>
+   <field old="frame I" new="frame"/>
+   <field old="open I" new="open"/>
+   <field old="path I" new="path"/>
+   <field old="relativeLayout01 I" new="relativeLayout01"/>
+   <field old="seekBar1 I" new="seekBar1"/>
+   <field old="settings I" new="settings"/>
+   <field old="settings_c I" new="settings_c"/>
+   <field old="switch_camera I" new="switch_camera"/>
+   <field old="take_picture I" new="take_picture"/>
+   <field old="textViewFilename I" new="textViewFilename"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.Kaleidoscope$Renew" new="vnd.blueararat.kaleidoscope6.c_l">
+   <method old="doInBackground([Ljava/lang/Object;)Ljava/lang/Object;" new="doInBackground"/>
+   <method old="doInBackground([Ljava/lang/Void;)Ljava/lang/Void;" new="m_G"/>
+   <method old="onPostExecute(Ljava/lang/Object;)V" new="onPostExecute"/>
+   <method old="onPostExecute(Ljava/lang/Void;)V" new="m_L"/>
+   <field old="this$0 Lvnd/blueararat/kaleidoscope6/Kaleidoscope;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.filters.Normal" new="vnd.blueararat.kaleidoscope6.filters.c_m">
+   <method old="processYUV420SP([I[BII)V" new="m_H"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.Kaleidoscope" new="vnd.blueararat.kaleidoscope6.Kaleidoscope">
+   <method old="access$000(Lvnd/blueararat/kaleidoscope6/Kaleidoscope;)Landroid/opengl/GLSurfaceView;" new="m_Y"/>
+   <method old="access$100()Z" new="m_I"/>
+   <method old="access$200(Lvnd/blueararat/kaleidoscope6/Kaleidoscope;Z)V" new="m_b"/>
+   <method old="access$300(Lvnd/blueararat/kaleidoscope6/Kaleidoscope;)Lvnd/blueararat/kaleidoscope6/KView;" new="m_d"/>
+   <method old="access$400(Lvnd/blueararat/kaleidoscope6/Kaleidoscope;)Lvnd/blueararat/kaleidoscope6/K3DRenderer;" new="m_a"/>
+   <method old="fileExists(Landroid/net/Uri;)Z" new="m_E"/>
+   <method old="getPath(Landroid/net/Uri;)Ljava/lang/String;" new="m_k"/>
+   <method old="getWidth()I" new="m_K"/>
+   <method old="loadBitmap(Landroid/graphics/BitmapFactory$Options;Landroid/net/Uri;)V" new="m_B"/>
+   <method old="onActivityResult(IILandroid/content/Intent;)V" new="onActivityResult"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onDestroy()V" new="onDestroy"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onPrepareOptionsMenu(Landroid/view/Menu;)Z" new="onPrepareOptionsMenu"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="onStart()V" new="onStart"/>
+   <method old="toggle3D(Z)V" new="m_A"/>
+   <method old="toggleHardwareAcceleration(Z)V" new="m_o"/>
+   <field old="CHANGE_NUMBER_OF_MIRRORS I" new="f_J"/>
+   <field old="KEY_CAMERA_IN_MENU Ljava/lang/String;" new="f_H"/>
+   <field old="KEY_HARDWARE_ACCEL Ljava/lang/String;" new="f_K"/>
+   <field old="KEY_IMAGE_URI Ljava/lang/String;" new="f_M"/>
+   <field old="OPEN_PICTURE I" new="f_I"/>
+   <field old="bCameraInMenu Z" new="f_a"/>
+   <field old="imageUri Landroid/net/Uri;" new="f_c"/>
+   <field old="mBitmap Landroid/graphics/Bitmap;" new="f_D"/>
+   <field old="mFrame Landroid/widget/FrameLayout;" new="f_k"/>
+   <field old="mGLSurfaceView Landroid/opengl/GLSurfaceView;" new="f_f"/>
+   <field old="mK Lvnd/blueararat/kaleidoscope6/KView;" new="f_i"/>
+   <field old="mK3DRenderer Lvnd/blueararat/kaleidoscope6/K3DRenderer;" new="f_A"/>
+   <field old="mNumberOfMirrors I" new="f_m"/>
+   <field old="mOverlayView Landroid/view/View;" new="f_B"/>
+   <field old="preferences Landroid/content/SharedPreferences;" new="f_e"/>
+   <field old="sStringUri Ljava/lang/String;" new="f_g"/>
+   <field old="use3D Z" new="f_E"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.R$layout" new="vnd.blueararat.kaleidoscope6.R$layout">
+   <field old="file_dialog_main I" new="file_dialog_main"/>
+   <field old="file_dialog_row I" new="file_dialog_row"/>
+   <field old="main I" new="main"/>
+   <field old="pref_widget_button I" new="pref_widget_button"/>
+   <field old="seekbarpref I" new="seekbarpref"/>
+   <field old="simple_list_item_single_choice I" new="simple_list_item_single_choice"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.Sphere" new="vnd.blueararat.kaleidoscope6.c_m">
+   <method old="draw(Ljavax/microedition/khronos/opengles/GL10;)V" new="m_f"/>
+   <method old="loadGLTexture(Ljavax/microedition/khronos/opengles/GL10;Landroid/content/Context;Landroid/graphics/Bitmap;)V" new="m_M"/>
+   <method old="setBitmap(Landroid/graphics/Bitmap;)V" new="m_c"/>
+   <field old="TexCoords [F" new="f_D"/>
+   <field old="Verts [F" new="f_a"/>
+   <field old="isNewBitmap Z" new="f_B"/>
+   <field old="mBitmap Landroid/graphics/Bitmap;" new="f_m"/>
+   <field old="mContext Landroid/content/Context;" new="f_E"/>
+   <field old="normalsBuffer Ljava/nio/FloatBuffer;" new="f_c"/>
+   <field old="textureBuffer Ljava/nio/FloatBuffer;" new="f_f"/>
+   <field old="textures [I" new="f_e"/>
+   <field old="vertexBuffer Ljava/nio/FloatBuffer;" new="f_K"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.SelectionMode" new="vnd.blueararat.kaleidoscope6.c_k">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_l"/>
+   <field old="MODE_CREATE I" new="f_a"/>
+   <field old="MODE_OPEN I" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.KCamera" new="vnd.blueararat.kaleidoscope6.KCamera">
+   <method old="access$000(Lvnd/blueararat/kaleidoscope6/KCamera;)Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="m_N"/>
+   <method old="access$002(Lvnd/blueararat/kaleidoscope6/KCamera;Lvnd/blueararat/kaleidoscope6/YUVProcessor;)Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="m_O"/>
+   <method old="access$100(Lvnd/blueararat/kaleidoscope6/KCamera;)Lvnd/blueararat/kaleidoscope6/CameraPreview;" new="m_t"/>
+   <method old="access$200(Lvnd/blueararat/kaleidoscope6/KCamera;)Lvnd/blueararat/kaleidoscope6/KView;" new="m_x"/>
+   <method old="buildEffectsMenu()V" new="m_u"/>
+   <method old="exitMenu()V" new="m_w"/>
+   <method old="getCameraPreview()Lvnd/blueararat/kaleidoscope6/CameraPreview;" new="m_Z"/>
+   <method old="getEffectsMenu()Landroid/widget/FrameLayout;" new="m_v"/>
+   <method old="getWidth()I" new="m_K"/>
+   <method old="goIn(Landroid/view/View;)V" new="goIn"/>
+   <method old="goOut(Landroid/view/View;)V" new="goOut"/>
+   <method old="onBackPressed()V" new="onBackPressed"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onPrepareOptionsMenu(Landroid/view/Menu;)Z" new="onPrepareOptionsMenu"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="showEffectsMenu()V" new="m_U"/>
+   <method old="toggle3D(Z)V" new="m_A"/>
+   <field old="KEY_COLOR_FILTER Ljava/lang/String;" new="f_D"/>
+   <field old="inMenu Z" new="f_M"/>
+   <field old="mCameraPreview Lvnd/blueararat/kaleidoscope6/CameraPreview;" new="f_B"/>
+   <field old="mFl Landroid/widget/FrameLayout;" new="f_K"/>
+   <field old="mFrame Landroid/widget/FrameLayout;" new="f_J"/>
+   <field old="mGLSurfaceView Landroid/opengl/GLSurfaceView;" new="f_A"/>
+   <field old="mK3DRenderer Lvnd/blueararat/kaleidoscope6/K3DRenderer;" new="f_f"/>
+   <field old="mKView Lvnd/blueararat/kaleidoscope6/KView;" new="f_c"/>
+   <field old="mLv Landroid/widget/ListView;" new="f_E"/>
+   <field old="mOverlayView Landroid/view/View;" new="f_m"/>
+   <field old="mYUVProcessor Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="f_k"/>
+   <field old="numberOfCameras I" new="f_a"/>
+   <field old="preferences Landroid/content/SharedPreferences;" new="f_e"/>
+   <field old="use3D Z" new="f_i"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.CameraPreview" new="vnd.blueararat.kaleidoscope6.c_d">
+   <method old="access$000(Lvnd/blueararat/kaleidoscope6/CameraPreview;)Lvnd/blueararat/kaleidoscope6/KView;" new="m_Da"/>
+   <method old="autoFocus(Landroid/hardware/Camera$AutoFocusCallback;)V" new="m_Xa"/>
+   <method old="canAutoFocus()Z" new="m_Ha"/>
+   <method old="getNumberOfCameras()I" new="m_Fa"/>
+   <method old="getPreviewHeight()I" new="m_aa"/>
+   <method old="getPreviewWidth()I" new="m_ma"/>
+   <method old="getSupportedPreviewSizes()Ljava/util/List;" new="m_ea"/>
+   <method old="guessPreviewSize(I)I" new="m_Ja"/>
+   <method old="setCameraEffect()V" new="m_sa"/>
+   <method old="setEffect(Ljava/lang/String;)V" new="m_Ma"/>
+   <method old="setPreviewSize(II)V" new="m_Pa"/>
+   <method old="setPreviewSize(Landroid/hardware/Camera$Size;)V" new="m_Ka"/>
+   <method old="surfaceChanged(Landroid/view/SurfaceHolder;III)V" new="surfaceChanged"/>
+   <method old="surfaceCreated(Landroid/view/SurfaceHolder;)V" new="surfaceCreated"/>
+   <method old="surfaceDestroyed(Landroid/view/SurfaceHolder;)V" new="surfaceDestroyed"/>
+   <method old="switchCamera()V" new="m_Ga"/>
+   <method old="takePicture(Landroid/graphics/Bitmap;)V" new="m_ia"/>
+   <field old="bufsize I" new="f_a"/>
+   <field old="cameraCurrentlyLocked I" new="f_J"/>
+   <field old="defaultCameraId I" new="f_K"/>
+   <field old="mCamera Landroid/hardware/Camera;" new="f_B"/>
+   <field old="mHolder Landroid/view/SurfaceHolder;" new="f_f"/>
+   <field old="mKView Lvnd/blueararat/kaleidoscope6/KView;" new="f_i"/>
+   <field old="mParameters Landroid/hardware/Camera$Parameters;" new="f_c"/>
+   <field old="numberOfCameras I" new="f_e"/>
+   <field old="previewHeight I" new="f_E"/>
+   <field old="previewWidth I" new="f_k"/>
+   <field old="sCameraEffect Ljava/lang/String;" new="f_D"/>
+   <field old="sdk11plus Z" new="f_m"/>
+   <field old="supportedPreviewSizes Ljava/util/List;" new="f_M"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.R$attr" new="vnd.blueararat.kaleidoscope6.R$attr">
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.Kaleidoscope$Export" new="vnd.blueararat.kaleidoscope6.c_h">
+   <method old="doInBackground([Landroid/graphics/Bitmap;)Ljava/lang/String;" new="m_D"/>
+   <method old="doInBackground([Ljava/lang/Object;)Ljava/lang/Object;" new="doInBackground"/>
+   <method old="onPostExecute(Ljava/lang/Object;)V" new="onPostExecute"/>
+   <method old="onPostExecute(Ljava/lang/String;)V" new="m_g"/>
+   <field old="this$0 Lvnd/blueararat/kaleidoscope6/Kaleidoscope;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.FileDialog" new="vnd.blueararat.kaleidoscope6.FileDialog">
+   <method old="access$000(Lvnd/blueararat/kaleidoscope6/FileDialog;)Ljava/io/File;" new="m_ha"/>
+   <method old="access$100(Lvnd/blueararat/kaleidoscope6/FileDialog;Landroid/view/View;)V" new="m_ba"/>
+   <method old="access$200(Lvnd/blueararat/kaleidoscope6/FileDialog;)Landroid/widget/EditText;" new="m_da"/>
+   <method old="access$300(Lvnd/blueararat/kaleidoscope6/FileDialog;Landroid/view/View;)V" new="m_Ba"/>
+   <method old="access$400(Lvnd/blueararat/kaleidoscope6/FileDialog;)Ljava/lang/String;" new="m_Ea"/>
+   <method old="addItem(Ljava/lang/String;I)V" new="m_Ca"/>
+   <method old="getDir(Ljava/lang/String;)V" new="m_ca"/>
+   <method old="getDirImpl(Ljava/lang/String;)V" new="m_ja"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V" new="onListItemClick"/>
+   <method old="setCreateVisible(Landroid/view/View;)V" new="m_ka"/>
+   <method old="setSelectVisible(Landroid/view/View;)V" new="m_Aa"/>
+   <field old="CAN_SELECT_DIR Ljava/lang/String;" new="f_M"/>
+   <field old="FORMAT_FILTER Ljava/lang/String;" new="f_b"/>
+   <field old="ITEM_IMAGE Ljava/lang/String;" new="f_I"/>
+   <field old="ITEM_KEY Ljava/lang/String;" new="f_C"/>
+   <field old="RESULT_PATH Ljava/lang/String;" new="f_j"/>
+   <field old="ROOT Ljava/lang/String;" new="f_K"/>
+   <field old="SELECTION_MODE Ljava/lang/String;" new="f_F"/>
+   <field old="START_PATH Ljava/lang/String;" new="f_G"/>
+   <field old="canSelectDir Z" new="f_k"/>
+   <field old="currentPath Ljava/lang/String;" new="f_A"/>
+   <field old="formatFilter [Ljava/lang/String;" new="f_i"/>
+   <field old="inputManager Landroid/view/inputmethod/InputMethodManager;" new="f_a"/>
+   <field old="lastPositions Ljava/util/HashMap;" new="f_f"/>
+   <field old="layoutCreate Landroid/widget/LinearLayout;" new="f_e"/>
+   <field old="layoutSelect Landroid/widget/LinearLayout;" new="f_D"/>
+   <field old="mFileName Landroid/widget/EditText;" new="f_m"/>
+   <field old="mList Ljava/util/ArrayList;" new="f_g"/>
+   <field old="myPath Landroid/widget/TextView;" new="f_E"/>
+   <field old="parentPath Ljava/lang/String;" new="f_B"/>
+   <field old="path Ljava/util/List;" new="f_L"/>
+   <field old="selectButton Landroid/widget/Button;" new="f_H"/>
+   <field old="selectedFile Ljava/io/File;" new="f_J"/>
+   <field old="selectionMode I" new="f_c"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.FileDialog$1" new="vnd.blueararat.kaleidoscope6.c_F">
+   <method old="onClick(Landroid/view/View;)V" new="onClick"/>
+   <field old="this$0 Lvnd/blueararat/kaleidoscope6/FileDialog;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.FileDialog$2" new="vnd.blueararat.kaleidoscope6.c_b">
+   <method old="onClick(Landroid/view/View;)V" new="onClick"/>
+   <field old="this$0 Lvnd/blueararat/kaleidoscope6/FileDialog;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.FileDialog$3" new="vnd.blueararat.kaleidoscope6.c_g">
+   <method old="onClick(Landroid/view/View;)V" new="onClick"/>
+   <field old="this$0 Lvnd/blueararat/kaleidoscope6/FileDialog;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.CameraPreview$1" new="vnd.blueararat.kaleidoscope6.c_L">
+   <method old="compare(Landroid/hardware/Camera$Size;Landroid/hardware/Camera$Size;)I" new="m_ga"/>
+   <method old="compare(Ljava/lang/Object;Ljava/lang/Object;)I" new="compare"/>
+   <field old="this$0 Lvnd/blueararat/kaleidoscope6/CameraPreview;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.FileDialog$4" new="vnd.blueararat.kaleidoscope6.c_a">
+   <method old="onClick(Landroid/view/View;)V" new="onClick"/>
+   <field old="this$0 Lvnd/blueararat/kaleidoscope6/FileDialog;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.CameraPreview$2" new="vnd.blueararat.kaleidoscope6.c_i">
+   <method old="doInBackground([Landroid/graphics/Bitmap;)Ljava/lang/String;" new="m_D"/>
+   <method old="doInBackground([Ljava/lang/Object;)Ljava/lang/Object;" new="doInBackground"/>
+   <method old="onPostExecute(Ljava/lang/Object;)V" new="onPostExecute"/>
+   <method old="onPostExecute(Ljava/lang/String;)V" new="m_g"/>
+   <field old="this$0 Lvnd/blueararat/kaleidoscope6/CameraPreview;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.FileDialog$5" new="vnd.blueararat.kaleidoscope6.c_f">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lvnd/blueararat/kaleidoscope6/FileDialog;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.filters.RGB2gray" new="vnd.blueararat.kaleidoscope6.filters.RGB2gray">
+   <method old="getEffect()Ljava/lang/String;" new="m_h"/>
+   <method old="getName()Ljava/lang/String;" new="m_j"/>
+   <method old="processYUV420SP([I[BII)V" new="m_H"/>
+   <method old="setString(Ljava/lang/String;)V" new="m_m"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="DEFAULT Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="f_a"/>
+   <field old="YUV_PROCESSORS [Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="f_D"/>
+   <field old="s Ljava/lang/String;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.R$array" new="vnd.blueararat.kaleidoscope6.R$array">
+   <field old="entries_list_preference I" new="entries_list_preference"/>
+   <field old="entryvalues_list_preference I" new="entryvalues_list_preference"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.R$string" new="vnd.blueararat.kaleidoscope6.R$string">
+   <field old="app_name I" new="app_name"/>
+   <field old="aqua I" new="aqua"/>
+   <field old="camera I" new="camera"/>
+   <field old="cancel I" new="cancel"/>
+   <field old="cant_read_folder I" new="cant_read_folder"/>
+   <field old="cant_save_picture_to I" new="cant_save_picture_to"/>
+   <field old="cant_zoom_in I" new="cant_zoom_in"/>
+   <field old="choose_format I" new="choose_format"/>
+   <field old="color_effect I" new="color_effect"/>
+   <field old="color_mode I" new="color_mode"/>
+   <field old="create I" new="create"/>
+   <field old="default_save_format I" new="default_save_format"/>
+   <field old="disable_camera_summary1 I" new="disable_camera_summary1"/>
+   <field old="disable_camera_summary2 I" new="disable_camera_summary2"/>
+   <field old="disable_camera_title I" new="disable_camera_title"/>
+   <field old="export I" new="export"/>
+   <field old="file_name I" new="file_name"/>
+   <field old="focus I" new="focus"/>
+   <field old="gray I" new="gray"/>
+   <field old="hardware_accel_summary I" new="hardware_accel_summary"/>
+   <field old="hardware_accel_title I" new="hardware_accel_title"/>
+   <field old="hardware_accel_toast I" new="hardware_accel_toast"/>
+   <field old="kp2_jpeg_quality I" new="kp2_jpeg_quality"/>
+   <field old="kp2_save_format I" new="kp2_save_format"/>
+   <field old="kp2cat_save I" new="kp2cat_save"/>
+   <field old="kp_blur I" new="kp_blur"/>
+   <field old="kp_blur_value I" new="kp_blur_value"/>
+   <field old="kp_category I" new="kp_category"/>
+   <field old="kp_number_of_mirrors I" new="kp_number_of_mirrors"/>
+   <field old="kps_cat I" new="kps_cat"/>
+   <field old="kps_default I" new="kps_default"/>
+   <field old="kps_summary I" new="kps_summary"/>
+   <field old="negative I" new="negative"/>
+   <field old="nnew I" new="nnew"/>
+   <field old="no_data I" new="no_data"/>
+   <field old="normal I" new="normal"/>
+   <field old="open I" new="open"/>
+   <field old="open_picture I" new="open_picture"/>
+   <field old="picture_saved_to I" new="picture_saved_to"/>
+   <field old="picture_was_too_large I" new="picture_was_too_large"/>
+   <field old="pictures_will_be_saved I" new="pictures_will_be_saved"/>
+   <field old="please_change_folder I" new="please_change_folder"/>
+   <field old="png_save_name I" new="png_save_name"/>
+   <field old="save_location I" new="save_location"/>
+   <field old="select I" new="select"/>
+   <field old="settings I" new="settings"/>
+   <field old="switch_camera I" new="switch_camera"/>
+   <field old="times I" new="times"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.BuildConfig" new="vnd.blueararat.kaleidoscope6.c_G">
+   <field old="APPLICATION_ID Ljava/lang/String;" new="f_D"/>
+   <field old="BUILD_TYPE Ljava/lang/String;" new="f_E"/>
+   <field old="DEBUG Z" new="f_m"/>
+   <field old="FLAVOR Ljava/lang/String;" new="f_e"/>
+   <field old="VERSION_CODE I" new="f_c"/>
+   <field old="VERSION_NAME Ljava/lang/String;" new="f_a"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.R$drawable" new="vnd.blueararat.kaleidoscope6.R$drawable">
+   <field old="btn_radio_off I" new="btn_radio_off"/>
+   <field old="btn_radio_on I" new="btn_radio_on"/>
+   <field old="folder I" new="folder"/>
+   <field old="ic_launcher I" new="ic_launcher"/>
+   <field old="ic_menu_2d I" new="ic_menu_2d"/>
+   <field old="ic_menu_3d I" new="ic_menu_3d"/>
+   <field old="ic_menu_camera I" new="ic_menu_camera"/>
+   <field old="ic_menu_effects I" new="ic_menu_effects"/>
+   <field old="ic_menu_focus I" new="ic_menu_focus"/>
+   <field old="ic_menu_open I" new="ic_menu_open"/>
+   <field old="ic_menu_save I" new="ic_menu_save"/>
+   <field old="ic_menu_settings I" new="ic_menu_settings"/>
+   <field old="ic_menu_switch_camera I" new="ic_menu_switch_camera"/>
+   <field old="img2 I" new="img2"/>
+   <field old="list_selector I" new="list_selector"/>
+   <field old="radio I" new="radio"/>
+   <field old="shape_menu I" new="shape_menu"/>
+   <field old="text_color I" new="text_color"/>
+   <field old="transparent I" new="transparent"/>
+   <field old="warning I" new="warning"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.Memory" new="vnd.blueararat.kaleidoscope6.c_j">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_l"/>
+   <method old="checkBitmapFitsInMemory(II)Z" new="m_e"/>
+   <method old="checkBitmapFitsInMemory(Landroid/graphics/BitmapFactory$Options;)Z" new="m_J"/>
+   <method old="factor()I" new="m_F"/>
+   <method old="setReqSize(J)V" new="m_C"/>
+   <field old="BYTES_PER_PIXEL_ARGB_8888 I" new="f_a"/>
+   <field old="HEAP_PAD J" new="f_D"/>
+   <field old="sReqsize J" new="f_e"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.filters.SimplyRGB" new="vnd.blueararat.kaleidoscope6.filters.c_e">
+   <method old="getEffect()Ljava/lang/String;" new="m_h"/>
+   <method old="getName()Ljava/lang/String;" new="m_j"/>
+   <method old="processYUV420SP([I[BII)V" new="m_H"/>
+   <method old="setString(Ljava/lang/String;)V" new="m_m"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="DEFAULT Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="f_a"/>
+   <field old="YUV_PROCESSORS [Lvnd/blueararat/kaleidoscope6/YUVProcessor;" new="f_D"/>
+   <field old="s Ljava/lang/String;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.R$xml" new="vnd.blueararat.kaleidoscope6.R$xml">
+   <field old="preferences I" new="preferences"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.FolderPref" new="vnd.blueararat.kaleidoscope6.FolderPref">
+   <method old="getString()Ljava/lang/String;" new="m_fa"/>
+   <method old="onSetInitialValue(ZLjava/lang/Object;)V" new="onSetInitialValue"/>
+   <method old="reset()V" new="m_La"/>
+   <method old="setString(Ljava/lang/String;)V" new="m_m"/>
+   <field old="mDefault Ljava/lang/String;" new="f_D"/>
+   <field old="mString Ljava/lang/String;" new="f_a"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.Prefs$1" new="vnd.blueararat.kaleidoscope6.c_B">
+   <method old="onPreferenceClick(Landroid/preference/Preference;)Z" new="onPreferenceClick"/>
+   <field old="this$0 Lvnd/blueararat/kaleidoscope6/Prefs;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.Prefs$2" new="vnd.blueararat.kaleidoscope6.c_D">
+   <method old="onPreferenceClick(Landroid/preference/Preference;)Z" new="onPreferenceClick"/>
+   <field old="this$0 Lvnd/blueararat/kaleidoscope6/Prefs;" new="f_D"/>
+  </class>
+  <class old="vnd.blueararat.kaleidoscope6.Prefs" new="vnd.blueararat.kaleidoscope6.Prefs">
+   <method old="onActivityResult(IILandroid/content/Intent;)V" new="onActivityResult"/>
+   <method old="onButtonClicked(Landroid/view/View;)V" new="onButtonClicked"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onDestroy()V" new="onDestroy"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V" new="onSharedPreferenceChanged"/>
+   <field old="KEY_FOLDER Ljava/lang/String;" new="f_J"/>
+   <field old="SELECT_FOLDER I" new="f_a"/>
+   <field old="mCheckBoxBlur Landroid/preference/CheckBoxPreference;" new="f_f"/>
+   <field old="mCheckBoxCameraInMenu Landroid/preference/CheckBoxPreference;" new="f_m"/>
+   <field old="mCheckBoxHardwareAccel Landroid/preference/CheckBoxPreference;" new="f_K"/>
+   <field old="mDefaultSaveLocation Ljava/lang/String;" new="f_E"/>
+   <field old="mPrefSaveLocation Lvnd/blueararat/kaleidoscope6/FolderPref;" new="f_e"/>
+   <field old="mSaveFormat Landroid/preference/ListPreference;" new="f_B"/>
+   <field old="mSeekbarPrefB Lvnd/blueararat/kaleidoscope6/SeekbarPref;" new="f_c"/>
+   <field old="mSeekbarPrefJ Lvnd/blueararat/kaleidoscope6/SeekbarPref;" new="f_D"/>
+   <field old="mSeekbarPrefM Lvnd/blueararat/kaleidoscope6/SeekbarPref;" new="f_i"/>
+  </class>
+  <sources>
+   <source old="BuildConfig.java" new="b"/>
+   <source old="CameraPreview.java" new="m"/>
+   <source old="FileDialog.java" new="p"/>
+   <source old="FolderPref.java" new="r"/>
+   <source old="K3DRenderer.java" new="x"/>
+   <source old="KCamera.java" new="u"/>
+   <source old="KView.java" new="d"/>
+   <source old="Kaleidoscope.java" new="t"/>
+   <source old="Memory.java" new="k"/>
+   <source old="Prefs.java" new="l"/>
+   <source old="R.java" new="z"/>
+   <source old="SeekbarPref.java" new="o"/>
+   <source old="SelectionMode.java" new="f"/>
+   <source old="Sphere.java" new="e"/>
+   <source old="Aqua.java" new="y"/>
+   <source old="Negative.java" new="h"/>
+   <source old="Normal.java" new="a"/>
+   <source old="RGB2gray.java" new="w"/>
+   <source old="SimplyRGB.java" new="s"/>
+   <source old="YUVProcessor.java" new="q"/>
+  </sources>
+  <lines>
+   <line l="109"/>
+   <line l="40"/>
+   <line l="67"/>
+   <line l="174"/>
+   <line l="173"/>
+   <line l="171"/>
+   <line l="179"/>
+   <line l="71"/>
+   <line l="83"/>
+   <line l="166"/>
+   <line l="30"/>
+   <line l="57"/>
+   <line l="192"/>
+   <line l="92"/>
+   <line l="51"/>
+   <line l="155"/>
+   <line l="96"/>
+   <line l="199"/>
+   <line l="80"/>
+   <line l="180"/>
+   <line l="191"/>
+   <line l="196"/>
+   <line l="205"/>
+   <line l="169"/>
+   <line l="181"/>
+   <line l="27"/>
+   <line l="182"/>
+   <line l="185"/>
+   <line l="132"/>
+   <line l="112"/>
+   <line l="102"/>
+   <line l="66"/>
+   <line l="147"/>
+   <line l="111"/>
+   <line l="148"/>
+   <line l="168"/>
+   <line l="14"/>
+   <line l="104"/>
+   <line l="4"/>
+   <line l="38"/>
+   <line l="41"/>
+   <line l="120"/>
+   <line l="202"/>
+   <line l="46"/>
+   <line l="219"/>
+   <line l="223"/>
+   <line l="139"/>
+   <line l="35"/>
+   <line l="15"/>
+   <line l="72"/>
+   <line l="204"/>
+   <line l="76"/>
+   <line l="88"/>
+   <line l="193"/>
+   <line l="84"/>
+   <line l="164"/>
+   <line l="44"/>
+   <line l="24"/>
+   <line l="124"/>
+   <line l="97"/>
+   <line l="48"/>
+   <line l="101"/>
+   <line l="86"/>
+   <line l="170"/>
+   <line l="122"/>
+   <line l="63"/>
+   <line l="115"/>
+   <line l="87"/>
+   <line l="225"/>
+   <line l="201"/>
+   <line l="209"/>
+   <line l="214"/>
+   <line l="26"/>
+   <line l="43"/>
+   <line l="7"/>
+   <line l="79"/>
+   <line l="113"/>
+   <line l="108"/>
+   <line l="117"/>
+   <line l="29"/>
+   <line l="42"/>
+   <line l="161"/>
+   <line l="212"/>
+   <line l="175"/>
+   <line l="56"/>
+   <line l="189"/>
+   <line l="99"/>
+   <line l="22"/>
+   <line l="1"/>
+   <line l="62"/>
+   <line l="54"/>
+   <line l="167"/>
+   <line l="138"/>
+   <line l="222"/>
+   <line l="186"/>
+   <line l="95"/>
+   <line l="153"/>
+   <line l="215"/>
+   <line l="224"/>
+   <line l="23"/>
+   <line l="13"/>
+   <line l="228"/>
+   <line l="98"/>
+   <line l="121"/>
+   <line l="0"/>
+   <line l="226"/>
+   <line l="69"/>
+   <line l="195"/>
+   <line l="28"/>
+   <line l="5"/>
+   <line l="227"/>
+   <line l="45"/>
+   <line l="230"/>
+   <line l="52"/>
+   <line l="59"/>
+   <line l="114"/>
+   <line l="58"/>
+   <line l="19"/>
+   <line l="206"/>
+   <line l="77"/>
+   <line l="144"/>
+   <line l="18"/>
+   <line l="203"/>
+   <line l="93"/>
+   <line l="78"/>
+   <line l="129"/>
+   <line l="134"/>
+   <line l="159"/>
+   <line l="49"/>
+   <line l="103"/>
+   <line l="210"/>
+   <line l="82"/>
+   <line l="90"/>
+   <line l="105"/>
+   <line l="25"/>
+   <line l="36"/>
+   <line l="39"/>
+   <line l="89"/>
+   <line l="81"/>
+   <line l="211"/>
+   <line l="150"/>
+   <line l="137"/>
+   <line l="94"/>
+   <line l="53"/>
+   <line l="126"/>
+   <line l="47"/>
+   <line l="198"/>
+   <line l="216"/>
+   <line l="208"/>
+   <line l="9"/>
+   <line l="157"/>
+   <line l="131"/>
+   <line l="158"/>
+   <line l="31"/>
+   <line l="32"/>
+   <line l="116"/>
+   <line l="135"/>
+   <line l="143"/>
+   <line l="136"/>
+   <line l="218"/>
+   <line l="11"/>
+   <line l="119"/>
+   <line l="133"/>
+   <line l="65"/>
+   <line l="34"/>
+   <line l="151"/>
+   <line l="194"/>
+   <line l="190"/>
+   <line l="207"/>
+   <line l="221"/>
+   <line l="176"/>
+   <line l="6"/>
+   <line l="8"/>
+   <line l="100"/>
+   <line l="20"/>
+   <line l="217"/>
+   <line l="123"/>
+   <line l="118"/>
+   <line l="106"/>
+   <line l="64"/>
+   <line l="75"/>
+   <line l="183"/>
+   <line l="178"/>
+   <line l="184"/>
+   <line l="232"/>
+   <line l="91"/>
+   <line l="231"/>
+   <line l="110"/>
+   <line l="16"/>
+   <line l="160"/>
+   <line l="70"/>
+   <line l="85"/>
+   <line l="172"/>
+   <line l="17"/>
+   <line l="68"/>
+   <line l="107"/>
+   <line l="50"/>
+   <line l="142"/>
+   <line l="125"/>
+   <line l="187"/>
+   <line l="128"/>
+   <line l="55"/>
+   <line l="130"/>
+   <line l="33"/>
+   <line l="74"/>
+   <line l="141"/>
+   <line l="127"/>
+   <line l="37"/>
+   <line l="21"/>
+   <line l="149"/>
+   <line l="10"/>
+   <line l="152"/>
+   <line l="163"/>
+   <line l="140"/>
+   <line l="145"/>
+   <line l="165"/>
+   <line l="2"/>
+   <line l="73"/>
+   <line l="162"/>
+   <line l="188"/>
+   <line l="200"/>
+   <line l="61"/>
+   <line l="197"/>
+   <line l="154"/>
+   <line l="3"/>
+   <line l="156"/>
+   <line l="146"/>
+   <line l="220"/>
+   <line l="177"/>
+   <line l="229"/>
+   <line l="12"/>
+   <line l="213"/>
+   <line l="60"/>
+   <line l="487"/>
+   <line l="939"/>
+   <line l="330"/>
+   <line l="248"/>
+   <line l="949"/>
+   <line l="398"/>
+   <line l="449"/>
+   <line l="521"/>
+   <line l="339"/>
+   <line l="1035"/>
+   <line l="588"/>
+   <line l="349"/>
+   <line l="552"/>
+   <line l="748"/>
+   <line l="800"/>
+   <line l="1021"/>
+   <line l="238"/>
+   <line l="821"/>
+   <line l="279"/>
+   <line l="702"/>
+   <line l="988"/>
+   <line l="549"/>
+   <line l="611"/>
+   <line l="402"/>
+   <line l="610"/>
+   <line l="513"/>
+   <line l="483"/>
+   <line l="537"/>
+   <line l="373"/>
+   <line l="625"/>
+   <line l="239"/>
+   <line l="311"/>
+   <line l="418"/>
+   <line l="576"/>
+   <line l="841"/>
+   <line l="389"/>
+   <line l="1031"/>
+   <line l="940"/>
+   <line l="242"/>
+   <line l="244"/>
+   <line l="838"/>
+   <line l="896"/>
+   <line l="930"/>
+   <line l="507"/>
+   <line l="335"/>
+   <line l="523"/>
+   <line l="1063"/>
+   <line l="560"/>
+   <line l="923"/>
+   <line l="251"/>
+   <line l="1066"/>
+   <line l="997"/>
+   <line l="952"/>
+   <line l="665"/>
+   <line l="1046"/>
+   <line l="1090"/>
+   <line l="536"/>
+   <line l="787"/>
+   <line l="1039"/>
+   <line l="1053"/>
+   <line l="314"/>
+   <line l="744"/>
+   <line l="710"/>
+   <line l="792"/>
+   <line l="672"/>
+   <line l="237"/>
+   <line l="1074"/>
+   <line l="482"/>
+   <line l="732"/>
+   <line l="1016"/>
+   <line l="276"/>
+   <line l="256"/>
+   <line l="312"/>
+   <line l="657"/>
+   <line l="633"/>
+   <line l="266"/>
+   <line l="954"/>
+   <line l="404"/>
+   <line l="812"/>
+   <line l="680"/>
+   <line l="843"/>
+   <line l="653"/>
+   <line l="701"/>
+   <line l="461"/>
+   <line l="850"/>
+   <line l="553"/>
+   <line l="509"/>
+   <line l="1015"/>
+   <line l="836"/>
+   <line l="641"/>
+   <line l="564"/>
+   <line l="503"/>
+   <line l="283"/>
+   <line l="414"/>
+   <line l="307"/>
+   <line l="951"/>
+   <line l="554"/>
+   <line l="677"/>
+   <line l="1009"/>
+   <line l="1044"/>
+   <line l="980"/>
+   <line l="1052"/>
+   <line l="871"/>
+   <line l="400"/>
+   <line l="865"/>
+   <line l="1082"/>
+   <line l="1073"/>
+   <line l="927"/>
+   <line l="1034"/>
+   <line l="840"/>
+   <line l="277"/>
+   <line l="1093"/>
+   <line l="627"/>
+   <line l="864"/>
+   <line l="261"/>
+   <line l="763"/>
+   <line l="540"/>
+   <line l="827"/>
+   <line l="740"/>
+   <line l="584"/>
+   <line l="667"/>
+   <line l="563"/>
+   <line l="671"/>
+   <line l="961"/>
+   <line l="965"/>
+   <line l="544"/>
+   <line l="858"/>
+   <line l="946"/>
+   <line l="1067"/>
+   <line l="386"/>
+   <line l="810"/>
+   <line l="387"/>
+   <line l="1043"/>
+   <line l="472"/>
+   <line l="313"/>
+   <line l="506"/>
+   <line l="747"/>
+   <line l="367"/>
+   <line l="559"/>
+   <line l="547"/>
+   <line l="538"/>
+   <line l="728"/>
+   <line l="437"/>
+   <line l="273"/>
+   <line l="780"/>
+   <line l="884"/>
+   <line l="275"/>
+   <line l="769"/>
+   <line l="778"/>
+   <line l="691"/>
+   <line l="519"/>
+   <line l="623"/>
+   <line l="835"/>
+   <line l="870"/>
+   <line l="410"/>
+   <line l="656"/>
+   <line l="478"/>
+   <line l="356"/>
+   <line l="379"/>
+   <line l="873"/>
+   <line l="877"/>
+   <line l="581"/>
+   <line l="368"/>
+   <line l="518"/>
+   <line l="718"/>
+   <line l="669"/>
+   <line l="453"/>
+   <line l="359"/>
+   <line l="517"/>
+   <line l="618"/>
+   <line l="942"/>
+   <line l="340"/>
+   <line l="876"/>
+   <line l="678"/>
+   <line l="337"/>
+   <line l="933"/>
+   <line l="500"/>
+   <line l="306"/>
+   <line l="692"/>
+   <line l="246"/>
+   <line l="654"/>
+   <line l="730"/>
+   <line l="662"/>
+   <line l="328"/>
+   <line l="342"/>
+   <line l="289"/>
+   <line l="597"/>
+   <line l="637"/>
+   <line l="434"/>
+   <line l="417"/>
+   <line l="338"/>
+   <line l="901"/>
+   <line l="897"/>
+   <line l="839"/>
+   <line l="773"/>
+   <line l="308"/>
+   <line l="485"/>
+   <line l="292"/>
+   <line l="299"/>
+   <line l="738"/>
+   <line l="585"/>
+   <line l="705"/>
+   <line l="855"/>
+   <line l="749"/>
+   <line l="458"/>
+   <line l="446"/>
+   <line l="257"/>
+   <line l="724"/>
+   <line l="630"/>
+   <line l="753"/>
+   <line l="868"/>
+   <line l="622"/>
+   <line l="789"/>
+   <line l="439"/>
+   <line l="674"/>
+   <line l="846"/>
+   <line l="253"/>
+   <line l="252"/>
+   <line l="327"/>
+   <line l="489"/>
+   <line l="957"/>
+   <line l="999"/>
+   <line l="658"/>
+   <line l="354"/>
+   <line l="994"/>
+   <line l="852"/>
+   <line l="282"/>
+   <line l="636"/>
+   <line l="508"/>
+   <line l="900"/>
+   <line l="640"/>
+   <line l="903"/>
+   <line l="268"/>
+   <line l="456"/>
+   <line l="393"/>
+   <line l="278"/>
+   <line l="409"/>
+   <line l="438"/>
+   <line l="819"/>
+   <line l="377"/>
+   <line l="767"/>
+   <line l="534"/>
+   <line l="318"/>
+   <line l="425"/>
+   <line l="775"/>
+   <line l="735"/>
+   <line l="234"/>
+   <line l="372"/>
+   <line l="590"/>
+   <line l="996"/>
+   <line l="660"/>
+   <line l="1033"/>
+   <line l="542"/>
+   <line l="1006"/>
+   <line l="430"/>
+   <line l="892"/>
+   <line l="529"/>
+   <line l="766"/>
+   <line l="280"/>
+   <line l="911"/>
+   <line l="363"/>
+   <line l="784"/>
+   <line l="366"/>
+   <line l="543"/>
+   <line l="631"/>
+   <line l="1049"/>
+   <line l="305"/>
+   <line l="355"/>
+   <line l="634"/>
+   <line l="668"/>
+   <line l="411"/>
+   <line l="364"/>
+   <line l="881"/>
+   <line l="801"/>
+   <line l="968"/>
+   <line l="970"/>
+   <line l="346"/>
+   <line l="894"/>
+   <line l="1045"/>
+   <line l="891"/>
+   <line l="912"/>
+   <line l="357"/>
+   <line l="502"/>
+   <line l="416"/>
+   <line l="235"/>
+   <line l="609"/>
+   <line l="352"/>
+   <line l="403"/>
+   <line l="977"/>
+   <line l="906"/>
+   <line l="1007"/>
+   <line l="721"/>
+   <line l="499"/>
+   <line l="1075"/>
+   <line l="236"/>
+   <line l="878"/>
+   <line l="324"/>
+   <line l="644"/>
+   <line l="694"/>
+   <line l="320"/>
+   <line l="820"/>
+   <line l="826"/>
+   <line l="274"/>
+   <line l="898"/>
+   <line l="975"/>
+   <line l="782"/>
+   <line l="842"/>
+   <line l="596"/>
+   <line l="727"/>
+   <line l="619"/>
+   <line l="759"/>
+   <line l="427"/>
+   <line l="297"/>
+   <line l="1026"/>
+   <line l="448"/>
+   <line l="907"/>
+   <line l="345"/>
+   <line l="872"/>
+   <line l="265"/>
+   <line l="443"/>
+   <line l="690"/>
+   <line l="412"/>
+   <line l="711"/>
+   <line l="1018"/>
+   <line l="315"/>
+   <line l="272"/>
+   <line l="1069"/>
+   <line l="479"/>
+   <line l="334"/>
+   <line l="1003"/>
+   <line l="831"/>
+   <line l="1012"/>
+   <line l="520"/>
+   <line l="947"/>
+   <line l="388"/>
+   <line l="421"/>
+   <line l="325"/>
+   <line l="882"/>
+   <line l="476"/>
+   <line l="681"/>
+   <line l="533"/>
+   <line l="879"/>
+   <line l="944"/>
+   <line l="464"/>
+   <line l="716"/>
+   <line l="854"/>
+   <line l="1029"/>
+   <line l="875"/>
+   <line l="1014"/>
+   <line l="241"/>
+   <line l="943"/>
+   <line l="255"/>
+   <line l="1059"/>
+   <line l="742"/>
+   <line l="495"/>
+   <line l="645"/>
+   <line l="978"/>
+   <line l="322"/>
+   <line l="752"/>
+   <line l="1048"/>
+   <line l="1032"/>
+   <line l="642"/>
+   <line l="794"/>
+   <line l="981"/>
+   <line l="580"/>
+   <line l="941"/>
+   <line l="471"/>
+   <line l="298"/>
+   <line l="570"/>
+   <line l="1086"/>
+   <line l="336"/>
+   <line l="847"/>
+   <line l="643"/>
+   <line l="673"/>
+   <line l="616"/>
+   <line l="317"/>
+   <line l="783"/>
+   <line l="962"/>
+   <line l="1040"/>
+   <line l="704"/>
+   <line l="587"/>
+   <line l="714"/>
+   <line l="830"/>
+   <line l="984"/>
+   <line l="1030"/>
+   <line l="420"/>
+   <line l="675"/>
+   <line l="527"/>
+   <line l="676"/>
+   <line l="648"/>
+   <line l="725"/>
+   <line l="655"/>
+   <line l="797"/>
+   <line l="1089"/>
+   <line l="522"/>
+   <line l="880"/>
+   <line l="385"/>
+   <line l="989"/>
+   <line l="447"/>
+   <line l="350"/>
+   <line l="777"/>
+   <line l="405"/>
+   <line l="365"/>
+   <line l="608"/>
+   <line l="663"/>
+   <line l="397"/>
+   <line l="348"/>
+   <line l="664"/>
+   <line l="360"/>
+   <line l="284"/>
+   <line l="699"/>
+   <line l="254"/>
+   <line l="756"/>
+   <line l="384"/>
+   <line l="319"/>
+   <line l="913"/>
+   <line l="679"/>
+   <line l="602"/>
+   <line l="467"/>
+   <line l="909"/>
+   <line l="269"/>
+   <line l="686"/>
+   <line l="1037"/>
+   <line l="568"/>
+   <line l="832"/>
+   <line l="700"/>
+   <line l="541"/>
+   <line l="706"/>
+   <line l="445"/>
+   <line l="579"/>
+   <line l="488"/>
+   <line l="595"/>
+   <line l="779"/>
+   <line l="869"/>
+   <line l="575"/>
+   <line l="613"/>
+   <line l="837"/>
+   <line l="290"/>
+   <line l="401"/>
+   <line l="936"/>
+   <line l="768"/>
+   <line l="652"/>
+   <line l="916"/>
+   <line l="1019"/>
+   <line l="859"/>
+   <line l="695"/>
+   <line l="1041"/>
+   <line l="804"/>
+   <line l="1017"/>
+   <line l="649"/>
+   <line l="512"/>
+   <line l="862"/>
+   <line l="1070"/>
+   <line l="1004"/>
+   <line l="396"/>
+   <line l="370"/>
+   <line l="986"/>
+   <line l="378"/>
+   <line l="917"/>
+   <line l="316"/>
+   <line l="776"/>
+   <line l="505"/>
+   <line l="715"/>
+   <line l="577"/>
+   <line l="361"/>
+   <line l="1058"/>
+   <line l="635"/>
+   <line l="621"/>
+   <line l="925"/>
+   <line l="371"/>
+   <line l="510"/>
+   <line l="571"/>
+   <line l="440"/>
+   <line l="428"/>
+   <line l="707"/>
+   <line l="754"/>
+   <line l="1076"/>
+   <line l="462"/>
+   <line l="1088"/>
+   <line l="296"/>
+   <line l="720"/>
+   <line l="883"/>
+   <line l="963"/>
+   <line l="1064"/>
+   <line l="341"/>
+   <line l="332"/>
+   <line l="791"/>
+   <line l="698"/>
+   <line l="606"/>
+   <line l="264"/>
+   <line l="723"/>
+   <line l="741"/>
+   <line l="998"/>
+   <line l="566"/>
+   <line l="888"/>
+   <line l="615"/>
+   <line l="369"/>
+   <line l="683"/>
+   <line l="722"/>
+   <line l="444"/>
+   <line l="551"/>
+   <line l="682"/>
+   <line l="423"/>
+   <line l="598"/>
+   <line l="993"/>
+   <line l="885"/>
+   <line l="974"/>
+   <line l="260"/>
+   <line l="1083"/>
+   <line l="969"/>
+   <line l="992"/>
+   <line l="1055"/>
+   <line l="250"/>
+   <line l="929"/>
+   <line l="524"/>
+   <line l="802"/>
+   <line l="948"/>
+   <line l="569"/>
+   <line l="844"/>
+   <line l="959"/>
+   <line l="399"/>
+   <line l="455"/>
+   <line l="243"/>
+   <line l="895"/>
+   <line l="565"/>
+   <line l="1028"/>
+   <line l="1092"/>
+   <line l="893"/>
+   <line l="532"/>
+   <line l="281"/>
+   <line l="973"/>
+   <line l="466"/>
+   <line l="760"/>
+   <line l="262"/>
+   <line l="848"/>
+   <line l="632"/>
+   <line l="736"/>
+   <line l="703"/>
+   <line l="928"/>
+   <line l="902"/>
+   <line l="1087"/>
+   <line l="886"/>
+   <line l="294"/>
+   <line l="486"/>
+   <line l="709"/>
+   <line l="1056"/>
+   <line l="288"/>
+   <line l="475"/>
+   <line l="572"/>
+   <line l="429"/>
+   <line l="582"/>
+   <line l="926"/>
+   <line l="1057"/>
+   <line l="592"/>
+   <line l="583"/>
+   <line l="853"/>
+   <line l="415"/>
+   <line l="816"/>
+   <line l="240"/>
+   <line l="976"/>
+   <line l="271"/>
+   <line l="904"/>
+   <line l="795"/>
+   <line l="972"/>
+   <line l="426"/>
+   <line l="270"/>
+   <line l="828"/>
+   <line l="863"/>
+   <line l="921"/>
+   <line l="697"/>
+   <line l="1079"/>
+   <line l="302"/>
+   <line l="650"/>
+   <line l="304"/>
+   <line l="555"/>
+   <line l="1085"/>
+   <line l="531"/>
+   <line l="958"/>
+   <line l="990"/>
+   <line l="309"/>
+   <line l="594"/>
+   <line l="919"/>
+   <line l="629"/>
+   <line l="739"/>
+   <line l="394"/>
+   <line l="914"/>
+   <line l="817"/>
+   <line l="493"/>
+   <line l="982"/>
+   <line l="452"/>
+   <line l="406"/>
+   <line l="712"/>
+   <line l="818"/>
+   <line l="514"/>
+   <line l="497"/>
+   <line l="494"/>
+   <line l="1001"/>
+   <line l="605"/>
+   <line l="347"/>
+   <line l="985"/>
+   <line l="811"/>
+   <line l="890"/>
+   <line l="469"/>
+   <line l="465"/>
+   <line l="245"/>
+   <line l="557"/>
+   <line l="851"/>
+   <line l="599"/>
+   <line l="1013"/>
+   <line l="329"/>
+   <line l="1054"/>
+   <line l="433"/>
+   <line l="1036"/>
+   <line l="436"/>
+   <line l="829"/>
+   <line l="719"/>
+   <line l="463"/>
+   <line l="249"/>
+   <line l="586"/>
+   <line l="798"/>
+   <line l="746"/>
+   <line l="496"/>
+   <line l="1023"/>
+   <line l="591"/>
+   <line l="638"/>
+   <line l="1078"/>
+   <line l="960"/>
+   <line l="419"/>
+   <line l="770"/>
+   <line l="603"/>
+   <line l="550"/>
+   <line l="809"/>
+   <line l="459"/>
+   <line l="301"/>
+   <line l="956"/>
+   <line l="938"/>
+   <line l="971"/>
+   <line l="326"/>
+   <line l="498"/>
+   <line l="796"/>
+   <line l="574"/>
+   <line l="1000"/>
+   <line l="684"/>
+   <line l="331"/>
+   <line l="515"/>
+   <line l="1027"/>
+   <line l="1051"/>
+   <line l="390"/>
+   <line l="905"/>
+   <line l="733"/>
+   <line l="950"/>
+   <line l="651"/>
+   <line l="343"/>
+   <line l="351"/>
+   <line l="323"/>
+   <line l="374"/>
+   <line l="1061"/>
+   <line l="790"/>
+   <line l="823"/>
+   <line l="666"/>
+   <line l="407"/>
+   <line l="295"/>
+   <line l="793"/>
+   <line l="546"/>
+   <line l="247"/>
+   <line l="628"/>
+   <line l="646"/>
+   <line l="860"/>
+   <line l="545"/>
+   <line l="263"/>
+   <line l="866"/>
+   <line l="808"/>
+   <line l="708"/>
+   <line l="422"/>
+   <line l="874"/>
+   <line l="481"/>
+   <line l="504"/>
+   <line l="953"/>
+   <line l="477"/>
+   <line l="785"/>
+   <line l="1068"/>
+   <line l="612"/>
+   <line l="867"/>
+   <line l="285"/>
+   <line l="845"/>
+   <line l="729"/>
+   <line l="1050"/>
+   <line l="955"/>
+   <line l="857"/>
+   <line l="822"/>
+   <line l="293"/>
+   <line l="967"/>
+   <line l="966"/>
+   <line l="375"/>
+   <line l="931"/>
+   <line l="751"/>
+   <line l="528"/>
+   <line l="670"/>
+   <line l="1025"/>
+   <line l="382"/>
+   <line l="807"/>
+   <line l="617"/>
+   <line l="786"/>
+   <line l="765"/>
+   <line l="856"/>
+   <line l="457"/>
+   <line l="601"/>
+   <line l="805"/>
+   <line l="473"/>
+   <line l="431"/>
+   <line l="333"/>
+   <line l="344"/>
+   <line l="889"/>
+   <line l="945"/>
+   <line l="300"/>
+   <line l="934"/>
+   <line l="451"/>
+   <line l="726"/>
+   <line l="734"/>
+   <line l="468"/>
+   <line l="492"/>
+   <line l="233"/>
+   <line l="824"/>
+   <line l="470"/>
+   <line l="548"/>
+   <line l="435"/>
+   <line l="1091"/>
+   <line l="391"/>
+   <line l="693"/>
+   <line l="310"/>
+   <line l="480"/>
+   <line l="511"/>
+   <line l="484"/>
+   <line l="626"/>
+   <line l="620"/>
+   <line l="353"/>
+   <line l="922"/>
+   <line l="1071"/>
+   <line l="558"/>
+   <line l="1060"/>
+   <line l="771"/>
+   <line l="1072"/>
+   <line l="1022"/>
+   <line l="737"/>
+   <line l="441"/>
+   <line l="788"/>
+   <line l="688"/>
+   <line l="383"/>
+   <line l="501"/>
+   <line l="362"/>
+   <line l="1042"/>
+   <line l="376"/>
+   <line l="813"/>
+   <line l="757"/>
+   <line l="607"/>
+   <line l="589"/>
+   <line l="761"/>
+   <line l="535"/>
+   <line l="834"/>
+   <line l="561"/>
+   <line l="381"/>
+   <line l="539"/>
+   <line l="1081"/>
+   <line l="614"/>
+   <line l="908"/>
+   <line l="687"/>
+   <line l="899"/>
+   <line l="380"/>
+   <line l="1077"/>
+   <line l="562"/>
+   <line l="1008"/>
+   <line l="291"/>
+   <line l="604"/>
+   <line l="937"/>
+   <line l="395"/>
+   <line l="743"/>
+   <line l="490"/>
+   <line l="303"/>
+   <line l="358"/>
+   <line l="915"/>
+   <line l="861"/>
+   <line l="593"/>
+   <line l="1062"/>
+   <line l="661"/>
+   <line l="600"/>
+   <line l="713"/>
+   <line l="887"/>
+   <line l="258"/>
+   <line l="286"/>
+   <line l="530"/>
+   <line l="556"/>
+   <line l="1002"/>
+   <line l="450"/>
+   <line l="935"/>
+   <line l="849"/>
+   <line l="995"/>
+   <line l="454"/>
+   <line l="659"/>
+   <line l="799"/>
+   <line l="267"/>
+   <line l="424"/>
+   <line l="639"/>
+   <line l="408"/>
+   <line l="413"/>
+   <line l="964"/>
+   <line l="731"/>
+   <line l="1010"/>
+   <line l="685"/>
+   <line l="745"/>
+   <line l="491"/>
+   <line l="814"/>
+   <line l="932"/>
+   <line l="1084"/>
+   <line l="1011"/>
+   <line l="1020"/>
+   <line l="460"/>
+   <line l="1005"/>
+   <line l="526"/>
+   <line l="442"/>
+   <line l="647"/>
+   <line l="806"/>
+   <line l="1024"/>
+   <line l="772"/>
+   <line l="803"/>
+   <line l="983"/>
+   <line l="1047"/>
+   <line l="755"/>
+   <line l="815"/>
+   <line l="717"/>
+   <line l="825"/>
+   <line l="764"/>
+   <line l="573"/>
+   <line l="1065"/>
+   <line l="1038"/>
+   <line l="516"/>
+   <line l="259"/>
+   <line l="432"/>
+   <line l="287"/>
+   <line l="689"/>
+   <line l="567"/>
+   <line l="910"/>
+   <line l="758"/>
+   <line l="750"/>
+   <line l="781"/>
+   <line l="762"/>
+   <line l="991"/>
+   <line l="624"/>
+   <line l="979"/>
+   <line l="321"/>
+   <line l="474"/>
+   <line l="987"/>
+   <line l="525"/>
+   <line l="924"/>
+   <line l="918"/>
+   <line l="1080"/>
+   <line l="578"/>
+   <line l="920"/>
+   <line l="774"/>
+   <line l="392"/>
+   <line l="696"/>
+   <line l="833"/>
+  </lines>
+ </mapping>
+</allatori>

@@ -1,0 +1,257 @@
+org.poirsouille.tinc_gui.AboutActivity -> org.poirsouille.tinc_gui.AboutActivity:
+    android.widget.TextView _txtView -> a
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+org.poirsouille.tinc_gui.BootReceiver -> org.poirsouille.tinc_gui.BootReceiver:
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+org.poirsouille.tinc_gui.BuildConfig -> org.poirsouille.tinc_gui.a:
+    java.lang.String APPLICATION_ID -> b
+    java.lang.String BUILD_TYPE -> c
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> d
+    int VERSION_CODE -> e
+    java.lang.String VERSION_NAME -> f
+    void <init>() -> <init>
+org.poirsouille.tinc_gui.FilePreference -> org.poirsouille.tinc_gui.b:
+    java.lang.String DEFAULT_VALUE -> g
+    java.lang.String PARENT_FOLDER -> h
+    android.widget.TextView _currPathTxtView -> i
+    java.util.ArrayList _fileList -> j
+    java.lang.String _filePath -> k
+    void <init>(android.content.Context,android.util.AttributeSet) -> <init>
+    void access$000(org.poirsouille.tinc_gui.FilePreference,java.lang.String) -> a
+    void updateFilePath(java.lang.String) -> a
+    void updateFilesList(java.lang.String) -> b
+    void onBindDialogView(android.view.View) -> onBindDialogView
+    void onDialogClosed(boolean) -> onDialogClosed
+    java.lang.Object onGetDefaultValue(android.content.res.TypedArray,int) -> onGetDefaultValue
+    void onSetInitialValue(boolean,java.lang.Object) -> onSetInitialValue
+org.poirsouille.tinc_gui.FilePreference$1 -> org.poirsouille.tinc_gui.c:
+    org.poirsouille.tinc_gui.FilePreference this$0 -> l
+    android.widget.ArrayAdapter val$fileList -> m
+    void <init>(org.poirsouille.tinc_gui.FilePreference,android.widget.ArrayAdapter) -> <init>
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+org.poirsouille.tinc_gui.ICallback -> org.poirsouille.tinc_gui.d:
+    void call(java.lang.String) -> c
+org.poirsouille.tinc_gui.R -> org.poirsouille.tinc_gui.e:
+    void <init>() -> <init>
+org.poirsouille.tinc_gui.R$array -> org.poirsouille.tinc_gui.R$array:
+    int debug_lvl_entries -> debug_lvl_entries
+    int debug_lvl_values -> debug_lvl_values
+    void <init>() -> <init>
+org.poirsouille.tinc_gui.R$attr -> org.poirsouille.tinc_gui.R$attr:
+    void <init>() -> <init>
+org.poirsouille.tinc_gui.R$drawable -> org.poirsouille.tinc_gui.R$drawable:
+    int ic_launcher -> ic_launcher
+    int ic_menu_manage -> ic_menu_manage
+    int ic_menu_play_clip -> ic_menu_play_clip
+    int ic_menu_stop -> ic_menu_stop
+    int notification -> notification
+    void <init>() -> <init>
+org.poirsouille.tinc_gui.R$id -> org.poirsouille.tinc_gui.R$id:
+    int about -> about
+    int aboutTextView -> aboutTextView
+    int button1 -> button1
+    int button2 -> button2
+    int button3 -> button3
+    int currPathTextView -> currPathTextView
+    int debugButton -> debugButton
+    int listView1 -> listView1
+    int logTextView -> logTextView
+    int scrollView1 -> scrollView1
+    int settings -> settings
+    int textView1 -> textView1
+    void <init>() -> <init>
+org.poirsouille.tinc_gui.R$layout -> org.poirsouille.tinc_gui.R$layout:
+    int about -> about
+    int file_preference -> file_preference
+    int main -> main
+    void <init>() -> <init>
+org.poirsouille.tinc_gui.R$menu -> org.poirsouille.tinc_gui.R$menu:
+    int menu -> menu
+    void <init>() -> <init>
+org.poirsouille.tinc_gui.R$raw -> org.poirsouille.tinc_gui.R$raw:
+    int favicon -> favicon
+    void <init>() -> <init>
+org.poirsouille.tinc_gui.R$string -> org.poirsouille.tinc_gui.R$string:
+    int about -> about
+    int about_text -> about_text
+    int app_name -> app_name
+    int button_clear -> button_clear
+    int button_status -> button_status
+    int config_path -> config_path
+    int config_path_details -> config_path_details
+    int current_path -> current_path
+    int debug -> debug
+    int font_size_log -> font_size_log
+    int font_size_log_details -> font_size_log_details
+    int hello -> hello
+    int local_service_label -> local_service_label
+    int local_service_started -> local_service_started
+    int max_log_size -> max_log_size
+    int max_log_size_details -> max_log_size_details
+    int no_su_error -> no_su_error
+    int pref_key_config_path -> pref_key_config_path
+    int pref_key_font_size_log -> pref_key_font_size_log
+    int pref_key_max_log_size -> pref_key_max_log_size
+    int pref_title_autostart_boot -> pref_title_autostart_boot
+    int pref_title_current_config -> pref_title_current_config
+    int pref_title_debug_level -> pref_title_debug_level
+    int pref_title_force_reconnect -> pref_title_force_reconnect
+    int pref_title_general_settings -> pref_title_general_settings
+    int pref_title_hosts -> pref_title_hosts
+    int pref_title_super_user -> pref_title_super_user
+    int settings -> settings
+    int start -> start
+    int stop -> stop
+    void <init>() -> <init>
+org.poirsouille.tinc_gui.R$xml -> org.poirsouille.tinc_gui.R$xml:
+    int preferences -> preferences
+    void <init>() -> <init>
+org.poirsouille.tinc_gui.SettingsActivity -> org.poirsouille.tinc_gui.SettingsActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+org.poirsouille.tinc_gui.SettingsActivityOld -> org.poirsouille.tinc_gui.SettingsActivityOld:
+    org.poirsouille.tinc_gui.SettingsTools _settingsTools -> n
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPause() -> onPause
+    void onResume() -> onResume
+org.poirsouille.tinc_gui.SettingsFragment -> org.poirsouille.tinc_gui.f:
+    org.poirsouille.tinc_gui.SettingsTools _settingsTools -> n
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPause() -> onPause
+    void onResume() -> onResume
+org.poirsouille.tinc_gui.SettingsTools -> org.poirsouille.tinc_gui.g:
+    java.lang.String CONF_FILE -> o
+    android.content.Context _context -> p
+    android.preference.PreferenceScreen _preferenceScreen -> q
+    android.content.SharedPreferences _sharedPreferences -> r
+    void <init>(android.content.Context,android.preference.PreferenceScreen) -> <init>
+    void addFilePreference(java.io.File,android.preference.PreferenceGroup,int) -> a
+    void addHostsToGroup(java.io.File,android.preference.PreferenceGroup) -> a
+    void addStandardConfig(java.io.File,android.preference.PreferenceGroup) -> b
+    void addUpDown(java.io.File,android.preference.PreferenceGroup) -> c
+    void updateConfig() -> a
+    void updateSummaries(android.preference.PreferenceGroup) -> a
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+org.poirsouille.tinc_gui.TincActivity -> org.poirsouille.tinc_gui.TincActivity:
+    android.content.ServiceConnection _connection -> s
+    android.widget.ToggleButton _debugButton -> t
+    android.widget.TextView _logTextView -> u
+    android.widget.ScrollView _scroll -> v
+    org.poirsouille.tinc_gui.TincdService _service -> w
+    android.widget.Button _startStopButton -> x
+    android.widget.TextView _txtView -> a
+    void <init>() -> <init>
+    void access$000(org.poirsouille.tinc_gui.TincActivity,java.lang.String) -> a
+    void access$100(org.poirsouille.tinc_gui.TincActivity) -> a
+    boolean checkRoot() -> b
+    void updateLog(java.lang.String) -> d
+    void updateStatus() -> c
+    void call(java.lang.String) -> c
+    void click(android.view.View) -> click
+    void clickClear(android.view.View) -> clickClear
+    void clickStatus(android.view.View) -> clickStatus
+    void debugClick(android.view.View) -> debugClick
+    java.lang.Integer getLogFontSize() -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onPause() -> onPause
+    void onRestoreInstanceState(android.os.Bundle) -> onRestoreInstanceState
+    void onResume() -> onResume
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onStart() -> onStart
+    void onStop() -> onStop
+org.poirsouille.tinc_gui.TincActivity$1 -> org.poirsouille.tinc_gui.h:
+    org.poirsouille.tinc_gui.TincActivity this$0 -> y
+    void <init>(org.poirsouille.tinc_gui.TincActivity) -> <init>
+    void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
+    void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
+org.poirsouille.tinc_gui.TincActivity$2 -> org.poirsouille.tinc_gui.i:
+    org.poirsouille.tinc_gui.TincActivity this$0 -> y
+    void <init>(org.poirsouille.tinc_gui.TincActivity) -> <init>
+    void onLayoutChange(android.view.View,int,int,int,int,int,int,int,int) -> onLayoutChange
+org.poirsouille.tinc_gui.TincActivity$3 -> org.poirsouille.tinc_gui.j:
+    org.poirsouille.tinc_gui.TincActivity this$0 -> y
+    void <init>(org.poirsouille.tinc_gui.TincActivity) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+org.poirsouille.tinc_gui.TincActivity$4 -> org.poirsouille.tinc_gui.k:
+    org.poirsouille.tinc_gui.TincActivity this$0 -> y
+    java.lang.String val$iData -> z
+    void <init>(org.poirsouille.tinc_gui.TincActivity,java.lang.String) -> <init>
+    void run() -> run
+org.poirsouille.tinc_gui.TincdService -> org.poirsouille.tinc_gui.TincdService:
+    java.lang.String PIDFILE -> A
+    java.lang.String TINCBIN -> B
+    int NOTIFICATION -> C
+    android.os.IBinder _binder -> D
+    org.poirsouille.tinc_gui.TincdService$ConnectivityroadcastReceiver _broadcastReceiver -> E
+    org.poirsouille.tinc_gui.ICallback _callback -> F
+    java.lang.String _configPath -> G
+    boolean _debug -> H
+    int _debugLvl -> I
+    int _maxLogSize -> J
+    android.content.SharedPreferences$OnSharedPreferenceChangeListener _prefChangeListener -> K
+    boolean _reconnectOnNetChange -> L
+    android.content.SharedPreferences _sharedPref -> M
+    boolean _started -> N
+    java.util.List _tempOutput -> O
+    boolean _useSU -> P
+    void <init>() -> <init>
+    boolean access$000(org.poirsouille.tinc_gui.TincdService) -> a
+    boolean access$100(org.poirsouille.tinc_gui.TincdService) -> b
+    boolean access$102(org.poirsouille.tinc_gui.TincdService,boolean) -> a
+    org.poirsouille.tinc_gui.TincdService$ConnectivityroadcastReceiver access$200(org.poirsouille.tinc_gui.TincdService) -> c
+    int access$300(org.poirsouille.tinc_gui.TincdService) -> d
+    void access$400(org.poirsouille.tinc_gui.TincdService,java.lang.String) -> a
+    java.lang.String getArch() -> e
+    void refreshPrefs(java.lang.String) -> e
+    void showNotification() -> f
+    void call(java.lang.String) -> c
+    void checkAndStopSelf() -> g
+    int getPid() -> getPid
+    java.lang.String getStatus() -> h
+    void installTincd() -> i
+    boolean isStarted() -> isStarted
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+    java.util.List popOutput() -> j
+    java.util.List run(java.lang.String,org.poirsouille.tinc_gui.ICallback) -> a
+    java.lang.String signal(java.lang.String) -> f
+    void startTinc() -> k
+    void stopTincd() -> l
+    void toggleDebug() -> m
+org.poirsouille.tinc_gui.TincdService$1 -> org.poirsouille.tinc_gui.l:
+    org.poirsouille.tinc_gui.TincdService this$0 -> Q
+    void <init>(org.poirsouille.tinc_gui.TincdService) -> <init>
+    void run() -> run
+org.poirsouille.tinc_gui.TincdService$2 -> org.poirsouille.tinc_gui.m:
+    org.poirsouille.tinc_gui.TincdService this$0 -> Q
+    void <init>(org.poirsouille.tinc_gui.TincdService) -> <init>
+    void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+org.poirsouille.tinc_gui.TincdService$ConnectivityroadcastReceiver -> org.poirsouille.tinc_gui.TincdService$ConnectivityroadcastReceiver:
+    boolean _receiverRegistered -> R
+    org.poirsouille.tinc_gui.TincdService this$0 -> Q
+    void <init>(org.poirsouille.tinc_gui.TincdService) -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void register() -> n
+    void unregister() -> unregister
+org.poirsouille.tinc_gui.TincdService$LocalBinder -> org.poirsouille.tinc_gui.n:
+    org.poirsouille.tinc_gui.TincdService this$0 -> Q
+    void <init>(org.poirsouille.tinc_gui.TincdService) -> <init>
+    org.poirsouille.tinc_gui.TincdService getService() -> o
+org.poirsouille.tinc_gui.Tools -> org.poirsouille.tinc_gui.o:
+    java.lang.String TAG -> TAG
+    void <init>() -> <init>
+    java.util.List Run(java.lang.String,java.lang.String) -> a
+    java.util.List Run(java.lang.String,java.lang.String,org.poirsouille.tinc_gui.ICallback) -> a
+    java.util.List Run(java.lang.String,java.lang.String[],org.poirsouille.tinc_gui.ICallback) -> a
+    java.lang.String ToString(java.util.List) -> a

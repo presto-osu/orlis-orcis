@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v5.9 Educational
+   Web: http://www.allatori.com
+
+   Log created: Mon Aug 13 21:29:58 EDT 2018
+-->
+
+<allatori>
+ <mapping>
+  <class old="souch.smp.R$xml" new="souch.smp.R$xml">
+   <field old="preferences I" new="preferences"/>
+  </class>
+  <class old="souch.smp.BuildConfig" new="souch.smp.c_g">
+   <field old="APPLICATION_ID Ljava/lang/String;" new="f_i"/>
+   <field old="BUILD_TYPE Ljava/lang/String;" new="f_f"/>
+   <field old="DEBUG Z" new="f_F"/>
+   <field old="FLAVOR Ljava/lang/String;" new="f_K"/>
+   <field old="VERSION_CODE I" new="f_I"/>
+   <field old="VERSION_NAME Ljava/lang/String;" new="f_l"/>
+  </class>
+  <class old="souch.smp.R$menu" new="souch.smp.R$menu">
+   <field old="menu_main I" new="menu_main"/>
+  </class>
+  <class old="souch.smp.R$array" new="souch.smp.R$array">
+   <field old="settings_fold_entries I" new="settings_fold_entries"/>
+   <field old="settings_fold_values I" new="settings_fold_values"/>
+  </class>
+  <class old="souch.smp.ParametersImpl" new="souch.smp.c_D">
+   <method old="getBigTextSize()I" new="m_L"/>
+   <method old="getChoosedTextSize()Z" new="m_h"/>
+   <method old="getDefaultFold()I" new="m_M"/>
+   <method old="getDefaultMusicDir()Ljava/lang/String;" new="m_zB"/>
+   <method old="getEditor()Landroid/content/SharedPreferences$Editor;" new="m_DB"/>
+   <method old="getEnableShake()Z" new="m_i"/>
+   <method old="getFilter()Lsouch/smp/Filter;" new="m_D"/>
+   <method old="getFollowSong()Z" new="m_a"/>
+   <method old="getMediaButtonStartAppShake()Z" new="m_k"/>
+   <method old="getNoLock()Z" new="m_B"/>
+   <method old="getNormalTextSize()I" new="m_f"/>
+   <method old="getPref()Landroid/content/SharedPreferences;" new="m_aA"/>
+   <method old="getRootFolder()Ljava/lang/String;" new="m_m"/>
+   <method old="getSaveSongPos()Z" new="m_j"/>
+   <method old="getScrobble()Z" new="m_A"/>
+   <method old="getShakeThreshold()F" new="m_F"/>
+   <method old="getShuffle()Z" new="m_e"/>
+   <method old="getSongID()J" new="m_b"/>
+   <method old="getSongPos()I" new="m_G"/>
+   <method old="getTextSizeRatio()F" new="m_C"/>
+   <method old="getUnfoldSubGroup()Z" new="m_I"/>
+   <method old="getUnfoldSubGroupThreshold()I" new="m_E"/>
+   <method old="getVibrate()Z" new="m_H"/>
+   <method old="setChooseTextSize(Z)V" new="m_g"/>
+   <method old="setEnableShake(Z)V" new="m_l"/>
+   <method old="setFilter(Lsouch/smp/Filter;)V" new="m_K"/>
+   <method old="setNoLock(Z)V" new="m_J"/>
+   <method old="setSongID(J)V" new="m_c"/>
+   <method old="setSongPos(I)V" new="m_d"/>
+   <field old="context Landroid/content/Context;" new="f_l"/>
+  </class>
+  <class old="souch.smp.R$id" new="souch.smp.R$id">
+   <field old="action_bar I" new="action_bar"/>
+   <field old="action_button I" new="action_button"/>
+   <field old="action_fold I" new="action_fold"/>
+   <field old="action_settings I" new="action_settings"/>
+   <field old="action_shake I" new="action_shake"/>
+   <field old="action_sort I" new="action_sort"/>
+   <field old="action_text_size I" new="action_text_size"/>
+   <field old="action_unfold I" new="action_unfold"/>
+   <field old="app_button I" new="app_button"/>
+   <field old="curr_duration I" new="curr_duration"/>
+   <field old="curr_play I" new="curr_play"/>
+   <field old="duration I" new="duration"/>
+   <field old="goto_button I" new="goto_button"/>
+   <field old="lock_button I" new="lock_button"/>
+   <field old="next_button I" new="next_button"/>
+   <field old="play_button I" new="play_button"/>
+   <field old="prev_button I" new="prev_button"/>
+   <field old="seek_bar I" new="seek_bar"/>
+   <field old="selected I" new="selected"/>
+   <field old="settings I" new="settings"/>
+   <field old="song_duration I" new="song_duration"/>
+   <field old="song_layout I" new="song_layout"/>
+   <field old="song_list I" new="song_list"/>
+   <field old="song_title I" new="song_title"/>
+  </class>
+  <class old="souch.smp.Row" new="souch.smp.Row">
+   <method old="convertDpToPixels(ILandroid/content/res/Resources;)I" new="m_Aa"/>
+   <method old="getGenuinePos()I" new="m_ca"/>
+   <method old="getLevel()I" new="m_Ma"/>
+   <method old="getParent()Lsouch/smp/Row;" new="m_aa"/>
+   <method old="getStringOffset()Ljava/lang/String;" new="m_Ba"/>
+   <method old="setGenuinePos(I)V" new="m_ha"/>
+   <method old="setLevel(I)V" new="m_Ga"/>
+   <method old="setParent(Lsouch/smp/Row;)V" new="m_Ea"/>
+   <method old="setView(Lsouch/smp/RowViewHolder;Lsouch/smp/Main;I)V" new="m_Ha"/>
+   <field old="backgroundColor I" new="backgroundColor"/>
+   <field old="converted Ljava/util/Map;" new="f_l"/>
+   <field old="genuinePos I" new="f_I"/>
+   <field old="level I" new="f_F"/>
+   <field old="levelOffset I" new="levelOffset"/>
+   <field old="parent Lsouch/smp/Row;" new="f_i"/>
+   <field old="typeface I" new="f_K"/>
+  </class>
+  <class old="souch.smp.Settings" new="souch.smp.Settings">
+   <method old="access$002(Lsouch/smp/Settings;Lsouch/smp/MusicService;)Lsouch/smp/MusicService;" new="m_s"/>
+   <method old="access$102(Lsouch/smp/Settings;Z)Z" new="m_N"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onDestroy()V" new="onDestroy"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onPreferenceClick(Landroid/preference/Preference;)Z" new="onPreferenceClick"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V" new="onSharedPreferenceChanged"/>
+   <method old="rescan()V" new="m_X"/>
+   <method old="setChoosedTextSizeSummary()V" new="m_u"/>
+   <method old="setFoldSummary()V" new="m_w"/>
+   <method old="setUnfoldSubgroup()V" new="m_z"/>
+   <method old="setUnfoldThresholdSummary()V" new="m_v"/>
+   <method old="showDonateWebsite()V" new="m_Z"/>
+   <field old="musicConnection Landroid/content/ServiceConnection;" new="f_K"/>
+   <field old="musicSrv Lsouch/smp/MusicService;" new="f_i"/>
+   <field old="params Lsouch/smp/Parameters;" new="f_F"/>
+   <field old="playIntent Landroid/content/Intent;" new="f_I"/>
+   <field old="serviceBound Z" new="f_l"/>
+  </class>
+  <class old="souch.smp.Settings$1" new="souch.smp.c_a">
+   <method old="onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V" new="onServiceConnected"/>
+   <method old="onServiceDisconnected(Landroid/content/ComponentName;)V" new="onServiceDisconnected"/>
+   <field old="this$0 Lsouch/smp/Settings;" new="f_l"/>
+  </class>
+  <class old="souch.smp.Main$1" new="souch.smp.c_J">
+   <method old="onServiceConnected(Landroid/content/ComponentName;Landroid/os/IBinder;)V" new="onServiceConnected"/>
+   <method old="onServiceDisconnected(Landroid/content/ComponentName;)V" new="onServiceDisconnected"/>
+   <field old="this$0 Lsouch/smp/Main;" new="f_l"/>
+  </class>
+  <class old="souch.smp.R$dimen" new="souch.smp.R$dimen">
+   <field old="activity_horizontal_margin I" new="activity_horizontal_margin"/>
+   <field old="activity_vertical_margin I" new="activity_vertical_margin"/>
+  </class>
+  <class old="souch.smp.Main$2" new="souch.smp.c_l">
+   <method old="onProgressChanged(Landroid/widget/SeekBar;IZ)V" new="onProgressChanged"/>
+   <method old="onStartTrackingTouch(Landroid/widget/SeekBar;)V" new="onStartTrackingTouch"/>
+   <method old="onStopTrackingTouch(Landroid/widget/SeekBar;)V" new="onStopTrackingTouch"/>
+   <field old="this$0 Lsouch/smp/Main;" new="f_l"/>
+  </class>
+  <class old="souch.smp.Main$3" new="souch.smp.c_i">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lsouch/smp/Main;" new="f_l"/>
+  </class>
+  <class old="souch.smp.Main$4" new="souch.smp.c_k">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lsouch/smp/Main;" new="f_l"/>
+  </class>
+  <class old="souch.smp.Main$5" new="souch.smp.c_e">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lsouch/smp/Main;" new="f_l"/>
+  </class>
+  <class old="souch.smp.Rows$1" new="souch.smp.Rows$1">
+   <method old="compare(Ljava/lang/Object;Ljava/lang/Object;)I" new="compare"/>
+   <method old="compare(Lsouch/smp/Row;Lsouch/smp/Row;)I" new="m_o"/>
+   <field old="this$0 Lsouch/smp/Rows;" new="f_l"/>
+  </class>
+  <class old="souch.smp.Main$6" new="souch.smp.c_h">
+   <method old="onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z" new="onTouch"/>
+   <field old="this$0 Lsouch/smp/Main;" new="f_l"/>
+  </class>
+  <class old="souch.smp.Rows$2" new="souch.smp.Rows$2">
+   <method old="compare(Ljava/lang/Object;Ljava/lang/Object;)I" new="compare"/>
+   <method old="compare(Lsouch/smp/Row;Lsouch/smp/Row;)I" new="m_o"/>
+   <field old="this$0 Lsouch/smp/Rows;" new="f_l"/>
+  </class>
+  <class old="souch.smp.Main$7" new="souch.smp.c_H">
+   <method old="onRepeat(Landroid/view/View;JI)V" new="m_S"/>
+   <field old="this$0 Lsouch/smp/Main;" new="f_l"/>
+  </class>
+  <class old="souch.smp.Rows$3" new="souch.smp.Rows$3">
+   <field old="$SwitchMap$souch$smp$Filter [I" new="f_l"/>
+  </class>
+  <class old="souch.smp.MediaButtonIntentReceiver" new="souch.smp.MediaButtonIntentReceiver">
+   <method old="onReceive(Landroid/content/Context;Landroid/content/Intent;)V" new="onReceive"/>
+   <field old="mLastClickTime J" new="f_l"/>
+  </class>
+  <class old="souch.smp.Main$8" new="souch.smp.c_f">
+   <method old="onRepeat(Landroid/view/View;JI)V" new="m_S"/>
+   <field old="this$0 Lsouch/smp/Main;" new="f_l"/>
+  </class>
+  <class old="souch.smp.RowGroup" new="souch.smp.RowGroup">
+   <method old="convertDpToPixels(ILandroid/content/res/Resources;)I" new="m_Aa"/>
+   <method old="getGenuinePos()I" new="m_ca"/>
+   <method old="getLevel()I" new="m_Ma"/>
+   <method old="getName()Ljava/lang/String;" new="m_sa"/>
+   <method old="getParent()Lsouch/smp/Row;" new="m_aa"/>
+   <method old="getStringOffset()Ljava/lang/String;" new="m_Ba"/>
+   <method old="incNbRowSong()V" new="m_Ra"/>
+   <method old="isFolded()Z" new="m_ya"/>
+   <method old="isSelected()Z" new="m_Xa"/>
+   <method old="nbRowSong()I" new="m_Va"/>
+   <method old="setDuration(Landroid/widget/TextView;)V" new="m_Ya"/>
+   <method old="setFolded(Z)V" new="m_ua"/>
+   <method old="setGenuinePos(I)V" new="m_ha"/>
+   <method old="setLevel(I)V" new="m_Ga"/>
+   <method old="setParent(Lsouch/smp/Row;)V" new="m_Ea"/>
+   <method old="setSelected(Z)V" new="m_wa"/>
+   <method old="setText(Landroid/widget/TextView;)V" new="m_Pa"/>
+   <method old="setView(Lsouch/smp/RowViewHolder;Lsouch/smp/Main;I)V" new="m_Ha"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="backgroundColor I" new="backgroundColor"/>
+   <field old="color I" new="f_D"/>
+   <field old="folded Z" new="f_i"/>
+   <field old="genuinePos I" new="f_I"/>
+   <field old="level I" new="f_F"/>
+   <field old="levelOffset I" new="levelOffset"/>
+   <field old="name Ljava/lang/String;" new="f_M"/>
+   <field old="nbRowSong I" new="f_f"/>
+   <field old="normalTextColor I" new="normalTextColor"/>
+   <field old="parent Lsouch/smp/Row;" new="f_i"/>
+   <field old="playingTextColor I" new="playingTextColor"/>
+   <field old="rowType Lsouch/smp/Filter;" new="rowType"/>
+   <field old="selected Z" new="f_E"/>
+   <field old="textSize I" new="f_l"/>
+   <field old="typeface I" new="f_K"/>
+  </class>
+  <class old="souch.smp.MusicService$1" new="souch.smp.c_E">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lsouch/smp/MusicService;" new="f_i"/>
+   <field old="val$seekPosTimer Ljava/util/Timer;" new="f_l"/>
+  </class>
+  <class old="souch.smp.Main$9" new="souch.smp.c_b">
+   <field old="$SwitchMap$souch$smp$Filter [I" new="f_l"/>
+  </class>
+  <class old="souch.smp.Main" new="souch.smp.Main">
+   <method old="access$000(Lsouch/smp/Main;)Lsouch/smp/MusicService;" new="m_GC"/>
+   <method old="access$002(Lsouch/smp/Main;Lsouch/smp/MusicService;)Lsouch/smp/MusicService;" new="m_qA"/>
+   <method old="access$100(Lsouch/smp/Main;)Lsouch/smp/Rows;" new="m_Gb"/>
+   <method old="access$1000(Lsouch/smp/Main;)Z" new="m_aB"/>
+   <method old="access$1002(Lsouch/smp/Main;Z)Z" new="m_BC"/>
+   <method old="access$102(Lsouch/smp/Main;Lsouch/smp/Rows;)Lsouch/smp/Rows;" new="m_Ub"/>
+   <method old="access$1100(Lsouch/smp/Main;)Z" new="m_od"/>
+   <method old="access$1200(Lsouch/smp/Main;)V" new="m_sc"/>
+   <method old="access$200(Lsouch/smp/Main;)Lsouch/smp/RowsAdapter;" new="m_iB"/>
+   <method old="access$202(Lsouch/smp/Main;Lsouch/smp/RowsAdapter;)Lsouch/smp/RowsAdapter;" new="m_FA"/>
+   <method old="access$300(Lsouch/smp/Main;)Landroid/widget/ListView;" new="m_GA"/>
+   <method old="access$400(Lsouch/smp/Main;)Z" new="m_hc"/>
+   <method old="access$402(Lsouch/smp/Main;Z)Z" new="m_dc"/>
+   <method old="access$500(Lsouch/smp/Main;)Lsouch/smp/Parameters;" new="m_kA"/>
+   <method old="access$600(Lsouch/smp/Main;)V" new="m_gC"/>
+   <method old="access$700(Lsouch/smp/Main;)V" new="m_Md"/>
+   <method old="access$800(Lsouch/smp/Main;)Landroid/widget/SeekBar;" new="m_pb"/>
+   <method old="access$900(Lsouch/smp/Main;)Landroid/widget/TextView;" new="m_bb"/>
+   <method old="applyLock()V" new="m_Zb"/>
+   <method old="applyTextSize(Lsouch/smp/Parameters;)V" new="m_uB"/>
+   <method old="getMusicSrv()Lsouch/smp/MusicService;" new="m_uC"/>
+   <method old="gotoCurrSong(Landroid/view/View;)V" new="gotoCurrSong"/>
+   <method old="lockUnlock(Landroid/view/View;)V" new="lockUnlock"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onDestroy()V" new="onDestroy"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onPrepareOptionsMenu(Landroid/view/Menu;)Z" new="onPrepareOptionsMenu"/>
+   <method old="onStart()V" new="onStart"/>
+   <method old="onStop()V" new="onStop"/>
+   <method old="playNext(Landroid/view/View;)V" new="playNext"/>
+   <method old="playOrPause(Landroid/view/View;)V" new="playOrPause"/>
+   <method old="playPrev(Landroid/view/View;)V" new="playPrev"/>
+   <method old="restore()V" new="m_la"/>
+   <method old="save()V" new="m_da"/>
+   <method old="scrollToCurrSong()V" new="m_Bc"/>
+   <method old="scrollToSong(I)V" new="m_Ic"/>
+   <method old="setChoosedTextSizeItem(Landroid/view/MenuItem;)V" new="m_Id"/>
+   <method old="setFilterItem(Landroid/view/MenuItem;)V" new="m_UA"/>
+   <method old="setShakeItem(Landroid/view/MenuItem;)V" new="m_tb"/>
+   <method old="settings(Landroid/view/View;)V" new="settings"/>
+   <method old="stopPlayButton()V" new="m_Vc"/>
+   <method old="unfoldAndscrollToCurrSong()V" new="m_hd"/>
+   <method old="updatePlayButton()V" new="m_fd"/>
+   <method old="vibrate()V" new="m_uc"/>
+   <field old="appAnimation Landroid/graphics/drawable/AnimationDrawable;" new="f_g"/>
+   <field old="currDuration Landroid/widget/TextView;" new="f_f"/>
+   <field old="duration Landroid/widget/TextView;" new="f_k"/>
+   <field old="finishing Z" new="f_j"/>
+   <field old="firstScroll Ljava/lang/Runnable;" new="f_A"/>
+   <field old="followSong Z" new="f_G"/>
+   <field old="forwardListener Lsouch/smp/RepeatingImageButton$RepeatListener;" new="f_I"/>
+   <field old="musicConnection Landroid/content/ServiceConnection;" new="f_E"/>
+   <field old="musicSrv Lsouch/smp/MusicService;" new="f_i"/>
+   <field old="noLock Z" new="f_d"/>
+   <field old="params Lsouch/smp/Parameters;" new="f_M"/>
+   <field old="playButton Landroid/widget/ImageButton;" new="f_e"/>
+   <field old="playIntent Landroid/content/Intent;" new="f_b"/>
+   <field old="rewindListener Lsouch/smp/RepeatingImageButton$RepeatListener;" new="f_L"/>
+   <field old="rows Lsouch/smp/Rows;" new="f_F"/>
+   <field old="seekBarChangeListener Landroid/widget/SeekBar$OnSeekBarChangeListener;" new="f_c"/>
+   <field old="seekbar Landroid/widget/SeekBar;" new="f_K"/>
+   <field old="serviceBound Z" new="f_C"/>
+   <field old="songAdt Lsouch/smp/RowsAdapter;" new="f_H"/>
+   <field old="songView Landroid/widget/ListView;" new="f_a"/>
+   <field old="timer Ljava/util/Timer;" new="f_D"/>
+   <field old="touchListener Landroid/view/View$OnTouchListener;" new="f_B"/>
+   <field old="touchSeekbar Z" new="f_l"/>
+   <field old="updateInfo Ljava/lang/Runnable;" new="f_J"/>
+   <field old="updateInterval J" new="f_m"/>
+   <field old="vibrator Landroid/os/Vibrator;" new="f_h"/>
+  </class>
+  <class old="souch.smp.Filter" new="souch.smp.Filter">
+   <method old="valueOf(Ljava/lang/String;)Lsouch/smp/Filter;" new="valueOf"/>
+   <method old="values()[Lsouch/smp/Filter;" new="values"/>
+   <field old="$VALUES [Lsouch/smp/Filter;" new="f_i"/>
+   <field old="ARTIST Lsouch/smp/Filter;" new="f_F"/>
+   <field old="FOLDER Lsouch/smp/Filter;" new="f_K"/>
+   <field old="GENRE Lsouch/smp/Filter;" new="f_l"/>
+   <field old="TREE Lsouch/smp/Filter;" new="f_I"/>
+  </class>
+  <class old="souch.smp.MusicService" new="souch.smp.MusicService">
+   <method old="access$010(Lsouch/smp/MusicService;)I" new="m_nA"/>
+   <method old="access$100(Lsouch/smp/MusicService;)I" new="m_aC"/>
+   <method old="access$102(Lsouch/smp/MusicService;I)I" new="m_mC"/>
+   <method old="access$202(Lsouch/smp/MusicService;Z)Z" new="m_yB"/>
+   <method old="getAccelerometer(Landroid/hardware/SensorEvent;)V" new="m_KB"/>
+   <method old="getChanged()Z" new="m_yC"/>
+   <method old="getCurrentPosition()I" new="m_Wb"/>
+   <method old="getDuration()I" new="m_Ta"/>
+   <method old="getEnableShake()Z" new="m_i"/>
+   <method old="getPlayer()Landroid/media/MediaPlayer;" new="m_Uc"/>
+   <method old="getRows()Lsouch/smp/Rows;" new="m_HA"/>
+   <method old="getSeekFinished()Z" new="m_Kb"/>
+   <method old="handleCommand(Landroid/content/Intent;)V" new="m_sA"/>
+   <method old="isInState(I)Z" new="m_Pd"/>
+   <method old="isPlaying()Z" new="m_Ld"/>
+   <method old="onAccuracyChanged(Landroid/hardware/Sensor;I)V" new="onAccuracyChanged"/>
+   <method old="onAudioFocusChange(I)V" new="onAudioFocusChange"/>
+   <method old="onBind(Landroid/content/Intent;)Landroid/os/IBinder;" new="onBind"/>
+   <method old="onCompletion(Landroid/media/MediaPlayer;)V" new="onCompletion"/>
+   <method old="onCreate()V" new="onCreate"/>
+   <method old="onDestroy()V" new="onDestroy"/>
+   <method old="onError(Landroid/media/MediaPlayer;II)Z" new="onError"/>
+   <method old="onPrepared(Landroid/media/MediaPlayer;)V" new="onPrepared"/>
+   <method old="onSeekComplete(Landroid/media/MediaPlayer;)V" new="onSeekComplete"/>
+   <method old="onSensorChanged(Landroid/hardware/SensorEvent;)V" new="onSensorChanged"/>
+   <method old="onStartCommand(Landroid/content/Intent;II)I" new="onStartCommand"/>
+   <method old="pause()V" new="m_Cb"/>
+   <method old="playNext()V" new="m_OC"/>
+   <method old="playPrev()V" new="m_cc"/>
+   <method old="playSong()V" new="m_QB"/>
+   <method old="playingLaunched()Z" new="m_wb"/>
+   <method old="playingPaused()Z" new="m_nC"/>
+   <method old="playingStopped()Z" new="m_hb"/>
+   <method old="releaseAudio()V" new="m_ad"/>
+   <method old="restore()V" new="m_la"/>
+   <method old="save()V" new="m_da"/>
+   <method old="seekTo(I)V" new="m_vA"/>
+   <method old="setChanged()V" new="m_Vb"/>
+   <method old="setEnableShake(Z)V" new="m_l"/>
+   <method old="setMainIsVisible(Z)V" new="m_LB"/>
+   <method old="setShakeThreshold(F)V" new="m_Kc"/>
+   <method old="start()V" new="m_FC"/>
+   <method old="startNotification()V" new="m_yA"/>
+   <method old="startSensor()V" new="m_VC"/>
+   <method old="stopNotification()V" new="m_UB"/>
+   <method old="stopSensor()V" new="m_eb"/>
+   <field old="CMDNAME Ljava/lang/String;" new="f_H"/>
+   <field old="CMDNEXT Ljava/lang/String;" new="f_e"/>
+   <field old="CMDPAUSE Ljava/lang/String;" new="f_F"/>
+   <field old="CMDPLAY Ljava/lang/String;" new="f_Y"/>
+   <field old="CMDPREVIOUS Ljava/lang/String;" new="f_y"/>
+   <field old="CMDSTOP Ljava/lang/String;" new="f_j"/>
+   <field old="CMDTOGGLEPAUSE Ljava/lang/String;" new="f_B"/>
+   <field old="MIN_SHAKE_PERIOD I" new="f_d"/>
+   <field old="NEXT_ACTION Ljava/lang/String;" new="f_h"/>
+   <field old="NOTIFY_ID I" new="f_C"/>
+   <field old="PAUSE_ACTION Ljava/lang/String;" new="f_M"/>
+   <field old="PREVIOUS_ACTION Ljava/lang/String;" new="f_i"/>
+   <field old="SERVICECMD Ljava/lang/String;" new="f_w"/>
+   <field old="TOGGLEPAUSE_ACTION Ljava/lang/String;" new="f_W"/>
+   <field old="accel D" new="f_z"/>
+   <field old="accelCurrent D" new="f_f"/>
+   <field old="accelLast D" new="f_v"/>
+   <field old="accelerometer Landroid/hardware/Sensor;" new="f_I"/>
+   <field old="audioManager Landroid/media/AudioManager;" new="f_L"/>
+   <field old="changed Z" new="f_D"/>
+   <field old="enableShake Z" new="f_c"/>
+   <field old="foreground Z" new="f_m"/>
+   <field old="hasAudioFocus Z" new="f_K"/>
+   <field old="lastUpdate J" new="f_S"/>
+   <field old="mainIsVisible Z" new="f_E"/>
+   <field old="musicBind Landroid/os/IBinder;" new="f_G"/>
+   <field old="params Lsouch/smp/Parameters;" new="f_X"/>
+   <field old="player Landroid/media/MediaPlayer;" new="f_o"/>
+   <field old="remoteControlResponder Landroid/content/ComponentName;" new="f_g"/>
+   <field old="rows Lsouch/smp/Rows;" new="f_V"/>
+   <field old="savedSongPos I" new="f_a"/>
+   <field old="scrobble Lsouch/smp/Scrobble;" new="f_r"/>
+   <field old="seekFinished Z" new="f_u"/>
+   <field old="seekPosBug I" new="f_b"/>
+   <field old="seekPosMaxLoop I" new="f_l"/>
+   <field old="seekPosNbLoop I" new="f_n"/>
+   <field old="sensorManager Landroid/hardware/SensorManager;" new="f_J"/>
+   <field old="shakeThreshold F" new="f_k"/>
+   <field old="state Lsouch/smp/PlayerState;" new="f_A"/>
+   <field old="wasPlaying Z" new="f_p"/>
+  </class>
+  <class old="souch.smp.Main$1$1" new="souch.smp.c_M">
+   <method old="onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V" new="onItemClick"/>
+   <field old="this$1 Lsouch/smp/Main$1;" new="f_l"/>
+  </class>
+  <class old="souch.smp.RepeatingImageButton" new="souch.smp.RepeatingImageButton">
+   <method old="access$000(Lsouch/smp/RepeatingImageButton;Z)V" new="m_ra"/>
+   <method old="access$100(Lsouch/smp/RepeatingImageButton;)J" new="m_oa"/>
+   <method old="doRepeat(Z)V" new="m_za"/>
+   <method old="onKeyDown(ILandroid/view/KeyEvent;)Z" new="onKeyDown"/>
+   <method old="onKeyUp(ILandroid/view/KeyEvent;)Z" new="onKeyUp"/>
+   <method old="onTouchEvent(Landroid/view/MotionEvent;)Z" new="onTouchEvent"/>
+   <method old="performLongClick()Z" new="performLongClick"/>
+   <method old="setRepeatListener(Lsouch/smp/RepeatingImageButton$RepeatListener;J)V" new="setRepeatListener"/>
+   <field old="mInterval J" new="f_l"/>
+   <field old="mListener Lsouch/smp/RepeatingImageButton$RepeatListener;" new="f_i"/>
+   <field old="mRepeatCount I" new="f_F"/>
+   <field old="mRepeater Ljava/lang/Runnable;" new="f_K"/>
+   <field old="mStartTime J" new="f_I"/>
+  </class>
+  <class old="souch.smp.Parameters" new="souch.smp.c_G">
+   <method old="getBigTextSize()I" new="m_L"/>
+   <method old="getChoosedTextSize()Z" new="m_h"/>
+   <method old="getDefaultFold()I" new="m_M"/>
+   <method old="getEnableShake()Z" new="m_i"/>
+   <method old="getFilter()Lsouch/smp/Filter;" new="m_D"/>
+   <method old="getFollowSong()Z" new="m_a"/>
+   <method old="getMediaButtonStartAppShake()Z" new="m_k"/>
+   <method old="getNoLock()Z" new="m_B"/>
+   <method old="getNormalTextSize()I" new="m_f"/>
+   <method old="getRootFolder()Ljava/lang/String;" new="m_m"/>
+   <method old="getSaveSongPos()Z" new="m_j"/>
+   <method old="getScrobble()Z" new="m_A"/>
+   <method old="getShakeThreshold()F" new="m_F"/>
+   <method old="getShuffle()Z" new="m_e"/>
+   <method old="getSongID()J" new="m_b"/>
+   <method old="getSongPos()I" new="m_G"/>
+   <method old="getTextSizeRatio()F" new="m_C"/>
+   <method old="getUnfoldSubGroup()Z" new="m_I"/>
+   <method old="getUnfoldSubGroupThreshold()I" new="m_E"/>
+   <method old="getVibrate()Z" new="m_H"/>
+   <method old="setChooseTextSize(Z)V" new="m_g"/>
+   <method old="setEnableShake(Z)V" new="m_l"/>
+   <method old="setFilter(Lsouch/smp/Filter;)V" new="m_K"/>
+   <method old="setNoLock(Z)V" new="m_J"/>
+   <method old="setSongID(J)V" new="m_c"/>
+   <method old="setSongPos(I)V" new="m_d"/>
+  </class>
+  <class old="souch.smp.Main$1$2" new="souch.smp.c_C">
+   <method old="onItemLongClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)Z" new="onItemLongClick"/>
+   <field old="this$1 Lsouch/smp/Main$1;" new="f_l"/>
+  </class>
+  <class old="souch.smp.R$style" new="souch.smp.R$style">
+   <field old="AppTheme I" new="AppTheme"/>
+   <field old="BottomButton I" new="BottomButton"/>
+   <field old="PreferenceTheme I" new="PreferenceTheme"/>
+   <field old="SeekBarAppTheme I" new="SeekBarAppTheme"/>
+   <field old="Theme_AppTheme I" new="Theme_AppTheme"/>
+   <field old="_AppTheme I" new="_AppTheme"/>
+  </class>
+  <class old="souch.smp.Main$1$3" new="souch.smp.c_L">
+   <method old="run()V" new="run"/>
+   <field old="this$1 Lsouch/smp/Main$1;" new="f_l"/>
+  </class>
+  <class old="souch.smp.PrefKeys" new="souch.smp.PrefKeys">
+   <method old="valueOf(Ljava/lang/String;)Lsouch/smp/PrefKeys;" new="valueOf"/>
+   <method old="values()[Lsouch/smp/PrefKeys;" new="values"/>
+   <field old="$VALUES [Lsouch/smp/PrefKeys;" new="f_g"/>
+   <field old="DEFAULT_FOLD Lsouch/smp/PrefKeys;" new="f_b"/>
+   <field old="ENABLE_SHAKE Lsouch/smp/PrefKeys;" new="f_F"/>
+   <field old="FILTER Lsouch/smp/PrefKeys;" new="f_K"/>
+   <field old="FOLLOW_SONG Lsouch/smp/PrefKeys;" new="f_i"/>
+   <field old="MEDIA_BUTTON_START_APP Lsouch/smp/PrefKeys;" new="f_l"/>
+   <field old="NO_LOCK Lsouch/smp/PrefKeys;" new="f_L"/>
+   <field old="ROOT_FOLDER Lsouch/smp/PrefKeys;" new="f_J"/>
+   <field old="SAVE_SONG_POS Lsouch/smp/PrefKeys;" new="f_d"/>
+   <field old="SCROBBLE Lsouch/smp/PrefKeys;" new="f_k"/>
+   <field old="SHAKE_THRESHOLD Lsouch/smp/PrefKeys;" new="f_c"/>
+   <field old="SHUFFLE Lsouch/smp/PrefKeys;" new="f_C"/>
+   <field old="SONG_ID Lsouch/smp/PrefKeys;" new="f_G"/>
+   <field old="SONG_POS Lsouch/smp/PrefKeys;" new="f_f"/>
+   <field old="TEXT_SIZE_BIG Lsouch/smp/PrefKeys;" new="f_j"/>
+   <field old="TEXT_SIZE_CHOOSED Lsouch/smp/PrefKeys;" new="f_e"/>
+   <field old="TEXT_SIZE_NORMAL Lsouch/smp/PrefKeys;" new="f_E"/>
+   <field old="TEXT_SIZE_RATIO Lsouch/smp/PrefKeys;" new="f_I"/>
+   <field old="UNFOLD_SUBGROUP Lsouch/smp/PrefKeys;" new="f_A"/>
+   <field old="UNFOLD_SUBGROUP_THRESHOLD Lsouch/smp/PrefKeys;" new="f_M"/>
+   <field old="VIBRATE Lsouch/smp/PrefKeys;" new="f_D"/>
+  </class>
+  <class old="souch.smp.RepeatingImageButton$1" new="souch.smp.RepeatingImageButton$1">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lsouch/smp/RepeatingImageButton;" new="f_l"/>
+  </class>
+  <class old="souch.smp.R$layout" new="souch.smp.R$layout">
+   <field old="activity_main I" new="activity_main"/>
+   <field old="song I" new="song"/>
+  </class>
+  <class old="souch.smp.RowViewHolder" new="souch.smp.RowViewHolder">
+   <field old="duration Landroid/widget/TextView;" new="f_l"/>
+   <field old="image Landroid/widget/ImageView;" new="f_K"/>
+   <field old="layout Landroid/widget/RelativeLayout;" new="f_i"/>
+   <field old="text Landroid/widget/TextView;" new="f_F"/>
+  </class>
+  <class old="souch.smp.R$drawable" new="souch.smp.R$drawable">
+   <field old="action_goto_play I" new="action_goto_play"/>
+   <field old="action_next I" new="action_next"/>
+   <field old="action_play I" new="action_play"/>
+   <field old="action_prev I" new="action_prev"/>
+   <field old="fastscroll_thumb_default_holo I" new="fastscroll_thumb_default_holo"/>
+   <field old="fastscroll_thumb_holo I" new="fastscroll_thumb_holo"/>
+   <field old="fastscroll_thumb_pressed_holo I" new="fastscroll_thumb_pressed_holo"/>
+   <field old="ic_action_goto_play I" new="ic_action_goto_play"/>
+   <field old="ic_action_goto_play_press I" new="ic_action_goto_play_press"/>
+   <field old="ic_action_locked I" new="ic_action_locked"/>
+   <field old="ic_action_next I" new="ic_action_next"/>
+   <field old="ic_action_next_press I" new="ic_action_next_press"/>
+   <field old="ic_action_pause I" new="ic_action_pause"/>
+   <field old="ic_action_play I" new="ic_action_play"/>
+   <field old="ic_action_play_press I" new="ic_action_play_press"/>
+   <field old="ic_action_prev I" new="ic_action_prev"/>
+   <field old="ic_action_prev_press I" new="ic_action_prev_press"/>
+   <field old="ic_action_unlocked I" new="ic_action_unlocked"/>
+   <field old="ic_actionbar_launcher I" new="ic_actionbar_launcher"/>
+   <field old="ic_actionbar_launcher_0 I" new="ic_actionbar_launcher_0"/>
+   <field old="ic_actionbar_launcher_1 I" new="ic_actionbar_launcher_1"/>
+   <field old="ic_actionbar_launcher_2 I" new="ic_actionbar_launcher_2"/>
+   <field old="ic_actionbar_launcher_3 I" new="ic_actionbar_launcher_3"/>
+   <field old="ic_actionbar_launcher_4 I" new="ic_actionbar_launcher_4"/>
+   <field old="ic_actionbar_launcher_5 I" new="ic_actionbar_launcher_5"/>
+   <field old="ic_actionbar_launcher_anim I" new="ic_actionbar_launcher_anim"/>
+   <field old="ic_actionbar_overflow I" new="ic_actionbar_overflow"/>
+   <field old="ic_actionbar_sublauncher I" new="ic_actionbar_sublauncher"/>
+   <field old="ic_curr_pause I" new="ic_curr_pause"/>
+   <field old="ic_curr_play I" new="ic_curr_play"/>
+   <field old="ic_launcher I" new="ic_launcher"/>
+   <field old="ic_menu_artist I" new="ic_menu_artist"/>
+   <field old="ic_menu_folded I" new="ic_menu_folded"/>
+   <field old="ic_menu_folder I" new="ic_menu_folder"/>
+   <field old="ic_menu_settings I" new="ic_menu_settings"/>
+   <field old="ic_menu_shake I" new="ic_menu_shake"/>
+   <field old="ic_menu_shake_checked I" new="ic_menu_shake_checked"/>
+   <field old="ic_menu_text_big I" new="ic_menu_text_big"/>
+   <field old="ic_menu_text_regular I" new="ic_menu_text_regular"/>
+   <field old="ic_menu_tree I" new="ic_menu_tree"/>
+   <field old="ic_menu_unfolded I" new="ic_menu_unfolded"/>
+   <field old="seekbar_control_disabled_holo I" new="seekbar_control_disabled_holo"/>
+   <field old="seekbar_control_focused_holo I" new="seekbar_control_focused_holo"/>
+   <field old="seekbar_control_normal_holo I" new="seekbar_control_normal_holo"/>
+   <field old="seekbar_control_pressed_holo I" new="seekbar_control_pressed_holo"/>
+   <field old="seekbar_control_selector_holo_light I" new="seekbar_control_selector_holo_light"/>
+   <field old="seekbar_horizontal_holo_light I" new="seekbar_horizontal_holo_light"/>
+   <field old="seekbar_primary_holo I" new="seekbar_primary_holo"/>
+   <field old="seekbar_secondary_holo I" new="seekbar_secondary_holo"/>
+   <field old="seekbar_track_holo_light I" new="seekbar_track_holo_light"/>
+  </class>
+  <class old="souch.smp.Rows" new="souch.smp.Rows">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_R"/>
+   <method old="fold()V" new="m_ba"/>
+   <method old="fold(Lsouch/smp/RowGroup;I)V" new="m_W"/>
+   <method old="get(I)Lsouch/smp/Row;" new="m_q"/>
+   <method old="getCurrPos()I" new="m_x"/>
+   <method old="getCurrSong()Lsouch/smp/RowSong;" new="m_Ia"/>
+   <method old="getDefaultStrIfNull(Ljava/lang/String;)Ljava/lang/String;" new="m_La"/>
+   <method old="getFilter()Lsouch/smp/Filter;" new="m_D"/>
+   <method old="hasOneSubGroup(Lsouch/smp/RowGroup;I)Z" new="m_O"/>
+   <method old="init()V" new="m_n"/>
+   <method old="initByArtist(Landroid/database/Cursor;)V" new="m_Y"/>
+   <method old="initByPath(Landroid/database/Cursor;)V" new="m_t"/>
+   <method old="initByTree(Landroid/database/Cursor;)V" new="m_Q"/>
+   <method old="initRowsFolded()V" new="m_ma"/>
+   <method old="invertFold(I)V" new="m_p"/>
+   <method old="isLastRow(I)Z" new="m_ka"/>
+   <method old="moveToNextSong()V" new="m_y"/>
+   <method old="moveToPrevSong()V" new="m_fa"/>
+   <method old="moveToRandomSong()V" new="m_r"/>
+   <method old="moveToRandomSongBack()V" new="m_Ja"/>
+   <method old="restore()V" new="m_la"/>
+   <method old="save()V" new="m_da"/>
+   <method old="selectNearestSong(I)V" new="m_ja"/>
+   <method old="setCurrPos(I)V" new="m_Ca"/>
+   <method old="setFilter(Lsouch/smp/Filter;)V" new="m_K"/>
+   <method old="setGroupSelectedState(IZ)V" new="m_Da"/>
+   <method old="setRootFolder(Ljava/lang/String;)Z" new="m_U"/>
+   <method old="size()I" new="m_ga"/>
+   <method old="unfold()V" new="m_ea"/>
+   <method old="unfold(Lsouch/smp/RowGroup;I)V" new="m_Ka"/>
+   <method old="unfoldCurrPos()Z" new="m_P"/>
+   <method old="unfoldTree(Lsouch/smp/RowGroup;I)V" new="m_V"/>
+   <method old="updateSavedId()V" new="m_ia"/>
+   <field old="currPos I" new="f_E"/>
+   <field old="defaultStr Ljava/lang/String;" new="defaultStr"/>
+   <field old="filter Lsouch/smp/Filter;" new="f_e"/>
+   <field old="musicResolver Landroid/content/ContentResolver;" new="f_f"/>
+   <field old="params Lsouch/smp/Parameters;" new="f_F"/>
+   <field old="random Ljava/util/Random;" new="f_M"/>
+   <field old="resources Landroid/content/res/Resources;" new="f_l"/>
+   <field old="rows Ljava/util/ArrayList;" new="f_I"/>
+   <field old="rowsUnfolded Ljava/util/ArrayList;" new="f_K"/>
+   <field old="savedID J" new="f_i"/>
+   <field old="shuffleSavedPos Ljava/util/ArrayList;" new="f_D"/>
+  </class>
+  <class old="souch.smp.R" new="souch.smp.R">
+  </class>
+  <class old="souch.smp.RowsAdapter" new="souch.smp.RowsAdapter">
+   <method old="getCount()I" new="getCount"/>
+   <method old="getItem(I)Ljava/lang/Object;" new="getItem"/>
+   <method old="getItemId(I)J" new="getItemId"/>
+   <method old="getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;" new="getView"/>
+   <field old="main Lsouch/smp/Main;" new="f_i"/>
+   <field old="rows Lsouch/smp/Rows;" new="f_l"/>
+   <field old="songInf Landroid/view/LayoutInflater;" new="f_K"/>
+  </class>
+  <class old="souch.smp.Path" new="souch.smp.c_m">
+   <method old="compareToIgnoreCaseShorterFolderLast(Ljava/lang/String;Ljava/lang/String;)I" new="m_Mc"/>
+   <method old="cutFolder(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_xa"/>
+   <method old="foldCase(C)C" new="m_zA"/>
+   <method old="getFolder(Ljava/lang/String;)Ljava/lang/String;" new="m_Bb"/>
+   <method old="tokenizeFolder(Ljava/lang/String;)Ljava/util/ArrayList;" new="m_Qa"/>
+   <field old="rootFolder Ljava/lang/String;" new="f_l"/>
+   <field old="separatorChar C" new="f_i"/>
+  </class>
+  <class old="souch.smp.R$color" new="souch.smp.R$color">
+   <field old="RowBackground I" new="RowBackground"/>
+   <field old="RowGroupArtistAlbumBackground I" new="RowGroupArtistAlbumBackground"/>
+   <field old="RowGroupArtistBackground I" new="RowGroupArtistBackground"/>
+   <field old="RowGroupFolderArtistBackground I" new="RowGroupFolderArtistBackground"/>
+   <field old="RowGroupFolderBackground I" new="RowGroupFolderBackground"/>
+   <field old="RowGroupTextNormal I" new="RowGroupTextNormal"/>
+   <field old="RowGroupTextPlaying I" new="RowGroupTextPlaying"/>
+   <field old="RowGroupTreeBackground I" new="RowGroupTreeBackground"/>
+   <field old="RowSongTextDuration I" new="RowSongTextDuration"/>
+   <field old="RowSongTextNormal I" new="RowSongTextNormal"/>
+   <field old="apptheme_color I" new="apptheme_color"/>
+  </class>
+  <class old="souch.smp.R$attr" new="souch.smp.R$attr">
+  </class>
+  <class old="souch.smp.MusicService$MusicBinder" new="souch.smp.c_F">
+   <method old="getService()Lsouch/smp/MusicService;" new="m_nc"/>
+   <field old="this$0 Lsouch/smp/MusicService;" new="f_l"/>
+  </class>
+  <class old="souch.smp.PlayerState" new="souch.smp.c_A">
+   <method old="compare(I)Z" new="m_pa"/>
+   <method old="getState()I" new="m_Na"/>
+   <method old="setState(I)V" new="m_Oa"/>
+   <field old="End I" new="f_f"/>
+   <field old="Error I" new="f_I"/>
+   <field old="Idle I" new="f_G"/>
+   <field old="Initialized I" new="f_M"/>
+   <field old="Nope I" new="f_e"/>
+   <field old="Paused I" new="f_J"/>
+   <field old="PlaybackCompleted I" new="f_E"/>
+   <field old="Prepared I" new="f_K"/>
+   <field old="Preparing I" new="f_i"/>
+   <field old="Started I" new="f_D"/>
+   <field old="Stopped I" new="f_l"/>
+   <field old="state I" new="f_F"/>
+  </class>
+  <class old="souch.smp.Scrobble" new="souch.smp.c_B">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_R"/>
+   <method old="send(I)V" new="m_T"/>
+   <field old="SCROBBLE_COMPLETE I" new="f_f"/>
+   <field old="SCROBBLE_PAUSE I" new="f_e"/>
+   <field old="SCROBBLE_RESUME I" new="f_G"/>
+   <field old="SCROBBLE_START I" new="f_i"/>
+   <field old="album Ljava/lang/String;" new="f_K"/>
+   <field old="artist Ljava/lang/String;" new="f_D"/>
+   <field old="context Landroid/content/Context;" new="f_l"/>
+   <field old="duration I" new="f_J"/>
+   <field old="params Lsouch/smp/Parameters;" new="f_F"/>
+   <field old="rows Lsouch/smp/Rows;" new="f_M"/>
+   <field old="started Z" new="f_I"/>
+   <field old="track Ljava/lang/String;" new="f_E"/>
+  </class>
+  <class old="souch.smp.RepeatingImageButton$RepeatListener" new="souch.smp.RepeatingImageButton$RepeatListener">
+   <method old="onRepeat(Landroid/view/View;JI)V" new="m_S"/>
+  </class>
+  <class old="souch.smp.R$string" new="souch.smp.R$string">
+   <field old="action_fold I" new="action_fold"/>
+   <field old="action_settings I" new="action_settings"/>
+   <field old="action_shake_disabled I" new="action_shake_disabled"/>
+   <field old="action_shake_enabled I" new="action_shake_enabled"/>
+   <field old="action_sort_artist I" new="action_sort_artist"/>
+   <field old="action_sort_folder I" new="action_sort_folder"/>
+   <field old="action_sort_tree I" new="action_sort_tree"/>
+   <field old="action_unfold I" new="action_unfold"/>
+   <field old="app_name I" new="app_name"/>
+   <field old="app_playing I" new="app_playing"/>
+   <field old="focus_error I" new="focus_error"/>
+   <field old="help_background I" new="help_background"/>
+   <field old="help_background_summary I" new="help_background_summary"/>
+   <field old="help_lock I" new="help_lock"/>
+   <field old="help_lock_summary I" new="help_lock_summary"/>
+   <field old="help_mediabutton I" new="help_mediabutton"/>
+   <field old="help_mediabutton_autostart I" new="help_mediabutton_autostart"/>
+   <field old="help_mediabutton_autostart_summary I" new="help_mediabutton_autostart_summary"/>
+   <field old="help_mediabutton_summary I" new="help_mediabutton_summary"/>
+   <field old="help_quit I" new="help_quit"/>
+   <field old="help_quit_summary I" new="help_quit_summary"/>
+   <field old="help_root_folder I" new="help_root_folder"/>
+   <field old="help_root_folder_summary I" new="help_root_folder_summary"/>
+   <field old="help_scroll I" new="help_scroll"/>
+   <field old="help_scroll_summary I" new="help_scroll_summary"/>
+   <field old="help_start_group I" new="help_start_group"/>
+   <field old="help_start_group_summary I" new="help_start_group_summary"/>
+   <field old="help_start_song I" new="help_start_song"/>
+   <field old="help_start_song_summary I" new="help_start_song_summary"/>
+   <field old="help_stop I" new="help_stop"/>
+   <field old="help_stop_summary I" new="help_stop_summary"/>
+   <field old="help_unfold_group I" new="help_unfold_group"/>
+   <field old="help_unfold_group_summary I" new="help_unfold_group_summary"/>
+   <field old="settings_about I" new="settings_about"/>
+   <field old="settings_about_summary I" new="settings_about_summary"/>
+   <field old="settings_accelerometer I" new="settings_accelerometer"/>
+   <field old="settings_accelerometer_summary I" new="settings_accelerometer_summary"/>
+   <field old="settings_accelerometer_threshold I" new="settings_accelerometer_threshold"/>
+   <field old="settings_author I" new="settings_author"/>
+   <field old="settings_author_title I" new="settings_author_title"/>
+   <field old="settings_autoscroll I" new="settings_autoscroll"/>
+   <field old="settings_autoscroll_summary I" new="settings_autoscroll_summary"/>
+   <field old="settings_default_shake_threshold I" new="settings_default_shake_threshold"/>
+   <field old="settings_donate_key I" new="settings_donate_key"/>
+   <field old="settings_donate_summary I" new="settings_donate_summary"/>
+   <field old="settings_donate_title I" new="settings_donate_title"/>
+   <field old="settings_donate_www I" new="settings_donate_www"/>
+   <field old="settings_fold_title I" new="settings_fold_title"/>
+   <field old="settings_help I" new="settings_help"/>
+   <field old="settings_help_summary I" new="settings_help_summary"/>
+   <field old="settings_licence I" new="settings_licence"/>
+   <field old="settings_licence_title I" new="settings_licence_title"/>
+   <field old="settings_media_button_start_app I" new="settings_media_button_start_app"/>
+   <field old="settings_media_button_start_app_title I" new="settings_media_button_start_app_title"/>
+   <field old="settings_misc I" new="settings_misc"/>
+   <field old="settings_no_accelerometer I" new="settings_no_accelerometer"/>
+   <field old="settings_opensource I" new="settings_opensource"/>
+   <field old="settings_rescan I" new="settings_rescan"/>
+   <field old="settings_rescan_disabled I" new="settings_rescan_disabled"/>
+   <field old="settings_rescan_key I" new="settings_rescan_key"/>
+   <field old="settings_rescan_title I" new="settings_rescan_title"/>
+   <field old="settings_rescan_triggered I" new="settings_rescan_triggered"/>
+   <field old="settings_root_folder I" new="settings_root_folder"/>
+   <field old="settings_root_folder_summary1 I" new="settings_root_folder_summary1"/>
+   <field old="settings_root_folder_summary2 I" new="settings_root_folder_summary2"/>
+   <field old="settings_scrobble I" new="settings_scrobble"/>
+   <field old="settings_scrobble_title I" new="settings_scrobble_title"/>
+   <field old="settings_shuffle I" new="settings_shuffle"/>
+   <field old="settings_shuffle_title I" new="settings_shuffle_title"/>
+   <field old="settings_song_view I" new="settings_song_view"/>
+   <field old="settings_song_view_font I" new="settings_song_view_font"/>
+   <field old="settings_songpos I" new="settings_songpos"/>
+   <field old="settings_songpos_title I" new="settings_songpos_title"/>
+   <field old="settings_source I" new="settings_source"/>
+   <field old="settings_source_title I" new="settings_source_title"/>
+   <field old="settings_text_size_big I" new="settings_text_size_big"/>
+   <field old="settings_text_size_big_default I" new="settings_text_size_big_default"/>
+   <field old="settings_text_size_choosed I" new="settings_text_size_choosed"/>
+   <field old="settings_text_size_choosed_default I" new="settings_text_size_choosed_default"/>
+   <field old="settings_text_size_ratio I" new="settings_text_size_ratio"/>
+   <field old="settings_text_size_ratio_default I" new="settings_text_size_ratio_default"/>
+   <field old="settings_text_size_regular I" new="settings_text_size_regular"/>
+   <field old="settings_text_size_regular_default I" new="settings_text_size_regular_default"/>
+   <field old="settings_thanks I" new="settings_thanks"/>
+   <field old="settings_thanks_doc I" new="settings_thanks_doc"/>
+   <field old="settings_thanks_doc_summary I" new="settings_thanks_doc_summary"/>
+   <field old="settings_thanks_i15n I" new="settings_thanks_i15n"/>
+   <field old="settings_thanks_i15n_summary I" new="settings_thanks_i15n_summary"/>
+   <field old="settings_thanks_icons I" new="settings_thanks_icons"/>
+   <field old="settings_thanks_icons_summary I" new="settings_thanks_icons_summary"/>
+   <field old="settings_title I" new="settings_title"/>
+   <field old="settings_unfold_subgroup I" new="settings_unfold_subgroup"/>
+   <field old="settings_unfold_subgroup_summary I" new="settings_unfold_subgroup_summary"/>
+   <field old="settings_unfold_subgroup_threshold I" new="settings_unfold_subgroup_threshold"/>
+   <field old="settings_unfold_subgroup_threshold_default I" new="settings_unfold_subgroup_threshold_default"/>
+   <field old="settings_unfold_subgroup_threshold_summary1 I" new="settings_unfold_subgroup_threshold_summary1"/>
+   <field old="settings_unfold_subgroup_threshold_summary2 I" new="settings_unfold_subgroup_threshold_summary2"/>
+   <field old="settings_version I" new="settings_version"/>
+   <field old="settings_version_title I" new="settings_version_title"/>
+   <field old="settings_vibrate I" new="settings_vibrate"/>
+   <field old="settings_vibrate_title I" new="settings_vibrate_title"/>
+  </class>
+  <class old="souch.smp.RowSong" new="souch.smp.RowSong">
+   <method old="convertDpToPixels(ILandroid/content/res/Resources;)I" new="m_Aa"/>
+   <method old="getAlbum()Ljava/lang/String;" new="m_Za"/>
+   <method old="getArtist()Ljava/lang/String;" new="m_qa"/>
+   <method old="getDuration()I" new="m_Ta"/>
+   <method old="getFolder()Ljava/lang/String;" new="m_ta"/>
+   <method old="getGenuinePos()I" new="m_ca"/>
+   <method old="getID()J" new="m_va"/>
+   <method old="getLevel()I" new="m_Ma"/>
+   <method old="getParent()Lsouch/smp/Row;" new="m_aa"/>
+   <method old="getPath()Ljava/lang/String;" new="m_Wa"/>
+   <method old="getStringOffset()Ljava/lang/String;" new="m_Ba"/>
+   <method old="getTitle()Ljava/lang/String;" new="m_Fa"/>
+   <method old="getTrack()I" new="m_na"/>
+   <method old="secondsToMinutes(I)Ljava/lang/String;" new="m_Sa"/>
+   <method old="setCurrIcon(Landroid/widget/ImageView;Lsouch/smp/Main;)V" new="m_Ua"/>
+   <method old="setDuration(Landroid/widget/TextView;)V" new="m_Ya"/>
+   <method old="setGenuinePos(I)V" new="m_ha"/>
+   <method old="setLevel(I)V" new="m_Ga"/>
+   <method old="setParent(Lsouch/smp/Row;)V" new="m_Ea"/>
+   <method old="setText(Landroid/widget/TextView;)V" new="m_Pa"/>
+   <method old="setView(Lsouch/smp/RowViewHolder;Lsouch/smp/Main;I)V" new="m_Ha"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="album Ljava/lang/String;" new="f_i"/>
+   <field old="artist Ljava/lang/String;" new="f_M"/>
+   <field old="backgroundColor I" new="backgroundColor"/>
+   <field old="duration I" new="f_E"/>
+   <field old="folder Ljava/lang/String;" new="f_G"/>
+   <field old="genuinePos I" new="f_I"/>
+   <field old="id J" new="f_D"/>
+   <field old="level I" new="f_F"/>
+   <field old="levelOffset I" new="levelOffset"/>
+   <field old="normalSongDurationTextColor I" new="normalSongDurationTextColor"/>
+   <field old="normalSongTextColor I" new="normalSongTextColor"/>
+   <field old="parent Lsouch/smp/Row;" new="f_i"/>
+   <field old="path Ljava/lang/String;" new="f_J"/>
+   <field old="textSize I" new="f_f"/>
+   <field old="title Ljava/lang/String;" new="f_l"/>
+   <field old="track I" new="f_e"/>
+   <field old="typeface I" new="f_K"/>
+  </class>
+  <sources>
+   <source old="BuildConfig.java" new="z"/>
+   <source old="Filter.java" new="c"/>
+   <source old="Main.java" new="n"/>
+   <source old="MediaButtonIntentReceiver.java" new="b"/>
+   <source old="MusicService.java" new="u"/>
+   <source old="ParametersImpl.java" new="a"/>
+   <source old="Path.java" new="d"/>
+   <source old="PlayerState.java" new="e"/>
+   <source old="PrefKeys.java" new="m"/>
+   <source old="R.java" new="o"/>
+   <source old="RowGroup.java" new="h"/>
+   <source old="RowSong.java" new="y"/>
+   <source old="Row.java" new="x"/>
+   <source old="RowViewHolder.java" new="q"/>
+   <source old="Rows.java" new="l"/>
+   <source old="RowsAdapter.java" new="j"/>
+   <source old="Scrobble.java" new="k"/>
+   <source old="Settings.java" new="t"/>
+   <source old="RepeatingImageButton.java" new="s"/>
+   <source old="Parameters.java" new="v"/>
+  </sources>
+  <lines>
+   <line l="122"/>
+   <line l="69"/>
+   <line l="360"/>
+   <line l="54"/>
+   <line l="295"/>
+   <line l="388"/>
+   <line l="121"/>
+   <line l="347"/>
+   <line l="279"/>
+   <line l="21"/>
+   <line l="67"/>
+   <line l="61"/>
+   <line l="194"/>
+   <line l="13"/>
+   <line l="136"/>
+   <line l="217"/>
+   <line l="163"/>
+   <line l="214"/>
+   <line l="356"/>
+   <line l="357"/>
+   <line l="172"/>
+   <line l="370"/>
+   <line l="253"/>
+   <line l="307"/>
+   <line l="261"/>
+   <line l="148"/>
+   <line l="27"/>
+   <line l="221"/>
+   <line l="212"/>
+   <line l="59"/>
+   <line l="313"/>
+   <line l="100"/>
+   <line l="251"/>
+   <line l="392"/>
+   <line l="32"/>
+   <line l="302"/>
+   <line l="281"/>
+   <line l="373"/>
+   <line l="63"/>
+   <line l="70"/>
+   <line l="139"/>
+   <line l="294"/>
+   <line l="19"/>
+   <line l="235"/>
+   <line l="198"/>
+   <line l="322"/>
+   <line l="75"/>
+   <line l="298"/>
+   <line l="83"/>
+   <line l="162"/>
+   <line l="52"/>
+   <line l="126"/>
+   <line l="127"/>
+   <line l="4"/>
+   <line l="273"/>
+   <line l="226"/>
+   <line l="10"/>
+   <line l="161"/>
+   <line l="399"/>
+   <line l="244"/>
+   <line l="283"/>
+   <line l="149"/>
+   <line l="200"/>
+   <line l="144"/>
+   <line l="405"/>
+   <line l="335"/>
+   <line l="39"/>
+   <line l="224"/>
+   <line l="134"/>
+   <line l="104"/>
+   <line l="397"/>
+   <line l="125"/>
+   <line l="342"/>
+   <line l="90"/>
+   <line l="65"/>
+   <line l="99"/>
+   <line l="268"/>
+   <line l="175"/>
+   <line l="409"/>
+   <line l="29"/>
+   <line l="150"/>
+   <line l="192"/>
+   <line l="207"/>
+   <line l="38"/>
+   <line l="23"/>
+   <line l="94"/>
+   <line l="133"/>
+   <line l="230"/>
+   <line l="152"/>
+   <line l="201"/>
+   <line l="147"/>
+   <line l="348"/>
+   <line l="97"/>
+   <line l="293"/>
+   <line l="170"/>
+   <line l="236"/>
+   <line l="191"/>
+   <line l="18"/>
+   <line l="85"/>
+   <line l="113"/>
+   <line l="141"/>
+   <line l="306"/>
+   <line l="154"/>
+   <line l="243"/>
+   <line l="146"/>
+   <line l="234"/>
+   <line l="37"/>
+   <line l="57"/>
+   <line l="341"/>
+   <line l="151"/>
+   <line l="78"/>
+   <line l="263"/>
+   <line l="82"/>
+   <line l="180"/>
+   <line l="7"/>
+   <line l="49"/>
+   <line l="276"/>
+   <line l="256"/>
+   <line l="105"/>
+   <line l="208"/>
+   <line l="45"/>
+   <line l="355"/>
+   <line l="277"/>
+   <line l="344"/>
+   <line l="285"/>
+   <line l="227"/>
+   <line l="248"/>
+   <line l="71"/>
+   <line l="379"/>
+   <line l="197"/>
+   <line l="73"/>
+   <line l="368"/>
+   <line l="193"/>
+   <line l="371"/>
+   <line l="270"/>
+   <line l="36"/>
+   <line l="271"/>
+   <line l="411"/>
+   <line l="107"/>
+   <line l="205"/>
+   <line l="309"/>
+   <line l="185"/>
+   <line l="381"/>
+   <line l="25"/>
+   <line l="402"/>
+   <line l="369"/>
+   <line l="323"/>
+   <line l="372"/>
+   <line l="305"/>
+   <line l="410"/>
+   <line l="406"/>
+   <line l="346"/>
+   <line l="46"/>
+   <line l="81"/>
+   <line l="284"/>
+   <line l="24"/>
+   <line l="319"/>
+   <line l="391"/>
+   <line l="177"/>
+   <line l="218"/>
+   <line l="131"/>
+   <line l="114"/>
+   <line l="35"/>
+   <line l="359"/>
+   <line l="389"/>
+   <line l="5"/>
+   <line l="118"/>
+   <line l="50"/>
+   <line l="378"/>
+   <line l="375"/>
+   <line l="287"/>
+   <line l="408"/>
+   <line l="266"/>
+   <line l="365"/>
+   <line l="115"/>
+   <line l="138"/>
+   <line l="40"/>
+   <line l="390"/>
+   <line l="332"/>
+   <line l="380"/>
+   <line l="222"/>
+   <line l="247"/>
+   <line l="110"/>
+   <line l="116"/>
+   <line l="17"/>
+   <line l="132"/>
+   <line l="68"/>
+   <line l="211"/>
+   <line l="367"/>
+   <line l="44"/>
+   <line l="240"/>
+   <line l="56"/>
+   <line l="325"/>
+   <line l="202"/>
+   <line l="351"/>
+   <line l="267"/>
+   <line l="228"/>
+   <line l="242"/>
+   <line l="157"/>
+   <line l="374"/>
+   <line l="275"/>
+   <line l="64"/>
+   <line l="246"/>
+   <line l="317"/>
+   <line l="324"/>
+   <line l="223"/>
+   <line l="349"/>
+   <line l="384"/>
+   <line l="164"/>
+   <line l="393"/>
+   <line l="274"/>
+   <line l="156"/>
+   <line l="394"/>
+   <line l="203"/>
+   <line l="184"/>
+   <line l="76"/>
+   <line l="331"/>
+   <line l="303"/>
+   <line l="321"/>
+   <line l="220"/>
+   <line l="252"/>
+   <line l="196"/>
+   <line l="290"/>
+   <line l="173"/>
+   <line l="382"/>
+   <line l="51"/>
+   <line l="339"/>
+   <line l="264"/>
+   <line l="189"/>
+   <line l="343"/>
+   <line l="112"/>
+   <line l="190"/>
+   <line l="72"/>
+   <line l="42"/>
+   <line l="407"/>
+   <line l="260"/>
+   <line l="403"/>
+   <line l="33"/>
+   <line l="0"/>
+   <line l="102"/>
+   <line l="282"/>
+   <line l="401"/>
+   <line l="337"/>
+   <line l="124"/>
+   <line l="330"/>
+   <line l="255"/>
+   <line l="140"/>
+   <line l="387"/>
+   <line l="153"/>
+   <line l="269"/>
+   <line l="326"/>
+   <line l="87"/>
+   <line l="231"/>
+   <line l="106"/>
+   <line l="160"/>
+   <line l="186"/>
+   <line l="3"/>
+   <line l="158"/>
+   <line l="84"/>
+   <line l="362"/>
+   <line l="286"/>
+   <line l="225"/>
+   <line l="280"/>
+   <line l="176"/>
+   <line l="300"/>
+   <line l="111"/>
+   <line l="101"/>
+   <line l="165"/>
+   <line l="168"/>
+   <line l="265"/>
+   <line l="396"/>
+   <line l="74"/>
+   <line l="318"/>
+   <line l="376"/>
+   <line l="181"/>
+   <line l="179"/>
+   <line l="128"/>
+   <line l="166"/>
+   <line l="350"/>
+   <line l="352"/>
+   <line l="47"/>
+   <line l="310"/>
+   <line l="301"/>
+   <line l="338"/>
+   <line l="26"/>
+   <line l="199"/>
+   <line l="259"/>
+   <line l="130"/>
+   <line l="262"/>
+   <line l="209"/>
+   <line l="308"/>
+   <line l="62"/>
+   <line l="210"/>
+   <line l="206"/>
+   <line l="183"/>
+   <line l="8"/>
+   <line l="315"/>
+   <line l="119"/>
+   <line l="155"/>
+   <line l="297"/>
+   <line l="123"/>
+   <line l="174"/>
+   <line l="137"/>
+   <line l="254"/>
+   <line l="120"/>
+   <line l="66"/>
+   <line l="237"/>
+   <line l="333"/>
+   <line l="354"/>
+   <line l="304"/>
+   <line l="345"/>
+   <line l="28"/>
+   <line l="43"/>
+   <line l="398"/>
+   <line l="188"/>
+   <line l="96"/>
+   <line l="245"/>
+   <line l="233"/>
+   <line l="135"/>
+   <line l="145"/>
+   <line l="195"/>
+   <line l="91"/>
+   <line l="92"/>
+   <line l="215"/>
+   <line l="58"/>
+   <line l="385"/>
+   <line l="320"/>
+   <line l="55"/>
+   <line l="249"/>
+   <line l="383"/>
+   <line l="340"/>
+   <line l="289"/>
+   <line l="328"/>
+   <line l="79"/>
+   <line l="386"/>
+   <line l="316"/>
+   <line l="14"/>
+   <line l="34"/>
+   <line l="48"/>
+   <line l="95"/>
+   <line l="312"/>
+   <line l="60"/>
+   <line l="288"/>
+   <line l="327"/>
+   <line l="159"/>
+   <line l="241"/>
+   <line l="258"/>
+   <line l="30"/>
+   <line l="377"/>
+   <line l="232"/>
+   <line l="291"/>
+   <line l="16"/>
+   <line l="20"/>
+   <line l="216"/>
+   <line l="400"/>
+   <line l="117"/>
+   <line l="6"/>
+   <line l="361"/>
+   <line l="229"/>
+   <line l="363"/>
+   <line l="22"/>
+   <line l="142"/>
+   <line l="334"/>
+   <line l="296"/>
+   <line l="336"/>
+   <line l="204"/>
+   <line l="89"/>
+   <line l="292"/>
+   <line l="143"/>
+   <line l="329"/>
+   <line l="77"/>
+   <line l="2"/>
+   <line l="169"/>
+   <line l="167"/>
+   <line l="311"/>
+   <line l="86"/>
+   <line l="219"/>
+   <line l="12"/>
+   <line l="278"/>
+   <line l="250"/>
+   <line l="53"/>
+   <line l="182"/>
+   <line l="88"/>
+   <line l="353"/>
+   <line l="31"/>
+   <line l="257"/>
+   <line l="364"/>
+   <line l="404"/>
+   <line l="93"/>
+   <line l="314"/>
+   <line l="395"/>
+   <line l="1"/>
+   <line l="178"/>
+   <line l="41"/>
+   <line l="366"/>
+   <line l="171"/>
+   <line l="187"/>
+   <line l="238"/>
+   <line l="11"/>
+   <line l="103"/>
+   <line l="80"/>
+   <line l="109"/>
+   <line l="239"/>
+   <line l="299"/>
+   <line l="129"/>
+   <line l="15"/>
+   <line l="358"/>
+   <line l="98"/>
+   <line l="213"/>
+   <line l="108"/>
+   <line l="272"/>
+   <line l="9"/>
+   <line l="823"/>
+   <line l="412"/>
+   <line l="511"/>
+   <line l="648"/>
+   <line l="685"/>
+   <line l="457"/>
+   <line l="627"/>
+   <line l="845"/>
+   <line l="769"/>
+   <line l="473"/>
+   <line l="851"/>
+   <line l="760"/>
+   <line l="488"/>
+   <line l="610"/>
+   <line l="794"/>
+   <line l="483"/>
+   <line l="551"/>
+   <line l="523"/>
+   <line l="475"/>
+   <line l="824"/>
+   <line l="708"/>
+   <line l="577"/>
+   <line l="547"/>
+   <line l="802"/>
+   <line l="550"/>
+   <line l="795"/>
+   <line l="785"/>
+   <line l="573"/>
+   <line l="604"/>
+   <line l="557"/>
+   <line l="417"/>
+   <line l="635"/>
+   <line l="464"/>
+   <line l="582"/>
+   <line l="430"/>
+   <line l="664"/>
+   <line l="726"/>
+   <line l="540"/>
+   <line l="768"/>
+   <line l="725"/>
+   <line l="721"/>
+   <line l="453"/>
+   <line l="515"/>
+   <line l="656"/>
+   <line l="639"/>
+   <line l="614"/>
+   <line l="535"/>
+   <line l="852"/>
+   <line l="779"/>
+   <line l="591"/>
+   <line l="787"/>
+   <line l="746"/>
+   <line l="653"/>
+   <line l="761"/>
+   <line l="607"/>
+   <line l="454"/>
+   <line l="740"/>
+   <line l="564"/>
+   <line l="525"/>
+   <line l="487"/>
+   <line l="790"/>
+   <line l="831"/>
+   <line l="762"/>
+   <line l="434"/>
+   <line l="580"/>
+   <line l="529"/>
+   <line l="419"/>
+   <line l="481"/>
+   <line l="570"/>
+   <line l="641"/>
+   <line l="512"/>
+   <line l="711"/>
+   <line l="528"/>
+   <line l="636"/>
+   <line l="843"/>
+   <line l="589"/>
+   <line l="877"/>
+   <line l="784"/>
+   <line l="834"/>
+   <line l="541"/>
+   <line l="628"/>
+   <line l="554"/>
+   <line l="468"/>
+   <line l="652"/>
+   <line l="472"/>
+   <line l="516"/>
+   <line l="561"/>
+   <line l="750"/>
+   <line l="694"/>
+   <line l="756"/>
+   <line l="616"/>
+   <line l="676"/>
+   <line l="718"/>
+   <line l="662"/>
+   <line l="859"/>
+   <line l="723"/>
+   <line l="506"/>
+   <line l="844"/>
+   <line l="544"/>
+   <line l="621"/>
+   <line l="751"/>
+   <line l="444"/>
+   <line l="865"/>
+   <line l="754"/>
+   <line l="608"/>
+   <line l="440"/>
+   <line l="643"/>
+   <line l="820"/>
+   <line l="439"/>
+   <line l="638"/>
+   <line l="503"/>
+   <line l="667"/>
+   <line l="666"/>
+   <line l="548"/>
+   <line l="775"/>
+   <line l="797"/>
+   <line l="730"/>
+   <line l="757"/>
+   <line l="714"/>
+   <line l="875"/>
+   <line l="857"/>
+   <line l="476"/>
+   <line l="590"/>
+   <line l="654"/>
+   <line l="737"/>
+   <line l="450"/>
+   <line l="814"/>
+   <line l="609"/>
+   <line l="686"/>
+   <line l="700"/>
+   <line l="747"/>
+   <line l="663"/>
+   <line l="630"/>
+   <line l="659"/>
+   <line l="673"/>
+   <line l="558"/>
+   <line l="560"/>
+   <line l="811"/>
+   <line l="793"/>
+   <line l="813"/>
+   <line l="625"/>
+   <line l="689"/>
+   <line l="586"/>
+   <line l="477"/>
+   <line l="578"/>
+   <line l="786"/>
+   <line l="567"/>
+   <line l="510"/>
+   <line l="688"/>
+   <line l="611"/>
+   <line l="696"/>
+   <line l="433"/>
+   <line l="425"/>
+   <line l="527"/>
+   <line l="486"/>
+   <line l="767"/>
+   <line l="759"/>
+   <line l="876"/>
+   <line l="655"/>
+   <line l="860"/>
+   <line l="849"/>
+   <line l="619"/>
+   <line l="674"/>
+   <line l="861"/>
+   <line l="543"/>
+   <line l="657"/>
+   <line l="799"/>
+   <line l="587"/>
+   <line l="651"/>
+   <line l="471"/>
+   <line l="792"/>
+   <line l="633"/>
+   <line l="559"/>
+   <line l="462"/>
+   <line l="783"/>
+   <line l="495"/>
+   <line l="669"/>
+   <line l="498"/>
+   <line l="592"/>
+   <line l="720"/>
+   <line l="660"/>
+   <line l="620"/>
+   <line l="574"/>
+   <line l="704"/>
+   <line l="623"/>
+   <line l="710"/>
+   <line l="675"/>
+   <line l="427"/>
+   <line l="646"/>
+   <line l="833"/>
+   <line l="485"/>
+   <line l="416"/>
+   <line l="800"/>
+   <line l="601"/>
+   <line l="500"/>
+   <line l="841"/>
+   <line l="509"/>
+   <line l="748"/>
+   <line l="640"/>
+   <line l="821"/>
+   <line l="871"/>
+   <line l="497"/>
+   <line l="846"/>
+   <line l="854"/>
+   <line l="520"/>
+   <line l="803"/>
+   <line l="687"/>
+   <line l="777"/>
+   <line l="738"/>
+   <line l="862"/>
+   <line l="649"/>
+   <line l="465"/>
+   <line l="441"/>
+   <line l="469"/>
+   <line l="603"/>
+   <line l="678"/>
+   <line l="703"/>
+   <line l="770"/>
+   <line l="443"/>
+   <line l="612"/>
+   <line l="826"/>
+   <line l="588"/>
+   <line l="837"/>
+   <line l="420"/>
+   <line l="680"/>
+   <line l="460"/>
+   <line l="507"/>
+   <line l="519"/>
+   <line l="424"/>
+   <line l="489"/>
+   <line l="452"/>
+   <line l="479"/>
+   <line l="499"/>
+   <line l="839"/>
+   <line l="531"/>
+   <line l="801"/>
+   <line l="533"/>
+   <line l="817"/>
+   <line l="810"/>
+   <line l="568"/>
+   <line l="442"/>
+   <line l="868"/>
+   <line l="806"/>
+   <line l="773"/>
+   <line l="413"/>
+   <line l="569"/>
+   <line l="418"/>
+   <line l="771"/>
+   <line l="474"/>
+   <line l="482"/>
+   <line l="490"/>
+   <line l="602"/>
+   <line l="736"/>
+   <line l="647"/>
+   <line l="421"/>
+   <line l="496"/>
+   <line l="455"/>
+   <line l="644"/>
+   <line l="753"/>
+   <line l="838"/>
+   <line l="829"/>
+   <line l="788"/>
+   <line l="735"/>
+   <line l="719"/>
+   <line l="670"/>
+   <line l="658"/>
+   <line l="695"/>
+   <line l="595"/>
+   <line l="867"/>
+   <line l="863"/>
+   <line l="451"/>
+   <line l="437"/>
+   <line l="798"/>
+   <line l="631"/>
+   <line l="744"/>
+   <line l="739"/>
+   <line l="556"/>
+   <line l="596"/>
+   <line l="584"/>
+   <line l="565"/>
+   <line l="866"/>
+   <line l="492"/>
+   <line l="702"/>
+   <line l="562"/>
+   <line l="461"/>
+   <line l="449"/>
+   <line l="563"/>
+   <line l="422"/>
+   <line l="447"/>
+   <line l="816"/>
+   <line l="522"/>
+   <line l="518"/>
+   <line l="549"/>
+   <line l="466"/>
+   <line l="741"/>
+   <line l="594"/>
+   <line l="493"/>
+   <line l="642"/>
+   <line l="581"/>
+   <line l="856"/>
+   <line l="501"/>
+   <line l="742"/>
+   <line l="505"/>
+   <line l="583"/>
+   <line l="684"/>
+   <line l="763"/>
+   <line l="645"/>
+   <line l="566"/>
+   <line l="553"/>
+   <line l="545"/>
+   <line l="818"/>
+   <line l="808"/>
+   <line l="715"/>
+   <line l="822"/>
+   <line l="526"/>
+   <line l="502"/>
+   <line l="682"/>
+   <line l="436"/>
+   <line l="600"/>
+   <line l="446"/>
+   <line l="772"/>
+   <line l="429"/>
+   <line l="459"/>
+   <line l="470"/>
+   <line l="435"/>
+   <line l="629"/>
+   <line l="728"/>
+   <line l="819"/>
+   <line l="605"/>
+   <line l="438"/>
+   <line l="423"/>
+   <line l="705"/>
+   <line l="615"/>
+   <line l="480"/>
+   <line l="840"/>
+   <line l="622"/>
+   <line l="778"/>
+   <line l="835"/>
+   <line l="613"/>
+   <line l="766"/>
+   <line l="864"/>
+   <line l="815"/>
+   <line l="743"/>
+   <line l="665"/>
+   <line l="661"/>
+   <line l="624"/>
+   <line l="484"/>
+   <line l="701"/>
+   <line l="805"/>
+   <line l="456"/>
+   <line l="804"/>
+   <line l="724"/>
+   <line l="668"/>
+   <line l="812"/>
+   <line l="576"/>
+   <line l="828"/>
+   <line l="791"/>
+   <line l="712"/>
+   <line l="683"/>
+   <line l="521"/>
+   <line l="693"/>
+   <line l="458"/>
+   <line l="855"/>
+   <line l="632"/>
+   <line l="677"/>
+   <line l="853"/>
+   <line l="432"/>
+   <line l="716"/>
+   <line l="618"/>
+   <line l="579"/>
+   <line l="428"/>
+   <line l="478"/>
+   <line l="830"/>
+   <line l="796"/>
+   <line l="552"/>
+   <line l="517"/>
+   <line l="690"/>
+   <line l="836"/>
+   <line l="848"/>
+   <line l="514"/>
+   <line l="575"/>
+   <line l="699"/>
+   <line l="672"/>
+   <line l="431"/>
+   <line l="713"/>
+   <line l="606"/>
+   <line l="774"/>
+   <line l="722"/>
+   <line l="858"/>
+   <line l="524"/>
+   <line l="709"/>
+   <line l="717"/>
+   <line l="697"/>
+   <line l="869"/>
+   <line l="508"/>
+   <line l="546"/>
+   <line l="692"/>
+   <line l="532"/>
+   <line l="415"/>
+   <line l="671"/>
+   <line l="874"/>
+   <line l="850"/>
+   <line l="681"/>
+   <line l="727"/>
+   <line l="870"/>
+   <line l="749"/>
+   <line l="536"/>
+   <line l="827"/>
+   <line l="593"/>
+   <line l="765"/>
+   <line l="491"/>
+   <line l="571"/>
+   <line l="539"/>
+   <line l="445"/>
+   <line l="598"/>
+   <line l="617"/>
+   <line l="538"/>
+   <line l="706"/>
+   <line l="789"/>
+   <line l="555"/>
+   <line l="732"/>
+   <line l="691"/>
+   <line l="679"/>
+   <line l="847"/>
+   <line l="634"/>
+   <line l="537"/>
+   <line l="599"/>
+   <line l="467"/>
+   <line l="650"/>
+   <line l="513"/>
+   <line l="463"/>
+   <line l="780"/>
+   <line l="825"/>
+   <line l="733"/>
+   <line l="448"/>
+   <line l="809"/>
+   <line l="707"/>
+   <line l="572"/>
+   <line l="764"/>
+   <line l="504"/>
+   <line l="872"/>
+   <line l="494"/>
+   <line l="734"/>
+   <line l="530"/>
+   <line l="637"/>
+   <line l="781"/>
+   <line l="842"/>
+   <line l="626"/>
+   <line l="745"/>
+   <line l="752"/>
+   <line l="782"/>
+   <line l="729"/>
+   <line l="585"/>
+   <line l="832"/>
+   <line l="597"/>
+   <line l="776"/>
+   <line l="755"/>
+   <line l="542"/>
+   <line l="414"/>
+   <line l="758"/>
+   <line l="807"/>
+   <line l="426"/>
+   <line l="731"/>
+   <line l="698"/>
+   <line l="873"/>
+   <line l="534"/>
+  </lines>
+ </mapping>
+</allatori>

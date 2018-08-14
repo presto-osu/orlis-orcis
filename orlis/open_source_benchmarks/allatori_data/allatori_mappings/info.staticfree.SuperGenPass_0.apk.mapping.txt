@@ -1,0 +1,3144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v5.9 Educational
+   Web: http://www.allatori.com
+
+   Log created: Mon Aug 13 21:26:33 EDT 2018
+-->
+
+<allatori>
+ <mapping>
+  <class old="org.apache.commons.codec.binary.BaseNCodecInputStream" new="wy.c_b">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Cd"/>
+   <method old="available()I" new="available"/>
+   <method old="mark(I)V" new="mark"/>
+   <method old="markSupported()Z" new="markSupported"/>
+   <method old="read()I" new="read"/>
+   <method old="read([BII)I" new="read"/>
+   <method old="reset()V" new="reset"/>
+   <method old="skip(J)J" new="skip"/>
+   <field old="baseNCodec Lorg/apache/commons/codec/binary/BaseNCodec;" new="f_f"/>
+   <field old="context Lorg/apache/commons/codec/binary/BaseNCodec$Context;" new="f_L"/>
+   <field old="doEncode Z" new="f_F"/>
+   <field old="singleByte [B" new="f_I"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.GeneratedPasswordView" new="info.staticfree.SuperGenPass.GeneratedPasswordView">
+   <method old="copyToClipboard()V" new="m_sB"/>
+   <method old="getHidePassword()Z" new="getHidePassword"/>
+   <method old="onClick(Landroid/view/View;)V" new="onClick"/>
+   <method old="onCreateContextMenu(Landroid/view/ContextMenu;)V" new="onCreateContextMenu"/>
+   <method old="onMenuItemClick(Landroid/view/MenuItem;)Z" new="onMenuItemClick"/>
+   <method old="onRestoreInstanceState(Landroid/os/Parcelable;)V" new="onRestoreInstanceState"/>
+   <method old="onSaveInstanceState()Landroid/os/Parcelable;" new="onSaveInstanceState"/>
+   <method old="onTextContextMenuItem(I)Z" new="onTextContextMenuItem"/>
+   <method old="setDomainName(Ljava/lang/CharSequence;)V" new="setDomainName"/>
+   <method old="setHidePassword(Z)V" new="setHidePassword"/>
+   <method old="setOnClickListener(Landroid/view/View$OnClickListener;)V" new="setOnClickListener"/>
+   <method old="setText(Ljava/lang/CharSequence;Landroid/widget/TextView$BufferType;)V" new="setText"/>
+   <field old="MENU_ID_COPY I" new="f_f"/>
+   <field old="domain Ljava/lang/CharSequence;" new="f_I"/>
+   <field old="mOnClickListener Landroid/view/View$OnClickListener;" new="f_F"/>
+  </class>
+  <class old="com.google.zxing.integration.android.IntentIntegrator$1" new="wy.c_P">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lcom/google/zxing/integration/android/IntentIntegrator;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.BinaryDecoder" new="org.apache.commons.codec.c_a">
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+   <method old="decode([B)[B" new="m_B"/>
+  </class>
+  <class old="android.support.annotation.RequiresPermission" new="android.support.annotation.RequiresPermission">
+   <method old="allOf()[Ljava/lang/String;" new="m_L"/>
+   <method old="anyOf()[Ljava/lang/String;" new="m_F"/>
+   <method old="conditional()Z" new="m_G"/>
+   <method old="value()Ljava/lang/String;" new="m_m"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass$VerifyFragment" new="info.staticfree.SuperGenPass.c_a">
+   <method old="access$600(Linfo/staticfree/SuperGenPass/Super_Gen_Pass$VerifyFragment;)Ljava/lang/String;" new="m_cd"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;" new="onCreateDialog"/>
+   <method old="showVerifyFragment(Landroid/app/FragmentManager;Ljava/lang/String;)V" new="m_QC"/>
+   <field old="ARG_PASSWORD Ljava/lang/String;" new="f_f"/>
+   <field old="mPasswordToCheck Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="android.support.annotation.LayoutRes" new="android.support.annotation.c_f">
+  </class>
+  <class old="android.support.annotation.AnimRes" new="android.support.annotation.c_w">
+  </class>
+  <class old="android.support.annotation.WorkerThread" new="android.support.annotation.c_E">
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass$VerifyFragment$1" new="info.staticfree.SuperGenPass.c_i">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Super_Gen_Pass$VerifyFragment;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass$VerifyFragment$2" new="info.staticfree.SuperGenPass.c_E">
+   <method old="afterTextChanged(Landroid/text/Editable;)V" new="afterTextChanged"/>
+   <method old="beforeTextChanged(Ljava/lang/CharSequence;III)V" new="beforeTextChanged"/>
+   <method old="onTextChanged(Ljava/lang/CharSequence;III)V" new="onTextChanged"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Super_Gen_Pass$VerifyFragment;" new="f_F"/>
+  </class>
+  <class old="android.support.annotation.ArrayRes" new="android.support.annotation.c_n">
+  </class>
+  <class old="android.support.annotation.FloatRange" new="android.support.annotation.c_e">
+   <method old="from()D" new="m_e"/>
+   <method old="fromInclusive()Z" new="m_f"/>
+   <method old="to()D" new="m_b"/>
+   <method old="toInclusive()Z" new="m_A"/>
+  </class>
+  <class old="org.apache.commons.codec.StringDecoder" new="org.apache.commons.codec.c_l">
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+   <method old="decode(Ljava/lang/String;)Ljava/lang/String;" new="m_d"/>
+  </class>
+  <class old="org.apache.commons.codec.EncoderException" new="org.apache.commons.codec.c_h">
+   <field old="serialVersionUID J" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.net.Utils" new="org.apache.commons.codec.net.c_C">
+   <method old="digit16(B)I" new="m_h"/>
+  </class>
+  <class old="android.support.annotation.StringDef" new="android.support.annotation.c_A">
+   <method old="value()[Ljava/lang/String;" new="m_m"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Preferences" new="info.staticfree.SuperGenPass.c_I">
+   <method old="access$100(Linfo/staticfree/SuperGenPass/Preferences;Ljava/lang/String;)V" new="m_aC"/>
+   <method old="getStringAsInteger(Landroid/content/SharedPreferences;Ljava/lang/String;I)I" new="m_tA"/>
+   <method old="isInteger(Ljava/lang/Object;)Z" new="m_Vc"/>
+   <method old="onActivityResult(IILandroid/content/Intent;)V" new="onActivityResult"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="scanSalt()V" new="m_QB"/>
+   <method old="setSaltPref(Ljava/lang/String;)V" new="m_XC"/>
+   <field old="ACTION_CLEAR_STORED_DOMAINS Ljava/lang/String;" new="f_I"/>
+   <field old="ACTION_GENERATE_SALT Ljava/lang/String;" new="f_a"/>
+   <field old="ACTION_SCAN_SALT Ljava/lang/String;" new="f_g"/>
+   <field old="PREF_CLEAR_REMEMBERED Ljava/lang/String;" new="f_F"/>
+   <field old="PREF_CLIPBOARD Ljava/lang/String;" new="f_e"/>
+   <field old="PREF_DOMAIN_CHECK Ljava/lang/String;" new="f_K"/>
+   <field old="PREF_GENERATE_SALT Ljava/lang/String;" new="f_h"/>
+   <field old="PREF_PIN_DIGITS Ljava/lang/String;" new="f_c"/>
+   <field old="PREF_PW_CLEAR_TIMEOUT Ljava/lang/String;" new="f_J"/>
+   <field old="PREF_PW_LENGTH Ljava/lang/String;" new="f_b"/>
+   <field old="PREF_PW_SALT Ljava/lang/String;" new="f_k"/>
+   <field old="PREF_PW_TYPE Ljava/lang/String;" new="f_L"/>
+   <field old="PREF_REMEMBER_DOMAINS Ljava/lang/String;" new="f_l"/>
+   <field old="PREF_SCAN_SALT Ljava/lang/String;" new="f_f"/>
+   <field old="PREF_SHOW_GEN_PW Ljava/lang/String;" new="f_D"/>
+   <field old="PREF_SHOW_PIN Ljava/lang/String;" new="f_A"/>
+   <field old="PREF_VISUAL_HASH Ljava/lang/String;" new="f_E"/>
+   <field old="integerConformCheck Landroid/preference/Preference$OnPreferenceChangeListener;" new="f_C"/>
+   <field old="mDomainCountLoaderCallbacks Landroid/app/LoaderManager$LoaderCallbacks;" new="f_B"/>
+   <field old="mOnPreferenceClickListener Landroid/preference/Preference$OnPreferenceClickListener;" new="f_G"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.R$attr" new="info.staticfree.SuperGenPass.R$attr">
+   <field old="generatedPasswordViewStyle I" new="generatedPasswordViewStyle"/>
+   <field old="showVisualHash I" new="showVisualHash"/>
+   <field old="visualHashHeight I" new="visualHashHeight"/>
+   <field old="visualHashWidth I" new="visualHashWidth"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.R$string" new="info.staticfree.SuperGenPass.R$string">
+   <field old="about_text I" new="about_text"/>
+   <field old="about_title I" new="about_title"/>
+   <field old="advanced_preferences I" new="advanced_preferences"/>
+   <field old="app_description I" new="app_description"/>
+   <field old="app_name I" new="app_name"/>
+   <field old="dialog_verify_hint I" new="dialog_verify_hint"/>
+   <field old="dialog_verify_title I" new="dialog_verify_title"/>
+   <field old="domain_hint I" new="domain_hint"/>
+   <field old="domain_hint_no_checking I" new="domain_hint_no_checking"/>
+   <field old="done I" new="done"/>
+   <field old="err_empty_master_password I" new="err_empty_master_password"/>
+   <field old="err_json_load I" new="err_json_load"/>
+   <field old="err_no_hash I" new="err_no_hash"/>
+   <field old="err_no_md5 I" new="err_no_md5"/>
+   <field old="generated_password I" new="generated_password"/>
+   <field old="genpw_hidden I" new="genpw_hidden"/>
+   <field old="genpw_shown I" new="genpw_shown"/>
+   <field old="master_pw_verify_description I" new="master_pw_verify_description"/>
+   <field old="menu_about I" new="menu_about"/>
+   <field old="menu_copy_generated_password I" new="menu_copy_generated_password"/>
+   <field old="menu_settings I" new="menu_settings"/>
+   <field old="menu_verify I" new="menu_verify"/>
+   <field old="password_hint I" new="password_hint"/>
+   <field old="pin_length I" new="pin_length"/>
+   <field old="pref_autocomplete I" new="pref_autocomplete"/>
+   <field old="pref_autocomplete_summary I" new="pref_autocomplete_summary"/>
+   <field old="pref_clear_remembered_default_summary I" new="pref_clear_remembered_default_summary"/>
+   <field old="pref_clear_remembered_domains I" new="pref_clear_remembered_domains"/>
+   <field old="pref_copy_password I" new="pref_copy_password"/>
+   <field old="pref_copy_password_summary I" new="pref_copy_password_summary"/>
+   <field old="pref_domain_check I" new="pref_domain_check"/>
+   <field old="pref_domain_check_off I" new="pref_domain_check_off"/>
+   <field old="pref_domain_check_on I" new="pref_domain_check_on"/>
+   <field old="pref_err_not_number I" new="pref_err_not_number"/>
+   <field old="pref_generate_salt_and_set I" new="pref_generate_salt_and_set"/>
+   <field old="pref_generate_salt_dialog_message I" new="pref_generate_salt_dialog_message"/>
+   <field old="pref_generate_salt_summary I" new="pref_generate_salt_summary"/>
+   <field old="pref_generate_salt_title I" new="pref_generate_salt_title"/>
+   <field old="pref_pin_summary I" new="pref_pin_summary"/>
+   <field old="pref_pin_title I" new="pref_pin_title"/>
+   <field old="pref_pw_clear_timeout I" new="pref_pw_clear_timeout"/>
+   <field old="pref_pw_clear_timeout_description I" new="pref_pw_clear_timeout_description"/>
+   <field old="pref_pw_clear_timeout_summary I" new="pref_pw_clear_timeout_summary"/>
+   <field old="pref_pw_length I" new="pref_pw_length"/>
+   <field old="pref_pw_length_description I" new="pref_pw_length_description"/>
+   <field old="pref_pw_salt_category I" new="pref_pw_salt_category"/>
+   <field old="pref_pw_salt_description I" new="pref_pw_salt_description"/>
+   <field old="pref_pw_salt_summary I" new="pref_pw_salt_summary"/>
+   <field old="pref_pw_salt_title I" new="pref_pw_salt_title"/>
+   <field old="pref_scan_qr_code_to_load_zxing_message I" new="pref_scan_qr_code_to_load_zxing_message"/>
+   <field old="pref_scan_salt_from_qr_code_title I" new="pref_scan_salt_from_qr_code_title"/>
+   <field old="pref_scan_salt_summary I" new="pref_scan_salt_summary"/>
+   <field old="pref_visual_hash I" new="pref_visual_hash"/>
+   <field old="pref_visual_hash_summary I" new="pref_visual_hash_summary"/>
+   <field old="preferences I" new="preferences"/>
+   <field old="pwc_type I" new="pwc_type"/>
+   <field old="pwgen_type_prompt I" new="pwgen_type_prompt"/>
+   <field old="pwgen_type_summary I" new="pwgen_type_summary"/>
+   <field old="sgp_type I" new="sgp_type"/>
+   <field old="sgp_type_sha_512 I" new="sgp_type_sha_512"/>
+   <field old="tab_password I" new="tab_password"/>
+   <field old="tab_pin I" new="tab_pin"/>
+   <field old="toast_copied I" new="toast_copied"/>
+   <field old="toast_copied_no_domain I" new="toast_copied_no_domain"/>
+   <field old="toast_verify_success I" new="toast_verify_success"/>
+   <field old="user_preferences I" new="user_preferences"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$RPattern" new="org.apache.commons.codec.language.bm.Rule$RPattern">
+   <method old="isMatch(Ljava/lang/CharSequence;)Z" new="m_D"/>
+  </class>
+  <class old="org.apache.commons.codec.binary.Hex" new="wy.c_H">
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+   <method old="decode([B)[B" new="m_B"/>
+   <method old="decodeHex([C)[B" new="m_ic"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode([B)[B" new="m_C"/>
+   <method old="encodeHex([B)[C" new="m_ub"/>
+   <method old="encodeHex([BZ)[C" new="m_ib"/>
+   <method old="encodeHex([B[C)[C" new="m_Db"/>
+   <method old="encodeHexString([B)Ljava/lang/String;" new="m_Dc"/>
+   <method old="getCharset()Ljava/nio/charset/Charset;" new="m_Z"/>
+   <method old="getCharsetName()Ljava/lang/String;" new="m_MC"/>
+   <method old="toDigit(CI)I" new="m_Nb"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="DEFAULT_CHARSET Ljava/nio/charset/Charset;" new="f_f"/>
+   <field old="DEFAULT_CHARSET_NAME Ljava/lang/String;" new="f_I"/>
+   <field old="DIGITS_LOWER [C" new="f_L"/>
+   <field old="DIGITS_UPPER [C" new="f_b"/>
+   <field old="charset Ljava/nio/charset/Charset;" new="f_F"/>
+  </class>
+  <class old="android.support.annotation.FractionRes" new="android.support.annotation.c_F">
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass" new="info.staticfree.SuperGenPass.Super_Gen_Pass">
+   <method old="access$000(Linfo/staticfree/SuperGenPass/Super_Gen_Pass;)V" new="m_iA"/>
+   <method old="access$100(Linfo/staticfree/SuperGenPass/Super_Gen_Pass;)V" new="m_EA"/>
+   <method old="access$200(Linfo/staticfree/SuperGenPass/Super_Gen_Pass;)Linfo/staticfree/SuperGenPass/VisualHashEditText;" new="m_SB"/>
+   <method old="access$300(Linfo/staticfree/SuperGenPass/Super_Gen_Pass;)I" new="m_mC"/>
+   <method old="access$302(Linfo/staticfree/SuperGenPass/Super_Gen_Pass;I)I" new="m_JB"/>
+   <method old="access$400()Ljava/lang/String;" new="m_Kc"/>
+   <method old="access$500(Linfo/staticfree/SuperGenPass/Super_Gen_Pass;)Landroid/os/Handler;" new="m_dc"/>
+   <method old="bindTextWatchers()V" new="m_pc"/>
+   <method old="clearEditTexts()V" new="m_Bd"/>
+   <method old="clearGenPassword()V" new="m_cA"/>
+   <method old="extractDomain(Ljava/lang/String;)Ljava/lang/String;" new="m_aB"/>
+   <method old="generateAndDisplay()Ljava/lang/String;" new="m_oc"/>
+   <method old="generateIfValid()V" new="m_Hb"/>
+   <method old="getDomain()Ljava/lang/String;" new="m_Jd"/>
+   <method old="getMasterPassword()Ljava/lang/String;" new="m_fb"/>
+   <method old="go()Z" new="m_qc"/>
+   <method old="initDomainPasswordEntry()V" new="m_td"/>
+   <method old="initGenPassword()V" new="m_dB"/>
+   <method old="initMasterPasswordHide()V" new="m_gA"/>
+   <method old="initPinWidgets()V" new="m_iC"/>
+   <method old="loadFromPreferences()V" new="m_bB"/>
+   <method old="onActivityResult(IILandroid/content/Intent;)V" new="onActivityResult"/>
+   <method old="onCheckedChanged(Landroid/widget/CompoundButton;Z)V" new="onCheckedChanged"/>
+   <method old="onClick(Landroid/view/View;)V" new="onClick"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z" new="onEditorAction"/>
+   <method old="onLongClick(Landroid/view/View;)Z" new="onLongClick"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onPrepareOptionsMenu(Landroid/view/Menu;)Z" new="onPrepareOptionsMenu"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="onSaveInstanceState(Landroid/os/Bundle;)V" new="onSaveInstanceState"/>
+   <method old="postGenerate(Z)V" new="m_sc"/>
+   <method old="runQuery(Ljava/lang/CharSequence;)Landroid/database/Cursor;" new="runQuery"/>
+   <field old="DOMAIN_COLUMN I" new="f_A"/>
+   <field old="MINUTE_MS I" new="f_g"/>
+   <field old="MIN_PIN_LENGTH I" new="f_C"/>
+   <field old="MSG_UPDATE_PW_VIEW I" new="f_e"/>
+   <field old="PROJECTION [Ljava/lang/String;" new="f_K"/>
+   <field old="REQUEST_CODE_PREFERENCES I" new="f_V"/>
+   <field old="STATE_LAST_STOPPED_TIME Ljava/lang/String;" new="f_H"/>
+   <field old="STATE_SHOWING_PASSWORD Ljava/lang/String;" new="f_G"/>
+   <field old="TAG Ljava/lang/String;" new="f_z"/>
+   <field old="mClearDomain Z" new="f_M"/>
+   <field old="mCopyToClipboard Z" new="f_b"/>
+   <field old="mDomainBasedHash Linfo/staticfree/SuperGenPass/hashes/DomainBasedHash;" new="f_c"/>
+   <field old="mDomainCheck Z" new="f_B"/>
+   <field old="mDomainEdit Landroid/widget/AutoCompleteTextView;" new="f_i"/>
+   <field old="mGenPinView Linfo/staticfree/SuperGenPass/GeneratedPasswordView;" new="f_D"/>
+   <field old="mGenPwView Linfo/staticfree/SuperGenPass/GeneratedPasswordView;" new="f_d"/>
+   <field old="mHandler Landroid/os/Handler;" new="f_j"/>
+   <field old="mLastStoppedTime J" new="f_I"/>
+   <field old="mMasterPwEdit Linfo/staticfree/SuperGenPass/VisualHashEditText;" new="f_J"/>
+   <field old="mPinDigits I" new="f_h"/>
+   <field old="mPinDigitsSpinner Landroid/widget/Spinner;" new="f_F"/>
+   <field old="mPinGen Linfo/staticfree/SuperGenPass/hashes/HotpPin;" new="f_f"/>
+   <field old="mPwClearTimeout I" new="f_n"/>
+   <field old="mPwLength I" new="f_a"/>
+   <field old="mPwSalt Ljava/lang/String;" new="f_l"/>
+   <field old="mRememberDomains Z" new="f_k"/>
+   <field old="mScreenOffReceiver Landroid/content/BroadcastReceiver;" new="f_m"/>
+   <field old="mShowGenPassword Landroid/widget/CompoundButton;" new="f_L"/>
+   <field old="mShowPin Z" new="f_v"/>
+   <field old="mShowingPassword Z" new="f_E"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Manifest" new="info.staticfree.SuperGenPass.c_K">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Cd"/>
+  </class>
+  <class old="android.support.annotation.Size" new="android.support.annotation.c_H">
+   <method old="max()J" new="m_H"/>
+   <method old="min()J" new="m_M"/>
+   <method old="multiple()J" new="m_I"/>
+   <method old="value()J" new="m_m"/>
+  </class>
+  <class old="org.apache.commons.codec.Encoder" new="org.apache.commons.codec.c_C">
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass$AboutFragment" new="info.staticfree.SuperGenPass.c_l">
+   <method old="onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;" new="onCreateDialog"/>
+  </class>
+  <class old="android.support.annotation.AnimatorRes" new="android.support.annotation.c_T">
+  </class>
+  <class old="android.support.annotation.IntDef" new="android.support.annotation.c_B">
+   <method old="flag()Z" new="m_l"/>
+   <method old="value()[J" new="m_m"/>
+  </class>
+  <class old="org.apache.commons.codec.language.ColognePhonetic$CologneOutputBuffer" new="org.apache.commons.codec.language.c_A">
+   <method old="addRight(C)V" new="m_PB"/>
+   <method old="copyData(II)[C" new="m_MB"/>
+   <method old="length()I" new="m_wA"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="data [C" new="f_f"/>
+   <field old="length I" new="f_I"/>
+   <field old="this$0 Lorg/apache/commons/codec/language/ColognePhonetic;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.BeiderMorseEncoder" new="org.apache.commons.codec.language.bm.c_M">
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="getNameType()Lorg/apache/commons/codec/language/bm/NameType;" new="m_va"/>
+   <method old="getRuleType()Lorg/apache/commons/codec/language/bm/RuleType;" new="m_Wa"/>
+   <method old="isConcat()Z" new="m_ra"/>
+   <method old="setConcat(Z)V" new="m_tC"/>
+   <method old="setMaxPhonemes(I)V" new="m_Tb"/>
+   <method old="setNameType(Lorg/apache/commons/codec/language/bm/NameType;)V" new="m_Pc"/>
+   <method old="setRuleType(Lorg/apache/commons/codec/language/bm/RuleType;)V" new="m_kc"/>
+   <field old="engine Lorg/apache/commons/codec/language/bm/PhoneticEngine;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.AbstractCaverphone" new="org.apache.commons.codec.language.c_G">
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="isEncodeEqual(Ljava/lang/String;Ljava/lang/String;)Z" new="m_Qb"/>
+  </class>
+  <class old="android.support.annotation.Keep" new="android.support.annotation.c_k">
+  </class>
+  <class old="edu.mit.mobile.android.utils.ProviderUtils" new="wy.c_U">
+   <method old="addExtraWhere(Ljava/lang/String;[Ljava/lang/String;)Ljava/lang/String;" new="m_Sb"/>
+   <method old="addExtraWhereArgs([Ljava/lang/String;[Ljava/lang/String;)[Ljava/lang/String;" new="m_pB"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Languages" new="org.apache.commons.codec.language.bm.c_H">
+   <method old="getInstance(Ljava/lang/String;)Lorg/apache/commons/codec/language/bm/Languages;" new="m_ta"/>
+   <method old="getInstance(Lorg/apache/commons/codec/language/bm/NameType;)Lorg/apache/commons/codec/language/bm/Languages;" new="m_Ya"/>
+   <method old="getLanguages()Ljava/util/Set;" new="m_r"/>
+   <method old="langResourceName(Lorg/apache/commons/codec/language/bm/NameType;)Ljava/lang/String;" new="m_Sa"/>
+   <field old="ANY Ljava/lang/String;" new="f_f"/>
+   <field old="ANY_LANGUAGE Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="f_I"/>
+   <field old="LANGUAGES Ljava/util/Map;" new="f_b"/>
+   <field old="NO_LANGUAGES Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="f_L"/>
+   <field old="languages Ljava/util/Set;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.ColognePhonetic$CologneInputBuffer" new="org.apache.commons.codec.language.c_H">
+   <method old="addLeft(C)V" new="m_Rb"/>
+   <method old="copyData(II)[C" new="m_MB"/>
+   <method old="getNextChar()C" new="m_jb"/>
+   <method old="getNextPos()I" new="m_PA"/>
+   <method old="length()I" new="m_wA"/>
+   <method old="removeNext()C" new="m_kA"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="data [C" new="f_f"/>
+   <field old="length I" new="f_I"/>
+   <field old="this$0 Lorg/apache/commons/codec/language/ColognePhonetic;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.RefinedSoundex" new="org.apache.commons.codec.language.RefinedSoundex">
+   <method old="difference(Ljava/lang/String;Ljava/lang/String;)I" new="m_GC"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="getMappingCode(C)C" new="m_fC"/>
+   <method old="soundex(Ljava/lang/String;)Ljava/lang/String;" new="m_Ld"/>
+   <field old="US_ENGLISH Lorg/apache/commons/codec/language/RefinedSoundex;" new="US_ENGLISH"/>
+   <field old="US_ENGLISH_MAPPING [C" new="f_f"/>
+   <field old="US_ENGLISH_MAPPING_STRING Ljava/lang/String;" new="US_ENGLISH_MAPPING_STRING"/>
+   <field old="soundexMapping [C" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.R$array" new="info.staticfree.SuperGenPass.R$array">
+   <field old="pin_lengths I" new="pin_lengths"/>
+   <field old="pwgen_types I" new="pwgen_types"/>
+   <field old="pwgen_types_label I" new="pwgen_types_label"/>
+  </class>
+  <class old="android.support.annotation.StyleRes" new="android.support.annotation.c_j">
+  </class>
+  <class old="org.apache.commons.codec.language.bm.PhoneticEngine$PhonemeBuilder" new="org.apache.commons.codec.language.bm.c_E">
+   <method old="append(Ljava/lang/CharSequence;)Lorg/apache/commons/codec/language/bm/PhoneticEngine$PhonemeBuilder;" new="m_S"/>
+   <method old="apply(Lorg/apache/commons/codec/language/bm/Rule$PhonemeExpr;I)Lorg/apache/commons/codec/language/bm/PhoneticEngine$PhonemeBuilder;" new="m_Ea"/>
+   <method old="empty(Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Lorg/apache/commons/codec/language/bm/PhoneticEngine$PhonemeBuilder;" new="m_Za"/>
+   <method old="getPhonemes()Ljava/util/Set;" new="m_c"/>
+   <method old="makeString()Ljava/lang/String;" new="m_oa"/>
+   <field old="phonemes Ljava/util/Set;" new="f_F"/>
+  </class>
+  <class old="android.support.annotation.StringRes" new="android.support.annotation.c_h">
+  </class>
+  <class old="org.apache.commons.codec.binary.StringUtils" new="wy.c_A">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Cd"/>
+   <method old="getBytes(Ljava/lang/String;Ljava/nio/charset/Charset;)[B" new="m_WC"/>
+   <method old="getBytesIso8859_1(Ljava/lang/String;)[B" new="m_cb"/>
+   <method old="getBytesUnchecked(Ljava/lang/String;Ljava/lang/String;)[B" new="m_id"/>
+   <method old="getBytesUsAscii(Ljava/lang/String;)[B" new="m_qA"/>
+   <method old="getBytesUtf16(Ljava/lang/String;)[B" new="m_EC"/>
+   <method old="getBytesUtf16Be(Ljava/lang/String;)[B" new="m_WB"/>
+   <method old="getBytesUtf16Le(Ljava/lang/String;)[B" new="m_bc"/>
+   <method old="getBytesUtf8(Ljava/lang/String;)[B" new="m_eC"/>
+   <method old="newIllegalStateException(Ljava/lang/String;Ljava/io/UnsupportedEncodingException;)Ljava/lang/IllegalStateException;" new="m_cB"/>
+   <method old="newString([BLjava/lang/String;)Ljava/lang/String;" new="m_Tc"/>
+   <method old="newString([BLjava/nio/charset/Charset;)Ljava/lang/String;" new="m_Mc"/>
+   <method old="newStringIso8859_1([B)Ljava/lang/String;" new="m_eA"/>
+   <method old="newStringUsAscii([B)Ljava/lang/String;" new="m_RC"/>
+   <method old="newStringUtf16([B)Ljava/lang/String;" new="m_SA"/>
+   <method old="newStringUtf16Be([B)Ljava/lang/String;" new="m_dd"/>
+   <method old="newStringUtf16Le([B)Ljava/lang/String;" new="m_FC"/>
+   <method old="newStringUtf8([B)Ljava/lang/String;" new="m_pA"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.RememberedDBHelper" new="info.staticfree.SuperGenPass.RememberedDBHelper">
+   <method old="onCreate(Landroid/database/sqlite/SQLiteDatabase;)V" new="onCreate"/>
+   <method old="onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V" new="onUpgrade"/>
+   <field old="DB_DOMAINS_TABLE Ljava/lang/String;" new="DB_DOMAINS_TABLE"/>
+   <field old="DB_NAME Ljava/lang/String;" new="f_F"/>
+   <field old="DB_VERSION I" new="f_f"/>
+  </class>
+  <class old="android.support.annotation.MenuRes" new="android.support.annotation.c_M">
+  </class>
+  <class old="info.staticfree.SuperGenPass.GeneratedPasswordView$1" new="info.staticfree.SuperGenPass.c_U">
+   <method old="getAcceptedChars()[C" new="getAcceptedChars"/>
+   <method old="getInputType()I" new="getInputType"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/GeneratedPasswordView;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.PhoneticEngine" new="org.apache.commons.codec.language.bm.c_m">
+   <method old="applyFinalRules(Lorg/apache/commons/codec/language/bm/PhoneticEngine$PhonemeBuilder;Ljava/util/List;)Lorg/apache/commons/codec/language/bm/PhoneticEngine$PhonemeBuilder;" new="m_Xa"/>
+   <method old="cacheSubSequence(Ljava/lang/CharSequence;)Ljava/lang/CharSequence;" new="m_wa"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="encode(Ljava/lang/String;Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Ljava/lang/String;" new="m_za"/>
+   <method old="getLang()Lorg/apache/commons/codec/language/bm/Lang;" new="m_Ta"/>
+   <method old="getMaxPhonemes()I" new="m_Qa"/>
+   <method old="getNameType()Lorg/apache/commons/codec/language/bm/NameType;" new="m_va"/>
+   <method old="getRuleType()Lorg/apache/commons/codec/language/bm/RuleType;" new="m_Wa"/>
+   <method old="isConcat()Z" new="m_ra"/>
+   <method old="join(Ljava/lang/Iterable;Ljava/lang/String;)Ljava/lang/String;" new="m_sa"/>
+   <field old="DEFAULT_MAX_PHONEMES I" new="f_b"/>
+   <field old="NAME_PREFIXES Ljava/util/Map;" new="f_f"/>
+   <field old="concat Z" new="f_I"/>
+   <field old="lang Lorg/apache/commons/codec/language/bm/Lang;" new="f_D"/>
+   <field old="maxPhonemes I" new="f_L"/>
+   <field old="nameType Lorg/apache/commons/codec/language/bm/NameType;" new="f_K"/>
+   <field old="ruleType Lorg/apache/commons/codec/language/bm/RuleType;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.GeneratedPasswordView$SavedState$1" new="info.staticfree.SuperGenPass.c_D">
+   <method old="createFromParcel(Landroid/os/Parcel;)Linfo/staticfree/SuperGenPass/GeneratedPasswordView$SavedState;" new="m_TB"/>
+   <method old="createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;" new="createFromParcel"/>
+   <method old="newArray(I)[Linfo/staticfree/SuperGenPass/GeneratedPasswordView$SavedState;" new="m_Bc"/>
+   <method old="newArray(I)[Ljava/lang/Object;" new="newArray"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.R$style" new="info.staticfree.SuperGenPass.R$style">
+   <field old="AppTheme I" new="AppTheme"/>
+   <field old="GeneratedPasswordView I" new="GeneratedPasswordView"/>
+   <field old="ShareTheme I" new="ShareTheme"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Lang$1" new="org.apache.commons.codec.language.bm.c_G">
+  </class>
+  <class old="org.apache.commons.codec.language.bm.PhoneticEngine$RulesApplication" new="org.apache.commons.codec.language.bm.c_C">
+   <method old="getI()I" new="m_Aa"/>
+   <method old="getPhonemeBuilder()Lorg/apache/commons/codec/language/bm/PhoneticEngine$PhonemeBuilder;" new="m_Ka"/>
+   <method old="invoke()Lorg/apache/commons/codec/language/bm/PhoneticEngine$RulesApplication;" new="m_Fa"/>
+   <method old="isFound()Z" new="m_Ha"/>
+   <field old="finalRules Ljava/util/List;" new="f_D"/>
+   <field old="found Z" new="f_f"/>
+   <field old="i I" new="f_L"/>
+   <field old="input Ljava/lang/CharSequence;" new="f_F"/>
+   <field old="maxPhonemes I" new="f_b"/>
+   <field old="phonemeBuilder Lorg/apache/commons/codec/language/bm/PhoneticEngine$PhonemeBuilder;" new="f_I"/>
+  </class>
+  <class old="org.apache.commons.codec.language.Nysiis" new="org.apache.commons.codec.language.c_i">
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="isStrict()Z" new="m_RA"/>
+   <method old="isVowel(C)Z" new="m_zC"/>
+   <method old="nysiis(Ljava/lang/String;)Ljava/lang/String;" new="m_uc"/>
+   <method old="transcodeRemaining(CCCC)[C" new="m_qB"/>
+   <field old="CHARS_A [C" new="f_l"/>
+   <field old="CHARS_AF [C" new="f_F"/>
+   <field old="CHARS_C [C" new="f_L"/>
+   <field old="CHARS_FF [C" new="f_D"/>
+   <field old="CHARS_G [C" new="f_E"/>
+   <field old="CHARS_N [C" new="f_e"/>
+   <field old="CHARS_NN [C" new="f_g"/>
+   <field old="CHARS_S [C" new="f_G"/>
+   <field old="CHARS_SSS [C" new="f_I"/>
+   <field old="PAT_DT_ETC Ljava/util/regex/Pattern;" new="f_h"/>
+   <field old="PAT_EE_IE Ljava/util/regex/Pattern;" new="f_b"/>
+   <field old="PAT_K Ljava/util/regex/Pattern;" new="f_c"/>
+   <field old="PAT_KN Ljava/util/regex/Pattern;" new="f_B"/>
+   <field old="PAT_MAC Ljava/util/regex/Pattern;" new="f_J"/>
+   <field old="PAT_PH_PF Ljava/util/regex/Pattern;" new="f_a"/>
+   <field old="PAT_SCH Ljava/util/regex/Pattern;" new="f_f"/>
+   <field old="SPACE C" new="f_C"/>
+   <field old="TRUE_LENGTH I" new="f_k"/>
+   <field old="strict Z" new="f_K"/>
+  </class>
+  <class old="android.support.annotation.CheckResult" new="android.support.annotation.c_P">
+   <method old="suggest()Ljava/lang/String;" new="m_a"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.SuperGenPassShare" new="info.staticfree.SuperGenPass.SuperGenPassShare">
+   <method old="access$000(Linfo/staticfree/SuperGenPass/Super_Gen_Pass;)V" new="m_iA"/>
+   <method old="access$100(Linfo/staticfree/SuperGenPass/Super_Gen_Pass;)V" new="m_EA"/>
+   <method old="access$200(Linfo/staticfree/SuperGenPass/Super_Gen_Pass;)Linfo/staticfree/SuperGenPass/VisualHashEditText;" new="m_SB"/>
+   <method old="access$300(Linfo/staticfree/SuperGenPass/Super_Gen_Pass;)I" new="m_mC"/>
+   <method old="access$302(Linfo/staticfree/SuperGenPass/Super_Gen_Pass;I)I" new="m_JB"/>
+   <method old="access$400()Ljava/lang/String;" new="m_Kc"/>
+   <method old="access$500(Linfo/staticfree/SuperGenPass/Super_Gen_Pass;)Landroid/os/Handler;" new="m_dc"/>
+   <method old="extractDomain(Ljava/lang/String;)Ljava/lang/String;" new="m_aB"/>
+   <method old="getDomain()Ljava/lang/String;" new="m_Jd"/>
+   <method old="getMasterPassword()Ljava/lang/String;" new="m_fb"/>
+   <method old="go()Z" new="m_qc"/>
+   <method old="loadFromPreferences()V" new="m_bB"/>
+   <method old="onActivityResult(IILandroid/content/Intent;)V" new="onActivityResult"/>
+   <method old="onCheckedChanged(Landroid/widget/CompoundButton;Z)V" new="onCheckedChanged"/>
+   <method old="onClick(Landroid/view/View;)V" new="onClick"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onEditorAction(Landroid/widget/TextView;ILandroid/view/KeyEvent;)Z" new="onEditorAction"/>
+   <method old="onLongClick(Landroid/view/View;)Z" new="onLongClick"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onPrepareOptionsMenu(Landroid/view/Menu;)Z" new="onPrepareOptionsMenu"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="onSaveInstanceState(Landroid/os/Bundle;)V" new="onSaveInstanceState"/>
+   <method old="runQuery(Ljava/lang/CharSequence;)Landroid/database/Cursor;" new="runQuery"/>
+  </class>
+  <class old="org.openauthentication.otp.OneTimePasswordAlgorithm" new="wy.c_C">
+   <method old="calcChecksum(JI)I" new="m_g"/>
+   <method old="generateOTP([BJIZI)Ljava/lang/String;" new="m_i"/>
+   <method old="generateOTPFromText([B[BIZI)Ljava/lang/String;" new="m_k"/>
+   <method old="hmac_sha1([B[B)[B" new="m_K"/>
+   <field old="DIGITS_POWER [I" new="f_F"/>
+   <field old="doubleDigits [I" new="f_f"/>
+  </class>
+  <class old="org.apache.commons.codec.binary.Base32InputStream" new="wy.c_I">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Cd"/>
+   <method old="available()I" new="available"/>
+   <method old="mark(I)V" new="mark"/>
+   <method old="markSupported()Z" new="markSupported"/>
+   <method old="read()I" new="read"/>
+   <method old="read([BII)I" new="read"/>
+   <method old="reset()V" new="reset"/>
+   <method old="skip(J)J" new="skip"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.ResourceConstants" new="org.apache.commons.codec.language.bm.ResourceConstants">
+   <field old="CMT Ljava/lang/String;" new="f_I"/>
+   <field old="ENCODING Ljava/lang/String;" new="f_f"/>
+   <field old="EXT_CMT_END Ljava/lang/String;" new="f_L"/>
+   <field old="EXT_CMT_START Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="android.support.annotation.UiThread" new="android.support.annotation.c_a">
+  </class>
+  <class old="org.apache.commons.codec.language.MatchRatingApproachEncoder" new="org.apache.commons.codec.language.c_m">
+   <method old="cleanName(Ljava/lang/String;)Ljava/lang/String;" new="m_YB"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="getFirst3Last3(Ljava/lang/String;)Ljava/lang/String;" new="m_BA"/>
+   <method old="getMinRating(I)I" new="m_Ab"/>
+   <method old="isEncodeEquals(Ljava/lang/String;Ljava/lang/String;)Z" new="m_wB"/>
+   <method old="isVowel(Ljava/lang/String;)Z" new="m_qd"/>
+   <method old="leftToRightThenRightToLeftProcessing(Ljava/lang/String;Ljava/lang/String;)I" new="m_UB"/>
+   <method old="removeAccents(Ljava/lang/String;)Ljava/lang/String;" new="m_gC"/>
+   <method old="removeDoubleConsonants(Ljava/lang/String;)Ljava/lang/String;" new="m_fB"/>
+   <method old="removeVowels(Ljava/lang/String;)Ljava/lang/String;" new="m_Hd"/>
+   <field old="DOUBLE_CONSONANT [Ljava/lang/String;" new="f_a"/>
+   <field old="EIGHT I" new="f_F"/>
+   <field old="ELEVEN I" new="f_h"/>
+   <field old="EMPTY Ljava/lang/String;" new="f_c"/>
+   <field old="FIVE I" new="f_G"/>
+   <field old="FOUR I" new="f_k"/>
+   <field old="ONE I" new="f_C"/>
+   <field old="PLAIN_ASCII Ljava/lang/String;" new="f_L"/>
+   <field old="SEVEN I" new="f_D"/>
+   <field old="SIX I" new="f_b"/>
+   <field old="SPACE Ljava/lang/String;" new="f_J"/>
+   <field old="THREE I" new="f_f"/>
+   <field old="TWELVE I" new="f_I"/>
+   <field old="TWO I" new="f_g"/>
+   <field old="UNICODE Ljava/lang/String;" new="f_K"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.R$xml" new="info.staticfree.SuperGenPass.R$xml">
+   <field old="preferences I" new="preferences"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.R$raw" new="info.staticfree.SuperGenPass.R$raw">
+   <field old="domains I" new="domains"/>
+  </class>
+  <class old="org.apache.commons.codec.binary.Base32OutputStream" new="wy.c_g">
+   <method old="close()V" new="close"/>
+   <method old="flush()V" new="flush"/>
+   <method old="write(I)V" new="write"/>
+   <method old="write([BII)V" new="write"/>
+  </class>
+  <class old="org.apache.commons.codec.binary.BaseNCodecOutputStream" new="wy.c_L">
+   <method old="close()V" new="close"/>
+   <method old="flush()V" new="flush"/>
+   <method old="flush(Z)V" new="m_Fb"/>
+   <method old="write(I)V" new="write"/>
+   <method old="write([BII)V" new="write"/>
+   <field old="baseNCodec Lorg/apache/commons/codec/binary/BaseNCodec;" new="f_F"/>
+   <field old="context Lorg/apache/commons/codec/binary/BaseNCodec$Context;" new="f_f"/>
+   <field old="doEncode Z" new="f_I"/>
+   <field old="singleByte [B" new="f_L"/>
+  </class>
+  <class old="android.support.annotation.ColorRes" new="android.support.annotation.c_U">
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Languages$SomeLanguages" new="org.apache.commons.codec.language.bm.c_j">
+   <method old="contains(Ljava/lang/String;)Z" new="m_Oa"/>
+   <method old="from(Ljava/util/Set;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="m_pa"/>
+   <method old="getAny()Ljava/lang/String;" new="m_Pa"/>
+   <method old="getLanguages()Ljava/util/Set;" new="m_r"/>
+   <method old="isEmpty()Z" new="m_na"/>
+   <method old="isSingleton()Z" new="m_Ua"/>
+   <method old="restrictTo(Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="m_xa"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="languages Ljava/util/Set;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$Phoneme" new="org.apache.commons.codec.language.bm.Rule$Phoneme">
+   <method old="access$000(Lorg/apache/commons/codec/language/bm/Rule$Phoneme;)Ljava/lang/CharSequence;" new="m_Q"/>
+   <method old="append(Ljava/lang/CharSequence;)Lorg/apache/commons/codec/language/bm/Rule$Phoneme;" new="m_S"/>
+   <method old="getLanguages()Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="m_r"/>
+   <method old="getPhonemeText()Ljava/lang/CharSequence;" new="m_y"/>
+   <method old="getPhonemes()Ljava/lang/Iterable;" new="m_c"/>
+   <method old="join(Lorg/apache/commons/codec/language/bm/Rule$Phoneme;)Lorg/apache/commons/codec/language/bm/Rule$Phoneme;" new="m_P"/>
+   <field old="COMPARATOR Ljava/util/Comparator;" new="COMPARATOR"/>
+   <field old="languages Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="f_F"/>
+   <field old="phonemeText Ljava/lang/CharSequence;" new="f_f"/>
+  </class>
+  <class old="android.support.annotation.IntegerRes" new="android.support.annotation.c_g">
+  </class>
+  <class old="android.support.annotation.AnyRes" new="android.support.annotation.c_v">
+  </class>
+  <class old="info.staticfree.SuperGenPass.GeneratedPasswordView$SavedState" new="info.staticfree.SuperGenPass.c_J">
+   <method old="writeToParcel(Landroid/os/Parcel;I)V" new="writeToParcel"/>
+   <field old="CREATOR Landroid/os/Parcelable$Creator;" new="f_f"/>
+   <field old="text Ljava/lang/CharSequence;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.PhoneticEngine$1" new="org.apache.commons.codec.language.bm.c_a">
+   <method old="charAt(I)C" new="charAt"/>
+   <method old="length()I" new="length"/>
+   <method old="subSequence(II)Ljava/lang/CharSequence;" new="subSequence"/>
+   <field old="val$cache [[Ljava/lang/CharSequence;" new="f_f"/>
+   <field old="val$cached Ljava/lang/CharSequence;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.PhoneticEngine$2" new="org.apache.commons.codec.language.bm.c_i">
+   <field old="$SwitchMap$org$apache$commons$codec$language$bm$NameType [I" new="f_F"/>
+  </class>
+  <class old="android.support.annotation.InterpolatorRes" new="android.support.annotation.c_c">
+  </class>
+  <class old="org.apache.commons.codec.binary.BaseNCodec" new="wy.c_k">
+   <method old="available(Lorg/apache/commons/codec/binary/BaseNCodec$Context;)I" new="m_JC"/>
+   <method old="containsAlphabetOrPad([B)Z" new="m_Vb"/>
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+   <method old="decode(Ljava/lang/String;)[B" new="m_d"/>
+   <method old="decode([B)[B" new="m_B"/>
+   <method old="decode([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)V" new="m_hA"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode([B)[B" new="m_C"/>
+   <method old="encode([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)V" new="m_mb"/>
+   <method old="encodeAsString([B)Ljava/lang/String;" new="m_mB"/>
+   <method old="encodeToString([B)Ljava/lang/String;" new="m_DB"/>
+   <method old="ensureBufferSize(ILorg/apache/commons/codec/binary/BaseNCodec$Context;)[B" new="m_uA"/>
+   <method old="getDefaultBufferSize()I" new="m_Pd"/>
+   <method old="getEncodedLength([B)J" new="m_IC"/>
+   <method old="hasData(Lorg/apache/commons/codec/binary/BaseNCodec$Context;)Z" new="m_GB"/>
+   <method old="isInAlphabet(B)Z" new="m_AA"/>
+   <method old="isInAlphabet(Ljava/lang/String;)Z" new="m_Pb"/>
+   <method old="isInAlphabet([BZ)Z" new="m_qC"/>
+   <method old="isWhiteSpace(B)Z" new="m_Ac"/>
+   <method old="readResults([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)I" new="m_Nc"/>
+   <method old="resizeBuffer(Lorg/apache/commons/codec/binary/BaseNCodec$Context;)[B" new="m_Rd"/>
+   <field old="DEFAULT_BUFFER_RESIZE_FACTOR I" new="f_b"/>
+   <field old="DEFAULT_BUFFER_SIZE I" new="f_f"/>
+   <field old="EOF I" new="f_a"/>
+   <field old="MASK_8BITS I" new="f_I"/>
+   <field old="MIME_CHUNK_SIZE I" new="f_G"/>
+   <field old="PAD B" new="f_C"/>
+   <field old="PAD_DEFAULT B" new="f_D"/>
+   <field old="PEM_CHUNK_SIZE I" new="f_L"/>
+   <field old="chunkSeparatorLength I" new="f_k"/>
+   <field old="encodedBlockSize I" new="f_J"/>
+   <field old="lineLength I" new="f_K"/>
+   <field old="unencodedBlockSize I" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.digest.B64" new="wy.c_h">
+   <method old="b64from24bit(BBBILjava/lang/StringBuilder;)V" new="m_hc"/>
+   <method old="getRandomSalt(I)Ljava/lang/String;" new="m_dA"/>
+   <field old="B64T Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.Soundex" new="org.apache.commons.codec.language.c_E">
+   <method old="difference(Ljava/lang/String;Ljava/lang/String;)I" new="m_GC"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="getMappingCode(Ljava/lang/String;I)C" new="m_NB"/>
+   <method old="getMaxLength()I" new="m_Md"/>
+   <method old="getSoundexMapping()[C" new="m_ed"/>
+   <method old="map(C)C" new="m_CC"/>
+   <method old="setMaxLength(I)V" new="m_lb"/>
+   <method old="soundex(Ljava/lang/String;)Ljava/lang/String;" new="m_Ld"/>
+   <field old="US_ENGLISH Lorg/apache/commons/codec/language/Soundex;" new="f_f"/>
+   <field old="US_ENGLISH_MAPPING [C" new="f_I"/>
+   <field old="US_ENGLISH_MAPPING_STRING Ljava/lang/String;" new="f_b"/>
+   <field old="maxLength I" new="f_L"/>
+   <field old="soundexMapping [C" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.digest.MessageDigestAlgorithms" new="wy.c_a">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Cd"/>
+   <field old="MD2 Ljava/lang/String;" new="f_D"/>
+   <field old="MD5 Ljava/lang/String;" new="f_I"/>
+   <field old="SHA_1 Ljava/lang/String;" new="f_F"/>
+   <field old="SHA_256 Ljava/lang/String;" new="f_L"/>
+   <field old="SHA_384 Ljava/lang/String;" new="f_f"/>
+   <field old="SHA_512 Ljava/lang/String;" new="f_b"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Preferences$SaltFragment" new="info.staticfree.SuperGenPass.c_f">
+   <method old="access$000(Linfo/staticfree/SuperGenPass/Preferences$SaltFragment;)V" new="m_Eb"/>
+   <method old="generateSalt()V" new="m_ad"/>
+   <method old="onCreateDialog(Landroid/os/Bundle;)Landroid/app/Dialog;" new="onCreateDialog"/>
+   <field old="PATTERN_WHITESPACE Ljava/util/regex/Pattern;" new="f_F"/>
+   <field old="SALT_SIZE_BYTES I" new="f_f"/>
+  </class>
+  <class old="android.support.annotation.IntRange" new="android.support.annotation.c_I">
+   <method old="from()J" new="m_e"/>
+   <method old="to()J" new="m_b"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.R$menu" new="info.staticfree.SuperGenPass.R$menu">
+   <field old="options I" new="options"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.NameType" new="org.apache.commons.codec.language.bm.NameType">
+   <method old="getName()Ljava/lang/String;" new="m_x"/>
+   <method old="valueOf(Ljava/lang/String;)Lorg/apache/commons/codec/language/bm/NameType;" new="valueOf"/>
+   <method old="values()[Lorg/apache/commons/codec/language/bm/NameType;" new="values"/>
+   <field old="$VALUES [Lorg/apache/commons/codec/language/bm/NameType;" new="f_I"/>
+   <field old="ASHKENAZI Lorg/apache/commons/codec/language/bm/NameType;" new="f_b"/>
+   <field old="GENERIC Lorg/apache/commons/codec/language/bm/NameType;" new="f_L"/>
+   <field old="SEPHARDIC Lorg/apache/commons/codec/language/bm/NameType;" new="f_f"/>
+   <field old="name Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.IllegalDomainException" new="info.staticfree.SuperGenPass.c_e">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Cd"/>
+   <field old="serialVersionUID J" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Languages$1" new="org.apache.commons.codec.language.bm.c_A">
+   <method old="contains(Ljava/lang/String;)Z" new="m_Oa"/>
+   <method old="from(Ljava/util/Set;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="m_pa"/>
+   <method old="getAny()Ljava/lang/String;" new="m_Pa"/>
+   <method old="isEmpty()Z" new="m_na"/>
+   <method old="isSingleton()Z" new="m_Ua"/>
+   <method old="restrictTo(Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="m_xa"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Languages$2" new="org.apache.commons.codec.language.bm.c_h">
+   <method old="contains(Ljava/lang/String;)Z" new="m_Oa"/>
+   <method old="from(Ljava/util/Set;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="m_pa"/>
+   <method old="getAny()Ljava/lang/String;" new="m_Pa"/>
+   <method old="isEmpty()Z" new="m_na"/>
+   <method old="isSingleton()Z" new="m_Ua"/>
+   <method old="restrictTo(Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="m_xa"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+  </class>
+  <class old="org.apache.commons.codec.net.URLCodec" new="org.apache.commons.codec.net.c_E">
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+   <method old="decode(Ljava/lang/String;)Ljava/lang/String;" new="m_d"/>
+   <method old="decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_Y"/>
+   <method old="decode([B)[B" new="m_B"/>
+   <method old="decodeUrl([B)[B" new="m_q"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_s"/>
+   <method old="encode([B)[B" new="m_C"/>
+   <method old="encodeUrl(Ljava/util/BitSet;[B)[B" new="m_p"/>
+   <method old="getDefaultCharset()Ljava/lang/String;" new="m_R"/>
+   <method old="getEncoding()Ljava/lang/String;" new="m_o"/>
+   <field old="ESCAPE_CHAR B" new="f_f"/>
+   <field old="RADIX I" new="f_I"/>
+   <field old="WWW_FORM_URL Ljava/util/BitSet;" new="f_L"/>
+   <field old="charset Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.VisualHashEditText" new="info.staticfree.SuperGenPass.VisualHashEditText">
+   <method old="init(Landroid/content/Context;Landroid/util/AttributeSet;)V" new="m_fc"/>
+   <method old="onTextChanged(Ljava/lang/CharSequence;III)V" new="onTextChanged"/>
+   <method old="refreshVisualHash()V" new="m_Ec"/>
+   <method old="setError(Ljava/lang/CharSequence;Landroid/graphics/drawable/Drawable;)V" new="setError"/>
+   <method old="setShowVisualHash(Z)V" new="setShowVisualHash"/>
+   <field old="mShowVisualHash Z" new="f_F"/>
+   <field old="mVh Linfo/staticfree/SuperGenPass/VisualHash;" new="f_f"/>
+  </class>
+  <class old="org.apache.commons.codec.digest.UnixCrypt" new="wy.c_E">
+   <method old="body([III)[I" new="m_wc"/>
+   <method old="byteToUnsigned(B)I" new="m_xc"/>
+   <method old="crypt(Ljava/lang/String;)Ljava/lang/String;" new="m_Wc"/>
+   <method old="crypt(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_jC"/>
+   <method old="crypt([B)Ljava/lang/String;" new="m_UC"/>
+   <method old="crypt([BLjava/lang/String;)Ljava/lang/String;" new="m_fA"/>
+   <method old="dEncrypt(IIIII[I)I" new="m_tB"/>
+   <method old="desSetKey([B)[I" new="m_wC"/>
+   <method old="fourBytesToInt([BI)I" new="m_Xc"/>
+   <method old="hPermOp(III)I" new="m_vA"/>
+   <method old="intToFourBytes(I[BI)V" new="m_NA"/>
+   <method old="permOp(IIII[I)V" new="m_bC"/>
+   <field old="CON_SALT [I" new="f_D"/>
+   <field old="COV2CHAR [I" new="f_b"/>
+   <field old="SALT_CHARS [C" new="f_I"/>
+   <field old="SHIFT2 [Z" new="f_L"/>
+   <field old="SKB [[I" new="f_F"/>
+   <field old="SPTRANS [[I" new="f_f"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule" new="org.apache.commons.codec.language.bm.Rule">
+   <method old="access$100(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z" new="m_La"/>
+   <method old="access$200(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z" new="m_ba"/>
+   <method old="access$300(Ljava/lang/CharSequence;C)Z" new="m_ga"/>
+   <method old="contains(Ljava/lang/CharSequence;C)Z" new="m_Ia"/>
+   <method old="createResourceName(Lorg/apache/commons/codec/language/bm/NameType;Lorg/apache/commons/codec/language/bm/RuleType;Ljava/lang/String;)Ljava/lang/String;" new="m_fa"/>
+   <method old="createScanner(Ljava/lang/String;)Ljava/util/Scanner;" new="m_Ja"/>
+   <method old="createScanner(Lorg/apache/commons/codec/language/bm/NameType;Lorg/apache/commons/codec/language/bm/RuleType;Ljava/lang/String;)Ljava/util/Scanner;" new="m_aa"/>
+   <method old="endsWith(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z" new="m_Ba"/>
+   <method old="getInstance(Lorg/apache/commons/codec/language/bm/NameType;Lorg/apache/commons/codec/language/bm/RuleType;Ljava/lang/String;)Ljava/util/List;" new="m_Ma"/>
+   <method old="getInstance(Lorg/apache/commons/codec/language/bm/NameType;Lorg/apache/commons/codec/language/bm/RuleType;Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Ljava/util/List;" new="m_Ga"/>
+   <method old="getLContext()Lorg/apache/commons/codec/language/bm/Rule$RPattern;" new="m_la"/>
+   <method old="getPattern()Ljava/lang/String;" new="m_ca"/>
+   <method old="getPhoneme()Lorg/apache/commons/codec/language/bm/Rule$PhonemeExpr;" new="m_da"/>
+   <method old="getRContext()Lorg/apache/commons/codec/language/bm/Rule$RPattern;" new="m_ma"/>
+   <method old="parsePhoneme(Ljava/lang/String;)Lorg/apache/commons/codec/language/bm/Rule$Phoneme;" new="m_ia"/>
+   <method old="parsePhonemeExpr(Ljava/lang/String;)Lorg/apache/commons/codec/language/bm/Rule$PhonemeExpr;" new="m_ea"/>
+   <method old="parseRules(Ljava/util/Scanner;Ljava/lang/String;)Ljava/util/List;" new="m_Da"/>
+   <method old="pattern(Ljava/lang/String;)Lorg/apache/commons/codec/language/bm/Rule$RPattern;" new="m_ka"/>
+   <method old="patternAndContextMatches(Ljava/lang/CharSequence;I)Z" new="m_ha"/>
+   <method old="startsWith(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z" new="m_Ca"/>
+   <method old="stripQuotes(Ljava/lang/String;)Ljava/lang/String;" new="m_ja"/>
+   <field old="ALL Ljava/lang/String;" new="ALL"/>
+   <field old="ALL_STRINGS_RMATCHER Lorg/apache/commons/codec/language/bm/Rule$RPattern;" new="ALL_STRINGS_RMATCHER"/>
+   <field old="DOUBLE_QUOTE Ljava/lang/String;" new="f_I"/>
+   <field old="HASH_INCLUDE Ljava/lang/String;" new="f_K"/>
+   <field old="RULES Ljava/util/Map;" new="f_L"/>
+   <field old="lContext Lorg/apache/commons/codec/language/bm/Rule$RPattern;" new="f_b"/>
+   <field old="pattern Ljava/lang/String;" new="f_F"/>
+   <field old="phoneme Lorg/apache/commons/codec/language/bm/Rule$PhonemeExpr;" new="f_D"/>
+   <field old="rContext Lorg/apache/commons/codec/language/bm/Rule$RPattern;" new="f_f"/>
+  </class>
+  <class old="org.apache.commons.codec.binary.Base64OutputStream" new="wy.c_M">
+   <method old="close()V" new="close"/>
+   <method old="flush()V" new="flush"/>
+   <method old="write(I)V" new="write"/>
+   <method old="write([BII)V" new="write"/>
+  </class>
+  <class old="org.apache.commons.codec.Decoder" new="org.apache.commons.codec.c_i">
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+  </class>
+  <class old="android.support.annotation.AttrRes" new="android.support.annotation.c_q">
+  </class>
+  <class old="org.apache.commons.codec.Charsets" new="org.apache.commons.codec.c_H">
+   <method old="toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;" new="m_lB"/>
+   <method old="toCharset(Ljava/nio/charset/Charset;)Ljava/nio/charset/Charset;" new="m_DC"/>
+   <field old="ISO_8859_1 Ljava/nio/charset/Charset;" new="f_L"/>
+   <field old="US_ASCII Ljava/nio/charset/Charset;" new="f_F"/>
+   <field old="UTF_16 Ljava/nio/charset/Charset;" new="f_f"/>
+   <field old="UTF_16BE Ljava/nio/charset/Charset;" new="f_D"/>
+   <field old="UTF_16LE Ljava/nio/charset/Charset;" new="f_b"/>
+   <field old="UTF_8 Ljava/nio/charset/Charset;" new="f_I"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.R$drawable" new="info.staticfree.SuperGenPass.R$drawable">
+   <field old="divider_vertical_holo_dark I" new="divider_vertical_holo_dark"/>
+   <field old="ic_content_copy_black_24dp I" new="ic_content_copy_black_24dp"/>
+   <field old="ic_content_copy_black_disabled_24dp I" new="ic_content_copy_black_disabled_24dp"/>
+   <field old="ic_menu_copy I" new="ic_menu_copy"/>
+   <field old="ic_menu_copy_holo_dark_disabled I" new="ic_menu_copy_holo_dark_disabled"/>
+   <field old="ic_menu_copy_holo_dark_normal I" new="ic_menu_copy_holo_dark_normal"/>
+   <field old="ic_menu_login I" new="ic_menu_login"/>
+   <field old="ic_textview_supergenpass I" new="ic_textview_supergenpass"/>
+   <field old="ic_textview_supergenpass_disabled I" new="ic_textview_supergenpass_disabled"/>
+   <field old="ic_textview_supergenpass_normal I" new="ic_textview_supergenpass_normal"/>
+   <field old="icon I" new="icon"/>
+   <field old="tab_selected_focused_holo I" new="tab_selected_focused_holo"/>
+   <field old="tab_selected_holo I" new="tab_selected_holo"/>
+   <field old="tab_selected_pressed_holo I" new="tab_selected_pressed_holo"/>
+   <field old="tab_unselected_focused_holo I" new="tab_unselected_focused_holo"/>
+   <field old="tab_unselected_holo I" new="tab_unselected_holo"/>
+   <field old="tab_unselected_pressed_holo I" new="tab_unselected_pressed_holo"/>
+  </class>
+  <class old="android.support.annotation.BinderThread" new="android.support.annotation.c_X">
+  </class>
+  <class old="android.support.annotation.ColorInt" new="android.support.annotation.c_x">
+  </class>
+  <class old="info.staticfree.SuperGenPass.R" new="info.staticfree.SuperGenPass.R">
+  </class>
+  <class old="org.apache.commons.codec.language.Metaphone" new="org.apache.commons.codec.language.c_a">
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="getMaxCodeLen()I" new="m_lC"/>
+   <method old="isLastChar(II)Z" new="m_iB"/>
+   <method old="isMetaphoneEqual(Ljava/lang/String;Ljava/lang/String;)Z" new="m_xb"/>
+   <method old="isNextChar(Ljava/lang/StringBuilder;IC)Z" new="m_Jc"/>
+   <method old="isPreviousChar(Ljava/lang/StringBuilder;IC)Z" new="m_ac"/>
+   <method old="isVowel(Ljava/lang/StringBuilder;I)Z" new="m_Xb"/>
+   <method old="metaphone(Ljava/lang/String;)Ljava/lang/String;" new="m_HB"/>
+   <method old="regionMatch(Ljava/lang/StringBuilder;ILjava/lang/String;)Z" new="m_Yc"/>
+   <method old="setMaxCodeLen(I)V" new="m_nA"/>
+   <field old="FRONTV Ljava/lang/String;" new="f_f"/>
+   <field old="VARSON Ljava/lang/String;" new="f_F"/>
+   <field old="VOWELS Ljava/lang/String;" new="f_I"/>
+   <field old="maxCodeLen I" new="f_L"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.BuildConfig" new="info.staticfree.SuperGenPass.c_P">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Cd"/>
+   <field old="APPLICATION_ID Ljava/lang/String;" new="f_D"/>
+   <field old="BUILD_TYPE Ljava/lang/String;" new="f_F"/>
+   <field old="DEBUG Z" new="f_b"/>
+   <field old="FLAVOR Ljava/lang/String;" new="f_L"/>
+   <field old="VERSION_CODE I" new="f_f"/>
+   <field old="VERSION_NAME Ljava/lang/String;" new="f_I"/>
+  </class>
+  <class old="org.apache.commons.codec.net.BCodec" new="org.apache.commons.codec.net.c_m">
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+   <method old="decode(Ljava/lang/String;)Ljava/lang/String;" new="m_d"/>
+   <method old="decodeText(Ljava/lang/String;)Ljava/lang/String;" new="m_t"/>
+   <method old="doDecoding([B)[B" new="m_V"/>
+   <method old="doEncoding([B)[B" new="m_w"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_s"/>
+   <method old="encode(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;" new="m_X"/>
+   <method old="encodeText(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_U"/>
+   <method old="encodeText(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;" new="m_u"/>
+   <method old="getCharset()Ljava/nio/charset/Charset;" new="m_Z"/>
+   <method old="getDefaultCharset()Ljava/lang/String;" new="m_R"/>
+   <method old="getEncoding()Ljava/lang/String;" new="m_o"/>
+   <field old="POSTFIX Ljava/lang/String;" new="f_f"/>
+   <field old="PREFIX Ljava/lang/String;" new="f_F"/>
+   <field old="SEP C" new="f_I"/>
+   <field old="charset Ljava/nio/charset/Charset;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.StringEncoderComparator" new="org.apache.commons.codec.c_j">
+   <method old="compare(Ljava/lang/Object;Ljava/lang/Object;)I" new="compare"/>
+   <field old="stringEncoder Lorg/apache/commons/codec/StringEncoder;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.DecoderException" new="org.apache.commons.codec.c_A">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Cd"/>
+   <field old="serialVersionUID J" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.ColognePhonetic$CologneBuffer" new="org.apache.commons.codec.language.c_h">
+   <method old="copyData(II)[C" new="m_MB"/>
+   <method old="length()I" new="m_wA"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="data [C" new="f_f"/>
+   <field old="length I" new="f_I"/>
+   <field old="this$0 Lorg/apache/commons/codec/language/ColognePhonetic;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.digest.DigestUtils" new="wy.c_l">
+   <method old="digest(Ljava/security/MessageDigest;Ljava/io/InputStream;)[B" new="m_VC"/>
+   <method old="getDigest(Ljava/lang/String;)Ljava/security/MessageDigest;" new="m_sC"/>
+   <method old="getMd2Digest()Ljava/security/MessageDigest;" new="m_dC"/>
+   <method old="getMd5Digest()Ljava/security/MessageDigest;" new="m_Lb"/>
+   <method old="getSha1Digest()Ljava/security/MessageDigest;" new="m_Mb"/>
+   <method old="getSha256Digest()Ljava/security/MessageDigest;" new="m_HA"/>
+   <method old="getSha384Digest()Ljava/security/MessageDigest;" new="m_Nd"/>
+   <method old="getSha512Digest()Ljava/security/MessageDigest;" new="m_EB"/>
+   <method old="getShaDigest()Ljava/security/MessageDigest;" new="m_KC"/>
+   <method old="md2(Ljava/io/InputStream;)[B" new="m_kb"/>
+   <method old="md2(Ljava/lang/String;)[B" new="m_Ed"/>
+   <method old="md2([B)[B" new="m_BB"/>
+   <method old="md2Hex(Ljava/io/InputStream;)Ljava/lang/String;" new="m_CA"/>
+   <method old="md2Hex(Ljava/lang/String;)Ljava/lang/String;" new="m_FA"/>
+   <method old="md2Hex([B)Ljava/lang/String;" new="m_zB"/>
+   <method old="md5(Ljava/io/InputStream;)[B" new="m_bd"/>
+   <method old="md5(Ljava/lang/String;)[B" new="m_Bb"/>
+   <method old="md5([B)[B" new="m_db"/>
+   <method old="md5Hex(Ljava/io/InputStream;)Ljava/lang/String;" new="m_QA"/>
+   <method old="md5Hex(Ljava/lang/String;)Ljava/lang/String;" new="m_Ub"/>
+   <method old="md5Hex([B)Ljava/lang/String;" new="m_kd"/>
+   <method old="sha(Ljava/io/InputStream;)[B" new="m_IB"/>
+   <method old="sha(Ljava/lang/String;)[B" new="m_gB"/>
+   <method old="sha([B)[B" new="m_AB"/>
+   <method old="sha1(Ljava/io/InputStream;)[B" new="m_yb"/>
+   <method old="sha1(Ljava/lang/String;)[B" new="m_Cb"/>
+   <method old="sha1([B)[B" new="m_cc"/>
+   <method old="sha1Hex(Ljava/io/InputStream;)Ljava/lang/String;" new="m_FB"/>
+   <method old="sha1Hex(Ljava/lang/String;)Ljava/lang/String;" new="m_vB"/>
+   <method old="sha1Hex([B)Ljava/lang/String;" new="m_TA"/>
+   <method old="sha256(Ljava/io/InputStream;)[B" new="m_aA"/>
+   <method old="sha256(Ljava/lang/String;)[B" new="m_OA"/>
+   <method old="sha256([B)[B" new="m_Fd"/>
+   <method old="sha256Hex(Ljava/io/InputStream;)Ljava/lang/String;" new="m_Ob"/>
+   <method old="sha256Hex(Ljava/lang/String;)Ljava/lang/String;" new="m_vC"/>
+   <method old="sha256Hex([B)Ljava/lang/String;" new="m_VA"/>
+   <method old="sha384(Ljava/io/InputStream;)[B" new="m_Qd"/>
+   <method old="sha384(Ljava/lang/String;)[B" new="m_nd"/>
+   <method old="sha384([B)[B" new="m_OB"/>
+   <method old="sha384Hex(Ljava/io/InputStream;)Ljava/lang/String;" new="m_bb"/>
+   <method old="sha384Hex(Ljava/lang/String;)Ljava/lang/String;" new="m_CB"/>
+   <method old="sha384Hex([B)Ljava/lang/String;" new="m_zA"/>
+   <method old="sha512(Ljava/io/InputStream;)[B" new="m_nb"/>
+   <method old="sha512(Ljava/lang/String;)[B" new="m_Rc"/>
+   <method old="sha512([B)[B" new="m_Id"/>
+   <method old="sha512Hex(Ljava/io/InputStream;)Ljava/lang/String;" new="m_lc"/>
+   <method old="sha512Hex(Ljava/lang/String;)Ljava/lang/String;" new="m_OC"/>
+   <method old="sha512Hex([B)Ljava/lang/String;" new="m_BC"/>
+   <method old="shaHex(Ljava/io/InputStream;)Ljava/lang/String;" new="m_zb"/>
+   <method old="shaHex(Ljava/lang/String;)Ljava/lang/String;" new="m_Hc"/>
+   <method old="shaHex([B)Ljava/lang/String;" new="m_Sd"/>
+   <method old="updateDigest(Ljava/security/MessageDigest;Ljava/io/InputStream;)Ljava/security/MessageDigest;" new="m_pC"/>
+   <method old="updateDigest(Ljava/security/MessageDigest;Ljava/lang/String;)Ljava/security/MessageDigest;" new="m_NC"/>
+   <method old="updateDigest(Ljava/security/MessageDigest;[B)Ljava/security/MessageDigest;" new="m_vb"/>
+   <field old="STREAM_BUFFER_LENGTH I" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.R$id" new="info.staticfree.SuperGenPass.R$id">
+   <field old="about I" new="about"/>
+   <field old="about_layout I" new="about_layout"/>
+   <field old="copy I" new="copy"/>
+   <field old="domain_edit I" new="domain_edit"/>
+   <field old="go I" new="go"/>
+   <field old="hide_master_password I" new="hide_master_password"/>
+   <field old="label_password I" new="label_password"/>
+   <field old="label_pin I" new="label_pin"/>
+   <field old="password_edit I" new="password_edit"/>
+   <field old="password_output I" new="password_output"/>
+   <field old="pin_length I" new="pin_length"/>
+   <field old="pin_output I" new="pin_output"/>
+   <field old="preferences I" new="preferences"/>
+   <field old="settings I" new="settings"/>
+   <field old="show_gen_password I" new="show_gen_password"/>
+   <field old="tab_password I" new="tab_password"/>
+   <field old="tab_pin I" new="tab_pin"/>
+   <field old="title I" new="title"/>
+   <field old="verify I" new="verify"/>
+  </class>
+  <class old="com.google.zxing.integration.android.IntentIntegrator" new="wy.c_Z">
+   <method old="access$000(Lcom/google/zxing/integration/android/IntentIntegrator;)Ljava/util/List;" new="m_XF"/>
+   <method old="access$100(Lcom/google/zxing/integration/android/IntentIntegrator;)Landroid/app/Fragment;" new="m_GD"/>
+   <method old="access$200(Lcom/google/zxing/integration/android/IntentIntegrator;)Landroid/app/Activity;" new="m_Ef"/>
+   <method old="access$300()Ljava/lang/String;" new="m_oF"/>
+   <method old="addExtra(Ljava/lang/String;Ljava/lang/Object;)V" new="m_Oe"/>
+   <method old="attachMoreExtras(Landroid/content/Intent;)V" new="m_cE"/>
+   <method old="contains(Ljava/lang/Iterable;Ljava/lang/String;)Z" new="m_kg"/>
+   <method old="findTargetAppPackage(Landroid/content/Intent;)Ljava/lang/String;" new="m_HF"/>
+   <method old="getButtonNo()Ljava/lang/String;" new="m_hD"/>
+   <method old="getButtonYes()Ljava/lang/String;" new="m_pF"/>
+   <method old="getMessage()Ljava/lang/String;" new="m_ye"/>
+   <method old="getMoreExtras()Ljava/util/Map;" new="m_cg"/>
+   <method old="getTargetApplications()Ljava/util/Collection;" new="m_Jf"/>
+   <method old="getTitle()Ljava/lang/String;" new="m_tF"/>
+   <method old="initializeConfiguration()V" new="m_of"/>
+   <method old="initiateScan()Landroid/app/AlertDialog;" new="m_EE"/>
+   <method old="initiateScan(I)Landroid/app/AlertDialog;" new="m_mf"/>
+   <method old="initiateScan(Ljava/util/Collection;)Landroid/app/AlertDialog;" new="m_WE"/>
+   <method old="initiateScan(Ljava/util/Collection;I)Landroid/app/AlertDialog;" new="m_Eg"/>
+   <method old="list([Ljava/lang/String;)Ljava/util/List;" new="m_He"/>
+   <method old="parseActivityResult(IILandroid/content/Intent;)Lcom/google/zxing/integration/android/IntentResult;" new="m_uD"/>
+   <method old="setButtonNo(Ljava/lang/String;)V" new="m_NE"/>
+   <method old="setButtonNoByID(I)V" new="m_PD"/>
+   <method old="setButtonYes(Ljava/lang/String;)V" new="m_FF"/>
+   <method old="setButtonYesByID(I)V" new="m_xD"/>
+   <method old="setMessage(Ljava/lang/String;)V" new="m_PE"/>
+   <method old="setMessageByID(I)V" new="m_OF"/>
+   <method old="setSingleTargetApplication(Ljava/lang/String;)V" new="m_fg"/>
+   <method old="setTargetApplications(Ljava/util/List;)V" new="m_FD"/>
+   <method old="setTitle(Ljava/lang/String;)V" new="m_iF"/>
+   <method old="setTitleByID(I)V" new="m_TD"/>
+   <method old="shareText(Ljava/lang/CharSequence;)Landroid/app/AlertDialog;" new="m_Sf"/>
+   <method old="shareText(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Landroid/app/AlertDialog;" new="m_vD"/>
+   <method old="showDownloadDialog()Landroid/app/AlertDialog;" new="m_sD"/>
+   <method old="startActivityForResult(Landroid/content/Intent;I)V" new="m_mF"/>
+   <field old="ALL_CODE_TYPES Ljava/util/Collection;" new="f_H"/>
+   <field old="BSPLUS_PACKAGE Ljava/lang/String;" new="f_B"/>
+   <field old="BS_PACKAGE Ljava/lang/String;" new="f_f"/>
+   <field old="DATA_MATRIX_TYPES Ljava/util/Collection;" new="f_K"/>
+   <field old="DEFAULT_MESSAGE Ljava/lang/String;" new="f_c"/>
+   <field old="DEFAULT_NO Ljava/lang/String;" new="f_k"/>
+   <field old="DEFAULT_TITLE Ljava/lang/String;" new="f_e"/>
+   <field old="DEFAULT_YES Ljava/lang/String;" new="f_I"/>
+   <field old="ONE_D_CODE_TYPES Ljava/util/Collection;" new="f_L"/>
+   <field old="PRODUCT_CODE_TYPES Ljava/util/Collection;" new="f_a"/>
+   <field old="QR_CODE_TYPES Ljava/util/Collection;" new="f_A"/>
+   <field old="REQUEST_CODE I" new="f_d"/>
+   <field old="TAG Ljava/lang/String;" new="f_l"/>
+   <field old="TARGET_ALL_KNOWN Ljava/util/List;" new="f_F"/>
+   <field old="TARGET_BARCODE_SCANNER_ONLY Ljava/util/List;" new="f_h"/>
+   <field old="activity Landroid/app/Activity;" new="f_C"/>
+   <field old="buttonNo Ljava/lang/String;" new="f_b"/>
+   <field old="buttonYes Ljava/lang/String;" new="f_G"/>
+   <field old="fragment Landroid/app/Fragment;" new="f_M"/>
+   <field old="message Ljava/lang/String;" new="f_D"/>
+   <field old="moreExtras Ljava/util/Map;" new="f_E"/>
+   <field old="targetApplications Ljava/util/List;" new="f_J"/>
+   <field old="title Ljava/lang/String;" new="f_g"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.hashes.DomainBasedHash" new="wy.c_K">
+   <method old="generate(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" new="m_DA"/>
+   <method old="generateWithFilteredDomain(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" new="m_od"/>
+   <method old="getDomain(Ljava/lang/String;)Ljava/lang/String;" new="m_Zb"/>
+   <method old="loadDomains()V" new="m_rB"/>
+   <method old="setCheckDomain(Z)V" new="m_XB"/>
+   <field old="PATTERN_IP_ADDRESS Ljava/util/regex/Pattern;" new="f_L"/>
+   <field old="checkDomain Z" new="f_I"/>
+   <field old="domains Ljava/util/ArrayList;" new="f_f"/>
+   <field old="mContext Landroid/content/Context;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.VisualHash" new="info.staticfree.SuperGenPass.c_C">
+   <method old="draw(Landroid/graphics/Canvas;)V" new="draw"/>
+   <method old="getIntrinsicHeight()I" new="getIntrinsicHeight"/>
+   <method old="getIntrinsicWidth()I" new="getIntrinsicWidth"/>
+   <method old="getOpacity()I" new="getOpacity"/>
+   <method old="init()V" new="m_fd"/>
+   <method old="onBoundsChange(Landroid/graphics/Rect;)V" new="onBoundsChange"/>
+   <method old="scale(III)F" new="m_Yb"/>
+   <method old="scaleInt(III)I" new="m_ZC"/>
+   <method old="setAlpha(I)V" new="setAlpha"/>
+   <method old="setColorFilter(Landroid/graphics/ColorFilter;)V" new="setColorFilter"/>
+   <method old="setData([B)V" new="m_AC"/>
+   <field old="BYTES_PER_SHAPE I" new="f_h"/>
+   <field old="B_MASK I" new="f_g"/>
+   <field old="B_MAX I" new="f_C"/>
+   <field old="B_OFFSET I" new="f_t"/>
+   <field old="DIAMOND Landroid/graphics/Path;" new="f_a"/>
+   <field old="G_MASK I" new="f_G"/>
+   <field old="G_MAX I" new="f_v"/>
+   <field old="G_OFFSET I" new="f_o"/>
+   <field old="ORIGIN_OFFSET I" new="f_A"/>
+   <field old="PLUS Landroid/graphics/Path;" new="f_T"/>
+   <field old="PRESCALE_CENTER_WIDTH I" new="f_W"/>
+   <field old="PRESCALE_HEIGHT I" new="f_M"/>
+   <field old="PRESCALE_WIDTH I" new="f_n"/>
+   <field old="RADIUS I" new="f_j"/>
+   <field old="R_MASK I" new="f_p"/>
+   <field old="R_MAX I" new="f_m"/>
+   <field old="R_OFFSET I" new="f_B"/>
+   <field old="SHAPE_ALPHA I" new="f_Q"/>
+   <field old="SPACING I" new="f_F"/>
+   <field old="STAR Landroid/graphics/Path;" new="f_f"/>
+   <field old="TAG Ljava/lang/String;" new="f_d"/>
+   <field old="TRIANGLE Landroid/graphics/Path;" new="f_i"/>
+   <field old="TYPE_CIRCLE I" new="f_e"/>
+   <field old="TYPE_DIAMOND I" new="f_P"/>
+   <field old="TYPE_MASK I" new="f_E"/>
+   <field old="TYPE_MAX I" new="f_N"/>
+   <field old="TYPE_OFFSET I" new="f_R"/>
+   <field old="TYPE_PLUS I" new="f_y"/>
+   <field old="TYPE_SMALL_CIRCLE I" new="f_u"/>
+   <field old="TYPE_SQUARE I" new="f_J"/>
+   <field old="TYPE_STAR I" new="f_k"/>
+   <field old="TYPE_TRIANGLE I" new="f_Z"/>
+   <field old="TYPE_X I" new="f_b"/>
+   <field old="X Landroid/graphics/Path;" new="f_L"/>
+   <field old="X_MASK I" new="f_V"/>
+   <field old="X_MAX I" new="f_c"/>
+   <field old="X_OFFSET I" new="f_w"/>
+   <field old="Y_MASK I" new="f_O"/>
+   <field old="Y_MAX I" new="f_H"/>
+   <field old="Y_OFFSET I" new="f_I"/>
+   <field old="mHash [B" new="f_l"/>
+   <field old="mMessageDigest Ljava/security/MessageDigest;" new="f_q"/>
+   <field old="mScaleX F" new="f_K"/>
+   <field old="mScaleY F" new="f_D"/>
+   <field old="p Landroid/graphics/Paint;" new="f_z"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$Phoneme$1" new="org.apache.commons.codec.language.bm.Rule$Phoneme$1">
+   <method old="compare(Ljava/lang/Object;Ljava/lang/Object;)I" new="compare"/>
+   <method old="compare(Lorg/apache/commons/codec/language/bm/Rule$Phoneme;Lorg/apache/commons/codec/language/bm/Rule$Phoneme;)I" new="m_N"/>
+  </class>
+  <class old="org.apache.commons.codec.language.DoubleMetaphone$DoubleMetaphoneResult" new="org.apache.commons.codec.language.c_l">
+   <method old="append(C)V" new="m_Od"/>
+   <method old="append(CC)V" new="m_rA"/>
+   <method old="append(Ljava/lang/String;)V" new="m_jd"/>
+   <method old="append(Ljava/lang/String;Ljava/lang/String;)V" new="m_Jb"/>
+   <method old="appendAlternate(C)V" new="m_HC"/>
+   <method old="appendAlternate(Ljava/lang/String;)V" new="m_VB"/>
+   <method old="appendPrimary(C)V" new="m_Lc"/>
+   <method old="appendPrimary(Ljava/lang/String;)V" new="m_cC"/>
+   <method old="getAlternate()Ljava/lang/String;" new="m_ec"/>
+   <method old="getPrimary()Ljava/lang/String;" new="m_tb"/>
+   <method old="isComplete()Z" new="m_rC"/>
+   <field old="alternate Ljava/lang/StringBuilder;" new="f_I"/>
+   <field old="maxLength I" new="f_L"/>
+   <field old="primary Ljava/lang/StringBuilder;" new="f_f"/>
+   <field old="this$0 Lorg/apache/commons/codec/language/DoubleMetaphone;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$10" new="org.apache.commons.codec.language.bm.Rule$10">
+   <method old="isMatch(Ljava/lang/CharSequence;)Z" new="m_D"/>
+   <field old="pattern Ljava/util/regex/Pattern;" new="f_F"/>
+   <field old="val$regex Ljava/lang/String;" new="f_f"/>
+  </class>
+  <class old="org.apache.commons.codec.language.Caverphone1" new="org.apache.commons.codec.language.c_M">
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="isEncodeEqual(Ljava/lang/String;Ljava/lang/String;)Z" new="m_Qb"/>
+   <field old="SIX_1 Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.Caverphone2" new="org.apache.commons.codec.language.c_L">
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="isEncodeEqual(Ljava/lang/String;Ljava/lang/String;)Z" new="m_Qb"/>
+   <field old="TEN_1 Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="android.support.annotation.NonNull" new="android.support.annotation.c_L">
+  </class>
+  <class old="android.support.annotation.PluralsRes" new="android.support.annotation.c_d">
+  </class>
+  <class old="android.support.annotation.TransitionRes" new="android.support.annotation.c_m">
+  </class>
+  <class old="org.apache.commons.codec.language.DoubleMetaphone" new="org.apache.commons.codec.language.c_j">
+   <method old="charAt(Ljava/lang/String;I)C" new="m_rb"/>
+   <method old="cleanInput(Ljava/lang/String;)Ljava/lang/String;" new="m_Ad"/>
+   <method old="conditionC0(Ljava/lang/String;I)Z" new="m_vc"/>
+   <method old="conditionCH0(Ljava/lang/String;I)Z" new="m_Sc"/>
+   <method old="conditionCH1(Ljava/lang/String;I)Z" new="m_tc"/>
+   <method old="conditionL0(Ljava/lang/String;I)Z" new="m_Gc"/>
+   <method old="conditionM0(Ljava/lang/String;I)Z" new="m_Qc"/>
+   <method old="contains(Ljava/lang/String;II[Ljava/lang/String;)Z" new="m_hd"/>
+   <method old="doubleMetaphone(Ljava/lang/String;)Ljava/lang/String;" new="m_UA"/>
+   <method old="doubleMetaphone(Ljava/lang/String;Z)Ljava/lang/String;" new="m_qb"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="getMaxCodeLen()I" new="m_lC"/>
+   <method old="handleAEIOUY(Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_Dd"/>
+   <method old="handleC(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_yc"/>
+   <method old="handleCC(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_TC"/>
+   <method old="handleCH(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_oC"/>
+   <method old="handleD(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_oA"/>
+   <method old="handleG(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;IZ)I" new="m_jc"/>
+   <method old="handleGH(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_Oc"/>
+   <method old="handleH(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_gb"/>
+   <method old="handleJ(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;IZ)I" new="m_GA"/>
+   <method old="handleL(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_Kd"/>
+   <method old="handleP(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_Uc"/>
+   <method old="handleR(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;IZ)I" new="m_yB"/>
+   <method old="handleS(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;IZ)I" new="m_KB"/>
+   <method old="handleSC(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_uC"/>
+   <method old="handleT(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_mc"/>
+   <method old="handleW(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_bA"/>
+   <method old="handleX(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I" new="m_gd"/>
+   <method old="handleZ(Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;IZ)I" new="m_mA"/>
+   <method old="isDoubleMetaphoneEqual(Ljava/lang/String;Ljava/lang/String;)Z" new="m_yA"/>
+   <method old="isDoubleMetaphoneEqual(Ljava/lang/String;Ljava/lang/String;Z)Z" new="m_SC"/>
+   <method old="isSilentStart(Ljava/lang/String;)Z" new="m_rd"/>
+   <method old="isSlavoGermanic(Ljava/lang/String;)Z" new="m_lA"/>
+   <method old="isVowel(C)Z" new="m_zC"/>
+   <method old="setMaxCodeLen(I)V" new="m_nA"/>
+   <field old="ES_EP_EB_EL_EY_IB_IL_IN_IE_EI_ER [Ljava/lang/String;" new="f_I"/>
+   <field old="L_R_N_M_B_H_F_V_W_SPACE [Ljava/lang/String;" new="f_L"/>
+   <field old="L_T_K_S_N_M_B_Z [Ljava/lang/String;" new="f_D"/>
+   <field old="SILENT_START [Ljava/lang/String;" new="f_f"/>
+   <field old="VOWELS Ljava/lang/String;" new="f_F"/>
+   <field old="maxCodeLen I" new="f_b"/>
+  </class>
+  <class old="com.google.zxing.integration.android.IntentResult" new="wy.c_x">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Cd"/>
+   <method old="getContents()Ljava/lang/String;" new="m_Nf"/>
+   <method old="getErrorCorrectionLevel()Ljava/lang/String;" new="m_IA"/>
+   <method old="getFormatName()Ljava/lang/String;" new="m_Wd"/>
+   <method old="getOrientation()Ljava/lang/Integer;" new="m_kC"/>
+   <method old="getRawBytes()[B" new="m_DE"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="contents Ljava/lang/String;" new="f_I"/>
+   <field old="errorCorrectionLevel Ljava/lang/String;" new="f_f"/>
+   <field old="formatName Ljava/lang/String;" new="f_L"/>
+   <field old="orientation Ljava/lang/Integer;" new="f_F"/>
+   <field old="rawBytes [B" new="f_b"/>
+  </class>
+  <class old="org.apache.commons.codec.binary.Base32" new="wy.c_B">
+   <method old="available(Lorg/apache/commons/codec/binary/BaseNCodec$Context;)I" new="m_JC"/>
+   <method old="containsAlphabetOrPad([B)Z" new="m_Vb"/>
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+   <method old="decode(Ljava/lang/String;)[B" new="m_d"/>
+   <method old="decode([B)[B" new="m_B"/>
+   <method old="decode([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)V" new="m_hA"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode([B)[B" new="m_C"/>
+   <method old="encode([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)V" new="m_mb"/>
+   <method old="encodeAsString([B)Ljava/lang/String;" new="m_mB"/>
+   <method old="encodeToString([B)Ljava/lang/String;" new="m_DB"/>
+   <method old="ensureBufferSize(ILorg/apache/commons/codec/binary/BaseNCodec$Context;)[B" new="m_uA"/>
+   <method old="getDefaultBufferSize()I" new="m_Pd"/>
+   <method old="getEncodedLength([B)J" new="m_IC"/>
+   <method old="hasData(Lorg/apache/commons/codec/binary/BaseNCodec$Context;)Z" new="m_GB"/>
+   <method old="isInAlphabet(B)Z" new="m_AA"/>
+   <method old="isInAlphabet(Ljava/lang/String;)Z" new="m_Pb"/>
+   <method old="isInAlphabet([BZ)Z" new="m_qC"/>
+   <method old="isWhiteSpace(B)Z" new="m_Ac"/>
+   <method old="readResults([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)I" new="m_Nc"/>
+   <field old="BITS_PER_ENCODED_BYTE I" new="f_l"/>
+   <field old="BYTES_PER_ENCODED_BLOCK I" new="f_h"/>
+   <field old="BYTES_PER_UNENCODED_BLOCK I" new="f_D"/>
+   <field old="CHUNK_SEPARATOR [B" new="f_g"/>
+   <field old="DECODE_TABLE [B" new="f_c"/>
+   <field old="ENCODE_TABLE [B" new="f_G"/>
+   <field old="EOF I" new="f_a"/>
+   <field old="HEX_DECODE_TABLE [B" new="f_F"/>
+   <field old="HEX_ENCODE_TABLE [B" new="f_L"/>
+   <field old="MASK_5BITS I" new="f_k"/>
+   <field old="MASK_8BITS I" new="f_I"/>
+   <field old="MIME_CHUNK_SIZE I" new="f_G"/>
+   <field old="PAD B" new="f_C"/>
+   <field old="PAD_DEFAULT B" new="f_D"/>
+   <field old="PEM_CHUNK_SIZE I" new="f_L"/>
+   <field old="decodeSize I" new="f_f"/>
+   <field old="decodeTable [B" new="f_b"/>
+   <field old="encodeSize I" new="f_J"/>
+   <field old="encodeTable [B" new="f_I"/>
+   <field old="lineLength I" new="f_K"/>
+   <field old="lineSeparator [B" new="f_C"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass$1" new="info.staticfree.SuperGenPass.c_L">
+   <method old="handleMessage(Landroid/os/Message;)V" new="handleMessage"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Super_Gen_Pass;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Manifest$permission" new="info.staticfree.SuperGenPass.c_B">
+   <field old="ACCESS_DOMAINS Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass$2" new="info.staticfree.SuperGenPass.c_G">
+   <method old="onReceive(Landroid/content/Context;Landroid/content/Intent;)V" new="onReceive"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Super_Gen_Pass;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass$3" new="info.staticfree.SuperGenPass.c_d">
+   <method old="onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V" new="onItemClick"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Super_Gen_Pass;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass$4" new="info.staticfree.SuperGenPass.c_H">
+   <method old="onItemSelected(Landroid/widget/AdapterView;Landroid/view/View;IJ)V" new="onItemSelected"/>
+   <method old="onNothingSelected(Landroid/widget/AdapterView;)V" new="onNothingSelected"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Super_Gen_Pass;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass$5" new="info.staticfree.SuperGenPass.c_A">
+   <method old="onCheckedChanged(Landroid/widget/CompoundButton;Z)V" new="onCheckedChanged"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Super_Gen_Pass;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass$6" new="info.staticfree.SuperGenPass.c_h">
+   <method old="afterTextChanged(Landroid/text/Editable;)V" new="afterTextChanged"/>
+   <method old="beforeTextChanged(Ljava/lang/CharSequence;III)V" new="beforeTextChanged"/>
+   <method old="onTextChanged(Ljava/lang/CharSequence;III)V" new="onTextChanged"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Super_Gen_Pass;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass$7" new="info.staticfree.SuperGenPass.c_j">
+   <method old="afterTextChanged(Landroid/text/Editable;)V" new="afterTextChanged"/>
+   <method old="beforeTextChanged(Ljava/lang/CharSequence;III)V" new="beforeTextChanged"/>
+   <method old="onTextChanged(Ljava/lang/CharSequence;III)V" new="onTextChanged"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Super_Gen_Pass;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.net.QCodec" new="org.apache.commons.codec.net.c_a">
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+   <method old="decode(Ljava/lang/String;)Ljava/lang/String;" new="m_d"/>
+   <method old="decodeText(Ljava/lang/String;)Ljava/lang/String;" new="m_t"/>
+   <method old="doDecoding([B)[B" new="m_V"/>
+   <method old="doEncoding([B)[B" new="m_w"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_s"/>
+   <method old="encode(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;" new="m_X"/>
+   <method old="encodeText(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_U"/>
+   <method old="encodeText(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;" new="m_u"/>
+   <method old="getCharset()Ljava/nio/charset/Charset;" new="m_Z"/>
+   <method old="getDefaultCharset()Ljava/lang/String;" new="m_R"/>
+   <method old="getEncoding()Ljava/lang/String;" new="m_o"/>
+   <method old="isEncodeBlanks()Z" new="m_W"/>
+   <method old="setEncodeBlanks(Z)V" new="m_v"/>
+   <field old="BLANK B" new="f_f"/>
+   <field old="POSTFIX Ljava/lang/String;" new="f_f"/>
+   <field old="PREFIX Ljava/lang/String;" new="f_F"/>
+   <field old="PRINTABLE_CHARS Ljava/util/BitSet;" new="f_b"/>
+   <field old="SEP C" new="f_I"/>
+   <field old="UNDERSCORE B" new="f_I"/>
+   <field old="charset Ljava/nio/charset/Charset;" new="f_L"/>
+   <field old="encodeBlanks Z" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.hashes.HmacPin" new="wy.c_J">
+   <method old="generate(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" new="m_DA"/>
+   <method old="generateWithFilteredDomain(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" new="m_od"/>
+   <method old="getDomain(Ljava/lang/String;)Ljava/lang/String;" new="m_Zb"/>
+   <method old="loadDomains()V" new="m_rB"/>
+   <method old="setCheckDomain(Z)V" new="m_XB"/>
+  </class>
+  <class old="org.apache.commons.codec.binary.Base64InputStream" new="wy.c_f">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Cd"/>
+   <method old="available()I" new="available"/>
+   <method old="mark(I)V" new="mark"/>
+   <method old="markSupported()Z" new="markSupported"/>
+   <method old="read()I" new="read"/>
+   <method old="read([BII)I" new="read"/>
+   <method old="reset()V" new="reset"/>
+   <method old="skip(J)J" new="skip"/>
+  </class>
+  <class old="android.support.annotation.RequiresPermission$Write" new="android.support.annotation.RequiresPermission$Write">
+   <method old="value()Landroid/support/annotation/RequiresPermission;" new="m_m"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Super_Gen_Pass$AboutFragment$1" new="info.staticfree.SuperGenPass.c_m">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Super_Gen_Pass$AboutFragment;" new="f_F"/>
+  </class>
+  <class old="android.support.annotation.Nullable" new="android.support.annotation.c_G">
+  </class>
+  <class old="org.apache.commons.codec.CharEncoding" new="org.apache.commons.codec.c_d">
+   <field old="ISO_8859_1 Ljava/lang/String;" new="f_f"/>
+   <field old="US_ASCII Ljava/lang/String;" new="f_F"/>
+   <field old="UTF_16 Ljava/lang/String;" new="f_b"/>
+   <field old="UTF_16BE Ljava/lang/String;" new="f_D"/>
+   <field old="UTF_16LE Ljava/lang/String;" new="f_L"/>
+   <field old="UTF_8 Ljava/lang/String;" new="f_I"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.hashes.HotpPin" new="wy.c_D">
+   <method old="generate(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" new="m_DA"/>
+   <method old="generateWithFilteredDomain(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" new="m_od"/>
+   <method old="getDomain(Ljava/lang/String;)Ljava/lang/String;" new="m_Zb"/>
+   <method old="isBadPin(Ljava/lang/String;)Z" new="m_hC"/>
+   <method old="isIncompleteNumericalRun(Ljava/lang/String;)Z" new="m_Ib"/>
+   <method old="isNumericalRun(Ljava/lang/String;)Z" new="m_sA"/>
+   <method old="loadDomains()V" new="m_rB"/>
+   <method old="setCheckDomain(Z)V" new="m_XB"/>
+   <field old="BLACKLISTED_PINS [Ljava/lang/String;" new="f_f"/>
+   <field old="TAG Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$PhonemeExpr" new="org.apache.commons.codec.language.bm.Rule$PhonemeExpr">
+   <method old="getPhonemes()Ljava/lang/Iterable;" new="m_c"/>
+  </class>
+  <class old="android.support.annotation.DimenRes" new="android.support.annotation.c_J">
+  </class>
+  <class old="org.apache.commons.codec.digest.Sha2Crypt" new="wy.c_i">
+   <method old="sha256Crypt([B)Ljava/lang/String;" new="m_LC"/>
+   <method old="sha256Crypt([BLjava/lang/String;)Ljava/lang/String;" new="m_hB"/>
+   <method old="sha2Crypt([BLjava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;" new="m_eb"/>
+   <method old="sha512Crypt([B)Ljava/lang/String;" new="m_Zc"/>
+   <method old="sha512Crypt([BLjava/lang/String;)Ljava/lang/String;" new="m_ld"/>
+   <field old="ROUNDS_DEFAULT I" new="f_F"/>
+   <field old="ROUNDS_MAX I" new="f_f"/>
+   <field old="ROUNDS_MIN I" new="f_K"/>
+   <field old="ROUNDS_PREFIX Ljava/lang/String;" new="f_J"/>
+   <field old="SALT_PATTERN Ljava/util/regex/Pattern;" new="f_b"/>
+   <field old="SHA256_BLOCKSIZE I" new="f_D"/>
+   <field old="SHA256_PREFIX Ljava/lang/String;" new="f_L"/>
+   <field old="SHA512_BLOCKSIZE I" new="f_I"/>
+   <field old="SHA512_PREFIX Ljava/lang/String;" new="f_a"/>
+  </class>
+  <class old="org.apache.commons.codec.binary.BaseNCodec$Context" new="wy.c_G">
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="buffer [B" new="f_a"/>
+   <field old="currentLinePos I" new="f_F"/>
+   <field old="eof Z" new="f_I"/>
+   <field old="ibitWorkArea I" new="f_b"/>
+   <field old="lbitWorkArea J" new="f_D"/>
+   <field old="modulus I" new="f_f"/>
+   <field old="pos I" new="f_L"/>
+   <field old="readPos I" new="f_K"/>
+  </class>
+  <class old="org.apache.commons.codec.binary.BinaryCodec" new="wy.c_d">
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+   <method old="decode([B)[B" new="m_B"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode([B)[B" new="m_C"/>
+   <method old="fromAscii([B)[B" new="m_jB"/>
+   <method old="fromAscii([C)[B" new="m_JA"/>
+   <method old="isEmpty([B)Z" new="m_YA"/>
+   <method old="toAsciiBytes([B)[B" new="m_nB"/>
+   <method old="toAsciiChars([B)[C" new="m_pb"/>
+   <method old="toAsciiString([B)Ljava/lang/String;" new="m_ZB"/>
+   <method old="toByteArray(Ljava/lang/String;)[B" new="m_rc"/>
+   <field old="BITS [I" new="f_K"/>
+   <field old="BIT_0 I" new="f_D"/>
+   <field old="BIT_1 I" new="f_I"/>
+   <field old="BIT_2 I" new="f_k"/>
+   <field old="BIT_3 I" new="f_C"/>
+   <field old="BIT_4 I" new="f_J"/>
+   <field old="BIT_5 I" new="f_L"/>
+   <field old="BIT_6 I" new="f_a"/>
+   <field old="BIT_7 I" new="f_f"/>
+   <field old="EMPTY_BYTE_ARRAY [B" new="f_F"/>
+   <field old="EMPTY_CHAR_ARRAY [C" new="f_b"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Domain" new="info.staticfree.SuperGenPass.c_x">
+   <field old="CONTENT_URI Landroid/net/Uri;" new="f_F"/>
+   <field old="DOMAIN Ljava/lang/String;" new="f_I"/>
+   <field old="PATH Ljava/lang/String;" new="f_f"/>
+   <field old="SORT_ORDER Ljava/lang/String;" new="f_L"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Lang" new="org.apache.commons.codec.language.bm.c_L">
+   <method old="guessLanguage(Ljava/lang/String;)Ljava/lang/String;" new="m_ua"/>
+   <method old="guessLanguages(Ljava/lang/String;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="m_qa"/>
+   <method old="instance(Lorg/apache/commons/codec/language/bm/NameType;)Lorg/apache/commons/codec/language/bm/Lang;" new="m_Na"/>
+   <method old="loadFromResource(Ljava/lang/String;Lorg/apache/commons/codec/language/bm/Languages;)Lorg/apache/commons/codec/language/bm/Lang;" new="m_nC"/>
+   <field old="LANGUAGE_RULES_RN Ljava/lang/String;" new="f_I"/>
+   <field old="Langs Ljava/util/Map;" new="f_L"/>
+   <field old="languages Lorg/apache/commons/codec/language/bm/Languages;" new="f_F"/>
+   <field old="rules Ljava/util/List;" new="f_f"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.R$layout" new="info.staticfree.SuperGenPass.R$layout">
+   <field old="about I" new="about"/>
+   <field old="main I" new="main"/>
+   <field old="master_pw_verify I" new="master_pw_verify"/>
+   <field old="preference_activity I" new="preference_activity"/>
+   <field old="tab_indicator I" new="tab_indicator"/>
+  </class>
+  <class old="org.apache.commons.codec.BinaryEncoder" new="org.apache.commons.codec.c_E">
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode([B)[B" new="m_C"/>
+  </class>
+  <class old="android.support.annotation.VisibleForTesting" new="android.support.annotation.c_i">
+  </class>
+  <class old="info.staticfree.SuperGenPass.SgpPreferencesActivity" new="info.staticfree.SuperGenPass.SgpPreferencesActivity">
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onNewIntent(Landroid/content/Intent;)V" new="onNewIntent"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.RememberedDomainProvider" new="info.staticfree.SuperGenPass.RememberedDomainProvider">
+   <method old="addRememberedDomain(Landroid/content/ContentResolver;Ljava/lang/String;)V" new="m_xC"/>
+   <method old="delete(Landroid/net/Uri;Ljava/lang/String;[Ljava/lang/String;)I" new="delete"/>
+   <method old="getType(Landroid/net/Uri;)Ljava/lang/String;" new="getType"/>
+   <method old="insert(Landroid/net/Uri;Landroid/content/ContentValues;)Landroid/net/Uri;" new="insert"/>
+   <method old="onCreate()Z" new="onCreate"/>
+   <method old="query(Landroid/net/Uri;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;" new="query"/>
+   <method old="update(Landroid/net/Uri;Landroid/content/ContentValues;Ljava/lang/String;[Ljava/lang/String;)I" new="update"/>
+   <field old="AUTHORITY Ljava/lang/String;" new="AUTHORITY"/>
+   <field old="MATCHER_DOMAIN_DIR I" new="f_F"/>
+   <field old="MATCHER_DOMAIN_ITEM I" new="f_f"/>
+   <field old="TYPE_DOMAINS_DIR Ljava/lang/String;" new="TYPE_DOMAINS_DIR"/>
+   <field old="TYPE_DOMAINS_ITEM Ljava/lang/String;" new="TYPE_DOMAINS_ITEM"/>
+   <field old="mDBHelper Linfo/staticfree/SuperGenPass/RememberedDBHelper;" new="f_I"/>
+   <field old="mUriMatcher Landroid/content/UriMatcher;" new="f_L"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.hashes.PasswordComposer" new="wy.c_e">
+   <method old="generate(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" new="m_DA"/>
+   <method old="generateWithFilteredDomain(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" new="m_od"/>
+   <method old="getDomain(Ljava/lang/String;)Ljava/lang/String;" new="m_Zb"/>
+   <method old="loadDomains()V" new="m_rB"/>
+   <method old="md5hex([B)Ljava/lang/String;" new="m_kB"/>
+   <method old="setCheckDomain(Z)V" new="m_XB"/>
+   <field old="TYPE Ljava/lang/String;" new="f_f"/>
+   <field old="md5 Ljava/security/MessageDigest;" new="f_F"/>
+  </class>
+  <class old="android.support.annotation.BoolRes" new="android.support.annotation.c_o">
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Lang$LangRule" new="org.apache.commons.codec.language.bm.c_d">
+   <method old="access$100(Lorg/apache/commons/codec/language/bm/Lang$LangRule;)Z" new="m_ya"/>
+   <method old="access$200(Lorg/apache/commons/codec/language/bm/Lang$LangRule;)Ljava/util/Set;" new="m_Ra"/>
+   <method old="matches(Ljava/lang/String;)Z" new="m_Va"/>
+   <field old="acceptOnMatch Z" new="f_I"/>
+   <field old="languages Ljava/util/Set;" new="f_F"/>
+   <field old="pattern Ljava/util/regex/Pattern;" new="f_f"/>
+  </class>
+  <class old="android.support.annotation.RawRes" new="android.support.annotation.RawRes">
+  </class>
+  <class old="android.support.annotation.MainThread" new="android.support.annotation.c_b">
+  </class>
+  <class old="android.support.annotation.RequiresPermission$Read" new="android.support.annotation.RequiresPermission$Read">
+   <method old="value()Landroid/support/annotation/RequiresPermission;" new="m_m"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$PhonemeList" new="org.apache.commons.codec.language.bm.Rule$PhonemeList">
+   <method old="getPhonemes()Ljava/lang/Iterable;" new="m_c"/>
+   <method old="getPhonemes()Ljava/util/List;" new="m_c"/>
+   <field old="phonemes Ljava/util/List;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.R$plurals" new="info.staticfree.SuperGenPass.R$plurals">
+   <field old="pref_autocomplete_count I" new="pref_autocomplete_count"/>
+  </class>
+  <class old="org.apache.commons.codec.StringEncoder" new="org.apache.commons.codec.c_m">
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+  </class>
+  <class old="android.support.annotation.DrawableRes" new="android.support.annotation.c_D">
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$1" new="org.apache.commons.codec.language.bm.Rule$1">
+   <method old="isMatch(Ljava/lang/CharSequence;)Z" new="m_D"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$2" new="org.apache.commons.codec.language.bm.Rule$2">
+   <method old="access$100(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z" new="m_La"/>
+   <method old="access$200(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z" new="m_ba"/>
+   <method old="access$300(Ljava/lang/CharSequence;C)Z" new="m_ga"/>
+   <method old="getInstance(Lorg/apache/commons/codec/language/bm/NameType;Lorg/apache/commons/codec/language/bm/RuleType;Ljava/lang/String;)Ljava/util/List;" new="m_Ma"/>
+   <method old="getInstance(Lorg/apache/commons/codec/language/bm/NameType;Lorg/apache/commons/codec/language/bm/RuleType;Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Ljava/util/List;" new="m_Ga"/>
+   <method old="getLContext()Lorg/apache/commons/codec/language/bm/Rule$RPattern;" new="m_la"/>
+   <method old="getPattern()Ljava/lang/String;" new="m_ca"/>
+   <method old="getPhoneme()Lorg/apache/commons/codec/language/bm/Rule$PhonemeExpr;" new="m_da"/>
+   <method old="getRContext()Lorg/apache/commons/codec/language/bm/Rule$RPattern;" new="m_ma"/>
+   <method old="patternAndContextMatches(Ljava/lang/CharSequence;I)Z" new="m_ha"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="ALL Ljava/lang/String;" new="ALL"/>
+   <field old="ALL_STRINGS_RMATCHER Lorg/apache/commons/codec/language/bm/Rule$RPattern;" new="ALL_STRINGS_RMATCHER"/>
+   <field old="loc Ljava/lang/String;" new="f_f"/>
+   <field old="myLine I" new="f_I"/>
+   <field old="val$cLine I" new="f_F"/>
+   <field old="val$location Ljava/lang/String;" new="f_L"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$3" new="org.apache.commons.codec.language.bm.Rule$3">
+   <method old="isMatch(Ljava/lang/CharSequence;)Z" new="m_D"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.PasswordGenerationException" new="info.staticfree.SuperGenPass.c_F">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Cd"/>
+   <field old="serialVersionUID J" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$4" new="org.apache.commons.codec.language.bm.Rule$4">
+   <method old="isMatch(Ljava/lang/CharSequence;)Z" new="m_D"/>
+   <field old="val$content Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$5" new="org.apache.commons.codec.language.bm.Rule$5">
+   <method old="isMatch(Ljava/lang/CharSequence;)Z" new="m_D"/>
+   <field old="val$content Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$6" new="org.apache.commons.codec.language.bm.Rule$6">
+   <method old="isMatch(Ljava/lang/CharSequence;)Z" new="m_D"/>
+   <field old="val$content Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$7" new="org.apache.commons.codec.language.bm.Rule$7">
+   <method old="isMatch(Ljava/lang/CharSequence;)Z" new="m_D"/>
+   <field old="val$bContent Ljava/lang/String;" new="f_f"/>
+   <field old="val$shouldMatch Z" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$8" new="org.apache.commons.codec.language.bm.Rule$8">
+   <method old="isMatch(Ljava/lang/CharSequence;)Z" new="m_D"/>
+   <field old="val$bContent Ljava/lang/String;" new="f_F"/>
+   <field old="val$shouldMatch Z" new="f_f"/>
+  </class>
+  <class old="android.support.annotation.StyleableRes" new="android.support.annotation.c_l">
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Rule$9" new="org.apache.commons.codec.language.bm.Rule$9">
+   <method old="isMatch(Ljava/lang/CharSequence;)Z" new="m_D"/>
+   <field old="val$bContent Ljava/lang/String;" new="f_f"/>
+   <field old="val$shouldMatch Z" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.digest.Md5Crypt" new="wy.c_m">
+   <method old="apr1Crypt(Ljava/lang/String;)Ljava/lang/String;" new="m_zc"/>
+   <method old="apr1Crypt(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_uB"/>
+   <method old="apr1Crypt([B)Ljava/lang/String;" new="m_hb"/>
+   <method old="apr1Crypt([BLjava/lang/String;)Ljava/lang/String;" new="m_gc"/>
+   <method old="md5Crypt([B)Ljava/lang/String;" new="m_XA"/>
+   <method old="md5Crypt([BLjava/lang/String;)Ljava/lang/String;" new="m_nc"/>
+   <method old="md5Crypt([BLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_ab"/>
+   <field old="APR1_PREFIX Ljava/lang/String;" new="f_f"/>
+   <field old="BLOCKSIZE I" new="f_F"/>
+   <field old="MD5_PREFIX Ljava/lang/String;" new="f_I"/>
+   <field old="ROUNDS I" new="f_L"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.R$styleable" new="info.staticfree.SuperGenPass.R$styleable">
+   <field old="GeneratedPasswordView [I" new="GeneratedPasswordView"/>
+   <field old="Theme [I" new="Theme"/>
+   <field old="Theme_generatedPasswordViewStyle I" new="Theme_generatedPasswordViewStyle"/>
+   <field old="VisualHashEditText [I" new="VisualHashEditText"/>
+   <field old="VisualHashEditText_showVisualHash I" new="VisualHashEditText_showVisualHash"/>
+   <field old="VisualHashEditText_visualHashHeight I" new="VisualHashEditText_visualHashHeight"/>
+   <field old="VisualHashEditText_visualHashWidth I" new="VisualHashEditText_visualHashWidth"/>
+  </class>
+  <class old="org.apache.commons.codec.language.SoundexUtils" new="org.apache.commons.codec.language.c_C">
+   <method old="clean(Ljava/lang/String;)Ljava/lang/String;" new="m_Fc"/>
+   <method old="difference(Lorg/apache/commons/codec/StringEncoder;Ljava/lang/String;Ljava/lang/String;)I" new="m_Cc"/>
+   <method old="differenceEncoded(Ljava/lang/String;Ljava/lang/String;)I" new="m_oB"/>
+  </class>
+  <class old="org.apache.commons.codec.binary.Base64" new="wy.c_c">
+   <method old="available(Lorg/apache/commons/codec/binary/BaseNCodec$Context;)I" new="m_JC"/>
+   <method old="containsAlphabetOrPad([B)Z" new="m_Vb"/>
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+   <method old="decode(Ljava/lang/String;)[B" new="m_d"/>
+   <method old="decode([B)[B" new="m_B"/>
+   <method old="decode([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)V" new="m_hA"/>
+   <method old="decodeBase64(Ljava/lang/String;)[B" new="m_xB"/>
+   <method old="decodeBase64([B)[B" new="m_Ic"/>
+   <method old="decodeInteger([B)Ljava/math/BigInteger;" new="m_WA"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode([B)[B" new="m_C"/>
+   <method old="encode([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)V" new="m_mb"/>
+   <method old="encodeAsString([B)Ljava/lang/String;" new="m_mB"/>
+   <method old="encodeBase64([B)[B" new="m_PC"/>
+   <method old="encodeBase64([BZ)[B" new="m_sd"/>
+   <method old="encodeBase64([BZZ)[B" new="m_MA"/>
+   <method old="encodeBase64([BZZI)[B" new="m_md"/>
+   <method old="encodeBase64Chunked([B)[B" new="m_Gb"/>
+   <method old="encodeBase64String([B)Ljava/lang/String;" new="m_eB"/>
+   <method old="encodeBase64URLSafe([B)[B" new="m_jA"/>
+   <method old="encodeBase64URLSafeString([B)Ljava/lang/String;" new="m_Wb"/>
+   <method old="encodeInteger(Ljava/math/BigInteger;)[B" new="m_pd"/>
+   <method old="encodeToString([B)Ljava/lang/String;" new="m_DB"/>
+   <method old="ensureBufferSize(ILorg/apache/commons/codec/binary/BaseNCodec$Context;)[B" new="m_uA"/>
+   <method old="getDefaultBufferSize()I" new="m_Pd"/>
+   <method old="getEncodedLength([B)J" new="m_IC"/>
+   <method old="hasData(Lorg/apache/commons/codec/binary/BaseNCodec$Context;)Z" new="m_GB"/>
+   <method old="isArrayByteBase64([B)Z" new="m_KA"/>
+   <method old="isBase64(B)Z" new="m_Gd"/>
+   <method old="isBase64(Ljava/lang/String;)Z" new="m_YC"/>
+   <method old="isBase64([B)Z" new="m_ob"/>
+   <method old="isInAlphabet(B)Z" new="m_AA"/>
+   <method old="isInAlphabet(Ljava/lang/String;)Z" new="m_Pb"/>
+   <method old="isInAlphabet([BZ)Z" new="m_qC"/>
+   <method old="isUrlSafe()Z" new="m_yC"/>
+   <method old="isWhiteSpace(B)Z" new="m_Ac"/>
+   <method old="readResults([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)I" new="m_Nc"/>
+   <method old="toIntegerBytes(Ljava/math/BigInteger;)[B" new="m_Kb"/>
+   <field old="BITS_PER_ENCODED_BYTE I" new="f_h"/>
+   <field old="BYTES_PER_ENCODED_BLOCK I" new="f_c"/>
+   <field old="BYTES_PER_UNENCODED_BLOCK I" new="f_J"/>
+   <field old="CHUNK_SEPARATOR [B" new="f_I"/>
+   <field old="DECODE_TABLE [B" new="f_g"/>
+   <field old="EOF I" new="f_a"/>
+   <field old="MASK_6BITS I" new="f_C"/>
+   <field old="MASK_8BITS I" new="f_I"/>
+   <field old="MIME_CHUNK_SIZE I" new="f_G"/>
+   <field old="PAD B" new="f_C"/>
+   <field old="PAD_DEFAULT B" new="f_D"/>
+   <field old="PEM_CHUNK_SIZE I" new="f_L"/>
+   <field old="STANDARD_ENCODE_TABLE [B" new="f_k"/>
+   <field old="URL_SAFE_ENCODE_TABLE [B" new="f_f"/>
+   <field old="decodeSize I" new="f_l"/>
+   <field old="decodeTable [B" new="f_b"/>
+   <field old="encodeSize I" new="f_F"/>
+   <field old="encodeTable [B" new="f_D"/>
+   <field old="lineLength I" new="f_K"/>
+   <field old="lineSeparator [B" new="f_L"/>
+  </class>
+  <class old="org.apache.commons.codec.net.RFC1522Codec" new="org.apache.commons.codec.net.RFC1522Codec">
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+   <method old="decode(Ljava/lang/String;)Ljava/lang/String;" new="m_d"/>
+   <method old="decodeText(Ljava/lang/String;)Ljava/lang/String;" new="m_t"/>
+   <method old="doDecoding([B)[B" new="m_V"/>
+   <method old="doEncoding([B)[B" new="m_w"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="encodeText(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_U"/>
+   <method old="encodeText(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;" new="m_u"/>
+   <method old="getEncoding()Ljava/lang/String;" new="m_o"/>
+   <field old="POSTFIX Ljava/lang/String;" new="f_f"/>
+   <field old="PREFIX Ljava/lang/String;" new="f_F"/>
+   <field old="SEP C" new="f_I"/>
+  </class>
+  <class old="android.support.annotation.CallSuper" new="android.support.annotation.c_Z">
+  </class>
+  <class old="org.apache.commons.codec.language.bm.RuleType" new="org.apache.commons.codec.language.bm.RuleType">
+   <method old="getName()Ljava/lang/String;" new="m_x"/>
+   <method old="valueOf(Ljava/lang/String;)Lorg/apache/commons/codec/language/bm/RuleType;" new="valueOf"/>
+   <method old="values()[Lorg/apache/commons/codec/language/bm/RuleType;" new="values"/>
+   <field old="$VALUES [Lorg/apache/commons/codec/language/bm/RuleType;" new="f_f"/>
+   <field old="APPROX Lorg/apache/commons/codec/language/bm/RuleType;" new="APPROX"/>
+   <field old="EXACT Lorg/apache/commons/codec/language/bm/RuleType;" new="EXACT"/>
+   <field old="RULES Lorg/apache/commons/codec/language/bm/RuleType;" new="RULES"/>
+   <field old="name Ljava/lang/String;" new="f_F"/>
+  </class>
+  <class old="android.support.annotation.IdRes" new="android.support.annotation.c_K">
+  </class>
+  <class old="org.apache.commons.codec.language.ColognePhonetic" new="org.apache.commons.codec.language.c_d">
+   <method old="arrayContains([CC)Z" new="m_wb"/>
+   <method old="colognePhonetic(Ljava/lang/String;)Ljava/lang/String;" new="m_ZA"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="isEncodeEqual(Ljava/lang/String;Ljava/lang/String;)Z" new="m_Qb"/>
+   <method old="preprocess(Ljava/lang/String;)Ljava/lang/String;" new="m_LB"/>
+   <field old="AEIJOUY [C" new="f_b"/>
+   <field old="AHKLOQRUX [C" new="f_a"/>
+   <field old="AHOUKQX [C" new="f_D"/>
+   <field old="CKQ [C" new="f_K"/>
+   <field old="GKQ [C" new="f_F"/>
+   <field old="PREPROCESS_MAP [[C" new="f_f"/>
+   <field old="SCZ [C" new="f_L"/>
+   <field old="SZ [C" new="f_C"/>
+   <field old="TDX [C" new="f_J"/>
+   <field old="WFPV [C" new="f_I"/>
+  </class>
+  <class old="org.apache.commons.codec.digest.Crypt" new="wy.c_j">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Cd"/>
+   <method old="crypt(Ljava/lang/String;)Ljava/lang/String;" new="m_Wc"/>
+   <method old="crypt(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_jC"/>
+   <method old="crypt([B)Ljava/lang/String;" new="m_UC"/>
+   <method old="crypt([BLjava/lang/String;)Ljava/lang/String;" new="m_fA"/>
+  </class>
+  <class old="org.apache.commons.codec.language.Caverphone" new="org.apache.commons.codec.language.c_b">
+   <method old="caverphone(Ljava/lang/String;)Ljava/lang/String;" new="m_LA"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="isCaverphoneEqual(Ljava/lang/String;Ljava/lang/String;)Z" new="m_RB"/>
+   <field old="encoder Lorg/apache/commons/codec/language/Caverphone2;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Preferences$SaltFragment$1" new="info.staticfree.SuperGenPass.c_b">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Preferences$SaltFragment;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Preferences$SaltFragment$2" new="info.staticfree.SuperGenPass.c_M">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Preferences$SaltFragment;" new="f_F"/>
+  </class>
+  <class old="org.apache.commons.codec.net.QuotedPrintableCodec" new="org.apache.commons.codec.net.c_i">
+   <method old="decode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_j"/>
+   <method old="decode(Ljava/lang/String;)Ljava/lang/String;" new="m_d"/>
+   <method old="decode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_Y"/>
+   <method old="decode(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;" new="m_T"/>
+   <method old="decode([B)[B" new="m_B"/>
+   <method old="decodeQuotedPrintable([B)[B" new="m_n"/>
+   <method old="encode(Ljava/lang/Object;)Ljava/lang/Object;" new="m_E"/>
+   <method old="encode(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="encode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_s"/>
+   <method old="encode(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;" new="m_X"/>
+   <method old="encode([B)[B" new="m_C"/>
+   <method old="encodeQuotedPrintable(ILjava/io/ByteArrayOutputStream;)V" new="m_z"/>
+   <method old="encodeQuotedPrintable(Ljava/util/BitSet;[B)[B" new="m_O"/>
+   <method old="getCharset()Ljava/nio/charset/Charset;" new="m_Z"/>
+   <method old="getDefaultCharset()Ljava/lang/String;" new="m_R"/>
+   <field old="ESCAPE_CHAR B" new="f_I"/>
+   <field old="PRINTABLE_CHARS Ljava/util/BitSet;" new="f_F"/>
+   <field old="SPACE B" new="f_f"/>
+   <field old="TAB B" new="f_b"/>
+   <field old="charset Ljava/nio/charset/Charset;" new="f_L"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.hashes.SuperGenPass" new="wy.c_F">
+   <method old="generate(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" new="m_DA"/>
+   <method old="generateWithFilteredDomain(Ljava/lang/String;Ljava/lang/String;I)Ljava/lang/String;" new="m_od"/>
+   <method old="getDomain(Ljava/lang/String;)Ljava/lang/String;" new="m_Zb"/>
+   <method old="hashBase64([B)Ljava/lang/String;" new="m_sb"/>
+   <method old="loadDomains()V" new="m_rB"/>
+   <method old="setCheckDomain(Z)V" new="m_XB"/>
+   <field old="HASH_ALGORITHM_MD5 Ljava/lang/String;" new="f_F"/>
+   <field old="HASH_ALGORITHM_SHA512 Ljava/lang/String;" new="f_L"/>
+   <field old="TYPE Ljava/lang/String;" new="f_f"/>
+   <field old="TYPE_SHA_512 Ljava/lang/String;" new="f_b"/>
+   <field old="mHasher Ljava/security/MessageDigest;" new="f_I"/>
+   <field old="validPassword Ljava/util/regex/Pattern;" new="f_D"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Preferences$1" new="info.staticfree.SuperGenPass.c_g">
+   <method old="onPreferenceChange(Landroid/preference/Preference;Ljava/lang/Object;)Z" new="onPreferenceChange"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Preferences;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Preferences$2" new="info.staticfree.SuperGenPass.c_c">
+   <method old="onCreateLoader(ILandroid/os/Bundle;)Landroid/content/Loader;" new="onCreateLoader"/>
+   <method old="onLoadFinished(Landroid/content/Loader;Landroid/database/Cursor;)V" new="m_xA"/>
+   <method old="onLoadFinished(Landroid/content/Loader;Ljava/lang/Object;)V" new="onLoadFinished"/>
+   <method old="onLoaderReset(Landroid/content/Loader;)V" new="onLoaderReset"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Preferences;" new="f_F"/>
+  </class>
+  <class old="info.staticfree.SuperGenPass.Preferences$3" new="info.staticfree.SuperGenPass.c_k">
+   <method old="onPreferenceClick(Landroid/preference/Preference;)Z" new="onPreferenceClick"/>
+   <field old="this$0 Linfo/staticfree/SuperGenPass/Preferences;" new="f_F"/>
+  </class>
+  <class old="android.support.annotation.XmlRes" new="android.support.annotation.c_C">
+  </class>
+  <class old="org.apache.commons.codec.language.bm.Languages$LanguageSet" new="org.apache.commons.codec.language.bm.c_l">
+   <method old="contains(Ljava/lang/String;)Z" new="m_Oa"/>
+   <method old="from(Ljava/util/Set;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="m_pa"/>
+   <method old="getAny()Ljava/lang/String;" new="m_Pa"/>
+   <method old="isEmpty()Z" new="m_na"/>
+   <method old="isSingleton()Z" new="m_Ua"/>
+   <method old="restrictTo(Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;" new="m_xa"/>
+  </class>
+  <annotations>
+   <annotation oldClassName="android.support.annotation.FloatRange" oldMethodName="toInclusive" newMethodName="m_A"/>
+   <annotation oldClassName="android.support.annotation.RequiresPermission$Read" oldMethodName="value" newMethodName="m_m"/>
+   <annotation oldClassName="android.support.annotation.FloatRange" oldMethodName="to" newMethodName="m_b"/>
+   <annotation oldClassName="android.support.annotation.RequiresPermission" oldMethodName="anyOf" newMethodName="m_F"/>
+   <annotation oldClassName="android.support.annotation.CheckResult" oldMethodName="suggest" newMethodName="m_a"/>
+   <annotation oldClassName="android.support.annotation.RequiresPermission$Write" oldMethodName="value" newMethodName="m_m"/>
+   <annotation oldClassName="android.support.annotation.RequiresPermission" oldMethodName="value" newMethodName="m_m"/>
+   <annotation oldClassName="android.support.annotation.FloatRange" oldMethodName="from" newMethodName="m_e"/>
+   <annotation oldClassName="android.support.annotation.IntDef" oldMethodName="value" newMethodName="m_m"/>
+   <annotation oldClassName="android.support.annotation.RequiresPermission" oldMethodName="conditional" newMethodName="m_G"/>
+   <annotation oldClassName="android.support.annotation.IntDef" oldMethodName="flag" newMethodName="m_l"/>
+   <annotation oldClassName="android.support.annotation.RequiresPermission" oldMethodName="allOf" newMethodName="m_L"/>
+   <annotation oldClassName="android.support.annotation.Size" oldMethodName="max" newMethodName="m_H"/>
+   <annotation oldClassName="android.support.annotation.StringDef" oldMethodName="value" newMethodName="m_m"/>
+   <annotation oldClassName="android.support.annotation.Size" oldMethodName="min" newMethodName="m_M"/>
+   <annotation oldClassName="android.support.annotation.IntRange" oldMethodName="from" newMethodName="m_e"/>
+   <annotation oldClassName="android.support.annotation.Size" oldMethodName="multiple" newMethodName="m_I"/>
+   <annotation oldClassName="android.support.annotation.FloatRange" oldMethodName="fromInclusive" newMethodName="m_f"/>
+   <annotation oldClassName="android.support.annotation.IntRange" oldMethodName="to" newMethodName="m_b"/>
+   <annotation oldClassName="android.support.annotation.Size" oldMethodName="value" newMethodName="m_m"/>
+  </annotations>
+  <sources>
+   <source old="IntentIntegrator.java" new="fn"/>
+   <source old="IntentResult.java" new="pl"/>
+   <source old="ProviderUtils.java" new="kl"/>
+   <source old="BuildConfig.java" new="fh"/>
+   <source old="Domain.java" new="og"/>
+   <source old="GeneratedPasswordView.java" new="be"/>
+   <source old="IllegalDomainException.java" new="rd"/>
+   <source old="PasswordGenerationException.java" new="vj"/>
+   <source old="Manifest.java" new="uj"/>
+   <source old="Preferences.java" new="ld"/>
+   <source old="R.java" new="nl"/>
+   <source old="RememberedDBHelper.java" new="dh"/>
+   <source old="RememberedDomainProvider.java" new="wi"/>
+   <source old="SgpPreferencesActivity.java" new="xg"/>
+   <source old="SuperGenPassShare.java" new="bg"/>
+   <source old="Super_Gen_Pass.java" new="yc"/>
+   <source old="VisualHash.java" new="ec"/>
+   <source old="VisualHashEditText.java" new="nc"/>
+   <source old="HmacPin.java" new="ac"/>
+   <source old="HotpPin.java" new="rc"/>
+   <source old="PasswordComposer.java" new="wc"/>
+   <source old="SuperGenPass.java" new="zc"/>
+   <source old="DomainBasedHash.java" new="tc"/>
+   <source old="CharEncoding.java" new="ic"/>
+   <source old="Charsets.java" new="hc"/>
+   <source old="DecoderException.java" new="qc"/>
+   <source old="EncoderException.java" new="bc"/>
+   <source old="StringEncoderComparator.java" new="cc"/>
+   <source old="Base32.java" new="xc"/>
+   <source old="Base32InputStream.java" new="vc"/>
+   <source old="Base32OutputStream.java" new="sc"/>
+   <source old="Base64.java" new="lc"/>
+   <source old="Base64InputStream.java" new="gc"/>
+   <source old="BaseNCodecInputStream.java" new="pc"/>
+   <source old="Base64OutputStream.java" new="dc"/>
+   <source old="BaseNCodecOutputStream.java" new="mc"/>
+   <source old="BaseNCodec.java" new="uc"/>
+   <source old="BinaryCodec.java" new="jc"/>
+   <source old="Hex.java" new="fc"/>
+   <source old="StringUtils.java" new="kc"/>
+   <source old="B64.java" new="oc"/>
+   <source old="Crypt.java" new="eb"/>
+   <source old="DigestUtils.java" new="nb"/>
+   <source old="Md5Crypt.java" new="qb"/>
+   <source old="MessageDigestAlgorithms.java" new="zb"/>
+   <source old="Sha2Crypt.java" new="wb"/>
+   <source old="UnixCrypt.java" new="kb"/>
+   <source old="Caverphone.java" new="ib"/>
+   <source old="Caverphone1.java" new="ub"/>
+   <source old="Caverphone2.java" new="cb"/>
+   <source old="AbstractCaverphone.java" new="vb"/>
+   <source old="ColognePhonetic.java" new="fb"/>
+   <source old="DoubleMetaphone.java" new="rb"/>
+   <source old="MatchRatingApproachEncoder.java" new="xb"/>
+   <source old="Metaphone.java" new="tb"/>
+   <source old="Nysiis.java" new="hb"/>
+   <source old="RefinedSoundex.java" new="pb"/>
+   <source old="Soundex.java" new="gb"/>
+   <source old="SoundexUtils.java" new="db"/>
+   <source old="BeiderMorseEncoder.java" new="sb"/>
+   <source old="Lang.java" new="bb"/>
+   <source old="Languages.java" new="mb"/>
+   <source old="NameType.java" new="yb"/>
+   <source old="PhoneticEngine.java" new="ob"/>
+   <source old="ResourceConstants.java" new="ab"/>
+   <source old="RuleType.java" new="jb"/>
+   <source old="BCodec.java" new="lb"/>
+   <source old="QCodec.java" new="ra"/>
+   <source old="RFC1522Codec.java" new="ea"/>
+   <source old="QuotedPrintableCodec.java" new="la"/>
+   <source old="URLCodec.java" new="ba"/>
+   <source old="Utils.java" new="na"/>
+   <source old="OneTimePasswordAlgorithm.java" new="xa"/>
+   <source old="AnimRes.java" new="da"/>
+   <source old="AnimatorRes.java" new="ta"/>
+   <source old="AnyRes.java" new="qa"/>
+   <source old="ArrayRes.java" new="ia"/>
+   <source old="AttrRes.java" new="ga"/>
+   <source old="BinderThread.java" new="ua"/>
+   <source old="BoolRes.java" new="sa"/>
+   <source old="CallSuper.java" new="ha"/>
+   <source old="CheckResult.java" new="ma"/>
+   <source old="ColorInt.java" new="oa"/>
+   <source old="ColorRes.java" new="ca"/>
+   <source old="DimenRes.java" new="ja"/>
+   <source old="DrawableRes.java" new="ya"/>
+   <source old="FloatRange.java" new="ka"/>
+   <source old="FractionRes.java" new="pa"/>
+   <source old="IdRes.java" new="fa"/>
+   <source old="IntDef.java" new="va"/>
+   <source old="IntRange.java" new="za"/>
+   <source old="IntegerRes.java" new="wa"/>
+   <source old="InterpolatorRes.java" new="aa"/>
+   <source old="Keep.java" new="p"/>
+   <source old="LayoutRes.java" new="b"/>
+   <source old="MainThread.java" new="h"/>
+   <source old="MenuRes.java" new="r"/>
+   <source old="NonNull.java" new="g"/>
+   <source old="Nullable.java" new="n"/>
+   <source old="PluralsRes.java" new="d"/>
+   <source old="RawRes.java" new="z"/>
+   <source old="RequiresPermission.java" new="x"/>
+   <source old="Size.java" new="m"/>
+   <source old="StringDef.java" new="c"/>
+   <source old="StringRes.java" new="l"/>
+   <source old="StyleRes.java" new="e"/>
+   <source old="StyleableRes.java" new="f"/>
+   <source old="TransitionRes.java" new="i"/>
+   <source old="UiThread.java" new="o"/>
+   <source old="VisibleForTesting.java" new="u"/>
+   <source old="WorkerThread.java" new="a"/>
+   <source old="XmlRes.java" new="t"/>
+   <source old="Rule.java" new="w"/>
+   <source old="StringDecoder.java" new="j"/>
+   <source old="StringEncoder.java" new="k"/>
+   <source old="BinaryDecoder.java" new="s"/>
+   <source old="Decoder.java" new="v"/>
+   <source old="BinaryEncoder.java" new="q"/>
+   <source old="Encoder.java" new="y"/>
+  </sources>
+  <lines>
+   <line l="369"/>
+   <line l="321"/>
+   <line l="71"/>
+   <line l="145"/>
+   <line l="254"/>
+   <line l="401"/>
+   <line l="284"/>
+   <line l="220"/>
+   <line l="347"/>
+   <line l="362"/>
+   <line l="95"/>
+   <line l="291"/>
+   <line l="146"/>
+   <line l="120"/>
+   <line l="82"/>
+   <line l="175"/>
+   <line l="277"/>
+   <line l="13"/>
+   <line l="92"/>
+   <line l="158"/>
+   <line l="128"/>
+   <line l="36"/>
+   <line l="197"/>
+   <line l="34"/>
+   <line l="109"/>
+   <line l="352"/>
+   <line l="303"/>
+   <line l="326"/>
+   <line l="216"/>
+   <line l="27"/>
+   <line l="203"/>
+   <line l="48"/>
+   <line l="149"/>
+   <line l="56"/>
+   <line l="192"/>
+   <line l="66"/>
+   <line l="236"/>
+   <line l="258"/>
+   <line l="273"/>
+   <line l="80"/>
+   <line l="241"/>
+   <line l="323"/>
+   <line l="114"/>
+   <line l="63"/>
+   <line l="69"/>
+   <line l="392"/>
+   <line l="260"/>
+   <line l="20"/>
+   <line l="385"/>
+   <line l="58"/>
+   <line l="24"/>
+   <line l="210"/>
+   <line l="61"/>
+   <line l="135"/>
+   <line l="349"/>
+   <line l="30"/>
+   <line l="19"/>
+   <line l="70"/>
+   <line l="372"/>
+   <line l="268"/>
+   <line l="22"/>
+   <line l="51"/>
+   <line l="393"/>
+   <line l="172"/>
+   <line l="235"/>
+   <line l="125"/>
+   <line l="186"/>
+   <line l="93"/>
+   <line l="276"/>
+   <line l="76"/>
+   <line l="397"/>
+   <line l="411"/>
+   <line l="306"/>
+   <line l="72"/>
+   <line l="248"/>
+   <line l="171"/>
+   <line l="247"/>
+   <line l="381"/>
+   <line l="229"/>
+   <line l="59"/>
+   <line l="106"/>
+   <line l="336"/>
+   <line l="130"/>
+   <line l="201"/>
+   <line l="178"/>
+   <line l="40"/>
+   <line l="256"/>
+   <line l="378"/>
+   <line l="221"/>
+   <line l="409"/>
+   <line l="318"/>
+   <line l="307"/>
+   <line l="194"/>
+   <line l="96"/>
+   <line l="329"/>
+   <line l="231"/>
+   <line l="167"/>
+   <line l="132"/>
+   <line l="102"/>
+   <line l="354"/>
+   <line l="364"/>
+   <line l="10"/>
+   <line l="255"/>
+   <line l="267"/>
+   <line l="395"/>
+   <line l="117"/>
+   <line l="226"/>
+   <line l="169"/>
+   <line l="207"/>
+   <line l="129"/>
+   <line l="113"/>
+   <line l="219"/>
+   <line l="308"/>
+   <line l="108"/>
+   <line l="57"/>
+   <line l="355"/>
+   <line l="396"/>
+   <line l="282"/>
+   <line l="294"/>
+   <line l="89"/>
+   <line l="214"/>
+   <line l="105"/>
+   <line l="45"/>
+   <line l="179"/>
+   <line l="119"/>
+   <line l="17"/>
+   <line l="81"/>
+   <line l="410"/>
+   <line l="164"/>
+   <line l="46"/>
+   <line l="152"/>
+   <line l="249"/>
+   <line l="4"/>
+   <line l="398"/>
+   <line l="204"/>
+   <line l="371"/>
+   <line l="295"/>
+   <line l="301"/>
+   <line l="215"/>
+   <line l="67"/>
+   <line l="412"/>
+   <line l="183"/>
+   <line l="41"/>
+   <line l="311"/>
+   <line l="379"/>
+   <line l="228"/>
+   <line l="209"/>
+   <line l="227"/>
+   <line l="298"/>
+   <line l="104"/>
+   <line l="223"/>
+   <line l="150"/>
+   <line l="134"/>
+   <line l="52"/>
+   <line l="264"/>
+   <line l="363"/>
+   <line l="299"/>
+   <line l="243"/>
+   <line l="29"/>
+   <line l="340"/>
+   <line l="390"/>
+   <line l="376"/>
+   <line l="317"/>
+   <line l="211"/>
+   <line l="403"/>
+   <line l="189"/>
+   <line l="39"/>
+   <line l="405"/>
+   <line l="240"/>
+   <line l="313"/>
+   <line l="312"/>
+   <line l="53"/>
+   <line l="111"/>
+   <line l="122"/>
+   <line l="234"/>
+   <line l="365"/>
+   <line l="257"/>
+   <line l="157"/>
+   <line l="165"/>
+   <line l="232"/>
+   <line l="386"/>
+   <line l="18"/>
+   <line l="408"/>
+   <line l="237"/>
+   <line l="191"/>
+   <line l="47"/>
+   <line l="262"/>
+   <line l="118"/>
+   <line l="244"/>
+   <line l="374"/>
+   <line l="107"/>
+   <line l="304"/>
+   <line l="8"/>
+   <line l="225"/>
+   <line l="148"/>
+   <line l="389"/>
+   <line l="142"/>
+   <line l="314"/>
+   <line l="121"/>
+   <line l="208"/>
+   <line l="320"/>
+   <line l="278"/>
+   <line l="151"/>
+   <line l="384"/>
+   <line l="141"/>
+   <line l="213"/>
+   <line l="253"/>
+   <line l="21"/>
+   <line l="87"/>
+   <line l="310"/>
+   <line l="85"/>
+   <line l="217"/>
+   <line l="350"/>
+   <line l="176"/>
+   <line l="84"/>
+   <line l="139"/>
+   <line l="327"/>
+   <line l="309"/>
+   <line l="68"/>
+   <line l="283"/>
+   <line l="388"/>
+   <line l="64"/>
+   <line l="196"/>
+   <line l="154"/>
+   <line l="177"/>
+   <line l="198"/>
+   <line l="74"/>
+   <line l="325"/>
+   <line l="5"/>
+   <line l="290"/>
+   <line l="275"/>
+   <line l="25"/>
+   <line l="115"/>
+   <line l="333"/>
+   <line l="131"/>
+   <line l="263"/>
+   <line l="380"/>
+   <line l="173"/>
+   <line l="259"/>
+   <line l="279"/>
+   <line l="250"/>
+   <line l="343"/>
+   <line l="338"/>
+   <line l="37"/>
+   <line l="382"/>
+   <line l="375"/>
+   <line l="377"/>
+   <line l="159"/>
+   <line l="168"/>
+   <line l="1"/>
+   <line l="23"/>
+   <line l="265"/>
+   <line l="297"/>
+   <line l="199"/>
+   <line l="242"/>
+   <line l="407"/>
+   <line l="337"/>
+   <line l="161"/>
+   <line l="202"/>
+   <line l="280"/>
+   <line l="356"/>
+   <line l="328"/>
+   <line l="300"/>
+   <line l="246"/>
+   <line l="302"/>
+   <line l="285"/>
+   <line l="344"/>
+   <line l="361"/>
+   <line l="144"/>
+   <line l="391"/>
+   <line l="31"/>
+   <line l="387"/>
+   <line l="136"/>
+   <line l="272"/>
+   <line l="156"/>
+   <line l="271"/>
+   <line l="16"/>
+   <line l="399"/>
+   <line l="334"/>
+   <line l="75"/>
+   <line l="359"/>
+   <line l="15"/>
+   <line l="140"/>
+   <line l="193"/>
+   <line l="103"/>
+   <line l="35"/>
+   <line l="116"/>
+   <line l="316"/>
+   <line l="206"/>
+   <line l="12"/>
+   <line l="153"/>
+   <line l="286"/>
+   <line l="266"/>
+   <line l="324"/>
+   <line l="233"/>
+   <line l="170"/>
+   <line l="73"/>
+   <line l="26"/>
+   <line l="182"/>
+   <line l="212"/>
+   <line l="373"/>
+   <line l="3"/>
+   <line l="112"/>
+   <line l="319"/>
+   <line l="50"/>
+   <line l="77"/>
+   <line l="239"/>
+   <line l="274"/>
+   <line l="331"/>
+   <line l="346"/>
+   <line l="245"/>
+   <line l="383"/>
+   <line l="292"/>
+   <line l="160"/>
+   <line l="293"/>
+   <line l="413"/>
+   <line l="406"/>
+   <line l="180"/>
+   <line l="339"/>
+   <line l="238"/>
+   <line l="33"/>
+   <line l="43"/>
+   <line l="269"/>
+   <line l="124"/>
+   <line l="98"/>
+   <line l="358"/>
+   <line l="400"/>
+   <line l="94"/>
+   <line l="147"/>
+   <line l="0"/>
+   <line l="99"/>
+   <line l="394"/>
+   <line l="184"/>
+   <line l="360"/>
+   <line l="166"/>
+   <line l="110"/>
+   <line l="127"/>
+   <line l="38"/>
+   <line l="402"/>
+   <line l="348"/>
+   <line l="205"/>
+   <line l="91"/>
+   <line l="366"/>
+   <line l="100"/>
+   <line l="86"/>
+   <line l="138"/>
+   <line l="218"/>
+   <line l="123"/>
+   <line l="188"/>
+   <line l="252"/>
+   <line l="49"/>
+   <line l="289"/>
+   <line l="367"/>
+   <line l="414"/>
+   <line l="330"/>
+   <line l="353"/>
+   <line l="7"/>
+   <line l="181"/>
+   <line l="342"/>
+   <line l="335"/>
+   <line l="251"/>
+   <line l="174"/>
+   <line l="62"/>
+   <line l="332"/>
+   <line l="90"/>
+   <line l="126"/>
+   <line l="42"/>
+   <line l="224"/>
+   <line l="404"/>
+   <line l="137"/>
+   <line l="315"/>
+   <line l="368"/>
+   <line l="185"/>
+   <line l="78"/>
+   <line l="261"/>
+   <line l="55"/>
+   <line l="6"/>
+   <line l="65"/>
+   <line l="270"/>
+   <line l="44"/>
+   <line l="281"/>
+   <line l="9"/>
+   <line l="101"/>
+   <line l="60"/>
+   <line l="11"/>
+   <line l="296"/>
+   <line l="97"/>
+   <line l="288"/>
+   <line l="222"/>
+   <line l="305"/>
+   <line l="195"/>
+   <line l="287"/>
+   <line l="54"/>
+   <line l="322"/>
+   <line l="163"/>
+   <line l="230"/>
+   <line l="79"/>
+   <line l="162"/>
+   <line l="143"/>
+   <line l="2"/>
+   <line l="370"/>
+   <line l="200"/>
+   <line l="155"/>
+   <line l="187"/>
+   <line l="32"/>
+   <line l="341"/>
+   <line l="133"/>
+   <line l="14"/>
+   <line l="351"/>
+   <line l="83"/>
+   <line l="190"/>
+   <line l="28"/>
+   <line l="88"/>
+   <line l="345"/>
+   <line l="357"/>
+   <line l="489"/>
+   <line l="469"/>
+   <line l="436"/>
+   <line l="551"/>
+   <line l="437"/>
+   <line l="540"/>
+   <line l="446"/>
+   <line l="490"/>
+   <line l="569"/>
+   <line l="627"/>
+   <line l="520"/>
+   <line l="614"/>
+   <line l="553"/>
+   <line l="439"/>
+   <line l="567"/>
+   <line l="573"/>
+   <line l="578"/>
+   <line l="626"/>
+   <line l="467"/>
+   <line l="574"/>
+   <line l="529"/>
+   <line l="514"/>
+   <line l="612"/>
+   <line l="516"/>
+   <line l="559"/>
+   <line l="541"/>
+   <line l="584"/>
+   <line l="424"/>
+   <line l="503"/>
+   <line l="572"/>
+   <line l="623"/>
+   <line l="505"/>
+   <line l="493"/>
+   <line l="456"/>
+   <line l="544"/>
+   <line l="510"/>
+   <line l="523"/>
+   <line l="594"/>
+   <line l="455"/>
+   <line l="554"/>
+   <line l="428"/>
+   <line l="475"/>
+   <line l="442"/>
+   <line l="498"/>
+   <line l="555"/>
+   <line l="494"/>
+   <line l="466"/>
+   <line l="447"/>
+   <line l="624"/>
+   <line l="535"/>
+   <line l="548"/>
+   <line l="598"/>
+   <line l="549"/>
+   <line l="556"/>
+   <line l="423"/>
+   <line l="443"/>
+   <line l="418"/>
+   <line l="587"/>
+   <line l="459"/>
+   <line l="454"/>
+   <line l="519"/>
+   <line l="605"/>
+   <line l="622"/>
+   <line l="552"/>
+   <line l="565"/>
+   <line l="458"/>
+   <line l="509"/>
+   <line l="588"/>
+   <line l="534"/>
+   <line l="527"/>
+   <line l="421"/>
+   <line l="468"/>
+   <line l="601"/>
+   <line l="618"/>
+   <line l="487"/>
+   <line l="506"/>
+   <line l="583"/>
+   <line l="625"/>
+   <line l="496"/>
+   <line l="521"/>
+   <line l="477"/>
+   <line l="609"/>
+   <line l="576"/>
+   <line l="619"/>
+   <line l="591"/>
+   <line l="595"/>
+   <line l="448"/>
+   <line l="607"/>
+   <line l="621"/>
+   <line l="542"/>
+   <line l="431"/>
+   <line l="537"/>
+   <line l="545"/>
+   <line l="461"/>
+   <line l="628"/>
+   <line l="480"/>
+   <line l="420"/>
+   <line l="590"/>
+   <line l="452"/>
+   <line l="604"/>
+   <line l="525"/>
+   <line l="504"/>
+   <line l="600"/>
+   <line l="530"/>
+   <line l="615"/>
+   <line l="472"/>
+   <line l="577"/>
+   <line l="571"/>
+   <line l="478"/>
+   <line l="513"/>
+   <line l="512"/>
+   <line l="570"/>
+   <line l="581"/>
+   <line l="440"/>
+   <line l="474"/>
+   <line l="532"/>
+   <line l="465"/>
+   <line l="538"/>
+   <line l="419"/>
+   <line l="579"/>
+   <line l="546"/>
+   <line l="597"/>
+   <line l="451"/>
+   <line l="483"/>
+   <line l="562"/>
+   <line l="526"/>
+   <line l="495"/>
+   <line l="434"/>
+   <line l="517"/>
+   <line l="484"/>
+   <line l="429"/>
+   <line l="444"/>
+   <line l="539"/>
+   <line l="592"/>
+   <line l="433"/>
+   <line l="593"/>
+   <line l="575"/>
+   <line l="449"/>
+   <line l="464"/>
+   <line l="566"/>
+   <line l="479"/>
+   <line l="450"/>
+   <line l="602"/>
+   <line l="417"/>
+   <line l="528"/>
+   <line l="563"/>
+   <line l="564"/>
+   <line l="606"/>
+   <line l="522"/>
+   <line l="515"/>
+   <line l="430"/>
+   <line l="438"/>
+   <line l="482"/>
+   <line l="524"/>
+   <line l="507"/>
+   <line l="492"/>
+   <line l="603"/>
+   <line l="462"/>
+   <line l="560"/>
+   <line l="596"/>
+   <line l="613"/>
+   <line l="485"/>
+   <line l="508"/>
+   <line l="422"/>
+   <line l="536"/>
+   <line l="501"/>
+   <line l="432"/>
+   <line l="511"/>
+   <line l="617"/>
+   <line l="463"/>
+   <line l="589"/>
+   <line l="502"/>
+   <line l="445"/>
+   <line l="435"/>
+   <line l="561"/>
+   <line l="426"/>
+   <line l="533"/>
+   <line l="481"/>
+   <line l="457"/>
+   <line l="547"/>
+   <line l="476"/>
+   <line l="568"/>
+   <line l="491"/>
+   <line l="441"/>
+   <line l="471"/>
+   <line l="531"/>
+   <line l="415"/>
+   <line l="543"/>
+   <line l="582"/>
+   <line l="586"/>
+   <line l="499"/>
+   <line l="425"/>
+   <line l="550"/>
+   <line l="470"/>
+   <line l="486"/>
+   <line l="453"/>
+   <line l="585"/>
+   <line l="608"/>
+   <line l="610"/>
+   <line l="460"/>
+   <line l="580"/>
+   <line l="497"/>
+   <line l="557"/>
+   <line l="473"/>
+   <line l="427"/>
+   <line l="629"/>
+   <line l="500"/>
+   <line l="616"/>
+   <line l="416"/>
+   <line l="599"/>
+   <line l="488"/>
+   <line l="518"/>
+   <line l="558"/>
+   <line l="611"/>
+   <line l="620"/>
+   <line l="762"/>
+   <line l="704"/>
+   <line l="781"/>
+   <line l="773"/>
+   <line l="725"/>
+   <line l="808"/>
+   <line l="786"/>
+   <line l="775"/>
+   <line l="680"/>
+   <line l="767"/>
+   <line l="679"/>
+   <line l="765"/>
+   <line l="766"/>
+   <line l="640"/>
+   <line l="639"/>
+   <line l="802"/>
+   <line l="793"/>
+   <line l="662"/>
+   <line l="813"/>
+   <line l="661"/>
+   <line l="748"/>
+   <line l="752"/>
+   <line l="678"/>
+   <line l="798"/>
+   <line l="666"/>
+   <line l="650"/>
+   <line l="659"/>
+   <line l="730"/>
+   <line l="764"/>
+   <line l="804"/>
+   <line l="740"/>
+   <line l="824"/>
+   <line l="675"/>
+   <line l="681"/>
+   <line l="823"/>
+   <line l="632"/>
+   <line l="693"/>
+   <line l="646"/>
+   <line l="739"/>
+   <line l="649"/>
+   <line l="815"/>
+   <line l="744"/>
+   <line l="721"/>
+   <line l="796"/>
+   <line l="656"/>
+   <line l="669"/>
+   <line l="799"/>
+   <line l="652"/>
+   <line l="642"/>
+   <line l="829"/>
+   <line l="630"/>
+   <line l="803"/>
+   <line l="694"/>
+   <line l="807"/>
+   <line l="676"/>
+   <line l="757"/>
+   <line l="792"/>
+   <line l="702"/>
+   <line l="670"/>
+   <line l="686"/>
+   <line l="763"/>
+   <line l="689"/>
+   <line l="758"/>
+   <line l="776"/>
+   <line l="760"/>
+   <line l="761"/>
+   <line l="831"/>
+   <line l="706"/>
+   <line l="636"/>
+   <line l="651"/>
+   <line l="830"/>
+   <line l="769"/>
+   <line l="671"/>
+   <line l="720"/>
+   <line l="734"/>
+   <line l="772"/>
+   <line l="778"/>
+   <line l="727"/>
+   <line l="816"/>
+   <line l="691"/>
+   <line l="729"/>
+   <line l="746"/>
+   <line l="783"/>
+   <line l="788"/>
+   <line l="790"/>
+   <line l="814"/>
+   <line l="733"/>
+   <line l="645"/>
+   <line l="810"/>
+   <line l="690"/>
+   <line l="660"/>
+   <line l="700"/>
+   <line l="777"/>
+   <line l="828"/>
+   <line l="735"/>
+   <line l="809"/>
+   <line l="791"/>
+   <line l="655"/>
+   <line l="724"/>
+   <line l="759"/>
+   <line l="749"/>
+   <line l="780"/>
+   <line l="683"/>
+   <line l="719"/>
+   <line l="755"/>
+   <line l="820"/>
+   <line l="672"/>
+   <line l="822"/>
+   <line l="635"/>
+   <line l="711"/>
+   <line l="737"/>
+   <line l="818"/>
+   <line l="812"/>
+   <line l="728"/>
+   <line l="741"/>
+   <line l="668"/>
+   <line l="713"/>
+   <line l="674"/>
+   <line l="695"/>
+   <line l="665"/>
+   <line l="794"/>
+   <line l="717"/>
+   <line l="705"/>
+   <line l="756"/>
+   <line l="643"/>
+   <line l="708"/>
+   <line l="715"/>
+   <line l="795"/>
+   <line l="825"/>
+   <line l="647"/>
+   <line l="782"/>
+   <line l="779"/>
+   <line l="742"/>
+   <line l="722"/>
+   <line l="701"/>
+   <line l="736"/>
+   <line l="710"/>
+   <line l="673"/>
+   <line l="712"/>
+   <line l="634"/>
+   <line l="707"/>
+   <line l="785"/>
+   <line l="726"/>
+   <line l="641"/>
+   <line l="754"/>
+   <line l="817"/>
+   <line l="638"/>
+   <line l="827"/>
+   <line l="723"/>
+   <line l="800"/>
+   <line l="699"/>
+   <line l="821"/>
+   <line l="692"/>
+   <line l="770"/>
+   <line l="801"/>
+   <line l="731"/>
+   <line l="698"/>
+   <line l="648"/>
+   <line l="789"/>
+   <line l="714"/>
+   <line l="768"/>
+   <line l="654"/>
+   <line l="718"/>
+   <line l="750"/>
+   <line l="745"/>
+   <line l="716"/>
+   <line l="637"/>
+   <line l="631"/>
+   <line l="787"/>
+   <line l="657"/>
+   <line l="774"/>
+   <line l="751"/>
+   <line l="687"/>
+   <line l="819"/>
+   <line l="658"/>
+   <line l="644"/>
+   <line l="682"/>
+   <line l="685"/>
+   <line l="738"/>
+   <line l="826"/>
+   <line l="684"/>
+   <line l="703"/>
+   <line l="753"/>
+   <line l="805"/>
+   <line l="732"/>
+   <line l="667"/>
+   <line l="747"/>
+   <line l="784"/>
+   <line l="653"/>
+   <line l="663"/>
+   <line l="797"/>
+   <line l="688"/>
+   <line l="697"/>
+   <line l="806"/>
+   <line l="771"/>
+   <line l="696"/>
+   <line l="811"/>
+   <line l="709"/>
+   <line l="633"/>
+   <line l="743"/>
+   <line l="664"/>
+   <line l="832"/>
+   <line l="677"/>
+   <line l="881"/>
+   <line l="895"/>
+   <line l="891"/>
+   <line l="1087"/>
+   <line l="1011"/>
+   <line l="1079"/>
+   <line l="914"/>
+   <line l="953"/>
+   <line l="1067"/>
+   <line l="941"/>
+   <line l="990"/>
+   <line l="1093"/>
+   <line l="1096"/>
+   <line l="861"/>
+   <line l="984"/>
+   <line l="871"/>
+   <line l="840"/>
+   <line l="884"/>
+   <line l="1014"/>
+   <line l="1071"/>
+   <line l="1043"/>
+   <line l="1123"/>
+   <line l="1051"/>
+   <line l="1142"/>
+   <line l="974"/>
+   <line l="1049"/>
+   <line l="902"/>
+   <line l="1033"/>
+   <line l="858"/>
+   <line l="1157"/>
+   <line l="924"/>
+   <line l="916"/>
+   <line l="1085"/>
+   <line l="948"/>
+   <line l="931"/>
+   <line l="1078"/>
+   <line l="1053"/>
+   <line l="988"/>
+   <line l="1091"/>
+   <line l="1008"/>
+   <line l="1059"/>
+   <line l="837"/>
+   <line l="1034"/>
+   <line l="1141"/>
+   <line l="1024"/>
+   <line l="987"/>
+   <line l="1038"/>
+   <line l="877"/>
+   <line l="1063"/>
+   <line l="926"/>
+   <line l="1156"/>
+   <line l="1032"/>
+   <line l="923"/>
+   <line l="952"/>
+   <line l="1137"/>
+   <line l="910"/>
+   <line l="935"/>
+   <line l="875"/>
+   <line l="1006"/>
+   <line l="854"/>
+   <line l="962"/>
+   <line l="1106"/>
+   <line l="947"/>
+   <line l="863"/>
+   <line l="997"/>
+   <line l="942"/>
+   <line l="1048"/>
+   <line l="903"/>
+   <line l="843"/>
+   <line l="845"/>
+   <line l="1002"/>
+   <line l="1100"/>
+   <line l="886"/>
+   <line l="964"/>
+   <line l="989"/>
+   <line l="1117"/>
+   <line l="1084"/>
+   <line l="1119"/>
+   <line l="873"/>
+   <line l="986"/>
+   <line l="1003"/>
+   <line l="879"/>
+   <line l="1076"/>
+   <line l="1147"/>
+   <line l="867"/>
+   <line l="1148"/>
+   <line l="1005"/>
+   <line l="1094"/>
+   <line l="1088"/>
+   <line l="1104"/>
+   <line l="883"/>
+   <line l="1080"/>
+   <line l="1030"/>
+   <line l="936"/>
+   <line l="892"/>
+   <line l="1115"/>
+   <line l="1057"/>
+   <line l="848"/>
+   <line l="1099"/>
+   <line l="1097"/>
+   <line l="928"/>
+   <line l="960"/>
+   <line l="938"/>
+   <line l="934"/>
+   <line l="878"/>
+   <line l="996"/>
+   <line l="1027"/>
+   <line l="859"/>
+   <line l="853"/>
+   <line l="949"/>
+   <line l="945"/>
+   <line l="1138"/>
+   <line l="1110"/>
+   <line l="849"/>
+   <line l="930"/>
+   <line l="1130"/>
+   <line l="1118"/>
+   <line l="1042"/>
+   <line l="847"/>
+   <line l="1026"/>
+   <line l="944"/>
+   <line l="1108"/>
+   <line l="1082"/>
+   <line l="850"/>
+   <line l="1009"/>
+   <line l="1155"/>
+   <line l="1144"/>
+   <line l="1072"/>
+   <line l="1111"/>
+   <line l="842"/>
+   <line l="951"/>
+   <line l="899"/>
+   <line l="925"/>
+   <line l="1060"/>
+   <line l="1150"/>
+   <line l="1107"/>
+   <line l="1065"/>
+   <line l="1070"/>
+   <line l="856"/>
+   <line l="909"/>
+   <line l="967"/>
+   <line l="834"/>
+   <line l="1146"/>
+   <line l="870"/>
+   <line l="1058"/>
+   <line l="1149"/>
+   <line l="998"/>
+   <line l="876"/>
+   <line l="958"/>
+   <line l="1022"/>
+   <line l="1028"/>
+   <line l="1020"/>
+   <line l="841"/>
+   <line l="1120"/>
+   <line l="994"/>
+   <line l="1037"/>
+   <line l="900"/>
+   <line l="1129"/>
+   <line l="1081"/>
+   <line l="957"/>
+   <line l="866"/>
+   <line l="1029"/>
+   <line l="1124"/>
+   <line l="855"/>
+   <line l="1143"/>
+   <line l="852"/>
+   <line l="1023"/>
+   <line l="992"/>
+   <line l="1153"/>
+   <line l="1015"/>
+   <line l="1089"/>
+   <line l="894"/>
+   <line l="890"/>
+   <line l="940"/>
+   <line l="1136"/>
+   <line l="933"/>
+   <line l="976"/>
+   <line l="1095"/>
+   <line l="981"/>
+   <line l="937"/>
+   <line l="1154"/>
+   <line l="1031"/>
+   <line l="874"/>
+   <line l="955"/>
+   <line l="959"/>
+   <line l="1073"/>
+   <line l="919"/>
+   <line l="872"/>
+   <line l="1140"/>
+   <line l="1035"/>
+   <line l="1069"/>
+   <line l="1061"/>
+   <line l="1121"/>
+   <line l="1000"/>
+   <line l="983"/>
+   <line l="833"/>
+   <line l="950"/>
+   <line l="1068"/>
+   <line l="999"/>
+   <line l="869"/>
+   <line l="880"/>
+   <line l="1113"/>
+   <line l="1114"/>
+   <line l="906"/>
+   <line l="929"/>
+   <line l="1127"/>
+   <line l="1133"/>
+   <line l="1062"/>
+   <line l="865"/>
+   <line l="918"/>
+   <line l="893"/>
+   <line l="961"/>
+   <line l="1077"/>
+   <line l="836"/>
+   <line l="1074"/>
+   <line l="979"/>
+   <line l="857"/>
+   <line l="982"/>
+   <line l="973"/>
+   <line l="1047"/>
+   <line l="1128"/>
+   <line l="1018"/>
+   <line l="966"/>
+   <line l="1134"/>
+   <line l="1056"/>
+   <line l="838"/>
+   <line l="913"/>
+   <line l="1158"/>
+   <line l="901"/>
+   <line l="946"/>
+   <line l="1092"/>
+   <line l="915"/>
+   <line l="1112"/>
+   <line l="963"/>
+   <line l="985"/>
+   <line l="1054"/>
+   <line l="1010"/>
+   <line l="1086"/>
+   <line l="897"/>
+   <line l="1131"/>
+   <line l="1017"/>
+   <line l="954"/>
+   <line l="1145"/>
+   <line l="1021"/>
+   <line l="862"/>
+   <line l="1012"/>
+   <line l="995"/>
+   <line l="971"/>
+   <line l="905"/>
+   <line l="1045"/>
+   <line l="1103"/>
+   <line l="1004"/>
+   <line l="911"/>
+   <line l="1126"/>
+   <line l="965"/>
+   <line l="922"/>
+   <line l="1040"/>
+   <line l="969"/>
+   <line l="939"/>
+   <line l="921"/>
+   <line l="977"/>
+   <line l="1039"/>
+   <line l="1013"/>
+   <line l="1019"/>
+   <line l="1152"/>
+   <line l="1075"/>
+   <line l="978"/>
+   <line l="844"/>
+   <line l="912"/>
+   <line l="885"/>
+   <line l="904"/>
+   <line l="1066"/>
+   <line l="839"/>
+   <line l="1098"/>
+   <line l="1055"/>
+   <line l="860"/>
+   <line l="1064"/>
+   <line l="1083"/>
+   <line l="975"/>
+   <line l="943"/>
+   <line l="1151"/>
+   <line l="1050"/>
+   <line l="972"/>
+   <line l="1046"/>
+   <line l="868"/>
+   <line l="1001"/>
+   <line l="851"/>
+   <line l="1132"/>
+   <line l="1105"/>
+   <line l="864"/>
+   <line l="1125"/>
+   <line l="991"/>
+   <line l="1044"/>
+   <line l="1116"/>
+   <line l="1025"/>
+   <line l="1122"/>
+   <line l="1101"/>
+   <line l="980"/>
+   <line l="882"/>
+   <line l="920"/>
+   <line l="887"/>
+   <line l="1139"/>
+   <line l="889"/>
+   <line l="1109"/>
+   <line l="896"/>
+   <line l="835"/>
+   <line l="1102"/>
+   <line l="932"/>
+   <line l="970"/>
+   <line l="846"/>
+   <line l="927"/>
+   <line l="898"/>
+   <line l="993"/>
+   <line l="1135"/>
+   <line l="968"/>
+   <line l="907"/>
+   <line l="1041"/>
+   <line l="1090"/>
+   <line l="1036"/>
+   <line l="1052"/>
+   <line l="908"/>
+   <line l="888"/>
+   <line l="1007"/>
+   <line l="917"/>
+   <line l="956"/>
+   <line l="1016"/>
+  </lines>
+ </mapping>
+</allatori>

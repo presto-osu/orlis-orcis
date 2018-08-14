@@ -1,0 +1,268 @@
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity -> com.github.yeriomin.smsscheduler.Activity.AddSmsActivity:
+    int REQUEST_CODE_ASK_MULTIPLE_PERMISSIONS -> a
+    int RESULT_SCHEDULED -> b
+    int RESULT_UNSCHEDULED -> c
+    java.util.ArrayList permissionsGranted -> d
+    java.lang.String[] permissionsRequired -> e
+    com.github.yeriomin.smsscheduler.SmsModel sms -> f
+    java.util.GregorianCalendar timeScheduled -> g
+    void <init>() -> <init>
+    java.util.List access$000(com.github.yeriomin.smsscheduler.Activity.AddSmsActivity) -> a
+    com.github.yeriomin.smsscheduler.SmsModel access$100(com.github.yeriomin.smsscheduler.Activity.AddSmsActivity) -> b
+    java.util.GregorianCalendar access$200(com.github.yeriomin.smsscheduler.Activity.AddSmsActivity) -> c
+    void buildForm() -> a
+    android.app.PendingIntent getAlarmPendingIntent(com.github.yeriomin.smsscheduler.SmsModel) -> a
+    java.util.List getContacts() -> b
+    long getSmsId(android.os.Bundle) -> a
+    boolean permissionsGranted() -> c
+    void scheduleAlarm(com.github.yeriomin.smsscheduler.SmsModel) -> b
+    void unscheduleAlarm(com.github.yeriomin.smsscheduler.SmsModel) -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    void onDestroy() -> onDestroy
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onPause() -> onPause
+    void onRequestPermissionsResult(int,java.lang.String[],int[]) -> a
+    void onResume() -> onResume
+    void scheduleSms(android.view.View) -> scheduleSms
+    void unscheduleSms(android.view.View) -> unscheduleSms
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$1 -> com.github.yeriomin.smsscheduler.Activity.a:
+    com.github.yeriomin.smsscheduler.Activity.AddSmsActivity this$0 -> h
+    android.widget.AutoCompleteTextView val$formContact -> i
+    void <init>(com.github.yeriomin.smsscheduler.Activity.AddSmsActivity,android.widget.AutoCompleteTextView) -> <init>
+    void run() -> run
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$1$1 -> com.github.yeriomin.smsscheduler.Activity.b:
+    com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$1 this$1 -> j
+    android.widget.SimpleAdapter val$adapter -> k
+    void <init>(com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$1,android.widget.SimpleAdapter) -> <init>
+    void run() -> run
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$2 -> com.github.yeriomin.smsscheduler.Activity.c:
+    com.github.yeriomin.smsscheduler.Activity.AddSmsActivity this$0 -> h
+    android.widget.AutoCompleteTextView val$formContact -> i
+    void <init>(com.github.yeriomin.smsscheduler.Activity.AddSmsActivity,android.widget.AutoCompleteTextView) -> <init>
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$3 -> com.github.yeriomin.smsscheduler.Activity.d:
+    com.github.yeriomin.smsscheduler.Activity.AddSmsActivity this$0 -> h
+    android.widget.AutoCompleteTextView val$formContact -> i
+    void <init>(com.github.yeriomin.smsscheduler.Activity.AddSmsActivity,android.widget.AutoCompleteTextView) -> <init>
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$4 -> com.github.yeriomin.smsscheduler.Activity.e:
+    com.github.yeriomin.smsscheduler.Activity.AddSmsActivity this$0 -> h
+    android.widget.AutoCompleteTextView val$formContact -> i
+    android.widget.EditText val$formMessage -> l
+    void <init>(com.github.yeriomin.smsscheduler.Activity.AddSmsActivity,android.widget.AutoCompleteTextView,android.widget.EditText) -> <init>
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$5 -> com.github.yeriomin.smsscheduler.Activity.f:
+    com.github.yeriomin.smsscheduler.Activity.AddSmsActivity this$0 -> h
+    void <init>(com.github.yeriomin.smsscheduler.Activity.AddSmsActivity) -> <init>
+    void onTimeChanged(android.widget.TimePicker,int,int) -> onTimeChanged
+com.github.yeriomin.smsscheduler.Activity.SmsListActivity -> com.github.yeriomin.smsscheduler.Activity.SmsListActivity:
+    int REQUEST_CODE -> m
+    void <init>() -> <init>
+    java.lang.String access$000(com.github.yeriomin.smsscheduler.Activity.SmsListActivity,android.database.Cursor) -> a
+    java.lang.String getFormattedSmsInfo(android.database.Cursor) -> a
+    android.widget.SimpleCursorAdapter getSmsListAdapter() -> d
+    void gotoNextActivity(android.view.View) -> gotoNextActivity
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    void onDestroy() -> onDestroy
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onPause() -> onPause
+    void onResume() -> onResume
+com.github.yeriomin.smsscheduler.Activity.SmsListActivity$1 -> com.github.yeriomin.smsscheduler.Activity.g:
+    com.github.yeriomin.smsscheduler.Activity.SmsListActivity this$0 -> n
+    void <init>(com.github.yeriomin.smsscheduler.Activity.SmsListActivity) -> <init>
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.github.yeriomin.smsscheduler.Activity.SmsListActivity$2 -> com.github.yeriomin.smsscheduler.Activity.h:
+    com.github.yeriomin.smsscheduler.Activity.SmsListActivity this$0 -> n
+    void <init>(com.github.yeriomin.smsscheduler.Activity.SmsListActivity) -> <init>
+    boolean setViewValue(android.view.View,android.database.Cursor,int) -> setViewValue
+com.github.yeriomin.smsscheduler.Activity.SmsSchedulerPreferenceActivity -> com.github.yeriomin.smsscheduler.Activity.SmsSchedulerPreferenceActivity:
+    java.lang.String PREFERENCE_DELIVERY_REPORTS -> o
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+com.github.yeriomin.smsscheduler.AlarmReceiver -> com.github.yeriomin.smsscheduler.AlarmReceiver:
+    java.lang.String INTENT_FILTER -> p
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.github.yeriomin.smsscheduler.BootReceiver -> com.github.yeriomin.smsscheduler.BootReceiver:
+    android.content.Context context -> q
+    void <init>() -> <init>
+    java.util.ArrayList getPendingSms() -> e
+    void scheduleAlarm(com.github.yeriomin.smsscheduler.SmsModel) -> b
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.github.yeriomin.smsscheduler.BuildConfig -> com.github.yeriomin.smsscheduler.a:
+    java.lang.String APPLICATION_ID -> r
+    java.lang.String BUILD_TYPE -> s
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> t
+    int VERSION_CODE -> u
+    java.lang.String VERSION_NAME -> v
+    void <init>() -> <init>
+com.github.yeriomin.smsscheduler.DbHelper -> com.github.yeriomin.smsscheduler.b:
+    java.lang.String COLUMN_MESSAGE -> w
+    java.lang.String COLUMN_RECIPIENT_NAME -> x
+    java.lang.String COLUMN_RECIPIENT_NUMBER -> y
+    java.lang.String COLUMN_RESULT -> z
+    java.lang.String COLUMN_STATUS -> COLUMN_STATUS
+    java.lang.String COLUMN_TIMESTAMP_CREATED -> A
+    java.lang.String COLUMN_TIMESTAMP_SCHEDULED -> B
+    java.lang.String DATABASE_NAME -> C
+    int DATABASE_VERSION -> D
+    java.lang.String TABLE_SMS -> E
+    com.github.yeriomin.smsscheduler.DbHelper dbHelper -> F
+    void <init>(android.content.Context) -> <init>
+    void <init>(android.content.Context,android.database.sqlite.SQLiteDatabase$CursorFactory) -> <init>
+    void closeDbHelper() -> f
+    com.github.yeriomin.smsscheduler.DbHelper getDbHelper(android.content.Context) -> a
+    java.util.ArrayList getObjects(android.database.Cursor) -> b
+    void delete(java.lang.Long) -> a
+    com.github.yeriomin.smsscheduler.SmsModel get(long) -> a
+    java.util.ArrayList get(java.lang.String) -> a
+    android.database.Cursor getCursor() -> getCursor
+    android.database.Cursor getCursor(java.lang.String) -> b
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+    void save(com.github.yeriomin.smsscheduler.SmsModel) -> d
+com.github.yeriomin.smsscheduler.NotificationUtil -> com.github.yeriomin.smsscheduler.c:
+    void <init>() -> <init>
+    android.app.Notification buildNotificationPreHoneycomb(android.content.Context,android.app.PendingIntent,java.lang.String,java.lang.String,int) -> a
+    android.app.Notification buildNotificationWithBuilder(android.content.Context,android.app.PendingIntent,java.lang.String,java.lang.String,int) -> b
+    android.app.Notification createNotification(android.content.Context,android.app.PendingIntent,java.lang.String,java.lang.String,int) -> c
+    boolean isNotificationBuilderSupported() -> g
+com.github.yeriomin.smsscheduler.R -> com.github.yeriomin.smsscheduler.d:
+    void <init>() -> <init>
+com.github.yeriomin.smsscheduler.R$attr -> com.github.yeriomin.smsscheduler.R$attr:
+    void <init>() -> <init>
+com.github.yeriomin.smsscheduler.R$drawable -> com.github.yeriomin.smsscheduler.R$drawable:
+    int ic_add_sms -> ic_add_sms
+    int ic_notification -> ic_notification
+    void <init>() -> <init>
+com.github.yeriomin.smsscheduler.R$id -> com.github.yeriomin.smsscheduler.R$id:
+    int account_name -> account_name
+    int account_number -> account_number
+    int button_add -> button_add
+    int button_cancel -> button_cancel
+    int form_date -> form_date
+    int form_input_contact -> form_input_contact
+    int form_input_message -> form_input_message
+    int form_time -> form_time
+    int item_add -> item_add
+    int menu_settings -> menu_settings
+    void <init>() -> <init>
+com.github.yeriomin.smsscheduler.R$layout -> com.github.yeriomin.smsscheduler.R$layout:
+    int add_sms -> add_sms
+    int item_add -> item_add
+    int item_contact -> item_contact
+    void <init>() -> <init>
+com.github.yeriomin.smsscheduler.R$menu -> com.github.yeriomin.smsscheduler.R$menu:
+    int main -> main
+    void <init>() -> <init>
+com.github.yeriomin.smsscheduler.R$mipmap -> com.github.yeriomin.smsscheduler.R$mipmap:
+    int ic_launcher -> ic_launcher
+    void <init>() -> <init>
+com.github.yeriomin.smsscheduler.R$string -> com.github.yeriomin.smsscheduler.R$string:
+    int app_name -> app_name
+    int contact_format -> contact_format
+    int error_generic -> error_generic
+    int error_no_service -> error_no_service
+    int error_null_pdu -> error_null_pdu
+    int error_radio_off -> error_radio_off
+    int error_unknown -> error_unknown
+    int form_button_add -> form_button_add
+    int form_button_cancel -> form_button_cancel
+    int form_button_delete -> form_button_delete
+    int form_hint_contact -> form_hint_contact
+    int form_hint_message -> form_hint_message
+    int form_validation_datetime -> form_validation_datetime
+    int list_button_add -> list_button_add
+    int list_sms_info_template -> list_sms_info_template
+    int list_status_delivered -> list_status_delivered
+    int list_status_failed -> list_status_failed
+    int list_status_pending -> list_status_pending
+    int list_status_sent -> list_status_sent
+    int menu_settings -> menu_settings
+    int notification_message_failure -> notification_message_failure
+    int notification_message_success -> notification_message_success
+    int notification_title_failure -> notification_title_failure
+    int notification_title_success -> notification_title_success
+    int pref_send_delivery_report -> pref_send_delivery_report
+    int pref_send_delivery_report_summary -> pref_send_delivery_report_summary
+    int successfully_scheduled -> successfully_scheduled
+    int successfully_unscheduled -> successfully_unscheduled
+    void <init>() -> <init>
+com.github.yeriomin.smsscheduler.R$style -> com.github.yeriomin.smsscheduler.R$style:
+    int AppTheme -> AppTheme
+    void <init>() -> <init>
+com.github.yeriomin.smsscheduler.R$xml -> com.github.yeriomin.smsscheduler.R$xml:
+    int backup_scheme -> backup_scheme
+    int settings -> settings
+    void <init>() -> <init>
+com.github.yeriomin.smsscheduler.SmsDeliveredReceiver -> com.github.yeriomin.smsscheduler.SmsDeliveredReceiver:
+    java.lang.String RESULT_CODE -> G
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.github.yeriomin.smsscheduler.SmsDeliveredService -> com.github.yeriomin.smsscheduler.SmsDeliveredService:
+    java.lang.String SERVICE_NAME -> H
+    void <init>() -> <init>
+    void onHandleIntent(android.content.Intent) -> onHandleIntent
+com.github.yeriomin.smsscheduler.SmsModel -> com.github.yeriomin.smsscheduler.e:
+    java.lang.String ERROR_GENERIC -> I
+    java.lang.String ERROR_NO_SERVICE -> J
+    java.lang.String ERROR_NULL_PDU -> K
+    java.lang.String ERROR_RADIO_OFF -> L
+    java.lang.String ERROR_UNKNOWN -> M
+    java.lang.String STATUS_DELIVERED -> N
+    java.lang.String STATUS_FAILED -> O
+    java.lang.String STATUS_PENDING -> P
+    java.lang.String STATUS_SENT -> Q
+    java.lang.String message -> R
+    java.lang.String recipientName -> S
+    java.lang.String recipientNumber -> T
+    java.lang.String result -> U
+    java.lang.String status -> V
+    long timestampCreated -> W
+    long timestampScheduled -> X
+    void <init>() -> <init>
+    int getId() -> getId
+    java.lang.String getMessage() -> getMessage
+    java.lang.String getRecipientName() -> h
+    java.lang.String getRecipientNumber() -> i
+    java.lang.String getResult() -> j
+    java.lang.String getStatus() -> k
+    java.lang.Long getTimestampCreated() -> l
+    java.lang.Long getTimestampScheduled() -> m
+    void setMessage(java.lang.String) -> setMessage
+    void setRecipientName(java.lang.String) -> c
+    void setRecipientNumber(java.lang.String) -> d
+    void setResult(java.lang.String) -> e
+    void setStatus(java.lang.String) -> f
+    void setTimestampCreated(long) -> b
+    void setTimestampScheduled(long) -> c
+com.github.yeriomin.smsscheduler.SmsSenderService -> com.github.yeriomin.smsscheduler.SmsSenderService:
+    java.lang.String SERVICE_NAME -> H
+    void <init>() -> <init>
+    void sendSms(com.github.yeriomin.smsscheduler.SmsModel) -> e
+    void onHandleIntent(android.content.Intent) -> onHandleIntent
+com.github.yeriomin.smsscheduler.SmsSentReceiver -> com.github.yeriomin.smsscheduler.SmsSentReceiver:
+    java.lang.String RESULT_CODE -> G
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.github.yeriomin.smsscheduler.SmsSentService -> com.github.yeriomin.smsscheduler.SmsSentService:
+    java.lang.String SERVICE_NAME -> H
+    void <init>() -> <init>
+    void notify(android.content.Context,android.content.Intent,java.lang.String,java.lang.String,int) -> a
+    void onHandleIntent(android.content.Intent) -> onHandleIntent
+com.github.yeriomin.smsscheduler.WakefulBroadcastReceiver -> com.github.yeriomin.smsscheduler.WakefulBroadcastReceiver:
+    java.lang.String EXTRA_WAKE_LOCK_ID -> Y
+    android.util.SparseArray mActiveWakeLocks -> Z
+    int mNextId -> aa
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    boolean completeWakefulIntent(android.content.Intent) -> a
+    android.content.ComponentName startWakefulService(android.content.Context,android.content.Intent) -> a

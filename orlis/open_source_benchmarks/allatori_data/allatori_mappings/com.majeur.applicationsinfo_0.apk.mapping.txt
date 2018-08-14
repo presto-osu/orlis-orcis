@@ -1,0 +1,1824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v5.9 Educational
+   Web: http://www.allatori.com
+
+   Log created: Mon Aug 13 21:25:12 EDT 2018
+-->
+
+<allatori>
+ <mapping>
+  <class old="com.majeur.applicationsinfo.utils.Utils" new="wy.c_C">
+   <method old="checkStringBuilderEnd(Ljava/lang/StringBuilder;)V" new="m_fa"/>
+   <method old="compareBooleans(ZZ)I" new="m_Ea"/>
+   <method old="dpToPx(Landroid/content/Context;I)I" new="m_Fa"/>
+   <method old="getArrayLengthSafely([Ljava/lang/Object;)I" new="m_ia"/>
+   <method old="getFeatureFlagsString(I)Ljava/lang/String;" new="m_ja"/>
+   <method old="getFileContent(Ljava/io/File;)Ljava/lang/String;" new="m_aa"/>
+   <method old="getInputFeaturesString(I)Ljava/lang/String;" new="m_Ia"/>
+   <method old="getLaunchMode(I)Ljava/lang/String;" new="m_Ka"/>
+   <method old="getOrientationString(I)Ljava/lang/String;" new="m_la"/>
+   <method old="getProtectionLevelString(I)Ljava/lang/String;" new="m_Ga"/>
+   <method old="getServiceFlagsString(I)Ljava/lang/String;" new="m_Ja"/>
+   <method old="getSoftInputString(I)Ljava/lang/String;" new="m_Ca"/>
+   <method old="isApi20()Z" new="m_ma"/>
+  </class>
+  <class old="com.majeur.xmlapkparser.AXMLPrinter" new="wy.c_K">
+   <method old="complexToFloat(I)F" new="m_ha"/>
+   <method old="getAttributeValue(Lcom/majeur/xmlapkparser/AXmlResourceParser;I)Ljava/lang/String;" new="m_ca"/>
+   <method old="getManifestXMLFromAPK(Ljava/lang/String;)Ljava/lang/String;" new="m_Ba"/>
+   <method old="getNamespacePrefix(Ljava/lang/String;)Ljava/lang/String;" new="m_ba"/>
+   <method old="getPackage(I)Ljava/lang/String;" new="m_La"/>
+   <method old="log(Ljava/lang/StringBuilder;Ljava/lang/String;[Ljava/lang/Object;)V" new="m_Da"/>
+   <method old="log(ZLjava/lang/StringBuilder;Ljava/lang/String;[Ljava/lang/Object;)V" new="m_Aa"/>
+   <method old="main([Ljava/lang/String;)V" new="main"/>
+   <field old="DEFAULT_XML Ljava/lang/String;" new="f_A"/>
+   <field old="DIMENSION_UNITS [Ljava/lang/String;" new="f_c"/>
+   <field old="FRACTION_UNITS [Ljava/lang/String;" new="f_G"/>
+   <field old="RADIX_MULTS [F" new="f_M"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.MainListFragment$1" new="com.majeur.applicationsinfo.c_G">
+   <method old="compare(Lcom/majeur/applicationsinfo/MainListFragment$Item;Lcom/majeur/applicationsinfo/MainListFragment$Item;)I" new="m_Pa"/>
+   <method old="compare(Ljava/lang/Object;Ljava/lang/Object;)I" new="compare"/>
+   <field old="this$0 Lcom/majeur/applicationsinfo/MainListFragment;" new="f_A"/>
+   <field old="val$sortBy I" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.MainListFragment$2" new="com.majeur.applicationsinfo.c_g">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lcom/majeur/applicationsinfo/MainListFragment;" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.DetailFragment$Adapter" new="com.majeur.applicationsinfo.c_e">
+   <method old="checkIfConvertViewMatch(Landroid/view/View;I)Z" new="m_oC"/>
+   <method old="getActivityView(Landroid/view/View;I)Landroid/view/View;" new="m_vB"/>
+   <method old="getChild(II)Ljava/lang/Object;" new="getChild"/>
+   <method old="getChildId(II)J" new="getChildId"/>
+   <method old="getChildView(IIZLandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;" new="getChildView"/>
+   <method old="getChildrenCount(I)I" new="getChildrenCount"/>
+   <method old="getConfigurationView(Landroid/view/View;I)Landroid/view/View;" new="m_GC"/>
+   <method old="getFeaturesView(Landroid/view/View;I)Landroid/view/View;" new="m_rd"/>
+   <method old="getGroup(I)Ljava/lang/Object;" new="getGroup"/>
+   <method old="getGroupCount()I" new="getGroupCount"/>
+   <method old="getGroupId(I)J" new="getGroupId"/>
+   <method old="getGroupView(IZLandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;" new="getGroupView"/>
+   <method old="getNeededArray(I)[Ljava/lang/Object;" new="m_md"/>
+   <method old="getPermissionsView(Landroid/view/View;I)Landroid/view/View;" new="m_LC"/>
+   <method old="getProviderView(Landroid/view/View;I)Landroid/view/View;" new="m_Tb"/>
+   <method old="getReceiverView(Landroid/view/View;I)Landroid/view/View;" new="m_pC"/>
+   <method old="getServicesView(Landroid/view/View;I)Landroid/view/View;" new="m_Sc"/>
+   <method old="getSignatureView(Landroid/view/View;I)Landroid/view/View;" new="m_Kd"/>
+   <method old="getUsesPermissionsView(Landroid/view/View;I)Landroid/view/View;" new="m_Ub"/>
+   <method old="hasStableIds()Z" new="hasStableIds"/>
+   <method old="isChildSelectable(II)Z" new="isChildSelectable"/>
+   <field old="this$0 Lcom/majeur/applicationsinfo/DetailFragment;" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.ViewManifestActivity$AsyncManifestLoader" new="com.majeur.applicationsinfo.c_A">
+   <method old="doInBackground([Ljava/lang/Object;)Ljava/lang/Object;" new="doInBackground"/>
+   <method old="doInBackground([Ljava/lang/String;)Ljava/lang/Boolean;" new="m_pa"/>
+   <method old="getProperXml(Ljava/lang/String;)Ljava/lang/String;" new="m_Ra"/>
+   <method old="onPostExecute(Ljava/lang/Boolean;)V" new="m_Ma"/>
+   <method old="onPostExecute(Ljava/lang/Object;)V" new="onPostExecute"/>
+   <method old="onPreExecute()V" new="onPreExecute"/>
+   <field old="this$0 Lcom/majeur/applicationsinfo/ViewManifestActivity;" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.R$attr" new="com.majeur.applicationsinfo.R$attr">
+  </class>
+  <class old="com.majeur.applicationsinfo.MainListFragment$Async$1" new="com.majeur.applicationsinfo.c_C">
+   <method old="asBinder()Landroid/os/IBinder;" new="asBinder"/>
+   <method old="asInterface(Landroid/os/IBinder;)Landroid/content/pm/IPackageStatsObserver;" new="m_Ya"/>
+   <method old="onGetStatsCompleted(Landroid/content/pm/PackageStats;Z)V" new="m_J"/>
+   <method old="onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z" new="onTransact"/>
+   <field old="TRANSACTION_onGetStatsCompleted I" new="f_A"/>
+   <field old="this$1 Lcom/majeur/applicationsinfo/MainListFragment$Async;" new="f_G"/>
+   <field old="val$item Lcom/majeur/applicationsinfo/MainListFragment$Item;" new="f_A"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.ViewManifestActivity" new="com.majeur.applicationsinfo.ViewManifestActivity">
+   <method old="access$100(Lcom/majeur/applicationsinfo/ViewManifestActivity;Z)V" new="m_Wa"/>
+   <method old="access$200(Lcom/majeur/applicationsinfo/ViewManifestActivity;)Ljava/lang/String;" new="m_Za"/>
+   <method old="access$300(Lcom/majeur/applicationsinfo/ViewManifestActivity;)V" new="m_Na"/>
+   <method old="access$400(Lcom/majeur/applicationsinfo/ViewManifestActivity;)V" new="m_ua"/>
+   <method old="displayContent()V" new="m_Ua"/>
+   <method old="handleError()V" new="m_wa"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onDestroy()V" new="onDestroy"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="showProgressBar(Z)V" new="m_ra"/>
+   <field old="EXTRA_PACKAGE_NAME Ljava/lang/String;" new="f_M"/>
+   <field old="mPath Ljava/lang/String;" new="f_A"/>
+   <field old="mProgressDialog Landroid/app/ProgressDialog;" new="f_c"/>
+   <field old="mWebView Landroid/webkit/WebView;" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.R$dimen" new="com.majeur.applicationsinfo.R$dimen">
+   <field old="header_text_margin I" new="header_text_margin"/>
+   <field old="list_label_max_width I" new="list_label_max_width"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.DetailActivity" new="com.majeur.applicationsinfo.DetailActivity">
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <field old="LAYOUT_ID I" new="f_G"/>
+  </class>
+  <class old="com.majeur.xmlapkparser.AXmlResourceParser" new="wy.c_E">
+   <method old="close()V" new="close"/>
+   <method old="defineEntityReplacementText(Ljava/lang/String;Ljava/lang/String;)V" new="defineEntityReplacementText"/>
+   <method old="doNext()V" new="m_s"/>
+   <method old="findAttribute(Ljava/lang/String;Ljava/lang/String;)I" new="m_Y"/>
+   <method old="getAttributeBooleanValue(IZ)Z" new="getAttributeBooleanValue"/>
+   <method old="getAttributeBooleanValue(Ljava/lang/String;Ljava/lang/String;Z)Z" new="getAttributeBooleanValue"/>
+   <method old="getAttributeCount()I" new="getAttributeCount"/>
+   <method old="getAttributeFloatValue(IF)F" new="getAttributeFloatValue"/>
+   <method old="getAttributeFloatValue(Ljava/lang/String;Ljava/lang/String;F)F" new="getAttributeFloatValue"/>
+   <method old="getAttributeIntValue(II)I" new="getAttributeIntValue"/>
+   <method old="getAttributeIntValue(Ljava/lang/String;Ljava/lang/String;I)I" new="getAttributeIntValue"/>
+   <method old="getAttributeListValue(I[Ljava/lang/String;I)I" new="getAttributeListValue"/>
+   <method old="getAttributeListValue(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;I)I" new="getAttributeListValue"/>
+   <method old="getAttributeName(I)Ljava/lang/String;" new="getAttributeName"/>
+   <method old="getAttributeNameResource(I)I" new="getAttributeNameResource"/>
+   <method old="getAttributeNamespace(I)Ljava/lang/String;" new="getAttributeNamespace"/>
+   <method old="getAttributeOffset(I)I" new="m_V"/>
+   <method old="getAttributePrefix(I)Ljava/lang/String;" new="getAttributePrefix"/>
+   <method old="getAttributeResourceValue(II)I" new="getAttributeResourceValue"/>
+   <method old="getAttributeResourceValue(Ljava/lang/String;Ljava/lang/String;I)I" new="getAttributeResourceValue"/>
+   <method old="getAttributeType(I)Ljava/lang/String;" new="getAttributeType"/>
+   <method old="getAttributeUnsignedIntValue(II)I" new="getAttributeUnsignedIntValue"/>
+   <method old="getAttributeUnsignedIntValue(Ljava/lang/String;Ljava/lang/String;I)I" new="getAttributeUnsignedIntValue"/>
+   <method old="getAttributeValue(I)Ljava/lang/String;" new="getAttributeValue"/>
+   <method old="getAttributeValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="getAttributeValue"/>
+   <method old="getAttributeValueData(I)I" new="m_r"/>
+   <method old="getAttributeValueType(I)I" new="m_v"/>
+   <method old="getClassAttribute()Ljava/lang/String;" new="getClassAttribute"/>
+   <method old="getColumnNumber()I" new="getColumnNumber"/>
+   <method old="getDepth()I" new="getDepth"/>
+   <method old="getEventType()I" new="getEventType"/>
+   <method old="getFeature(Ljava/lang/String;)Z" new="getFeature"/>
+   <method old="getIdAttribute()Ljava/lang/String;" new="getIdAttribute"/>
+   <method old="getIdAttributeResourceValue(I)I" new="getIdAttributeResourceValue"/>
+   <method old="getInputEncoding()Ljava/lang/String;" new="getInputEncoding"/>
+   <method old="getLineNumber()I" new="getLineNumber"/>
+   <method old="getName()Ljava/lang/String;" new="getName"/>
+   <method old="getNamespace()Ljava/lang/String;" new="getNamespace"/>
+   <method old="getNamespace(Ljava/lang/String;)Ljava/lang/String;" new="getNamespace"/>
+   <method old="getNamespaceCount(I)I" new="getNamespaceCount"/>
+   <method old="getNamespacePrefix(I)Ljava/lang/String;" new="getNamespacePrefix"/>
+   <method old="getNamespaceUri(I)Ljava/lang/String;" new="getNamespaceUri"/>
+   <method old="getPositionDescription()Ljava/lang/String;" new="getPositionDescription"/>
+   <method old="getPrefix()Ljava/lang/String;" new="getPrefix"/>
+   <method old="getProperty(Ljava/lang/String;)Ljava/lang/Object;" new="getProperty"/>
+   <method old="getStrings()Lcom/majeur/xmlapkparser/StringBlock;" new="m_y"/>
+   <method old="getStyleAttribute()I" new="getStyleAttribute"/>
+   <method old="getText()Ljava/lang/String;" new="getText"/>
+   <method old="getTextCharacters([I)[C" new="getTextCharacters"/>
+   <method old="isAttributeDefault(I)Z" new="isAttributeDefault"/>
+   <method old="isEmptyElementTag()Z" new="isEmptyElementTag"/>
+   <method old="isWhitespace()Z" new="isWhitespace"/>
+   <method old="next()I" new="next"/>
+   <method old="nextTag()I" new="nextTag"/>
+   <method old="nextText()Ljava/lang/String;" new="nextText"/>
+   <method old="nextToken()I" new="nextToken"/>
+   <method old="open(Ljava/io/InputStream;)V" new="m_p"/>
+   <method old="require(ILjava/lang/String;Ljava/lang/String;)V" new="require"/>
+   <method old="resetEventInfo()V" new="m_ka"/>
+   <method old="setFeature(Ljava/lang/String;Z)V" new="setFeature"/>
+   <method old="setInput(Ljava/io/InputStream;Ljava/lang/String;)V" new="setInput"/>
+   <method old="setInput(Ljava/io/Reader;)V" new="setInput"/>
+   <method old="setProperty(Ljava/lang/String;Ljava/lang/Object;)V" new="setProperty"/>
+   <field old="ATTRIBUTE_IX_NAME I" new="f_H"/>
+   <field old="ATTRIBUTE_IX_NAMESPACE_URI I" new="f_A"/>
+   <field old="ATTRIBUTE_IX_VALUE_DATA I" new="f_m"/>
+   <field old="ATTRIBUTE_IX_VALUE_STRING I" new="f_K"/>
+   <field old="ATTRIBUTE_IX_VALUE_TYPE I" new="f_c"/>
+   <field old="ATTRIBUTE_LENGHT I" new="f_b"/>
+   <field old="CHUNK_AXML_FILE I" new="f_E"/>
+   <field old="CHUNK_RESOURCEIDS I" new="f_u"/>
+   <field old="CHUNK_XML_END_NAMESPACE I" new="f_F"/>
+   <field old="CHUNK_XML_END_TAG I" new="f_I"/>
+   <field old="CHUNK_XML_FIRST I" new="f_C"/>
+   <field old="CHUNK_XML_LAST I" new="f_a"/>
+   <field old="CHUNK_XML_START_NAMESPACE I" new="f_M"/>
+   <field old="CHUNK_XML_START_TAG I" new="f_P"/>
+   <field old="CHUNK_XML_TEXT I" new="f_k"/>
+   <field old="E_NOT_SUPPORTED Ljava/lang/String;" new="f_n"/>
+   <field old="m_attributes [I" new="f_B"/>
+   <field old="m_classAttribute I" new="f_f"/>
+   <field old="m_decreaseDepth Z" new="f_i"/>
+   <field old="m_event I" new="f_d"/>
+   <field old="m_idAttribute I" new="f_e"/>
+   <field old="m_lineNumber I" new="f_h"/>
+   <field old="m_name I" new="f_l"/>
+   <field old="m_namespaceUri I" new="f_G"/>
+   <field old="m_namespaces Lcom/majeur/xmlapkparser/AXmlResourceParser$NamespaceStack;" new="f_L"/>
+   <field old="m_operational Z" new="f_Z"/>
+   <field old="m_reader Lcom/majeur/xmlapkparser/IntReader;" new="f_g"/>
+   <field old="m_resourceIDs [I" new="f_j"/>
+   <field old="m_strings Lcom/majeur/xmlapkparser/StringBlock;" new="f_J"/>
+   <field old="m_styleAttribute I" new="f_D"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.DetailFragment" new="com.majeur.applicationsinfo.c_D">
+   <method old="access$1000(Lcom/majeur/applicationsinfo/DetailFragment;)Ljava/lang/String;" new="m_wB"/>
+   <method old="access$102(Lcom/majeur/applicationsinfo/DetailFragment;Landroid/content/pm/PackageStats;)Landroid/content/pm/PackageStats;" new="m_qC"/>
+   <method old="access$200(Lcom/majeur/applicationsinfo/DetailFragment;Landroid/view/View;)V" new="m_Xb"/>
+   <method old="access$300(Lcom/majeur/applicationsinfo/DetailFragment;)Landroid/content/res/TypedArray;" new="m_yc"/>
+   <method old="access$400(Lcom/majeur/applicationsinfo/DetailFragment;)Landroid/content/pm/PackageInfo;" new="m_iA"/>
+   <method old="access$500(Lcom/majeur/applicationsinfo/DetailFragment;)Landroid/view/View;" new="m_Rd"/>
+   <method old="access$600(Lcom/majeur/applicationsinfo/DetailFragment;)Landroid/view/LayoutInflater;" new="m_Lc"/>
+   <method old="access$700(Lcom/majeur/applicationsinfo/DetailFragment;)I" new="m_LB"/>
+   <method old="access$800(Lcom/majeur/applicationsinfo/DetailFragment;)I" new="m_Hb"/>
+   <method old="access$900(Lcom/majeur/applicationsinfo/DetailFragment;)Landroid/content/pm/PackageManager;" new="m_wc"/>
+   <method old="getHeaderView()Landroid/view/View;" new="m_DC"/>
+   <method old="getInstance(Ljava/lang/String;)Lcom/majeur/applicationsinfo/DetailFragment;" new="m_Wb"/>
+   <method old="getNetStats(I)Lcom/majeur/applicationsinfo/utils/Tuple;" new="m_JA"/>
+   <method old="getPackageInfo(Ljava/lang/String;)Landroid/content/pm/PackageInfo;" new="m_KB"/>
+   <method old="getPackageSizeInfo(Landroid/view/View;)V" new="m_lc"/>
+   <method old="getReadableSize(J)Ljava/lang/String;" new="m_VB"/>
+   <method old="getTime(J)Ljava/lang/String;" new="m_fC"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;" new="onCreateView"/>
+   <method old="onDetach()V" new="onDetach"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onPackageStatsLoaded(Landroid/view/View;)V" new="m_mA"/>
+   <field old="ACTIVITIES I" new="f_D"/>
+   <field old="CONFIGURATION I" new="f_A"/>
+   <field old="EXTRA_PACKAGE_NAME Ljava/lang/String;" new="f_L"/>
+   <field old="FEATURES I" new="f_f"/>
+   <field old="FRAGMENT_TAG Ljava/lang/String;" new="f_k"/>
+   <field old="HEADER I" new="f_I"/>
+   <field old="PERMISSIONS I" new="f_a"/>
+   <field old="PROVIDERS I" new="f_m"/>
+   <field old="RECEIVERS I" new="f_h"/>
+   <field old="SERVICES I" new="f_M"/>
+   <field old="SIGNATURES I" new="f_g"/>
+   <field old="UID_STATS_PATH Ljava/lang/String;" new="f_B"/>
+   <field old="UID_STATS_RC Ljava/lang/String;" new="f_b"/>
+   <field old="UID_STATS_TR Ljava/lang/String;" new="f_j"/>
+   <field old="USES_PERMISSIONS I" new="f_E"/>
+   <field old="mColorGrey1 I" new="f_K"/>
+   <field old="mColorGrey2 I" new="f_C"/>
+   <field old="mDateFormatter Ljava/text/SimpleDateFormat;" new="f_l"/>
+   <field old="mDetailOverflowMenu Lcom/majeur/applicationsinfo/DetailOverflowMenu;" new="f_G"/>
+   <field old="mGroupTitleIds Landroid/content/res/TypedArray;" new="f_F"/>
+   <field old="mLayoutInflater Landroid/view/LayoutInflater;" new="f_c"/>
+   <field old="mPackageInfo Landroid/content/pm/PackageInfo;" new="f_J"/>
+   <field old="mPackageManager Landroid/content/pm/PackageManager;" new="f_e"/>
+   <field old="mPackageName Ljava/lang/String;" new="f_i"/>
+   <field old="mPackageStats Landroid/content/pm/PackageStats;" new="f_H"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.DetailOverflowMenu" new="com.majeur.applicationsinfo.c_f">
+   <method old="isSystemApp()Z" new="m_eB"/>
+   <method old="onClick(Landroid/view/View;)V" new="onClick"/>
+   <method old="onMenuItemClick(Landroid/view/MenuItem;)Z" new="onMenuItemClick"/>
+   <method old="setView(Landroid/view/View;)V" new="m_Cb"/>
+   <field old="mContext Landroid/content/Context;" new="f_A"/>
+   <field old="mPackageName Ljava/lang/String;" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.MainListFragment$Async" new="com.majeur.applicationsinfo.c_k">
+   <method old="doInBackground([Ljava/lang/Object;)Ljava/lang/Object;" new="doInBackground"/>
+   <method old="doInBackground([Ljava/lang/Void;)Ljava/util/List;" new="m_Xa"/>
+   <method old="getItemSize(Lcom/majeur/applicationsinfo/MainListFragment$Item;)V" new="m_va"/>
+   <method old="onCancelled(Ljava/lang/Object;)V" new="onCancelled"/>
+   <method old="onCancelled(Ljava/util/List;)V" new="m_Sa"/>
+   <method old="onPostExecute(Ljava/lang/Object;)V" new="onPostExecute"/>
+   <method old="onPostExecute(Ljava/util/List;)V" new="m_ta"/>
+   <method old="onPreExecute()V" new="onPreExecute"/>
+   <method old="onProgressUpdate([Lcom/majeur/applicationsinfo/MainListFragment$Async$Progress;)V" new="m_Va"/>
+   <method old="onProgressUpdate([Ljava/lang/Object;)V" new="onProgressUpdate"/>
+   <field old="this$0 Lcom/majeur/applicationsinfo/MainListFragment;" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.RetainedFragment" new="com.majeur.applicationsinfo.RetainedFragment">
+   <method old="getList()Ljava/util/List;" new="m_sa"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="setList(Ljava/util/List;)V" new="m_qa"/>
+   <field old="FRAGMENT_TAG Ljava/lang/String;" new="f_G"/>
+   <field old="mList Ljava/util/List;" new="f_A"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.R" new="com.majeur.applicationsinfo.R">
+  </class>
+  <class old="android.content.pm.IPackageStatsObserver$Stub" new="wy.c_h">
+   <method old="asBinder()Landroid/os/IBinder;" new="asBinder"/>
+   <method old="asInterface(Landroid/os/IBinder;)Landroid/content/pm/IPackageStatsObserver;" new="m_Ya"/>
+   <method old="onGetStatsCompleted(Landroid/content/pm/PackageStats;Z)V" new="m_J"/>
+   <method old="onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z" new="onTransact"/>
+   <field old="DESCRIPTOR Ljava/lang/String;" new="f_G"/>
+   <field old="TRANSACTION_onGetStatsCompleted I" new="f_A"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.R$style" new="com.majeur.applicationsinfo.R$style">
+   <field old="AppTheme I" new="AppTheme"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.MainListFragment$Adapter" new="com.majeur.applicationsinfo.c_j">
+   <method old="getCount()I" new="getCount"/>
+   <method old="getItem(I)Ljava/lang/Object;" new="getItem"/>
+   <method old="getItemId(I)J" new="getItemId"/>
+   <method old="getPositionForSection(I)I" new="getPositionForSection"/>
+   <method old="getSectionForPosition(I)I" new="getSectionForPosition"/>
+   <method old="getSections()[Ljava/lang/Object;" new="getSections"/>
+   <method old="getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;" new="getView"/>
+   <field old="sections Ljava/lang/String;" new="f_G"/>
+   <field old="this$0 Lcom/majeur/applicationsinfo/MainListFragment;" new="f_A"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.R$string" new="com.majeur.applicationsinfo.R$string">
+   <field old="about I" new="about"/>
+   <field old="about_message I" new="about_message"/>
+   <field old="activities I" new="activities"/>
+   <field old="app_name I" new="app_name"/>
+   <field old="app_not_installed I" new="app_not_installed"/>
+   <field old="authority I" new="authority"/>
+   <field old="cache_size I" new="cache_size"/>
+   <field old="code_size I" new="code_size"/>
+   <field old="configurations I" new="configurations"/>
+   <field old="data_size I" new="data_size"/>
+   <field old="declared_premission I" new="declared_premission"/>
+   <field old="error I" new="error"/>
+   <field old="external I" new="external"/>
+   <field old="flags I" new="flags"/>
+   <field old="gles_ver I" new="gles_ver"/>
+   <field old="grant_uri_permission I" new="grant_uri_permission"/>
+   <field old="group I" new="group"/>
+   <field old="input_features I" new="input_features"/>
+   <field old="installation I" new="installation"/>
+   <field old="internal I" new="internal"/>
+   <field old="is_system_app I" new="is_system_app"/>
+   <field old="launch I" new="launch"/>
+   <field old="launch_mode I" new="launch_mode"/>
+   <field old="loading I" new="loading"/>
+   <field old="loading_apps I" new="loading_apps"/>
+   <field old="manifest I" new="manifest"/>
+   <field old="media_size I" new="media_size"/>
+   <field old="name I" new="name"/>
+   <field old="netstats_msg I" new="netstats_msg"/>
+   <field old="netstats_received I" new="netstats_received"/>
+   <field old="netstats_transmitted I" new="netstats_transmitted"/>
+   <field old="no_activities I" new="no_activities"/>
+   <field old="no_configurations I" new="no_configurations"/>
+   <field old="no_feature I" new="no_feature"/>
+   <field old="no_providers I" new="no_providers"/>
+   <field old="no_receivers I" new="no_receivers"/>
+   <field old="no_service I" new="no_service"/>
+   <field old="no_signatures I" new="no_signatures"/>
+   <field old="obb_size I" new="obb_size"/>
+   <field old="orientation I" new="orientation"/>
+   <field old="package_string I" new="package_string"/>
+   <field old="path_permissions I" new="path_permissions"/>
+   <field old="patterns_allowed I" new="patterns_allowed"/>
+   <field old="permissions I" new="permissions"/>
+   <field old="protection_level I" new="protection_level"/>
+   <field old="providers I" new="providers"/>
+   <field old="read I" new="read"/>
+   <field old="receivers I" new="receivers"/>
+   <field old="refresh I" new="refresh"/>
+   <field old="require_no_permission I" new="require_no_permission"/>
+   <field old="service I" new="service"/>
+   <field old="shared_user_id I" new="shared_user_id"/>
+   <field old="signatures I" new="signatures"/>
+   <field old="size I" new="size"/>
+   <field old="size_details I" new="size_details"/>
+   <field old="softInput I" new="softInput"/>
+   <field old="system I" new="system"/>
+   <field old="system_user I" new="system_user"/>
+   <field old="taskAffinity I" new="taskAffinity"/>
+   <field old="uninstall I" new="uninstall"/>
+   <field old="unsupported I" new="unsupported"/>
+   <field old="update I" new="update"/>
+   <field old="user I" new="user"/>
+   <field old="uses_feature I" new="uses_feature"/>
+   <field old="view_in_settings I" new="view_in_settings"/>
+   <field old="view_manifest I" new="view_manifest"/>
+   <field old="write I" new="write"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.ViewManifestActivity$MyWebChromeClient" new="com.majeur.applicationsinfo.c_F">
+   <method old="onProgressChanged(Landroid/webkit/WebView;I)V" new="onProgressChanged"/>
+   <field old="this$0 Lcom/majeur/applicationsinfo/ViewManifestActivity;" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.MainActivity" new="com.majeur.applicationsinfo.MainActivity">
+   <method old="getIntentFilter()Landroid/content/IntentFilter;" new="m_QB"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onItemSelected(Ljava/lang/String;)V" new="m_A"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onStart()V" new="onStart"/>
+   <method old="onStop()V" new="onStop"/>
+   <method old="showAboutDialog()V" new="m_BA"/>
+   <field old="mIsArtShowed Z" new="f_G"/>
+   <field old="mIsDualPane Z" new="f_A"/>
+   <field old="receiver Landroid/content/BroadcastReceiver;" new="f_c"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.MainListFragment$Item" new="com.majeur.applicationsinfo.c_E">
+   <field old="applicationInfo Landroid/content/pm/ApplicationInfo;" new="f_M"/>
+   <field old="date Ljava/lang/Long;" new="f_G"/>
+   <field old="label Ljava/lang/String;" new="f_c"/>
+   <field old="size Ljava/lang/Long;" new="f_D"/>
+   <field old="this$0 Lcom/majeur/applicationsinfo/MainListFragment;" new="f_A"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.R$id" new="com.majeur.applicationsinfo.R$id">
+   <field old="action_about I" new="action_about"/>
+   <field old="action_refresh I" new="action_refresh"/>
+   <field old="action_uninstall I" new="action_uninstall"/>
+   <field old="action_view_in_settings I" new="action_view_in_settings"/>
+   <field old="action_view_manifest I" new="action_view_manifest"/>
+   <field old="banner I" new="banner"/>
+   <field old="date I" new="date"/>
+   <field old="date_container I" new="date_container"/>
+   <field old="detail_overflow I" new="detail_overflow"/>
+   <field old="flags I" new="flags"/>
+   <field old="gles_ver I" new="gles_ver"/>
+   <field old="icon I" new="icon"/>
+   <field old="installed_date I" new="installed_date"/>
+   <field old="isSystem I" new="isSystem"/>
+   <field old="isSystem_container I" new="isSystem_container"/>
+   <field old="item_detail_container I" new="item_detail_container"/>
+   <field old="item_list I" new="item_list"/>
+   <field old="label I" new="label"/>
+   <field old="launch I" new="launch"/>
+   <field old="launchMode I" new="launchMode"/>
+   <field old="name I" new="name"/>
+   <field old="netstats_received I" new="netstats_received"/>
+   <field old="netstats_transmitted I" new="netstats_transmitted"/>
+   <field old="orientation I" new="orientation"/>
+   <field old="packageName I" new="packageName"/>
+   <field old="path I" new="path"/>
+   <field old="sharedUserId I" new="sharedUserId"/>
+   <field old="size I" new="size"/>
+   <field old="size_cache I" new="size_cache"/>
+   <field old="size_code I" new="size_code"/>
+   <field old="size_data I" new="size_data"/>
+   <field old="size_ext_cache I" new="size_ext_cache"/>
+   <field old="size_ext_code I" new="size_ext_code"/>
+   <field old="size_ext_data I" new="size_ext_data"/>
+   <field old="size_ext_media I" new="size_ext_media"/>
+   <field old="size_ext_obb I" new="size_ext_obb"/>
+   <field old="softInput I" new="softInput"/>
+   <field old="taskAffinity I" new="taskAffinity"/>
+   <field old="update_date I" new="update_date"/>
+   <field old="version I" new="version"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.DetailFragment$Adapter$1" new="com.majeur.applicationsinfo.c_l">
+   <method old="onClick(Landroid/view/View;)V" new="onClick"/>
+   <field old="this$1 Lcom/majeur/applicationsinfo/DetailFragment$Adapter;" new="f_A"/>
+   <field old="val$activityInfo Landroid/content/pm/ActivityInfo;" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.BuildConfig" new="com.majeur.applicationsinfo.c_i">
+   <field old="APPLICATION_ID Ljava/lang/String;" new="f_A"/>
+   <field old="BUILD_TYPE Ljava/lang/String;" new="f_c"/>
+   <field old="DEBUG Z" new="f_D"/>
+   <field old="FLAVOR Ljava/lang/String;" new="f_M"/>
+   <field old="VERSION_CODE I" new="f_G"/>
+   <field old="VERSION_NAME Ljava/lang/String;" new="f_K"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.DetailFragment$1$1" new="com.majeur.applicationsinfo.c_H">
+   <method old="run()V" new="run"/>
+   <field old="this$1 Lcom/majeur/applicationsinfo/DetailFragment$1;" new="f_A"/>
+   <field old="val$pStats Landroid/content/pm/PackageStats;" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.MainListFragment$Adapter$ViewHolder" new="com.majeur.applicationsinfo.c_h">
+   <field old="date Landroid/widget/TextView;" new="f_A"/>
+   <field old="icon Landroid/widget/ImageView;" new="f_D"/>
+   <field old="iconLoader Lcom/majeur/applicationsinfo/MainListFragment$Adapter$IconAsyncTask;" new="f_G"/>
+   <field old="isSystemApp Landroid/widget/TextView;" new="f_b"/>
+   <field old="label Landroid/widget/TextView;" new="f_C"/>
+   <field old="packageName Landroid/widget/TextView;" new="f_B"/>
+   <field old="size Landroid/widget/TextView;" new="f_M"/>
+   <field old="this$1 Lcom/majeur/applicationsinfo/MainListFragment$Adapter;" new="f_K"/>
+   <field old="version Landroid/widget/TextView;" new="f_c"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.ViewManifestActivity$1" new="com.majeur.applicationsinfo.c_L">
+  </class>
+  <class old="com.majeur.applicationsinfo.MainListFragment" new="com.majeur.applicationsinfo.c_M">
+   <method old="access$000(Lcom/majeur/applicationsinfo/MainListFragment;)Landroid/widget/Spinner;" new="m_Ta"/>
+   <method old="access$100(Lcom/majeur/applicationsinfo/MainListFragment;)Lcom/majeur/applicationsinfo/MainListFragment$Adapter;" new="m_hc"/>
+   <method old="access$1000(Lcom/majeur/applicationsinfo/MainListFragment;)I" new="m_Mb"/>
+   <method old="access$1100(Lcom/majeur/applicationsinfo/MainListFragment;)V" new="m_jc"/>
+   <method old="access$1200(Lcom/majeur/applicationsinfo/MainListFragment;Ljava/util/List;)V" new="m_bC"/>
+   <method old="access$200(Lcom/majeur/applicationsinfo/MainListFragment;)Ljava/util/List;" new="m_za"/>
+   <method old="access$300(Lcom/majeur/applicationsinfo/MainListFragment;)Landroid/view/LayoutInflater;" new="m_oa"/>
+   <method old="access$400(Lcom/majeur/applicationsinfo/MainListFragment;)I" new="m_Qa"/>
+   <method old="access$500(Lcom/majeur/applicationsinfo/MainListFragment;)I" new="m_TC"/>
+   <method old="access$600(Lcom/majeur/applicationsinfo/MainListFragment;)Landroid/content/pm/PackageManager;" new="m_na"/>
+   <method old="access$700(Lcom/majeur/applicationsinfo/MainListFragment;)Ljava/text/SimpleDateFormat;" new="m_pd"/>
+   <method old="access$800(Lcom/majeur/applicationsinfo/MainListFragment;)I" new="m_cB"/>
+   <method old="access$802(Lcom/majeur/applicationsinfo/MainListFragment;I)I" new="m_DB"/>
+   <method old="access$900(Lcom/majeur/applicationsinfo/MainListFragment;)Landroid/app/ProgressDialog;" new="m_gb"/>
+   <method old="checkFastScroll()V" new="m_qc"/>
+   <method old="loadList()V" new="m_oB"/>
+   <method old="onAttach(Landroid/app/Activity;)V" new="onAttach"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;Landroid/view/MenuInflater;)V" new="onCreateOptionsMenu"/>
+   <method old="onDetach()V" new="onDetach"/>
+   <method old="onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V" new="onItemClick"/>
+   <method old="onItemFinishedSizeProcess()V" new="m_ya"/>
+   <method old="onItemSelected(Landroid/widget/AdapterView;Landroid/view/View;IJ)V" new="onItemSelected"/>
+   <method old="onNothingSelected(Landroid/widget/AdapterView;)V" new="onNothingSelected"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onSaveInstanceState(Landroid/os/Bundle;)V" new="onSaveInstanceState"/>
+   <method old="onStart()V" new="onStart"/>
+   <method old="onTaskEnded(Ljava/util/List;)V" new="m_JC"/>
+   <method old="onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V" new="onViewCreated"/>
+   <method old="setSortBy(IZ)V" new="m_Oa"/>
+   <method old="sortApplicationList(Ljava/util/List;I)V" new="m_gB"/>
+   <field old="INSTANCE_STATE_SORT_BY Ljava/lang/String;" new="f_G"/>
+   <field old="SORT_DOMAIN I" new="f_K"/>
+   <field old="SORT_INSTALLATION I" new="f_i"/>
+   <field old="SORT_NAME I" new="f_M"/>
+   <field old="SORT_PKG I" new="f_B"/>
+   <field old="SORT_SIZE I" new="f_h"/>
+   <field old="mAdapter Lcom/majeur/applicationsinfo/MainListFragment$Adapter;" new="f_C"/>
+   <field old="mAsyncLoader Lcom/majeur/applicationsinfo/MainListFragment$Async;" new="f_m"/>
+   <field old="mCallbacks Lcom/majeur/applicationsinfo/MainCallbacks;" new="f_A"/>
+   <field old="mColorGrey1 I" new="f_g"/>
+   <field old="mColorGrey2 I" new="f_D"/>
+   <field old="mContext Landroid/content/Context;" new="f_I"/>
+   <field old="mItemList Ljava/util/List;" new="f_k"/>
+   <field old="mLayoutInflater Landroid/view/LayoutInflater;" new="f_E"/>
+   <field old="mOnSizeFinishedItemCount I" new="f_H"/>
+   <field old="mPackageManager Landroid/content/pm/PackageManager;" new="f_b"/>
+   <field old="mProgressDialog Landroid/app/ProgressDialog;" new="f_j"/>
+   <field old="mSimpleDateFormat Ljava/text/SimpleDateFormat;" new="f_c"/>
+   <field old="mSortBy I" new="f_J"/>
+   <field old="mSpinner Landroid/widget/Spinner;" new="f_F"/>
+   <field old="mSpinnerListenerAuthorized Z" new="f_l"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.MainListFragment$Adapter$IconAsyncTask" new="com.majeur.applicationsinfo.c_c">
+   <method old="doInBackground([Ljava/lang/Object;)Ljava/lang/Object;" new="doInBackground"/>
+   <method old="doInBackground([Ljava/lang/Void;)Landroid/graphics/drawable/Drawable;" new="m_Xa"/>
+   <method old="onPostExecute(Landroid/graphics/drawable/Drawable;)V" new="m_xa"/>
+   <method old="onPostExecute(Ljava/lang/Object;)V" new="onPostExecute"/>
+   <method old="onPreExecute()V" new="onPreExecute"/>
+   <field old="imageView Landroid/widget/ImageView;" new="f_G"/>
+   <field old="info Landroid/content/pm/ApplicationInfo;" new="f_A"/>
+   <field old="this$1 Lcom/majeur/applicationsinfo/MainListFragment$Adapter;" new="f_c"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.R$menu" new="com.majeur.applicationsinfo.R$menu">
+   <field old="activity_main I" new="activity_main"/>
+   <field old="fragment_detail I" new="fragment_detail"/>
+   <field old="fragment_main_list I" new="fragment_main_list"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.MainActivity$1" new="com.majeur.applicationsinfo.c_B">
+   <method old="onReceive(Landroid/content/Context;Landroid/content/Intent;)V" new="onReceive"/>
+   <field old="this$0 Lcom/majeur/applicationsinfo/MainActivity;" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.R$color" new="com.majeur.applicationsinfo.R$color">
+   <field old="grey_1 I" new="grey_1"/>
+   <field old="grey_2 I" new="grey_2"/>
+  </class>
+  <class old="com.majeur.xmlapkparser.AXmlResourceParser$NamespaceStack" new="wy.c_J">
+   <method old="decreaseDepth()V" new="m_Q"/>
+   <method old="ensureDataCapacity(I)V" new="m_X"/>
+   <method old="find(IZ)I" new="m_x"/>
+   <method old="findPrefix(I)I" new="m_q"/>
+   <method old="findUri(I)I" new="m_U"/>
+   <method old="get(IZ)I" new="m_T"/>
+   <method old="getAccumulatedCount(I)I" new="m_t"/>
+   <method old="getCurrentCount()I" new="m_Z"/>
+   <method old="getDepth()I" new="m_P"/>
+   <method old="getPrefix(I)I" new="m_z"/>
+   <method old="getTotalCount()I" new="m_S"/>
+   <method old="getUri(I)I" new="m_R"/>
+   <method old="increaseDepth()V" new="m_w"/>
+   <method old="pop()Z" new="m_u"/>
+   <method old="pop(II)Z" new="m_W"/>
+   <method old="push(II)V" new="m_O"/>
+   <method old="reset()V" new="m_n"/>
+   <field old="m_count I" new="f_M"/>
+   <field old="m_data [I" new="f_A"/>
+   <field old="m_dataLength I" new="f_c"/>
+   <field old="m_depth I" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.DetailFragment$1" new="com.majeur.applicationsinfo.c_m">
+   <method old="asBinder()Landroid/os/IBinder;" new="asBinder"/>
+   <method old="asInterface(Landroid/os/IBinder;)Landroid/content/pm/IPackageStatsObserver;" new="m_Ya"/>
+   <method old="onGetStatsCompleted(Landroid/content/pm/PackageStats;Z)V" new="m_J"/>
+   <method old="onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z" new="onTransact"/>
+   <field old="TRANSACTION_onGetStatsCompleted I" new="f_A"/>
+   <field old="this$0 Lcom/majeur/applicationsinfo/DetailFragment;" new="f_G"/>
+   <field old="val$view Landroid/view/View;" new="f_A"/>
+  </class>
+  <class old="android.content.pm.IPackageStatsObserver$Stub$Proxy" new="wy.c_c">
+   <method old="asBinder()Landroid/os/IBinder;" new="asBinder"/>
+   <method old="getInterfaceDescriptor()Ljava/lang/String;" new="m_XC"/>
+   <method old="onGetStatsCompleted(Landroid/content/pm/PackageStats;Z)V" new="m_J"/>
+   <field old="mRemote Landroid/os/IBinder;" new="f_G"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.MainCallbacks" new="com.majeur.applicationsinfo.c_a">
+   <method old="onItemSelected(Ljava/lang/String;)V" new="m_A"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.MainListFragment$Async$Progress" new="com.majeur.applicationsinfo.c_K">
+   <field old="label Ljava/lang/String;" new="f_G"/>
+   <field old="this$1 Lcom/majeur/applicationsinfo/MainListFragment$Async;" new="f_A"/>
+   <field old="totalSize I" new="f_c"/>
+  </class>
+  <class old="com.majeur.xmlapkparser.IntReader" new="wy.c_A">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_N"/>
+   <method old="available()I" new="m_E"/>
+   <method old="close()V" new="m_a"/>
+   <method old="getPosition()I" new="m_H"/>
+   <method old="getStream()Ljava/io/InputStream;" new="m_c"/>
+   <method old="isBigEndian()Z" new="m_k"/>
+   <method old="readByte()I" new="m_K"/>
+   <method old="readByteArray(I)[B" new="m_m"/>
+   <method old="readInt()I" new="m_b"/>
+   <method old="readInt(I)I" new="m_L"/>
+   <method old="readIntArray(I)[I" new="m_D"/>
+   <method old="readIntArray([III)V" new="m_M"/>
+   <method old="readShort()I" new="m_i"/>
+   <method old="reset(Ljava/io/InputStream;Z)V" new="m_B"/>
+   <method old="setBigEndian(Z)V" new="m_j"/>
+   <method old="skip(I)V" new="m_C"/>
+   <method old="skipInt()V" new="m_l"/>
+   <field old="m_bigEndian Z" new="f_A"/>
+   <field old="m_position I" new="f_G"/>
+   <field old="m_stream Ljava/io/InputStream;" new="f_c"/>
+  </class>
+  <class old="com.majeur.xmlapkparser.StringBlock" new="wy.c_F">
+   <method old="find(Ljava/lang/String;)I" new="m_h"/>
+   <method old="get(I)Ljava/lang/CharSequence;" new="m_I"/>
+   <method old="getCount()I" new="m_g"/>
+   <method old="getHTML(I)Ljava/lang/String;" new="m_F"/>
+   <method old="getShort([II)I" new="m_d"/>
+   <method old="getString(I)Ljava/lang/String;" new="m_f"/>
+   <method old="getStyle(I)[I" new="m_e"/>
+   <method old="read(Lcom/majeur/xmlapkparser/IntReader;)Lcom/majeur/xmlapkparser/StringBlock;" new="m_G"/>
+   <field old="CHUNK_TYPE I" new="f_G"/>
+   <field old="m_stringOffsets [I" new="f_D"/>
+   <field old="m_strings [I" new="f_M"/>
+   <field old="m_styleOffsets [I" new="f_A"/>
+   <field old="m_styles [I" new="f_c"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.MainListFragment$SpinnerAdapter" new="com.majeur.applicationsinfo.c_J">
+   <method old="getCount()I" new="getCount"/>
+   <method old="getItem(I)Ljava/lang/Object;" new="getItem"/>
+   <method old="getItemId(I)J" new="getItemId"/>
+   <method old="getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;" new="getView"/>
+   <method old="isEnabled(I)Z" new="isEnabled"/>
+   <field old="mContext Landroid/content/Context;" new="f_M"/>
+   <field old="mItems [Ljava/lang/String;" new="f_A"/>
+   <field old="mLayoutResId I" new="f_c"/>
+   <field old="this$0 Lcom/majeur/applicationsinfo/MainListFragment;" new="f_G"/>
+  </class>
+  <class old="android.content.pm.IPackageStatsObserver" new="wy.c_a">
+   <method old="onGetStatsCompleted(Landroid/content/pm/PackageStats;Z)V" new="m_J"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.R$drawable" new="com.majeur.applicationsinfo.R$drawable">
+   <field old="ic_action_overflow I" new="ic_action_overflow"/>
+   <field old="ic_arrow_right I" new="ic_arrow_right"/>
+   <field old="ic_launcher I" new="ic_launcher"/>
+   <field old="ic_refresh I" new="ic_refresh"/>
+   <field old="icon_art I" new="icon_art"/>
+  </class>
+  <class old="com.majeur.xmlapkparser.ChunkUtil" new="wy.c_L">
+   <method old="readCheckType(Lcom/majeur/xmlapkparser/IntReader;I)V" new="m_o"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.utils.Tuple" new="wy.c_k">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_N"/>
+   <method old="getFirst()Ljava/lang/Object;" new="m_Ha"/>
+   <method old="getSecond()Ljava/lang/Object;" new="m_da"/>
+   <method old="setFirst(Ljava/lang/Object;)V" new="m_ea"/>
+   <method old="setSecond(Ljava/lang/Object;)V" new="m_ga"/>
+   <field old="mObjectOne Ljava/lang/Object;" new="f_G"/>
+   <field old="mObjectTwo Ljava/lang/Object;" new="f_A"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.R$array" new="com.majeur.applicationsinfo.R$array">
+   <field old="group_titles I" new="group_titles"/>
+   <field old="sort_spinner_items I" new="sort_spinner_items"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.R$layout" new="com.majeur.applicationsinfo.R$layout">
+   <field old="about_dialog_message I" new="about_dialog_message"/>
+   <field old="activity_main I" new="activity_main"/>
+   <field old="activity_main_twopane I" new="activity_main_twopane"/>
+   <field old="detail_activities I" new="detail_activities"/>
+   <field old="detail_features I" new="detail_features"/>
+   <field old="detail_header I" new="detail_header"/>
+   <field old="group_title_view I" new="group_title_view"/>
+   <field old="main_list_item I" new="main_list_item"/>
+   <field old="size_table I" new="size_table"/>
+  </class>
+  <class old="com.majeur.applicationsinfo.DetailFragment$Adapter$ViewHolder" new="com.majeur.applicationsinfo.c_b">
+   <field old="button Landroid/widget/Button;" new="f_J"/>
+   <field old="currentViewType I" new="f_M"/>
+   <field old="imageView Landroid/widget/ImageView;" new="f_A"/>
+   <field old="textView1 Landroid/widget/TextView;" new="f_K"/>
+   <field old="textView2 Landroid/widget/TextView;" new="f_c"/>
+   <field old="textView3 Landroid/widget/TextView;" new="f_C"/>
+   <field old="textView4 Landroid/widget/TextView;" new="f_G"/>
+   <field old="textView5 Landroid/widget/TextView;" new="f_D"/>
+   <field old="textView6 Landroid/widget/TextView;" new="f_B"/>
+   <field old="this$1 Lcom/majeur/applicationsinfo/DetailFragment$Adapter;" new="f_b"/>
+  </class>
+  <sources>
+   <source old="BuildConfig.java" new="j"/>
+   <source old="DetailActivity.java" new="u"/>
+   <source old="DetailFragment.java" new="m"/>
+   <source old="DetailOverflowMenu.java" new="b"/>
+   <source old="MainActivity.java" new="i"/>
+   <source old="MainListFragment.java" new="q"/>
+   <source old="R.java" new="c"/>
+   <source old="RetainedFragment.java" new="t"/>
+   <source old="ViewManifestActivity.java" new="w"/>
+   <source old="Tuple.java" new="z"/>
+   <source old="Utils.java" new="k"/>
+   <source old="AXMLPrinter.java" new="v"/>
+   <source old="AXmlResourceParser.java" new="f"/>
+   <source old="ChunkUtil.java" new="r"/>
+   <source old="IntReader.java" new="l"/>
+   <source old="StringBlock.java" new="e"/>
+   <source old="MainCallbacks.java" new="p"/>
+   <source old="IPackageStatsObserver.java" new="g"/>
+  </sources>
+  <lines>
+   <line l="332"/>
+   <line l="26"/>
+   <line l="122"/>
+   <line l="186"/>
+   <line l="198"/>
+   <line l="298"/>
+   <line l="97"/>
+   <line l="101"/>
+   <line l="53"/>
+   <line l="309"/>
+   <line l="133"/>
+   <line l="316"/>
+   <line l="267"/>
+   <line l="333"/>
+   <line l="22"/>
+   <line l="24"/>
+   <line l="68"/>
+   <line l="54"/>
+   <line l="221"/>
+   <line l="201"/>
+   <line l="356"/>
+   <line l="59"/>
+   <line l="322"/>
+   <line l="284"/>
+   <line l="252"/>
+   <line l="310"/>
+   <line l="241"/>
+   <line l="116"/>
+   <line l="256"/>
+   <line l="78"/>
+   <line l="180"/>
+   <line l="384"/>
+   <line l="224"/>
+   <line l="315"/>
+   <line l="292"/>
+   <line l="297"/>
+   <line l="18"/>
+   <line l="136"/>
+   <line l="165"/>
+   <line l="41"/>
+   <line l="11"/>
+   <line l="124"/>
+   <line l="302"/>
+   <line l="251"/>
+   <line l="3"/>
+   <line l="288"/>
+   <line l="378"/>
+   <line l="120"/>
+   <line l="344"/>
+   <line l="197"/>
+   <line l="183"/>
+   <line l="347"/>
+   <line l="313"/>
+   <line l="266"/>
+   <line l="301"/>
+   <line l="61"/>
+   <line l="270"/>
+   <line l="139"/>
+   <line l="45"/>
+   <line l="196"/>
+   <line l="17"/>
+   <line l="156"/>
+   <line l="275"/>
+   <line l="134"/>
+   <line l="76"/>
+   <line l="79"/>
+   <line l="159"/>
+   <line l="49"/>
+   <line l="240"/>
+   <line l="1"/>
+   <line l="149"/>
+   <line l="127"/>
+   <line l="162"/>
+   <line l="148"/>
+   <line l="50"/>
+   <line l="37"/>
+   <line l="372"/>
+   <line l="31"/>
+   <line l="243"/>
+   <line l="244"/>
+   <line l="248"/>
+   <line l="114"/>
+   <line l="312"/>
+   <line l="121"/>
+   <line l="337"/>
+   <line l="223"/>
+   <line l="112"/>
+   <line l="357"/>
+   <line l="179"/>
+   <line l="16"/>
+   <line l="228"/>
+   <line l="109"/>
+   <line l="157"/>
+   <line l="137"/>
+   <line l="250"/>
+   <line l="304"/>
+   <line l="128"/>
+   <line l="349"/>
+   <line l="38"/>
+   <line l="175"/>
+   <line l="318"/>
+   <line l="63"/>
+   <line l="380"/>
+   <line l="118"/>
+   <line l="327"/>
+   <line l="100"/>
+   <line l="167"/>
+   <line l="259"/>
+   <line l="311"/>
+   <line l="285"/>
+   <line l="278"/>
+   <line l="233"/>
+   <line l="271"/>
+   <line l="375"/>
+   <line l="83"/>
+   <line l="94"/>
+   <line l="299"/>
+   <line l="222"/>
+   <line l="119"/>
+   <line l="27"/>
+   <line l="330"/>
+   <line l="242"/>
+   <line l="340"/>
+   <line l="115"/>
+   <line l="249"/>
+   <line l="81"/>
+   <line l="362"/>
+   <line l="117"/>
+   <line l="328"/>
+   <line l="232"/>
+   <line l="366"/>
+   <line l="263"/>
+   <line l="146"/>
+   <line l="365"/>
+   <line l="358"/>
+   <line l="174"/>
+   <line l="273"/>
+   <line l="110"/>
+   <line l="160"/>
+   <line l="200"/>
+   <line l="374"/>
+   <line l="129"/>
+   <line l="73"/>
+   <line l="377"/>
+   <line l="305"/>
+   <line l="296"/>
+   <line l="369"/>
+   <line l="293"/>
+   <line l="364"/>
+   <line l="325"/>
+   <line l="65"/>
+   <line l="195"/>
+   <line l="14"/>
+   <line l="225"/>
+   <line l="74"/>
+   <line l="173"/>
+   <line l="219"/>
+   <line l="44"/>
+   <line l="153"/>
+   <line l="98"/>
+   <line l="217"/>
+   <line l="30"/>
+   <line l="386"/>
+   <line l="234"/>
+   <line l="82"/>
+   <line l="360"/>
+   <line l="229"/>
+   <line l="352"/>
+   <line l="202"/>
+   <line l="93"/>
+   <line l="4"/>
+   <line l="181"/>
+   <line l="189"/>
+   <line l="277"/>
+   <line l="319"/>
+   <line l="123"/>
+   <line l="147"/>
+   <line l="55"/>
+   <line l="334"/>
+   <line l="163"/>
+   <line l="306"/>
+   <line l="368"/>
+   <line l="67"/>
+   <line l="323"/>
+   <line l="57"/>
+   <line l="345"/>
+   <line l="7"/>
+   <line l="335"/>
+   <line l="176"/>
+   <line l="239"/>
+   <line l="216"/>
+   <line l="194"/>
+   <line l="351"/>
+   <line l="227"/>
+   <line l="258"/>
+   <line l="367"/>
+   <line l="281"/>
+   <line l="354"/>
+   <line l="105"/>
+   <line l="8"/>
+   <line l="151"/>
+   <line l="150"/>
+   <line l="103"/>
+   <line l="294"/>
+   <line l="343"/>
+   <line l="245"/>
+   <line l="253"/>
+   <line l="99"/>
+   <line l="203"/>
+   <line l="283"/>
+   <line l="255"/>
+   <line l="199"/>
+   <line l="19"/>
+   <line l="69"/>
+   <line l="131"/>
+   <line l="268"/>
+   <line l="303"/>
+   <line l="230"/>
+   <line l="257"/>
+   <line l="214"/>
+   <line l="52"/>
+   <line l="370"/>
+   <line l="220"/>
+   <line l="166"/>
+   <line l="108"/>
+   <line l="355"/>
+   <line l="321"/>
+   <line l="40"/>
+   <line l="10"/>
+   <line l="143"/>
+   <line l="387"/>
+   <line l="60"/>
+   <line l="363"/>
+   <line l="291"/>
+   <line l="161"/>
+   <line l="46"/>
+   <line l="336"/>
+   <line l="247"/>
+   <line l="170"/>
+   <line l="85"/>
+   <line l="342"/>
+   <line l="287"/>
+   <line l="290"/>
+   <line l="92"/>
+   <line l="51"/>
+   <line l="350"/>
+   <line l="43"/>
+   <line l="39"/>
+   <line l="28"/>
+   <line l="282"/>
+   <line l="295"/>
+   <line l="371"/>
+   <line l="389"/>
+   <line l="279"/>
+   <line l="154"/>
+   <line l="111"/>
+   <line l="231"/>
+   <line l="212"/>
+   <line l="286"/>
+   <line l="84"/>
+   <line l="190"/>
+   <line l="280"/>
+   <line l="289"/>
+   <line l="261"/>
+   <line l="155"/>
+   <line l="95"/>
+   <line l="138"/>
+   <line l="191"/>
+   <line l="211"/>
+   <line l="77"/>
+   <line l="89"/>
+   <line l="90"/>
+   <line l="320"/>
+   <line l="218"/>
+   <line l="260"/>
+   <line l="192"/>
+   <line l="359"/>
+   <line l="205"/>
+   <line l="381"/>
+   <line l="206"/>
+   <line l="208"/>
+   <line l="383"/>
+   <line l="142"/>
+   <line l="64"/>
+   <line l="104"/>
+   <line l="382"/>
+   <line l="388"/>
+   <line l="314"/>
+   <line l="2"/>
+   <line l="171"/>
+   <line l="361"/>
+   <line l="307"/>
+   <line l="72"/>
+   <line l="373"/>
+   <line l="158"/>
+   <line l="141"/>
+   <line l="264"/>
+   <line l="132"/>
+   <line l="145"/>
+   <line l="66"/>
+   <line l="185"/>
+   <line l="130"/>
+   <line l="331"/>
+   <line l="209"/>
+   <line l="126"/>
+   <line l="113"/>
+   <line l="238"/>
+   <line l="21"/>
+   <line l="385"/>
+   <line l="13"/>
+   <line l="376"/>
+   <line l="235"/>
+   <line l="168"/>
+   <line l="338"/>
+   <line l="35"/>
+   <line l="107"/>
+   <line l="96"/>
+   <line l="246"/>
+   <line l="187"/>
+   <line l="20"/>
+   <line l="236"/>
+   <line l="348"/>
+   <line l="91"/>
+   <line l="262"/>
+   <line l="269"/>
+   <line l="71"/>
+   <line l="34"/>
+   <line l="152"/>
+   <line l="193"/>
+   <line l="86"/>
+   <line l="88"/>
+   <line l="169"/>
+   <line l="184"/>
+   <line l="62"/>
+   <line l="326"/>
+   <line l="329"/>
+   <line l="207"/>
+   <line l="265"/>
+   <line l="135"/>
+   <line l="75"/>
+   <line l="210"/>
+   <line l="213"/>
+   <line l="33"/>
+   <line l="172"/>
+   <line l="379"/>
+   <line l="144"/>
+   <line l="9"/>
+   <line l="70"/>
+   <line l="276"/>
+   <line l="87"/>
+   <line l="215"/>
+   <line l="339"/>
+   <line l="48"/>
+   <line l="226"/>
+   <line l="23"/>
+   <line l="56"/>
+   <line l="32"/>
+   <line l="47"/>
+   <line l="274"/>
+   <line l="5"/>
+   <line l="80"/>
+   <line l="300"/>
+   <line l="36"/>
+   <line l="164"/>
+   <line l="182"/>
+   <line l="308"/>
+   <line l="341"/>
+   <line l="204"/>
+   <line l="272"/>
+   <line l="254"/>
+   <line l="177"/>
+   <line l="140"/>
+   <line l="106"/>
+   <line l="125"/>
+   <line l="188"/>
+   <line l="12"/>
+   <line l="346"/>
+   <line l="102"/>
+   <line l="178"/>
+   <line l="324"/>
+   <line l="0"/>
+   <line l="25"/>
+   <line l="317"/>
+   <line l="353"/>
+   <line l="58"/>
+   <line l="237"/>
+   <line l="29"/>
+   <line l="42"/>
+   <line l="6"/>
+   <line l="15"/>
+   <line l="482"/>
+   <line l="434"/>
+   <line l="623"/>
+   <line l="417"/>
+   <line l="463"/>
+   <line l="659"/>
+   <line l="508"/>
+   <line l="457"/>
+   <line l="670"/>
+   <line l="544"/>
+   <line l="541"/>
+   <line l="401"/>
+   <line l="497"/>
+   <line l="393"/>
+   <line l="486"/>
+   <line l="517"/>
+   <line l="551"/>
+   <line l="420"/>
+   <line l="526"/>
+   <line l="535"/>
+   <line l="598"/>
+   <line l="466"/>
+   <line l="565"/>
+   <line l="584"/>
+   <line l="650"/>
+   <line l="426"/>
+   <line l="606"/>
+   <line l="630"/>
+   <line l="404"/>
+   <line l="654"/>
+   <line l="489"/>
+   <line l="442"/>
+   <line l="675"/>
+   <line l="416"/>
+   <line l="573"/>
+   <line l="460"/>
+   <line l="589"/>
+   <line l="516"/>
+   <line l="557"/>
+   <line l="539"/>
+   <line l="542"/>
+   <line l="642"/>
+   <line l="658"/>
+   <line l="427"/>
+   <line l="614"/>
+   <line l="410"/>
+   <line l="488"/>
+   <line l="713"/>
+   <line l="392"/>
+   <line l="619"/>
+   <line l="611"/>
+   <line l="689"/>
+   <line l="683"/>
+   <line l="487"/>
+   <line l="555"/>
+   <line l="467"/>
+   <line l="436"/>
+   <line l="694"/>
+   <line l="625"/>
+   <line l="390"/>
+   <line l="397"/>
+   <line l="579"/>
+   <line l="706"/>
+   <line l="696"/>
+   <line l="453"/>
+   <line l="513"/>
+   <line l="667"/>
+   <line l="534"/>
+   <line l="391"/>
+   <line l="627"/>
+   <line l="688"/>
+   <line l="411"/>
+   <line l="461"/>
+   <line l="567"/>
+   <line l="459"/>
+   <line l="546"/>
+   <line l="402"/>
+   <line l="615"/>
+   <line l="639"/>
+   <line l="518"/>
+   <line l="547"/>
+   <line l="664"/>
+   <line l="407"/>
+   <line l="597"/>
+   <line l="624"/>
+   <line l="660"/>
+   <line l="577"/>
+   <line l="710"/>
+   <line l="631"/>
+   <line l="441"/>
+   <line l="400"/>
+   <line l="663"/>
+   <line l="618"/>
+   <line l="648"/>
+   <line l="500"/>
+   <line l="439"/>
+   <line l="512"/>
+   <line l="538"/>
+   <line l="717"/>
+   <line l="452"/>
+   <line l="576"/>
+   <line l="522"/>
+   <line l="621"/>
+   <line l="556"/>
+   <line l="700"/>
+   <line l="652"/>
+   <line l="712"/>
+   <line l="685"/>
+   <line l="554"/>
+   <line l="483"/>
+   <line l="705"/>
+   <line l="629"/>
+   <line l="471"/>
+   <line l="536"/>
+   <line l="605"/>
+   <line l="604"/>
+   <line l="537"/>
+   <line l="496"/>
+   <line l="581"/>
+   <line l="493"/>
+   <line l="425"/>
+   <line l="671"/>
+   <line l="430"/>
+   <line l="409"/>
+   <line l="564"/>
+   <line l="568"/>
+   <line l="707"/>
+   <line l="693"/>
+   <line l="594"/>
+   <line l="481"/>
+   <line l="511"/>
+   <line l="662"/>
+   <line l="610"/>
+   <line l="709"/>
+   <line l="571"/>
+   <line l="475"/>
+   <line l="587"/>
+   <line l="472"/>
+   <line l="684"/>
+   <line l="676"/>
+   <line l="450"/>
+   <line l="673"/>
+   <line l="509"/>
+   <line l="596"/>
+   <line l="600"/>
+   <line l="429"/>
+   <line l="506"/>
+   <line l="519"/>
+   <line l="583"/>
+   <line l="602"/>
+   <line l="599"/>
+   <line l="443"/>
+   <line l="532"/>
+   <line l="502"/>
+   <line l="701"/>
+   <line l="521"/>
+   <line l="530"/>
+   <line l="561"/>
+   <line l="552"/>
+   <line l="507"/>
+   <line l="682"/>
+   <line l="592"/>
+   <line l="699"/>
+   <line l="715"/>
+   <line l="440"/>
+   <line l="462"/>
+   <line l="643"/>
+   <line l="679"/>
+   <line l="647"/>
+   <line l="432"/>
+   <line l="470"/>
+   <line l="617"/>
+   <line l="438"/>
+   <line l="686"/>
+   <line l="646"/>
+   <line l="716"/>
+   <line l="540"/>
+   <line l="585"/>
+   <line l="711"/>
+   <line l="612"/>
+   <line l="418"/>
+   <line l="574"/>
+   <line l="702"/>
+   <line l="620"/>
+   <line l="681"/>
+   <line l="477"/>
+   <line l="447"/>
+   <line l="636"/>
+   <line l="666"/>
+   <line l="548"/>
+   <line l="661"/>
+   <line l="428"/>
+   <line l="465"/>
+   <line l="527"/>
+   <line l="640"/>
+   <line l="626"/>
+   <line l="399"/>
+   <line l="505"/>
+   <line l="678"/>
+   <line l="657"/>
+   <line l="484"/>
+   <line l="608"/>
+   <line l="553"/>
+   <line l="590"/>
+   <line l="593"/>
+   <line l="514"/>
+   <line l="677"/>
+   <line l="649"/>
+   <line l="448"/>
+   <line l="575"/>
+   <line l="588"/>
+   <line l="444"/>
+   <line l="446"/>
+   <line l="578"/>
+   <line l="531"/>
+   <line l="455"/>
+   <line l="580"/>
+   <line l="690"/>
+   <line l="641"/>
+   <line l="692"/>
+   <line l="603"/>
+   <line l="569"/>
+   <line l="479"/>
+   <line l="708"/>
+   <line l="501"/>
+   <line l="633"/>
+   <line l="704"/>
+   <line l="582"/>
+   <line l="644"/>
+   <line l="703"/>
+   <line l="613"/>
+   <line l="458"/>
+   <line l="406"/>
+   <line l="637"/>
+   <line l="478"/>
+   <line l="549"/>
+   <line l="395"/>
+   <line l="528"/>
+   <line l="601"/>
+   <line l="419"/>
+   <line l="435"/>
+   <line l="415"/>
+   <line l="408"/>
+   <line l="559"/>
+   <line l="609"/>
+   <line l="529"/>
+   <line l="669"/>
+   <line l="634"/>
+   <line l="480"/>
+   <line l="525"/>
+   <line l="550"/>
+   <line l="473"/>
+   <line l="562"/>
+   <line l="566"/>
+   <line l="499"/>
+   <line l="586"/>
+   <line l="510"/>
+   <line l="656"/>
+   <line l="622"/>
+   <line l="494"/>
+   <line l="396"/>
+   <line l="691"/>
+   <line l="504"/>
+   <line l="405"/>
+   <line l="491"/>
+   <line l="632"/>
+   <line l="645"/>
+   <line l="607"/>
+   <line l="454"/>
+   <line l="431"/>
+   <line l="503"/>
+   <line l="668"/>
+   <line l="560"/>
+   <line l="616"/>
+   <line l="533"/>
+   <line l="422"/>
+   <line l="451"/>
+   <line l="655"/>
+   <line l="490"/>
+   <line l="414"/>
+   <line l="485"/>
+   <line l="570"/>
+   <line l="403"/>
+   <line l="680"/>
+   <line l="449"/>
+   <line l="591"/>
+   <line l="697"/>
+   <line l="433"/>
+   <line l="572"/>
+   <line l="545"/>
+   <line l="558"/>
+   <line l="720"/>
+   <line l="468"/>
+   <line l="445"/>
+   <line l="698"/>
+   <line l="492"/>
+   <line l="474"/>
+   <line l="524"/>
+   <line l="476"/>
+   <line l="520"/>
+   <line l="515"/>
+   <line l="523"/>
+   <line l="635"/>
+   <line l="424"/>
+   <line l="672"/>
+   <line l="413"/>
+   <line l="423"/>
+   <line l="714"/>
+   <line l="456"/>
+   <line l="498"/>
+   <line l="687"/>
+   <line l="412"/>
+   <line l="563"/>
+   <line l="628"/>
+   <line l="394"/>
+   <line l="695"/>
+   <line l="398"/>
+   <line l="653"/>
+   <line l="665"/>
+   <line l="469"/>
+   <line l="437"/>
+   <line l="543"/>
+   <line l="421"/>
+   <line l="495"/>
+   <line l="464"/>
+   <line l="651"/>
+   <line l="719"/>
+   <line l="638"/>
+   <line l="674"/>
+   <line l="595"/>
+   <line l="718"/>
+   <line l="951"/>
+   <line l="939"/>
+   <line l="901"/>
+   <line l="978"/>
+   <line l="777"/>
+   <line l="772"/>
+   <line l="884"/>
+   <line l="1022"/>
+   <line l="1017"/>
+   <line l="839"/>
+   <line l="733"/>
+   <line l="980"/>
+   <line l="956"/>
+   <line l="1048"/>
+   <line l="825"/>
+   <line l="765"/>
+   <line l="1071"/>
+   <line l="974"/>
+   <line l="908"/>
+   <line l="1084"/>
+   <line l="759"/>
+   <line l="991"/>
+   <line l="992"/>
+   <line l="853"/>
+   <line l="1080"/>
+   <line l="745"/>
+   <line l="1094"/>
+   <line l="934"/>
+   <line l="851"/>
+   <line l="919"/>
+   <line l="916"/>
+   <line l="1085"/>
+   <line l="801"/>
+   <line l="894"/>
+   <line l="1039"/>
+   <line l="837"/>
+   <line l="780"/>
+   <line l="1046"/>
+   <line l="1002"/>
+   <line l="1025"/>
+   <line l="1054"/>
+   <line l="952"/>
+   <line l="1082"/>
+   <line l="945"/>
+   <line l="987"/>
+   <line l="880"/>
+   <line l="861"/>
+   <line l="903"/>
+   <line l="1060"/>
+   <line l="809"/>
+   <line l="1016"/>
+   <line l="976"/>
+   <line l="1076"/>
+   <line l="1034"/>
+   <line l="994"/>
+   <line l="1018"/>
+   <line l="800"/>
+   <line l="849"/>
+   <line l="744"/>
+   <line l="869"/>
+   <line l="887"/>
+   <line l="1073"/>
+   <line l="848"/>
+   <line l="1072"/>
+   <line l="965"/>
+   <line l="1081"/>
+   <line l="1063"/>
+   <line l="850"/>
+   <line l="1000"/>
+   <line l="875"/>
+   <line l="819"/>
+   <line l="756"/>
+   <line l="795"/>
+   <line l="878"/>
+   <line l="727"/>
+   <line l="792"/>
+   <line l="892"/>
+   <line l="915"/>
+   <line l="775"/>
+   <line l="1092"/>
+   <line l="761"/>
+   <line l="834"/>
+   <line l="822"/>
+   <line l="855"/>
+   <line l="946"/>
+   <line l="864"/>
+   <line l="748"/>
+   <line l="902"/>
+   <line l="1065"/>
+   <line l="776"/>
+   <line l="827"/>
+   <line l="981"/>
+   <line l="754"/>
+   <line l="833"/>
+   <line l="721"/>
+   <line l="904"/>
+   <line l="764"/>
+   <line l="897"/>
+   <line l="1091"/>
+   <line l="1036"/>
+   <line l="1009"/>
+   <line l="1075"/>
+   <line l="858"/>
+   <line l="923"/>
+   <line l="1090"/>
+   <line l="788"/>
+   <line l="1053"/>
+   <line l="891"/>
+   <line l="1031"/>
+   <line l="918"/>
+   <line l="953"/>
+   <line l="970"/>
+   <line l="832"/>
+   <line l="912"/>
+   <line l="957"/>
+   <line l="1033"/>
+   <line l="830"/>
+   <line l="968"/>
+   <line l="964"/>
+   <line l="955"/>
+   <line l="1061"/>
+   <line l="895"/>
+   <line l="787"/>
+   <line l="1008"/>
+   <line l="1096"/>
+   <line l="1015"/>
+   <line l="845"/>
+   <line l="885"/>
+   <line l="1007"/>
+   <line l="893"/>
+   <line l="913"/>
+   <line l="831"/>
+   <line l="906"/>
+   <line l="840"/>
+   <line l="816"/>
+   <line l="741"/>
+   <line l="1064"/>
+   <line l="969"/>
+   <line l="950"/>
+   <line l="769"/>
+   <line l="889"/>
+   <line l="766"/>
+   <line l="993"/>
+   <line l="933"/>
+   <line l="753"/>
+   <line l="1020"/>
+   <line l="723"/>
+   <line l="1019"/>
+   <line l="724"/>
+   <line l="983"/>
+   <line l="899"/>
+   <line l="829"/>
+   <line l="805"/>
+   <line l="735"/>
+   <line l="898"/>
+   <line l="1006"/>
+   <line l="740"/>
+   <line l="926"/>
+   <line l="1097"/>
+   <line l="755"/>
+   <line l="1087"/>
+   <line l="896"/>
+   <line l="960"/>
+   <line l="1066"/>
+   <line l="794"/>
+   <line l="1086"/>
+   <line l="806"/>
+   <line l="917"/>
+   <line l="931"/>
+   <line l="783"/>
+   <line l="734"/>
+   <line l="852"/>
+   <line l="1069"/>
+   <line l="752"/>
+   <line l="1058"/>
+   <line l="1095"/>
+   <line l="967"/>
+   <line l="910"/>
+   <line l="823"/>
+   <line l="1047"/>
+   <line l="791"/>
+   <line l="1068"/>
+   <line l="779"/>
+   <line l="843"/>
+   <line l="882"/>
+   <line l="870"/>
+   <line l="826"/>
+   <line l="763"/>
+   <line l="873"/>
+   <line l="760"/>
+   <line l="782"/>
+   <line l="770"/>
+   <line l="1098"/>
+   <line l="871"/>
+   <line l="738"/>
+   <line l="798"/>
+   <line l="961"/>
+   <line l="796"/>
+   <line l="1038"/>
+   <line l="966"/>
+   <line l="1012"/>
+   <line l="807"/>
+   <line l="803"/>
+   <line l="742"/>
+   <line l="758"/>
+   <line l="922"/>
+   <line l="921"/>
+   <line l="1079"/>
+   <line l="877"/>
+   <line l="920"/>
+   <line l="890"/>
+   <line l="1042"/>
+   <line l="971"/>
+   <line l="768"/>
+   <line l="942"/>
+   <line l="793"/>
+   <line l="928"/>
+   <line l="836"/>
+   <line l="1014"/>
+   <line l="927"/>
+   <line l="954"/>
+   <line l="750"/>
+   <line l="1001"/>
+   <line l="828"/>
+   <line l="1035"/>
+   <line l="999"/>
+   <line l="749"/>
+   <line l="862"/>
+   <line l="914"/>
+   <line l="1049"/>
+   <line l="924"/>
+   <line l="774"/>
+   <line l="932"/>
+   <line l="874"/>
+   <line l="989"/>
+   <line l="859"/>
+   <line l="1052"/>
+   <line l="790"/>
+   <line l="963"/>
+   <line l="842"/>
+   <line l="820"/>
+   <line l="948"/>
+   <line l="866"/>
+   <line l="1050"/>
+   <line l="1093"/>
+   <line l="990"/>
+   <line l="1057"/>
+   <line l="1083"/>
+   <line l="789"/>
+   <line l="846"/>
+   <line l="973"/>
+   <line l="979"/>
+   <line l="786"/>
+   <line l="975"/>
+   <line l="797"/>
+   <line l="1024"/>
+   <line l="737"/>
+   <line l="743"/>
+   <line l="856"/>
+   <line l="941"/>
+   <line l="835"/>
+   <line l="1026"/>
+   <line l="1021"/>
+   <line l="771"/>
+   <line l="881"/>
+   <line l="785"/>
+   <line l="900"/>
+   <line l="865"/>
+   <line l="925"/>
+   <line l="935"/>
+   <line l="958"/>
+   <line l="937"/>
+   <line l="872"/>
+   <line l="985"/>
+   <line l="879"/>
+   <line l="883"/>
+   <line l="949"/>
+   <line l="1040"/>
+   <line l="732"/>
+   <line l="1045"/>
+   <line l="977"/>
+   <line l="1088"/>
+   <line l="860"/>
+   <line l="1032"/>
+   <line l="731"/>
+   <line l="867"/>
+   <line l="808"/>
+   <line l="802"/>
+   <line l="1043"/>
+   <line l="997"/>
+   <line l="1078"/>
+   <line l="726"/>
+   <line l="722"/>
+   <line l="944"/>
+   <line l="998"/>
+   <line l="905"/>
+   <line l="911"/>
+   <line l="1030"/>
+   <line l="959"/>
+   <line l="1044"/>
+   <line l="1070"/>
+   <line l="824"/>
+   <line l="996"/>
+   <line l="799"/>
+   <line l="1055"/>
+   <line l="838"/>
+   <line l="1074"/>
+   <line l="995"/>
+   <line l="815"/>
+   <line l="938"/>
+   <line l="986"/>
+   <line l="767"/>
+   <line l="876"/>
+   <line l="972"/>
+   <line l="907"/>
+   <line l="811"/>
+   <line l="1010"/>
+   <line l="773"/>
+   <line l="739"/>
+   <line l="868"/>
+   <line l="746"/>
+   <line l="1013"/>
+   <line l="728"/>
+   <line l="1005"/>
+   <line l="1067"/>
+   <line l="757"/>
+   <line l="730"/>
+   <line l="1056"/>
+   <line l="729"/>
+   <line l="982"/>
+   <line l="863"/>
+   <line l="1041"/>
+   <line l="841"/>
+   <line l="1089"/>
+   <line l="751"/>
+   <line l="984"/>
+   <line l="1062"/>
+   <line l="947"/>
+   <line l="810"/>
+   <line l="854"/>
+   <line l="1051"/>
+   <line l="1023"/>
+   <line l="888"/>
+   <line l="781"/>
+   <line l="1059"/>
+   <line l="847"/>
+   <line l="857"/>
+   <line l="817"/>
+   <line l="1029"/>
+   <line l="909"/>
+   <line l="1077"/>
+   <line l="813"/>
+   <line l="886"/>
+   <line l="936"/>
+   <line l="1037"/>
+   <line l="736"/>
+   <line l="1011"/>
+   <line l="940"/>
+   <line l="814"/>
+   <line l="962"/>
+   <line l="943"/>
+   <line l="929"/>
+   <line l="988"/>
+   <line l="1003"/>
+   <line l="1004"/>
+   <line l="784"/>
+   <line l="804"/>
+   <line l="762"/>
+   <line l="844"/>
+   <line l="1027"/>
+   <line l="725"/>
+   <line l="821"/>
+   <line l="778"/>
+   <line l="812"/>
+   <line l="930"/>
+   <line l="1028"/>
+   <line l="747"/>
+   <line l="818"/>
+  </lines>
+ </mapping>
+</allatori>

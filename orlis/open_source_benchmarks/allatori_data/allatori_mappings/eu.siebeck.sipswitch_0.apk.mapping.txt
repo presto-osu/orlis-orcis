@@ -1,0 +1,1586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v5.9 Educational
+   Web: http://www.allatori.com
+
+   Log created: Mon Aug 13 21:45:20 EDT 2018
+-->
+
+<allatori>
+ <mapping>
+  <class old="eu.siebeck.sipswitch.SipSwitchActivity" new="eu.siebeck.sipswitch.SipSwitchActivity">
+   <method old="addRemoteViews(Landroid/content/Context;II)V" new="m_F"/>
+   <method old="deleteRemoteViews(I)V" new="m_f"/>
+   <method old="getModeImage(Ljava/lang/String;)I" new="m_g"/>
+   <method old="getModeIndicator(Ljava/lang/String;)I" new="m_d"/>
+   <method old="getModeToast(Ljava/lang/String;)I" new="m_c"/>
+   <method old="getRemoteViews(Landroid/content/Context;I)Landroid/widget/RemoteViews;" new="m_A"/>
+   <method old="getSipSettingsIntent()Landroid/content/Intent;" new="m_H"/>
+   <method old="onAppWidgetOptionsChanged(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;ILandroid/os/Bundle;)V" new="onAppWidgetOptionsChanged"/>
+   <method old="onDeleted(Landroid/content/Context;[I)V" new="onDeleted"/>
+   <method old="onReceive(Landroid/content/Context;Landroid/content/Intent;)V" new="onReceive"/>
+   <method old="onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V" new="onUpdate"/>
+   <method old="setCallMode(Landroid/content/Context;Ljava/lang/String;)V" new="m_h"/>
+   <method old="toggleCallMode(Ljava/lang/String;)Ljava/lang/String;" new="m_b"/>
+   <method old="updateWidget(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;ILandroid/widget/RemoteViews;)V" new="m_I"/>
+   <method old="updateWidgetView(Landroid/content/Context;)V" new="m_L"/>
+   <field old="ACTION_SIP_CALL_OPTION_CHANGED Ljava/lang/String;" new="f_I"/>
+   <field old="CALL_MODE Ljava/lang/String;" new="f_h"/>
+   <field old="ENABLE_SIP_ACTION Ljava/lang/String;" new="f_J"/>
+   <field old="EXTRA_CALL_MODE Ljava/lang/String;" new="f_B"/>
+   <field old="LOG Ljava/lang/String;" new="f_b"/>
+   <field old="SIP_ADDRESS_ONLY Ljava/lang/String;" new="f_E"/>
+   <field old="SIP_ALWAYS Ljava/lang/String;" new="f_i"/>
+   <field old="SIP_ASK_ME_EACH_TIME Ljava/lang/String;" new="f_L"/>
+   <field old="SIP_CALL_OPTIONS Ljava/lang/String;" new="f_l"/>
+   <field old="SIP_SWITCH_TILE_ID I" new="f_H"/>
+   <field old="remoteViewsMap Ljava/util/Map;" new="f_j"/>
+  </class>
+  <class old="eu.siebeck.sipswitch.BuildConfig" new="eu.siebeck.sipswitch.c_j">
+   <field old="APPLICATION_ID Ljava/lang/String;" new="f_l"/>
+   <field old="BUILD_TYPE Ljava/lang/String;" new="f_E"/>
+   <field old="DEBUG Z" new="f_H"/>
+   <field old="FLAVOR Ljava/lang/String;" new="f_J"/>
+   <field old="VERSION_CODE I" new="f_b"/>
+   <field old="VERSION_NAME Ljava/lang/String;" new="f_j"/>
+  </class>
+  <class old="cyanogenmod.app.ICustomTileListener" new="cyanogenmod.app.c_j">
+   <method old="onCustomTilePosted(Lorg/cyanogenmod/internal/statusbar/IStatusBarCustomTileHolder;)V" new="m_j"/>
+   <method old="onCustomTileRemoved(Lorg/cyanogenmod/internal/statusbar/IStatusBarCustomTileHolder;)V" new="m_i"/>
+   <method old="onListenerConnected()V" new="m_G"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTile$1" new="cyanogenmod.app.c_M">
+   <method old="createFromParcel(Landroid/os/Parcel;)Lcyanogenmod/app/CustomTile;" new="m_Y"/>
+   <method old="createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;" new="createFromParcel"/>
+   <method old="newArray(I)[Lcyanogenmod/app/CustomTile;" new="m_R"/>
+   <method old="newArray(I)[Ljava/lang/Object;" new="newArray"/>
+  </class>
+  <class old="eu.siebeck.sipswitch.R" new="eu.siebeck.sipswitch.R">
+  </class>
+  <class old="cyanogenmod.app.CMStatusBarManager" new="cyanogenmod.app.c_h">
+   <method old="getInstance(Landroid/content/Context;)Lcyanogenmod/app/CMStatusBarManager;" new="m_ya"/>
+   <method old="getService()Lcyanogenmod/app/ICMStatusBarManager;" new="m_Ua"/>
+   <method old="publishTile(ILcyanogenmod/app/CustomTile;)V" new="m_va"/>
+   <method old="publishTile(Ljava/lang/String;ILcyanogenmod/app/CustomTile;)V" new="m_Za"/>
+   <method old="publishTileAsUser(Ljava/lang/String;ILcyanogenmod/app/CustomTile;Landroid/os/UserHandle;)V" new="m_ua"/>
+   <method old="removeTile(I)V" new="m_Wa"/>
+   <method old="removeTile(Ljava/lang/String;I)V" new="m_ra"/>
+   <method old="removeTileAsUser(Ljava/lang/String;ILandroid/os/UserHandle;)V" new="m_Xa"/>
+   <field old="TAG Ljava/lang/String;" new="f_E"/>
+   <field old="localLOGV Z" new="f_H"/>
+   <field old="mContext Landroid/content/Context;" new="f_J"/>
+   <field old="sCMStatusBarManagerInstance Lcyanogenmod/app/CMStatusBarManager;" new="f_b"/>
+   <field old="sService Lcyanogenmod/app/ICMStatusBarManager;" new="f_j"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTile$ExpandedItem" new="cyanogenmod.app.CustomTile$ExpandedItem">
+   <method old="describeContents()I" new="describeContents"/>
+   <method old="internalSetItemDrawable(I)V" new="m_Ba"/>
+   <method old="internalSetItemSummary(Ljava/lang/String;)V" new="m_Ka"/>
+   <method old="internalSetItemTitle(Ljava/lang/String;)V" new="m_La"/>
+   <method old="internalSetOnClickPendingIntent(Landroid/app/PendingIntent;)V" new="m_Ha"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="writeToParcel(Landroid/os/Parcel;I)V" new="writeToParcel"/>
+   <field old="CREATOR Landroid/os/Parcelable$Creator;" new="CREATOR"/>
+   <field old="itemDrawableResourceId I" new="f_b"/>
+   <field old="itemSummary Ljava/lang/String;" new="f_j"/>
+   <field old="itemTitle Ljava/lang/String;" new="f_E"/>
+   <field old="onClickPendingIntent Landroid/app/PendingIntent;" new="f_J"/>
+  </class>
+  <class old="org.cyanogenmod.internal.statusbar.ExternalQuickSettingsRecord" new="wy.c_b">
+   <method old="getCustomTile()Lcyanogenmod/app/CustomTile;" new="m_J"/>
+   <method old="getKey()Ljava/lang/String;" new="m_C"/>
+   <method old="getUser()Landroid/os/UserHandle;" new="m_K"/>
+   <method old="getUserId()I" new="m_M"/>
+   <field old="isCanceled Z" new="f_j"/>
+   <field old="isUpdate Z" new="f_E"/>
+   <field old="sbTile Lcyanogenmod/app/StatusBarPanelCustomTile;" new="f_b"/>
+  </class>
+  <class old="cyanogenmod.app.CMContextConstants" new="cyanogenmod.app.c_g">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_V"/>
+   <field old="CM_STATUS_BAR_SERVICE Ljava/lang/String;" new="f_b"/>
+  </class>
+  <class old="eu.siebeck.sipswitch.R$mipmap" new="eu.siebeck.sipswitch.R$mipmap">
+   <field old="mode_ask I" new="mode_ask"/>
+   <field old="mode_phone I" new="mode_phone"/>
+   <field old="mode_sip I" new="mode_sip"/>
+   <field old="sip_settings I" new="sip_settings"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTile$ExpandedGridItem" new="cyanogenmod.app.c_c">
+   <method old="describeContents()I" new="describeContents"/>
+   <method old="internalSetItemDrawable(I)V" new="m_Ba"/>
+   <method old="internalSetItemSummary(Ljava/lang/String;)V" new="m_Ka"/>
+   <method old="internalSetItemTitle(Ljava/lang/String;)V" new="m_La"/>
+   <method old="internalSetOnClickPendingIntent(Landroid/app/PendingIntent;)V" new="m_Ha"/>
+   <method old="setExpandedGridItemDrawable(I)V" new="m_ba"/>
+   <method old="setExpandedGridItemOnClickIntent(Landroid/app/PendingIntent;)V" new="m_ka"/>
+   <method old="setExpandedGridItemTitle(Ljava/lang/String;)V" new="m_ga"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="writeToParcel(Landroid/os/Parcel;I)V" new="writeToParcel"/>
+   <field old="CREATOR Landroid/os/Parcelable$Creator;" new="CREATOR"/>
+   <field old="itemDrawableResourceId I" new="f_b"/>
+   <field old="itemSummary Ljava/lang/String;" new="f_j"/>
+   <field old="itemTitle Ljava/lang/String;" new="f_E"/>
+   <field old="onClickPendingIntent Landroid/app/PendingIntent;" new="f_J"/>
+  </class>
+  <class old="cyanogenmod.app.ThemeVersion$ComponentVersion" new="cyanogenmod.app.c_l">
+   <method old="getComponent()Lcyanogenmod/app/ThemeComponent;" new="m_T"/>
+   <method old="getCurrentVersion()I" new="m_W"/>
+   <method old="getId()I" new="m_u"/>
+   <method old="getMinVersion()I" new="m_x"/>
+   <method old="getName()Ljava/lang/String;" new="m_N"/>
+   <field old="component Lcyanogenmod/app/ThemeComponent;" new="f_H"/>
+   <field old="currentVersion I" new="f_b"/>
+   <field old="id I" new="f_j"/>
+   <field old="minVersion I" new="f_J"/>
+   <field old="name Ljava/lang/String;" new="f_E"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTile$ExpandedItem$1" new="cyanogenmod.app.c_k">
+   <method old="createFromParcel(Landroid/os/Parcel;)Lcyanogenmod/app/CustomTile$ExpandedItem;" new="m_Y"/>
+   <method old="createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;" new="createFromParcel"/>
+   <method old="newArray(I)[Lcyanogenmod/app/CustomTile$ExpandedItem;" new="m_R"/>
+   <method old="newArray(I)[Ljava/lang/Object;" new="newArray"/>
+  </class>
+  <class old="cyanogenmod.app.ThemeComponent" new="cyanogenmod.app.ThemeComponent">
+   <method old="valueOf(Ljava/lang/String;)Lcyanogenmod/app/ThemeComponent;" new="valueOf"/>
+   <method old="values()[Lcyanogenmod/app/ThemeComponent;" new="values"/>
+   <field old="$VALUES [Lcyanogenmod/app/ThemeComponent;" new="f_l"/>
+   <field old="BOOT_ANIM Lcyanogenmod/app/ThemeComponent;" new="f_i"/>
+   <field old="FONT Lcyanogenmod/app/ThemeComponent;" new="f_J"/>
+   <field old="ICON Lcyanogenmod/app/ThemeComponent;" new="f_I"/>
+   <field old="LOCKSCREEN Lcyanogenmod/app/ThemeComponent;" new="f_b"/>
+   <field old="OVERLAY Lcyanogenmod/app/ThemeComponent;" new="f_h"/>
+   <field old="SOUND Lcyanogenmod/app/ThemeComponent;" new="f_B"/>
+   <field old="UNKNOWN Lcyanogenmod/app/ThemeComponent;" new="f_E"/>
+   <field old="WALLPAPER Lcyanogenmod/app/ThemeComponent;" new="f_H"/>
+   <field old="id I" new="f_j"/>
+  </class>
+  <class old="cyanogenmod.app.StatusBarPanelCustomTile" new="cyanogenmod.app.StatusBarPanelCustomTile">
+   <method old="clone()Lcyanogenmod/app/StatusBarPanelCustomTile;" new="m_P"/>
+   <method old="clone()Ljava/lang/Object;" new="clone"/>
+   <method old="describeContents()I" new="describeContents"/>
+   <method old="getCustomTile()Lcyanogenmod/app/CustomTile;" new="m_J"/>
+   <method old="getId()I" new="m_u"/>
+   <method old="getInitialPid()I" new="m_w"/>
+   <method old="getKey()Ljava/lang/String;" new="m_C"/>
+   <method old="getOpPkg()Ljava/lang/String;" new="m_y"/>
+   <method old="getPackage()Ljava/lang/String;" new="m_U"/>
+   <method old="getPostTime()J" new="m_v"/>
+   <method old="getTag()Ljava/lang/String;" new="m_Z"/>
+   <method old="getUid()I" new="m_q"/>
+   <method old="getUser()Landroid/os/UserHandle;" new="m_K"/>
+   <method old="getUserId()I" new="m_M"/>
+   <method old="key()Ljava/lang/String;" new="m_O"/>
+   <method old="writeToParcel(Landroid/os/Parcel;I)V" new="writeToParcel"/>
+   <field old="CREATOR Landroid/os/Parcelable$Creator;" new="CREATOR"/>
+   <field old="customTile Lcyanogenmod/app/CustomTile;" new="f_b"/>
+   <field old="id I" new="f_I"/>
+   <field old="initialPid I" new="f_B"/>
+   <field old="key Ljava/lang/String;" new="f_h"/>
+   <field old="opPkg Ljava/lang/String;" new="f_i"/>
+   <field old="pkg Ljava/lang/String;" new="f_l"/>
+   <field old="postTime J" new="f_j"/>
+   <field old="tag Ljava/lang/String;" new="f_J"/>
+   <field old="uid I" new="f_E"/>
+   <field old="user Landroid/os/UserHandle;" new="f_H"/>
+  </class>
+  <class old="cyanogenmod.app.ICustomTileListener$Stub" new="cyanogenmod.app.c_L">
+   <method old="asBinder()Landroid/os/IBinder;" new="asBinder"/>
+   <method old="asInterface(Landroid/os/IBinder;)Lcyanogenmod/app/ICustomTileListener;" new="m_E"/>
+   <method old="onCustomTilePosted(Lorg/cyanogenmod/internal/statusbar/IStatusBarCustomTileHolder;)V" new="m_j"/>
+   <method old="onCustomTileRemoved(Lorg/cyanogenmod/internal/statusbar/IStatusBarCustomTileHolder;)V" new="m_i"/>
+   <method old="onListenerConnected()V" new="m_G"/>
+   <method old="onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z" new="onTransact"/>
+   <field old="DESCRIPTOR Ljava/lang/String;" new="f_b"/>
+   <field old="TRANSACTION_onCustomTilePosted_1 I" new="f_j"/>
+   <field old="TRANSACTION_onCustomTileRemoved I" new="f_J"/>
+   <field old="TRANSACTION_onListenerConnected_0 I" new="f_E"/>
+  </class>
+  <class old="cyanogenmod.app.ICMStatusBarManager$Stub" new="cyanogenmod.app.c_i">
+   <method old="asBinder()Landroid/os/IBinder;" new="asBinder"/>
+   <method old="asInterface(Landroid/os/IBinder;)Lcyanogenmod/app/ICMStatusBarManager;" new="m_E"/>
+   <method old="createCustomTileWithTag(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcyanogenmod/app/CustomTile;[II)V" new="m_D"/>
+   <method old="onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z" new="onTransact"/>
+   <method old="registerListener(Lcyanogenmod/app/ICustomTileListener;Landroid/content/ComponentName;I)V" new="m_m"/>
+   <method old="removeCustomTileFromListener(Lcyanogenmod/app/ICustomTileListener;Ljava/lang/String;Ljava/lang/String;I)V" new="m_k"/>
+   <method old="removeCustomTileWithTag(Ljava/lang/String;Ljava/lang/String;II)V" new="m_e"/>
+   <method old="unregisterListener(Lcyanogenmod/app/ICustomTileListener;I)V" new="m_a"/>
+   <field old="DESCRIPTOR Ljava/lang/String;" new="f_H"/>
+   <field old="TRANSACTION_createCustomTileWithTag I" new="f_J"/>
+   <field old="TRANSACTION_registerListener I" new="f_E"/>
+   <field old="TRANSACTION_removeCustomTileFromListener I" new="f_l"/>
+   <field old="TRANSACTION_removeCustomTileWithTag I" new="f_j"/>
+   <field old="TRANSACTION_unregisterListener I" new="f_b"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTileListenerService" new="cyanogenmod.app.CustomTileListenerService">
+   <method old="access$100(Lcyanogenmod/app/CustomTileListenerService;)Lcyanogenmod/app/CustomTileListenerService$ICustomTileListenerWrapper;" new="m_t"/>
+   <method old="access$200(Lcyanogenmod/app/CustomTileListenerService;)Ljava/lang/String;" new="m_aa"/>
+   <method old="getStatusBarInterface()Lcyanogenmod/app/ICMStatusBarManager;" new="m_fa"/>
+   <method old="isBound()Z" new="m_ea"/>
+   <method old="onBind(Landroid/content/Intent;)Landroid/os/IBinder;" new="onBind"/>
+   <method old="onCustomTilePosted(Lcyanogenmod/app/StatusBarPanelCustomTile;)V" new="m_Ja"/>
+   <method old="onCustomTileRemoved(Lcyanogenmod/app/StatusBarPanelCustomTile;)V" new="m_S"/>
+   <method old="onListenerConnected()V" new="m_G"/>
+   <method old="registerAsSystemService(Landroid/content/Context;Landroid/content/ComponentName;I)V" new="m_ma"/>
+   <method old="removeCustomTile(Ljava/lang/String;Ljava/lang/String;I)V" new="m_Aa"/>
+   <method old="unregisterAsSystemService()V" new="m_Ma"/>
+   <field old="SERVICE_INTERFACE Ljava/lang/String;" new="f_E"/>
+   <field old="TAG Ljava/lang/String;" new="f_j"/>
+   <field old="mCurrentUser I" new="f_H"/>
+   <field old="mStatusBarService Lcyanogenmod/app/ICMStatusBarManager;" new="f_b"/>
+   <field old="mWrapper Lcyanogenmod/app/CustomTileListenerService$ICustomTileListenerWrapper;" new="f_J"/>
+  </class>
+  <class old="cyanogenmod.app.ThemeVersion$ThemeVersionImpl2" new="cyanogenmod.app.c_m">
+   <method old="getDeviceComponentVersion(Lcyanogenmod/app/ThemeComponent;)Lcyanogenmod/app/ThemeVersion$ComponentVersion;" new="m_z"/>
+   <method old="getDeviceComponentVersions()Ljava/util/List;" new="m_X"/>
+   <field old="cVersions Ljava/util/ArrayList;" new="f_b"/>
+  </class>
+  <class old="cyanogenmod.app.ThemeVersion$ThemeVersionImpl3" new="cyanogenmod.app.c_I">
+   <method old="fwCompVersionToSdkVersion(Landroid/content/ThemeVersion$ComponentVersion;)Lcyanogenmod/app/ThemeVersion$ComponentVersion;" new="m_s"/>
+   <method old="getDeviceComponentVersion(Lcyanogenmod/app/ThemeComponent;)Lcyanogenmod/app/ThemeVersion$ComponentVersion;" new="m_z"/>
+   <method old="getDeviceComponentVersions()Ljava/util/List;" new="m_X"/>
+  </class>
+  <class old="cyanogenmod.app.StatusBarPanelCustomTile$1" new="cyanogenmod.app.c_C">
+   <method old="createFromParcel(Landroid/os/Parcel;)Lcyanogenmod/app/StatusBarPanelCustomTile;" new="m_Y"/>
+   <method old="createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;" new="createFromParcel"/>
+   <method old="newArray(I)[Lcyanogenmod/app/StatusBarPanelCustomTile;" new="m_R"/>
+   <method old="newArray(I)[Ljava/lang/Object;" new="newArray"/>
+  </class>
+  <class old="eu.siebeck.sipswitch.R$xml" new="eu.siebeck.sipswitch.R$xml">
+   <field old="widget_info I" new="widget_info"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTile$ExpandedStyle$1" new="cyanogenmod.app.c_J">
+   <method old="createFromParcel(Landroid/os/Parcel;)Lcyanogenmod/app/CustomTile$ExpandedStyle;" new="m_Y"/>
+   <method old="createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;" new="createFromParcel"/>
+   <method old="newArray(I)[Lcyanogenmod/app/CustomTile$ExpandedStyle;" new="m_R"/>
+   <method old="newArray(I)[Ljava/lang/Object;" new="newArray"/>
+  </class>
+  <class old="eu.siebeck.sipswitch.R$attr" new="eu.siebeck.sipswitch.R$attr">
+  </class>
+  <class old="cyanogenmod.app.ThemeVersion$ThemeVersionImpl2$1" new="cyanogenmod.app.c_b">
+  </class>
+  <class old="cyanogenmod.app.ICMStatusBarManager" new="cyanogenmod.app.c_E">
+   <method old="createCustomTileWithTag(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcyanogenmod/app/CustomTile;[II)V" new="m_D"/>
+   <method old="registerListener(Lcyanogenmod/app/ICustomTileListener;Landroid/content/ComponentName;I)V" new="m_m"/>
+   <method old="removeCustomTileFromListener(Lcyanogenmod/app/ICustomTileListener;Ljava/lang/String;Ljava/lang/String;I)V" new="m_k"/>
+   <method old="removeCustomTileWithTag(Ljava/lang/String;Ljava/lang/String;II)V" new="m_e"/>
+   <method old="unregisterListener(Lcyanogenmod/app/ICustomTileListener;I)V" new="m_a"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTileListenerService$1" new="cyanogenmod.app.c_e">
+  </class>
+  <class old="cyanogenmod.app.ICMStatusBarManager$Stub$Proxy" new="cyanogenmod.app.c_f">
+   <method old="asBinder()Landroid/os/IBinder;" new="asBinder"/>
+   <method old="createCustomTileWithTag(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ILcyanogenmod/app/CustomTile;[II)V" new="m_D"/>
+   <method old="getInterfaceDescriptor()Ljava/lang/String;" new="m_l"/>
+   <method old="registerListener(Lcyanogenmod/app/ICustomTileListener;Landroid/content/ComponentName;I)V" new="m_m"/>
+   <method old="removeCustomTileFromListener(Lcyanogenmod/app/ICustomTileListener;Ljava/lang/String;Ljava/lang/String;I)V" new="m_k"/>
+   <method old="removeCustomTileWithTag(Ljava/lang/String;Ljava/lang/String;II)V" new="m_e"/>
+   <method old="unregisterListener(Lcyanogenmod/app/ICustomTileListener;I)V" new="m_a"/>
+   <field old="mRemote Landroid/os/IBinder;" new="f_b"/>
+  </class>
+  <class old="org.cyanogenmod.internal.statusbar.IStatusBarCustomTileHolder$Stub" new="wy.c_I">
+   <method old="asBinder()Landroid/os/IBinder;" new="asBinder"/>
+   <method old="asInterface(Landroid/os/IBinder;)Lorg/cyanogenmod/internal/statusbar/IStatusBarCustomTileHolder;" new="m_E"/>
+   <method old="get()Lcyanogenmod/app/StatusBarPanelCustomTile;" new="m_B"/>
+   <method old="onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z" new="onTransact"/>
+   <field old="DESCRIPTOR Ljava/lang/String;" new="f_b"/>
+   <field old="TRANSACTION_get_0 I" new="f_E"/>
+  </class>
+  <class old="eu.siebeck.sipswitch.R$layout" new="eu.siebeck.sipswitch.R$layout">
+   <field old="widget_layout I" new="widget_layout"/>
+   <field old="widget_layout_small I" new="widget_layout_small"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTile" new="cyanogenmod.app.CustomTile">
+   <method old="clone()Lcyanogenmod/app/CustomTile;" new="m_P"/>
+   <method old="clone()Ljava/lang/Object;" new="clone"/>
+   <method old="cloneInto(Lcyanogenmod/app/CustomTile;)V" new="m_Na"/>
+   <method old="describeContents()I" new="describeContents"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="writeToParcel(Landroid/os/Parcel;I)V" new="writeToParcel"/>
+   <field old="CREATOR Landroid/os/Parcelable$Creator;" new="CREATOR"/>
+   <field old="contentDescription Ljava/lang/String;" new="f_b"/>
+   <field old="expandedStyle Lcyanogenmod/app/CustomTile$ExpandedStyle;" new="f_E"/>
+   <field old="icon I" new="f_h"/>
+   <field old="label Ljava/lang/String;" new="f_l"/>
+   <field old="onClick Landroid/app/PendingIntent;" new="f_J"/>
+   <field old="onClickUri Landroid/net/Uri;" new="f_H"/>
+   <field old="onSettingsClick Landroid/content/Intent;" new="f_j"/>
+  </class>
+  <class old="eu.siebeck.sipswitch.R$id" new="eu.siebeck.sipswitch.R$id">
+   <field old="callModeButton I" new="callModeButton"/>
+   <field old="img_mode I" new="img_mode"/>
+   <field old="img_sip I" new="img_sip"/>
+   <field old="ind_mode I" new="ind_mode"/>
+   <field old="ind_sip I" new="ind_sip"/>
+   <field old="main I" new="main"/>
+   <field old="sipButton I" new="sipButton"/>
+  </class>
+  <class old="org.cyanogenmod.internal.statusbar.IStatusBarCustomTileHolder$Stub$Proxy" new="wy.c_E">
+   <method old="asBinder()Landroid/os/IBinder;" new="asBinder"/>
+   <method old="get()Lcyanogenmod/app/StatusBarPanelCustomTile;" new="m_B"/>
+   <method old="getInterfaceDescriptor()Ljava/lang/String;" new="m_l"/>
+   <field old="mRemote Landroid/os/IBinder;" new="f_b"/>
+  </class>
+  <class old="cyanogenmod.app.ThemeVersion" new="cyanogenmod.app.c_H">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_V"/>
+   <method old="getComponentVersion(Lcyanogenmod/app/ThemeComponent;)Lcyanogenmod/app/ThemeVersion$ComponentVersion;" new="m_p"/>
+   <method old="getComponentVersions()Ljava/util/List;" new="m_n"/>
+   <method old="getMinSupportedVersion()I" new="m_Q"/>
+   <method old="getVersion()I" new="m_o"/>
+   <field old="CM11 I" new="f_E"/>
+   <field old="CM12_PRE_VERSIONING I" new="f_J"/>
+   <field old="MIN_SUPPORTED_THEME_VERSION_FIELD_NAME Ljava/lang/String;" new="f_j"/>
+   <field old="THEME_VERSION_CLASS_NAME Ljava/lang/String;" new="f_b"/>
+   <field old="THEME_VERSION_FIELD_NAME Ljava/lang/String;" new="f_H"/>
+  </class>
+  <class old="cyanogenmod.os.Build" new="wy.c_H">
+   <method old="getNameForSDKInt(I)Ljava/lang/String;" new="m_r"/>
+   <field old="PARCELABLE_VERSION I" new="f_E"/>
+   <field old="UNKNOWN Ljava/lang/String;" new="f_b"/>
+   <field old="sdkMap Landroid/util/SparseArray;" new="f_j"/>
+  </class>
+  <class old="cyanogenmod.os.Build$CM_VERSION_CODES" new="wy.c_m">
+   <field old="APRICOT I" new="f_b"/>
+  </class>
+  <class old="org.cyanogenmod.internal.statusbar.IStatusBarCustomTileHolder" new="wy.c_j">
+   <method old="get()Lcyanogenmod/app/StatusBarPanelCustomTile;" new="m_B"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTile$Builder" new="cyanogenmod.app.c_a">
+   <method old="build()Lcyanogenmod/app/CustomTile;" new="m_qa"/>
+   <method old="setContentDescription(I)Lcyanogenmod/app/CustomTile$Builder;" new="m_Fa"/>
+   <method old="setContentDescription(Ljava/lang/String;)Lcyanogenmod/app/CustomTile$Builder;" new="m_ta"/>
+   <method old="setExpandedStyle(Lcyanogenmod/app/CustomTile$ExpandedStyle;)Lcyanogenmod/app/CustomTile$Builder;" new="m_za"/>
+   <method old="setIcon(I)Lcyanogenmod/app/CustomTile$Builder;" new="m_wa"/>
+   <method old="setLabel(I)Lcyanogenmod/app/CustomTile$Builder;" new="m_Ta"/>
+   <method old="setLabel(Ljava/lang/String;)Lcyanogenmod/app/CustomTile$Builder;" new="m_Ya"/>
+   <method old="setOnClickIntent(Landroid/app/PendingIntent;)Lcyanogenmod/app/CustomTile$Builder;" new="m_Sa"/>
+   <method old="setOnClickUri(Landroid/net/Uri;)Lcyanogenmod/app/CustomTile$Builder;" new="m_na"/>
+   <method old="setOnSettingsClickIntent(Landroid/content/Intent;)Lcyanogenmod/app/CustomTile$Builder;" new="m_Oa"/>
+   <field old="mContentDescription Ljava/lang/String;" new="f_J"/>
+   <field old="mContext Landroid/content/Context;" new="f_h"/>
+   <field old="mExpandedStyle Lcyanogenmod/app/CustomTile$ExpandedStyle;" new="f_i"/>
+   <field old="mIcon I" new="f_j"/>
+   <field old="mLabel Ljava/lang/String;" new="f_E"/>
+   <field old="mOnClick Landroid/app/PendingIntent;" new="f_H"/>
+   <field old="mOnClickUri Landroid/net/Uri;" new="f_b"/>
+   <field old="mOnSettingsClick Landroid/content/Intent;" new="f_l"/>
+  </class>
+  <class old="cyanogenmod.os.Build$CM_VERSION" new="wy.c_l">
+   <field old="SDK_INT I" new="f_b"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTile$ListExpandedStyle" new="cyanogenmod.app.c_D">
+   <method old="describeContents()I" new="describeContents"/>
+   <method old="getExpandedItems()[Lcyanogenmod/app/CustomTile$ExpandedItem;" new="m_la"/>
+   <method old="getStyle()I" new="m_ha"/>
+   <method old="internalSetExpandedItems(Ljava/util/ArrayList;)V" new="m_Ea"/>
+   <method old="internalStyleId(I)V" new="m_ca"/>
+   <method old="setBuilder(Lcyanogenmod/app/CustomTile$Builder;)V" new="m_ja"/>
+   <method old="setListItems(Ljava/util/ArrayList;)V" new="m_Ca"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="writeToParcel(Landroid/os/Parcel;I)V" new="writeToParcel"/>
+   <field old="CREATOR Landroid/os/Parcelable$Creator;" new="CREATOR"/>
+   <field old="GRID_STYLE I" new="f_j"/>
+   <field old="LIST_STYLE I" new="f_E"/>
+   <field old="NO_STYLE I" new="f_J"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTileListenerService$ICustomTileListenerWrapper" new="cyanogenmod.app.c_B">
+   <method old="asBinder()Landroid/os/IBinder;" new="asBinder"/>
+   <method old="asInterface(Landroid/os/IBinder;)Lcyanogenmod/app/ICustomTileListener;" new="m_E"/>
+   <method old="onCustomTilePosted(Lorg/cyanogenmod/internal/statusbar/IStatusBarCustomTileHolder;)V" new="m_j"/>
+   <method old="onCustomTileRemoved(Lorg/cyanogenmod/internal/statusbar/IStatusBarCustomTileHolder;)V" new="m_i"/>
+   <method old="onListenerConnected()V" new="m_G"/>
+   <method old="onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z" new="onTransact"/>
+   <field old="TRANSACTION_onCustomTilePosted_1 I" new="f_j"/>
+   <field old="TRANSACTION_onCustomTileRemoved I" new="f_J"/>
+   <field old="TRANSACTION_onListenerConnected_0 I" new="f_E"/>
+   <field old="this$0 Lcyanogenmod/app/CustomTileListenerService;" new="f_b"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTile$ExpandedStyle" new="cyanogenmod.app.CustomTile$ExpandedStyle">
+   <method old="describeContents()I" new="describeContents"/>
+   <method old="getExpandedItems()[Lcyanogenmod/app/CustomTile$ExpandedItem;" new="m_la"/>
+   <method old="getStyle()I" new="m_ha"/>
+   <method old="internalSetExpandedItems(Ljava/util/ArrayList;)V" new="m_Ea"/>
+   <method old="internalStyleId(I)V" new="m_ca"/>
+   <method old="setBuilder(Lcyanogenmod/app/CustomTile$Builder;)V" new="m_ja"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="writeToParcel(Landroid/os/Parcel;I)V" new="writeToParcel"/>
+   <field old="CREATOR Landroid/os/Parcelable$Creator;" new="CREATOR"/>
+   <field old="GRID_STYLE I" new="f_j"/>
+   <field old="LIST_STYLE I" new="f_E"/>
+   <field old="NO_STYLE I" new="f_J"/>
+   <field old="expandedItems [Lcyanogenmod/app/CustomTile$ExpandedItem;" new="f_H"/>
+   <field old="styleId I" new="f_b"/>
+  </class>
+  <class old="eu.siebeck.sipswitch.R$drawable" new="eu.siebeck.sipswitch.R$drawable">
+   <field old="app_gauge I" new="app_gauge"/>
+   <field old="app_settings I" new="app_settings"/>
+   <field old="appwidget_bg I" new="appwidget_bg"/>
+   <field old="appwidget_button_center I" new="appwidget_button_center"/>
+   <field old="appwidget_button_left I" new="appwidget_button_left"/>
+   <field old="appwidget_button_right I" new="appwidget_button_right"/>
+   <field old="appwidget_inner_focus_c I" new="appwidget_inner_focus_c"/>
+   <field old="appwidget_inner_focus_l I" new="appwidget_inner_focus_l"/>
+   <field old="appwidget_inner_focus_r I" new="appwidget_inner_focus_r"/>
+   <field old="appwidget_inner_press_c I" new="appwidget_inner_press_c"/>
+   <field old="appwidget_inner_press_l I" new="appwidget_inner_press_l"/>
+   <field old="appwidget_inner_press_r I" new="appwidget_inner_press_r"/>
+   <field old="appwidget_settings_divider I" new="appwidget_settings_divider"/>
+   <field old="appwidget_settings_ind_mid_c I" new="appwidget_settings_ind_mid_c"/>
+   <field old="appwidget_settings_ind_mid_l I" new="appwidget_settings_ind_mid_l"/>
+   <field old="appwidget_settings_ind_mid_r I" new="appwidget_settings_ind_mid_r"/>
+   <field old="appwidget_settings_ind_off_c I" new="appwidget_settings_ind_off_c"/>
+   <field old="appwidget_settings_ind_off_l I" new="appwidget_settings_ind_off_l"/>
+   <field old="appwidget_settings_ind_off_r I" new="appwidget_settings_ind_off_r"/>
+   <field old="appwidget_settings_ind_on_c I" new="appwidget_settings_ind_on_c"/>
+   <field old="appwidget_settings_ind_on_l I" new="appwidget_settings_ind_on_l"/>
+   <field old="appwidget_settings_ind_on_r I" new="appwidget_settings_ind_on_r"/>
+   <field old="sip_switch_ori_portrait I" new="sip_switch_ori_portrait"/>
+  </class>
+  <class old="eu.siebeck.sipswitch.R$string" new="eu.siebeck.sipswitch.R$string">
+   <field old="add_sip_account I" new="add_sip_account"/>
+   <field old="advanced_settings I" new="advanced_settings"/>
+   <field old="advanced_settings_container I" new="advanced_settings_container"/>
+   <field old="advanced_settings_hide I" new="advanced_settings_hide"/>
+   <field old="advanced_settings_show I" new="advanced_settings_show"/>
+   <field old="alert_dialog_close I" new="alert_dialog_close"/>
+   <field old="alert_dialog_ok I" new="alert_dialog_ok"/>
+   <field old="app_name I" new="app_name"/>
+   <field old="auth_username I" new="auth_username"/>
+   <field old="auth_username_summary I" new="auth_username_summary"/>
+   <field old="auth_username_title I" new="auth_username_title"/>
+   <field old="close_profile I" new="close_profile"/>
+   <field old="default_port I" new="default_port"/>
+   <field old="default_preference_summary I" new="default_preference_summary"/>
+   <field old="default_transport I" new="default_transport"/>
+   <field old="display_name I" new="display_name"/>
+   <field old="display_name_summary I" new="display_name_summary"/>
+   <field old="display_name_title I" new="display_name_title"/>
+   <field old="domain_address I" new="domain_address"/>
+   <field old="domain_address_title I" new="domain_address_title"/>
+   <field old="empty_alert I" new="empty_alert"/>
+   <field old="internet_phone I" new="internet_phone"/>
+   <field old="no_internet_available I" new="no_internet_available"/>
+   <field old="no_internet_available_title I" new="no_internet_available_title"/>
+   <field old="no_sip_account_found I" new="no_sip_account_found"/>
+   <field old="no_sip_account_found_title I" new="no_sip_account_found_title"/>
+   <field old="no_voip I" new="no_voip"/>
+   <field old="no_wifi_available I" new="no_wifi_available"/>
+   <field old="no_wifi_available_title I" new="no_wifi_available_title"/>
+   <field old="not_a_valid_port I" new="not_a_valid_port"/>
+   <field old="optional_summary I" new="optional_summary"/>
+   <field old="password I" new="password"/>
+   <field old="password_title I" new="password_title"/>
+   <field old="pick_outgoing_call_phone_type I" new="pick_outgoing_call_phone_type"/>
+   <field old="pick_outgoing_sip_phone I" new="pick_outgoing_sip_phone"/>
+   <field old="port I" new="port"/>
+   <field old="port_title I" new="port_title"/>
+   <field old="primary_account_summary_with I" new="primary_account_summary_with"/>
+   <field old="proxy_address I" new="proxy_address"/>
+   <field old="proxy_address_title I" new="proxy_address_title"/>
+   <field old="pstn_phone I" new="pstn_phone"/>
+   <field old="registration_status_checking_status I" new="registration_status_checking_status"/>
+   <field old="registration_status_done I" new="registration_status_done"/>
+   <field old="registration_status_failed_try_later I" new="registration_status_failed_try_later"/>
+   <field old="registration_status_invalid_credentials I" new="registration_status_invalid_credentials"/>
+   <field old="registration_status_no_data I" new="registration_status_no_data"/>
+   <field old="registration_status_no_wifi_data I" new="registration_status_no_wifi_data"/>
+   <field old="registration_status_not_receiving I" new="registration_status_not_receiving"/>
+   <field old="registration_status_not_running I" new="registration_status_not_running"/>
+   <field old="registration_status_registering I" new="registration_status_registering"/>
+   <field old="registration_status_server_unreachable I" new="registration_status_server_unreachable"/>
+   <field old="registration_status_still_trying I" new="registration_status_still_trying"/>
+   <field old="remember_my_choice I" new="remember_my_choice"/>
+   <field old="remove_sip_account I" new="remove_sip_account"/>
+   <field old="removing_account I" new="removing_account"/>
+   <field old="reset_my_choice_hint I" new="reset_my_choice_hint"/>
+   <field old="saving_account I" new="saving_account"/>
+   <field old="send_keepalive I" new="send_keepalive"/>
+   <field old="send_keepalive_title I" new="send_keepalive_title"/>
+   <field old="set_primary_summary I" new="set_primary_summary"/>
+   <field old="set_primary_title I" new="set_primary_title"/>
+   <field old="setting_not_supported I" new="setting_not_supported"/>
+   <field old="sip I" new="sip"/>
+   <field old="sip_account_list I" new="sip_account_list"/>
+   <field old="sip_accounts I" new="sip_accounts"/>
+   <field old="sip_accounts_title I" new="sip_accounts_title"/>
+   <field old="sip_address_only I" new="sip_address_only"/>
+   <field old="sip_always I" new="sip_always"/>
+   <field old="sip_always_send_keepalive I" new="sip_always_send_keepalive"/>
+   <field old="sip_call_options_entry_1 I" new="sip_call_options_entry_1"/>
+   <field old="sip_call_options_entry_2 I" new="sip_call_options_entry_2"/>
+   <field old="sip_call_options_entry_3 I" new="sip_call_options_entry_3"/>
+   <field old="sip_call_options_title I" new="sip_call_options_title"/>
+   <field old="sip_call_options_wifi_only_entry_1 I" new="sip_call_options_wifi_only_entry_1"/>
+   <field old="sip_call_options_wifi_only_title I" new="sip_call_options_wifi_only_title"/>
+   <field old="sip_connection_service_label I" new="sip_connection_service_label"/>
+   <field old="sip_edit_new_title I" new="sip_edit_new_title"/>
+   <field old="sip_edit_title I" new="sip_edit_title"/>
+   <field old="sip_menu_add I" new="sip_menu_add"/>
+   <field old="sip_menu_discard I" new="sip_menu_discard"/>
+   <field old="sip_menu_save I" new="sip_menu_save"/>
+   <field old="sip_receive_calls I" new="sip_receive_calls"/>
+   <field old="sip_receive_calls_summary I" new="sip_receive_calls_summary"/>
+   <field old="sip_settings I" new="sip_settings"/>
+   <field old="sip_system_decide I" new="sip_system_decide"/>
+   <field old="third_party_account_summary I" new="third_party_account_summary"/>
+   <field old="toast I" new="toast"/>
+   <field old="transport I" new="transport"/>
+   <field old="transport_title I" new="transport_title"/>
+   <field old="username I" new="username"/>
+   <field old="username_title I" new="username_title"/>
+  </class>
+  <class old="cyanogenmod.app.ICustomTileListener$Stub$Proxy" new="cyanogenmod.app.c_K">
+   <method old="asBinder()Landroid/os/IBinder;" new="asBinder"/>
+   <method old="getInterfaceDescriptor()Ljava/lang/String;" new="m_l"/>
+   <method old="onCustomTilePosted(Lorg/cyanogenmod/internal/statusbar/IStatusBarCustomTileHolder;)V" new="m_j"/>
+   <method old="onCustomTileRemoved(Lorg/cyanogenmod/internal/statusbar/IStatusBarCustomTileHolder;)V" new="m_i"/>
+   <method old="onListenerConnected()V" new="m_G"/>
+   <field old="mRemote Landroid/os/IBinder;" new="f_b"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTile$GridExpandedStyle" new="cyanogenmod.app.c_G">
+   <method old="describeContents()I" new="describeContents"/>
+   <method old="getExpandedItems()[Lcyanogenmod/app/CustomTile$ExpandedItem;" new="m_la"/>
+   <method old="getStyle()I" new="m_ha"/>
+   <method old="internalSetExpandedItems(Ljava/util/ArrayList;)V" new="m_Ea"/>
+   <method old="internalStyleId(I)V" new="m_ca"/>
+   <method old="setBuilder(Lcyanogenmod/app/CustomTile$Builder;)V" new="m_ja"/>
+   <method old="setGridItems(Ljava/util/ArrayList;)V" new="m_ia"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="writeToParcel(Landroid/os/Parcel;I)V" new="writeToParcel"/>
+   <field old="CREATOR Landroid/os/Parcelable$Creator;" new="CREATOR"/>
+   <field old="GRID_STYLE I" new="f_j"/>
+   <field old="LIST_STYLE I" new="f_E"/>
+   <field old="NO_STYLE I" new="f_J"/>
+  </class>
+  <class old="cyanogenmod.app.CustomTile$ExpandedListItem" new="cyanogenmod.app.c_A">
+   <method old="describeContents()I" new="describeContents"/>
+   <method old="internalSetItemDrawable(I)V" new="m_Ba"/>
+   <method old="internalSetItemSummary(Ljava/lang/String;)V" new="m_Ka"/>
+   <method old="internalSetItemTitle(Ljava/lang/String;)V" new="m_La"/>
+   <method old="internalSetOnClickPendingIntent(Landroid/app/PendingIntent;)V" new="m_Ha"/>
+   <method old="setExpandedListItemDrawable(I)V" new="m_da"/>
+   <method old="setExpandedListItemOnClickIntent(Landroid/app/PendingIntent;)V" new="m_Ga"/>
+   <method old="setExpandedListItemSummary(Ljava/lang/String;)V" new="m_Da"/>
+   <method old="setExpandedListItemTitle(Ljava/lang/String;)V" new="m_Ia"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="writeToParcel(Landroid/os/Parcel;I)V" new="writeToParcel"/>
+   <field old="CREATOR Landroid/os/Parcelable$Creator;" new="CREATOR"/>
+   <field old="itemDrawableResourceId I" new="f_b"/>
+   <field old="itemSummary Ljava/lang/String;" new="f_j"/>
+   <field old="itemTitle Ljava/lang/String;" new="f_E"/>
+   <field old="onClickPendingIntent Landroid/app/PendingIntent;" new="f_J"/>
+  </class>
+  <sources>
+   <source old="CMContextConstants.java" new="p"/>
+   <source old="CMStatusBarManager.java" new="q"/>
+   <source old="CustomTile.java" new="v"/>
+   <source old="CustomTileListenerService.java" new="y"/>
+   <source old="StatusBarPanelCustomTile.java" new="i"/>
+   <source old="ThemeComponent.java" new="g"/>
+   <source old="ThemeVersion.java" new="b"/>
+   <source old="Build.java" new="r"/>
+   <source old="BuildConfig.java" new="f"/>
+   <source old="R.java" new="j"/>
+   <source old="SipSwitchActivity.java" new="k"/>
+   <source old="ExternalQuickSettingsRecord.java" new="x"/>
+   <source old="ICMStatusBarManager.java" new="s"/>
+   <source old="ICustomTileListener.java" new="h"/>
+   <source old="IStatusBarCustomTileHolder.java" new="m"/>
+  </sources>
+  <lines>
+   <line l="226"/>
+   <line l="34"/>
+   <line l="37"/>
+   <line l="42"/>
+   <line l="126"/>
+   <line l="115"/>
+   <line l="160"/>
+   <line l="167"/>
+   <line l="199"/>
+   <line l="227"/>
+   <line l="145"/>
+   <line l="181"/>
+   <line l="71"/>
+   <line l="120"/>
+   <line l="133"/>
+   <line l="63"/>
+   <line l="18"/>
+   <line l="94"/>
+   <line l="179"/>
+   <line l="239"/>
+   <line l="150"/>
+   <line l="47"/>
+   <line l="33"/>
+   <line l="46"/>
+   <line l="27"/>
+   <line l="35"/>
+   <line l="90"/>
+   <line l="9"/>
+   <line l="244"/>
+   <line l="105"/>
+   <line l="2"/>
+   <line l="237"/>
+   <line l="251"/>
+   <line l="166"/>
+   <line l="245"/>
+   <line l="206"/>
+   <line l="101"/>
+   <line l="99"/>
+   <line l="31"/>
+   <line l="20"/>
+   <line l="122"/>
+   <line l="57"/>
+   <line l="151"/>
+   <line l="235"/>
+   <line l="147"/>
+   <line l="137"/>
+   <line l="59"/>
+   <line l="74"/>
+   <line l="170"/>
+   <line l="132"/>
+   <line l="4"/>
+   <line l="25"/>
+   <line l="87"/>
+   <line l="219"/>
+   <line l="86"/>
+   <line l="49"/>
+   <line l="125"/>
+   <line l="75"/>
+   <line l="38"/>
+   <line l="129"/>
+   <line l="203"/>
+   <line l="107"/>
+   <line l="65"/>
+   <line l="40"/>
+   <line l="230"/>
+   <line l="15"/>
+   <line l="161"/>
+   <line l="210"/>
+   <line l="213"/>
+   <line l="104"/>
+   <line l="81"/>
+   <line l="168"/>
+   <line l="171"/>
+   <line l="211"/>
+   <line l="67"/>
+   <line l="156"/>
+   <line l="17"/>
+   <line l="238"/>
+   <line l="53"/>
+   <line l="178"/>
+   <line l="256"/>
+   <line l="192"/>
+   <line l="175"/>
+   <line l="5"/>
+   <line l="262"/>
+   <line l="45"/>
+   <line l="267"/>
+   <line l="222"/>
+   <line l="193"/>
+   <line l="188"/>
+   <line l="247"/>
+   <line l="16"/>
+   <line l="43"/>
+   <line l="220"/>
+   <line l="266"/>
+   <line l="108"/>
+   <line l="207"/>
+   <line l="12"/>
+   <line l="26"/>
+   <line l="93"/>
+   <line l="153"/>
+   <line l="72"/>
+   <line l="19"/>
+   <line l="98"/>
+   <line l="216"/>
+   <line l="83"/>
+   <line l="201"/>
+   <line l="7"/>
+   <line l="183"/>
+   <line l="205"/>
+   <line l="69"/>
+   <line l="146"/>
+   <line l="109"/>
+   <line l="106"/>
+   <line l="264"/>
+   <line l="141"/>
+   <line l="204"/>
+   <line l="55"/>
+   <line l="68"/>
+   <line l="84"/>
+   <line l="39"/>
+   <line l="36"/>
+   <line l="196"/>
+   <line l="52"/>
+   <line l="254"/>
+   <line l="56"/>
+   <line l="48"/>
+   <line l="148"/>
+   <line l="138"/>
+   <line l="265"/>
+   <line l="218"/>
+   <line l="114"/>
+   <line l="189"/>
+   <line l="163"/>
+   <line l="149"/>
+   <line l="187"/>
+   <line l="29"/>
+   <line l="198"/>
+   <line l="236"/>
+   <line l="44"/>
+   <line l="155"/>
+   <line l="28"/>
+   <line l="240"/>
+   <line l="257"/>
+   <line l="130"/>
+   <line l="158"/>
+   <line l="88"/>
+   <line l="100"/>
+   <line l="223"/>
+   <line l="0"/>
+   <line l="73"/>
+   <line l="250"/>
+   <line l="89"/>
+   <line l="60"/>
+   <line l="118"/>
+   <line l="3"/>
+   <line l="96"/>
+   <line l="21"/>
+   <line l="258"/>
+   <line l="76"/>
+   <line l="255"/>
+   <line l="162"/>
+   <line l="144"/>
+   <line l="64"/>
+   <line l="261"/>
+   <line l="234"/>
+   <line l="58"/>
+   <line l="121"/>
+   <line l="253"/>
+   <line l="92"/>
+   <line l="61"/>
+   <line l="177"/>
+   <line l="165"/>
+   <line l="62"/>
+   <line l="249"/>
+   <line l="231"/>
+   <line l="143"/>
+   <line l="190"/>
+   <line l="6"/>
+   <line l="242"/>
+   <line l="212"/>
+   <line l="23"/>
+   <line l="195"/>
+   <line l="157"/>
+   <line l="209"/>
+   <line l="243"/>
+   <line l="91"/>
+   <line l="241"/>
+   <line l="185"/>
+   <line l="268"/>
+   <line l="77"/>
+   <line l="164"/>
+   <line l="8"/>
+   <line l="246"/>
+   <line l="82"/>
+   <line l="252"/>
+   <line l="140"/>
+   <line l="85"/>
+   <line l="102"/>
+   <line l="154"/>
+   <line l="215"/>
+   <line l="110"/>
+   <line l="22"/>
+   <line l="228"/>
+   <line l="131"/>
+   <line l="80"/>
+   <line l="111"/>
+   <line l="200"/>
+   <line l="248"/>
+   <line l="139"/>
+   <line l="172"/>
+   <line l="142"/>
+   <line l="113"/>
+   <line l="134"/>
+   <line l="13"/>
+   <line l="176"/>
+   <line l="66"/>
+   <line l="41"/>
+   <line l="217"/>
+   <line l="95"/>
+   <line l="232"/>
+   <line l="221"/>
+   <line l="1"/>
+   <line l="14"/>
+   <line l="117"/>
+   <line l="173"/>
+   <line l="159"/>
+   <line l="169"/>
+   <line l="10"/>
+   <line l="70"/>
+   <line l="54"/>
+   <line l="135"/>
+   <line l="194"/>
+   <line l="123"/>
+   <line l="78"/>
+   <line l="197"/>
+   <line l="97"/>
+   <line l="233"/>
+   <line l="214"/>
+   <line l="263"/>
+   <line l="50"/>
+   <line l="184"/>
+   <line l="191"/>
+   <line l="208"/>
+   <line l="259"/>
+   <line l="116"/>
+   <line l="79"/>
+   <line l="124"/>
+   <line l="11"/>
+   <line l="180"/>
+   <line l="103"/>
+   <line l="182"/>
+   <line l="112"/>
+   <line l="32"/>
+   <line l="229"/>
+   <line l="119"/>
+   <line l="202"/>
+   <line l="225"/>
+   <line l="127"/>
+   <line l="24"/>
+   <line l="51"/>
+   <line l="174"/>
+   <line l="260"/>
+   <line l="152"/>
+   <line l="136"/>
+   <line l="30"/>
+   <line l="128"/>
+   <line l="186"/>
+   <line l="224"/>
+   <line l="300"/>
+   <line l="443"/>
+   <line l="493"/>
+   <line l="509"/>
+   <line l="402"/>
+   <line l="354"/>
+   <line l="489"/>
+   <line l="274"/>
+   <line l="321"/>
+   <line l="381"/>
+   <line l="351"/>
+   <line l="348"/>
+   <line l="322"/>
+   <line l="439"/>
+   <line l="440"/>
+   <line l="349"/>
+   <line l="273"/>
+   <line l="435"/>
+   <line l="368"/>
+   <line l="371"/>
+   <line l="285"/>
+   <line l="437"/>
+   <line l="445"/>
+   <line l="471"/>
+   <line l="401"/>
+   <line l="476"/>
+   <line l="520"/>
+   <line l="420"/>
+   <line l="291"/>
+   <line l="307"/>
+   <line l="389"/>
+   <line l="385"/>
+   <line l="340"/>
+   <line l="522"/>
+   <line l="313"/>
+   <line l="478"/>
+   <line l="336"/>
+   <line l="388"/>
+   <line l="514"/>
+   <line l="376"/>
+   <line l="382"/>
+   <line l="370"/>
+   <line l="332"/>
+   <line l="405"/>
+   <line l="315"/>
+   <line l="408"/>
+   <line l="456"/>
+   <line l="500"/>
+   <line l="400"/>
+   <line l="299"/>
+   <line l="450"/>
+   <line l="501"/>
+   <line l="477"/>
+   <line l="513"/>
+   <line l="427"/>
+   <line l="418"/>
+   <line l="506"/>
+   <line l="508"/>
+   <line l="422"/>
+   <line l="387"/>
+   <line l="430"/>
+   <line l="377"/>
+   <line l="337"/>
+   <line l="459"/>
+   <line l="278"/>
+   <line l="458"/>
+   <line l="466"/>
+   <line l="516"/>
+   <line l="271"/>
+   <line l="393"/>
+   <line l="364"/>
+   <line l="488"/>
+   <line l="288"/>
+   <line l="384"/>
+   <line l="375"/>
+   <line l="312"/>
+   <line l="383"/>
+   <line l="308"/>
+   <line l="391"/>
+   <line l="270"/>
+   <line l="454"/>
+   <line l="490"/>
+   <line l="482"/>
+   <line l="317"/>
+   <line l="409"/>
+   <line l="431"/>
+   <line l="510"/>
+   <line l="293"/>
+   <line l="499"/>
+   <line l="397"/>
+   <line l="467"/>
+   <line l="334"/>
+   <line l="378"/>
+   <line l="344"/>
+   <line l="487"/>
+   <line l="497"/>
+   <line l="415"/>
+   <line l="272"/>
+   <line l="524"/>
+   <line l="280"/>
+   <line l="361"/>
+   <line l="410"/>
+   <line l="502"/>
+   <line l="311"/>
+   <line l="341"/>
+   <line l="333"/>
+   <line l="324"/>
+   <line l="323"/>
+   <line l="331"/>
+   <line l="301"/>
+   <line l="517"/>
+   <line l="525"/>
+   <line l="460"/>
+   <line l="423"/>
+   <line l="327"/>
+   <line l="318"/>
+   <line l="483"/>
+   <line l="452"/>
+   <line l="283"/>
+   <line l="398"/>
+   <line l="434"/>
+   <line l="374"/>
+   <line l="455"/>
+   <line l="286"/>
+   <line l="304"/>
+   <line l="287"/>
+   <line l="355"/>
+   <line l="480"/>
+   <line l="433"/>
+   <line l="362"/>
+   <line l="491"/>
+   <line l="447"/>
+   <line l="521"/>
+   <line l="269"/>
+   <line l="319"/>
+   <line l="302"/>
+   <line l="425"/>
+   <line l="367"/>
+   <line l="470"/>
+   <line l="329"/>
+   <line l="492"/>
+   <line l="407"/>
+   <line l="390"/>
+   <line l="449"/>
+   <line l="403"/>
+   <line l="528"/>
+   <line l="411"/>
+   <line l="468"/>
+   <line l="296"/>
+   <line l="379"/>
+   <line l="399"/>
+   <line l="392"/>
+   <line l="396"/>
+   <line l="342"/>
+   <line l="426"/>
+   <line l="356"/>
+   <line l="494"/>
+   <line l="350"/>
+   <line l="394"/>
+   <line l="330"/>
+   <line l="279"/>
+   <line l="421"/>
+   <line l="358"/>
+   <line l="284"/>
+   <line l="373"/>
+   <line l="343"/>
+   <line l="335"/>
+   <line l="511"/>
+   <line l="326"/>
+   <line l="523"/>
+   <line l="444"/>
+   <line l="366"/>
+   <line l="428"/>
+   <line l="320"/>
+   <line l="290"/>
+   <line l="469"/>
+   <line l="461"/>
+   <line l="292"/>
+   <line l="503"/>
+   <line l="419"/>
+   <line l="442"/>
+   <line l="512"/>
+   <line l="325"/>
+   <line l="352"/>
+   <line l="297"/>
+   <line l="518"/>
+   <line l="457"/>
+   <line l="486"/>
+   <line l="281"/>
+   <line l="275"/>
+   <line l="519"/>
+   <line l="338"/>
+   <line l="309"/>
+   <line l="515"/>
+   <line l="414"/>
+   <line l="360"/>
+   <line l="314"/>
+   <line l="289"/>
+   <line l="436"/>
+   <line l="306"/>
+   <line l="277"/>
+   <line l="353"/>
+   <line l="406"/>
+   <line l="446"/>
+   <line l="282"/>
+   <line l="505"/>
+   <line l="359"/>
+   <line l="276"/>
+   <line l="527"/>
+   <line l="298"/>
+   <line l="438"/>
+   <line l="484"/>
+   <line l="404"/>
+   <line l="305"/>
+   <line l="380"/>
+   <line l="339"/>
+   <line l="369"/>
+   <line l="357"/>
+   <line l="303"/>
+   <line l="462"/>
+   <line l="465"/>
+   <line l="475"/>
+   <line l="386"/>
+   <line l="294"/>
+   <line l="295"/>
+   <line l="429"/>
+   <line l="424"/>
+   <line l="464"/>
+   <line l="479"/>
+   <line l="412"/>
+   <line l="416"/>
+   <line l="417"/>
+   <line l="441"/>
+   <line l="495"/>
+   <line l="463"/>
+   <line l="432"/>
+   <line l="347"/>
+   <line l="485"/>
+   <line l="504"/>
+   <line l="328"/>
+   <line l="526"/>
+   <line l="345"/>
+   <line l="365"/>
+   <line l="507"/>
+   <line l="473"/>
+   <line l="310"/>
+   <line l="413"/>
+   <line l="346"/>
+   <line l="372"/>
+   <line l="453"/>
+   <line l="496"/>
+   <line l="474"/>
+   <line l="498"/>
+   <line l="481"/>
+   <line l="316"/>
+   <line l="472"/>
+   <line l="448"/>
+   <line l="363"/>
+   <line l="451"/>
+   <line l="395"/>
+   <line l="604"/>
+   <line l="683"/>
+   <line l="716"/>
+   <line l="756"/>
+   <line l="610"/>
+   <line l="574"/>
+   <line l="721"/>
+   <line l="655"/>
+   <line l="689"/>
+   <line l="719"/>
+   <line l="677"/>
+   <line l="722"/>
+   <line l="588"/>
+   <line l="728"/>
+   <line l="544"/>
+   <line l="706"/>
+   <line l="569"/>
+   <line l="774"/>
+   <line l="654"/>
+   <line l="720"/>
+   <line l="625"/>
+   <line l="763"/>
+   <line l="778"/>
+   <line l="571"/>
+   <line l="782"/>
+   <line l="658"/>
+   <line l="748"/>
+   <line l="580"/>
+   <line l="600"/>
+   <line l="761"/>
+   <line l="617"/>
+   <line l="603"/>
+   <line l="611"/>
+   <line l="661"/>
+   <line l="642"/>
+   <line l="631"/>
+   <line l="626"/>
+   <line l="697"/>
+   <line l="564"/>
+   <line l="545"/>
+   <line l="641"/>
+   <line l="602"/>
+   <line l="548"/>
+   <line l="581"/>
+   <line l="644"/>
+   <line l="595"/>
+   <line l="627"/>
+   <line l="585"/>
+   <line l="672"/>
+   <line l="607"/>
+   <line l="691"/>
+   <line l="740"/>
+   <line l="687"/>
+   <line l="766"/>
+   <line l="533"/>
+   <line l="618"/>
+   <line l="576"/>
+   <line l="734"/>
+   <line l="730"/>
+   <line l="646"/>
+   <line l="692"/>
+   <line l="549"/>
+   <line l="779"/>
+   <line l="715"/>
+   <line l="678"/>
+   <line l="733"/>
+   <line l="746"/>
+   <line l="682"/>
+   <line l="570"/>
+   <line l="684"/>
+   <line l="758"/>
+   <line l="745"/>
+   <line l="597"/>
+   <line l="665"/>
+   <line l="573"/>
+   <line l="751"/>
+   <line l="591"/>
+   <line l="612"/>
+   <line l="765"/>
+   <line l="592"/>
+   <line l="620"/>
+   <line l="529"/>
+   <line l="673"/>
+   <line l="659"/>
+   <line l="780"/>
+   <line l="638"/>
+   <line l="623"/>
+   <line l="586"/>
+   <line l="651"/>
+   <line l="686"/>
+   <line l="614"/>
+   <line l="729"/>
+   <line l="708"/>
+   <line l="714"/>
+   <line l="556"/>
+   <line l="736"/>
+   <line l="540"/>
+   <line l="664"/>
+   <line l="589"/>
+   <line l="643"/>
+   <line l="632"/>
+   <line l="747"/>
+   <line l="637"/>
+   <line l="725"/>
+   <line l="676"/>
+   <line l="700"/>
+   <line l="536"/>
+   <line l="742"/>
+   <line l="696"/>
+   <line l="565"/>
+   <line l="770"/>
+   <line l="534"/>
+   <line l="590"/>
+   <line l="711"/>
+   <line l="583"/>
+   <line l="572"/>
+   <line l="762"/>
+   <line l="701"/>
+   <line l="759"/>
+   <line l="666"/>
+   <line l="563"/>
+   <line l="695"/>
+   <line l="560"/>
+   <line l="749"/>
+   <line l="680"/>
+   <line l="568"/>
+   <line l="554"/>
+   <line l="755"/>
+   <line l="727"/>
+   <line l="561"/>
+   <line l="657"/>
+   <line l="608"/>
+   <line l="688"/>
+   <line l="731"/>
+   <line l="639"/>
+   <line l="562"/>
+   <line l="566"/>
+   <line l="582"/>
+   <line l="575"/>
+   <line l="662"/>
+   <line l="737"/>
+   <line l="760"/>
+   <line l="628"/>
+   <line l="530"/>
+   <line l="621"/>
+   <line l="726"/>
+   <line l="757"/>
+   <line l="693"/>
+   <line l="551"/>
+   <line l="553"/>
+   <line l="698"/>
+   <line l="605"/>
+   <line l="681"/>
+   <line l="647"/>
+   <line l="764"/>
+   <line l="669"/>
+   <line l="707"/>
+   <line l="713"/>
+   <line l="622"/>
+   <line l="717"/>
+   <line l="738"/>
+   <line l="537"/>
+   <line l="703"/>
+   <line l="710"/>
+   <line l="660"/>
+   <line l="754"/>
+   <line l="542"/>
+   <line l="663"/>
+   <line l="775"/>
+   <line l="743"/>
+   <line l="531"/>
+   <line l="640"/>
+   <line l="709"/>
+   <line l="694"/>
+   <line l="616"/>
+   <line l="649"/>
+   <line l="619"/>
+   <line l="645"/>
+   <line l="630"/>
+   <line l="724"/>
+   <line l="723"/>
+   <line l="671"/>
+   <line l="636"/>
+   <line l="781"/>
+   <line l="670"/>
+   <line l="667"/>
+   <line l="750"/>
+   <line l="768"/>
+   <line l="776"/>
+   <line l="633"/>
+   <line l="578"/>
+   <line l="532"/>
+   <line l="606"/>
+   <line l="587"/>
+   <line l="668"/>
+   <line l="541"/>
+   <line l="594"/>
+   <line l="538"/>
+   <line l="769"/>
+   <line l="567"/>
+   <line l="535"/>
+   <line l="675"/>
+   <line l="615"/>
+   <line l="634"/>
+   <line l="690"/>
+   <line l="699"/>
+   <line l="712"/>
+   <line l="650"/>
+   <line l="624"/>
+   <line l="704"/>
+   <line l="550"/>
+   <line l="635"/>
+   <line l="555"/>
+   <line l="546"/>
+   <line l="702"/>
+   <line l="685"/>
+   <line l="718"/>
+   <line l="732"/>
+   <line l="653"/>
+   <line l="773"/>
+   <line l="559"/>
+   <line l="577"/>
+   <line l="543"/>
+   <line l="579"/>
+   <line l="648"/>
+   <line l="613"/>
+   <line l="705"/>
+   <line l="596"/>
+   <line l="598"/>
+   <line l="609"/>
+   <line l="652"/>
+   <line l="735"/>
+   <line l="767"/>
+   <line l="629"/>
+   <line l="539"/>
+   <line l="547"/>
+   <line l="777"/>
+   <line l="679"/>
+   <line l="558"/>
+   <line l="772"/>
+   <line l="744"/>
+   <line l="557"/>
+   <line l="753"/>
+   <line l="599"/>
+   <line l="739"/>
+   <line l="674"/>
+   <line l="741"/>
+   <line l="593"/>
+   <line l="601"/>
+   <line l="584"/>
+   <line l="771"/>
+   <line l="752"/>
+   <line l="552"/>
+   <line l="656"/>
+   <line l="961"/>
+   <line l="980"/>
+   <line l="930"/>
+   <line l="899"/>
+   <line l="879"/>
+   <line l="858"/>
+   <line l="832"/>
+   <line l="973"/>
+   <line l="966"/>
+   <line l="805"/>
+   <line l="926"/>
+   <line l="791"/>
+   <line l="991"/>
+   <line l="869"/>
+   <line l="928"/>
+   <line l="988"/>
+   <line l="958"/>
+   <line l="892"/>
+   <line l="971"/>
+   <line l="896"/>
+   <line l="878"/>
+   <line l="889"/>
+   <line l="867"/>
+   <line l="800"/>
+   <line l="903"/>
+   <line l="808"/>
+   <line l="931"/>
+   <line l="859"/>
+   <line l="835"/>
+   <line l="817"/>
+   <line l="840"/>
+   <line l="935"/>
+   <line l="989"/>
+   <line l="960"/>
+   <line l="815"/>
+   <line l="904"/>
+   <line l="925"/>
+   <line l="963"/>
+   <line l="964"/>
+   <line l="792"/>
+   <line l="821"/>
+   <line l="856"/>
+   <line l="929"/>
+   <line l="799"/>
+   <line l="910"/>
+   <line l="936"/>
+   <line l="885"/>
+   <line l="855"/>
+   <line l="816"/>
+   <line l="934"/>
+   <line l="848"/>
+   <line l="886"/>
+   <line l="933"/>
+   <line l="954"/>
+   <line l="795"/>
+   <line l="809"/>
+   <line l="871"/>
+   <line l="845"/>
+   <line l="890"/>
+   <line l="914"/>
+   <line l="819"/>
+   <line l="920"/>
+   <line l="846"/>
+   <line l="857"/>
+   <line l="803"/>
+   <line l="789"/>
+   <line l="972"/>
+   <line l="812"/>
+   <line l="788"/>
+   <line l="813"/>
+   <line l="785"/>
+   <line l="905"/>
+   <line l="919"/>
+   <line l="838"/>
+   <line l="992"/>
+   <line l="922"/>
+   <line l="943"/>
+   <line l="822"/>
+   <line l="854"/>
+   <line l="945"/>
+   <line l="863"/>
+   <line l="967"/>
+   <line l="917"/>
+   <line l="902"/>
+   <line l="864"/>
+   <line l="827"/>
+   <line l="883"/>
+   <line l="804"/>
+   <line l="790"/>
+   <line l="923"/>
+   <line l="916"/>
+   <line l="888"/>
+   <line l="927"/>
+   <line l="977"/>
+   <line l="987"/>
+   <line l="784"/>
+   <line l="908"/>
+   <line l="898"/>
+   <line l="986"/>
+   <line l="874"/>
+   <line l="802"/>
+   <line l="849"/>
+   <line l="844"/>
+   <line l="820"/>
+   <line l="818"/>
+   <line l="947"/>
+   <line l="912"/>
+   <line l="830"/>
+   <line l="950"/>
+   <line l="956"/>
+   <line l="837"/>
+   <line l="873"/>
+   <line l="946"/>
+   <line l="875"/>
+   <line l="851"/>
+   <line l="814"/>
+   <line l="824"/>
+   <line l="877"/>
+   <line l="942"/>
+   <line l="982"/>
+   <line l="797"/>
+   <line l="911"/>
+   <line l="900"/>
+   <line l="793"/>
+   <line l="839"/>
+   <line l="949"/>
+   <line l="913"/>
+   <line l="810"/>
+   <line l="897"/>
+   <line l="937"/>
+   <line l="957"/>
+   <line l="868"/>
+   <line l="915"/>
+   <line l="876"/>
+   <line l="969"/>
+   <line l="829"/>
+   <line l="811"/>
+   <line l="882"/>
+   <line l="953"/>
+   <line l="870"/>
+   <line l="939"/>
+   <line l="921"/>
+   <line l="853"/>
+   <line l="828"/>
+   <line l="901"/>
+   <line l="984"/>
+   <line l="836"/>
+   <line l="831"/>
+   <line l="891"/>
+   <line l="786"/>
+   <line l="783"/>
+   <line l="962"/>
+   <line l="974"/>
+   <line l="893"/>
+   <line l="852"/>
+   <line l="932"/>
+   <line l="806"/>
+   <line l="909"/>
+   <line l="968"/>
+   <line l="884"/>
+   <line l="880"/>
+   <line l="881"/>
+   <line l="843"/>
+   <line l="807"/>
+   <line l="970"/>
+   <line l="872"/>
+   <line l="833"/>
+   <line l="979"/>
+   <line l="801"/>
+   <line l="990"/>
+   <line l="865"/>
+   <line l="861"/>
+   <line l="860"/>
+   <line l="985"/>
+   <line l="941"/>
+   <line l="796"/>
+   <line l="924"/>
+   <line l="798"/>
+   <line l="981"/>
+   <line l="918"/>
+   <line l="894"/>
+   <line l="940"/>
+   <line l="952"/>
+   <line l="907"/>
+   <line l="938"/>
+   <line l="959"/>
+   <line l="895"/>
+   <line l="965"/>
+   <line l="976"/>
+   <line l="948"/>
+   <line l="955"/>
+   <line l="847"/>
+   <line l="787"/>
+   <line l="906"/>
+   <line l="978"/>
+   <line l="975"/>
+   <line l="951"/>
+   <line l="842"/>
+   <line l="983"/>
+   <line l="834"/>
+   <line l="850"/>
+   <line l="841"/>
+   <line l="825"/>
+   <line l="866"/>
+   <line l="826"/>
+   <line l="823"/>
+   <line l="862"/>
+   <line l="944"/>
+   <line l="794"/>
+   <line l="887"/>
+  </lines>
+ </mapping>
+</allatori>

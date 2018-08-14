@@ -1,0 +1,69 @@
+com.pjuu.otterdroid.BuildConfig -> com.pjuu.otterdroid.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+com.pjuu.otterdroid.MainActivity -> com.pjuu.otterdroid.MainActivity:
+    int REQUEST_CODE_FILE_PICKER -> f
+    java.lang.String hostname -> hostname
+    android.webkit.ValueCallback mFileUploadCallbackFirst -> g
+    android.webkit.ValueCallback mFileUploadCallbackSecond -> h
+    android.widget.ProgressBar prgrsBar -> i
+    android.webkit.WebView webView -> j
+    void <init>() -> <init>
+    java.lang.String access$000(com.pjuu.otterdroid.MainActivity) -> a
+    android.widget.ProgressBar access$100(com.pjuu.otterdroid.MainActivity) -> b
+    boolean hasConnection() -> a
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onBackPressed() -> onBackPressed
+    void onCreate(android.os.Bundle) -> onCreate
+    void onRestoreInstanceState(android.os.Bundle) -> onRestoreInstanceState
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void openFileInput(android.webkit.ValueCallback,android.webkit.ValueCallback) -> a
+com.pjuu.otterdroid.MainActivity$PjuuWebChromeClient -> com.pjuu.otterdroid.b:
+    com.pjuu.otterdroid.MainActivity this$0 -> k
+    void <init>(com.pjuu.otterdroid.MainActivity) -> <init>
+    boolean onShowFileChooser(android.webkit.WebView,android.webkit.ValueCallback,android.webkit.WebChromeClient$FileChooserParams) -> onShowFileChooser
+    void openFileChooser(android.webkit.ValueCallback) -> a
+    void openFileChooser(android.webkit.ValueCallback,java.lang.String) -> a
+    void openFileChooser(android.webkit.ValueCallback,java.lang.String,java.lang.String) -> a
+com.pjuu.otterdroid.MainActivity$PjuuWebViewClient -> com.pjuu.otterdroid.c:
+    com.pjuu.otterdroid.MainActivity this$0 -> k
+    void <init>(com.pjuu.otterdroid.MainActivity) -> <init>
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    void onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap) -> onPageStarted
+    void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String) -> onReceivedError
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+com.pjuu.otterdroid.MainActivity$WebAppInterface -> com.pjuu.otterdroid.d:
+    android.content.Context mContext -> mContext
+    com.pjuu.otterdroid.MainActivity this$0 -> k
+    void <init>(com.pjuu.otterdroid.MainActivity,android.content.Context) -> <init>
+    boolean hideImageUpload() -> b
+com.pjuu.otterdroid.R -> com.pjuu.otterdroid.e:
+    void <init>() -> <init>
+com.pjuu.otterdroid.R$attr -> com.pjuu.otterdroid.R$attr:
+    void <init>() -> <init>
+com.pjuu.otterdroid.R$drawable -> com.pjuu.otterdroid.R$drawable:
+    int ic_launcher -> ic_launcher
+    int ic_stat_notify -> ic_stat_notify
+    int progress_medium_holo -> progress_medium_holo
+    int spinner_48_inner_holo -> spinner_48_inner_holo
+    int spinner_48_outer_holo -> spinner_48_outer_holo
+    void <init>() -> <init>
+com.pjuu.otterdroid.R$id -> com.pjuu.otterdroid.R$id:
+    int progress_bar -> progress_bar
+    int webview -> webview
+    void <init>() -> <init>
+com.pjuu.otterdroid.R$layout -> com.pjuu.otterdroid.R$layout:
+    int activity_main -> activity_main
+    void <init>() -> <init>
+com.pjuu.otterdroid.R$string -> com.pjuu.otterdroid.R$string:
+    int app_name -> app_name
+    int app_url -> app_url
+    void <init>() -> <init>
+com.pjuu.otterdroid.R$style -> com.pjuu.otterdroid.R$style:
+    int AppTheme -> AppTheme
+    void <init>() -> <init>

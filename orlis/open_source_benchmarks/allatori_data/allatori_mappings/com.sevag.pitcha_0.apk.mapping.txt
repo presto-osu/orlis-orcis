@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v5.9 Educational
+   Web: http://www.allatori.com
+
+   Log created: Mon Aug 13 21:24:58 EDT 2018
+-->
+
+<allatori>
+ <mapping>
+  <class old="com.sevag.pitcha.R$style" new="com.sevag.pitcha.R$style">
+   <field old="AppTheme I" new="AppTheme"/>
+  </class>
+  <class old="com.sevag.pitcha.R$attr" new="com.sevag.pitcha.R$attr">
+  </class>
+  <class old="com.sevag.pitcha.R$drawable" new="com.sevag.pitcha.R$drawable">
+   <field old="bluecircle I" new="bluecircle"/>
+  </class>
+  <class old="com.sevag.pitcha.R$color" new="com.sevag.pitcha.R$color">
+   <field old="blue I" new="blue"/>
+   <field old="grey I" new="grey"/>
+   <field old="pink I" new="pink"/>
+  </class>
+  <class old="com.sevag.pitcha.R$dimen" new="com.sevag.pitcha.R$dimen">
+   <field old="activity_horizontal_margin I" new="activity_horizontal_margin"/>
+   <field old="activity_vertical_margin I" new="activity_vertical_margin"/>
+  </class>
+  <class old="com.sevag.pitcha.R" new="com.sevag.pitcha.R">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_h"/>
+  </class>
+  <class old="com.sevag.pitcha.BuildConfig" new="com.sevag.pitcha.c_h">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_h"/>
+   <field old="APPLICATION_ID Ljava/lang/String;" new="f_j"/>
+   <field old="BUILD_TYPE Ljava/lang/String;" new="f_H"/>
+   <field old="DEBUG Z" new="f_L"/>
+   <field old="FLAVOR Ljava/lang/String;" new="f_k"/>
+   <field old="VERSION_CODE I" new="f_B"/>
+   <field old="VERSION_NAME Ljava/lang/String;" new="f_C"/>
+  </class>
+  <class old="com.sevag.pitcha.MainActivity" new="com.sevag.pitcha.MainActivity">
+   <method old="access$000(Lcom/sevag/pitcha/MainActivity;)Landroid/widget/TextView;" new="m_a"/>
+   <method old="display(Ljava/lang/String;D)V" new="m_c"/>
+   <method old="endHook()V" new="m_j"/>
+   <method old="launchPitcha()V" new="m_F"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="startHook()V" new="m_I"/>
+   <field old="audioThread Ljava/lang/Thread;" new="f_L"/>
+   <field old="noteTextView Landroid/widget/TextView;" new="f_H"/>
+  </class>
+  <class old="com.sevag.pitcha.dsp.MPM" new="wy.c_c">
+   <method old="getPitch([D)D" new="m_B"/>
+   <method old="getPitchFromShort([S)D" new="m_l"/>
+   <method old="normalizedSquareDifference([D)V" new="m_K"/>
+   <method old="peakPicking()V" new="m_m"/>
+   <method old="prabolicInterpolation(I)V" new="m_i"/>
+   <field old="$assertionsDisabled Z" new="f_A"/>
+   <field old="DEFAULT_BUFFER_SIZE I" new="f_D"/>
+   <field old="DEFAULT_CUTOFF D" new="f_i"/>
+   <field old="LOWER_PITCH_CUTOFF D" new="f_k"/>
+   <field old="SMALL_CUTOFF D" new="f_H"/>
+   <field old="ampEstimates Ljava/util/List;" new="f_B"/>
+   <field old="cutoff D" new="f_j"/>
+   <field old="maxPositions Ljava/util/List;" new="f_E"/>
+   <field old="nsdf [D" new="f_h"/>
+   <field old="periodEstimates Ljava/util/List;" new="f_f"/>
+   <field old="sampleRate D" new="f_C"/>
+   <field old="turningPointX D" new="f_L"/>
+   <field old="turningPointY D" new="f_g"/>
+  </class>
+  <class old="com.sevag.pitcha.music.NotePitchMap" new="wy.c_h">
+   <method old="displayNoteOf(DLcom/sevag/pitcha/uihelper/UIHelper;)V" new="m_C"/>
+   <field old="ALLOWABLE_ERROR D" new="f_f"/>
+   <field old="PITCH_HIGH_LIMIT D" new="f_D"/>
+   <field old="PITCH_LOW_LIMIT D" new="f_H"/>
+   <field old="noteNames [Ljava/lang/String;" new="f_C"/>
+   <field old="notes [[D" new="f_E"/>
+   <field old="oct0 [D" new="f_A"/>
+   <field old="oct1 [D" new="f_i"/>
+   <field old="oct2 [D" new="f_k"/>
+   <field old="oct3 [D" new="f_j"/>
+   <field old="oct4 [D" new="f_B"/>
+   <field old="oct5 [D" new="f_g"/>
+   <field old="oct6 [D" new="f_K"/>
+   <field old="oct7 [D" new="f_h"/>
+   <field old="oct8 [D" new="f_L"/>
+  </class>
+  <class old="com.sevag.pitcha.MainActivity$1" new="com.sevag.pitcha.c_d">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lcom/sevag/pitcha/MainActivity;" new="f_H"/>
+   <field old="val$err D" new="f_L"/>
+   <field old="val$note Ljava/lang/String;" new="f_B"/>
+  </class>
+  <class old="com.sevag.pitcha.MainActivity$2" new="com.sevag.pitcha.c_L">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lcom/sevag/pitcha/MainActivity;" new="f_H"/>
+  </class>
+  <class old="com.sevag.pitcha.R$string" new="com.sevag.pitcha.R$string">
+   <field old="action_settings I" new="action_settings"/>
+   <field old="app_name I" new="app_name"/>
+  </class>
+  <class old="com.sevag.pitcha.R$id" new="com.sevag.pitcha.R$id">
+   <field old="action_settings I" new="action_settings"/>
+   <field old="noteOutputTextView I" new="noteOutputTextView"/>
+   <field old="titleOutputTextView I" new="titleOutputTextView"/>
+  </class>
+  <class old="com.sevag.pitcha.R$array" new="com.sevag.pitcha.R$array">
+   <field old="androidcolors I" new="androidcolors"/>
+  </class>
+  <class old="com.sevag.pitcha.R$layout" new="com.sevag.pitcha.R$layout">
+   <field old="activity_main I" new="activity_main"/>
+  </class>
+  <class old="com.sevag.pitcha.R$menu" new="com.sevag.pitcha.R$menu">
+   <field old="menu_main I" new="menu_main"/>
+  </class>
+  <class old="com.sevag.pitcha.R$mipmap" new="com.sevag.pitcha.R$mipmap">
+   <field old="ic_launcher I" new="ic_launcher"/>
+  </class>
+  <class old="com.sevag.pitcha.uihelper.UIHelper" new="wy.c_L">
+   <method old="display(Ljava/lang/String;D)V" new="m_c"/>
+  </class>
+  <class old="com.sevag.pitcha.recording.AudioRecorder" new="wy.c_d">
+   <method old="deinit()V" new="m_k"/>
+   <method old="init(Lcom/sevag/pitcha/uihelper/UIHelper;)V" new="m_b"/>
+   <method old="run()V" new="m_A"/>
+   <field old="N I" new="f_f"/>
+   <field old="SAMPLES I" new="f_g"/>
+   <field old="SAMPLE_RATE I" new="f_L"/>
+   <field old="data [S" new="f_j"/>
+   <field old="mpm Lcom/sevag/pitcha/dsp/MPM;" new="f_H"/>
+   <field old="recorder Landroid/media/AudioRecord;" new="f_C"/>
+   <field old="shouldStop Z" new="f_k"/>
+   <field old="uiHelper Lcom/sevag/pitcha/uihelper/UIHelper;" new="f_B"/>
+  </class>
+  <sources>
+   <source old="BuildConfig.java" new="v"/>
+   <source old="MainActivity.java" new="h"/>
+   <source old="R.java" new="f"/>
+   <source old="MPM.java" new="i"/>
+   <source old="NotePitchMap.java" new="d"/>
+   <source old="AudioRecorder.java" new="a"/>
+   <source old="UIHelper.java" new="z"/>
+  </sources>
+  <lines>
+   <line l="71"/>
+   <line l="48"/>
+   <line l="151"/>
+   <line l="147"/>
+   <line l="181"/>
+   <line l="152"/>
+   <line l="201"/>
+   <line l="177"/>
+   <line l="196"/>
+   <line l="107"/>
+   <line l="198"/>
+   <line l="12"/>
+   <line l="29"/>
+   <line l="166"/>
+   <line l="41"/>
+   <line l="206"/>
+   <line l="26"/>
+   <line l="69"/>
+   <line l="28"/>
+   <line l="124"/>
+   <line l="86"/>
+   <line l="213"/>
+   <line l="153"/>
+   <line l="17"/>
+   <line l="92"/>
+   <line l="116"/>
+   <line l="215"/>
+   <line l="156"/>
+   <line l="133"/>
+   <line l="33"/>
+   <line l="157"/>
+   <line l="110"/>
+   <line l="126"/>
+   <line l="22"/>
+   <line l="0"/>
+   <line l="179"/>
+   <line l="106"/>
+   <line l="161"/>
+   <line l="70"/>
+   <line l="127"/>
+   <line l="73"/>
+   <line l="59"/>
+   <line l="61"/>
+   <line l="123"/>
+   <line l="81"/>
+   <line l="49"/>
+   <line l="163"/>
+   <line l="37"/>
+   <line l="38"/>
+   <line l="74"/>
+   <line l="78"/>
+   <line l="101"/>
+   <line l="64"/>
+   <line l="192"/>
+   <line l="197"/>
+   <line l="39"/>
+   <line l="209"/>
+   <line l="16"/>
+   <line l="104"/>
+   <line l="158"/>
+   <line l="96"/>
+   <line l="23"/>
+   <line l="56"/>
+   <line l="216"/>
+   <line l="193"/>
+   <line l="105"/>
+   <line l="75"/>
+   <line l="176"/>
+   <line l="183"/>
+   <line l="145"/>
+   <line l="217"/>
+   <line l="72"/>
+   <line l="93"/>
+   <line l="175"/>
+   <line l="207"/>
+   <line l="136"/>
+   <line l="148"/>
+   <line l="4"/>
+   <line l="7"/>
+   <line l="131"/>
+   <line l="77"/>
+   <line l="212"/>
+   <line l="24"/>
+   <line l="63"/>
+   <line l="57"/>
+   <line l="90"/>
+   <line l="141"/>
+   <line l="129"/>
+   <line l="82"/>
+   <line l="174"/>
+   <line l="188"/>
+   <line l="14"/>
+   <line l="27"/>
+   <line l="204"/>
+   <line l="83"/>
+   <line l="11"/>
+   <line l="121"/>
+   <line l="135"/>
+   <line l="171"/>
+   <line l="187"/>
+   <line l="140"/>
+   <line l="189"/>
+   <line l="138"/>
+   <line l="118"/>
+   <line l="80"/>
+   <line l="1"/>
+   <line l="85"/>
+   <line l="134"/>
+   <line l="159"/>
+   <line l="162"/>
+   <line l="34"/>
+   <line l="30"/>
+   <line l="13"/>
+   <line l="117"/>
+   <line l="113"/>
+   <line l="130"/>
+   <line l="184"/>
+   <line l="76"/>
+   <line l="42"/>
+   <line l="87"/>
+   <line l="65"/>
+   <line l="122"/>
+   <line l="84"/>
+   <line l="195"/>
+   <line l="160"/>
+   <line l="20"/>
+   <line l="208"/>
+   <line l="219"/>
+   <line l="149"/>
+   <line l="155"/>
+   <line l="55"/>
+   <line l="119"/>
+   <line l="94"/>
+   <line l="95"/>
+   <line l="67"/>
+   <line l="31"/>
+   <line l="191"/>
+   <line l="6"/>
+   <line l="103"/>
+   <line l="202"/>
+   <line l="173"/>
+   <line l="169"/>
+   <line l="146"/>
+   <line l="168"/>
+   <line l="111"/>
+   <line l="164"/>
+   <line l="150"/>
+   <line l="45"/>
+   <line l="91"/>
+   <line l="125"/>
+   <line l="88"/>
+   <line l="68"/>
+   <line l="47"/>
+   <line l="9"/>
+   <line l="18"/>
+   <line l="43"/>
+   <line l="211"/>
+   <line l="98"/>
+   <line l="109"/>
+   <line l="143"/>
+   <line l="79"/>
+   <line l="54"/>
+   <line l="167"/>
+   <line l="144"/>
+   <line l="99"/>
+   <line l="185"/>
+   <line l="100"/>
+   <line l="203"/>
+   <line l="112"/>
+   <line l="62"/>
+   <line l="220"/>
+   <line l="142"/>
+   <line l="2"/>
+   <line l="120"/>
+   <line l="15"/>
+   <line l="97"/>
+   <line l="53"/>
+   <line l="128"/>
+   <line l="165"/>
+   <line l="139"/>
+   <line l="218"/>
+   <line l="214"/>
+   <line l="178"/>
+   <line l="51"/>
+   <line l="60"/>
+   <line l="66"/>
+   <line l="10"/>
+   <line l="200"/>
+   <line l="170"/>
+   <line l="3"/>
+   <line l="36"/>
+   <line l="137"/>
+   <line l="5"/>
+   <line l="194"/>
+   <line l="114"/>
+   <line l="19"/>
+   <line l="108"/>
+   <line l="115"/>
+   <line l="40"/>
+   <line l="154"/>
+   <line l="8"/>
+   <line l="172"/>
+   <line l="52"/>
+   <line l="25"/>
+   <line l="182"/>
+   <line l="210"/>
+   <line l="35"/>
+   <line l="180"/>
+   <line l="58"/>
+   <line l="102"/>
+   <line l="89"/>
+   <line l="190"/>
+   <line l="32"/>
+   <line l="186"/>
+   <line l="44"/>
+   <line l="50"/>
+   <line l="199"/>
+   <line l="205"/>
+   <line l="132"/>
+   <line l="46"/>
+   <line l="21"/>
+  </lines>
+ </mapping>
+</allatori>

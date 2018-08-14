@@ -1,0 +1,289 @@
+net.iexos.musicalarm.AlarmService -> net.iexos.musicalarm.AlarmService:
+    java.lang.String EXTRA_STATE_CHANGE -> a
+    java.lang.String LOGGING_TAG -> b
+    int NOTIFICATION_ID -> c
+    java.lang.String WAKE_LOCK_TAG -> d
+    boolean mAlarmWaiting -> e
+    net.iexos.musicalarm.AlarmService$State mState -> f
+    android.media.MediaPlayer mAlarmPlayer -> g
+    int mDelay -> h
+    boolean mIsPlaying -> i
+    net.iexos.musicalarm.MusicPlayer mMusicPlayer -> j
+    android.net.Uri mRingtoneUri -> k
+    int mSnooze -> l
+    android.os.PowerManager$WakeLock mWakeLock -> m
+    android.content.BroadcastReceiver receiver -> n
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void callStarted() -> a
+    void callStopped() -> b
+    void checkErrorStates(net.iexos.musicalarm.AlarmService$StateChange) -> a
+    android.app.PendingIntent getPendingStateChangeIntent(android.content.Context,net.iexos.musicalarm.AlarmService$StateChange) -> a
+    android.content.Intent getStateChangeIntent(android.content.Context,net.iexos.musicalarm.AlarmService$StateChange) -> b
+    boolean isRinging() -> c
+    void sendStateChangeIntent(android.content.Context,net.iexos.musicalarm.AlarmService$StateChange) -> c
+    void startPlayback() -> d
+    void startRinging() -> e
+    void stopPlayback() -> stopPlayback
+    void stopRinging() -> f
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand
+net.iexos.musicalarm.AlarmService$1 -> net.iexos.musicalarm.AlarmService$1:
+    net.iexos.musicalarm.AlarmService this$0 -> o
+    void <init>(net.iexos.musicalarm.AlarmService) -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+net.iexos.musicalarm.AlarmService$2 -> net.iexos.musicalarm.a:
+    int[] $SwitchMap$net$iexos$musicalarm$AlarmService$State -> p
+    int[] $SwitchMap$net$iexos$musicalarm$AlarmService$StateChange -> q
+    void <clinit>() -> <clinit>
+net.iexos.musicalarm.AlarmService$State -> net.iexos.musicalarm.b:
+    net.iexos.musicalarm.AlarmService$State[] $VALUES -> r
+    net.iexos.musicalarm.AlarmService$State IDLE -> s
+    net.iexos.musicalarm.AlarmService$State INIT -> t
+    net.iexos.musicalarm.AlarmService$State IN_CALL -> u
+    net.iexos.musicalarm.AlarmService$State RINGING -> v
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String,int) -> <init>
+    net.iexos.musicalarm.AlarmService$State valueOf(java.lang.String) -> valueOf
+    net.iexos.musicalarm.AlarmService$State[] values() -> values
+net.iexos.musicalarm.AlarmService$StateChange -> net.iexos.musicalarm.c:
+    net.iexos.musicalarm.AlarmService$StateChange[] $VALUES -> w
+    net.iexos.musicalarm.AlarmService$StateChange SNOOZE -> x
+    net.iexos.musicalarm.AlarmService$StateChange START_CALL -> y
+    net.iexos.musicalarm.AlarmService$StateChange START_PLAYBACK -> z
+    net.iexos.musicalarm.AlarmService$StateChange START_RINGING -> A
+    net.iexos.musicalarm.AlarmService$StateChange STOP_ALL -> B
+    net.iexos.musicalarm.AlarmService$StateChange STOP_CALL -> C
+    net.iexos.musicalarm.AlarmService$StateChange STOP_PLAYBACK -> D
+    net.iexos.musicalarm.AlarmService$StateChange STOP_RINGING -> E
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String,int) -> <init>
+    net.iexos.musicalarm.AlarmService$StateChange valueOf(java.lang.String) -> valueOf
+    net.iexos.musicalarm.AlarmService$StateChange[] values() -> values
+net.iexos.musicalarm.AlarmUtils -> net.iexos.musicalarm.d:
+    java.lang.String LOGGING_TAG -> b
+    void <init>() -> <init>
+    android.app.AlarmManager alarmManager(android.content.Context) -> a
+    void dismissAlarm(android.content.Context) -> b
+    void dismissRingAlarm(android.content.Context) -> c
+    android.app.PendingIntent getAlarmIntent(android.content.Context) -> d
+    android.app.PendingIntent getRingIntent(android.content.Context) -> e
+    android.app.PendingIntent getShowIntent(android.content.Context) -> f
+    long getTriggerTime(android.content.Context) -> g
+    boolean isAlarmSet(android.content.Context) -> h
+    android.app.AlarmManager$AlarmClockInfo setAlarm(android.content.Context,int,int) -> a
+    android.app.AlarmManager$AlarmClockInfo setAlarm(android.content.Context,long) -> a
+    android.app.AlarmManager$AlarmClockInfo setRingAlarm(android.content.Context,int) -> a
+    void updateAlarmInfo(android.content.Context,boolean,long) -> a
+net.iexos.musicalarm.AlarmViewActivity -> net.iexos.musicalarm.AlarmViewActivity:
+    java.lang.String ACTION_UPDATE_STATUS -> F
+    int DEFAULT_DELAY -> G
+    int DEFAULT_HOUR -> H
+    int DEFAULT_MINUTE -> I
+    int DEFAULT_SNOOZE -> J
+    java.lang.String PREFERENCES -> K
+    java.lang.String PREF_ALARM_SET -> L
+    java.lang.String PREF_DELAY -> M
+    java.lang.String PREF_HOUR -> N
+    java.lang.String PREF_MIN -> O
+    java.lang.String PREF_PLAYLIST_ID -> P
+    java.lang.String PREF_PLAYLIST_NAME -> Q
+    java.lang.String PREF_RINGTONE_NAME -> R
+    java.lang.String PREF_RINGTONE_URI -> S
+    java.lang.String PREF_SNOOZE -> T
+    java.lang.String PREF_TRIGGER_TIME -> U
+    int RINGTONE_PICKER_REQUEST_CODE -> V
+    boolean mAlarmSet -> W
+    int mDelayMin -> X
+    int mHour -> Y
+    int mMin -> Z
+    net.iexos.musicalarm.PlaylistManager mPlaylistManager -> aa
+    android.content.SharedPreferences mSettings -> ab
+    android.content.BroadcastReceiver receiver -> n
+    void <init>() -> <init>
+    void access$000(net.iexos.musicalarm.AlarmViewActivity) -> a
+    void checkAlarmStatus() -> g
+    void sendUpdateStatus(android.content.Context) -> i
+    void setAlarm() -> h
+    void updateTimeViews() -> i
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onCreate(android.os.Bundle) -> onCreate
+    void onDelayChosen(int) -> a
+    void onDestroy() -> onDestroy
+    void onPlaylistChosen() -> j
+    void onSetAlarmButton(android.view.View) -> onSetAlarmButton
+    void onTimeChosen(int,int) -> a
+    void showDelayPickerDialog(android.view.View) -> showDelayPickerDialog
+    void showPlaylistDialog(android.view.View) -> showPlaylistDialog
+    void showRingtonePicker(android.view.View) -> showRingtonePicker
+    void showTimePickerDialog(android.view.View) -> showTimePickerDialog
+    void startRinging(android.view.View) -> startRinging
+    void stopRinging(android.view.View) -> stopRinging
+    void testMusicPlayerButton(android.view.View) -> testMusicPlayerButton
+    void updateAlarmStatus() -> k
+    void updatePlaylistName() -> l
+    void updateRingtoneName() -> m
+net.iexos.musicalarm.AlarmViewActivity$1 -> net.iexos.musicalarm.AlarmViewActivity$1:
+    net.iexos.musicalarm.AlarmViewActivity this$0 -> ac
+    void <init>(net.iexos.musicalarm.AlarmViewActivity) -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+net.iexos.musicalarm.BuildConfig -> net.iexos.musicalarm.e:
+    java.lang.String APPLICATION_ID -> ad
+    java.lang.String BUILD_TYPE -> ae
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> af
+    int VERSION_CODE -> ag
+    java.lang.String VERSION_NAME -> ah
+    void <init>() -> <init>
+net.iexos.musicalarm.DelayPickerFragment -> net.iexos.musicalarm.f:
+    void <init>() -> <init>
+    android.app.Dialog onCreateDialog(android.os.Bundle) -> onCreateDialog
+net.iexos.musicalarm.DelayPickerFragment$1 -> net.iexos.musicalarm.g:
+    net.iexos.musicalarm.DelayPickerFragment this$0 -> ai
+    android.widget.NumberPicker val$picker -> aj
+    void <init>(net.iexos.musicalarm.DelayPickerFragment,android.widget.NumberPicker) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.iexos.musicalarm.DelayPickerFragment$2 -> net.iexos.musicalarm.h:
+    net.iexos.musicalarm.DelayPickerFragment this$0 -> ai
+    void <init>(net.iexos.musicalarm.DelayPickerFragment) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.iexos.musicalarm.MusicPlayer -> net.iexos.musicalarm.i:
+    java.lang.String LOGGING_TAG -> b
+    android.media.AudioManager mAudioManager -> ak
+    android.content.Context mCon -> al
+    android.media.MediaPlayer mMediaPlayer -> am
+    net.iexos.musicalarm.MusicPlayer$MusicState mMusicState -> an
+    long mPlaylistID -> ao
+    java.lang.String mPlaylistName -> ap
+    java.util.Iterator mSongIter -> aq
+    void <init>(android.content.Context,long,java.lang.String) -> <init>
+    net.iexos.musicalarm.MusicPlayer$MusicState access$002(net.iexos.musicalarm.MusicPlayer,net.iexos.musicalarm.MusicPlayer$MusicState) -> a
+    boolean initMediaPlayer() -> n
+    void onAudioFocusChange(int) -> onAudioFocusChange
+    void pause() -> pause
+    void resume() -> resume
+    void stop() -> stop
+net.iexos.musicalarm.MusicPlayer$1 -> net.iexos.musicalarm.j:
+    net.iexos.musicalarm.MusicPlayer this$0 -> ar
+    void <init>(net.iexos.musicalarm.MusicPlayer) -> <init>
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+net.iexos.musicalarm.MusicPlayer$2 -> net.iexos.musicalarm.k:
+    int[] $SwitchMap$net$iexos$musicalarm$MusicPlayer$MusicState -> as
+    void <clinit>() -> <clinit>
+net.iexos.musicalarm.MusicPlayer$MusicState -> net.iexos.musicalarm.l:
+    net.iexos.musicalarm.MusicPlayer$MusicState[] $VALUES -> at
+    net.iexos.musicalarm.MusicPlayer$MusicState PAUSED -> au
+    net.iexos.musicalarm.MusicPlayer$MusicState PLAYING -> av
+    net.iexos.musicalarm.MusicPlayer$MusicState STOPPED -> aw
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String,int) -> <init>
+    net.iexos.musicalarm.MusicPlayer$MusicState valueOf(java.lang.String) -> valueOf
+    net.iexos.musicalarm.MusicPlayer$MusicState[] values() -> values
+net.iexos.musicalarm.NotificationUtils -> net.iexos.musicalarm.m:
+    void <init>() -> <init>
+    android.app.Notification$Builder addDismissAlarmButton(android.content.Context,android.app.Notification$Builder) -> a
+    android.app.Notification$Builder addDismissAllButton(android.content.Context,android.app.Notification$Builder) -> b
+    android.app.Notification$Builder addSnoozeButton(android.content.Context,android.app.Notification$Builder) -> c
+    void displayForegroundNotification(android.app.Service,net.iexos.musicalarm.AlarmService$State) -> a
+    void displayStoppedNotification(android.content.Context) -> j
+    android.app.Notification$Builder getNotificationBuilder(android.content.Context) -> k
+net.iexos.musicalarm.OnBootReceiver -> net.iexos.musicalarm.OnBootReceiver:
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+net.iexos.musicalarm.PlaylistDialog -> net.iexos.musicalarm.n:
+    void <init>() -> <init>
+    android.app.Dialog onCreateDialog(android.os.Bundle) -> onCreateDialog
+net.iexos.musicalarm.PlaylistDialog$1 -> net.iexos.musicalarm.o:
+    net.iexos.musicalarm.PlaylistDialog this$0 -> ax
+    android.widget.ListAdapter val$adapter -> ay
+    net.iexos.musicalarm.PlaylistManager val$playlistManager -> az
+    void <init>(net.iexos.musicalarm.PlaylistDialog,android.widget.ListAdapter,net.iexos.musicalarm.PlaylistManager) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+net.iexos.musicalarm.PlaylistManager -> net.iexos.musicalarm.p:
+    java.lang.String DATA_KEY -> aA
+    java.lang.String ID_KEY -> aB
+    java.lang.String LOGGING_TAG -> b
+    java.lang.String NAME_KEY -> aC
+    long mID -> aD
+    java.lang.String mName -> mName
+    android.content.ContentResolver mResolver -> aE
+    void <init>(android.content.Context,long,java.lang.String) -> <init>
+    android.widget.ListAdapter getPlaylistAdapter(android.content.Context) -> l
+    java.util.List getSongs() -> o
+net.iexos.musicalarm.R -> net.iexos.musicalarm.q:
+    void <init>() -> <init>
+net.iexos.musicalarm.R$attr -> net.iexos.musicalarm.R$attr:
+    void <init>() -> <init>
+net.iexos.musicalarm.R$color -> net.iexos.musicalarm.R$color:
+    int green -> green
+    int grey -> grey
+    int orange -> orange
+    void <init>() -> <init>
+net.iexos.musicalarm.R$dimen -> net.iexos.musicalarm.R$dimen:
+    int activity_horizontal_margin -> activity_horizontal_margin
+    int activity_vertical_margin -> activity_vertical_margin
+    int alarm_view_grid_width -> alarm_view_grid_width
+    int alarm_view_icon_size -> alarm_view_icon_size
+    int alarm_view_text_size -> alarm_view_text_size
+    void <init>() -> <init>
+net.iexos.musicalarm.R$drawable -> net.iexos.musicalarm.R$drawable:
+    int ic_action_cancel -> ic_action_cancel
+    int ic_alarm_off -> ic_alarm_off
+    int ic_audiotrack -> ic_audiotrack
+    int ic_notifications -> ic_notifications
+    int ic_snooze -> ic_snooze
+    void <init>() -> <init>
+net.iexos.musicalarm.R$id -> net.iexos.musicalarm.R$id:
+    int alarm_time -> alarm_time
+    int music_time -> music_time
+    int playlist -> playlist
+    int ringtone -> ringtone
+    int set_alarm -> set_alarm
+    void <init>() -> <init>
+net.iexos.musicalarm.R$layout -> net.iexos.musicalarm.R$layout:
+    int activity_alarm_view -> activity_alarm_view
+    void <init>() -> <init>
+net.iexos.musicalarm.R$mipmap -> net.iexos.musicalarm.R$mipmap:
+    int ic_alarm_note -> ic_alarm_note
+    int ic_launcher -> ic_launcher
+    void <init>() -> <init>
+net.iexos.musicalarm.R$string -> net.iexos.musicalarm.R$string:
+    int action_settings -> action_settings
+    int alarm_off -> alarm_off
+    int alarm_on -> alarm_on
+    int app_name -> app_name
+    int cancel -> cancel
+    int choose_playlist -> choose_playlist
+    int choose_ringtone -> choose_ringtone
+    int error_playlist -> error_playlist
+    int icon_bell -> icon_bell
+    int icon_music_note -> icon_music_note
+    int no_playlist_dialog_message -> no_playlist_dialog_message
+    int no_playlist_dialog_title -> no_playlist_dialog_title
+    int no_valid_playlist -> no_valid_playlist
+    int notification_dismiss_alarm -> notification_dismiss_alarm
+    int notification_dismiss_all -> notification_dismiss_all
+    int notification_playing -> notification_playing
+    int notification_playing_upcoming -> notification_playing_upcoming
+    int notification_ringing -> notification_ringing
+    int notification_snooze -> notification_snooze
+    int notification_title_playing -> notification_title_playing
+    int notification_title_ringing -> notification_title_ringing
+    int notification_title_waiting -> notification_title_waiting
+    int notification_waiting -> notification_waiting
+    int ok -> ok
+    int placeholder -> placeholder
+    int set_delay -> set_delay
+    int test_player -> test_player
+    int time_placeholder -> time_placeholder
+    int toast_alarm_set -> toast_alarm_set
+    void <init>() -> <init>
+net.iexos.musicalarm.R$style -> net.iexos.musicalarm.R$style:
+    int AppTheme -> AppTheme
+    void <init>() -> <init>
+net.iexos.musicalarm.TimePickerFragment -> net.iexos.musicalarm.r:
+    void <init>() -> <init>
+    android.app.Dialog onCreateDialog(android.os.Bundle) -> onCreateDialog
+    void onTimeSet(android.widget.TimePicker,int,int) -> onTimeSet

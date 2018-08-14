@@ -1,0 +1,41 @@
+net.loeuillet.wifi_eap_sim_conf.BuildConfig -> net.loeuillet.wifi_eap_sim_conf.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+net.loeuillet.wifi_eap_sim_conf.MyActivity -> net.loeuillet.wifi_eap_sim_conf.MyActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+net.loeuillet.wifi_eap_sim_conf.R -> net.loeuillet.wifi_eap_sim_conf.b:
+    void <init>() -> <init>
+net.loeuillet.wifi_eap_sim_conf.R$attr -> net.loeuillet.wifi_eap_sim_conf.R$attr:
+    void <init>() -> <init>
+net.loeuillet.wifi_eap_sim_conf.R$dimen -> net.loeuillet.wifi_eap_sim_conf.R$dimen:
+    int activity_horizontal_margin -> activity_horizontal_margin
+    int activity_vertical_margin -> activity_vertical_margin
+    void <init>() -> <init>
+net.loeuillet.wifi_eap_sim_conf.R$drawable -> net.loeuillet.wifi_eap_sim_conf.R$drawable:
+    int ic_launcher -> ic_launcher
+    void <init>() -> <init>
+net.loeuillet.wifi_eap_sim_conf.R$id -> net.loeuillet.wifi_eap_sim_conf.R$id:
+    int action_settings -> action_settings
+    void <init>() -> <init>
+net.loeuillet.wifi_eap_sim_conf.R$layout -> net.loeuillet.wifi_eap_sim_conf.R$layout:
+    int activity_my -> activity_my
+    void <init>() -> <init>
+net.loeuillet.wifi_eap_sim_conf.R$menu -> net.loeuillet.wifi_eap_sim_conf.R$menu:
+    int my -> my
+    void <init>() -> <init>
+net.loeuillet.wifi_eap_sim_conf.R$string -> net.loeuillet.wifi_eap_sim_conf.R$string:
+    int action_settings -> action_settings
+    int app_name -> app_name
+    int hello_world -> hello_world
+    void <init>() -> <init>
+net.loeuillet.wifi_eap_sim_conf.R$style -> net.loeuillet.wifi_eap_sim_conf.R$style:
+    int AppTheme -> AppTheme
+    void <init>() -> <init>

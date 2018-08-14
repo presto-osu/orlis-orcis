@@ -1,0 +1,430 @@
+com.termux.api.BatteryStatusAPI -> com.termux.api.a:
+    void <init>() -> <init>
+    void onReceive(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> a
+com.termux.api.BatteryStatusAPI$1 -> com.termux.api.b:
+    android.content.Context val$context -> a
+    void <init>(android.content.Context) -> <init>
+    void writeJson(android.util.JsonWriter) -> a
+com.termux.api.BuildConfig -> com.termux.api.c:
+    java.lang.String APPLICATION_ID -> b
+    java.lang.String BUILD_TYPE -> c
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> d
+    int VERSION_CODE -> e
+    java.lang.String VERSION_NAME -> f
+    void <init>() -> <init>
+com.termux.api.CameraInfoAPI -> com.termux.api.d:
+    void <init>() -> <init>
+    void onReceive(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> a
+com.termux.api.CameraInfoAPI$1 -> com.termux.api.e:
+    android.content.Context val$context -> a
+    void <init>(android.content.Context) -> <init>
+    void writeJson(android.util.JsonWriter) -> a
+com.termux.api.ClipboardAPI -> com.termux.api.f:
+    void <init>() -> <init>
+    void onReceive(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> a
+com.termux.api.ClipboardAPI$1 -> com.termux.api.g:
+    android.content.ClipboardManager val$clipboard -> g
+    void <init>(android.content.ClipboardManager) -> <init>
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.ClipboardAPI$2 -> com.termux.api.h:
+    android.content.ClipData val$clipData -> h
+    android.content.Context val$context -> a
+    void <init>(android.content.ClipData,android.content.Context) -> <init>
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.ClipboardAPI$3 -> com.termux.api.i:
+    android.content.ClipData val$clipData -> h
+    android.content.Context val$context -> a
+    java.lang.String val$newClipText -> i
+    void <init>(java.lang.String,android.content.ClipData,android.content.Context) -> <init>
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.ContactListAPI -> com.termux.api.j:
+    void <init>() -> <init>
+    void listContacts(android.content.Context,android.util.JsonWriter) -> a
+    void onReceive(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> a
+com.termux.api.ContactListAPI$1 -> com.termux.api.k:
+    android.content.Context val$context -> a
+    void <init>(android.content.Context) -> <init>
+    void writeJson(android.util.JsonWriter) -> a
+com.termux.api.DialogActivity -> com.termux.api.DialogActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void onNewIntent(android.content.Intent) -> onNewIntent
+com.termux.api.DialogActivity$1 -> com.termux.api.l:
+    com.termux.api.DialogActivity this$0 -> j
+    void <init>(com.termux.api.DialogActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.termux.api.DialogActivity$1$1 -> com.termux.api.m:
+    com.termux.api.DialogActivity$1 this$1 -> k
+    void <init>(com.termux.api.DialogActivity$1) -> <init>
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.DialogActivity$1$1$1 -> com.termux.api.n:
+    com.termux.api.DialogActivity$1$1 this$2 -> l
+    void <init>(com.termux.api.DialogActivity$1$1) -> <init>
+    void run() -> run
+com.termux.api.DialogActivity$2 -> com.termux.api.o:
+    com.termux.api.DialogActivity this$0 -> j
+    void <init>(com.termux.api.DialogActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.termux.api.DialogActivity$2$1 -> com.termux.api.p:
+    com.termux.api.DialogActivity$2 this$1 -> m
+    void <init>(com.termux.api.DialogActivity$2) -> <init>
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.DialogActivity$2$1$1 -> com.termux.api.q:
+    com.termux.api.DialogActivity$2$1 this$2 -> n
+    void <init>(com.termux.api.DialogActivity$2$1) -> <init>
+    void run() -> run
+com.termux.api.DownloadAPI -> com.termux.api.r:
+    void <init>() -> <init>
+    void onReceive(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> a
+com.termux.api.DownloadAPI$1 -> com.termux.api.s:
+    android.content.Context val$context -> a
+    android.content.Intent val$intent -> o
+    void <init>(android.content.Intent,android.content.Context) -> <init>
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.InfraredAPI -> com.termux.api.t:
+    void <init>() -> <init>
+    void onReceiveCarrierFrequency(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> b
+    void onReceiveTransmit(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> c
+com.termux.api.InfraredAPI$1 -> com.termux.api.u:
+    android.content.Context val$context -> a
+    void <init>(android.content.Context) -> <init>
+    void writeJson(android.util.JsonWriter) -> a
+com.termux.api.InfraredAPI$2 -> com.termux.api.v:
+    android.content.Context val$context -> a
+    android.content.Intent val$intent -> o
+    void <init>(android.content.Context,android.content.Intent) -> <init>
+    void writeJson(android.util.JsonWriter) -> a
+com.termux.api.LocationAPI -> com.termux.api.w:
+    java.lang.String REQUEST_LAST_KNOWN -> p
+    java.lang.String REQUEST_ONCE -> q
+    java.lang.String REQUEST_UPDATES -> r
+    void <init>() -> <init>
+    void locationToJson(android.location.Location,android.util.JsonWriter) -> a
+    void onReceive(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> a
+com.termux.api.LocationAPI$1 -> com.termux.api.x:
+    android.content.Context val$context -> a
+    android.content.Intent val$intent -> o
+    void <init>(android.content.Context,android.content.Intent) -> <init>
+    void writeJson(android.util.JsonWriter) -> a
+com.termux.api.LocationAPI$1$1 -> com.termux.api.y:
+    com.termux.api.LocationAPI$1 this$0 -> s
+    android.util.JsonWriter val$out -> t
+    void <init>(com.termux.api.LocationAPI$1,android.util.JsonWriter) -> <init>
+    void onLocationChanged(android.location.Location) -> onLocationChanged
+    void onProviderDisabled(java.lang.String) -> onProviderDisabled
+    void onProviderEnabled(java.lang.String) -> onProviderEnabled
+    void onStatusChanged(java.lang.String,int,android.os.Bundle) -> onStatusChanged
+com.termux.api.LocationAPI$1$2 -> com.termux.api.z:
+    com.termux.api.LocationAPI$1 this$0 -> s
+    android.util.JsonWriter val$out -> t
+    void <init>(com.termux.api.LocationAPI$1,android.util.JsonWriter) -> <init>
+    void onLocationChanged(android.location.Location) -> onLocationChanged
+    void onProviderDisabled(java.lang.String) -> onProviderDisabled
+    void onProviderEnabled(java.lang.String) -> onProviderEnabled
+    void onStatusChanged(java.lang.String,int,android.os.Bundle) -> onStatusChanged
+com.termux.api.LocationAPI$1$3 -> com.termux.api.aa:
+    com.termux.api.LocationAPI$1 this$0 -> s
+    android.os.Looper val$looper -> u
+    void <init>(com.termux.api.LocationAPI$1,android.os.Looper) -> <init>
+    void run() -> run
+com.termux.api.Manifest -> com.termux.api.ab:
+    void <init>() -> <init>
+com.termux.api.Manifest$permission -> com.termux.api.ac:
+    java.lang.String READ -> READ
+    void <init>() -> <init>
+com.termux.api.NotificationAPI -> com.termux.api.ad:
+    void <init>() -> <init>
+    void onReceive(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> a
+com.termux.api.PhotoAPI -> com.termux.api.ae:
+    void <init>() -> <init>
+    void access$000(java.io.PrintWriter,android.content.Context,java.io.File,java.lang.String) -> a
+    void closeCamera(android.hardware.camera2.CameraDevice,android.os.Looper) -> a
+    int correctOrientation(android.content.Context,android.hardware.camera2.CameraCharacteristics) -> a
+    void onReceive(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> a
+    void proceedWithOpenedCamera(android.content.Context,android.hardware.camera2.CameraManager,android.hardware.camera2.CameraDevice,java.io.File,android.os.Looper,java.io.PrintWriter) -> a
+    void saveImage(android.hardware.camera2.CameraDevice,android.hardware.camera2.CameraCaptureSession,android.hardware.camera2.CaptureRequest) -> a
+    void takePicture(java.io.PrintWriter,android.content.Context,java.io.File,java.lang.String) -> b
+com.termux.api.PhotoAPI$1 -> com.termux.api.af:
+    java.lang.String val$cameraId -> v
+    android.content.Context val$context -> a
+    java.io.File val$outputDir -> w
+    java.io.File val$outputFile -> x
+    void <init>(java.io.File,android.content.Context,java.io.File,java.lang.String) -> <init>
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.PhotoAPI$2 -> com.termux.api.ag:
+    android.content.Context val$context -> a
+    android.os.Looper val$looper -> u
+    android.hardware.camera2.CameraManager val$manager -> y
+    java.io.File val$outputFile -> x
+    java.io.PrintWriter val$stdout -> z
+    void <init>(android.content.Context,android.hardware.camera2.CameraManager,java.io.File,android.os.Looper,java.io.PrintWriter) -> <init>
+    void onDisconnected(android.hardware.camera2.CameraDevice) -> onDisconnected
+    void onError(android.hardware.camera2.CameraDevice,int) -> onError
+    void onOpened(android.hardware.camera2.CameraDevice) -> onOpened
+com.termux.api.PhotoAPI$3 -> com.termux.api.ah:
+    void <init>() -> <init>
+    int compare(android.util.Size,android.util.Size) -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+com.termux.api.PhotoAPI$4 -> com.termux.api.ai:
+    android.hardware.camera2.CameraDevice val$camera -> A
+    android.os.Looper val$looper -> u
+    java.io.File val$outputFile -> x
+    java.io.PrintWriter val$stdout -> z
+    void <init>(java.io.File,java.io.PrintWriter,android.hardware.camera2.CameraDevice,android.os.Looper) -> <init>
+    void onImageAvailable(android.media.ImageReader) -> onImageAvailable
+com.termux.api.PhotoAPI$4$1 -> com.termux.api.aj:
+    com.termux.api.PhotoAPI$4 this$0 -> B
+    android.media.ImageReader val$reader -> C
+    void <init>(com.termux.api.PhotoAPI$4,android.media.ImageReader) -> <init>
+    void run() -> run
+com.termux.api.PhotoAPI$5 -> com.termux.api.ak:
+    int val$autoExposureModeFinal -> D
+    android.hardware.camera2.CameraDevice val$camera -> A
+    android.hardware.camera2.CameraCharacteristics val$characteristics -> E
+    android.content.Context val$context -> a
+    android.view.Surface val$imageReaderSurface -> F
+    android.os.Looper val$looper -> u
+    void <init>(android.hardware.camera2.CameraDevice,android.view.Surface,int,android.content.Context,android.hardware.camera2.CameraCharacteristics,android.os.Looper) -> <init>
+    void onConfigureFailed(android.hardware.camera2.CameraCaptureSession) -> onConfigureFailed
+    void onConfigured(android.hardware.camera2.CameraCaptureSession) -> onConfigured
+com.termux.api.PhotoAPI$6 -> com.termux.api.al:
+    android.hardware.camera2.CameraDevice val$camera -> A
+    void <init>(android.hardware.camera2.CameraDevice) -> <init>
+    void onCaptureCompleted(android.hardware.camera2.CameraCaptureSession,android.hardware.camera2.CaptureRequest,android.hardware.camera2.TotalCaptureResult) -> onCaptureCompleted
+com.termux.api.R -> com.termux.api.am:
+    void <init>() -> <init>
+com.termux.api.R$attr -> com.termux.api.R$attr:
+    int metaButtonBarButtonStyle -> metaButtonBarButtonStyle
+    int metaButtonBarStyle -> metaButtonBarStyle
+    void <init>() -> <init>
+com.termux.api.R$color -> com.termux.api.R$color:
+    int black_overlay -> black_overlay
+    void <init>() -> <init>
+com.termux.api.R$drawable -> com.termux.api.R$drawable:
+    int ic_launcher -> ic_launcher
+    void <init>() -> <init>
+com.termux.api.R$id -> com.termux.api.R$id:
+    int RelativeLayout1 -> RelativeLayout1
+    int cancel_button -> cancel_button
+    int grant_permission_description -> grant_permission_description
+    int ok_button -> ok_button
+    int text_input -> text_input
+    void <init>() -> <init>
+com.termux.api.R$layout -> com.termux.api.R$layout:
+    int activity_permission -> activity_permission
+    int dialog_textarea_input -> dialog_textarea_input
+    void <init>() -> <init>
+com.termux.api.R$string -> com.termux.api.R$string:
+    int app_name -> app_name
+    int grant_permission -> grant_permission
+    int permission_description -> permission_description
+    int share_file_chooser_title -> share_file_chooser_title
+    void <init>() -> <init>
+com.termux.api.R$style -> com.termux.api.R$style:
+    int ButtonBar -> ButtonBar
+    int ButtonBarButton -> ButtonBarButton
+    int FullscreenActionBarStyle -> FullscreenActionBarStyle
+    int FullscreenTheme -> FullscreenTheme
+    void <init>() -> <init>
+com.termux.api.R$styleable -> com.termux.api.R$styleable:
+    int[] ButtonBarContainerTheme -> ButtonBarContainerTheme
+    int ButtonBarContainerTheme_metaButtonBarButtonStyle -> ButtonBarContainerTheme_metaButtonBarButtonStyle
+    int ButtonBarContainerTheme_metaButtonBarStyle -> ButtonBarContainerTheme_metaButtonBarStyle
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+com.termux.api.ShareAPI -> com.termux.api.an:
+    void <init>() -> <init>
+    void onReceive(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> a
+com.termux.api.ShareAPI$1 -> com.termux.api.ao:
+    java.lang.String val$contentTypeExtra -> G
+    android.content.Context val$context -> a
+    java.lang.String val$finalIntentAction -> H
+    java.lang.String val$titleExtra -> I
+    void <init>(java.lang.String,java.lang.String,java.lang.String,android.content.Context) -> <init>
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.ShareAPI$2 -> com.termux.api.ap:
+    java.lang.String val$contentTypeExtra -> G
+    android.content.Context val$context -> a
+    boolean val$defaultReceiverExtra -> J
+    java.lang.String val$fileExtra -> K
+    java.lang.String val$finalIntentAction -> H
+    java.lang.String val$titleExtra -> I
+    void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean,android.content.Context) -> <init>
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.ShareAPI$ContentProvider -> com.termux.api.ShareAPI$ContentProvider:
+    void <init>() -> <init>
+    int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> delete
+    java.lang.String getType(android.net.Uri) -> getType
+    android.net.Uri insert(android.net.Uri,android.content.ContentValues) -> insert
+    boolean onCreate() -> onCreate
+    android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String) -> openFile
+    android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> query
+    int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> update
+com.termux.api.SmsInboxAPI -> com.termux.api.aq:
+    java.lang.String[] DISPLAY_NAME_PROJECTION -> L
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void getAllSms(android.content.Context,android.util.JsonWriter,int,int) -> a
+    java.lang.String getContactNameFromNumber(java.util.Map,android.content.Context,java.lang.String) -> a
+    void onReceive(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> a
+com.termux.api.SmsInboxAPI$1 -> com.termux.api.ar:
+    android.content.Context val$context -> a
+    int val$limit -> M
+    int val$offset -> N
+    void <init>(android.content.Context,int,int) -> <init>
+    void writeJson(android.util.JsonWriter) -> a
+com.termux.api.SmsSendAPI -> com.termux.api.as:
+    void <init>() -> <init>
+    void onReceive(com.termux.api.TermuxApiReceiver,android.content.Intent) -> a
+com.termux.api.SmsSendAPI$1 -> com.termux.api.at:
+    android.content.Intent val$intent -> o
+    void <init>(android.content.Intent) -> <init>
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.SpeechToTextAPI -> com.termux.api.au:
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void runFromActivity(android.app.Activity) -> a
+com.termux.api.SpeechToTextAPI$1 -> com.termux.api.av:
+    android.app.Activity val$context -> O
+    void <init>(android.app.Activity) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.termux.api.SpeechToTextAPI$SpeechToTextService -> com.termux.api.SpeechToTextAPI$SpeechToTextService:
+    java.lang.String STOP_ELEMENT -> P
+    android.speech.SpeechRecognizer mSpeechRecognizer -> Q
+    java.util.concurrent.LinkedBlockingQueue queueu -> R
+    void <init>() -> <init>
+    void <init>(java.lang.String) -> <init>
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    void onHandleIntent(android.content.Intent) -> onHandleIntent
+com.termux.api.SpeechToTextAPI$SpeechToTextService$1 -> com.termux.api.aw:
+    com.termux.api.SpeechToTextAPI$SpeechToTextService this$0 -> S
+    void <init>(com.termux.api.SpeechToTextAPI$SpeechToTextService) -> <init>
+    void onBeginningOfSpeech() -> onBeginningOfSpeech
+    void onBufferReceived(byte[]) -> onBufferReceived
+    void onEndOfSpeech() -> onEndOfSpeech
+    void onError(int) -> onError
+    void onEvent(int,android.os.Bundle) -> onEvent
+    void onPartialResults(android.os.Bundle) -> onPartialResults
+    void onReadyForSpeech(android.os.Bundle) -> onReadyForSpeech
+    void onResults(android.os.Bundle) -> onResults
+    void onRmsChanged(float) -> onRmsChanged
+com.termux.api.SpeechToTextAPI$SpeechToTextService$2 -> com.termux.api.ax:
+    com.termux.api.SpeechToTextAPI$SpeechToTextService this$0 -> S
+    android.content.Context val$context -> a
+    void <init>(com.termux.api.SpeechToTextAPI$SpeechToTextService,android.content.Context) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.termux.api.SpeechToTextAPI$SpeechToTextService$3 -> com.termux.api.ay:
+    com.termux.api.SpeechToTextAPI$SpeechToTextService this$0 -> S
+    void <init>(com.termux.api.SpeechToTextAPI$SpeechToTextService) -> <init>
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.TelephonyAPI -> com.termux.api.az:
+    void <init>() -> <init>
+    void access$000(android.util.JsonWriter,java.lang.String,int) -> a
+    void onReceiveTelephonyCellInfo(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> d
+    void onReceiveTelephonyDeviceInfo(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> e
+    void writeIfKnown(android.util.JsonWriter,java.lang.String,int) -> b
+com.termux.api.TelephonyAPI$1 -> com.termux.api.ba:
+    android.content.Context val$context -> a
+    void <init>(android.content.Context) -> <init>
+    void writeJson(android.util.JsonWriter) -> a
+com.termux.api.TelephonyAPI$2 -> com.termux.api.bb:
+    android.content.Context val$context -> a
+    void <init>(android.content.Context) -> <init>
+    void writeJson(android.util.JsonWriter) -> a
+com.termux.api.TermuxApiReceiver -> com.termux.api.TermuxApiReceiver:
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.termux.api.TextToSpeechAPI -> com.termux.api.bc:
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.termux.api.TextToSpeechAPI$TextToSpeechService -> com.termux.api.TextToSpeechAPI$TextToSpeechService:
+    android.speech.tts.TextToSpeech mTts -> T
+    java.util.concurrent.CountDownLatch mTtsLatch -> U
+    void <init>() -> <init>
+    void onDestroy() -> onDestroy
+    void onHandleIntent(android.content.Intent) -> onHandleIntent
+com.termux.api.TextToSpeechAPI$TextToSpeechService$1 -> com.termux.api.bd:
+    com.termux.api.TextToSpeechAPI$TextToSpeechService this$0 -> V
+    void <init>(com.termux.api.TextToSpeechAPI$TextToSpeechService) -> <init>
+    void onInit(int) -> onInit
+com.termux.api.TextToSpeechAPI$TextToSpeechService$2 -> com.termux.api.be:
+    com.termux.api.TextToSpeechAPI$TextToSpeechService this$0 -> V
+    android.content.Intent val$intent -> o
+    java.lang.String val$speechEngine -> W
+    java.lang.String val$speechLanguage -> X
+    float val$speechPitch -> Y
+    int val$streamToUse -> Z
+    void <init>(com.termux.api.TextToSpeechAPI$TextToSpeechService,java.lang.String,java.lang.String,float,android.content.Intent,int) -> <init>
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.TextToSpeechAPI$TextToSpeechService$2$1 -> com.termux.api.bf:
+    com.termux.api.TextToSpeechAPI$TextToSpeechService$2 this$1 -> aa
+    java.util.concurrent.atomic.AtomicInteger val$ttsDoneUtterancesCount -> ab
+    void <init>(com.termux.api.TextToSpeechAPI$TextToSpeechService$2,java.util.concurrent.atomic.AtomicInteger) -> <init>
+    void onDone(java.lang.String) -> onDone
+    void onError(java.lang.String) -> onError
+    void onStart(java.lang.String) -> onStart
+com.termux.api.ToastAPI -> com.termux.api.bg:
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.termux.api.ToastAPI$1 -> com.termux.api.bh:
+    android.content.Context val$context -> a
+    int val$durationExtra -> ac
+    android.os.Handler val$handler -> ad
+    void <init>(android.os.Handler,android.content.Context,int) -> <init>
+    java.lang.String access$000(com.termux.api.ToastAPI$1) -> a
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.ToastAPI$1$1 -> com.termux.api.bi:
+    com.termux.api.ToastAPI$1 this$0 -> ae
+    void <init>(com.termux.api.ToastAPI$1) -> <init>
+    void run() -> run
+com.termux.api.VibrateAPI -> com.termux.api.bj:
+    void <init>() -> <init>
+    void onReceive(com.termux.api.TermuxApiReceiver,android.content.Context,android.content.Intent) -> a
+com.termux.api.util.ResultReturner -> com.termux.api.util.a:
+    java.lang.String SOCKET_INPUT_EXTRA -> af
+    java.lang.String SOCKET_OUTPUT_EXTRA -> ag
+    void <init>() -> <init>
+    void noteDone(android.content.BroadcastReceiver,android.content.Intent) -> a
+    void returnData(java.lang.Object,android.content.Intent,com.termux.api.util.ResultReturner$ResultWriter) -> a
+com.termux.api.util.ResultReturner$1 -> com.termux.api.util.b:
+    android.app.Activity val$activity -> ah
+    android.content.BroadcastReceiver$PendingResult val$asyncResult -> ai
+    android.content.Intent val$intent -> o
+    com.termux.api.util.ResultReturner$ResultWriter val$resultWriter -> aj
+    void <init>(android.content.Intent,com.termux.api.util.ResultReturner$ResultWriter,android.content.BroadcastReceiver$PendingResult,android.app.Activity) -> <init>
+    void run() -> run
+com.termux.api.util.ResultReturner$ResultJsonWriter -> com.termux.api.util.c:
+    void <init>() -> <init>
+    void writeJson(android.util.JsonWriter) -> a
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.util.ResultReturner$ResultWriter -> com.termux.api.util.d:
+    void writeResult(java.io.PrintWriter) -> a
+com.termux.api.util.ResultReturner$WithInput -> com.termux.api.util.e:
+    java.io.InputStream in -> in
+    void <init>() -> <init>
+    void setInput(java.io.InputStream) -> a
+com.termux.api.util.ResultReturner$WithStringInput -> com.termux.api.util.f:
+    java.lang.String inputString -> ak
+    void <init>() -> <init>
+    void setInput(java.io.InputStream) -> a
+com.termux.api.util.TermuxApiLogger -> com.termux.api.util.g:
+    java.lang.String TAG -> TAG
+    void <init>() -> <init>
+    void error(java.lang.String) -> a
+    void error(java.lang.String,java.lang.Exception) -> a
+    void info(java.lang.String) -> info
+com.termux.api.util.TermuxApiPermissionActivity -> com.termux.api.util.TermuxApiPermissionActivity:
+    java.lang.String PERMISSIONS_EXTRA -> al
+    java.util.ArrayList permissionValues -> am
+    void <init>() -> <init>
+    boolean checkAndRequestPermissions(android.content.Context,android.content.Intent,java.lang.String[]) -> a
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onCreate(android.os.Bundle) -> onCreate
+    void onNewIntent(android.content.Intent) -> onNewIntent
+    void onOkButton(android.view.View) -> onOkButton
+    void onResume() -> onResume
+com.termux.api.util.TermuxApiPermissionActivity$1 -> com.termux.api.util.h:
+    void <init>() -> <init>
+    void writeJson(android.util.JsonWriter) -> a

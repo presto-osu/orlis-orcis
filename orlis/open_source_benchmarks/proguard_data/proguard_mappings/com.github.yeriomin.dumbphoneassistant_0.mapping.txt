@@ -1,0 +1,986 @@
+com.github.yeriomin.dumbphoneassistant.BuildConfig -> com.github.yeriomin.dumbphoneassistant.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+com.github.yeriomin.dumbphoneassistant.Contact -> com.github.yeriomin.dumbphoneassistant.b:
+    java.lang.String id -> f
+    java.lang.String label -> label
+    java.lang.String name -> name
+    java.lang.String number -> g
+    void <init>(java.lang.String,java.lang.String,java.lang.String) -> <init>
+    void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> <init>
+    boolean compareStrings(java.lang.String,java.lang.String) -> a
+    boolean equals(java.lang.Object) -> equals
+    java.lang.String getId() -> getId
+    java.lang.String getLabel() -> getLabel
+    java.lang.String getName() -> getName
+    java.lang.String getNumber() -> a
+    void setId(java.lang.String) -> a
+    void setName(java.lang.String) -> setName
+com.github.yeriomin.dumbphoneassistant.DumbphoneAssistantPreferenceActivity -> com.github.yeriomin.dumbphoneassistant.DumbphoneAssistantPreferenceActivity:
+    java.lang.String PREFERENCE_ADD_TYPE_SUFFIX -> h
+    java.lang.String PREFERENCE_TRANSLITERATE -> i
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity -> com.github.yeriomin.dumbphoneassistant.ManageContactsActivity:
+    int EDIT_REQUEST_CODE -> j
+    com.github.yeriomin.dumbphoneassistant.PermissionManager permissionManager -> k
+    java.util.List phoneContacts -> l
+    com.github.yeriomin.dumbphoneassistant.PhoneUtil phoneUtil -> m
+    android.widget.ListView phoneView -> n
+    android.app.ProgressDialog progressDialog -> o
+    java.util.List simContacts -> p
+    com.github.yeriomin.dumbphoneassistant.SimUtil simUtil -> q
+    android.widget.ListView simView -> r
+    void <init>() -> <init>
+    java.util.List access$000(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity) -> a
+    void access$100(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,int,int,int) -> a
+    java.util.List access$200(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity) -> b
+    void access$300(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,com.github.yeriomin.dumbphoneassistant.Contact) -> a
+    void access$400(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,com.github.yeriomin.dumbphoneassistant.Contact) -> b
+    void access$500(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity) -> c
+    void access$600(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,com.github.yeriomin.dumbphoneassistant.Contact) -> c
+    void access$700(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity) -> d
+    boolean access$800(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,com.github.yeriomin.dumbphoneassistant.Contact) -> d
+    android.app.ProgressDialog access$900(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity) -> e
+    void copyToPhone(com.github.yeriomin.dumbphoneassistant.Contact) -> a
+    void copyToSim(com.github.yeriomin.dumbphoneassistant.Contact) -> b
+    boolean deleteFromSim(com.github.yeriomin.dumbphoneassistant.Contact) -> c
+    void initListViews() -> b
+    void initProgressDialog(int,int,int) -> a
+    void refreshPhoneListView() -> c
+    void refreshSimListView() -> d
+    void startContactEditActivity(com.github.yeriomin.dumbphoneassistant.Contact) -> d
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onRequestPermissionsResult(int,java.lang.String[],int[]) -> a
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$1 -> com.github.yeriomin.dumbphoneassistant.c:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity this$0 -> s
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$2 -> com.github.yeriomin.dumbphoneassistant.d:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity this$0 -> s
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$3 -> com.github.yeriomin.dumbphoneassistant.e:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity this$0 -> s
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$3$1 -> com.github.yeriomin.dumbphoneassistant.f:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$3 this$1 -> t
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$3) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker -> com.github.yeriomin.dumbphoneassistant.g:
+    int COPY_ALL_TO_PHONE -> u
+    int COPY_ALL_TO_SIM -> v
+    int DELETE_ALL_FROM_SIM -> w
+    int mode -> mode
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity this$0 -> s
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity) -> <init>
+    int access$1000(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker) -> a
+    void run() -> run
+    void setMode(int) -> setMode
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker$1 -> com.github.yeriomin.dumbphoneassistant.h:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker this$1 -> x
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker) -> <init>
+    void run() -> run
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker$2 -> com.github.yeriomin.dumbphoneassistant.i:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker this$1 -> x
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker) -> <init>
+    void run() -> run
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker$3 -> com.github.yeriomin.dumbphoneassistant.j:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker this$1 -> x
+    int val$failures -> y
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker,int) -> <init>
+    void run() -> run
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$ContactRowAdapter -> com.github.yeriomin.dumbphoneassistant.k:
+    java.util.List contacts -> z
+    android.view.LayoutInflater inflater -> A
+    int listItemId -> B
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity this$0 -> s
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,java.util.List) -> <init>
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void setListItemId(int) -> a
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$DeleteHandler -> com.github.yeriomin.dumbphoneassistant.l:
+    com.github.yeriomin.dumbphoneassistant.Contact contact -> C
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity this$0 -> s
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,com.github.yeriomin.dumbphoneassistant.Contact) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter -> com.github.yeriomin.dumbphoneassistant.m:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity this$0 -> s
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,java.util.List) -> <init>
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter$1 -> com.github.yeriomin.dumbphoneassistant.n:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter this$1 -> D
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter) -> <init>
+    void onClick(android.view.View) -> onClick
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter$2 -> com.github.yeriomin.dumbphoneassistant.o:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter this$1 -> D
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter) -> <init>
+    void onClick(android.view.View) -> onClick
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter -> com.github.yeriomin.dumbphoneassistant.p:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity this$0 -> s
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,java.util.List) -> <init>
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter$1 -> com.github.yeriomin.dumbphoneassistant.q:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter this$1 -> E
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter) -> <init>
+    void onClick(android.view.View) -> onClick
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter$2 -> com.github.yeriomin.dumbphoneassistant.r:
+    com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter this$1 -> E
+    void <init>(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter) -> <init>
+    void onClick(android.view.View) -> onClick
+com.github.yeriomin.dumbphoneassistant.PermissionManager -> com.github.yeriomin.dumbphoneassistant.s:
+    int REQUEST_CODE_ASK_MULTIPLE_PERMISSIONS -> F
+    android.app.Activity activity -> G
+    java.util.ArrayList permissionsGranted -> H
+    java.lang.String[] permissionsRequired -> I
+    void <init>(android.app.Activity) -> <init>
+    boolean onRequestPermissionsResult(int,java.lang.String[],int[]) -> b
+    boolean permissionsGranted() -> e
+com.github.yeriomin.dumbphoneassistant.PhoneUtil -> com.github.yeriomin.dumbphoneassistant.t:
+    void <init>(android.app.Activity) -> <init>
+    android.net.Uri retrieveContactUri(com.github.yeriomin.dumbphoneassistant.Contact) -> e
+com.github.yeriomin.dumbphoneassistant.PhoneUtilDonut -> com.github.yeriomin.dumbphoneassistant.u:
+    void <init>(android.app.Activity) -> <init>
+    void create(com.github.yeriomin.dumbphoneassistant.Contact) -> f
+    java.util.ArrayList get() -> f
+    android.net.Uri retrieveContactUri(com.github.yeriomin.dumbphoneassistant.Contact) -> e
+com.github.yeriomin.dumbphoneassistant.PhoneUtilEclair -> com.github.yeriomin.dumbphoneassistant.v:
+    void <init>(android.app.Activity) -> <init>
+    void create(com.github.yeriomin.dumbphoneassistant.Contact) -> f
+    java.util.ArrayList get() -> f
+    android.net.Uri retrieveContactUri(com.github.yeriomin.dumbphoneassistant.Contact) -> e
+com.github.yeriomin.dumbphoneassistant.R -> com.github.yeriomin.dumbphoneassistant.w:
+    void <init>() -> <init>
+com.github.yeriomin.dumbphoneassistant.R$attr -> com.github.yeriomin.dumbphoneassistant.R$attr:
+    void <init>() -> <init>
+com.github.yeriomin.dumbphoneassistant.R$dimen -> com.github.yeriomin.dumbphoneassistant.R$dimen:
+    int ImageButtonDim -> ImageButtonDim
+    void <init>() -> <init>
+com.github.yeriomin.dumbphoneassistant.R$drawable -> com.github.yeriomin.dumbphoneassistant.R$drawable:
+    int ic_arrow_left -> ic_arrow_left
+    int ic_arrow_right -> ic_arrow_right
+    void <init>() -> <init>
+com.github.yeriomin.dumbphoneassistant.R$id -> com.github.yeriomin.dumbphoneassistant.R$id:
+    int button_delete -> button_delete
+    int button_edit -> button_edit
+    int button_to_phone -> button_to_phone
+    int button_to_sim -> button_to_sim
+    int menu_settings -> menu_settings
+    int phoneview -> phoneview
+    int simview -> simview
+    int text_contact_name -> text_contact_name
+    int text_container -> text_container
+    int text_phone -> text_phone
+    void <init>() -> <init>
+com.github.yeriomin.dumbphoneassistant.R$layout -> com.github.yeriomin.dumbphoneassistant.R$layout:
+    int list_item_phone -> list_item_phone
+    int list_item_sim -> list_item_sim
+    int main -> main
+    void <init>() -> <init>
+com.github.yeriomin.dumbphoneassistant.R$menu -> com.github.yeriomin.dumbphoneassistant.R$menu:
+    int main -> main
+    void <init>() -> <init>
+com.github.yeriomin.dumbphoneassistant.R$mipmap -> com.github.yeriomin.dumbphoneassistant.R$mipmap:
+    int ic_launcher -> ic_launcher
+    void <init>() -> <init>
+com.github.yeriomin.dumbphoneassistant.R$string -> com.github.yeriomin.dumbphoneassistant.R$string:
+    int app_name -> app_name
+    int are_you_sure -> are_you_sure
+    int are_you_sure_all -> are_you_sure_all
+    int confirm_phone_contact_number_stored -> confirm_phone_contact_number_stored
+    int confirm_sim_contact_removed -> confirm_sim_contact_removed
+    int confirm_sim_contact_stored -> confirm_sim_contact_stored
+    int content_description_button_delete -> content_description_button_delete
+    int content_description_button_edit -> content_description_button_edit
+    int content_description_button_to_phone -> content_description_button_to_phone
+    int content_description_button_to_sim -> content_description_button_to_sim
+    int error_bulk_copy -> error_bulk_copy
+    int error_phone_contact_already_present -> error_phone_contact_already_present
+    int error_phone_number_error -> error_phone_number_error
+    int error_phone_number_not_stored -> error_phone_number_not_stored
+    int error_sim_contact_already_present -> error_sim_contact_already_present
+    int error_sim_contact_not_stored -> error_sim_contact_not_stored
+    int error_sim_error_during_contact_removal -> error_sim_error_during_contact_removal
+    int error_sim_full -> error_sim_full
+    int menu_settings -> menu_settings
+    int phone_tab_title -> phone_tab_title
+    int pref_add_type_suffix -> pref_add_type_suffix
+    int pref_add_type_suffix_summary -> pref_add_type_suffix_summary
+    int pref_transliterate -> pref_transliterate
+    int pref_transliterate_summary -> pref_transliterate_summary
+    int progress_message_copy_all_contacts_to_phone -> progress_message_copy_all_contacts_to_phone
+    int progress_message_copy_all_contacts_to_sim -> progress_message_copy_all_contacts_to_sim
+    int progress_message_delete_all_sim_contacts -> progress_message_delete_all_sim_contacts
+    int progress_title_copy_all_contacts_to_phone -> progress_title_copy_all_contacts_to_phone
+    int progress_title_copy_all_contacts_to_sim -> progress_title_copy_all_contacts_to_sim
+    int progress_title_delete_all_sim_contacts -> progress_title_delete_all_sim_contacts
+    int sim_tab_title -> sim_tab_title
+    int title_move_all_contacts_to_phone -> title_move_all_contacts_to_phone
+    int title_move_all_contacts_to_sim -> title_move_all_contacts_to_sim
+    void <init>() -> <init>
+com.github.yeriomin.dumbphoneassistant.R$style -> com.github.yeriomin.dumbphoneassistant.R$style:
+    int CustomTabWidget -> CustomTabWidget
+    int CustomTabWidgetText -> CustomTabWidgetText
+    int CustomTheme -> CustomTheme
+    void <init>() -> <init>
+com.github.yeriomin.dumbphoneassistant.R$xml -> com.github.yeriomin.dumbphoneassistant.R$xml:
+    int settings -> settings
+    void <init>() -> <init>
+com.github.yeriomin.dumbphoneassistant.SimUtil -> com.github.yeriomin.dumbphoneassistant.x:
+    int maxContactNameLength -> J
+    android.content.SharedPreferences settings -> K
+    android.net.Uri simUri -> L
+    android.telephony.TelephonyManager telephony -> M
+    void <init>(android.app.Activity) -> <init>
+    int detectMaxContactNameLength() -> g
+    java.lang.String detectSimUri() -> h
+    int getMaxContactNameLength() -> i
+    com.github.yeriomin.dumbphoneassistant.Contact convertToSimContact(com.github.yeriomin.dumbphoneassistant.Contact) -> g
+    void create(com.github.yeriomin.dumbphoneassistant.Contact) -> f
+    boolean delete(com.github.yeriomin.dumbphoneassistant.Contact) -> h
+    java.util.ArrayList get() -> f
+com.github.yeriomin.dumbphoneassistant.Util -> com.github.yeriomin.dumbphoneassistant.y:
+    android.app.Activity activity -> G
+    android.content.ContentResolver resolver -> N
+    void <init>(android.app.Activity) -> <init>
+    void create(com.github.yeriomin.dumbphoneassistant.Contact) -> f
+    java.util.ArrayList get() -> f
+gcardone.junidecode.App -> wy.a:
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> a
+gcardone.junidecode.Junidecode -> wy.b:
+    java.lang.String[][] cache -> O
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    java.lang.String unidecode(java.lang.String) -> b
+gcardone.junidecode.X00 -> wy.c:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X01 -> wy.d:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X02 -> wy.e:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X03 -> wy.f:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X04 -> wy.g:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X05 -> wy.h:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X06 -> wy.i:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X07 -> wy.j:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X09 -> wy.k:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X0a -> wy.l:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X0b -> wy.m:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X0c -> wy.n:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X0d -> wy.o:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X0e -> wy.p:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X0f -> wy.q:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X10 -> wy.r:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X11 -> wy.s:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X12 -> wy.t:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X13 -> wy.u:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X14 -> wy.v:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X15 -> wy.w:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X16 -> wy.x:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X17 -> wy.y:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X18 -> wy.z:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X1e -> wy.aa:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X1f -> wy.ab:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X20 -> wy.ac:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X21 -> wy.ad:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X22 -> wy.ae:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X23 -> wy.af:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X24 -> wy.ag:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X25 -> wy.ah:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X26 -> wy.ai:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X27 -> wy.aj:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X28 -> wy.ak:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X2e -> wy.al:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X2f -> wy.am:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X30 -> wy.an:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X31 -> wy.ao:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X32 -> wy.ap:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X33 -> wy.aq:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X4d -> wy.ar:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X4e -> wy.as:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X4f -> wy.at:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X50 -> wy.au:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X51 -> wy.av:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X52 -> wy.aw:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X53 -> wy.ax:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X54 -> wy.ay:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X55 -> wy.az:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X56 -> wy.ba:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X57 -> wy.bb:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X58 -> wy.bc:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X59 -> wy.bd:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X5a -> wy.be:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X5b -> wy.bf:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X5c -> wy.bg:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X5d -> wy.bh:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X5e -> wy.bi:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X5f -> wy.bj:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X60 -> wy.bk:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X61 -> wy.bl:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X62 -> wy.bm:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X63 -> wy.bn:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X64 -> wy.bo:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X65 -> wy.bp:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X66 -> wy.bq:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X67 -> wy.br:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X68 -> wy.bs:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X69 -> wy.bt:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X6a -> wy.bu:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X6b -> wy.bv:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X6c -> wy.bw:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X6d -> wy.bx:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X6e -> wy.by:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X6f -> wy.bz:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X70 -> wy.ca:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X71 -> wy.cb:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X72 -> wy.cc:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X73 -> wy.cd:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X74 -> wy.ce:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X75 -> wy.cf:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X76 -> wy.cg:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X77 -> wy.ch:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X78 -> wy.ci:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X79 -> wy.cj:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X7a -> wy.ck:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X7b -> wy.cl:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X7c -> wy.cm:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X7d -> wy.cn:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X7e -> wy.co:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X7f -> wy.cp:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X80 -> wy.cq:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X81 -> wy.cr:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X82 -> wy.cs:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X83 -> wy.ct:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X84 -> wy.cu:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X85 -> wy.cv:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X86 -> wy.cw:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X87 -> wy.cx:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X88 -> wy.cy:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X89 -> wy.cz:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X8a -> wy.da:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X8b -> wy.db:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X8c -> wy.dc:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X8d -> wy.dd:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X8e -> wy.de:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X8f -> wy.df:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X90 -> wy.dg:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X91 -> wy.dh:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X92 -> wy.di:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X93 -> wy.dj:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X94 -> wy.dk:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X95 -> wy.dl:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X96 -> wy.dm:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X97 -> wy.dn:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X98 -> wy.do:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X99 -> wy.dp:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X9a -> wy.dq:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X9b -> wy.dr:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X9c -> wy.ds:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X9d -> wy.dt:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X9e -> wy.du:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.X9f -> wy.dv:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xa0 -> wy.dw:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xa1 -> wy.dx:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xa2 -> wy.dy:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xa3 -> wy.dz:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xa4 -> wy.ea:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xac -> wy.eb:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xad -> wy.ec:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xae -> wy.ed:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xaf -> wy.ee:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xb0 -> wy.ef:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xb1 -> wy.eg:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xb2 -> wy.eh:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xb3 -> wy.ei:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xb4 -> wy.ej:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xb5 -> wy.ek:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xb6 -> wy.el:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xb7 -> wy.em:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xb8 -> wy.en:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xb9 -> wy.eo:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xba -> wy.ep:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xbb -> wy.eq:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xbc -> wy.er:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xbd -> wy.es:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xbe -> wy.et:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xbf -> wy.eu:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xc0 -> wy.ev:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xc1 -> wy.ew:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xc2 -> wy.ex:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xc3 -> wy.ey:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xc4 -> wy.ez:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xc5 -> wy.fa:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xc6 -> wy.fb:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xc7 -> wy.fc:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xc8 -> wy.fd:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xc9 -> wy.fe:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xca -> wy.ff:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xcb -> wy.fg:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xcc -> wy.fh:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xcd -> wy.fi:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xce -> wy.fj:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xcf -> wy.fk:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xd0 -> wy.fl:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xd1 -> wy.fm:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xd2 -> wy.fn:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xd3 -> wy.fo:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xd4 -> wy.fp:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xd5 -> wy.fq:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xd6 -> wy.fr:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xd7 -> wy.fs:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xf9 -> wy.ft:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xfa -> wy.fu:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xfb -> wy.fv:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xfc -> wy.fw:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xfd -> wy.fx:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xfe -> wy.fy:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+gcardone.junidecode.Xff -> wy.fz:
+    java.lang.String[] map -> P
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>

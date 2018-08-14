@@ -1,0 +1,230 @@
+anupam.acrylic.AboutActivity -> anupam.acrylic.AboutActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+anupam.acrylic.BuildConfig -> anupam.acrylic.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+anupam.acrylic.ColorPickerDialog -> anupam.acrylic.b:
+    int mInitialColor -> f
+    anupam.acrylic.ColorPickerDialog$OnColorChangedListener mListener -> g
+    void <init>(android.content.Context,anupam.acrylic.ColorPickerDialog$OnColorChangedListener,int) -> <init>
+    anupam.acrylic.ColorPickerDialog$OnColorChangedListener access$000(anupam.acrylic.ColorPickerDialog) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+anupam.acrylic.ColorPickerDialog$1 -> anupam.acrylic.c:
+    anupam.acrylic.ColorPickerDialog this$0 -> h
+    void <init>(anupam.acrylic.ColorPickerDialog) -> <init>
+    void colorChanged(int) -> a
+anupam.acrylic.ColorPickerDialog$ColorPickerView -> anupam.acrylic.ColorPickerDialog$ColorPickerView:
+    int CENTER_RADIUS -> i
+    int CENTER_X -> j
+    int CENTER_Y -> k
+    float PI -> l
+    android.graphics.Paint mCenterPaint -> m
+    int[] mColors -> n
+    boolean mHighlightCenter -> o
+    anupam.acrylic.ColorPickerDialog$OnColorChangedListener mListener -> g
+    android.graphics.Paint mPaint -> p
+    boolean mTrackingCenter -> q
+    void <init>(android.content.Context,anupam.acrylic.ColorPickerDialog$OnColorChangedListener,int) -> <init>
+    int ave(int,int,float) -> a
+    int floatToByte(float) -> a
+    int interpColor(int[],float) -> a
+    int pinToByte(int) -> b
+    int rotateColor(int,float) -> a
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void onMeasure(int,int) -> onMeasure
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+anupam.acrylic.ColorPickerDialog$OnColorChangedListener -> anupam.acrylic.d:
+    void colorChanged(int) -> a
+anupam.acrylic.EasyPaint -> anupam.acrylic.EasyPaint:
+    int DEFAULT_BRUSH_SIZE -> r
+    int MAX_POINTERS -> s
+    float TOUCH_TOLERANCE -> t
+    boolean doubleBackToExitPressedOnce -> u
+    android.graphics.MaskFilter mBlur -> v
+    android.graphics.MaskFilter mEmboss -> w
+    android.graphics.Paint mPaint -> p
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    boolean access$002(anupam.acrylic.EasyPaint,boolean) -> a
+    int access$100() -> a
+    android.graphics.Paint access$200(anupam.acrylic.EasyPaint) -> a
+    int getStrokeSize() -> b
+    boolean isFirstTime() -> c
+    java.io.File takeScreenshot(boolean) -> a
+    void colorChanged(int) -> a
+    void onBackPressed() -> onBackPressed
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    boolean onPrepareOptionsMenu(android.view.Menu) -> onPrepareOptionsMenu
+    void setContentView(android.view.View) -> setContentView
+anupam.acrylic.EasyPaint$1 -> anupam.acrylic.e:
+    anupam.acrylic.EasyPaint this$0 -> x
+    void <init>(anupam.acrylic.EasyPaint) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+anupam.acrylic.EasyPaint$2 -> anupam.acrylic.f:
+    anupam.acrylic.EasyPaint this$0 -> x
+    void <init>(anupam.acrylic.EasyPaint) -> <init>
+    void run() -> run
+anupam.acrylic.EasyPaint$3 -> anupam.acrylic.g:
+    anupam.acrylic.EasyPaint this$0 -> x
+    android.widget.TextView val$txt -> y
+    void <init>(anupam.acrylic.EasyPaint,android.widget.TextView) -> <init>
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+anupam.acrylic.EasyPaint$4 -> anupam.acrylic.h:
+    anupam.acrylic.EasyPaint this$0 -> x
+    android.widget.TextView val$txt_e -> z
+    void <init>(anupam.acrylic.EasyPaint,android.widget.TextView) -> <init>
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+anupam.acrylic.EasyPaint$MyView -> anupam.acrylic.EasyPaint$MyView:
+    android.graphics.Bitmap mBitmap -> A
+    android.graphics.Paint mBitmapPaint -> B
+    android.graphics.Canvas mCanvas -> C
+    anupam.acrylic.EasyPaint$MyView$MultiLinePathManager multiLinePathManager -> D
+    anupam.acrylic.EasyPaint this$0 -> x
+    void <init>(anupam.acrylic.EasyPaint,android.content.Context) -> <init>
+    void onDraw(android.graphics.Canvas) -> onDraw
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+anupam.acrylic.EasyPaint$MyView$LinePath -> anupam.acrylic.i:
+    java.lang.Integer idPointer -> E
+    float lastX -> F
+    float lastY -> G
+    anupam.acrylic.EasyPaint$MyView this$1 -> H
+    void <init>(anupam.acrylic.EasyPaint$MyView) -> <init>
+    void associateToPointer(int) -> c
+    void disassociateFromPointer() -> d
+    float getLastX() -> e
+    float getLastY() -> f
+    boolean isAssociatedToPointer(int) -> d
+    boolean isDisassociatedFromPointer() -> g
+    void touchMove(float,float) -> a
+    void touchStart(float,float) -> b
+anupam.acrylic.EasyPaint$MyView$MultiLinePathManager -> anupam.acrylic.j:
+    anupam.acrylic.EasyPaint$MyView$LinePath[] superMultiPaths -> I
+    anupam.acrylic.EasyPaint$MyView this$1 -> H
+    void <init>(anupam.acrylic.EasyPaint$MyView,int) -> <init>
+    anupam.acrylic.EasyPaint$MyView$LinePath addLinePathWithPointer(int) -> e
+    anupam.acrylic.EasyPaint$MyView$LinePath findLinePathFromPointer(int) -> f
+anupam.acrylic.GraphicsActivity -> anupam.acrylic.GraphicsActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void setContentView(android.view.View) -> setContentView
+anupam.acrylic.PictureLayout -> anupam.acrylic.PictureLayout:
+    java.lang.String error -> J
+    android.graphics.Picture mPicture -> K
+    void <clinit>() -> <clinit>
+    void <init>(android.content.Context) -> <init>
+    void <init>(android.content.Context,android.util.AttributeSet) -> <init>
+    void drawPict(android.graphics.Canvas,int,int,int,int,float,float) -> a
+    void addView(android.view.View) -> addView
+    void addView(android.view.View,int) -> addView
+    void addView(android.view.View,int,android.view.ViewGroup$LayoutParams) -> addView
+    void addView(android.view.View,android.view.ViewGroup$LayoutParams) -> addView
+    void dispatchDraw(android.graphics.Canvas) -> dispatchDraw
+    android.view.ViewGroup$LayoutParams generateDefaultLayoutParams() -> generateDefaultLayoutParams
+    android.view.ViewParent invalidateChildInParent(int[],android.graphics.Rect) -> invalidateChildInParent
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    void onMeasure(int,int) -> onMeasure
+anupam.acrylic.Places -> anupam.acrylic.k:
+    void <init>() -> <init>
+    java.io.File getCameraTempFile() -> h
+    java.io.File getCameraTempFolder() -> i
+    java.io.File getScreenshotFolder() -> j
+anupam.acrylic.R -> anupam.acrylic.l:
+    void <init>() -> <init>
+anupam.acrylic.R$attr -> anupam.acrylic.R$attr:
+    void <init>() -> <init>
+anupam.acrylic.R$dimen -> anupam.acrylic.R$dimen:
+    int activity_horizontal_margin -> activity_horizontal_margin
+    int activity_vertical_margin -> activity_vertical_margin
+    void <init>() -> <init>
+anupam.acrylic.R$drawable -> anupam.acrylic.R$drawable:
+    int about -> about
+    int actionbar_background -> actionbar_background
+    int blur -> blur
+    int clear_all -> clear_all
+    int color -> color
+    int emboss -> emboss
+    int erase -> erase
+    int ic_launcher -> ic_launcher
+    int save -> save
+    int share -> share
+    int size -> size
+    int splash -> splash
+    void <init>() -> <init>
+anupam.acrylic.R$id -> anupam.acrylic.R$id:
+    int CanvasId -> CanvasId
+    int aboutTextView -> aboutTextView
+    int about_menu -> about_menu
+    int blur_menu -> blur_menu
+    int brushSizeSeekBar -> brushSizeSeekBar
+    int clear_all_menu -> clear_all_menu
+    int color_menu -> color_menu
+    int emboss_menu -> emboss_menu
+    int erase_menu -> erase_menu
+    int normal_brush_menu -> normal_brush_menu
+    int root -> root
+    int save_menu -> save_menu
+    int share_menu -> share_menu
+    int sizeValueTextView -> sizeValueTextView
+    int size_menu -> size_menu
+    void <init>() -> <init>
+anupam.acrylic.R$layout -> anupam.acrylic.R$layout:
+    int activity_about -> activity_about
+    int brush -> brush
+    int main -> main
+    void <init>() -> <init>
+anupam.acrylic.R$menu -> anupam.acrylic.R$menu:
+    int main -> main
+    void <init>() -> <init>
+anupam.acrylic.R$string -> anupam.acrylic.R$string:
+    int about -> about
+    int about_description -> about_description
+    int app_description -> app_description
+    int app_name -> app_name
+    int blur -> blur
+    int brush_size -> brush_size
+    int choose_width -> choose_width
+    int clear_all -> clear_all
+    int color -> color
+    int continue_fuck -> continue_fuck
+    int emboss -> emboss
+    int erase -> erase
+    int here_is_your_canvas -> here_is_your_canvas
+    int no_way_to_share -> no_way_to_share
+    int normal -> normal
+    int ok -> ok
+    int pick_color -> pick_color
+    int press_back_again -> press_back_again
+    int save -> save
+    int saved_your_location_to -> saved_your_location_to
+    int select -> select
+    int share -> share
+    int share_text_template -> share_text_template
+    int share_title_template -> share_title_template
+    int title_activity_about -> title_activity_about
+    int toolbox_share_title -> toolbox_share_title
+    int your_selected_size_is -> your_selected_size_is
+    void <init>() -> <init>
+anupam.acrylic.R$style -> anupam.acrylic.R$style:
+    int MyActionBar -> MyActionBar
+    int Theme -> Theme
+    void <init>() -> <init>
+anupam.acrylic.Splash -> anupam.acrylic.Splash:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+anupam.acrylic.Splash$1 -> anupam.acrylic.m:
+    anupam.acrylic.Splash this$0 -> L
+    void <init>(anupam.acrylic.Splash) -> <init>
+    void run() -> run

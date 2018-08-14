@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v5.9 Educational
+   Web: http://www.allatori.com
+
+   Log created: Mon Aug 13 21:30:53 EDT 2018
+-->
+
+<allatori>
+ <mapping>
+  <class old="souch.smsbypass.Message" new="souch.smsbypass.c_C">
+   <field old="MSG_TYPE_DRAFT J" new="f_G"/>
+   <field old="MSG_TYPE_RECEIVED J" new="f_m"/>
+   <field old="MSG_TYPE_SENT J" new="f_k"/>
+   <field old="address Ljava/lang/String;" new="f_M"/>
+   <field old="filter Ljava/lang/String;" new="f_A"/>
+   <field old="id J" new="f_l"/>
+   <field old="message Ljava/lang/String;" new="f_f"/>
+   <field old="receivedAt J" new="f_g"/>
+   <field old="type J" new="f_H"/>
+  </class>
+  <class old="souch.smsbypass.R$menu" new="souch.smsbypass.R$menu">
+   <field old="message_context_menu I" new="message_context_menu"/>
+   <field old="message_filter_context_menu I" new="message_filter_context_menu"/>
+   <field old="message_list_filter_menu I" new="message_list_filter_menu"/>
+   <field old="message_list_menu I" new="message_list_menu"/>
+  </class>
+  <class old="souch.smsbypass.MessageListFilter$MessageListArrayAdapter" new="souch.smsbypass.c_i">
+   <method old="getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;" new="getView"/>
+   <field old="this$0 Lsouch/smsbypass/MessageListFilter;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.FilterListPicker$ViewHolder" new="souch.smsbypass.c_L">
+   <field old="filterNameTextView Landroid/widget/TextView;" new="f_M"/>
+   <field old="this$0 Lsouch/smsbypass/FilterListPicker;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.BuildConfig" new="souch.smsbypass.c_P">
+   <field old="APPLICATION_ID Ljava/lang/String;" new="f_A"/>
+   <field old="BUILD_TYPE Ljava/lang/String;" new="f_f"/>
+   <field old="DEBUG Z" new="f_g"/>
+   <field old="FLAVOR Ljava/lang/String;" new="f_l"/>
+   <field old="VERSION_CODE I" new="f_M"/>
+   <field old="VERSION_NAME Ljava/lang/String;" new="f_k"/>
+  </class>
+  <class old="souch.smsbypass.TimeFormatter" new="souch.smsbypass.c_m">
+   <method old="f(Landroid/content/Context;JI)Ljava/lang/String;" new="m_H"/>
+   <field old="FULL_FORMAT I" new="f_l"/>
+   <field old="SHORT_FORMAT I" new="f_M"/>
+  </class>
+  <class old="souch.smsbypass.R" new="souch.smsbypass.R">
+  </class>
+  <class old="souch.smsbypass.R$string" new="souch.smsbypass.R$string">
+   <field old="add I" new="add"/>
+   <field old="addAnotherContentFilter I" new="addAnotherContentFilter"/>
+   <field old="addContentFilter I" new="addContentFilter"/>
+   <field old="allMessagesWillBeDeleted I" new="allMessagesWillBeDeleted"/>
+   <field old="appMayNotWork I" new="appMayNotWork"/>
+   <field old="app_dir I" new="app_dir"/>
+   <field old="app_name I" new="app_name"/>
+   <field old="app_version I" new="app_version"/>
+   <field old="batteryLevelTitle I" new="batteryLevelTitle"/>
+   <field old="batteryNotificationMessage I" new="batteryNotificationMessage"/>
+   <field old="blockMessageIfItContains I" new="blockMessageIfItContains"/>
+   <field old="chooseContact I" new="chooseContact"/>
+   <field old="chooseContactFailed I" new="chooseContactFailed"/>
+   <field old="clear I" new="clear"/>
+   <field old="close I" new="close"/>
+   <field old="delete I" new="delete"/>
+   <field old="deleteAll I" new="deleteAll"/>
+   <field old="deleteMessage I" new="deleteMessage"/>
+   <field old="deleteMessageFilter I" new="deleteMessageFilter"/>
+   <field old="draft I" new="draft"/>
+   <field old="editMessageFilter I" new="editMessageFilter"/>
+   <field old="exportFileBasename I" new="exportFileBasename"/>
+   <field old="exportMessages I" new="exportMessages"/>
+   <field old="exportMessagesError I" new="exportMessagesError"/>
+   <field old="filterDeleted I" new="filterDeleted"/>
+   <field old="filterListPicker I" new="filterListPicker"/>
+   <field old="filterName I" new="filterName"/>
+   <field old="filterNameAlreadyUsed I" new="filterNameAlreadyUsed"/>
+   <field old="filterWillBeDeleted I" new="filterWillBeDeleted"/>
+   <field old="filtersWillBeDeleted I" new="filtersWillBeDeleted"/>
+   <field old="from I" new="from"/>
+   <field old="fromAddress I" new="fromAddress"/>
+   <field old="fromAddressAnyExplained I" new="fromAddressAnyExplained"/>
+   <field old="howtoStart I" new="howtoStart"/>
+   <field old="max_version I" new="max_version"/>
+   <field old="messageFilters I" new="messageFilters"/>
+   <field old="messageOptions I" new="messageOptions"/>
+   <field old="messageWillBeDeleted I" new="messageWillBeDeleted"/>
+   <field old="messages I" new="messages"/>
+   <field old="messagesExported I" new="messagesExported"/>
+   <field old="newMessageFilter I" new="newMessageFilter"/>
+   <field old="newMessageFilter2 I" new="newMessageFilter2"/>
+   <field old="newMsg I" new="newMsg"/>
+   <field old="noAddressSpecified I" new="noAddressSpecified"/>
+   <field old="noItemsSelected I" new="noItemsSelected"/>
+   <field old="noMessagesToDelete I" new="noMessagesToDelete"/>
+   <field old="partOfTheMessage I" new="partOfTheMessage"/>
+   <field old="pickContact I" new="pickContact"/>
+   <field old="pickMessageFilters I" new="pickMessageFilters"/>
+   <field old="received I" new="received"/>
+   <field old="saveMessages I" new="saveMessages"/>
+   <field old="saveMessagesAndShowNotifications I" new="saveMessagesAndShowNotifications"/>
+   <field old="sendMessage I" new="sendMessage"/>
+   <field old="sendSMSFailed I" new="sendSMSFailed"/>
+   <field old="sorry I" new="sorry"/>
+   <field old="thisFieldMayNotBeEmpty I" new="thisFieldMayNotBeEmpty"/>
+   <field old="version I" new="version"/>
+   <field old="vibrate I" new="vibrate"/>
+   <field old="vibrateSummary I" new="vibrateSummary"/>
+   <field old="viewAndEditMessageFilters I" new="viewAndEditMessageFilters"/>
+   <field old="viewBlockedMessages I" new="viewBlockedMessages"/>
+   <field old="viewMessage I" new="viewMessage"/>
+  </class>
+  <class old="souch.smsbypass.FilterListPicker$FilterListArrayAdapter" new="souch.smsbypass.c_F">
+   <method old="getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;" new="getView"/>
+   <field old="this$0 Lsouch/smsbypass/FilterListPicker;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.MessageList" new="souch.smsbypass.MessageList">
+   <method old="access$100(Lsouch/smsbypass/MessageList;)Lsouch/smsbypass/MessageList$MessageListArrayAdapter;" new="m_Ga"/>
+   <method old="access$200(Lsouch/smsbypass/MessageList;Ljava/lang/String;)V" new="m_ca"/>
+   <method old="access$300(Lsouch/smsbypass/MessageList;)V" new="m_La"/>
+   <method old="access$400(Lsouch/smsbypass/MessageList;)Lsouch/smsbypass/Settings;" new="m_Ha"/>
+   <method old="access$500(Lsouch/smsbypass/MessageList;)V" new="m_Aa"/>
+   <method old="confirmDeleteAll()V" new="m_T"/>
+   <method old="deleteAll()V" new="m_fa"/>
+   <method old="onActivityResult(IILandroid/content/Intent;)V" new="onActivityResult"/>
+   <method old="onContextItemSelected(Landroid/view/MenuItem;)Z" new="onContextItemSelected"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V" new="onCreateContextMenu"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onKeyUp(ILandroid/view/KeyEvent;)Z" new="onKeyUp"/>
+   <method old="onNewMsg(Landroid/view/View;)V" new="onNewMsg"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="onStop()V" new="onStop"/>
+   <method old="refreshList()V" new="m_Y"/>
+   <method old="startFilterListActivity(Ljava/lang/String;)V" new="m_Ma"/>
+   <field old="mAdapter Lsouch/smsbypass/MessageList$MessageListArrayAdapter;" new="f_l"/>
+   <field old="mListView Landroid/widget/ListView;" new="f_A"/>
+   <field old="mReceiver Landroid/content/BroadcastReceiver;" new="f_k"/>
+   <field old="mSettings Lsouch/smsbypass/Settings;" new="f_M"/>
+  </class>
+  <class old="souch.smsbypass.UI" new="souch.smsbypass.UI">
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onDestroy()V" new="onDestroy"/>
+   <method old="onListItemClick(Landroid/widget/ListView;Landroid/view/View;IJ)V" new="onListItemClick"/>
+   <method old="onStop()V" new="onStop"/>
+   <method old="showAppMayNotWorkWarning()V" new="m_m"/>
+   <field old="TAG Ljava/lang/String;" new="f_M"/>
+   <field old="mSaveBlockedMessagesCheckableItemPosition I" new="f_A"/>
+   <field old="mVibrateCheckableItemPosition I" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.FilterListPicker" new="souch.smsbypass.FilterListPicker">
+   <method old="access$100(Lsouch/smsbypass/FilterListPicker;)Lsouch/smsbypass/FilterListPicker$FilterListArrayAdapter;" new="m_ea"/>
+   <method old="access$200(Lsouch/smsbypass/FilterListPicker;Ljava/lang/String;)V" new="m_ma"/>
+   <method old="onActivityResult(IILandroid/content/Intent;)V" new="onActivityResult"/>
+   <method old="onChooseContact(Landroid/view/View;)V" new="onChooseContact"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onKeyUp(ILandroid/view/KeyEvent;)Z" new="onKeyUp"/>
+   <method old="refreshList()V" new="m_Y"/>
+   <method old="replaceListItems(Ljava/util/List;)V" new="m_ga"/>
+   <method old="returnFilterName(Ljava/lang/String;)V" new="m_Fa"/>
+   <field old="PICK_CONTACT I" new="f_k"/>
+   <field old="REQUEST_PICK_FILTER I" new="f_A"/>
+   <field old="RESULT_CODE_CHOOSED I" new="f_M"/>
+   <field old="mAdapter Lsouch/smsbypass/FilterListPicker$FilterListArrayAdapter;" new="f_f"/>
+   <field old="mListView Landroid/widget/ListView;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.FilterListPicker$1" new="souch.smsbypass.c_l">
+   <method old="onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V" new="onItemClick"/>
+   <field old="this$0 Lsouch/smsbypass/FilterListPicker;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.Filter" new="souch.smsbypass.c_x">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Va"/>
+   <field old="address Ljava/lang/String;" new="f_M"/>
+   <field old="contentFilters Ljava/util/List;" new="f_l"/>
+   <field old="name Ljava/lang/String;" new="f_A"/>
+  </class>
+  <class old="souch.smsbypass.MessageList$MessageListArrayAdapter$ViewHolder" new="souch.smsbypass.c_K">
+   <field old="addressTextView Landroid/widget/TextView;" new="f_f"/>
+   <field old="filterTextView Landroid/widget/TextView;" new="f_k"/>
+   <field old="messageTextView Landroid/widget/TextView;" new="f_M"/>
+   <field old="receivedAtTextView Landroid/widget/TextView;" new="f_A"/>
+   <field old="this$1 Lsouch/smsbypass/MessageList$MessageListArrayAdapter;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.MessageViewer" new="souch.smsbypass.MessageViewer">
+   <method old="access$000(Lsouch/smsbypass/MessageViewer;)V" new="m_P"/>
+   <method old="delete()V" new="m_R"/>
+   <method old="goBack()V" new="m_X"/>
+   <method old="onConfirmDelete(Landroid/view/View;)V" new="onConfirmDelete"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onKeyUp(ILandroid/view/KeyEvent;)Z" new="onKeyUp"/>
+   <method old="onStop()V" new="onStop"/>
+   <field old="MESSAGE_ID_EXTRA Ljava/lang/String;" new="f_k"/>
+   <field old="MESSAGE_ID_INITIAL J" new="f_l"/>
+   <field old="REQUEST_CODE_MUTATED I" new="f_H"/>
+   <field old="RESULT_CODE_MUTATED I" new="f_g"/>
+   <field old="RESULT_CODE_NOT_MUTATED I" new="f_M"/>
+   <field old="mMessage Lsouch/smsbypass/Message;" new="f_f"/>
+   <field old="mMessageID J" new="f_A"/>
+  </class>
+  <class old="souch.smsbypass.MessageList$MessageListArrayAdapter" new="souch.smsbypass.c_e">
+   <method old="getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;" new="getView"/>
+   <field old="this$0 Lsouch/smsbypass/MessageList;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.Settings" new="souch.smsbypass.c_M">
+   <method old="deleteDraftMessage(Ljava/lang/String;)V" new="m_A"/>
+   <method old="deleteFilter(Ljava/lang/String;)V" new="m_x"/>
+   <method old="deleteMessage(J)V" new="m_F"/>
+   <method old="findFilterByName(Ljava/lang/String;)Lsouch/smsbypass/Filter;" new="m_g"/>
+   <method old="getContactAddress(Ljava/lang/String;)Ljava/lang/String;" new="m_J"/>
+   <method old="getContacts(Ljava/lang/String;)Ljava/util/ArrayList;" new="m_d"/>
+   <method old="getContentFilters(Ljava/lang/String;)Ljava/util/List;" new="m_j"/>
+   <method old="getDraftMessage(Ljava/lang/String;)Lsouch/smsbypass/Message;" new="m_I"/>
+   <method old="getFilterAddress(Ljava/lang/String;)Ljava/lang/String;" new="m_U"/>
+   <method old="getFilterByName(Ljava/lang/String;)Lsouch/smsbypass/Filter;" new="m_w"/>
+   <method old="getFilters()Ljava/util/List;" new="m_D"/>
+   <method old="getFirstStart()Z" new="m_W"/>
+   <method old="getMessage(J)Lsouch/smsbypass/Message;" new="m_k"/>
+   <method old="getMessageFromCursor(Landroid/database/Cursor;)Lsouch/smsbypass/Message;" new="m_G"/>
+   <method old="getMessages()Ljava/util/List;" new="m_V"/>
+   <method old="getMessages(Ljava/lang/String;Ljava/lang/Boolean;)Ljava/util/List;" new="m_K"/>
+   <method old="getSetting(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_i"/>
+   <method old="getVibrate()Z" new="m_a"/>
+   <method old="getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;" new="getWritableDatabase"/>
+   <method old="isFilterNameUsed(Ljava/lang/String;)Z" new="m_c"/>
+   <method old="onCreate(Landroid/database/sqlite/SQLiteDatabase;)V" new="onCreate"/>
+   <method old="onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V" new="onUpgrade"/>
+   <method old="saveDraftMessage(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" new="m_E"/>
+   <method old="saveFilter(Lsouch/smsbypass/Filter;)V" new="m_v"/>
+   <method old="saveMessage(Ljava/lang/String;Ljava/lang/String;JJLjava/lang/String;)J" new="m_L"/>
+   <method old="saveMessages()Z" new="m_M"/>
+   <method old="setFirstStart(Z)V" new="m_f"/>
+   <method old="setSaveMessages(Z)V" new="m_C"/>
+   <method old="setSetting(Ljava/lang/String;Ljava/lang/String;)V" new="m_B"/>
+   <method old="setVibrate(Z)V" new="m_e"/>
+   <method old="showMessageNotification(J)V" new="m_l"/>
+   <method old="tryUpgradeDB()V" new="m_h"/>
+   <field old="ACTION_NEW_MESSAGE Ljava/lang/String;" new="f_K"/>
+   <field old="ANY_ADDRESS Ljava/lang/String;" new="f_L"/>
+   <field old="CONTENT_STRINGS_TABLE Ljava/lang/String;" new="f_A"/>
+   <field old="DATABASE_NAME Ljava/lang/String;" new="f_M"/>
+   <field old="DATABASE_VERSION I" new="f_G"/>
+   <field old="FILTERS_ORDER_BY Ljava/lang/String;" new="f_e"/>
+   <field old="FILTERS_TABLE Ljava/lang/String;" new="f_C"/>
+   <field old="KEY_ADDRESS Ljava/lang/String;" new="f_m"/>
+   <field old="KEY_FILTER_ID Ljava/lang/String;" new="f_f"/>
+   <field old="KEY_FILTER_NAME Ljava/lang/String;" new="f_E"/>
+   <field old="KEY_ID Ljava/lang/String;" new="f_B"/>
+   <field old="KEY_KEY Ljava/lang/String;" new="f_b"/>
+   <field old="KEY_MSG_TYPE Ljava/lang/String;" new="f_k"/>
+   <field old="KEY_NAME Ljava/lang/String;" new="f_I"/>
+   <field old="KEY_RECEIVED_AT Ljava/lang/String;" new="f_i"/>
+   <field old="KEY_VALUE Ljava/lang/String;" new="f_d"/>
+   <field old="MESSAGES_ORDER_BY Ljava/lang/String;" new="f_l"/>
+   <field old="MESSAGES_TABLE Ljava/lang/String;" new="f_H"/>
+   <field old="SETTINGS_TABLE Ljava/lang/String;" new="f_F"/>
+   <field old="SETTING_FIRST_START Ljava/lang/String;" new="f_g"/>
+   <field old="SETTING_SAVE_MESSAGES Ljava/lang/String;" new="f_D"/>
+   <field old="SETTING_VIBRATE Ljava/lang/String;" new="f_c"/>
+   <field old="TAG Ljava/lang/String;" new="f_j"/>
+   <field old="mContext Landroid/content/Context;" new="f_h"/>
+  </class>
+  <class old="souch.smsbypass.MessageList$1" new="souch.smsbypass.c_h">
+   <method old="onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V" new="onItemClick"/>
+   <field old="this$0 Lsouch/smsbypass/MessageList;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.FilterList$1" new="souch.smsbypass.c_c">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lsouch/smsbypass/FilterList;" new="f_l"/>
+   <field old="val$adapterPosition I" new="f_M"/>
+  </class>
+  <class old="souch.smsbypass.MessageList$2" new="souch.smsbypass.c_B">
+   <method old="onReceive(Landroid/content/Context;Landroid/content/Intent;)V" new="onReceive"/>
+   <field old="this$0 Lsouch/smsbypass/MessageList;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.FilterForm" new="souch.smsbypass.FilterForm">
+   <method old="access$000(Lsouch/smsbypass/FilterForm;)Landroid/widget/EditText;" new="m_ha"/>
+   <method old="addContentFilter(Ljava/lang/String;)V" new="m_la"/>
+   <method old="getContentFilterWidgets()Ljava/util/List;" new="m_ja"/>
+   <method old="getContentFilters()Ljava/util/List;" new="m_na"/>
+   <method old="goBackToFilterList()V" new="m_Ja"/>
+   <method old="onActivityResult(IILandroid/content/Intent;)V" new="onActivityResult"/>
+   <method old="onAddContentFilter(Landroid/view/View;)V" new="onAddContentFilter"/>
+   <method old="onCancel(Landroid/view/View;)V" new="onCancel"/>
+   <method old="onChooseContact(Landroid/view/View;)V" new="onChooseContact"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onKeyUp(ILandroid/view/KeyEvent;)Z" new="onKeyUp"/>
+   <method old="onOK(Landroid/view/View;)V" new="onOK"/>
+   <method old="showTextViewError(ILjava/lang/String;)V" new="m_ia"/>
+   <field old="ADD_MODE I" new="f_k"/>
+   <field old="EDIT_MODE I" new="f_l"/>
+   <field old="FILTER_NAME_EXTRA Ljava/lang/String;" new="f_A"/>
+   <field old="PICK_CONTACT I" new="f_g"/>
+   <field old="REQUEST_CODE_MUTATED I" new="f_m"/>
+   <field old="RESULT_CODE_MUTATED I" new="f_B"/>
+   <field old="RESULT_CODE_NOT_MUTATED I" new="f_H"/>
+   <field old="mAddressEditText Landroid/widget/EditText;" new="f_M"/>
+   <field old="mContentFilterLayoutView Landroid/widget/LinearLayout;" new="f_i"/>
+   <field old="mFilterNameEditText Landroid/widget/EditText;" new="f_L"/>
+   <field old="mMode I" new="f_G"/>
+   <field old="mOldFilterName Ljava/lang/String;" new="f_f"/>
+  </class>
+  <class old="souch.smsbypass.FilterList$2" new="souch.smsbypass.c_G">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lsouch/smsbypass/FilterList;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.MessageList$3" new="souch.smsbypass.c_f">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lsouch/smsbypass/MessageList;" new="f_l"/>
+   <field old="val$adapterPosition I" new="f_M"/>
+  </class>
+  <class old="souch.smsbypass.MessageList$4" new="souch.smsbypass.c_E">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lsouch/smsbypass/MessageList;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.MessageListFilter$1" new="souch.smsbypass.c_H">
+   <method old="onItemClick(Landroid/widget/AdapterView;Landroid/view/View;IJ)V" new="onItemClick"/>
+   <field old="this$0 Lsouch/smsbypass/MessageListFilter;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.MessageListFilter$2" new="souch.smsbypass.c_J">
+   <method old="onReceive(Landroid/content/Context;Landroid/content/Intent;)V" new="onReceive"/>
+   <field old="this$0 Lsouch/smsbypass/MessageListFilter;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.MessageListFilter$3" new="souch.smsbypass.c_b">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lsouch/smsbypass/MessageListFilter;" new="f_A"/>
+   <field old="val$adapterPosition I" new="f_l"/>
+   <field old="val$messageID J" new="f_M"/>
+  </class>
+  <class old="souch.smsbypass.R$attr" new="souch.smsbypass.R$attr">
+  </class>
+  <class old="souch.smsbypass.SimpleListItem2" new="souch.smsbypass.c_a">
+   <method old="build(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)Landroid/widget/RelativeLayout;" new="m_b"/>
+  </class>
+  <class old="souch.smsbypass.MessageListFilter$4" new="souch.smsbypass.c_D">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lsouch/smsbypass/MessageListFilter;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.MessageListFilter$MessageListArrayAdapter$ViewHolder" new="souch.smsbypass.c_g">
+   <field old="layout Landroid/widget/LinearLayout;" new="f_M"/>
+   <field old="layoutInside Landroid/widget/LinearLayout;" new="f_f"/>
+   <field old="messageTextView Landroid/widget/TextView;" new="f_k"/>
+   <field old="receivedAtTextView Landroid/widget/TextView;" new="f_A"/>
+   <field old="this$1 Lsouch/smsbypass/MessageListFilter$MessageListArrayAdapter;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.ViewsAdapter" new="souch.smsbypass.c_k">
+   <method old="getCount()I" new="getCount"/>
+   <method old="getItem(I)Ljava/lang/Object;" new="getItem"/>
+   <method old="getItemId(I)J" new="getItemId"/>
+   <method old="getItemViewType(I)I" new="getItemViewType"/>
+   <method old="getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;" new="getView"/>
+   <method old="getViewTypeCount()I" new="getViewTypeCount"/>
+   <field old="mViews Ljava/util/List;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.R$id" new="souch.smsbypass.R$id">
+   <field old="action_delete_all I" new="action_delete_all"/>
+   <field old="action_export_messages I" new="action_export_messages"/>
+   <field old="addContentFilter I" new="addContentFilter"/>
+   <field old="address I" new="address"/>
+   <field old="batteryLevelText I" new="batteryLevelText"/>
+   <field old="chooseContact I" new="chooseContact"/>
+   <field old="clear I" new="clear"/>
+   <field old="closeButton I" new="closeButton"/>
+   <field old="contentFilterLayout I" new="contentFilterLayout"/>
+   <field old="contentFilterView I" new="contentFilterView"/>
+   <field old="content_string I" new="content_string"/>
+   <field old="delete I" new="delete"/>
+   <field old="fillSpaceTextView I" new="fillSpaceTextView"/>
+   <field old="filter I" new="filter"/>
+   <field old="filterName I" new="filterName"/>
+   <field old="filters I" new="filters"/>
+   <field old="howtoStart I" new="howtoStart"/>
+   <field old="layout I" new="layout"/>
+   <field old="layoutInside I" new="layoutInside"/>
+   <field old="message I" new="message"/>
+   <field old="messageEditText I" new="messageEditText"/>
+   <field old="messageFilterList I" new="messageFilterList"/>
+   <field old="messageList I" new="messageList"/>
+   <field old="messages I" new="messages"/>
+   <field old="receivedAt I" new="receivedAt"/>
+   <field old="saveBlockedMessages I" new="saveBlockedMessages"/>
+   <field old="sendButton I" new="sendButton"/>
+   <field old="textViewBatteryLevelTitle I" new="textViewBatteryLevelTitle"/>
+   <field old="version I" new="version"/>
+   <field old="vibrate I" new="vibrate"/>
+   <field old="view I" new="view"/>
+  </class>
+  <class old="souch.smsbypass.CheckableLinearLayout" new="souch.smsbypass.CheckableLinearLayout">
+   <method old="build(Landroid/content/Context;ILjava/lang/String;Ljava/lang/String;)Lsouch/smsbypass/CheckableLinearLayout;" new="m_b"/>
+   <method old="findCheckableView(Landroid/view/ViewGroup;)Z" new="m_Na"/>
+   <method old="isChecked()Z" new="isChecked"/>
+   <method old="onFinishInflate()V" new="onFinishInflate"/>
+   <method old="setChecked(Z)V" new="setChecked"/>
+   <method old="toggle()V" new="toggle"/>
+   <field old="mCheckable Landroid/widget/Checkable;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.FilterList$CheckableFilterListArrayAdapter$ViewHolder" new="souch.smsbypass.c_d">
+   <field old="addressEditText Landroid/widget/TextView;" new="f_l"/>
+   <field old="nameEditText Landroid/widget/TextView;" new="f_A"/>
+   <field old="this$1 Lsouch/smsbypass/FilterList$CheckableFilterListArrayAdapter;" new="f_M"/>
+  </class>
+  <class old="souch.smsbypass.FilterList" new="souch.smsbypass.FilterList">
+   <method old="access$100(Lsouch/smsbypass/FilterList;)Lsouch/smsbypass/FilterList$CheckableFilterListArrayAdapter;" new="m_Ca"/>
+   <method old="access$200(Lsouch/smsbypass/FilterList;)Lsouch/smsbypass/Settings;" new="m_aa"/>
+   <method old="access$300(Lsouch/smsbypass/FilterList;I)V" new="m_ba"/>
+   <method old="access$400(Lsouch/smsbypass/FilterList;)V" new="m_ka"/>
+   <method old="delete()V" new="m_R"/>
+   <method old="getCheckedItems()Ljava/util/List;" new="m_Ia"/>
+   <method old="getFilterNameFromMenuInfo(Landroid/view/ContextMenu$ContextMenuInfo;)Ljava/lang/String;" new="m_Ka"/>
+   <method old="getListItem(I)Lsouch/smsbypass/Filter;" new="m_Ba"/>
+   <method old="onActivityResult(IILandroid/content/Intent;)V" new="onActivityResult"/>
+   <method old="onAdd(Landroid/view/View;)V" new="onAdd"/>
+   <method old="onConfirmDelete(Landroid/view/View;)V" new="onConfirmDelete"/>
+   <method old="onContextItemSelected(Landroid/view/MenuItem;)Z" new="onContextItemSelected"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V" new="onCreateContextMenu"/>
+   <method old="onKeyUp(ILandroid/view/KeyEvent;)Z" new="onKeyUp"/>
+   <method old="onStop()V" new="onStop"/>
+   <method old="refreshList()V" new="m_Y"/>
+   <method old="removeAdapterItem(I)V" new="m_da"/>
+   <method old="replaceListItems(Ljava/util/List;)V" new="m_ga"/>
+   <field old="mAdapter Lsouch/smsbypass/FilterList$CheckableFilterListArrayAdapter;" new="f_M"/>
+   <field old="mListView Landroid/widget/ListView;" new="f_A"/>
+   <field old="mSettings Lsouch/smsbypass/Settings;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.R$layout" new="souch.smsbypass.R$layout">
+   <field old="battery_facade I" new="battery_facade"/>
+   <field old="checkable_list_item_2 I" new="checkable_list_item_2"/>
+   <field old="content_filter_item I" new="content_filter_item"/>
+   <field old="filter_form I" new="filter_form"/>
+   <field old="filter_list I" new="filter_list"/>
+   <field old="filter_list_item I" new="filter_list_item"/>
+   <field old="filter_list_picker I" new="filter_list_picker"/>
+   <field old="filter_list_picker_item I" new="filter_list_picker_item"/>
+   <field old="main I" new="main"/>
+   <field old="message_list I" new="message_list"/>
+   <field old="message_list_filter I" new="message_list_filter"/>
+   <field old="message_list_filter_item I" new="message_list_filter_item"/>
+   <field old="message_list_item I" new="message_list_item"/>
+   <field old="message_viewer I" new="message_viewer"/>
+   <field old="simple_list_item_2 I" new="simple_list_item_2"/>
+  </class>
+  <class old="souch.smsbypass.SMSReceiver" new="souch.smsbypass.SMSReceiver">
+   <method old="addressMatchContact(Ljava/lang/String;Ljava/util/ArrayList;)Z" new="m_u"/>
+   <method old="contentFiltersMatch(Ljava/util/List;Ljava/lang/String;)Z" new="m_p"/>
+   <method old="onReceive(Landroid/content/Context;Landroid/content/Intent;)V" new="onReceive"/>
+   <method old="shouldBlockMessage(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_n"/>
+   <method old="vibrate(Landroid/content/Context;)V" new="m_q"/>
+   <field old="TAG Ljava/lang/String;" new="f_M"/>
+   <field old="vibrateTime J" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.MessageViewer$1" new="souch.smsbypass.c_I">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lsouch/smsbypass/MessageViewer;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.BatteryFacade" new="souch.smsbypass.BatteryFacade">
+   <method old="GetBatteryLevel(Landroid/content/Context;)F" new="m_oa"/>
+   <method old="access$000(Lsouch/smsbypass/BatteryFacade;)J" new="m_Xa"/>
+   <method old="access$002(Lsouch/smsbypass/BatteryFacade;J)J" new="m_Qa"/>
+   <method old="access$100(Lsouch/smsbypass/BatteryFacade;)Z" new="m_ya"/>
+   <method old="access$102(Lsouch/smsbypass/BatteryFacade;Z)Z" new="m_ta"/>
+   <method old="access$200(Lsouch/smsbypass/BatteryFacade;)Landroid/widget/TextView;" new="m_Oa"/>
+   <method old="access$300(Lsouch/smsbypass/BatteryFacade;)V" new="m_Wa"/>
+   <method old="access$400(Lsouch/smsbypass/BatteryFacade;)I" new="m_ua"/>
+   <method old="closeEverything(Landroid/view/View;)V" new="closeEverything"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onStart()V" new="onStart"/>
+   <method old="startSMSbypass()V" new="m_za"/>
+   <method old="stopHowto()V" new="m_wa"/>
+   <field old="DEBUG_MODE Z" new="f_g"/>
+   <field old="cancelHaptic Z" new="f_H"/>
+   <field old="downTime J" new="f_k"/>
+   <field old="mBatteryLevel Landroid/widget/TextView;" new="f_A"/>
+   <field old="mHowtoStarted Z" new="f_l"/>
+   <field old="mSettings Lsouch/smsbypass/Settings;" new="f_M"/>
+   <field old="msBeforeStartUI I" new="f_f"/>
+  </class>
+  <class old="souch.smsbypass.Notifier" new="souch.smsbypass.c_A">
+   <method old="build(ILjava/lang/CharSequence;)Landroid/app/Notification;" new="m_z"/>
+   <method old="cancel(Landroid/content/Context;I)V" new="m_S"/>
+   <method old="cancel(Landroid/content/Context;Ljava/lang/String;I)V" new="m_s"/>
+   <method old="getManager(Landroid/content/Context;)Landroid/app/NotificationManager;" new="m_o"/>
+   <method old="notify(Landroid/content/Context;ILandroid/app/Notification;)V" new="m_t"/>
+   <method old="notify(Landroid/content/Context;Ljava/lang/String;ILandroid/app/Notification;)V" new="m_N"/>
+   <field old="NEW_MESSAGE I" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.R$drawable" new="souch.smsbypass.R$drawable">
+   <field old="ic_launcher I" new="ic_launcher"/>
+   <field old="ic_stat_alert I" new="ic_stat_alert"/>
+  </class>
+  <class old="souch.smsbypass.FilterForm$1" new="souch.smsbypass.c_q">
+   <method old="afterTextChanged(Landroid/text/Editable;)V" new="afterTextChanged"/>
+   <method old="beforeTextChanged(Ljava/lang/CharSequence;III)V" new="beforeTextChanged"/>
+   <method old="onTextChanged(Ljava/lang/CharSequence;III)V" new="onTextChanged"/>
+   <field old="this$0 Lsouch/smsbypass/FilterForm;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.BatteryFacade$1" new="souch.smsbypass.c_z">
+   <method old="onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z" new="onTouch"/>
+   <field old="this$0 Lsouch/smsbypass/BatteryFacade;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.FilterForm$2" new="souch.smsbypass.c_u">
+   <method old="onClick(Landroid/view/View;)V" new="onClick"/>
+   <field old="this$0 Lsouch/smsbypass/FilterForm;" new="f_l"/>
+   <field old="val$editText Landroid/widget/EditText;" new="f_M"/>
+  </class>
+  <class old="souch.smsbypass.FilterList$CheckableFilterListArrayAdapter" new="souch.smsbypass.c_j">
+   <method old="getView(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;" new="getView"/>
+   <field old="this$0 Lsouch/smsbypass/FilterList;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.C" new="souch.smsbypass.c_U">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_Va"/>
+   <field old="PACKAGE_NAME Ljava/lang/String;" new="f_l"/>
+  </class>
+  <class old="souch.smsbypass.MessageListFilter" new="souch.smsbypass.MessageListFilter">
+   <method old="access$100(Lsouch/smsbypass/MessageListFilter;)Lsouch/smsbypass/MessageListFilter$MessageListArrayAdapter;" new="m_Da"/>
+   <method old="access$200(Lsouch/smsbypass/MessageListFilter;J)V" new="m_r"/>
+   <method old="access$300(Lsouch/smsbypass/MessageListFilter;)V" new="m_Ea"/>
+   <method old="access$400(Lsouch/smsbypass/MessageListFilter;)Lsouch/smsbypass/Settings;" new="m_y"/>
+   <method old="access$500(Lsouch/smsbypass/MessageListFilter;)V" new="m_Q"/>
+   <method old="confirmDeleteAll()V" new="m_T"/>
+   <method old="deleteAll()V" new="m_fa"/>
+   <method old="exportMessages()V" new="m_Z"/>
+   <method old="onActivityResult(IILandroid/content/Intent;)V" new="onActivityResult"/>
+   <method old="onContextItemSelected(Landroid/view/MenuItem;)Z" new="onContextItemSelected"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateContextMenu(Landroid/view/ContextMenu;Landroid/view/View;Landroid/view/ContextMenu$ContextMenuInfo;)V" new="onCreateContextMenu"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onKeyUp(ILandroid/view/KeyEvent;)Z" new="onKeyUp"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="onSendMessage(Landroid/view/View;)V" new="onSendMessage"/>
+   <method old="onStop()V" new="onStop"/>
+   <method old="refreshList()V" new="m_Y"/>
+   <method old="startViewerActivity(J)V" new="m_O"/>
+   <field old="DRAFT_COLOR I" new="f_M"/>
+   <field old="FILTER_NAME_EXTRA Ljava/lang/String;" new="f_i"/>
+   <field old="RECEIVED_COLOR I" new="f_l"/>
+   <field old="SENT_COLOR I" new="f_f"/>
+   <field old="mAdapter Lsouch/smsbypass/MessageListFilter$MessageListArrayAdapter;" new="f_H"/>
+   <field old="mAddress Ljava/lang/String;" new="f_k"/>
+   <field old="mFilterName Ljava/lang/String;" new="f_A"/>
+   <field old="mListView Landroid/widget/ListView;" new="f_L"/>
+   <field old="mNewMsgEditText Landroid/widget/EditText;" new="f_m"/>
+   <field old="mReceiver Landroid/content/BroadcastReceiver;" new="f_G"/>
+   <field old="mSettings Lsouch/smsbypass/Settings;" new="f_g"/>
+  </class>
+  <class old="souch.smsbypass.BatteryFacade$1$1" new="souch.smsbypass.c_o">
+   <method old="run()V" new="run"/>
+   <field old="this$1 Lsouch/smsbypass/BatteryFacade$1;" new="f_l"/>
+  </class>
+  <sources>
+   <source old="BatteryFacade.java" new="m"/>
+   <source old="BuildConfig.java" new="x"/>
+   <source old="C.java" new="h"/>
+   <source old="CheckableLinearLayout.java" new="k"/>
+   <source old="Filter.java" new="f"/>
+   <source old="FilterForm.java" new="y"/>
+   <source old="FilterList.java" new="r"/>
+   <source old="FilterListPicker.java" new="j"/>
+   <source old="Message.java" new="t"/>
+   <source old="MessageList.java" new="a"/>
+   <source old="MessageListFilter.java" new="i"/>
+   <source old="MessageViewer.java" new="s"/>
+   <source old="Notifier.java" new="v"/>
+   <source old="R.java" new="q"/>
+   <source old="SMSReceiver.java" new="w"/>
+   <source old="Settings.java" new="d"/>
+   <source old="SimpleListItem2.java" new="e"/>
+   <source old="TimeFormatter.java" new="c"/>
+   <source old="UI.java" new="z"/>
+   <source old="ViewsAdapter.java" new="p"/>
+  </sources>
+  <lines>
+   <line l="0"/>
+   <line l="183"/>
+   <line l="188"/>
+   <line l="113"/>
+   <line l="99"/>
+   <line l="4"/>
+   <line l="175"/>
+   <line l="9"/>
+   <line l="257"/>
+   <line l="199"/>
+   <line l="204"/>
+   <line l="228"/>
+   <line l="221"/>
+   <line l="166"/>
+   <line l="201"/>
+   <line l="95"/>
+   <line l="94"/>
+   <line l="134"/>
+   <line l="74"/>
+   <line l="93"/>
+   <line l="138"/>
+   <line l="43"/>
+   <line l="24"/>
+   <line l="61"/>
+   <line l="106"/>
+   <line l="215"/>
+   <line l="173"/>
+   <line l="98"/>
+   <line l="28"/>
+   <line l="118"/>
+   <line l="124"/>
+   <line l="60"/>
+   <line l="34"/>
+   <line l="133"/>
+   <line l="148"/>
+   <line l="254"/>
+   <line l="96"/>
+   <line l="110"/>
+   <line l="167"/>
+   <line l="185"/>
+   <line l="140"/>
+   <line l="45"/>
+   <line l="135"/>
+   <line l="115"/>
+   <line l="55"/>
+   <line l="44"/>
+   <line l="195"/>
+   <line l="88"/>
+   <line l="217"/>
+   <line l="79"/>
+   <line l="203"/>
+   <line l="116"/>
+   <line l="192"/>
+   <line l="101"/>
+   <line l="125"/>
+   <line l="190"/>
+   <line l="222"/>
+   <line l="83"/>
+   <line l="137"/>
+   <line l="18"/>
+   <line l="64"/>
+   <line l="11"/>
+   <line l="218"/>
+   <line l="30"/>
+   <line l="256"/>
+   <line l="196"/>
+   <line l="149"/>
+   <line l="219"/>
+   <line l="163"/>
+   <line l="13"/>
+   <line l="233"/>
+   <line l="112"/>
+   <line l="89"/>
+   <line l="200"/>
+   <line l="253"/>
+   <line l="180"/>
+   <line l="144"/>
+   <line l="236"/>
+   <line l="33"/>
+   <line l="249"/>
+   <line l="157"/>
+   <line l="109"/>
+   <line l="37"/>
+   <line l="41"/>
+   <line l="27"/>
+   <line l="7"/>
+   <line l="67"/>
+   <line l="240"/>
+   <line l="155"/>
+   <line l="146"/>
+   <line l="8"/>
+   <line l="197"/>
+   <line l="170"/>
+   <line l="232"/>
+   <line l="81"/>
+   <line l="242"/>
+   <line l="119"/>
+   <line l="177"/>
+   <line l="111"/>
+   <line l="38"/>
+   <line l="151"/>
+   <line l="78"/>
+   <line l="172"/>
+   <line l="51"/>
+   <line l="70"/>
+   <line l="182"/>
+   <line l="25"/>
+   <line l="126"/>
+   <line l="136"/>
+   <line l="179"/>
+   <line l="105"/>
+   <line l="193"/>
+   <line l="39"/>
+   <line l="244"/>
+   <line l="189"/>
+   <line l="230"/>
+   <line l="220"/>
+   <line l="123"/>
+   <line l="63"/>
+   <line l="245"/>
+   <line l="40"/>
+   <line l="145"/>
+   <line l="36"/>
+   <line l="120"/>
+   <line l="243"/>
+   <line l="154"/>
+   <line l="114"/>
+   <line l="181"/>
+   <line l="86"/>
+   <line l="82"/>
+   <line l="132"/>
+   <line l="234"/>
+   <line l="53"/>
+   <line l="52"/>
+   <line l="21"/>
+   <line l="48"/>
+   <line l="211"/>
+   <line l="16"/>
+   <line l="59"/>
+   <line l="97"/>
+   <line l="19"/>
+   <line l="3"/>
+   <line l="90"/>
+   <line l="10"/>
+   <line l="17"/>
+   <line l="176"/>
+   <line l="68"/>
+   <line l="165"/>
+   <line l="250"/>
+   <line l="71"/>
+   <line l="208"/>
+   <line l="5"/>
+   <line l="12"/>
+   <line l="194"/>
+   <line l="251"/>
+   <line l="158"/>
+   <line l="229"/>
+   <line l="198"/>
+   <line l="92"/>
+   <line l="15"/>
+   <line l="104"/>
+   <line l="168"/>
+   <line l="252"/>
+   <line l="129"/>
+   <line l="26"/>
+   <line l="258"/>
+   <line l="226"/>
+   <line l="29"/>
+   <line l="54"/>
+   <line l="117"/>
+   <line l="162"/>
+   <line l="202"/>
+   <line l="57"/>
+   <line l="121"/>
+   <line l="223"/>
+   <line l="14"/>
+   <line l="122"/>
+   <line l="159"/>
+   <line l="186"/>
+   <line l="143"/>
+   <line l="130"/>
+   <line l="127"/>
+   <line l="20"/>
+   <line l="107"/>
+   <line l="50"/>
+   <line l="259"/>
+   <line l="69"/>
+   <line l="156"/>
+   <line l="73"/>
+   <line l="178"/>
+   <line l="108"/>
+   <line l="84"/>
+   <line l="184"/>
+   <line l="169"/>
+   <line l="241"/>
+   <line l="210"/>
+   <line l="128"/>
+   <line l="214"/>
+   <line l="142"/>
+   <line l="216"/>
+   <line l="153"/>
+   <line l="255"/>
+   <line l="47"/>
+   <line l="247"/>
+   <line l="62"/>
+   <line l="147"/>
+   <line l="32"/>
+   <line l="191"/>
+   <line l="174"/>
+   <line l="209"/>
+   <line l="224"/>
+   <line l="77"/>
+   <line l="238"/>
+   <line l="160"/>
+   <line l="152"/>
+   <line l="248"/>
+   <line l="206"/>
+   <line l="237"/>
+   <line l="161"/>
+   <line l="56"/>
+   <line l="75"/>
+   <line l="46"/>
+   <line l="212"/>
+   <line l="231"/>
+   <line l="65"/>
+   <line l="23"/>
+   <line l="187"/>
+   <line l="239"/>
+   <line l="31"/>
+   <line l="85"/>
+   <line l="164"/>
+   <line l="42"/>
+   <line l="227"/>
+   <line l="2"/>
+   <line l="246"/>
+   <line l="87"/>
+   <line l="35"/>
+   <line l="100"/>
+   <line l="72"/>
+   <line l="49"/>
+   <line l="171"/>
+   <line l="103"/>
+   <line l="22"/>
+   <line l="141"/>
+   <line l="131"/>
+   <line l="213"/>
+   <line l="66"/>
+   <line l="1"/>
+   <line l="225"/>
+   <line l="235"/>
+   <line l="139"/>
+   <line l="80"/>
+   <line l="102"/>
+   <line l="91"/>
+   <line l="205"/>
+   <line l="207"/>
+   <line l="76"/>
+   <line l="58"/>
+   <line l="6"/>
+   <line l="150"/>
+   <line l="316"/>
+   <line l="539"/>
+   <line l="376"/>
+   <line l="281"/>
+   <line l="317"/>
+   <line l="361"/>
+   <line l="275"/>
+   <line l="557"/>
+   <line l="457"/>
+   <line l="293"/>
+   <line l="426"/>
+   <line l="451"/>
+   <line l="470"/>
+   <line l="284"/>
+   <line l="552"/>
+   <line l="419"/>
+   <line l="515"/>
+   <line l="319"/>
+   <line l="382"/>
+   <line l="519"/>
+   <line l="578"/>
+   <line l="380"/>
+   <line l="350"/>
+   <line l="347"/>
+   <line l="450"/>
+   <line l="273"/>
+   <line l="530"/>
+   <line l="580"/>
+   <line l="429"/>
+   <line l="326"/>
+   <line l="291"/>
+   <line l="366"/>
+   <line l="447"/>
+   <line l="577"/>
+   <line l="481"/>
+   <line l="355"/>
+   <line l="563"/>
+   <line l="544"/>
+   <line l="484"/>
+   <line l="520"/>
+   <line l="434"/>
+   <line l="533"/>
+   <line l="354"/>
+   <line l="487"/>
+   <line l="477"/>
+   <line l="466"/>
+   <line l="522"/>
+   <line l="358"/>
+   <line l="473"/>
+   <line l="362"/>
+   <line l="478"/>
+   <line l="330"/>
+   <line l="340"/>
+   <line l="395"/>
+   <line l="339"/>
+   <line l="269"/>
+   <line l="324"/>
+   <line l="287"/>
+   <line l="365"/>
+   <line l="513"/>
+   <line l="329"/>
+   <line l="421"/>
+   <line l="489"/>
+   <line l="403"/>
+   <line l="295"/>
+   <line l="571"/>
+   <line l="494"/>
+   <line l="433"/>
+   <line l="289"/>
+   <line l="342"/>
+   <line l="480"/>
+   <line l="562"/>
+   <line l="268"/>
+   <line l="482"/>
+   <line l="279"/>
+   <line l="341"/>
+   <line l="503"/>
+   <line l="576"/>
+   <line l="440"/>
+   <line l="541"/>
+   <line l="595"/>
+   <line l="299"/>
+   <line l="363"/>
+   <line l="535"/>
+   <line l="422"/>
+   <line l="502"/>
+   <line l="486"/>
+   <line l="575"/>
+   <line l="375"/>
+   <line l="280"/>
+   <line l="288"/>
+   <line l="412"/>
+   <line l="402"/>
+   <line l="309"/>
+   <line l="391"/>
+   <line l="435"/>
+   <line l="384"/>
+   <line l="267"/>
+   <line l="446"/>
+   <line l="589"/>
+   <line l="591"/>
+   <line l="597"/>
+   <line l="411"/>
+   <line l="371"/>
+   <line l="565"/>
+   <line l="579"/>
+   <line l="538"/>
+   <line l="483"/>
+   <line l="569"/>
+   <line l="572"/>
+   <line l="338"/>
+   <line l="469"/>
+   <line l="549"/>
+   <line l="448"/>
+   <line l="490"/>
+   <line l="501"/>
+   <line l="331"/>
+   <line l="588"/>
+   <line l="381"/>
+   <line l="436"/>
+   <line l="534"/>
+   <line l="420"/>
+   <line l="496"/>
+   <line l="322"/>
+   <line l="336"/>
+   <line l="307"/>
+   <line l="593"/>
+   <line l="356"/>
+   <line l="397"/>
+   <line l="353"/>
+   <line l="296"/>
+   <line l="517"/>
+   <line l="405"/>
+   <line l="507"/>
+   <line l="518"/>
+   <line l="554"/>
+   <line l="378"/>
+   <line l="474"/>
+   <line l="337"/>
+   <line l="357"/>
+   <line l="461"/>
+   <line l="392"/>
+   <line l="587"/>
+   <line l="476"/>
+   <line l="345"/>
+   <line l="510"/>
+   <line l="399"/>
+   <line l="348"/>
+   <line l="514"/>
+   <line l="585"/>
+   <line l="346"/>
+   <line l="492"/>
+   <line l="504"/>
+   <line l="584"/>
+   <line l="374"/>
+   <line l="468"/>
+   <line l="297"/>
+   <line l="406"/>
+   <line l="488"/>
+   <line l="266"/>
+   <line l="570"/>
+   <line l="546"/>
+   <line l="582"/>
+   <line l="372"/>
+   <line l="516"/>
+   <line l="493"/>
+   <line l="560"/>
+   <line l="542"/>
+   <line l="596"/>
+   <line l="548"/>
+   <line l="444"/>
+   <line l="472"/>
+   <line l="568"/>
+   <line l="438"/>
+   <line l="332"/>
+   <line l="590"/>
+   <line l="352"/>
+   <line l="272"/>
+   <line l="512"/>
+   <line l="409"/>
+   <line l="479"/>
+   <line l="404"/>
+   <line l="456"/>
+   <line l="367"/>
+   <line l="408"/>
+   <line l="387"/>
+   <line l="313"/>
+   <line l="449"/>
+   <line l="298"/>
+   <line l="417"/>
+   <line l="553"/>
+   <line l="505"/>
+   <line l="526"/>
+   <line l="529"/>
+   <line l="370"/>
+   <line l="559"/>
+   <line l="439"/>
+   <line l="555"/>
+   <line l="385"/>
+   <line l="302"/>
+   <line l="351"/>
+   <line l="543"/>
+   <line l="414"/>
+   <line l="499"/>
+   <line l="443"/>
+   <line l="283"/>
+   <line l="425"/>
+   <line l="462"/>
+   <line l="424"/>
+   <line l="564"/>
+   <line l="428"/>
+   <line l="303"/>
+   <line l="321"/>
+   <line l="277"/>
+   <line l="315"/>
+   <line l="574"/>
+   <line l="278"/>
+   <line l="437"/>
+   <line l="566"/>
+   <line l="318"/>
+   <line l="441"/>
+   <line l="276"/>
+   <line l="467"/>
+   <line l="301"/>
+   <line l="359"/>
+   <line l="506"/>
+   <line l="497"/>
+   <line l="311"/>
+   <line l="460"/>
+   <line l="285"/>
+   <line l="333"/>
+   <line l="270"/>
+   <line l="500"/>
+   <line l="290"/>
+   <line l="432"/>
+   <line l="455"/>
+   <line l="431"/>
+   <line l="401"/>
+   <line l="410"/>
+   <line l="388"/>
+   <line l="536"/>
+   <line l="592"/>
+   <line l="511"/>
+   <line l="344"/>
+   <line l="491"/>
+   <line l="379"/>
+   <line l="547"/>
+   <line l="396"/>
+   <line l="349"/>
+   <line l="274"/>
+   <line l="360"/>
+   <line l="459"/>
+   <line l="264"/>
+   <line l="310"/>
+   <line l="567"/>
+   <line l="528"/>
+   <line l="427"/>
+   <line l="262"/>
+   <line l="524"/>
+   <line l="306"/>
+   <line l="550"/>
+   <line l="498"/>
+   <line l="271"/>
+   <line l="445"/>
+   <line l="581"/>
+   <line l="294"/>
+   <line l="282"/>
+   <line l="263"/>
+   <line l="320"/>
+   <line l="312"/>
+   <line l="453"/>
+   <line l="458"/>
+   <line l="389"/>
+   <line l="286"/>
+   <line l="418"/>
+   <line l="368"/>
+   <line l="464"/>
+   <line l="393"/>
+   <line l="423"/>
+   <line l="323"/>
+   <line l="292"/>
+   <line l="407"/>
+   <line l="586"/>
+   <line l="364"/>
+   <line l="523"/>
+   <line l="260"/>
+   <line l="531"/>
+   <line l="386"/>
+   <line l="305"/>
+   <line l="325"/>
+   <line l="521"/>
+   <line l="334"/>
+   <line l="265"/>
+   <line l="377"/>
+   <line l="304"/>
+   <line l="545"/>
+   <line l="509"/>
+   <line l="495"/>
+   <line l="532"/>
+   <line l="471"/>
+   <line l="537"/>
+   <line l="415"/>
+   <line l="328"/>
+   <line l="343"/>
+   <line l="327"/>
+   <line l="551"/>
+   <line l="398"/>
+   <line l="583"/>
+   <line l="373"/>
+   <line l="400"/>
+   <line l="485"/>
+   <line l="383"/>
+   <line l="465"/>
+   <line l="463"/>
+   <line l="314"/>
+   <line l="525"/>
+   <line l="308"/>
+   <line l="369"/>
+   <line l="573"/>
+   <line l="594"/>
+   <line l="430"/>
+   <line l="454"/>
+   <line l="556"/>
+   <line l="540"/>
+   <line l="475"/>
+   <line l="508"/>
+   <line l="452"/>
+   <line l="558"/>
+   <line l="300"/>
+   <line l="527"/>
+   <line l="416"/>
+   <line l="413"/>
+   <line l="335"/>
+   <line l="442"/>
+   <line l="390"/>
+   <line l="561"/>
+   <line l="261"/>
+   <line l="394"/>
+  </lines>
+ </mapping>
+</allatori>

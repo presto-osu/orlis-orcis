@@ -1,0 +1,60 @@
+com.termux.styling.BuildConfig -> com.termux.styling.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+com.termux.styling.R -> com.termux.styling.b:
+    void <init>() -> <init>
+com.termux.styling.R$attr -> com.termux.styling.R$attr:
+    void <init>() -> <init>
+com.termux.styling.R$drawable -> com.termux.styling.R$drawable:
+    int ic_launcher -> ic_launcher
+    void <init>() -> <init>
+com.termux.styling.R$id -> com.termux.styling.R$id:
+    int color_spinner -> color_spinner
+    int font_spinner -> font_spinner
+    void <init>() -> <init>
+com.termux.styling.R$layout -> com.termux.styling.R$layout:
+    int layout -> layout
+    void <init>() -> <init>
+com.termux.styling.R$string -> com.termux.styling.R$string:
+    int app_name -> app_name
+    int color_prompt -> color_prompt
+    int font_prompt -> font_prompt
+    void <init>() -> <init>
+com.termux.styling.R$style -> com.termux.styling.R$style:
+    int AppTheme -> AppTheme
+    void <init>() -> <init>
+com.termux.styling.TermuxStyleActivity -> com.termux.styling.TermuxStyleActivity:
+    java.lang.String DEFAULT_FILENAME -> f
+    void <init>() -> <init>
+    java.lang.String access$000(java.lang.String) -> a
+    java.lang.String capitalize(java.lang.String) -> b
+    void copyFile(com.termux.styling.TermuxStyleActivity$Selectable,boolean) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+com.termux.styling.TermuxStyleActivity$1 -> com.termux.styling.c:
+    com.termux.styling.TermuxStyleActivity this$0 -> g
+    android.widget.ArrayAdapter val$colorAdapter -> h
+    void <init>(com.termux.styling.TermuxStyleActivity,android.widget.ArrayAdapter) -> <init>
+    void onClick(android.view.View) -> onClick
+com.termux.styling.TermuxStyleActivity$1$1 -> com.termux.styling.d:
+    com.termux.styling.TermuxStyleActivity$1 this$1 -> i
+    void <init>(com.termux.styling.TermuxStyleActivity$1) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.termux.styling.TermuxStyleActivity$2 -> com.termux.styling.e:
+    com.termux.styling.TermuxStyleActivity this$0 -> g
+    android.widget.ArrayAdapter val$fontAdapter -> j
+    void <init>(com.termux.styling.TermuxStyleActivity,android.widget.ArrayAdapter) -> <init>
+    void onClick(android.view.View) -> onClick
+com.termux.styling.TermuxStyleActivity$2$1 -> com.termux.styling.f:
+    com.termux.styling.TermuxStyleActivity$2 this$1 -> k
+    void <init>(com.termux.styling.TermuxStyleActivity$2) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.termux.styling.TermuxStyleActivity$Selectable -> com.termux.styling.g:
+    java.lang.String displayName -> l
+    java.lang.String fileName -> m
+    void <init>(java.lang.String) -> <init>
+    java.lang.String toString() -> toString

@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v5.9 Educational
+   Web: http://www.allatori.com
+
+   Log created: Mon Aug 13 21:25:42 EDT 2018
+-->
+
+<allatori>
+ <mapping>
+  <class old="org.surrel.facebooknotifications.MainActivity" new="org.surrel.facebooknotifications.MainActivity">
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onKeyDown(ILandroid/view/KeyEvent;)Z" new="onKeyDown"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onPause()V" new="onPause"/>
+   <field old="AlarmType I" new="f_I"/>
+   <field old="webview Landroid/webkit/WebView;" new="f_F"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.R$array" new="org.surrel.facebooknotifications.R$array">
+   <field old="notification_blink_rate_entries I" new="notification_blink_rate_entries"/>
+   <field old="notification_blink_rate_entriesValues I" new="notification_blink_rate_entriesValues"/>
+   <field old="notification_vibrate_entries I" new="notification_vibrate_entries"/>
+   <field old="notification_vibrate_entriesValues I" new="notification_vibrate_entriesValues"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.R$string" new="org.surrel.facebooknotifications.R$string">
+   <field old="app_name I" new="app_name"/>
+   <field old="blink_frenetic I" new="blink_frenetic"/>
+   <field old="blink_normal I" new="blink_normal"/>
+   <field old="blink_slow I" new="blink_slow"/>
+   <field old="could_not_get_notifications I" new="could_not_get_notifications"/>
+   <field old="enable_notification_synchro I" new="enable_notification_synchro"/>
+   <field old="enter_minutes I" new="enter_minutes"/>
+   <field old="friends I" new="friends"/>
+   <field old="maybe_logged_out I" new="maybe_logged_out"/>
+   <field old="messages I" new="messages"/>
+   <field old="new_friend_requests I" new="new_friend_requests"/>
+   <field old="new_friend_requests_short I" new="new_friend_requests_short"/>
+   <field old="new_messages I" new="new_messages"/>
+   <field old="new_messages_short I" new="new_messages_short"/>
+   <field old="new_notifications I" new="new_notifications"/>
+   <field old="new_notifications_short I" new="new_notifications_short"/>
+   <field old="notification_blink_rate I" new="notification_blink_rate"/>
+   <field old="notification_blink_rate_choice I" new="notification_blink_rate_choice"/>
+   <field old="notification_category_activate I" new="notification_category_activate"/>
+   <field old="notification_sound I" new="notification_sound"/>
+   <field old="notification_sound_choice I" new="notification_sound_choice"/>
+   <field old="notification_vibrate_choice I" new="notification_vibrate_choice"/>
+   <field old="notifications I" new="notifications"/>
+   <field old="request_pending I" new="request_pending"/>
+   <field old="settings I" new="settings"/>
+   <field old="update_interval I" new="update_interval"/>
+   <field old="update_interval_summary I" new="update_interval_summary"/>
+   <field old="vibrate_double I" new="vibrate_double"/>
+   <field old="vibrate_double_long I" new="vibrate_double_long"/>
+   <field old="vibrate_long I" new="vibrate_long"/>
+   <field old="vibrate_none I" new="vibrate_none"/>
+   <field old="vibrate_short I" new="vibrate_short"/>
+   <field old="you_have I" new="you_have"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.R$id" new="org.surrel.facebooknotifications.R$id">
+   <field old="action_settings I" new="action_settings"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.R$drawable" new="org.surrel.facebooknotifications.R$drawable">
+   <field old="ic_menu_invite I" new="ic_menu_invite"/>
+   <field old="ic_menu_mapmode I" new="ic_menu_mapmode"/>
+   <field old="ic_menu_start_conversation I" new="ic_menu_start_conversation"/>
+   <field old="ic_notification I" new="ic_notification"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.R$xml" new="org.surrel.facebooknotifications.R$xml">
+   <field old="preferences I" new="preferences"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.R$layout" new="org.surrel.facebooknotifications.R$layout">
+   <field old="activity_main I" new="activity_main"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.BootReceiver" new="org.surrel.facebooknotifications.BootReceiver">
+   <method old="onReceive(Landroid/content/Context;Landroid/content/Intent;)V" new="onReceive"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.R$mipmap" new="org.surrel.facebooknotifications.R$mipmap">
+   <field old="ic_launcher I" new="ic_launcher"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.UpdateService" new="org.surrel.facebooknotifications.UpdateService">
+   <method old="access$000(Lorg/surrel/facebooknotifications/UpdateService;)Landroid/webkit/WebView;" new="m_H"/>
+   <method old="getBlinkRate(Ljava/lang/String;)[I" new="m_M"/>
+   <method old="getLegacyNotification(ILjava/lang/String;Ljava/lang/String;Landroid/content/Intent;ILjava/lang/String;[J)Landroid/app/Notification;" new="m_l"/>
+   <method old="getNewStyleNotification(ILandroid/graphics/Bitmap;Ljava/lang/String;Ljava/lang/String;ILandroid/content/Intent;ILjava/lang/String;[J)Landroid/app/Notification$Builder;" new="m_E"/>
+   <method old="getPattern(Ljava/lang/String;)[J" new="m_L"/>
+   <method old="onBind(Landroid/content/Intent;)Landroid/os/IBinder;" new="onBind"/>
+   <method old="onCreate()V" new="onCreate"/>
+   <method old="onDestroy()V" new="onDestroy"/>
+   <method old="processJSON(Ljava/lang/String;)V" new="m_i"/>
+   <field old="NOTIF_BASE I" new="f_G"/>
+   <field old="NOTIF_LOGIN I" new="f_I"/>
+   <field old="NOTIF_UNIFIED I" new="f_L"/>
+   <field old="sharedPreferences Landroid/content/SharedPreferences;" new="f_D"/>
+   <field old="webview Landroid/webkit/WebView;" new="f_F"/>
+   <field old="windowManager Landroid/view/WindowManager;" new="f_B"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.R$menu" new="org.surrel.facebooknotifications.R$menu">
+   <field old="main I" new="main"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.PrefsActivity" new="org.surrel.facebooknotifications.PrefsActivity">
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V" new="onSharedPreferenceChanged"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.UpdateService$1" new="org.surrel.facebooknotifications.c_f">
+   <method old="onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V" new="onPageFinished"/>
+   <field old="this$0 Lorg/surrel/facebooknotifications/UpdateService;" new="f_F"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.R" new="org.surrel.facebooknotifications.R">
+  </class>
+  <class old="org.surrel.facebooknotifications.WakeupManager" new="org.surrel.facebooknotifications.c_J">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_f"/>
+   <method old="updateNotificationSystem(Landroid/content/Context;)V" new="m_K"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.BuildConfig" new="org.surrel.facebooknotifications.c_b">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_f"/>
+   <field old="APPLICATION_ID Ljava/lang/String;" new="f_F"/>
+   <field old="BUILD_TYPE Ljava/lang/String;" new="f_G"/>
+   <field old="DEBUG Z" new="f_B"/>
+   <field old="FLAVOR Ljava/lang/String;" new="f_L"/>
+   <field old="VERSION_CODE I" new="f_I"/>
+   <field old="VERSION_NAME Ljava/lang/String;" new="f_D"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.R$color" new="org.surrel.facebooknotifications.R$color">
+   <field old="colorAccent I" new="colorAccent"/>
+   <field old="colorPrimary I" new="colorPrimary"/>
+   <field old="colorPrimaryDark I" new="colorPrimaryDark"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.R$dimen" new="org.surrel.facebooknotifications.R$dimen">
+   <field old="activity_horizontal_margin I" new="activity_horizontal_margin"/>
+   <field old="activity_vertical_margin I" new="activity_vertical_margin"/>
+  </class>
+  <class old="org.surrel.facebooknotifications.R$attr" new="org.surrel.facebooknotifications.R$attr">
+  </class>
+  <sources>
+   <source old="BootReceiver.java" new="z"/>
+   <source old="BuildConfig.java" new="m"/>
+   <source old="MainActivity.java" new="q"/>
+   <source old="PrefsActivity.java" new="c"/>
+   <source old="R.java" new="r"/>
+   <source old="UpdateService.java" new="t"/>
+   <source old="WakeupManager.java" new="o"/>
+  </sources>
+  <lines>
+   <line l="89"/>
+   <line l="75"/>
+   <line l="119"/>
+   <line l="132"/>
+   <line l="43"/>
+   <line l="34"/>
+   <line l="67"/>
+   <line l="96"/>
+   <line l="165"/>
+   <line l="19"/>
+   <line l="192"/>
+   <line l="22"/>
+   <line l="62"/>
+   <line l="58"/>
+   <line l="80"/>
+   <line l="195"/>
+   <line l="5"/>
+   <line l="7"/>
+   <line l="66"/>
+   <line l="194"/>
+   <line l="57"/>
+   <line l="64"/>
+   <line l="21"/>
+   <line l="3"/>
+   <line l="135"/>
+   <line l="14"/>
+   <line l="179"/>
+   <line l="120"/>
+   <line l="138"/>
+   <line l="36"/>
+   <line l="46"/>
+   <line l="26"/>
+   <line l="74"/>
+   <line l="128"/>
+   <line l="79"/>
+   <line l="205"/>
+   <line l="167"/>
+   <line l="161"/>
+   <line l="122"/>
+   <line l="144"/>
+   <line l="143"/>
+   <line l="145"/>
+   <line l="25"/>
+   <line l="33"/>
+   <line l="87"/>
+   <line l="184"/>
+   <line l="147"/>
+   <line l="86"/>
+   <line l="110"/>
+   <line l="121"/>
+   <line l="108"/>
+   <line l="84"/>
+   <line l="61"/>
+   <line l="51"/>
+   <line l="63"/>
+   <line l="176"/>
+   <line l="182"/>
+   <line l="52"/>
+   <line l="114"/>
+   <line l="115"/>
+   <line l="41"/>
+   <line l="158"/>
+   <line l="105"/>
+   <line l="30"/>
+   <line l="81"/>
+   <line l="198"/>
+   <line l="27"/>
+   <line l="15"/>
+   <line l="4"/>
+   <line l="131"/>
+   <line l="100"/>
+   <line l="190"/>
+   <line l="39"/>
+   <line l="44"/>
+   <line l="113"/>
+   <line l="177"/>
+   <line l="47"/>
+   <line l="126"/>
+   <line l="94"/>
+   <line l="37"/>
+   <line l="16"/>
+   <line l="183"/>
+   <line l="118"/>
+   <line l="163"/>
+   <line l="207"/>
+   <line l="141"/>
+   <line l="155"/>
+   <line l="136"/>
+   <line l="156"/>
+   <line l="95"/>
+   <line l="154"/>
+   <line l="68"/>
+   <line l="186"/>
+   <line l="56"/>
+   <line l="31"/>
+   <line l="127"/>
+   <line l="191"/>
+   <line l="97"/>
+   <line l="101"/>
+   <line l="10"/>
+   <line l="123"/>
+   <line l="160"/>
+   <line l="152"/>
+   <line l="188"/>
+   <line l="104"/>
+   <line l="99"/>
+   <line l="112"/>
+   <line l="178"/>
+   <line l="88"/>
+   <line l="35"/>
+   <line l="9"/>
+   <line l="12"/>
+   <line l="133"/>
+   <line l="49"/>
+   <line l="208"/>
+   <line l="60"/>
+   <line l="85"/>
+   <line l="18"/>
+   <line l="116"/>
+   <line l="11"/>
+   <line l="149"/>
+   <line l="196"/>
+   <line l="180"/>
+   <line l="69"/>
+   <line l="28"/>
+   <line l="204"/>
+   <line l="45"/>
+   <line l="20"/>
+   <line l="209"/>
+   <line l="172"/>
+   <line l="29"/>
+   <line l="189"/>
+   <line l="181"/>
+   <line l="53"/>
+   <line l="129"/>
+   <line l="203"/>
+   <line l="48"/>
+   <line l="202"/>
+   <line l="164"/>
+   <line l="201"/>
+   <line l="168"/>
+   <line l="171"/>
+   <line l="197"/>
+   <line l="146"/>
+   <line l="1"/>
+   <line l="55"/>
+   <line l="65"/>
+   <line l="83"/>
+   <line l="124"/>
+   <line l="93"/>
+   <line l="162"/>
+   <line l="111"/>
+   <line l="157"/>
+   <line l="137"/>
+   <line l="142"/>
+   <line l="175"/>
+   <line l="38"/>
+   <line l="102"/>
+   <line l="166"/>
+   <line l="173"/>
+   <line l="153"/>
+   <line l="210"/>
+   <line l="50"/>
+   <line l="103"/>
+   <line l="78"/>
+   <line l="148"/>
+   <line l="211"/>
+   <line l="130"/>
+   <line l="0"/>
+   <line l="54"/>
+   <line l="70"/>
+   <line l="125"/>
+   <line l="59"/>
+   <line l="106"/>
+   <line l="139"/>
+   <line l="17"/>
+   <line l="174"/>
+   <line l="23"/>
+   <line l="185"/>
+   <line l="40"/>
+   <line l="109"/>
+   <line l="13"/>
+   <line l="206"/>
+   <line l="98"/>
+   <line l="2"/>
+   <line l="32"/>
+   <line l="134"/>
+   <line l="117"/>
+   <line l="90"/>
+   <line l="151"/>
+   <line l="73"/>
+   <line l="71"/>
+   <line l="170"/>
+   <line l="193"/>
+   <line l="92"/>
+   <line l="76"/>
+   <line l="72"/>
+   <line l="140"/>
+   <line l="169"/>
+   <line l="77"/>
+   <line l="42"/>
+   <line l="8"/>
+   <line l="82"/>
+   <line l="187"/>
+   <line l="24"/>
+   <line l="199"/>
+   <line l="6"/>
+   <line l="150"/>
+   <line l="159"/>
+   <line l="200"/>
+   <line l="91"/>
+   <line l="107"/>
+   <line l="399"/>
+   <line l="484"/>
+   <line l="410"/>
+   <line l="424"/>
+   <line l="232"/>
+   <line l="501"/>
+   <line l="407"/>
+   <line l="533"/>
+   <line l="431"/>
+   <line l="439"/>
+   <line l="285"/>
+   <line l="272"/>
+   <line l="380"/>
+   <line l="408"/>
+   <line l="255"/>
+   <line l="491"/>
+   <line l="316"/>
+   <line l="398"/>
+   <line l="372"/>
+   <line l="296"/>
+   <line l="319"/>
+   <line l="446"/>
+   <line l="542"/>
+   <line l="339"/>
+   <line l="467"/>
+   <line l="495"/>
+   <line l="534"/>
+   <line l="470"/>
+   <line l="416"/>
+   <line l="531"/>
+   <line l="404"/>
+   <line l="509"/>
+   <line l="318"/>
+   <line l="227"/>
+   <line l="332"/>
+   <line l="382"/>
+   <line l="333"/>
+   <line l="517"/>
+   <line l="229"/>
+   <line l="560"/>
+   <line l="378"/>
+   <line l="532"/>
+   <line l="386"/>
+   <line l="449"/>
+   <line l="409"/>
+   <line l="472"/>
+   <line l="508"/>
+   <line l="555"/>
+   <line l="429"/>
+   <line l="447"/>
+   <line l="530"/>
+   <line l="360"/>
+   <line l="434"/>
+   <line l="503"/>
+   <line l="242"/>
+   <line l="370"/>
+   <line l="331"/>
+   <line l="571"/>
+   <line l="219"/>
+   <line l="381"/>
+   <line l="435"/>
+   <line l="506"/>
+   <line l="297"/>
+   <line l="451"/>
+   <line l="364"/>
+   <line l="402"/>
+   <line l="562"/>
+   <line l="521"/>
+   <line l="498"/>
+   <line l="400"/>
+   <line l="274"/>
+   <line l="514"/>
+   <line l="231"/>
+   <line l="314"/>
+   <line l="568"/>
+   <line l="536"/>
+   <line l="545"/>
+   <line l="478"/>
+   <line l="354"/>
+   <line l="259"/>
+   <line l="248"/>
+   <line l="234"/>
+   <line l="548"/>
+   <line l="350"/>
+   <line l="355"/>
+   <line l="406"/>
+   <line l="295"/>
+   <line l="444"/>
+   <line l="445"/>
+   <line l="527"/>
+   <line l="312"/>
+   <line l="383"/>
+   <line l="553"/>
+   <line l="245"/>
+   <line l="540"/>
+   <line l="254"/>
+   <line l="460"/>
+   <line l="476"/>
+   <line l="500"/>
+   <line l="524"/>
+   <line l="537"/>
+   <line l="235"/>
+   <line l="298"/>
+   <line l="515"/>
+   <line l="250"/>
+   <line l="507"/>
+   <line l="419"/>
+   <line l="304"/>
+   <line l="268"/>
+   <line l="475"/>
+   <line l="344"/>
+   <line l="450"/>
+   <line l="518"/>
+   <line l="212"/>
+   <line l="270"/>
+   <line l="256"/>
+   <line l="389"/>
+   <line l="361"/>
+   <line l="284"/>
+   <line l="485"/>
+   <line l="241"/>
+   <line l="422"/>
+   <line l="558"/>
+   <line l="525"/>
+   <line l="375"/>
+   <line l="379"/>
+   <line l="323"/>
+   <line l="281"/>
+   <line l="384"/>
+   <line l="306"/>
+   <line l="520"/>
+   <line l="420"/>
+   <line l="505"/>
+   <line l="237"/>
+   <line l="340"/>
+   <line l="392"/>
+   <line l="253"/>
+   <line l="567"/>
+   <line l="465"/>
+   <line l="442"/>
+   <line l="315"/>
+   <line l="441"/>
+   <line l="221"/>
+   <line l="391"/>
+   <line l="486"/>
+   <line l="257"/>
+   <line l="278"/>
+   <line l="523"/>
+   <line l="320"/>
+   <line l="345"/>
+   <line l="512"/>
+   <line l="414"/>
+   <line l="329"/>
+   <line l="343"/>
+   <line l="336"/>
+   <line l="238"/>
+   <line l="535"/>
+   <line l="258"/>
+   <line l="396"/>
+   <line l="502"/>
+   <line l="426"/>
+   <line l="326"/>
+   <line l="302"/>
+   <line l="466"/>
+   <line l="390"/>
+   <line l="260"/>
+   <line l="511"/>
+   <line l="480"/>
+   <line l="463"/>
+   <line l="387"/>
+   <line l="309"/>
+   <line l="418"/>
+   <line l="543"/>
+   <line l="223"/>
+   <line l="367"/>
+   <line l="504"/>
+   <line l="286"/>
+   <line l="438"/>
+   <line l="425"/>
+   <line l="455"/>
+   <line l="279"/>
+   <line l="437"/>
+   <line l="564"/>
+   <line l="264"/>
+   <line l="561"/>
+   <line l="454"/>
+   <line l="351"/>
+   <line l="307"/>
+   <line l="493"/>
+   <line l="421"/>
+   <line l="291"/>
+   <line l="487"/>
+   <line l="377"/>
+   <line l="282"/>
+   <line l="528"/>
+   <line l="415"/>
+   <line l="549"/>
+   <line l="488"/>
+   <line l="427"/>
+   <line l="338"/>
+   <line l="224"/>
+   <line l="337"/>
+   <line l="366"/>
+   <line l="240"/>
+   <line l="244"/>
+   <line l="411"/>
+   <line l="287"/>
+   <line l="453"/>
+   <line l="483"/>
+   <line l="462"/>
+   <line l="432"/>
+   <line l="459"/>
+   <line l="494"/>
+   <line l="510"/>
+   <line l="569"/>
+   <line l="215"/>
+   <line l="538"/>
+   <line l="342"/>
+   <line l="365"/>
+   <line l="239"/>
+   <line l="526"/>
+   <line l="394"/>
+   <line l="262"/>
+   <line l="519"/>
+   <line l="440"/>
+   <line l="252"/>
+   <line l="413"/>
+   <line l="292"/>
+   <line l="283"/>
+   <line l="539"/>
+   <line l="327"/>
+   <line l="311"/>
+   <line l="289"/>
+   <line l="308"/>
+   <line l="417"/>
+   <line l="473"/>
+   <line l="397"/>
+   <line l="313"/>
+   <line l="471"/>
+   <line l="428"/>
+   <line l="468"/>
+   <line l="547"/>
+   <line l="516"/>
+   <line l="513"/>
+   <line l="452"/>
+   <line l="267"/>
+   <line l="266"/>
+   <line l="225"/>
+   <line l="220"/>
+   <line l="412"/>
+   <line l="251"/>
+   <line l="554"/>
+   <line l="448"/>
+   <line l="303"/>
+   <line l="236"/>
+   <line l="276"/>
+   <line l="277"/>
+   <line l="544"/>
+   <line l="322"/>
+   <line l="305"/>
+   <line l="362"/>
+   <line l="403"/>
+   <line l="566"/>
+   <line l="550"/>
+   <line l="368"/>
+   <line l="551"/>
+   <line l="458"/>
+   <line l="217"/>
+   <line l="310"/>
+   <line l="477"/>
+   <line l="243"/>
+   <line l="246"/>
+   <line l="226"/>
+   <line l="393"/>
+   <line l="481"/>
+   <line l="356"/>
+   <line l="334"/>
+   <line l="497"/>
+   <line l="346"/>
+   <line l="325"/>
+   <line l="401"/>
+   <line l="457"/>
+   <line l="436"/>
+   <line l="349"/>
+   <line l="300"/>
+   <line l="395"/>
+   <line l="330"/>
+   <line l="233"/>
+   <line l="490"/>
+   <line l="570"/>
+   <line l="228"/>
+   <line l="249"/>
+   <line l="263"/>
+   <line l="430"/>
+   <line l="433"/>
+   <line l="559"/>
+   <line l="363"/>
+   <line l="352"/>
+   <line l="563"/>
+   <line l="357"/>
+   <line l="299"/>
+   <line l="335"/>
+   <line l="552"/>
+   <line l="213"/>
+   <line l="385"/>
+   <line l="557"/>
+   <line l="214"/>
+   <line l="469"/>
+   <line l="230"/>
+   <line l="222"/>
+   <line l="388"/>
+   <line l="328"/>
+   <line l="492"/>
+   <line l="290"/>
+   <line l="373"/>
+   <line l="288"/>
+   <line l="443"/>
+   <line l="565"/>
+   <line l="371"/>
+   <line l="376"/>
+   <line l="522"/>
+   <line l="359"/>
+   <line l="216"/>
+   <line l="247"/>
+   <line l="293"/>
+   <line l="479"/>
+   <line l="482"/>
+   <line l="556"/>
+   <line l="265"/>
+   <line l="358"/>
+   <line l="341"/>
+   <line l="348"/>
+   <line l="261"/>
+   <line l="275"/>
+   <line l="353"/>
+   <line l="499"/>
+   <line l="464"/>
+   <line l="273"/>
+   <line l="474"/>
+   <line l="347"/>
+   <line l="405"/>
+   <line l="456"/>
+   <line l="294"/>
+   <line l="423"/>
+   <line l="271"/>
+   <line l="489"/>
+   <line l="541"/>
+   <line l="369"/>
+   <line l="529"/>
+   <line l="317"/>
+   <line l="546"/>
+   <line l="496"/>
+   <line l="321"/>
+   <line l="280"/>
+   <line l="572"/>
+   <line l="218"/>
+   <line l="374"/>
+   <line l="461"/>
+   <line l="324"/>
+   <line l="269"/>
+   <line l="301"/>
+  </lines>
+ </mapping>
+</allatori>

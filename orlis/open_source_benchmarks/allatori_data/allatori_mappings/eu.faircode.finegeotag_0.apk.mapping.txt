@@ -1,0 +1,4094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v5.9 Educational
+   Web: http://www.allatori.com
+
+   Log created: Mon Aug 13 21:35:08 EDT 2018
+-->
+
+<allatori>
+ <mapping>
+  <class old="com.google.gson.Gson$6" new="com.google.gson.c_Z">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/concurrent/atomic/AtomicLong;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/concurrent/atomic/AtomicLong;)V" new="m_zc"/>
+   <field old="val$longAdapter Lcom/google/gson/TypeAdapter;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.Gson$7" new="com.google.gson.c_s">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/concurrent/atomic/AtomicLongArray;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/concurrent/atomic/AtomicLongArray;)V" new="m_Zb"/>
+   <field old="val$longAdapter Lcom/google/gson/TypeAdapter;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.annotations.JsonAdapter" new="wy.c_a">
+   <method old="value()Ljava/lang/Class;" new="m_H"/>
+  </class>
+  <class old="com.google.gson.JsonSerializer" new="com.google.gson.c_J">
+   <method old="serialize(Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;" new="m_J"/>
+  </class>
+  <class old="eu.faircode.finegeotag.LocationService$1" new="eu.faircode.finegeotag.c_d">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Leu/faircode/finegeotag/LocationService;" new="f_i"/>
+   <field old="val$image_filename Ljava/lang/String;" new="f_L"/>
+   <field old="val$text Ljava/lang/String;" new="f_K"/>
+  </class>
+  <class old="com.google.gson.JsonSyntaxException" new="com.google.gson.c_E">
+   <field old="serialVersionUID J" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.MapTypeAdapterFactory" new="com.google.gson.internal.bind.c_T">
+   <method old="access$000(Lcom/google/gson/internal/bind/MapTypeAdapterFactory;)Z" new="m_Ua"/>
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+   <method old="getKeyAdapter(Lcom/google/gson/Gson;Ljava/lang/reflect/Type;)Lcom/google/gson/TypeAdapter;" new="m_Pa"/>
+   <field old="complexMapKeySerialization Z" new="f_K"/>
+   <field old="constructorConstructor Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.stream.JsonReader$1" new="com.google.gson.stream.c_d">
+   <method old="promoteNameToValue(Lcom/google/gson/stream/JsonReader;)V" new="m_Z"/>
+   <field old="INSTANCE Lcom/google/gson/internal/JsonReaderInternalAccess;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.UnsafeAllocator" new="com.google.gson.internal.c_d">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="create()Lcom/google/gson/internal/UnsafeAllocator;" new="m_zb"/>
+   <method old="newInstance(Ljava/lang/Class;)Ljava/lang/Object;" new="m_gB"/>
+  </class>
+  <class old="com.google.gson.internal.$Gson$Types$WildcardTypeImpl" new="com.google.gson.internal.c_u">
+   <method old="equals(Ljava/lang/Object;)Z" new="equals"/>
+   <method old="getLowerBounds()[Ljava/lang/reflect/Type;" new="getLowerBounds"/>
+   <method old="getUpperBounds()[Ljava/lang/reflect/Type;" new="getUpperBounds"/>
+   <method old="hashCode()I" new="hashCode"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="lowerBound Ljava/lang/reflect/Type;" new="f_i"/>
+   <field old="serialVersionUID J" new="f_L"/>
+   <field old="upperBound Ljava/lang/reflect/Type;" new="f_K"/>
+  </class>
+  <class old="com.google.gson.JsonParseException" new="com.google.gson.c_i">
+   <field old="serialVersionUID J" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$26$1" new="com.google.gson.internal.bind.c_H">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/sql/Timestamp;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/sql/Timestamp;)V" new="m_Ga"/>
+   <field old="this$0 Lcom/google/gson/internal/bind/TypeAdapters$26;" new="f_K"/>
+   <field old="val$dateTypeAdapter Lcom/google/gson/TypeAdapter;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedHashTreeMap$EntrySet$1" new="com.google.gson.internal.c_A">
+   <method old="hasNext()Z" new="hasNext"/>
+   <method old="next()Ljava/lang/Object;" new="next"/>
+   <method old="next()Ljava/util/Map$Entry;" new="m_MB"/>
+   <method old="nextNode()Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="m_DA"/>
+   <method old="remove()V" new="remove"/>
+   <field old="expectedModCount I" new="f_i"/>
+   <field old="lastReturned Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_K"/>
+   <field old="next Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_L"/>
+   <field old="this$0 Lcom/google/gson/internal/LinkedHashTreeMap;" new="f_c"/>
+   <field old="this$1 Lcom/google/gson/internal/LinkedHashTreeMap$EntrySet;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.Excluder" new="com.google.gson.internal.c_t">
+   <method old="clone()Lcom/google/gson/internal/Excluder;" new="m_nc"/>
+   <method old="clone()Ljava/lang/Object;" new="clone"/>
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+   <method old="disableInnerClassSerialization()Lcom/google/gson/internal/Excluder;" new="m_yA"/>
+   <method old="excludeClass(Ljava/lang/Class;Z)Z" new="m_IB"/>
+   <method old="excludeField(Ljava/lang/reflect/Field;Z)Z" new="m_ta"/>
+   <method old="excludeFieldsWithoutExposeAnnotation()Lcom/google/gson/internal/Excluder;" new="m_ld"/>
+   <method old="isAnonymousOrLocal(Ljava/lang/Class;)Z" new="m_SC"/>
+   <method old="isInnerClass(Ljava/lang/Class;)Z" new="m_Fc"/>
+   <method old="isStatic(Ljava/lang/Class;)Z" new="m_Kc"/>
+   <method old="isValidSince(Lcom/google/gson/annotations/Since;)Z" new="m_xC"/>
+   <method old="isValidUntil(Lcom/google/gson/annotations/Until;)Z" new="m_Xb"/>
+   <method old="isValidVersion(Lcom/google/gson/annotations/Since;Lcom/google/gson/annotations/Until;)Z" new="m_Oc"/>
+   <method old="withExclusionStrategy(Lcom/google/gson/ExclusionStrategy;ZZ)Lcom/google/gson/internal/Excluder;" new="m_rd"/>
+   <method old="withModifiers([I)Lcom/google/gson/internal/Excluder;" new="m_iC"/>
+   <method old="withVersion(D)Lcom/google/gson/internal/Excluder;" new="m_qA"/>
+   <field old="DEFAULT Lcom/google/gson/internal/Excluder;" new="f_L"/>
+   <field old="IGNORE_VERSIONS D" new="f_m"/>
+   <field old="deserializationStrategies Ljava/util/List;" new="f_G"/>
+   <field old="modifiers I" new="f_K"/>
+   <field old="requireExpose Z" new="f_c"/>
+   <field old="serializationStrategies Ljava/util/List;" new="f_i"/>
+   <field old="serializeInnerClasses Z" new="f_D"/>
+   <field old="version D" new="f_B"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedHashTreeMap$Node" new="com.google.gson.internal.c_h">
+   <method old="equals(Ljava/lang/Object;)Z" new="equals"/>
+   <method old="first()Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="m_eB"/>
+   <method old="getKey()Ljava/lang/Object;" new="getKey"/>
+   <method old="getValue()Ljava/lang/Object;" new="getValue"/>
+   <method old="hashCode()I" new="hashCode"/>
+   <method old="last()Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="m_JA"/>
+   <method old="setValue(Ljava/lang/Object;)Ljava/lang/Object;" new="setValue"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="hash I" new="f_i"/>
+   <field old="height I" new="f_B"/>
+   <field old="key Ljava/lang/Object;" new="f_I"/>
+   <field old="left Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_m"/>
+   <field old="next Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_c"/>
+   <field old="parent Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_K"/>
+   <field old="prev Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_D"/>
+   <field old="right Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_L"/>
+   <field old="value Ljava/lang/Object;" new="f_G"/>
+  </class>
+  <class old="eu.faircode.finegeotag.LocationService$LocationDeserializer" new="eu.faircode.finegeotag.c_I">
+   <method old="deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Landroid/location/Location;" new="m_g"/>
+   <method old="deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;" new="m_g"/>
+   <method old="deserialize(Ljava/lang/String;)Landroid/location/Location;" new="m_M"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TimeTypeAdapter$1" new="com.google.gson.internal.bind.c_x">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+  </class>
+  <class old="eu.faircode.finegeotag.R$id" new="eu.faircode.finegeotag.R$id">
+   <field old="image I" new="image"/>
+   <field old="text I" new="text"/>
+  </class>
+  <class old="com.google.gson.annotations.Expose" new="wy.c_F">
+   <method old="deserialize()Z" new="m_m"/>
+   <method old="serialize()Z" new="m_G"/>
+  </class>
+  <class old="com.google.gson.internal.Streams$AppendableWriter$CurrentWrite" new="com.google.gson.internal.c_B">
+   <method old="charAt(I)C" new="charAt"/>
+   <method old="length()I" new="length"/>
+   <method old="subSequence(II)Ljava/lang/CharSequence;" new="subSequence"/>
+   <field old="chars [C" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$10" new="com.google.gson.internal.bind.c_W">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/concurrent/atomic/AtomicIntegerArray;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/concurrent/atomic/AtomicIntegerArray;)V" new="m_wa"/>
+  </class>
+  <class old="com.google.gson.internal.bind.SqlDateTypeAdapter$1" new="com.google.gson.internal.bind.c_O">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$11" new="com.google.gson.internal.bind.c_v">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Number;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Number;)V" new="m_ma"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$12" new="com.google.gson.internal.bind.c_w">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Number;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Number;)V" new="m_ma"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$13" new="com.google.gson.internal.bind.c_o">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Number;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Number;)V" new="m_ma"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField" new="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField">
+   <method old="read(Lcom/google/gson/stream/JsonReader;Ljava/lang/Object;)V" new="m_Ya"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="writeField(Ljava/lang/Object;)Z" new="m_na"/>
+   <field old="deserialized Z" new="f_K"/>
+   <field old="name Ljava/lang/String;" new="f_L"/>
+   <field old="serialized Z" new="f_i"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$14" new="com.google.gson.internal.bind.c_Aa">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Number;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Number;)V" new="m_ma"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedHashTreeMap$AvlBuilder" new="com.google.gson.internal.c_s">
+   <method old="add(Lcom/google/gson/internal/LinkedHashTreeMap$Node;)V" new="m_tA"/>
+   <method old="reset(I)V" new="m_vb"/>
+   <method old="root()Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="m_FA"/>
+   <field old="leavesSkipped I" new="f_c"/>
+   <field old="leavesToSkip I" new="f_L"/>
+   <field old="size I" new="f_K"/>
+   <field old="stack Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_i"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$15" new="com.google.gson.internal.bind.c_t">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Character;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Character;)V" new="m_sa"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$16" new="com.google.gson.internal.bind.c_p">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/String;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/String;)V" new="m_va"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$17" new="com.google.gson.internal.bind.c_z">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/math/BigDecimal;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/math/BigDecimal;)V" new="m_Aa"/>
+  </class>
+  <class old="com.google.gson.JsonElement" new="com.google.gson.c_D">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="deepCopy()Lcom/google/gson/JsonElement;" new="m_mc"/>
+   <method old="getAsBigDecimal()Ljava/math/BigDecimal;" new="m_jB"/>
+   <method old="getAsBigInteger()Ljava/math/BigInteger;" new="m_cc"/>
+   <method old="getAsBoolean()Z" new="m_VA"/>
+   <method old="getAsBooleanWrapper()Ljava/lang/Boolean;" new="m_Ic"/>
+   <method old="getAsByte()B" new="m_vC"/>
+   <method old="getAsCharacter()C" new="m_Kd"/>
+   <method old="getAsDouble()D" new="m_Bc"/>
+   <method old="getAsFloat()F" new="m_dB"/>
+   <method old="getAsInt()I" new="m_Sb"/>
+   <method old="getAsJsonArray()Lcom/google/gson/JsonArray;" new="m_db"/>
+   <method old="getAsJsonNull()Lcom/google/gson/JsonNull;" new="m_Pd"/>
+   <method old="getAsJsonObject()Lcom/google/gson/JsonObject;" new="m_rc"/>
+   <method old="getAsJsonPrimitive()Lcom/google/gson/JsonPrimitive;" new="m_Ld"/>
+   <method old="getAsLong()J" new="m_bb"/>
+   <method old="getAsNumber()Ljava/lang/Number;" new="m_KB"/>
+   <method old="getAsShort()S" new="m_iA"/>
+   <method old="getAsString()Ljava/lang/String;" new="m_hB"/>
+   <method old="isJsonArray()Z" new="m_Nb"/>
+   <method old="isJsonNull()Z" new="m_vA"/>
+   <method old="isJsonObject()Z" new="m_Cd"/>
+   <method old="isJsonPrimitive()Z" new="m_Id"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$18" new="com.google.gson.internal.bind.c_N">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/math/BigInteger;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/math/BigInteger;)V" new="m_ea"/>
+  </class>
+  <class old="com.google.gson.GsonBuilder" new="com.google.gson.c_L">
+   <method old="addDeserializationExclusionStrategy(Lcom/google/gson/ExclusionStrategy;)Lcom/google/gson/GsonBuilder;" new="m_Cb"/>
+   <method old="addSerializationExclusionStrategy(Lcom/google/gson/ExclusionStrategy;)Lcom/google/gson/GsonBuilder;" new="m_Md"/>
+   <method old="addTypeAdaptersForDate(Ljava/lang/String;IILjava/util/List;)V" new="m_TB"/>
+   <method old="create()Lcom/google/gson/Gson;" new="m_zb"/>
+   <method old="disableHtmlEscaping()Lcom/google/gson/GsonBuilder;" new="m_yb"/>
+   <method old="disableInnerClassSerialization()Lcom/google/gson/GsonBuilder;" new="m_yA"/>
+   <method old="enableComplexMapKeySerialization()Lcom/google/gson/GsonBuilder;" new="m_lc"/>
+   <method old="excludeFieldsWithModifiers([I)Lcom/google/gson/GsonBuilder;" new="m_qc"/>
+   <method old="excludeFieldsWithoutExposeAnnotation()Lcom/google/gson/GsonBuilder;" new="m_ld"/>
+   <method old="generateNonExecutableJson()Lcom/google/gson/GsonBuilder;" new="m_Od"/>
+   <method old="registerTypeAdapter(Ljava/lang/reflect/Type;Ljava/lang/Object;)Lcom/google/gson/GsonBuilder;" new="m_Qb"/>
+   <method old="registerTypeAdapterFactory(Lcom/google/gson/TypeAdapterFactory;)Lcom/google/gson/GsonBuilder;" new="m_GC"/>
+   <method old="registerTypeHierarchyAdapter(Ljava/lang/Class;Ljava/lang/Object;)Lcom/google/gson/GsonBuilder;" new="m_TC"/>
+   <method old="serializeNulls()Lcom/google/gson/GsonBuilder;" new="m_cd"/>
+   <method old="serializeSpecialFloatingPointValues()Lcom/google/gson/GsonBuilder;" new="m_cb"/>
+   <method old="setDateFormat(I)Lcom/google/gson/GsonBuilder;" new="m_CC"/>
+   <method old="setDateFormat(II)Lcom/google/gson/GsonBuilder;" new="m_kc"/>
+   <method old="setDateFormat(Ljava/lang/String;)Lcom/google/gson/GsonBuilder;" new="m_eA"/>
+   <method old="setExclusionStrategies([Lcom/google/gson/ExclusionStrategy;)Lcom/google/gson/GsonBuilder;" new="m_EC"/>
+   <method old="setFieldNamingPolicy(Lcom/google/gson/FieldNamingPolicy;)Lcom/google/gson/GsonBuilder;" new="m_Rc"/>
+   <method old="setFieldNamingStrategy(Lcom/google/gson/FieldNamingStrategy;)Lcom/google/gson/GsonBuilder;" new="m_sb"/>
+   <method old="setLongSerializationPolicy(Lcom/google/gson/LongSerializationPolicy;)Lcom/google/gson/GsonBuilder;" new="m_Mb"/>
+   <method old="setPrettyPrinting()Lcom/google/gson/GsonBuilder;" new="m_YC"/>
+   <method old="setVersion(D)Lcom/google/gson/GsonBuilder;" new="m_YA"/>
+   <field old="complexMapKeySerialization Z" new="f_G"/>
+   <field old="datePattern Ljava/lang/String;" new="f_C"/>
+   <field old="dateStyle I" new="f_K"/>
+   <field old="escapeHtmlChars Z" new="f_L"/>
+   <field old="excluder Lcom/google/gson/internal/Excluder;" new="f_l"/>
+   <field old="factories Ljava/util/List;" new="f_c"/>
+   <field old="fieldNamingPolicy Lcom/google/gson/FieldNamingStrategy;" new="f_B"/>
+   <field old="generateNonExecutableJson Z" new="f_D"/>
+   <field old="hierarchyFactories Ljava/util/List;" new="f_I"/>
+   <field old="instanceCreators Ljava/util/Map;" new="f_h"/>
+   <field old="longSerializationPolicy Lcom/google/gson/LongSerializationPolicy;" new="f_m"/>
+   <field old="prettyPrinting Z" new="f_A"/>
+   <field old="serializeNulls Z" new="f_j"/>
+   <field old="serializeSpecialFloatingPointValues Z" new="f_k"/>
+   <field old="timeStyle I" new="f_i"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$19" new="com.google.gson.internal.bind.c_Z">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/StringBuilder;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/StringBuilder;)V" new="m_Ia"/>
+  </class>
+  <class old="com.google.gson.LongSerializationPolicy" new="com.google.gson.LongSerializationPolicy">
+   <method old="serialize(Ljava/lang/Long;)Lcom/google/gson/JsonElement;" new="m_zC"/>
+   <method old="valueOf(Ljava/lang/String;)Lcom/google/gson/LongSerializationPolicy;" new="valueOf"/>
+   <method old="values()[Lcom/google/gson/LongSerializationPolicy;" new="values"/>
+   <field old="$VALUES [Lcom/google/gson/LongSerializationPolicy;" new="f_L"/>
+   <field old="DEFAULT Lcom/google/gson/LongSerializationPolicy;" new="f_K"/>
+   <field old="STRING Lcom/google/gson/LongSerializationPolicy;" new="f_i"/>
+  </class>
+  <class old="com.google.gson.internal.Streams$1" new="com.google.gson.internal.c_l">
+  </class>
+  <class old="com.google.gson.internal.ObjectConstructor" new="com.google.gson.internal.c_J">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+  </class>
+  <class old="com.google.gson.TreeTypeAdapter$SingleTypeFactory" new="com.google.gson.c_G">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+   <field old="deserializer Lcom/google/gson/JsonDeserializer;" new="f_L"/>
+   <field old="exactType Lcom/google/gson/reflect/TypeToken;" new="f_K"/>
+   <field old="hierarchyType Ljava/lang/Class;" new="f_i"/>
+   <field old="matchRawType Z" new="f_G"/>
+   <field old="serializer Lcom/google/gson/JsonSerializer;" new="f_c"/>
+  </class>
+  <class old="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter" new="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <field old="boundFields Ljava/util/Map;" new="f_K"/>
+   <field old="constructor Lcom/google/gson/internal/ObjectConstructor;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.FieldNamingPolicy$1" new="com.google.gson.c_n">
+   <method old="access$100(Ljava/lang/String;)Ljava/lang/String;" new="m_Ed"/>
+   <method old="access$200(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_qb"/>
+   <method old="translateName(Ljava/lang/reflect/Field;)Ljava/lang/String;" new="m_D"/>
+   <method old="valueOf(Ljava/lang/String;)Lcom/google/gson/FieldNamingPolicy;" new="valueOf"/>
+   <method old="values()[Lcom/google/gson/FieldNamingPolicy;" new="values"/>
+   <field old="IDENTITY Lcom/google/gson/FieldNamingPolicy;" new="f_K"/>
+   <field old="LOWER_CASE_WITH_DASHES Lcom/google/gson/FieldNamingPolicy;" new="f_L"/>
+   <field old="LOWER_CASE_WITH_UNDERSCORES Lcom/google/gson/FieldNamingPolicy;" new="f_i"/>
+   <field old="UPPER_CAMEL_CASE Lcom/google/gson/FieldNamingPolicy;" new="f_G"/>
+   <field old="UPPER_CAMEL_CASE_WITH_SPACES Lcom/google/gson/FieldNamingPolicy;" new="f_c"/>
+  </class>
+  <class old="com.google.gson.FieldNamingPolicy$2" new="com.google.gson.c_U">
+   <method old="access$100(Ljava/lang/String;)Ljava/lang/String;" new="m_Ed"/>
+   <method old="access$200(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_qb"/>
+   <method old="translateName(Ljava/lang/reflect/Field;)Ljava/lang/String;" new="m_D"/>
+   <method old="valueOf(Ljava/lang/String;)Lcom/google/gson/FieldNamingPolicy;" new="valueOf"/>
+   <method old="values()[Lcom/google/gson/FieldNamingPolicy;" new="values"/>
+   <field old="IDENTITY Lcom/google/gson/FieldNamingPolicy;" new="f_K"/>
+   <field old="LOWER_CASE_WITH_DASHES Lcom/google/gson/FieldNamingPolicy;" new="f_L"/>
+   <field old="LOWER_CASE_WITH_UNDERSCORES Lcom/google/gson/FieldNamingPolicy;" new="f_i"/>
+   <field old="UPPER_CAMEL_CASE Lcom/google/gson/FieldNamingPolicy;" new="f_G"/>
+   <field old="UPPER_CAMEL_CASE_WITH_SPACES Lcom/google/gson/FieldNamingPolicy;" new="f_c"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor" new="com.google.gson.internal.c_Y">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="get(Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/internal/ObjectConstructor;" new="m_hA"/>
+   <method old="newDefaultConstructor(Ljava/lang/Class;)Lcom/google/gson/internal/ObjectConstructor;" new="m_ZA"/>
+   <method old="newDefaultImplementationConstructor(Ljava/lang/reflect/Type;Ljava/lang/Class;)Lcom/google/gson/internal/ObjectConstructor;" new="m_Zc"/>
+   <method old="newUnsafeAllocator(Ljava/lang/reflect/Type;Ljava/lang/Class;)Lcom/google/gson/internal/ObjectConstructor;" new="m_PB"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="instanceCreators Ljava/util/Map;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.FieldNamingPolicy$3" new="com.google.gson.c_W">
+   <method old="access$100(Ljava/lang/String;)Ljava/lang/String;" new="m_Ed"/>
+   <method old="access$200(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_qb"/>
+   <method old="translateName(Ljava/lang/reflect/Field;)Ljava/lang/String;" new="m_D"/>
+   <method old="valueOf(Ljava/lang/String;)Lcom/google/gson/FieldNamingPolicy;" new="valueOf"/>
+   <method old="values()[Lcom/google/gson/FieldNamingPolicy;" new="values"/>
+   <field old="IDENTITY Lcom/google/gson/FieldNamingPolicy;" new="f_K"/>
+   <field old="LOWER_CASE_WITH_DASHES Lcom/google/gson/FieldNamingPolicy;" new="f_L"/>
+   <field old="LOWER_CASE_WITH_UNDERSCORES Lcom/google/gson/FieldNamingPolicy;" new="f_i"/>
+   <field old="UPPER_CAMEL_CASE Lcom/google/gson/FieldNamingPolicy;" new="f_G"/>
+   <field old="UPPER_CAMEL_CASE_WITH_SPACES Lcom/google/gson/FieldNamingPolicy;" new="f_c"/>
+  </class>
+  <class old="com.google.gson.FieldNamingPolicy$4" new="com.google.gson.c_v">
+   <method old="access$100(Ljava/lang/String;)Ljava/lang/String;" new="m_Ed"/>
+   <method old="access$200(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_qb"/>
+   <method old="translateName(Ljava/lang/reflect/Field;)Ljava/lang/String;" new="m_D"/>
+   <method old="valueOf(Ljava/lang/String;)Lcom/google/gson/FieldNamingPolicy;" new="valueOf"/>
+   <method old="values()[Lcom/google/gson/FieldNamingPolicy;" new="values"/>
+   <field old="IDENTITY Lcom/google/gson/FieldNamingPolicy;" new="f_K"/>
+   <field old="LOWER_CASE_WITH_DASHES Lcom/google/gson/FieldNamingPolicy;" new="f_L"/>
+   <field old="LOWER_CASE_WITH_UNDERSCORES Lcom/google/gson/FieldNamingPolicy;" new="f_i"/>
+   <field old="UPPER_CAMEL_CASE Lcom/google/gson/FieldNamingPolicy;" new="f_G"/>
+   <field old="UPPER_CAMEL_CASE_WITH_SPACES Lcom/google/gson/FieldNamingPolicy;" new="f_c"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$20" new="com.google.gson.internal.bind.c_P">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/StringBuffer;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/StringBuffer;)V" new="m_ha"/>
+  </class>
+  <class old="com.google.gson.FieldNamingPolicy$5" new="com.google.gson.c_w">
+   <method old="access$100(Ljava/lang/String;)Ljava/lang/String;" new="m_Ed"/>
+   <method old="access$200(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_qb"/>
+   <method old="translateName(Ljava/lang/reflect/Field;)Ljava/lang/String;" new="m_D"/>
+   <method old="valueOf(Ljava/lang/String;)Lcom/google/gson/FieldNamingPolicy;" new="valueOf"/>
+   <method old="values()[Lcom/google/gson/FieldNamingPolicy;" new="values"/>
+   <field old="IDENTITY Lcom/google/gson/FieldNamingPolicy;" new="f_K"/>
+   <field old="LOWER_CASE_WITH_DASHES Lcom/google/gson/FieldNamingPolicy;" new="f_L"/>
+   <field old="LOWER_CASE_WITH_UNDERSCORES Lcom/google/gson/FieldNamingPolicy;" new="f_i"/>
+   <field old="UPPER_CAMEL_CASE Lcom/google/gson/FieldNamingPolicy;" new="f_G"/>
+   <field old="UPPER_CAMEL_CASE_WITH_SPACES Lcom/google/gson/FieldNamingPolicy;" new="f_c"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$21" new="com.google.gson.internal.bind.c_L">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/net/URL;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/net/URL;)V" new="m_ga"/>
+  </class>
+  <class old="com.google.gson.TypeAdapter$1" new="com.google.gson.c_l">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <field old="this$0 Lcom/google/gson/TypeAdapter;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$22" new="com.google.gson.internal.bind.c_A">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/net/URI;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/net/URI;)V" new="m_Da"/>
+  </class>
+  <class old="com.google.gson.TreeTypeAdapter$1" new="com.google.gson.c_K">
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$23" new="com.google.gson.internal.bind.c_b">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/net/InetAddress;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/net/InetAddress;)V" new="m_Ha"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$24" new="com.google.gson.internal.bind.c_m">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/UUID;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/UUID;)V" new="m_Fa"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$25" new="com.google.gson.internal.bind.c_g">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/Currency;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/Currency;)V" new="m_fa"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$26" new="com.google.gson.internal.bind.c_h">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+  </class>
+  <class old="com.google.gson.JsonIOException" new="com.google.gson.c_b">
+   <field old="serialVersionUID J" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$27" new="com.google.gson.internal.bind.c_D">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/Calendar;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/Calendar;)V" new="m_da"/>
+   <field old="DAY_OF_MONTH Ljava/lang/String;" new="f_i"/>
+   <field old="HOUR_OF_DAY Ljava/lang/String;" new="f_L"/>
+   <field old="MINUTE Ljava/lang/String;" new="f_K"/>
+   <field old="MONTH Ljava/lang/String;" new="f_G"/>
+   <field old="SECOND Ljava/lang/String;" new="f_c"/>
+   <field old="YEAR Ljava/lang/String;" new="f_m"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$28" new="com.google.gson.internal.bind.c_f">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/Locale;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/Locale;)V" new="m_Ka"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$29" new="com.google.gson.internal.bind.c_E">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Lcom/google/gson/JsonElement;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Lcom/google/gson/JsonElement;)V" new="m_la"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedTreeMap$KeySet$1" new="com.google.gson.internal.c_C">
+   <method old="hasNext()Z" new="hasNext"/>
+   <method old="next()Ljava/lang/Object;" new="next"/>
+   <method old="nextNode()Lcom/google/gson/internal/LinkedTreeMap$Node;" new="m_DA"/>
+   <method old="remove()V" new="remove"/>
+   <field old="expectedModCount I" new="f_i"/>
+   <field old="lastReturned Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_L"/>
+   <field old="next Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_K"/>
+   <field old="this$0 Lcom/google/gson/internal/LinkedTreeMap;" new="f_c"/>
+   <field old="this$1 Lcom/google/gson/internal/LinkedTreeMap$KeySet;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory" new="com.google.gson.internal.bind.c_Na">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+   <method old="getTypeAdapter(Lcom/google/gson/internal/ConstructorConstructor;Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;Lcom/google/gson/annotations/JsonAdapter;)Lcom/google/gson/TypeAdapter;" new="m_Jb"/>
+   <field old="constructorConstructor Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.ArrayTypeAdapter" new="com.google.gson.internal.bind.c_ia">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <field old="FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_K"/>
+   <field old="componentType Ljava/lang/Class;" new="f_L"/>
+   <field old="componentTypeAdapter Lcom/google/gson/TypeAdapter;" new="f_i"/>
+  </class>
+  <class old="com.google.gson.TypeAdapter" new="com.google.gson.c_k">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.JsonNull" new="com.google.gson.c_m">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="deepCopy()Lcom/google/gson/JsonElement;" new="m_mc"/>
+   <method old="deepCopy()Lcom/google/gson/JsonNull;" new="m_mc"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals"/>
+   <method old="getAsBigDecimal()Ljava/math/BigDecimal;" new="m_jB"/>
+   <method old="getAsBigInteger()Ljava/math/BigInteger;" new="m_cc"/>
+   <method old="getAsBoolean()Z" new="m_VA"/>
+   <method old="getAsBooleanWrapper()Ljava/lang/Boolean;" new="m_Ic"/>
+   <method old="getAsByte()B" new="m_vC"/>
+   <method old="getAsCharacter()C" new="m_Kd"/>
+   <method old="getAsDouble()D" new="m_Bc"/>
+   <method old="getAsFloat()F" new="m_dB"/>
+   <method old="getAsInt()I" new="m_Sb"/>
+   <method old="getAsJsonArray()Lcom/google/gson/JsonArray;" new="m_db"/>
+   <method old="getAsJsonNull()Lcom/google/gson/JsonNull;" new="m_Pd"/>
+   <method old="getAsJsonObject()Lcom/google/gson/JsonObject;" new="m_rc"/>
+   <method old="getAsJsonPrimitive()Lcom/google/gson/JsonPrimitive;" new="m_Ld"/>
+   <method old="getAsLong()J" new="m_bb"/>
+   <method old="getAsNumber()Ljava/lang/Number;" new="m_KB"/>
+   <method old="getAsShort()S" new="m_iA"/>
+   <method old="getAsString()Ljava/lang/String;" new="m_hB"/>
+   <method old="hashCode()I" new="hashCode"/>
+   <method old="isJsonArray()Z" new="m_Nb"/>
+   <method old="isJsonNull()Z" new="m_vA"/>
+   <method old="isJsonObject()Z" new="m_Cd"/>
+   <method old="isJsonPrimitive()Z" new="m_Id"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="INSTANCE Lcom/google/gson/JsonNull;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedTreeMap$Node" new="com.google.gson.internal.c_M">
+   <method old="equals(Ljava/lang/Object;)Z" new="equals"/>
+   <method old="first()Lcom/google/gson/internal/LinkedTreeMap$Node;" new="m_eB"/>
+   <method old="getKey()Ljava/lang/Object;" new="getKey"/>
+   <method old="getValue()Ljava/lang/Object;" new="getValue"/>
+   <method old="hashCode()I" new="hashCode"/>
+   <method old="last()Lcom/google/gson/internal/LinkedTreeMap$Node;" new="m_JA"/>
+   <method old="setValue(Ljava/lang/Object;)Ljava/lang/Object;" new="setValue"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="height I" new="f_c"/>
+   <field old="key Ljava/lang/Object;" new="f_D"/>
+   <field old="left Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_m"/>
+   <field old="next Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_G"/>
+   <field old="parent Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_B"/>
+   <field old="prev Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_K"/>
+   <field old="right Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_i"/>
+   <field old="value Ljava/lang/Object;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.$Gson$Preconditions" new="com.google.gson.internal.c_Ea">
+   <method old="checkArgument(Z)V" new="m_AB"/>
+   <method old="checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;" new="m_XB"/>
+  </class>
+  <class old="eu.faircode.finegeotag.ActivitySettings" new="eu.faircode.finegeotag.ActivitySettings">
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V" new="onSharedPreferenceChanged"/>
+   <field old="DEFAULT_ACCURACY Ljava/lang/String;" new="f_h"/>
+   <field old="DEFAULT_ALTITUDE Z" new="f_i"/>
+   <field old="DEFAULT_ENABLED Z" new="f_l"/>
+   <field old="DEFAULT_KNOWN Ljava/lang/String;" new="f_K"/>
+   <field old="DEFAULT_TIMEOUT Ljava/lang/String;" new="f_C"/>
+   <field old="DEFAULT_TOAST Z" new="f_A"/>
+   <field old="PREF_ACCURACY Ljava/lang/String;" new="f_m"/>
+   <field old="PREF_ALTITUDE Ljava/lang/String;" new="f_D"/>
+   <field old="PREF_CHECK Ljava/lang/String;" new="f_c"/>
+   <field old="PREF_ENABLED Ljava/lang/String;" new="f_B"/>
+   <field old="PREF_KNOWN Ljava/lang/String;" new="f_L"/>
+   <field old="PREF_TIMEOUT Ljava/lang/String;" new="f_j"/>
+   <field old="PREF_TOAST Ljava/lang/String;" new="f_I"/>
+   <field old="PREF_VERSION Ljava/lang/String;" new="f_k"/>
+   <field old="TAG Ljava/lang/String;" new="f_G"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$30" new="com.google.gson.internal.bind.c_C">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$31" new="com.google.gson.internal.bind.c_e">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+   <field old="val$type Lcom/google/gson/reflect/TypeToken;" new="f_L"/>
+   <field old="val$typeAdapter Lcom/google/gson/TypeAdapter;" new="f_K"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$32" new="com.google.gson.internal.bind.c_M">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="val$type Ljava/lang/Class;" new="f_L"/>
+   <field old="val$typeAdapter Lcom/google/gson/TypeAdapter;" new="f_K"/>
+  </class>
+  <class old="com.google.gson.internal.bind.CollectionTypeAdapterFactory" new="com.google.gson.internal.bind.c_Ha">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+   <field old="constructorConstructor Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$33" new="com.google.gson.internal.bind.c_K">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="val$boxed Ljava/lang/Class;" new="f_L"/>
+   <field old="val$typeAdapter Lcom/google/gson/TypeAdapter;" new="f_K"/>
+   <field old="val$unboxed Ljava/lang/Class;" new="f_i"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$35$1" new="com.google.gson.internal.bind.c_k">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <field old="this$0 Lcom/google/gson/internal/bind/TypeAdapters$35;" new="f_K"/>
+   <field old="val$requestedType Ljava/lang/Class;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$34" new="com.google.gson.internal.bind.c_G">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="val$base Ljava/lang/Class;" new="f_i"/>
+   <field old="val$sub Ljava/lang/Class;" new="f_K"/>
+   <field old="val$typeAdapter Lcom/google/gson/TypeAdapter;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$35" new="com.google.gson.internal.bind.c_l">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="val$clazz Ljava/lang/Class;" new="f_L"/>
+   <field old="val$typeAdapter Lcom/google/gson/TypeAdapter;" new="f_K"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$36" new="com.google.gson.internal.bind.c_B">
+   <field old="$SwitchMap$com$google$gson$stream$JsonToken [I" new="f_L"/>
+  </class>
+  <class old="com.google.gson.LongSerializationPolicy$1" new="com.google.gson.c_C">
+   <method old="serialize(Ljava/lang/Long;)Lcom/google/gson/JsonElement;" new="m_zC"/>
+   <method old="valueOf(Ljava/lang/String;)Lcom/google/gson/LongSerializationPolicy;" new="valueOf"/>
+   <method old="values()[Lcom/google/gson/LongSerializationPolicy;" new="values"/>
+   <field old="DEFAULT Lcom/google/gson/LongSerializationPolicy;" new="f_K"/>
+   <field old="STRING Lcom/google/gson/LongSerializationPolicy;" new="f_i"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedHashTreeMap$LinkedTreeMapIterator" new="com.google.gson.internal.c_g">
+   <method old="hasNext()Z" new="hasNext"/>
+   <method old="nextNode()Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="m_DA"/>
+   <method old="remove()V" new="remove"/>
+   <field old="expectedModCount I" new="f_i"/>
+   <field old="lastReturned Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_K"/>
+   <field old="next Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_L"/>
+   <field old="this$0 Lcom/google/gson/internal/LinkedHashTreeMap;" new="f_c"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedTreeMap$EntrySet$1" new="com.google.gson.internal.c_E">
+   <method old="hasNext()Z" new="hasNext"/>
+   <method old="next()Ljava/lang/Object;" new="next"/>
+   <method old="next()Ljava/util/Map$Entry;" new="m_MB"/>
+   <method old="nextNode()Lcom/google/gson/internal/LinkedTreeMap$Node;" new="m_DA"/>
+   <method old="remove()V" new="remove"/>
+   <field old="expectedModCount I" new="f_i"/>
+   <field old="lastReturned Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_L"/>
+   <field old="next Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_K"/>
+   <field old="this$0 Lcom/google/gson/internal/LinkedTreeMap;" new="f_c"/>
+   <field old="this$1 Lcom/google/gson/internal/LinkedTreeMap$EntrySet;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.LongSerializationPolicy$2" new="com.google.gson.c_e">
+   <method old="serialize(Ljava/lang/Long;)Lcom/google/gson/JsonElement;" new="m_zC"/>
+   <method old="valueOf(Ljava/lang/String;)Lcom/google/gson/LongSerializationPolicy;" new="valueOf"/>
+   <method old="values()[Lcom/google/gson/LongSerializationPolicy;" new="values"/>
+   <field old="DEFAULT Lcom/google/gson/LongSerializationPolicy;" new="f_K"/>
+   <field old="STRING Lcom/google/gson/LongSerializationPolicy;" new="f_i"/>
+  </class>
+  <class old="com.google.gson.internal.bind.JsonTreeWriter" new="com.google.gson.internal.bind.c_V">
+   <method old="beginArray()Lcom/google/gson/stream/JsonWriter;" new="m_fA"/>
+   <method old="beginObject()Lcom/google/gson/stream/JsonWriter;" new="m_OA"/>
+   <method old="close()V" new="close"/>
+   <method old="endArray()Lcom/google/gson/stream/JsonWriter;" new="m_Ib"/>
+   <method old="endObject()Lcom/google/gson/stream/JsonWriter;" new="m_qB"/>
+   <method old="flush()V" new="flush"/>
+   <method old="get()Lcom/google/gson/JsonElement;" new="m_Hd"/>
+   <method old="getSerializeNulls()Z" new="m_OB"/>
+   <method old="isHtmlSafe()Z" new="m_lB"/>
+   <method old="isLenient()Z" new="m_XC"/>
+   <method old="jsonValue(Ljava/lang/String;)Lcom/google/gson/stream/JsonWriter;" new="m_Qc"/>
+   <method old="name(Ljava/lang/String;)Lcom/google/gson/stream/JsonWriter;" new="m_zB"/>
+   <method old="nullValue()Lcom/google/gson/stream/JsonWriter;" new="m_DC"/>
+   <method old="peek()Lcom/google/gson/JsonElement;" new="m_mB"/>
+   <method old="put(Lcom/google/gson/JsonElement;)V" new="m_sc"/>
+   <method old="setHtmlSafe(Z)V" new="m_EA"/>
+   <method old="setIndent(Ljava/lang/String;)V" new="m_yc"/>
+   <method old="setLenient(Z)V" new="m_EB"/>
+   <method old="setSerializeNulls(Z)V" new="m_rb"/>
+   <method old="value(D)Lcom/google/gson/stream/JsonWriter;" new="m_Nc"/>
+   <method old="value(J)Lcom/google/gson/stream/JsonWriter;" new="m_bC"/>
+   <method old="value(Ljava/lang/Number;)Lcom/google/gson/stream/JsonWriter;" new="m_XA"/>
+   <method old="value(Ljava/lang/String;)Lcom/google/gson/stream/JsonWriter;" new="m_ZC"/>
+   <method old="value(Z)Lcom/google/gson/stream/JsonWriter;" new="m_yB"/>
+   <field old="SENTINEL_CLOSED Lcom/google/gson/JsonPrimitive;" new="f_K"/>
+   <field old="UNWRITABLE_WRITER Ljava/io/Writer;" new="f_c"/>
+   <field old="pendingName Ljava/lang/String;" new="f_i"/>
+   <field old="product Lcom/google/gson/JsonElement;" new="f_G"/>
+   <field old="stack Ljava/util/List;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.Gson" new="com.google.gson.c_o">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="access$000(Lcom/google/gson/Gson;D)V" new="m_Gb"/>
+   <method old="assertFullConsumption(Ljava/lang/Object;Lcom/google/gson/stream/JsonReader;)V" new="m_lC"/>
+   <method old="atomicLongAdapter(Lcom/google/gson/TypeAdapter;)Lcom/google/gson/TypeAdapter;" new="m_jd"/>
+   <method old="atomicLongArrayAdapter(Lcom/google/gson/TypeAdapter;)Lcom/google/gson/TypeAdapter;" new="m_pd"/>
+   <method old="checkValidFloatingPoint(D)V" new="m_wA"/>
+   <method old="doubleAdapter(Z)Lcom/google/gson/TypeAdapter;" new="m_ub"/>
+   <method old="floatAdapter(Z)Lcom/google/gson/TypeAdapter;" new="m_uB"/>
+   <method old="fromJson(Lcom/google/gson/JsonElement;Ljava/lang/Class;)Ljava/lang/Object;" new="m_Gd"/>
+   <method old="fromJson(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)Ljava/lang/Object;" new="m_WA"/>
+   <method old="fromJson(Lcom/google/gson/stream/JsonReader;Ljava/lang/reflect/Type;)Ljava/lang/Object;" new="m_WC"/>
+   <method old="fromJson(Ljava/io/Reader;Ljava/lang/Class;)Ljava/lang/Object;" new="m_pA"/>
+   <method old="fromJson(Ljava/io/Reader;Ljava/lang/reflect/Type;)Ljava/lang/Object;" new="m_Rd"/>
+   <method old="fromJson(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;" new="m_Wb"/>
+   <method old="fromJson(Ljava/lang/String;Ljava/lang/reflect/Type;)Ljava/lang/Object;" new="m_pB"/>
+   <method old="getAdapter(Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_pC"/>
+   <method old="getAdapter(Ljava/lang/Class;)Lcom/google/gson/TypeAdapter;" new="m_GA"/>
+   <method old="getDelegateAdapter(Lcom/google/gson/TypeAdapterFactory;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_kC"/>
+   <method old="longAdapter(Lcom/google/gson/LongSerializationPolicy;)Lcom/google/gson/TypeAdapter;" new="m_gC"/>
+   <method old="newJsonWriter(Ljava/io/Writer;)Lcom/google/gson/stream/JsonWriter;" new="m_bd"/>
+   <method old="toJson(Lcom/google/gson/JsonElement;)Ljava/lang/String;" new="m_Ad"/>
+   <method old="toJson(Lcom/google/gson/JsonElement;Lcom/google/gson/stream/JsonWriter;)V" new="m_dc"/>
+   <method old="toJson(Lcom/google/gson/JsonElement;Ljava/lang/Appendable;)V" new="m_GB"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJson(Ljava/lang/Object;Ljava/lang/Appendable;)V" new="m_QC"/>
+   <method old="toJson(Ljava/lang/Object;Ljava/lang/reflect/Type;)Ljava/lang/String;" new="m_yC"/>
+   <method old="toJson(Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/stream/JsonWriter;)V" new="m_TA"/>
+   <method old="toJson(Ljava/lang/Object;Ljava/lang/reflect/Type;Ljava/lang/Appendable;)V" new="m_lA"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="toJsonTree(Ljava/lang/Object;Ljava/lang/reflect/Type;)Lcom/google/gson/JsonElement;" new="m_Tc"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="DEFAULT_JSON_NON_EXECUTABLE Z" new="f_c"/>
+   <field old="JSON_NON_EXECUTABLE_PREFIX Ljava/lang/String;" new="f_l"/>
+   <field old="calls Ljava/lang/ThreadLocal;" new="f_m"/>
+   <field old="constructorConstructor Lcom/google/gson/internal/ConstructorConstructor;" new="f_A"/>
+   <field old="deserializationContext Lcom/google/gson/JsonDeserializationContext;" new="f_h"/>
+   <field old="factories Ljava/util/List;" new="f_G"/>
+   <field old="generateNonExecutableJson Z" new="f_K"/>
+   <field old="htmlSafe Z" new="f_L"/>
+   <field old="prettyPrinting Z" new="f_B"/>
+   <field old="serializationContext Lcom/google/gson/JsonSerializationContext;" new="f_I"/>
+   <field old="serializeNulls Z" new="f_i"/>
+   <field old="typeTokenCache Ljava/util/Map;" new="f_D"/>
+  </class>
+  <class old="com.google.gson.internal.bind.DateTypeAdapter$1" new="com.google.gson.internal.bind.c_Ba">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+  </class>
+  <class old="com.google.gson.internal.UnsafeAllocator$1" new="com.google.gson.internal.c_j">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="create()Lcom/google/gson/internal/UnsafeAllocator;" new="m_zb"/>
+   <method old="newInstance(Ljava/lang/Class;)Ljava/lang/Object;" new="m_gB"/>
+   <field old="val$allocateInstance Ljava/lang/reflect/Method;" new="f_L"/>
+   <field old="val$unsafe Ljava/lang/Object;" new="f_K"/>
+  </class>
+  <class old="com.google.gson.internal.UnsafeAllocator$2" new="com.google.gson.internal.c_c">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="create()Lcom/google/gson/internal/UnsafeAllocator;" new="m_zb"/>
+   <method old="newInstance(Ljava/lang/Class;)Ljava/lang/Object;" new="m_gB"/>
+   <field old="val$constructorId I" new="f_K"/>
+   <field old="val$newInstance Ljava/lang/reflect/Method;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.UnsafeAllocator$3" new="com.google.gson.internal.c_F">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="create()Lcom/google/gson/internal/UnsafeAllocator;" new="m_zb"/>
+   <method old="newInstance(Ljava/lang/Class;)Ljava/lang/Object;" new="m_gB"/>
+   <field old="val$newInstance Ljava/lang/reflect/Method;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.UnsafeAllocator$4" new="com.google.gson.internal.c_a">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="create()Lcom/google/gson/internal/UnsafeAllocator;" new="m_zb"/>
+   <method old="newInstance(Ljava/lang/Class;)Ljava/lang/Object;" new="m_gB"/>
+  </class>
+  <class old="com.google.gson.internal.bind.util.ISO8601Utils" new="wy.c_j">
+   <method old="checkOffset(Ljava/lang/String;IC)Z" new="m_t"/>
+   <method old="format(Ljava/util/Date;)Ljava/lang/String;" new="m_x"/>
+   <method old="format(Ljava/util/Date;Z)Ljava/lang/String;" new="m_O"/>
+   <method old="format(Ljava/util/Date;ZLjava/util/TimeZone;)Ljava/lang/String;" new="m_Q"/>
+   <method old="indexOfNonDigit(Ljava/lang/String;I)I" new="m_T"/>
+   <method old="padInt(Ljava/lang/StringBuilder;II)V" new="m_U"/>
+   <method old="parse(Ljava/lang/String;Ljava/text/ParsePosition;)Ljava/util/Date;" new="m_N"/>
+   <method old="parseInt(Ljava/lang/String;II)I" new="m_V"/>
+   <field old="TIMEZONE_UTC Ljava/util/TimeZone;" new="f_K"/>
+   <field old="UTC_ID Ljava/lang/String;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.JsonObject" new="com.google.gson.c_g">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="add(Ljava/lang/String;Lcom/google/gson/JsonElement;)V" new="m_oC"/>
+   <method old="addProperty(Ljava/lang/String;Ljava/lang/Boolean;)V" new="m_dC"/>
+   <method old="addProperty(Ljava/lang/String;Ljava/lang/Character;)V" new="m_qC"/>
+   <method old="addProperty(Ljava/lang/String;Ljava/lang/Number;)V" new="m_td"/>
+   <method old="addProperty(Ljava/lang/String;Ljava/lang/String;)V" new="m_KC"/>
+   <method old="createJsonElement(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_Uc"/>
+   <method old="deepCopy()Lcom/google/gson/JsonElement;" new="m_mc"/>
+   <method old="deepCopy()Lcom/google/gson/JsonObject;" new="m_mc"/>
+   <method old="entrySet()Ljava/util/Set;" new="m_gA"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals"/>
+   <method old="get(Ljava/lang/String;)Lcom/google/gson/JsonElement;" new="m_jc"/>
+   <method old="getAsBigDecimal()Ljava/math/BigDecimal;" new="m_jB"/>
+   <method old="getAsBigInteger()Ljava/math/BigInteger;" new="m_cc"/>
+   <method old="getAsBoolean()Z" new="m_VA"/>
+   <method old="getAsBooleanWrapper()Ljava/lang/Boolean;" new="m_Ic"/>
+   <method old="getAsByte()B" new="m_vC"/>
+   <method old="getAsCharacter()C" new="m_Kd"/>
+   <method old="getAsDouble()D" new="m_Bc"/>
+   <method old="getAsFloat()F" new="m_dB"/>
+   <method old="getAsInt()I" new="m_Sb"/>
+   <method old="getAsJsonArray()Lcom/google/gson/JsonArray;" new="m_db"/>
+   <method old="getAsJsonArray(Ljava/lang/String;)Lcom/google/gson/JsonArray;" new="m_gb"/>
+   <method old="getAsJsonNull()Lcom/google/gson/JsonNull;" new="m_Pd"/>
+   <method old="getAsJsonObject()Lcom/google/gson/JsonObject;" new="m_rc"/>
+   <method old="getAsJsonObject(Ljava/lang/String;)Lcom/google/gson/JsonObject;" new="m_kb"/>
+   <method old="getAsJsonPrimitive()Lcom/google/gson/JsonPrimitive;" new="m_Ld"/>
+   <method old="getAsJsonPrimitive(Ljava/lang/String;)Lcom/google/gson/JsonPrimitive;" new="m_BB"/>
+   <method old="getAsLong()J" new="m_bb"/>
+   <method old="getAsNumber()Ljava/lang/Number;" new="m_KB"/>
+   <method old="getAsShort()S" new="m_iA"/>
+   <method old="getAsString()Ljava/lang/String;" new="m_hB"/>
+   <method old="has(Ljava/lang/String;)Z" new="m_xB"/>
+   <method old="hashCode()I" new="hashCode"/>
+   <method old="isJsonArray()Z" new="m_Nb"/>
+   <method old="isJsonNull()Z" new="m_vA"/>
+   <method old="isJsonObject()Z" new="m_Cd"/>
+   <method old="isJsonPrimitive()Z" new="m_Id"/>
+   <method old="remove(Ljava/lang/String;)Lcom/google/gson/JsonElement;" new="m_fC"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="members Lcom/google/gson/internal/LinkedTreeMap;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedHashTreeMap$KeySet" new="com.google.gson.internal.c_b">
+   <method old="clear()V" new="clear"/>
+   <method old="contains(Ljava/lang/Object;)Z" new="contains"/>
+   <method old="iterator()Ljava/util/Iterator;" new="iterator"/>
+   <method old="remove(Ljava/lang/Object;)Z" new="remove"/>
+   <method old="size()I" new="size"/>
+   <field old="this$0 Lcom/google/gson/internal/LinkedHashTreeMap;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters" new="com.google.gson.internal.bind.c_n">
+   <method old="newFactory(Lcom/google/gson/reflect/TypeToken;Lcom/google/gson/TypeAdapter;)Lcom/google/gson/TypeAdapterFactory;" new="m_Qa"/>
+   <method old="newFactory(Ljava/lang/Class;Lcom/google/gson/TypeAdapter;)Lcom/google/gson/TypeAdapterFactory;" new="m_pa"/>
+   <method old="newFactory(Ljava/lang/Class;Ljava/lang/Class;Lcom/google/gson/TypeAdapter;)Lcom/google/gson/TypeAdapterFactory;" new="m_ya"/>
+   <method old="newFactoryForMultipleTypes(Ljava/lang/Class;Ljava/lang/Class;Lcom/google/gson/TypeAdapter;)Lcom/google/gson/TypeAdapterFactory;" new="m_Sa"/>
+   <method old="newTypeHierarchyFactory(Ljava/lang/Class;Lcom/google/gson/TypeAdapter;)Lcom/google/gson/TypeAdapterFactory;" new="m_ra"/>
+   <field old="ATOMIC_BOOLEAN Lcom/google/gson/TypeAdapter;" new="f_s"/>
+   <field old="ATOMIC_BOOLEAN_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_Z"/>
+   <field old="ATOMIC_INTEGER Lcom/google/gson/TypeAdapter;" new="f_t"/>
+   <field old="ATOMIC_INTEGER_ARRAY Lcom/google/gson/TypeAdapter;" new="f_A"/>
+   <field old="ATOMIC_INTEGER_ARRAY_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_r"/>
+   <field old="ATOMIC_INTEGER_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_U"/>
+   <field old="BIG_DECIMAL Lcom/google/gson/TypeAdapter;" new="f_g"/>
+   <field old="BIG_INTEGER Lcom/google/gson/TypeAdapter;" new="f_H"/>
+   <field old="BIT_SET Lcom/google/gson/TypeAdapter;" new="f_d"/>
+   <field old="BIT_SET_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_I"/>
+   <field old="BOOLEAN Lcom/google/gson/TypeAdapter;" new="f_c"/>
+   <field old="BOOLEAN_AS_STRING Lcom/google/gson/TypeAdapter;" new="f_G"/>
+   <field old="BOOLEAN_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_P"/>
+   <field old="BYTE Lcom/google/gson/TypeAdapter;" new="f_k"/>
+   <field old="BYTE_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_u"/>
+   <field old="CALENDAR Lcom/google/gson/TypeAdapter;" new="f_E"/>
+   <field old="CALENDAR_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_e"/>
+   <field old="CHARACTER Lcom/google/gson/TypeAdapter;" new="f_C"/>
+   <field old="CHARACTER_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_V"/>
+   <field old="CLASS Lcom/google/gson/TypeAdapter;" new="f_b"/>
+   <field old="CLASS_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_X"/>
+   <field old="CURRENCY Lcom/google/gson/TypeAdapter;" new="f_q"/>
+   <field old="CURRENCY_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_y"/>
+   <field old="DOUBLE Lcom/google/gson/TypeAdapter;" new="f_N"/>
+   <field old="ENUM_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_z"/>
+   <field old="FLOAT Lcom/google/gson/TypeAdapter;" new="f_j"/>
+   <field old="INET_ADDRESS Lcom/google/gson/TypeAdapter;" new="f_o"/>
+   <field old="INET_ADDRESS_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_S"/>
+   <field old="INTEGER Lcom/google/gson/TypeAdapter;" new="f_v"/>
+   <field old="INTEGER_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_J"/>
+   <field old="JSON_ELEMENT Lcom/google/gson/TypeAdapter;" new="f_x"/>
+   <field old="JSON_ELEMENT_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_Y"/>
+   <field old="LOCALE Lcom/google/gson/TypeAdapter;" new="f_K"/>
+   <field old="LOCALE_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_w"/>
+   <field old="LONG Lcom/google/gson/TypeAdapter;" new="f_m"/>
+   <field old="NUMBER Lcom/google/gson/TypeAdapter;" new="f_L"/>
+   <field old="NUMBER_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_n"/>
+   <field old="SHORT Lcom/google/gson/TypeAdapter;" new="f_h"/>
+   <field old="SHORT_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_W"/>
+   <field old="STRING Lcom/google/gson/TypeAdapter;" new="f_R"/>
+   <field old="STRING_BUFFER Lcom/google/gson/TypeAdapter;" new="f_Q"/>
+   <field old="STRING_BUFFER_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_i"/>
+   <field old="STRING_BUILDER Lcom/google/gson/TypeAdapter;" new="f_l"/>
+   <field old="STRING_BUILDER_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_M"/>
+   <field old="STRING_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_O"/>
+   <field old="TIMESTAMP_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_p"/>
+   <field old="URI Lcom/google/gson/TypeAdapter;" new="f_D"/>
+   <field old="URI_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_T"/>
+   <field old="URL Lcom/google/gson/TypeAdapter;" new="f_B"/>
+   <field old="URL_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_F"/>
+   <field old="UUID Lcom/google/gson/TypeAdapter;" new="f_a"/>
+   <field old="UUID_FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_f"/>
+  </class>
+  <class old="com.google.gson.FieldNamingPolicy" new="com.google.gson.FieldNamingPolicy">
+   <method old="access$100(Ljava/lang/String;)Ljava/lang/String;" new="m_Ed"/>
+   <method old="access$200(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_qb"/>
+   <method old="modifyString(CLjava/lang/String;I)Ljava/lang/String;" new="m_fB"/>
+   <method old="separateCamelCase(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;" new="m_dd"/>
+   <method old="translateName(Ljava/lang/reflect/Field;)Ljava/lang/String;" new="m_D"/>
+   <method old="upperCaseFirstLetter(Ljava/lang/String;)Ljava/lang/String;" new="m_rA"/>
+   <method old="valueOf(Ljava/lang/String;)Lcom/google/gson/FieldNamingPolicy;" new="valueOf"/>
+   <method old="values()[Lcom/google/gson/FieldNamingPolicy;" new="values"/>
+   <field old="$VALUES [Lcom/google/gson/FieldNamingPolicy;" new="f_m"/>
+   <field old="IDENTITY Lcom/google/gson/FieldNamingPolicy;" new="f_K"/>
+   <field old="LOWER_CASE_WITH_DASHES Lcom/google/gson/FieldNamingPolicy;" new="f_L"/>
+   <field old="LOWER_CASE_WITH_UNDERSCORES Lcom/google/gson/FieldNamingPolicy;" new="f_i"/>
+   <field old="UPPER_CAMEL_CASE Lcom/google/gson/FieldNamingPolicy;" new="f_G"/>
+   <field old="UPPER_CAMEL_CASE_WITH_SPACES Lcom/google/gson/FieldNamingPolicy;" new="f_c"/>
+  </class>
+  <class old="com.google.gson.JsonParser" new="com.google.gson.c_h">
+   <method old="parse(Lcom/google/gson/stream/JsonReader;)Lcom/google/gson/JsonElement;" new="m_ed"/>
+   <method old="parse(Ljava/io/Reader;)Lcom/google/gson/JsonElement;" new="m_FB"/>
+   <method old="parse(Ljava/lang/String;)Lcom/google/gson/JsonElement;" new="m_CB"/>
+  </class>
+  <class old="com.google.gson.internal.Excluder$1" new="com.google.gson.internal.c_p">
+   <method old="delegate()Lcom/google/gson/TypeAdapter;" new="m_fc"/>
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <field old="delegate Lcom/google/gson/TypeAdapter;" new="f_K"/>
+   <field old="this$0 Lcom/google/gson/internal/Excluder;" new="f_L"/>
+   <field old="val$gson Lcom/google/gson/Gson;" new="f_m"/>
+   <field old="val$skipDeserialize Z" new="f_G"/>
+   <field old="val$skipSerialize Z" new="f_i"/>
+   <field old="val$type Lcom/google/gson/reflect/TypeToken;" new="f_c"/>
+  </class>
+  <class old="com.google.gson.FieldNamingStrategy" new="com.google.gson.c_j">
+   <method old="translateName(Ljava/lang/reflect/Field;)Ljava/lang/String;" new="m_D"/>
+  </class>
+  <class old="com.google.gson.TypeAdapterFactory" new="com.google.gson.c_d">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$1" new="com.google.gson.internal.bind.c_U">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Class;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Class;)V" new="m_qa"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedHashTreeMap$1" new="com.google.gson.internal.c_Z">
+   <method old="compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)I" new="m_vc"/>
+   <method old="compare(Ljava/lang/Object;Ljava/lang/Object;)I" new="compare"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$2" new="com.google.gson.internal.bind.c_s">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/BitSet;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/BitSet;)V" new="m_ka"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$3" new="com.google.gson.internal.bind.c_i">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Boolean;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Boolean;)V" new="m_Ja"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$4" new="com.google.gson.internal.bind.c_j">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Boolean;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Boolean;)V" new="m_Ja"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$5" new="com.google.gson.internal.bind.c_c">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Number;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Number;)V" new="m_ma"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$6" new="com.google.gson.internal.bind.c_F">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Number;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Number;)V" new="m_ma"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$7" new="com.google.gson.internal.bind.c_a">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Number;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Number;)V" new="m_ma"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <class old="com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl" new="com.google.gson.internal.c_T">
+   <method old="equals(Ljava/lang/Object;)Z" new="equals"/>
+   <method old="getActualTypeArguments()[Ljava/lang/reflect/Type;" new="getActualTypeArguments"/>
+   <method old="getOwnerType()Ljava/lang/reflect/Type;" new="getOwnerType"/>
+   <method old="getRawType()Ljava/lang/reflect/Type;" new="getRawType"/>
+   <method old="hashCode()I" new="hashCode"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="ownerType Ljava/lang/reflect/Type;" new="f_K"/>
+   <field old="rawType Ljava/lang/reflect/Type;" new="f_i"/>
+   <field old="serialVersionUID J" new="f_L"/>
+   <field old="typeArguments [Ljava/lang/reflect/Type;" new="f_c"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$8" new="com.google.gson.internal.bind.c_d">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/concurrent/atomic/AtomicInteger;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/concurrent/atomic/AtomicInteger;)V" new="m_aa"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$9" new="com.google.gson.internal.bind.c_I">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/concurrent/atomic/AtomicBoolean;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/concurrent/atomic/AtomicBoolean;)V" new="m_ca"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper" new="com.google.gson.internal.bind.c_aa">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="getRuntimeTypeIfMoreSpecific(Ljava/lang/reflect/Type;Ljava/lang/Object;)Ljava/lang/reflect/Type;" new="m_Na"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <field old="context Lcom/google/gson/Gson;" new="f_i"/>
+   <field old="delegate Lcom/google/gson/TypeAdapter;" new="f_L"/>
+   <field old="type Ljava/lang/reflect/Type;" new="f_K"/>
+  </class>
+  <class old="com.google.gson.internal.bind.JsonTreeReader$1" new="com.google.gson.internal.bind.c_Ea">
+   <method old="close()V" new="close"/>
+   <method old="read([CII)I" new="read"/>
+  </class>
+  <class old="com.google.gson.JsonArray" new="com.google.gson.c_A">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="add(Lcom/google/gson/JsonElement;)V" new="m_ic"/>
+   <method old="add(Ljava/lang/Boolean;)V" new="m_gd"/>
+   <method old="add(Ljava/lang/Character;)V" new="m_IC"/>
+   <method old="add(Ljava/lang/Number;)V" new="m_nd"/>
+   <method old="add(Ljava/lang/String;)V" new="m_uA"/>
+   <method old="addAll(Lcom/google/gson/JsonArray;)V" new="m_LB"/>
+   <method old="contains(Lcom/google/gson/JsonElement;)Z" new="m_xb"/>
+   <method old="deepCopy()Lcom/google/gson/JsonArray;" new="m_mc"/>
+   <method old="deepCopy()Lcom/google/gson/JsonElement;" new="m_mc"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals"/>
+   <method old="get(I)Lcom/google/gson/JsonElement;" new="m_cC"/>
+   <method old="getAsBigDecimal()Ljava/math/BigDecimal;" new="m_jB"/>
+   <method old="getAsBigInteger()Ljava/math/BigInteger;" new="m_cc"/>
+   <method old="getAsBoolean()Z" new="m_VA"/>
+   <method old="getAsBooleanWrapper()Ljava/lang/Boolean;" new="m_Ic"/>
+   <method old="getAsByte()B" new="m_vC"/>
+   <method old="getAsCharacter()C" new="m_Kd"/>
+   <method old="getAsDouble()D" new="m_Bc"/>
+   <method old="getAsFloat()F" new="m_dB"/>
+   <method old="getAsInt()I" new="m_Sb"/>
+   <method old="getAsJsonArray()Lcom/google/gson/JsonArray;" new="m_db"/>
+   <method old="getAsJsonNull()Lcom/google/gson/JsonNull;" new="m_Pd"/>
+   <method old="getAsJsonObject()Lcom/google/gson/JsonObject;" new="m_rc"/>
+   <method old="getAsJsonPrimitive()Lcom/google/gson/JsonPrimitive;" new="m_Ld"/>
+   <method old="getAsLong()J" new="m_bb"/>
+   <method old="getAsNumber()Ljava/lang/Number;" new="m_KB"/>
+   <method old="getAsShort()S" new="m_iA"/>
+   <method old="getAsString()Ljava/lang/String;" new="m_hB"/>
+   <method old="hashCode()I" new="hashCode"/>
+   <method old="isJsonArray()Z" new="m_Nb"/>
+   <method old="isJsonNull()Z" new="m_vA"/>
+   <method old="isJsonObject()Z" new="m_Cd"/>
+   <method old="isJsonPrimitive()Z" new="m_Id"/>
+   <method old="iterator()Ljava/util/Iterator;" new="iterator"/>
+   <method old="remove(I)Lcom/google/gson/JsonElement;" new="m_kd"/>
+   <method old="remove(Lcom/google/gson/JsonElement;)Z" new="m_BC"/>
+   <method old="set(ILcom/google/gson/JsonElement;)Lcom/google/gson/JsonElement;" new="m_Ec"/>
+   <method old="size()I" new="m_Vb"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="elements Ljava/util/List;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedHashTreeMap$KeySet$1" new="com.google.gson.internal.c_m">
+   <method old="hasNext()Z" new="hasNext"/>
+   <method old="next()Ljava/lang/Object;" new="next"/>
+   <method old="nextNode()Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="m_DA"/>
+   <method old="remove()V" new="remove"/>
+   <field old="expectedModCount I" new="f_i"/>
+   <field old="lastReturned Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_K"/>
+   <field old="next Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_L"/>
+   <field old="this$0 Lcom/google/gson/internal/LinkedHashTreeMap;" new="f_c"/>
+   <field old="this$1 Lcom/google/gson/internal/LinkedHashTreeMap$KeySet;" new="f_L"/>
+  </class>
+  <class old="eu.faircode.finegeotag.BuildConfig" new="eu.faircode.finegeotag.c_F">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <field old="APPLICATION_ID Ljava/lang/String;" new="f_m"/>
+   <field old="BUILD_TYPE Ljava/lang/String;" new="f_G"/>
+   <field old="DEBUG Z" new="f_c"/>
+   <field old="FLAVOR Ljava/lang/String;" new="f_L"/>
+   <field old="VERSION_CODE I" new="f_K"/>
+   <field old="VERSION_NAME Ljava/lang/String;" new="f_i"/>
+  </class>
+  <class old="com.google.gson.internal.bind.ObjectTypeAdapter" new="com.google.gson.internal.bind.c_Y">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <field old="FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_L"/>
+   <field old="gson Lcom/google/gson/Gson;" new="f_K"/>
+  </class>
+  <class old="eu.faircode.finegeotag.R$layout" new="eu.faircode.finegeotag.R$layout">
+   <field old="geotagged I" new="geotagged"/>
+  </class>
+  <class old="com.google.gson.TreeTypeAdapter" new="com.google.gson.c_M">
+   <method old="delegate()Lcom/google/gson/TypeAdapter;" new="m_fc"/>
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="newFactory(Lcom/google/gson/reflect/TypeToken;Ljava/lang/Object;)Lcom/google/gson/TypeAdapterFactory;" new="m_FC"/>
+   <method old="newFactoryWithMatchRawType(Lcom/google/gson/reflect/TypeToken;Ljava/lang/Object;)Lcom/google/gson/TypeAdapterFactory;" new="m_Tb"/>
+   <method old="newTypeHierarchyFactory(Ljava/lang/Class;Ljava/lang/Object;)Lcom/google/gson/TypeAdapterFactory;" new="m_nC"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <field old="delegate Lcom/google/gson/TypeAdapter;" new="f_G"/>
+   <field old="deserializer Lcom/google/gson/JsonDeserializer;" new="f_L"/>
+   <field old="gson Lcom/google/gson/Gson;" new="f_c"/>
+   <field old="serializer Lcom/google/gson/JsonSerializer;" new="f_m"/>
+   <field old="skipPast Lcom/google/gson/TypeAdapterFactory;" new="f_K"/>
+   <field old="typeToken Lcom/google/gson/reflect/TypeToken;" new="f_i"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedTreeMap$EntrySet" new="com.google.gson.internal.c_f">
+   <method old="clear()V" new="clear"/>
+   <method old="contains(Ljava/lang/Object;)Z" new="contains"/>
+   <method old="iterator()Ljava/util/Iterator;" new="iterator"/>
+   <method old="remove(Ljava/lang/Object;)Z" new="remove"/>
+   <method old="size()I" new="size"/>
+   <field old="this$0 Lcom/google/gson/internal/LinkedTreeMap;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.JsonPrimitive" new="com.google.gson.c_H">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="deepCopy()Lcom/google/gson/JsonElement;" new="m_mc"/>
+   <method old="deepCopy()Lcom/google/gson/JsonPrimitive;" new="m_mc"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals"/>
+   <method old="getAsBigDecimal()Ljava/math/BigDecimal;" new="m_jB"/>
+   <method old="getAsBigInteger()Ljava/math/BigInteger;" new="m_cc"/>
+   <method old="getAsBoolean()Z" new="m_VA"/>
+   <method old="getAsBooleanWrapper()Ljava/lang/Boolean;" new="m_Ic"/>
+   <method old="getAsByte()B" new="m_vC"/>
+   <method old="getAsCharacter()C" new="m_Kd"/>
+   <method old="getAsDouble()D" new="m_Bc"/>
+   <method old="getAsFloat()F" new="m_dB"/>
+   <method old="getAsInt()I" new="m_Sb"/>
+   <method old="getAsJsonArray()Lcom/google/gson/JsonArray;" new="m_db"/>
+   <method old="getAsJsonNull()Lcom/google/gson/JsonNull;" new="m_Pd"/>
+   <method old="getAsJsonObject()Lcom/google/gson/JsonObject;" new="m_rc"/>
+   <method old="getAsJsonPrimitive()Lcom/google/gson/JsonPrimitive;" new="m_Ld"/>
+   <method old="getAsLong()J" new="m_bb"/>
+   <method old="getAsNumber()Ljava/lang/Number;" new="m_KB"/>
+   <method old="getAsShort()S" new="m_iA"/>
+   <method old="getAsString()Ljava/lang/String;" new="m_hB"/>
+   <method old="hashCode()I" new="hashCode"/>
+   <method old="isBoolean()Z" new="m_HB"/>
+   <method old="isIntegral(Lcom/google/gson/JsonPrimitive;)Z" new="m_xA"/>
+   <method old="isJsonArray()Z" new="m_Nb"/>
+   <method old="isJsonNull()Z" new="m_vA"/>
+   <method old="isJsonObject()Z" new="m_Cd"/>
+   <method old="isJsonPrimitive()Z" new="m_Id"/>
+   <method old="isNumber()Z" new="m_PC"/>
+   <method old="isPrimitiveOrString(Ljava/lang/Object;)Z" new="m_RC"/>
+   <method old="isString()Z" new="m_Jc"/>
+   <method old="setValue(Ljava/lang/Object;)V" new="m_wB"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="PRIMITIVE_TYPES [Ljava/lang/Class;" new="f_K"/>
+   <field old="value Ljava/lang/Object;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.DefaultDateTypeAdapter" new="com.google.gson.c_x">
+   <method old="deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;" new="m_g"/>
+   <method old="deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/util/Date;" new="m_g"/>
+   <method old="deserializeToDate(Lcom/google/gson/JsonElement;)Ljava/util/Date;" new="m_MA"/>
+   <method old="serialize(Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;" new="m_J"/>
+   <method old="serialize(Ljava/util/Date;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;" new="m_ob"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="enUsFormat Ljava/text/DateFormat;" new="f_L"/>
+   <field old="localFormat Ljava/text/DateFormat;" new="f_K"/>
+  </class>
+  <class old="com.google.gson.internal.bind.JsonTreeReader" new="com.google.gson.internal.bind.c_Ca">
+   <method old="beginArray()V" new="m_fA"/>
+   <method old="beginObject()V" new="m_OA"/>
+   <method old="close()V" new="close"/>
+   <method old="endArray()V" new="m_Ib"/>
+   <method old="endObject()V" new="m_qB"/>
+   <method old="expect(Lcom/google/gson/stream/JsonToken;)V" new="m_md"/>
+   <method old="getPath()Ljava/lang/String;" new="m_dA"/>
+   <method old="hasNext()Z" new="m_jb"/>
+   <method old="isLenient()Z" new="m_XC"/>
+   <method old="nextBoolean()Z" new="m_aB"/>
+   <method old="nextDouble()D" new="m_sd"/>
+   <method old="nextInt()I" new="m_Yb"/>
+   <method old="nextLong()J" new="m_Wc"/>
+   <method old="nextName()Ljava/lang/String;" new="m_Nd"/>
+   <method old="nextNull()V" new="m_rC"/>
+   <method old="nextString()Ljava/lang/String;" new="m_Ub"/>
+   <method old="peek()Lcom/google/gson/stream/JsonToken;" new="m_mB"/>
+   <method old="peekStack()Ljava/lang/Object;" new="m_ab"/>
+   <method old="popStack()Ljava/lang/Object;" new="m_oc"/>
+   <method old="promoteNameToValue()V" new="m_id"/>
+   <method old="setLenient(Z)V" new="m_EB"/>
+   <method old="skipValue()V" new="m_IA"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="SENTINEL_CLOSED Ljava/lang/Object;" new="f_K"/>
+   <field old="UNREADABLE_READER Ljava/io/Reader;" new="f_i"/>
+   <field old="stack Ljava/util/List;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter" new="com.google.gson.internal.bind.c_ka">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/Collection;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/Collection;)V" new="m_HA"/>
+   <field old="constructor Lcom/google/gson/internal/ObjectConstructor;" new="f_L"/>
+   <field old="elementTypeAdapter Lcom/google/gson/TypeAdapter;" new="f_K"/>
+  </class>
+  <class old="com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl" new="com.google.gson.internal.c_q">
+   <method old="equals(Ljava/lang/Object;)Z" new="equals"/>
+   <method old="getGenericComponentType()Ljava/lang/reflect/Type;" new="getGenericComponentType"/>
+   <method old="hashCode()I" new="hashCode"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="componentType Ljava/lang/reflect/Type;" new="f_K"/>
+   <field old="serialVersionUID J" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedHashTreeMap$AvlIterator" new="com.google.gson.internal.c_P">
+   <method old="next()Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="m_MB"/>
+   <method old="reset(Lcom/google/gson/internal/LinkedHashTreeMap$Node;)V" new="m_AA"/>
+   <field old="stackTop Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$10" new="com.google.gson.internal.c_X">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+  </class>
+  <class old="eu.faircode.finegeotag.ExifInterfaceEx" new="eu.faircode.finegeotag.c_a">
+   <method old="DMS(D)Ljava/lang/String;" new="m_n"/>
+   <method old="setLocation(Landroid/location/Location;)V" new="m_w"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$11" new="com.google.gson.internal.c_S">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.JsonReaderInternalAccess" new="com.google.gson.internal.c_I">
+   <method old="promoteNameToValue(Lcom/google/gson/stream/JsonReader;)V" new="m_Z"/>
+   <field old="INSTANCE Lcom/google/gson/internal/JsonReaderInternalAccess;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$12" new="com.google.gson.internal.c_O">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$13" new="com.google.gson.internal.c_Q">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+  </class>
+  <class old="eu.faircode.finegeotag.LocationService" new="eu.faircode.finegeotag.LocationService">
+   <method old="getEGM96Offset(Landroid/location/Location;Landroid/content/Context;)D" new="m_k"/>
+   <method old="handleLocation(Ljava/lang/String;Landroid/location/Location;)V" new="m_F"/>
+   <method old="isBetterLocation(Landroid/location/Location;Landroid/location/Location;)Z" new="m_B"/>
+   <method old="notify(Ljava/lang/String;Ljava/lang/String;)V" new="m_f"/>
+   <method old="onHandleIntent(Landroid/content/Intent;)V" new="onHandleIntent"/>
+   <method old="reverseGeocode(Landroid/location/Location;Landroid/content/Context;)Ljava/util/List;" new="m_d"/>
+   <method old="startLocating(Ljava/lang/String;Landroid/content/Context;)V" new="m_j"/>
+   <method old="stopLocating(Ljava/lang/String;)V" new="m_h"/>
+   <field old="ACTION_GEOTAGGED Ljava/lang/String;" new="f_D"/>
+   <field old="ACTION_LOCATION_COARSE Ljava/lang/String;" new="f_G"/>
+   <field old="ACTION_LOCATION_FINE Ljava/lang/String;" new="f_K"/>
+   <field old="ACTION_TIMEOUT Ljava/lang/String;" new="f_I"/>
+   <field old="LOCATION_MIN_DISTANCE I" new="f_h"/>
+   <field old="LOCATION_MIN_TIME I" new="f_m"/>
+   <field old="PREFIX_LOCATION Ljava/lang/String;" new="f_B"/>
+   <field old="TAG Ljava/lang/String;" new="f_c"/>
+   <field old="mEGM96Offset I" new="f_i"/>
+   <field old="mEGM96Pointer I" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$14" new="com.google.gson.internal.c_x">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_i"/>
+   <field old="unsafeAllocator Lcom/google/gson/internal/UnsafeAllocator;" new="f_L"/>
+   <field old="val$rawType Ljava/lang/Class;" new="f_K"/>
+   <field old="val$type Ljava/lang/reflect/Type;" new="f_c"/>
+  </class>
+  <class old="com.google.gson.stream.JsonWriter" new="com.google.gson.stream.c_a">
+   <method old="beforeName()V" new="m_cA"/>
+   <method old="beforeValue(Z)V" new="m_QB"/>
+   <method old="beginArray()Lcom/google/gson/stream/JsonWriter;" new="m_fA"/>
+   <method old="beginObject()Lcom/google/gson/stream/JsonWriter;" new="m_OA"/>
+   <method old="close()V" new="close"/>
+   <method old="close(IILjava/lang/String;)Lcom/google/gson/stream/JsonWriter;" new="m_UC"/>
+   <method old="endArray()Lcom/google/gson/stream/JsonWriter;" new="m_Ib"/>
+   <method old="endObject()Lcom/google/gson/stream/JsonWriter;" new="m_qB"/>
+   <method old="flush()V" new="flush"/>
+   <method old="getSerializeNulls()Z" new="m_OB"/>
+   <method old="isHtmlSafe()Z" new="m_lB"/>
+   <method old="isLenient()Z" new="m_XC"/>
+   <method old="jsonValue(Ljava/lang/String;)Lcom/google/gson/stream/JsonWriter;" new="m_Qc"/>
+   <method old="name(Ljava/lang/String;)Lcom/google/gson/stream/JsonWriter;" new="m_zB"/>
+   <method old="newline()V" new="m_nA"/>
+   <method old="nullValue()Lcom/google/gson/stream/JsonWriter;" new="m_DC"/>
+   <method old="open(ILjava/lang/String;)Lcom/google/gson/stream/JsonWriter;" new="m_oB"/>
+   <method old="peek()I" new="m_mB"/>
+   <method old="push(I)V" new="m_zA"/>
+   <method old="replaceTop(I)V" new="m_tC"/>
+   <method old="setHtmlSafe(Z)V" new="m_EA"/>
+   <method old="setIndent(Ljava/lang/String;)V" new="m_yc"/>
+   <method old="setLenient(Z)V" new="m_EB"/>
+   <method old="setSerializeNulls(Z)V" new="m_rb"/>
+   <method old="string(Ljava/lang/String;)V" new="m_uC"/>
+   <method old="value(D)Lcom/google/gson/stream/JsonWriter;" new="m_Nc"/>
+   <method old="value(J)Lcom/google/gson/stream/JsonWriter;" new="m_bC"/>
+   <method old="value(Ljava/lang/Number;)Lcom/google/gson/stream/JsonWriter;" new="m_XA"/>
+   <method old="value(Ljava/lang/String;)Lcom/google/gson/stream/JsonWriter;" new="m_ZC"/>
+   <method old="value(Z)Lcom/google/gson/stream/JsonWriter;" new="m_yB"/>
+   <method old="writeDeferredName()V" new="m_oA"/>
+   <field old="HTML_SAFE_REPLACEMENT_CHARS [Ljava/lang/String;" new="f_L"/>
+   <field old="REPLACEMENT_CHARS [Ljava/lang/String;" new="f_G"/>
+   <field old="deferredName Ljava/lang/String;" new="f_l"/>
+   <field old="htmlSafe Z" new="f_h"/>
+   <field old="indent Ljava/lang/String;" new="f_I"/>
+   <field old="lenient Z" new="f_K"/>
+   <field old="out Ljava/io/Writer;" new="f_c"/>
+   <field old="separator Ljava/lang/String;" new="f_D"/>
+   <field old="serializeNulls Z" new="f_m"/>
+   <field old="stack [I" new="f_i"/>
+   <field old="stackSize I" new="f_B"/>
+  </class>
+  <class old="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory" new="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory">
+   <method old="access$100(Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory;Lcom/google/gson/Gson;Ljava/lang/reflect/Field;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_Ra"/>
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+   <method old="createBoundField(Lcom/google/gson/Gson;Ljava/lang/reflect/Field;Ljava/lang/String;Lcom/google/gson/reflect/TypeToken;ZZ)Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory$BoundField;" new="m_ua"/>
+   <method old="excludeField(Ljava/lang/reflect/Field;Z)Z" new="m_ta"/>
+   <method old="excludeField(Ljava/lang/reflect/Field;ZLcom/google/gson/internal/Excluder;)Z" new="m_oa"/>
+   <method old="getBoundFields(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;Ljava/lang/Class;)Ljava/util/Map;" new="m_Xa"/>
+   <method old="getFieldAdapter(Lcom/google/gson/Gson;Ljava/lang/reflect/Field;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_Va"/>
+   <method old="getFieldName(Lcom/google/gson/FieldNamingStrategy;Ljava/lang/reflect/Field;)Ljava/util/List;" new="m_za"/>
+   <method old="getFieldNames(Ljava/lang/reflect/Field;)Ljava/util/List;" new="m_Za"/>
+   <field old="constructorConstructor Lcom/google/gson/internal/ConstructorConstructor;" new="f_i"/>
+   <field old="excluder Lcom/google/gson/internal/Excluder;" new="f_K"/>
+   <field old="fieldNamingPolicy Lcom/google/gson/FieldNamingStrategy;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.reflect.TypeToken" new="wy.c_c">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="buildUnexpectedTypeError(Ljava/lang/reflect/Type;[Ljava/lang/Class;)Ljava/lang/AssertionError;" new="m_W"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals"/>
+   <method old="get(Ljava/lang/Class;)Lcom/google/gson/reflect/TypeToken;" new="m_o"/>
+   <method old="get(Ljava/lang/reflect/Type;)Lcom/google/gson/reflect/TypeToken;" new="m_s"/>
+   <method old="getRawType()Ljava/lang/Class;" new="m_q"/>
+   <method old="getSuperclassTypeParameter(Ljava/lang/Class;)Ljava/lang/reflect/Type;" new="m_S"/>
+   <method old="getType()Ljava/lang/reflect/Type;" new="m_p"/>
+   <method old="hashCode()I" new="hashCode"/>
+   <method old="isAssignableFrom(Lcom/google/gson/reflect/TypeToken;)Z" new="m_X"/>
+   <method old="isAssignableFrom(Ljava/lang/Class;)Z" new="m_v"/>
+   <method old="isAssignableFrom(Ljava/lang/reflect/Type;)Z" new="m_P"/>
+   <method old="isAssignableFrom(Ljava/lang/reflect/Type;Ljava/lang/reflect/GenericArrayType;)Z" new="m_u"/>
+   <method old="isAssignableFrom(Ljava/lang/reflect/Type;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z" new="m_Y"/>
+   <method old="matches(Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;Ljava/util/Map;)Z" new="m_R"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="typeEquals(Ljava/lang/reflect/ParameterizedType;Ljava/lang/reflect/ParameterizedType;Ljava/util/Map;)Z" new="m_y"/>
+   <field old="hashCode I" new="f_K"/>
+   <field old="rawType Ljava/lang/Class;" new="f_i"/>
+   <field old="type Ljava/lang/reflect/Type;" new="f_L"/>
+  </class>
+  <class old="eu.faircode.finegeotag.R$array" new="eu.faircode.finegeotag.R$array">
+   <field old="known_names I" new="known_names"/>
+   <field old="known_values I" new="known_values"/>
+  </class>
+  <class old="com.google.gson.internal.bind.DateTypeAdapter" new="com.google.gson.internal.bind.c_La">
+   <method old="deserializeToDate(Ljava/lang/String;)Ljava/util/Date;" new="m_NA"/>
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/Date;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/Date;)V" new="m_sA"/>
+   <field old="FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_L"/>
+   <field old="enUsFormat Ljava/text/DateFormat;" new="f_K"/>
+   <field old="localFormat Ljava/text/DateFormat;" new="f_i"/>
+  </class>
+  <class old="eu.faircode.finegeotag.R$xml" new="eu.faircode.finegeotag.R$xml">
+   <field old="preferences I" new="preferences"/>
+  </class>
+  <class old="com.google.gson.internal.Primitives" new="com.google.gson.internal.c_K">
+   <method old="add(Ljava/util/Map;Ljava/util/Map;Ljava/lang/Class;Ljava/lang/Class;)V" new="m_MC"/>
+   <method old="isPrimitive(Ljava/lang/reflect/Type;)Z" new="m_Gc"/>
+   <method old="isWrapperType(Ljava/lang/reflect/Type;)Z" new="m_Bd"/>
+   <method old="unwrap(Ljava/lang/Class;)Ljava/lang/Class;" new="m_ZB"/>
+   <method old="wrap(Ljava/lang/Class;)Ljava/lang/Class;" new="m_Ab"/>
+   <field old="PRIMITIVE_TO_WRAPPER_TYPE Ljava/util/Map;" new="f_L"/>
+   <field old="WRAPPER_TO_PRIMITIVE_TYPE Ljava/util/Map;" new="f_K"/>
+  </class>
+  <class old="com.google.gson.annotations.SerializedName" new="wy.c_d">
+   <method old="alternate()[Ljava/lang/String;" new="m_K"/>
+   <method old="value()Ljava/lang/String;" new="m_H"/>
+  </class>
+  <class old="com.google.gson.internal.$Gson$Types" new="com.google.gson.internal.c_V">
+   <method old="access$000(Ljava/lang/reflect/Type;)V" new="m_vB"/>
+   <method old="access$100(Ljava/lang/Object;)I" new="m_Sd"/>
+   <method old="arrayOf(Ljava/lang/reflect/Type;)Ljava/lang/reflect/GenericArrayType;" new="m_eC"/>
+   <method old="canonicalize(Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;" new="m_wc"/>
+   <method old="checkNotPrimitive(Ljava/lang/reflect/Type;)V" new="m_jC"/>
+   <method old="declaringClassOf(Ljava/lang/reflect/TypeVariable;)Ljava/lang/Class;" new="m_LC"/>
+   <method old="equal(Ljava/lang/Object;Ljava/lang/Object;)Z" new="m_PA"/>
+   <method old="equals(Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;)Z" new="m_HC"/>
+   <method old="getArrayComponentType(Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;" new="m_Dd"/>
+   <method old="getCollectionElementType(Ljava/lang/reflect/Type;Ljava/lang/Class;)Ljava/lang/reflect/Type;" new="m_Pb"/>
+   <method old="getGenericSupertype(Ljava/lang/reflect/Type;Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/reflect/Type;" new="m_mb"/>
+   <method old="getMapKeyAndValueTypes(Ljava/lang/reflect/Type;Ljava/lang/Class;)[Ljava/lang/reflect/Type;" new="m_Hb"/>
+   <method old="getRawType(Ljava/lang/reflect/Type;)Ljava/lang/Class;" new="m_RA"/>
+   <method old="getSupertype(Ljava/lang/reflect/Type;Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/reflect/Type;" new="m_Hc"/>
+   <method old="hashCodeOrZero(Ljava/lang/Object;)I" new="m_RB"/>
+   <method old="indexOf([Ljava/lang/Object;Ljava/lang/Object;)I" new="m_sC"/>
+   <method old="newParameterizedTypeWithOwner(Ljava/lang/reflect/Type;Ljava/lang/reflect/Type;[Ljava/lang/reflect/Type;)Ljava/lang/reflect/ParameterizedType;" new="m_Mc"/>
+   <method old="resolve(Ljava/lang/reflect/Type;Ljava/lang/Class;Ljava/lang/reflect/Type;)Ljava/lang/reflect/Type;" new="m_Fd"/>
+   <method old="resolveTypeVariable(Ljava/lang/reflect/Type;Ljava/lang/Class;Ljava/lang/reflect/TypeVariable;)Ljava/lang/reflect/Type;" new="m_DB"/>
+   <method old="subtypeOf(Ljava/lang/reflect/Type;)Ljava/lang/reflect/WildcardType;" new="m_ac"/>
+   <method old="supertypeOf(Ljava/lang/reflect/Type;)Ljava/lang/reflect/WildcardType;" new="m_uc"/>
+   <method old="typeToString(Ljava/lang/reflect/Type;)Ljava/lang/String;" new="m_ad"/>
+   <field old="EMPTY_TYPE_ARRAY [Ljava/lang/reflect/Type;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.SqlDateTypeAdapter" new="com.google.gson.internal.bind.c_S">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/sql/Date;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/sql/Date;)V" new="m_Wa"/>
+   <field old="FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_K"/>
+   <field old="format Ljava/text/DateFormat;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedTreeMap$KeySet" new="com.google.gson.internal.c_i">
+   <method old="clear()V" new="clear"/>
+   <method old="contains(Ljava/lang/Object;)Z" new="contains"/>
+   <method old="iterator()Ljava/util/Iterator;" new="iterator"/>
+   <method old="remove(Ljava/lang/Object;)Z" new="remove"/>
+   <method old="size()I" new="size"/>
+   <field old="this$0 Lcom/google/gson/internal/LinkedTreeMap;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.JsonSerializationContext" new="com.google.gson.c_F">
+   <method old="serialize(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_c"/>
+   <method old="serialize(Ljava/lang/Object;Ljava/lang/reflect/Type;)Lcom/google/gson/JsonElement;" new="m_a"/>
+  </class>
+  <class old="com.google.gson.stream.JsonToken" new="com.google.gson.stream.JsonToken">
+   <method old="valueOf(Ljava/lang/String;)Lcom/google/gson/stream/JsonToken;" new="valueOf"/>
+   <method old="values()[Lcom/google/gson/stream/JsonToken;" new="values"/>
+   <field old="$VALUES [Lcom/google/gson/stream/JsonToken;" new="f_i"/>
+   <field old="BEGIN_ARRAY Lcom/google/gson/stream/JsonToken;" new="f_I"/>
+   <field old="BEGIN_OBJECT Lcom/google/gson/stream/JsonToken;" new="f_B"/>
+   <field old="BOOLEAN Lcom/google/gson/stream/JsonToken;" new="f_D"/>
+   <field old="END_ARRAY Lcom/google/gson/stream/JsonToken;" new="f_h"/>
+   <field old="END_DOCUMENT Lcom/google/gson/stream/JsonToken;" new="f_K"/>
+   <field old="END_OBJECT Lcom/google/gson/stream/JsonToken;" new="f_L"/>
+   <field old="NAME Lcom/google/gson/stream/JsonToken;" new="f_m"/>
+   <field old="NULL Lcom/google/gson/stream/JsonToken;" new="f_l"/>
+   <field old="NUMBER Lcom/google/gson/stream/JsonToken;" new="f_c"/>
+   <field old="STRING Lcom/google/gson/stream/JsonToken;" new="f_G"/>
+  </class>
+  <class old="eu.faircode.finegeotag.NewPictureReceiver" new="eu.faircode.finegeotag.NewPictureReceiver">
+   <method old="onReceive(Landroid/content/Context;Landroid/content/Intent;)V" new="onReceive"/>
+   <field old="TAG Ljava/lang/String;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.LazilyParsedNumber" new="com.google.gson.internal.c_z">
+   <method old="doubleValue()D" new="doubleValue"/>
+   <method old="equals(Ljava/lang/Object;)Z" new="equals"/>
+   <method old="floatValue()F" new="floatValue"/>
+   <method old="hashCode()I" new="hashCode"/>
+   <method old="intValue()I" new="intValue"/>
+   <method old="longValue()J" new="longValue"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <method old="writeReplace()Ljava/lang/Object;" new="m_pb"/>
+   <field old="value Ljava/lang/String;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.JsonTreeWriter$1" new="com.google.gson.internal.bind.c_q">
+   <method old="close()V" new="close"/>
+   <method old="flush()V" new="flush"/>
+   <method old="write([CII)V" new="write"/>
+  </class>
+  <class old="com.google.gson.InstanceCreator" new="com.google.gson.c_a">
+   <method old="createInstance(Ljava/lang/reflect/Type;)Ljava/lang/Object;" new="m_A"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$1" new="com.google.gson.internal.c_y">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_i"/>
+   <field old="val$type Ljava/lang/reflect/Type;" new="f_L"/>
+   <field old="val$typeCreator Lcom/google/gson/InstanceCreator;" new="f_K"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$2" new="com.google.gson.internal.c_aa">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_i"/>
+   <field old="val$rawTypeCreator Lcom/google/gson/InstanceCreator;" new="f_K"/>
+   <field old="val$type Ljava/lang/reflect/Type;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$3" new="com.google.gson.internal.c_n">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+   <field old="val$constructor Ljava/lang/reflect/Constructor;" new="f_K"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$4" new="com.google.gson.internal.c_U">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$5" new="com.google.gson.internal.c_W">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_K"/>
+   <field old="val$type Ljava/lang/reflect/Type;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$6" new="com.google.gson.internal.c_v">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$7" new="com.google.gson.internal.c_w">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$8" new="com.google.gson.internal.c_o">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.ConstructorConstructor$9" new="com.google.gson.internal.c_Aa">
+   <method old="construct()Ljava/lang/Object;" new="m_i"/>
+   <field old="this$0 Lcom/google/gson/internal/ConstructorConstructor;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.annotations.Since" new="wy.c_I">
+   <method old="value()D" new="m_H"/>
+  </class>
+  <class old="eu.faircode.finegeotag.LocationService$LocationSerializer" new="eu.faircode.finegeotag.c_J">
+   <method old="serialize(Landroid/location/Location;)Ljava/lang/String;" new="m_l"/>
+   <method old="serialize(Landroid/location/Location;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;" new="m_C"/>
+   <method old="serialize(Ljava/lang/Object;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;" new="m_J"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedHashTreeMap" new="com.google.gson.internal.c_N">
+   <method old="clear()V" new="clear"/>
+   <method old="containsKey(Ljava/lang/Object;)Z" new="containsKey"/>
+   <method old="doubleCapacity()V" new="m_wC"/>
+   <method old="doubleCapacity([Lcom/google/gson/internal/LinkedHashTreeMap$Node;)[Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="m_Eb"/>
+   <method old="entrySet()Ljava/util/Set;" new="entrySet"/>
+   <method old="equal(Ljava/lang/Object;Ljava/lang/Object;)Z" new="m_PA"/>
+   <method old="find(Ljava/lang/Object;Z)Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="m_gc"/>
+   <method old="findByEntry(Ljava/util/Map$Entry;)Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="m_SB"/>
+   <method old="findByObject(Ljava/lang/Object;)Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="m_Lb"/>
+   <method old="get(Ljava/lang/Object;)Ljava/lang/Object;" new="get"/>
+   <method old="keySet()Ljava/util/Set;" new="keySet"/>
+   <method old="put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" new="put"/>
+   <method old="rebalance(Lcom/google/gson/internal/LinkedHashTreeMap$Node;Z)V" new="m_VC"/>
+   <method old="remove(Ljava/lang/Object;)Ljava/lang/Object;" new="remove"/>
+   <method old="removeInternal(Lcom/google/gson/internal/LinkedHashTreeMap$Node;Z)V" new="m_cB"/>
+   <method old="removeInternalByKey(Ljava/lang/Object;)Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="m_VB"/>
+   <method old="replaceInParent(Lcom/google/gson/internal/LinkedHashTreeMap$Node;Lcom/google/gson/internal/LinkedHashTreeMap$Node;)V" new="m_SA"/>
+   <method old="rotateLeft(Lcom/google/gson/internal/LinkedHashTreeMap$Node;)V" new="m_fb"/>
+   <method old="rotateRight(Lcom/google/gson/internal/LinkedHashTreeMap$Node;)V" new="m_NC"/>
+   <method old="secondaryHash(I)I" new="m_Sc"/>
+   <method old="size()I" new="size"/>
+   <method old="writeReplace()Ljava/lang/Object;" new="m_pb"/>
+   <field old="$assertionsDisabled Z" new="f_m"/>
+   <field old="NATURAL_ORDER Ljava/util/Comparator;" new="f_h"/>
+   <field old="comparator Ljava/util/Comparator;" new="f_D"/>
+   <field old="entrySet Lcom/google/gson/internal/LinkedHashTreeMap$EntrySet;" new="f_I"/>
+   <field old="header Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_B"/>
+   <field old="keySet Lcom/google/gson/internal/LinkedHashTreeMap$KeySet;" new="f_L"/>
+   <field old="modCount I" new="f_c"/>
+   <field old="size I" new="f_i"/>
+   <field old="table [Lcom/google/gson/internal/LinkedHashTreeMap$Node;" new="f_K"/>
+   <field old="threshold I" new="f_G"/>
+  </class>
+  <class old="eu.faircode.finegeotag.R$attr" new="eu.faircode.finegeotag.R$attr">
+  </class>
+  <class old="com.google.gson.JsonStreamParser" new="com.google.gson.c_f">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="hasNext()Z" new="hasNext"/>
+   <method old="next()Lcom/google/gson/JsonElement;" new="m_MB"/>
+   <method old="next()Ljava/lang/Object;" new="next"/>
+   <method old="remove()V" new="remove"/>
+   <field old="lock Ljava/lang/Object;" new="f_K"/>
+   <field old="parser Lcom/google/gson/stream/JsonReader;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedTreeMap$LinkedTreeMapIterator" new="com.google.gson.internal.c_e">
+   <method old="hasNext()Z" new="hasNext"/>
+   <method old="nextNode()Lcom/google/gson/internal/LinkedTreeMap$Node;" new="m_DA"/>
+   <method old="remove()V" new="remove"/>
+   <field old="expectedModCount I" new="f_i"/>
+   <field old="lastReturned Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_L"/>
+   <field old="next Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_K"/>
+   <field old="this$0 Lcom/google/gson/internal/LinkedTreeMap;" new="f_c"/>
+  </class>
+  <class old="com.google.gson.internal.Streams$AppendableWriter" new="com.google.gson.internal.c_k">
+   <method old="close()V" new="close"/>
+   <method old="flush()V" new="flush"/>
+   <method old="write(I)V" new="write"/>
+   <method old="write([CII)V" new="write"/>
+   <field old="appendable Ljava/lang/Appendable;" new="f_K"/>
+   <field old="currentWrite Lcom/google/gson/internal/Streams$AppendableWriter$CurrentWrite;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1" new="com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1">
+   <method old="read(Lcom/google/gson/stream/JsonReader;Ljava/lang/Object;)V" new="m_Ya"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="writeField(Ljava/lang/Object;)Z" new="m_na"/>
+   <field old="deserialized Z" new="f_K"/>
+   <field old="name Ljava/lang/String;" new="f_L"/>
+   <field old="serialized Z" new="f_i"/>
+   <field old="this$0 Lcom/google/gson/internal/bind/ReflectiveTypeAdapterFactory;" new="f_G"/>
+   <field old="typeAdapter Lcom/google/gson/TypeAdapter;" new="f_i"/>
+   <field old="val$context Lcom/google/gson/Gson;" new="f_K"/>
+   <field old="val$field Ljava/lang/reflect/Field;" new="f_L"/>
+   <field old="val$fieldType Lcom/google/gson/reflect/TypeToken;" new="f_c"/>
+   <field old="val$isPrimitive Z" new="f_m"/>
+  </class>
+  <class old="com.google.gson.annotations.Until" new="wy.c_J">
+   <method old="value()D" new="m_H"/>
+  </class>
+  <class old="eu.faircode.finegeotag.R$mipmap" new="eu.faircode.finegeotag.R$mipmap">
+   <field old="ic_launcher I" new="ic_launcher"/>
+  </class>
+  <class old="com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter" new="com.google.gson.internal.bind.c_u">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="keyToString(Lcom/google/gson/JsonElement;)Ljava/lang/String;" new="m_Oa"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/util/Map;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/util/Map;)V" new="m_xa"/>
+   <field old="constructor Lcom/google/gson/internal/ObjectConstructor;" new="f_c"/>
+   <field old="keyTypeAdapter Lcom/google/gson/TypeAdapter;" new="f_K"/>
+   <field old="this$0 Lcom/google/gson/internal/bind/MapTypeAdapterFactory;" new="f_L"/>
+   <field old="valueTypeAdapter Lcom/google/gson/TypeAdapter;" new="f_i"/>
+  </class>
+  <class old="com.google.gson.JsonDeserializationContext" new="com.google.gson.c_c">
+   <method old="deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)Ljava/lang/Object;" new="m_b"/>
+  </class>
+  <class old="com.google.gson.stream.MalformedJsonException" new="com.google.gson.stream.c_J">
+   <field old="serialVersionUID J" new="f_L"/>
+  </class>
+  <class old="com.google.gson.stream.JsonReader" new="com.google.gson.stream.c_F">
+   <method old="access$000(Lcom/google/gson/stream/JsonReader;)I" new="m_aC"/>
+   <method old="access$002(Lcom/google/gson/stream/JsonReader;I)I" new="m_Jd"/>
+   <method old="access$100(Lcom/google/gson/stream/JsonReader;)I" new="m_lb"/>
+   <method old="access$200(Lcom/google/gson/stream/JsonReader;)I" new="m_rB"/>
+   <method old="access$300(Lcom/google/gson/stream/JsonReader;)I" new="m_UA"/>
+   <method old="beginArray()V" new="m_fA"/>
+   <method old="beginObject()V" new="m_OA"/>
+   <method old="checkLenient()V" new="m_bA"/>
+   <method old="close()V" new="close"/>
+   <method old="consumeNonExecutePrefix()V" new="m_eb"/>
+   <method old="doPeek()I" new="m_hb"/>
+   <method old="endArray()V" new="m_Ib"/>
+   <method old="endObject()V" new="m_qB"/>
+   <method old="fillBuffer(I)Z" new="m_Db"/>
+   <method old="getColumnNumber()I" new="m_WB"/>
+   <method old="getLineNumber()I" new="m_nB"/>
+   <method old="getPath()Ljava/lang/String;" new="m_dA"/>
+   <method old="hasNext()Z" new="m_jb"/>
+   <method old="isLenient()Z" new="m_XC"/>
+   <method old="isLiteral(C)Z" new="m_CA"/>
+   <method old="nextBoolean()Z" new="m_aB"/>
+   <method old="nextDouble()D" new="m_sd"/>
+   <method old="nextInt()I" new="m_Yb"/>
+   <method old="nextLong()J" new="m_Wc"/>
+   <method old="nextName()Ljava/lang/String;" new="m_Nd"/>
+   <method old="nextNonWhitespace(Z)I" new="m_bc"/>
+   <method old="nextNull()V" new="m_rC"/>
+   <method old="nextQuotedValue(C)Ljava/lang/String;" new="m_kB"/>
+   <method old="nextString()Ljava/lang/String;" new="m_Ub"/>
+   <method old="nextUnquotedValue()Ljava/lang/String;" new="m_sB"/>
+   <method old="peek()Lcom/google/gson/stream/JsonToken;" new="m_mB"/>
+   <method old="peekKeyword()I" new="m_JC"/>
+   <method old="peekNumber()I" new="m_tc"/>
+   <method old="push(I)V" new="m_zA"/>
+   <method old="readEscapeCharacter()C" new="m_Ac"/>
+   <method old="setLenient(Z)V" new="m_EB"/>
+   <method old="skipQuotedValue(C)V" new="m_Dc"/>
+   <method old="skipTo(Ljava/lang/String;)Z" new="m_LA"/>
+   <method old="skipToEndOfLine()V" new="m_kA"/>
+   <method old="skipUnquotedValue()V" new="m_iB"/>
+   <method old="skipValue()V" new="m_IA"/>
+   <method old="syntaxError(Ljava/lang/String;)Ljava/io/IOException;" new="m_OC"/>
+   <method old="toString()Ljava/lang/String;" new="toString"/>
+   <field old="MIN_INCOMPLETE_INTEGER J" new="f_G"/>
+   <field old="NON_EXECUTE_PREFIX [C" new="f_W"/>
+   <field old="NUMBER_CHAR_DECIMAL I" new="f_r"/>
+   <field old="NUMBER_CHAR_DIGIT I" new="f_z"/>
+   <field old="NUMBER_CHAR_EXP_DIGIT I" new="f_e"/>
+   <field old="NUMBER_CHAR_EXP_E I" new="f_T"/>
+   <field old="NUMBER_CHAR_EXP_SIGN I" new="f_N"/>
+   <field old="NUMBER_CHAR_FRACTION_DIGIT I" new="f_S"/>
+   <field old="NUMBER_CHAR_NONE I" new="f_y"/>
+   <field old="NUMBER_CHAR_SIGN I" new="f_C"/>
+   <field old="PEEKED_BEGIN_ARRAY I" new="f_B"/>
+   <field old="PEEKED_BEGIN_OBJECT I" new="f_f"/>
+   <field old="PEEKED_BUFFERED I" new="f_i"/>
+   <field old="PEEKED_DOUBLE_QUOTED I" new="f_h"/>
+   <field old="PEEKED_DOUBLE_QUOTED_NAME I" new="f_H"/>
+   <field old="PEEKED_END_ARRAY I" new="f_D"/>
+   <field old="PEEKED_END_OBJECT I" new="f_x"/>
+   <field old="PEEKED_EOF I" new="f_o"/>
+   <field old="PEEKED_FALSE I" new="f_L"/>
+   <field old="PEEKED_LONG I" new="f_l"/>
+   <field old="PEEKED_NONE I" new="f_I"/>
+   <field old="PEEKED_NULL I" new="f_M"/>
+   <field old="PEEKED_NUMBER I" new="f_m"/>
+   <field old="PEEKED_SINGLE_QUOTED I" new="f_Z"/>
+   <field old="PEEKED_SINGLE_QUOTED_NAME I" new="f_d"/>
+   <field old="PEEKED_TRUE I" new="f_K"/>
+   <field old="PEEKED_UNQUOTED I" new="f_F"/>
+   <field old="PEEKED_UNQUOTED_NAME I" new="f_w"/>
+   <field old="buffer [C" new="f_j"/>
+   <field old="in Ljava/io/Reader;" new="f_A"/>
+   <field old="lenient Z" new="f_n"/>
+   <field old="limit I" new="f_J"/>
+   <field old="lineNumber I" new="f_c"/>
+   <field old="lineStart I" new="f_a"/>
+   <field old="pathIndices [I" new="f_P"/>
+   <field old="pathNames [Ljava/lang/String;" new="f_p"/>
+   <field old="peeked I" new="f_g"/>
+   <field old="peekedLong J" new="f_O"/>
+   <field old="peekedNumberLength I" new="f_X"/>
+   <field old="peekedString Ljava/lang/String;" new="f_E"/>
+   <field old="pos I" new="f_k"/>
+   <field old="stack [I" new="f_s"/>
+   <field old="stackSize I" new="f_b"/>
+  </class>
+  <class old="eu.faircode.finegeotag.R" new="eu.faircode.finegeotag.R">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+  </class>
+  <class old="com.google.gson.JsonDeserializer" new="com.google.gson.c_I">
+   <method old="deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;" new="m_g"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedTreeMap" new="com.google.gson.internal.c_H">
+   <method old="clear()V" new="clear"/>
+   <method old="containsKey(Ljava/lang/Object;)Z" new="containsKey"/>
+   <method old="entrySet()Ljava/util/Set;" new="entrySet"/>
+   <method old="equal(Ljava/lang/Object;Ljava/lang/Object;)Z" new="m_PA"/>
+   <method old="find(Ljava/lang/Object;Z)Lcom/google/gson/internal/LinkedTreeMap$Node;" new="m_gc"/>
+   <method old="findByEntry(Ljava/util/Map$Entry;)Lcom/google/gson/internal/LinkedTreeMap$Node;" new="m_SB"/>
+   <method old="findByObject(Ljava/lang/Object;)Lcom/google/gson/internal/LinkedTreeMap$Node;" new="m_Lb"/>
+   <method old="get(Ljava/lang/Object;)Ljava/lang/Object;" new="get"/>
+   <method old="keySet()Ljava/util/Set;" new="keySet"/>
+   <method old="put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" new="put"/>
+   <method old="rebalance(Lcom/google/gson/internal/LinkedTreeMap$Node;Z)V" new="m_pc"/>
+   <method old="remove(Ljava/lang/Object;)Ljava/lang/Object;" new="remove"/>
+   <method old="removeInternal(Lcom/google/gson/internal/LinkedTreeMap$Node;Z)V" new="m_BA"/>
+   <method old="removeInternalByKey(Ljava/lang/Object;)Lcom/google/gson/internal/LinkedTreeMap$Node;" new="m_VB"/>
+   <method old="replaceInParent(Lcom/google/gson/internal/LinkedTreeMap$Node;Lcom/google/gson/internal/LinkedTreeMap$Node;)V" new="m_UB"/>
+   <method old="rotateLeft(Lcom/google/gson/internal/LinkedTreeMap$Node;)V" new="m_ib"/>
+   <method old="rotateRight(Lcom/google/gson/internal/LinkedTreeMap$Node;)V" new="m_mC"/>
+   <method old="size()I" new="size"/>
+   <method old="writeReplace()Ljava/lang/Object;" new="m_pb"/>
+   <field old="$assertionsDisabled Z" new="f_m"/>
+   <field old="NATURAL_ORDER Ljava/util/Comparator;" new="f_B"/>
+   <field old="comparator Ljava/util/Comparator;" new="f_D"/>
+   <field old="entrySet Lcom/google/gson/internal/LinkedTreeMap$EntrySet;" new="f_K"/>
+   <field old="header Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_L"/>
+   <field old="keySet Lcom/google/gson/internal/LinkedTreeMap$KeySet;" new="f_i"/>
+   <field old="modCount I" new="f_G"/>
+   <field old="root Lcom/google/gson/internal/LinkedTreeMap$Node;" new="f_c"/>
+   <field old="size I" new="f_I"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedHashTreeMap$EntrySet" new="com.google.gson.internal.c_L">
+   <method old="clear()V" new="clear"/>
+   <method old="contains(Ljava/lang/Object;)Z" new="contains"/>
+   <method old="iterator()Ljava/util/Iterator;" new="iterator"/>
+   <method old="remove(Ljava/lang/Object;)Z" new="remove"/>
+   <method old="size()I" new="size"/>
+   <field old="this$0 Lcom/google/gson/internal/LinkedHashTreeMap;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.ExclusionStrategy" new="com.google.gson.c_B">
+   <method old="shouldSkipClass(Ljava/lang/Class;)Z" new="m_e"/>
+   <method old="shouldSkipField(Lcom/google/gson/FieldAttributes;)Z" new="m_E"/>
+  </class>
+  <class old="com.google.gson.internal.bind.ObjectTypeAdapter$1" new="com.google.gson.internal.bind.c_y">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.ObjectTypeAdapter$2" new="com.google.gson.internal.bind.c_X">
+   <field old="$SwitchMap$com$google$gson$stream$JsonToken [I" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.LinkedTreeMap$1" new="com.google.gson.internal.c_D">
+   <method old="compare(Ljava/lang/Comparable;Ljava/lang/Comparable;)I" new="m_vc"/>
+   <method old="compare(Ljava/lang/Object;Ljava/lang/Object;)I" new="compare"/>
+  </class>
+  <class old="com.google.gson.FieldAttributes" new="com.google.gson.c_aa">
+   <method old="get(Ljava/lang/Object;)Ljava/lang/Object;" new="m_hd"/>
+   <method old="getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;" new="m_hc"/>
+   <method old="getAnnotations()Ljava/util/Collection;" new="m_nb"/>
+   <method old="getDeclaredClass()Ljava/lang/Class;" new="m_tB"/>
+   <method old="getDeclaredType()Ljava/lang/reflect/Type;" new="m_mA"/>
+   <method old="getDeclaringClass()Ljava/lang/Class;" new="m_Rb"/>
+   <method old="getName()Ljava/lang/String;" new="m_KA"/>
+   <method old="hasModifier(I)Z" new="m_od"/>
+   <method old="isSynthetic()Z" new="m_Yc"/>
+   <field old="field Ljava/lang/reflect/Field;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter" new="com.google.gson.internal.bind.c_J">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Enum;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Enum;)V" new="m_ja"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <field old="constantToName Ljava/util/Map;" new="f_K"/>
+   <field old="nameToConstant Ljava/util/Map;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.ArrayTypeAdapter$1" new="com.google.gson.internal.bind.c_ma">
+   <method old="create(Lcom/google/gson/Gson;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;" new="m_L"/>
+  </class>
+  <class old="com.google.gson.internal.bind.TimeTypeAdapter" new="com.google.gson.internal.bind.c_Q">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/sql/Time;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/sql/Time;)V" new="m_Ta"/>
+   <field old="FACTORY Lcom/google/gson/TypeAdapterFactory;" new="f_L"/>
+   <field old="format Ljava/text/DateFormat;" new="f_K"/>
+  </class>
+  <class old="eu.faircode.finegeotag.R$string" new="eu.faircode.finegeotag.R$string">
+   <field old="app_name I" new="app_name"/>
+   <field old="msg_geocoder I" new="msg_geocoder"/>
+   <field old="msg_geotagged I" new="msg_geotagged"/>
+   <field old="msg_no I" new="msg_no"/>
+   <field old="msg_yes I" new="msg_yes"/>
+   <field old="summary_accuracy I" new="summary_accuracy"/>
+   <field old="summary_altitude I" new="summary_altitude"/>
+   <field old="summary_author I" new="summary_author"/>
+   <field old="summary_check I" new="summary_check"/>
+   <field old="summary_egm96 I" new="summary_egm96"/>
+   <field old="summary_enabled I" new="summary_enabled"/>
+   <field old="summary_known I" new="summary_known"/>
+   <field old="summary_license I" new="summary_license"/>
+   <field old="summary_timeout I" new="summary_timeout"/>
+   <field old="summary_toast I" new="summary_toast"/>
+   <field old="title_accuracy I" new="title_accuracy"/>
+   <field old="title_altitude I" new="title_altitude"/>
+   <field old="title_author I" new="title_author"/>
+   <field old="title_check I" new="title_check"/>
+   <field old="title_egm96 I" new="title_egm96"/>
+   <field old="title_enabled I" new="title_enabled"/>
+   <field old="title_known I" new="title_known"/>
+   <field old="title_license I" new="title_license"/>
+   <field old="title_timeout I" new="title_timeout"/>
+   <field old="title_toast I" new="title_toast"/>
+   <field old="title_version I" new="title_version"/>
+  </class>
+  <class old="com.google.gson.Gson$FutureTypeAdapter" new="com.google.gson.c_P">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="setDelegate(Lcom/google/gson/TypeAdapter;)V" new="m_Pc"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <field old="delegate Lcom/google/gson/TypeAdapter;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.stream.JsonScope" new="com.google.gson.stream.c_I">
+   <field old="CLOSED I" new="f_c"/>
+   <field old="DANGLING_NAME I" new="f_i"/>
+   <field old="EMPTY_ARRAY I" new="f_G"/>
+   <field old="EMPTY_DOCUMENT I" new="f_D"/>
+   <field old="EMPTY_OBJECT I" new="f_K"/>
+   <field old="NONEMPTY_ARRAY I" new="f_L"/>
+   <field old="NONEMPTY_DOCUMENT I" new="f_B"/>
+   <field old="NONEMPTY_OBJECT I" new="f_m"/>
+  </class>
+  <class old="com.google.gson.Gson$1" new="com.google.gson.c_Aa">
+   <method old="deserialize(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;)Ljava/lang/Object;" new="m_b"/>
+   <field old="this$0 Lcom/google/gson/Gson;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.internal.Streams" new="com.google.gson.internal.c_G">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_I"/>
+   <method old="parse(Lcom/google/gson/stream/JsonReader;)Lcom/google/gson/JsonElement;" new="m_ed"/>
+   <method old="write(Lcom/google/gson/JsonElement;Lcom/google/gson/stream/JsonWriter;)V" new="m_JB"/>
+   <method old="writerForAppendable(Ljava/lang/Appendable;)Ljava/io/Writer;" new="m_xc"/>
+  </class>
+  <class old="com.google.gson.Gson$2" new="com.google.gson.c_t">
+   <method old="serialize(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_c"/>
+   <method old="serialize(Ljava/lang/Object;Ljava/lang/reflect/Type;)Lcom/google/gson/JsonElement;" new="m_a"/>
+   <field old="this$0 Lcom/google/gson/Gson;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.Gson$3" new="com.google.gson.c_p">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Double;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Number;)V" new="m_ma"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <field old="this$0 Lcom/google/gson/Gson;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.Gson$4" new="com.google.gson.c_z">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Float;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Number;)V" new="m_ma"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+   <field old="this$0 Lcom/google/gson/Gson;" new="f_L"/>
+  </class>
+  <class old="com.google.gson.Gson$5" new="com.google.gson.c_N">
+   <method old="fromJson(Ljava/io/Reader;)Ljava/lang/Object;" new="m_Ea"/>
+   <method old="fromJson(Ljava/lang/String;)Ljava/lang/Object;" new="m_ia"/>
+   <method old="fromJsonTree(Lcom/google/gson/JsonElement;)Ljava/lang/Object;" new="m_ba"/>
+   <method old="nullSafe()Lcom/google/gson/TypeAdapter;" new="m_Ma"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Number;" new="m_Ca"/>
+   <method old="read(Lcom/google/gson/stream/JsonReader;)Ljava/lang/Object;" new="m_Ca"/>
+   <method old="toJson(Ljava/io/Writer;Ljava/lang/Object;)V" new="m_Ba"/>
+   <method old="toJson(Ljava/lang/Object;)Ljava/lang/String;" new="m_La"/>
+   <method old="toJsonTree(Ljava/lang/Object;)Lcom/google/gson/JsonElement;" new="m_r"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Number;)V" new="m_ma"/>
+   <method old="write(Lcom/google/gson/stream/JsonWriter;Ljava/lang/Object;)V" new="m_z"/>
+  </class>
+  <annotations>
+   <annotation oldClassName="com.google.gson.annotations.SerializedName" oldMethodName="value" newMethodName="m_H"/>
+   <annotation oldClassName="com.google.gson.annotations.SerializedName" oldMethodName="alternate" newMethodName="m_K"/>
+   <annotation oldClassName="com.google.gson.annotations.Until" oldMethodName="value" newMethodName="m_H"/>
+   <annotation oldClassName="com.google.gson.annotations.Since" oldMethodName="value" newMethodName="m_H"/>
+   <annotation oldClassName="com.google.gson.annotations.JsonAdapter" oldMethodName="value" newMethodName="m_H"/>
+   <annotation oldClassName="com.google.gson.annotations.Expose" oldMethodName="serialize" newMethodName="m_G"/>
+   <annotation oldClassName="com.google.gson.annotations.Expose" oldMethodName="deserialize" newMethodName="m_m"/>
+  </annotations>
+  <sources>
+   <source old="DefaultDateTypeAdapter.java" new="fb"/>
+   <source old="FieldAttributes.java" new="eb"/>
+   <source old="FieldNamingPolicy.java" new="ib"/>
+   <source old="Gson.java" new="ob"/>
+   <source old="GsonBuilder.java" new="bb"/>
+   <source old="JsonArray.java" new="ab"/>
+   <source old="JsonIOException.java" new="mb"/>
+   <source old="JsonNull.java" new="zb"/>
+   <source old="JsonObject.java" new="jb"/>
+   <source old="JsonParser.java" new="db"/>
+   <source old="JsonPrimitive.java" new="kb"/>
+   <source old="JsonElement.java" new="tb"/>
+   <source old="JsonStreamParser.java" new="sb"/>
+   <source old="JsonSyntaxException.java" new="vb"/>
+   <source old="JsonParseException.java" new="pb"/>
+   <source old="LongSerializationPolicy.java" new="wb"/>
+   <source old="TreeTypeAdapter.java" new="nb"/>
+   <source old="$Gson$Preconditions.java" new="ha"/>
+   <source old="$Gson$Types.java" new="pa"/>
+   <source old="ConstructorConstructor.java" new="xa"/>
+   <source old="Excluder.java" new="fa"/>
+   <source old="LazilyParsedNumber.java" new="ja"/>
+   <source old="LinkedHashTreeMap.java" new="aa"/>
+   <source old="LinkedTreeMap.java" new="oa"/>
+   <source old="Primitives.java" new="ba"/>
+   <source old="Streams.java" new="na"/>
+   <source old="UnsafeAllocator.java" new="ga"/>
+   <source old="ArrayTypeAdapter.java" new="ka"/>
+   <source old="CollectionTypeAdapterFactory.java" new="qa"/>
+   <source old="DateTypeAdapter.java" new="ea"/>
+   <source old="JsonAdapterAnnotationTypeAdapterFactory.java" new="va"/>
+   <source old="JsonTreeReader.java" new="ta"/>
+   <source old="JsonWriter.java" new="ma"/>
+   <source old="JsonTreeWriter.java" new="ya"/>
+   <source old="MapTypeAdapterFactory.java" new="ia"/>
+   <source old="ObjectTypeAdapter.java" new="ua"/>
+   <source old="ReflectiveTypeAdapterFactory.java" new="ca"/>
+   <source old="SqlDateTypeAdapter.java" new="sa"/>
+   <source old="TimeTypeAdapter.java" new="ra"/>
+   <source old="TypeAdapterRuntimeTypeWrapper.java" new="za"/>
+   <source old="TypeAdapters.java" new="wa"/>
+   <source old="TypeAdapter.java" new="da"/>
+   <source old="ISO8601Utils.java" new="la"/>
+   <source old="TypeToken.java" new="m"/>
+   <source old="JsonReader.java" new="g"/>
+   <source old="JsonReaderInternalAccess.java" new="k"/>
+   <source old="JsonScope.java" new="b"/>
+   <source old="JsonToken.java" new="c"/>
+   <source old="MalformedJsonException.java" new="z"/>
+   <source old="ActivitySettings.java" new="w"/>
+   <source old="BuildConfig.java" new="j"/>
+   <source old="ExifInterfaceEx.java" new="f"/>
+   <source old="LocationService.java" new="v"/>
+   <source old="NewPictureReceiver.java" new="t"/>
+   <source old="R.java" new="s"/>
+   <source old="ExclusionStrategy.java" new="a"/>
+   <source old="FieldNamingStrategy.java" new="u"/>
+   <source old="JsonDeserializationContext.java" new="n"/>
+   <source old="JsonSerializationContext.java" new="p"/>
+   <source old="InstanceCreator.java" new="e"/>
+   <source old="Expose.java" new="l"/>
+   <source old="JsonAdapter.java" new="d"/>
+   <source old="SerializedName.java" new="r"/>
+   <source old="Since.java" new="y"/>
+   <source old="Until.java" new="i"/>
+   <source old="ObjectConstructor.java" new="q"/>
+   <source old="TypeAdapterFactory.java" new="x"/>
+   <source old="JsonDeserializer.java" new="o"/>
+   <source old="JsonSerializer.java" new="h"/>
+  </sources>
+  <lines>
+   <line l="96"/>
+   <line l="159"/>
+   <line l="40"/>
+   <line l="230"/>
+   <line l="35"/>
+   <line l="19"/>
+   <line l="25"/>
+   <line l="228"/>
+   <line l="212"/>
+   <line l="161"/>
+   <line l="17"/>
+   <line l="140"/>
+   <line l="201"/>
+   <line l="167"/>
+   <line l="58"/>
+   <line l="42"/>
+   <line l="174"/>
+   <line l="209"/>
+   <line l="12"/>
+   <line l="238"/>
+   <line l="50"/>
+   <line l="105"/>
+   <line l="196"/>
+   <line l="168"/>
+   <line l="234"/>
+   <line l="249"/>
+   <line l="233"/>
+   <line l="226"/>
+   <line l="236"/>
+   <line l="150"/>
+   <line l="71"/>
+   <line l="149"/>
+   <line l="122"/>
+   <line l="151"/>
+   <line l="66"/>
+   <line l="176"/>
+   <line l="166"/>
+   <line l="13"/>
+   <line l="130"/>
+   <line l="189"/>
+   <line l="54"/>
+   <line l="162"/>
+   <line l="246"/>
+   <line l="117"/>
+   <line l="120"/>
+   <line l="170"/>
+   <line l="6"/>
+   <line l="98"/>
+   <line l="113"/>
+   <line l="247"/>
+   <line l="62"/>
+   <line l="164"/>
+   <line l="108"/>
+   <line l="14"/>
+   <line l="38"/>
+   <line l="21"/>
+   <line l="92"/>
+   <line l="193"/>
+   <line l="135"/>
+   <line l="118"/>
+   <line l="208"/>
+   <line l="199"/>
+   <line l="194"/>
+   <line l="186"/>
+   <line l="63"/>
+   <line l="43"/>
+   <line l="85"/>
+   <line l="231"/>
+   <line l="26"/>
+   <line l="65"/>
+   <line l="23"/>
+   <line l="133"/>
+   <line l="5"/>
+   <line l="45"/>
+   <line l="59"/>
+   <line l="52"/>
+   <line l="89"/>
+   <line l="99"/>
+   <line l="210"/>
+   <line l="2"/>
+   <line l="121"/>
+   <line l="57"/>
+   <line l="219"/>
+   <line l="181"/>
+   <line l="73"/>
+   <line l="115"/>
+   <line l="110"/>
+   <line l="75"/>
+   <line l="95"/>
+   <line l="68"/>
+   <line l="144"/>
+   <line l="9"/>
+   <line l="200"/>
+   <line l="3"/>
+   <line l="214"/>
+   <line l="191"/>
+   <line l="225"/>
+   <line l="211"/>
+   <line l="37"/>
+   <line l="56"/>
+   <line l="243"/>
+   <line l="44"/>
+   <line l="10"/>
+   <line l="254"/>
+   <line l="111"/>
+   <line l="97"/>
+   <line l="4"/>
+   <line l="48"/>
+   <line l="173"/>
+   <line l="142"/>
+   <line l="104"/>
+   <line l="79"/>
+   <line l="11"/>
+   <line l="153"/>
+   <line l="83"/>
+   <line l="49"/>
+   <line l="127"/>
+   <line l="72"/>
+   <line l="31"/>
+   <line l="202"/>
+   <line l="100"/>
+   <line l="215"/>
+   <line l="131"/>
+   <line l="64"/>
+   <line l="86"/>
+   <line l="90"/>
+   <line l="28"/>
+   <line l="188"/>
+   <line l="18"/>
+   <line l="82"/>
+   <line l="143"/>
+   <line l="207"/>
+   <line l="248"/>
+   <line l="180"/>
+   <line l="222"/>
+   <line l="16"/>
+   <line l="114"/>
+   <line l="239"/>
+   <line l="7"/>
+   <line l="163"/>
+   <line l="139"/>
+   <line l="241"/>
+   <line l="183"/>
+   <line l="74"/>
+   <line l="88"/>
+   <line l="30"/>
+   <line l="80"/>
+   <line l="129"/>
+   <line l="250"/>
+   <line l="60"/>
+   <line l="251"/>
+   <line l="84"/>
+   <line l="106"/>
+   <line l="242"/>
+   <line l="220"/>
+   <line l="32"/>
+   <line l="101"/>
+   <line l="235"/>
+   <line l="119"/>
+   <line l="116"/>
+   <line l="152"/>
+   <line l="41"/>
+   <line l="190"/>
+   <line l="204"/>
+   <line l="91"/>
+   <line l="187"/>
+   <line l="217"/>
+   <line l="184"/>
+   <line l="22"/>
+   <line l="34"/>
+   <line l="224"/>
+   <line l="61"/>
+   <line l="197"/>
+   <line l="39"/>
+   <line l="27"/>
+   <line l="123"/>
+   <line l="94"/>
+   <line l="154"/>
+   <line l="206"/>
+   <line l="147"/>
+   <line l="148"/>
+   <line l="244"/>
+   <line l="223"/>
+   <line l="165"/>
+   <line l="138"/>
+   <line l="70"/>
+   <line l="136"/>
+   <line l="169"/>
+   <line l="126"/>
+   <line l="171"/>
+   <line l="8"/>
+   <line l="76"/>
+   <line l="124"/>
+   <line l="33"/>
+   <line l="177"/>
+   <line l="87"/>
+   <line l="232"/>
+   <line l="218"/>
+   <line l="158"/>
+   <line l="24"/>
+   <line l="78"/>
+   <line l="145"/>
+   <line l="46"/>
+   <line l="134"/>
+   <line l="125"/>
+   <line l="185"/>
+   <line l="132"/>
+   <line l="0"/>
+   <line l="221"/>
+   <line l="229"/>
+   <line l="93"/>
+   <line l="205"/>
+   <line l="213"/>
+   <line l="198"/>
+   <line l="15"/>
+   <line l="227"/>
+   <line l="160"/>
+   <line l="146"/>
+   <line l="237"/>
+   <line l="51"/>
+   <line l="141"/>
+   <line l="67"/>
+   <line l="192"/>
+   <line l="245"/>
+   <line l="53"/>
+   <line l="36"/>
+   <line l="203"/>
+   <line l="1"/>
+   <line l="252"/>
+   <line l="216"/>
+   <line l="155"/>
+   <line l="55"/>
+   <line l="47"/>
+   <line l="103"/>
+   <line l="77"/>
+   <line l="172"/>
+   <line l="69"/>
+   <line l="107"/>
+   <line l="179"/>
+   <line l="253"/>
+   <line l="157"/>
+   <line l="128"/>
+   <line l="112"/>
+   <line l="81"/>
+   <line l="29"/>
+   <line l="178"/>
+   <line l="175"/>
+   <line l="102"/>
+   <line l="137"/>
+   <line l="195"/>
+   <line l="156"/>
+   <line l="109"/>
+   <line l="240"/>
+   <line l="20"/>
+   <line l="182"/>
+   <line l="487"/>
+   <line l="491"/>
+   <line l="440"/>
+   <line l="313"/>
+   <line l="496"/>
+   <line l="328"/>
+   <line l="286"/>
+   <line l="483"/>
+   <line l="280"/>
+   <line l="273"/>
+   <line l="411"/>
+   <line l="476"/>
+   <line l="531"/>
+   <line l="467"/>
+   <line l="486"/>
+   <line l="367"/>
+   <line l="380"/>
+   <line l="514"/>
+   <line l="264"/>
+   <line l="320"/>
+   <line l="511"/>
+   <line l="399"/>
+   <line l="344"/>
+   <line l="319"/>
+   <line l="349"/>
+   <line l="381"/>
+   <line l="508"/>
+   <line l="332"/>
+   <line l="459"/>
+   <line l="408"/>
+   <line l="441"/>
+   <line l="355"/>
+   <line l="536"/>
+   <line l="471"/>
+   <line l="519"/>
+   <line l="469"/>
+   <line l="526"/>
+   <line l="478"/>
+   <line l="358"/>
+   <line l="509"/>
+   <line l="291"/>
+   <line l="368"/>
+   <line l="314"/>
+   <line l="443"/>
+   <line l="513"/>
+   <line l="329"/>
+   <line l="302"/>
+   <line l="518"/>
+   <line l="535"/>
+   <line l="492"/>
+   <line l="391"/>
+   <line l="497"/>
+   <line l="396"/>
+   <line l="255"/>
+   <line l="435"/>
+   <line l="304"/>
+   <line l="465"/>
+   <line l="325"/>
+   <line l="425"/>
+   <line l="317"/>
+   <line l="434"/>
+   <line l="267"/>
+   <line l="424"/>
+   <line l="376"/>
+   <line l="419"/>
+   <line l="436"/>
+   <line l="428"/>
+   <line l="414"/>
+   <line l="266"/>
+   <line l="278"/>
+   <line l="442"/>
+   <line l="340"/>
+   <line l="285"/>
+   <line l="257"/>
+   <line l="271"/>
+   <line l="292"/>
+   <line l="454"/>
+   <line l="457"/>
+   <line l="262"/>
+   <line l="501"/>
+   <line l="372"/>
+   <line l="466"/>
+   <line l="375"/>
+   <line l="500"/>
+   <line l="379"/>
+   <line l="455"/>
+   <line l="290"/>
+   <line l="493"/>
+   <line l="369"/>
+   <line l="345"/>
+   <line l="538"/>
+   <line l="402"/>
+   <line l="415"/>
+   <line l="343"/>
+   <line l="370"/>
+   <line l="303"/>
+   <line l="444"/>
+   <line l="392"/>
+   <line l="282"/>
+   <line l="354"/>
+   <line l="321"/>
+   <line l="450"/>
+   <line l="416"/>
+   <line l="445"/>
+   <line l="293"/>
+   <line l="297"/>
+   <line l="341"/>
+   <line l="462"/>
+   <line l="489"/>
+   <line l="335"/>
+   <line l="506"/>
+   <line l="421"/>
+   <line l="365"/>
+   <line l="433"/>
+   <line l="373"/>
+   <line l="309"/>
+   <line l="527"/>
+   <line l="525"/>
+   <line l="472"/>
+   <line l="284"/>
+   <line l="422"/>
+   <line l="326"/>
+   <line l="287"/>
+   <line l="276"/>
+   <line l="353"/>
+   <line l="289"/>
+   <line l="268"/>
+   <line l="377"/>
+   <line l="532"/>
+   <line l="494"/>
+   <line l="533"/>
+   <line l="306"/>
+   <line l="337"/>
+   <line l="357"/>
+   <line l="348"/>
+   <line l="530"/>
+   <line l="528"/>
+   <line l="484"/>
+   <line l="479"/>
+   <line l="453"/>
+   <line l="260"/>
+   <line l="333"/>
+   <line l="300"/>
+   <line l="520"/>
+   <line l="378"/>
+   <line l="540"/>
+   <line l="390"/>
+   <line l="311"/>
+   <line l="505"/>
+   <line l="409"/>
+   <line l="430"/>
+   <line l="417"/>
+   <line l="356"/>
+   <line l="298"/>
+   <line l="318"/>
+   <line l="322"/>
+   <line l="261"/>
+   <line l="397"/>
+   <line l="405"/>
+   <line l="269"/>
+   <line l="350"/>
+   <line l="359"/>
+   <line l="401"/>
+   <line l="352"/>
+   <line l="383"/>
+   <line l="437"/>
+   <line l="470"/>
+   <line l="431"/>
+   <line l="315"/>
+   <line l="423"/>
+   <line l="516"/>
+   <line l="347"/>
+   <line l="463"/>
+   <line l="265"/>
+   <line l="312"/>
+   <line l="394"/>
+   <line l="307"/>
+   <line l="461"/>
+   <line l="515"/>
+   <line l="407"/>
+   <line l="351"/>
+   <line l="438"/>
+   <line l="366"/>
+   <line l="296"/>
+   <line l="270"/>
+   <line l="523"/>
+   <line l="404"/>
+   <line l="464"/>
+   <line l="529"/>
+   <line l="275"/>
+   <line l="410"/>
+   <line l="398"/>
+   <line l="452"/>
+   <line l="403"/>
+   <line l="324"/>
+   <line l="393"/>
+   <line l="468"/>
+   <line l="330"/>
+   <line l="305"/>
+   <line l="362"/>
+   <line l="274"/>
+   <line l="480"/>
+   <line l="474"/>
+   <line l="495"/>
+   <line l="339"/>
+   <line l="498"/>
+   <line l="279"/>
+   <line l="512"/>
+   <line l="382"/>
+   <line l="510"/>
+   <line l="412"/>
+   <line l="256"/>
+   <line l="388"/>
+   <line l="277"/>
+   <line l="446"/>
+   <line l="342"/>
+   <line l="473"/>
+   <line l="427"/>
+   <line l="481"/>
+   <line l="406"/>
+   <line l="400"/>
+   <line l="490"/>
+   <line l="385"/>
+   <line l="258"/>
+   <line l="507"/>
+   <line l="539"/>
+   <line l="488"/>
+   <line l="485"/>
+   <line l="522"/>
+   <line l="449"/>
+   <line l="503"/>
+   <line l="364"/>
+   <line l="389"/>
+   <line l="371"/>
+   <line l="504"/>
+   <line l="477"/>
+   <line l="456"/>
+   <line l="327"/>
+   <line l="384"/>
+   <line l="310"/>
+   <line l="460"/>
+   <line l="259"/>
+   <line l="537"/>
+   <line l="429"/>
+   <line l="331"/>
+   <line l="363"/>
+   <line l="338"/>
+   <line l="482"/>
+   <line l="323"/>
+   <line l="447"/>
+   <line l="308"/>
+   <line l="294"/>
+   <line l="439"/>
+   <line l="420"/>
+   <line l="426"/>
+   <line l="283"/>
+   <line l="346"/>
+   <line l="432"/>
+   <line l="458"/>
+   <line l="475"/>
+   <line l="534"/>
+   <line l="336"/>
+   <line l="395"/>
+   <line l="288"/>
+   <line l="502"/>
+   <line l="517"/>
+   <line l="301"/>
+   <line l="316"/>
+   <line l="334"/>
+   <line l="360"/>
+   <line l="374"/>
+   <line l="499"/>
+   <line l="413"/>
+   <line l="272"/>
+   <line l="521"/>
+   <line l="295"/>
+   <line l="387"/>
+   <line l="281"/>
+   <line l="263"/>
+   <line l="361"/>
+   <line l="418"/>
+   <line l="299"/>
+   <line l="451"/>
+   <line l="448"/>
+   <line l="386"/>
+   <line l="524"/>
+   <line l="1196"/>
+   <line l="1653"/>
+   <line l="1384"/>
+   <line l="985"/>
+   <line l="925"/>
+   <line l="1213"/>
+   <line l="962"/>
+   <line l="1644"/>
+   <line l="1670"/>
+   <line l="737"/>
+   <line l="802"/>
+   <line l="1228"/>
+   <line l="577"/>
+   <line l="1632"/>
+   <line l="1272"/>
+   <line l="1280"/>
+   <line l="906"/>
+   <line l="1270"/>
+   <line l="1149"/>
+   <line l="858"/>
+   <line l="1151"/>
+   <line l="811"/>
+   <line l="1423"/>
+   <line l="815"/>
+   <line l="942"/>
+   <line l="1078"/>
+   <line l="1292"/>
+   <line l="1204"/>
+   <line l="1238"/>
+   <line l="1740"/>
+   <line l="893"/>
+   <line l="1597"/>
+   <line l="1324"/>
+   <line l="1169"/>
+   <line l="706"/>
+   <line l="1754"/>
+   <line l="897"/>
+   <line l="687"/>
+   <line l="1814"/>
+   <line l="1748"/>
+   <line l="1089"/>
+   <line l="1608"/>
+   <line l="1439"/>
+   <line l="1094"/>
+   <line l="1784"/>
+   <line l="752"/>
+   <line l="1079"/>
+   <line l="960"/>
+   <line l="744"/>
+   <line l="1122"/>
+   <line l="763"/>
+   <line l="1776"/>
+   <line l="1788"/>
+   <line l="812"/>
+   <line l="558"/>
+   <line l="1775"/>
+   <line l="1186"/>
+   <line l="1803"/>
+   <line l="1716"/>
+   <line l="1015"/>
+   <line l="1016"/>
+   <line l="1642"/>
+   <line l="1538"/>
+   <line l="1057"/>
+   <line l="1695"/>
+   <line l="1097"/>
+   <line l="1019"/>
+   <line l="708"/>
+   <line l="1101"/>
+   <line l="1445"/>
+   <line l="655"/>
+   <line l="1099"/>
+   <line l="1594"/>
+   <line l="1175"/>
+   <line l="597"/>
+   <line l="1656"/>
+   <line l="908"/>
+   <line l="1046"/>
+   <line l="1549"/>
+   <line l="1606"/>
+   <line l="1387"/>
+   <line l="885"/>
+   <line l="761"/>
+   <line l="1404"/>
+   <line l="1420"/>
+   <line l="672"/>
+   <line l="605"/>
+   <line l="1295"/>
+   <line l="1063"/>
+   <line l="1596"/>
+   <line l="594"/>
+   <line l="1201"/>
+   <line l="1306"/>
+   <line l="1789"/>
+   <line l="1258"/>
+   <line l="1535"/>
+   <line l="1724"/>
+   <line l="1680"/>
+   <line l="1711"/>
+   <line l="1411"/>
+   <line l="1509"/>
+   <line l="1545"/>
+   <line l="1456"/>
+   <line l="746"/>
+   <line l="1679"/>
+   <line l="1554"/>
+   <line l="1687"/>
+   <line l="1719"/>
+   <line l="1584"/>
+   <line l="768"/>
+   <line l="1449"/>
+   <line l="1126"/>
+   <line l="602"/>
+   <line l="830"/>
+   <line l="1771"/>
+   <line l="1709"/>
+   <line l="773"/>
+   <line l="1021"/>
+   <line l="1747"/>
+   <line l="1281"/>
+   <line l="1194"/>
+   <line l="937"/>
+   <line l="731"/>
+   <line l="1150"/>
+   <line l="1587"/>
+   <line l="715"/>
+   <line l="1012"/>
+   <line l="878"/>
+   <line l="1816"/>
+   <line l="1779"/>
+   <line l="1819"/>
+   <line l="1050"/>
+   <line l="913"/>
+   <line l="1785"/>
+   <line l="1704"/>
+   <line l="1328"/>
+   <line l="1243"/>
+   <line l="1440"/>
+   <line l="1273"/>
+   <line l="854"/>
+   <line l="1332"/>
+   <line l="774"/>
+   <line l="1631"/>
+   <line l="1206"/>
+   <line l="1585"/>
+   <line l="1489"/>
+   <line l="1496"/>
+   <line l="725"/>
+   <line l="1486"/>
+   <line l="1221"/>
+   <line l="778"/>
+   <line l="1809"/>
+   <line l="1022"/>
+   <line l="1818"/>
+   <line l="1200"/>
+   <line l="645"/>
+   <line l="1424"/>
+   <line l="989"/>
+   <line l="1650"/>
+   <line l="1061"/>
+   <line l="618"/>
+   <line l="640"/>
+   <line l="1163"/>
+   <line l="966"/>
+   <line l="1263"/>
+   <line l="1065"/>
+   <line l="1677"/>
+   <line l="1031"/>
+   <line l="1555"/>
+   <line l="1376"/>
+   <line l="865"/>
+   <line l="1283"/>
+   <line l="805"/>
+   <line l="891"/>
+   <line l="1403"/>
+   <line l="630"/>
+   <line l="1307"/>
+   <line l="561"/>
+   <line l="1474"/>
+   <line l="935"/>
+   <line l="1527"/>
+   <line l="549"/>
+   <line l="1093"/>
+   <line l="921"/>
+   <line l="702"/>
+   <line l="1447"/>
+   <line l="1678"/>
+   <line l="1810"/>
+   <line l="1056"/>
+   <line l="1162"/>
+   <line l="1571"/>
+   <line l="803"/>
+   <line l="866"/>
+   <line l="848"/>
+   <line l="950"/>
+   <line l="1110"/>
+   <line l="1511"/>
+   <line l="1252"/>
+   <line l="1654"/>
+   <line l="1318"/>
+   <line l="701"/>
+   <line l="1402"/>
+   <line l="1767"/>
+   <line l="1685"/>
+   <line l="781"/>
+   <line l="964"/>
+   <line l="690"/>
+   <line l="856"/>
+   <line l="940"/>
+   <line l="1702"/>
+   <line l="1753"/>
+   <line l="1581"/>
+   <line l="714"/>
+   <line l="633"/>
+   <line l="639"/>
+   <line l="1029"/>
+   <line l="1388"/>
+   <line l="1637"/>
+   <line l="1773"/>
+   <line l="1689"/>
+   <line l="1338"/>
+   <line l="1343"/>
+   <line l="775"/>
+   <line l="1600"/>
+   <line l="1261"/>
+   <line l="1516"/>
+   <line l="1096"/>
+   <line l="652"/>
+   <line l="1433"/>
+   <line l="1197"/>
+   <line l="1529"/>
+   <line l="644"/>
+   <line l="1120"/>
+   <line l="1153"/>
+   <line l="1708"/>
+   <line l="1322"/>
+   <line l="938"/>
+   <line l="1121"/>
+   <line l="1407"/>
+   <line l="609"/>
+   <line l="682"/>
+   <line l="1579"/>
+   <line l="643"/>
+   <line l="882"/>
+   <line l="1453"/>
+   <line l="1421"/>
+   <line l="1598"/>
+   <line l="621"/>
+   <line l="1426"/>
+   <line l="1466"/>
+   <line l="1660"/>
+   <line l="722"/>
+   <line l="1662"/>
+   <line l="875"/>
+   <line l="553"/>
+   <line l="988"/>
+   <line l="670"/>
+   <line l="1115"/>
+   <line l="1156"/>
+   <line l="1546"/>
+   <line l="910"/>
+   <line l="1242"/>
+   <line l="1807"/>
+   <line l="743"/>
+   <line l="1128"/>
+   <line l="1493"/>
+   <line l="1386"/>
+   <line l="1763"/>
+   <line l="1358"/>
+   <line l="998"/>
+   <line l="902"/>
+   <line l="1298"/>
+   <line l="929"/>
+   <line l="934"/>
+   <line l="1180"/>
+   <line l="1372"/>
+   <line l="788"/>
+   <line l="1552"/>
+   <line l="790"/>
+   <line l="1682"/>
+   <line l="622"/>
+   <line l="1383"/>
+   <line l="1107"/>
+   <line l="570"/>
+   <line l="1109"/>
+   <line l="904"/>
+   <line l="1146"/>
+   <line l="684"/>
+   <line l="1091"/>
+   <line l="1464"/>
+   <line l="1503"/>
+   <line l="1393"/>
+   <line l="833"/>
+   <line l="696"/>
+   <line l="1530"/>
+   <line l="1141"/>
+   <line l="1380"/>
+   <line l="656"/>
+   <line l="1360"/>
+   <line l="1275"/>
+   <line l="1249"/>
+   <line l="1444"/>
+   <line l="1134"/>
+   <line l="785"/>
+   <line l="665"/>
+   <line l="728"/>
+   <line l="721"/>
+   <line l="915"/>
+   <line l="851"/>
+   <line l="1051"/>
+   <line l="1723"/>
+   <line l="1726"/>
+   <line l="717"/>
+   <line l="1701"/>
+   <line l="1037"/>
+   <line l="1279"/>
+   <line l="1232"/>
+   <line l="582"/>
+   <line l="895"/>
+   <line l="1760"/>
+   <line l="1442"/>
+   <line l="1157"/>
+   <line l="740"/>
+   <line l="1090"/>
+   <line l="1187"/>
+   <line l="1326"/>
+   <line l="664"/>
+   <line l="1568"/>
+   <line l="1131"/>
+   <line l="1812"/>
+   <line l="1457"/>
+   <line l="1062"/>
+   <line l="1047"/>
+   <line l="1522"/>
+   <line l="1804"/>
+   <line l="764"/>
+   <line l="1173"/>
+   <line l="912"/>
+   <line l="1364"/>
+   <line l="1639"/>
+   <line l="1184"/>
+   <line l="691"/>
+   <line l="1203"/>
+   <line l="834"/>
+   <line l="1573"/>
+   <line l="1000"/>
+   <line l="1475"/>
+   <line l="629"/>
+   <line l="825"/>
+   <line l="829"/>
+   <line l="877"/>
+   <line l="1766"/>
+   <line l="800"/>
+   <line l="1297"/>
+   <line l="760"/>
+   <line l="661"/>
+   <line l="1014"/>
+   <line l="543"/>
+   <line l="1463"/>
+   <line l="780"/>
+   <line l="1136"/>
+   <line l="1413"/>
+   <line l="957"/>
+   <line l="745"/>
+   <line l="1309"/>
+   <line l="983"/>
+   <line l="1379"/>
+   <line l="1100"/>
+   <line l="982"/>
+   <line l="992"/>
+   <line l="1609"/>
+   <line l="1370"/>
+   <line l="1625"/>
+   <line l="1105"/>
+   <line l="810"/>
+   <line l="827"/>
+   <line l="1316"/>
+   <line l="707"/>
+   <line l="1693"/>
+   <line l="974"/>
+   <line l="660"/>
+   <line l="1630"/>
+   <line l="927"/>
+   <line l="1070"/>
+   <line l="1560"/>
+   <line l="1290"/>
+   <line l="1230"/>
+   <line l="981"/>
+   <line l="1276"/>
+   <line l="1430"/>
+   <line l="694"/>
+   <line l="1488"/>
+   <line l="1112"/>
+   <line l="574"/>
+   <line l="1185"/>
+   <line l="1075"/>
+   <line l="1268"/>
+   <line l="1622"/>
+   <line l="1174"/>
+   <line l="850"/>
+   <line l="741"/>
+   <line l="914"/>
+   <line l="1801"/>
+   <line l="1209"/>
+   <line l="1715"/>
+   <line l="1774"/>
+   <line l="671"/>
+   <line l="567"/>
+   <line l="556"/>
+   <line l="1749"/>
+   <line l="1250"/>
+   <line l="1013"/>
+   <line l="1649"/>
+   <line l="578"/>
+   <line l="1076"/>
+   <line l="1085"/>
+   <line l="1127"/>
+   <line l="1419"/>
+   <line l="601"/>
+   <line l="1207"/>
+   <line l="1566"/>
+   <line l="977"/>
+   <line l="1519"/>
+   <line l="789"/>
+   <line l="747"/>
+   <line l="1006"/>
+   <line l="1253"/>
+   <line l="624"/>
+   <line l="1602"/>
+   <line l="1636"/>
+   <line l="1045"/>
+   <line l="863"/>
+   <line l="1681"/>
+   <line l="1787"/>
+   <line l="823"/>
+   <line l="1038"/>
+   <line l="1111"/>
+   <line l="1123"/>
+   <line l="1004"/>
+   <line l="1397"/>
+   <line l="575"/>
+   <line l="1504"/>
+   <line l="557"/>
+   <line l="1459"/>
+   <line l="1274"/>
+   <line l="1805"/>
+   <line l="1080"/>
+   <line l="1707"/>
+   <line l="1317"/>
+   <line l="1690"/>
+   <line l="1235"/>
+   <line l="1113"/>
+   <line l="754"/>
+   <line l="1730"/>
+   <line l="1694"/>
+   <line l="1813"/>
+   <line l="1055"/>
+   <line l="1399"/>
+   <line l="1770"/>
+   <line l="1478"/>
+   <line l="868"/>
+   <line l="1311"/>
+   <line l="1266"/>
+   <line l="779"/>
+   <line l="1512"/>
+   <line l="542"/>
+   <line l="1461"/>
+   <line l="736"/>
+   <line l="550"/>
+   <line l="822"/>
+   <line l="838"/>
+   <line l="1454"/>
+   <line l="1205"/>
+   <line l="1557"/>
+   <line l="1077"/>
+   <line l="816"/>
+   <line l="959"/>
+   <line l="1231"/>
+   <line l="753"/>
+   <line l="615"/>
+   <line l="1409"/>
+   <line l="1434"/>
+   <line l="635"/>
+   <line l="1354"/>
+   <line l="1391"/>
+   <line l="896"/>
+   <line l="883"/>
+   <line l="1082"/>
+   <line l="1140"/>
+   <line l="1350"/>
+   <line l="1362"/>
+   <line l="1277"/>
+   <line l="987"/>
+   <line l="1590"/>
+   <line l="589"/>
+   <line l="1394"/>
+   <line l="1396"/>
+   <line l="832"/>
+   <line l="709"/>
+   <line l="587"/>
+   <line l="1005"/>
+   <line l="791"/>
+   <line l="1635"/>
+   <line l="944"/>
+   <line l="864"/>
+   <line l="1443"/>
+   <line l="1731"/>
+   <line l="668"/>
+   <line l="1300"/>
+   <line l="907"/>
+   <line l="757"/>
+   <line l="787"/>
+   <line l="749"/>
+   <line l="980"/>
+   <line l="1286"/>
+   <line l="1190"/>
+   <line l="1780"/>
+   <line l="689"/>
+   <line l="807"/>
+   <line l="552"/>
+   <line l="1321"/>
+   <line l="679"/>
+   <line l="1042"/>
+   <line l="1513"/>
+   <line l="1119"/>
+   <line l="650"/>
+   <line l="1437"/>
+   <line l="1224"/>
+   <line l="1158"/>
+   <line l="1118"/>
+   <line l="828"/>
+   <line l="1285"/>
+   <line l="1351"/>
+   <line l="1497"/>
+   <line l="1616"/>
+   <line l="1334"/>
+   <line l="1796"/>
+   <line l="1398"/>
+   <line l="855"/>
+   <line l="1247"/>
+   <line l="632"/>
+   <line l="1567"/>
+   <line l="1060"/>
+   <line l="1604"/>
+   <line l="1576"/>
+   <line l="955"/>
+   <line l="1132"/>
+   <line l="1348"/>
+   <line l="1452"/>
+   <line l="1490"/>
+   <line l="1427"/>
+   <line l="1369"/>
+   <line l="559"/>
+   <line l="1401"/>
+   <line l="1329"/>
+   <line l="1507"/>
+   <line l="1643"/>
+   <line l="1471"/>
+   <line l="999"/>
+   <line l="1472"/>
+   <line l="1026"/>
+   <line l="1049"/>
+   <line l="710"/>
+   <line l="1053"/>
+   <line l="1178"/>
+   <line l="1020"/>
+   <line l="683"/>
+   <line l="923"/>
+   <line l="1431"/>
+   <line l="627"/>
+   <line l="1638"/>
+   <line l="873"/>
+   <line l="1746"/>
+   <line l="869"/>
+   <line l="1446"/>
+   <line l="1010"/>
+   <line l="1465"/>
+   <line l="1563"/>
+   <line l="1161"/>
+   <line l="1296"/>
+   <line l="1713"/>
+   <line l="748"/>
+   <line l="1675"/>
+   <line l="695"/>
+   <line l="662"/>
+   <line l="1260"/>
+   <line l="758"/>
+   <line l="814"/>
+   <line l="1373"/>
+   <line l="1802"/>
+   <line l="1736"/>
+   <line l="861"/>
+   <line l="697"/>
+   <line l="1133"/>
+   <line l="949"/>
+   <line l="681"/>
+   <line l="853"/>
+   <line l="963"/>
+   <line l="1541"/>
+   <line l="1337"/>
+   <line l="1759"/>
+   <line l="742"/>
+   <line l="596"/>
+   <line l="677"/>
+   <line l="1256"/>
+   <line l="1262"/>
+   <line l="970"/>
+   <line l="818"/>
+   <line l="1481"/>
+   <line l="1246"/>
+   <line l="724"/>
+   <line l="1633"/>
+   <line l="845"/>
+   <line l="1491"/>
+   <line l="562"/>
+   <line l="786"/>
+   <line l="1811"/>
+   <line l="1525"/>
+   <line l="1183"/>
+   <line l="1699"/>
+   <line l="817"/>
+   <line l="1417"/>
+   <line l="766"/>
+   <line l="711"/>
+   <line l="1428"/>
+   <line l="928"/>
+   <line l="1756"/>
+   <line l="581"/>
+   <line l="647"/>
+   <line l="751"/>
+   <line l="595"/>
+   <line l="771"/>
+   <line l="1671"/>
+   <line l="1340"/>
+   <line l="1651"/>
+   <line l="813"/>
+   <line l="1517"/>
+   <line l="1506"/>
+   <line l="1001"/>
+   <line l="1092"/>
+   <line l="1179"/>
+   <line l="820"/>
+   <line l="1586"/>
+   <line l="603"/>
+   <line l="922"/>
+   <line l="685"/>
+   <line l="1592"/>
+   <line l="585"/>
+   <line l="637"/>
+   <line l="894"/>
+   <line l="1155"/>
+   <line l="1415"/>
+   <line l="1084"/>
+   <line l="1129"/>
+   <line l="1544"/>
+   <line l="1793"/>
+   <line l="642"/>
+   <line l="1706"/>
+   <line l="770"/>
+   <line l="1683"/>
+   <line l="1473"/>
+   <line l="572"/>
+   <line l="916"/>
+   <line l="809"/>
+   <line l="1313"/>
+   <line l="1435"/>
+   <line l="975"/>
+   <line l="1335"/>
+   <line l="1668"/>
+   <line l="1028"/>
+   <line l="884"/>
+   <line l="932"/>
+   <line l="729"/>
+   <line l="1751"/>
+   <line l="1147"/>
+   <line l="886"/>
+   <line l="583"/>
+   <line l="616"/>
+   <line l="726"/>
+   <line l="586"/>
+   <line l="1347"/>
+   <line l="1531"/>
+   <line l="1227"/>
+   <line l="675"/>
+   <line l="903"/>
+   <line l="1540"/>
+   <line l="1791"/>
+   <line l="1528"/>
+   <line l="784"/>
+   <line l="1081"/>
+   <line l="1744"/>
+   <line l="1620"/>
+   <line l="1333"/>
+   <line l="945"/>
+   <line l="1589"/>
+   <line l="638"/>
+   <line l="590"/>
+   <line l="1363"/>
+   <line l="887"/>
+   <line l="1229"/>
+   <line l="1355"/>
+   <line l="1330"/>
+   <line l="1405"/>
+   <line l="1628"/>
+   <line l="1259"/>
+   <line l="1216"/>
+   <line l="1353"/>
+   <line l="1305"/>
+   <line l="1601"/>
+   <line l="1561"/>
+   <line l="1772"/>
+   <line l="1294"/>
+   <line l="1346"/>
+   <line l="573"/>
+   <line l="1515"/>
+   <line l="1727"/>
+   <line l="1052"/>
+   <line l="1565"/>
+   <line l="678"/>
+   <line l="1044"/>
+   <line l="881"/>
+   <line l="1314"/>
+   <line l="1611"/>
+   <line l="693"/>
+   <line l="566"/>
+   <line l="933"/>
+   <line l="1614"/>
+   <line l="1315"/>
+   <line l="946"/>
+   <line l="1166"/>
+   <line l="1267"/>
+   <line l="1059"/>
+   <line l="824"/>
+   <line l="847"/>
+   <line l="1361"/>
+   <line l="1661"/>
+   <line l="1438"/>
+   <line l="1375"/>
+   <line l="1621"/>
+   <line l="1219"/>
+   <line l="1282"/>
+   <line l="1289"/>
+   <line l="969"/>
+   <line l="1613"/>
+   <line l="1665"/>
+   <line l="1640"/>
+   <line l="1765"/>
+   <line l="917"/>
+   <line l="783"/>
+   <line l="769"/>
+   <line l="1226"/>
+   <line l="1211"/>
+   <line l="1533"/>
+   <line l="1395"/>
+   <line l="1548"/>
+   <line l="1742"/>
+   <line l="1686"/>
+   <line l="1794"/>
+   <line l="846"/>
+   <line l="954"/>
+   <line l="1125"/>
+   <line l="1308"/>
+   <line l="958"/>
+   <line l="767"/>
+   <line l="901"/>
+   <line l="1189"/>
+   <line l="808"/>
+   <line l="1198"/>
+   <line l="1312"/>
+   <line l="1030"/>
+   <line l="1815"/>
+   <line l="1095"/>
+   <line l="1284"/>
+   <line l="564"/>
+   <line l="1782"/>
+   <line l="889"/>
+   <line l="1743"/>
+   <line l="1168"/>
+   <line l="723"/>
+   <line l="1088"/>
+   <line l="1339"/>
+   <line l="872"/>
+   <line l="1537"/>
+   <line l="1143"/>
+   <line l="862"/>
+   <line l="607"/>
+   <line l="1218"/>
+   <line l="718"/>
+   <line l="1066"/>
+   <line l="1124"/>
+   <line l="1593"/>
+   <line l="651"/>
+   <line l="1007"/>
+   <line l="1588"/>
+   <line l="1739"/>
+   <line l="911"/>
+   <line l="610"/>
+   <line l="900"/>
+   <line l="797"/>
+   <line l="1233"/>
+   <line l="1377"/>
+   <line l="1539"/>
+   <line l="541"/>
+   <line l="1374"/>
+   <line l="704"/>
+   <line l="1476"/>
+   <line l="1025"/>
+   <line l="600"/>
+   <line l="544"/>
+   <line l="1666"/>
+   <line l="1257"/>
+   <line l="804"/>
+   <line l="1188"/>
+   <line l="941"/>
+   <line l="1381"/>
+   <line l="1615"/>
+   <line l="777"/>
+   <line l="1202"/>
+   <line l="1477"/>
+   <line l="588"/>
+   <line l="1172"/>
+   <line l="1389"/>
+   <line l="971"/>
+   <line l="756"/>
+   <line l="1357"/>
+   <line l="843"/>
+   <line l="1208"/>
+   <line l="666"/>
+   <line l="1657"/>
+   <line l="1485"/>
+   <line l="1367"/>
+   <line l="874"/>
+   <line l="1603"/>
+   <line l="1139"/>
+   <line l="1728"/>
+   <line l="1225"/>
+   <line l="1248"/>
+   <line l="1195"/>
+   <line l="1288"/>
+   <line l="1479"/>
+   <line l="1610"/>
+   <line l="1237"/>
+   <line l="545"/>
+   <line l="1523"/>
+   <line l="919"/>
+   <line l="1234"/>
+   <line l="1009"/>
+   <line l="1106"/>
+   <line l="1692"/>
+   <line l="1798"/>
+   <line l="755"/>
+   <line l="1542"/>
+   <line l="1271"/>
+   <line l="1462"/>
+   <line l="569"/>
+   <line l="692"/>
+   <line l="1583"/>
+   <line l="1048"/>
+   <line l="782"/>
+   <line l="947"/>
+   <line l="799"/>
+   <line l="1652"/>
+   <line l="1672"/>
+   <line l="1418"/>
+   <line l="1559"/>
+   <line l="1676"/>
+   <line l="1714"/>
+   <line l="1148"/>
+   <line l="1574"/>
+   <line l="1251"/>
+   <line l="636"/>
+   <line l="1144"/>
+   <line l="1278"/>
+   <line l="634"/>
+   <line l="1410"/>
+   <line l="819"/>
+   <line l="1167"/>
+   <line l="1797"/>
+   <line l="1521"/>
+   <line l="1705"/>
+   <line l="628"/>
+   <line l="1171"/>
+   <line l="1378"/>
+   <line l="1696"/>
+   <line l="1301"/>
+   <line l="1210"/>
+   <line l="576"/>
+   <line l="1737"/>
+   <line l="1269"/>
+   <line l="1526"/>
+   <line l="1152"/>
+   <line l="1098"/>
+   <line l="1659"/>
+   <line l="599"/>
+   <line l="1323"/>
+   <line l="1083"/>
+   <line l="1758"/>
+   <line l="898"/>
+   <line l="1495"/>
+   <line l="1808"/>
+   <line l="1220"/>
+   <line l="1757"/>
+   <line l="1264"/>
+   <line l="990"/>
+   <line l="1356"/>
+   <line l="793"/>
+   <line l="1498"/>
+   <line l="1302"/>
+   <line l="1755"/>
+   <line l="1349"/>
+   <line l="1245"/>
+   <line l="1191"/>
+   <line l="1319"/>
+   <line l="1484"/>
+   <line l="1102"/>
+   <line l="1817"/>
+   <line l="888"/>
+   <line l="580"/>
+   <line l="1569"/>
+   <line l="1032"/>
+   <line l="1255"/>
+   <line l="842"/>
+   <line l="1725"/>
+   <line l="1572"/>
+   <line l="1783"/>
+   <line l="876"/>
+   <line l="568"/>
+   <line l="1448"/>
+   <line l="1303"/>
+   <line l="939"/>
+   <line l="1341"/>
+   <line l="1265"/>
+   <line l="1575"/>
+   <line l="1365"/>
+   <line l="1532"/>
+   <line l="1212"/>
+   <line l="1510"/>
+   <line l="1469"/>
+   <line l="1543"/>
+   <line l="806"/>
+   <line l="1658"/>
+   <line l="1499"/>
+   <line l="1629"/>
+   <line l="646"/>
+   <line l="546"/>
+   <line l="686"/>
+   <line l="1327"/>
+   <line l="720"/>
+   <line l="620"/>
+   <line l="1761"/>
+   <line l="892"/>
+   <line l="739"/>
+   <line l="1806"/>
+   <line l="1182"/>
+   <line l="617"/>
+   <line l="698"/>
+   <line l="1177"/>
+   <line l="1054"/>
+   <line l="1304"/>
+   <line l="1591"/>
+   <line l="826"/>
+   <line l="1382"/>
+   <line l="1673"/>
+   <line l="1241"/>
+   <line l="1331"/>
+   <line l="1703"/>
+   <line l="1820"/>
+   <line l="870"/>
+   <line l="1623"/>
+   <line l="1777"/>
+   <line l="1293"/>
+   <line l="1735"/>
+   <line l="1436"/>
+   <line l="612"/>
+   <line l="727"/>
+   <line l="1040"/>
+   <line l="996"/>
+   <line l="1039"/>
+   <line l="619"/>
+   <line l="772"/>
+   <line l="1667"/>
+   <line l="563"/>
+   <line l="1043"/>
+   <line l="1137"/>
+   <line l="1799"/>
+   <line l="631"/>
+   <line l="890"/>
+   <line l="1018"/>
+   <line l="1041"/>
+   <line l="1145"/>
+   <line l="860"/>
+   <line l="1072"/>
+   <line l="1103"/>
+   <line l="821"/>
+   <line l="849"/>
+   <line l="909"/>
+   <line l="1618"/>
+   <line l="598"/>
+   <line l="591"/>
+   <line l="1392"/>
+   <line l="623"/>
+   <line l="1617"/>
+   <line l="844"/>
+   <line l="1570"/>
+   <line l="719"/>
+   <line l="1011"/>
+   <line l="1524"/>
+   <line l="1414"/>
+   <line l="700"/>
+   <line l="1451"/>
+   <line l="1595"/>
+   <line l="1159"/>
+   <line l="973"/>
+   <line l="776"/>
+   <line l="1745"/>
+   <line l="560"/>
+   <line l="1720"/>
+   <line l="1551"/>
+   <line l="1688"/>
+   <line l="1564"/>
+   <line l="1069"/>
+   <line l="1778"/>
+   <line l="1547"/>
+   <line l="1562"/>
+   <line l="555"/>
+   <line l="1455"/>
+   <line l="1674"/>
+   <line l="1254"/>
+   <line l="705"/>
+   <line l="548"/>
+   <line l="1647"/>
+   <line l="1408"/>
+   <line l="1458"/>
+   <line l="965"/>
+   <line l="608"/>
+   <line l="1607"/>
+   <line l="972"/>
+   <line l="1027"/>
+   <line l="674"/>
+   <line l="1223"/>
+   <line l="1181"/>
+   <line l="551"/>
+   <line l="733"/>
+   <line l="1034"/>
+   <line l="984"/>
+   <line l="986"/>
+   <line l="979"/>
+   <line l="759"/>
+   <line l="1487"/>
+   <line l="669"/>
+   <line l="1199"/>
+   <line l="1750"/>
+   <line l="734"/>
+   <line l="1612"/>
+   <line l="1741"/>
+   <line l="765"/>
+   <line l="1164"/>
+   <line l="936"/>
+   <line l="1002"/>
+   <line l="1712"/>
+   <line l="1722"/>
+   <line l="1067"/>
+   <line l="584"/>
+   <line l="836"/>
+   <line l="978"/>
+   <line l="926"/>
+   <line l="1578"/>
+   <line l="688"/>
+   <line l="948"/>
+   <line l="1244"/>
+   <line l="1371"/>
+   <line l="798"/>
+   <line l="871"/>
+   <line l="1036"/>
+   <line l="924"/>
+   <line l="1291"/>
+   <line l="676"/>
+   <line l="1104"/>
+   <line l="1605"/>
+   <line l="930"/>
+   <line l="1781"/>
+   <line l="1345"/>
+   <line l="1299"/>
+   <line l="1064"/>
+   <line l="663"/>
+   <line l="1135"/>
+   <line l="1214"/>
+   <line l="1663"/>
+   <line l="1752"/>
+   <line l="1684"/>
+   <line l="1645"/>
+   <line l="879"/>
+   <line l="859"/>
+   <line l="1406"/>
+   <line l="1619"/>
+   <line l="1786"/>
+   <line l="1790"/>
+   <line l="1130"/>
+   <line l="1698"/>
+   <line l="1342"/>
+   <line l="1460"/>
+   <line l="1108"/>
+   <line l="1556"/>
+   <line l="1795"/>
+   <line l="1336"/>
+   <line l="1494"/>
+   <line l="801"/>
+   <line l="956"/>
+   <line l="648"/>
+   <line l="953"/>
+   <line l="1236"/>
+   <line l="794"/>
+   <line l="1721"/>
+   <line l="1626"/>
+   <line l="1008"/>
+   <line l="857"/>
+   <line l="952"/>
+   <line l="1580"/>
+   <line l="967"/>
+   <line l="852"/>
+   <line l="680"/>
+   <line l="968"/>
+   <line l="1412"/>
+   <line l="649"/>
+   <line l="1116"/>
+   <line l="1073"/>
+   <line l="905"/>
+   <line l="835"/>
+   <line l="1035"/>
+   <line l="1733"/>
+   <line l="1086"/>
+   <line l="1400"/>
+   <line l="1518"/>
+   <line l="1154"/>
+   <line l="732"/>
+   <line l="1768"/>
+   <line l="1450"/>
+   <line l="961"/>
+   <line l="673"/>
+   <line l="1691"/>
+   <line l="837"/>
+   <line l="1734"/>
+   <line l="1669"/>
+   <line l="1468"/>
+   <line l="653"/>
+   <line l="1215"/>
+   <line l="795"/>
+   <line l="1648"/>
+   <line l="592"/>
+   <line l="1114"/>
+   <line l="641"/>
+   <line l="1422"/>
+   <line l="1505"/>
+   <line l="579"/>
+   <line l="716"/>
+   <line l="831"/>
+   <line l="1520"/>
+   <line l="1310"/>
+   <line l="951"/>
+   <line l="997"/>
+   <line l="994"/>
+   <line l="762"/>
+   <line l="1425"/>
+   <line l="1536"/>
+   <line l="1222"/>
+   <line l="1664"/>
+   <line l="659"/>
+   <line l="738"/>
+   <line l="1003"/>
+   <line l="613"/>
+   <line l="1738"/>
+   <line l="1170"/>
+   <line l="606"/>
+   <line l="792"/>
+   <line l="918"/>
+   <line l="1534"/>
+   <line l="1764"/>
+   <line l="1624"/>
+   <line l="1769"/>
+   <line l="1058"/>
+   <line l="1441"/>
+   <line l="1792"/>
+   <line l="1429"/>
+   <line l="1732"/>
+   <line l="1325"/>
+   <line l="611"/>
+   <line l="867"/>
+   <line l="1646"/>
+   <line l="995"/>
+   <line l="1470"/>
+   <line l="1240"/>
+   <line l="750"/>
+   <line l="1550"/>
+   <line l="614"/>
+   <line l="920"/>
+   <line l="796"/>
+   <line l="1500"/>
+   <line l="593"/>
+   <line l="1762"/>
+   <line l="839"/>
+   <line l="840"/>
+   <line l="1239"/>
+   <line l="1655"/>
+   <line l="1416"/>
+   <line l="1138"/>
+   <line l="1117"/>
+   <line l="699"/>
+   <line l="1344"/>
+   <line l="554"/>
+   <line l="1193"/>
+   <line l="1502"/>
+   <line l="1071"/>
+   <line l="1558"/>
+   <line l="1553"/>
+   <line l="1074"/>
+   <line l="571"/>
+   <line l="1087"/>
+   <line l="1697"/>
+   <line l="1492"/>
+   <line l="1432"/>
+   <line l="667"/>
+   <line l="1508"/>
+   <line l="1641"/>
+   <line l="841"/>
+   <line l="1320"/>
+   <line l="626"/>
+   <line l="1217"/>
+   <line l="1390"/>
+   <line l="730"/>
+   <line l="654"/>
+   <line l="991"/>
+   <line l="1176"/>
+   <line l="1501"/>
+   <line l="1717"/>
+   <line l="1729"/>
+   <line l="1352"/>
+   <line l="1287"/>
+   <line l="1023"/>
+   <line l="1480"/>
+   <line l="1359"/>
+   <line l="976"/>
+   <line l="1483"/>
+   <line l="1718"/>
+   <line l="931"/>
+   <line l="1582"/>
+   <line l="565"/>
+   <line l="880"/>
+   <line l="1467"/>
+   <line l="993"/>
+   <line l="899"/>
+   <line l="735"/>
+   <line l="1024"/>
+   <line l="1033"/>
+   <line l="1599"/>
+   <line l="1700"/>
+   <line l="1368"/>
+   <line l="1577"/>
+   <line l="1160"/>
+   <line l="547"/>
+   <line l="1710"/>
+   <line l="625"/>
+   <line l="1165"/>
+   <line l="658"/>
+   <line l="703"/>
+   <line l="1366"/>
+   <line l="1385"/>
+   <line l="712"/>
+   <line l="1017"/>
+   <line l="657"/>
+   <line l="604"/>
+   <line l="943"/>
+   <line l="1068"/>
+   <line l="1482"/>
+   <line l="713"/>
+   <line l="1192"/>
+   <line l="1627"/>
+   <line l="1800"/>
+   <line l="1514"/>
+   <line l="1142"/>
+   <line l="1634"/>
+  </lines>
+ </mapping>
+</allatori>

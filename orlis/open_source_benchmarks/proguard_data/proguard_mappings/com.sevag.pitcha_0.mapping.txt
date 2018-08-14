@@ -1,0 +1,129 @@
+com.sevag.pitcha.BuildConfig -> com.sevag.pitcha.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+com.sevag.pitcha.MainActivity -> com.sevag.pitcha.MainActivity:
+    java.lang.Thread audioThread -> f
+    android.widget.TextView noteTextView -> g
+    void <init>() -> <init>
+    android.widget.TextView access$000(com.sevag.pitcha.MainActivity) -> a
+    void endHook() -> a
+    void launchPitcha() -> b
+    void startHook() -> c
+    void display(java.lang.String,double) -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onPause() -> onPause
+    void onResume() -> onResume
+com.sevag.pitcha.MainActivity$1 -> com.sevag.pitcha.b:
+    com.sevag.pitcha.MainActivity this$0 -> h
+    double val$err -> i
+    java.lang.String val$note -> j
+    void <init>(com.sevag.pitcha.MainActivity,java.lang.String,double) -> <init>
+    void run() -> run
+com.sevag.pitcha.MainActivity$2 -> com.sevag.pitcha.c:
+    com.sevag.pitcha.MainActivity this$0 -> h
+    void <init>(com.sevag.pitcha.MainActivity) -> <init>
+    void run() -> run
+com.sevag.pitcha.R -> com.sevag.pitcha.d:
+    void <init>() -> <init>
+com.sevag.pitcha.R$array -> com.sevag.pitcha.R$array:
+    int androidcolors -> androidcolors
+    void <init>() -> <init>
+com.sevag.pitcha.R$attr -> com.sevag.pitcha.R$attr:
+    void <init>() -> <init>
+com.sevag.pitcha.R$color -> com.sevag.pitcha.R$color:
+    int blue -> blue
+    int grey -> grey
+    int pink -> pink
+    void <init>() -> <init>
+com.sevag.pitcha.R$dimen -> com.sevag.pitcha.R$dimen:
+    int activity_horizontal_margin -> activity_horizontal_margin
+    int activity_vertical_margin -> activity_vertical_margin
+    void <init>() -> <init>
+com.sevag.pitcha.R$drawable -> com.sevag.pitcha.R$drawable:
+    int bluecircle -> bluecircle
+    void <init>() -> <init>
+com.sevag.pitcha.R$id -> com.sevag.pitcha.R$id:
+    int action_settings -> action_settings
+    int noteOutputTextView -> noteOutputTextView
+    int titleOutputTextView -> titleOutputTextView
+    void <init>() -> <init>
+com.sevag.pitcha.R$layout -> com.sevag.pitcha.R$layout:
+    int activity_main -> activity_main
+    void <init>() -> <init>
+com.sevag.pitcha.R$menu -> com.sevag.pitcha.R$menu:
+    int menu_main -> menu_main
+    void <init>() -> <init>
+com.sevag.pitcha.R$mipmap -> com.sevag.pitcha.R$mipmap:
+    int ic_launcher -> ic_launcher
+    void <init>() -> <init>
+com.sevag.pitcha.R$string -> com.sevag.pitcha.R$string:
+    int action_settings -> action_settings
+    int app_name -> app_name
+    void <init>() -> <init>
+com.sevag.pitcha.R$style -> com.sevag.pitcha.R$style:
+    int AppTheme -> AppTheme
+    void <init>() -> <init>
+com.sevag.pitcha.dsp.MPM -> wy.a:
+    boolean $assertionsDisabled -> k
+    int DEFAULT_BUFFER_SIZE -> l
+    double DEFAULT_CUTOFF -> m
+    double LOWER_PITCH_CUTOFF -> n
+    double SMALL_CUTOFF -> o
+    java.util.List ampEstimates -> p
+    double cutoff -> q
+    java.util.List maxPositions -> r
+    double[] nsdf -> s
+    java.util.List periodEstimates -> t
+    double sampleRate -> u
+    double turningPointX -> v
+    double turningPointY -> w
+    void <clinit>() -> <clinit>
+    void <init>(double) -> <init>
+    void <init>(double,int) -> <init>
+    void <init>(double,int,double) -> <init>
+    void normalizedSquareDifference(double[]) -> a
+    void peakPicking() -> d
+    void prabolicInterpolation(int) -> a
+    double getPitch(double[]) -> b
+    double getPitchFromShort(short[]) -> a
+com.sevag.pitcha.music.NotePitchMap -> wy.b:
+    double ALLOWABLE_ERROR -> x
+    double PITCH_HIGH_LIMIT -> y
+    double PITCH_LOW_LIMIT -> z
+    java.lang.String[] noteNames -> A
+    double[][] notes -> B
+    double[] oct0 -> C
+    double[] oct1 -> D
+    double[] oct2 -> E
+    double[] oct3 -> F
+    double[] oct4 -> G
+    double[] oct5 -> H
+    double[] oct6 -> I
+    double[] oct7 -> J
+    double[] oct8 -> K
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void displayNoteOf(double,com.sevag.pitcha.uihelper.UIHelper) -> a
+com.sevag.pitcha.recording.AudioRecorder -> wy.c:
+    int N -> L
+    int SAMPLES -> M
+    int SAMPLE_RATE -> N
+    short[] data -> O
+    com.sevag.pitcha.dsp.MPM mpm -> P
+    android.media.AudioRecord recorder -> Q
+    boolean shouldStop -> R
+    com.sevag.pitcha.uihelper.UIHelper uiHelper -> S
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void deinit() -> e
+    void init(com.sevag.pitcha.uihelper.UIHelper) -> a
+    void run() -> run
+com.sevag.pitcha.uihelper.UIHelper -> wy.d:
+    void display(java.lang.String,double) -> a

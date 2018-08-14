@@ -1,0 +1,158 @@
+org.developfreedom.wordpowermadeeasy.BuildConfig -> org.developfreedom.wordpowermadeeasy.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+org.developfreedom.wordpowermadeeasy.DatabaseOpenHelper -> org.developfreedom.wordpowermadeeasy.b:
+    java.lang.String DATABASE_NAME -> f
+    int DATABASE_VERSION -> g
+    java.lang.String KEY_INDEX -> h
+    java.lang.String KEY_MEANING -> i
+    java.lang.String KEY_SCORE -> j
+    java.lang.String KEY_WORD -> k
+    java.lang.String TABLE_WORDLIST -> l
+    java.lang.String TAG -> TAG
+    void <clinit>() -> <clinit>
+    void <init>(android.content.Context) -> <init>
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+org.developfreedom.wordpowermadeeasy.MainActivity -> org.developfreedom.wordpowermadeeasy.MainActivity:
+    java.lang.String _ClassName -> m
+    int DELAY_MEANING -> n
+    android.content.SharedPreferences mPrefs -> o
+    android.os.AsyncTask meaningDelayedTask -> p
+    java.lang.String textColorPref -> q
+    android.widget.TextView textview_meaning -> r
+    android.widget.TextView textview_word -> s
+    java.lang.String welcomeScreenShownPref -> t
+    org.developfreedom.wordpowermadeeasy.WordEngine wordEngine -> u
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    android.widget.TextView access$100(org.developfreedom.wordpowermadeeasy.MainActivity) -> a
+    void showWelcomeScreen() -> a
+    void color_blue(android.view.View) -> color_blue
+    void color_change(java.lang.String) -> a
+    void color_green(android.view.View) -> color_green
+    void color_orange(android.view.View) -> color_orange
+    void color_purple(android.view.View) -> color_purple
+    void color_red(android.view.View) -> color_red
+    org.developfreedom.wordpowermadeeasy.WordPair nextRandom() -> b
+    void nextRandom(android.view.View) -> nextRandom
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void search_word(android.view.View) -> search_word
+org.developfreedom.wordpowermadeeasy.MainActivity$1 -> org.developfreedom.wordpowermadeeasy.c:
+    org.developfreedom.wordpowermadeeasy.MainActivity this$0 -> v
+    void <init>(org.developfreedom.wordpowermadeeasy.MainActivity) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+org.developfreedom.wordpowermadeeasy.MainActivity$LongRunningTask -> org.developfreedom.wordpowermadeeasy.d:
+    java.lang.String meaning -> w
+    org.developfreedom.wordpowermadeeasy.MainActivity this$0 -> v
+    void <init>(org.developfreedom.wordpowermadeeasy.MainActivity) -> <init>
+    void <init>(org.developfreedom.wordpowermadeeasy.MainActivity,org.developfreedom.wordpowermadeeasy.MainActivity$1) -> <init>
+    java.lang.Boolean doInBackground(java.lang.String[]) -> a
+    java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    void onPostExecute(java.lang.Boolean) -> a
+    void onPostExecute(java.lang.Object) -> onPostExecute
+org.developfreedom.wordpowermadeeasy.R -> org.developfreedom.wordpowermadeeasy.e:
+    void <init>() -> <init>
+org.developfreedom.wordpowermadeeasy.R$attr -> org.developfreedom.wordpowermadeeasy.R$attr:
+    void <init>() -> <init>
+org.developfreedom.wordpowermadeeasy.R$color -> org.developfreedom.wordpowermadeeasy.R$color:
+    int dark_grey -> dark_grey
+    int holo_blue_bright -> holo_blue_bright
+    int holo_blue_dark -> holo_blue_dark
+    int holo_blue_light -> holo_blue_light
+    int holo_gray_bright -> holo_gray_bright
+    int holo_gray_light -> holo_gray_light
+    int holo_green_dark -> holo_green_dark
+    int holo_green_light -> holo_green_light
+    int holo_orange_dark -> holo_orange_dark
+    int holo_orange_light -> holo_orange_light
+    int holo_purple -> holo_purple
+    int holo_red_dark -> holo_red_dark
+    int holo_red_light -> holo_red_light
+    int light_grey -> light_grey
+    int light_grey_2 -> light_grey_2
+    int orange -> orange
+    void <init>() -> <init>
+org.developfreedom.wordpowermadeeasy.R$dimen -> org.developfreedom.wordpowermadeeasy.R$dimen:
+    int activity_horizontal_margin -> activity_horizontal_margin
+    int activity_vertical_margin -> activity_vertical_margin
+    void <init>() -> <init>
+org.developfreedom.wordpowermadeeasy.R$drawable -> org.developfreedom.wordpowermadeeasy.R$drawable:
+    int ic_launcher -> ic_launcher
+    int ic_search -> ic_search
+    void <init>() -> <init>
+org.developfreedom.wordpowermadeeasy.R$id -> org.developfreedom.wordpowermadeeasy.R$id:
+    int action_color_blue -> action_color_blue
+    int action_color_green -> action_color_green
+    int action_color_orange -> action_color_orange
+    int action_settings -> action_settings
+    int button_blue -> button_blue
+    int button_green -> button_green
+    int button_orange -> button_orange
+    int button_purple -> button_purple
+    int button_red -> button_red
+    int button_search -> button_search
+    int textview_meaning -> textview_meaning
+    int textview_word -> textview_word
+    void <init>() -> <init>
+org.developfreedom.wordpowermadeeasy.R$layout -> org.developfreedom.wordpowermadeeasy.R$layout:
+    int activity_main -> activity_main
+    void <init>() -> <init>
+org.developfreedom.wordpowermadeeasy.R$menu -> org.developfreedom.wordpowermadeeasy.R$menu:
+    int main -> main
+    void <init>() -> <init>
+org.developfreedom.wordpowermadeeasy.R$string -> org.developfreedom.wordpowermadeeasy.R$string:
+    int action_settings -> action_settings
+    int app_name -> app_name
+    int ok -> ok
+    int textbox_default_meaning -> textbox_default_meaning
+    int textbox_default_word -> textbox_default_word
+    int welcomeText -> welcomeText
+    int welcomeTitle -> welcomeTitle
+    void <init>() -> <init>
+org.developfreedom.wordpowermadeeasy.R$style -> org.developfreedom.wordpowermadeeasy.R$style:
+    int AppBaseTheme -> AppBaseTheme
+    int AppTheme -> AppTheme
+    void <init>() -> <init>
+org.developfreedom.wordpowermadeeasy.R$xml -> org.developfreedom.wordpowermadeeasy.R$xml:
+    int word_list -> word_list
+    int word_list_short -> word_list_short
+    void <init>() -> <init>
+org.developfreedom.wordpowermadeeasy.WordEngine -> org.developfreedom.wordpowermadeeasy.f:
+    int count -> count
+    android.content.Context context -> x
+    android.database.Cursor cursor -> y
+    android.database.sqlite.SQLiteDatabase database -> z
+    android.database.sqlite.SQLiteOpenHelper myDatabaseHelper -> A
+    java.util.Map word_map -> B
+    void <clinit>() -> <clinit>
+    void <init>(android.content.Context) -> <init>
+    void check_database() -> c
+    java.util.Map getMapFromXml() -> d
+    org.developfreedom.wordpowermadeeasy.WordPair getRandomWord() -> e
+    java.util.List getWeekPairs(int) -> a
+    void populateDatabase(java.util.Map) -> a
+    java.util.Map readXml() -> f
+org.developfreedom.wordpowermadeeasy.WordPair -> org.developfreedom.wordpowermadeeasy.g:
+    int _index -> C
+    java.lang.String _meaning -> D
+    int _score -> E
+    java.lang.String _word -> F
+    void <init>() -> <init>
+    void <init>(java.lang.String,java.lang.String) -> <init>
+    void <init>(java.lang.String,java.lang.String,int,int) -> <init>
+    int getIndex() -> getIndex
+    java.lang.String getMeaning() -> g
+    int getScore() -> getScore
+    java.lang.String getWord() -> h
+    void setIndex(int) -> setIndex
+    void setMeaning(java.lang.String) -> b
+    void setScore(int) -> b
+    void setWord(java.lang.String) -> c

@@ -1,0 +1,136 @@
+com.github.wakhub.tinyclock.BuildConfig -> com.github.wakhub.tinyclock.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+com.github.wakhub.tinyclock.R -> com.github.wakhub.tinyclock.b:
+    void <init>() -> <init>
+com.github.wakhub.tinyclock.R$attr -> com.github.wakhub.tinyclock.R$attr:
+    void <init>() -> <init>
+com.github.wakhub.tinyclock.R$dimen -> com.github.wakhub.tinyclock.R$dimen:
+    int date_text_size_default -> date_text_size_default
+    int time_text_size_default -> time_text_size_default
+    int widget_corner -> widget_corner
+    int widget_size_min -> widget_size_min
+    void <init>() -> <init>
+com.github.wakhub.tinyclock.R$drawable -> com.github.wakhub.tinyclock.R$drawable:
+    int preview -> preview
+    void <init>() -> <init>
+com.github.wakhub.tinyclock.R$id -> com.github.wakhub.tinyclock.R$id:
+    int dateText -> dateText
+    int imageView -> imageView
+    int root -> root
+    int timeText -> timeText
+    void <init>() -> <init>
+com.github.wakhub.tinyclock.R$layout -> com.github.wakhub.tinyclock.R$layout:
+    int widget -> widget
+    void <init>() -> <init>
+com.github.wakhub.tinyclock.R$string -> com.github.wakhub.tinyclock.R$string:
+    int app_name -> app_name
+    int background_color_default -> background_color_default
+    int date_text_format_12h -> date_text_format_12h
+    int date_text_format_24h -> date_text_format_24h
+    int message_confirm -> message_confirm
+    int message_invalid_color -> message_invalid_color
+    int message_success_reset_style -> message_success_reset_style
+    int pref_app_info_key -> pref_app_info_key
+    int pref_app_info_title -> pref_app_info_title
+    int pref_background_color_key -> pref_background_color_key
+    int pref_background_color_summary -> pref_background_color_summary
+    int pref_background_color_title -> pref_background_color_title
+    int pref_explanation_for_color -> pref_explanation_for_color
+    int pref_open_clock_app_key -> pref_open_clock_app_key
+    int pref_open_clock_app_title -> pref_open_clock_app_title
+    int pref_open_datetime_settings_key -> pref_open_datetime_settings_key
+    int pref_open_datetime_settings_title -> pref_open_datetime_settings_title
+    int pref_reset_style_key -> pref_reset_style_key
+    int pref_reset_style_title -> pref_reset_style_title
+    int pref_text_color_key -> pref_text_color_key
+    int pref_text_color_summary -> pref_text_color_summary
+    int pref_text_color_title -> pref_text_color_title
+    int text_color_default -> text_color_default
+    int time_text_format_12h -> time_text_format_12h
+    int time_text_format_24h -> time_text_format_24h
+    void <init>() -> <init>
+com.github.wakhub.tinyclock.R$xml -> com.github.wakhub.tinyclock.R$xml:
+    int appwidget_info -> appwidget_info
+    int preferences -> preferences
+    void <init>() -> <init>
+com.github.wakhub.tinyclock.Settings -> com.github.wakhub.tinyclock.c:
+    java.lang.String TAG -> TAG
+    android.content.Context context -> f
+    android.content.SharedPreferences preferences -> g
+    void <clinit>() -> <clinit>
+    void <init>(android.content.Context) -> <init>
+    void onParseError(java.lang.IllegalArgumentException) -> a
+    android.graphics.Bitmap getBackgroundBitmap(int,int) -> a
+    int getBackgroundColor() -> getBackgroundColor
+    java.lang.String getBackgroundColorString() -> a
+    int getTextColor() -> b
+    java.lang.String getTextColorString() -> c
+com.github.wakhub.tinyclock.SettingsActivity -> com.github.wakhub.tinyclock.SettingsActivity:
+    java.lang.String[][] CLOCK_APPS -> h
+    java.lang.String TAG -> TAG
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    java.lang.String[][] access$000() -> d
+    java.lang.String access$400() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment -> com.github.wakhub.tinyclock.d:
+    android.content.ComponentName clockAppComponentName -> i
+    android.preference.Preference$OnPreferenceChangeListener onColorChangeListener -> j
+    com.github.wakhub.tinyclock.Settings settings -> k
+    void <init>() -> <init>
+    void access$100(com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment) -> a
+    void access$200(com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment) -> b
+    com.github.wakhub.tinyclock.Settings access$300(com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment) -> c
+    void onClickOpenClockApp() -> f
+    void onNameNotFound(android.content.pm.PackageManager$NameNotFoundException) -> a
+    void showResetStyleDialog() -> g
+    void updateWidget() -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPause() -> onPause
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$1 -> com.github.wakhub.tinyclock.e:
+    com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment this$0 -> l
+    void <init>(com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment) -> <init>
+    boolean onPreferenceChange(android.preference.Preference,java.lang.Object) -> onPreferenceChange
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$2 -> com.github.wakhub.tinyclock.f:
+    com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment this$0 -> l
+    void <init>(com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment) -> <init>
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$3 -> com.github.wakhub.tinyclock.g:
+    com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment this$0 -> l
+    void <init>(com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment) -> <init>
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$4 -> com.github.wakhub.tinyclock.h:
+    com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment this$0 -> l
+    void <init>(com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment) -> <init>
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$5 -> com.github.wakhub.tinyclock.i:
+    com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment this$0 -> l
+    void <init>(com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment) -> <init>
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$6 -> com.github.wakhub.tinyclock.j:
+    com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment this$0 -> l
+    android.content.res.Resources val$res -> m
+    void <init>(com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment,android.content.res.Resources) -> <init>
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.github.wakhub.tinyclock.TinyClockAppWidget -> com.github.wakhub.tinyclock.TinyClockAppWidget:
+    java.lang.String TAG -> TAG
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[]) -> onUpdate
+com.github.wakhub.tinyclock.UpdateService -> com.github.wakhub.tinyclock.UpdateService:
+    java.lang.String ACTION_UPDATE -> n
+    int REQUEST_CODE_UPDATE -> o
+    java.lang.String TAG -> TAG
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void updateWidget(int) -> a
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    int onStartCommand(android.content.Intent,int,int) -> onStartCommand

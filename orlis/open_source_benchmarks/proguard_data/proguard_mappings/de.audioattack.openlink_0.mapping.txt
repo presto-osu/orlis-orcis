@@ -1,0 +1,67 @@
+de.audioattack.openlink.BuildConfig -> de.audioattack.openlink.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+de.audioattack.openlink.MainActivity -> de.audioattack.openlink.MainActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+de.audioattack.openlink.MainActivity$1 -> de.audioattack.openlink.b:
+    de.audioattack.openlink.MainActivity this$0 -> f
+    void <init>(de.audioattack.openlink.MainActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+de.audioattack.openlink.MainActivity$2 -> de.audioattack.openlink.c:
+    de.audioattack.openlink.MainActivity this$0 -> f
+    void <init>(de.audioattack.openlink.MainActivity) -> <init>
+    void onClick(android.view.View) -> onClick
+de.audioattack.openlink.MenuActivity -> de.audioattack.openlink.MenuActivity:
+    java.lang.String REGEX_REMOVE_FROM_URL -> g
+    void <init>() -> <init>
+    java.lang.String[] getUris(java.lang.String) -> a
+    void handleSendText(android.content.Intent) -> a
+    java.lang.String removeHeadingGibberish(java.lang.String) -> b
+    java.lang.String trim(java.lang.String) -> c
+    void onCreate(android.os.Bundle) -> onCreate
+de.audioattack.openlink.R -> de.audioattack.openlink.d:
+    void <init>() -> <init>
+de.audioattack.openlink.R$attr -> de.audioattack.openlink.R$attr:
+    void <init>() -> <init>
+de.audioattack.openlink.R$color -> de.audioattack.openlink.R$color:
+    int dark_blue -> dark_blue
+    int light_blue -> light_blue
+    int orange -> orange
+    void <init>() -> <init>
+de.audioattack.openlink.R$dimen -> de.audioattack.openlink.R$dimen:
+    int activity_horizontal_margin -> activity_horizontal_margin
+    int activity_vertical_margin -> activity_vertical_margin
+    void <init>() -> <init>
+de.audioattack.openlink.R$id -> de.audioattack.openlink.R$id:
+    int btn_source_code -> btn_source_code
+    int btn_video -> btn_video
+    int copyright -> copyright
+    void <init>() -> <init>
+de.audioattack.openlink.R$layout -> de.audioattack.openlink.R$layout:
+    int activity_main -> activity_main
+    void <init>() -> <init>
+de.audioattack.openlink.R$mipmap -> de.audioattack.openlink.R$mipmap:
+    int ic_launcher -> ic_launcher
+    void <init>() -> <init>
+de.audioattack.openlink.R$string -> de.audioattack.openlink.R$string:
+    int app_name -> app_name
+    int error_no_url_found -> error_no_url_found
+    int error_unable_to_open -> error_unable_to_open
+    int lbl_source_code -> lbl_source_code
+    int lbl_video -> lbl_video
+    int menu_label -> menu_label
+    int tv_copyright -> tv_copyright
+    int url_source -> url_source
+    int url_video -> url_video
+    void <init>() -> <init>
+de.audioattack.openlink.R$style -> de.audioattack.openlink.R$style:
+    int AppBaseTheme -> AppBaseTheme
+    int AppTheme -> AppTheme
+    int ScrollViewStyle -> ScrollViewStyle
+    void <init>() -> <init>

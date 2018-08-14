@@ -1,0 +1,1155 @@
+org.alexd.jsonrpc.JSONEntity -> wy.a:
+    void <init>(org.json.JSONObject) -> <init>
+    void <init>(org.json.JSONObject,java.lang.String) -> <init>
+    org.apache.http.Header getContentType() -> getContentType
+org.alexd.jsonrpc.JSONRPCClient -> wy.b:
+    boolean _debug -> a
+    int connectionTimeout -> b
+    java.lang.String encoding -> c
+    int soTimeout -> d
+    org.alexd.jsonrpc.JSONRPCParams$Versions version -> e
+    void <init>() -> <init>
+    org.alexd.jsonrpc.JSONRPCClient create(java.lang.String,org.alexd.jsonrpc.JSONRPCParams$Versions) -> a
+    org.json.JSONArray getJSONArray(java.lang.Object[]) -> a
+    java.lang.Object call(java.lang.String,org.json.JSONObject) -> a
+    java.lang.Object call(java.lang.String,java.lang.Object[]) -> a
+    boolean callBoolean(java.lang.String,org.json.JSONObject) -> b
+    boolean callBoolean(java.lang.String,java.lang.Object[]) -> b
+    double callDouble(java.lang.String,org.json.JSONObject) -> c
+    double callDouble(java.lang.String,java.lang.Object[]) -> c
+    int callInt(java.lang.String,java.lang.Object[]) -> d
+    java.lang.Object callInt(java.lang.String,org.json.JSONObject) -> d
+    org.json.JSONArray callJSONArray(java.lang.String,org.json.JSONObject) -> e
+    org.json.JSONArray callJSONArray(java.lang.String,java.lang.Object[]) -> e
+    org.json.JSONObject callJSONObject(java.lang.String,org.json.JSONObject) -> f
+    org.json.JSONObject callJSONObject(java.lang.String,java.lang.Object[]) -> f
+    long callLong(java.lang.String,org.json.JSONObject) -> g
+    long callLong(java.lang.String,java.lang.Object[]) -> g
+    java.lang.String callString(java.lang.String,org.json.JSONObject) -> h
+    java.lang.String callString(java.lang.String,java.lang.Object[]) -> h
+    void delEncoding() -> a
+    org.json.JSONObject doJSONRequest(org.json.JSONObject) -> a
+    org.json.JSONObject doRequest(java.lang.String,org.json.JSONObject) -> i
+    org.json.JSONObject doRequest(java.lang.String,java.lang.Object[]) -> i
+    int getConnectionTimeout() -> b
+    int getSoTimeout() -> getSoTimeout
+    boolean isDebug() -> c
+    void setConnectionTimeout(int) -> setConnectionTimeout
+    void setDebug(boolean) -> a
+    void setEncoding(java.lang.String) -> setEncoding
+    void setSoTimeout(int) -> setSoTimeout
+org.alexd.jsonrpc.JSONRPCException -> wy.c:
+    long serialVersionUID -> serialVersionUID
+    void <init>(java.lang.Object) -> <init>
+    void <init>(java.lang.String,java.lang.Throwable) -> <init>
+org.alexd.jsonrpc.JSONRPCHttpClient -> wy.d:
+    org.apache.http.ProtocolVersion PROTOCOL_VERSION -> f
+    org.apache.http.client.HttpClient httpClient -> g
+    java.lang.String serviceUri -> h
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String) -> <init>
+    void <init>(org.apache.http.client.HttpClient,java.lang.String) -> <init>
+    org.json.JSONObject doJSONRequest(org.json.JSONObject) -> a
+org.alexd.jsonrpc.JSONRPCParams -> wy.e:
+    void <init>() -> <init>
+org.alexd.jsonrpc.JSONRPCParams$Versions -> wy.f:
+    org.alexd.jsonrpc.JSONRPCParams$Versions[] ENUM$VALUES -> i
+    org.alexd.jsonrpc.JSONRPCParams$Versions VERSION_1 -> j
+    org.alexd.jsonrpc.JSONRPCParams$Versions VERSION_2 -> k
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String,int) -> <init>
+    org.alexd.jsonrpc.JSONRPCParams$Versions valueOf(java.lang.String) -> valueOf
+    org.alexd.jsonrpc.JSONRPCParams$Versions[] values() -> values
+org.alexd.jsonrpc.JSONRPCThreadedClient -> wy.g:
+    java.lang.String JSON_RESULT -> l
+    boolean _debug -> a
+    int connectionTimeout -> b
+    int soTimeout -> d
+    org.alexd.jsonrpc.JSONRPCParams$Versions version -> e
+    void <init>() -> <init>
+    org.alexd.jsonrpc.JSONRPCClient create(java.lang.String,org.alexd.jsonrpc.JSONRPCParams$Versions) -> a
+    org.json.JSONArray getJSONArray(java.lang.Object[]) -> a
+    void call(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnObjectResultListener,org.json.JSONObject) -> a
+    void call(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnObjectResultListener,java.lang.Object[]) -> a
+    void callBoolean(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnBooleanResultListener,org.json.JSONObject) -> a
+    void callBoolean(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnBooleanResultListener,java.lang.Object[]) -> a
+    void callDouble(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnDoubleResultListener,org.json.JSONObject) -> a
+    void callDouble(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnDoubleResultListener,java.lang.Object[]) -> a
+    void callInt(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnIntResultListener,org.json.JSONObject) -> a
+    void callInt(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnIntResultListener,java.lang.Object[]) -> a
+    void callJSONArray(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONArrayResultListener,org.json.JSONObject) -> a
+    void callJSONArray(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONArrayResultListener,java.lang.Object[]) -> a
+    void callJSONObject(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONObjectResultListener,org.json.JSONObject) -> a
+    void callJSONObject(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONObjectResultListener,java.lang.Object[]) -> a
+    void callLong(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnLongResultListener,org.json.JSONObject) -> a
+    void callLong(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnLongResultListener,java.lang.Object[]) -> a
+    void callString(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnStringResultListener,org.json.JSONObject) -> a
+    void callString(java.lang.String,org.alexd.jsonrpc.JSONRPCThreadedClient$OnStringResultListener,java.lang.Object[]) -> a
+    org.json.JSONObject doJSONRequest(org.json.JSONObject) -> a
+    org.json.JSONObject doRequest(java.lang.String,org.json.JSONObject) -> i
+    org.json.JSONObject doRequest(java.lang.String,java.lang.Object[]) -> i
+    int getConnectionTimeout() -> b
+    int getSoTimeout() -> getSoTimeout
+    boolean isDebug() -> c
+    void setConnectionTimeout(int) -> setConnectionTimeout
+    void setDebug(boolean) -> a
+    void setSoTimeout(int) -> setSoTimeout
+org.alexd.jsonrpc.JSONRPCThreadedClient$1 -> wy.h:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnObjectResultListener val$listener -> n
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnObjectResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$10 -> wy.i:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    java.lang.Object[] val$params -> q
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,java.lang.Object[],android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$11 -> wy.j:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnIntResultListener val$listener -> r
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnIntResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$12 -> wy.k:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    org.json.JSONObject val$params -> s
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,org.json.JSONObject,android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$13 -> wy.l:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnLongResultListener val$listener -> t
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnLongResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$14 -> wy.m:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    java.lang.Object[] val$params -> q
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,java.lang.Object[],android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$15 -> wy.n:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnLongResultListener val$listener -> t
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnLongResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$16 -> wy.o:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    org.json.JSONObject val$params -> s
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,org.json.JSONObject,android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$17 -> wy.p:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnBooleanResultListener val$listener -> u
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnBooleanResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$18 -> wy.q:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    java.lang.Object[] val$params -> q
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,java.lang.Object[],android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$19 -> wy.r:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnBooleanResultListener val$listener -> u
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnBooleanResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$2 -> wy.s:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    java.lang.Object[] val$params -> q
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,java.lang.Object[],android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$20 -> wy.t:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    org.json.JSONObject val$params -> s
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,org.json.JSONObject,android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$21 -> wy.u:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnDoubleResultListener val$listener -> v
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnDoubleResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$22 -> wy.v:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    java.lang.Object[] val$params -> q
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,java.lang.Object[],android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$23 -> wy.w:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnDoubleResultListener val$listener -> v
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnDoubleResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$24 -> wy.x:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    org.json.JSONObject val$params -> s
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,org.json.JSONObject,android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$25 -> wy.y:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONObjectResultListener val$listener -> w
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONObjectResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$26 -> wy.z:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    org.json.JSONObject val$params -> s
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,org.json.JSONObject,android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$27 -> wy.aa:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONObjectResultListener val$listener -> w
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONObjectResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$28 -> wy.ab:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    java.lang.Object[] val$params -> q
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,java.lang.Object[],android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$29 -> wy.ac:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONArrayResultListener val$listener -> x
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONArrayResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$3 -> wy.ad:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnObjectResultListener val$onResultListener -> y
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnObjectResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$30 -> wy.ae:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    java.lang.Object[] val$params -> q
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,java.lang.Object[],android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$31 -> wy.af:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONArrayResultListener val$listener -> x
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONArrayResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$32 -> wy.ag:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    org.json.JSONObject val$params -> s
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,org.json.JSONObject,android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$4 -> wy.ah:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    org.json.JSONObject val$params -> s
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,org.json.JSONObject,android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$5 -> wy.ai:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnStringResultListener val$listener -> z
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnStringResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$6 -> wy.aj:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    java.lang.Object[] val$params -> q
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,java.lang.Object[],android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$7 -> wy.ak:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnStringResultListener val$listener -> z
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnStringResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$8 -> wy.al:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    android.os.Handler val$handler -> o
+    java.lang.String val$method -> p
+    org.json.JSONObject val$params -> s
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,java.lang.String,org.json.JSONObject,android.os.Handler) -> <init>
+    void run() -> run
+org.alexd.jsonrpc.JSONRPCThreadedClient$9 -> wy.am:
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    org.alexd.jsonrpc.JSONRPCThreadedClient$OnIntResultListener val$listener -> r
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$OnIntResultListener) -> <init>
+    void handleMessage(android.os.Message) -> handleMessage
+org.alexd.jsonrpc.JSONRPCThreadedClient$Description -> wy.an:
+    org.alexd.jsonrpc.JSONRPCThreadedClient$Description[] ENUM$VALUES -> A
+    org.alexd.jsonrpc.JSONRPCThreadedClient$Description ERROR -> B
+    org.alexd.jsonrpc.JSONRPCThreadedClient$Description NORMAL_RESPONSE -> C
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String,int) -> <init>
+    org.alexd.jsonrpc.JSONRPCThreadedClient$Description valueOf(java.lang.String) -> valueOf
+    org.alexd.jsonrpc.JSONRPCThreadedClient$Description[] values() -> values
+org.alexd.jsonrpc.JSONRPCThreadedClient$MessageObject -> wy.ao:
+    java.lang.Object content -> D
+    org.alexd.jsonrpc.JSONRPCThreadedClient$Description description -> E
+    org.alexd.jsonrpc.JSONRPCThreadedClient this$0 -> m
+    void <init>(org.alexd.jsonrpc.JSONRPCThreadedClient,org.alexd.jsonrpc.JSONRPCThreadedClient$Description,java.lang.Object) -> <init>
+org.alexd.jsonrpc.JSONRPCThreadedClient$OnBooleanResultListener -> wy.ap:
+    void manageResult(boolean) -> b
+org.alexd.jsonrpc.JSONRPCThreadedClient$OnDoubleResultListener -> wy.aq:
+    void manageResult(double) -> a
+org.alexd.jsonrpc.JSONRPCThreadedClient$OnIntResultListener -> wy.ar:
+    void manageResult(int) -> a
+org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONArrayResultListener -> wy.as:
+    void manageResult(org.json.JSONArray) -> a
+org.alexd.jsonrpc.JSONRPCThreadedClient$OnJSONObjectResultListener -> wy.at:
+    void manageResult(org.json.JSONObject) -> b
+org.alexd.jsonrpc.JSONRPCThreadedClient$OnLongResultListener -> wy.au:
+    void manageResult(long) -> a
+org.alexd.jsonrpc.JSONRPCThreadedClient$OnObjectResultListener -> wy.av:
+    void manageResult(java.lang.Object) -> a
+    void sendError(java.lang.Exception) -> a
+    void sendErrorMessageNull() -> d
+org.alexd.jsonrpc.JSONRPCThreadedClient$OnStringResultListener -> wy.aw:
+    void manageResult(java.lang.String) -> a
+org.alexd.jsonrpc.JSONRPCThreadedHttpClient -> wy.ax:
+    org.apache.http.ProtocolVersion PROTOCOL_VERSION -> f
+    org.apache.http.client.HttpClient httpClient -> g
+    java.lang.String serviceUri -> h
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String) -> <init>
+    void <init>(org.apache.http.client.HttpClient,java.lang.String) -> <init>
+    org.json.JSONObject doJSONRequest(org.json.JSONObject) -> a
+org.ifies.android.sax.Channel -> wy.ay:
+    java.util.List m_Categories -> F
+    java.lang.String m_Description -> G
+    int m_Id -> H
+    java.lang.String m_Image -> I
+    java.util.List m_Items -> J
+    long m_LastBuildDate -> K
+    java.lang.String m_Link -> L
+    java.util.Date m_PubDate -> M
+    java.lang.String m_Title -> N
+    void <init>() -> <init>
+    void addCategory(java.lang.String) -> addCategory
+    void addItem(org.ifies.android.sax.Item) -> a
+    java.util.List getCategories() -> e
+    java.lang.String getDescription() -> getDescription
+    int getId() -> getId
+    java.lang.String getImage() -> f
+    java.util.List getItems() -> g
+    long getLastBuildDate() -> h
+    java.lang.String getLink() -> i
+    java.util.Date getPubDate() -> j
+    java.lang.String getTitle() -> getTitle
+    void setCategories(java.util.List) -> a
+    void setDescription(java.lang.String) -> setDescription
+    void setId(int) -> setId
+    void setImage(java.lang.String) -> b
+    void setItems(java.util.List) -> b
+    void setLastBuildDate(long) -> b
+    void setLink(java.lang.String) -> c
+    void setPubDate(java.util.Date) -> a
+    void setTitle(java.lang.String) -> setTitle
+org.ifies.android.sax.Item -> wy.az:
+    int _id -> O
+    java.lang.String description -> description
+    long enclosureLength -> P
+    java.lang.String enclosureType -> Q
+    java.lang.String enclosureUrl -> R
+    java.lang.String link -> S
+    java.util.Date pubDate -> T
+    java.lang.String title -> U
+    void <init>() -> <init>
+    int compareTo(java.lang.Object) -> compareTo
+    int compareTo(org.ifies.android.sax.Item) -> b
+    java.lang.String getDescription() -> getDescription
+    long getEnclosureLength() -> k
+    java.lang.String getEnclosureType() -> l
+    java.lang.String getEnclosureUrl() -> m
+    int getId() -> getId
+    java.lang.String getLink() -> i
+    java.util.Date getPubdate() -> n
+    java.lang.String getTheLink() -> o
+    java.lang.String getTitle() -> getTitle
+    void setDescription(java.lang.String) -> setDescription
+    void setEnclosureLength(long) -> c
+    void setEnclosureType(java.lang.String) -> d
+    void setEnclosureUrl(java.lang.String) -> e
+    void setId(int) -> setId
+    void setLink(java.lang.String) -> c
+    void setPubdate(java.util.Date) -> b
+    void setTitle(java.lang.String) -> setTitle
+org.ifies.android.sax.RssParser -> wy.ba:
+    org.ifies.android.sax.Channel channel -> V
+    boolean imgStatus -> W
+    org.ifies.android.sax.Item item -> X
+    java.lang.StringBuilder text -> Y
+    java.lang.String urlString -> Z
+    void <init>(java.lang.String) -> <init>
+    java.lang.String parseLink(java.lang.String) -> f
+    void addAdditionalData(java.lang.String,org.ifies.android.sax.Item,java.lang.String) -> a
+    void characters(char[],int,int) -> characters
+    org.ifies.android.sax.Item createNewItem() -> p
+    void endElement(java.lang.String,java.lang.String,java.lang.String) -> endElement
+    org.ifies.android.sax.Channel getChannel() -> q
+    org.apache.http.client.HttpClient initialise() -> r
+    void parse() -> s
+    void startElement(java.lang.String,java.lang.String,java.lang.String,org.xml.sax.Attributes) -> startElement
+org.transdroid.search.AsiaTorrents.AsiaTorrentsAdapter -> wy.bb:
+    int CONNECTION_TIMEOUT -> aa
+    java.lang.String LOGINURL -> ab
+    java.lang.String LOGIN_PASS -> ac
+    java.lang.String LOGIN_USER -> ad
+    java.lang.String QUERYURL -> ae
+    java.text.SimpleDateFormat df -> af
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult parseHtmlItem(java.lang.String) -> g
+    org.apache.http.impl.client.DefaultHttpClient prepareRequest(android.content.Context) -> a
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List parseHtml(java.lang.String,int) -> a
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.BTN.BTNAdapter -> wy.bc:
+    java.lang.String API_SEARCH -> ag
+    java.lang.String API_URL -> ah
+    java.lang.String THETVDB_BASE_URL -> ai
+    void <init>() -> <init>
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.BTN.BTNAdapter$TorrentSeedsComparator -> wy.bd:
+    org.transdroid.search.BTN.BTNAdapter this$0 -> aj
+    void <init>(org.transdroid.search.BTN.BTNAdapter) -> <init>
+    int compare(java.lang.Object,java.lang.Object) -> compare
+    int compare(org.transdroid.search.SearchResult,org.transdroid.search.SearchResult) -> a
+org.transdroid.search.BitHdtv.BitHdtvAdapter -> wy.be:
+    java.lang.String LOGINURL -> ab
+    java.lang.String LOGIN_PASS -> ac
+    java.lang.String LOGIN_USER -> ad
+    java.lang.String QUERYURL -> ae
+    java.lang.String SORT_COMPOSITE -> ak
+    java.lang.String SORT_SEEDS -> al
+    java.text.SimpleDateFormat df -> af
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult parseHtmlItem(java.lang.String) -> g
+    org.apache.http.client.HttpClient prepareRequest(android.content.Context) -> b
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List parseHtml(java.lang.String,int) -> a
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.BuildConfig -> org.transdroid.search.a:
+    java.lang.String APPLICATION_ID -> am
+    java.lang.String BUILD_TYPE -> an
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> ao
+    int VERSION_CODE -> ap
+    java.lang.String VERSION_NAME -> aq
+    void <init>() -> <init>
+org.transdroid.search.Danishbits.DanishbitsAdapter -> wy.bf:
+    java.lang.String LOGINURL -> ab
+    java.lang.String QUERYURL -> ae
+    java.lang.String SORT_COMPOSITE -> ak
+    java.lang.String SORT_SEEDS -> al
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult parseHtmlItem(java.lang.String) -> g
+    org.apache.http.client.HttpClient prepareRequest(android.content.Context) -> b
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List parseHtml(java.lang.String,int) -> a
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.Demonoid.DemonoidAdapter -> wy.bg:
+    int CONNECTION_TIMEOUT -> aa
+    java.lang.String QUERYURL -> ae
+    java.lang.String SORT_COMPOSITE -> ak
+    java.lang.String SORT_SEEDS -> al
+    int maxResults -> ar
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult parseHtmlItem(java.lang.String) -> g
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List parseHtml(java.lang.String) -> h
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.HoundDawgs.HoundDawgsAdapter -> wy.bh:
+    java.lang.String LOGINURL -> ab
+    java.lang.String QUERYURL -> ae
+    java.lang.String SORT_COMPOSITE -> ak
+    java.lang.String SORT_SEEDS -> al
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult parseHtmlItem(java.lang.String) -> g
+    org.apache.http.client.HttpClient prepareRequest(android.content.Context) -> b
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List parseHtml(java.lang.String,int) -> a
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.ISearchAdapter -> org.transdroid.search.b:
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.R -> org.transdroid.search.c:
+    void <init>() -> <init>
+org.transdroid.search.R$attr -> org.transdroid.search.R$attr:
+    void <init>() -> <init>
+org.transdroid.search.R$drawable -> org.transdroid.search.R$drawable:
+    int ic_launcher -> ic_launcher
+    void <init>() -> <init>
+org.transdroid.search.R$id -> org.transdroid.search.R$id:
+    int password -> password
+    int token -> token
+    int username -> username
+    void <init>() -> <init>
+org.transdroid.search.R$layout -> org.transdroid.search.R$layout:
+    int dialog_credentials -> dialog_credentials
+    int dialog_token -> dialog_token
+    void <init>() -> <init>
+org.transdroid.search.R$string -> org.transdroid.search.R$string:
+    int app_description -> app_description
+    int login_failure -> login_failure
+    int pref_credentials -> pref_credentials
+    int pref_hint_password -> pref_hint_password
+    int pref_hint_token -> pref_hint_token
+    int pref_hint_username -> pref_hint_username
+    int pref_privatesites -> pref_privatesites
+    int pref_publicsites -> pref_publicsites
+    int pref_settingslabel -> pref_settingslabel
+    int pref_token -> pref_token
+    void <init>() -> <init>
+org.transdroid.search.R$style -> org.transdroid.search.R$style:
+    int Theme_AlertDialog -> Theme_AlertDialog
+    int Theme_Transdroid_Search -> Theme_Transdroid_Search
+    int Transdroid_Search_ActionBar -> Transdroid_Search_ActionBar
+    void <init>() -> <init>
+org.transdroid.search.R$xml -> org.transdroid.search.R$xml:
+    int pref_settings -> pref_settings
+    void <init>() -> <init>
+org.transdroid.search.RssFeedSearch.BitSnoopAdapter -> wy.bi:
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult fromRssItemToSearchResult(org.ifies.android.sax.Item) -> c
+    org.ifies.android.sax.RssParser getRssParser(java.lang.String) -> i
+    java.lang.String getSiteName() -> t
+    java.lang.String getUrl(java.lang.String,org.transdroid.search.SortOrder) -> b
+    boolean isPrivateSite() -> u
+    boolean usesToken() -> v
+org.transdroid.search.RssFeedSearch.BitSnoopAdapter$BitSnoopItem -> wy.bj:
+    int leechers -> as
+    int seeders -> at
+    long size -> au
+    org.transdroid.search.RssFeedSearch.BitSnoopAdapter this$0 -> av
+    void <init>(org.transdroid.search.RssFeedSearch.BitSnoopAdapter) -> <init>
+    int getLeechers() -> w
+    int getSeeders() -> x
+    long getSize() -> getSize
+    void setLeechers(int) -> b
+    void setSeeders(int) -> c
+    void setSize(long) -> setSize
+org.transdroid.search.RssFeedSearch.BitSnoopAdapter$BitSnoopRssParser -> wy.bk:
+    org.transdroid.search.RssFeedSearch.BitSnoopAdapter this$0 -> av
+    void <init>(org.transdroid.search.RssFeedSearch.BitSnoopAdapter,java.lang.String) -> <init>
+    void addAdditionalData(java.lang.String,org.ifies.android.sax.Item,java.lang.String) -> a
+    org.ifies.android.sax.Item createNewItem() -> p
+    org.apache.http.client.HttpClient initialise() -> r
+org.transdroid.search.RssFeedSearch.ExtraTorrentAdapter -> wy.bl:
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult fromRssItemToSearchResult(org.ifies.android.sax.Item) -> c
+    org.ifies.android.sax.RssParser getRssParser(java.lang.String) -> i
+    java.lang.String getSiteName() -> t
+    java.lang.String getUrl(java.lang.String,org.transdroid.search.SortOrder) -> b
+    boolean isPrivateSite() -> u
+    boolean usesToken() -> v
+org.transdroid.search.RssFeedSearch.ExtraTorrentAdapter$ExtraTorrentsItem -> wy.bm:
+    int leechers -> as
+    int seeders -> at
+    long size -> au
+    org.transdroid.search.RssFeedSearch.ExtraTorrentAdapter this$0 -> aw
+    void <init>(org.transdroid.search.RssFeedSearch.ExtraTorrentAdapter) -> <init>
+    int getLeechers() -> w
+    int getSeeders() -> x
+    long getSize() -> getSize
+    void setLeechers(int) -> b
+    void setSeeders(int) -> c
+    void setSize(long) -> setSize
+org.transdroid.search.RssFeedSearch.ExtraTorrentAdapter$ExtraTorrentsRssParser -> wy.bn:
+    org.transdroid.search.RssFeedSearch.ExtraTorrentAdapter this$0 -> aw
+    void <init>(org.transdroid.search.RssFeedSearch.ExtraTorrentAdapter,java.lang.String) -> <init>
+    void addAdditionalData(java.lang.String,org.ifies.android.sax.Item,java.lang.String) -> a
+    org.ifies.android.sax.Item createNewItem() -> p
+org.transdroid.search.RssFeedSearch.KickassTorrentsAdapter -> wy.bo:
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult fromRssItemToSearchResult(org.ifies.android.sax.Item) -> c
+    org.ifies.android.sax.RssParser getRssParser(java.lang.String) -> i
+    java.lang.String getSiteName() -> t
+    java.lang.String getUrl(java.lang.String,org.transdroid.search.SortOrder) -> b
+    boolean isPrivateSite() -> u
+    boolean usesToken() -> v
+org.transdroid.search.RssFeedSearch.KickassTorrentsAdapter$KickassTorrentsItem -> wy.bp:
+    int leechers -> as
+    int seeders -> at
+    long size -> au
+    org.transdroid.search.RssFeedSearch.KickassTorrentsAdapter this$0 -> ax
+    java.lang.String torrentLink -> ay
+    void <init>(org.transdroid.search.RssFeedSearch.KickassTorrentsAdapter) -> <init>
+    int getLeechers() -> w
+    int getSeeders() -> x
+    long getSize() -> getSize
+    java.lang.String getTorrentLink() -> y
+    void setLeechers(int) -> b
+    void setSeeders(int) -> c
+    void setSize(long) -> setSize
+    void setTorrentLink(java.lang.String) -> j
+org.transdroid.search.RssFeedSearch.KickassTorrentsAdapter$KickassTorrentsRssParser -> wy.bq:
+    org.transdroid.search.RssFeedSearch.KickassTorrentsAdapter this$0 -> ax
+    void <init>(org.transdroid.search.RssFeedSearch.KickassTorrentsAdapter,java.lang.String) -> <init>
+    void addAdditionalData(java.lang.String,org.ifies.android.sax.Item,java.lang.String) -> a
+    org.ifies.android.sax.Item createNewItem() -> p
+org.transdroid.search.RssFeedSearch.LimeTorrentsAdapter -> wy.br:
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult fromRssItemToSearchResult(org.ifies.android.sax.Item) -> c
+    org.ifies.android.sax.RssParser getRssParser(java.lang.String) -> i
+    java.lang.String getSiteName() -> t
+    java.lang.String getUrl(java.lang.String,org.transdroid.search.SortOrder) -> b
+    boolean isPrivateSite() -> u
+    boolean usesToken() -> v
+org.transdroid.search.RssFeedSearch.LimeTorrentsAdapter$LimeTorrentsItem -> wy.bs:
+    int leechers -> as
+    int seeders -> at
+    long size -> au
+    org.transdroid.search.RssFeedSearch.LimeTorrentsAdapter this$0 -> az
+    void <init>(org.transdroid.search.RssFeedSearch.LimeTorrentsAdapter) -> <init>
+org.transdroid.search.RssFeedSearch.LimeTorrentsAdapter$LimeTorrentsParser -> wy.bt:
+    org.transdroid.search.RssFeedSearch.LimeTorrentsAdapter this$0 -> az
+    void <init>(org.transdroid.search.RssFeedSearch.LimeTorrentsAdapter,java.lang.String) -> <init>
+    void addAdditionalData(java.lang.String,org.ifies.android.sax.Item,java.lang.String) -> a
+    org.ifies.android.sax.Item createNewItem() -> p
+org.transdroid.search.RssFeedSearch.MininovaAdapter -> wy.bu:
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult fromRssItemToSearchResult(org.ifies.android.sax.Item) -> c
+    java.lang.String getSiteName() -> t
+    java.lang.String getUrl(java.lang.String,org.transdroid.search.SortOrder) -> b
+    boolean isPrivateSite() -> u
+    boolean usesToken() -> v
+org.transdroid.search.RssFeedSearch.NyaaTorrentsAdapter -> wy.bv:
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult fromRssItemToSearchResult(org.ifies.android.sax.Item) -> c
+    org.ifies.android.sax.RssParser getRssParser(java.lang.String) -> i
+    java.lang.String getSiteName() -> t
+    java.lang.String getUrl(java.lang.String,org.transdroid.search.SortOrder) -> b
+    boolean isPrivateSite() -> u
+    boolean usesToken() -> v
+org.transdroid.search.RssFeedSearch.NyaaTorrentsAdapter$NyaaTorrentsItem -> wy.bw:
+    int leechers -> as
+    int seeders -> at
+    long size -> au
+    org.transdroid.search.RssFeedSearch.NyaaTorrentsAdapter this$0 -> aA
+    java.lang.String torrentLink -> ay
+    void <init>(org.transdroid.search.RssFeedSearch.NyaaTorrentsAdapter) -> <init>
+    int getLeechers() -> w
+    int getSeeders() -> x
+    long getSize() -> getSize
+    java.lang.String getTorrentLink() -> y
+    void setLeechers(int) -> b
+    void setSeeders(int) -> c
+    void setSize(long) -> setSize
+    void setTorrentLink(java.lang.String) -> j
+org.transdroid.search.RssFeedSearch.NyaaTorrentsAdapter$NyaaTorrentsRssParser -> wy.bx:
+    org.transdroid.search.RssFeedSearch.NyaaTorrentsAdapter this$0 -> aA
+    void <init>(org.transdroid.search.RssFeedSearch.NyaaTorrentsAdapter,java.lang.String) -> <init>
+    void addAdditionalData(java.lang.String,org.ifies.android.sax.Item,java.lang.String) -> a
+    org.ifies.android.sax.Item createNewItem() -> p
+org.transdroid.search.RssFeedSearch.RssFeedSearchAdapter -> wy.by:
+    void <init>() -> <init>
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    org.transdroid.search.SearchResult fromRssItemToSearchResult(org.ifies.android.sax.Item) -> c
+    org.ifies.android.sax.RssParser getRssParser(java.lang.String) -> i
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    java.lang.String getUrl(java.lang.String,org.transdroid.search.SortOrder) -> b
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+org.transdroid.search.RssFeedSearch.TorrentDownloadsAdapter -> wy.bz:
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult fromRssItemToSearchResult(org.ifies.android.sax.Item) -> c
+    org.ifies.android.sax.RssParser getRssParser(java.lang.String) -> i
+    java.lang.String getSiteName() -> t
+    java.lang.String getUrl(java.lang.String,org.transdroid.search.SortOrder) -> b
+    boolean isPrivateSite() -> u
+    boolean usesToken() -> v
+org.transdroid.search.RssFeedSearch.TorrentDownloadsAdapter$TorrentDownloadsItem -> wy.ca:
+    int leechers -> as
+    int seeders -> at
+    long size -> au
+    org.transdroid.search.RssFeedSearch.TorrentDownloadsAdapter this$0 -> aB
+    void <init>(org.transdroid.search.RssFeedSearch.TorrentDownloadsAdapter) -> <init>
+    int getLeechers() -> w
+    int getSeeders() -> x
+    long getSize() -> getSize
+    void setLeechers(int) -> b
+    void setSeeders(int) -> c
+    void setSize(long) -> setSize
+org.transdroid.search.RssFeedSearch.TorrentDownloadsAdapter$TorrentDownloadsRssParser -> wy.cb:
+    org.transdroid.search.RssFeedSearch.TorrentDownloadsAdapter this$0 -> aB
+    void <init>(org.transdroid.search.RssFeedSearch.TorrentDownloadsAdapter,java.lang.String) -> <init>
+    void addAdditionalData(java.lang.String,org.ifies.android.sax.Item,java.lang.String) -> a
+    org.ifies.android.sax.Item createNewItem() -> p
+org.transdroid.search.RssFeedSearch.TorrentReactorAdapter -> wy.cc:
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult fromRssItemToSearchResult(org.ifies.android.sax.Item) -> c
+    java.lang.String getSiteName() -> t
+    java.lang.String getUrl(java.lang.String,org.transdroid.search.SortOrder) -> b
+    boolean isPrivateSite() -> u
+    boolean usesToken() -> v
+org.transdroid.search.ScambioEtico.ScambioEtico -> wy.cd:
+    int CONNECTION_TIMEOUT -> aa
+    java.lang.String ENCODING -> ENCODING
+    java.lang.String END_RESULTS -> aC
+    java.lang.String ITEM_PREFIX -> aD
+    java.lang.String LEECHERS_EXTRACTOR -> aE
+    java.lang.String LOGINURL -> ab
+    java.lang.String LOGIN_PASS -> ac
+    java.lang.String LOGIN_USER -> ad
+    java.lang.String MAIN_EXTRACTOR -> aF
+    java.lang.String QUERYURL -> ae
+    java.lang.String SEEDS_EXTRACTOR -> aG
+    java.lang.String SIZE_EXTRACTOR -> aH
+    java.lang.String SORT_COMPOSITE -> ak
+    java.lang.String SORT_SEEDS -> al
+    java.lang.String START_RESULTS -> aI
+    java.lang.String TORRENT_ID_EXTRACTOR -> aJ
+    java.lang.String TORRENT_URL -> aK
+    java.lang.String WRONG_LOGIN -> aL
+    java.lang.String WRONG_PASSWORD -> aM
+    void <init>() -> <init>
+    java.lang.String extractData(java.lang.String,java.lang.String) -> a
+    java.lang.String extractData(java.lang.String,java.lang.String,int) -> a
+    org.transdroid.search.SearchResult parseHtmlItem(java.lang.String) -> g
+    org.apache.http.impl.client.DefaultHttpClient prepareRequest(android.content.Context) -> a
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List parseHtml(java.lang.String,int) -> a
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.SearchResult -> org.transdroid.search.d:
+    java.util.Date added -> aN
+    java.lang.String detailsUrl -> aO
+    int leechers -> as
+    int seeds -> aP
+    java.lang.String size -> aQ
+    java.lang.String title -> U
+    java.lang.String torrentUrl -> aR
+    void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.Date,int,int) -> <init>
+    java.util.Date getAddedDate() -> z
+    android.net.Uri getDetailsUri() -> A
+    java.lang.String getDetailsUrl() -> B
+    int getLeechers() -> w
+    int getSeeds() -> C
+    java.lang.String getSize() -> D
+    java.lang.String getTitle() -> getTitle
+    android.net.Uri getTorrentUri() -> E
+    java.lang.String getTorrentUrl() -> F
+    java.lang.String toString() -> toString
+org.transdroid.search.SortOrder -> org.transdroid.search.e:
+    org.transdroid.search.SortOrder[] $VALUES -> aS
+    org.transdroid.search.SortOrder BySeeders -> aT
+    org.transdroid.search.SortOrder Combined -> aU
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.SortOrder fromCode(java.lang.String) -> k
+    org.transdroid.search.SortOrder valueOf(java.lang.String) -> valueOf
+    org.transdroid.search.SortOrder[] values() -> values
+org.transdroid.search.StrikeSearch.StrikeSearchAdapter -> wy.ce:
+    int CONNECTION_TIMEOUT -> aa
+    int MEGABYTES_IN_BYTES -> aV
+    java.lang.String QUERYURL -> ae
+    java.text.SimpleDateFormat addedFormat -> aW
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    java.lang.String bytesToMBytes(java.lang.String) -> l
+    java.util.Date getDate(org.json.JSONObject) -> c
+    org.apache.http.impl.client.DefaultHttpClient prepareRequest(android.content.Context) -> a
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.ThePirateBay.ThePirateBayAdapter -> wy.cf:
+    int CONNECTION_TIMEOUT -> aa
+    java.lang.String DOMAIN -> aX
+    java.lang.String QUERYURL -> ae
+    java.lang.String SORT_COMPOSITE -> ak
+    java.lang.String SORT_SEEDS -> al
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult parseHtmlItem(java.lang.String) -> g
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List parseHtml(java.lang.String) -> h
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.TorrentDay.TorrentDayAdapter -> wy.cg:
+    int CONNECTION_TIMEOUT -> aa
+    java.lang.String LOGINURL -> ab
+    java.lang.String QUERYURL -> ae
+    void <init>() -> <init>
+    org.apache.http.impl.client.DefaultHttpClient prepareRequest(android.content.Context) -> a
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.TorrentLeech.TorrentLeechAdapter -> wy.ch:
+    java.lang.String LOGINURL -> ab
+    java.lang.String QUERYURL -> ae
+    java.lang.String SORT_COMPOSITE -> ak
+    java.lang.String SORT_SEEDS -> al
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult parseHtmlItem(java.lang.String) -> g
+    org.apache.http.client.HttpClient prepareRequest(android.content.Context) -> b
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List parseHtml(java.lang.String,int) -> a
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.TorrentSearchProvider -> org.transdroid.search.TorrentSearchProvider:
+    android.net.Uri CONTENT_URI -> CONTENT_URI
+    int ENCODED_TORRENTURL -> aY
+    java.lang.String PROVIDER_NAME -> aZ
+    int SEARCH_TERM -> ba
+    java.lang.String SELECTION_SITE -> bb
+    android.content.UriMatcher uriMatcher -> bc
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void backgroundToast(int) -> d
+    int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> delete
+    java.lang.String getType(android.net.Uri) -> getType
+    android.net.Uri insert(android.net.Uri,android.content.ContentValues) -> insert
+    boolean onCreate() -> onCreate
+    android.os.ParcelFileDescriptor openFile(android.net.Uri,java.lang.String) -> openFile
+    android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> query
+    int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> update
+org.transdroid.search.TorrentSearchProvider$1 -> org.transdroid.search.f:
+    org.transdroid.search.TorrentSearchProvider this$0 -> bd
+    int val$resourceId -> be
+    void <init>(org.transdroid.search.TorrentSearchProvider,int) -> <init>
+    void run() -> run
+org.transdroid.search.TorrentSearchProvider$1$1 -> org.transdroid.search.g:
+    org.transdroid.search.TorrentSearchProvider$1 this$1 -> bf
+    android.content.Context val$context -> bg
+    void <init>(org.transdroid.search.TorrentSearchProvider$1,android.content.Context) -> <init>
+    void run() -> run
+org.transdroid.search.TorrentSite -> org.transdroid.search.h:
+    org.transdroid.search.TorrentSite[] $VALUES -> bh
+    org.transdroid.search.TorrentSite AsiaTorrents -> bi
+    org.transdroid.search.TorrentSite BTN -> bj
+    org.transdroid.search.TorrentSite BitHdtv -> bk
+    org.transdroid.search.TorrentSite BitSnoop -> bl
+    org.transdroid.search.TorrentSite Danishbits -> bm
+    org.transdroid.search.TorrentSite ExtraTorrent -> bn
+    org.transdroid.search.TorrentSite HdBitsOrg -> bo
+    org.transdroid.search.TorrentSite HdTorrents -> bp
+    org.transdroid.search.TorrentSite HoundDawgs -> bq
+    org.transdroid.search.TorrentSite KickassTorents -> br
+    org.transdroid.search.TorrentSite LimeTorrents -> bs
+    org.transdroid.search.TorrentSite Mininova -> bt
+    org.transdroid.search.TorrentSite NyaaTorrents -> bu
+    org.transdroid.search.TorrentSite Rarbg -> bv
+    org.transdroid.search.TorrentSite RevolutionTT -> bw
+    org.transdroid.search.TorrentSite ScambioEtico -> bx
+    org.transdroid.search.TorrentSite StrikeSearch -> by
+    org.transdroid.search.TorrentSite ThePirateBay -> bz
+    org.transdroid.search.TorrentSite TorrentDay -> bA
+    org.transdroid.search.TorrentSite TorrentDownloads -> bB
+    org.transdroid.search.TorrentSite TorrentLeech -> bC
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String,int) -> <init>
+    void <init>(java.lang.String,int,org.transdroid.search.TorrentSite$1) -> <init>
+    org.transdroid.search.TorrentSite fromCode(java.lang.String) -> m
+    org.transdroid.search.TorrentSite valueOf(java.lang.String) -> valueOf
+    org.transdroid.search.TorrentSite[] values() -> values
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+org.transdroid.search.TorrentSite$1 -> org.transdroid.search.i:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$10 -> org.transdroid.search.j:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$11 -> org.transdroid.search.k:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$12 -> org.transdroid.search.l:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$13 -> org.transdroid.search.m:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$14 -> org.transdroid.search.n:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$15 -> org.transdroid.search.o:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$16 -> org.transdroid.search.p:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$17 -> org.transdroid.search.q:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$18 -> org.transdroid.search.r:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$19 -> org.transdroid.search.s:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$2 -> org.transdroid.search.t:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$20 -> org.transdroid.search.u:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$21 -> org.transdroid.search.v:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$3 -> org.transdroid.search.w:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$4 -> org.transdroid.search.x:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$5 -> org.transdroid.search.y:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$6 -> org.transdroid.search.z:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$7 -> org.transdroid.search.aa:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$8 -> org.transdroid.search.ab:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSite$9 -> org.transdroid.search.ac:
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.search.ISearchAdapter getAdapter() -> G
+org.transdroid.search.TorrentSitesProvider -> org.transdroid.search.TorrentSitesProvider:
+    android.net.Uri CONTENT_URI -> CONTENT_URI
+    java.lang.String PROVIDER_NAME -> aZ
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    int delete(android.net.Uri,java.lang.String,java.lang.String[]) -> delete
+    java.lang.String getType(android.net.Uri) -> getType
+    android.net.Uri insert(android.net.Uri,android.content.ContentValues) -> insert
+    boolean onCreate() -> onCreate
+    android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String) -> query
+    int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[]) -> update
+org.transdroid.search.gui.PrivateSitePreference -> org.transdroid.search.gui.a:
+    android.widget.EditText passEdit -> bD
+    android.widget.EditText tokenEdit -> bE
+    org.transdroid.search.TorrentSite torrentSite -> bF
+    android.widget.EditText userEdit -> bG
+    boolean usesToken -> bH
+    void <init>(android.content.Context,int,org.transdroid.search.TorrentSite) -> <init>
+    void persistToken(java.lang.String) -> n
+    void persistUserAndPass(java.lang.String,java.lang.String) -> b
+    int compareTo(android.preference.Preference) -> compareTo
+    int compareTo(java.lang.Object) -> compareTo
+    android.view.View onCreateDialogView() -> onCreateDialogView
+    void onDialogClosed(boolean) -> onDialogClosed
+org.transdroid.search.gui.PublicSitePreference -> org.transdroid.search.gui.b:
+    void <init>(android.content.Context,int,org.transdroid.search.TorrentSite) -> <init>
+    int compareTo(android.preference.Preference) -> compareTo
+    int compareTo(java.lang.Object) -> compareTo
+org.transdroid.search.gui.SettingsActivity -> org.transdroid.search.gui.SettingsActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+org.transdroid.search.gui.SettingsActivityCompat -> org.transdroid.search.gui.SettingsActivityCompat:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+org.transdroid.search.gui.SettingsActivityModern -> org.transdroid.search.gui.SettingsActivityModern:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+org.transdroid.search.gui.SettingsActivityModern$SettingsFragment -> org.transdroid.search.gui.c:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+org.transdroid.search.gui.SettingsHelper -> org.transdroid.search.gui.d:
+    java.lang.String PREF_SITE_ENABLED -> bI
+    java.lang.String PREF_SITE_PASS -> bJ
+    java.lang.String PREF_SITE_TOKEN -> bK
+    java.lang.String PREF_SITE_USER -> bL
+    void <init>() -> <init>
+    java.lang.String getSitePass(android.content.Context,org.transdroid.search.TorrentSite) -> a
+    java.lang.String getSiteUser(android.content.Context,org.transdroid.search.TorrentSite) -> b
+    boolean isSiteEnabled(android.content.Context,org.transdroid.search.TorrentSite) -> c
+org.transdroid.search.hdbitsorg.HdBitsOrgAdapter -> wy.ci:
+    int CONNECTION_TIMEOUT -> aa
+    java.lang.String LOGIN_FORM_URL -> bM
+    java.lang.String LOGIN_POST_PASSWORD -> bN
+    java.lang.String LOGIN_POST_TOKEN -> bO
+    java.lang.String LOGIN_POST_USERNAME -> bP
+    java.lang.String LOGIN_TOKEN_REGEX -> bQ
+    java.lang.String LOGIN_URL -> bR
+    java.lang.String LOG_TAG -> bS
+    java.lang.String SEARCH_REGEX -> bT
+    java.lang.String SEARCH_SORT_BY_SEEDERS_SUFFIX -> bU
+    java.lang.String SEARCH_URL -> bV
+    java.lang.String URL_PREFIX -> bW
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    java.lang.String grabToken(org.apache.http.impl.client.DefaultHttpClient) -> a
+    void login(org.apache.http.impl.client.DefaultHttpClient,java.lang.String,java.lang.String,java.lang.String) -> a
+    org.apache.http.impl.client.DefaultHttpClient prepareRequest(android.content.Context) -> a
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List parseHtml(java.lang.String,int) -> a
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.hdtorrents.HdTorrentsAdapter -> wy.cj:
+    int CONNECTION_TIMEOUT -> aa
+    java.lang.String DATE_END_STRING -> bX
+    java.lang.String DATE_START_SEARCH_STRING -> bY
+    java.lang.String DATE_START_STRING -> bZ
+    java.lang.String END_STRING -> ca
+    java.lang.String IMDB_END_STRING -> cb
+    java.lang.String IMDB_START_STRING -> cc
+    java.lang.String LOGIN_POST_PASSWORD -> bN
+    java.lang.String LOGIN_POST_USERNAME -> bP
+    java.lang.String LOGIN_URL -> bR
+    java.lang.String LOG_TAG -> bS
+    java.lang.String PEER_END_STRING -> cd
+    java.lang.String PEER_START_STRING -> ce
+    java.lang.String SEARCH_SORT_BY_SEEDERS_SUFFIX -> bU
+    java.lang.String SEARCH_URL -> bV
+    java.lang.String SIZE_END_STRING -> cf
+    java.lang.String SIZE_START_STRING -> cg
+    java.lang.String START_STRING -> ch
+    java.lang.String TORRENT_STRING -> ci
+    java.lang.String URL_PREFIX -> bW
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    void login(org.apache.http.impl.client.DefaultHttpClient,java.lang.String,java.lang.String) -> a
+    org.apache.http.impl.client.DefaultHttpClient prepareRequest(android.content.Context) -> a
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List parseHtml(java.lang.String,int) -> a
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.rarbg.RarbgAdapter -> wy.ck:
+    java.lang.String BASE_URL -> cj
+    java.lang.String accessToken -> ck
+    org.apache.http.client.HttpClient httpclient -> cl
+    void <init>() -> <init>
+    java.util.List performSearch(java.lang.String,org.transdroid.search.SortOrder) -> c
+    void requestAccessToken() -> H
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.search.revolutiontt.RevolutionTTAdapter -> wy.cl:
+    java.lang.String LOGINURL -> ab
+    java.lang.String QUERYURL -> ae
+    java.lang.String SORT_COMPOSITE -> ak
+    java.lang.String SORT_SEEDS -> al
+    void <init>() -> <init>
+    org.transdroid.search.SearchResult parseHtmlItem(java.lang.String) -> g
+    org.apache.http.client.HttpClient prepareRequest(android.content.Context) -> b
+    java.lang.String buildRssFeedUrlFromSearch(java.lang.String,org.transdroid.search.SortOrder) -> a
+    java.lang.String getSiteName() -> t
+    java.io.InputStream getTorrentFile(android.content.Context,java.lang.String) -> a
+    boolean isPrivateSite() -> u
+    java.util.List parseHtml(java.lang.String,int) -> a
+    java.util.List search(android.content.Context,java.lang.String,org.transdroid.search.SortOrder,int) -> a
+    boolean usesToken() -> v
+org.transdroid.util.FileSizeConverter -> wy.cm:
+    java.lang.String DECIMAL_FORMATTER -> cm
+    int INC_SIZE -> cn
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    java.lang.String getSize(long) -> d
+    java.lang.String getSize(long,org.transdroid.util.FileSizeConverter$SizeUnit) -> a
+    java.lang.String getSize(long,boolean) -> a
+org.transdroid.util.FileSizeConverter$1 -> wy.cn:
+    int[] $SwitchMap$org$transdroid$util$FileSizeConverter$SizeUnit -> co
+    void <clinit>() -> <clinit>
+org.transdroid.util.FileSizeConverter$SizeUnit -> wy.co:
+    org.transdroid.util.FileSizeConverter$SizeUnit[] $VALUES -> cp
+    org.transdroid.util.FileSizeConverter$SizeUnit B -> cq
+    org.transdroid.util.FileSizeConverter$SizeUnit GB -> cr
+    org.transdroid.util.FileSizeConverter$SizeUnit KB -> cs
+    org.transdroid.util.FileSizeConverter$SizeUnit MB -> ct
+    void <clinit>() -> <clinit>
+    void <init>(java.lang.String,int) -> <init>
+    org.transdroid.util.FileSizeConverter$SizeUnit valueOf(java.lang.String) -> valueOf
+    org.transdroid.util.FileSizeConverter$SizeUnit[] values() -> values
+org.transdroid.util.HttpHelper -> wy.cp:
+    org.apache.http.HttpRequestInterceptor gzipRequestInterceptor -> cu
+    org.apache.http.HttpResponseInterceptor gzipResponseInterceptor -> cv
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    org.apache.http.client.HttpClient buildDefaultSearchHttpClient(boolean) -> c
+    java.lang.String convertStreamToString(java.io.InputStream) -> a
+    java.lang.String convertStreamToString(java.io.InputStream,java.lang.String) -> a
+org.transdroid.util.HttpHelper$1 -> wy.cq:
+    void <init>() -> <init>
+    void process(org.apache.http.HttpRequest,org.apache.http.protocol.HttpContext) -> process
+org.transdroid.util.HttpHelper$2 -> wy.cr:
+    void <init>() -> <init>
+    void process(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext) -> process
+org.transdroid.util.HttpHelper$GzipDecompressingEntity -> wy.cs:
+    void <init>(org.apache.http.HttpEntity) -> <init>
+    java.io.InputStream getContent() -> getContent
+    long getContentLength() -> getContentLength
+org.transdroid.util.IgnoreSSLTrustManager -> wy.ct:
+    void <init>() -> <init>
+    void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkClientTrusted
+    void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkServerTrusted
+    java.security.cert.X509Certificate[] getAcceptedIssuers() -> getAcceptedIssuers
+org.transdroid.util.IgnoreTlsSniSocketFactory -> wy.cu:
+    void <init>() -> <init>
+    java.net.Socket connectSocket(java.net.Socket,java.lang.String,int,java.net.InetAddress,int,org.apache.http.params.HttpParams) -> connectSocket
+    java.net.Socket createSocket() -> createSocket
+    java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean) -> createSocket
+    boolean isSecure(java.net.Socket) -> isSecure
+org.transdroid.util.TlsSniSocketFactory -> wy.cv:
+    javax.net.ssl.HostnameVerifier hostnameVerifier -> hostnameVerifier
+    void <clinit>() -> <clinit>
+    void <init>() -> <init>
+    java.net.Socket connectSocket(java.net.Socket,java.lang.String,int,java.net.InetAddress,int,org.apache.http.params.HttpParams) -> connectSocket
+    java.net.Socket createSocket() -> createSocket
+    java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean) -> createSocket
+    boolean isSecure(java.net.Socket) -> isSecure

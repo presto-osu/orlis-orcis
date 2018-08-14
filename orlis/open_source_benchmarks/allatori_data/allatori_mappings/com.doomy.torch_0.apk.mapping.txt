@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v5.9 Educational
+   Web: http://www.allatori.com
+
+   Log created: Mon Aug 13 21:31:27 EDT 2018
+-->
+
+<allatori>
+ <mapping>
+  <class old="com.doomy.torch.TorchSwitch" new="com.doomy.torch.TorchSwitch">
+   <method old="isTorchServiceRunning(Landroid/content/Context;)Z" new="m_e"/>
+   <method old="onReceive(Landroid/content/Context;Landroid/content/Intent;)V" new="onReceive"/>
+   <field old="TAG Ljava/lang/String;" new="f_J"/>
+   <field old="TOGGLE_FLASHLIGHT Ljava/lang/String;" new="f_b"/>
+   <field old="TORCH_STATE_CHANGED Ljava/lang/String;" new="f_G"/>
+   <field old="mPreferences Landroid/content/SharedPreferences;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.SettingsActivity" new="com.doomy.torch.SettingsActivity">
+   <method old="access$000()Lcom/doomy/torch/SettingsActivity;" new="m_i"/>
+   <method old="access$100(Lcom/doomy/torch/SettingsActivity;)Landroid/content/Context;" new="m_z"/>
+   <method old="access$200()Ljava/lang/Boolean;" new="m_t"/>
+   <method old="access$202(Ljava/lang/Boolean;)Ljava/lang/Boolean;" new="m_s"/>
+   <method old="access$300(Lcom/doomy/torch/SettingsActivity;)Landroid/content/SharedPreferences;" new="m_Y"/>
+   <method old="deviceHasNoFlash()V" new="m_w"/>
+   <method old="enablementKeys()V" new="m_y"/>
+   <method old="enablementSOS()V" new="m_n"/>
+   <method old="enablementScreen()V" new="m_u"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V" new="onSharedPreferenceChanged"/>
+   <method old="openAboutDialog()V" new="m_V"/>
+   <method old="setThemeDialog()I" new="m_q"/>
+   <method old="updateWidget()V" new="m_G"/>
+   <field old="KEY_COLOR Ljava/lang/String;" new="f_e"/>
+   <field old="KEY_HIDE Ljava/lang/String;" new="f_G"/>
+   <field old="KEY_SCREEN Ljava/lang/String;" new="f_k"/>
+   <field old="KEY_SOS Ljava/lang/String;" new="f_f"/>
+   <field old="TAG Ljava/lang/String;" new="f_b"/>
+   <field old="mActivity Lcom/doomy/torch/SettingsActivity;" new="f_d"/>
+   <field old="mColor Landroid/preference/ListPreference;" new="f_J"/>
+   <field old="mContext Landroid/content/Context;" new="f_g"/>
+   <field old="mHide Landroid/preference/Preference;" new="f_L"/>
+   <field old="mPrefBright Ljava/lang/Boolean;" new="f_D"/>
+   <field old="mPreferences Landroid/content/SharedPreferences;" new="f_A"/>
+   <field old="mScreen Landroid/preference/CheckBoxPreference;" new="f_l"/>
+   <field old="mSos Landroid/preference/CheckBoxPreference;" new="f_F"/>
+   <field old="mWidgetProvider Lcom/doomy/torch/TorchWidgetProvider;" new="f_H"/>
+  </class>
+  <class old="com.doomy.torch.R$style" new="com.doomy.torch.R$style">
+   <field old="Holo I" new="Holo"/>
+   <field old="HoloDialog I" new="HoloDialog"/>
+   <field old="HoloTranslucent I" new="HoloTranslucent"/>
+   <field old="HoloWithoutBar I" new="HoloWithoutBar"/>
+   <field old="Material I" new="Material"/>
+   <field old="MaterialDialog I" new="MaterialDialog"/>
+   <field old="MaterialTranslucent I" new="MaterialTranslucent"/>
+  </class>
+  <class old="com.doomy.torch.R$attr" new="com.doomy.torch.R$attr">
+  </class>
+  <class old="com.doomy.torch.TorchService" new="com.doomy.torch.TorchService">
+   <method old="access$000(Lcom/doomy/torch/TorchService;)Landroid/content/SharedPreferences;" new="m_K"/>
+   <method old="access$002(Lcom/doomy/torch/TorchService;Landroid/content/SharedPreferences;)Landroid/content/SharedPreferences;" new="m_b"/>
+   <method old="access$100(Lcom/doomy/torch/TorchService;)Landroid/content/Context;" new="m_I"/>
+   <method old="access$200(Lcom/doomy/torch/TorchService;)Lcom/doomy/torch/TorchService$WrapperTask;" new="m_g"/>
+   <method old="access$202(Lcom/doomy/torch/TorchService;Lcom/doomy/torch/TorchService$WrapperTask;)Lcom/doomy/torch/TorchService$WrapperTask;" new="m_S"/>
+   <method old="access$300(Lcom/doomy/torch/TorchService;)Ljava/lang/Runnable;" new="m_d"/>
+   <method old="access$400(Lcom/doomy/torch/TorchService;)I" new="m_P"/>
+   <method old="access$402(Lcom/doomy/torch/TorchService;I)I" new="m_c"/>
+   <method old="access$408(Lcom/doomy/torch/TorchService;)I" new="m_A"/>
+   <method old="access$500(Lcom/doomy/torch/TorchService;)Ljava/util/Timer;" new="m_M"/>
+   <method old="access$600(Lcom/doomy/torch/TorchService;)Ljava/lang/Runnable;" new="m_J"/>
+   <method old="onBind(Landroid/content/Intent;)Landroid/os/IBinder;" new="onBind"/>
+   <method old="onCreate()V" new="onCreate"/>
+   <method old="onDestroy()V" new="onDestroy"/>
+   <method old="onStartCommand(Landroid/content/Intent;II)I" new="onStartCommand"/>
+   <method old="updateState(Z)V" new="m_C"/>
+   <field old="TAG Ljava/lang/String;" new="f_F"/>
+   <field old="mContext Landroid/content/Context;" new="f_L"/>
+   <field old="mNotificationManager Landroid/app/NotificationManager;" new="f_h"/>
+   <field old="mPreferences Landroid/content/SharedPreferences;" new="f_E"/>
+   <field old="mSos Z" new="f_b"/>
+   <field old="mSosCount I" new="f_f"/>
+   <field old="mSosOffRunnable Ljava/lang/Runnable;" new="f_D"/>
+   <field old="mSosOnRunnable Ljava/lang/Runnable;" new="f_K"/>
+   <field old="mSosTask Lcom/doomy/torch/TorchService$WrapperTask;" new="f_G"/>
+   <field old="mSosTimer Ljava/util/Timer;" new="f_e"/>
+   <field old="mStrobe Z" new="f_A"/>
+   <field old="mStrobePeriod I" new="f_d"/>
+   <field old="mStrobeRunnable Ljava/lang/Runnable;" new="f_H"/>
+   <field old="mStrobeTask Lcom/doomy/torch/TorchService$WrapperTask;" new="f_g"/>
+   <field old="mStrobeTimer Ljava/util/Timer;" new="f_l"/>
+   <field old="mTorchTask Ljava/util/TimerTask;" new="f_J"/>
+   <field old="mTorchTimer Ljava/util/Timer;" new="f_k"/>
+  </class>
+  <class old="com.doomy.torch.BuildConfig" new="com.doomy.torch.c_d">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_N"/>
+   <field old="APPLICATION_ID Ljava/lang/String;" new="f_k"/>
+   <field old="BUILD_TYPE Ljava/lang/String;" new="f_G"/>
+   <field old="DEBUG Z" new="f_b"/>
+   <field old="FLAVOR Ljava/lang/String;" new="f_L"/>
+   <field old="VERSION_CODE I" new="f_d"/>
+   <field old="VERSION_NAME Ljava/lang/String;" new="f_J"/>
+  </class>
+  <class old="com.doomy.torch.WidgetActivity" new="com.doomy.torch.WidgetActivity">
+   <method old="access$000()Lcom/doomy/torch/WidgetActivity;" new="m_i"/>
+   <method old="access$100(Lcom/doomy/torch/WidgetActivity;)Landroid/content/Context;" new="m_h"/>
+   <method old="addWidget()V" new="m_L"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="onSharedPreferenceChanged(Landroid/content/SharedPreferences;Ljava/lang/String;)V" new="onSharedPreferenceChanged"/>
+   <method old="updateWidget()V" new="m_G"/>
+   <field old="KEY_WIDGET_COLOR Ljava/lang/String;" new="f_D"/>
+   <field old="KEY_WIDGET_SOS Ljava/lang/String;" new="f_k"/>
+   <field old="TAG Ljava/lang/String;" new="f_H"/>
+   <field old="mActivity Lcom/doomy/torch/WidgetActivity;" new="f_b"/>
+   <field old="mAppWidgetId I" new="f_J"/>
+   <field old="mColor Landroid/preference/ListPreference;" new="f_d"/>
+   <field old="mContext Landroid/content/Context;" new="f_L"/>
+   <field old="mPreferences Landroid/content/SharedPreferences;" new="f_G"/>
+   <field old="mWidgetProvider Lcom/doomy/torch/TorchWidgetProvider;" new="f_e"/>
+  </class>
+  <class old="com.doomy.torch.TorchWidgetProvider$widgetState" new="com.doomy.torch.TorchWidgetProvider$widgetState">
+   <method old="getImgDrawable()I" new="m_a"/>
+   <method old="valueOf(Ljava/lang/String;)Lcom/doomy/torch/TorchWidgetProvider$widgetState;" new="valueOf"/>
+   <method old="values()[Lcom/doomy/torch/TorchWidgetProvider$widgetState;" new="values"/>
+   <field old="$VALUES [Lcom/doomy/torch/TorchWidgetProvider$widgetState;" new="f_J"/>
+   <field old="OFF Lcom/doomy/torch/TorchWidgetProvider$widgetState;" new="f_b"/>
+   <field old="ON Lcom/doomy/torch/TorchWidgetProvider$widgetState;" new="f_d"/>
+   <field old="mDrawImgRes I" new="f_G"/>
+  </class>
+  <class old="com.doomy.torch.R$mipmap" new="com.doomy.torch.R$mipmap">
+   <field old="ic_launcher I" new="ic_launcher"/>
+  </class>
+  <class old="com.doomy.torch.TorchService$WrapperTask" new="com.doomy.torch.c_H">
+   <method old="run()V" new="run"/>
+   <field old="mTarget Ljava/lang/Runnable;" new="f_G"/>
+   <field old="this$0 Lcom/doomy/torch/TorchService;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.R$drawable" new="com.doomy.torch.R$drawable">
+   <field old="ic_accept I" new="ic_accept"/>
+   <field old="ic_off I" new="ic_off"/>
+   <field old="ic_on I" new="ic_on"/>
+   <field old="img_github I" new="img_github"/>
+   <field old="img_mrdoomy I" new="img_mrdoomy"/>
+   <field old="img_off I" new="img_off"/>
+   <field old="img_on I" new="img_on"/>
+   <field old="img_studio I" new="img_studio"/>
+   <field old="preview I" new="preview"/>
+   <field old="shape I" new="shape"/>
+   <field old="widget_off I" new="widget_off"/>
+   <field old="widget_on I" new="widget_on"/>
+  </class>
+  <class old="com.doomy.torch.SettingsActivity$1" new="com.doomy.torch.c_E">
+   <method old="onPreferenceChange(Landroid/preference/Preference;Ljava/lang/Object;)Z" new="onPreferenceChange"/>
+   <field old="this$0 Lcom/doomy/torch/SettingsActivity;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.TorchService$1" new="com.doomy.torch.c_b">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lcom/doomy/torch/TorchService;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.SettingsActivity$2$1" new="com.doomy.torch.c_h">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$1 Lcom/doomy/torch/SettingsActivity$2;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.R$color" new="com.doomy.torch.R$color">
+   <field old="amber I" new="amber"/>
+   <field old="amberDark I" new="amberDark"/>
+   <field old="blue I" new="blue"/>
+   <field old="blueDark I" new="blueDark"/>
+   <field old="blueGrey I" new="blueGrey"/>
+   <field old="blueGreyDark I" new="blueGreyDark"/>
+   <field old="brown I" new="brown"/>
+   <field old="brownDark I" new="brownDark"/>
+   <field old="cyan I" new="cyan"/>
+   <field old="cyanDark I" new="cyanDark"/>
+   <field old="deepOrange I" new="deepOrange"/>
+   <field old="deepOrangeDark I" new="deepOrangeDark"/>
+   <field old="deepPurple I" new="deepPurple"/>
+   <field old="deepPurpleDark I" new="deepPurpleDark"/>
+   <field old="green I" new="green"/>
+   <field old="greenDark I" new="greenDark"/>
+   <field old="grey I" new="grey"/>
+   <field old="greyDark I" new="greyDark"/>
+   <field old="greyEmpty I" new="greyEmpty"/>
+   <field old="greyMaterialDark I" new="greyMaterialDark"/>
+   <field old="greyMaterialLight I" new="greyMaterialLight"/>
+   <field old="indigo I" new="indigo"/>
+   <field old="indigoDark I" new="indigoDark"/>
+   <field old="lightBlue I" new="lightBlue"/>
+   <field old="lightBlueDark I" new="lightBlueDark"/>
+   <field old="lightGreen I" new="lightGreen"/>
+   <field old="lightGreenDark I" new="lightGreenDark"/>
+   <field old="lime I" new="lime"/>
+   <field old="limeDark I" new="limeDark"/>
+   <field old="orange I" new="orange"/>
+   <field old="orangeDark I" new="orangeDark"/>
+   <field old="pink I" new="pink"/>
+   <field old="pinkDark I" new="pinkDark"/>
+   <field old="purple I" new="purple"/>
+   <field old="purpleDark I" new="purpleDark"/>
+   <field old="red I" new="red"/>
+   <field old="redDark I" new="redDark"/>
+   <field old="teal I" new="teal"/>
+   <field old="tealDark I" new="tealDark"/>
+   <field old="yellow I" new="yellow"/>
+   <field old="yellowDark I" new="yellowDark"/>
+  </class>
+  <class old="com.doomy.torch.SettingsActivity$2" new="com.doomy.torch.c_c">
+   <method old="onPreferenceClick(Landroid/preference/Preference;)Z" new="onPreferenceClick"/>
+   <field old="this$0 Lcom/doomy/torch/SettingsActivity;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.TorchService$2" new="com.doomy.torch.c_f">
+   <method old="run()V" new="run"/>
+   <field old="mCounter I" new="f_d"/>
+   <field old="this$0 Lcom/doomy/torch/TorchService;" new="f_G"/>
+  </class>
+  <class old="com.doomy.torch.SettingsActivity$3" new="com.doomy.torch.c_G">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lcom/doomy/torch/SettingsActivity;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.SettingsActivity$2$2" new="com.doomy.torch.c_M">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$1 Lcom/doomy/torch/SettingsActivity$2;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.TorchService$3" new="com.doomy.torch.c_K">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lcom/doomy/torch/TorchService;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.SettingsActivity$4" new="com.doomy.torch.c_D">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lcom/doomy/torch/SettingsActivity;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.TorchService$4" new="com.doomy.torch.c_i">
+   <method old="run()V" new="run"/>
+   <field old="this$0 Lcom/doomy/torch/TorchService;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.SettingsActivity$5" new="com.doomy.torch.c_C">
+   <method old="onClick(Landroid/view/View;)V" new="onClick"/>
+   <field old="this$0 Lcom/doomy/torch/SettingsActivity;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.R$bool" new="com.doomy.torch.R$bool">
+   <field old="useCameraInterface I" new="useCameraInterface"/>
+  </class>
+  <class old="com.doomy.torch.SettingsActivity$6" new="com.doomy.torch.c_e">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lcom/doomy/torch/SettingsActivity;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.R$menu" new="com.doomy.torch.R$menu">
+   <field old="menu_main I" new="menu_main"/>
+   <field old="menu_widget I" new="menu_widget"/>
+  </class>
+  <class old="com.doomy.torch.R$id" new="com.doomy.torch.R$id">
+   <field old="action_settings I" new="action_settings"/>
+   <field old="action_widget I" new="action_widget"/>
+   <field old="button I" new="button"/>
+   <field old="imageViewGitHub I" new="imageViewGitHub"/>
+   <field old="imageViewMrDoomy I" new="imageViewMrDoomy"/>
+   <field old="imageViewOff I" new="imageViewOff"/>
+   <field old="imageViewOn I" new="imageViewOn"/>
+   <field old="imageViewShape I" new="imageViewShape"/>
+   <field old="imageViewStudio I" new="imageViewStudio"/>
+   <field old="main I" new="main"/>
+   <field old="shape I" new="shape"/>
+   <field old="textViewAbout I" new="textViewAbout"/>
+   <field old="textViewCopyright I" new="textViewCopyright"/>
+   <field old="widget I" new="widget"/>
+  </class>
+  <class old="com.doomy.torch.Utils" new="com.doomy.torch.c_k">
+   <method old="colorizeBar(Landroid/app/Activity;Landroid/content/Context;Ljava/lang/String;)V" new="m_m"/>
+   <method old="deviceHasCameraFlash(Landroid/content/Context;)Z" new="m_F"/>
+   <method old="getPrefColor(Landroid/content/Context;Ljava/lang/String;)I" new="m_E"/>
+   <method old="setMainTheme(Landroid/app/Activity;)V" new="m_l"/>
+   <method old="setPreferenceTheme(Landroid/app/Activity;)V" new="m_H"/>
+   <field old="mCamera Landroid/hardware/Camera;" new="f_G"/>
+   <field old="mPrefDevice Ljava/lang/Boolean;" new="f_d"/>
+   <field old="mPreferences Landroid/content/SharedPreferences;" new="f_J"/>
+  </class>
+  <class old="com.doomy.torch.R$xml" new="com.doomy.torch.R$xml">
+   <field old="widget_info I" new="widget_info"/>
+  </class>
+  <class old="com.doomy.torch.WidgetActivity$1" new="com.doomy.torch.c_L">
+   <method old="onPreferenceChange(Landroid/preference/Preference;Ljava/lang/Object;)Z" new="onPreferenceChange"/>
+   <field old="this$0 Lcom/doomy/torch/WidgetActivity;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.R$layout" new="com.doomy.torch.R$layout">
+   <field old="activity_main I" new="activity_main"/>
+   <field old="activity_settings I" new="activity_settings"/>
+   <field old="activity_widget I" new="activity_widget"/>
+   <field old="view_about I" new="view_about"/>
+   <field old="widget I" new="widget"/>
+  </class>
+  <class old="com.doomy.torch.MainActivity" new="com.doomy.torch.MainActivity">
+   <method old="access$000(Lcom/doomy/torch/MainActivity;)V" new="m_O"/>
+   <method old="access$100(Lcom/doomy/torch/MainActivity;)Z" new="m_T"/>
+   <method old="access$102(Lcom/doomy/torch/MainActivity;Z)Z" new="m_x"/>
+   <method old="access$200(Lcom/doomy/torch/MainActivity;)V" new="m_Z"/>
+   <method old="access$300(Lcom/doomy/torch/MainActivity;)V" new="m_X"/>
+   <method old="access$400(Lcom/doomy/torch/MainActivity;)Landroid/content/Context;" new="m_La"/>
+   <method old="getInstance()Lcom/doomy/torch/MainActivity;" new="m_j"/>
+   <method old="getMeasureScale()F" new="m_o"/>
+   <method old="hideSystemUi(Landroid/view/View;)V" new="m_U"/>
+   <method old="onAttachedToWindow()V" new="onAttachedToWindow"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateIntent()V" new="m_r"/>
+   <method old="onPause()V" new="onPause"/>
+   <method old="onResume()V" new="onResume"/>
+   <method old="openFirstDialog()V" new="m_Q"/>
+   <method old="setFlashOff()V" new="m_W"/>
+   <method old="setFlashOn()V" new="m_R"/>
+   <method old="setShapeColor()V" new="m_Ga"/>
+   <method old="setThemeColor()V" new="m_p"/>
+   <method old="setThemeDialog()I" new="m_q"/>
+   <method old="showSystemUi(Landroid/view/View;)V" new="m_v"/>
+   <method old="updateWidget()V" new="m_G"/>
+   <field old="ANIMATION_DURATION I" new="f_H"/>
+   <field old="DEMI_DURATION I" new="f_b"/>
+   <field old="TAG Ljava/lang/String;" new="f_J"/>
+   <field old="mActivity Lcom/doomy/torch/MainActivity;" new="f_d"/>
+   <field old="mContext Landroid/content/Context;" new="f_G"/>
+   <field old="mFullScreenScale F" new="f_D"/>
+   <field old="mImageViewOff Landroid/widget/ImageView;" new="f_k"/>
+   <field old="mImageViewOn Landroid/widget/ImageView;" new="f_f"/>
+   <field old="mImageViewShape Landroid/widget/ImageView;" new="f_A"/>
+   <field old="mPreferences Landroid/content/SharedPreferences;" new="f_L"/>
+   <field old="mStateReceiver Landroid/content/BroadcastReceiver;" new="f_F"/>
+   <field old="mTorchOn Z" new="f_g"/>
+   <field old="mValue Z" new="f_l"/>
+   <field old="mWidgetProvider Lcom/doomy/torch/TorchWidgetProvider;" new="f_e"/>
+  </class>
+  <class old="com.doomy.torch.R$array" new="com.doomy.torch.R$array">
+   <field old="colors I" new="colors"/>
+  </class>
+  <class old="com.doomy.torch.R$integer" new="com.doomy.torch.R$integer">
+   <field old="valueOff I" new="valueOff"/>
+   <field old="valueOn I" new="valueOn"/>
+  </class>
+  <class old="com.doomy.torch.TorchWidgetProvider" new="com.doomy.torch.TorchWidgetProvider">
+   <method old="disableWidget(Landroid/content/Context;)V" new="m_D"/>
+   <method old="getInstance()Lcom/doomy/torch/TorchWidgetProvider;" new="m_j"/>
+   <method old="getLaunchPendingIntent(Landroid/content/Context;II)Landroid/app/PendingIntent;" new="m_k"/>
+   <method old="onReceive(Landroid/content/Context;Landroid/content/Intent;)V" new="onReceive"/>
+   <method old="onUpdate(Landroid/content/Context;Landroid/appwidget/AppWidgetManager;[I)V" new="onUpdate"/>
+   <method old="updateAppWidget(Landroid/content/Context;)V" new="m_f"/>
+   <method old="updateState(Landroid/content/Context;I)V" new="m_B"/>
+   <field old="TAG Ljava/lang/String;" new="f_G"/>
+   <field old="mInstance Lcom/doomy/torch/TorchWidgetProvider;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.MainActivity$1" new="com.doomy.torch.c_B">
+   <method old="onClick(Landroid/view/View;)V" new="onClick"/>
+   <field old="this$0 Lcom/doomy/torch/MainActivity;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.MainActivity$2" new="com.doomy.torch.c_a">
+   <method old="onLongClick(Landroid/view/View;)Z" new="onLongClick"/>
+   <field old="this$0 Lcom/doomy/torch/MainActivity;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.R" new="com.doomy.torch.R">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_N"/>
+  </class>
+  <class old="com.doomy.torch.MainActivity$3" new="com.doomy.torch.c_J">
+   <method old="onReceive(Landroid/content/Context;Landroid/content/Intent;)V" new="onReceive"/>
+   <field old="this$0 Lcom/doomy/torch/MainActivity;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.MainActivity$4" new="com.doomy.torch.c_g">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lcom/doomy/torch/MainActivity;" new="f_d"/>
+  </class>
+  <class old="com.doomy.torch.R$dimen" new="com.doomy.torch.R$dimen">
+   <field old="activity_horizontal_margin I" new="activity_horizontal_margin"/>
+   <field old="activity_vertical_margin I" new="activity_vertical_margin"/>
+   <field old="image_height I" new="image_height"/>
+   <field old="image_widht I" new="image_widht"/>
+   <field old="size_github I" new="size_github"/>
+   <field old="size_image I" new="size_image"/>
+   <field old="size_shape I" new="size_shape"/>
+  </class>
+  <class old="com.doomy.torch.FlashDevice" new="com.doomy.torch.c_m">
+   <method old="getFlashMode()I" new="m_ba"/>
+   <method old="getInstance(Landroid/content/Context;)Lcom/doomy/torch/FlashDevice;" new="m_Ia"/>
+   <method old="setFlashMode(I)V" new="m_Ha"/>
+   <field old="OFF I" new="f_K"/>
+   <field old="ON I" new="f_h"/>
+   <field old="STROBE I" new="f_G"/>
+   <field old="TAG Ljava/lang/String;" new="f_k"/>
+   <field old="mCamera Landroid/hardware/Camera;" new="f_H"/>
+   <field old="mContext Landroid/content/Context;" new="f_g"/>
+   <field old="mFlashDevice Ljava/lang/String;" new="f_I"/>
+   <field old="mFlashDeviceWriter Ljava/io/FileWriter;" new="f_f"/>
+   <field old="mFlashMode I" new="f_l"/>
+   <field old="mInstance Lcom/doomy/torch/FlashDevice;" new="f_d"/>
+   <field old="mParams Landroid/hardware/Camera$Parameters;" new="f_L"/>
+   <field old="mPreferences Landroid/content/SharedPreferences;" new="f_F"/>
+   <field old="mSurfaceCreated Z" new="f_E"/>
+   <field old="mSurfaceTexture Landroid/graphics/SurfaceTexture;" new="f_e"/>
+   <field old="mUseCameraInterface Z" new="f_A"/>
+   <field old="mValueOff I" new="f_b"/>
+   <field old="mValueOn I" new="f_J"/>
+   <field old="mWakeLock Landroid/os/PowerManager$WakeLock;" new="f_D"/>
+  </class>
+  <class old="com.doomy.torch.R$string" new="com.doomy.torch.R$string">
+   <field old="about I" new="about"/>
+   <field old="add I" new="add"/>
+   <field old="amber I" new="amber"/>
+   <field old="app_name I" new="app_name"/>
+   <field old="apply I" new="apply"/>
+   <field old="blue I" new="blue"/>
+   <field old="blueGrey I" new="blueGrey"/>
+   <field old="brown I" new="brown"/>
+   <field old="choose I" new="choose"/>
+   <field old="color I" new="color"/>
+   <field old="colorful I" new="colorful"/>
+   <field old="copyright I" new="copyright"/>
+   <field old="custom I" new="custom"/>
+   <field old="cyan I" new="cyan"/>
+   <field old="deepOrange I" new="deepOrange"/>
+   <field old="deepPurple I" new="deepPurple"/>
+   <field old="developer I" new="developer"/>
+   <field old="disabled I" new="disabled"/>
+   <field old="discolored I" new="discolored"/>
+   <field old="enabled I" new="enabled"/>
+   <field old="first I" new="first"/>
+   <field old="flashDevice I" new="flashDevice"/>
+   <field old="green I" new="green"/>
+   <field old="grey I" new="grey"/>
+   <field old="hello I" new="hello"/>
+   <field old="hide I" new="hide"/>
+   <field old="indigo I" new="indigo"/>
+   <field old="lightBlue I" new="lightBlue"/>
+   <field old="lightGreen I" new="lightGreen"/>
+   <field old="lime I" new="lime"/>
+   <field old="message I" new="message"/>
+   <field old="mode I" new="mode"/>
+   <field old="no I" new="no"/>
+   <field old="okay I" new="okay"/>
+   <field old="orange I" new="orange"/>
+   <field old="pink I" new="pink"/>
+   <field old="purple I" new="purple"/>
+   <field old="red I" new="red"/>
+   <field old="screen I" new="screen"/>
+   <field old="settings I" new="settings"/>
+   <field old="sos I" new="sos"/>
+   <field old="teal I" new="teal"/>
+   <field old="title I" new="title"/>
+   <field old="torch_title I" new="torch_title"/>
+   <field old="torch_toggle I" new="torch_toggle"/>
+   <field old="url I" new="url"/>
+   <field old="widget I" new="widget"/>
+   <field old="yellow I" new="yellow"/>
+   <field old="yes I" new="yes"/>
+  </class>
+  <sources>
+   <source old="BuildConfig.java" new="f"/>
+   <source old="FlashDevice.java" new="g"/>
+   <source old="MainActivity.java" new="o"/>
+   <source old="R.java" new="m"/>
+   <source old="SettingsActivity.java" new="s"/>
+   <source old="TorchService.java" new="x"/>
+   <source old="TorchSwitch.java" new="i"/>
+   <source old="TorchWidgetProvider.java" new="z"/>
+   <source old="Utils.java" new="j"/>
+   <source old="WidgetActivity.java" new="n"/>
+  </sources>
+  <lines>
+   <line l="187"/>
+   <line l="156"/>
+   <line l="197"/>
+   <line l="112"/>
+   <line l="251"/>
+   <line l="52"/>
+   <line l="26"/>
+   <line l="114"/>
+   <line l="225"/>
+   <line l="9"/>
+   <line l="90"/>
+   <line l="0"/>
+   <line l="63"/>
+   <line l="53"/>
+   <line l="66"/>
+   <line l="194"/>
+   <line l="150"/>
+   <line l="257"/>
+   <line l="160"/>
+   <line l="77"/>
+   <line l="21"/>
+   <line l="224"/>
+   <line l="179"/>
+   <line l="42"/>
+   <line l="254"/>
+   <line l="92"/>
+   <line l="6"/>
+   <line l="162"/>
+   <line l="76"/>
+   <line l="216"/>
+   <line l="232"/>
+   <line l="117"/>
+   <line l="219"/>
+   <line l="145"/>
+   <line l="116"/>
+   <line l="191"/>
+   <line l="176"/>
+   <line l="143"/>
+   <line l="20"/>
+   <line l="45"/>
+   <line l="4"/>
+   <line l="17"/>
+   <line l="68"/>
+   <line l="248"/>
+   <line l="196"/>
+   <line l="182"/>
+   <line l="168"/>
+   <line l="189"/>
+   <line l="61"/>
+   <line l="14"/>
+   <line l="204"/>
+   <line l="201"/>
+   <line l="139"/>
+   <line l="119"/>
+   <line l="22"/>
+   <line l="126"/>
+   <line l="138"/>
+   <line l="185"/>
+   <line l="1"/>
+   <line l="137"/>
+   <line l="31"/>
+   <line l="249"/>
+   <line l="165"/>
+   <line l="103"/>
+   <line l="78"/>
+   <line l="38"/>
+   <line l="83"/>
+   <line l="171"/>
+   <line l="238"/>
+   <line l="241"/>
+   <line l="23"/>
+   <line l="132"/>
+   <line l="84"/>
+   <line l="154"/>
+   <line l="27"/>
+   <line l="122"/>
+   <line l="95"/>
+   <line l="192"/>
+   <line l="229"/>
+   <line l="108"/>
+   <line l="136"/>
+   <line l="62"/>
+   <line l="258"/>
+   <line l="209"/>
+   <line l="88"/>
+   <line l="5"/>
+   <line l="213"/>
+   <line l="211"/>
+   <line l="230"/>
+   <line l="94"/>
+   <line l="166"/>
+   <line l="242"/>
+   <line l="97"/>
+   <line l="96"/>
+   <line l="220"/>
+   <line l="41"/>
+   <line l="231"/>
+   <line l="51"/>
+   <line l="202"/>
+   <line l="55"/>
+   <line l="129"/>
+   <line l="33"/>
+   <line l="172"/>
+   <line l="102"/>
+   <line l="124"/>
+   <line l="120"/>
+   <line l="25"/>
+   <line l="142"/>
+   <line l="135"/>
+   <line l="11"/>
+   <line l="210"/>
+   <line l="86"/>
+   <line l="163"/>
+   <line l="170"/>
+   <line l="215"/>
+   <line l="56"/>
+   <line l="75"/>
+   <line l="60"/>
+   <line l="222"/>
+   <line l="203"/>
+   <line l="141"/>
+   <line l="59"/>
+   <line l="218"/>
+   <line l="93"/>
+   <line l="263"/>
+   <line l="127"/>
+   <line l="110"/>
+   <line l="50"/>
+   <line l="91"/>
+   <line l="247"/>
+   <line l="214"/>
+   <line l="267"/>
+   <line l="3"/>
+   <line l="107"/>
+   <line l="239"/>
+   <line l="184"/>
+   <line l="227"/>
+   <line l="104"/>
+   <line l="234"/>
+   <line l="29"/>
+   <line l="151"/>
+   <line l="199"/>
+   <line l="128"/>
+   <line l="15"/>
+   <line l="65"/>
+   <line l="125"/>
+   <line l="44"/>
+   <line l="8"/>
+   <line l="175"/>
+   <line l="183"/>
+   <line l="85"/>
+   <line l="34"/>
+   <line l="190"/>
+   <line l="80"/>
+   <line l="69"/>
+   <line l="223"/>
+   <line l="18"/>
+   <line l="43"/>
+   <line l="113"/>
+   <line l="146"/>
+   <line l="157"/>
+   <line l="266"/>
+   <line l="237"/>
+   <line l="79"/>
+   <line l="186"/>
+   <line l="46"/>
+   <line l="140"/>
+   <line l="118"/>
+   <line l="262"/>
+   <line l="147"/>
+   <line l="159"/>
+   <line l="259"/>
+   <line l="164"/>
+   <line l="134"/>
+   <line l="2"/>
+   <line l="158"/>
+   <line l="200"/>
+   <line l="240"/>
+   <line l="169"/>
+   <line l="250"/>
+   <line l="47"/>
+   <line l="70"/>
+   <line l="37"/>
+   <line l="121"/>
+   <line l="49"/>
+   <line l="261"/>
+   <line l="115"/>
+   <line l="123"/>
+   <line l="244"/>
+   <line l="268"/>
+   <line l="131"/>
+   <line l="111"/>
+   <line l="181"/>
+   <line l="72"/>
+   <line l="167"/>
+   <line l="228"/>
+   <line l="40"/>
+   <line l="253"/>
+   <line l="265"/>
+   <line l="180"/>
+   <line l="144"/>
+   <line l="155"/>
+   <line l="233"/>
+   <line l="54"/>
+   <line l="73"/>
+   <line l="105"/>
+   <line l="221"/>
+   <line l="58"/>
+   <line l="67"/>
+   <line l="256"/>
+   <line l="149"/>
+   <line l="64"/>
+   <line l="36"/>
+   <line l="177"/>
+   <line l="195"/>
+   <line l="89"/>
+   <line l="13"/>
+   <line l="24"/>
+   <line l="130"/>
+   <line l="264"/>
+   <line l="98"/>
+   <line l="39"/>
+   <line l="260"/>
+   <line l="161"/>
+   <line l="173"/>
+   <line l="193"/>
+   <line l="236"/>
+   <line l="198"/>
+   <line l="81"/>
+   <line l="243"/>
+   <line l="178"/>
+   <line l="87"/>
+   <line l="99"/>
+   <line l="153"/>
+   <line l="152"/>
+   <line l="188"/>
+   <line l="7"/>
+   <line l="82"/>
+   <line l="245"/>
+   <line l="10"/>
+   <line l="148"/>
+   <line l="106"/>
+   <line l="101"/>
+   <line l="226"/>
+   <line l="206"/>
+   <line l="32"/>
+   <line l="109"/>
+   <line l="28"/>
+   <line l="208"/>
+   <line l="255"/>
+   <line l="100"/>
+   <line l="205"/>
+   <line l="174"/>
+   <line l="30"/>
+   <line l="12"/>
+   <line l="212"/>
+   <line l="217"/>
+   <line l="207"/>
+   <line l="16"/>
+   <line l="74"/>
+   <line l="133"/>
+   <line l="35"/>
+   <line l="252"/>
+   <line l="246"/>
+   <line l="19"/>
+   <line l="235"/>
+   <line l="48"/>
+   <line l="57"/>
+   <line l="71"/>
+   <line l="350"/>
+   <line l="422"/>
+   <line l="315"/>
+   <line l="399"/>
+   <line l="485"/>
+   <line l="345"/>
+   <line l="460"/>
+   <line l="468"/>
+   <line l="482"/>
+   <line l="281"/>
+   <line l="368"/>
+   <line l="395"/>
+   <line l="430"/>
+   <line l="302"/>
+   <line l="465"/>
+   <line l="397"/>
+   <line l="347"/>
+   <line l="412"/>
+   <line l="449"/>
+   <line l="313"/>
+   <line l="326"/>
+   <line l="285"/>
+   <line l="327"/>
+   <line l="479"/>
+   <line l="408"/>
+   <line l="481"/>
+   <line l="328"/>
+   <line l="295"/>
+   <line l="370"/>
+   <line l="314"/>
+   <line l="421"/>
+   <line l="312"/>
+   <line l="304"/>
+   <line l="448"/>
+   <line l="319"/>
+   <line l="441"/>
+   <line l="470"/>
+   <line l="290"/>
+   <line l="342"/>
+   <line l="425"/>
+   <line l="360"/>
+   <line l="363"/>
+   <line l="391"/>
+   <line l="367"/>
+   <line l="437"/>
+   <line l="362"/>
+   <line l="320"/>
+   <line l="406"/>
+   <line l="427"/>
+   <line l="401"/>
+   <line l="415"/>
+   <line l="467"/>
+   <line l="443"/>
+   <line l="388"/>
+   <line l="409"/>
+   <line l="303"/>
+   <line l="276"/>
+   <line l="463"/>
+   <line l="435"/>
+   <line l="277"/>
+   <line l="472"/>
+   <line l="439"/>
+   <line l="300"/>
+   <line l="284"/>
+   <line l="274"/>
+   <line l="374"/>
+   <line l="372"/>
+   <line l="390"/>
+   <line l="375"/>
+   <line l="404"/>
+   <line l="298"/>
+   <line l="420"/>
+   <line l="469"/>
+   <line l="275"/>
+   <line l="451"/>
+   <line l="442"/>
+   <line l="428"/>
+   <line l="282"/>
+   <line l="355"/>
+   <line l="431"/>
+   <line l="316"/>
+   <line l="461"/>
+   <line l="455"/>
+   <line l="348"/>
+   <line l="459"/>
+   <line l="379"/>
+   <line l="289"/>
+   <line l="385"/>
+   <line l="333"/>
+   <line l="301"/>
+   <line l="382"/>
+   <line l="438"/>
+   <line l="426"/>
+   <line l="297"/>
+   <line l="446"/>
+   <line l="322"/>
+   <line l="383"/>
+   <line l="477"/>
+   <line l="444"/>
+   <line l="417"/>
+   <line l="424"/>
+   <line l="331"/>
+   <line l="429"/>
+   <line l="410"/>
+   <line l="389"/>
+   <line l="378"/>
+   <line l="308"/>
+   <line l="305"/>
+   <line l="353"/>
+   <line l="450"/>
+   <line l="357"/>
+   <line l="403"/>
+   <line l="373"/>
+   <line l="402"/>
+   <line l="338"/>
+   <line l="318"/>
+   <line l="423"/>
+   <line l="349"/>
+   <line l="311"/>
+   <line l="432"/>
+   <line l="346"/>
+   <line l="440"/>
+   <line l="474"/>
+   <line l="445"/>
+   <line l="458"/>
+   <line l="387"/>
+   <line l="286"/>
+   <line l="371"/>
+   <line l="418"/>
+   <line l="486"/>
+   <line l="411"/>
+   <line l="359"/>
+   <line l="476"/>
+   <line l="380"/>
+   <line l="309"/>
+   <line l="484"/>
+   <line l="452"/>
+   <line l="414"/>
+   <line l="278"/>
+   <line l="480"/>
+   <line l="334"/>
+   <line l="287"/>
+   <line l="392"/>
+   <line l="483"/>
+   <line l="386"/>
+   <line l="393"/>
+   <line l="419"/>
+   <line l="416"/>
+   <line l="475"/>
+   <line l="462"/>
+   <line l="400"/>
+   <line l="307"/>
+   <line l="405"/>
+   <line l="344"/>
+   <line l="364"/>
+   <line l="447"/>
+   <line l="354"/>
+   <line l="271"/>
+   <line l="456"/>
+   <line l="396"/>
+   <line l="293"/>
+   <line l="317"/>
+   <line l="279"/>
+   <line l="351"/>
+   <line l="296"/>
+   <line l="377"/>
+   <line l="292"/>
+   <line l="433"/>
+   <line l="288"/>
+   <line l="273"/>
+   <line l="306"/>
+   <line l="337"/>
+   <line l="270"/>
+   <line l="394"/>
+   <line l="365"/>
+   <line l="457"/>
+   <line l="366"/>
+   <line l="466"/>
+   <line l="325"/>
+   <line l="321"/>
+   <line l="473"/>
+   <line l="299"/>
+   <line l="332"/>
+   <line l="381"/>
+   <line l="341"/>
+   <line l="434"/>
+   <line l="269"/>
+   <line l="407"/>
+   <line l="384"/>
+   <line l="343"/>
+   <line l="329"/>
+   <line l="291"/>
+   <line l="294"/>
+   <line l="369"/>
+   <line l="310"/>
+   <line l="478"/>
+   <line l="330"/>
+   <line l="361"/>
+   <line l="356"/>
+   <line l="471"/>
+   <line l="358"/>
+   <line l="376"/>
+   <line l="413"/>
+   <line l="323"/>
+   <line l="283"/>
+   <line l="398"/>
+   <line l="335"/>
+   <line l="272"/>
+   <line l="324"/>
+   <line l="336"/>
+   <line l="454"/>
+   <line l="280"/>
+   <line l="436"/>
+   <line l="453"/>
+   <line l="352"/>
+   <line l="464"/>
+   <line l="339"/>
+   <line l="340"/>
+  </lines>
+ </mapping>
+</allatori>

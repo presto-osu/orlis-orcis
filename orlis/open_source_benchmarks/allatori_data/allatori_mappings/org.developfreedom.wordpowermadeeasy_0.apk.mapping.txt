@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+   Allatori Obfuscator v5.9 Educational
+   Web: http://www.allatori.com
+
+   Log created: Mon Aug 13 21:28:35 EDT 2018
+-->
+
+<allatori>
+ <mapping>
+  <class old="org.developfreedom.wordpowermadeeasy.DatabaseOpenHelper" new="org.developfreedom.wordpowermadeeasy.c_a">
+   <method old="onCreate(Landroid/database/sqlite/SQLiteDatabase;)V" new="onCreate"/>
+   <method old="onUpgrade(Landroid/database/sqlite/SQLiteDatabase;II)V" new="onUpgrade"/>
+   <field old="DATABASE_NAME Ljava/lang/String;" new="f_J"/>
+   <field old="DATABASE_VERSION I" new="f_l"/>
+   <field old="KEY_INDEX Ljava/lang/String;" new="f_M"/>
+   <field old="KEY_MEANING Ljava/lang/String;" new="f_K"/>
+   <field old="KEY_SCORE Ljava/lang/String;" new="f_i"/>
+   <field old="KEY_WORD Ljava/lang/String;" new="f_e"/>
+   <field old="TABLE_WORDLIST Ljava/lang/String;" new="f_k"/>
+   <field old="TAG Ljava/lang/String;" new="f_d"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.R$string" new="org.developfreedom.wordpowermadeeasy.R$string">
+   <field old="action_settings I" new="action_settings"/>
+   <field old="app_name I" new="app_name"/>
+   <field old="ok I" new="ok"/>
+   <field old="textbox_default_meaning I" new="textbox_default_meaning"/>
+   <field old="textbox_default_word I" new="textbox_default_word"/>
+   <field old="welcomeText I" new="welcomeText"/>
+   <field old="welcomeTitle I" new="welcomeTitle"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.R$xml" new="org.developfreedom.wordpowermadeeasy.R$xml">
+   <field old="word_list I" new="word_list"/>
+   <field old="word_list_short I" new="word_list_short"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.R$attr" new="org.developfreedom.wordpowermadeeasy.R$attr">
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.R$drawable" new="org.developfreedom.wordpowermadeeasy.R$drawable">
+   <field old="ic_launcher I" new="ic_launcher"/>
+   <field old="ic_search I" new="ic_search"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.R$layout" new="org.developfreedom.wordpowermadeeasy.R$layout">
+   <field old="activity_main I" new="activity_main"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.R" new="org.developfreedom.wordpowermadeeasy.R">
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.WordEngine" new="org.developfreedom.wordpowermadeeasy.c_d">
+   <method old="check_database()V" new="m_J"/>
+   <method old="getMapFromXml()Ljava/util/Map;" new="m_D"/>
+   <method old="getRandomWord()Lorg/developfreedom/wordpowermadeeasy/WordPair;" new="m_j"/>
+   <method old="getWeekPairs(I)Ljava/util/List;" new="m_d"/>
+   <method old="populateDatabase(Ljava/util/Map;)V" new="m_k"/>
+   <method old="readXml()Ljava/util/Map;" new="m_f"/>
+   <field old="context Landroid/content/Context;" new="f_M"/>
+   <field old="count I" new="f_d"/>
+   <field old="cursor Landroid/database/Cursor;" new="f_e"/>
+   <field old="database Landroid/database/sqlite/SQLiteDatabase;" new="f_J"/>
+   <field old="myDatabaseHelper Landroid/database/sqlite/SQLiteOpenHelper;" new="f_i"/>
+   <field old="word_map Ljava/util/Map;" new="f_K"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.R$style" new="org.developfreedom.wordpowermadeeasy.R$style">
+   <field old="AppBaseTheme I" new="AppBaseTheme"/>
+   <field old="AppTheme I" new="AppTheme"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.R$color" new="org.developfreedom.wordpowermadeeasy.R$color">
+   <field old="dark_grey I" new="dark_grey"/>
+   <field old="holo_blue_bright I" new="holo_blue_bright"/>
+   <field old="holo_blue_dark I" new="holo_blue_dark"/>
+   <field old="holo_blue_light I" new="holo_blue_light"/>
+   <field old="holo_gray_bright I" new="holo_gray_bright"/>
+   <field old="holo_gray_light I" new="holo_gray_light"/>
+   <field old="holo_green_dark I" new="holo_green_dark"/>
+   <field old="holo_green_light I" new="holo_green_light"/>
+   <field old="holo_orange_dark I" new="holo_orange_dark"/>
+   <field old="holo_orange_light I" new="holo_orange_light"/>
+   <field old="holo_purple I" new="holo_purple"/>
+   <field old="holo_red_dark I" new="holo_red_dark"/>
+   <field old="holo_red_light I" new="holo_red_light"/>
+   <field old="light_grey I" new="light_grey"/>
+   <field old="light_grey_2 I" new="light_grey_2"/>
+   <field old="orange I" new="orange"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.R$dimen" new="org.developfreedom.wordpowermadeeasy.R$dimen">
+   <field old="activity_horizontal_margin I" new="activity_horizontal_margin"/>
+   <field old="activity_vertical_margin I" new="activity_vertical_margin"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.MainActivity$1" new="org.developfreedom.wordpowermadeeasy.c_H">
+   <method old="onClick(Landroid/content/DialogInterface;I)V" new="onClick"/>
+   <field old="this$0 Lorg/developfreedom/wordpowermadeeasy/MainActivity;" new="f_J"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.MainActivity$LongRunningTask" new="org.developfreedom.wordpowermadeeasy.c_B">
+   <method old="doInBackground([Ljava/lang/Object;)Ljava/lang/Object;" new="doInBackground"/>
+   <method old="doInBackground([Ljava/lang/String;)Ljava/lang/Boolean;" new="m_M"/>
+   <method old="onPostExecute(Ljava/lang/Boolean;)V" new="m_b"/>
+   <method old="onPostExecute(Ljava/lang/Object;)V" new="onPostExecute"/>
+   <field old="meaning Ljava/lang/String;" new="f_M"/>
+   <field old="this$0 Lorg/developfreedom/wordpowermadeeasy/MainActivity;" new="f_J"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.R$menu" new="org.developfreedom.wordpowermadeeasy.R$menu">
+   <field old="main I" new="main"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.R$id" new="org.developfreedom.wordpowermadeeasy.R$id">
+   <field old="action_color_blue I" new="action_color_blue"/>
+   <field old="action_color_green I" new="action_color_green"/>
+   <field old="action_color_orange I" new="action_color_orange"/>
+   <field old="action_settings I" new="action_settings"/>
+   <field old="button_blue I" new="button_blue"/>
+   <field old="button_green I" new="button_green"/>
+   <field old="button_orange I" new="button_orange"/>
+   <field old="button_purple I" new="button_purple"/>
+   <field old="button_red I" new="button_red"/>
+   <field old="button_search I" new="button_search"/>
+   <field old="textview_meaning I" new="textview_meaning"/>
+   <field old="textview_word I" new="textview_word"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.WordPair" new="org.developfreedom.wordpowermadeeasy.c_J">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_E"/>
+   <method old="getIndex()I" new="m_g"/>
+   <method old="getMeaning()Ljava/lang/String;" new="m_C"/>
+   <method old="getScore()I" new="m_m"/>
+   <method old="getWord()Ljava/lang/String;" new="m_e"/>
+   <method old="setIndex(I)V" new="m_K"/>
+   <method old="setMeaning(Ljava/lang/String;)V" new="m_c"/>
+   <method old="setScore(I)V" new="m_H"/>
+   <method old="setWord(Ljava/lang/String;)V" new="m_I"/>
+   <field old="_index I" new="f_d"/>
+   <field old="_meaning Ljava/lang/String;" new="f_M"/>
+   <field old="_score I" new="f_J"/>
+   <field old="_word Ljava/lang/String;" new="f_K"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.BuildConfig" new="org.developfreedom.wordpowermadeeasy.c_b">
+   <method old="AllatoriDecryptString(Ljava/lang/String;)Ljava/lang/String;" new="m_E"/>
+   <field old="APPLICATION_ID Ljava/lang/String;" new="f_i"/>
+   <field old="BUILD_TYPE Ljava/lang/String;" new="f_M"/>
+   <field old="DEBUG Z" new="f_d"/>
+   <field old="FLAVOR Ljava/lang/String;" new="f_J"/>
+   <field old="VERSION_CODE I" new="f_e"/>
+   <field old="VERSION_NAME Ljava/lang/String;" new="f_K"/>
+  </class>
+  <class old="org.developfreedom.wordpowermadeeasy.MainActivity" new="org.developfreedom.wordpowermadeeasy.MainActivity">
+   <method old="access$100(Lorg/developfreedom/wordpowermadeeasy/MainActivity;)Landroid/widget/TextView;" new="m_F"/>
+   <method old="color_blue(Landroid/view/View;)V" new="color_blue"/>
+   <method old="color_change(Ljava/lang/String;)V" new="m_L"/>
+   <method old="color_green(Landroid/view/View;)V" new="color_green"/>
+   <method old="color_orange(Landroid/view/View;)V" new="color_orange"/>
+   <method old="color_purple(Landroid/view/View;)V" new="color_purple"/>
+   <method old="color_red(Landroid/view/View;)V" new="color_red"/>
+   <method old="nextRandom()Lorg/developfreedom/wordpowermadeeasy/WordPair;" new="m_i"/>
+   <method old="nextRandom(Landroid/view/View;)V" new="nextRandom"/>
+   <method old="onCreate(Landroid/os/Bundle;)V" new="onCreate"/>
+   <method old="onCreateOptionsMenu(Landroid/view/Menu;)Z" new="onCreateOptionsMenu"/>
+   <method old="onOptionsItemSelected(Landroid/view/MenuItem;)Z" new="onOptionsItemSelected"/>
+   <method old="search_word(Landroid/view/View;)V" new="search_word"/>
+   <method old="showWelcomeScreen()V" new="m_a"/>
+   <field old="DELAY_MEANING I" new="f_i"/>
+   <field old="_ClassName Ljava/lang/String;" new="f_J"/>
+   <field old="mPrefs Landroid/content/SharedPreferences;" new="f_e"/>
+   <field old="meaningDelayedTask Landroid/os/AsyncTask;" new="f_l"/>
+   <field old="textColorPref Ljava/lang/String;" new="f_d"/>
+   <field old="textview_meaning Landroid/widget/TextView;" new="f_M"/>
+   <field old="textview_word Landroid/widget/TextView;" new="f_K"/>
+   <field old="welcomeScreenShownPref Ljava/lang/String;" new="f_F"/>
+   <field old="wordEngine Lorg/developfreedom/wordpowermadeeasy/WordEngine;" new="f_k"/>
+  </class>
+  <sources>
+   <source old="BuildConfig.java" new="j"/>
+   <source old="DatabaseOpenHelper.java" new="x"/>
+   <source old="MainActivity.java" new="v"/>
+   <source old="R.java" new="o"/>
+   <source old="WordEngine.java" new="q"/>
+   <source old="WordPair.java" new="k"/>
+  </sources>
+  <lines>
+   <line l="184"/>
+   <line l="15"/>
+   <line l="209"/>
+   <line l="197"/>
+   <line l="221"/>
+   <line l="29"/>
+   <line l="3"/>
+   <line l="45"/>
+   <line l="97"/>
+   <line l="164"/>
+   <line l="69"/>
+   <line l="77"/>
+   <line l="120"/>
+   <line l="172"/>
+   <line l="125"/>
+   <line l="159"/>
+   <line l="7"/>
+   <line l="195"/>
+   <line l="158"/>
+   <line l="30"/>
+   <line l="227"/>
+   <line l="87"/>
+   <line l="92"/>
+   <line l="132"/>
+   <line l="150"/>
+   <line l="179"/>
+   <line l="137"/>
+   <line l="114"/>
+   <line l="10"/>
+   <line l="155"/>
+   <line l="208"/>
+   <line l="33"/>
+   <line l="225"/>
+   <line l="82"/>
+   <line l="134"/>
+   <line l="234"/>
+   <line l="103"/>
+   <line l="223"/>
+   <line l="66"/>
+   <line l="238"/>
+   <line l="180"/>
+   <line l="42"/>
+   <line l="144"/>
+   <line l="211"/>
+   <line l="200"/>
+   <line l="131"/>
+   <line l="228"/>
+   <line l="232"/>
+   <line l="107"/>
+   <line l="127"/>
+   <line l="129"/>
+   <line l="2"/>
+   <line l="38"/>
+   <line l="6"/>
+   <line l="168"/>
+   <line l="166"/>
+   <line l="156"/>
+   <line l="187"/>
+   <line l="128"/>
+   <line l="153"/>
+   <line l="108"/>
+   <line l="203"/>
+   <line l="76"/>
+   <line l="170"/>
+   <line l="243"/>
+   <line l="133"/>
+   <line l="142"/>
+   <line l="101"/>
+   <line l="112"/>
+   <line l="9"/>
+   <line l="182"/>
+   <line l="188"/>
+   <line l="41"/>
+   <line l="230"/>
+   <line l="218"/>
+   <line l="173"/>
+   <line l="213"/>
+   <line l="37"/>
+   <line l="56"/>
+   <line l="224"/>
+   <line l="25"/>
+   <line l="67"/>
+   <line l="50"/>
+   <line l="123"/>
+   <line l="122"/>
+   <line l="65"/>
+   <line l="167"/>
+   <line l="183"/>
+   <line l="116"/>
+   <line l="4"/>
+   <line l="1"/>
+   <line l="157"/>
+   <line l="207"/>
+   <line l="199"/>
+   <line l="151"/>
+   <line l="43"/>
+   <line l="40"/>
+   <line l="226"/>
+   <line l="83"/>
+   <line l="160"/>
+   <line l="194"/>
+   <line l="27"/>
+   <line l="231"/>
+   <line l="14"/>
+   <line l="68"/>
+   <line l="12"/>
+   <line l="80"/>
+   <line l="36"/>
+   <line l="124"/>
+   <line l="152"/>
+   <line l="95"/>
+   <line l="71"/>
+   <line l="181"/>
+   <line l="89"/>
+   <line l="217"/>
+   <line l="52"/>
+   <line l="54"/>
+   <line l="94"/>
+   <line l="148"/>
+   <line l="174"/>
+   <line l="75"/>
+   <line l="8"/>
+   <line l="111"/>
+   <line l="212"/>
+   <line l="109"/>
+   <line l="22"/>
+   <line l="63"/>
+   <line l="119"/>
+   <line l="191"/>
+   <line l="163"/>
+   <line l="237"/>
+   <line l="139"/>
+   <line l="190"/>
+   <line l="147"/>
+   <line l="235"/>
+   <line l="49"/>
+   <line l="171"/>
+   <line l="21"/>
+   <line l="60"/>
+   <line l="138"/>
+   <line l="51"/>
+   <line l="143"/>
+   <line l="113"/>
+   <line l="239"/>
+   <line l="46"/>
+   <line l="219"/>
+   <line l="214"/>
+   <line l="16"/>
+   <line l="47"/>
+   <line l="57"/>
+   <line l="72"/>
+   <line l="61"/>
+   <line l="17"/>
+   <line l="189"/>
+   <line l="5"/>
+   <line l="216"/>
+   <line l="58"/>
+   <line l="98"/>
+   <line l="84"/>
+   <line l="26"/>
+   <line l="130"/>
+   <line l="79"/>
+   <line l="149"/>
+   <line l="154"/>
+   <line l="73"/>
+   <line l="186"/>
+   <line l="13"/>
+   <line l="90"/>
+   <line l="196"/>
+   <line l="118"/>
+   <line l="64"/>
+   <line l="236"/>
+   <line l="96"/>
+   <line l="146"/>
+   <line l="110"/>
+   <line l="18"/>
+   <line l="117"/>
+   <line l="135"/>
+   <line l="145"/>
+   <line l="115"/>
+   <line l="93"/>
+   <line l="241"/>
+   <line l="20"/>
+   <line l="62"/>
+   <line l="233"/>
+   <line l="242"/>
+   <line l="136"/>
+   <line l="177"/>
+   <line l="88"/>
+   <line l="141"/>
+   <line l="169"/>
+   <line l="205"/>
+   <line l="206"/>
+   <line l="81"/>
+   <line l="102"/>
+   <line l="35"/>
+   <line l="162"/>
+   <line l="44"/>
+   <line l="220"/>
+   <line l="74"/>
+   <line l="210"/>
+   <line l="85"/>
+   <line l="126"/>
+   <line l="55"/>
+   <line l="140"/>
+   <line l="121"/>
+   <line l="215"/>
+   <line l="39"/>
+   <line l="161"/>
+   <line l="23"/>
+   <line l="105"/>
+   <line l="32"/>
+   <line l="86"/>
+   <line l="201"/>
+   <line l="178"/>
+   <line l="175"/>
+   <line l="106"/>
+   <line l="99"/>
+   <line l="104"/>
+   <line l="91"/>
+   <line l="78"/>
+   <line l="53"/>
+   <line l="202"/>
+   <line l="70"/>
+   <line l="192"/>
+   <line l="0"/>
+   <line l="222"/>
+   <line l="198"/>
+   <line l="193"/>
+   <line l="24"/>
+   <line l="240"/>
+   <line l="165"/>
+   <line l="19"/>
+   <line l="34"/>
+   <line l="48"/>
+   <line l="176"/>
+   <line l="31"/>
+   <line l="59"/>
+   <line l="28"/>
+   <line l="204"/>
+   <line l="11"/>
+   <line l="229"/>
+   <line l="185"/>
+   <line l="100"/>
+  </lines>
+ </mapping>
+</allatori>

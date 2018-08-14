@@ -1,0 +1,123 @@
+org.surrel.facebooknotifications.BootReceiver -> org.surrel.facebooknotifications.BootReceiver:
+    void <init>() -> <init>
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+org.surrel.facebooknotifications.BuildConfig -> org.surrel.facebooknotifications.a:
+    java.lang.String APPLICATION_ID -> a
+    java.lang.String BUILD_TYPE -> b
+    boolean DEBUG -> DEBUG
+    java.lang.String FLAVOR -> c
+    int VERSION_CODE -> d
+    java.lang.String VERSION_NAME -> e
+    void <init>() -> <init>
+org.surrel.facebooknotifications.MainActivity -> org.surrel.facebooknotifications.MainActivity:
+    int AlarmType -> f
+    android.webkit.WebView webview -> g
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void onPause() -> onPause
+org.surrel.facebooknotifications.PrefsActivity -> org.surrel.facebooknotifications.PrefsActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+org.surrel.facebooknotifications.R -> org.surrel.facebooknotifications.b:
+    void <init>() -> <init>
+org.surrel.facebooknotifications.R$array -> org.surrel.facebooknotifications.R$array:
+    int notification_blink_rate_entries -> notification_blink_rate_entries
+    int notification_blink_rate_entriesValues -> notification_blink_rate_entriesValues
+    int notification_vibrate_entries -> notification_vibrate_entries
+    int notification_vibrate_entriesValues -> notification_vibrate_entriesValues
+    void <init>() -> <init>
+org.surrel.facebooknotifications.R$attr -> org.surrel.facebooknotifications.R$attr:
+    void <init>() -> <init>
+org.surrel.facebooknotifications.R$color -> org.surrel.facebooknotifications.R$color:
+    int colorAccent -> colorAccent
+    int colorPrimary -> colorPrimary
+    int colorPrimaryDark -> colorPrimaryDark
+    void <init>() -> <init>
+org.surrel.facebooknotifications.R$dimen -> org.surrel.facebooknotifications.R$dimen:
+    int activity_horizontal_margin -> activity_horizontal_margin
+    int activity_vertical_margin -> activity_vertical_margin
+    void <init>() -> <init>
+org.surrel.facebooknotifications.R$drawable -> org.surrel.facebooknotifications.R$drawable:
+    int ic_menu_invite -> ic_menu_invite
+    int ic_menu_mapmode -> ic_menu_mapmode
+    int ic_menu_start_conversation -> ic_menu_start_conversation
+    int ic_notification -> ic_notification
+    void <init>() -> <init>
+org.surrel.facebooknotifications.R$id -> org.surrel.facebooknotifications.R$id:
+    int action_settings -> action_settings
+    void <init>() -> <init>
+org.surrel.facebooknotifications.R$layout -> org.surrel.facebooknotifications.R$layout:
+    int activity_main -> activity_main
+    void <init>() -> <init>
+org.surrel.facebooknotifications.R$menu -> org.surrel.facebooknotifications.R$menu:
+    int main -> main
+    void <init>() -> <init>
+org.surrel.facebooknotifications.R$mipmap -> org.surrel.facebooknotifications.R$mipmap:
+    int ic_launcher -> ic_launcher
+    void <init>() -> <init>
+org.surrel.facebooknotifications.R$string -> org.surrel.facebooknotifications.R$string:
+    int app_name -> app_name
+    int blink_frenetic -> blink_frenetic
+    int blink_normal -> blink_normal
+    int blink_slow -> blink_slow
+    int could_not_get_notifications -> could_not_get_notifications
+    int enable_notification_synchro -> enable_notification_synchro
+    int enter_minutes -> enter_minutes
+    int friends -> friends
+    int maybe_logged_out -> maybe_logged_out
+    int messages -> messages
+    int new_friend_requests -> new_friend_requests
+    int new_friend_requests_short -> new_friend_requests_short
+    int new_messages -> new_messages
+    int new_messages_short -> new_messages_short
+    int new_notifications -> new_notifications
+    int new_notifications_short -> new_notifications_short
+    int notification_blink_rate -> notification_blink_rate
+    int notification_blink_rate_choice -> notification_blink_rate_choice
+    int notification_category_activate -> notification_category_activate
+    int notification_sound -> notification_sound
+    int notification_sound_choice -> notification_sound_choice
+    int notification_vibrate_choice -> notification_vibrate_choice
+    int notifications -> notifications
+    int request_pending -> request_pending
+    int settings -> settings
+    int update_interval -> update_interval
+    int update_interval_summary -> update_interval_summary
+    int vibrate_double -> vibrate_double
+    int vibrate_double_long -> vibrate_double_long
+    int vibrate_long -> vibrate_long
+    int vibrate_none -> vibrate_none
+    int vibrate_short -> vibrate_short
+    int you_have -> you_have
+    void <init>() -> <init>
+org.surrel.facebooknotifications.R$xml -> org.surrel.facebooknotifications.R$xml:
+    int preferences -> preferences
+    void <init>() -> <init>
+org.surrel.facebooknotifications.UpdateService -> org.surrel.facebooknotifications.UpdateService:
+    int NOTIF_BASE -> h
+    int NOTIF_LOGIN -> i
+    int NOTIF_UNIFIED -> j
+    android.content.SharedPreferences sharedPreferences -> k
+    android.webkit.WebView webview -> g
+    android.view.WindowManager windowManager -> l
+    void <init>() -> <init>
+    android.webkit.WebView access$000(org.surrel.facebooknotifications.UpdateService) -> a
+    int[] getBlinkRate(java.lang.String) -> a
+    long[] getPattern(java.lang.String) -> b
+    android.app.Notification getLegacyNotification(int,java.lang.String,java.lang.String,android.content.Intent,int,java.lang.String,long[]) -> a
+    android.app.Notification$Builder getNewStyleNotification(int,android.graphics.Bitmap,java.lang.String,java.lang.String,int,android.content.Intent,int,java.lang.String,long[]) -> a
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    void processJSON(java.lang.String) -> c
+org.surrel.facebooknotifications.UpdateService$1 -> org.surrel.facebooknotifications.c:
+    org.surrel.facebooknotifications.UpdateService this$0 -> m
+    void <init>(org.surrel.facebooknotifications.UpdateService) -> <init>
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+org.surrel.facebooknotifications.WakeupManager -> org.surrel.facebooknotifications.d:
+    void <init>() -> <init>
+    void updateNotificationSystem(android.content.Context) -> a
