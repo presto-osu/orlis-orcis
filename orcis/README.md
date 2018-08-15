@@ -14,7 +14,7 @@ To generate the hash file for an app:
 The third parameter is optional. It is the repository of the library used in Orlis. With this 
 parameter set, all the library classes will be removed when detecting the clones. 
 
-## Clone Detection:
+## Clone Detection
 To detect clone for two APKs (apk1 and apk2):
 
 ```
