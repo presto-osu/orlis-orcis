@@ -23,7 +23,8 @@ def run(apkPath, outputDir, libResDir):
   appname = os.path.basename(apkPath)
   # Generate app data object. 
   featureFn = tmpDir +'/'+appname +'.feature'
-  gen_class_feature.run(tmpDir+'/'+appname+'.res', featureFn)
+  resFn = tmpDir+'/'+appname+'.res'
+  gen_class_feature.run(resFn, featureFn)
   if not os.path.exists(featureFn):
     print("[LOG]: Cannot generate feature of the APK! "+apkPath)
     return False
@@ -35,6 +36,8 @@ def run(apkPath, outputDir, libResDir):
     print("[LOG]: Cannot generate hash of the APK! "+apkPath)
     return False
 
+  os.remove(featureFn)
+  os.remove(resFn)
   return True
 
 if __name__ == "__main__":
@@ -46,4 +49,7 @@ if __name__ == "__main__":
   libResDir = None
   if len(sys.argv) > 2:
     libResDir = sys.argv[2]
-  run(apkPath, outputDir, None)
+  if run(apkPath, outputDir, None):
+    print('Generation succeed!')
+  else:
+    print('Generation failed!')

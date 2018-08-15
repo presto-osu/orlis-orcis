@@ -285,8 +285,8 @@ def Run(Input, outputDir, libs):
   stage3res = outputDir+'/'+appname+'.res'
   
 
-  if os.path.isfile(stage3res): 
-    return True
+  #if os.path.isfile(stage3res): 
+  #  return True
 
   BuildCallGraph(Input, outputDir)
   if not os.path.isfile(stage1res):
