@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#444444</color>
+    <color name="colorPrimaryDark">#111111</color>
+
+    <color name="colorAccent">#e71e62</color>
+
+    <color name="fab_big">#444444</color>
+    <color name="fab_big_pressed">#111111</color>
+
+    <color name="fab_small">#444444</color>
+    <color name="fab_small_pressed">#111111</color>
+
+    <color name="label_background">#444444</color>
+    <color name="label_text">#ffffff</color>
+
+    <color name="white">#ffffff</color>
+</resources>

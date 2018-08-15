@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Plan Lekcji</string>
+
+    <string name="menu_update_timetable">Synchronizuj</string>
+    <string name="menu_update_app">Sprawdź aktualizacje</string>
+    <string name="menu_settings">Ustawienia</string>
+
+    <string name="error_title">Błąd</string>
+    <string name="error_no_network">Brak połącznia z internetem</string>
+    <string name="error_offline">Nie można połączyć się z API</string>
+
+    <string name="select_class">Wybierz klasę:</string>
+    <string name="select_lesson">Wybierz lekcje, którą chcesz ukryć:</string>
+
+    <string name="sync_in_progress">Proszę czekać…</string>
+
+    <string name="update_latest">Twoja wersja aplikacji jest aktualna</string>
+    <string name="update_available">Aktualizacja jest dostępna!\nCzy chcesz pobrać wersję %s?</string>
+
+    <string name="hide_title">Ukryj lekcje</string>
+    <string name="hide_text">Czy na pewno chcesz ukryć tą lekcję?</string>
+
+    <string name="restore_title">Przywróć lekcje</string>
+    <string name="restore_empty">Nie ma niczego do przywrócenia</string>
+
+    <string name="widget_dark_label">TimeTable2 - Ciemny</string>
+    <string name="widget_dark_red_label">TimeTable2 - Ciemny (czerwony)</string>
+    <string name="widget_dark_green_label">TimeTable2 - Ciemny (zielony)</string>
+    <string name="widget_dark_blue_label">TimeTable2 - Ciemny (niebieski)</string>
+
+    <string name="widget_light_label">TimeTable2 - Jasny</string>
+    <string name="widget_light_red_label">TimeTable2 - Jasny (czerwony)</string>
+    <string name="widget_light_green_label">TimeTable2 - Jasny (zielony)</string>
+    <string name="widget_light_blue_label">TimeTable2 - Jasny (niebieski)</string>
+
+    <string-array name="days">
+        <item>Poniedziałek</item>
+        <item>Wtorek</item>
+        <item>Środa</item>
+        <item>Czwartek</item>
+        <item>Piątek</item>
+    </string-array>
+</resources>

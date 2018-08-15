@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.6
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.json:json:20141113', 'org.apache.httpcomponents:httpclient:4.3.6'
+    testCompile 'junit:junit:4.11'
+}

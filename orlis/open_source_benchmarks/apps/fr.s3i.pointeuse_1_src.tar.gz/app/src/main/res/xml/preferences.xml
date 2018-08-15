@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Oburo.O est un programme destinée à saisir son temps de travail sur un support Android.
+  ~
+  ~     This file is part of Oburo.O
+  ~     Oburo.O is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  ~
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/prefgenerale">
+
+        <ListPreference
+            android:key="theme"
+            android:title="@string/titre_theme"
+            android:summary="@string/theme_description"
+            android:dialogTitle="@string/titre_theme"
+            android:entries="@array/liste_theme"
+            android:entryValues="@array/liste_valeur_theme" />
+
+        <ListPreference
+            android:key="listedesarrondis"
+            android:title="@string/prefarrondi"
+            android:summary="@string/prefarrondi1"
+            android:dialogTitle="@string/prefarrondi"
+            android:entries="@array/liste_arrondis"
+            android:entryValues="@array/valeur_liste_arrondis" />
+
+        <ListPreference
+            android:key="pointagealaseconde"
+            android:title="@string/pointagealasecondetitre"
+            android:summary="@string/pointagealasecondedescription"
+            android:dialogTitle="@string/pointagealasecondetitre"
+            android:entries="@array/non_oui"
+            android:entryValues="@array/valeur_non_oui" />
+
+        <ListPreference
+            android:key="formataffichage"
+            android:title="@string/prefformat"
+            android:summary="@string/prefformat1"
+            android:dialogTitle="@string/prefformat"
+            android:entries="@array/liste_format"
+            android:entryValues="@array/valeur_liste_format" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Backup">
+
+        <EditTextPreference
+            android:key="email"
+            android:title="Email"
+            android:summary="@string/prefmail"
+            android:dialogTitle="Email" />
+
+        <EditTextPreference
+            android:key="separateur"
+            android:title="@string/prefsep1"
+            android:defaultValue=";"
+            android:maxLength="1"
+            android:summary="@string/prefsep"
+            android:dialogTitle="@string/prefsep1" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="de.live.gdev.timetracker.SettingsActivity">
+
+    <!-- ActionBar -->
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <!-- Content -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:padding="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_webapp_path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edit_webapp_path"
+                android:text="@string/text_webapp_path"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/primary_text" />
+
+            <EditText
+                android:id="@+id/edit_webapp_path"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/text_webapp_path"
+                android:ems="10"
+                android:hint="@string/text_hint_path_webapp"
+                android:inputType="textUri" />
+
+            <TextView
+                android:id="@+id/text_webapp_filename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/edit_webapp_path"
+                android:layout_below="@+id/edit_webapp_path"
+                android:layout_marginTop="20dp"
+                android:text="@string/text_webapp_filename"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/primary_text" />
+
+            <EditText
+                android:id="@+id/edit_webapp_filename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/text_webapp_filename"
+                android:layout_alignBottom="@+id/text_webapp_filename"
+                android:layout_alignLeft="@+id/edit_webapp_username"
+                android:layout_alignRight="@+id/edit_webapp_username"
+                android:ems="10"
+                android:hint="@string/webapp_default_filename"
+                android:inputType="textFilter|textNoSuggestions"
+                android:text="@string/webapp_default_filename" />
+
+            <TextView
+                android:id="@+id/text_webapp_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text_webapp_filename"
+                android:layout_below="@+id/edit_webapp_filename"
+                android:layout_marginTop="20dp"
+                android:text="@string/text_webapp_username"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/primary_text" />
+
+            <EditText
+                android:id="@+id/edit_webapp_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/text_webapp_username"
+                android:layout_alignBottom="@+id/text_webapp_username"
+                android:layout_alignLeft="@+id/edit_webapp_password"
+                android:layout_alignRight="@+id/edit_webapp_path"
+                android:ems="10"
+                android:hint="@string/edit_webapp_username_hint"
+                android:inputType="textFilter|textNoSuggestions" />
+
+            <TextView
+                android:id="@+id/text_webapp_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text_webapp_username"
+                android:layout_below="@+id/text_webapp_username"
+                android:layout_marginTop="20dp"
+                android:text="@string/text_webapp_password"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/primary_text" />
+
+            <EditText
+                android:id="@+id/edit_webapp_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/text_webapp_password"
+                android:layout_alignBottom="@+id/text_webapp_password"
+                android:layout_toRightOf="@+id/text_webapp_path"
+                android:ems="10"
+                android:hint="@string/text_hint_webapp_password"
+                android:inputType="textPassword" />
+
+            <CheckBox
+                android:id="@+id/check_webapp_auto_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text_webapp_password"
+                android:layout_below="@+id/edit_webapp_password"
+                android:layout_marginTop="27dp"
+                android:text="@string/text_check_webapp_auto_login" />
+
+            <CheckBox
+                android:id="@+id/check_webapp_accept_all_ssl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/check_webapp_auto_login"
+                android:layout_below="@+id/check_webapp_auto_login"
+                android:text="@string/text_check_webapp_accept_all_ssl" />
+
+            <TextView
+                android:id="@+id/text_webapp_profile_selection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/check_webapp_accept_all_ssl"
+                android:layout_below="@+id/check_webapp_accept_all_ssl"
+                android:layout_marginTop="20dp"
+                android:text="@string/profile_selection"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/primary_text" />
+
+            <RadioGroup
+                android:id="@+id/radio_webapp_selector"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text_webapp_profile_selection"
+                android:layout_below="@+id/text_webapp_profile_selection"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/radio_webapp_profile_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/webapp_profile_1" />
+
+                <RadioButton
+                    android:id="@+id/radio_webapp_profile_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/webapp_profile_2" />
+
+                <RadioButton
+                    android:id="@+id/radio_webapp_profile_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/webapp_profile_3" />
+            </RadioGroup>
+
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <!-- Floating Actions -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/action_discard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:src="@drawable/ic_clear_white_48dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/action_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_marginTop="@dimen/fab_margin"
+            android:src="@drawable/ic_done_white_48dp" />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

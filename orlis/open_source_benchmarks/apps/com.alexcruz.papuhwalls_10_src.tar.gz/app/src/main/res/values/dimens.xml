@@ -1,0 +1,63 @@
+<resources>
+
+    <dimen name="margin_medium_sm">8dp</dimen>
+    <dimen name="margin_medium">10dp</dimen>
+    <dimen name="iconcolumn">70dp</dimen>
+    <dimen name="app_icon_size">36dp</dimen>
+    <dimen name="allapps_icon_preview">144dp</dimen>
+    <dimen name="dialog_icon_size">96dp</dimen>
+    <dimen name="toolbar_elevation">6dp</dimen>
+    <dimen name="list_image_right_pad">20.0dip</dimen>
+    <dimen name="list_margin">20dp</dimen>
+    <dimen name="no_width">0.0dip</dimen>
+    <dimen name="no_height">0dp</dimen>
+    <dimen name="list_item_height">70dp</dimen>
+    <dimen name="list_item_height_mini">40dp</dimen>
+    <dimen name="request_item_padding_left">19dp</dimen>
+    <dimen name="request_itemtext_padding_left">18dp</dimen>
+    <dimen name="mini_margin">2dp</dimen>
+    <dimen name="cards_margin">12dp</dimen>
+    <dimen name="finalcard_margin">14dp</dimen>
+    <dimen name="cards_elevation">3dp</dimen>
+    <dimen name="cards_padding">16dp</dimen>
+    <dimen name="cards_text_margin">5dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="toolbar_contentInset">72dp</dimen>
+    <dimen name="dialog_margin">24dp</dimen>
+    <dimen name="text_big">20sp</dimen>
+    <dimen name="text_med">18sp</dimen>
+    <dimen name="text_small">16sp</dimen>
+    <dimen name="text_ultrasmall">14sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="fab_size_normal">56dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+
+    <dimen name="fab_icon_size">24dp</dimen>
+
+    <dimen name="fab_plus_icon_size">14dp</dimen>
+    <dimen name="fab_plus_icon_stroke">2dp</dimen>
+
+    <dimen name="fab_shadow_offset">3dp</dimen>
+    <dimen name="fab_shadow_radius">9dp</dimen>
+
+    <dimen name="fab_stroke_width">1dp</dimen>
+
+    <dimen name="fab_actions_spacing">16dp</dimen>
+    <dimen name="fab_labels_margin">8dp</dimen>
+
+    <!-- Default radius for CardView corners. -->
+    <dimen name="cardview_default_radius">2dp</dimen>
+    <!-- Elevation value to use for CardViews. Pre-L, it is equal to shadow size. -->
+    <dimen name="cardview_default_elevation">2dp</dimen>
+    <!-- Inset shadow for RoundRectDrawableWithShadow. It is used to avoid gaps between the card
+     and the shadow. -->
+    <dimen name="cardview_compat_inset_shadow">1dp</dimen>
+
+    <dimen name="ambilwarna_hsvHeight">200dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">200dp</dimen>
+    <dimen name="ambilwarna_hueWidth">20dp</dimen>
+    <dimen name="ambilwarna_spacer">4dp</dimen>
+
+</resources>

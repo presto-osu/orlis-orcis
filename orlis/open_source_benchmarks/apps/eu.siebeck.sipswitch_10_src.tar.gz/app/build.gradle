@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 22
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "eu.siebeck.sipswitch"
+        minSdkVersion 10
+        targetSdkVersion 22
+    }
+
+    dependencies {
+        compile files('external/android_prebuilts_cmsdk/current/org.cyanogenmod.platform.sdk.jar')
+    }
+
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}

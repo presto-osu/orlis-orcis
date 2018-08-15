@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.jenzz.materialpreference.Preference
+        android:key="MyWalls"
+        android:title="@string/my_walls_title"/>
+
+    <ListPreference
+        android:key="LWinterval"
+        android:title="@string/live_wall_update_interval" />
+
+    <SwitchPreference
+        android:key="tripleTapToJump"
+        android:summary="@string/triple_tap_to_jump"/>
+
+    <com.jenzz.materialpreference.Preference
+        android:key="ApplyWall"
+        android:title="@string/apply_wall_title"/>
+
+    <com.jenzz.materialpreference.Preference
+        android:key="HowTo"
+        android:title="@string/how_to_lw_title"/>
+
+</PreferenceScreen>

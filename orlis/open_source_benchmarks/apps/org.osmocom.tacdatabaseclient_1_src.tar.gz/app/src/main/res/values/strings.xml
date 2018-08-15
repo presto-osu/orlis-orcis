@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TAC Database Client</string>
+    <string name="thanks_msg">Thanks! You may deinstall the application now</string>
+    <string name="error_string">There was an error sending the data. Please try again later.</string>
+    <string name="tacdb_homepage">http://tacdb.osmocom.org</string>
+    <string name="send_status">Sending...  Please wait</string>
+    <string name="submit_resource">http://tacdb.osmocom.org/tacsubmit/</string>
+    <string name="send_done">  ...<b>Done!</b></string>
+    <string name="allow">allow</string>
+    <string name="already_done">Thanks, you already have submitted your data. Feel free to uninstall this app now.\n</string>
+    <string name="uninstall">uninstall</string>
+    <string name="app_status">status</string>
+    <string name="package_uri">package:org.osmocom.tacdatabaseclient</string>
+    <string name="text_already_send">Thanks,you already have submitted your data.</string>
+    <string name="send_error">failed sending data</string>
+    <string name="allow_description">Hello!\n\n
+                                    This application requires:\n
+                                    \t\t&#8226; <b>phone call</b> permissions\n
+                                    \t\t&#8226; <b>internet</b> permissions\n
+                                    \nWe need these in order to gather the TAC via the IMEI from the device and send it to the Osmocom TacDB.\n</string>
+    <string name="tac_error">\n<b>Error getting TAC:/</b>\n
+                            \n<u>Note</u>: only devices with a 2G/3G/4G modem have a TAC/IMEI</string>
+</resources>

@@ -1,0 +1,28 @@
+Title (30 characters):
+WiGLE Wifi Wardriving
+
+Promo (80 characters):
+Wardriving: detecte, veja redes sem fio e envie para o banco de dados WiGLE.
+
+Description (4000 characters):
+WiGLE é um app open source de wardriving para detectar, exibir e mapear redes sem fio e torres de celular em qualquer lugar do mundo, com upload fácil ao banco de dados do WiGLE.net. O WiGLE foi lançado em 2001 e hoje tem mais de 125 milhões de redes WiFi mapeadas em todo o mundo.
+
+• Participe do ranking mundial WiGLE de usuários com mais redes localizadas!
+• Exporte arquivos CSV num cartão SD!
+• Exporte arquivos KML num cartão SD (para importar no Google Maps/Earth)!
+• Alertas por áudio e de voz!
+• Banco de dados local para rastrear novas redes encontradas!
+• Mapa em tempo real de redes encontradas (OpenStreetMap)!
+• É possível mover o app para um cartão SD!
+• Botão "Silenciar" para desligar todos os sons/alertas imediatamente!
+• Suporte para GPS Bluetooth por locais fictícios!
+• Sem anúncios!
+
+Notas de lançamento: https://github.com/wiglenet/wigle-wifi-wardriving/blob/master/TODO
+
+Para mapear WiFi e torres de celular, você deve esperar o aparelho determinar a localização atual, por GPS ou localização de rede.
+No mapa: círculos são WiFi, quadrados são torres de celular. Cores claras são redes já vistas antes, em roxo são novas no banco de dados local.
+Se tiver problemas de login ou sugestões, envie um e-mail para wigle-admin@wigle.net e estaremos felizes em ajudar.
+Necessita de permissão "Ler estado do telefone" para saber se uma chamada está em curso e sileciar os alertas.
+
+Keep on stumbling!

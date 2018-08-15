@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- group with single selected item so only one item is highlighted in the nav menu -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_item_boards"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Boards"/>
+        <item
+            android:id="@+id/drawer_item_replies"
+            android:icon="@drawable/ic_mail_black_24dp"
+            android:title="Replies" />
+        <item
+            android:id="@+id/drawer_item_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/drawer_item_licences"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Licences"/>
+    </group>
+</menu>

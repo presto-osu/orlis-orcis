@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TincActivity!</string>
+    <string name="app_name">Tinc</string>
+    <string name="local_service_started">tincd is running</string>
+    <string name="local_service_label">tincd service</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="debug">Debug</string>
+    <string name="settings">Settings</string>
+    <string name="config_path">Configuration path</string>
+    <string name="config_path_details">Folder containing tinc configuration</string>
+    <string name="pref_key_config_path">pref_key_config_path</string>
+    <string name="pref_key_max_log_size">pref_key_max_log_size</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_status">Status</string>
+    <string name="max_log_size">Maximum log size</string>
+    <string name="max_log_size_details">Maximum number of lines stored in internal log</string>
+    <string name="pref_title_general_settings">General settings</string>
+    <string name="pref_title_current_config">Current configuration</string>
+    <string name="pref_title_hosts">Hosts</string>
+    <string name="current_path">Current path: </string>
+    <string name="no_su_error">Your terminal is not rooted properly. Please correct this or try disabling su usage from preferences.</string>
+    <string name="about_text"> <![CDATA[
+ <p>
+Tinc GUI for android.<br/>
+<a href="http://tinc_gui.poirsouille.org/">http://tinc_gui.poirsouille.org/</a>.
+</p><p>
+Tinc is a peer to peer VPN daemon.
+</p><p>
+Using tinc daemon, cross-compiled for android.<br/>
+See <a href="https://github.com/Vilbrekin/tinc">https://github.com/Vilbrekin/tinc</a> and 
+original web site <a href="http://tinc-vpn.org/">http://tinc-vpn.org/</a>.
+</p><p>
+Copyright (C) 2012 Vilbrekin <vilbrekin@gmail.com><br/>
+Distributed under GPLv3.
+</p><p>
+Please consider <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=L8H64G57CZRZA">
+making a donation</a> if you like this program.
+
+
+ </p>
+ ]]></string>
+    <string name="about">About</string>
+    <string name="pref_title_debug_level">Debug level</string>
+    <string name="pref_title_super_user">Execute as Super User</string>
+    <string name="pref_title_autostart_boot">Auto start on boot</string>
+    <string name="pref_title_force_reconnect">Force reconnection on network change</string>
+    <string name="font_size_log">Font size for log window (8-100)</string>
+    <string name="font_size_log_details">Font size for log window (8-100)</string>
+    <string name="pref_key_font_size_log">pref_key_font_size_log</string>
+    
+</resources>

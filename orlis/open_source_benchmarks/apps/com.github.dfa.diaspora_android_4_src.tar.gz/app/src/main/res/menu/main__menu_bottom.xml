@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/fab_search"
+        app:showAsAction="always"
+        android:title="@string/search_by_tags_or_persons" />
+
+
+    <item
+        android:id="@+id/action_compose"
+        android:icon="@drawable/fab_compose"
+        app:showAsAction="always"
+        android:title="@string/compose" />
+
+    <item
+        android:icon="@drawable/ic_share_white_24dp"
+        android:title="@string/jb_share"
+        app:showAsAction="always"  >
+        <menu>
+            <item android:id="@+id/action_share_screenshot" android:title="@string/share_screenshot"></item>
+            <item android:id="@+id/action_take_screenshot" android:title="@string/take_screenshot"></item>
+            <item android:id="@+id/action_share_link" android:title="@string/share_link"></item>
+        </menu>
+    </item>
+
+    <!-- Keep right most -->
+    <item
+        android:id="@+id/action_go_to_top"
+        android:icon="@drawable/fab_top"
+        android:title="@string/go_to_top"
+        app:showAsAction="always"/>
+
+
+    <!-- overflow menu -->
+    <item
+        android:id="@+id/action_toggle_desktop_page"
+        android:icon="@drawable/ic_sync_white_24dp"
+        android:title="@string/toggle_desktop_page"
+        />
+    <item
+        android:id="@+id/action_exit"
+        android:icon="@drawable/ic_sync_white_24dp"
+        android:title="@string/exit_app"
+        app:showAsAction="never" />
+
+</menu>

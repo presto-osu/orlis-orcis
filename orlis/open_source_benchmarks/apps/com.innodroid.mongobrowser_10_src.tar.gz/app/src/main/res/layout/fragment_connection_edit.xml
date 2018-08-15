@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/standard_padding_small"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.design.widget.TextInputLayout style="@style/EditLine">
+        <EditText android:id="@+id/edit_connection_name"
+            android:hint="@string/name"
+            android:inputType="textCapWords"
+            style="@style/EditLine" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout style="@style/EditLine">
+        <EditText android:id="@+id/edit_connection_server"
+            android:hint="@string/server"
+            android:inputType="textNoSuggestions"
+            style="@style/EditLine" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout style="@style/EditLine">
+        <EditText android:id="@+id/edit_connection_port"
+            android:hint="@string/port"
+            android:inputType="numberDecimal"
+            style="@style/EditLine" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout style="@style/EditLine">
+        <EditText android:id="@+id/edit_connection_db"
+            android:hint="@string/database"
+            android:inputType="textNoSuggestions"
+            style="@style/EditLine" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout style="@style/EditLine">
+        <EditText android:id="@+id/edit_connection_user"
+            android:hint="@string/user"
+            android:inputType="textNoSuggestions"
+            style="@style/EditLine" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout style="@style/EditLine">
+        <EditText android:id="@+id/edit_connection_pass"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            style="@style/EditLine" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
+</ScrollView>

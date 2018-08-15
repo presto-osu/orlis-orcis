@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/card_padding"
+    android:background="?attr/selectableItemBackground">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/padding_item"
+        android:paddingLeft="@dimen/padding_item"
+        android:paddingRight="@dimen/padding_item"
+        android:paddingStart="@dimen/padding_item"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/darker_gray" />
+
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,275 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="de.phoenixstudios.pc_dimmer.Channeloverview">
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/channelslider"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:progress="0"
+        android:max="504" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/channeloverview_toleft"
+        android:id="@+id/minus8chbtn"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/channelslider"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/channeloverview_updatechanneloverviewbtn"
+        android:id="@+id/updatechanneloverviewbtn"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/minus8chbtn"
+        android:layout_toLeftOf="@+id/plus8chbtn"
+        android:layout_below="@+id/channelslider"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/channeloverview_toright"
+        android:id="@+id/plus8chbtn"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/channelslider"
+        android:layout_alignParentRight="true"/>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear1"
+        android:weightSum="1"
+        android:layout_below="@+id/plus8chbtn"
+        android:layout_above="@+id/linear2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch1lbl"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true"/>
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_0"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch1valuelbl"
+            android:textAlignment="center"
+            android:layout_below="@+id/ch1lbl"/>
+        <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+            android:id="@+id/ch1slider"
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/ch1valuelbl"
+            android:progress="128"
+            android:max="255" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch2lbl"
+            android:layout_toRightOf="@+id/ch1lbl"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch2value"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch2valuelbl"
+            android:layout_toRightOf="@+id/ch1valuelbl"
+            android:textAlignment="center"
+            android:layout_below="@+id/ch2lbl"/>
+        <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+            android:id="@+id/ch2slider"
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/ch2valuelbl"
+            android:layout_toRightOf="@+id/ch1slider"
+            android:progress="128"
+            android:max="255" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch3"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch3lbl"
+            android:layout_toRightOf="@+id/ch2lbl"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch3value"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch3valuelbl"
+            android:layout_toRightOf="@+id/ch2valuelbl"
+            android:textAlignment="center"
+            android:layout_below="@+id/ch3lbl"/>
+        <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+            android:id="@+id/ch3slider"
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/ch3valuelbl"
+            android:layout_toRightOf="@+id/ch2slider"
+            android:progress="128"
+            android:max="255" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch4"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch4lbl"
+            android:layout_toRightOf="@+id/ch3lbl"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch4value"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch4valuelbl"
+            android:layout_toRightOf="@+id/ch3valuelbl"
+            android:textAlignment="center"
+            android:layout_below="@+id/ch4lbl"/>
+        <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+            android:id="@+id/ch4slider"
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/ch4valuelbl"
+            android:layout_toRightOf="@+id/ch3slider"
+            android:progress="128"
+            android:max="255" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch5"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch5lbl"
+            android:layout_toRightOf="@+id/ch4lbl"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch5value"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch5valuelbl"
+            android:layout_toRightOf="@+id/ch4valuelbl"
+            android:textAlignment="center"
+            android:layout_below="@+id/ch5lbl"/>
+        <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+            android:id="@+id/ch5slider"
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/ch5valuelbl"
+            android:layout_toRightOf="@+id/ch4slider"
+            android:progress="128"
+            android:max="255" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch6"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch6lbl"
+            android:layout_toRightOf="@+id/ch5lbl"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch6value"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch6valuelbl"
+            android:layout_toRightOf="@+id/ch5valuelbl"
+            android:textAlignment="center"
+            android:layout_below="@+id/ch6lbl"/>
+        <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+            android:id="@+id/ch6slider"
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/ch6valuelbl"
+            android:layout_toRightOf="@+id/ch5slider"
+            android:progress="128"
+            android:max="255" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch7"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch7lbl"
+            android:layout_toRightOf="@+id/ch6lbl"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch7value"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch7valuelbl"
+            android:layout_toRightOf="@+id/ch6valuelbl"
+            android:textAlignment="center"
+            android:layout_below="@+id/ch7lbl"/>
+        <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+            android:id="@+id/ch7slider"
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/ch7valuelbl"
+            android:layout_toRightOf="@+id/ch6slider"
+            android:progress="128"
+            android:max="255" />
+
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch8"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch8lbl"
+            android:layout_toRightOf="@+id/ch7lbl"
+            android:textAlignment="center"
+            android:layout_alignParentTop="true" />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:text="@string/channeloverview_ch8value"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/ch8valuelbl"
+            android:layout_toRightOf="@+id/ch7valuelbl"
+            android:textAlignment="center"
+            android:layout_below="@+id/ch8lbl"/>
+        <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+            android:id="@+id/ch8slider"
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/ch8valuelbl"
+            android:layout_toRightOf="@+id/ch7slider"
+            android:progress="128"
+            android:max="255" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linear2"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1">
+    </LinearLayout>
+</RelativeLayout>

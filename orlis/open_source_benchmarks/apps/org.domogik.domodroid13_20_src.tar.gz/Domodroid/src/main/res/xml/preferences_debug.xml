@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppBaseTheme"
+    android:title="Preferences"
+    tools:context="activities.Activity_Main">
+    <PreferenceCategory
+        android:icon="@drawable/ic_bug_report_black_24dp"
+        android:persistent="false"
+        android:title="@string/debug_settings">
+        <Preference
+            android:enabled="false"
+            android:icon="@drawable/ic_bug_report_black_24dp"
+            android:selectable="false"
+            android:shouldDisableView="false"
+            android:summary="@string/debug_explain" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="LOG_VERBOSE"
+            android:summaryOff="@string/debug_log_verbose_off"
+            android:summaryOn="@string/debug_log_verbose_on"
+            android:title="@string/debug_log_verbose" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="LOG_DEBUG"
+            android:summaryOff="@string/debug_log_debug_off"
+            android:summaryOn="@string/debug_log_debug_on"
+            android:title="@string/debug_log_debug" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="LOG_INFO"
+            android:summaryOff="@string/debug_log_info_off"
+            android:summaryOn="@string/debug_log_info_on"
+            android:title="@string/debug_log_info" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="LOG_WARNING"
+            android:summaryOff="@string/debug_log_warning_off"
+            android:summaryOn="@string/debug_log_warning_on"
+            android:title="@string/debug_log_warning" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="LOG_ERROR"
+            android:summaryOff="@string/debug_log_error_off"
+            android:summaryOn="@string/debug_log_error_on"
+            android:title="@string/debug_log_error" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="SYSTEMLOG"
+            android:summaryOff="@string/debug_system_off"
+            android:summaryOn="@string/debug_system_on"
+            android:title="@string/debug_system" />
+        <CheckBoxPreference
+            android:key="SCREENLOG"
+            android:summaryOff="@string/debug_screen_off"
+            android:summaryOn="@string/debug_screen_on"
+            android:title="@string/debug_screen" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="TEXTLOG"
+            android:summaryOff="@string/debug_file_off"
+            android:summaryOn="@string/debug_file_on"
+            android:title="@string/debug_file" />
+        <EditTextPreference
+            android:dialogTitle="LOGPATH"
+            android:icon="@drawable/ic_folder_open_black_24dp"
+            android:key="LOGPATH"
+            android:title="@string/debug_dirpath" />
+        <EditTextPreference
+            android:dialogTitle="LOGNAME"
+            android:icon="@drawable/ic_insert_drive_file_black_24dp"
+            android:key="LOGNAME"
+            android:title="@string/debug_filename" />
+        <CheckBoxPreference
+            android:key="DEV"
+            android:summaryOff="Device id hide"
+            android:summaryOn="Device id show"
+            android:title="@string/network_Text18" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

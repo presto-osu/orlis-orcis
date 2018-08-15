@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppBaseTheme"
+    android:title="Preferences"
+    tools:context="activities.Activity_Main">
+    <PreferenceCategory
+        android:icon="@drawable/ic_widgets_black_24dp"
+        android:persistent="false"
+        android:title="@string/usage_settings">
+        <Preference
+            android:enabled="false"
+            android:icon="@drawable/ic_widgets_black_24dp"
+            android:selectable="false"
+            android:shouldDisableView="false"
+            android:summary="@string/usage_explain" />
+        <CheckBoxPreference
+            android:icon="@drawable/ic_subtitles_black_24dp"
+            android:key="WIDGET_CHOICE"
+            android:summaryOff="@string/widget_normal"
+            android:summaryOn="@string/widgets_alternative"
+            android:title="@string/widget_choice" />
+        <CheckBoxPreference
+            android:icon="@drawable/ic_timeline_black_24dp"
+            android:key="Graph_CHOICE"
+            android:summaryOff="@string/Graph_normal"
+            android:summaryOn="@string/Graph_achartengine"
+            android:title="@string/graph_choice" />
+        <EditTextPreference
+            android:defaultValue="262.5"
+            android:icon="@drawable/ic_zoom_out_map_black_24dp"
+            android:inputType="number"
+            android:key="graph_size"
+            android:title="@string/option_graph_height" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_stay_current_landscape_black_24dp"
+            android:key="twocol_lanscape"
+            android:summaryOff="@string/twocollandscape_2"
+            android:summaryOn="@string/twocollandscape_1"
+            android:title="@string/twocollandscapecheckbox" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:icon="@drawable/ic_stay_current_portrait_black_24dp"
+            android:key="twocol_portrait"
+            android:summaryOff="@string/twocolportrait_2"
+            android:summaryOn="@string/twocolportrait_1"
+            android:title="@string/twocolportraitcheckbox" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

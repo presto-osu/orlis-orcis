@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="@string/prefs_service"
+        android:title="@string/prefs_service">
+        <SwitchPreference
+            android:key="pref_enable"
+            android:title="@string/pref_enable"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="prefs_general"
+        android:title="@string/prefs_modes"
+        android:dependency="pref_enable">
+        <CheckBoxPreference
+            android:key="pref_wave_mode"
+            android:title="@string/pref_wave_mode"
+            android:summary="@string/pref_wave_mode_summary"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="pref_pocket_mode"
+            android:title="@string/pref_pocket_mode"
+            android:summary="@string/pref_pocket_mode_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:key="prefs_general"
+        android:title="@string/pref_lock_screen"
+        android:dependency="pref_enable">
+        <CheckBoxPreference
+            android:key="pref_lock_screen"
+            android:title="@string/pref_lock_screen"
+            android:summary="@string/pref_lock_screen_mode_summary"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="pref_lock_screen_when_landscape"
+            android:title="@string/pref_lock_screen_when_landscape"
+            android:defaultValue="true"
+            android:dependency="pref_lock_screen"/>
+        <CheckBoxPreference
+            android:key="pref_lock_screen_vibrate_on_lock"
+            android:title="@string/pref_lock_screen_vibrate_on_lock"
+            android:summary="@string/pref_lock_screen_vibrate_on_lock_summary"
+            android:defaultValue="false"
+            android:dependency="pref_lock_screen"/>
+        <CheckBoxPreference
+            android:key="pref_lock_screen_with_power_button_as_root"
+            android:title="@string/pref_lock_screen_with_power_button_as_root"
+            android:summary="@string/pref_lock_screen_with_power_button_as_root_summary"
+            android:defaultValue="false"
+            android:dependency="pref_lock_screen"/>
+    </PreferenceCategory>
+</PreferenceScreen>

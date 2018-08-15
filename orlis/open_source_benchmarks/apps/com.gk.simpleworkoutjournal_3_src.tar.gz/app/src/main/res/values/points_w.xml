@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="points_w">
+        <item>minimal</item>
+        <item>maximal</item>
+        <item>average</item>
+        <item>sum</item>
+    </string-array>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.pixmob.freemobile.netstat">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- disable for tablet test -->
+    <!--
+    <uses-feature
+        android:name="android.hardware.telephony.gsm"
+        android:required="true" />
+    -->
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:backupAgent="BackupAgent"
+        android:icon="@drawable/ic_launcher_netstat"
+        android:label="@string/app_name">
+        <activity
+            android:name=".ui.Netstat"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.DocumentBrowser" />
+
+        <service android:name=".SyncService" />
+        <service
+            android:name=".MonitorService"
+            android:label="@string/service_monitor" />
+        <service
+            android:name="org.acra.sender.SenderService"
+            android:exported="false"
+            android:process=":acra" />
+
+        <receiver
+            android:name=".MonitorServiceStarter"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".ConnectivityListener"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".DatabaseCleanup">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".NotificationHandler"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="org.pixmob.freemobile.netstat.notif" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name=".content.NetstatContentProvider"
+            android:authorities="org.pixmob.freemobile.netstat"
+            android:exported="false"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".ui.Preferences"
+            android:label="@string/menu_preferences"
+            android:parentActivityName="org.pixmob.freemobile.netstat.ui.Netstat">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pixmob.freemobile.netstat.ui.Netstat" />
+        </activity>
+
+        <activity
+            android:name=".ui.MobileNetworkChartActivity"
+            android:label="@string/chart"
+            android:parentActivityName="org.pixmob.freemobile.netstat.ui.Netstat"
+            tools:ignore="UnusedAttribute">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.pixmob.freemobile.netstat.ui.Netstat" />
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="AEdPqrEAAAAI2_Wh0ED3k-ZAn6QVep2w6PuUHq5xIekfCMxViA" />
+    </application>
+
+</manifest>

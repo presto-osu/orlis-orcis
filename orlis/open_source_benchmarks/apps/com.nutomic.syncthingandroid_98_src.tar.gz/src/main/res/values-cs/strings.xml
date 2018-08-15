@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Syncthing</string>
+  <string name="app_description">Otevřená, důvěryhodná a decentralizovaná aplikace pro sdílení souborů.</string>
+  <!--MainActivity-->
+  <!--Title of the "add folder" menu action-->
+  <string name="add_folder">Přidat adresář</string>
+  <!--Title of the "share device id" menu action-->
+  <string name="share_device_id">Sdílet ID přístroje</string>
+  <!--Shown in the chooser dialog when sharing a Device ID-->
+  <string name="send_device_id_to">Poslat ID přístroje přes</string>
+  <!--Text for FoldersFragment and DevicesFragment loading view-->
+  <string name="api_loading">Načítání…</string>
+  <string name="usage_reporting_dialog_title">Povolit anonymní hlášení o používání?</string>
+  <string name="usage_reporting_dialog_description">Zašifrované hlášení o používání je odesíláno denně. Je použito k zjišťování obvyklých platforem, velikosti adresářů a verzi aplikace. Pokud se změní množství odesílaných detailů, budete znovu upozorněni tímto dialogem.\n\nSouhrnné statistiky jsou veřejně dostupné na https://data.syncthing.net.</string>
+  <string name="yes">Ano</string>
+  <string name="no">Ne</string>
+  <string name="off">vypnuto</string>
+  <string name="open_website">Otevřít webovou stránku</string>
+  <string name="toast_write_storage_permission_required">Tato aplikace vyžaduje oprávnění pro zápis do úložiště</string>
+  <string name="device_rejected">Přístroj %1$s žádá o připojení</string>
+  <string name="folder_rejected">Přístroj %1$s chce sdílet adresář %2$s</string>
+  <!--FoldersFragment-->
+  <string name="folders_fragment_title">Adresáře</string>
+  <!--Shown if no folders exist-->
+  <string name="folder_list_empty">Nenalezeny žádné adresáře</string>
+  <!--Format string for folder file count-->
+  <string name="files">%1$d / %2$d souborů</string>
+  <!--DevicesFragment-->
+  <string name="devices_fragment_title">Přístroje</string>
+  <!--Shown if no devices exist-->
+  <string name="devices_list_empty">Nenalezeny žádné přístroje</string>
+  <!--Indicates that a folder is fully synced to the local device-->
+  <string name="device_up_to_date">Aktuální</string>
+  <!--Indicates that the device is currently syncing. Parameter is sync percentage-->
+  <string name="device_syncing">Synchronizuje se (%1$d%%)</string>
+  <!--Indicates that there is no connection to the device-->
+  <string name="device_disconnected">Odpojen</string>
+  <!--Title for current download rate-->
+  <string name="download_title">Rychlost stahování</string>
+  <!--Title for current upload rate-->
+  <string name="upload_title">Rychlost odesílání</string>
+  <!--DrawerFragment-->
+  <!--Same as download_title with a colon and space appended-->
+  <string name="download_title_colon">Rychlost stahování:\u0020</string>
+  <!--Same as upload_title with a colon and space appended-->
+  <string name="upload_title_colon">Rychlost odesílání:\u0020</string>
+  <!--Title for current CPU usage-->
+  <string name="cpu_usage">Využití CPU</string>
+  <!--Title for current RAM usage-->
+  <string name="ram_usage">Využití RAM</string>
+  <!--Title for announce server status-->
+  <string name="announce_server">Globální oznamování</string>
+  <string name="restart">Restart</string>
+  <!--FolderSettingsFragment-->
+  <!--Setting title-->
+  <string name="folder_id">ID adresáře</string>
+  <!--Setting title-->
+  <string name="folder_label">Popis Adresáře</string>
+  <!--Setting title-->
+  <string name="directory">Adresář</string>
+  <!--Setting title-->
+  <string name="folder_master">Master adresář</string>
+  <!--Setting title-->
+  <string name="devices">Přístroje</string>
+  <!--Setting title-->
+  <string name="keep_versions">Ponechat verze</string>
+  <!--Setting title-->
+  <string name="delete_folder">Smazat adresář</string>
+  <!--Title for FolderSettingsFragment in create mode-->
+  <string name="create_folder">Přidat adresář</string>
+  <!--Title for FolderSettingsFragment in edit mode-->
+  <string name="edit_folder">Upravit adresář</string>
+  <!--Menu item to confirm folder creation-->
+  <string name="create">Přidat</string>
+  <!--Dialog shown when attempting to remove a folder-->
+  <string name="remove_folder_confirm">Opravdu chcete odebrat tento adresář ze Syncthing?</string>
+  <!--Toast shown when trying to create a folder with an empty ID-->
+  <string name="folder_id_required">ID adresáře nesmí být prázdné</string>
+  <!--Toast shown when trying to create a folder with an empty path-->
+  <string name="folder_path_required">Cesta k adresáři nesmí být prázdná</string>
+  <!--Dialog shown before config export-->
+  <string name="dialog_confirm_export">Opravdu chcete exportovat svou konfiguraci? Existující soubory budou přepsány.\n\nVAROVÁNÍ! Ostatní aplikace budou moci číst váš soukromý klíč ze zálohy a použít ho ke stahování/úpravám synchronizovaných souborů.</string>
+  <!--Dialog shown before config import-->
+  <string name="dialog_confirm_import">Opravud chcete importovat novou konfiguraci? Existující soubory budou přepsány.</string>
+  <!--DeviceSettingsFragment-->
+  <!--Setting title-->
+  <string name="device_id">ID přístroje</string>
+  <!--Setting title-->
+  <string name="name">Jméno</string>
+  <!--Setting title-->
+  <string name="addresses">Adresy</string>
+  <!--Setting title-->
+  <string name="current_address">Aktuální adresa</string>
+  <!--Setting title-->
+  <string name="compression">Komprese</string>
+  <!--Strings representing compression options-->
+  <string-array name="compress_entries">
+    <item>Vypnuta</item>
+    <item>Metadata</item>
+    <item>Všechno</item>
+  </string-array>
+  <!--Setting title-->
+  <string name="introducer">Zavaděč</string>
+  <!--ActionBar item-->
+  <string name="delete_device">Smazat přístroj</string>
+  <string name="add_device">Přidat přístroj</string>
+  <!--Menu item to confirm adding a device-->
+  <string name="add">Přidat</string>
+  <!--Title for DeviceSettingsFragment in edit mode-->
+  <string name="edit_device">Upravit přístroj</string>
+  <!--Dialog shown when attempting to remove a device-->
+  <string name="remove_device_confirm">Opravdu chcete odebrat tento přístroj?</string>
+  <!--Toast shown when trying to create a device with an empty ID-->
+  <string name="device_id_required">ID přístroje nesmí být prázdné</string>
+  <!--Content description for device ID qr code icon-->
+  <string name="scan_qr_code_description">Načíst QR kód</string>
+  <!--Toast show if we could not get root permissions-->
+  <string name="toast_root_denied">Práva uživatele root nejsou dostupná</string>
+  <!--WebGuiActivity-->
+  <!--Title of the web gui activity-->
+  <string name="web_gui_title">Syncthing GUI</string>
+  <!--Text for WebGuiActivity loading view-->
+  <string name="web_gui_loading">Čeká se na Syncthing GUI</string>
+  <!--Shown instead of web_gui_loading if the key does not exist and has to be created-->
+  <string name="web_gui_creating_key">Generování bezpečnostních klíčů. Toto může trvat pár minut.</string>
+  <!--Title for dialog displayed on first start-->
+  <string name="welcome_title">Vítejte v Syncthing pro Android</string>
+  <!--Text for dialog displayed on first start-->
+  <string name="welcome_text">Syncthing je open-source aplikace pro sdílení souborů.\n\n
+Pro sdílení dat s jinými zařízeními budete potřebovat přidat jejich unikátní ID zařízení do svého listu zařízení. Poté můžete vybrat, které adresáře chcete sdílet s kterým zařízením.\n\n
+Všechny problémy, se kterými se setkáte, nahlašte prosím přes Github.</string>
+  <!--SettingsFragment-->
+  <!--Activity title-->
+  <string name="settings_title">Nastavení</string>
+  <string name="category_syncthing_android">Syncthing-Android</string>
+  <!--Preference title-->
+  <string name="always_run_in_background">Vždy spuštěné na pozadí</string>
+  <!--Preference summary in case it is enabled-->
+  <string name="always_run_in_background_enabled">Syncthing poběží vždy v pozadí, podle nastavení níže.</string>
+  <!--Preference summary in case it is disabled-->
+  <string name="always_run_in_background_disabled">Syncthing poběží pouze pokud bude ručně spuštěn a může být ukončen tlačítkem z menu.</string>
+  <string name="sync_only_charging">Synchronizovat pouze při nabíjení</string>
+  <string name="sync_only_wifi">Synchronizovat pouze přes wifi</string>
+  <string name="sync_only_wifi_ssids">Omezit na vybrané sítě wifi</string>
+  <string name="sync_only_wifi_ssids_all">Synchronizovat na všech wifi sítích</string>
+  <string name="sync_only_wifi_ssids_values">Synchronizovat pouze při připojení k: %1$s</string>
+  <string name="sync_only_wifi_ssids_wifi_turn_on_wifi">Pro výběr sítí prosím zapněte WiFi.</string>
+  <string name="advanced_folder_picker">Použít rozšířený výběr adresáře</string>
+  <string name="advanced_folder_picker_summary">Vyberte jakýkoliv adresář v přístroji pro synchronizaci</string>
+  <string name="use_root_title">Spustit syncthing jako superuživatel</string>
+  <string name="use_root_summary">Toto může způsobit různé problémy se Syncthing a s vaším zařízením. Pouze na vlastní riziko.</string>
+  <string name="notification_type_title">Upozornění</string>
+  <string name="notification_type_summary">Vybrat typ upozornění</string>
+  <string-array name="notification_type_entries">
+    <item>Normální</item>
+    <item>Nízká priorita</item>
+    <item>Źádné</item>
+  </string-array>
+  <string name="category_syncthing">Syncthing</string>
+  <string name="syncthing_options">Nastavení Syncthing</string>
+  <string name="device_name">Jméno přístroje</string>
+  <string name="listen_address">Adresy naslouchání protokolu synchronizace</string>
+  <string name="max_recv_kbps">Omezení příchozí rychlosti (KiB/s)</string>
+  <string name="max_send_kbps">Omezení odchozí rychlosti (KiB/s)</string>
+  <string name="global_announce_enabled">Globální oznamování</string>
+  <string name="local_announce_enabled">Místní oznamování</string>
+  <string name="global_announce_server">Server globálního oznamování</string>
+  <string name="usage_reporting">Anonymní hlášení o používání</string>
+  <string name="syncthing_gui">Syncthing GUI</string>
+  <string name="gui_address">Adresy naslouchání GUI</string>
+  <string name="gui_user">Přihlašovací jméno pro GUI</string>
+  <string name="gui_password">Přihlašovací heslo pro GUI</string>
+  <string name="export_config">Zálohovat nastavení</string>
+  <string name="experimental_settings">Experimentální</string>
+  <string name="keep_wakelock_while_binary_running">Udržovat CPU aktivní pokud běží Syncthing</string>
+  <string name="keep_wakelock_while_binary_running_summary">Použijte toto nastavení pokud zaznamenáváte neočekávaná ukončení spojení při běhu na baterii. Toto bude mít za následek vyšší spotřebu energie.</string>
+  <!--Toast shown after config was successfully exported-->
+  <string name="config_export_successful">Nastavení bylo zálohováno do %1$s</string>
+  <string name="import_config">Nahrát nastavení</string>
+  <!--Toast shown after config was successfully imported-->
+  <string name="config_imported_successful">Nastavení bylo nahráno</string>
+  <!--Toast shown after config was successfully imported-->
+  <string name="config_import_failed">Nahrání nastavení selhalo, ujistěte se, že soubory jsou v %1$s</string>
+  <!--Title for the preference to set STTRACE parameters-->
+  <string name="sttrace_title">Možnosti ladění</string>
+  <!--Toast after entering invalid STTRACE params-->
+  <string name="toast_invalid_sttrace">V STTRACE jsou povoleny pouze znaky a-z a \',\'</string>
+  <!--Toast after entering invalid username-->
+  <string name="toast_invalid_username">V uživatelském jménu nejsou povoleny znaky : a \'</string>
+  <!--Toast after entering invalid password-->
+  <string name="toast_invalid_password">V heslu nejsou povoleny znaky : a \'</string>
+  <!--Title for the preference to reset Syncthing indexes-->
+  <string name="streset_title">Resetovat databázi</string>
+  <!--Syncthing was reset-->
+  <string name="streset_question">Tento krok by měl být proveden pouze na základě doporučení našeho technického týmu.
+\nOpravdu chcete vyčistit databázi aplikace Syncthing?</string>
+  <!--Syncthing was reset-->
+  <string name="streset_done">Databáze aplikace Syncthing úspěšně resetována</string>
+  <string name="category_about">O aplikaci</string>
+  <!--Settings item that opens the log activity-->
+  <string name="open_log">Otevřít log</string>
+  <!--Summary for the log activity-->
+  <string name="open_log_summary">Otevřít okno logu pro Syncthing a Android</string>
+  <!--Settings item that opens issue tracker-->
+  <string name="report_issue_title">Nahlásit chybu</string>
+  <!--Summary for the issue tracker settings item-->
+  <string name="report_issue_summary">Otevřít hlášení chyb Syncthing pro Android</string>
+  <!--URL of the issue tracker-->
+  <!--Menu item to donate-->
+  <string name="donate_title">Přispět</string>
+  <string name="donate_summary">Pomozte nám platit za domény a hostingové poplatky</string>
+  <!--Title of the preference showing upstream version name-->
+  <string name="syncthing_version_title">Verze Syncthing</string>
+  <!--Title of the preference showing this app's version name-->
+  <string name="app_version_title">Verze Syncthing pro Android</string>
+  <!--FolderPickerAcitivity-->
+  <!--Activity title-->
+  <string name="folder_picker_title">Výběr adresáře</string>
+  <!--Toast shown on devices with kitkat or higher-->
+  <string name="kitkat_external_storage_warning">Varování: Tato verze Androidu nepovoluje synchronizaci na externí úložiště</string>
+  <!--ListView empty text-->
+  <string name="directory_empty">Adresář je prázdný</string>
+  <!--Menu item to create folder on the file system-->
+  <string name="create_fs_folder">Vytvořit nový adresář</string>
+  <!--Menu item to select the current folder-->
+  <string name="select_folder">Vybrat adresář</string>
+  <string name="create_folder_failed">Vytvoření adresáře selhalo</string>
+  <!--LogActivity-->
+  <!--Title of the "log" activity-->
+  <string name="log_title">Log</string>
+  <!--Title of the "log android" menu button-->
+  <string name="log_android_title">Zobrazit log pro Android</string>
+  <!--Title of the "log Syncthing" menu button-->
+  <string name="log_syncthing_title">Zobrazit log pro Syncthing</string>
+  <!--Title of the "share log" menu button-->
+  <string name="share_title">Sdílet</string>
+  <!--SyncthingService-->
+  <!--Title of the "syncthing disabled" dialog-->
+  <string name="syncthing_disabled_title">Syncthing je vypnutý</string>
+  <!--Message of the "syncthing disabled" dialog-->
+  <string name="syncthing_disabled_message">Chcete změnit svoje nastavení?</string>
+  <!--Button text on the "syncthing disabled" dialog-->
+  <string name="syncthing_disabled_change_settings">Změnit nastavení</string>
+  <!--Button text on the "syncthing disabled" dialog, used as menu item to stop syncthing service if "always_run_in_background" is true-->
+  <string name="exit">Ukončit</string>
+  <!--Title of the notification shown while syncthing is running and enabled-->
+  <string name="syncthing_active">Syncthing běží</string>
+  <!--Toast shown if folder observer fails to traverse a folder-->
+  <string name="toast_folder_observer_stack_overflow">Adresářová struktura je moc hluboká. Zkontrolujte zacyklené symlinky.</string>
+  <!--Toast shown if syncthing failed to create a config-->
+  <string name="config_create_failed">Selhalo vytvoření konfigurace Syncthing. Zkontrolujte prosím logy.</string>
+  <!--Label of the default folder created of first start (camera folder).-->
+  <string name="default_folder_label">Kamera</string>
+  <!--ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
+  <string name="default_folder_id">%1$s-foto</string>
+  <!--RestApi-->
+  <!--Title of the notification shown when a restart is needed-->
+  <string name="restart_title">Je potřeba restartovat</string>
+  <!--Text for positive button in restart dialog-->
+  <string name="restart_now">Restartovat hned</string>
+  <!--Text for the dismiss button of the restart Activity-->
+  <string name="restart_later">Později</string>
+  <!--Text of the notification shown when a restart is needed-->
+  <string name="restart_notification_text">Tapnout sem pro restart aplikace Syncthing</string>
+  <!--Shown when a device ID is copied to the clipboard-->
+  <string name="device_id_copied_to_clipboard">ID přístroje bylo zkopírováno schránky</string>
+  <!--Strings representing units for file sizes, from smallest to largest-->
+  <string-array name="file_size_units">
+    <item>B</item>
+    <item>KiB</item>
+    <item>MiB</item>
+    <item>GiB</item>
+    <item>TiB</item>
+  </string-array>
+  <!--Strings representing units for transfer rates, from smallest to largest-->
+  <string-array name="transfer_rate_units">
+    <item>B/s</item>
+    <item>KiB/s</item>
+    <item>MiB/s</item>
+    <item>GiB/s</item>
+    <item>TiB/s</item>
+  </string-array>
+  <!--Possible folder states-->
+  <string name="state_idle">Aktuální</string>
+  <string name="state_scanning">Skenování</string>
+  <string name="state_cleaning">Čištění</string>
+  <string name="state_syncing">Synchronizuje se (%1$d%%)</string>
+  <string name="state_error">Chyba</string>
+  <string name="state_unknown">Neznámý</string>
+  <!--Format string for folder size, eg "500 MiB / 1 GiB"-->
+  <string name="folder_size_format">%1$s / %2$s</string>
+  <string name="appconfig_receiver_background_enabled">Syncthing nelze zastavit když je povolený běh na pozadí.</string>
+</resources>

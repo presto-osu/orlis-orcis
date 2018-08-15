@@ -1,0 +1,26 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="view_pager_indicator_height">32dp</dimen>
+
+    <dimen name="card_margin_horizontal">24dp</dimen>
+    <dimen name="card_margin_vertical">4dp</dimen>
+    <dimen name="card_corner_radius">6dp</dimen>
+    <dimen name="card_padding_vertical">10dp</dimen>
+    <dimen name="card_padding_horizontal">10dp</dimen>
+
+    <dimen name="toolbar_padding_horizontal">10dp</dimen>
+    <dimen name="toolbar_padding_top">24dp</dimen>
+    <dimen name="toolbar_title_margin_start">10dp</dimen>
+    <dimen name="toolbar_layout_height">80dp</dimen>
+    <dimen name="toolbar_layout_margin_bottom">6dp</dimen>
+
+    <dimen name="detail_text_view_padding_horizontal">3dp</dimen>
+    <dimen name="detail_text_view_padding_vertical">0dp</dimen>
+    <dimen name="detail_margin_below_title">0dp</dimen>
+
+    <dimen name="today_detail_title_margin">4dp</dimen>
+    <dimen name="today_detail_item_layout_margin">4dp</dimen>
+    <dimen name="space_between_detail_days_height">2dp</dimen>
+</resources>

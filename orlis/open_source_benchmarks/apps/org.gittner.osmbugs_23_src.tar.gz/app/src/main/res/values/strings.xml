@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">OSMBugs</string>
+    <string name="action_settings">Settings</string>
+    <string name="go_to_gps">Enable GPS</string>
+    <string name="follow_gps">Follow GPS</string>
+    <string name="save">Save</string>
+    <string name="comment">Comment</string>
+    <string name="title">Title</string>
+    <string name="cancel">Cancel</string>
+    <string name="description">Description</string>
+    <string name="state">State</string>
+    <string name="keepright">Keepright</string>
+    <string name="visible_bugs">Visible Bugs</string>
+    <string name="visible_warnings">Visible Warnings</string>
+    <string name="ignored_errors">Ignore Errors</string>
+    <string name="ok">OK</string>
+    <string name="failed_to_save_bug">Failed to save Bug</string>
+    <string name="non_closed_areas">Non-closed Areas</string>
+    <string name="dead_ended_oneways">Dead-ended Oneways</string>
+    <string name="almost_junction">Almost Junctions</string>
+    <string name="missing_tags">Missing Tags</string>
+    <string name="motorways_without_ref">Motorways without Ref</string>
+    <string name="places_of_worship_without_religion">Places of Worship without Religion</string>
+    <string name="point_of_interest_without_name">Point of Interest without Name</string>
+    <string name="ways_without_nodes">Ways without Nodes</string>
+    <string name="floating_islands">Floating Islands</string>
+    <string name="railway_crossing_without_tag">Railway Crossing without Tag</string>
+    <string name="wrongly_used_railway_crossing_tag">Wrongly used Railway Crossing Tag</string>
+    <string name="fixme_tagged_items">FIXME Tagged Items</string>
+    <string name="relations_without_type">Relations without Type</string>
+    <string name="intersection_without_junction">Intersection without Junction</string>
+    <string name="overlapping_ways">Overlapping Ways</string>
+    <string name="loopings">Loopings</string>
+    <string name="misspelled_tags">Misspelled Tags</string>
+    <string name="layer_conflicts">Layer Conflicts</string>
+    <string name="motorways_connected_directly">Motorways connected directly</string>
+    <string name="boundaries">Boundaries</string>
+    <string name="restrictions">Restrictions</string>
+    <string name="roundabout">Roundabout</string>
+    <string name="link_connections">*_link_connections</string>
+    <string name="bridge_tags">Bridge Tags</string>
+    <string name="doubled_places">Doubled Places</string>
+    <string name="non_physical_use_of_sport_tag">Non-Physical use of Sport-Tag</string>
+    <string name="geometry_glitches">Geometry Glitches</string>
+    <string name="website">Website</string>
+    <string name="multiple_nodes_on_the_same_spot">Multiple Nodes on the same Spot</string>
+    <string name="deprecated_tags">Deprecated Tags</string>
+    <string name="missing_maxspeed">Missing Maxspeed</string>
+    <string name="language_unknown">Language Unknown</string>
+    <string name="missing_tracktype">Missing Tracktype</string>
+    <string name="show_temporary_ignored">Show Temporary Ignored</string>
+    <string name="show_ignored">Show Ignored</string>
+    <string name="show_only_open_bugs">Show only open Bugs</string>
+    <string name="bug_limit">Bug Limit</string>
+    <string name="enter_new_limit">Enter new Limit</string>
+    <string name="username">Username</string>
+    <string name="platform">Platform</string>
+
+    <string-array name="new_bug_platforms">
+        <item>Openstreetmap Notes</item>
+        <item>Mapdust</item>
+    </string-array>
+
+    <string name="mapdust">Mapdust</string>
+    <string name="wrong_turn">Wrong Turn</string>
+    <string name="bad_routing">Bad Routing</string>
+    <string name="oneway_road">Oneway Road</string>
+    <string name="blocked_street">Blocked Street</string>
+    <string name="missing_street">Missing Street</string>
+    <string name="roundabout_issue">Roundabout Issue</string>
+    <string name="missing_speed_info">Missing Speed Info</string>
+    <string name="other">Other</string>
+    <string name="show_open_bugs">Show Open Bugs</string>
+    <string name="show_fixed_bugs">Show Closed Bugs</string>
+    <string name="show_invalid_bugs">Show Invalid Bugs</string>
+    <string name="openstreetmap_notes">Openstreetmap Notes</string>
+    <string name="comments">Comments</string>
+    <string name="open">Open</string>
+    <string name="closed">Closed</string>
+    <string name="ignored">Ignored</string>
+    <string name="password">Password</string>
+    <string name="highway_highway">highway-highway</string>
+    <string name="highway_waterway">highway-waterway</string>
+    <string name="highway_riverbank">highway-riverbank</string>
+    <string name="waterway_waterway">waterway-waterway</string>
+    <string name="cycleway_cycleway">cycleway-cycleway</string>
+    <string name="highway_cycleway">highway-cycleway</string>
+    <string name="cycleway_waterway">cycleway-waterway</string>
+    <string name="cycleway_riverbank">cycleway-riverbank</string>
+    <string name="mixed_layers_intersections">Mixed Layers Intersections</string>
+    <string name="strange_layers">Strange Layers</string>
+    <string name="missing_name">Missing name</string>
+    <string name="missing_admin_level">Missing admin_level</string>
+    <string name="not_closed_loop">Not closed Loop</string>
+    <string name="splitting_boundary">Splitting Boundary</string>
+    <string name="admin_level_too_high">admin_level too high</string>
+    <string name="missing_type">Missing type</string>
+    <string name="missing_from_way">Missing from way</string>
+    <string name="missing_to_way">Missing to way</string>
+    <string name="from_or_to_not_a_way">from or to no a way</string>
+    <string name="wrong_direction">Wrong Direction</string>
+    <string name="faintly_connected">Faintly connected</string>
+    <string name="missing_turn_restrictions">Missing turn restrictions</string>
+    <string name="impossible_angles">Impossible Angles</string>
+    <string name="http_error">HTTP Error</string>
+    <string name="domain_hijacking">Domain Hijacking</string>
+    <string name="non_match">Non-Match</string>
+    <string name="reset">Reset</string>
+    <string name="add_bug">Add Bug</string>
+    <string name="debug">Debug</string>
+    <string name="use_debug_server">Use Debug Server</string>
+    <string name="title_activity_add_mapdust_bug">Add Mapdust Bug</string>
+    <string name="type">Type</string>
+    <string name="title_activity_add_openstreetmap_note">Add Openstreetmap Note</string>
+    <string name="list">List</string>
+    <string name="osmose">Osmose</string>
+    <string name="bugs_to_display">Bugs to display</string>
+    <string name="false_positive">False Positive</string>
+    <string name="enter_comment">Enter Comment</string>
+    <string name="close">Close</string>
+    <string name="notification_osm_notes_no_username">No Username provided.\nSettings -> Openstreetmap Notes -> Username</string>
+    <string name="notification_osm_notes_no_password">No Password provided.\nSettings -> Openstreetmap Notes -> Password</string>
+    <string name="saving">Saving</string>
+    <string name="developer_mail" tools:ignore="MissingTranslation">christopher@gittner.org</string>
+    <string name="feedback_to_osmbugs">Feedback to OSMBugs</string>
+    <string name="email_feedback">Email Feedback…</string>
+    <string name="sending_feedback_failed_title">Sending Feedback failed</string>
+    <string name="sending_feedback_failed_message">There seems to be no Email App on your Phone.\n\nHowever, here\'s some good News:\nYou can still send me feedback from somewhere else to:\n\nchristopher@gittner.org\n\nThank you</string>
+    <string name="feedback">Feedback</string>
+    <string name="loading_details">Loading Details</string>
+    <string name="details">Details</string>
+    <string name="tags">Tags</string>
+    <string name="add">Add</string>
+    <string name="modify">Modify</string>
+    <string name="delete">Delete</string>
+    <string-array name="osmose_status_types">
+        <item>@string/open</item>
+        <item>@string/closed</item>
+        <item>@string/false_positive</item>
+    </string-array>
+    <string-array name="osmose_status_values" tools:ignore="MissingTranslation">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="crash_dialog_title">Osmbugs crashed</string>
+    <string name="crash_dialog_text">Ooooops!\n\nI crashed,\nbut a report has been created and is ready to be delivered to my developer to help fix the issue!\nAll you have to do is click OK.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you !</string>
+    <string name="done">Done</string>
+    <string name="map_style">Map Style</string>
+    <string name="display">Display</string>
+    <string name="mapnik">Mapnik</string>
+    <string name="cyclemap">Cycle Map</string>
+    <string name="public_transport">Public Transport</string>
+    <string name="mapquest_osm">Mapquest OSM</string>
+    <string name="mapquest_aerial">Mapquest Satellit</string>
+    <string name="open_railway_map_infrastructure">Open Railway Map Infrastructure</string>
+    <string name="open_railway_map_maxspeed">Open Railway Map Maxspeeds</string>
+    <string name="open_railway_map_signals">Open Railway Map Signals</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="error">Error</string>
+    <string name="title_activity_keepright_edit">Bug Editor</string>
+    <string name="title_activity_osmose_edit">Bug Editor</string>
+    <string name="title_activity_mapdust_edit">Bug Editor</string>
+    <string name="title_activity_osm_note_edit">Bug Editor</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_bug_list">Bug List</string>
+    <string name="platforms">Platforms</string>
+    <string name="enabled">Enabled</string>
+    <string name="failed_to_download_from">Failed to Download from</string>
+    <string name="ignore">Ignore</string>
+    <string name="auto_load">Auto Load</string>
+    <string name="title_request_permissions">Requesting Permissions</string>
+    <string name="message_request_permissions">As of Android 6 ( Marshmallow ) you have to grant Permissions to the App in the now following Dialogs</string>
+    <string name="share">Share</string>
+    <string name="toast_geo_intent_no_app_found">No App found to share the Bug with</string>
+
+</resources>

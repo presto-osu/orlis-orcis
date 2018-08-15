@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="@string/pref_open_datetime_settings_key"
+        android:title="@string/pref_open_datetime_settings_title"/>
+    <Preference
+        android:key="@string/pref_open_clock_app_key"
+        android:title="@string/pref_open_clock_app_title"/>
+    <EditTextPreference
+        android:defaultValue="@string/text_color_default"
+        android:dialogMessage="@string/pref_text_color_summary"
+        android:key="@string/pref_text_color_key"
+        android:title="@string/pref_text_color_title"/>
+    <EditTextPreference
+        android:defaultValue="@string/background_color_default"
+        android:dialogMessage="@string/pref_explanation_for_color"
+        android:key="@string/pref_background_color_key"
+        android:title="@string/pref_background_color_title"/>
+    <Preference
+        android:key="@string/pref_reset_style_key"
+        android:title="@string/pref_reset_style_title"/>
+    <Preference
+        android:key="@string/pref_app_info_key"
+        android:title="@string/pref_app_info_title"/>
+</PreferenceScreen>

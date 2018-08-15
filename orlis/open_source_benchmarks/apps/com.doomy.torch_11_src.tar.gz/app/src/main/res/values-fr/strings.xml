@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Copyright (C) 2014 Damien Chazoule
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+
+    <string name="about">À propos</string>
+    <string name="add">Ajouter</string>
+    <string name="apply">Appliquer à l\'écran ?</string>
+    <string name="color">Couleur</string>
+    <string name="colorful">Écran coloré</string>
+    <string name="custom">Personnalisation</string>
+    <string name="choose">Choisissez votre couleur</string>
+	<string name="developer">Torch pour les appareils Android est développé avec amour en utilisant des logiciels open source.</string>
+    <string name="disabled">Désactivé</string>
+    <string name="discolored">Écran décoloré</string>
+    <string name="enabled">Activé</string>
+    <string name="first">Cette application est une lampe de poche minimaliste.\n\nTouchez pour allumer, et touchez à nouveau pour éteindre.\n\nSi vous desirez changer des paramètres, maintenez la pression au centre de l\'écran.\n\nSi votre appareil ne dispose pas de LED (Flash), il existe une alternative dans les paramètres.\n\nEnjoy ;)</string>
+    <string name="hello">Bonjour !</string>
+    <string name="hide">Visibilité</string>
+    <string name="message">Voulez-vous vraiment cacher l\'icône du lanceur d\'applications ? Si oui, l\'application se fermera mais le widget restera accessible. \n\n<b>Attention ! Cette action est irréversible.</b></string>
+    <string name="no">Non</string>
+    <string name="screen">Écran</string>
+    <string name="sos">SOS</string>
+    <string name="settings">Paramètres</string>
+    <string name="title">Cacher l\'icône ?</string>
+    <string name="torch_title">Lampe torche allumé</string>
+    <string name="torch_toggle">Touchez pour éteindre</string>
+    <string name="yes">Oui</string>
+    <string name="red">Rouge</string>
+    <string name="pink">Rose</string>
+    <string name="purple">Violet</string>
+    <string name="deepPurple">Violet Foncé</string>
+    <string name="indigo">Indigo</string>
+    <string name="blue">Bleu</string>
+    <string name="lightBlue">Bleu Clair</string>
+    <string name="cyan">Cyan</string>
+    <string name="teal">Bleu Vert</string>
+    <string name="green">Vert</string>
+    <string name="lightGreen">Vert Clair</string>
+    <string name="lime">Citron</string>
+    <string name="yellow">Jaune</string>
+    <string name="amber">Ambre</string>
+    <string name="orange">Orange</string>
+    <string name="deepOrange">Orange Foncé</string>
+    <string name="brown">Marron</string>
+    <string name="grey">Gris</string>
+    <string name="blueGrey">Bleu Gris</string>
+
+</resources>

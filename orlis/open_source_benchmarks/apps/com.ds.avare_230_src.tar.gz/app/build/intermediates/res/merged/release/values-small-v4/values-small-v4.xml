@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="TextSize">25sp</dimen>
+    <dimen name="distanceRingNumberTextSize">16sp</dimen>
+    <dimen name="runwayNumberTextSize">25sp</dimen>
+</resources>

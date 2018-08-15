@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:layout_width="match_parent"
+			  android:layout_height="60dp"
+			  android:weightSum="1"
+			  android:id="@+id/listItem"
+			  android:alpha="1">
+
+	<ImageView
+		android:layout_width="44dp"
+		android:layout_height="match_parent"
+		android:id="@+id/image"
+		android:contentDescription="@string/cover_image"
+		android:src="@drawable/abc_btn_check_to_on_mtrl_000"
+		android:scaleType="fitStart"
+		android:visibility="invisible"/>
+
+	<TextView
+		android:id="@+id/title"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:textSize="@dimen/abc_text_size_large_material"
+		android:text="Lorem Ipsum Dolor Sit Amet Dolor Dolor"
+		android:gravity="center_vertical"
+		android:layout_weight="1"
+		android:paddingLeft="@dimen/list_item_padding"
+		android:paddingRight="@dimen/list_item_padding"
+		android:textColor="@color/primary_text_default_material_light"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:id="@+id/airingDate"
+		android:textAlignment="center"
+		android:text="Airing date"
+		android:textSize="20sp"
+		android:gravity="center_vertical"
+		android:padding="10dp"
+		android:visibility="gone"/>
+
+</LinearLayout>

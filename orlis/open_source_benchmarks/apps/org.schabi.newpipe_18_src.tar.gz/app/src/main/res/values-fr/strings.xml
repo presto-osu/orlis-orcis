@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="autoplay_through_intent_summary">Lire automatiquement une vidéo lorsqu’elle a été appelée depuis une autre application.</string>
+    <string name="cancel">Annuler</string>
+    <string name="choose_browser">Choisir un navigateur </string>
+    <string name="default_resolution_title">Définition par défaut</string>
+    <string name="did_you_mean">Vouliez-vous dire : %1$s ?</string>
+    <string name="download">Télécharger</string>
+    <string name="download_path_title">Chemin de téléchargement</string>
+    <string name="download_path_dialog_title">Entrer le chemin de téléchargement des vidéos</string>
+    <string name="download_path_summary">Chemin de stockage des vidéos téléchargées.</string>
+    <string name="install">Installer</string>
+    <string name="installeKore">Installer Kore</string>
+    <string name="kore_not_found">L’application Kore est introuvable. Installer Kore ?</string>
+    <string name="no_player_found">Aucun lecteur de flux réseau trouvé. Installer VLC ?</string>
+    <string name="open_in_browser">Ouvrir dans le navigateur</string>
+    <string name="autoplay_through_intent_title">Lecture automatique via Intent</string>
+    <string name="play_with_kodi_title">Lire avec Kodi</string>
+    <string name="screen_rotation">rotation</string>
+    <string name="search">Rechercher</string>
+    <string name="search_page">"Rechercher la page : "</string>
+    <string name="settings">Paramètres</string>
+    <string name="share">Partager</string>
+    <string name="share_dialog_title">Partager avec </string>
+    <string name="show_play_with_kodi_summary">Afficher une option pour lire la vidéo via la médiathèque Kodi.</string>
+    <string name="show_play_with_kodi_title">Afficher l’option « Lire avec Kodi »</string>
+    <string name="settings_activity_title">Paramètres</string>
+    <string name="upload_date_text">Ajoutée le %1$s</string>
+    <string name="useExternalPlayerTitle">Utiliser un lecteur externe</string>
+    <string name="view_count_text">%1$s vues</string>
+    <string name="play_audio">Audio</string>
+    <string name="default_audio_format_title">Format audio par défaut</string>
+    <string name="webm_description">WebM — format libre</string>
+    <string name="m4a_description">m4a — meilleure qualité</string>
+    <string name="download_dialog_title">Télécharger</string>
+    <string name="next_video_title">Vidéo suivante</string>
+    <string name="show_next_and_similar_title">Afficher les vidéos suivantes et similaires</string>
+    <string name="url_not_supported_toast">URL non pris en charge</string>
+    <string name="similar_videos_btn_text">Vidéos similaires</string>
+    <string name="settings_category_video_audio_title">Vidéo et audio</string>
+    <string name="settings_category_other_title">Autre</string>
+
+    <string name="list_thumbnail_view_description">Miniature d’aperçu vidéo</string>
+    <string name="detail_thumbnail_view_description">Miniature d’aperçu vidéo</string>
+    <string name="detail_dislikes_img_view_description">Je n’aime pas</string>
+    <string name="detail_likes_img_view_description">J’aime</string>
+    <string name="search_language_title">Langue préférée du contenu</string>
+    <string name="detail_uploader_thumbnail_view_description">Miniature de l’avatar de l’utilisateur</string>
+    <string name="use_external_video_player_title">Utiliser un lecteur vidéo externe</string>
+    <string name="use_external_audio_player_title">Utiliser un lecteur audio externe</string>
+    <string name="background_player_playing_toast">Lecture en arrière-plan</string>
+    <string name="background_player_name">Lecteur en arrière-plan NewPipe</string>
+    <string name="loading">Chargement</string>
+    <string name="play_btn_text">Lire</string>
+
+    <string name="use_tor_title">Utiliser Tor</string>
+    <string name="use_tor_summary">(Expérimental) Rediriger le trafic de téléchargement via Tor pour plus de confidentialité (streaming non supporté pour le moment).</string>
+<string name="theme_title">Thème</string>
+    <string name="dark_theme_title">Sombre</string>
+    <string name="light_theme_title">Clair</string>
+
+    <string name="settings_category_appearance_title">Apparence</string>
+    <string name="network_error">Erreur réseau</string>
+
+    <string name="download_path_audio_title">Chemin de téléchargement de l\'audio</string>
+    <string name="download_path_audio_summary">Chemin de stockage des fichiers audio téléchargés</string>
+    <string name="download_path_audio_dialog_title">Entrer le chemin de téléchargement des fichiers audio</string>
+
+    <string name="err_dir_create">Impossible de créer le répertoire de téléchargement « %1$s »</string>
+    <string name="info_dir_created">Répertoire de téléchargement « %1$s » créé</string>
+<string name="general_error">Erreur</string>
+    <string name="parsing_error">Impossible d\'analyser le site web.</string>
+    <string name="content_not_available">Contenu non disponible.</string>
+    <string name="blocked_by_gema">Bloqué par GEMA.</string>
+
+    <string name="error_snackbar_message">Désolé, des erreurs se sont produites.</string>
+    <string name="content">Contenu</string>
+    <string name="show_age_restricted_content_title">Afficher le contenu soumis à une restriction d\'âge</string>
+    <string name="duration_live">En direct</string>
+
+    <string name="could_not_load_thumbnails">Impossible de charger toutes les miniatures</string>
+    <string name="youtube_signature_decryption_error">Erreur lors du décryptage du lien</string>
+    <string name="light_parsing_error">Impossible d\'analyser le site complètement.</string>
+    <string name="live_streams_not_supported">Il s\'agit d\'un direct. Non supporté pour le moment.</string>
+    <string name="sorry_string">Désolé, ça ne devrait pas arriver.</string>
+    <string name="autoplay_by_calling_app_summary">Lire automatiquement la vidéo lorsque NewPipe est appelée par une autre application.</string>
+    <string name="error_report_button_text">Signaler l\'erreur par e-mail</string>
+    <string name="what_device_headline">Information :</string>
+    <string name="what_happened_headline">Ce qui s\'est passé :</string>
+    <string name="info_requested_stream_lbl">Flux demandé :</string>
+    <string name="your_comment">Votre commentaire (en anglais) :</string>
+    <string name="error_details_headline">Détails :</string>
+
+
+    <string name="report_error">Signaler une erreur</string>
+    <string name="enable_background_audio">Lire en arrière-plan</string>
+    <string name="video">Vidéo</string>
+    <string name="audio">Audio</string>
+    <string name="text">Texte</string>
+    <string name="logging_normal">Normal</string>
+    <string name="retry">Réessayer</string>
+    <string name="error_drm_unsupported_scheme">Cet appareil ne supporte pas le système DRM requis</string>
+    <string name="error_drm_unknown">Une erreur DRM s\'est produite</string>
+    <string name="storage_permission_denied">Autorisation d\'accès au stockage refusée</string>
+    <string name="use_exoplayer_title">Utiliser ExoPlayer</string>
+    <string name="use_exoplayer_summary">Expérimental</string>
+<string name="main_bg_subtitle">Faites une recherche pour commencer</string>
+    <string name="autoplay_by_calling_app_title">Lecture automatique quand ouvert depuis une autre application</string>
+    <string name="video_is_age_restricted">Cette vidéo est soumise à une restriction d\'âge. Autoriser le contenu restreint dans les paramètres avant.</string>
+    <string name="info_searched_lbl">Recherché :</string>
+    <string name="user_report">Rapport utilisateur</string>
+
+    <string name="logging">Connexion</string>
+    <string name="error_drm_not_supported">Contenu protégé non supporté par l\'API antérieure à la version 18</string>
+    <string name="error_no_decoder">Cet appareil ne fournit pas de décodeur pour <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="error_no_secure_decoder">Cet appareil ne fournit pas de décodeur sécurisé pour <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="error_instantiating_decoder">Impossible d\'instancier le décodeur <xliff:g id="decoder_name">%1$s</xliff:g></string>
+    <string name="error_snackbar_action">SIGNALER</string>
+    <string name="could_not_setup_download_menu">de téléchargement.</string>
+    <string name="could_not_get_stream">Impossible d\'obtenir une diffusion.</string>
+    <string name="logging_verbose">Verbose</string>
+    <string name="off">[désactivé]</string>
+    <string name="error_querying_decoders">Impossible d\'accéder aux décodeurs de l\'appareil</string>
+    <string name="info_labels">Action :\\nRequête :\\nLangue du contenu :\\nService :\\nHeure GMT :\\nVersion :\\nVersion d\'OS :\\nIntervalle global d\'IP :</string>
+    </resources>

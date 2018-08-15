@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+lintOptions { abortOnError false }
+    // Compile SDK must be lower than 23 because in API level 23+, the old notification is removed, compelling to use support library.
+    compileSdkVersion 21
+    buildToolsVersion '23.0.3'
+    defaultConfig {
+        applicationId "org.surrel.facebooknotifications"
+        minSdkVersion 9
+        targetSdkVersion 24
+        versionCode 10
+        versionName '1.8.0'
+    }
+    buildTypes {
+
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+        debug {
+minifyEnabled true
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+}
+
+

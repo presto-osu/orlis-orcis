@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="fill_parent"
+	android:orientation="vertical" android:gravity="center"
+	android:background="#222222">
+	<FrameLayout android:layout_height="wrap_content"
+		android:id="@+id/frameLayout1" android:layout_width="fill_parent">
+
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:text="@string/map_moveTitle"
+		    android:textColor="#DDDDDD"
+		    android:textSize="20sp" />
+
+	</FrameLayout>
+	
+	<ScrollView android:layout_height="wrap_content" android:id="@+id/scrollView1"
+		android:layout_width="fill_parent">
+		
+		<LinearLayout android:id="@+id/linearLayout1"
+			android:orientation="vertical" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:gravity="center">
+
+			<TextView
+			    android:id="@+id/textView2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:gravity="center"
+			    android:paddingLeft="5dip"
+			    android:paddingRight="5dip"
+			    android:paddingTop="10dip"
+			    android:text="@string/map_move_text1"
+			    android:textColor="#999999"
+			    android:textSize="15sp" />
+
+			<TableLayout android:layout_height="wrap_content"
+				android:id="@+id/tableLayout1"
+				android:layout_width="wrap_content"
+				android:gravity="center_horizontal">
+
+				<TableRow 
+				    android:id="@+id/tableRow1" 
+				    android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					
+					<ImageView 
+					    android:layout_width="120dip"
+						android:layout_height="120dip" 
+						android:id="@+id/imageView2"
+						android:src="@drawable/one_finger_tap_gestureworks"
+						android:paddingRight="20dip" 
+						android:paddingLeft="20dip" />
+
+				</TableRow>
+				
+				<TableRow 
+				    android:id="@+id/tableRow2" 
+				    android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					
+					<TextView
+					    android:layout_width="fill_parent"
+					    android:layout_height="wrap_content"
+					    android:gravity="center"
+					    android:paddingRight="10dip"
+					    android:text="@string/map_move_text2"
+					    android:textColor="#999999"
+					    android:textSize="15sp" />
+					
+				</TableRow>
+
+				<TableRow 
+				    android:id="@+id/tableRow3" 
+				    android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+					
+				</TableRow>
+				
+				<TableRow android:id="@+id/tableRow4" android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+				</TableRow>
+
+				<Button android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+                    android:text="@string/ok"
+                    android:id="@+id/OkButton"
+					android:layout_marginTop="20dip" />
+
+			</TableLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 22
+    buildToolsVersion '23.0.2'
+    defaultConfig {
+        applicationId "com.markusborg.test"
+        minSdkVersion 10
+        targetSdkVersion 22
+        versionCode 17
+        versionName "1.8.1"
+    }
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.2.1'
+}

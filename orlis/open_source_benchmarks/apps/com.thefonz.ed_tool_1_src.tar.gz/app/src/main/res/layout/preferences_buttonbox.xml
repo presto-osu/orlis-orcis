@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="@color/my_teal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#008080"
+            android:padding="5dp"
+            android:text="Click on a button to change/set the desired keypress"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/refresh"
+            android:id="@+id/button_refresh"
+            android:layout_row="1"
+            android:layout_column="21"
+            android:layout_marginRight="5dp"/>
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:columnCount="4"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonB_1"
+            android:layout_height="80dp"
+            android:clickable="true"
+             />
+        <Button
+            android:id="@+id/buttonB_2"
+            android:layout_height="80dp"
+            android:clickable="true"
+             />
+        <Button
+            android:id="@+id/buttonB_3"
+            android:layout_height="80dp"
+            android:clickable="true"
+             />
+        <Button
+            android:id="@+id/buttonB_4"
+            android:layout_height="80dp"
+            android:clickable="true"
+             />
+        <Button
+            android:id="@+id/buttonB_5"
+            android:layout_height="80dp"
+            android:clickable="true"
+             />
+        <Button
+            android:id="@+id/buttonB_6"
+            android:layout_height="80dp"
+            android:clickable="true"
+             />
+        <Button
+            android:id="@+id/buttonB_7"
+            android:layout_height="80dp"
+            android:clickable="true"
+             />
+        <Button
+            android:id="@+id/buttonB_8"
+            android:layout_height="80dp"
+            android:clickable="true"
+             />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonB_9"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_10"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_11"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_12"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_13"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_14"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_15"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_16"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonB_17"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_18"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_19"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_20"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_21"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_22"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_23"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+        <Button
+            android:id="@+id/buttonB_24"
+            android:layout_height="80dp"
+            android:clickable="true"
+            />
+    </GridLayout>
+
+</LinearLayout>

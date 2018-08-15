@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="GRA"
+        android:dialogIcon="@drawable/ic_opinion"
+        android:entries="@array/hour_entries"
+        android:entryValues="@array/hour_values"
+        android:icon="@drawable/ic_opinion"
+        android:key="hour"
+        android:title="@string/opinion"/>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="hour.visible"
+        android:title="@string/hour_title"/>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="hour.emphasis"
+        android:title="@string/emphasis_title"/>
+
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ouroboros</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="reply_count_mock_text">123 Replies</string>
+    <string name="image_reply_count_mock_text">54 Images</string>
+    <string name="reply">Reply</string>
+    <string name="navigation_warning_ok">Proceed</string>
+    <string name="navigation_warning_cancel">Cancel</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="threadlink">#FF6600</string>
+    <string name="title_activity_post_comment_activity">post_comment_activity</string>
+    <string name="thread_media_saved_layout_state">0</string>
+</resources>

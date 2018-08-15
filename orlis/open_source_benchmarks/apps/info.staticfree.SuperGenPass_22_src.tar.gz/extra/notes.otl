@@ -1,0 +1,2 @@
+Making a 70% reduced version of an image
+	convert res/drawable-mdpi/ic_menu_copy_holo_dark_normal.png -channel Alpha -evaluate Divide 3.3333 res/drawable-mdpi/ic_menu_copy_holo_dark_disabled.png

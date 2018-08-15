@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Oburo.O est un programme destinée à saisir son temps de travail sur un support Android.
+  ~
+  ~     This file is part of Oburo.O
+  ~     Oburo.O is free software: you can redistribute it and/or modify
+  ~     it under the terms of the GNU General Public License as published by
+  ~     the Free Software Foundation, either version 3 of the License, or
+  ~     (at your option) any later version.
+  ~
+  ~     This program is distributed in the hope that it will be useful,
+  ~     but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~     GNU General Public License for more details.
+  ~
+  ~     You should have received a copy of the GNU General Public License
+  ~     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  ~
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="214dip"
+    android:layout_height="54dip"
+    android:background="@drawable/widgetborder">
+
+    <ImageView
+        android:layout_width="50dip"
+        android:src="@drawable/logo_s3i"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:background="#35FFFFFF"
+        android:id="@+id/monTextWidget"
+        android:text="@string/debuter"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:layout_height="fill_parent"
+        android:layout_width="95dip" />
+
+
+    <Button
+        android:background="@drawable/bouton123"
+        android:id="@+id/monbouttonwidget"
+        android:text="@string/pointer"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:layout_width="65dip"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>

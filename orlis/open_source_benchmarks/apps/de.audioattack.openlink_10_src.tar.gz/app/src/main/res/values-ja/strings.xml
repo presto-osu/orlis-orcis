@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_label">リンクを開く</string>
+    <string name="error_unable_to_open">開けません。\n%1$s</string>
+    <string name="error_no_url_found">リンクは見つかりませんでした。</string>
+    <string name="lbl_video">指示</string>
+    <string name="lbl_source_code">ソース コード</string>
+
+</resources>

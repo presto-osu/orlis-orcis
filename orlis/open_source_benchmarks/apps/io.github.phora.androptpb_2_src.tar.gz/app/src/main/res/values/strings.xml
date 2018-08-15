@@ -1,0 +1,72 @@
+<resources>
+    <string name="AppName">AndroPTPB</string>
+
+    <string-array name="UploadTypes">
+        <item>URL</item>
+        <item>Raw text</item>
+        <item>File</item>
+    </string-array>
+    <string name="MainActivity.AddItem">Add item</string>
+    <string name="MainActivity.NoBlank.Text">You can\'t submit blank text!</string>
+    <string name="MainActivity.PickedMultiple">Picked %1$s files</string>
+    <string name="MainActivity.PickedSingle">Picked 1 file</string>
+    <string name="MainActivity.ChooseFiles">Choose files to upload</string>
+
+    <string name="Action.Settings">Settings</string>
+    <string name="Action.About">About</string>
+    <string name="Action.Prune">Remove expired entries</string>
+    <string name="Action.Refresh">Refresh</string>
+
+    <string name="Copy.Label">Copied URLs</string>
+    <string name="Toast.Copy">Copied links to clipboard</string>
+    <string name="Share.Title">Share links!</string>
+
+    <string name="CABMenu.SelectItems">Select items</string>
+    <string name="CABMenu.SingleItem">1 item selected</string>
+    <string name="CABMenu.MultipleItems">%1$s items selected</string>
+
+    <string name="Title.Activity.UploadOptions">Upload Options</string>
+
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="copy_w_style">Styled Copy</string>
+    <string name="share_w_style">Styled Share</string>
+    <string name="OK">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="ContentDescriptionDivider">divider</string>
+
+    <string name="UploadItem.EditPaste">Edit this paste</string>
+    <string-array name="EditOptions">
+        <item>Edit paste hint</item>
+        <item>Edit format</item>
+        <item>Edit style</item>
+        <item>Replace content with file</item>
+        <item>Replace content with raw text</item>
+    </string-array>
+
+    <string name="Title.Activity.PasteHints">Paste Hint</string>
+    <string name="PasteHints.Waiting">Waiting for highlighting paste hints…</string>
+    <string name="PasteHints.NoHints">No highlighting hints were found for the paste on its hosting server.
+        Try editing the text entry above to find other highlighting hints.</string>
+    <string name="PasteHints.Content">Your paste hint</string>
+    <string name="PasteHints.IsHighlight">Highlight? Turning this off implies a mimetype hint</string>
+
+    <string name="Title.Activity.Formatter">Formats</string>
+    <string name="Formatter.Waiting">Waiting for alternate formats…</string>
+    <string name="Formatter.NoHints">No alternate formats were found for the paste on its hosting server.</string>
+    <string name="Formatter.IsDefault">Use custom format?
+        Turning this off makes this use a special case of html that has line numbers.</string>
+
+    <string name="Title.Activity.Styles">Styles</string>
+    <string name="Styles.IsDefault">Use alternate colorscheme?</string>
+    <string name="Styles.Waiting">Waiting for alternate styles...</string>
+    <string name="Styles.NoHints">No alternate styles were found for the paste on its hosting server.</string>
+
+    <string name="About.App">About %1$s</string>
+    <string name="About.Version">Version %1$s</string>
+    <string name="About.Site">https://github.com/phora/AndroPTPB</string>
+    <string name="About.Email">phora.public@outlook.com</string>
+    <string name="About.Desc">Released under the GNU GPLv3 license.</string>
+
+</resources>

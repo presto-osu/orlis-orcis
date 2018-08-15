@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Classic Monitor</title>
+<meta charset="UTF-8">
+<meta name="description" content="Context Help file for the Classic Monitor Android App">
+<meta name="keywords" content="HTML,CSS">
+<meta name="author" content="Graham Ross">
+<link rel="stylesheet" type="text/css" href="layout-styles.css">
+</head>
+
+<body>
+<a id="Top"></a>
+<div class="container text-center">
+
+&nbsp;|&nbsp;
+<a href="#Bot">Fin</a>
+&nbsp;|&nbsp;
+</div>
+<br>
+<div class="container text-center">
+<table id="t01">
+<tr><td>
+<a href="#Overview">Vue d’ensemble</a>
+</td></tr>
+<tr><td>
+<a href="#NavigationBar">Navigation</a>
+</td></tr>
+<tr><td>
+<a href="#Settings">Réglages</a>
+</td></tr>
+<tr><td>
+<a href="#StateOfCharge">L'état de charge</a>
+</td></tr>
+<tr><td>
+<a href="#System">Système</a>
+</td></tr>
+<tr><td>
+<a href="#Load">Consommation</a>
+</tr></td>
+<tr><td>
+<a href="#Power">Puissance</a>
+</td></tr>
+<tr><td>
+<a href="#Energy">Energie</a>
+</td></tr>
+<tr><td>
+<a href="#Capacity">Capacité</a>
+</td></tr>
+<tr><td>
+<a href="#RealTimeChart">Graphique Actuelle</a>
+</td></tr>
+<tr><td>
+<a href="#Temperature">Température</a>
+</td></tr>
+<tr><td>
+<a href="#DayChart">Graphique Quotidien</a>
+</td></tr>
+<tr><td>
+<a href="#HourChart">Graphique Horaire</a>
+</td></tr>
+<tr><td>
+<a href="#Calendar">Calendrier</a>
+</td></tr>
+<tr><td>
+<a href="#Info">Informations</a>
+</td></tr>
+<tr><td>
+<a href="#Messages">Messages</a>
+</td></tr>
+
+</table>
+</div>
+<hr style="page-break-before:always;">
+<div class="container text-center" >
+
+ <div class="row">
+	<div class="col-md-12">
+	  <h1>Classic Monitor.</h1>
+	  <h2 class="text-center">Vue d’ensemble</h2>
+	</div>
+	<a id="Overview"></a>	
+	<br>
+	<div class="center">
+		<p>
+			L'application Android classique moniteur affiche des informations à partir de votre contrôleur de charge classique. 
+			Votre régulateur de charge doit être connecté et configuré pour votre réseau local, 
+			veuillez référer à la documentation du contrôleur de charge classique fourni par Midnite solaire. Votre appareil Android doit également être connecté au même réseau local. 
+		</p>
+		<p>
+			Avec la redirection de port et d'un service DDNS, le moniteur classique peut se connecter à votre contrôleur sur Internet 
+			en ajoutant une connexion en utilisant le nom de domaine fourni par votre service DDNS et le nombre de port publique configuré dans votre routeur. 
+			Un service DDNS gratuit est disponible à partir <a href="https://www.noip.com" target="_blank"> www.noip.com</a>, votre routeur doit supporter le service DDNS que vous sélectionnez
+		</p>
+		<p>
+			Cette application supporte actuellement les modèles Classic & Classic Lite 150, 200, 250 contrôleurs de charge, 
+			la série Classic SL est pas pris en charge car elle ne dispose pas d'une connexion Ethernet, support de base pour les contrôleurs de charge MPPT TriStar est également inclus.
+		</p>
+		<p>
+			L'application affiche un ensemble des divers onglets en fonction de votre configuration.
+		</p>
+		<p>
+			Un ou plusieurs classiques sans WhizbangJr, les onglets sont:
+		</p>
+			<p>
+				<b>Puissance | Energie | Température | Calendrier | Graphique Quotidien | Graphique Horaire | Informations | Messages | À propos </b>
+			</p>
+		<p>
+			Un classique avec un seul WhizbangJr, les onglets sont:
+		</p>
+			<p>
+				<b> L'état de charge | Chargez | Puissance | Energie | Capacité | Température | Calendrier | Graphique Quotidien | Graphique Horaire | Informations | Messages | À propos </b>
+			</p>
+		<p>
+			Plus d'un classique avec une WhizbangJr, les onglets sont:
+		</p>
+			<p>
+				<b> L'état de charge | Système | Puissance | Energie | Capacité | Température | Calendrier | Graphique Quotidien | Graphique Horaire | Informations | Messages | À propos </b>
+			</p>
+		<p>
+			Un Morningstar Tri-Star MPPT, les onglets sont:
+		</p>
+			<p>
+				<b> Puissance | Energie | À propos </b>
+			</p>
+		<p>
+			Lorsque vous avez plus d'un contrôleur et un WhizbangJr, un bouton radio est affiché sur le calendrier et l'onglets d'énergie vous permettant 
+			de voir l'énergie récoltée par le contrôleur ou le système (somme de tous les contrôleurs).
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+		<a id="NavigationBar"></a>		
+	<h2 class="text-center">Navigation</h2>
+	<img class="center_image" alt="NavBar_landscape.PNG" src="images_fr/NavBar_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			L'écran de navigation est affiché en faisant glisser la partie gauche de la page vers la droite ou en appuyant sur l'icône 'hamburger' sur la bar d'action.
+		</p>
+		
+		<p>
+			Chaque contrôleur configurée est affiché.
+		</p>
+		<p>
+			Vous pouvez enlever un contrôleur en faisant glisser l'entrée vers la droite.
+		</p>
+		<p>
+			Un icôn avec un point d'exclamation sera affiché à côté de l'entrée quand l'application ne peut pas communiquer avec le contrôleur.
+		</p>
+	</div>
+	<br>
+	<img class="center_image" alt="AddDevice_landscape.PNG" src="images_fr/AddDevice_landscape.png"  title="" >
+	<br>
+	<div class="center">
+		<p>
+			Vous pouvez configurée un contrôleur avec une address statique en appuyant sur le menu <b>+Ajouter</b>. 
+			Vous pouvez ainsi entrée le numero du port et le nom ou l'addresse IP du contrôleur.
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="Settings"></a>
+	<h2 class="text-center">Réglages</h2>
+	<img class="center_image" alt="Settings_portrait.PNG" src="images_fr/Settings_portrait.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			La boîte de dialogue des réglages est affiché en appuyant sur l'icône d'engrenage en haut à droite de la barre d'action.  
+		</p>
+		<p>
+			<b>Détection automatique classique</b>: L'application écoute pour des paquets UDP sur le réseau local pour un appareil classique disponible pas encore configuré lorsque cette option est sélectionnée.  
+			Lorsque la sélection est pas cochée, chaque classique doit être ajoutée manuellement en utilisant le bouton Ajouter+ lorsque le tiroir de navigation de gauche est affiché. 
+		</p>
+		<p>
+			<b>Utilisez échelle Fahrenheit</b>: La température est affichée en fahrenheit sur des jauges, calendrier et graphiques autrement celcius.
+		</p>
+		<p>
+			<b>Affiche de messages de notification</b>: Les messages sont affichés au centre de l'écran à chaque fois que les changements d'état de charge, lorsque De-sélectionner aucun message s'affiche.
+		</p>
+		<p>
+			<b>Vue Système Activé</b>: Lorsqu'elle est cochée, l'application va se connecter à tous les contrôleurs de charge et de résumer les valeurs de puissance et de consommation, ce qui devrait être utilisé lorsque vous avez plus d'un contrôleur de charge de charge une banque de batterie.
+			Si elle est décochée, chaque contrôleur de charge est indépendante, l'application ne se connecter au classique sélectionné.
+		</p>
+	</div>
+	<a id="PVOutput"></a>
+	<h2 class="text-center">PV Output</h2>
+	<img class="center_image" alt="PVOutput_landscape.PNG" src="images_fr/PVOutput_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			<b>PVOutput</b>: Lorsque vous activez PVOutput et fournissez une clé et systemId (SID), 
+			l'application télécharge l'énergie quotidienne (kWh) enregistré par vos classiques sur le site web PVoutput.org. 
+		</p>
+
+		<p>
+			Le bouton <b>Effacer le journal enregistrées</b> réinitialise la dernière date de téléchargement, l'application va re-telecharger jusqu'à 30 jours de journaux quotidiens enregistrés
+		</p>
+		<p>
+			L'application télécharge les dernières lectures pour chaque jour depuis le dernier téléchargement jusqu'à 30 jours. 
+		</p>
+		<p>
+			Vous aurez besoin d'obtenir un compte à <a href="http://PVOutput.org" target="_blank"> PVOutput.org</a> pour obtenir une clé et Sid. 
+		<p>
+			Une icône 'soleil' s'affiche sur la barre d'action et vous suivez la navigation sur le site web PVOutput.org. 
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="StateOfCharge"></a>
+	<h2 class="text-center">L'État de charge</h2>
+	<img class="center_image" alt="StateOfCharge_landscape.PNG" src="images_fr/StateOfCharge_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p> 
+			L'onglet État de charge est affiché lorsque vous avez au moins un classique configuré avec un WhizbangJr.  
+		</p>
+		<p>
+			Le cadrant bi-directionnel peut afficher le courant ou la puissance, appuyez sur le cadrant pour basculer entre la sélection. 
+			Une lecture négative indique que la batterie est déchargée, une lecture positive indique la charge.
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="System"></a>
+	<h2 class="text-center">Système</h2>
+	<img class="center_image" alt="System_landscape.PNG" src="images_fr/System_landscape.png"  title="">
+	<br>
+	<div class="center">	
+		<p>
+			L'onglet Système est affiché lorsque vous avez plus d'un contrôleur de charge et vous avez au moins un classique configuré avec un WhizbangJr. 
+		</p>
+		<p>
+			Le cadrant de puissance affiche la quantité de puissance étant généré par le système (la somme de tous les contrôleurs).
+		</p>
+		<p>
+			Le cadrant de la consommation affiche la quantité d'énergie consommée par le système, cela est calculé à partir de la puissance générée moins la puissance d'entrer a les batteries.
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+	
+	<a id="Load"></a>
+	<h2 class="text-center">Consommation</h2>
+	<img class="center_image" alt="Consumption_landscape.PNG" src="images_fr/Consumption_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			Les cadrant de la consommation affiche la quantité d'énergie consommée par le système, cela est calculé à partir de la puissance générée moins la puissance d'entrer dans les batteries.
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="Power"></a>
+	<h2 class="text-center">Puissance</h2>
+	<img class="center_image" alt="Power_landscape.PNG" src="images_fr/Power_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			L'onglet Puissance affiche la tension et le courant alimentant le contrôleur des panneaux solaires et de la 
+			tension et le courant en laissant le contrôleur pour les batterie et la lecture de puissance résultante pour le contrôleur sélectionné. 
+		</p>
+		<p>
+			Le cadrant de puissance principal comprennent DEL près du bas du cadrant. La DEL de gauche est Aux 1 et la DEL de droite est Aux 2.
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="Energy"></a>
+	<h2 class="text-center">Energie</h2>
+	<img class="center_image" alt="Energy_landscape.PNG" src="images_fr/Energy_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			L'onglet de l'énergie affiche la quantité d'énergie récolté aujourd'hui par le contrôleur sélectionné et le montant totale de l'énergie 
+			récoltée par le contrôleur depuis qu'il a été mis en service.
+		</p>
+		<p>
+			Lorsque vous avez plus d'un contrôleur et un WhizbangJr, un bouton radio est affichée pour vous permettre à voir l'énergie récoltée par 
+			le contrôleur ou le système (somme de tous les contrôleurs).
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="Capacity"></a>
+	<h2 class="text-center">Capacité</h2>
+	<img class="center_image" alt="Capacity_landscape.PNG" src="images_fr/Capacity_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			L'onglet des capacités affiche le solde de l'énergie dans ampères / heure restant dans vos batteries. 
+		</p>
+		<p>
+			Veuillez référer à la documentation <a href="http://www.midnitesolar.com/pdfs/Whizbang_manual.pdf" target="_blank"> Midnite Solar WhizbangJr</a> pour plus d'informations.
+		</p>
+	</div>
+		<hr style="page-break-before:always;">
+	
+	<a id="RealTimeChart"></a>
+	<h2 class="text-center">Graphique Actuelle</h2>
+
+	<img class="center_image" alt="LiveChart.PNG" src="images_en/LiveChart.png"  title="">
+	<br>
+	<div class="center">	
+	<p>
+		Le graphique en direct affiche le volts de la batterie (rouge), le courant d'alimentation (jaune) et un état de l'indicateur de charge.
+		Si un WhizbangJr est détecté, le tableau affiche également la charge de la batterie / courant de décharge (cyan).
+	</p>
+	<p>
+	L'état de charge (ligne au bas du tableau) affichage comme suit;
+	
+	<ul>
+	<li>Indéfini: Blanc</li>
+	<li>Repos: Noir (code 0)</li>
+	<li>Absorber: Orange (code 3)</li>
+	<li>BulkMPPT: Vert (code 4)</li>
+	<li>Flotte: Bleu (code 5)</li>
+	<li>FlotteMPPT: Cyan (code 6)</li>
+	<li>Égaliser:  Rose (code 7)</li>
+	<li>HyperVOC: Rouge (code 10)</li>
+	<li>EQMPPT: Violet (code 18)</li>
+	</ul>
+	</p>
+	</div>
+	
+	<hr style="page-break-before:always;">
+
+	<a id="Temperature"></a>
+	<h2 class="text-center">Température</h2>
+
+	<img class="center_image" alt="Temperature_landscape.PNG" src="images_fr/Temperature_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			L'onglet de la température affiche la température en degrés Celsius ou Fahrenheit de la batterie, FET interne et PCB et, si vous avez un WhizbangJr, la temprature du shunt.
+		</p>
+	</div>
+
+	<hr style="page-break-before:always;">
+
+	<a id="DayChart"></a>
+	<h2 class="text-center">Graphique Quotidien</h2>
+	<img class="center_image" alt="DayLogChart_landscape.PNG" src="images_fr/DayLogChart_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			Le Journal Quotidien affiche les informations enregistrées par le contrôleur pour les jour du mois, un menu est en haut à 
+			droite de la barre d'action vous permet de sélectionner la valeur tracée.
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="HourChart"></a>
+	<h2 class="text-center">Graphique Horaire</h2>
+	<img class="center_image" alt="HourLogChart_landscape.PNG" src="images_fr/HourLogChart_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			Le Journal Horaire affiche les informations enregistrées par le contrôleur pour la journée en cours, un menu est en haut à 
+			droite de la barre d'action vous permet de sélectionner la valeur tracée.
+		</p>
+	</div>
+		<hr style="page-break-before:always;">
+
+	<a id="Calendar"></a>
+	<h2 class="text-center">Journal en Calendrier</h2>
+
+	<img class="center_image" alt="Calendar_landscape.PNG" src="images_fr/Calendar_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			Le Calendrier affiche l'énergie récoltée pour chaque jour du mois avec le PV max, tensions de batterie, la température et la puissance max pour la journée.
+		</p>
+		<p>
+			Les jours où le système atteint flotte ou égalise sont indiqués avec "(flotte)" et (égalisation). 
+		</p>
+		<p>
+			Si le calendrier ne montre pas entièrement sur votre écran, vous pouvez faire défiler sa position en faisant glisser la partie noire du calendrier. 
+		</p>
+		<p>
+			Les mois précédents peuvent être vue en glissant la partie grise du calendrier haut ou le bas.
+		</p>
+	</div>
+	
+	<hr style="page-break-before:always;">
+
+	<a id="Info"></a>
+	<h2 class="text-center">Informations</h2>
+	<img class="center_image" alt="Info_landscape.PNG" src="images_fr/Info_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			L'onglet Informations affiche les informations de fabricantion de votre appareil avec la dernière valeur de POV de la photovoltaïque.
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="Messages"></a>
+	<h2 class="text-center">Messages</h2>
+	<img class="center_image" alt="Messages_landscape.PNG" src="images_fr/Messages_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			L'onglet Messages affiche les informations d'avertissement et les messages d'erreur de votre contrôleur indiqué par une icône au début du message. 
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+
+</div>
+
+<div class="container text-center">
+	<a id="Bot"></a>
+	&nbsp;|&nbsp;
+	<a href="#Top">Début</a>
+	&nbsp;|&nbsp;
+</div>
+</div>
+
+</body>
+</html>

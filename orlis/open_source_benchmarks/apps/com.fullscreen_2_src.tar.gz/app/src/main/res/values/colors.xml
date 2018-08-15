@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_primary_blue">#1ca1ff</color>
+    <color name="bg_primary_blue_dark">#1680cc</color>
+</resources>

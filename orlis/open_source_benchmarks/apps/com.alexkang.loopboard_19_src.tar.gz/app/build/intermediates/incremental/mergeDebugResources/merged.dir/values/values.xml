@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_color">#00A3F5</color>
+    <color name="charcoal">#636363</color>
+    <color name="default_selected">#ADE4FF</color>
+    <color name="dope_red">#F54949</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_delete">Delete All Local Sounds</string>
+    <string name="action_stop">Stop</string>
+    <string name="app_name">LoopBoard</string>
+    <string name="loop">LOOP</string>
+    <style name="ActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/dope_red</item>
+        <item name="android:titleTextStyle">@style/ActionBarText</item>
+        <item name="android:height">56dp</item>
+        <item name="android:icon">@android:color/transparent</item>
+    </style>
+    <style name="ActionBarTabTitles" parent="android:style/Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="ActionBarText" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/ActionBarTabTitles</item>
+    </style>
+</resources>

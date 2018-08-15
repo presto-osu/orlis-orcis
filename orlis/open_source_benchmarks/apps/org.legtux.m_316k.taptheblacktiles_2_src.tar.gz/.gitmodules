@@ -1,0 +1,3 @@
+[submodule "app/src/main/assets/tap-the-black-tiles"]
+	path = app/src/main/assets/tap-the-black-tiles
+	url = https://github.com/316k/tap-the-black-tiles

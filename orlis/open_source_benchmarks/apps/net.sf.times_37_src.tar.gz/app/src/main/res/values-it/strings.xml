@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tempi di Preghiera Halachiche</string>
+    <string name="title_activity_zmanim">Tempi Halachiche</string>
+    <string name="location_unknown">Indirizzo sconosciuto</string>
+    <string name="location_coords">Lat. %1$s; Lng. %2$s</string>
+    <string name="twelve_hour_time_format">h:mm:ss a</string>
+    <string name="twenty_four_hour_time_format">HH:mm:ss</string>
+    <string name="month_day_year" formatted="false">%d %B %Y</string>
+    <string name="off">Non attivo</string>
+
+    <!-- Recurring opinions -->
+    <string name="opinion_120">Giorno è 120 minuti prima dell\'alba / dopo tramonto</string>
+    <string name="opinion_120_zmanis">Giorno è 120 minuti <i>zmaniyos</i> prima dell\'alba / dopo tramonto</string>
+    <string name="opinion_16">Giorno è 16,1° sotto alba / tramonto</string>
+    <string name="opinion_16_sunset">Giorno è dall\'alba 16,1° a livello del tramonto sul mare</string>
+    <string name="opinion_16_night">Giorno è dall\'alba 16,1° a crepuscolo</string>
+    <string name="opinion_26">Giorno è 26° sotto alba / tramonto</string>
+    <string name="opinion_19">Giorno è 19,8° sotto alba / tramonto</string>
+    <string name="opinion_18">Giorno è 18° sotto alba / tramonto</string>
+    <string name="opinion_60">Giorno è 60 minuti prima dell\'alba / dopo tramonto</string>
+    <string name="opinion_72">Giorno è 72 minuti prima dell\'alba / dopo tramonto</string>
+    <string name="opinion_72_zmanis">Giorno è 72 minuti <i>zmaniyos</i> prima dell\'alba / dopo tramonto</string>
+    <string name="opinion_90">Giorno è 90 minuti prima dell\'alba / dopo tramonto</string>
+    <string name="opinion_90_zmanis">Giorno è 90 minuti <i>zmaniyos</i> prima dell\'alba / dopo tramonto</string>
+    <string name="opinion_96">Giorno è 96 minuti prima dell\'alba / dopo tramonto</string>
+    <string name="opinion_96_zmanis">Giorno è 96 minuti <i>zmaniyos</i> prima dell\'alba / dopo tramonto</string>
+    <string name="opinion_ateret">Secondo la Yeshivat Ateret Torah</string>
+    <string name="opinion_gra">Secondo la GRA e Baal Tanya</string>
+    <string name="opinion_mga">Secondo la Magen Avraham</string>
+    <string name="opinion_tam">Secondo la Rabbenu Tam</string>
+
+    <!-- Temporal hour -->
+    <string name="hour">Ora stagionale</string>
+
+    <!-- List -->
+    <string name="dawn">Alba</string>
+
+    <!-- Tallis and Tefillin -->
+    <string name="tallis">Prima tallis e tefillin (misheyakir)</string>
+    <string name="tallis_summary">Sole è 11,5° sotto l\'orizzonte</string>
+    <string name="tallis_11">Sole è 11° sotto l\'orizzonte</string>
+    <string name="tallis_10">Sole è 10,2° sotto l\'orizzonte</string>
+
+    <!-- Sunrise -->
+    <string name="sunrise">Levata del sole</string>
+    <string name="sunrise_summary">In una regione di livello</string>
+    <string name="sunrise_sea">Al livello del mare</string>
+
+    <!-- Latest shema -->
+    <string name="shema">Ultime shemà</string>
+    <string name="shema_7">Giorno è dall\'alba 16,1° a notte 7,083°</string>
+    <string name="shema_3">3 ore prima di mezzogiorno</string>
+    <string name="shema_fixed">3 ore prima di mezzogiorno fisso locale</string>
+
+    <!-- Latest shacharis -->
+    <string name="prayers">Ultime shacharis</string>
+    <string name="prayers_fixed">2 ore prima di mezzogiorno fisso locale</string>
+    <string name="prayers_2">2 ore prima di mezzogiorno</string>
+
+    <!-- Midday -->
+    <string name="midday">Mezzogiorno (chatzos)</string>
+    <string name="midday_summary">Mezzo del giorno</string>
+    <string name="midday_fixed">Mezzogiorno regolato per la latitudine locale</string>
+
+    <!-- Earliest mincha -->
+    <string name="earliest_mincha">Minchà gedolà</string>
+    <string name="earliest_mincha_summary">Prima preghiere del pomeriggio</string>
+    <string name="earliest_mincha_30">30 minuti dopo mezzogiorno</string>
+
+    <!-- Mincha ketana -->
+    <string name="mincha">Minchà ketanà</string>
+    <string name="mincha_summary">Pomeriggio preghiere</string>
+
+    <!-- Plug hamincha -->
+    <string name="plug_hamincha">Plag haminchà</string>
+
+    <!-- Candle lighting -->
+    <string name="candles">Candela illuminazione</string>
+    <string name="chanukka">Chanukkà</string>
+
+    <plurals name="candles_summary">
+        <item quantity="one">%1$d minuto prima del tramonto</item>
+        <item quantity="other">%1$d minuti prima del tramonto</item>
+    </plurals>
+    <plurals name="candles_chanukka">
+        <item quantity="one">%1$d Chanukkà candela</item>
+        <item quantity="other">%1$d Chanukkà candele</item>
+    </plurals>
+
+    <!-- Sunset -->
+    <string name="sunset">Tramonto</string>
+
+    <!-- Twilight -->
+    <string name="twilight">Crepuscolo</string>
+    <string name="twilight_2stars">2 stelle visibili</string>
+    <string name="twilight_7_083">13,5 minuti prima di 7,083° imbrunire</string>
+    <string name="twilight_58">58,5 minuti dopo il tramonto</string>
+    <string name="twilight_13">Sole è 13,24° sotto l\'orizzonte</string>
+
+    <!-- Nightfall -->
+    <string name="nightfall">Imbrunire</string>
+    <string name="nightfall_3stars">3 stelle visibili</string>
+    <string name="nightfall_3_65">Sole è 3,65° sotto livello del mare</string>
+    <string name="nightfall_3_676">Sole è 3,676° sotto livello del mare</string>
+    <string name="nightfall_4_37">Sole è 4,37° sotto livello del mare</string>
+    <string name="nightfall_4_61">Sole è 4,61° sotto livello del mare</string>
+    <string name="nightfall_4_8">Sole è 4,8° sotto livello del mare</string>
+    <string name="nightfall_5_88">Sole è 5,88° sotto livello del mare</string>
+    <string name="nightfall_5_95">Sole è 5,95° sotto livello del mare</string>
+    <string name="nightfall_7">Sole è 7,083° sotto livello del mare</string>
+    <string name="nightfall_8">Sole è 8,5° sotto livello del mare</string>
+
+    <!-- Midnight -->
+    <string name="midnight">Mezzanotte (chatzos)</string>
+    <string name="midnight_summary">Mezzanotte solare</string>
+    <string name="midnight_12">12 ore dopo mezzogiorno</string>
+    <string name="midnight_6">6 ore dopo imbrunire</string>
+
+    <!-- Pesach -->
+    <string name="eat_chametz">Ultime tempo per mangiare chametz</string>
+    <string name="burn_chametz">Ultime tempo di bruciare chametz</string>
+
+    <!-- Moon -->
+    <string name="molad">Nascita di luna nuova (molad)</string>
+    <string name="molad_summary">Media molad</string>
+    <string name="levana_earliest">Prima santificazione del novilunio (qiddùsh levana)</string>
+    <string name="levana_earliest_summary">3 giorni dopo l\'molad</string>
+    <string name="levana_7">7 giorni dopo l\'molad</string>
+    <string name="levana_latest">Ultime santificazione del novilunio (qiddùsh levana)</string>
+    <string name="levana_latest_summary">Metà strada tra molad e molad</string>
+    <string name="levana_15">15 giorni dopo l\'molad</string>
+
+    <!-- Fast / Taanis -->
+    <string name="fast_begins">Quaresima inizia</string>
+    <string name="fast_ends">Quaresima finiture</string>
+
+    <!-- Omer -->
+    <string name="omer">Omer</string>
+    <string name="omer_format">%1$s %2$s</string>
+    <string name="omer_33">Lag %1$s</string>
+    <string name="omer_off">@string/off</string>
+    <string name="omer_b">Ba\'omer</string>
+    <string name="omer_l">La\'omer</string>
+
+    <!-- Preferences -->
+    <string name="menu_settings">Impostazioni</string>
+    <string name="pref_general_title">Generali</string>
+    <string name="pref_appearance_title">Apparenza</string>
+    <string name="coords_title">Coordinate</string>
+    <string name="coords_format_title">Coordinate formato</string>
+    <string name="coords_format_decimal">Decimale</string>
+    <string name="coords_format_sexagesimal">Sessagesimale</string>
+    <string name="past_title">Tempi che sono trascorsi</string>
+    <string name="seconds_title">Secondi</string>
+    <string name="summaries_title">Sommari</string>
+    <string name="gradient_title">Gradiente di sfondo</string>
+    <string name="theme_dark">Scuro</string>
+    <string name="theme_light">Chiaro</string>
+    <string name="theme_none">Nessuna</string>
+
+    <!-- Go to date -->
+    <string name="menu_date">Data</string>
+    <string name="today">Oggi</string>
+    <string name="yesterday">Ieri</string>
+    <string name="tomorrow">Domani</string>
+
+    <!-- Compass -->
+    <string name="menu_compass">Bussola</string>
+    <string name="title_activity_compass">Direzione di preghiera</string>
+    <string name="compass_summary">Direzione della preghiera a Santo dei Santi a Gerusalemme</string>
+    <string name="north">N</string>
+    <string name="east">E</string>
+    <string name="south">S</string>
+    <string name="west">O</string>
+
+    <!-- Setting per time -->
+    <string name="opinion">Opinione</string>
+    <string name="emphasis_title">Enfasi</string>
+    <string name="animations">Animazioni</string>
+
+    <!-- Location -->
+    <string name="menu_location">Posizione</string>
+    <string name="title_activity_location">La mia posizione</string>
+
+    <!-- Settings screen - Privacy -->
+    <string name="pref_privacy_security_title">Privatumas ir sauga</string>
+    <string name="pref_privacy_clear_history">Clear history</string>
+
+    <!-- About -->
+    <string name="pref_about_title">Su</string>
+    <string name="version">Versione di applicazione</string>
+    <string name="kosherjava">KosherJava</string>
+    <string name="kosherjava_version">Copyright \u00A9 2004–2011 Elia Hershfeld</string>
+
+    <!-- Widget -->
+    <string name="title_widget_clock">Tempi Halachiche Orologio</string>
+
+    <!-- Reminder -->
+    <string name="reminder">Promemoria</string>
+    <string name="reminder_stream_title">Tipo promemoria</string>
+    <string name="reminder_tone">Suoneria promemoria</string>
+    <string name="alarm_volume_title" msgid="2285597478377758706">"Sveglia"</string>
+    <string name="notification_volume_title" msgid="2012640760341080408">"Notifica"</string>
+    <string name="reminder_friday">Ricordare il Venerdì</string>
+    <string name="reminder_monday">Ricordare il Lunedi</string>
+    <string name="reminder_saturday">Ricordare il Sabato e festivi</string>
+    <string name="reminder_sunday">Ricordare la Domenica</string>
+    <string name="reminder_thursday">Ricordare il Giovedi</string>
+    <string name="reminder_tuesday">Ricordare il Martedì</string>
+    <string name="reminder_wednesday">Ricordare il Mercoledì</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<!--
+  ~ Copyright (c) 2016 Licaon_Kter
+  ~
+  ~ This file is part of WaveUp.
+  ~
+  ~ WaveUp is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ WaveUp is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with WaveUp.  If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="app_name">WaveUp</string>
+
+    <string name="prefs_service">Serviciul</string>
+    <string name="pref_enable">Activat</string>
+
+    <string name="prefs_modes">Moduri WaveUp</string>
+    <string name="pref_wave_mode">Modul WaveUp</string>
+    <string name="pref_wave_mode_summary">Porneste ecranul cand faci un gest deasupra senzorului de proximitate.
+    </string>
+    <string name="pref_pocket_mode">Mod Buzunar</string>
+    <string name="pref_pocket_mode_summary">Porneste ecranul cand scoti dispozitivul din buzunar sau geanta.</string>
+
+    <string name="pref_lock_screen">Blocare ecran</string>
+    <string name="pref_lock_screen_mode_summary">Blocheaza ecranul automat cand senzorul de proximitate e acoperit pentru o secunda.</string>
+    <string name="pref_lock_screen_when_landscape">Blocheaza in modul panoramic</string>
+    <string name="pref_lock_screen_with_power_button_as_root">Solutie pentru utilizarea cu Smart Lock</string>
+    <string name="pref_lock_screen_with_power_button_as_root_summary">Necesita root. Opreste ecranul simuland apasarea butonului de oprire.</string>
+    <string name="pref_lock_screen_vibrate_on_lock">Vibreaza la blocare</string>
+    <string name="pref_lock_screen_vibrate_on_lock_summary">Cand acoperi senzorul de proximitate si cand se blocheaza</string>
+
+    <string name="wave_up_service_started">Serviciul WaveUp functioneaza</string>
+    <string name="wave_up_service_stopped">Serviciul WaveUp nu functioneaza</string>
+
+    <string name="lock_admin_rights_explanation">Pentru a bloca ecranul atunci cand acoperi senzorul de proximitate, trebuie sa acorzi privilegii de administrator pentru WaveUp.</string>
+    <string name="root_access_failed">Nu s-a putut obtine accesul root</string>
+
+    <string name="uninstall_button">Dezinstaleaza WaveUp</string>
+    <string name="removed_device_admin_rights">Permisiuni de administrator retrase. Activati optiunea \'Blocare ecran\' daca doriti sa le acordati din nou</string>
+
+    <!-- Initial alert dialog -->
+    <string name="alert_dialog_title">Bine ati venit in WaveUp!</string>
+    <string name="alert_dialog_message"><b>Dezinstalare:</b> daca doriti sa dezinstalati Waveup, faceti asta din aplicatie  (exista un buton pentru asta in partea de jos).\\n\\n<b>(Aparentul) consum al bateriei:</b> in functie de versiunea de Android pe care o aveti, dispozitivul poate raporta gresit un consum mare al bateriei.\\n\\nDistractie placuta cu WaveUp! :)</string>
+    <string name="alert_dialog_ok_button">Bine</string>
+</resources>

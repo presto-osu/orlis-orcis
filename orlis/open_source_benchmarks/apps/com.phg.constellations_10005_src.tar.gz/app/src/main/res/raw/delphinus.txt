@@ -1,0 +1,65 @@
+Abbreviation: Del    
+Genitive: Delphini    
+Pronunciation: /dɛlˈfaɪnəs/ Delfínus, genitive /dɛlˈfaɪnaɪ/    
+Symbolism: Dolphin    
+Right ascension: 21    
+Declination: +10    
+Family: Heavenly Waters    
+Quadrant: NQ4    
+Area: 189 sq. deg. (69th)    
+Main stars: 5    
+Bayer/Flamsteed stars: 19    
+Stars with planets: 5    
+Stars brighter than 3.00m: 0    
+Stars within 10.00 pc (32.62 ly): 2    
+Brightest star: Rotanev (β Del) (3.63m)    
+Nearest star: HU Del (29.01 ly, 8.89 pc)    
+Messier objects: 0    
+Meteor showers: None    
+Bordering constellations: Vulpecula Sagitta Aquila Aquarius Equuleus Pegasus    
+Visible at latitudes between +90° and −70°. Best visible at 21:00 (9 p.m.) during the month of September.
+    
+Delphinus /dɛlˈfaɪnəs/ is a constellation in the northern sky, close to the celestial equator. Its name is Latin for dolphin. Delphinus was one of the 48 constellations listed by the 2nd century astronomer Ptolemy, and it remains among the 88 modern constellations recognized by the International Astronomical Union. It is one of the smaller constellations, ranked 69th in size.
+Delphinus' brightest stars form a distinctive asterism that can easily be recognized. It is bordered (clockwise from north) by Vulpecula the fox, Sagitta the arrow, Aquila the eagle, Aquarius the water-carrier, Equuleus the foal and Pegasus the flying horse.
+
+Notable features
+Stars
+Delphinus does not have any bright stars; its brightest star is of magnitude 3.8. The main asterism in Delphinus is Job's Coffin, formed from the four brightest stars: Alpha, Beta, Gamma, and Delta Delphini. Alpha and Beta Delphini are named Sualocin and Rotanev, respectively. When read backwards, they read as Nicolaus Venator, the Latinized name of Palermo Observatory's former director, Niccolò Cacciatore. However, Delphinus is in a rich Milky Way star field.
+Alpha Delphini, called Sualocin, is a blue-white hued main sequence star of magnitude 3.8, 241 light-years from Earth. Beta Delphini, called Rotanev, is a close binary star and the brightest in Delphinus, divisible in only large amateur telescopes. To the unaided eye, it appears to be a white star of magnitude 3.6. It has a period of 27 years and is 97 light-years from Earth. Gamma Delphini is a celebrated binary star among amateur astronomers. The primary is a gold-colored star of magnitude 4.3 and the secondary is a yellow-tinged star of magnitude 5.1. 102 light-years away, the components of Gamma Delphini are divisible in a small amateur telescope. The secondary, also described as green, is 10 arcseconds from the primary. Struve 2725, called the "Ghost Double", is a pair that appears similar to a dimmer Gamma Delphini. Its components of magnitudes 7.6 and 8.4 are separated by 6 arcseconds and are 15 arcminutes from Gamma Delphini itself.
+There are several dimmer stars in Delphinus. Delta Delphini is a type A7 IIIp star of magnitude 4.43. Epsilon Delphini, called Deneb Dulfim, meaning "tail of the Dolphin", is a star of spectral class B6 III and magnitude 4.
+Delphinus is also home to several variable stars. R Delphini is a Mira-type variable star with a period of 285.5 days. Its magnitude ranges between a maximum of 7.6 and a minimum of 13.8.
+Rho Aquilae moved across the border into Delphinus in 1992.
+On 14 August 2013, a possible nova was discovered by amateur astronomer Koichi Itagaki, initially labelled PNV J20233073+2046041, now labelled Nova Delphini 2013.
+
+Deep-sky objects
+Because it is in a rich Milky Way star field, Delphinus has several deep-sky objects. NGC 6891 is a planetary nebula of magnitude 10.5. NGC 6934 is a globular cluster of magnitude 9.75. At a distance of about 185,000 light-years, the globular cluster NGC 7006 is extremely remote. It is also fairly dim at magnitude 11.5.
+
+Mythology
+Delphinus is associated with two stories from Greek mythology.
+According to the first Greek god Poseidon wanted to marry Amphitrite, a beautiful nereid. She, however, wanting to protect her virginity, fled to the Atlas mountains. Her suitor then sent out several searchers, among them a certain Delphinus. Delphinus accidentally stumbled upon her and was able to persuade Amphitrite to accept Poseidon's wooing. Out of gratitude the god placed the image of a dolphin among the stars.[citation needed]
+The second story tells of the Greek poet Arion of Lesbos (7th century BC), who was saved by a dolphin. He was a court musician at the palace of Periander, ruler of Corinth. Arion had amassed a fortune during his travels to Sicily and Italy. On his way home from Tarentum his wealth caused the crew of his ship to conspire against him. Threatened with death, Arion asked to be granted a last wish which the crew granted: he wanted to sing a dirge. This he did, and while doing so, flung himself into the sea. There, he was rescued by a dolphin which had been charmed by Arion's music. The dolphin carried Arion to the coast of Greece and left.
+
+Equivalents
+In Chinese astronomy, the stars of Delphinus are located within the Black Tortoise of the North (北方玄武, Běi Fāng Xuán Wǔ).
+In Polynesia, two cultures recognized Delphinus as a constellation. On Pukapuka, it was called Te Toloa and in the Tuamotus, it was called Te Uru-o-tiki.
+
+Namesakes
+USS Delphinus (AF-24) and USS Delphinus (PHM-1), two United States Navy ships, are named after the constellation.
+
+Notes
+
+^ a b c Ridpath & Tirion 2001, pp. 138-139.
+^ a b Schaaf, Fred (September 2012). "The Celestial Dolphin". Sky and Telescope: 47. 
+^ King, Bob (August 14, 2013). "Bright New Nova In Delphinus — You can See it Tonight With Binoculars". Universe Today. Retrieved August 15, 2013. 
+^ Guido, Ernesto; Ruocco, Nello; Howes, Nick (August 15, 2013). "Possible Bright Nova in Delphinus". Associazione Friulana di Astronomia e Meteorologia. Retrieved August 15, 2013. 
+^ Masi, Gianluca (August 15, 2013). "Nova Delphini 2013 (formerly PNV J20233073+2046041): images, spectra and maps". Gianluca Masi - Virtual Telescope Project. Retrieved August 15, 2013. 
+^ Herodotus, Histories I.23-24; also Aulus Gellius, Noctes Atticae XVI.19; Plutarch, Conv. sept. sap. 160-62; Shakespeare, Twelfth Night (Act I, Sc 2, line 16)
+^ (Chinese) AEEA (Activities of Exhibition and Education in Astronomy) 天文教育資訊網 2006 年 7 月 4 日
+^ Makemson 1941, p. 283.
+References
+Makemson, Maud Worcester (1941). The Morning Star Rises: an account of Polynesian astronomy. Yale University Press. 
+Ridpath, Ian; Tirion, Wil (2001), Stars and Planets Guide, Princeton University Press, ISBN 0-691-08913-2 
+Ian Ridpath and Wil Tirion (2007). Stars and Planets Guide, Collins, London. ISBN 978-0-00-725120-9. Princeton University Press, Princeton. ISBN 978-0-691-13556-4.
+Unniversity of Wisconsin http://www.astro.wisc.edu/~dolan/constellations/constellations/Delphinus.html
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Delphinus&oldid=606219429"

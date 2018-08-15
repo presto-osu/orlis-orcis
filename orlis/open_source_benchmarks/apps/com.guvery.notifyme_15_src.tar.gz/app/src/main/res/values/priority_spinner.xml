@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="priority_spinner_names">
+        <item>Normal</item>
+        <item>High</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="priority_spinner_values">
+        <item>0</item>
+        <item>2</item>
+        <item>-2</item>
+    </string-array>
+
+    <string-array name="history_action_values">
+        <item>NotifyMe</item>
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>View</item>
+        <item>Share</item>
+        <item>Copy</item>
+        <item>Popup</item>
+    </string-array>
+
+    <string-array name="history_action_names">
+        <item>Notify Me</item>
+        <item>Edit</item>
+        <item>Delete</item>
+        <item>View</item>
+        <item>Share</item>
+        <item>Copy</item>
+        <item>Popup</item>
+    </string-array>
+
+    <string-array name="theme_spinner_values">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Orange</item>
+        <item>Purple</item>
+        <item>Pink</item>
+        <!--<item>Dark</item>-->
+        <item>Gray</item>
+        <!--<item>Light</item>-->
+    </string-array>
+</resources>

@@ -1,0 +1,61 @@
+Abbreviation: For    
+Genitive: Fornacis    
+Pronunciation: /ˈfɔrnæks/, genitive /fɔrˈneɪsɨs/    
+Symbolism: the brazier    
+Right ascension: 3    
+Declination: −30    
+Family: La Caille    
+Quadrant: SQ1    
+Area: 398 sq. deg. (41st)    
+Main stars: 2    
+Bayer/Flamsteed stars: 27    
+Stars with planets: 7    
+Stars brighter than 3.00m: 0    
+Stars within 10.00 pc (32.62 ly): 2    
+Brightest star: α For (3.80m)    
+Nearest star: LP 944-20 (16.20 ly, 4.97 pc)    
+Messier objects: None    
+Meteor showers: None    
+Bordering constellations: Cetus Sculptor Phoenix Eridanus    
+Visible at latitudes between +50° and −90°. Best visible at 21:00 (9 p.m.) during the month of December.  
+  
+Fornax /ˈfɔrnæks/ is a constellation in the southern sky. Its name is Latin for furnace. It was named by French astronomer Nicolas Louis de Lacaille in 1756. Fornax is one of the 88 modern constellations.
+
+History
+De Lacaille originally called the constellation "Fornax Chemica" (the chemical furnace), representing a small solid fuel vessel used for heating chemical experiments.
+
+Notable features
+Stars
+Alpha Fornacis is a binary star that can be resolved by small amateur telescopes. The primary is a yellow-tinged main-sequence star of magnitude 3.9 and the secondary is a yellow star of magnitude 6.5; the secondary may actually be a variable star. It has a period of 300 years and is 46 light-years from Earth. Beta Fornacis is a yellow-hued giant star of magnitude 4.5, 169 light-years from Earth.
+
+Deep-sky objects
+Fornax has been the target of investigations into the furthest reaches of the universe. The Hubble Ultra Deep Field is located within Fornax, and the Fornax Cluster, a small cluster of galaxies, lies primarily within Fornax. At a meeting of the Royal Astronomical Society in Britain, a team from University of Queensland described 40 unknown "dwarf" galaxies in this constellation; follow-up observations with the Hubble Space Telescope and the European Southern Observatory's Very Large Telescope revealed that ultra compact dwarfs are much smaller than previously known dwarf galaxies, about 120 light-years (37 pc) across.
+NGC 1049 is a globular cluster 500,000 light-years from Earth. It is in the Fornax Dwarf Galaxy.
+UDFj-39546284, a galaxy which was identified as the most distant object in the universe from Earth as of January 2011, is located in Fornax. It was detected using the Hubble UDF image.
+HIP 13044 b is an exoplanet in the constellation, reported in November 2010, that was discovered to have originated outside of the galaxy.
+NGC 1097 is a barred spiral galaxy in Fornax, about 60 million light-years from Earth. At magnitude 9, it is visible in medium amateur telescopes. It is notable as a Seyfert galaxy with strong spectral emissions indicating ionized gases and a central supermassive black hole.
+NGC 1365 is another barred spiral galaxy located at a distance of 60 million light-years from Earth. Like NGC 1097, it is also a Seyfert galaxy. Its bar is a center of star formation and shows extensions of the spiral arms' dust lanes. The bright nucleus indicates the presence of an active galactic nucleus - a galaxy with a supermassive black hole at the center, accreting matter from the bar. It is a 10th magnitude galaxy associated with the Fornax Cluster.
+NGC 1360 is a planetary nebula in Fornax with a magnitude of approximately 9.0, 978 light-years from Earth. Its central star is of magnitude 11.4, an unusually bright specimen. It is five times the size of the famed Ring Nebula in Lyra at 6.5 arcminutes. Unlike the Ring Nebula, NGC 1360 is clearly elliptical.
+Fornax A is a radio galaxy with extensive radio lobes that corresponds to the optical galaxy NGC 1316, a 9th-magnitude galaxy. One of the closer active galaxies to Earth at a distance of 80 million light-years, Fornax A appears in the optical spectrum as a large elliptical galaxy with dust lanes near its core. These dust lanes have caused astronomers to discern that it recently merged with a small spiral galaxy. Because it has a high rate of type Ia supernovae, NGC 1316 has been used to determine the size of the universe. The jets producing the radio lobes are not particularly powerful, giving the lobes a more diffuse, knotted structure due to interactions with the intergalactic medium. Associated with this peculiar galaxy is an entire cluster of galaxies.
+The Fornax Dwarf galaxy is a dwarf galaxy that is part of the Local Group of galaxies. It is not visible in amateur telescopes, despite its relatively small distance of 500,000 light-years.
+
+Equivalents
+In Chinese astronomy, the stars that correspond to Fornax are located within the White Tiger of the West (西方白虎, Xī Fāng Bái Hǔ).
+
+
+References
+Levy, David H. (2005). Deep Sky Objects. Prometheus Books. ISBN 1-59102-361-0. 
+Ridpath, Ian; Tirion, Wil (2001), Stars and Planets Guide, Princeton University Press, ISBN 0-691-08913-2 
+Ian Ridpath and Wil Tirion (2007). Stars and Planets Guide, Collins, London. ISBN 978-0-00-725120-9. Princeton University Press, Princeton. ISBN 978-0-691-13556-4.
+Hilker M. et al.Weighing Ultracompact Dwarf Galaxies in the Fornax Cluster, Astronomical Science, The Messenger 129 – September 2007. The Messenger is a quarterly journal presenting ESO's activities to the public.
+
+^ a b c d e Ridpath & Tirion 2001, pp. 148-149.
+^ Hilker M. et. al., 2007
+^ Levy 2005, p. 176.
+^ "'Alien' planet detected circling dying star". BBC News. 18 November 2010. Retrieved 20 November 2010. 
+^ a b Ridpath Tirion, pp. 148-149.
+^ a b Wilkins, Jamie; Dunn, Robert (2006). 300 Astronomical Objects: A Visual Reference to the Universe. Buffalo, New York: Firefly Books. ISBN 978-1-55407-175-3. 
+^ Levy 2005, pp. 134-135.
+^ (Chinese) AEEA (Activities of Exhibition and Education in Astronomy) 天文教育資訊網 2006 年 7 月 10 日
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Fornax&oldid=605055623"

@@ -1,0 +1,55 @@
+Abbreviation: Sge    
+Genitive: Sagittae    
+Pronunciation: /səˈdʒɪtə/ Sagítta, genitive /səˈdʒɪtiː/    
+Symbolism: the Arrow    
+Right ascension: 19.8333    
+Declination: +18.66    
+Family: Hercules    
+Quadrant: NQ4    
+Area: 80 sq. deg. (86th)    
+Main stars: 4    
+Bayer/Flamsteed stars: 19    
+Stars with planets: 2    
+Stars brighter than 3.00m: 0    
+Stars within 10.00 pc (32.62 ly): 1    
+Brightest star: γ Sge (3.51m)    
+Nearest star: Gliese 745 (28.14 ly, 8.63 pc)    
+Messier objects: 1    
+Bordering constellations: Vulpecula Hercules Aquila Delphinus    
+Visible at latitudes between +90° and −70°. Best visible at 21:00 (9 p.m.) during the month of August.  
+  
+Sagitta is a constellation. Its name is Latin for "arrow", and it should not be confused with the larger constellation Sagittarius, the archer. Although Sagitta is an ancient constellation, it has no star brighter than 3rd magnitude and has the third-smallest area of all constellations (only Equuleus and Crux are smaller). It was included among the 48 constellations listed by the 2nd century astronomer Ptolemy, and it remains one of the 88 modern constellations defined by the International Astronomical Union. Located to the north of the equator, Sagitta can be seen from every location on Earth except within the Antarctic circle.
+Sagitta lies within the Milky Way and is bordered by the following constellations (beginning at the north and then continuing clockwise): the little fox Vulpecula, the mythological hero Hercules, the eagle Aquila and the dolphin Delphinus.
+
+Notable features
+Stars
+The following are some of Sagitta's brightest stars:
+α Sge: also known as Sham, this yellow bright giant star of spectral class G1 II (with 4.37m) lies at a distance of 610 light-years and together with β Sge (also 4.37m) forms either the feathers of the shaft or the two-pointed arrow once used in the Roman army.
+γ Sge: this cool giant (M0 III, 3.47m) represents with the stars δ Sge and ε Sge the shaft. It lies at a distance of merely 170 light-years.
+δ Sge: M2 II+A0 V (suspected visual double; probably single image, composite spectrum), 3.82m
+ε Sge: G8 III, 5.66m, multiple star (4 components; component B is optical)
+η Sge: this star of spectral class K2 III with 5.1m belongs to the Hyades moving group.
+
+Deep-sky objects
+M71: this object is a very loose globular cluster mistaken for quite some time for a dense open cluster. It lies at a distance of about 13,000 light-years from Earth and was first discovered by the French astronomer Philippe Loys de Chéseaux in the year 1745 or 1746.
+
+History
+The Greeks who may have originally identified this constellation called it Oistos. The Romans named it Sagitta.[citation needed]
+Johann Bayer chose to name the stars in Sagitta in a non-brightness order, in this case giving the brightest star a designation of γ. Another example of such a deviation from the usual brightness order is the constellation Sagittarius.
+
+Mythology
+Sagitta's shape is reminiscent of an arrow, and many cultures have interpreted it thus, among them the Persians,[citation needed] Hebrews,[citation needed] Greeks and Romans. The Arabs called it as-Sahm, a name that was transferred Sham and now refers to α Sge only.
+
+Ancient Greece
+Sagitta can be seen above Aquila in this plate from Urania's Mirror (1825).
+In ancient Greece, Sagitta was regarded as the weapon that Hercules used to kill the eagle (Aquila) of Jove that perpetually gnawed Prometheus' liver. The Arrow is located beyond the north border of Aquila, the Eagle. Others believe the Arrow to be the one shot by Hercules towards the adjacent Stymphalian birds (6th labor) who had claws, beaks and wings of iron, and who lived on human flesh in the marshes of Arcadia - Aquila the Eagle and Cygnus the Swan, and the Vulture - and still lying between them, whence the title Herculea. Eratosthenes claimed it as the arrow with which Apollo exterminated the Cyclopes.
+
+References
+
+^ page 88 in Origins of the ancient constellations: II. The Mediterranean traditions, by J. H. Rogers 1998
+^ Katasterismoi per theoi.com in theoi.com
+^ a b Astronomica by Hyginus, Mary Grant translation at theoi.com
+
+Ian Ridpath and Wil Tirion (2007). Stars and Planets Guide, Collins, London. ISBN 978-0-00-725120-9. Princeton University Press, Princeton. ISBN 978-0-691-13556-4.
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Sagitta&oldid=600806086"

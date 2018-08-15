@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Diccionario castellano</string>
+    <string name="search_hint">Consultar...</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_help">Ayuda</string>
+
+    <string name="title_activity_about">Acerca de</string>
+    <string name="action_about">Acerca de</string>
+    <string name="about_legal">
+        Esta aplicación es una pequeña utilidad para consultar la versión digital del diccionario
+        castellano de la RAE de forma fácil y rápida. No redistribuye ninguna definición de la RAE.
+    </string>
+    <string name="about_description">Diccionario castellano</string>
+    <string name="about_author">© Javier Llorente 2012-2016\n www.javierllorente.com</string>
+    <string name="about_rae">Las definiciones son propiedad de la RAE\n © Real Academia Española\n www.rae.es</string>
+
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="pref_header_cleanup">Limpieza</string>
+    <string name="pref_about">Acerca de</string>
+</resources>

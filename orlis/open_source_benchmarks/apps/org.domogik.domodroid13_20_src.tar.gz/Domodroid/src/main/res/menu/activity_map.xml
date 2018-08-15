@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity_Main">
+    <item
+        android:id="@+id/menu_overflow"
+        android:icon="@drawable/ic_menu_moreoverflow_normal_holo_dark"
+        android:orderInCategory="11111"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/map_menu_add"
+                android:icon="@drawable/ic_action_add_to_queue"
+                android:title="@string/map_button1"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/map_menu_move"
+                android:icon="@drawable/ic_action_undo"
+                android:title="@string/map_button2c" />
+            <item
+                android:id="@+id/map_menu_del"
+                android:icon="@drawable/ic_action_remove"
+                android:title="@string/map_button2" />
+            <item
+                android:id="@+id/map_menu_del_all"
+                android:icon="@drawable/ic_action_discard"
+                android:title="@string/map_button2b" />
+            <item
+                android:id="@+id/map_menu_help"
+                android:icon="@drawable/ic_action_help"
+                android:title="@string/map_button3" />
+            <item
+                android:id="@+id/map_menu_exit"
+                android:icon="@drawable/icon_menu_exit"
+                android:title="@string/Exit_Program" />
+        </menu>
+    </item>
+</menu>

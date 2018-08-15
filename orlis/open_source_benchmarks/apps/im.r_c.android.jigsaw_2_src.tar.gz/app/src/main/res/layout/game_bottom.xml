@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <Button
+        style="@style/Button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:onClick="changePicture"
+        android:text="@string/change_picture"
+        tools:ignore="NestedWeights"/>
+
+    <Button
+        style="@style/Button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:onClick="restart"
+        android:text="@string/restart"/>
+
+    <Button
+        style="@style/Button"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:onClick="lookUpOriginalPicture"
+        android:text="@string/look_up_original_picture"/>
+</LinearLayout>

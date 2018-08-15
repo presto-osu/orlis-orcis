@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DescargaArchivos</string>
+    <string name="title">DescargaArchivos</string>
+    <string name="conexion">Conexión:</string>
+    <string name="wifi">Wifi</string>
+    <string name="ninguna">Ninguna</string>
+    <string name="direccionDefecto">http://</string>
+    <!-- <string name="direccionDefecto">http://flashair.com/DCIM/101MSDCF/</string> -->
+    <string name="consultar">Consultar</string>
+    <string name="descargar">Descargar</string>
+    <string name="descargando">Descargando</string>
+    <string name="archivosTrjExt">archivos (Tarjeta externa</string>
+    <string name="filtrar">Filtrar</string>
+    <string name="invertir">Invertir</string>
+    <string name="filtroDefecto">DSC0</string>
+    <string name="extDefecto">jpg</string>
+    <string name="noDatos">No conectado</string>
+    <string name="consultandoPagina">Consultando página</string>
+    <string name="errorConsultar">Error al consultar.</string>
+    <string name="coincidenciasEncontradas"> coincidencias distintas encontradas.</string>
+    <string name="redMovil">Red móvil</string>
+    <string name="seleccionados">seleccionados</string>
+    <string name="errorHTTP">Error HTTP</string>
+    <string name="error">Error</string>
+</resources>

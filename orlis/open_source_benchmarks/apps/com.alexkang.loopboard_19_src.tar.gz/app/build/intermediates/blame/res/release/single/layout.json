@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/res/merged/release/layout/activity_main.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/res/merged/release/layout/sound_clip_row.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/src/main/res/layout/sound_clip_row.xml"
+    }
+]

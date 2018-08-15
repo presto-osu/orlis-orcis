@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="refreshFrequencyArray">
+        <item>3 seconds</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>20 seconds</item>
+        <item>1 minute</item>
+        <item>Don\'t Auto Refresh</item>
+    </string-array>
+    <string-array name="refreshFrequencyValues">
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>60</item>
+        <item>0</item>
+    </string-array>
+</resources>

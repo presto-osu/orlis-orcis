@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-nodpi/record_selected.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/src/main/res/drawable-nodpi/record_selected.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-nodpi/record_unselected.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/src/main/res/drawable-nodpi/record_unselected.png"
+    }
+]

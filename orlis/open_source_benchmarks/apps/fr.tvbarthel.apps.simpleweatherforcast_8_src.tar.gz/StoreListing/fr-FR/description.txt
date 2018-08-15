@@ -1,0 +1,16 @@
+Simple Weather Forecast donne une prévision météo à 14 jours basée sur votre position, et rien de plus. Cette application est légère, rapide, gratuite et sans publicité.
+Elle ne collecte aucune donnée personnelle.
+
+<b>Permissions</b>
+&rarr; Position approximative : Simple Weather Forecast utilise votre position approximative pour vous donner une prévision la plus pertinente possible.
+&rarr; Accés et connexions réseau : Simple Weather Forecast n'utilise le réseau que pour récupérer les prévisions depuis openweathermap, et c'est tout.
+&rarr; Service de facturation Google Play : il s'agit seulement d'offrir la possibilité de faire un don pour soutenir nos développements open-source.
+
+<b>Vérifiez par vous même !</b>
+Simple Weather Forecast est une application open source, elle ne peut rien vous cacher! Venez explorer son fonctionnement à l'adresse suivante https://github.com/tvbarthel/SimpleWeatherForecast
+
+<b>Disclaimer</b>
+Développée par deux étudiants, cette application gratuite et open-source est livrée telle quelle, sans prétention aucune.
+
+<b>Remerciement special...</b>
+...à toute la communauté G+ XDA Android App Testers pour son aide pendant la beta test.

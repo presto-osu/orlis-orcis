@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color">#FFca9d30</color>
+    <color name="theme_text_color">#EEFFFFFF</color>
+    
+    <color name="light_text_color">#88000000</color>
+    <color name="actionbar_background">#FFa58128</color>
+    <color name="divider_color">#30000000</color>
+    
+    <color name="dialog_bg_color">#fff3f3f3</color>
+    
+</resources>

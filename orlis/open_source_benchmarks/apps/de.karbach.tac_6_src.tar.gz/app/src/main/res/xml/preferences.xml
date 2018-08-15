@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	MoTAC - digital board for TAC board game
+    Copyright (C) 2013-2014  Carsten Karbach
+    
+    Contact by mail carstenkarbach@gmx.de
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="animate_cards"
+        android:title="@string/animatetitle"
+        android:summary="@string/animatesummary"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="play_directly"
+        android:title="@string/playdirecttitle"
+        android:summary="@string/playdirectsummary"
+        android:defaultValue="true" />
+    <ListPreference
+        android:dialogTitle="@string/cardselect"
+        android:key="card_select"
+        android:summary="@string/cardtypedesc"        
+        android:title="@string/cardselect"
+        android:entries="@array/cardtypes"
+        android:entryValues="@array/cardtypes"
+        android:defaultValue="@string/cardtypedefault"
+        />
+</PreferenceScreen>

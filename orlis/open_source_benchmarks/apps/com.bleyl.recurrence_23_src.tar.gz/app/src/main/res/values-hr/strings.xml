@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">O aplikaciji</string>
+    <string name="settings">Postavke</string>
+    <string name="preference_notification_category">Obavijesti</string>
+    <string name="checkbox_vibrate">Vibracija</string>
+    <string name="checkbox_sound">Zvuk</string>
+    <string name="checkbox_LED">LED</string>
+    <string name="checkbox_ongoing">Trajno</string>
+    <string name="snooze">Odgodi</string>
+    <string name="snooze_detail">Dodaj akciju za odgodu na obavijest</string>
+    <string name="snooze_length">Trajanje odgode alarma</string>
+    <string name="mark_as_done">Označi kao obavljeno</string>
+    <string name="mark_as_done_detail">Dodaj \"Označi kao obavljeno\" gumb u obavijesti</string>
+    <string name="nagging_reminder">Podsjetnik dosađivanja</string>
+    <string name="nagging_detail">Konstantno obavješćuj o trenutnoj obavijesti dok nije odbačena</string>
+    <string name="nagging_interval">Interval dosađivanja</string>
+    <string name="action_settings">Postavke</string>
+    <string name="action_delete">Izbriši</string>
+    <string name="action_edit">Uredi</string>
+    <string name="action_about">O aplikaciji</string>
+    <string name="action_show_now">Prikaži sada</string>
+    <string name="action_mark_as_done">Označi kao obavljeno</string>
+    <string name="action_share">Podijeli</string>
+    <string name="delete_confirmation">Jeste li sigurni da želite izbrisati ovu obavijest?</string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+    <string name="ok">U redu</string>
+    <string name="title">Naslov</string>
+    <string name="save_menu">Spremi</string>
+    <string name="time_now">Sada</string>
+    <string name="date_today">Danas</string>
+    <string name="times_shown">Prikazano %1$d od %2$d puta</string>
+    <string name="times_shown_edit">Prikazano %1$d od</string>
+    <string name="forever">Zauvijek</string>
+    <string name="no_repeat">Ne ponavlja se</string>
+    <string name="times">puta</string>
+    <string name="repeat_notification">Broj puta ponavljanja:</string>
+    <string name="content_hint">Sadržaj obavijesti</string>
+    <string name="select_icon">Odaberi ikonu</string>
+    <string name="default_icon">Zadana ikona</string>
+    <string name="custom_icon">Prilagođena ikona</string>
+    <string name="select_colour">Odaberi boju</string>
+    <string name="default_colour">Zadana boja</string>
+    <string name="repeats_on">Ponavlja se svakih:</string>
+    <string name="repeat_every">Ponovite svakih</string>
+    <string name="repeats_every">Ponavlja se svaka: %1$d %2$s</string>
+    <string name="no_active">Nema aktivnih obavijesti</string>
+    <string name="no_inactive">Nema neaktivnih obavijesti</string>
+    <string name="toast_past_date">Ne možete postaviti početni datum u prošlosti</string>
+    <string name="toast_higher_number">Broj ponavljanja mora biti veći</string>
+    <string name="toast_title_empty">Naziv ne može biti prazan</string>
+    <string name="toast_mark_as_done">Sljedeći podsjetnik označen kao obavljen</string>
+    <string name="add_reminder">Dodaj podsjetnik</string>
+    <string name="libraries">Programske knjižnice</string>
+    <string name="rate_app">Ocijenite aplikaciju</string>
+    <string name="contact">Kontakt</string>
+    <string name="version">Verzija</string>
+    <string name="thanks_to">Zahvale</string>
+    <string name="translator">Prevoditelj</string>
+    <string name="send_email">Pošalji e-mail</string>
+    <string-array name="repeat_array">
+        <item>Ne ponavlja se</item>
+        <item>Svaki sat</item>
+        <item>Svaki dan</item>
+        <item>Svaki tjedan</item>
+        <item>Svaki mjesec</item>
+        <item>Svaku godinu</item>
+        <item>Određeni dani u tjednu</item>
+        <item>Napredno</item>
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.berlin_vegan.bvapp.views.LocationRecycleView
+
+        android:id="@+id/location_list_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        tools:showIn="@layout/location_list_activity" />
+
+    <!-- TODO fast scroll -->
+    <TextView
+        android:id="@+id/location_list_empty_favorites_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/text_size_large"
+        android:text="@string/gastro_list_empty_favorites" />
+
+    <TextView
+        android:id="@+id/location_list_empty_search_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_size_large"
+        android:text="@string/gastro_list_empty_search" />
+</FrameLayout>

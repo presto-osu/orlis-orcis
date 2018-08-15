@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.luorrak.ouroboros.reply.ReplyCommentActivity">
+
+    <item android:id="@+id/action_attach_file"
+        android:orderInCategory="100"
+        android:title="Attach File"
+        android:icon="@drawable/ic_attach_file_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom" />
+    <item
+        android:id="@+id/action_submit"
+        android:orderInCategory="200"
+        android:title="Submit"
+        android:icon="@drawable/ic_send_white_24dp"
+        app:showAsAction="always"/>
+</menu>

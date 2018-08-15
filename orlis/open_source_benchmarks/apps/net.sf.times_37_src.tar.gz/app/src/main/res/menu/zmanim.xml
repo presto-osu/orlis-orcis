@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_compass"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/menu_compass"/>
+    <item
+        android:id="@+id/menu_date"
+        android:icon="@android:drawable/ic_menu_day"
+        android:orderInCategory="150"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_date"/>
+    <item
+        android:id="@+id/menu_location"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_location"/>
+    <item
+        android:id="@+id/menu_today"
+        android:icon="@android:drawable/ic_menu_today"
+        android:orderInCategory="250"
+        android:showAsAction="ifRoom"
+        android:title="@string/today"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="900"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+
+</menu>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="A">{A}</string>
+    <string name="B">{B}</string>
+    <string name="C">{C}</string>
+    <string name="D">{D}</string>
+    <string name="E">{E}</string>
+    <string name="F">{F}</string>
+    <string name="G">{G}</string>
+    <string name="H">{H}</string>
+    <string name="I">{I}</string>
+    <string name="J">{J}</string>
+    <string name="K">{K}</string>
+    <string name="L">{L}</string>
+    <string name="M">{M}</string>
+    <string name="N">{N}</string>
+
+
+</resources>

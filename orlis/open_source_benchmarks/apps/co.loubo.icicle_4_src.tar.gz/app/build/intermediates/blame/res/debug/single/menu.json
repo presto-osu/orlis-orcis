@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/res/merged/debug/menu/friend_node_manager_menu.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/src/main/res/menu/friend_node_manager_menu.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/res/merged/debug/menu/menu_list_recipients.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/src/main/res/menu/menu_list_recipients.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/res/merged/debug/menu/menu_list_messages.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/src/main/res/menu/menu_list_messages.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/res/merged/debug/menu/menu_compose_message.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/src/main/res/menu/menu_compose_message.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/res/merged/debug/menu/reference.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/src/main/res/menu/reference.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/src/main/res/menu/main.xml"
+    }
+]

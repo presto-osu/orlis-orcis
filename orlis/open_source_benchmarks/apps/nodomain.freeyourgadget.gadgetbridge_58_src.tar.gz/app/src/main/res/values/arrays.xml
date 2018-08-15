@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_theme_options">
+        <item>@string/pref_theme_light</item>
+        <item>@string/pref_theme_dark</item>
+    </string-array>
+    <string-array name="pref_theme_values">
+        <item>@string/pref_theme_value_light</item>
+        <item>@string/pref_theme_value_dark</item>
+    </string-array>
+    <string name="pref_theme_value_light" translatable="false">light</string>
+    <string name="pref_theme_value_dark" translatable="false">dark</string>
+
+    <string-array name="pref_language_options">
+        <item name="default">System Default</item>
+        <item name="de">Deutsch</item>
+        <item name="en">English</item>
+        <item name="es">Español</item>
+        <item name="fr">Français</item>
+        <item name="pl">Polski</item>
+        <item name="ru">Русский</item>
+        <item name="vi">Tiếng Việt</item>
+        <item name="tr">Türkçe</item>
+        <item name="uk">Українська</item>
+        <item name="ko">한국어</item>
+        <item name="ja">日本語</item>
+        <item name="hu">Magyar</item>
+    </string-array>
+
+    <string-array name="pref_language_values">
+        <item>default</item>
+        <item>de</item>
+        <item>en</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>pl</item>
+        <item>ru</item>
+        <item>vi</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>ko</item>
+        <item>ja</item>
+        <item>hu</item>
+    </string-array>
+
+    <string-array name="notification_mode">
+        <item>@string/always</item>
+        <item>@string/when_screen_off</item>
+        <item>@string/never</item>
+    </string-array>
+    <string-array name="notification_mode_values">
+        <item>always</item>
+        <item>when_screen_off</item>
+        <item>never</item>
+    </string-array>
+
+    <string-array name="notification_mode_toggle">
+        <item>@string/always</item>
+        <item>@string/never</item>
+    </string-array>
+    <string-array name="notification_mode_values_toggle">
+        <item>always</item>
+        <item>never</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item name="1">@string/male</item>
+        <item name="0">@string/female</item>
+        <item name="2">@string/other</item>
+    </string-array>
+    <string-array name="gender_values">
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wearside">
+        <item>@string/left</item>
+        <item>@string/right</item>
+    </string-array>
+    <string-array name="wearside_values">
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+
+    <string-array name="vibration_profile">
+        <item>@string/vibration_profile_staccato</item>
+        <item>@string/vibration_profile_short</item>
+        <item>@string/vibration_profile_medium</item>
+        <item>@string/vibration_profile_long</item>
+        <item>@string/vibration_profile_waterdrop</item>
+        <item>@string/vibration_profile_ring</item>
+        <item>@string/vibration_profile_alarm_clock</item>
+    </string-array>
+    <string-array name="vibration_profile_values">
+        <!-- Note: corresponds with IDs in VibrationProfile -->
+        <item>@string/p_staccato</item>
+        <item>@string/p_short</item>
+        <item>@string/p_medium</item>
+        <item>@string/p_long</item>
+        <item>@string/p_waterdrop</item>
+        <item>@string/p_ring</item>
+        <item>@string/p_alarm_clock</item>
+    </string-array>
+
+    <string-array name="pebble_activitytracker">
+        <item name="4">Pebble Health</item>
+        <item name="3">Misfit</item>
+        <item name="1">Morpheuz</item>
+    </string-array>
+
+    <string-array name="pebble_activitytracker_values">
+        <item>4</item>
+        <item>3</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

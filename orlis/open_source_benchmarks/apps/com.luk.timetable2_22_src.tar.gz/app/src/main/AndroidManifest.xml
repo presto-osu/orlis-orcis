@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luk.timetable2">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme_Dark"
+        android:name=".ApplicationStart">
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+
+        <activity
+            android:name=".activities.v7.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_settings" />
+
+        <!-- on boot/app start registrar -->
+        <receiver
+            android:name=".services.RegisterReceivers"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- date change services/receivers -->
+        <service android:name=".services.DateChange.DateChangeService" />
+        <receiver android:name=".services.DateChange.DateChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET" />
+            </intent-filter>
+        </receiver>
+
+        <!-- widget refresh services/receivers -->
+        <service android:name=".services.WidgetRefresh.WidgetRefreshService" />
+        <service android:name=".services.WidgetRefresh.WidgetRefreshIntent" />
+
+        <receiver android:name=".services.WidgetRefresh.WidgetRefreshReceiver" />
+
+        <!-- lesson notify services/receivers -->
+        <service android:name=".services.LessonNotify.LessonNotifyService" />
+        <service android:name=".services.LessonNotify.LessonNotifyIntent" />
+
+        <receiver android:name=".services.LessonNotify.LessonNotifyReceiver" />
+        <receiver android:name=".services.LessonNotify.LessonNotifyWakeReceiver" />
+
+        <!-- widgets -->
+        <receiver
+            android:name=".widget.dark.WidgetProvider"
+            android:label="@string/widget_dark_label"
+            android:enabled="@bool/widgetsEnabled">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_dark" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.dark.red.WidgetProvider"
+            android:label="@string/widget_dark_red_label"
+            android:enabled="@bool/widgetsEnabled">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_dark_red" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.dark.green.WidgetProvider"
+            android:label="@string/widget_dark_green_label"
+            android:enabled="@bool/widgetsEnabled">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_dark_green" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.dark.blue.WidgetProvider"
+            android:label="@string/widget_dark_blue_label"
+            android:enabled="@bool/widgetsEnabled">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_dark_blue" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.light.WidgetProvider"
+            android:label="@string/widget_light_label"
+            android:enabled="@bool/widgetsEnabled">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_light" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.light.red.WidgetProvider"
+            android:label="@string/widget_light_red_label"
+            android:enabled="@bool/widgetsEnabled">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_light_red" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.light.green.WidgetProvider"
+            android:label="@string/widget_light_green_label"
+            android:enabled="@bool/widgetsEnabled">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_light_green" />
+        </receiver>
+
+        <receiver
+            android:name=".widget.light.blue.WidgetProvider"
+            android:label="@string/widget_light_blue_label"
+            android:enabled="@bool/widgetsEnabled">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info_light_blue" />
+        </receiver>
+
+        <service
+            android:name=".widget.WidgetViewsService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+    </application>
+
+</manifest>

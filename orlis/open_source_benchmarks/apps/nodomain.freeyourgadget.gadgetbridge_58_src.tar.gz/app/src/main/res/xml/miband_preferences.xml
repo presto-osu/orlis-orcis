@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--TODO: this is actually "about your miband" and possibly refers to a single device (if the owner has multiple mibands, it may be that they are worn on different arms -->
+    <PreferenceCategory
+        android:key="pref_category_miband_personal"
+        android:title="@string/activity_prefs_about_you">
+        <EditTextPreference
+            android:key="mi_user_alias"
+            android:maxLength="17"
+            android:title="@string/miband_prefs_alias" />
+
+        <ListPreference
+            android:defaultValue="left"
+            android:entries="@array/wearside"
+            android:entryValues="@array/wearside_values"
+            android:key="mi_wearside"
+            android:title="@string/miband_prefs_wearside"
+            android:summary="%s" />
+
+        <EditTextPreference
+            android:defaultValue="10000"
+            android:inputType="number"
+            android:key="mi_fitness_goal"
+            android:maxLength="5"
+            android:title="@string/miband_prefs_fitness_goal" />
+
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="number"
+            android:key="mi_reserve_alarm_calendar"
+            android:maxLength="1"
+            android:digits="0123"
+            android:title="@string/miband_prefs_reserve_alarm_calendar" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="mi_hr_sleep_detection"
+            android:title="@string/miband_prefs_hr_sleep_detection" />
+
+		<EditTextPreference
+			android:defaultValue="0"
+			android:inputType="numberSigned"
+			android:key="mi_device_time_offset_hours"
+			android:maxLength="2"
+			android:title="@string/miband_prefs_device_time_offset_hours" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_category_miband_notification"
+        android:title="@string/pref_header_vibration_settings">
+
+        <PreferenceScreen
+            android:key="vibration_profile_key"
+            android:title="@string/pref_screen_notification_profile_sms"
+            android:persistent="false">
+
+            <ListPreference
+                android:defaultValue="@string/p_staccato"
+                android:entries="@array/vibration_profile"
+                android:entryValues="@array/vibration_profile_values"
+                android:key="mi_vibration_profile_sms"
+                android:title="@string/miband_prefs_vibration"
+                android:summary="%s" />
+
+            <EditTextPreference
+                android:defaultValue="3"
+                android:inputType="number"
+                android:key="mi_vibration_count_sms"
+                android:maxLength="1"
+                android:title="@string/pref_title_notifications_repetitions" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="vibration_profile_key"
+            android:title="@string/pref_screen_notification_profile_incoming_call"
+            android:persistent="false">
+
+            <ListPreference
+                android:defaultValue="@string/p_ring"
+                android:entries="@array/vibration_profile"
+                android:entryValues="@array/vibration_profile_values"
+                android:key="mi_vibration_profile_incoming_call"
+                android:title="@string/miband_prefs_vibration"
+                android:summary="%s" />
+
+            <EditTextPreference
+                android:defaultValue="60"
+                android:inputType="number"
+                android:key="mi_vibration_count_incoming_call"
+                android:maxLength="2"
+                android:title="@string/pref_title_notifications_repetitions" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="vibration_profile_key"
+            android:title="@string/pref_screen_notification_profile_k9mail"
+            android:persistent="false">
+
+            <ListPreference
+                android:defaultValue="@string/p_medium"
+                android:entries="@array/vibration_profile"
+                android:entryValues="@array/vibration_profile_values"
+                android:key="mi_vibration_profile_k9mail"
+                android:title="@string/miband_prefs_vibration"
+                android:summary="%s" />
+
+            <EditTextPreference
+                android:defaultValue="2"
+                android:inputType="number"
+                android:key="mi_vibration_count_k9mail"
+                android:maxLength="1"
+                android:title="@string/pref_title_notifications_repetitions" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="vibration_profile_key"
+            android:title="@string/pref_screen_notification_profile_pebblemsg"
+            android:persistent="false">
+
+            <ListPreference
+                android:defaultValue="@string/p_short"
+                android:entries="@array/vibration_profile"
+                android:entryValues="@array/vibration_profile_values"
+                android:key="mi_vibration_profile_pebblemsg"
+                android:title="@string/miband_prefs_vibration"
+                android:summary="%s" />
+
+            <EditTextPreference
+                android:defaultValue="1"
+                android:inputType="number"
+                android:key="mi_vibration_count_pebblemsg"
+                android:maxLength="1"
+                android:title="@string/pref_title_notifications_repetitions" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="vibration_profile_key"
+            android:title="@string/pref_screen_notification_profile_generic"
+            android:persistent="false">
+
+            <ListPreference
+                android:defaultValue="@string/p_waterdrop"
+                android:entries="@array/vibration_profile"
+                android:entryValues="@array/vibration_profile_values"
+                android:key="mi_vibration_profile_generic"
+                android:title="@string/miband_prefs_vibration"
+                android:summary="%s" />
+
+            <EditTextPreference
+                android:defaultValue="3"
+                android:inputType="number"
+                android:key="mi_vibration_count_generic"
+                android:maxLength="1"
+                android:title="@string/pref_title_notifications_repetitions" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_key_development"
+        android:title="@string/pref_header_development">
+        <EditTextPreference
+            android:digits="0123456789ABCDEF:"
+            android:key="development_miaddr"
+            android:maxLength="17"
+            android:title="@string/pref_title_development_miaddr" />
+        <CheckBoxPreference
+            android:key="mi_dont_ack_transfer"
+            android:title="@string/pref_title_keep_data_on_device"
+            android:summary="@string/pref_summary_keep_data_on_device"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+            android:key="mi_low_latency_fw_update"
+            android:title="@string/pref_title_low_latency_fw_update"
+            android:summary="@string/pref_summary_low_latency_fw_update"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

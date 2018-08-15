@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filter_checkboxes">
+        <item>Omnivore, vegetarische und vegane</item>
+        <item>Vegetarische und vegane</item>
+        <item>Nur vegane</item>
+        <item>Meine Favoriten</item>
+        <!--
+        <item>Noch geöffnet</item>
+        -->
+    </string-array>
+
+</resources>

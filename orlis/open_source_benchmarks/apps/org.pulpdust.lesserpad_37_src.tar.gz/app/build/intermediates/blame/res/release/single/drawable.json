@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable/palmtitle.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable/palmtitle.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable/palmtitle_dark.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable/palmtitle_dark.xml"
+    }
+]

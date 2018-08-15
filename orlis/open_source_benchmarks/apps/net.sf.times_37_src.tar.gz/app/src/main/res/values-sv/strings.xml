@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Halachiska Bönetider</string>
+    <string name="title_activity_zmanim">Halachiska Tider</string>
+    <string name="location_unknown">Okänd adress</string>
+    <string name="location_coords">Lat. %1$s; Lng. %2$s</string>
+    <string name="twelve_hour_time_format">h:mm:ss a</string>
+    <string name="twenty_four_hour_time_format">H:mm:ss</string>
+    <string name="month_day_year" formatted="false">%-e %B %Y</string>
+    <string name="off">Av</string>
+
+    <!-- Recurring opinions -->
+    <string name="opinion_120">Dag är 120 minuter före soluppgången / efter solnedgången</string>
+    <string name="opinion_120_zmanis">Dag är 120 <i>zmanjos</i> minuter före soluppgången / efter solnedgången</string>
+    <string name="opinion_16">Dag är 16,1° under oluppgången / solnedgången</string>
+    <string name="opinion_16_sunset">Dag är från gryning 16,1° till havsnivå solnedgången</string>
+    <string name="opinion_16_night">Dag är från gryning 16,1° till kvällen</string>
+    <string name="opinion_26">Dag är 26° under oluppgången / solnedgången</string>
+    <string name="opinion_19">Dag är 19,8° under oluppgången / solnedgången</string>
+    <string name="opinion_18">Dag är 18° under oluppgången / solnedgången</string>
+    <string name="opinion_60">Dag är 60 minuter före soluppgången / efter solnedgången</string>
+    <string name="opinion_72">Dag är 72 minuter före soluppgången / efter solnedgången</string>
+    <string name="opinion_72_zmanis">Dag är 72 <i>zmanjos</i> minuter före soluppgången / efter solnedgången</string>
+    <string name="opinion_90">Dag är 90 minuter före soluppgången / efter solnedgången</string>
+    <string name="opinion_90_zmanis">Dag är 90 <i>zmanjos</i> minuter före soluppgången / efter solnedgången</string>
+    <string name="opinion_96">Dag är 96 minuter före soluppgången / efter solnedgången</string>
+    <string name="opinion_96_zmanis">Dag är 96 <i>zmanjos</i> minuter före soluppgången / efter solnedgången</string>
+    <string name="opinion_ateret">Enligt Yešivat Ateret Tora</string>
+    <string name="opinion_gra">Enligt GRA och Baal Tanya</string>
+    <string name="opinion_mga">Enligt Magen Avraham</string>
+    <string name="opinion_tam">Enligt Rabbeinu Tam</string>
+
+    <!-- Temporal hour -->
+    <string name="hour">Säsongs timme</string>
+
+    <!-- List -->
+    <string name="dawn">Gryning</string>
+
+    <!-- Tallis and Tefillin -->
+    <string name="tallis">Tidigast tallis och tefillin (mišeyakir)</string>
+    <string name="tallis_summary">Solen är 11,5° under horisonten</string>
+    <string name="tallis_11">Solen är 11° under horisonten</string>
+    <string name="tallis_10">Solen är 10,2° under horisonten</string>
+
+    <!-- Sunrise -->
+    <string name="sunrise">Soluppgången</string>
+    <string name="sunrise_summary">I en nivå region</string>
+    <string name="sunrise_sea">På havsnivå</string>
+
+    <!-- Latest shema -->
+    <string name="shema">Senaste šema</string>
+    <string name="shema_7">Dag är från gryning 16,1° till natten 7,083°</string>
+    <string name="shema_3">3 timmar före middag</string>
+    <string name="shema_fixed">3 timmar före fast lokal middag</string>
+
+    <!-- Latest shacharis -->
+    <string name="prayers">Latest morning prayers (šacharis)</string>
+    <string name="prayers_fixed">2 timmar före fast lokal middag</string>
+    <string name="prayers_2">2 timmar före middag</string>
+
+    <!-- Midday -->
+    <string name="midday">Middag (chatzos)</string>
+    <string name="midday_summary">Solens middagstid</string>
+    <string name="midday_fixed">Middagstid justerat för den lokala latitud</string>
+
+    <!-- Earliest mincha -->
+    <string name="earliest_mincha">Mincha gedola</string>
+    <string name="earliest_mincha_summary">Tidigast eftermiddagens böner</string>
+    <string name="earliest_mincha_30">30 minuter efter middag</string>
+
+    <!-- Mincha ketana -->
+    <string name="mincha">Mincha ketana</string>
+    <string name="mincha_summary">Eftermiddagens böner</string>
+
+    <!-- Plug hamincha -->
+    <string name="plug_hamincha">Plag hamincha</string>
+
+    <!-- Candle lighting -->
+    <string name="candles">Stearinljus belysning</string>
+    <string name="chanukka">Chanukka</string>
+
+    <plurals name="candles_summary">
+        <item quantity="one">%1$d minut före solnedgången</item>
+        <item quantity="other">%1$d minuter före solnedgången</item>
+    </plurals>
+    <plurals name="candles_chanukka">
+        <item quantity="one">%1$d Chanukka ljus</item>
+        <item quantity="other">%1$d Chanukka stearinljus</item>
+    </plurals>
+
+    <!-- Sunset -->
+    <string name="sunset">Solnedgången</string>
+
+    <!-- Twilight -->
+    <string name="twilight">Skymningen</string>
+    <string name="twilight_2stars">2 stjärnor synliga</string>
+    <string name="twilight_7_083">13,5 minuter före 7,083° natt</string>
+    <string name="twilight_58">58,5 minuter efter solnedgången</string>
+    <string name="twilight_13">Solen är 13,24° under horisonten</string>
+
+    <!-- Nightfall -->
+    <string name="nightfall">Nattens inbrott</string>
+    <string name="nightfall_3stars">3 stjärnor synliga</string>
+    <string name="nightfall_3_65">Solen är 3,65° under havsnivå</string>
+    <string name="nightfall_3_676">Solen är 3,676° under havsnivå</string>
+    <string name="nightfall_4_37">Solen är 4,37° under havsnivå</string>
+    <string name="nightfall_4_61">Solen är 4,61° under havsnivå</string>
+    <string name="nightfall_4_8">Solen är 4,8° under havsnivå</string>
+    <string name="nightfall_5_88">Solen är 5,88° under havsnivå</string>
+    <string name="nightfall_5_95">Solen är 5,95° under havsnivå</string>
+    <string name="nightfall_7">Solen är 7,083° under havsnivå</string>
+    <string name="nightfall_8">Solen är 8,5° under havsnivå</string>
+
+    <!-- Midnight -->
+    <string name="midnight">Midnatt (chatzos)</string>
+    <string name="midnight_summary">Solens midnatt</string>
+    <string name="midnight_12">12 timmar efter middag</string>
+    <string name="midnight_6">6 timmar efter nattens inbrott</string>
+
+    <!-- Pesach -->
+    <string name="eat_chametz">Senaste tiden att äter chametz</string>
+    <string name="burn_chametz">Senaste tiden att bränna chametz</string>
+
+    <!-- Moon -->
+    <string name="molad">Födelse av nymånen (molad)</string>
+    <string name="molad_summary">Genomsnitt molad</string>
+    <string name="levana_earliest">Tidigast helgelse av den nya månen (kiddush levana)</string>
+    <string name="levana_earliest_summary">3 dagar efter den molad</string>
+    <string name="levana_7">7 dagar efter den molad</string>
+    <string name="levana_latest">Senaste helgelse av den nya månen (kiddush levana)</string>
+    <string name="levana_latest_summary">Halvvägs mellan molad och molad</string>
+    <string name="levana_15">15 dagar efter den molad</string>
+
+    <!-- Fast / Taanis -->
+    <string name="fast_begins">Fasta börjar</string>
+    <string name="fast_ends">Fasta ändar</string>
+
+    <!-- Omer -->
+    <string name="omer">Omer</string>
+    <string name="omer_format">%1$s %2$s</string>
+    <string name="omer_33">Lag %1$s</string>
+    <string name="omer_off">@string/off</string>
+    <string name="omer_b">BaOmer</string>
+    <string name="omer_l">LaOmer</string>
+
+    <!-- Preferences -->
+    <string name="menu_settings">Inställningar</string>
+    <string name="pref_general_title">Allmänt</string>
+    <string name="pref_appearance_title">Utseende</string>
+    <string name="coords_title">Koordinater</string>
+    <string name="coords_format_title">Koordinater format</string>
+    <string name="coords_format_decimal">Decimal</string>
+    <string name="coords_format_sexagesimal">Sexagesimal</string>
+    <string name="past_title">Tider som förflutit</string>
+    <string name="seconds_title">Sekunder</string>
+    <string name="summaries_title">Sammanfattningar</string>
+    <string name="gradient_title">Gradient bakgrund</string>
+    <string name="theme_dark">Mörkt</string>
+    <string name="theme_light">Ljus</string>
+    <string name="theme_none">Inget</string>
+
+    <!-- Go to date -->
+    <string name="menu_date">Datum</string>
+    <string name="today">I dag</string>
+    <string name="yesterday">i Går</string>
+    <string name="tomorrow">i Morgon</string>
+
+    <!-- Compass -->
+    <string name="menu_compass">Kompass</string>
+    <string name="title_activity_compass">Riktning av bön</string>
+    <string name="compass_summary">Riktning av bön till Heligaste av Heliga i Jerusalem</string>
+    <string name="north">N</string>
+    <string name="east">Ö</string>
+    <string name="south">S</string>
+    <string name="west">V</string>
+
+    <!-- Setting per time -->
+    <string name="opinion">Yttrande</string>
+    <string name="emphasis_title">Betoning</string>
+    <string name="animations">Animationer</string>
+
+    <!-- Location -->
+    <string name="menu_location">Plats</string>
+    <string name="title_activity_location">Min plats</string>
+
+    <!-- Settings screen - Privacy -->
+    <string name="pref_privacy_security_title">Sekretess och säkerhet</string>
+    <string name="pref_privacy_clear_history">Rensa historik</string>
+
+    <!-- About -->
+    <string name="pref_about_title">Om</string>
+    <string name="version">Applen versionen</string>
+    <string name="kosherjava">KosherJava</string>
+    <string name="kosherjava_version">Upphovsrätt \u00A9 2004–2011 Eliyahu Hershfeld</string>
+
+    <!-- Widget -->
+    <string name="title_widget_clock">Halachiska Tider Klocka</string>
+
+    <!-- Reminder -->
+    <string name="reminder">Påminnelse</string>
+    <string name="reminder_stream_title">Typ av påminnelse</string>
+    <string name="reminder_tone">Ringsignal av påminnelse</string>
+    <string name="alarm_volume_title" msgid="2285597478377758706">"Alarm"</string>
+    <string name="notification_volume_title" msgid="2012640760341080408">"Avisering"</string>
+    <string name="reminder_friday">Påminn på fredag</string>
+    <string name="reminder_monday">Påminn på måndag</string>
+    <string name="reminder_saturday">Påminn på lördag och helgdagar</string>
+    <string name="reminder_sunday">Påminn på söndag</string>
+    <string name="reminder_thursday">Påminn på torsdag</string>
+    <string name="reminder_tuesday">Påminn på tisdag</string>
+    <string name="reminder_wednesday">Påminn på onsdag</string>
+
+</resources>

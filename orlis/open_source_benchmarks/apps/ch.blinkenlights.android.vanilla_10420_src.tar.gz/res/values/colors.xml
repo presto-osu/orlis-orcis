@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- library tabs -->
+	<color name="tabs_active_indicator">@android:color/holo_blue_dark</color>
+</resources>

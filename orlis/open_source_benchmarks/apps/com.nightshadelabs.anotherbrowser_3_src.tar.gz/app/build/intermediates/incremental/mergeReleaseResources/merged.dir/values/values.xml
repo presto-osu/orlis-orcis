@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flashify</string>
+    <string name="error">"Error Finding URL</string>
+    <string name="open_in_browser">Open in New Browser</string>
+</resources>

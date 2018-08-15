@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dip">
+
+    <AutoCompleteTextView
+        android:id="@+id/domain_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:hint="@string/domain_hint"
+        android:imeOptions="actionNext"
+        android:inputType="textUri"
+        android:singleLine="true">
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <ToggleButton
+        android:id="@+id/hide_master_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/password_edit"
+        android:layout_alignParentRight="true"
+        android:textOff="@string/genpw_hidden"
+        android:textOn="@string/genpw_shown" />
+
+    <info.staticfree.SuperGenPass.VisualHashEditText
+        android:id="@+id/password_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/domain_edit"
+        android:layout_toLeftOf="@id/hide_master_password"
+        android:hint="@string/password_hint"
+        android:imeActionId="@+id/go"
+        android:imeActionLabel="@string/done"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        app:showVisualHash="true"
+        app:visualHashHeight="45dip"
+        app:visualHashWidth="45dip" />
+
+
+    <RelativeLayout
+        android:id="@+id/tab_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_edit"
+        android:layout_marginTop="32dip">
+
+        <TextView
+            android:id="@+id/label_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_password"
+            android:textAllCaps="true" />
+
+        <info.staticfree.SuperGenPass.GeneratedPasswordView
+            android:id="@+id/password_output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_password"
+            android:layout_toLeftOf="@+id/show_gen_password" />
+
+        <ToggleButton
+            android:id="@+id/show_gen_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/password_output"
+            android:layout_alignParentRight="true"
+            android:textOff="@string/genpw_hidden"
+            android:textOn="@string/genpw_shown" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tab_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tab_password"
+        android:layout_marginTop="8dip">
+
+        <TextView
+            android:id="@+id/label_pin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_pin"
+            android:textAllCaps="true" />
+
+        <info.staticfree.SuperGenPass.GeneratedPasswordView
+            android:id="@+id/pin_output"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label_pin"
+            android:layout_toLeftOf="@+id/pin_length"
+            android:inputType="text" />
+
+        <Spinner
+            android:id="@+id/pin_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/pin_output"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/pin_output"
+            android:entries="@array/pin_lengths"
+            android:gravity="center"
+            android:prompt="@string/pin_length"
+            android:spinnerMode="dialog"
+            android:textAppearance="@android:style/TextAppearance.Large" />
+    </RelativeLayout>
+
+</RelativeLayout>

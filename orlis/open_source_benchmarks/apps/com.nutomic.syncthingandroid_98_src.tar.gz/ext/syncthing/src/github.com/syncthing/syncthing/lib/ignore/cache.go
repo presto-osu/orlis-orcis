@@ -1,0 +1,52 @@
+// Copyright (C) 2014 The Syncthing Authors.
+//
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this file,
+// You can obtain one at http://mozilla.org/MPL/2.0/.
+
+package ignore
+
+import "time"
+
+type cache struct {
+	patterns []Pattern
+	entries  map[string]cacheEntry
+}
+
+type cacheEntry struct {
+	result Result
+	access time.Time
+}
+
+func newCache(patterns []Pattern) *cache {
+	return &cache{
+		patterns: patterns,
+		entries:  make(map[string]cacheEntry),
+	}
+}
+
+func (c *cache) clean(d time.Duration) {
+	for k, v := range c.entries {
+		if time.Since(v.access) > d {
+			delete(c.entries, k)
+		}
+	}
+}
+
+func (c *cache) get(key string) (Result, bool) {
+	entry, ok := c.entries[key]
+	if ok {
+		entry.access = time.Now()
+		c.entries[key] = entry
+	}
+	return entry.result, ok
+}
+
+func (c *cache) set(key string, result Result) {
+	c.entries[key] = cacheEntry{result, time.Now()}
+}
+
+func (c *cache) len() int {
+	l := len(c.entries)
+	return l
+}

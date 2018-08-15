@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+    <ImageView
+        android:id="@+id/boardlist_handle"
+        android:layout_marginLeft="24dp"
+        android:layout_gravity="center"
+        android:layout_width="10dp"
+        android:layout_height="16dp"
+        android:src="?attr/board_reorder_icon"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/boardlist_boardname_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Board Name"
+        android:textSize="16sp"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_weight="8"/>
+    <ImageButton
+        android:id="@+id/boardlist_delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="?attr/board_remove_icon"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_weight="1"/>
+</LinearLayout>

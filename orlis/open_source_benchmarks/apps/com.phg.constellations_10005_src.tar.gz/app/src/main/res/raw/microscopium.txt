@@ -1,0 +1,58 @@
+Abbreviation: Mic    
+Genitive: Microscopii    
+Pronunciation: /ˌmaɪkrəˈskɒpiəm/, genitive /ˌmaɪkrəˈskɒpiaɪ/    
+Symbolism: the Microscope    
+Right ascension: 21    
+Declination: −36    
+Family: La Caille    
+Quadrant: SQ4    
+Area: 210 sq. deg. (66th)    
+Main stars: 5    
+Bayer/Flamsteed stars: 13    
+Stars with planets: 2    
+Stars brighter than 3.00m: 0    
+Stars within 10.00 pc (32.62 ly): 2    
+Brightest star: γ Mic (4.67m)    
+Nearest star: Lacaille 8760 (12.87 ly, 3.95 pc)    
+Messier objects: none    
+Meteor showers: -  
+Bordering constellations: Capricornus Sagittarius Telescopium (corner) Indus Grus Piscis Austrinus    
+Visible at latitudes between +45° and −90°. Best visible at 21:00 (9 p.m.) during the month of September.
+    
+Microscopium /ˌmaɪkrəˈskɒpiəm/ is a small constellation in the southern sky, defined in the 18th century by Nicolas Louis de Lacaille. Its brightest star is Gamma Microscopii of apparent magnitude 4.68, actually a yellow giant located around 381 light-years distant. Two star systems—WASP-7 and HD 205739—have been found to have planets, while another—AU Microscopii—has a debris disk.
+
+History
+The stars that now comprise Microscopium may formerly have belonged to the hind feet of Sagittarius. However, this is uncertain as, while its stars seem to be referred to by Al-Sufi as having been seen by Ptolemy, Al-Sufi does not specify their exact positions.
+Its name is Latin for microscope; it was called this due to its visual similarity to 18th century microscope. Its stars are very faint and hardly visible from most of the non-tropical northern hemisphere.
+The former constellation Neper, representing an auger, may have been located in or near modern-day Microscopium. However, this connection is disputed.
+
+Characteristics
+Microscopium is a small constellation bordered by Capricornus to the north, Piscis Austrinus and Grus to the west, Sagittarius to the east, Indus to the south, and touching on Telescopium to the southeast. The recommended three-letter abbreviation for the constellation, as adopted by the International Astronomical Union in 1922, is 'Mic'. The official constellation boundaries, as set by Eugène Delporte in 1930, are defined by a polygon of 4 segments. In the equatorial coordinate system, the right ascension coordinates of these borders lie between 20h 27.3m and 21h 28.4m, while the declination coordinates are between −27.45° and −45.09°. Given that its brightest stars are of fifth magnitude, the constellation is invisible to the naked eye in areas with polluted skies.
+
+Notable features
+Lacaille charted and designated ten stars with the Bayer designations Alpha through to Iota in 1756. A star in neighbouring Indus that Lacaille had labelled Nu Indi turned out to be in Microscopium, so Gould renamed it Nu Microscopii.
+The brightest star is Gamma Microscopii, which has an apparent visual magnitude of 4.68. It is a yellow giant of spectral class G6 III. Lying 381 light years away, It depicts the eyepiece of the microscope. Alpha Microscopii is also a yellow giant, though in this case a variable star, which ranges between apparent magnitudes 4.88 and 4.94. It is of spectral type G7III. Alpha has a 10th magnitude companion, visible in small telescopes. Epsilon Microscopii lies 165 light years away, and is a blue-white main sequence star of apparent magnitude 4.7, and spectral type A1V. Theta1 and Theta2 Microscopii make up a wide double whose components are splittable to the naked eye. Both are white A-class magnetic spectrum variable stars with strong metallic lines, similar to Cor Caroli. They mark the constellation's specimen slide.
+Many notable objects are too faint to be seen with the naked eye. AX Microscopii, better known as Lacaille 8760, is a red dwarf which lies only 12.9 light years from our solar system. HD 205739 has a jupiter-sized planet. WASP-7 is a star of magnitude 9.54 which has been discovered to have an exoplanet WASP-7b, and AU Microscopii is a young star which appears to be a solar system in the making with a debris disk. BO Microscopii is a rapidly rotating star, and PSR J2144-3933 is an unusual pulsar with an unusually long rotation period.
+NGC 6925 is a barred spiral galaxy of apparent magnitude 11.3 which is lens-shaped as it lies almost edge on to us. It lies 3.7 degrees westnorthwest of Alpha Microscopii. NGC 6923 lies nearby and is a magnitude fainter still.
+
+References
+Citations
+^ G. Rubie (1830) The British Celestial Atlas, p. 37 (ebook available at https://play.google.com/store/books/details?id=KDEAAAAAQAAJ&rdid=book-KDEAAAAAQAAJ&rdot=1).
+^ J. Ellard Gore, Astronomical Curiosities:Facts and Fallacies (Google e-Book) (ISBN 1465524428, 9781465524423).
+^ a b Staal 1988, p. 233.
+^ Russell, Henry Norris (1922). "The new international symbols for the constellations". Popular Astronomy 30: 469. Bibcode:1922PA.....30..469R. 
+^ "Microscopium, constellation boundary". The Constellations (International Astronomical Union). Retrieved 13 July 2012. 
+^ Kambič, Bojan (2009). Viewing the Constellations with Binoculars. Springer. p. 341. ISBN 0387853545. 
+^ Wagman, Morton (2003). Lost Stars: Lost, Missing and Troublesome Stars from the Catalogues of Johannes Bayer, Nicholas Louis de Lacaille, John Flamsteed, and Sundry Others. Blacksburg, Virginia: The McDonald & Woodward Publishing Company. pp. 181, 210. ISBN 978-0-939923-78-6. 
+^ Gamma Mic, Stars, Jim Kaler. Accessed on line July 13, 2012.
+^ a b c Ridpath, Ian; Tirion, Wil (2007). Stars and Planets Guide. Princeton: Princeton University Press. pp. 184–85. ISBN 978-0-691-13556-4. 
+^ a b Motz, Lloyd; Nathanson, Carol (1991). The Constellations: An Enthusiast's Guide to the Night Sky. London, United Kingdom: Aurum Press. pp. 369–70. ISBN 1-85410-088-2.  Cite uses deprecated parameters (help)
+^ "Alpha MicroscopiI". SIMBAD. Retrieved 15 July 2012. 
+^ "Epsilon Microscopii". SIMBAD. Retrieved 15 July 2012. 
+^ Croswell, Ken (July 2003), "The Brightest Red Dwarf", Sky & Telescope: 32, retrieved 15 July 2012 
+^ Bakich, Michael E. (2010). 1001 Celestial Wonders to See Before You Die: The Best Sky Objects for Star Gazers. Patrick Moore's Practical Astronomy Series. Springer. p. 289. ISBN 1-4419-1776-4. 
+^ Moore, Patrick; Tirion, Wil (1997). Cambridge Guide to Stars and Planets. Cambridge, United Kingdom: Cambridge University Press. p. 210. ISBN 0-521-58582-1. 
+
+ReferencesStaal, Julius D.W. (1988), The New Patterns in the Sky, McDonald and Woodward Publishing Company, ISBN 0-939923-04-1 
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Microscopium&oldid=599954125"

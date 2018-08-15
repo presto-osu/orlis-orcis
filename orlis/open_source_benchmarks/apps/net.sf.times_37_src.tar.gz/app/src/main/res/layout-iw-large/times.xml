@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/times_header"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <ViewSwitcher
+            android:id="@+id/details_fragment"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0">
+
+            <view
+                android:id="@+id/details_list_fragment"
+                class="net.sf.times.ZmanimDetailsFragment"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+
+            <view
+                android:id="@+id/candles_fragment"
+                class="net.sf.times.CandlesFragment"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"/>
+        </ViewSwitcher>
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:background="@drawable/fragment_divider"/>
+
+        <view
+            android:id="@+id/list_fragment"
+            class="net.sf.times.ZmanimFragment"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

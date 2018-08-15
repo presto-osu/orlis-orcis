@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/horizontal_center_layout">
+
+    <com.claha.showtimeremote.widget.MovianRemoteButton
+        style="@style/showtime_button"
+        android:src="@drawable/ic_action_volume_down"
+        app:action="VolumeDown"
+        app:onPress="true" />
+
+    <com.claha.showtimeremote.widget.MovianRemoteToggleButton
+        android:id="@+id/muteToggle"
+        style="@style/showtime_button"
+        android:src="@drawable/ic_action_volume_mute"
+        app:action="VolumeMuteToggle"
+        app:src2="@drawable/ic_action_volume_off" />
+
+    <com.claha.showtimeremote.widget.MovianRemoteButton
+        style="@style/showtime_button"
+        android:src="@drawable/ic_action_volume_up"
+        app:action="VolumeUp"
+        app:onPress="true" />
+
+</LinearLayout>

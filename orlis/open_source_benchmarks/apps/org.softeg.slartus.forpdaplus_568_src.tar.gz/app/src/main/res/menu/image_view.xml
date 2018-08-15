@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share_it"
+        android:icon="@drawable/share_variant"
+        android:title="Поделиться"
+        app:showAsAction="never"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider"/>
+    <item
+        android:id="@+id/download"
+        android:icon="@drawable/download_white"
+        android:title="Скачать"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/close"
+        android:icon="@drawable/close_white"
+        android:title="Закрыть"
+        app:showAsAction="always" />
+</menu>

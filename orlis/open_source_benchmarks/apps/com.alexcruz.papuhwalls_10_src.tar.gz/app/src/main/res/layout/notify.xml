@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/dialog_margin"
+    android:paddingRight="@dimen/dialog_margin"
+    android:paddingBottom="@dimen/cards_padding">
+
+    <TextView
+        android:id="@+id/notify_content"
+        android:text="@string/notify_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:paddingTop="@dimen/cards_padding"
+        android:textColor="@color/dialogcontent"
+        android:textSize="@dimen/text_small"
+        android:lineSpacingMultiplier="1.2" />
+
+    <TextView
+        android:id="@+id/notify_content2"
+        android:text="@string/notify_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:textStyle="bold"
+        android:paddingTop="@dimen/cards_padding"
+        android:textColor="@color/dialogcontent"
+        android:textSize="@dimen/text_small"
+        android:lineSpacingMultiplier="1.2" />
+
+    <TextView
+        android:id="@+id/notify_button"
+        android:text="@string/notify_url"
+        android:autoLink="web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:linksClickable="true"
+        android:clickable="false"
+        android:textStyle="normal"
+        android:paddingTop="@dimen/cards_padding"
+        android:textSize="@dimen/text_small"
+        android:lineSpacingMultiplier="1.2" />
+
+
+</LinearLayout>

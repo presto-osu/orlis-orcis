@@ -1,0 +1,81 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+      <item name="android:actionMenuTextAppearance">@style/AppBaseTheme.MyActionBar.MyContextBarTitleText</item>
+      <item name="android:actionMenuTextColor">@android:color/white</item>
+      <item name="android:actionBarStyle">@style/AppBaseTheme.MyActionBar</item>
+      <item name="android:actionModeStyle">@style/AppBaseTheme.MyContextBar</item>
+      <item name="android:actionModeBackground">@color/baseColor</item>
+      <item name="android:actionModeCloseDrawable">@drawable/ic_custom_arrowback</item>
+      <item name="android:actionOverflowButtonStyle">@style/AppBaseTheme.MyOverflowButton</item>
+      <item name="android:actionButtonStyle">@style/actionBarButton</item>
+    </style>
+
+    <style name="AppBaseTheme.MyOverflowButton">
+        <item name="android:padding">7dp</item>
+        <item name="android:src">@drawable/ic_custom_overflow_btn_circles</item>
+    </style>
+
+    <style name="AppBaseTheme.MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/baseColor</item>
+        <item name="android:titleTextStyle">@style/AppBaseTheme.MyActionBar.MyActionBarTitleText</item>
+    </style>
+
+    <style name="AppBaseTheme.MyContextBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/baseColor_complementary</item>
+        <item name="android:titleTextStyle">@style/AppBaseTheme.MyActionBar.MyContextBarTitleText</item>
+    </style>
+
+	<style name="AppBaseTheme.MyActionBar.MyActionBarTitleText" parent="@style/AppBaseTheme.MyActionBar" >
+	     <item name="android:textColor">@android:color/white</item>
+	     <item name="android:textSize">24sp</item>
+	</style>
+
+    <style name="AppBaseTheme.MyActionBar.MyContextBarTitleText" parent="@style/AppBaseTheme.MyActionBar" >
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="MainMenuButtonStyle" parent="@android:style/Widget.ImageButton">
+		<item name="android:layout_width">300dp</item>
+		<item name="android:layout_height">60dp</item>
+		<item name="android:layout_marginTop">15dp</item>
+		<item name="android:layout_gravity">center</item>  
+		<item name="android:textSize">24sp</item> 
+		<item name="android:textColor">@android:color/white</item> 
+		<item name="android:background">@drawable/button_mmenu</item>
+    </style>
+
+    <style name="actionBarButton">
+        <item name="android:background">@drawable/pressed_or_not</item>
+    </style>
+
+    <style name="WorkoutEditButtonStyle" parent="@android:style/Widget.Button.Small">
+		<item name="android:layout_width">55dp</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_margin">5dp</item>
+		<item name="android:layout_gravity">center</item>  
+		<item name="android:background">@drawable/button_workoutedit</item>
+    </style>
+
+    <style name="WorkoutEditButtonStyle_complementary" parent="WorkoutEditButtonStyle">
+        <item name="android:background">@drawable/button_workoutedit_complementary</item>
+    </style>
+
+
+    <style name="WorkoutEditTextViewStyle" parent="@android:style/Widget.TextView">
+		<item name="android:layout_width">0dp</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:layout_margin">5dp</item>
+		<item name="android:paddingLeft">5dp</item>
+		<item name="android:textSize">20sp</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:background">@drawable/textview_workoutedit</item>
+    </style>
+    
+</resources>

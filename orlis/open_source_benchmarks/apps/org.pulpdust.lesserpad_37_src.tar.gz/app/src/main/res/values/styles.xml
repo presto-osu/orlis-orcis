@@ -1,0 +1,14 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar" />
+    <style name="AppTheme.Dialog" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.Prefs" parent="android:Theme.Light" />
+
+    <style name="AppTheme.Dark" parent="android:Theme.Black.NoTitleBar" />
+    <style name="AppTheme.Dialog.Dark" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.Prefs.Dark" parent="android:Theme.Black" />
+</resources>

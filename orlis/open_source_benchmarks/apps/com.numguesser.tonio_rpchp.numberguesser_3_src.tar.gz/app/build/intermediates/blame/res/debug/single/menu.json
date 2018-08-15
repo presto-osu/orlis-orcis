@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/res/merged/debug/menu/end_game.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/src/main/res/menu/end_game.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/res/merged/debug/menu/guesser.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/src/main/res/menu/guesser.xml"
+    }
+]

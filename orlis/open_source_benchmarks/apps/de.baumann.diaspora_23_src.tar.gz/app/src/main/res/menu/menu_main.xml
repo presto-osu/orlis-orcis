@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_notifications"
+        android:icon="@drawable/ic_bell_outline_white_24dp"
+        android:title="@string/notifications"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_conversations"
+        android:icon="@drawable/ic_message_text_outline_white_24dp"
+        android:title="@string/messages"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:title="@string/jb_share"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_exit"
+        android:icon="@drawable/ic_sync_white_24dp"
+        android:title="@string/exit_app"
+        app:showAsAction="never" />
+
+</menu>

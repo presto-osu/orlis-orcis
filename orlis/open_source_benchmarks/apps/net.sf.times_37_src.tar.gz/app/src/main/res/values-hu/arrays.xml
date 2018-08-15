@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="reminder_entries">
+        <item>@string/off</item>
+        <item>Időben</item>
+        <item>Előtt 1 perccel</item>
+        <item>Előtt 5 perccel</item>
+        <item>Előtt 10 perccel</item>
+        <item>Előtt 15 perccel</item>
+        <item>Előtt 20 perccel</item>
+        <item>Előtt 25 perccel</item>
+        <item>Előtt 30 perccel</item>
+        <item>Előtt 45 perccel</item>
+        <item>Előtt 1 órával</item>
+    </string-array>
+    <string-array name="hebrew_months">
+        <item>Nissán</item>
+        <item>Ijár</item>
+        <item>Siván</item>
+        <item>Tammuz</item>
+        <item>Av</item>
+        <item>Elul</item>
+        <item>Tishrei</item>
+        <item>Cheshván</item>
+        <item>Kislev</item>
+        <item>Teves</item>
+        <item>Shevat</item>
+        <item>Ádár</item>
+        <item>Ádár II</item>
+        <item>Ádár I</item>
+    </string-array>
+
+</resources>

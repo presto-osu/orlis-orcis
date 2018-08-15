@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="splash_images">
+        <item>@drawable/splashscreen1</item>
+        <item>@drawable/splashscreen2</item>
+        <item>@drawable/splashscreen3</item>
+        <item>@drawable/splashscreen4</item>
+        <item>@drawable/splashscreen5</item>
+        <item>@drawable/splashscreen6</item>
+    </array>
+</resources>

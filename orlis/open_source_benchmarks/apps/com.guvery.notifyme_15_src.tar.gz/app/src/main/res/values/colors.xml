@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<item name="primary" type="color">#673AB7</item>
+    <item name="primary_dark" type="color">#512DA8</item>
+    <item name="primary_pressed" type="color">#512DA8</item>
+    <item name="accent" type="color">#E91E63</item>
+    <item name="accent_pressed" type="color">#ffc21e53</item>
+    <item name="accent_ripple" type="color">@color/primary</item>
+    <item name="ripple" type="color">#FF33B5E5</item>-->
+
+    <item name="primary" type="color">#D32F2F</item>
+    <item name="primary_dark" type="color">#B71C1C</item>
+    <item name="primary_pressed" type="color">#E57373</item>
+
+    <item name="accent" type="color">#D32F2F</item>
+    <item name="accent_pressed" type="color">#B71C1C</item>
+    <item name="accent_ripple" type="color">#B71C1C</item>
+    <!--E57373-->
+
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="104dp" >
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="16dp"
+        android:background="@color/app_background"
+        android:contentDescription="@string/icon"
+        android:onClick="changeTransferPriority"
+        android:src="@drawable/ic_play_arrow_black_36dp"
+        android:visibility="gone" />
+    
+    <ImageButton
+        android:id="@+id/pause_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="16dp"
+        android:background="@color/app_background"
+        android:contentDescription="@string/icon"
+        android:onClick="changeTransferPriority"
+        android:src="@drawable/ic_pause_black_36dp" />
+    
+    <ImageView
+        android:id="@+id/transfer_done"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="16dp"
+        android:background="@drawable/round_button_green"
+        android:contentDescription="@string/done"
+        android:src="@drawable/ic_done_white_36dp"
+        android:visibility="gone" />
+    
+    <ImageView
+        android:id="@+id/transfer_failed"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="16dp"
+        android:background="@drawable/round_button_red"
+        android:contentDescription="@string/failed"
+        android:src="@drawable/ic_cancel_white_36dp"
+        android:visibility="gone" />
+    
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="88dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:padding="3dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/transfer_name"
+            android:text="@string/placeholder_lorem_ipsum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="@dimen/abc_text_size_subhead_material" />
+
+        <ProgressBar
+            android:id="@+id/transfer_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/transfer_status_label"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/transfer_name"
+            android:paddingRight="16dp" />
+
+        <TextView
+            android:id="@+id/transfer_status_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/transfer_progress"
+            android:paddingRight="3dp"
+            android:text="@string/status"
+            android:textSize="@dimen/abc_text_size_small_material" />
+
+        <TextView
+            android:id="@+id/transfer_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/transfer_status_label"
+            android:layout_alignBottom="@+id/transfer_status_label"
+            android:layout_toRightOf="@+id/transfer_status_label"
+            android:paddingRight="16dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="@string/placeholder_lorem_ipsum"
+            android:textSize="@dimen/abc_text_size_small_material" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/transfer_status_label" 
+            android:layout_alignParentLeft="true"
+            android:baselineAligned="false"
+            android:paddingTop="5dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="fill_horizontal"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/transfer_size_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="3dp"
+                    android:text="@string/size_label"
+                    android:textSize="@dimen/abc_text_size_small_material" />
+
+                <TextView
+                    android:id="@+id/transfer_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unknown"
+                    android:textSize="@dimen/abc_text_size_small_material" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="fill_horizontal"
+                android:layout_weight="1"
+                android:paddingRight="16dp">
+
+                <TextView
+                    android:id="@+id/transfer_priority_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="3dp"
+                    android:text="@string/priority_label"
+                    android:textSize="@dimen/abc_text_size_small_material" />
+
+                <TextView
+                    android:id="@+id/transfer_priority"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unknown"
+                    android:textSize="@dimen/abc_text_size_small_material" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+    
+    </LinearLayout>
+
+

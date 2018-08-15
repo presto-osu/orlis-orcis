@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Zmanim" parent="android:Theme">
+    </style>
+
+    <style name="Theme.Zmanim.Dark">
+        <item name="listZmanim">@style/Zmanim.ListView.Dark</item>
+        <item name="listZman">@style/Zmanim.ListItem.Dark</item>
+        <item name="listZmanTitle">@style/Zmanim.TextAppearance.Title.Dark</item>
+        <item name="listZmanTime">@style/Zmanim.TextAppearance.Time.Dark</item>
+        <item name="listZmanSummary">@style/Zmanim.TextAppearance.Summary.Dark</item>
+    </style>
+
+    <style name="Theme.Zmanim.Light">
+        <item name="listZmanim">@style/Zmanim.ListView.Light</item>
+        <item name="listZman">@style/Zmanim.ListItem.Light</item>
+        <item name="listZmanTitle">@style/Zmanim.TextAppearance.Title.Light</item>
+        <item name="listZmanTime">@style/Zmanim.TextAppearance.Time.Light</item>
+        <item name="listZmanSummary">@style/Zmanim.TextAppearance.Summary.Light</item>
+    </style>
+
+    <style name="Theme.Zmanim.NoGradient">
+        <item name="listZmanim">@style/Zmanim.ListView.NoGradient</item>
+        <item name="listZman">@style/Zmanim.ListItem.NoGradient</item>
+        <item name="listZmanTitle">@style/Zmanim.TextAppearance.Title.NoGradient</item>
+        <item name="listZmanTime">@style/Zmanim.TextAppearance.Time.NoGradient</item>
+        <item name="listZmanSummary">@style/Zmanim.TextAppearance.Summary.NoGradient</item>
+    </style>
+
+</resources>

@@ -1,0 +1,21 @@
+# Temp files
+*~
+*.bak
+*.backup
+\#*
+.\#*
+
+# OS specific useless files
+Thumbs.db
+.DS_Store
+__MACOSX/
+
+# Others
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/build
+app/manifest-merger-release-report.txt
+app/*.apk
+*.class

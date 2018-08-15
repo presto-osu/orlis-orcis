@@ -1,0 +1,29 @@
+apply plugin: 'com.android.application'
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 21
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "org.toulibre.cdl"
+        minSdkVersion 8
+        targetSdkVersion 21
+        versionCode 7
+        versionName "1.3.7-fdroid"
+    }
+
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:21.+'
+    compile 'com.android.support:cardview-v7:21.+'
+    compile 'com.github.chrisbanes.photoview:library:1.2.2'
+}
+

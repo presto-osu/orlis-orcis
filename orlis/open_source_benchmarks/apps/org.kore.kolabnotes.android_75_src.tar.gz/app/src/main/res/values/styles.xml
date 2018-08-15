@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AboutTheme" parent="BaseTheme">
+        <item name="windowActionBar">true</item>
+    </style>
+
+    <style name="AppTheme" parent="BaseTheme">
+    </style>
+
+    <style name="BaseTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/theme_actionmode</item>
+
+        <!-- ...and here we setting appcompat’s color theming attrs -->
+        <item name="colorPrimary">@color/theme_default_primary</item>
+        <item name="colorPrimaryDark">@color/theme_default_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
+
+        <item name="android:windowBackground">@color/theme_window_background</item>
+
+        <item name="android:alertDialogTheme">@style/BaseTheme.Dialog</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">false</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="BaseTheme.Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="colorPrimary">@color/theme_default_primary</item>
+        <item name="colorPrimaryDark">@color/theme_default_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
+    </style>
+
+    <style name="SettingsTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="colorAccent">@color/theme_accent</item>
+        <item name="colorPrimary">@color/theme_default_primary</item>
+        <item name="colorPrimaryDark">@color/theme_default_primary_dark</item>
+    </style>
+
+    <style name="NoteOverviewSummary">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">6</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="NoteOverviewInfoText">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">6</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="NoteOverviewTagText">
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textColor">@color/primary_text_default_material_light</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">6</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

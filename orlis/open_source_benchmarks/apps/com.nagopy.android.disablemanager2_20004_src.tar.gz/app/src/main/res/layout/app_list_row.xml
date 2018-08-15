@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:contentDescription="@string/description_list_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/list_item_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/list_item_vertical_margin">
+
+    <TextView
+        android:id="@+id/list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/description_application_name"
+        android:drawablePadding="@dimen/unit_2"
+        android:gravity="start|center_vertical"
+        android:textAppearance="@style/TextAppearance.AppTheme.Large" />
+
+    <TextView
+        android:id="@+id/list_process"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.AppTheme.Small" />
+
+    <TextView
+        android:id="@+id/list_disabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.AppTheme.Small" />
+
+    <TextView
+        android:id="@+id/list_package_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/description_package_name"
+        android:gravity="end"
+        android:textAppearance="@style/TextAppearance.AppTheme.Small" />
+
+</LinearLayout>

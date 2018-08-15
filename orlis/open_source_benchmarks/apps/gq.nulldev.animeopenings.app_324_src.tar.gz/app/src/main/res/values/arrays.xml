@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="videoTypeSum">
+        <item>Only play openings.</item>
+        <item>Only play endings.</item>
+        <item>Play everything.</item>
+    </string-array>
+    <string-array name="videoTypeValue">
+        <item>openings</item>
+        <item>endings</item>
+        <item>all</item>
+    </string-array>
+</resources>

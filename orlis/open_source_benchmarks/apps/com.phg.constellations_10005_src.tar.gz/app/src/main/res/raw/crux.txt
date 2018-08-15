@@ -1,0 +1,141 @@
+Abbreviation: Cru    
+Genitive: Crucis    
+Pronunciation: /ˈkrʌks/, genitive /ˈkruːsɨs/    
+Symbolism: Southern Cross    
+Right ascension: 12.5    
+Declination: −60    
+Family: Hercules    
+Quadrant: SQ3    
+Area: 68 sq. deg. (88th)    
+Main stars: 4    
+Bayer/Flamsteed stars: 19    
+Stars with planets: 2    
+Stars brighter than 3.00m: 5    
+Stars within 10.00 pc (32.62 ly): 0    
+Brightest star: Acrux (α Cru) (0.87m)    
+Nearest star: η Cru (64.22 ly, 19.69 pc)    
+Messier objects: 0    
+Meteor showers: Crucids    
+Bordering constellations: Centaurus Musca    
+Visible at latitudes between +20° and −90°. Best visible at 21:00 (9 p.m.) during the month of May. 
+   
+Crux /ˈkrʌks/ is the smallest of the 88 modern constellations, but is one of the most distinctive. Its name is Latin for cross, and it is dominated by a cross-shaped asterism that is commonly known as the Southern Cross.
+
+Visibility
+The five brightest stars in Crux are clearly visible in the top right. The red giant Gacrux and orange giant Epsilon are distinctly different from the three other major stars of the constellation, which are blue-white in colour.
+Crux is easily visible from the southern hemisphere at practically any time of year. It is also visible near the horizon from tropical latitudes of the northern hemisphere for a few hours every night during the northern winter and spring. For instance, it is visible from Cancun or any other place at latitude 25° N or less at around 10 pm at the end of April. There are 5 main stars.
+
+Location and identification
+In tropical regions Crux can be seen in the sky from April to June. Crux is exactly opposite to Cassiopeia on the celestial sphere, and therefore it cannot appear in the sky with the latter at the same time. For locations south of 34°S, Crux is circumpolar and thus always visible in the night sky.
+Crux is bordered by the constellations Centaurus (which surrounds it on three sides) and Musca.
+Crux is sometimes confused with the nearby False Cross by stargazers. Crux is somewhat kite-shaped, and it has a fifth star (ε Crucis). The False Cross is diamond-shaped, somewhat dimmer on average, does not have a fifth star and lacks the two prominent nearby "Pointer Stars."
+
+Notable features
+Stars
+Three of the five main Crux stars—Acrux, Mimosa, and Delta Crucis—are co-moving B-type members of the Scorpius-Centaurus Association, the nearest OB association to the Sun. They are among the highest-mass stellar members of the Lower Centaurus-Crux subgroup of the association, with ages of roughly 10 to 20 million years. Other members include the blue-white stars Zeta, Lambda, Mu1 and Mu2.
+The star HD 106906 has been found to have a planet—HD 106906 b—that has a larger orbit than any other exoplanet discovered to date.
+MarkersAlpha and Gamma (known as Acrux and Gacrux respectively) are commonly used to mark south. Tracing a line from Gacrux to Acrux leads to a point close to the Southern Celestial Pole. Alternatively, if a line is constructed perpendicularly between Alpha Centauri and Beta Centauri, the point where the above mentioned line and this line intersect marks the Southern Celestial Pole. The two stars of Alpha and Beta Centauri are often referred to as the "Southern Pointers" or just "The Pointers", allowing people to easily find the asterism of the Southern Cross or the constellation of Crux.
+Letters and namesThe four main stars that form the asterism are Alpha, Beta, Gamma, and Delta Crucis. Alpha Crucis, called Acrux, is a triple star 321 light-years from Earth. Blue-tinged and magnitude 0.8 to the unaided eye, it has two close components of magnitude 1.3 and 1.8, as well as a wide component of magnitude 5. The two close components are divisible in a small amateur telescope and the wide component is divisible in a pair of binoculars. Beta Crucis, called Mimosa, is a blue-hued giant of magnitude 1.3, 353 light-years from Earth. It is a Beta Cephei-type Cepheid variable with a variation of less than 0.1 magnitudes. Gamma Crucis, called Gacrux, is a double star. The primary is a red-hued giant star of magnitude 1.6, 88 light-years from Earth. The secondary is of magnitude 6.5, 264 light-years from Earth. Delta Crucis is a blue-white hued star of magnitude 2.8, 364 light-years from Earth. It is the dimmest of the Southern Cross stars.
+There are several dimmer stars within the borders of Crux. Epsilon Crucis is an orange-hued giant star of magnitude 3.6, 228 light-years from Earth. Iota Crucis is a binary star 125 light-years from Earth. The primary is an orange-hued giant of magnitude 4.6 and the secondary is of magnitude 9.5. Mu Crucis is a double star where the unrelated components are about 370 light-years from Earth. The primary is a blue-white hued star of magnitude 4.0 and the secondary is a blue-white hued star of magnitude 5.1. Mu Crucis is divisible in small amateur telescopes or large binoculars.
+
+Deep-sky objects
+The Coalsack Nebula is the most prominent dark nebula in the skies, easily visible to the naked eye as a prominent dark patch in the southern Milky Way. It is large, five degrees by seven degrees, and is 600 light-years from Earth. Not all of the nebula is in the borders of Crux; some of it is technically in Musca and Centaurus.
+The open cluster NGC 4755, better known as the Jewel Box or Kappa Crucis Cluster, has an overall magnitude of 4.2—to the naked eye it appears to be a fuzzy star—and is about 7600 light-years from Earth. The cluster was given its name by John Herschel. About seven million years old, an age that makes it one of the youngest open clusters in the Milky Way, it appears to have the shape of a letter A. The Jewel Box Clusters is a Shapley class g and Trumpler class I 3 r cluster; it is a very rich, centrally-concentrated cluster detached from the surrounding star field. It has more than 100 stars that range significantly in brightness. The brightest stars are mostly blue supergiants, though the cluster contains a few bright red supergiants. Kappa Crucis is a true member of the cluster that bears its name, and is one of the brighter star at magnitude 5.9.
+
+History
+Depiction of the Crux (labelled 'Las Guardas') by physician-astronomer Mestre João Faras in his letter of May 1, 1500, to King Manuel I of Portugal from the newly discovered land of Brazil
+Crux was visible to the Ancient Greeks; Ptolemy regarded it as part of the constellation Centaurus. It was entirely visible as far north as Britain in the fourth millennium BC. However, the precession of the equinoxes gradually lowered its stars below the European horizon, and they were eventually forgotten by the inhabitants of northern latitudes. By AD 400, most of the constellation never rose above the horizon for Athenians.[citation needed]
+The 15th-century Venetian navigator Alvise Cadamosto made note of what was probably the Southern Cross on exiting the Gambia River in 1455, calling it the carro dell'ostro ("southern chariot"). However, Cadamosto's constellation had too many stars and was tilted incorrectly. Historians generally credit João Faras - astronomer and physician of King Manuel I of Portugal who accompanied Pedro Álvares Cabral in the discovery of Brazil in 1500 - for being the first European to depict it correctly. Faras sketched and described the constellation (calling it "Las Guardas") in a letter written on the beaches of Brazil on May 1, 1500, to the Portuguese monarch.
+Another early modern description clearly describing Crux as a separate constellation is attributed to Andreas Corsali, an Italian navigator who from 1515 to 1517 sailed to China and the East Indies in an expedition sponsored by King Manuel I. In 1516, Corsali wrote a letter to the monarch describing his observations of the southern sky, which included a small map showing 19 stars and the two Magellanic Clouds in a geocentric orientation, along with a vivid textual description of the Southern Cross.
+Émerie Mollineux has also been cited as the first uranographer to distinguish Crux; his illustration dates to 1592. Later adopters of the constellation included Jakob Bartsch in 1624 and Augustin Royer in 1679. Royer is sometimes wrongly cited as initially distinguishing Crux. Explorer Amerigo Vespucci depicted Crux as an almond, called "Mandorla".
+Crux was first shown as a separate constellation on the celestial globes of Petrus Plancius and Jodocus Hondius in 1598 and 1600. Its stars were first catalogued separately from Centaurus by Frederick de Houtman in 1603.
+
+Cultural significance of the Southern Cross
+The most prominent feature of Crux is the distinctive asterism known as the Southern Cross. It has great significance in the cultures of the southern hemisphere, particularly of Australia, whose citizens colloquially refer to themselves as sons and daughters of the Southern Cross.
+
+Flags and symbols
+Beginning in the colonial age, Crux became used as a national symbol by several southern nations. The brightest stars of Crux appear on the flags of Australia, Brazil, New Zealand, Papua New Guinea and Samoa. They also appear on the flags of the Australian state of Victoria, the Australian Capital Territory, the Northern Territory, as well as the flag of Magallanes Region of Chile, the flag of Londrina (Brazil) and several Argentine provincial flags and emblems (for example, Tierra del Fuego and Santa Cruz). The flag of the Mercosur trading zone displays the four brightest stars. Crux also appears on the Brazilian coat of arms.
+In Australia, the Southern Cross played a crucial role as symbol of the Eureka Stockade. In the Eureka Oath from Peter Lalor's famous speech in 1854 under the Eureka Flag he proclaimed "We swear by the Southern Cross to stand truly by each other and fight to defend our rights and liberties." Of the Australian national flag, the Australian poet Banjo Paterson wrote in 1893:
+The English flag may flutter and wave, where the world wide oceans toss, but the flag the Australian dies to save, is the flag of the Southern Cross.
+The Southern Cross was written into the lyrics of "Advance Australia Fair" in 1901: "Beneath our radiant Southern Cross"; the song was adopted as the Australian National Anthem in 1984. The victory song of the Australian national cricket team is entitled "Under the Southern Cross I Stand".
+The Southern Cross was included in the lyrics of the Brazilian National Anthem (1909): "A imagem do Cruzeiro resplandece" ("the image of the Cross shines"). The five stars are also in the logo of the Brazilian football team Cruzeiro Esporte Clube and the Brazilian coat of arms; it is mentioned in the Brazilian national anthem, and even featured as the name of the currency (the cruzeiro from 1942 to 1986 and again from 1990 to 1994. The constellation is displayed in all coins of the current series of the Brazilian real.
+In O Sweet Saint Martin's Land, the lyrics for the Southern Cross are Thy Southern Cross the night.
+A stylized version of Crux appears on the Australian Eureka Flag. The constellation was also used on the dark blue, shield-like patch worn by personnel of the U.S. Army's Americal Division, which was organized in the Southern Hemisphere, on the island of New Caledonia, and also the blue diamond of the U.S. 1st Marine Division, which fought on the Southern Hemisphere islands of Guadalcanal and New Britain.
+
+In non-Western astronomy
+In Australian Aboriginal astronomy, Crux and the Coalsack mark the head of the 'Emu in the Sky' in several Aboriginal cultures, while Crux itself is said to be a possum sitting in a tree and a representation of the sky deity Mirrabooka.[citation needed]
+In ancient Hindu astrology, the modern Crux is referred to as Trishanku.
+Various peoples in the East Indies and Brazil viewed the four main stars as the body of a ray. In both Indonesia and Malaysia, it is known as Bintang Pari and Buruj Pari respectively ("ray stars")
+The Javanese people of Indonesia called this constellation Gubug pèncèng ("raking hut") or lumbung ("the granary"), because the shape of the constellation was like a raking hut.
+The Māori name for the Southern Cross is Te Punga ("the anchor"). It is thought of as the anchor of Tama-rereti's waka (the Milky Way), while the Pointers are its rope.
+In Mapudungun, the language of Patagonian Mapuches, the name of the Southern Cross is Melipal, which means "four stars". In Quechua, the language of the Inca civilization, Crux is known as "Chakana", which means literally "stair" (chaka, bridge, link; hanan, high, above), but carries a deep symbolism within Quechua mysticism.
+In Samoa the constellation is called Sumu ("triggerfish") because of its rhomboid shape, while α and β Centauri are called Luatagata (Two Men), just as they are in Tonga.
+In Tonga it is known as Toloa ("duck"); it is depicted as a duck flying south, with one of his wings (δ Crucis) wounded because Ongo tangata ("two men", α and β Centauri) threw a stone at it. The Coalsack is known as Humu (the "triggerfish"), because of its shape.
+Among Tuaregs, the four most visible stars of Crux are considered iggaren, i.e. four Maerua crassifolia trees.[citation needed]
+The Tswana people of Botswana saw the constellation as Dithutlwa, two giraffes - Acrux and Mimosa forming a male, and Gacrux and Delta Crucis forming the female.
+Acrux and Mimosa make up one foot of the Great Rhea, a constellation encompassing Centaurus and Circinus along with the two bright stars. The Great Rhea was a constellation of the Bororo people of Brazil. The Mocoví people of Argentina also saw a rhea including the stars of Crux. Their rhea is attacked by two dogs, represented by bright stars in Centaurus and Circinus. The dogs' heads are marked by Alpha and Beta Centauri. The rhea's body is marked by the four main stars of Crux, while its head is Gamma Centauri and its feet are the bright stars of Musca.
+The Bakairi people of Brazil had a sprawling constellation representing a bird snare. It included the bright stars of Crux, the southern part of Centaurus, Circinus, at least one star in Lupus, the bright stars of Musca, Beta and Delta Chamaeleonis, Volans, and Mensa.
+The Kalapalo people of Mato Grosso state in Brazilsaw the stars of Crux as Aganagi angry bees having emerged from the Coalsack, which they saw as the beehive.
+The peoples of the Solomon Islands saw several figures in the Southern Cross. These included a knee protector and a net used to catch Palolo worms. Neighboring peoples in the Marshall Islands saw these stars as a fish.
+Two Pacific constellations also included Gamma Centauri. Torres Strait Islanders in modern-day Australia saw Gamma Centauri as the handle and the four stars as the trident of Tagai's Fishing Spear. The Aranda people of central Australia saw the four Cross stars as the talon of an eagle and Gamma Centauri as its leg.
+
+In popular culture
+Argentine Gauchos are well known for using it for night orientation in the vast Pampas and Patagonic regions. It is also of cultural significance, as it is referenced in several songs and literature, including the Martin Fierro. The Argentinian singer Charly Garcia says that he is from the southern cross in the song "No voy en tren".
+The Argentine Air Force acrobatic display team is called Cruz del Sur, the Spanish for "Southern Cross".
+In the Victory At Sea suite, Richard Rodgers wrote "Beneath The Southern Cross" to depict the battleships in convoy and the loneliness of the sailors in the Southern Pacific during World War II. This tango melody is also "No Other Love Have I" in the musical "Me and Juliet" and a popular hit for Perry Como during the 1950s.
+Cruzeiro Esporte Clube (Crux/Southern Cross Sports Club) is a first class football (soccer) club in Brazil.
+Melbourne's Southern Cross Hotel was built and named in 1962 and was one of the city's foremost hotels during the decade. The hotel was demolished in 2005 and replaced by the similarly named office building known as Southern Cross Tower. There is a town in the Western Australian wheatbelt approx 300 km east of Perth called Southern Cross. Melbourne's Spencer Street Station was rebuilt and renamed "Southern Cross Station" in 2006.
+The 1974 Australian America's Cup Challenger was named "Southern Cross" KA 4 representing the Royal Perth Yacht Club and was defeated 4-0 sailing off Newport Rhode Island by "Courageous" US26 sailing for the New York Yacht Club. Southern Cross became the trial horse for the 1977 Australian Challenger "Australia" KA 5 representing the Sun City Yacht Club that was defeated 4-0 sailing off Newport Rhode Island by Courageous US26 sailing for the New York Yacht Club.
+The Commonwealth Bank of Australia uses a stylized image of the Southern Cross as a corporate logo.
+"Southern Cross" is also a 1982 song by the classic rock group Crosby, Stills and Nash, written by Rick Curtis, Michael Curtis, and Stephen Stills. This song was also covered by Jimmy Buffett and is commonly played at his concerts.
+After identifying a need for a church for Afrikaans speakers living in the Netherlands, a church was established in Leusden and is known as Suiderkruis Kerk. (Southern Cross Church) There is a town called Suiderkruis (Southern Cross) in the Western Cape province of South Africa. The opening lines of South African composer Koos du Plessis' Christmas carol, 'Somerkersfees' (Summer Christmas) are:
+Welkom o stille nag van vrede (Welcome, o silent night of peace)Onder die suiderkruis (Beneath the Southern Cross)Zeitgeist: the Movie claims that the Sun can be in the vicinity of Crux: this is seen through the northern hemisphere of the earth.
+In the 2006 video game Ace Combat X: Skies of Deception, Crux plays a major role in the story of the game and is the name of the player's radio operator.
+The 1981 Black Sabbath album Mob Rules features the song "The Sign of the Southern Cross", whose lyrics were written by then member and vocalist Ronnie James Dio.
+
+Use in navigation
+In the Southern Hemisphere, the Southern Cross is frequently used for navigation in much the same way that the Pole Star is used in the Northern Hemisphere.
+The south celestial pole can be located from the Southern Cross (Crux) and its two "pointer" stars α Centauri and β Centauri. Draw an imaginary line from γ Crucis to α Crucis—the two stars at the extreme ends of the long axis of the cross—and follow this line through the sky. Either go four and a half times the distance of the long axis in the direction the narrow end of the cross points, or join the two pointer stars with a line, divide this line in half, then at right angles draw another imaginary line through the sky until it meets the line from the Southern Cross. This point is 5 or 6 degrees from the south celestial pole. Very few bright stars of importance lie between Crux and the pole itself, although the constellation Musca is fairly easily recognised immediately beneath Crux.
+A technique used in the field is to clench one's right fist and to view the cross, aligning the first knuckle with the axis of the cross. The tip of the thumb will indicate south.
+
+Namesakes
+USS Crux (AK-115) was a United States Navy Crater class cargo ship named after the constellation.
+
+References
+Citations
+^ Pasachoff, Jay M (2000). Field Guide to the Stars and Planets. Houghton Miflin. p. 67. ISBN 978-0-395-93431-9. 
+^ "Ian Ridpath.com: Constellations". Retrieved March 4, 2011. 
+^ Preibisch, T., Mamajek, E. (2008). "The Nearest OB Association: Scorpius-Centaurus (Sco OB2)". Handbook of Star-Forming Regions 2: 0. arXiv:0809.0407. Bibcode:2008hsf2.book..235P. 
+^ de Geus, E. J., de Zeeuw, P. T., & Lub, J. (1989). "Physical Parameters of Stars in the Scorpio-Centaurus OB Association". Astronomy & Astrophysics 216 (3): 44–61. Bibcode:1989A&A...216...44D. 
+^ Mamajek, E.E., Meyer, M.R., & Liebert, J. (2002). "Post-T Tauri Stars in the Nearest OB Association". Astronomical Journal 124 (3): 1670–1694. arXiv:astro-ph/0205417. Bibcode:2002AJ....124.1670M. doi:10.1086/341952. 
+^ de Zeeuw, P.T.; Hoogerwerf, R.; de Bruijne, J.H.J.; Brown, A.G.A.; Blaauw, A. (1999). "A Hipparcos Census of Nearby OB Associations". Astronomical Journal 117 (1): 354–99. arXiv:astro-ph/9809227. Bibcode:1999AJ....117..354D. doi:10.1086/300682. 
+^ a b c d e f g h i Ridpath & Tirion 2001, pp. 132-133.
+^ a b Levy 2005, p. 87.
+^ Pasachoff, Stars and Planets, 2006, p. 144.
+^ a b Staal 1988, p. 247.
+^ "We likewise observed...due south by compass, a constellation of six large bright stars, in the figure of a cross in this form...we conjectured this to be the southern chariot, but could not expect to observe the principal star, as we had not yet lost sight of the north pole." A. Cadamosto Navigatione, written c.1465 (1550 Ramusio edition, p.116r; 1811 Kerr edition p.244)
+^ Revista do Instituto Histórico e Geográfico Brasileiro, V nº 19., Rio de Janeiro, 1843 
+^ Nick Kanas (2012), Star Maps: History, Artistry, and Cartography, Second Edition, Chichester, U.K., p. 118, ISBN 978-1-4614-0917-5 
+^ a b c d Staal 1988, p. 249.
+^ "Ian Ridpath’s Star Tales – Crux". Retrieved August 5, 2013. 
+^ http://www.smh.com.au/national/sons-and-daughters-of-the-southern-cross-20091009-gqub.html
+^ "Crux - Trishanku". Space Yuga. 2010-02-10. Retrieved 2011-06-15. 
+^ Daldjoeni, N. (1984). "Pranatamangsa, the javanese agricultural calendar – Its bioclimatological and sociocultural function in developing rural life.". The Environmentalist 4: 15–18. doi:10.1007/BF01907286. 
+^ "Māori Dictionary; Waka o Tama-rereti, Te". Retrieved 4 February 2013. 
+^ "Chakana: Inca Cross". 23 June 2007. Retrieved 9 July 2012. 
+^ Velt 1990.
+^ Clegg, Andrew (1986). "Some Aspects of Tswana Cosmology". Botswana Notes and Records 18: 33–37. JSTOR 40979758. 
+^ Staal 1988, p. 251.
+^ Staal 1988, p. 250.
+^ Basso, Ellen B. (1987). In Favor of Deceit: A Study of Tricksters in an Amazonian Society. Tucson, Arizona: University of Arizona Press. p. 360. ISBN 0816510229. 
+^ "Constellation". Cosmos - The SAO Encyclopedia of Astronomy. Swinburne University. (Table of all constellations). 
+^ "Zodiac". Cosmos - The SAO Encyclopedia of Astronomy. Swinburne University. 
+^ a b Grainger, DH. Don't die in the Bundu (8th ed.). Cape Town. pp. 84–86. ISBN 0 86978 056 5. 
+
+References
+Levy, David H. (2005), Deep Sky Objects, Prometheus Books, ISBN 1-59102-361-0 
+Pasachoff, Jay M. (2006), A Field Guide to the Stars and Planets, Houghton Mifflin 
+Ridpath, Ian; Tirion, Wil (2001), Stars and Planets Guide, Princeton University Press, ISBN 0-691-08913-2 
+Velt, Kik (1990), Stars Over Tonga, 'Atenisi University 
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Crux&oldid=609636799"

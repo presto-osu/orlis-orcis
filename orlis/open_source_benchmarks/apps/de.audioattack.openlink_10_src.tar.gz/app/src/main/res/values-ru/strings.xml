@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_label">открыть ссылку</string>
+    <string name="error_unable_to_open">Не удается открыть:\n%1$s</string>
+    <string name="error_no_url_found">Ссылки не найден.</string>
+    <string name="lbl_video">Инструкции</string>
+    <string name="lbl_source_code">Исходный код</string>
+
+</resources>

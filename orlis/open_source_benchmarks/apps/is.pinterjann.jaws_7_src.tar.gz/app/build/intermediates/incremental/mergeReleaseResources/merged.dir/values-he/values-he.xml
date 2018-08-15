@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_network_order_titles">
+        <item>אות חזק ביותר ראשון</item>
+        <item>אות חזק ביותר אחרון</item>
+    </string-array>
+    <string-array name="pref_scan_interval_titles">
+        <item>זמן אמת</item>
+        <item>שנייה אחת</item>
+        <item>5 שניות</item>
+        <item>10 שניות</item>
+        <item>30 שניות</item>
+        <item>דקה 1</item>
+        <item>5 דקות</item>
+    </string-array>
+    <string name="action_about">אודות JAWS</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="app_name">JAWS</string>
+    <string name="network_channel">ערוץ</string>
+    <string name="pref_general">כללי</string>
+    <string name="pref_network_order">סדר רשת</string>
+    <string name="pref_scan_interval">תדירות סריקה</string>
+    <string name="pref_switch_wifi_off_when_not_scanning">חסור בסוללה</string>
+    <string name="pref_switch_wifi_off_when_not_scanning_summary">כבה WiFi לאחר שימוש</string>
+    <string name="title_activity_about">אודות JAWS</string>
+    <string name="title_activity_settings">הגדרות</string>
+    <string name="toast_wifi_enabled">WiFi מאופשר אוטומטית</string>
+</resources>

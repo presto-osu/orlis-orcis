@@ -1,0 +1,121 @@
+apply plugin: 'com.android.application'
+
+Properties props = new Properties()
+File gradlePropertiesFile = file("gradle.properties")
+if (!gradlePropertiesFile.exists()) {
+    throw new IllegalStateException(
+            "Please create the file 'gradle.properties' before " +
+                    "importing the project. Do not forget to add custom values!"
+    )
+}
+props.load(new FileInputStream(gradlePropertiesFile))
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        versionCode 39
+        versionName "1.32.2"
+        minSdkVersion 14
+        targetSdkVersion 22
+
+        archivesBaseName = "Fahrplan-$versionName"
+
+        // Build information
+        buildConfigField "String", "BUILD_TIME", "\"${buildTime()}\""
+        buildConfigField "String", "GIT_SHA", "\"${gitSha()}\""
+    }
+
+    buildTypes {
+        debug {
+            versionNameSuffix "-DEBUG"
+            applicationIdSuffix ".debug"
+            zipAlignEnabled true
+            debuggable true
+        }
+        release {
+            zipAlignEnabled true
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+
+
+    productFlavors {
+        ccc31c3 {
+            applicationId "nerd.tuxmobil.fahrplan.congress"
+            buildConfigField "String", "SCHEDULE_URL", '"https://events.ccc.de/congress/2014/Fahrplan/schedule.xml"'
+            buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"http://events.ccc.de"'
+            buildConfigField "String", "SCHEDULE_EVENT_PART", '"/events/%1$s.html"'
+            buildConfigField "String", "SCHEDULE_PART", '"/congress/2014/Fahrplan"'
+            buildConfigField "String", "VENUE", '"cch"'
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_YEAR", "2014"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_MONTH", "12"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_DAY", "27"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_YEAR", "2014"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_MONTH", "12"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_DAY", "31"
+            buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://frab.cccv.de/en/31C3/public/events/%s/feedback/new"'
+        }
+        camp2015 {
+            applicationId "nerd.tuxmobil.fahrplan.camp"
+            buildConfigField "String", "SCHEDULE_URL", '"https://events.ccc.de/camp/2015/Fahrplan/schedule.xml"'
+            buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"http://events.ccc.de"'
+            buildConfigField "String", "SCHEDULE_EVENT_PART", '"/events/%1$s.html"'
+            buildConfigField "String", "SCHEDULE_PART", '"/camp/2015/Fahrplan"'
+            buildConfigField "String", "VENUE", '"mildenberg"'
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_YEAR", "2015"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_MONTH", "8"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_DAY", "13"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_YEAR", "2015"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_MONTH", "8"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_DAY", "17"
+            buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://frab.cccv.de/en/camp2015/public/events/%s/feedback/new"'
+        }
+        ccc32c3 {
+            applicationId "nerd.tuxmobil.fahrplan.congress"
+            buildConfigField "String", "SCHEDULE_URL", '"https://streaming.media.ccc.de/configs/conferences/32c3/tuxmobil.xml"'
+            buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"https://events.ccc.de"'
+            buildConfigField "String", "SCHEDULE_EVENT_PART", '"/events/%1$s.html"'
+            buildConfigField "String", "SCHEDULE_PART", '"/congress/2015/Fahrplan"'
+            buildConfigField "String", "VENUE", '"cch"'
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_YEAR", "2015"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_MONTH", "12"
+            buildConfigField "int", "SCHEDULE_FIRST_DAY_START_DAY", "27"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_YEAR", "2015"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_MONTH", "12"
+            buildConfigField "int", "SCHEDULE_LAST_DAY_END_DAY", "31"
+            buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://frab.cccv.de/en/32C3/public/events/%s/feedback/new"'
+        }
+    }
+
+    lintOptions {
+        // for okio - https://github.com/square/okio/issues/58
+        warning "InvalidPackage"
+    }
+}
+
+dependencies {
+    compile "com.android.support:appcompat-v7:23.1.1"
+    compile 'com.squareup.okhttp:okhttp:2.7.0'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'com.squareup.assertj:assertj-android:1.1.1'
+    testCompile 'com.android.support:support-annotations:23.1.1'
+
+}
+
+def gitSha() {
+    def res = 'git rev-parse --short HEAD'.execute([], project.rootDir).text.trim()
+    def diff = 'git diff'.execute([], project.rootDir).text.trim()
+    if (diff != null && diff.length() > 0) {
+        res += "-dirty"
+    }
+    return res
+}
+
+def buildTime() {
+    return new Date().format("yyyy-MM-dd'T'HH:mm'Z'", TimeZone.getTimeZone("UTC"))
+}

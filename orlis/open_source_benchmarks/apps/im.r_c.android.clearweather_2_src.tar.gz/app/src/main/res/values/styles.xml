@@ -1,0 +1,101 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="BaseLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="VerticalLinearLayout" parent="BaseLayout">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="HorizontalLinearLayout" parent="BaseLayout">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="Toolbar" parent="BaseLayout">
+        <item name="android:layout_height">@dimen/toolbar_layout_height</item>
+        <item name="android:layout_marginBottom">@dimen/toolbar_layout_margin_bottom</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingLeft">@dimen/toolbar_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/toolbar_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/toolbar_padding_top</item>
+    </style>
+
+    <style name="BaseTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/textColorDark</item>
+    </style>
+
+    <style name="CenterTextView" parent="BaseTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="NowTemperatureTextView" parent="BaseTextView">
+        <item name="android:textSize">80sp</item>
+    </style>
+
+    <style name="CountyTextView" parent="CenterTextView">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="CountyWeatherTextView" parent="CenterTextView">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="DayTitleTextView" parent="CenterTextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">@dimen/detail_margin_below_title</item>
+    </style>
+
+    <style name="DetailTextView" parent="BaseTextView">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="DetailTextView.Title" parent="DetailTextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingLeft">@dimen/detail_text_view_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/detail_text_view_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/detail_text_view_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/detail_text_view_padding_vertical</item>
+    </style>
+
+    <style name="DetailTextView.Title.Left" parent="DetailTextView.Title">
+        <item name="android:layout_marginLeft">@dimen/today_detail_title_margin</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="DetailTextView.Title.Right" parent="DetailTextView.Title">
+        <item name="android:layout_marginRight">@dimen/today_detail_title_margin</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="HalfLayout" parent="BaseLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="DetailItemLayout.Left" parent="HalfLayout">
+        <item name="android:layout_marginRight">@dimen/today_detail_item_layout_margin</item>
+    </style>
+
+    <style name="DetailItemLayout.Right" parent="HalfLayout">
+        <item name="android:layout_marginLeft">@dimen/today_detail_item_layout_margin</item>
+    </style>
+
+    <style name="BorderlessButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

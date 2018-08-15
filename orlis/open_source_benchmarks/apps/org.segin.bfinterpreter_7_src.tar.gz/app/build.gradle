@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "org.segin.bfinterpreter"
+        minSdkVersion 7
+        targetSdkVersion 21
+        versionCode 7
+        versionName "0.7"
+    }
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:21.0.+'
+}

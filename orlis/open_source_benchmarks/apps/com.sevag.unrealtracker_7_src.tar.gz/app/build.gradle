@@ -1,0 +1,38 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+classpath 'com.android.tools.build:gradle:2.2.0'
+    }
+}
+apply plugin: 'com.android.application'
+
+repositories {
+    jcenter()
+}
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 21
+    buildToolsVersion "22.0.0"
+
+    defaultConfig {
+        applicationId "com.sevag.unrealtracker"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 7
+        versionName "1.4"
+    }
+
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'org.jsoup:jsoup:1.8.1'
+}

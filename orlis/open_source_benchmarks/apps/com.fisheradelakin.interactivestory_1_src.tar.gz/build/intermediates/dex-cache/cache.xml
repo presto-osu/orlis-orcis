@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.fisheradelakin.interactivestory_1_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.fisheradelakin.interactivestory_1_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.2_c4cc9f8a70bc7e945da264913567764efbf678fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.fisheradelakin.interactivestory_1_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/jars/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.fisheradelakin.interactivestory_1_src.tar.gz/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2_703c0f690f371a247c197bf557eb91e91b0eb143.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.fisheradelakin.interactivestory_1_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.fisheradelakin.interactivestory_1_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-21.0.2_283cca5f6955888153e92b2e3fa22ee3ba231e48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="21.1.2"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.fisheradelakin.interactivestory_1_src.tar.gz/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2_2fbcc504759e172b3bc848a8012d1dcc3f3f28b3.jar" />
+    </item>
+
+</items>

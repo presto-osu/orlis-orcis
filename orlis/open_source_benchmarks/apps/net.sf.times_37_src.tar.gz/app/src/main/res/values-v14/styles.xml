@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Zmanim" parent="android:Widget.DeviceDefault"/>
+
+    <style name="Zmanim.ListView" parent="android:Widget.DeviceDefault.ListView"/>
+
+    <style name="Zmanim.TextAppearance.Title" parent="android:TextAppearance.DeviceDefault.Medium">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Zmanim.TextAppearance.Time" parent="android:TextAppearance.DeviceDefault.Medium">
+    </style>
+
+    <style name="Zmanim.TextAppearance.Summary" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:maxLines">3</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+</resources>

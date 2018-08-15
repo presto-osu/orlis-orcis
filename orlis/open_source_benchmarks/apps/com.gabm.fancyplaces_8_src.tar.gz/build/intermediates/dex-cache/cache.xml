@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.1.1_24c696614c3261b389fcc78be5b2912930e09502.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-21.0.3_ecc164e5a62e13434f3b5a107b5aaf30c4e3094d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/pre-dexed/debug/library-2.4.0_986542e5907d06845e187279120d03e2b461009f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.6.1/6f3b8a24bf970f17289b234284c94f43eb42f0e4/slf4j-api-1.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6f3b8a24bf970f17289b234284c94f43eb42f0e4">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/pre-dexed/debug/slf4j-api-1.6.1_bb96e2fe0fe54d3fa8cbb8536a3b2ab9c07c7e82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.1.1_ada4ecc7d9c3cdbb5e68f2ff99bd0bf369ecff03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/.gradle/caches/modules-2/files-2.1/org.osmdroid/osmdroid-android/4.3/2fcf7bc3cb27daa6e67c8990ea418d19f6b5b296/osmdroid-android-4.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2fcf7bc3cb27daa6e67c8990ea418d19f6b5b296">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/pre-dexed/debug/osmdroid-android-4.3_018abca7709cbd08536756f63bcbc161a4ae7a1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1_06592b51228c09366cbd9d82f6e69905cf14a962.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.melnykov-floatingactionbutton-1.3.0_a8ab5b56b51f18dbd5b039fd4b879395010b3ff5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.6.1/58e59bfb3e247097b8122243b3bfe0049c8cfae8/slf4j-simple-1.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="58e59bfb3e247097b8122243b3bfe0049c8cfae8">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/pre-dexed/debug/slf4j-simple-1.6.1_1e41816ad5392eff91f007e052efdc7c09d0b1e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gabm.fancyplaces_8_src.tar.gz/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1_302d14df46c2aa0bc857dbfa4b41edeafe5f6c2e.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,17 @@
+# files for the dex VM
+*.dex
+
+# generated files
+bin/
+gen/
+*.apk
+out/
+build/
+gradle/
+.gradle/
+
+# Local configuration file (sdk path, etc)
+local.properties
+/.settings/*
+.idea/
+*.iml

@@ -1,0 +1,116 @@
+Abbreviation: Pic    
+Genitive: Pictoris    
+Pronunciation: /ˈpɪktər/, genitive /pɪkˈtɔərɨs/    
+Symbolism: Easel    
+Right ascension: 4.53 h ~ 6.85    
+Declination: −43° ~ −64    
+Family: La Caille    
+Quadrant: SQ1    
+Area: 247 sq. deg. (59th)    
+Main stars: 3    
+Bayer/Flamsteed stars: 15    
+Stars with planets: 4    
+Stars brighter than 3.00m: none    
+Stars within 10.00 pc (32.62 ly): 1    
+Brightest star: α Pic (3.30m)    
+Nearest star: Kapteyn's Star (12.77 ly, 3.92 pc)    
+Messier objects: none    
+Meteor showers: none    
+Bordering constellations: Caelum Carina Columba Dorado Puppis Volans    
+Visible at latitudes between +26° and −90°. Best visible at 21:00 (9 p.m.) during the month of January. 
+   
+Pictor is a small and faint constellation in the southern sky (declination −50° to −60°), located between the brilliant star Canopus and the Large Magellanic Cloud. Its name is Latin for painter, but it is in fact an abbreviation of its original name Equuleus Pictoris, the 'painter's easel', and it is normally represented as an easel. It was invented and named by Abbé Nicolas Louis de Lacaille in the 18th century.
+Pictor has attracted attention in recent years because of its second-brightest star Beta Pictoris, 63.4 light-years distant, which is surrounded by an unusual dust disk rich in carbon, as well as an extrasolar planet. Another four stars in the constellation have been found to have extrasolar planets. The constellation also hosts RR Pictoris, a nova which brightened to magnitude 1.2 in 1925.
+
+History
+The French astronomer Nicolas Louis de Lacaille first described the constellation as le Chevalet et la Palette (the easel and palette) in 1756, and gave Bayer designations to ten stars now named Alpha to Nu Pictoris (he erred in naming the wrong star with the Greek letter epsilon, which is now not used). He labelled it Equuleus Pictorius on his 1763 chart., the word "Equuleus" meaning ass, small horse, or easel, perhaps from an old custom among artists of carrying a canvass on a donkey. Johann Bode called it Pluteum Pictoris. The name was shortened to Pictor in 1845 by Francis Baily on the suggestion of Sir John Herschel.
+
+Characteristics
+Pictor is a small constellation bordered by Columba to the north, Puppis and Carina to the east, Caelum to the northwest, Dorado to the southwest and Volans to the south. The three-letter abbreviation for the constellation, as adopted by the International Astronomical Union in 1922, is 'Pic'. The official constellation boundaries, as set by Eugène Delporte in 1930, are defined by a polygon of 18 segments. In the equatorial coordinate system, the right ascension coordinates of these borders lie between 04h 32.5m and 06h 52.0m, while the declination coordinates are between −42.79° and −64.15°. Pictor culminates each year at 9 p.m. on 17 March. Its position in the far southern celestial hemisphere means that it is invisible from Europe.
+
+Notable features
+Stars
+Pictor is a faint constellation, its three brightest stars forming a line near the bright star Canopus. Located around 97 light-years away from Earth, Alpha Pictoris is the brightest star in the constellation, with an apparent magnitude of 3.3 and spectral type A8VnkA6. Beta Pictoris is another white main sequence star of spectral type A6V and apparent magnitude 3.86. In 1984, Beta was the first star discovered to have a debris disk. Since then a planet around 8 times the mass of Jupiter has been discovered orbiting around 8 AU away from the star—a similar distance between our Sun and Saturn. The European Southern Observatory (ESO) has since confirmed its presence through the use of direct imagery.
+Gamma Pictoris is an orange giant of spectral type K1III and apparent magnitude 4.5 lying around 174 light years distant. HD 42540, called 47 Pictoris by Benjamin Apthorp Gould, is another orange giant, this time of spectral type K2.5III and average magnitude 5.04. It is a suspected variable star. Lacaille mistakenly named this star Mu Doradus, but had recorded its Right Ascension one hour too small. Lacaille named two neighbouring stars Eta Pictoris. Eta2 Pictoris, also known as HR 1663, is an orange giant of spectral type K5III and apparent magnitude 5.05. It is 474 light years distant. Eta1 Pictoris, also known as HR 1649, is 85 light years distant and is a main sequence star of spectral type F5V and visual magnitude 5.38. A double star, it has a companion of magnitude 13 separated by 11 arcseconds.
+Located around 1298 light-years from Earth, Delta Pictoris is an eclipsing binary of the Beta Lyrae type. Composed of two blue stars of spectral types B3III and O9V, the system has a period of 1.67 days, and is observed to dip from apparent magnitude 4.65 to 4.9. The stars are oval shaped. TV Pictoris is a spectroscopic binary system composed of an A-type star and an F-type star which rotate around each other in a very close orbit. The latter star is elliptical in shape and shows some intrinsic variability. The visual magnitude ranges between 7.37 and 7.53 every 20 hours.
+Aside from Beta, four other stars in Pictor are known to host planetary systems. AB Pictoris is a BY Draconis variable star with a companion that is an extrasolar planet or a brown dwarf. HD 40307 is an orange main sequence star of spectral type K2.5V and apparent magnitude 7.17 located around 42 light-years away. As of 7 November 2012, research indicates that HD 40307 is host to six super-earth planets, one of which, HD 40307 g, lies in the habitable zone of the star, and is far enough away to not be tidally locked (unlike the other planets in the same system, and many other exoplanets which orbit close to their parent stars.)  HD 41004 is a complex binary system about 139 light years distant. The primary is an orange dwarf of spectral type K1V orbited by a planet roughly 2.65 times the mass of Jupiter every 963 days, while the secondary is a red dwarf of spectral type M2V and orbited by a brown dwarf that is at least 19 times as massive as Jupiter.
+Kapteyn's Star, a nearby red dwarf at the distance of 12.78 light years, has a magnitude of 8.8. It has the largest proper motion of any star in the sky after Barnard's Star. Moving around the Milky Way in the opposite direction to most other stars, it may have originated in a dwarf galaxy that was merged into our galaxy, with the main remnant being the Omega Centauri globular cluster.
+Located 1.5 degrees west southwest of Alpha, RR Pictoris is a cataclysmic variable that flared up as a nova, reaching magnitude 1.2 in on 9 June 1925. It is a close binary system composed of a white dwarf and secondary star that orbit each other every 3.48 hours—so close that the secondary is filling up its Roche lobe with stellar material, which is then transferred onto the first star's accretion disc. Once this material reaches a critical mass, it ignites and the system brightens tremendously. Calculations of the speed suggest the secondary star is not dense enough for its size to still be on the main sequence, so it itself must have begun expanding and cooling already as its core has run out of hydrogen fuel. TW Pictoris is a cataclysmic variable system of magnitude 14 which contains a magnetic white dwarf, and is an X-ray source.
+
+Deep-sky objects
+NGC 1705 is an irregular dwarf galaxy 17 million light-years from Earth. It is one of the most active star forming galaxies in the nearby universe, despite the fact that its rate of star formation peaked around 30 million years ago.
+Pictor A is a remote double lobed radio galaxy which is a powerful source of radio waves in the southern sky. From a supermassive black hole at its centre, a relativistic jet shoots out to an X ray hot spot 800,000 light years away.
+SPT-CL J0546-5345 is a massive galaxy cluster located around 7 billion light years away with a mass equivalent to approximately 800 trillion suns.
+
+References
+Citations
+^ a b Ridpath, Star Tales Pictor.
+^ a b Wagman 2003, p. 246.
+^ Chartrand 1982, p. 176.
+^ Russell 1922, p. 469.
+^ IAU, The Constellations, Pictor.
+^ The Constellations : Part 2 Culmination Times.
+^ Moore, .27.27Stargazing.27.27 2000, p. 118.
+^ SIMBAD Alpha Pictoris.
+^ SIMBAD Beta Pictoris.
+^ Smith 1984.
+^ Lagrange, Anne-Marie (10 June 2010). "Exoplanet Caught on the Move". European Southern Observatory. Retrieved 25 May 2014. 
+^ SIMBAD Gamma Pictoris.
+^ SIMBAD HR 2196.
+^ AAVSO HR 2196.
+^ Harvard College Observatory 1883.
+^ SIMBAD HR 1663.
+^ SIMBAD HR 1649.
+^ SIMBAD CD-49 1541B.
+^ SIMBAD Delta Pictoris.
+^ Malkov & Oblak 2006.
+^ Cousins 1966.
+^ Pavlovski 1998.
+^ AAVSO TV Pictoris.
+^ http://arxiv.org/abs/1211.1617
+^ Zucker, S.; Mazeh, T.; Santos, N.C.; Udry, S.; Mayor, M. (2004). "Multi-order TODCOR: Application to Observations Taken with the CORALIE Echelle Spectrograph. II. A Planet in the System HD 41004". Astronomy & Astrophysics 426 (2): 695–98. Bibcode:2004A&A...426..695Z. doi:10.1051/0004-6361:20040384. 
+^ a b Motz & Nathanson 1988, pp. 374–75.
+^ Kotoneva 2005.
+^ Ribeiro, Fabíola M. A.; Diaz, Marcos P. (2006). "A Tomographic Study of the Classical Nova RR Pictoris". Publications of the Astronomical Society of the Pacific 118 (839): 84–93. JSTOR 498458. 
+^ Patterson & Moulden 1993.
+^ Wilkins & Dunn 2006.
+^ Perley 1997.
+^ ChandraPR.
+^ Ghosts of the Future.
+
+Sources
+
+Chartrand, Mark R. III (1982). Skyguide: A Field Guide for Amateur Astronomers. New York City: Doubleday. ISBN 0-307-13667-1. 
+Cousins, A. W. J. (1966). "The eclipsing variable δ Pictoris". Monthly Notices of the Royal Astronomical Society 131: 443–45. Bibcode:1966MNRAS.131..443C. 
+Kotoneva, E.; Innanen, K.; Dawson, P. C.; Wood, P. R.; De Robertis, M. M. (2005). "A study of Kapteyn's star". Astronomy & Astrophysics 438 (3): 957–62. Bibcode:2005A&A...438..957K. doi:10.1051/0004-6361:20042287. 
+Malkov, O. Yu.; Oblak, E.; Snegireva, E. A.; Torra, J. (February 2006). "A catalogue of eclipsing variables". Astronomy and Astrophysics 446 (2): 785–89. Bibcode:2006A&A...446..785M. doi:10.1051/0004-6361:20053137. 
+Moore, Patrick (2000). Stargazing: Astronomy without a Telescope. Cambridge, United Kingdom: Cambridge University Press. ISBN 978-0-521-79445-9. 
+Motz, Lloyd; Nathanson, Carol (1988). The Constellations. New York City: Doubleday. ISBN 978-0-385-17600-2. 
+Harvard College Observatory (April 1883). "Notes". The Observatory 6: 127–31. Bibcode:1883Obs.....6..127. 
+Patterson, Joseph; Moulden, , Margaret. "Rapid oscillations in cataclysmic variables. X - TW Pictoris (=H 0534-581)". Astronomical Society of the Pacific 105 (689): 779–84. Bibcode:1993PASP..105..779P. doi:10.1086/133229. ISSN 0004-6280. 
+Pavlovski, K.; Cuypers, J.; David, M.; Griffin, R. E. M.; Hensberge, H.; Ilijic, S.; Verschueren, W. (1998). "The nearby ellipsoidal variable TV Pictoris". Astronomy and Astrophysics 331: 639–50. Bibcode:1998A&A...331..639P. 
+Perley, Richard A.; Röser, , Hermann-Josef; Meisenheimer, Klaus (1997). "The radio galaxy Pictor A - a study with the VLA". Astronomy and Astrophysics 328: 12–32. Bibcode:1997A&A...328...12P. 
+Ridpath, Ian (1988). "Pictor". Star Tales. Retrieved 13 October 2012. 
+Russell, Henry Norris (October 1922). "The new international symbols for the constellations". Popular Astronomy 30: 469. Bibcode:1922PA.....30..469R. 
+Smith, B. A.; Terrile, R. J. (1984). "A circumstellar disk around Beta Pictoris". Science 226 (4681): 1421–24. Bibcode:1984Sci...226.1421S. doi:10.1126/science.226.4681.1421. PMID 17788996. 
+Wagman, Morton (2003). Lost Stars: Lost, Missing and Troublesome Stars from the Catalogues of Johannes Bayer, Nicholas Louis de Lacaille, John Flamsteed, and Sundry Others. Blacksburg, VA: The McDonald & Woodward Publishing Company. ISBN 978-0-939923-78-6. 
+Wilkins, Jamie; Dunn, Robert (2006). 300 Astronomical Objects: A Visual Reference to the Universe. Buffalo, New York: Firefly Books. ISBN 978-1-55407-175-3. 
+
+Online sources
+
+"Spectacular X-ray Jet Points Toward Cosmic Energy Booster". Exploring the Universe. Chandra X-ray Observatory. 6 June 2000. Retrieved 13 October 2012. 
+"Ghosts of the Future: First Giant Structures of the Universe". Exploring the Universe. Harvard-Smithsonian Center for Astrophysics. 13 October 2010. Retrieved 12 October 2012. 
+"Pictor, constellation boundary". The Constellations. International Astronomical Union. Retrieved 12 October 2012. 
+James, Andrew (7 February 2011). "'The '"Constellations : Part 2 Culmination Times"'". Southern Astronomical Delights. Sydney, New South Wales. Retrieved 12 October 2012. 
+"LTT 2656 -- High proper-motion Star". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 12 October 2012. 
+"Beta Pictoris". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 12 October 2012. 
+"CD-49 1541B - Star in double system". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 13 October 2012. 
+"Gamma Pictoris". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 12 October 2012. 
+"HR 1649 - Star in double system". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 13 October 2012. 
+"HR 1663 - Variable Star". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 13 October 2012. 
+"HR 2196 - Variable Star". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 13 October 2012. 
+Watson, Christopher (18 January 2010). "NSV 2845". AAVSO Website. American Association of Variable Star Observers. Retrieved 24 May 2014. 
+"Delta Pictoris -- Eclipsing binary of beta Lyr type (semi-detached)". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 12 October 2012. 
+Otero, Sebastian Alberto (21 November 2012). "TV Pictoris". AAVSO Website. American Association of Variable Star Observers. Retrieved 22 May 2014. 
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Pictor&oldid=610352466"

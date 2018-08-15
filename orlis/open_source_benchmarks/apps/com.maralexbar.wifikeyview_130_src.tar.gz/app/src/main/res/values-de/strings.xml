@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wifi Passwort Betrachter</string>
+    <string name="backup">Sichern</string>
+    <string name="restore">Wiederherstellen</string>
+    <string name="ssid">Name</string>
+    <string name="pwd">Passwort</string>
+    <string name="type">Typ</string>
+    <string name="open">Offen</string>
+    <string name="error">Fehler: Root Zugang wird benötigt und die BusyBox Binaries müssen installiert sein</string>
+</resources>

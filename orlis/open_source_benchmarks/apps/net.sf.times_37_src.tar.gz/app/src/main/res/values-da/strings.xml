@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Halachisk Bøn Tider</string>
+    <string name="title_activity_zmanim">Halachisk Tider</string>
+    <string name="location_unknown">Ukendte adresse</string>
+    <string name="location_coords">Brd. %1$s; Lng. %2$s</string>
+    <string name="twelve_hour_time_format">h.mm.ss a</string>
+    <string name="twenty_four_hour_time_format">HH:mm:ss</string>
+    <string name="month_day_year" formatted="false">%-e. %B %Y</string>
+    <string name="off">Slukket</string>
+
+    <!-- Recurring opinions -->
+    <string name="opinion_120">Dag er 120 minutter før solopgang / efter solnedgang</string>
+    <string name="opinion_120_zmanis">Dag er 120 <i>zmanijos</i> minutter før solopgang / efter solnedgang</string>
+    <string name="opinion_16">Dag er 16,1° nedenfor solopgang / solnedgang</string>
+    <string name="opinion_16_sunset">Dag er fra daggry 16,1° til havoverfladen solnedgang</string>
+    <string name="opinion_16_night">Dag er fra daggry 16,1° til mřrkets frembrud</string>
+    <string name="opinion_26">Dag er 26° nedenfor solopgang / solnedgang</string>
+    <string name="opinion_19">Dag er 19,8° nedenfor solopgang / solnedgang</string>
+    <string name="opinion_18">Dag er 18° nedenfor solopgang / solnedgang</string>
+    <string name="opinion_60">Dag er 60 minutter før solopgang / efter solnedgang</string>
+    <string name="opinion_72">Dag er 72 minutter før solopgang / efter solnedgang</string>
+    <string name="opinion_72_zmanis">Dag er 72 <i>zmanijos</i> minutter før solopgang / efter solnedgang</string>
+    <string name="opinion_90">Dag er 90 minutter før solopgang / efter solnedgang</string>
+    <string name="opinion_90_zmanis">Dag er 90 <i>zmanijos</i> minutter før solopgang / efter solnedgang</string>
+    <string name="opinion_96">Dag er 96 minutter før solopgang / efter solnedgang</string>
+    <string name="opinion_96_zmanis">Dag er 96 <i>zmanijos</i> minutter før solopgang / efter solnedgang</string>
+    <string name="opinion_ateret">Ifølge Jeshivat Ateret Tora</string>
+    <string name="opinion_gra">Ifølge GRA og Baal Tanya</string>
+    <string name="opinion_mga">Ifølge Magen Avraham</string>
+    <string name="opinion_tam">Ifølge Rabbeinu Tam</string>
+
+    <!-- Temporal hour -->
+    <string name="hour">Sæsonmæssige time</string>
+
+    <!-- List -->
+    <string name="dawn">Daggry</string>
+
+    <!-- Tallis and Tefillin -->
+    <string name="tallis">Tidligste tallis og tefillin (mishejakir)</string>
+    <string name="tallis_summary">Sol er 11,5° nedenfor horisonten</string>
+    <string name="tallis_11">Sol er 11° nedenfor horisonten</string>
+    <string name="tallis_10">Sol er 10,2° nedenfor horisonten</string>
+
+    <!-- Sunrise -->
+    <string name="sunrise">Solopgang</string>
+    <string name="sunrise_summary">I et niveau region</string>
+    <string name="sunrise_sea">På havoverfladen</string>
+
+    <!-- Latest shema -->
+    <string name="shema">Seneste shema</string>
+    <string name="shema_7">Dag er fra daggry 16,1° til nat 7,083°</string>
+    <string name="shema_3">3 timer før middag</string>
+    <string name="shema_fixed">3 timer før fast lokalt middag</string>
+
+    <!-- Latest shacharis -->
+    <string name="prayers">Seneste morgen bønner (shacharis)</string>
+    <string name="prayers_fixed">2 timer før fast lokalt middag</string>
+    <string name="prayers_2">2 timer før middag</string>
+
+    <!-- Midday -->
+    <string name="midday">Middag (chazos)</string>
+    <string name="midday_summary">Solen middag</string>
+    <string name="midday_fixed">Middag korrigeret for den lokale bredde</string>
+
+    <!-- Earliest mincha -->
+    <string name="earliest_mincha">Mincha gedola</string>
+    <string name="earliest_mincha_summary">Tidligste eftermiddags bønner</string>
+    <string name="earliest_mincha_30">30 minutter efter middag</string>
+
+    <!-- Mincha ketana -->
+    <string name="mincha">Mincha ketana</string>
+    <string name="mincha_summary">Eftermiddagen bønner</string>
+
+    <!-- Plug hamincha -->
+    <string name="plug_hamincha">Plag hamincha</string>
+
+    <!-- Candle lighting -->
+    <string name="candles">Kerte belysning</string>
+    <string name="chanukka">Chanukka</string>
+
+    <plurals name="candles_summary">
+        <item quantity="one">%1$d minut før solnedgang</item>
+        <item quantity="other">%1$d minutter før solnedgang</item>
+    </plurals>
+    <plurals name="candles_chanukka">
+        <item quantity="one">%1$d Chanukka lys</item>
+        <item quantity="other">%1$d Chanukka stearinlys</item>
+    </plurals>
+
+    <!-- Sunset -->
+    <string name="sunset">Solnedgang</string>
+
+    <!-- Twilight -->
+    <string name="twilight">Tusmørke</string>
+    <string name="twilight_2stars">2 stjerner synlige</string>
+    <string name="twilight_7_083">13,5 minutter før 7,083° mørkets frembrud</string>
+    <string name="twilight_58">58,5 minutter efter solnedgang</string>
+    <string name="twilight_13">Sol er 13,24° nedenfor horisonten</string>
+
+    <!-- Nightfall -->
+    <string name="nightfall">Mørkets frembrud</string>
+    <string name="nightfall_3stars">3 stjerner synlige</string>
+    <string name="nightfall_3_65">Sol er 3,65° nedenfor havoverfladen</string>
+    <string name="nightfall_3_676">Sol er 3,676° nedenfor havoverfladen</string>
+    <string name="nightfall_4_37">Sol er 4,37° nedenfor havoverfladen</string>
+    <string name="nightfall_4_61">Sol er 4,61° nedenfor havoverfladen</string>
+    <string name="nightfall_4_8">Sol er 4,8° nedenfor havoverfladen</string>
+    <string name="nightfall_5_88">Sol er 5,88° nedenfor havoverfladen</string>
+    <string name="nightfall_5_95">Sol er 5,95° nedenfor havoverfladen</string>
+    <string name="nightfall_7">Sol er 7,083° nedenfor havoverfladen</string>
+    <string name="nightfall_8">Sol er 8,5° nedenfor havoverfladen</string>
+
+    <!-- Midnight -->
+    <string name="midnight">Midnat (chazos)</string>
+    <string name="midnight_summary">Solen midnat</string>
+    <string name="midnight_12">12 timer efter middag</string>
+    <string name="midnight_6">6 timer efter mørkets frembrud</string>
+
+    <!-- Pesach -->
+    <string name="eat_chametz">Seneste tid til at spise chamez</string>
+    <string name="burn_chametz">Seneste tid til at brænde chamez</string>
+
+    <!-- Moon -->
+    <string name="molad">Fødslen af nymåne (molad)</string>
+    <string name="molad_summary">Gennemsnitlige molad</string>
+    <string name="levana_earliest">Tidligste velsignelse af nymåne (kiddush levana)</string>
+    <string name="levana_earliest_summary">3 dage efter molad</string>
+    <string name="levana_7">7 dage efter molad</string>
+    <string name="levana_latest">Seneste velsignelse af nymåne (kiddush levana)</string>
+    <string name="levana_latest_summary">Halvvejs mellem molad og molad</string>
+    <string name="levana_15">15 dage efter molad</string>
+
+    <!-- Fast / Taanis -->
+    <string name="fast_begins">Faste begynder </string>
+    <string name="fast_ends">Faste ender</string>
+
+    <!-- Omer -->
+    <string name="omer">Omer</string>
+    <string name="omer_format">%1$s %2$s</string>
+    <string name="omer_33">Lag %1$s</string>
+    <string name="omer_off">@string/off</string>
+    <string name="omer_b">BaOmer</string>
+    <string name="omer_l">LaOmer</string>
+
+    <!-- Preferences -->
+    <string name="menu_settings">Indstillinger</string>
+    <string name="pref_general_title">Generelt</string>
+    <string name="pref_appearance_title">Udseende</string>
+    <string name="coords_title">Koordinater</string>
+    <string name="coords_format_title">Koordinater format</string>
+    <string name="coords_format_decimal">Decimal</string>
+    <string name="coords_format_sexagesimal">Sexagesimal</string>
+    <string name="past_title">Tider der er gået</string>
+    <string name="seconds_title">Sekunder</string>
+    <string name="summaries_title">Sammenfatninger</string>
+    <string name="gradient_title">Gradienten baggrund</string>
+    <string name="theme_dark">Mørk</string>
+    <string name="theme_light">Lys</string>
+    <string name="theme_none">Ingen</string>
+
+    <!-- Go to date -->
+    <string name="menu_date">Dato</string>
+    <string name="today">I dag</string>
+    <string name="yesterday">i Går</string>
+    <string name="tomorrow">i Morgen</string>
+
+    <!-- Compass -->
+    <string name="menu_compass">Kompas</string>
+    <string name="title_activity_compass">Retning af bøn</string>
+    <string name="compass_summary">Retning for bøn til Allerhelligste i Jerusalem</string>
+    <string name="north">N</string>
+    <string name="east">Ø</string>
+    <string name="south">S</string>
+    <string name="west">V</string>
+
+    <!-- Setting per time -->
+    <string name="opinion">Udtalelse</string>
+    <string name="emphasis_title">Vægten</string>
+    <string name="animations">Animationer</string>
+
+    <!-- Location -->
+    <string name="menu_location">Placering</string>
+    <string name="title_activity_location">Min placering</string>
+
+    <!-- Settings screen - Privacy -->
+    <string name="pref_privacy_security_title">Sikkerhed og personlige oplysninger</string>
+    <string name="pref_privacy_clear_history">Ryd historik</string>
+
+    <!-- About -->
+    <string name="pref_about_title">Om</string>
+    <string name="version">Programversion</string>
+    <string name="kosherjava">KosherJava</string>
+    <string name="kosherjava_version">Ophavsret \u00A9 2004–2011 Eliyahu Hershfeld</string>
+
+    <!-- Widget -->
+    <string name="title_widget_clock">Halachisk Tider Ur</string>
+
+    <!-- Reminder -->
+    <string name="reminder">Påmindelse</string>
+    <string name="reminder_stream_title">Påmindelse typen</string>
+    <string name="reminder_tone">Påmindelse ringetone</string>
+    <string name="alarm_volume_title" msgid="2285597478377758706">"Alarm"</string>
+    <string name="notification_volume_title" msgid="2012640760341080408">"Underretning"</string>
+    <string name="reminder_friday">Mind på fredag</string>
+    <string name="reminder_monday">Mind på mandag</string>
+    <string name="reminder_saturday">Mind på lørdag og helligdage</string>
+    <string name="reminder_sunday">Mind på søndag</string>
+    <string name="reminder_thursday">Mind på torsdag</string>
+    <string name="reminder_tuesday">Mind på tirsdag</string>
+    <string name="reminder_wednesday">Mind på onsdag</string>
+
+</resources>

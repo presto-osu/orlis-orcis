@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="de.live.gdev.timetracker.InfoActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:id="@+id/text_android_app_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/accent"
+            android:gravity="center"
+            android:minHeight="50dp"
+            android:text="Android App"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/primary_light" />
+
+        <TextView
+            android:id="@+id/text_android_app_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_android_app_info"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:autoLink="web|email"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/info_author"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/text_additional_contact_info"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_android_app_author"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:background="@color/accent"
+            android:gravity="center"
+            android:minHeight="50dp"
+            android:text="@string/info_additionalContact"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/primary_light" />
+
+        <TextView
+            android:id="@+id/text_additional_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_additional_contact_info"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:autoLink="web"
+            android:clickable="true"
+            android:text="@string/page_additional_homepage_short"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/text_app_version"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/primary_dark"
+            android:clickable="true"
+            android:gravity="center"
+            android:minHeight="50dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/primary_light"
+            tools:text="App Version   vA.b" />
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

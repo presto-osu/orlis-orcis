@@ -1,0 +1,109 @@
+Abbreviation: Aql    
+Genitive: Aquilae    
+Pronunciation: /ˈækwɨlə/ Áquila, occasionally /əˈkwɪlə/; genitive /ˈækwɨliː/    
+Symbolism: the Eagle    
+Right ascension: 18h 41m 18.2958s–20h 38m 23.7231s    
+Declination: 18.6882229°–−11.8664360°    
+Family: Hercules    
+Area: 652 sq. deg. (22nd)    
+Main stars: 10    
+Bayer/Flamsteed stars: 65    
+Stars with planets: 9    
+Stars brighter than 3.00m: 3    
+Stars within 10.00 pc (32.62 ly): 2    
+Brightest star: Altair (α Aql) (0.76m)    
+Nearest star: Altair (α Aql) (16.77 ly, 5.13 pc)    
+Messier objects: 0    
+Meteor showers: June Aquilids Epsilon Aquilids    
+Bordering constellations: Sagitta Hercules Ophiuchus Serpens Cauda Scutum Sagittarius Capricornus Aquarius Delphinus    
+Visible at latitudes between +90° and −75°. Best visible at 21:00 (9 p.m.) during the month of August.  
+  
+Aquila is a constellation in the northern sky. Its name is Latin for 'eagle' and it represents the bird who carried Zeus/Jupiter's thunderbolts in Greco-Roman mythology.
+Aquila lies just a few degrees North of the celestial equator. The alpha star, Altair, is a vertex of the Summer Triangle asterism. The constellation is best seen in the summer as it is located along the Milky Way. Because of this location along the line of our galaxy, many clusters and nebulae are found within its borders, but they are dim and there are few galaxies.
+
+History
+The former constellation Antinous was merged into Aquilla in 1930, but both can be seen in this 1825 chart from Urania's Mirror.
+Aquila was one of the 48 constellations described by the 2nd century astronomer Ptolemy. It had been earlier mentioned by Eudoxus in the 4th century BC and Aratus in the 3rd century BC. It is now one of the 88 constellations defined by the International Astronomical Union. The constellation was also known as Vultur volans (the flying vulture) to the Romans, not to be confused with Vultur cadens which was their name for Lyra. It is often held to represent the eagle who held Zeus's/Jupiter's thunderbolts in Greco-Roman mythology. Aquila is also associated with the eagle who kidnapped Ganymede, a son of one of the kings of Troy (associated with Aquarius), to Mount Olympus to serve as cup-bearer to the gods.
+Ptolemy catalogued nineteen stars jointly in this constellation and in the now obsolete constellation of Antinous, which was named in the reign of the emperor Hadrian (AD 117–138), but sometimes erroneously attributed to Tycho Brahe, who catalogued twelve stars in Aquila and seven in Antinous. Hevelius determined twenty-three stars in the first and nineteen in the second.
+The Greek Aquila is probably based on the Babylonian constellation of the Eagle (MUL.A.MUSHEN), which is located in the same area as the Greek constellation.
+
+Notable features
+Stars
+Aquila, which lies in the Milky Way, contains many rich starfields and has been the location of many novae.
+α Aql (Altair) is the brightest star in this constellation and one of the closest naked-eye stars to Earth at a distance of 17 light-years. Its name comes from the Arabic phrase "al-nasr al-tair", meaning "the flying eagle". Altair has a magnitude of 0.76.
+β Aql (Alshain) is a yellow-hued star of magnitude 3.7, 45 light-years from Earth. Its name comes from the Arabic phrase "shahin-i tarazu", meaning "the balance"; this name referred to Altair, Alshain, and Tarazed.
+γ Aql (Tarazed) is an orange-hued giant star of magnitude 2.7, 460 light-years from Earth. Its name, like that of Alshain, comes from the Arabic for "the balance", "shahin-i tarazu".
+ζ Aql is a blue-white-hued star of magnitude 3.0, 83 light-years from Earth.
+η Aql is a yellow-white-hued supergiant star, 1200 light-years from Earth. Among the brightest Cepheid variable stars, it has a minimum magnitude of 4.4 and a maximum magnitude of 3.5 with a period of 7.2 days.
+15 Aql is an optical double star. The primary is an orange-hued giant of magnitude 5.4, 325 light-years from Earth. The secondary is a purple-hued star of magnitude 7.0, 550 light-years from Earth. The pair is easily resolved in small amateur telescopes.
+57 Aql is a binary star. The primary is a blue-hued star of magnitude 5.7 and the secondary is a white star of magnitude 6.5. The system is approximately 350 light-years from Earth; the pair is easily resolved in small amateur telescopes.
+R Aql is a red-hued giant star 690 light-years from Earth. It is a Mira variable with a minimum magnitude of 12.0, a maximum magnitude of 6.0, and a period of approximately 9 months. It has a diameter of 400 D☉.
+FF Aql is a yellow-white-hued supergiant star, 2500 light-years from Earth. It is a Cepheid variable star with a minimum magnitude of 5.7, a maximum magnitude of 5.2, and a period of 4.5 days.
+ρ Aql moved across the border into neighboring Delphinus in 1992.
+
+Novae
+Two major novae have been observed in Aquila: the first one was in 389 BC and was recorded as being as bright as Venus; the other (Nova Aquilae 1918) briefly shone brighter than Altair, the brightest star in Aquila.
+
+Deep-sky objects
+IRAS 19024+0044 is a protoplanetary nebula in Aquila.
+Three interesting planetary nebulae lie in Aquila:
+NGC 6804 shows a small but bright ring
+NGC 6781 which bears some resemblance with the Owl Nebula in Ursa Major.
+NGC 6751: also known as the Glowing Eye, a planetary nebula
+More deep-sky objects:
+NGC 6709 is a loose open cluster containing approximately 40 stars, which range in magnitude from 9 to 11. It is approximately 3000 light-years from Earth. It has an overall magnitude of 6.7 and is approximately 9100 light-years from Earth. NGC 6709 appears in a rich Milky Way star field and is classified as a Shapley class d and Trumpler class III 2 m cluster. These designations mean that it does not have many stars, is loose, does not show greater concentration at the center, and has a moderate range of star magnitudes.
+NGC 6755: an open cluster of 7.5m; it is made up of about a dozen stars with magnitudes 12 through 13
+NGC 6760: a globular cluster of 9.1m
+NGC 6749: an open cluster
+NGC 6778: planetary nebula
+NGC 6741: planetary nebula
+NGC 6772: planetary nebula
+
+Other
+NASA's Pioneer 11 space probe, which flew by Jupiter and Saturn in the 1970s, is expected to pass near the star Lambda (λ) Aquilae in about 4 million years.
+
+Illustrations
+In illustrations of Aquila that represent it as an eagle, a nearly straight line of three stars symbolizes part of the wings. The center and brightest of these three stars is Altair. The tips of the wings extend further to the southeast and northwest. The head of the eagle stretches off to the southwest.[citation needed]
+
+Mythology   
+Aquila, with the now-obsolete figure of Antinous, as depicted by Sidney Hall in Urania's Mirror, a set of constellation cards published in London c.1825. At left is Delphinus.
+According to Gavin White, the Babylonian Eagle carried the constellation called the Dead Man (LU.USH) in its talons. The author also draws a comparison to the Classical stories of Antinous and Ganymede.
+In classical Greek mythology, Aquila was identified as Αετός Δίας (Aetos Dios), the eagle that carried the thunderbolts of Zeus and was sent by him to carry the shepherd boy Ganymede, whom he desired, to Mount Olympus; the constellation of Aquarius is sometimes identified with Ganymede.
+In the Chinese love story of Qi Xi, Niu Lang (Altair) and his two children (β and γ Aquilae) are separated forever from their wife and mother Zhi Nu (Vega) who is on the far side of the river, the Milky Way.[citation needed]
+In Hinduism, the constellation Aquila is identified with the half-eagle half-human deity Garuda.
+
+Equivalents
+In Chinese astronomy, ζ Aql is located within the Heavenly Market Enclosure (天市垣, Tiān Shì Yuán), and the other stars of the constellation are placed within the Black Tortoise of the North (北方玄武, Běi Fāng Xuán Wǔ).
+There were several different Polynesian equivalents to Aquila as a whole. On the island of Futuna, it was called Kau-amonga, meaning "Suspended Burden". Its name references the Futunan name for Orion's belt and sword, Amonga. In Hawaii, Altair was called Humu, after the humu humu fish, and the whole constellation was called Humu-ma, the "Humu cluster". Humu-ma was said to influence the astrologers. Pao-toa was the name for the entire constellation in the Marquesas Islands; the name meant "Fatigued Warrior". There were also Polynesian constellations that incorporated the stars of modern Aquila. The Pukapuka constellation Tolu, meaning "three", was made up of Alpha, Beta, and Gamma Aquilae. Altair was commonly named among Polynesian peoples as well. The people of Hawaii called it Humu, the people of the Tuamotus called it Tukituki ("Pound with a hammer") - they named Beta Aquilae Nga Tangata ("The Men") - and the people of Pukapuka called Altair Turu and used it as a navigational star. The Maori people named Altair Poutu-te-rangi, "Pillar of the Sky", because of its important position in their cosmology. It was used differently in different Maori calendars, being the star of February and March in one version and March and April in the other. Altair was also the star that ruled the annual sweet potato harvest.
+
+Namesakes
+Two United States Navy ships, USS Aquila (AK-47) and USS Aquila (PHM-4), are named after the constellation.
+
+References
+Citations
+^ a b c d e f g h i j k l m n o p Ridpath 2001, pp. 80–82
+^ a b "Aquila, constellation boundary". The Constellations (International Astronomical Union). Retrieved 14 February 2014. 
+^ a b "Prodromus astronomiae". 1690. pp. 272–273. 
+^ a b White 2008, p. 95
+^ Levy 2005, pp. 79-80.
+^ "Hardware, Leaving the Solar System:Where are they now?", DK Eyewitness Space Encyclopedia 
+^ "Urania’s Mirror c.1825 – Ian Ridpath's Old Star Atlases". Ianridpath.com. Retrieved 2012-10-21. 
+^ Raymond L. Langsten, Marc Jason Gilbert, Research on Bengal: proceedings of the 1981 Bengal Studies Conference, Issue 34 of South Asia series, Michigan State University Asian Studies Center, Asian Studies Center, Michigan State University, 1983, "... and the appearance of the constellation Aquila that marks ... As Aquila was an eagle for the Greeks, it is the Garuda kite to Hindus.) ..." 
+^ V.Chandran, Astronomy Quiz Book, Pustak Mahal, 1993, ISBN 978-81-223-0366-7, "... later spread to other cultures such as Arab, Hindu, Greek and Roman where the names were reinterpreted to suit the local cultures. Hence Aquila/Garuda, Leo/Singha, Hydra/Vasuki and other similarities in names ..." 
+^ Makemson 1941, p. 218.
+^ Makemson 1941, p. 212.
+^ Makemson 1941, p. 240.
+^ Makemson 1941, p. 262.
+^ Makemson 1941, p. 263.
+^ Makemson 1941, p. 256.
+^ Makemson 1941, p. 264.
+^ Makemson 1941, p. 245.
+
+References
+ This article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). Encyclopædia Britannica (11th ed.). Cambridge University Press. 
+Levy, David H. (2005), Deep Sky Objects, Prometheus Books, ISBN 1-59102-361-0 
+Makemson, Maud Worcester (1941). The Morning Star Rises: an account of Polynesian astronomy. Yale University Press. 
+Ridpath, Ian (2001), Stars and Planets, Illustrated by Wil Tirion (3rd ed.), Princeton University Press, ISBN 0-691-08913-2 
+Ridpath, Ian (2007), Stars and Planets Guide, Wil Tirion (4th ed.), Princeton University Press, ISBN 978-0-691-13556-4 
+White, Gavin (2008), Babylonian Star-lore, Solaria Pubs 
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Aquila_(constellation)&oldid=607080303"

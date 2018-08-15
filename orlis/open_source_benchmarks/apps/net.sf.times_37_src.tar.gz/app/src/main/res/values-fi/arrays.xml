@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="reminder_entries">
+        <item>@string/off</item>
+        <item>Ajallaan</item>
+        <item>1 minuutti ennen</item>
+        <item>5 minuuttia ennen</item>
+        <item>10 minuuttia ennen</item>
+        <item>15 minuuttia ennen</item>
+        <item>20 minuuttia ennen</item>
+        <item>25 minuuttia ennen</item>
+        <item>30 minuuttia ennen</item>
+        <item>45 minuuttia ennen</item>
+        <item>1 tunti ennen</item>
+    </string-array>
+    <string-array name="hebrew_months">
+        <item>Nissan</item>
+        <item>Iyar</item>
+        <item>Sivan</item>
+        <item>Tammuz</item>
+        <item>Av</item>
+        <item>Elul</item>
+        <item>Tishrei</item>
+        <item>Cheshvan</item>
+        <item>Kislev</item>
+        <item>Teves</item>
+        <item>Shevat</item>
+        <item>Adar</item>
+        <item>Adar II</item>
+        <item>Adar I</item>
+    </string-array>
+
+</resources>

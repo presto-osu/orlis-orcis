@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/VerticalLinearLayout"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_county_name"
+        style="@style/CountyTextView"
+        android:text="武进"/>
+
+    <TextView
+        android:id="@+id/tv_county_weather"
+        style="@style/CountyWeatherTextView"
+        android:text="多云"/>
+</LinearLayout>

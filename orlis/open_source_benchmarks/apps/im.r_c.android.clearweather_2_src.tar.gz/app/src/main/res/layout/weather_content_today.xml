@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/VerticalLinearLayout"
+    android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/DayTitleTextView"
+        android:text="@string/day_today"/>
+
+    <LinearLayout
+        style="@style/HorizontalLinearLayout">
+
+        <RelativeLayout
+            style="@style/DetailItemLayout.Left">
+
+            <TextView
+                android:id="@+id/tv_today_day_weather"
+                style="@style/DetailTextView"
+                android:layout_toLeftOf="@+id/tv_today_day_weather_title"
+                android:layout_toStartOf="@+id/tv_today_day_weather_title"
+                android:text="晴"/>
+
+            <TextView
+                android:id="@+id/tv_today_day_weather_title"
+                style="@style/DetailTextView.Title.Left"
+                android:text="@string/detail_title_day"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/DetailItemLayout.Right">
+
+            <TextView
+                android:id="@+id/tv_today_humidity_title"
+                style="@style/DetailTextView.Title.Right"
+                android:text="@string/detail_title_humidity"/>
+
+            <TextView
+                android:id="@+id/tv_today_humidity"
+                style="@style/DetailTextView"
+                android:layout_toEndOf="@id/tv_today_humidity_title"
+                android:layout_toRightOf="@+id/tv_today_humidity_title"
+                android:text="50%"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/HorizontalLinearLayout">
+
+        <RelativeLayout
+            style="@style/DetailItemLayout.Left">
+
+            <TextView
+                android:id="@+id/tv_today_night_weather"
+                style="@style/DetailTextView"
+                android:layout_toLeftOf="@+id/tv_today_night_weather_title"
+                android:layout_toStartOf="@+id/tv_today_night_weather_title"
+                android:text="多云"/>
+
+            <TextView
+                android:id="@+id/tv_today_night_weather_title"
+                style="@style/DetailTextView.Title.Left"
+                android:text="@string/detail_title_night"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/DetailItemLayout.Right">
+
+            <TextView
+                android:id="@+id/tv_today_rain_probability_title"
+                style="@style/DetailTextView.Title.Right"
+                android:text="@string/detail_title_rain_probability"/>
+
+            <TextView
+                android:id="@+id/tv_today_rain_probability"
+                style="@style/DetailTextView"
+                android:layout_toEndOf="@+id/tv_today_rain_probability_title"
+                android:layout_toRightOf="@+id/tv_today_rain_probability_title"
+                android:text="98%"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/HorizontalLinearLayout">
+
+        <RelativeLayout
+            style="@style/DetailItemLayout.Left">
+
+            <TextView
+                android:id="@+id/tv_today_temperature"
+                style="@style/DetailTextView"
+                android:layout_toLeftOf="@+id/tv_today_temperature_title"
+                android:layout_toStartOf="@+id/tv_today_temperature_title"
+                android:text="15˚~18˚"/>
+
+            <TextView
+                android:id="@+id/tv_today_temperature_title"
+                style="@style/DetailTextView.Title.Left"
+                android:text="@string/detail_title_temperature_left"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/DetailItemLayout.Right">
+
+            <TextView
+                android:id="@+id/tv_today_distance_title"
+                style="@style/DetailTextView.Title.Right"
+                android:text="@string/detail_title_visibility"/>
+
+            <TextView
+                android:id="@+id/tv_today_visibility"
+                style="@style/DetailTextView"
+                android:layout_toEndOf="@+id/tv_today_distance_title"
+                android:layout_toRightOf="@+id/tv_today_distance_title"
+                android:text="10km"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppBaseTheme"
+    android:title="Preferences"
+    tools:context="activities.Activity_Main">
+    <PreferenceCategory
+        android:persistent="false"
+        android:title="@string/OPTION_server_settings">
+        <Preference
+            android:enabled="false"
+            android:icon="@drawable/ic_settings_applications_black_24dp"
+            android:selectable="false"
+            android:shouldDisableView="false"
+            android:summary="@string/OPTION_server_explain" />
+        <EditTextPreference
+            android:dialogTitle="@string/OPTION_server_IP_Title"
+            android:icon="@drawable/ic_ip_address"
+            android:inputType="textUri"
+            android:key="rinorIP"
+            android:title="@string/OPTION_server_IP" />
+        <EditTextPreference
+            android:defaultValue="40405"
+            android:dialogTitle="@string/OPTION_server_PORT_Title"
+            android:inputType="number"
+            android:key="rinorPort"
+            android:title="@string/OPTION_server_PORT" />
+        <EditTextPreference
+            android:dialogTitle="@string/OPTION_server_Path_Title"
+            android:key="rinorPath"
+            android:title="@string/OPTION_server_Path" />
+        <EditTextPreference
+            android:dialogTitle="@string/OPTION_server_http_user_Title"
+            android:icon="@drawable/ic_collaborator"
+            android:key="http_auth_username"
+            android:title="@string/OPTION_server_http_user" />
+        <EditTextPreference
+            android:dialogTitle="@string/OPTION_server_http_password_Title"
+            android:icon="@drawable/ic_https_black_24dp"
+            android:inputType="textPassword"
+            android:key="http_auth_password"
+            android:password="true"
+            android:title="@string/OPTION_server_http_password" />
+        <CheckBoxPreference
+            android:icon="@drawable/ic_ssl"
+            android:key="ssl_activate"
+            android:summaryOff="No ssl use"
+            android:summaryOn="Using https for Rest"
+            android:title="SSL option" />
+        <Preference
+            android:enabled="false"
+            android:key="UPDATE_TIMER"
+            android:selectable="false"
+            android:shouldDisableView="true"
+            android:title="@string/UPDATE_TIMER" />
+        <EditTextPreference
+            android:enabled="false"
+            android:key="UPDATE_URL"
+            android:selectable="false"
+            android:shouldDisableView="true"
+            android:title="@string/UPDATE_URL" />
+        <EditTextPreference
+            android:enabled="false"
+            android:key="URL"
+            android:selectable="false"
+            android:shouldDisableView="true"
+            android:title="@string/Rinor_URL" />
+        <EditTextPreference
+            android:icon="@drawable/ic_mq"
+            android:enabled="true"
+            android:inputType="textUri"
+            android:key="MQaddress"
+            android:selectable="true"
+            android:title="@string/MQ_address" />
+        <EditTextPreference
+            android:icon="@drawable/ic_mq_sub"
+            android:defaultValue="40412"
+            android:inputType="number"
+            android:key="MQsubport"
+            android:title="@string/Mq_sub_port" />
+        <EditTextPreference
+            android:icon="@drawable/ic_mq_pub"
+            android:defaultValue="40411"
+            android:inputType="number"
+            android:key="MQpubport"
+            android:title="@string/Mq_pub_port" />
+    </PreferenceCategory>
+</PreferenceScreen>

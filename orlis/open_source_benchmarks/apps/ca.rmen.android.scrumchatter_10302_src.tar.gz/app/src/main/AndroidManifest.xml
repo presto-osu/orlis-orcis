@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2016 Carmen Alvarez
+ 
+  This file is part of Scrum Chatter.
+ 
+  Scrum Chatter is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+ 
+  Scrum Chatter is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with Scrum Chatter. If not, see <http://www.gnu.org/licenses/>.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ca.rmen.android.scrumchatter">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-sdk tools:overrideLibrary="org.apmem.tools.layouts"/>
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_scheme"
+        android:supportsRtl="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ca.rmen.android.scrumchatter.main.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*\\.db"
+                    android:scheme="file" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ca.rmen.android.scrumchatter.meeting.detail.MeetingActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="ca.rmen.android.scrumchatter.main.MainActivity"
+            tools:ignore="UnusedAttribute">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ca.rmen.android.scrumchatter.main.MainActivity" />
+        </activity>
+        <activity
+            android:name=".chart.ChartsActivity"
+            android:label="@string/title_chart"
+            android:parentActivityName="ca.rmen.android.scrumchatter.main.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="UnusedAttribute">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ca.rmen.android.scrumchatter.main.MainActivity" />
+        </activity>
+        <activity
+            android:name=".chart.MeetingChartActivity"
+            android:label="@string/title_chart" />
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".main.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ca.rmen.android.scrumchatter.main.MainActivity" />
+        </activity>
+        <activity
+            android:name="ca.rmen.android.scrumchatter.about.AboutActivity"
+            android:label="@string/about"
+            android:parentActivityName="ca.rmen.android.scrumchatter.main.MainActivity"
+            tools:ignore="UnusedAttribute">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ca.rmen.android.scrumchatter.main.MainActivity" />
+        </activity>
+
+        <provider
+            android:name="ca.rmen.android.scrumchatter.provider.ScrumChatterProvider"
+            android:authorities="ca.rmen.android.scrumchatter.provider"
+            android:exported="false" >
+        </provider>
+    </application>
+
+</manifest>

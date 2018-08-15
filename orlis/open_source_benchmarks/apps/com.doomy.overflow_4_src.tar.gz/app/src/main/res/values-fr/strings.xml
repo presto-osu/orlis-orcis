@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    Copyright (C) 2013 Damien Chazoule
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+
+    <string name="about">À propos</string>
+    <string name="begin">Aucun message</string>
+    <string name="beginning">Commencer un nouveau message&#8230;</string>
+    <string name="clear">Vider</string>
+    <string name="delay">Délai :</string>
+    <string name="developer">OverFlow pour Android a été développé avec acharnement en utilisant des logiciels open source.</string>
+    <string name="dialog_message">Supprimer le message ?</string>
+    <string name="dialog_messages">Supprimer les messages ?</string>
+    <string name="empty">Message vide non envoyé</string>
+    <string name="go">Message envoyé à :</string>
+    <string name="history">Historique</string>
+    <string name="message">OverFlow est une application d\'envoie de messages en masse.\n\nEnjoy ;)</string>
+    <string name="no">Non</string>
+    <string name="none">Aucun contact trouvé</string>
+    <string name="number">Numéro</string>
+    <string name="quantity">Quantité :</string>
+    <string name="recipient">À :</string>
+    <string name="search">Recherche</string>
+    <string name="second">Seconde</string>
+    <string name="seconds">Secondes</string>
+    <string name="send">Envoyer</string>
+    <string name="sending">Envoie des messages en cours&#8230;</string>
+    <string name="snackbar_message">Message supprimé</string>
+    <string name="snackbar_messages">Messages supprimés</string>
+    <string name="title">Bonjour</string>
+    <string name="write">Votre message&#8230;</string>
+    <string name="yes">Oui</string>
+
+</resources>

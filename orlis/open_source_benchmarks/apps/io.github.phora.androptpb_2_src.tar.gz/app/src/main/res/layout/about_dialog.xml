@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="24dp"
+              android:paddingStart="24dp"
+              android:paddingRight="24dp"
+              android:paddingEnd="24dp"
+              android:paddingTop="20dp"
+              android:baselineAligned="false"
+              android:layout_gravity="center_vertical">
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="fitCenter"/>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_weight="1">
+
+            <TextView android:layout_height="wrap_content"
+                      android:layout_width="wrap_content"
+                      android:textAppearance="?android:textAppearanceMedium"
+                      android:text=""
+                      android:id="@+id/AboutDialog.Version"
+                      android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/About.Site"
+                android:autoLink="web"
+                android:paddingTop="4sp"
+                android:paddingBottom="4sp"
+                android:id="@+id/AboutDialog.Site"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/About.Email"
+                android:paddingTop="4sp"
+                android:paddingBottom="4sp"
+                android:autoLink="email"
+                android:id="@+id/AboutDialog.Email"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AboutDialog.Desc"
+        android:text="@string/About.Desc"/>
+
+</LinearLayout>

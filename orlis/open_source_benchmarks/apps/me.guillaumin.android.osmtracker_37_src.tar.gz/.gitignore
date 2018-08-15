@@ -1,0 +1,11 @@
+build
+.idea
+*.iml
+.gradle
+trash
+local.properties
+proguard-project.txt
+# -no resources are copied from -nb
+app/src/main/res/*-no
+*.pl
+*.sh

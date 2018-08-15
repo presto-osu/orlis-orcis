@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MovianRemoteButton">
+        <attr name="action" format="string" />
+        <attr name="actionLong" format="string" />
+        <attr name="onPress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MovianRemoteToggleButton">
+        <attr name="src2" format="integer" />
+    </declare-styleable>
+
+</resources>

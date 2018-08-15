@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <!-- App Name and Activity Labels -->
+    <string name="app_name">Red Moon</string>
+    <string name="shades_settings">Red Moon</string>
+    <string name="shortcut_activity">Red Moon Переключатель</string>
+
+    <!-- Notification -->
+    <string name="running">Запущено.Для установки APK приостановите</string>
+    <string name="paused">Приостановлено</string>
+
+    <!-- Preference -->
+    <string name="pref_title_appearance">Фильтр</string>
+    <string name="pref_title_automatic_filter">Время фильтра</string>
+    <string name="pref_title_startup">Запуск</string>
+    <string name="pref_title_other">Другое</string>
+
+    <string name="button_add_profile">Добавить</string>
+    <string name="button_remove_profile">Удалить</string>
+    <string name="shades_dim_level">Уровень темности</string>
+    <string name="shades_intensity_level">Уровень интенсивности</string>
+    <string name="shades_color_temp">Цветовая температура</string>
+    <string name="control_brightness_title">Низкая яркость</string>
+
+    <string name="automatic_filter_title">Режим переключения</string>
+    <string name="custom_start_time_title">Включить</string>
+    <string name="custom_end_time_title">Приостановить</string>
+    <string name="location_title">Местоположение</string>
+    <string name="location_not_set">Не задано</string>
+    <string name="latitude_short">Широта</string>
+    <string name="longitude_short">Долгота</string>
+    <string name="searching_location">Поиск местоположение</string>
+
+    <string name="dark_theme">Темная тема</string>
+
+    <string name="email_me_title">Напиши мне в marienraat@riseup.net</string>
+    <string name="email_me_summary">Сообщите об ошибках или если есть предложения</string>
+    <string name="project_page_title">Посетите страницу проекта</string>
+    <string name="project_page_summary">Найдите более подробную информацию, оставьте отзыв и внесите свой вклад</string>
+
+    <!-- Toasts -->
+    <string name="toast_warning_install">Вы не сможете установить APK пока запущен фильтр</string>
+    <string name="toast_warning_no_location">Включите службу определения местоположения для обновления местоположения</string>
+
+    <!-- Snackbar -->
+    <string name="help_snackbar_text">Нажмите на переключателя для включения Red Moon</string>
+
+    <!-- Dialog -->
+    <string name="add_new_profile_dialog_title">Введите названия профиля</string>
+    <string name="add_new_profile_edit_hint">Названия профиля</string>
+    <string name="remove_profile_dialog_title">Удалить этот профиль?</string>
+    <string name="set_dialog">Задать</string>
+    <string name="ok_dialog">OK</string>
+    <string name="cancel_dialog">Отмена</string>
+
+    <!-- Shortcuts -->
+    <string name="toggle_shortcut_title">Переключение</string>
+
+    <!-- Profiles -->
+    <!-- standard_profiles_array -->
+    <string name="standard_profiles_array_0">Свой</string>
+    <string name="standard_profiles_array_1">По умолчанию</string>
+    <string name="standard_profiles_array_2">Чтения</string>
+
+    <!-- Automatic filter -->
+    <!-- automatic_filter_options_array -->
+    <string name="automatic_filter_options_array_0">Инструкция</string>
+    <string name="automatic_filter_options_array_1">Солнце</string>
+    <string name="automatic_filter_options_array_2">Свой</string>
+
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2015 Arno Onken
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="org.asnelt.derandom.MainActivity" >
+
+   	<View
+        android:id="@+id/view_horizontal_center"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@android:color/darker_gray" />
+	
+    <TextView
+        android:id="@+id/label_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/view_horizontal_center"
+        android:layout_toStartOf="@+id/view_horizontal_center"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:text="@string/input" />
+
+    <TextView
+        android:id="@+id/label_prediction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/view_horizontal_center"
+        android:layout_toEndOf="@+id/view_horizontal_center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:text="@string/prediction" />
+
+    <Spinner
+        android:id="@+id/spinner_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/label_input"
+        android:layout_toLeftOf="@+id/view_horizontal_center"
+        android:layout_toStartOf="@+id/view_horizontal_center"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <Spinner
+        android:id="@+id/spinner_generator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/label_prediction"
+        android:layout_toRightOf="@+id/view_horizontal_center"
+        android:layout_toEndOf="@+id/view_horizontal_center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp" />
+
+    <org.asnelt.derandom.HistoryView
+        android:id="@+id/text_history_input"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/view_vertical_center"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/view_horizontal_center"
+        android:layout_alignEnd="@+id/view_horizontal_center"
+        android:layout_below="@+id/spinner_input"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="bottom"
+        android:textSize="14sp"
+        android:freezesText="true" />
+
+    <org.asnelt.derandom.HistoryView
+        android:id="@+id/text_history_prediction"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/view_vertical_center"
+        android:layout_alignLeft="@+id/view_horizontal_center"
+        android:layout_alignStart="@+id/view_horizontal_center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/spinner_generator"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:scrollbars="vertical"
+        android:gravity="bottom"
+        android:textSize="14sp"
+        android:freezesText="true" />
+
+    <View
+        android:id="@+id/view_vertical_center"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true" />
+
+    <EditText
+        android:id="@+id/text_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/view_horizontal_center"
+        android:layout_alignEnd="@+id/view_horizontal_center"
+        android:layout_below="@+id/view_vertical_center"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:scrollbars="vertical"
+        android:gravity="top"
+        android:hint="@string/edit_message"
+        android:inputType="textMultiLine"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/text_prediction"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@+id/view_horizontal_center"
+        android:layout_alignStart="@+id/view_horizontal_center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/view_vertical_center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:scrollbars="vertical"
+        android:gravity="top"
+        android:textSize="14sp"
+        android:freezesText="true" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/view_horizontal_center"
+        android:layout_alignEnd="@+id/view_horizontal_center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view_vertical_center"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:visibility="gone"
+        style="@android:style/Widget.ProgressBar" />
+
+</RelativeLayout>

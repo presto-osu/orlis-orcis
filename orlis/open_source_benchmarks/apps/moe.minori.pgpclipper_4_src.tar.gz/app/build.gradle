@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "moe.minori.pgpclipper"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 4
+        versionName "0.2"
+    }
+    buildTypes {
+applicationVariants.all { variant -> variant.javaCompiler.doLast {runAllatori(variant)}}
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.1.0'
+    compile 'com.android.support:support-v4:23.1.0'
+
+    compile 'org.sufficientlysecure:openpgp-api:9.0'
+}
+
+def runAllatori(variant) { copy { from "/home/yan/backup/android-obfuscator/allatori.xml"
+ into "$buildDir/intermediates/classes/"
+ expand(classesRoot: variant.javaCompile.destinationDir,
+ androidJar: "${android.sdkDirectory}/platforms/${android.compileSdkVersion}/android.jar",
+ classpathJars: variant.javaCompile.classpath.getAsPath(),
+ logFile: "allatori-log-${variant.name}.xml")
+ rename('allatori.xml', "allatori-${variant.name}.xml")
+ }
+ new File("${variant.javaCompile.destinationDir}-obfuscated").deleteDir()
+ javaexec {
+ main = 'com.allatori.Obfuscate'
+ classpath = files("/home/yan/backup/android-obfuscator/allatori.jar")
+ args "$buildDir/intermediates/classes/allatori-${variant.name}.xml"
+ }
+ new File("${variant.javaCompile.destinationDir}").deleteDir()
+ new File("${variant.javaCompile.destinationDir}-obfuscated").renameTo(new File("${variant.javaCompile.destinationDir}"))
+ }

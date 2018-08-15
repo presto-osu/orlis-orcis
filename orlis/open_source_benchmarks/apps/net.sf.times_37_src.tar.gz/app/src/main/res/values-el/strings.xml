@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ήαλαχικός Φορές Προσευχή</string>
+    <string name="title_activity_zmanim">Ήαλαχικός Φορές</string>
+    <string name="location_unknown">Άγνωστη διεύθυνση</string>
+    <string name="location_coords">Πλτ. %1$s; Μήκ. %2$s</string>
+    <string name="twelve_hour_time_format">h:mm:ss a</string>
+    <string name="twenty_four_hour_time_format">H:mm:ss</string>
+    <string name="month_day_year" formatted="false">%d %B %Y</string>
+    <string name="off">Ανενεργό</string>
+
+    <!-- Recurring opinions -->
+    <string name="opinion_120">Ημέρα είναι 120 λεπτά πριν την ανατολή / μετά τη δύση</string>
+    <string name="opinion_120_zmanis">Ημέρα είναι 120 <i>ζμανιως</i> λεπτά πριν την ανατολή / μετά τη δύση</string>
+    <string name="opinion_16">Ημέρα είναι 16,1° κάτω την ανατολή / ηλιοβασίλεμα</string>
+    <string name="opinion_16_sunset">Ημέρα είναι από την αυγή 16,1° προς στάθμη της θάλασσας ηλιοβασίλεμα</string>
+    <string name="opinion_16_night">Ημέρα είναι από την αυγή 16,1° προς σούρουπο</string>
+    <string name="opinion_26">Ημέρα είναι 26° κάτω την ανατολή / ηλιοβασίλεμα</string>
+    <string name="opinion_19">Ημέρα είναι 19,8° κάτω την ανατολή / ηλιοβασίλεμα</string>
+    <string name="opinion_18">Ημέρα είναι 18° κάτω την ανατολή / ηλιοβασίλεμα</string>
+    <string name="opinion_60">Ημέρα είναι 60 λεπτά πριν την ανατολή / μετά τη δύση</string>
+    <string name="opinion_72">Ημέρα είναι 72 λεπτά πριν την ανατολή / μετά τη δύση</string>
+    <string name="opinion_72_zmanis">Ημέρα είναι 72 <i>ζμανιως</i> λεπτά πριν την ανατολή / μετά τη δύση</string>
+    <string name="opinion_90">Ημέρα είναι 90 λεπτά πριν την ανατολή / μετά τη δύση</string>
+    <string name="opinion_90_zmanis">Ημέρα είναι 90 <i>ζμανιως</i> λεπτά πριν την ανατολή / μετά τη δύση</string>
+    <string name="opinion_96">Ημέρα είναι 96 λεπτά πριν την ανατολή / μετά τη δύση</string>
+    <string name="opinion_96_zmanis">Ημέρα είναι 96 <i>ζμανιως</i> λεπτά πριν την ανατολή / μετά τη δύση</string>
+    <string name="opinion_ateret">Σύμφωνα με Υεσιβατ Ατερετ Τορά</string>
+    <string name="opinion_gra">Σύμφωνα με ΓΡΆ και Βάαλ Τάνια</string>
+    <string name="opinion_mga">Σύμφωνα με Μαγεν Αβραάμ</string>
+    <string name="opinion_tam">Σύμφωνα με Ραβενού Ταμ</string>
+
+    <!-- Temporal hour -->
+    <string name="hour">Εποχιακές ώρα</string>
+
+    <!-- List -->
+    <string name="dawn">Αυγή</string>
+
+    <!-- Tallis and Tefillin -->
+    <string name="tallis">Η πιο παλιά ταλιτ και τεφιλιν (μισεακιρ)</string>
+    <string name="tallis_summary">Ήλιος είναι 11,5° κάτω από τον ορίζοντα</string>
+    <string name="tallis_11">Ήλιος είναι 11° κάτω από τον ορίζοντα</string>
+    <string name="tallis_10">Ήλιος είναι 10,2° κάτω από τον ορίζοντα</string>
+
+    <!-- Sunrise -->
+    <string name="sunrise">Ανατολή ηλίου</string>
+    <string name="sunrise_summary">Σε μια περιοχή επίπεδο</string>
+    <string name="sunrise_sea">Στο επίπεδο της θάλασσας</string>
+
+    <!-- Latest shema -->
+    <string name="shema">Τελευταία σεμα</string>
+    <string name="shema_7">Ημέρα είναι από την αυγή 16,1° έως 7.083° νύχτα</string>
+    <string name="shema_3">3 ώρες πριν από μεσημέρι</string>
+    <string name="shema_fixed">3 ώρες πριν από μεσημέρι τοπικές σταθερής</string>
+
+    <!-- Latest shacharis -->
+    <string name="prayers">Τελευταία σαχαριτ</string>
+    <string name="prayers_fixed">2 ώρες πριν από μεσημέρι τοπικές σταθερής</string>
+    <string name="prayers_2">2 ώρες πριν από μεσημέρι</string>
+
+    <!-- Midday -->
+    <string name="midday">Μεσημέρι (χαζοτ)</string>
+    <string name="midday_summary">Μεσημβρία</string>
+    <string name="midday_fixed">Μεσημέρι ρυθμίζεται για το τοπικό γεωγραφικό πλάτος</string>
+
+    <!-- Earliest mincha -->
+    <string name="earliest_mincha">Μινχα γδολα</string>
+    <string name="earliest_mincha_summary">Η πιο παλιά προσευχές απόγευμα</string>
+    <string name="earliest_mincha_30">30 λεπτά μετά το μεσημέρι</string>
+
+    <!-- Mincha ketana -->
+    <string name="mincha">Μινχα κτανα</string>
+    <string name="mincha_summary">Απόγευμα προσευχές</string>
+
+    <!-- Plug hamincha -->
+    <string name="plug_hamincha">Πλαγ μινχα</string>
+
+    <!-- Candle lighting -->
+    <string name="candles">Φωτισμό κεριών</string>
+    <string name="chanukka">Χανουκά</string>
+
+    <plurals name="candles_summary">
+        <item quantity="one">%1$d λεπτό πριν το ηλιοβασίλεμα</item>
+        <item quantity="other">%1$d λεπτά πριν το ηλιοβασίλεμα</item>
+    </plurals>
+    <plurals name="candles_chanukka">
+        <item quantity="one">%1$d Χανουκά κερί</item>
+        <item quantity="other">%1$d κεριά Χανουκά</item>
+    </plurals>
+
+    <!-- Sunset -->
+    <string name="sunset">Ηλιοβασίλεμα</string>
+
+    <!-- Twilight -->
+    <string name="twilight">Λυκόφως</string>
+    <string name="twilight_2stars">2 αστέρια ορατά</string>
+    <string name="twilight_7_083">13,5 λεπτά πριν από 7,083° νύχτα</string>
+    <string name="twilight_58">58,5 λεπτά μετά τη δύση</string>
+    <string name="twilight_13">Ήλιος είναι 13,24° κάτω από τον ορίζοντα</string>
+
+    <!-- Nightfall -->
+    <string name="nightfall">Σούρουπο</string>
+    <string name="nightfall_3stars">3 αστέρια ορατά</string>
+    <string name="nightfall_3_65">Ήλιος είναι 3,65° κάτω από επίπεδο της θάλασσας</string>
+    <string name="nightfall_3_676">Ήλιος είναι 3,676° κάτω από επίπεδο της θάλασσας</string>
+    <string name="nightfall_4_37">Ήλιος είναι 4,37° κάτω από επίπεδο της θάλασσας</string>
+    <string name="nightfall_4_61">Ήλιος είναι 4,61° κάτω από επίπεδο της θάλασσας</string>
+    <string name="nightfall_4_8">Ήλιος είναι 4,8° κάτω από επίπεδο της θάλασσας</string>
+    <string name="nightfall_5_88">Ήλιος είναι 5,88° κάτω από επίπεδο της θάλασσας</string>
+    <string name="nightfall_5_95">Ήλιος είναι 5,95° κάτω από επίπεδο της θάλασσας</string>
+    <string name="nightfall_7">Ήλιος είναι 7,083° κάτω από επίπεδο της θάλασσας</string>
+    <string name="nightfall_8">Ήλιος είναι 8,5° κάτω από επίπεδο της θάλασσας</string>
+
+    <!-- Midnight -->
+    <string name="midnight">Μεσάνυχτα (χαζοτ)</string>
+    <string name="midnight_summary">Ηλιακό μεσάνυχτα</string>
+    <string name="midnight_12">12 ώρες μετά το μεσημέρι</string>
+    <string name="midnight_6">6 ώρες μετά το σούρουπο</string>
+
+    <!-- Pesach -->
+    <string name="eat_chametz">Τελευταία στιγμή για να φάει χαμεζ</string>
+    <string name="burn_chametz">Τελευταία στιγμή για να κάψει χαμεζ</string>
+
+    <!-- Moon -->
+    <string name="molad">Γέννηση της νέας σελήνης (μολαδ)</string>
+    <string name="molad_summary">Μέσος μολαδ</string>
+    <string name="levana_earliest">Η πιο παλιά αγιασμό της νέας σελήνης (κιδουσ λεβανα)</string>
+    <string name="levana_earliest_summary">3 ημέρες μετά μολαδ</string>
+    <string name="levana_7">7 ημέρες μετά μολαδ</string>
+    <string name="levana_latest">Τελευταία αγιασμό το νέας σελήνης (κιδουσ λεβανα)</string>
+    <string name="levana_latest_summary">Μισά του δρόμου μεταξύ μολαδ και μολαδ</string>
+    <string name="levana_15">15 ημέρες μετά μολαδ</string>
+
+    <!-- Fast / Taanis -->
+    <string name="fast_begins">Νηστεία αρχίζει</string>
+    <string name="fast_ends">Νηστεία άκρα</string>
+
+    <!-- Omer -->
+    <string name="omer">Όμερ</string>
+    <string name="omer_format">%1$s %2$s</string>
+    <string name="omer_33">Λάγ %1$s</string>
+    <string name="omer_off">@string/off</string>
+    <string name="omer_b">BάΌμερ</string>
+    <string name="omer_l">ΛάΌμερ</string>
+
+    <!-- Preferences -->
+    <string name="menu_settings">Ρυθμίσεις</string>
+    <string name="pref_general_title">Γενικές</string>
+    <string name="pref_appearance_title">Παρουσιαστικό</string>
+    <string name="coords_title">Συντεταγμένες</string>
+    <string name="coords_format_title">Συντεταγμένες μορφή</string>
+    <string name="coords_format_decimal">Δεκαδικός</string>
+    <string name="coords_format_sexagesimal">Βάσης 60</string>
+    <string name="past_title">Φορές που έχει παρέλθει</string>
+    <string name="seconds_title">Δευτερόλεπτα</string>
+    <string name="summaries_title">Περιγραφές</string>
+    <string name="gradient_title">Υπόβαθρο ντεγκραντέ</string>
+    <string name="theme_dark">Σκοτεινό</string>
+    <string name="theme_light">Φως</string>
+    <string name="theme_none">Κανένας</string>
+
+    <!-- Go to date -->
+    <string name="menu_date">Ημερομηνία</string>
+    <string name="today">Σήμερα</string>
+    <string name="yesterday">Εχθές</string>
+    <string name="tomorrow">Αύριο</string>
+
+    <!-- Compass -->
+    <string name="menu_compass">Πυξίδα</string>
+    <string name="title_activity_compass">Κατεύθυνση της προσευχής</string>
+    <string name="compass_summary">Κατεύθυνση της προσευχής στην Άγια των Αγίων στην Ιερουσαλήμ</string>
+    <string name="north">Β</string>
+    <string name="east">Α</string>
+    <string name="south">Ν</string>
+    <string name="west">Δ</string>
+
+    <!-- Setting per time -->
+    <string name="opinion">Γνώμες</string>
+    <string name="emphasis_title">Έμφαση</string>
+    <string name="animations">Κινούμενες εικόνες</string>
+
+    <!-- Location -->
+    <string name="menu_location">Τοποθεσία</string>
+    <string name="title_activity_location">Η τοποθεσία μου</string>
+
+    <!-- Settings screen - Privacy -->
+    <string name="pref_privacy_security_title">Απόρρητο και ασφάλεια</string>
+    <string name="pref_privacy_clear_history">Εκκαθάριση ιστορικού</string>
+
+    <!-- About -->
+    <string name="pref_about_title">Σχετικά</string>
+    <string name="version">Έκδοση της εφαρμογής</string>
+    <string name="kosherjava">KosherJava</string>
+    <string name="kosherjava_version">Πνευματικά δικαιώματα \u00A9 2004–2011 Ηλίας Χίρσφελτ</string>
+
+    <!-- Widget -->
+    <string name="title_widget_clock">Ήαλαχικός Φορές Ρολόι</string>
+
+    <!-- Reminder -->
+    <string name="reminder">Υπενθύμιση</string>
+    <string name="reminder_stream_title">Τύπος υπενθύμιση</string>
+    <string name="reminder_tone">ήχος κλήσης υπενθύμιση</string>
+    <string name="alarm_volume_title" msgid="2285597478377758706">"Ξυπνητήρι"</string>
+    <string name="notification_volume_title" msgid="2012640760341080408">"Ειδοποίηση"</string>
+    <string name="reminder_friday">Θύμισε την Παρασκευή</string>
+    <string name="reminder_monday">Θύμισέ την Δευτέρα</string>
+    <string name="reminder_saturday">Θύμισέ το Σάββατο και Αργίες</string>
+    <string name="reminder_sunday">Θύμισε την Κυριακή</string>
+    <string name="reminder_thursday">Θύμισε την Πέμπτη</string>
+    <string name="reminder_tuesday">Θύμισε την Τρίτη</string>
+    <string name="reminder_wednesday">Θύμισε την Τετάρτη</string>
+
+</resources>

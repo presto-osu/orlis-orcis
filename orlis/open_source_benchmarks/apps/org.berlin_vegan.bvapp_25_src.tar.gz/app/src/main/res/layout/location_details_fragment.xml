@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="16dp"
+    android:paddingStart="16dp">
+
+
+    <include
+        android:id="@+id/opening_hours"
+        layout="@layout/location_details_fragment_item_2" />
+
+    <include
+        android:id="@+id/address"
+        layout="@layout/location_details_fragment_item_1" />
+
+    <include
+        android:id="@+id/telephone"
+        layout="@layout/location_details_fragment_item_1" />
+
+    <include
+        android:id="@+id/website"
+        layout="@layout/location_details_fragment_item_1" />
+
+    <include
+        android:id="@+id/miscellaneous"
+        layout="@layout/location_details_fragment_item_2" />
+
+    <include
+        android:id="@+id/editing"
+        layout="@layout/location_details_fragment_item_1" />
+
+</LinearLayout>

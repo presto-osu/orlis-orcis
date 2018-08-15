@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Gauge">
+        <attr name="showOuterShadow" format="boolean" />
+
+        <attr name="showRim" format="boolean" />
+        <attr name="showInnerRim" format="boolean" />
+        <attr name="showLeds" format="boolean" />
+        <attr name="fahrenheit" format="boolean" />
+        <attr name="biDirectional" format="boolean" />
+        <attr name="autoScale" format="boolean" />
+
+        <attr name="showScale" format="boolean" />
+        <attr name="scaleStartValue" format="integer" />
+        <attr name="scaleEndValue" format="integer" />
+        <attr name="scaleStartAngle" format="integer" />
+        <attr name="scaleEndAngle" format="integer" />
+        <attr name="majorTickPercentOfRange" format="float" />
+        <attr name="minorTicksPerDivision" format="integer" />
+
+        <attr name="showReading" format="boolean" />
+        <attr name="readingUnit" format="string|reference" />
+        <attr name="readingPrecision" format="integer" />
+        <attr name="gaugeTitle" format="string" />
+
+
+        <attr name="titleColor" format="color" />
+        <attr name="readingColor" format="color" />
+        <attr name="tickLabelColor" format="color" />
+
+        <attr name="rangeValues" format="reference" />
+        <attr name="rangeColors" format="reference" />
+
+        <attr name="orientation" format="integer" />
+
+    </declare-styleable>
+
+    <declare-styleable name="TextView">
+        <attr name="textStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+            <flag name="italic" value="2" />
+            <flag name="black" value="8" />
+            <flag name="condensed" value="16" />
+            <flag name="light" value="32" />
+            <flag name="medium" value="64" />
+            <flag name="thin" value="128" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ChartView">
+        <attr name="gridLineColor" format="reference|color" />
+        <attr name="gridLineWidth" format="reference|dimension" />
+        <attr name="gridLinesHorizontal" format="reference|integer" />
+        <attr name="gridLinesVertical" format="reference|integer" />
+        <attr name="leftLabelWidth" format="reference|dimension" />
+        <attr name="topLabelHeight" format="reference|dimension" />
+        <attr name="rightLabelWidth" format="reference|dimension" />
+        <attr name="bottomLabelHeight" format="reference|dimension" />
+        <attr name="lableColor" format="reference|color" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,331 @@
+/*
+// Copyright (C) 2014 The Syncthing Authors.
+//
+// This Source Code Form is subject to the terms of the Mozilla Public
+// License, v. 2.0. If a copy of the MPL was not distributed with this file,
+// You can obtain one at http://mozilla.org/MPL/2.0/.
+
+*/
+
+body {
+    padding-bottom: 70px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.25;
+}
+
+ul+h5 {
+    margin-top: 1.5em;
+}
+
+#content {
+    margin-bottom: 50px;
+}
+
+.panel-progress {
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    display: block;
+}
+
+.checkbox {
+    margin-top: 0px;
+}
+
+.checkbox input[type="checkbox"], .radio input[type="radio"] {
+    float: none; /* issue #1197 */
+}
+
+.popover {
+    max-width: none;
+    min-width: 250px;
+}
+
+.tooltip {
+    word-wrap:break-word;
+}
+
+.text-monospace {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.table-condensed>thead>tr>th, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>tbody>tr>td, .table-condensed>tfoot>tr>td {
+    border-top: none;
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    top: -5px;
+    position: relative;
+}
+
+.list-no-bullet {
+    list-style-type: none;
+}
+
+.li-column {
+    display: inline-block;
+    min-width: 7em;
+    margin-right: 1em;
+    padding: 1px 4px;
+    margin: 2px 2px;
+}
+.li-column span.data {
+    margin-left: 0.5em;
+    min-width: 10em;
+    text-align: right;
+    display: inline-block;
+}
+
+.ng-cloak {
+    display: none !important;
+}
+
+.table th {
+    white-space: nowrap;
+    font-weight: 400;
+}
+
+.table td {
+    padding-left: 20px !important;
+}
+
+.table td.small-data {
+    white-space: nowrap;
+}
+
+table.table-condensed {
+    table-layout: fixed;
+}
+table.table-condensed td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+table.table-condensed td.no-overflow-ellipse {
+    white-space: normal;
+}
+
+.folder-advanced {
+    padding: 1rem;
+    margin-bottom: 15px;
+}
+
+.folder-advanced-toggle {
+    cursor: pointer;
+}
+.folder-advanced-toggle .collapse,
+.folder-advanced-toggle.collapsed .expand {
+    display: inline-block;
+}
+
+.folder-advanced-toggle.collapsed .collapse,
+.folder-advanced-toggle .expand{
+    display: none;
+}
+
+*[language-select] > .dropdown-menu {
+    width: 450px;
+}
+
+*[language-select] > .dropdown-menu > li {
+    float: left;
+    width: 50%;
+}
+
+*[language-select] > .dropdown-menu > li > a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav>li{
+    float: left;
+}
+.navbar-right {
+    /* to align with panel */
+    padding-right: 15px;
+    float: right;
+}
+
+.panel-body .table-condensed {
+    margin-bottom: 0;
+}
+
+.dl-horizontal.dl-narrow dt {
+    width: 40px;
+}
+
+.dl-horizontal.dl-narrow dd {
+    margin-left: 60px;
+}
+
+/**
+ * Panel, Model and Accordion Title bars
+ */
+
+.panel-icon {
+    float: left;
+    margin-right: 15px;
+    margin-top: 0.125em;
+    margin-bottom: 0.125em;
+    line-height: 1;
+}
+
+.modal-title .panel-icon {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+button.panel-heading {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.panel-heading .panel-title-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.panel-heading .panel-status {
+    margin-left:15px;
+}
+
+identicon {
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+}
+
+.identicon {
+    width: 1em;
+    height: 1em;
+}
+
+
+/**
+ * Progress bars with centered text
+ */
+
+.progress {
+    margin-bottom: 0px;
+    position: relative;
+}
+
+.progress span.frontal {
+    text-align: center;
+    position: absolute;
+    display: block;
+    width: 100%;
+}
+
+.three-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+.two-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+ul.three-columns li, ul.two-columns li {
+    padding-left: 0.5em;
+    text-indent: -0.5em;
+}
+
+/** Footer nav on small devices **/
+@media (max-width: 1199px) {
+    /* Stay at the end of the page, with space reserved for the footer
+    usually taking up two rows. */
+
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+
+    body {
+        padding-bottom: 60px;
+    }
+
+    .navbar-fixed-bottom {
+        position: absolute;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Layout after the normal contents, as this is when the footer switches
+    to a vertical layout. */
+
+    body {
+        padding-bottom: 0px;
+    }
+
+    .navbar-brand {
+        margin: 3.25px -15px;
+    }
+
+    .navbar-fixed-bottom {
+        position: relative;
+    }
+
+    .navbar-nav .open .dropdown-menu {
+        position: absolute;
+        left: auto;
+        right: 0;
+        background-color: #ffffff;
+        border: 1px solid #cccccc;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        border-radius: 2px;
+    }
+
+    *[language-select] {
+        position: static !important;
+    }
+
+    *[language-select] > .dropdown-menu {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: -12px !important;
+        max-width: 450px;
+        height: 265px;
+        overflow-y: scroll;
+    }
+
+    table.table-condensed td {
+        /* for mobile phones to allow linebreaks in long repro folder/shared with
+        * columns. */
+        white-space: normal;
+    }
+}
+
+@media (max-width:479px) {
+
+    nav .dropdown-toggle {
+        font-size: 1em;
+    }
+
+    .navbar-nav .open .dropdown-menu > li > a {
+        padding: 12px 15px 12px 25px;
+    }
+
+    .navbar-fixed-bottom li {
+         width: 100%;
+    }
+}

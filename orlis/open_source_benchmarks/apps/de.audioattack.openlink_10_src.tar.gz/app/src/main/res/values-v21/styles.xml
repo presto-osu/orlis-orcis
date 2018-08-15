@@ -1,0 +1,15 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Material.Light">
+        <!-- API 21 theme customizations can go here. -->
+        <item name="android:colorPrimary">@color/light_blue</item>
+        <item name="android:colorPrimaryDark">@color/dark_blue</item>
+        <item name="android:colorAccent">@color/orange</item>
+    </style>
+
+    <style name="ScrollViewStyle">
+        <item name="android:requiresFadingEdge">none</item>
+        <item name="android:fadingEdgeLength">0dip</item>
+    </style>
+
+</resources>

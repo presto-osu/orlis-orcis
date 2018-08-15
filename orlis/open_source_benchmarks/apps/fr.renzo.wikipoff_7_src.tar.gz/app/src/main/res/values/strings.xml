@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright 2014 "Renzokuken" (pseudonym, first committer of WikipOff project) at
+https://github.com/conchyliculture/wikipoff
+
+This file is part of WikipOff.
+
+    WikipOff is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    WikipOff is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with WikipOff.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+
+    <string name="app_name">WikipOff</string>
+
+    <!-- internal values -->
+    <string name="link_to_mathjax">http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</string>
+    <string name="DBDir">fr.renzo.wikipoff/databases</string>
+    <string name="available_xml_file">available_wikis.xml</string>
+    <string name="available_xml_file_external_path">fr.renzo.wikipoff/available_wikis.xml</string>
+    <string name="available_xml_web_url">https://raw.githubusercontent.com/conchyliculture/wikipoff/master/assets/available_wikis.xml</string>
+    <!-- SQL values to build queries -->
+    <!--
+    No. Let's not do that. 
+    <string name="sql_articles_table_name">articles</string>
+    <string name="sql_title_col_name">title</string>
+    -->
+
+
+    <!-- preferences keys -->
+    <!-- string name="pref_key_database_select">dbpref</string -->
+
+
+    <!-- app settings keys -->
+    <string name="config_key_selecteddbfiles">seldbs</string>
+    <string name="config_key_use_mathjax">usermathjax</string>
+    <string name="config_key_available_database">config_key_available_database</string>
+    <string name="config_key_nb_list_random">config_key_nb_list_random</string>
+    <string name="config_key_downloadid">config_key_downloadid</string>
+    <string name="config_key_should_update_db">config_key_should_update_db</string>
+    <string name="config_key_storage">config_key_storage</string>
+    <string name="config_key_storage_warning">config_key_storage_warning</string>
+    <string name="config_key_storage_category">config_key_storage_category</string>
+    <string name="config_key_misc_category">config_key_misc_category</string>
+
+
+    <!-- Text strings in GUI -->
+    <!-- menus -->
+    <string name="pref_mathjax">Use MathJax</string>
+    <string name="pref_mathjax_summ">Download MathJax.js from the web to display math in articles</string>
+    <string name="pref_storage">Select Application Storage</string>
+    <string name="pref_storage_summ">none</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_set_database">Select Database</string>
+    <string name="action_webbrowser">Open online article</string>
+    <string name="action_about">About</string>
+    <string name="action_manage_databases">Manage Databases/Wikis</string>
+    <string name="action_manage_wikis">Manage Wikis</string>
+    <string name="action_update_available_wikis_xml">Update Available Wikis from Web</string>
+    <string name="action_deselect_all_wikis">Deselect all Wikis</string>
+    
+    <!-- Activity Titles -->
+    <string name="title_manage_wikis">Manage your Wikis</string>
+    <string name="title_installed_wikis">Downloaded Wikis</string>
+    <string name="title_available_wikis">Available Wikis</string>
+    <string name="title_about">About</string>
+    <string name="title_storage_category">Manage storage</string>
+    <string name="title_misc_category">Miscellaneous</string>
+    
+
+    <!-- buttons -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="goSelectWikiButton">Select a Wiki</string>
+
+    <!-- views -->
+    <string name="randomsearch">Random Articles</string>
+    <string name="searchhint">Search Article</string>
+    <string name="type">Type</string>
+    <string name="source">Source</string>
+    <string name="language">Language</string>
+    <string name="generationDate">Generation Date</string>
+    <string name="author">\" Author \"</string>
+    <string name="size">Size</string>
+    <string name="selectedforreading">Selected for reading</string>
+    <string name="sqlitefiles">Files</string>
+    <string name="deleteWiki">Delete Wiki</string>
+    <string name="downloadWiki">Download Wiki</string>
+    <string name="stopdownloadWiki">Stop Download</string>
+    <string name="download_failed">Download failed</string>
+    <string name="download_finished">Download finished!</string>
+    <string name="downloading">currently downloading</string>
+    <string name="downloading_eta">time left</string>
+
+
+    <!-- more text -->
+    <string name="message_warning">Warning !</string>
+    <string name="message_no_wifi_detected">No Wifi detected</string>
+    <string name="message_validate_download"> Are you sure you want to download %1$s %2$s (%3$s)</string>
+    <string name="message_validate_download_n">Are you sure you want to download %1$s %2$s (%3$s, %4$d files)</string>
+    <string name="message_validate_download_nowifi"> Are you sure you want to download %1$s %2$s (%3$s) without WiFi ?</string>
+    <string name="message_validate_download_n_nowifi">Are you sure you want to download %1$s %2$s (%3$s, %4$d files) without WiFi ?</string>
+ 	<string name="message_validate_download_olderpresent">An older version of this Wiki is already present on the storage, overwrite it?</string>
+    <string name="message_download_already_running">Download is already running</string>
+    <string name="message_wiki_already_installed">The wiki is already installed</string>
+    <string name="message_read_only_sd_card"> (Read only)</string>
+    <string name="message_sd_card">SD card</string>
+    <string name="message_sd_card_n">Removeable SD card %d</string>
+    <string name="message_internal_sd_card">Internal SD card</string>
+    <string name="message_external_sd_card">External SD card</string>
+    <string name="message_external_android_storage">Android Default Storage (Ext. SD)</string>
+    <string name="message_internal_android_storage">Android Default Storage (Internal)</string>
+    <string name="message_stop_download">Are you sure you want to stop this download?</string>
+    <string name="message_overwrite_file">"Are you sure you want to overwrite current %1$s file ?"</string>
+    <string name="message_no_selected_database">No selected database</string>
+    <string name="message_cant_create_in_storage">Couldn\'t create %1$s. Please select an external storage.</string>
+    <string name="message_delete_db">Are you sure you want to delete %1$s ?</string>
+    <string name="message_storage_warning">If you modifying this setting, you may have to move your already installed Wikis by hand (with adb, or a File Manager App), or Wikipoff won\'t be able to find them. Be also aware that storage marked "Android Default Storage" will be removed when removing the App</string>
+    <string name="html_message_no_article">&lt;h2&gt;No article \'%1$s\' found =( &lt;/h2&gt;&lt;br/&gt;Article may not exist yet.</string>
+    <string name="database_corrupted">DB is corrupted</string>
+    <string name="message_available_wiki_equal">installed</string>
+    <string name="message_available_wiki_older">update available</string>
+    <string name="message_available_wiki_newer">installed (current is newer)</string>
+    <string name="message_select_available_wiki_type">Select a new Wiki type :</string>
+    <string name="message_select_available_wiki">Select a new Wiki :</string>
+    <string name="message_select_installed_wiki_type">Select installed Wiki type :</string>
+    <string name="message_select_installed_wiki">Select installed Wiki :</string>
+    <string name="message_no_installed_wiki_type">No installed Wiki found</string>
+    <string name="intent_article_extra_key_title">article_title</string>
+    <string name="intent_article_extra_key_url">onlineURL</string>
+    <string name="bundle_key_dbname">dbname</string>
+
+</resources>

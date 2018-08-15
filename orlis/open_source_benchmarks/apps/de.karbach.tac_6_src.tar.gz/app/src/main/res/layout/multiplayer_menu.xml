@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	MoTAC - digital board for TAC board game
+    Copyright (C) 2013-2014  Carsten Karbach
+    
+    Contact by mail carstenkarbach@gmx.de
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/wood"
+              android:orientation="vertical"
+              android:weightSum="100"
+              tools:ignore="Overdraw">
+
+    <TextView
+        android:id="@+id/modeView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:text="@string/network_mode_string"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_weight="20"/>
+
+    <Button
+        android:id="@+id/boardButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:text="@string/board_string"
+        android:layout_weight="15" />
+
+    <Button
+        android:id="@+id/cardHolderButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:text="@string/player_string"
+        android:layout_weight="15"/>
+
+    <TableRow
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:background="@drawable/wood"
+    android:orientation="horizontal"
+    android:stretchColumns="*"
+    android:layout_weight="50" >
+	    <ImageView
+	       	android:contentDescription="@string/app_name"
+	        android:id="@+id/tacCard1"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="50"
+	        android:src="@drawable/normalcards_trickser" />
+	    <ImageView
+	       	android:contentDescription="@string/app_name"
+	        android:id="@+id/tacCard2"
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="50"
+	        android:src="@drawable/normalcards_trickser" />
+	</TableRow>
+
+</LinearLayout>

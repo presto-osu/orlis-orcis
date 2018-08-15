@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Toolbar" parent="BaseLayout">
+        <item name="android:layout_height">@dimen/toolbar_layout_height</item>
+        <item name="android:layout_marginBottom">@dimen/toolbar_layout_margin_bottom</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingStart">@dimen/toolbar_padding_horizontal</item>
+        <item name="android:paddingLeft">@dimen/toolbar_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/toolbar_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/toolbar_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/toolbar_padding_top</item>
+    </style>
+
+    <style name="DetailTextView.Title" parent="DetailTextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:paddingLeft">@dimen/detail_text_view_padding_horizontal</item>
+        <item name="android:paddingStart">@dimen/detail_text_view_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/detail_text_view_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/detail_text_view_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/detail_text_view_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/detail_text_view_padding_vertical</item>
+    </style>
+
+    <style name="DetailTextView.Title.Left" parent="DetailTextView.Title">
+        <item name="android:layout_marginLeft">@dimen/today_detail_title_margin</item>
+        <item name="android:layout_marginStart">@dimen/today_detail_title_margin</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="DetailTextView.Title.Right" parent="DetailTextView.Title">
+        <item name="android:layout_marginRight">@dimen/today_detail_title_margin</item>
+        <item name="android:layout_marginEnd">@dimen/today_detail_title_margin</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="DetailItemLayout.Left" parent="HalfLayout">
+        <item name="android:layout_marginEnd">@dimen/today_detail_item_layout_margin</item>
+        <item name="android:layout_marginRight">@dimen/today_detail_item_layout_margin</item>
+    </style>
+
+    <style name="DetailItemLayout.Right" parent="HalfLayout">
+        <item name="android:layout_marginStart">@dimen/today_detail_item_layout_margin</item>
+        <item name="android:layout_marginLeft">@dimen/today_detail_item_layout_margin</item>
+    </style>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollButton">
+        <attr name="direction" format="enum">
+            <enum name="up" value="-1" />
+            <enum name="down" value="1" />
+        </attr>
+        <attr name="auto_hide" format="boolean" />
+        <attr name="scrollButtonStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="TintedImageView">
+        <attr name="tintColor" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="AppTheme">
+        <attr name="toolbarTheme" format="reference" />
+        <attr name="textColorPrimaryInverse" format="reference" />
+        <attr name="textSecondaryDark" format="reference" />
+        <attr name="chipDrawable" format="reference" />
+    </declare-styleable>
+</resources>

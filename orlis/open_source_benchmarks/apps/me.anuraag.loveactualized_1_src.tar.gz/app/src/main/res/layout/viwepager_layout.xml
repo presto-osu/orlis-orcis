@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#e74c3c"
+    android:id="@+id/background"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to the Love Game"
+        android:textColor="@android:color/white"
+        android:id="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:padding="25dp"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The Love Game is a simple app with 36 questions which can help you fall in love with anybody. \n\nThese questions were based on a study Dr.Arthur Aron and this app was inspired by a recent article in the New York Times. Press and hold this text if you want to be redirected to the article. Otherwise swipe left and start your journey."
+        android:id="@+id/textView3"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Timer"
+        android:id="@+id/button"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView"
+        android:textColor="@android:color/white"
+        android:background="@drawable/outline"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:textColor="@android:color/white"
+        android:id="@+id/time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView" />
+
+
+</RelativeLayout>

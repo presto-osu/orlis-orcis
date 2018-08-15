@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_add"
+        android:layout_margin="5dp"
+        android:contentDescription="+"
+        android:background="@drawable/circle"
+        android:id="@+id/plus" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/damage"
+        android:layout_margin="5dp"
+        android:maxWidth="20dp"
+        android:maxHeight="40dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="image"
+        android:textAlignment="center" />
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:contentDescription="-"
+        android:src="@drawable/ic_remove"
+        android:background="@drawable/circle"
+        android:id="@+id/minus" />
+</merge>

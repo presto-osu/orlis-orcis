@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/VerticalLinearLayout"
+    android:background="@color/colorPrimary"
+    tools:context="im.r_c.android.clearweather.activity.MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_main"
+        style="@style/BaseLayout"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="InefficientWeight"/>
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/ci_indicator"
+        style="@style/BaseLayout"
+        android:layout_height="@dimen/view_pager_indicator_height"/>
+</LinearLayout>

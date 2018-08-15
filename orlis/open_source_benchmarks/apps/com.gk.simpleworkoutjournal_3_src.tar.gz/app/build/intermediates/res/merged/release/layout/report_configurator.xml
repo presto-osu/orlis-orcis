@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_above="@+id/report_cnfgrtr_buttons">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/report_conf_two_panes">
+
+        <LinearLayout
+
+            android:id="@+id/report_conf_left_side"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_height="48dp"
+                android:textSize="20sp"
+                android:text="@string/exercise"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:clickable="false"
+                android:background="#dddddd" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_height="48dp"
+                android:textSize="20sp"
+                android:text="@string/period"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:clickable="false"
+                android:background="#dddddd" />
+
+            <TextView
+                android:id="@+id/show_weights_label"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_height="48dp"
+                android:textSize="20sp"
+                android:text="@string/show_weights"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_height="1dp"
+                android:clickable="false"
+                />
+
+            <TextView
+                android:id="@+id/weights_per_date_label"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_height="48dp"
+                android:textSize="20sp"
+                android:text="@string/weight_per_date"
+                android:enabled="false"
+                android:focusable="false"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_height="1dp"
+                android:clickable="false"
+                />
+
+            <TextView
+                android:id="@+id/show_reps_label"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_height="48dp"
+                android:textSize="20sp"
+                android:text="@string/show_reps"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_height="1dp"
+                android:clickable="false"
+                />
+
+            <TextView
+                android:id="@+id/reps_per_date_label"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_height="48dp"
+                android:textSize="20sp"
+                android:text="@string/reps_per_date"
+                android:enabled="false"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/report_conf_right_side"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="right">
+
+            <Spinner
+                android:id="@+id/exerciseChooser"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="3dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:clickable="false"
+                android:background="#dddddd" />
+
+            <Spinner
+                android:id="@+id/periodChooser"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_height="1dp"
+                android:clickable="false"
+                />
+
+            <CheckBox
+                android:id="@+id/show_weight_checkbox"
+                android:onClick="onChbClick"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:scaleX="1.5"
+                android:scaleY="1.5"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_height="1dp"
+                android:clickable="false"
+                />
+
+            <Spinner
+                android:id="@+id/weightPointChooser"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_height="1dp"
+                android:clickable="false"
+                />
+
+            <CheckBox
+                android:id="@+id/show_rep_checkbox"
+                android:onClick="onChbClick"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="10dp"
+                android:scaleX="1.5"
+                android:scaleY="1.5"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="#dddddd"
+                android:layout_height="1dp"
+                android:clickable="false"
+                />
+
+            <Spinner
+                android:id="@+id/repsPointChooser"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+
+    <LinearLayout
+        android:id="@+id/report_cnfgrtr_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/buttonBarStyle"
+        >
+
+        <Button
+            android:id="@+id/gen_rep_btn"
+            style="@style/actionBarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onBtnClick"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="@string/generate" />
+
+        <Button
+            style="@style/actionBarButton"
+            android:id="@+id/cancel_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onBtnClick"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

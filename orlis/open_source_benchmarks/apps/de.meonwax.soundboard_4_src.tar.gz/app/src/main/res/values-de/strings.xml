@@ -1,0 +1,25 @@
+<resources>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Abbrechen</string>
+    <string name="button_import_directory">Verzeichnis importieren</string>
+    <string name="action_new">Sound importieren</string>
+    <string name="action_remove_all">Alle Sounds entfernen</string>
+    <string name="action_about">Info</string>
+    <string name="action_exit">Beenden</string>
+    <string name="file_directory">Verzeichnis</string>
+    <string name="file_storage_selection">Auswahl Medienspeicher</string>
+    <string name="confirm_remove"><![CDATA[<b>%s</b> wirklich entfernen?]]></string>
+    <string name="confirm_remove_all"><![CDATA[Wirklich <b>alle</b> Sounds entfernen?]]></string>
+    <string name="import_directory_info">%s Sound-Dateien importiert.</string>
+    <string name="error_entry_exists">Der Eintrag existiert bereits.</string>
+    <string name="error_add">Konnte %s nicht importieren.</string>
+    <string name="error_no_storage">Der Speicherort der Sounds is momentan nicht verfügbar. Bitte stelle sicher, dass Deine SD-Karte verfügbar ist und versuche es anschließend noch einmal.</string>
+    <string name="error_permission_denied"><![CDATA[<b>%s</b> kann ohne erlaubten Zugriff auf den Medienspeicher nicht ausgeführt werden.]]></string>
+    <string name="error_remove">Beim Entfernen ist ein Fehler aufgetreten.</string>
+    <string name="about_description_text">Lass kurze Sound-Samples auf deinem Android Gerät ertönen.</string>
+    <string name="about_usage_label">Anleitung</string>
+    <string name="about_usage_text">Wähle eine Audio-Datei aus Deinem Medienspeicher und füge der Liste einen neuen Sound hinzu. Die Datei wird in den internen Anwendungsordner kopiert und kann einfach per Touch abgespielt werden.\n\nDu kannst die original Datei jederzeit löschen. Der Sound bleibt so lange abspielbar, bis Du ihn aus der Liste entfernst.</string>
+    <string name="about_copyright_label">Copyright</string>
+    <string name="about_license_label">Lizenz</string>
+    <string name="about_source_label">Quelltext</string>
+</resources>

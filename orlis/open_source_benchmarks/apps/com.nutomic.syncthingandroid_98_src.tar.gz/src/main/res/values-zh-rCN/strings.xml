@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Syncthing</string>
+  <string name="app_description">开放、分布式且值得信赖的文件同步应用。</string>
+  <!--MainActivity-->
+  <!--Title of the "add folder" menu action-->
+  <string name="add_folder">添加文件夹</string>
+  <!--Title of the "share device id" menu action-->
+  <string name="share_device_id">分享设备标识</string>
+  <!--Shown in the chooser dialog when sharing a Device ID-->
+  <string name="send_device_id_to">发送设备标识至</string>
+  <!--Text for FoldersFragment and DevicesFragment loading view-->
+  <string name="api_loading">正在加载...</string>
+  <string name="usage_reporting_dialog_title">允许发送匿名使用报告吗</string>
+  <string name="usage_reporting_dialog_description">每天发送加密过的使用情况报告。它被用来跟踪在何种平台、文件夹大小和应用程序的版本。如果报告所需收集的数据有改变，您将会再次看到本提醒对话框。\n\n汇总统计数据公开于 https://data.syncthing.net</string>
+  <string name="yes">是</string>
+  <string name="no">否</string>
+  <string name="off">关闭</string>
+  <string name="open_website">打开主页</string>
+  <string name="toast_write_storage_permission_required">本应用需要写存储的权限</string>
+  <string name="device_rejected">%1$s 想要连接</string>
+  <string name="folder_rejected">设备 %1$s 想要分享文件夹 %2$s</string>
+  <!--FoldersFragment-->
+  <string name="folders_fragment_title">文件夹</string>
+  <!--Shown if no folders exist-->
+  <string name="folder_list_empty">无文件夹</string>
+  <!--Format string for folder file count-->
+  <string name="files">%2$d 中的 %1$d 个文件</string>
+  <!--DevicesFragment-->
+  <string name="devices_fragment_title">设备</string>
+  <!--Shown if no devices exist-->
+  <string name="devices_list_empty">无设备</string>
+  <!--Indicates that a folder is fully synced to the local device-->
+  <string name="device_up_to_date">最新</string>
+  <!--Indicates that the device is currently syncing. Parameter is sync percentage-->
+  <string name="device_syncing">正在同步 (%1$d%%)</string>
+  <!--Indicates that there is no connection to the device-->
+  <string name="device_disconnected">连接断开</string>
+  <!--Title for current download rate-->
+  <string name="download_title">下载速度</string>
+  <!--Title for current upload rate-->
+  <string name="upload_title">上传速度</string>
+  <!--DrawerFragment-->
+  <!--Same as download_title with a colon and space appended-->
+  <string name="download_title_colon">下载：\u0020</string>
+  <!--Same as upload_title with a colon and space appended-->
+  <string name="upload_title_colon">上传：\u0020</string>
+  <!--Title for current CPU usage-->
+  <string name="cpu_usage">CPU 使用率</string>
+  <!--Title for current RAM usage-->
+  <string name="ram_usage">内存使用</string>
+  <!--Title for announce server status-->
+  <string name="announce_server">宣告服务器</string>
+  <string name="restart">重启</string>
+  <!--FolderSettingsFragment-->
+  <!--Setting title-->
+  <string name="folder_id">文件夹标识</string>
+  <!--Setting title-->
+  <string name="folder_label">文件夹标签</string>
+  <!--Setting title-->
+  <string name="directory">目录</string>
+  <!--Setting title-->
+  <string name="folder_master">主文件夹</string>
+  <!--Setting title-->
+  <string name="devices">设备</string>
+  <!--Setting title-->
+  <string name="keep_versions">保留历史版本数量</string>
+  <!--Setting title-->
+  <string name="delete_folder">删除文件夹</string>
+  <!--Title for FolderSettingsFragment in create mode-->
+  <string name="create_folder">新建文件夹</string>
+  <!--Title for FolderSettingsFragment in edit mode-->
+  <string name="edit_folder">编辑文件夹</string>
+  <!--Menu item to confirm folder creation-->
+  <string name="create">新建</string>
+  <!--Dialog shown when attempting to remove a folder-->
+  <string name="remove_folder_confirm">您确定要从 Syncthing 中删除该文件夹吗？</string>
+  <!--Toast shown when trying to create a folder with an empty ID-->
+  <string name="folder_id_required">文件夹标识不得为空</string>
+  <!--Toast shown when trying to create a folder with an empty path-->
+  <string name="folder_path_required">文件夹路径不得为空</string>
+  <!--Dialog shown before config export-->
+  <string name="dialog_confirm_export">您确定要导出您的配置？若您之前导出过配置，则文件会被当前导出的配置所覆盖。\n\n 警告！其他应用程序可以从您导出的配置文件中获取到您的密钥，并且可以通过它来下载或者修改您的同步文件。</string>
+  <!--Dialog shown before config import-->
+  <string name="dialog_confirm_import">您确定要导入新配置？会覆盖现有配置。</string>
+  <!--DeviceSettingsFragment-->
+  <!--Setting title-->
+  <string name="device_id">设备标识</string>
+  <!--Setting title-->
+  <string name="name">名称</string>
+  <!--Setting title-->
+  <string name="addresses">地址</string>
+  <!--Setting title-->
+  <string name="current_address">当前地址</string>
+  <!--Setting title-->
+  <string name="compression">压缩</string>
+  <!--Strings representing compression options-->
+  <string-array name="compress_entries">
+    <item>从不</item>
+    <item>元数据</item>
+    <item>总是</item>
+  </string-array>
+  <!--Setting title-->
+  <string name="introducer">介绍人</string>
+  <!--ActionBar item-->
+  <string name="delete_device">删除设备</string>
+  <string name="add_device">添加设备</string>
+  <!--Menu item to confirm adding a device-->
+  <string name="add">添加</string>
+  <!--Title for DeviceSettingsFragment in edit mode-->
+  <string name="edit_device">编辑设备</string>
+  <!--Dialog shown when attempting to remove a device-->
+  <string name="remove_device_confirm">您确定要移除该设备吗？</string>
+  <!--Toast shown when trying to create a device with an empty ID-->
+  <string name="device_id_required">设备标识不得为空</string>
+  <!--Content description for device ID qr code icon-->
+  <string name="scan_qr_code_description">扫描二维码</string>
+  <!--Toast show if we could not get root permissions-->
+  <string name="toast_root_denied">无法获取管理员权限</string>
+  <!--WebGuiActivity-->
+  <!--Title of the web gui activity-->
+  <string name="web_gui_title">网页管理页面</string>
+  <!--Text for WebGuiActivity loading view-->
+  <string name="web_gui_loading">正在等待管理页面</string>
+  <!--Shown instead of web_gui_loading if the key does not exist and has to be created-->
+  <string name="web_gui_creating_key">正在生成安全密钥。这可能需要一段时间，请稍等。</string>
+  <!--Title for dialog displayed on first start-->
+  <string name="welcome_title">欢迎使用 Android 版 Syncthing</string>
+  <!--Text for dialog displayed on first start-->
+  <string name="welcome_text">Syncthing 是一款开源文件同步应用。\n\n\
+若要同步数据到别的设备中，您需要添加该设备的唯一标识至设备列表中，其后选择分享哪些文件夹至该设备之中。\n\n\
+若您遇到任何的问题，欢迎您到 Github 上给我们反馈。</string>
+  <!--SettingsFragment-->
+  <!--Activity title-->
+  <string name="settings_title">设置</string>
+  <string name="category_syncthing_android">Android 版 Syncthing 功能</string>
+  <!--Preference title-->
+  <string name="always_run_in_background">总是在后台运行</string>
+  <!--Preference summary in case it is enabled-->
+  <string name="always_run_in_background_enabled">Syncthing 会根据下方的偏好运行在后台</string>
+  <!--Preference summary in case it is disabled-->
+  <string name="always_run_in_background_disabled">Syncthing 仅在运行后启动同步并且可以通过点按菜单按钮停止</string>
+  <string name="sync_only_charging">仅在充电时同步</string>
+  <string name="sync_only_wifi">仅在无线网络下同步</string>
+  <string name="sync_only_wifi_ssids">对某些无线网络下限制同步</string>
+  <string name="sync_only_wifi_ssids_all">在所有网络环境下同步</string>
+  <string name="sync_only_wifi_ssids_values">仅当连接到 %1$s 网络中才进行同步</string>
+  <string name="sync_only_wifi_ssids_wifi_turn_on_wifi">请打开无线网络连接并选择网络</string>
+  <string name="advanced_folder_picker">使用高级文件夹选择器</string>
+  <string name="advanced_folder_picker_summary">可以选择设备上任何文件夹</string>
+  <string name="use_root_title">Syncthing 运行于超级用户</string>
+  <string name="use_root_summary">这可能会导致本应用及操作系统出现各种问题。使用需要您自担风险。</string>
+  <string name="notification_type_title">通知</string>
+  <string name="notification_type_summary">选择通知类型</string>
+  <string-array name="notification_type_entries">
+    <item>常规</item>
+    <item>低优先级</item>
+    <item>隐藏</item>
+  </string-array>
+  <string name="category_syncthing">Syncthing 通用功能</string>
+  <string name="syncthing_options">同步设置</string>
+  <string name="device_name">设备名称</string>
+  <string name="listen_address">同步协议监听地址</string>
+  <string name="max_recv_kbps">下载限速（KiB/s）</string>
+  <string name="max_send_kbps">上传限速（KiB/s）</string>
+  <string name="global_announce_enabled">在互联网中寻找节点</string>
+  <string name="local_announce_enabled">在局域网中寻找节点</string>
+  <string name="global_announce_server">用以在互联网上寻找节点的发布服务器地址</string>
+  <string name="usage_reporting">匿名使用报告</string>
+  <string name="syncthing_gui">Syncthing 管理页</string>
+  <string name="gui_address">管理页监听地址</string>
+  <string name="gui_user">管理页认证用户</string>
+  <string name="gui_password">管理页认证密码</string>
+  <string name="export_config">导出设置</string>
+  <string name="experimental_settings">实验性</string>
+  <string name="keep_wakelock_while_binary_running">当 Syncthing 正在运行时保持 CPU 唤醒</string>
+  <string name="keep_wakelock_while_binary_running_summary">使用此设置如果您在电池上运行时遇到意外的断开连接。这将会导致电量消耗的增加。</string>
+  <!--Toast shown after config was successfully exported-->
+  <string name="config_export_successful">设置已导出至 %1$s</string>
+  <string name="import_config">导入设置</string>
+  <!--Toast shown after config was successfully imported-->
+  <string name="config_imported_successful">设置已导入</string>
+  <!--Toast shown after config was successfully imported-->
+  <string name="config_import_failed">设置导入失败，请确保文件位于 %1$s</string>
+  <!--Title for the preference to set STTRACE parameters-->
+  <string name="sttrace_title">调试选项</string>
+  <!--Toast after entering invalid STTRACE params-->
+  <string name="toast_invalid_sttrace">STTRACE 选项仅允许 a-z 与逗号</string>
+  <!--Toast after entering invalid username-->
+  <string name="toast_invalid_username">用户名不允许存在符号 \'</string>
+  <!--Toast after entering invalid password-->
+  <string name="toast_invalid_password">密码不允许存在符号 \'</string>
+  <!--Title for the preference to reset Syncthing indexes-->
+  <string name="streset_title">重置数据库</string>
+  <!--Syncthing was reset-->
+  <string name="streset_question">本操作仅应在支持团队的推荐下进行。\n
+您确定要清理 Syncthing 的索引数据库吗？</string>
+  <!--Syncthing was reset-->
+  <string name="streset_done">重置 Syncthing 数据库完成</string>
+  <string name="category_about">关于</string>
+  <!--Settings item that opens the log activity-->
+  <string name="open_log">打开日志</string>
+  <!--Summary for the log activity-->
+  <string name="open_log_summary">打开 Syncthing 与 Android 系统日志窗口</string>
+  <!--Settings item that opens issue tracker-->
+  <string name="report_issue_title">回报问题</string>
+  <!--Summary for the issue tracker settings item-->
+  <string name="report_issue_summary">打开 Android 版 Syncthing 问题追踪页</string>
+  <!--URL of the issue tracker-->
+  <!--Menu item to donate-->
+  <string name="donate_title">捐赠</string>
+  <string name="donate_summary">帮助我们支付域名和托管费用</string>
+  <!--Title of the preference showing upstream version name-->
+  <string name="syncthing_version_title">Syncthing 版本</string>
+  <!--Title of the preference showing this app's version name-->
+  <string name="app_version_title">Syncthing-Android 版本</string>
+  <!--FolderPickerAcitivity-->
+  <!--Activity title-->
+  <string name="folder_picker_title">文件夹选择器</string>
+  <!--Toast shown on devices with kitkat or higher-->
+  <string name="kitkat_external_storage_warning">警告：您的系统版本不允许同步文件至外部存储器</string>
+  <!--ListView empty text-->
+  <string name="directory_empty">目录为空</string>
+  <!--Menu item to create folder on the file system-->
+  <string name="create_fs_folder">新建文件夹</string>
+  <!--Menu item to select the current folder-->
+  <string name="select_folder">选择文件夹</string>
+  <string name="create_folder_failed">新建文件夹失败</string>
+  <!--LogActivity-->
+  <!--Title of the "log" activity-->
+  <string name="log_title">日志</string>
+  <!--Title of the "log android" menu button-->
+  <string name="log_android_title">查看 Android 系统日志</string>
+  <!--Title of the "log Syncthing" menu button-->
+  <string name="log_syncthing_title">查看 Syncthing 日志</string>
+  <!--Title of the "share log" menu button-->
+  <string name="share_title">日志</string>
+  <!--SyncthingService-->
+  <!--Title of the "syncthing disabled" dialog-->
+  <string name="syncthing_disabled_title">Syncthing 已禁用</string>
+  <!--Message of the "syncthing disabled" dialog-->
+  <string name="syncthing_disabled_message">您确定要变更您的设置吗？</string>
+  <!--Button text on the "syncthing disabled" dialog-->
+  <string name="syncthing_disabled_change_settings">变更设置</string>
+  <!--Button text on the "syncthing disabled" dialog, used as menu item to stop syncthing service if "always_run_in_background" is true-->
+  <string name="exit">退出</string>
+  <!--Title of the notification shown while syncthing is running and enabled-->
+  <string name="syncthing_active">Syncthing 正在运行</string>
+  <!--Toast shown if folder observer fails to traverse a folder-->
+  <string name="toast_folder_observer_stack_overflow">目录树层次过深，正在检查循环符号链接。</string>
+  <!--Toast shown if syncthing failed to create a config-->
+  <string name="config_create_failed">创建 Syncthing 配置文件失败，请检查日志。</string>
+  <!--Label of the default folder created of first start (camera folder).-->
+  <string name="default_folder_label">摄像机</string>
+  <!--ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
+  <string name="default_folder_id">%1$s-照片</string>
+  <!--RestApi-->
+  <!--Title of the notification shown when a restart is needed-->
+  <string name="restart_title">需要重启以应用</string>
+  <!--Text for positive button in restart dialog-->
+  <string name="restart_now">立即重启</string>
+  <!--Text for the dismiss button of the restart Activity-->
+  <string name="restart_later">稍后重启</string>
+  <!--Text of the notification shown when a restart is needed-->
+  <string name="restart_notification_text">点此立即重启本应用</string>
+  <!--Shown when a device ID is copied to the clipboard-->
+  <string name="device_id_copied_to_clipboard">设备标识已复制到剪贴板</string>
+  <!--Strings representing units for file sizes, from smallest to largest-->
+  <string-array name="file_size_units">
+    <item>B</item>
+    <item>KiB</item>
+    <item>MiB</item>
+    <item>GiB</item>
+    <item>TiB</item>
+  </string-array>
+  <!--Strings representing units for transfer rates, from smallest to largest-->
+  <string-array name="transfer_rate_units">
+    <item>B/s</item>
+    <item>KiB/s</item>
+    <item>MiB/s</item>
+    <item>GiB/s</item>
+    <item>TiB/s</item>
+  </string-array>
+  <!--Possible folder states-->
+  <string name="state_idle">空闲</string>
+  <string name="state_scanning">正在扫描</string>
+  <string name="state_cleaning">正在清理</string>
+  <string name="state_syncing">正在同步 (%1$d%%)</string>
+  <string name="state_error">错误</string>
+  <string name="state_unknown">未知</string>
+  <!--Format string for folder size, eg "500 MiB / 1 GiB"-->
+  <string name="folder_size_format">%1$s / %2$s</string>
+  <string name="appconfig_receiver_background_enabled">当启用后台运行时不支持停止 Syncthing。</string>
+</resources>

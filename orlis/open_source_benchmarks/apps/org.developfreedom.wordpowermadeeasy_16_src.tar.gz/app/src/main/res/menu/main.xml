@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.developfreedom.wordpowermadeeasy.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings" />
+
+
+    <item
+        android:id="@+id/action_color_blue"
+        android:orderInCategory="100"
+        android:title="Blue Color" />
+
+    <item
+        android:id="@+id/action_color_green"
+        android:orderInCategory="100"
+        android:title="Green Color" />
+
+    <item
+        android:id="@+id/action_color_orange"
+        android:orderInCategory="100"
+        android:title="Orange Color" />
+</menu>

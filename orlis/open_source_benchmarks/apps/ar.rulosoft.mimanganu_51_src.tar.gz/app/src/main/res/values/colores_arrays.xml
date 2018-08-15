@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colores" translatable="false">
+        <item>#F44336</item>
+        <item>#E91E63</item>
+        <item>#9C27B0</item>
+        <item>#673AB7</item>
+        <item>#3F51B5</item>
+        <item>#2196F3</item>
+        <item>#03A9F4</item>
+        <item>#009688</item>
+        <item>#4CAF50</item>
+        <item>#8BC34A</item>
+        <item>#CDDC39</item>
+        <item>#FFC107</item>
+        <item>#FF9800</item>
+        <item>#FF5722</item>
+        <item>#795548</item>
+        <item>#9E9E9E</item>
+        <item>#607D8B</item>
+        <item>#000000</item>
+    </string-array>
+
+    <!--My own color arrangement, hopefully the names are not licensed-->
+    <!--The colors are an approximation of the color above, not the same, but almost-->
+    <string-array name="color_codes">
+        <item>#FF3F34</item>
+        <item>#E3256B</item>
+        <item>#9932CC</item>
+        <item>#652DC1</item>
+        <item>#2A52BE</item>
+        <item>#1E90FF</item>
+        <item>#00B7EB</item>
+        <item>#069B81</item>
+        <item>#4FA83D</item>
+        <item>#85BB65</item>
+        <item>#D1E231</item>
+        <item>#FFC40C</item>
+        <item>#FB9902</item>
+        <item>#F2552A</item>
+        <item>#795D4C</item>
+        <item>#9F9F9C</item>
+        <item>#51808F</item>
+        <item>#100C08</item>
+
+        <item>#413839</item>
+        <item>#151B54</item>
+        <item>#483D8B</item>
+        <item>#915c83</item>
+        <item>#336666</item>
+    </string-array>
+
+    <string-array name="color_names">
+        <item>Red Orange</item>
+        <item>Razzmatazz</item>
+        <item>Dark Orchid</item>
+        <item>Purple Heart</item>
+        <item>Cerulean Blue</item>
+        <item>Dodger Blue</item>
+        <item>Cyan</item>
+        <item>Gossamer</item>
+        <item>Apple</item>
+        <item>Dollar Bill</item>
+        <item>Pear</item>
+        <item>Mikado Yellow</item>
+        <item>Orange</item>
+        <item>Flamingo</item>
+        <item>Roman Coffee</item>
+        <item>Star Dust</item>
+        <item>Smalt Blue</item>
+        <item>Smoky Black</item>
+
+        <item>Black Cat</item>
+        <item>Midnight Blue</item>
+        <item>Dark Slate Blue</item>
+        <item>Antique Fuchsia</item>
+        <item>Dark Slate Gray</item>
+    </string-array>
+
+    <string-array name="backgroungs" translatable="false">
+        <item>#FFEBEE</item>
+        <item>#FCE4EC</item>
+        <item>#F3E5F5</item>
+        <item>#EDE7F6</item>
+        <item>#E8EAF6</item>
+        <item>#E3F2FD</item>
+        <item>#E1F5FE</item>
+        <item>#E0F2F1</item>
+        <item>#E8F5E9</item>
+        <item>#F1F8E9</item>
+        <item>#F9FBE7</item>
+        <item>#FFFDE7</item>
+        <item>#FFF8E1</item>
+        <item>#FFF3E0</item>
+        <item>#EFEBE9</item>
+        <item>#FAFAFA</item>
+        <item>#ECEFF1</item>
+        <item>#FFFFFF</item>
+    </string-array>
+</resources>

@@ -1,0 +1,133 @@
+[
+    {
+        "outputFile": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 12,
+                    "endOffset": 267
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 12,
+                        "endOffset": 267
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 272,
+                    "endLine": 9,
+                    "endColumn": 12,
+                    "endOffset": 483
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 581,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 488,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 645
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 272,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 429
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 650,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 806
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 797,
+                        "endLine": 19,
+                        "endColumn": 12,
+                        "endOffset": 953
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 811,
+                    "endLine": 18,
+                    "endColumn": 12,
+                    "endOffset": 952
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 434,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 957,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 1097
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 958,
+                        "endLine": 22,
+                        "endColumn": 12,
+                        "endOffset": 1098
+                    }
+                }
+            }
+        ]
+    }
+]

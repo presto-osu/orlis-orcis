@@ -1,0 +1,51 @@
+Abbreviation: Vol    
+Genitive: Volantis    
+Pronunciation: /ˈvoʊlænz/, genitive /vɒˈlæntɨs/    
+Symbolism: the Flying Fish    
+Right ascension: 8    
+Declination: −70    
+Family: Bayer    
+Quadrant: SQ2    
+Area: 141 sq. deg. (76th)    
+Main stars: 6    
+Bayer/Flamsteed stars: 12    
+Stars with planets: 2    
+Stars brighter than 3.00m: 0    
+Stars within 10.00 pc (32.62 ly): 1    
+Brightest star: β Vol (3.77m)    
+Nearest star: Gliese 293 (19.35 ly, 5.93 pc)    
+Messier objects: 0    
+Meteor showers: 0    
+Bordering constellations: Carina Pictor Dorado Mensa Chamaeleon    
+Visible at latitudes between +15° and −90°. Best visible at 21:00 (9 p.m.) during the month of March.
+    
+Volans is a constellation in the southern sky. It represents a flying fish; its name is a shortened form of its original name, Piscis Volans. Volans was one of twelve constellations created by Petrus Plancius from the observations of Pieter Dirkszoon Keyser and Frederick de Houtman and it first appeared on a 35-cm diameter celestial globe published in 1597 (or 1598) in Amsterdam by Plancius with Jodocus Hondius. The first depiction of this constellation in a celestial atlas was in Johann Bayer's Uranometria of 1603.
+
+History
+Volans is one of the 12 constellations that were introduced by the Dutch navigators Pieter Dirkszoon Keyser and Frederick de Houtman in the late 16th century. It was first depicted on Petrus Plancius’ globe in 1598. Plancius called the constellation Vliegendenvis (flying fish).
+In 1603, Johann Bayer included the constellation in his star atlas Uranometria under the name Piscis Volans, the flying fish. It was known by that name until the mid-19th century, when John Herschel suggested that the name be shortened to just "Volans."
+Volans represents a type of tropical fish that can jump out of the water and glide through the air on wings. In early celestial maps, the flying fish was often depicted as accompanying the ship Argo Navis, and being chased by the predatory fish represented by the Dorado constellation.
+
+Stars
+There are two double stars within the constellation which can be observed using a small telescope, Gamma Volantis and Epsilon Volantis, along with two galaxies which may be more difficult to see clearly, NGC 2442 and NGC 2434. The magnitudes of the Gamma Volantis stars are fourth and sixth, and of Epsilon Volantis fourth and eighth.
+
+Deep-sky objects
+Volans has several deep-sky objects within its borders.
+The Lindsay-Shapley ring, also categorized as AM0644-741, is a ring galaxy located 300 million light-years from Earth. Named for its discoverers, the Lindsay-Shapley ring was found near the Large Magellanic Cloud in 1960. Like the Cartwheel Galaxy in Sculptor, the unusual shape of this galaxy results from a collision many millions of years ago. The blue ring, 150,000 light-years in diameter, was formed when a shock wave from the collision created a ring of hot blue stars; the yellow core is an amalgamation of the progenitors' cores. NGC 2442, an intermediate-spiral galaxy, is also located in this constellation, with a distance of 50 million light-years from Earth.
+
+References
+Citations
+^ a b Staal 1988, p. 244.
+^ Constellations: A Guide to the Night Sky (2013) available at www.constellation-guide.com/constellation-list/volans-constellation/
+^ Ibid.
+^ Ridpath, p. 141.
+^ Ridpath.
+^ "SEDS". SEDS. 28 August 1997. Retrieved 30 June 2009. 
+^ Ridpath & Tirion 2007.
+^ Wilkins & Dunn 2006.
+
+ReferencesRidpath, Ian; Tirion, Wil (2007), Stars and Planets Guide, Princeton University Press, ISBN 978-0-691-13556-4 
+Staal, Julius D.W. (1988), The New Patterns in the Sky, McDonald and Woodward Publishing Company, ISBN 0-939923-04-1 
+Wilkins, Jamie; Dunn, Robert (2006). 300 Astronomical Objects: A Visual Reference to the Universe. Firefly Books. ISBN 978-1-55407-175-3. 
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Volans&oldid=582300835"

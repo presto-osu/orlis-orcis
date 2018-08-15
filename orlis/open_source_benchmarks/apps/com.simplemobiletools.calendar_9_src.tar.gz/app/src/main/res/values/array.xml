@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminders">
+        <item>@string/off</item>
+        <item>@string/at_start</item>
+        <item>@string/minutes_before</item>
+    </string-array>
+</resources>

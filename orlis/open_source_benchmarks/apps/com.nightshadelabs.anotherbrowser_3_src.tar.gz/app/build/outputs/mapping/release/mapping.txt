@@ -1,0 +1,4 @@
+com.nightshadelabs.anotherbrowser.AnotherBrowserActivity -> com.nightshadelabs.anotherbrowser.AnotherBrowserActivity:
+    void <init>() -> <init>
+    void onCreate(android.os.Bundle) -> onCreate
+    android.net.Uri findUrlInString(java.lang.String) -> findUrlInString

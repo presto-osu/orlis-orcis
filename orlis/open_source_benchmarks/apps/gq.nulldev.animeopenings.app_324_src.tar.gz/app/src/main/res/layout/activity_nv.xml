@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowActionBar="false"
+    android:keepScreenOn="true">
+
+    <SurfaceView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fullscreen_video"
+        android:keepScreenOn="true"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bufferIndicator"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true"
+        android:indeterminateOnly="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/subTextView"
+        android:layout_gravity="center_horizontal|bottom"
+        android:textColor="#ffbeffc8"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:shadowColor="#000000"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="1.5"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/songInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:alpha="1.0"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#000000"
+        android:shadowDx="0.0"
+        android:shadowDy="0.0"
+        android:shadowRadius="2.0" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/topBtnBar">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnShare"
+            android:src="@android:drawable/ic_menu_upload"
+            android:background="@drawable/flat_button"
+            android:padding="5dp"
+            android:contentDescription="Share Button"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnSettings"
+            android:src="@android:drawable/ic_menu_preferences"
+            android:background="@drawable/flat_button"
+            android:padding="5dp"
+            android:contentDescription="@string/activity_nv_settings_button_desc"
+            android:clickable="true" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7f5a595b"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/lowerBtnBar"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/pbRange"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:layout_gravity="left|center_vertical" />
+
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:id="@+id/seekBar"
+            android:maxHeight="50dp"
+            android:minHeight="50dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_vertical" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/btnPlayPause"
+            android:background="@drawable/flat_button_default_trans"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:contentDescription="@string/activity_nv_play_button_desc"
+            android:clickable="true"
+            android:layout_gravity="center_vertical|right" />
+    </LinearLayout>
+
+    <gq.nulldev.animeopenings.app.util.TutorialView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tutorialView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

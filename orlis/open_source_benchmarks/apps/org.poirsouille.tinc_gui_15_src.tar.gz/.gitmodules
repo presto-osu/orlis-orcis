@@ -1,0 +1,6 @@
+[submodule "platform_external_openssl"]
+	path = platform_external_openssl
+	url = https://github.com/Vilbrekin/platform_external_openssl.git
+[submodule "tinc"]
+	path = tinc
+	url = http://tinc-vpn.org/git/tinc

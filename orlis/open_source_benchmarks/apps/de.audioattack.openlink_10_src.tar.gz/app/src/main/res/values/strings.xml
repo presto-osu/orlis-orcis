@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Easy Open Link</string>
+    <string name="tv_copyright" translatable="false">Copyright &#169; 2014 - 2016 Marc Nause&lt;br&gt;&lt;br&gt;This program is free software: you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation, either version 3 of the License, or
+		(at your option) any later version.&lt;br&gt;&lt;br&gt;This program is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+		GNU General Public License for more details.&lt;br&gt;&lt;br&gt;You should have received a copy of the GNU General Public License
+		along with this program. If not, see &lt;a href="http://www.gnu.org/licenses/"&gt;http://www.gnu.org/licenses/&lt;/a&gt;.</string>
+    <string name="url_video" translatable="false">https://www.youtube.com/watch?v=cTIn11Zw1cc</string>
+    <string name="url_source" translatable="false">https://gitlab.com/marc.nause/openlink/</string>
+
+    <!-- Copy of strings from English version. -->
+    <string name="menu_label">open link</string>
+    <string name="error_unable_to_open">Unable to open:\n%1$s</string>
+    <string name="error_no_url_found">No links found.</string>
+    <string name="lbl_video">Instructions</string>
+    <string name="lbl_source_code">Source Code</string>
+
+</resources>

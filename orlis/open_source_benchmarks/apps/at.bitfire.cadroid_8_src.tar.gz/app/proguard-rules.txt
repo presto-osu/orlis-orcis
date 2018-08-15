@@ -1,0 +1,10 @@
+
+# ProGuard usage for DAVdroid:
+# 	shrinking		yes - main reason for using ProGuard
+# 	optimization		no - too risky
+# 	obfuscation		no - DAVdroid is open-source
+# 	preverification		no (Android default)
+
+-dontobfuscate
+
+-keep class at.bitfire.cadroid.** { *; }	# all CAdroid code is required

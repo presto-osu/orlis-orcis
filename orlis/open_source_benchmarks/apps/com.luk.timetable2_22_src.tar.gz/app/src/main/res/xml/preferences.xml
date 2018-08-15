@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_app">
+        <ListPreference
+            android:key="theme"
+            android:title="@string/pref_title_theme"
+            android:entries="@array/themeEntries"
+            android:entryValues="@array/themeValues"
+            android:defaultValue="dark" />
+
+        <ListPreference
+            android:key="themeAccent"
+            android:title="@string/pref_title_themeAccent"
+            android:entries="@array/themeAccentEntries"
+            android:entryValues="@array/themeAccentValues"
+            android:defaultValue="normal" />
+
+        <Preference
+            android:key="restore_lessons"
+            android:title="@string/pref_title_restore_lessons" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_notifications">
+        <CheckBoxPreference
+            android:key="notifications_vibrate"
+            android:title="@string/pref_title_notification_vibrate" />
+
+        <EditTextPreference
+            android:key="notifications_vibrate_length"
+            android:title="@string/pref_title_notification_vibrate_length"
+            android:inputType="number"
+            android:defaultValue="250" />
+
+        <EditTextPreference
+            android:key="notifications_vibrate_time"
+            android:title="@string/pref_title_notification_vibrate_time"
+            android:inputType="number"
+            android:defaultValue="0" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_api">
+        <EditTextPreference
+            android:key="school"
+            android:title="@string/pref_title_school" />
+    </PreferenceCategory>
+</PreferenceScreen>

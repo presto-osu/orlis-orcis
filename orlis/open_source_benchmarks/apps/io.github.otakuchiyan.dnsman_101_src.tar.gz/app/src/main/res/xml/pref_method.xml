@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="pref_method"
+        android:title="@string/pref_method_setting_method"
+        android:defaultValue="vpn"
+        android:entries="@array/method_strings"
+        android:entryValues="@array/method_values" />
+        
+        <PreferenceCategory android:title="@string/pref_ndc"
+            android:key="pref_ndc_interface">
+            <io.github.otakuchiyan.dnsman.InterfacePreference
+                android:key="pref_ndc_wlan"
+                android:defaultValue="wlan0"
+                android:title="@string/pref_ndc_wlan" />
+            <io.github.otakuchiyan.dnsman.InterfacePreference
+                android:key="pref_ndc_rmnet"
+                android:defaultValue="rmnet0"
+                android:title="@string/pref_ndc_rmnet" />
+            <io.github.otakuchiyan.dnsman.InterfacePreference
+                android:key="pref_ndc_bt"
+                android:defaultValue="bt-pan"
+                android:title="@string/pref_ndc_bt" />
+            <io.github.otakuchiyan.dnsman.InterfacePreference
+                android:key="pref_ndc_eth"
+                android:defaultValue="eth0"
+                android:title="@string/pref_ndc_eth" />
+        </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_advanced_settings">
+    <EditTextPreference
+        android:title="@string/pref_vpn_delay"
+        android:summary="@string/pref_vpn_delay_summary"
+        android:key="pref_vpn_delay"
+        android:defaultValue="0"
+        android:inputType="number"/>
+    </PreferenceCategory>
+</PreferenceScreen>

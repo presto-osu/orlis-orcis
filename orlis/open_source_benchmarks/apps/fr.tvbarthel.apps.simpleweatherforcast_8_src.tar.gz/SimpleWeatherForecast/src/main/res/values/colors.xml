@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_default">#AAFEE4CD</color>
+    <color name="text_palette_one">#FFFFFF</color>
+    <color name="background_view_pager">#3C000000</color>
+    <color name="holo_blue">#33B5E5</color>
+    <color name="holo_purple">#AA66CC</color>
+    <color name="holo_yellow">#FFBB33</color>
+    <color name="holo_red">#FF4444</color>
+    <color name="holo_green">#99CC00</color>
+    <color name="text_more_apps_on">#66000000</color>
+    <color name="text_more_apps_off">#FF000000</color>
+    <color name="black_translucent">#82000000</color>
+    <color name="black_translucent_dark">#DD222222</color>
+
+    <color name="action_bar_background">#33000000</color>
+
+    <!-- More apps dialog fragment -->
+    <color name="row_more_apps_background">#CC999999</color>
+    <color name="row_more_apps_title_background">#CC333333</color>
+    <color name="row_more_apps_title">#FFFFFFFF</color>
+
+    <!-- App Widget -->
+    <color name="app_widget_background">#77000000</color>
+    <color name="app_widget_list_selector_pressed">#33000000</color>
+
+</resources>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentTop="true"
+    android:layout_above="@+id/report_cnfgrtr_buttons">
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/exStatCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@color/baseColor"
+            android:text="@string/exercise"
+            android:layout_marginTop="4dp"
+            android:padding="7dp"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/exercise_name_in_report"
+            android:layout_below="@id/exStatCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/oneRepCaption"
+            android:layout_below="@id/exercise_name_in_report"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@color/baseColor"
+            android:text="@string/per_one_rep"
+            android:padding="7dp"
+            android:textSize="22sp"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/oneRepMaxWeightCap"
+            android:layout_below="@id/oneRepCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/max_weight"
+            android:paddingLeft="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/oneRepMaxWeightNum"
+            android:layout_below="@id/oneRepCaption"
+            android:layout_toRightOf="@id/oneRepMaxWeightCap"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="0.0"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/oneRepAvgWeightCap"
+            android:layout_below="@id/oneRepMaxWeightCap"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/average_weight"
+            android:paddingLeft="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/oneRepAvgWeightNum"
+            android:layout_below="@id/oneRepMaxWeightCap"
+            android:layout_toRightOf="@id/oneRepMaxWeightCap"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="0.0"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/oneSetCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@color/baseColor"
+            android:text="@string/per_one_set"
+            android:padding="7dp"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/oneRepAvgWeightCap"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/oneSetMaxWeightCap"
+            android:layout_below="@id/oneSetCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/max_weight"
+            android:paddingLeft="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/oneSetMaxWeightNum"
+            android:layout_below="@id/oneSetCaption"
+            android:layout_toRightOf="@id/oneSetMaxWeightCap"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="0.0"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/oneSetAvgWeightCap"
+            android:layout_below="@id/oneSetMaxWeightCap"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/average_weight"
+            android:paddingLeft="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/oneSetAvgWeightNum"
+            android:layout_below="@id/oneSetMaxWeightCap"
+            android:layout_toRightOf="@id/oneSetAvgWeightCap"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="0.0"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/oneDayCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@color/baseColor"
+            android:text="@string/per_one_day"
+            android:padding="7dp"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/oneSetAvgWeightCap"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/oneDayMaxWeightCap"
+            android:layout_below="@id/oneDayCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/max_weight"
+            android:paddingLeft="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/oneDayMaxWeightNum"
+            android:layout_below="@id/oneDayCaption"
+            android:layout_toRightOf="@id/oneDayMaxWeightCap"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="0.0"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/oneDayAvgWeightCap"
+            android:layout_below="@id/oneDayMaxWeightCap"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/average_weight"
+            android:paddingLeft="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/oneDayAvgWeightNum"
+            android:layout_below="@id/oneDayMaxWeightCap"
+            android:layout_toRightOf="@id/oneDayAvgWeightCap"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="0.0"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:gravity="end"/>
+
+        <TextView
+            android:id="@+id/allTimeCaption"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@color/baseColor"
+            android:text="@string/per_period"
+            android:padding="7dp"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/oneDayAvgWeightCap"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/allTimeMaxWeightCap"
+            android:layout_below="@id/allTimeCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/max_weight"
+            android:paddingLeft="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/allTimeMaxWeightNum"
+            android:layout_below="@id/allTimeCaption"
+            android:layout_toRightOf="@id/allTimeMaxWeightCap"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:text="0.0"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20sp"
+            android:gravity="end"/>
+        
+    </RelativeLayout>
+
+
+</ScrollView>

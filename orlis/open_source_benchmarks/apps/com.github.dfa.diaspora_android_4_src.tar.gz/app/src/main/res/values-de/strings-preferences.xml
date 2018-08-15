@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Categories -->
+    <string name="pref_category_visuals">Erscheinungsbild</string>
+    <string name="pref_category_network">Netzwerk</string>
+    <string name="pref_category_pod_settings">Pod Einstellungen</string>
+
+    <!-- Visuals -->
+    <!-- Font size -->
+    <string name="pref_title_font_size">Schriftgröße</string>
+    <array name="pref_entries_font_size">
+        <item>Normal</item>
+        <item>Groß</item>
+        <item>Riesig</item>
+    </array>
+
+    <!-- Load images -->
+    <string name="pref_title_load_images">Lade Bilder</string>
+    <string name="pref_desc_load_images">Deaktiviere das Laden von Bildern, um den Datenverbrauch zu verringern</string>
+
+    <!-- Proxy -->
+    <string name="pref_title_proxy_enabled">Aktiviere Proxy</string>
+    <string name="pref_desc_proxy_enabled">Nutze einen Proxyserver um Firewalls zu umgehen</string>
+    <string name="pref_title_proxy_host">Host</string>
+    <string name="pref_title_proxy_port">Port</string>
+
+    <!-- Diaspora Settings -->
+    <string name="pref_title_personal_settings">Persönliche Einstellungen</string>
+    <string name="pref_desc_personal_settings">Öffne die Einstellungen deines Diaspora Accounts</string>
+
+    <string name="pref_title_manage_contacts">Kontakte</string>
+    <string name="pref_desc_manage_contacts">Bearbeite deine Kontaktliste</string>
+
+    <string name="pref_title_manage_tags">Tags verwalten</string>
+    <string name="pref_desc_manage_tags">Verwalte die Liste der Hashtags, denen du folgst</string>
+
+    <string name="pref_title_change_account">Account wechseln</string>
+    <string name="pref_desc_change_account">Lösche lokale Sitzungsdaten und wechsle zu einem anderen Pod/Account</string>
+    <string name="pref_warning_change_account">Das wird alle Cookies und Session-Daten löschen. Willst du wirklich den Account wechseln?</string>
+
+</resources>

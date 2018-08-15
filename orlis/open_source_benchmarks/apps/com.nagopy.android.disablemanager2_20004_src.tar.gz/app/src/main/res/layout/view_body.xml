@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:autoLink="web|email"
+    android:paddingEnd="0dp"
+    android:paddingLeft="@dimen/unit_2"
+    android:paddingRight="0dp"
+    android:paddingStart="@dimen/unit_2"
+    android:paddingTop="@dimen/unit_2"
+    android:textAppearance="@style/TextAppearance.AppTheme.Small"
+    tools:ignore="NewApi" />

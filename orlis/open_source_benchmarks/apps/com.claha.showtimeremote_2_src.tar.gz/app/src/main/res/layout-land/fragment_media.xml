@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/horizontal_center_layout"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+    <include
+        layout="@layout/layout_media_ctrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        style="@style/vertical_center_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <include layout="@layout/layout_media_volume" />
+
+        <include layout="@layout/layout_media_misc" />
+
+    </LinearLayout>
+
+</LinearLayout>

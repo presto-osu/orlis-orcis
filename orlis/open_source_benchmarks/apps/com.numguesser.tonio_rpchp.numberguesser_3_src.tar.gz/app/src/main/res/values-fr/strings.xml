@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="app_name">Devineur</string>
+    <string name="welcome"><b>Bonjour ami!</b>\nAvoir un nombre compris entre 1 à 100\nPouvez-vous deviner en 5 essais?\n</string>
+    <string name="guess">Deviner</string>
+    <string name="ask">Entrez un numéro</string>
+
+    <string name="more">Supérieur</string>
+    <string name="less">Moins</string>
+
+    <string name="win">Bien, Tu as gagné</string>
+    <string name="lose">Tu as perdu, Je ai choisi: </string>
+
+    <string name="new_game">Nouveau Jeu</string>
+
+    <string name="error">Entrez un numéro valide</string>
+
+    <string name="end_game">Fin du jeu</string>
+    <string name="play_again">Un autre jeu?</string>
+
+    <string name="ok">Jouer</string>
+    <string name="exit">Laisser</string>
+
+    <string name="tries_text">Essais: </string>
+
+    <string name="in_range">Hors de portée, Avoir un nombre compris entre 1 à 100</string>
+
+</resources>

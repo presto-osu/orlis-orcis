@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <!-- Main -->
+    <string name="app_dev_name">par Alex Cruz</string>
+    <string name="gplus_join">REJOINDRE</string>
+    <string name="ratebtn">ÉVALUER</string>
+    <string name="description">Papuh a été créé par Alex Cruz, non seulement pour regrouper tous ses fonds d\'écran, mais aussi pour que les utilisateurs puissent les mettre à jour facilement. Cette application a été développée en utilisant des bibliothèques et des contributions \"Open Source\".</string>
+    <string name="play_card_title">Papuh Walls sur Google+</string>    
+    <string name="play_card_content">Rejoignez la communauté Papuh Walls pour obtenir de l\'aide et partager.</string>
+    <string name="section_home">Accueil</string>
+    <string name="section_all_walls">Tous les fonds d\'écran</string>
+    <string name="section_bw_walls">Noir et blanc</string>
+    <string name="section_blur_walls">Flou</string>
+    <string name="section_clouds_walls">Nuages</string>
+    <string name="section_misc_walls">Divers</string>
+    <string name="section_mustaches_walls">Moustaches</string>
+    <string name="section_nexus_walls">Nexus</string>    
+    <string name="section_original_walls">Originaux</string>
+    <string name="section_papuh_walls">Papuh</string>    
+    <string name="section_solids_walls">Couleurs unies</string>
+    <string name="section_stars_walls">Étoiles</string>
+    <string name="section_rom_category">ROMS</string>
+    <string name="section_aboutapp">À propos de Papuh Walls</string>
+    <string name="changelog">Modifications</string>
+    <string name="changelog_dialog_title">Modifications et informations</string>
+    <string name="first_slide_title">Bienvenue sur Papuh !</string>    
+    <string name="first_slide_description">Donnez à votre appareil une apparence sublime !</string>
+    <string name="second_slide_title">Vous avez aperçu un fond d\'écran qui vous plaît ?</string>   
+    <string name="second_slide_description">Appuyez et définissez votre fond d\'écran instantanément !\n\nC\'est simple ! Sans tracas !</string>
+    <string name="third_slide_title">Vous n\'aimez pas le thème de l\'application ?</string>
+    <string name="third_slide_description">Allez simplement dans les paramètres et modifiez-le ! Vous pouvez modifier l\'apparence de l\'application à votre guise et en temps réel, avec le sélecteur de couleur intégré !</string>
+    <string name="fourth_slide_title">Vous souhaitez contribuer ?</string>
+    <string name="fourth_slide_description">Toutes les contributions sont acceptées !\n\nPetite ou grande, tout n\'est qu\'une histoire de communauté ! Cette application sera toujours gratuite, et \"Open Source\" !</string>
+    <string name="last_slide_title">C\'est tout !</string>
+    <string name="last_slide_description">Profitez bien de l\'application :-)</string>
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">OH MINCE !!\n\nAlex doit s\'être à nouveau endormi sur son ordinateur !\nLaissons-le se reposer !</string>    
+    <string name="customactivityoncrash_error_activity_restart_app">Redémarrer Papuh</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Informations erreur</string>    
+    <string name="customactivityoncrash_error_activity_error_details">Informations sur l\'erreur</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">OK</string>
+    <string name="settings">Paramètres</string>
+    <string name="wallpaper_downloading_wait">Veuillez patienter pendant le téléchargement</string>
+    <string name="wallpaper_item_name">"Fond d\'écran "</string>
+    <string name="clear_cache">Vider le cache</string>
+    <string name="reset_data">Effacer les données</string>    
+    <string name="theme_settings">Paramètres du thème</string>
+    <string name="theme_toolbar_title">Barre d\'outils</string>
+    <string name="theme_toolbar_summary">Modifier la couleur de la barre d\'outils</string>
+    <string name="theme_navbar_title">Barre de navigation (À partir d\'Android 5.0)</string>
+    <string name="theme_navbar_summary">Modifier la couleur de la barre de navigation</string>
+    <string name="theme_statusbar_tint_title">Barre d\'état teintée (À partir d\'Android 5.0)</string>
+    <string name="theme_enable_statusbar_tint_summary">Activer la barre d\'état teintée</string>
+    <string name="theme_disable_statusbar_tint_summary">Désactiver la barre d\'état teintée</string>    
+    <string name="theme_navbar_tint_title">Barre de navigation teintée (À partir d\'Android 5.0)</string>
+    <string name="theme_enable_navbar_tint_summary">Activer la barre de navigation teintée</string>
+    <string name="theme_disable_navbar_tint_summary">Désactiver la barre de navigation teintée</string>
+    <string name="theme_background_theme_title">Arrière-plan</string>
+    <string name="theme_background_theme_summary">Modifier la couleur de l\'arrière-plan</string>
+    <string name="theme_primary_text">Titre du texte</string>
+    <string name="theme_primary_text_summary">Modifier la couleur du titre du texte des écrans d\'accueil et des crédits</string>
+    <string name="theme_secondary_text">Paragraphe</string>
+    <string name="theme_secondary_text_summary">Modifier la couleur du texte des paragraphes des écrans d\'accueil et des crédits</string>
+    <string name="theme_accent">Liens</string>
+    <string name="theme_accent_summary">Modifier la couleur du texte des liens des écrans d\'accueil et des crédits</string>
+    <string name="theme_material_drawer_settings">Volet de navigation</string>
+    <string name="theme_drawer_theme_title">Arrière-plan</string>
+    <string name="theme_drawer_normal_icon">Icône normale</string>
+    <string name="theme_drawer_selected_icon">Icône sélectionnée</string>
+    <string name="theme_drawer_theme_summary">Modifier la couleur du volet</string>
+    <string name="theme_drawer_text_theme_title">Texte</string>
+    <string name="theme_drawer_text_theme_summary">Modifier la couleur du texte du volet</string>
+    <string name="theme_drawer_selected_text_theme_title">Texte sélectionné</string>
+    <string name="theme_drawer_selected_text_theme_summary">Modifier la couleur du texte sélectionné du volet</string>
+    <string name="theme_drawer_selector_theme_title">Sélection</string>
+    <string name="theme_drawer_selector_theme_summary">Modifier la couleur de surbrillance du texte sélectionné du volet</string>    
+    <string name="theme_badge_background_theme_title">Arrière-plan du badge</string>
+    <string name="theme_badge_background_theme_summary">Modifier la couleur de l\'arrière-plan du badge du volet</string>
+    <string name="theme_badge_text_theme_title">Texte du badge</string>
+    <string name="theme_badge_text_theme_summary">Modifier la couleur du texte du badge du volet</string>
+    <string name="theme_wallpaper_fab_settings">Boutons d\'action</string>
+    <string name="theme_fab_apply">Bouton Appliquer</string>
+    <string name="theme_fab_save">Bouton Enregistrer</string>
+    <string name="theme_fab_crop">Bouton Rogner</string>
+    <string name="theme_fab_edit">Bouton Modifier</string>
+    <string name="theme_fab_share">Bouton Partager</string>
+    <string name="theme_fab_pressed">Boutons appuyés</string>
+    <string name="theme_fab_pressed_summary">Modifier la couleur des boutons lors de l\'appui</string>
+    <string name="theme_fab_background">Couleur de l\'arrière-plan</string>
+    <string name="theme_fab_background_summary">Modifier la couleur de l\'arrière-plan lorsque les boutons d\'action sont étendus</string>
+    <string name="time_context_headers">En-tête contextuel</string>
+    <string name="enable_time_context_headers_summary">Activer le changement d\'image en fonction de l\'heure</string>
+    <string name="disable_time_context_headers_summary">Désactiver le changement d\'image en fonction de l\'heure</string>
+    <string name="poly_time_context_headers">En-tête contextuel (Poly)</string>
+    <string name="notify">Notifications</string>
+    <string name="notify_content">Recevez des notifications lorsque de nouveaux fonds d\'écran sont ajoutés, à partir du canal Pushbullet.\n\nSouscrire au canal de Papuh pour recevoir les notifications.</string>    
+    <string name="notify_note"><b>REMARQUE : Pushbullet est nécessaire pour recevoir les notifications de nouveaux fonds d\'écran.</b></string>
+    <string name="pushbullet_subscribe">S\'ABONNER</string>
+    <string name="pushbullet_nothanks">NON MERCI</string>
+    <string name="grid_changer_column_one">1 colonne</string>
+    <string name="grid_changer_column_two">2 colonnes</string>
+    <string name="grid_changer_column_three">3 colonnes</string>
+    <string name="grid_changer_column_four">4 colonnes</string>
+    <string name="grid_count_dialog_title">Nombre de colonnes</string>
+    <string name="grid_count_dialog_btn_positive">Définir</string>
+    
+    <string name="credit_wallpaper">Contribution de</string>    
+
+
+    <!-- Changelog -->
+    <!-- Initial Release -->
+    <string name="v2_line1">Version initiale</string>
+    <!-- Version 2.0.1 -->
+    <string name="v21_line1">- Correctif du FC "Vider le cache"</string>
+    <string name="v21_line2">- Correctif de la barre de navigation Muzei non-coloriée</string>
+    <!-- Version 2.0.2 -->
+    <string name="v22_line1">- Améliorations de la grille des fonds d\'écran</string>
+    <string name="v22_line2">- Suppression de l\'onglet de contacte dans l\'en-tête</string>
+    <string name="v22_line3">- Ajout de 20 nouveaux fonds d\'écran</string>
+    <!-- Version 2.0.3 -->
+    <string name="v23_line1">- Divers correctifs (Merci à Andrzej)</string>
+    <string name="v23_line2">- Défilement horizontal/Pincer pour zoomer</string>
+    <string name="v23_line3">- Menu de notification Pushbullet (Merci à Sasi)</string>
+    <!-- Version 2.0.4 -->
+    <string name="v24_line1">- Nouveau fonctionnement du thème (Merci à Andrzej)</string>
+    <string name="v24_line2">- Ajout de l\'en-tête contextuel au volet de navigation</string>
+    <string name="v24_line3">- Ajout de 95 nouveaux fonds d\'écran</string>
+    <string name="v24_line4">- Ajout de la traduction française (Merci à Kevin)</string>
+    <!-- Version 2.0.5 -->
+    <string name="v25_line1">- Ajout de diverses personnalisations du thème</string>
+    <string name="v25_line2">- Correctif du fonctionnement entre le bouton d\'action et les fonds d\'écran</string>
+    <string name="v25_line3">- Ajout du redimensionnement de la grille</string>
+    <!-- Version 2.0.6 -->
+    <string name="v26_line1">- Optimisations diverses</string>
+    <string name="v26_line2">- Traductions (français/italien)</string>
+    
+    <!-- License check / Dialog / Muzei -->  
+    <string name="artsource_desc">Donnez à votre appareil une apparence sublime !</string>
+    <string name="muzei_settings">Paramètres Muzei</string>
+    <string name="gplus">GOOGLE+</string>    
+    <string name="github">SOURCE</string>
+    <string name="title_activity_detailed_wallpaper">Galerie de fonds d\'écran</string>
+    <string name="set_as">Rogner et définir en tant que...</string>
+    <string name="set_wall_title">Définir le fond d\'écran</string>
+    <string name="set_wall_content">Êtes-vous sûr de vouloir appliquer ce fond d\'écran ?</string>
+    <string name="edit_wall">Modifier ce fond d\'écran avec...</string>
+    <string name="no">Non</string>
+    <string name="yes">Oui</string>
+    <string name="save">Enregistrer</string>
+    <string name="apply">Appliquer</string>
+    <string name="crop">Rogner</string>
+    <string name="share">Partager</string>
+    <string name="edit">Modifier</string>
+    <string name="done">Terminé</string>
+    <string name="error">Oups !</string>
+    <string name="wall_error">Action précédente non appliquée car absence d\'image. Vérifiez votre connexion Internet et réessayez.</string>
+    <string name="download_done">Téléchargement réussi. L\'image est enregistrée dans </string>
+    <string name="json_error_toast">Une erreur est survenue pendant le téléchargement des informations du fond d\'écran. Réessayez plus tard.</string>
+    <string name="share_wall">Partager le fond d\'écran</string>
+    <string name="partone">"Mon fond d\'écran pour aujourd\'hui est "</string>
+    <string name="parttwo">" par "</string>
+    <string name="partthree">" de "</string>
+    <string name="partfour"> !\n\n</string>   
+    <string name="partfive">" Téléchargez-le sur "</string>
+    <string name="dismiss">Annuler</string>
+    <string name="close">Fermer</string>    
+    <string name="building_request">Préparation de la demande en cours</string>
+    <string name="submit">Soumettre</string>
+    <string name="advice">Conseil</string>
+    <string name="dontshow">Ne plus afficher</string>
+    <string name="request_advice">Si vous ne sélectionnez aucune application pour votre demande d\'icône, elle sera automatiquement générée avec toutes vos applications.</string>
+    <string name="no_conn_title">Aucune connexion Internet</string>    
+    <string name="no_conn_content">Les fonds d\'écran sont stockés sur Internet. Veuillez vous connecter à Internet et réessayez.</string>
+    <string name="progress_dialog_title">Téléchargement en cours</string>
+    <string name="setting_wall_title">Application en cours</string>
+    <string name="please_wait">Veuillez patienter…</string>
+    <string name="set_as_wall_done">Fond d\'écran appliqué</string>
+    <string name="retry">Réessayer</string>    
+    <string name="ok">OK</string>
+    <string name="download">Téléchargement</string>
+    <string name="exit">Quitter</string>
+    <string name="get_app_button">Obtenir l\'application</string>
+    <string name="installed">Installé</string>
+    <string name="noninstalled">Non installé</string>
+    <string name="muzeisets_title">Actualiser toutes les :</string>    
+    <string name="minutes">Minute(s)</string>
+    <string name="hours">Heure(s)</string>  
+    <string name="muzei_info">CONFIGUREZ LA SOURCE DANS MUZEI AVANT D\'ENREGISTRER N\'IMPORTE QUEL PARAMÈTRE !!</string>   
+    <string name="justshare">Partager</string>    
+
+    <!--- About Papuh -->
+    <string name="credit_title">Attribution des crédits</string>
+    <string name="credit_desc">
+        <![CDATA[
+        Le \"Dashboard\" sous le lien <b>SOURCE</b> a été utilisé comme base pour cette application et a été développé par <b>Jahir Fiquitiva</b> 
+        :" passionné de création graphique et de développement Android.<br><br>Collaborateurs officiels : Aidan Follestad et Joaquin Cuitiño.<br><br>
+
+        Depuis <b>BEAUCOUP</b> de travail a été effectué dans cette application par <b>Alex Cruz</b> pour en faire autre chose qu\'un simple dérivé.
+        ]]>
+
+    </string>
+
+    <string name="copyright">Publié sous licence MIT.</string>
+    <string name="apache_license">Publié sous licence Apache 2.0.</string>
+    <string name="mit_license">Publié sous licence MIT.</string>
+
+    <string name="libs_section_title">Bibliothèques FOSS utilisées :</string>
+
+    <string name="fab_desc">
+		<![CDATA[
+        <b>Floating Action Button</b> est une bibliothèque pour la conception \"Material\" pour le bouton d\'action.
+        ]]></string>
+
+    <string name="materialdialogs_desc">
+		<![CDATA[
+        <b>Material Dialogs</b> est une API superbe, facile à utiliser, personnalisable et permettant une intégration de la conception \"Material\" dans toutes les versions d\'Android.
+        ]]></string>
+
+    <string name="materialdrawer_desc">
+        <![CDATA[
+        La bibliothèque <b>MaterialDrawer</b> a pour objectif de fournir la meilleure intégration du volet de navigation pour votre application.
+        ]]>
+    </string>
+
+    <string name="picasso_desc">
+        <![CDATA[
+        <b>Picasso</b> est une bibliothèque puissante de téléchargement et de mise en cache d\'image pour Android.
+        ]]></string>
+
+    <string name="okhttp_desc">
+        <![CDATA[
+        <b>OkHttp</b> est un client HTTP et SPDY pour applications Android et Java.
+        ]]></string>
+ 
+    <string name="snackbar_desc">
+        <![CDATA[
+        <b>SnackBar</b> est un modèle de notification toast d\'Android inspiré des spécifications de la conception \"Material\" de Google.
+        ]]></string>
+
+    <string name="crash_desc">
+        <![CDATA[
+        Bibliothèque Android permettant de démarrer une activité lors du plantage de votre application, au lieu d\'afficher l\'horrible fenêtre de dialogue \"Malheureusement X s\'est arrêté\".
+        ]]></string>
+
+    <string name="appintro_desc">
+        <![CDATA[
+        Bibliothèque Android permettant de faire une jolie introduction pour votre application.
+        ]]></string>
+
+    <string name="materialripple_desc">
+        <![CDATA[
+        Bibliothèque Android permettant un effet d\'ondulations pour \"Android Views\".
+        ]]></string>
+
+    <string name="materialpreference_desc">
+        <![CDATA[
+        Intégration simple de la conception \"Material\" dans les paramètres pour toutes les versions d\'Android.
+        ]]></string>
+
+    <string name="licensesdialog_desc">
+        <![CDATA[
+        \"LicensesDialog\" est une bibliothèque \"Open Source\" pour afficher les licences des bibliothèques tierces dans une application Android.
+        ]]></string>
+    
+    <!-- Live Wall -->
+    <string name="addToLiveWallList">Ajouter au fond d\'écran animé</string>
+    <string name="remFromLiveWallList">Retirer du fond d\'écran animé</string>
+    <string name="live_wall_update_interval">Intervalle d\'actualisation</string>
+    <string name="live_wall_pool_update_success">Fond d\'écran animé mis à jour</string>
+    <string name="live_wallpaper_settings">Paramètres Papuh Live</string>
+    <string name="interval_minutes">minutes</string>
+    <string name="interval_minute">minute</string>
+    <string name="interval_hours">heures</string>
+    <string name="interval_hour">heure</string>
+    <string name="my_walls_title">Mes fonds d\'écran</string>
+    <string name="confirm_action">Confirmer</string>
+    <string name="del_walls_message_1">Voulez-vous retirer</string>  <!-- Like "Do you want to remove 5 wall(s) from the live wallpaper pool?" -->
+    <string name="del_walls_message_2">fond(s) d\'écran du fond d\'écran animé ?</string>  <!-- Like "Do you want to remove 5 wall(s) from the live wallpaper pool?" -->
+    <string name="no_item_deselected">Aucun fond d\'écran désélectionné</string>
+    <string name="no_walls">Aucun fond d\'écran ajouté au fond d\'écran animé</string>
+    <string name="how_to_lw_title">Guide</string>
+    <string name="how_to_lw">Allez à l\'écran principal de Papuh et choisissez une catégorie. Ensuite, choisissez le fond d\'écran désiré et sélectionnez-le</string>  <!-- Programmatically it will be "Then choose a wall you like and select 'Add to live wallpaper pool'" later -->
+    <string name="how_to_try">Essayer</string>
+    <string name="walls_count">fond(s) d\'écran ajouté(s) au fond d\'écran animé</string> <!-- Like "5 walls added to the live wallpaper pool" -->
+    <string name="theme_fab_addLW">Ajouter au bouton fond d\'écran animé</string>
+    <string name="apply_wall_title">Appliquer Papuh Live</string>
+    <string name="triple_tap_to_jump">Appuyez trois fois sur l\'écran d\'accueil, pour passer au prochain fond d\'écran</string>
+    
+</resources>

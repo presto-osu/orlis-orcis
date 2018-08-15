@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_5b521548bddddab3fdb5328bc7f7e3f221d76af5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_02179deee26d16e78dc1ec94268b81efbed0906d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_c7e5e597e259e0c806086d86c5e8967746ec9215.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/exploded-aar/com.jjoe64/graphview/4.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="37bf8de5b4f9e7e93006db783b9b3168e32e38e9">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.jjoe64-graphview-4.0.1_63ed6f94fdc22bc261587df6f993802c2d77f16c.jar" />
+    </item>
+
+</items>

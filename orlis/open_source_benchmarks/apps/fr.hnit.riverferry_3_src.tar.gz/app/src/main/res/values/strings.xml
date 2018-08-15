@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RiverFerry</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="readme">RiverFerry shows the next available RiverFerry.\nRight now the app is configure for the RiverFerries (fr=BAC)  of the Seine-Maritime french &quot;departement&quot;. You can modify the &quot;SDCARD/riverferry/schedules.tsv&quot; file and delete its associated file &quot;schedules.tsv.bin&quot; to changes the stations and departure times.\n\nThe app is open-source and code is available at \nhttp://github.com/mdecorde/BAC76</string>
+    <string name="title_activity_read_me">ReadMe</string>
+    <string name="action_reinitialize">Reinitialize</string>
+    <string name="reloadingall">Reloading schedules...</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="usedefaultstation">Default station: </string>
+    <string name="cancel">Cancel</string>
+    <string name="okreinit">OK, need reinitialization</string>
+    <string name="defaultferrystation">Default Ferry Station</string>
+    <string name="defaulttsvfile">Schedules TSV filename</string>
+    <string name="defaulttsvfiledialog">Default file is "schedules.tsv", you can choose another name and  your TSV file in the "riverferry" folder of you SDcard</string>
+    <string name="defaultferrystationdialog">Enter the default ferry station name</string>
+    <string name="noschedulesfile">Error. No schedules file found: </string>
+    <string name="title_activity_help">Help</string>
+    <string name="help">**General**\n\nThe 2 top Lists are respectivily the left bank stations and the right bank stations.\nSelect one station to update the 3 bottom lists and the next departure time.\nThe grey list contains the schedule of the selected station. The 2 other list are the preivous and next stations schedules.\n\n**Settings**\n\nRefresh: refresh the next departure time\nSettings: allow to change the source file of the stations+schedules and to set a default station\nHelp: show this screen\nAbout: Show general informations.</string>
+    <string name="img_desc">The riverboat of the &quot;La Bouille&quot; french town</string>
+    <string name="console"></string>
+
+</resources>

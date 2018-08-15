@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppThemeDark" parent="android:Theme.Holo">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

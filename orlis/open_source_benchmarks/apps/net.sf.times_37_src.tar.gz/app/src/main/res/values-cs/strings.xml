@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Halachický Modlitební Časy</string>
+    <string name="title_activity_zmanim">Halachický Časy</string>
+    <string name="location_unknown">Neznámý adresa</string>
+    <string name="location_coords">Šířka %1$s; Délka %2$s</string>
+    <string name="twelve_hour_time_format">h:mm:ss a</string>
+    <string name="twenty_four_hour_time_format">H:mm:ss</string>
+    <string name="month_day_year" formatted="false">%-e. %B %Y</string>
+    <string name="off">Vyp</string>
+
+    <!-- Recurring opinions -->
+    <string name="opinion_120">Den je 120 minut před východem slunce / po západu slunce</string>
+    <string name="opinion_120_zmanis">Den je 120 <i>zmaniyos</i> minut před východem slunce / po západu slunce</string>
+    <string name="opinion_16">Den je 16,1° pod východu / západ slunce</string>
+    <string name="opinion_16_sunset">Den je od úsvitu 16,1° do mořem západ slunce</string>
+    <string name="opinion_16_night">Den je od úsvitu 16,1° do soumraku</string>
+    <string name="opinion_26">Den je 26° pod východu / západ slunce</string>
+    <string name="opinion_19">Den je 19,8° pod východu / západ slunce</string>
+    <string name="opinion_18">Den je 18° pod východu / západ slunce</string>
+    <string name="opinion_60">Den je 60 minut před východem slunce / po západu slunce</string>
+    <string name="opinion_72">Den je 72 minut před východem slunce / po západu slunce</string>
+    <string name="opinion_72_zmanis">Den je 72 <i>zmaniyos</i> minut před východem slunce / po západu slunce</string>
+    <string name="opinion_90">Den je 90 minut před východem slunce / po západu slunce</string>
+    <string name="opinion_90_zmanis">Den je 90 <i>zmaniyos</i> minut před východem slunce / po západu slunce</string>
+    <string name="opinion_96">Den je 96 minut před východem slunce / po západu slunce</string>
+    <string name="opinion_96_zmanis">Den je 96 <i>zmaniyos</i> minut před východem slunce / po západu slunce</string>
+    <string name="opinion_ateret">Souladu s Yešivat Ateret Tora</string>
+    <string name="opinion_gra">Souladu s GRA a Baal Tanya</string>
+    <string name="opinion_mga">Souladu s Magen Avraham</string>
+    <string name="opinion_tam">Souladu s Rabbeinu Tam</string>
+
+    <!-- Temporal hour -->
+    <string name="hour">Sezónní hodina</string>
+
+    <!-- List -->
+    <string name="dawn">Svítání</string>
+
+    <!-- Tallis and Tefillin -->
+    <string name="tallis">Nástup na pobyt nejdřív tallis a tefillin (mišeyakir)</string>
+    <string name="tallis_summary">Slunce je 11,5° pod obzorem</string>
+    <string name="tallis_11">Slunce je 11° pod obzorem</string>
+    <string name="tallis_10">Slunce je 10.2° pod obzorem</string>
+
+    <!-- Sunrise -->
+    <string name="sunrise">Východ slunce</string>
+    <string name="sunrise_summary">V regionu soudržnosti</string>
+    <string name="sunrise_sea">Na úrovni moře</string>
+
+    <!-- Latest shema -->
+    <string name="shema">Poslední šema</string>
+    <string name="shema_7">Den je od úsvitu 16,1° do noci 7,083°</string>
+    <string name="shema_3">3 hodiny před poledne</string>
+    <string name="shema_fixed">3 hodiny před poledne pevné lokální</string>
+
+    <!-- Latest shacharis -->
+    <string name="prayers">Poslední ráno modlitby (shacharis)</string>
+    <string name="prayers_fixed">2 hodiny před poledne pevné lokální</string>
+    <string name="prayers_2">2 hodiny před poledne</string>
+
+    <!-- Midday -->
+    <string name="midday">Poledne (chatzos)</string>
+    <string name="midday_summary">Solární poledne</string>
+    <string name="midday_fixed">Poledne upraveny pro lokální zeměpisné šířky</string>
+
+    <!-- Earliest mincha -->
+    <string name="earliest_mincha">Mincha gedola</string>
+    <string name="earliest_mincha_summary">Nejranější odpolední modlitby</string>
+    <string name="earliest_mincha_30">30 minut po poledne</string>
+
+    <!-- Mincha ketana -->
+    <string name="mincha">Mincha ketana</string>
+    <string name="mincha_summary">Odpolední modlitby</string>
+
+    <!-- Plug hamincha -->
+    <string name="plug_hamincha">Plag hamincha</string>
+
+    <!-- Candle lighting -->
+    <string name="candles">Svíčka osvětlení</string>
+    <string name="chanukka">Chanuka</string>
+
+    <plurals name="candles_summary">
+        <item quantity="one">%1$d minut před západem slunce</item>
+        <item quantity="few">%1$d minuty před západem slunce</item>
+        <item quantity="other">%1$d minuty před západem slunce</item>
+    </plurals>
+    <plurals name="candles_chanukka">
+        <item quantity="one">%1$d Chanuka svíčka</item>
+        <item quantity="few">%1$d Chanuka svíčky</item>
+        <item quantity="other">%1$d Chanuka svíčky</item>
+    </plurals>
+
+    <!-- Sunset -->
+    <string name="sunset">Západ slunce</string>
+
+    <!-- Twilight -->
+    <string name="twilight">Soumrak</string>
+    <string name="twilight_2stars">2 hvězdičky viditelné</string>
+    <string name="twilight_7_083">13,5 minut před 7,083° setmění</string>
+    <string name="twilight_58">58,5 minut po západu slunce</string>
+    <string name="twilight_13">Slunce je 13,24° pod obzorem</string>
+
+    <!-- Nightfall -->
+    <string name="nightfall">Setmění</string>
+    <string name="nightfall_3stars">3 hvězdičky viditelné</string>
+    <string name="nightfall_3_65">Slunce je 3,65° pod úrovní moře</string>
+    <string name="nightfall_3_676">Slunce je 3,676° pod úrovní moře</string>
+    <string name="nightfall_4_37">Slunce je 4,37° pod úrovní moře</string>
+    <string name="nightfall_4_61">Slunce je 4,61° pod úrovní moře</string>
+    <string name="nightfall_4_8">Slunce je 4,8° pod úrovní moře</string>
+    <string name="nightfall_5_88">Slunce je 5,88° pod úrovní moře</string>
+    <string name="nightfall_5_95">Slunce je 5,95° pod úrovní moře</string>
+    <string name="nightfall_7">Slunce je 7,083° pod úrovní moře</string>
+    <string name="nightfall_8">Slunce je 8,5° pod úrovní moře</string>
+
+    <!-- Midnight -->
+    <string name="midnight">Půlnoc (chatzos)</string>
+    <string name="midnight_summary">Solární půlnoci</string>
+    <string name="midnight_12">12 hodin po poledni</string>
+    <string name="midnight_6">6 hodin po setmění</string>
+
+    <!-- Pesach -->
+    <string name="eat_chametz">Poslední čas jíst chametz</string>
+    <string name="burn_chametz">Poslední čas hořet chametz</string>
+
+    <!-- Moon -->
+    <string name="molad">Zrození nového měsíce (molad)</string>
+    <string name="molad_summary">Průměrná molad</string>
+    <string name="levana_earliest">Nejranější požehnání na nový měsíc (kiduš levana)</string>
+    <string name="levana_earliest_summary">3 dny po molad</string>
+    <string name="levana_7">7 dny po molad</string>
+    <string name="levana_latest">Poslední požehnání na nový měsíc (kiduš levana)</string>
+    <string name="levana_latest_summary">Půli cesty mezi molad a molad</string>
+    <string name="levana_15">15 dny po molad</string>
+
+    <!-- Fast / Taanis -->
+    <string name="fast_begins">Půst začíná</string>
+    <string name="fast_ends">Půst konce</string>
+
+    <!-- Omer -->
+    <string name="omer">Omer</string>
+    <string name="omer_format">%1$s %2$s</string>
+    <string name="omer_33">Lag %1$s</string>
+    <string name="omer_off">@string/off</string>
+    <string name="omer_b">ba-omer</string>
+    <string name="omer_l">la-omer</string>
+
+    <!-- Preferences -->
+    <string name="menu_settings">Nastavení</string>
+    <string name="pref_general_title">Obecné</string>
+    <string name="pref_appearance_title">Vzhled</string>
+    <string name="coords_title">Souřadnice</string>
+    <string name="coords_format_title">Souřadnice formát</string>
+    <string name="coords_format_decimal">Desetinný</string>
+    <string name="coords_format_sexagesimal">Šedesátý</string>
+    <string name="past_title">Časy, které uplynuly</string>
+    <string name="seconds_title">Sekundy</string>
+    <string name="summaries_title">Souhrny</string>
+    <string name="gradient_title">Gradient pozadí</string>
+    <string name="theme_dark">Tmavě</string>
+    <string name="theme_light">Světlo</string>
+    <string name="theme_none">Žádný</string>
+
+    <!-- Go to date -->
+    <string name="menu_date">Datum</string>
+    <string name="today">Dnes</string>
+    <string name="yesterday">Včera</string>
+    <string name="tomorrow">Zítra</string>
+
+    <!-- Compass -->
+    <string name="menu_compass">Kompas</string>
+    <string name="title_activity_compass">Směr modlitby</string>
+    <string name="compass_summary">Směr modlitbě nejsvětější svatyně v Jeruzalémě</string>
+    <string name="north">S</string>
+    <string name="east">V</string>
+    <string name="south">J</string>
+    <string name="west">Z</string>
+
+    <!-- Setting per time -->
+    <string name="opinion">Stanoviska</string>
+    <string name="emphasis_title">Důraz</string>
+    <string name="animations">Animace</string>
+
+    <!-- Location -->
+    <string name="menu_location">Místo</string>
+    <string name="title_activity_location">Moje místo</string>
+
+    <!-- Settings screen - Privacy -->
+    <string name="pref_privacy_security_title">Ochrana soukromí a zabezpečení</string>
+    <string name="pref_privacy_clear_history">Vymazat historii</string>
+
+    <!-- About -->
+    <string name="pref_about_title">Info o</string>
+    <string name="version">Verze aplikace</string>
+    <string name="kosherjava">KosherJava</string>
+    <string name="kosherjava_version">Autorská práva \u00A9 2004–2011 Eliyahu Hershfeld</string>
+
+    <!-- Widget -->
+    <string name="title_widget_clock">Halachický Časy Hodiny</string>
+
+    <!-- Reminder -->
+    <string name="reminder">Připomenutí</string>
+    <string name="reminder_stream_title">Typ připomenutí</string>
+    <string name="reminder_tone">Připomenutí vyzváněcí tón</string>
+    <string name="alarm_volume_title" msgid="2285597478377758706">"Budík"</string>
+    <string name="notification_volume_title" msgid="2012640760341080408">"Oznámení"</string>
+    <string name="reminder_friday">Připomenout v pátek</string>
+    <string name="reminder_monday">Připomenout v pondělí</string>
+    <string name="reminder_saturday">Připomenout v sobotu a svátky</string>
+    <string name="reminder_sunday">Připomenout v neděli</string>
+    <string name="reminder_thursday">Připomenout v čtvrtek</string>
+    <string name="reminder_tuesday">Připomenout v úterý</string>
+    <string name="reminder_wednesday">Připomenout v středu</string>
+
+</resources>

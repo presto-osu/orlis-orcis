@@ -1,0 +1,197 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:13:1-86:12
+	package
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:14:5-27
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:16:5-32
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:15:5-30
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:13:11-69
+uses-sdk
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:17:5-19:41
+	android:targetSdkVersion
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:19:9-38
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:18:9-34
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:22:5-71
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:22:22-68
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:28:5-72
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:28:22-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:29:5-80
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:29:22-78
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:30:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:31:5-67
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:31:22-64
+uses-feature#android.hardware.location
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:33:5-87
+	android:required
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:33:60-84
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:33:19-59
+uses-feature#android.hardware.location.network
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:34:5-95
+	android:required
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:34:68-92
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:34:19-67
+uses-feature#android.hardware.location.gps
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:35:5-91
+	android:required
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:35:64-88
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:35:19-63
+application
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:37:5-85:19
+	android:label
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:39:9-41
+	android:allowBackup
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:40:9-35
+	android:icon
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:38:9-42
+service#com.ds.avare.StorageService
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:41:9-50
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:41:18-48
+service#com.ds.avare.IHelperService
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:42:9-48:19
+	android:exported
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:43:13-55
+intent-filter#com.ds.avare.START_SERVICE
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:45:13-47:29
+action#com.ds.avare.START_SERVICE
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:46:25-66
+activity#com.ds.avare.PrefActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:49:9-50
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:49:19-47
+activity#com.ds.avare.SearchActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:50:9-52
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:50:19-49
+activity#com.ds.avare.PlanActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:51:9-50
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:51:19-47
+activity#com.ds.avare.AirportActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:52:9-53
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:52:19-50
+activity#com.ds.avare.SatelliteActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:53:9-55
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:53:19-52
+activity#com.ds.avare.WebActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:54:9-49
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:54:19-46
+activity#com.ds.avare.LocationActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:55:9-54
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:55:19-51
+activity#com.ds.avare.NearestActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:56:9-53
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:56:19-50
+activity#com.ds.avare.PlatesActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:57:9-52
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:57:19-49
+activity#com.ds.avare.PlatesTagActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:58:9-55
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:58:19-52
+activity#com.ds.avare.ChartsDownloadActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:59:9-60
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:59:19-57
+activity#com.ds.avare.WeatherActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:60:9-53
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:60:19-50
+activity#com.ds.avare.ChecklistActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:61:9-54
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:61:19-52
+activity#com.ds.avare.TripActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:62:9-49
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:62:19-47
+activity#com.ds.avare.RegisterActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:63:9-53
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:63:19-51
+activity#com.ds.avare.SubmitActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:64:9-51
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:64:19-49
+activity#com.ds.avare.MessageActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:65:9-69:20
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:65:19-50
+intent-filter#android.intent.action.MAIN
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:66:13-68:29
+action#android.intent.action.MAIN
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:67:17-68
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:67:25-66
+activity#com.ds.avare.MainActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:70:9-83:20
+	android:label
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:72:13-56
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:71:13-53
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:74:13-77:29
+category#android.intent.category.LAUNCHER
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:76:17-77
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:76:27-74
+intent-filter#android.intent.action.SEND+android.intent.category.DEFAULT
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:78:13-82:29
+action#android.intent.action.SEND
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:79:17-69
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:79:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:80:17-76
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:80:27-73
+data
+ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:81:17-55
+	android:mimeType
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/AndroidManifest.xml:81:23-52

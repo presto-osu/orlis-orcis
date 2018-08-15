@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/release/menu/workout_context_menu.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/menu/workout_context_menu.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/release/menu/workout_options_menu.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/menu/workout_options_menu.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/release/menu/main_menu.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/release/menu/menu_ex_report.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/menu/menu_ex_report.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/release/menu/menu_swj_settings.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/menu/menu_swj_settings.xml"
+    }
+]

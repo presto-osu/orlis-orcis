@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gk.simpleworkoutjournal"
+    android:versionCode="3"
+    android:versionName="1.5" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.gk.swjmain.MainMenu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WorkoutJournal"
+            android:label="@string/journal"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".NotesDialog"
+            android:theme="@android:style/Theme.Holo.Light.Dialog" />
+        <activity
+            android:name="com.gk.reports.ReportConfigurator"
+            android:label="@string/report_config"
+            />
+        <activity
+            android:name="com.gk.swjsettings.SwjSettings"
+            android:label="@string/title_activity_swj_settings" >
+        </activity>
+
+        <activity
+            android:name="com.gk.reports.ExerciseReportContainer"
+            android:label="@string/title_activity_exercise_report" >
+        </activity>
+    </application>
+
+</manifest>

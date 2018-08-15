@@ -1,0 +1,108 @@
+<resources>
+    <string name="notice_dialog_title">Notice</string>
+    <string name="notice_dialog_message">The current DNS is not exact, because DNS man has many setting method, however some data cannot be retrieved.</string>
+
+    <string name="text_current_method">Current method:</string>
+    <string name="text_current_dns">Current DNS:</string>
+    <string name="text_network_dns">Network provided DNS:</string>
+    <string name="text_firewall_override">Firewall rules have override another settings, clicked [restore] to delete firewall rules</string>
+
+    <string name="category_wifi" translatable="false">Wi-Fi</string>
+    <string name="category_mobile">Mobile network</string>
+    <string name="category_bluetooth">Bluetooth</string>
+    <string name="category_ethernet">Ethernet</string>
+    <string name="category_wimax" translatable="false">WiMax</string>
+    <string name="category_global">Global</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="action_add">Add</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="action_undo">Undo</string>
+    <string name="action_redo">Redo</string>
+
+    <string name="action_set_with_last_dns">Set with last dns</string>
+    <string name="action_change_auto_setting">Change auto setting</string>
+    <string name="action_restore">Restore</string>
+
+    <string name="button_apply">Apply now</string>
+    <string name="button_clear">Clear all</string>
+
+    <string name="hint_no_available">No available</string>
+
+    <string name="toast_set_succeed">Setting DNS succeed</string>
+    <string name="toast_set_failed">Setting DNS failed</string>
+
+    <string name="toast_auto_setting_enabled">Auto setting was enabled</string>
+    <string name="toast_auto_setting_disabled">Auto setting was disabled</string>
+
+    <string name="toast_get_current_network_failed">Get current network failed, do you connected network?</string>
+    <string name="toast_get_netid_failed">Get network ID failed, do you connected network?</string>
+    <string name="toast_bad_address">Bad address, do you connected network?</string>
+    <string name="toast_unknown_error">Unknown error occurred, may be a bug</string>
+    <string name="toast_dns_cleared">All DNS was cleared</string>
+    <string name="toast_no_root">Device was not rooted, only VPN mode available</string>
+    <string name="toast_no_dns">No available DNS</string>
+    <string name="toast_no_dns_to_restore">No DNS to restore</string>
+    <string name="toast_no_last_dns">No last DNS</string>
+
+    <string name="toast_restored">DNS was restored</string>
+
+    <string name="xposed_description">Make DNS man integrate with system</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_method">Method</string>
+    <string name="pref_header_appearance">Appearance</string>
+    <string name="pref_header_about">About</string>
+
+    <string name="pref_advanced_settings">Advanced settings</string>
+
+    <string name="pref_general_auto_setting">Auto setting</string>
+    <string name="pref_general_full_keyboard">Enable full keyboard</string>
+    <string name="pref_general_individual_mode">Allow set DNS by network</string>
+    <string name="pref_general_auto_flush">Auto flush cache</string>
+
+    <string name="pref_method_setting_method">Setting method</string>
+    <string name="pref_method_vpn">Virtual private network</string>
+    <string name="pref_method_accessibility">Auto click</string>
+    <string name="pref_method_ndc">Daemon Connector</string>
+    <string name="pref_method_iptables">Firewall rules</string>
+    <string name="pref_method_module">Xposed module</string>
+    <string name="pref_method_setprop">System properties</string>
+
+    <string name="pref_ndc">Custom Network interfaces name</string>
+    <string name="pref_ndc_wlan" translatable="false">Wi-Fi</string>
+    <string name="pref_ndc_rmnet">Mobile network</string>
+    <string name="pref_ndc_bt">Bluetooth</string>
+    <string name="pref_ndc_eth">Ethernet</string>
+
+    <string name="pref_vpn_delay">Establish VPN delay</string>
+    <string name="pref_vpn_delay_summary">0 is no delay</string>
+
+    <string name="pref_dns_list">DNS completing list</string>
+
+    <string name="pref_toast">Toast</string>
+    <string name="pref_toast_show">Show</string>
+    <string name="pref_toast_error">Except errors</string>
+    <string name="pref_toast_never">Never</string>
+
+    <string name="pref_notification">Notification</string>
+
+    <string name="pref_license">License</string>
+    <string name="pref_license_summary" translatable="false">GNU GPLv3</string>
+    <string name="pref_open_source">Open source</string>
+    <string name="pref_open_source_summary">View project page on GitHub</string>
+    <string name="pref_usage">Usage</string>
+    <string name="pref_hint_chinese_phone">Hint for Chinese phone</string>
+
+    <string name="control_notification_title" translatable="false">DNS man:</string>
+    <string name="control_notification_placeholder_text" translatable="false">DNS: %1$s %2$s</string>
+
+</resources>

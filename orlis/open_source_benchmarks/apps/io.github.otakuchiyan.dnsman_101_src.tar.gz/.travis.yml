@@ -1,0 +1,17 @@
+language: android
+android:
+    components:
+        - platform-tools
+        - tools
+        - build-tools-24.0.0-rc3
+        - android-23
+jdk:
+    - oraclejdk7
+
+before_script:
+    - ./depending_repos.sh
+    - pip install -r ./travis/requirements.txt --user
+
+script: ./gradlew build -s
+
+after_success: python2 ./travis/travis_upload_release_to_github.py

@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.alexcruz.papuhwalls.MainActivity">
+    <item
+        android:id="@+id/changelog"
+        android:orderInCategory="300"
+        android:title="@string/changelog"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/notify"
+        android:icon="@drawable/ic_notify"
+        android:orderInCategory="300"
+        android:title="@string/notify"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/grid"
+        android:icon="@drawable/ic_gridchanger"
+        app:showAsAction="always"
+        android:title="Grid Changer">
+    </item>
+    <item
+        android:id="@+id/clearcache"
+        android:orderInCategory="300"
+        android:title="@string/clear_cache"
+        app:showAsAction="never" />
+</menu>

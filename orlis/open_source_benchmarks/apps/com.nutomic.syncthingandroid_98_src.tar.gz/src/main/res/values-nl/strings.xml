@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">Syncthing</string>
+  <string name="app_description">Een open, betrouwbare en gedecentraliseerde applicatie voor bestandssynchronisatie.</string>
+  <!--MainActivity-->
+  <!--Title of the "add folder" menu action-->
+  <string name="add_folder">Map toevoegen</string>
+  <!--Title of the "share device id" menu action-->
+  <string name="share_device_id">Apparaat-ID delen</string>
+  <!--Shown in the chooser dialog when sharing a Device ID-->
+  <string name="send_device_id_to">Apparaat-ID versturen naar</string>
+  <!--Text for FoldersFragment and DevicesFragment loading view-->
+  <string name="api_loading">Laden…</string>
+  <string name="usage_reporting_dialog_title">Anoniem gebruiksrapportage toestaan?</string>
+  <string name="usage_reporting_dialog_description">Het versleuteld gebruiksrapport wordt dagelijks verzonden. Het wordt gebruikt om veelgebruikte platformen, mapgroottes en applicatieversies te volgen. Indien de gerapporteerde gegevensset wordt veranderd zal je deze dialoog opnieuw te zien krijgen.\n\nDe geaggregeerde statistieken zijn publiek beschikbaar op https://data.syncthing.net.</string>
+  <string name="yes">Ja</string>
+  <string name="no">Nee</string>
+  <string name="off">uit</string>
+  <string name="open_website">Website openen</string>
+  <string name="toast_write_storage_permission_required">Schrijftoegang is vereist voor deze applicatie</string>
+  <string name="device_rejected">Apparaat %1$s wil verbinding maken</string>
+  <string name="folder_rejected">Apparaat %1$s wil map %2$s delen</string>
+  <!--FoldersFragment-->
+  <string name="folders_fragment_title">Mappen</string>
+  <!--Shown if no folders exist-->
+  <string name="folder_list_empty">Geen mappen gevonden</string>
+  <!--Format string for folder file count-->
+  <string name="files">%1$d / %2$d bestanden</string>
+  <!--DevicesFragment-->
+  <string name="devices_fragment_title">Apparaten</string>
+  <!--Shown if no devices exist-->
+  <string name="devices_list_empty">Geen apparaten gevonden</string>
+  <!--Indicates that a folder is fully synced to the local device-->
+  <string name="device_up_to_date">Bijgewerkt</string>
+  <!--Indicates that the device is currently syncing. Parameter is sync percentage-->
+  <string name="device_syncing">Bezig met synchroniseren (%1$d%%)</string>
+  <!--Indicates that there is no connection to the device-->
+  <string name="device_disconnected">Niet verbonden</string>
+  <!--Title for current download rate-->
+  <string name="download_title">Download</string>
+  <!--Title for current upload rate-->
+  <string name="upload_title">Upload</string>
+  <!--DrawerFragment-->
+  <!--Same as download_title with a colon and space appended-->
+  <string name="download_title_colon">Downloaden:\u0020</string>
+  <!--Same as upload_title with a colon and space appended-->
+  <string name="upload_title_colon">Upload:\u0020</string>
+  <!--Title for current CPU usage-->
+  <string name="cpu_usage">CPU-gebruik</string>
+  <!--Title for current RAM usage-->
+  <string name="ram_usage">RAM-gebrui</string>
+  <!--Title for announce server status-->
+  <string name="announce_server">Mededelingsserver</string>
+  <string name="restart">Herstarten</string>
+  <!--FolderSettingsFragment-->
+  <!--Setting title-->
+  <string name="folder_id">Map-ID</string>
+  <!--Setting title-->
+  <string name="folder_label">Maplabel</string>
+  <!--Setting title-->
+  <string name="directory">Map</string>
+  <!--Setting title-->
+  <string name="folder_master">Maphoofd</string>
+  <!--Setting title-->
+  <string name="devices">Apparaten</string>
+  <!--Setting title-->
+  <string name="keep_versions">Versies behouden</string>
+  <!--Setting title-->
+  <string name="delete_folder">Map verwijderen</string>
+  <!--Title for FolderSettingsFragment in create mode-->
+  <string name="create_folder">Map creeëren</string>
+  <!--Title for FolderSettingsFragment in edit mode-->
+  <string name="edit_folder">Map bewerken</string>
+  <!--Menu item to confirm folder creation-->
+  <string name="create">Creëren</string>
+  <!--Dialog shown when attempting to remove a folder-->
+  <string name="remove_folder_confirm">Weet je zeker dat je deze map van Syncthing wil verwijderen?</string>
+  <!--Toast shown when trying to create a folder with an empty ID-->
+  <string name="folder_id_required">De map-ID mag niet leeg zijn</string>
+  <!--Toast shown when trying to create a folder with an empty path-->
+  <string name="folder_path_required">Het mappad mag niet leeg zijn</string>
+  <!--Dialog shown before config export-->
+  <string name="dialog_confirm_export">Wil je jouw configuratie echt exporteren? Bestaande bestanden worden overschreven.\n\nWAARSCHUWING: Andere apps kunnen mogelijkerwijs bij de geheime sleutel van de back-up en gesyncte bestanden downloaden/wijzigen.</string>
+  <!--Dialog shown before config import-->
+  <string name="dialog_confirm_import">Wil je echt importeren? Huidige configuratie wordt vervangen.</string>
+  <!--DeviceSettingsFragment-->
+  <!--Setting title-->
+  <string name="device_id">Apparaat-ID</string>
+  <!--Setting title-->
+  <string name="name">Naam</string>
+  <!--Setting title-->
+  <string name="addresses">Adres</string>
+  <!--Setting title-->
+  <string name="current_address">Huidig adres</string>
+  <!--Setting title-->
+  <string name="compression">Compressie</string>
+  <!--Strings representing compression options-->
+  <string-array name="compress_entries">
+    <item>Nooit</item>
+    <item>Alleen metadata</item>
+    <item>Altijd</item>
+  </string-array>
+  <!--Setting title-->
+  <string name="introducer">Introduceerder</string>
+  <!--ActionBar item-->
+  <string name="delete_device">Apparaat verwijderen</string>
+  <string name="add_device">Apparaat toevoegen</string>
+  <!--Menu item to confirm adding a device-->
+  <string name="add">Toevoegen</string>
+  <!--Title for DeviceSettingsFragment in edit mode-->
+  <string name="edit_device">Apparaat bewerken</string>
+  <!--Dialog shown when attempting to remove a device-->
+  <string name="remove_device_confirm">Weet je zeker dat je dit apparaat wil verwijderen?</string>
+  <!--Toast shown when trying to create a device with an empty ID-->
+  <string name="device_id_required">De apparaat-ID kan niet leeg zijn</string>
+  <!--Content description for device ID qr code icon-->
+  <string name="scan_qr_code_description">QR-code scannen</string>
+  <!--Toast show if we could not get root permissions-->
+  <string name="toast_root_denied">Geen roottoegang</string>
+  <!--WebGuiActivity-->
+  <!--Title of the web gui activity-->
+  <string name="web_gui_title">Web-interface</string>
+  <!--Text for WebGuiActivity loading view-->
+  <string name="web_gui_loading">Wachten op interface</string>
+  <!--Shown instead of web_gui_loading if the key does not exist and has to be created-->
+  <string name="web_gui_creating_key">Bezig met aanmaken van veilige sleutels. Dit kan enkele minuten duren.</string>
+  <!--Title for dialog displayed on first start-->
+  <string name="welcome_title">Welkom bij Syncthing voor Android</string>
+  <!--Text for dialog displayed on first start-->
+  <string name="welcome_text">Syncthing is een open-source applicatie voor bestandssynchronisatie.\n\n
+Om gegevens te delen met anderen apparaten moet je hun unieke apparaat-ID toevoegen aan de lijst met apparaten. Nadien kun je kiezen welke mappen je wilt delen met welke apparaten.\n\n
+Gelieve alle problemen die je tegenkomt via GitHub te melden.</string>
+  <!--SettingsFragment-->
+  <!--Activity title-->
+  <string name="settings_title">Instellingen</string>
+  <string name="category_syncthing_android">Syncthing-Android</string>
+  <!--Preference title-->
+  <string name="always_run_in_background">Altijd draaien in achtergrond</string>
+  <!--Preference summary in case it is enabled-->
+  <string name="always_run_in_background_enabled">Syncthing draait altijd in de achtergrond, volgens de hieronder weergegeven voorkeuren.</string>
+  <!--Preference summary in case it is disabled-->
+  <string name="always_run_in_background_disabled">Syncthing draait enkel wanneer expliciet gestart, en kan gestopt worden door de menu-knop.</string>
+  <string name="sync_only_charging">Synchroniseer alleen tijdens opladen</string>
+  <string name="sync_only_wifi">Synchroniseer alleen via Wi-Fi</string>
+  <string name="sync_only_wifi_ssids">Tot bepaalde Wi-Fi-netwerken beperken</string>
+  <string name="sync_only_wifi_ssids_all">Synchroniseer op alle Wi-Fi-netwerken</string>
+  <string name="sync_only_wifi_ssids_values">Louter synchroniseren terwijl verbonden met: %1$s</string>
+  <string name="sync_only_wifi_ssids_wifi_turn_on_wifi">Wi-Fi aanzetten t.b.v. netwerkselectie.</string>
+  <string name="advanced_folder_picker">Gebruik geavanceerd map-kiezer</string>
+  <string name="advanced_folder_picker_summary">Selecteer een map op het toestel om te synchroniseren</string>
+  <string name="use_root_title">Syncthing uitvoeren als superuser</string>
+  <string name="use_root_summary">Dit kan verschillende Syncthing- of apparaatproblemen veroorzaken. Gebruik op eigen risico.</string>
+  <string name="notification_type_title">Melding</string>
+  <string name="notification_type_summary">Kies het meldingstype</string>
+  <string-array name="notification_type_entries">
+    <item>Normaal</item>
+    <item>Lage prioriteit</item>
+    <item>Geen</item>
+  </string-array>
+  <string name="category_syncthing">Syncthing</string>
+  <string name="syncthing_options">Syncthing-opties</string>
+  <string name="device_name">Apparaatnaam</string>
+  <string name="listen_address">Synchronisatieprotocol luister-adressen</string>
+  <string name="max_recv_kbps">Inkomende snelheidslimiet (KiB/s)</string>
+  <string name="max_send_kbps">Uitgaande snelheidslimiet (KiB/s)</string>
+  <string name="global_announce_enabled">Globale ontdekking</string>
+  <string name="local_announce_enabled">Lokale ontdekking</string>
+  <string name="global_announce_server">Globale ontdekkingsserver</string>
+  <string name="usage_reporting">Anoniem gebruiksrapportage</string>
+  <string name="syncthing_gui">Syncthing-GUI</string>
+  <string name="gui_address">GUI luister-adressen</string>
+  <string name="gui_user">GUI-authenticatie gebruiker</string>
+  <string name="gui_password">GUI-authenticatie wachtwoord</string>
+  <string name="export_config">Configuratie exporteren</string>
+  <string name="experimental_settings">Experimenteel</string>
+  <string name="keep_wakelock_while_binary_running">Laat de CPU niet slapen wanneer Syncthing wordt uitgevoerd</string>
+  <string name="keep_wakelock_while_binary_running_summary">Gebruik deze instelling als je onverwacht losgekoppeld wordt wanneer je op batterij werkt. Dit zal leiden tot verhoogd batterijverbruik.</string>
+  <!--Toast shown after config was successfully exported-->
+  <string name="config_export_successful">Configuratie is geëxporteerd naar %1$s</string>
+  <string name="import_config">Configuratie importeren</string>
+  <!--Toast shown after config was successfully imported-->
+  <string name="config_imported_successful">Configuratie geïmporteerd</string>
+  <!--Toast shown after config was successfully imported-->
+  <string name="config_import_failed">Importeren van configuratie mislukt, zorg dat de bestanden zich in %1$s bevinden</string>
+  <!--Title for the preference to set STTRACE parameters-->
+  <string name="sttrace_title">Debug-opties</string>
+  <!--Toast after entering invalid STTRACE params-->
+  <string name="toast_invalid_sttrace">Enkel a-z en \',\' zijn toegestaan in STTRACE-opties</string>
+  <!--Toast after entering invalid username-->
+  <string name="toast_invalid_username">Tekens : en \' zijn niet toegestaan in gebruikersnaam</string>
+  <!--Toast after entering invalid password-->
+  <string name="toast_invalid_password">Tekens : en \' zijn niet toegestaan in wachtwoord</string>
+  <!--Title for the preference to reset Syncthing indexes-->
+  <string name="streset_title">Database opnieuw instellen</string>
+  <!--Syncthing was reset-->
+  <string name="streset_question">Deze actie moet je enkel uitvoeren wanneer ons ondersteuningsteam je dit aanraadt.
+\nZeker dat je de indexdatabase van Syncthing wilt wissen?</string>
+  <!--Syncthing was reset-->
+  <string name="streset_done">Opnieuw instellen van Syncthing-database geslaagd</string>
+  <string name="category_about">Over</string>
+  <!--Settings item that opens the log activity-->
+  <string name="open_log">Log openen</string>
+  <!--Summary for the log activity-->
+  <string name="open_log_summary">Open het Syncthing- en Android-logvenster</string>
+  <!--Settings item that opens issue tracker-->
+  <string name="report_issue_title">Probleem rapporteren</string>
+  <!--Summary for the issue tracker settings item-->
+  <string name="report_issue_summary">De Syncthing-Android probleemtracker openen</string>
+  <!--URL of the issue tracker-->
+  <!--Menu item to donate-->
+  <string name="donate_title">Doneren</string>
+  <string name="donate_summary">Help ons betalen voor domeinen en hostingkosten</string>
+  <!--Title of the preference showing upstream version name-->
+  <string name="syncthing_version_title">Synthing-versie</string>
+  <!--Title of the preference showing this app's version name-->
+  <string name="app_version_title">Syncthing-Android versie</string>
+  <!--FolderPickerAcitivity-->
+  <!--Activity title-->
+  <string name="folder_picker_title">Mapkiezer</string>
+  <!--Toast shown on devices with kitkat or higher-->
+  <string name="kitkat_external_storage_warning">Waarschuwing: je Android-versie laat synchroniseren naar externe opslagapparaten niet toe</string>
+  <!--ListView empty text-->
+  <string name="directory_empty">Map is leeg</string>
+  <!--Menu item to create folder on the file system-->
+  <string name="create_fs_folder">Nieuwe map creeëren</string>
+  <!--Menu item to select the current folder-->
+  <string name="select_folder">Map selecteren</string>
+  <string name="create_folder_failed">Aanmaken van map mislukt</string>
+  <!--LogActivity-->
+  <!--Title of the "log" activity-->
+  <string name="log_title">Log</string>
+  <!--Title of the "log android" menu button-->
+  <string name="log_android_title">Bekijk Android-log</string>
+  <!--Title of the "log Syncthing" menu button-->
+  <string name="log_syncthing_title">Bekijk Syncthing-log</string>
+  <!--Title of the "share log" menu button-->
+  <string name="share_title">Delen</string>
+  <!--SyncthingService-->
+  <!--Title of the "syncthing disabled" dialog-->
+  <string name="syncthing_disabled_title">Syncthing is uitgeschakeld</string>
+  <!--Message of the "syncthing disabled" dialog-->
+  <string name="syncthing_disabled_message">Wil je je voorkeuren wijzigen?</string>
+  <!--Button text on the "syncthing disabled" dialog-->
+  <string name="syncthing_disabled_change_settings">Instellingen wijzigen</string>
+  <!--Button text on the "syncthing disabled" dialog, used as menu item to stop syncthing service if "always_run_in_background" is true-->
+  <string name="exit">Afsluiten</string>
+  <!--Title of the notification shown while syncthing is running and enabled-->
+  <string name="syncthing_active">Syncthing draait</string>
+  <!--Toast shown if folder observer fails to traverse a folder-->
+  <string name="toast_folder_observer_stack_overflow">Directorystructuur te diep. Controleer op cyclische symlinks</string>
+  <!--Toast shown if syncthing failed to create a config-->
+  <string name="config_create_failed">Aanmaken van een Syncthing-config mislukt. Controleer de logs.</string>
+  <!--Label of the default folder created of first start (camera folder).-->
+  <string name="default_folder_label">Camera</string>
+  <!--ID of the default folder created on first start (camera folder). Must only contain 'a-z0-9_-'. Parameter is the device name-->
+  <string name="default_folder_id">%1$s-photos</string>
+  <!--RestApi-->
+  <!--Title of the notification shown when a restart is needed-->
+  <string name="restart_title">Herstart vereist</string>
+  <!--Text for positive button in restart dialog-->
+  <string name="restart_now">Nu herstarten</string>
+  <!--Text for the dismiss button of the restart Activity-->
+  <string name="restart_later">Later</string>
+  <!--Text of the notification shown when a restart is needed-->
+  <string name="restart_notification_text">Klik hier om Syncthing nu te herstarten</string>
+  <!--Shown when a device ID is copied to the clipboard-->
+  <string name="device_id_copied_to_clipboard">Apparaat-ID gekopieerd naar klembord</string>
+  <!--Strings representing units for file sizes, from smallest to largest-->
+  <string-array name="file_size_units">
+    <item>B</item>
+    <item>KiB</item>
+    <item>MiB</item>
+    <item>GiB</item>
+    <item>TiB</item>
+  </string-array>
+  <!--Strings representing units for transfer rates, from smallest to largest-->
+  <string-array name="transfer_rate_units">
+    <item>B/s</item>
+    <item>KiB/s</item>
+    <item>MiB/s</item>
+    <item>GiB/s</item>
+    <item>TiB/s</item>
+  </string-array>
+  <!--Possible folder states-->
+  <string name="state_idle">Inactief</string>
+  <string name="state_scanning">Bezig met scannen</string>
+  <string name="state_cleaning">Bezig met opruimen</string>
+  <string name="state_syncing">Bezig met synchroniseren (%1$d%%)</string>
+  <string name="state_error">Fout</string>
+  <string name="state_unknown">Onbekend</string>
+  <!--Format string for folder size, eg "500 MiB / 1 GiB"-->
+  <string name="folder_size_format">%1$s / %2$s</string>
+  <string name="appconfig_receiver_background_enabled">Syncthing stoppen terwijl uitvoeren in achtergrond is ingeschakeld wordt niet ondersteund.</string>
+</resources>

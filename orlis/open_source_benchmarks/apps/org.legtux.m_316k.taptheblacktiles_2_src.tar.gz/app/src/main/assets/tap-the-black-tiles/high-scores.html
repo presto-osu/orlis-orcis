@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tap the Black Tiles || High Scores</title>
+        <meta charset="utf8">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="shortcut icon" href="icon-128.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <style>
+
+            html, body {
+                overflow-y: scroll;
+            }
+            body {
+                color: white;
+                background-color: black;
+            }
+            a {
+                color: gray;
+                font-style: italic;
+            }
+            table {
+                width: 96%;
+                margin: 2%;
+                margin-bottom: 30px;
+                text-align: center;
+                text-transform: capitalize;
+                border-collapse: collapse;
+                border: black 1px solid;
+                color: black;
+            }
+            tr {
+                border: black 1px solid;
+                background-color: white;
+            }
+            td, th {
+                border: 1px solid black;
+            }
+            th.headerSortUp:after {
+                content: ' ▼';
+            }
+            th.headerSortDown:after {
+                content: ' ▲';
+            }
+            button {
+                width: 30%;
+                float: right;
+                margin: 5%;
+                border: none;
+                background: black;
+                background-image: none;
+                font-size: 17px;
+                color: white;
+                font-weight: 0;
+                padding: 10px;
+                box-shadow: 0 0 10px white;
+            }
+        </style>
+    </head>
+    <body class="about">
+        <h1>High Score <small><a href="index.html">[back]</a></small></h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mode</th>
+                    <th>Type</th>
+                    <th>Tiles</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <p id="no-game-played"></p>
+        <button type="button" onclick="reset(this)">Reset all high scores</button>
+    </body>
+    <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="helpers.js"></script>
+    <script>
+    $(function() {
+        load_storage();
+
+        for(var key in filter_object(storage, /^score\./)) {
+            var mode_name = key.replace(/^score\./, '');
+            var mode_type;
+
+            if(mode_name.match('\.')) {
+                mode_name = key.split('.')[1].replace(/_/g, ' ');
+                mode_type = key.split('.')[2].replace(/_/g, ' ');
+            }
+            $('tbody').append('<tr><td>' + mode_name + '</td><td>' + mode_type + '</td><td>' + storage[key] + '</td></tr>');
+        }
+
+        if($('tbody tr').length) {
+            $('table').tablesorter({sortList: [[2, 1]]});
+        } else {
+            $('p#no-game-played').text("No high score set yet. What are you waiting for ? Stop staring at this empty page and go tap some tiles !");
+        }
+
+        // XXX : Ugly android bugfix below
+        if(window.droid) {
+            var height = Math.round($(window).width() * window.droid.getSize());
+            $('html, body').height(height);
+        }
+    });
+
+    function reset(button) {
+        if(!$(button).data('reset')) {
+            $(button).text('Really ?').data('reset', 1);
+        } else if($(button).data('reset') === 1) {
+            $(button).text('That cannot be undone').data('reset', 2);
+        } else if($(button).data('reset') === 2) {
+            $(button).text('Really super mega sure ?').data('reset', 3).css('float', 'left');
+        } else if($(button).data('reset') === 3) {
+            for(var key in storage) {
+                if(key.match(/^score\./)) {
+                    delete storage[key];
+                }
+            }
+            save_storage();
+            window.location.reload();
+        }
+    }
+    </script>
+</html>

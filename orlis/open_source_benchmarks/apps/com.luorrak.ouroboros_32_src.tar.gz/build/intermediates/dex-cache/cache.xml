@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_cb902c8d0f4bc1917def855a9ea33c50a15e46c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.koushikdutta.async/androidasync/2.1.7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eace26bfd08119044e19e9fc0f9ae1bdffac83ed">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.koushikdutta.async-androidasync-2.1.7_792a03096c03050e47ce4bd0ad3a7a233c450f2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-23.4.0_4d6febae08e041c94105a65057a0e16c52334df3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.koushikdutta.ion/ion/2.1.7/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8bbd470f524833532e041b110abe9e3d514d63eb">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.koushikdutta.ion-ion-2.1.7_18f595de0e9e0f7ae41209b1bf18b1958728f126.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_7c2b4e080f57bcf2e1c793e8ce2d7d8d4fceb9d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_0375b69d43c2f7f1a0cd4d84bdb9989bf7a92cfd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/gson-2.4_1652abc21f4887a19d9b2880961fb4f3e2d06b7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/preference-v14/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="eed10ec61f86abc0d4d4e0123919fd77135eaca6">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-preference-v14-23.4.0_e507ea08b859db108fa8b13a0749f868831b36bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.2/64238922c4006c3d0a9951c4c03983ecc6a1e1a0/jsoup-1.8.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="64238922c4006c3d0a9951c4c03983ecc6a1e1a0">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/jsoup-1.8.2_f5aef4130f6ff8c6e1e843c5b200a0e3414385c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_3da9661c10f92bb06b609519d6572f4a5ec5584f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_15950511c7620dfe46ad2742bb9a78edfad0508e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_a9269545335b8525adce42d46d8346abee396236.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.4.0_309f433e07e8c8d0ccb3f4da0889829479b7f44d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_ca29bf9d72e05545d8c3e42552e60ab0a88d8c07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/palette-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="51518e8e8f97c314a243d9def0ded91d385b6a1e">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-palette-v7-23.4.0_53a529a3d5fea07fa3ae9724c57c1ecb715ee01c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b954d8588de65c67c1ec482678620845bbb5f737">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-preference-v7-23.4.0_3434a67926a3f4157f87656906165ad872d7d68b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/exploded-aar/com.github.chrisbanes.photoview/library/1.2.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="81aa0e8e77d948204aa6754019c6f3c04dd922e3">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.luorrak.ouroboros_32_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.github.chrisbanes.photoview-library-1.2.3_ca8a36582df0b8aa0f7860baf18d42ef91eae3b4.jar" />
+    </item>
+
+</items>

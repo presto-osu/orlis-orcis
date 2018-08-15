@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="?android:attr/activatedBackgroundIndicator"
+              android:orientation="horizontal"
+              android:descendantFocusability="blocksDescendants"
+              android:gravity="center_vertical">
+
+    <View android:layout_width="8dip"
+          android:layout_height="match_parent"
+          android:id="@+id/UploadItem.IsPrivate"
+          android:background="#FF7400"
+          android:visibility="invisible" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:id="@+id/UploadItem.HeaderBox"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/UploadItem.CompleteUrl"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/UploadItem.Expires"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:layout_gravity="center_vertical"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/UploadItem.PrefFormat"
+                android:text="" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/UploadItem.PrefStyle"
+                android:text="" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:id="@+id/UploadItem.EditButton"
+        android:layout_gravity="center_vertical"
+        android:src="@android:drawable/ic_menu_edit"
+        android:visibility="invisible"
+        android:contentDescription="@string/UploadItem.EditPaste"/>
+
+</LinearLayout>

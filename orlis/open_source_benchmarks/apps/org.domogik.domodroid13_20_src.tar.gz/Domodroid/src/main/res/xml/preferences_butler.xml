@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppBaseTheme"
+    android:title="Preferences"
+    tools:context="activities.Activity_Main">
+    <PreferenceCategory
+        android:icon="@drawable/ic_forum_black_24dp"
+        android:persistent="false"
+        android:title="@string/OPTION_butler_settings">
+        <Preference
+            android:enabled="false"
+            android:icon="@drawable/ic_forum_black_24dp"
+            android:selectable="false"
+            android:shouldDisableView="false"
+            android:summary="@string/OPTION_butler_explain" />
+        <EditTextPreference
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:inputType="textCapWords"
+            android:key="dmg_butler_name"
+            android:summary="@string/OPTION_butler_name_desc"
+            android:title="@string/OPTION_butler_name" />
+        <EditTextPreference
+            android:icon="@drawable/ic_perm_identity_black_24dp"
+            android:inputType="textCapWords"
+            android:key="dmg_your_name"
+            android:summary="@string/OPTION_your_name_desc"
+            android:title="@string/OPTION_your_name" />
+    </PreferenceCategory>
+</PreferenceScreen>

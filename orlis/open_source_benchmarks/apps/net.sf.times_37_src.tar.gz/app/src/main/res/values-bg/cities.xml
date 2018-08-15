@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated using Google Translator Toolkit. -->
+<resources>
+
+    <string-array name="cities">
+        <item>Ванкувър</item>
+        <item>Сан Франциско</item>
+        <item>Сиатъл</item>
+        <item>Сан Диего</item>
+        <item>Феникс</item>
+        <item>Лас Вегас</item>
+        <item>Денвър</item>
+        <item>Мексико Сити</item>
+        <item>Далас</item>
+        <item>Хюстън</item>
+        <item>Санкт Луис</item>
+        <item>Чикаго</item>
+        <item>Кливланд</item>
+        <item>Атланта</item>
+        <item>Детройт</item>
+        <item>Маями</item>
+        <item>Питсбърг</item>
+        <item>Торонто</item>
+        <item>Вашингтон ОК</item>
+        <item>Балтимор</item>
+        <item>Филаделфия</item>
+        <item>Богота</item>
+        <item>Ню Йорк</item>
+        <item>Монреал</item>
+        <item>Лос Анджелис</item>
+        <item>Бостон</item>
+        <item>Портланд</item>
+        <item>Буенос Айрес</item>
+        <item>Сао Пауло</item>
+        <item>Рио де Жанейро</item>
+        <item>Казабланка</item>
+        <item>Мадрид</item>
+        <item>Манчестър</item>
+        <item>Лондон</item>
+        <item>Париж</item>
+        <item>Брюксел</item>
+        <item>Лион</item>
+        <item>Амстердам</item>
+        <item>Марсилия</item>
+        <item>Женева</item>
+        <item>Ница</item>
+        <item>Цюрих</item>
+        <item>Мюнхен</item>
+        <item>Рим</item>
+        <item>Берлин</item>
+        <item>Виена</item>
+        <item>Стокхолм</item>
+        <item>Сараево</item>
+        <item>Кейптаун</item>
+        <item>Будапеща</item>
+        <item>Хелзинки</item>
+        <item>Йоханесбург</item>
+        <item>Истанбул</item>
+        <item>Санкт Петербург</item>
+        <item>Киев</item>
+        <item>Дърбан</item>
+        <item>Ашкелон</item>
+        <item>Ашдод</item>
+        <item>Тел Авив</item>
+        <item>Беер Шева</item>
+        <item>Хадера</item>
+        <item>Ейлат</item>
+        <item>Хайфа</item>
+        <item>Бейт Шемеш</item>
+        <item>Нахария</item>
+        <item>Ариел</item>
+        <item>Йерусалим</item>
+        <item>Назарет</item>
+        <item>Сафед</item>
+        <item>Тверия</item>
+        <item>Москва</item>
+        <item>Адис Абеба</item>
+        <item>Мумбай</item>
+        <item>Аиджал</item>
+        <item>Пърт</item>
+        <item>Мелбърн</item>
+        <item>Сидни</item>
+        <item>Окланд</item>
+    </string-array>
+
+</resources>

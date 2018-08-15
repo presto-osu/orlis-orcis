@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_export"
+        android:icon="@drawable/ic_menu_save"
+        android:title="@string/menu_export">
+    </item>
+    <item
+        android:id="@+id/menu_preferences"
+        android:icon="@drawable/ic_menu_preferences"
+        android:title="@string/menu_preferences">
+    </item>
+    <item
+        android:id="@+id/menu_quit"
+        android:title="@string/menu_quit">
+    </item>
+
+</menu>

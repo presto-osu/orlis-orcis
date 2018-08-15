@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="net.sf.times"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!-- The application uses one or more features on the device for determining location, such as GPS location, network location, or cell location. -->
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false"/>
+    <!-- The application uses directional readings from a magnetometer (compass) on the device. -->
+    <uses-feature
+        android:name="android.hardware.sensor.compass"
+        android:required="false"/>
+
+    <application
+        android:name="net.sf.times.ZmanimApplication"
+        android:allowBackup="true"
+        android:backupAgent="net.sf.times.backup.ZmanimBackupAgent"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.Zmanim.Dark">
+        <activity
+            android:name="net.sf.times.ZmanimActivity"
+            android:label="@string/title_activity_zmanim">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.app.Activity"/>
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".LocationActivity"/>
+        </activity>
+        <activity
+            android:name="net.sf.times.preference.ZmanimPreferences"
+            android:label="@string/menu_settings"
+            android:parentActivityName=".ZmanimActivity">
+        </activity>
+        <activity
+            android:name="net.sf.times.preference.ZmanimPreferenceActivity"
+            android:label="@string/menu_settings"
+            android:parentActivityName=".ZmanimActivity">
+        </activity>
+        <activity
+            android:name="net.sf.times.CompassActivity"
+            android:label="@string/title_activity_compass"
+            android:parentActivityName=".ZmanimActivity">
+        </activity>
+        <activity
+            android:name="net.sf.times.location.LocationActivity"
+            android:label="@string/title_activity_location"
+            android:parentActivityName=".ZmanimActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable"/>
+        </activity>
+
+        <receiver
+            android:name="net.sf.times.ZmanimWidget"
+            android:exported="false"
+            android:label="@string/title_widget_zmanim">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info"/>
+        </receiver>
+        <receiver
+            android:name="net.sf.times.ZmanimListWidget"
+            android:exported="false"
+            android:label="@string/title_widget_zmanim">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_list"/>
+        </receiver>
+        <receiver
+            android:name="net.sf.times.ClockWidget"
+            android:exported="false"
+            android:label="@string/title_widget_clock">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_clock"/>
+        </receiver>
+        <receiver
+            android:name="net.sf.times.ZmanimReminder"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="net.sf.times.location.AddressService"
+            android:exported="false"/>
+        <service
+            android:name="net.sf.times.ZmanimWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"/>
+
+        <meta-data
+            android:name="com.google.android.backup.api_key"
+            android:value="@string/google_backup_api_key"
+            tools:node="replace"/>
+    </application>
+
+</manifest>

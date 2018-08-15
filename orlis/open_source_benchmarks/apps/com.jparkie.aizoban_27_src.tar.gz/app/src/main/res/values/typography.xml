@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Light -->
+    <dimen name="typography_display_4">112sp</dimen>
+    <!-- Regular -->
+    <dimen name="typography_display_3">56sp</dimen>
+    <!-- Regular -->
+    <dimen name="typography_display_2">45sp</dimen>
+    <!-- Regular -->
+    <dimen name="typography_display_1">34sp</dimen>
+    <!-- Regular -->
+    <dimen name="typography_headline">24sp</dimen>
+    <!-- Medium -->
+    <dimen name="typography_title">20sp</dimen>
+    <!-- Regular -->
+    <dimen name="typography_subhead">16sp</dimen>
+    <!-- Medium -->
+    <dimen name="typography_body_2">14sp</dimen>
+    <!-- Regular -->
+    <dimen name="typography_body_1">14sp</dimen>
+    <!-- Regular -->
+    <dimen name="typography_caption">12sp</dimen>
+    <!-- Medium -->
+    <dimen name="typography_menu">14sp</dimen>
+    <!-- Medium (All Caps) -->
+    <dimen name="typography_button">14sp</dimen>
+
+</resources>

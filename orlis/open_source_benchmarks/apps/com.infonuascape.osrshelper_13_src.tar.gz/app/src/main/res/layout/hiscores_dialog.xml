@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#80000000" >
+
+    <RelativeLayout
+        android:id="@+id/dialog_container"
+        android:layout_width="250dp"
+        android:layout_height="175dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/dialog_background"
+        android:clickable="true"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/skill_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/construction"
+            android:gravity="center_vertical"
+            android:text="Construction"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/text_normal" />
+
+        <TextView
+            android:id="@+id/skill_lvl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/skill_name"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/level"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_normal" />
+
+        <TextView
+            android:id="@+id/skill_exp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/skill_lvl"
+            android:gravity="center_vertical"
+            android:text="@string/xp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_normal" />
+
+        <TextView
+            android:id="@+id/skill_exp_to_lvl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/skill_exp"
+            android:gravity="center_vertical"
+            android:text="@string/xp_to_lvl"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_normal" />
+    </RelativeLayout>
+
+</RelativeLayout>

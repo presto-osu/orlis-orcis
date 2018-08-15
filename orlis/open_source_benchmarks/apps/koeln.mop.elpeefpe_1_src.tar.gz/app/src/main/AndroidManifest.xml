@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="koeln.mop.elpeefpe">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".CharacterListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CharacterDetailActivity"
+            android:label="@string/title_character_detail"
+            android:parentActivityName=".CharacterListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="koeln.mop.elpeefpe.CharacterListActivity" />
+        </activity>
+        <activity
+            android:name=".CharacterEditActivity"
+            android:label="@string/title_character_edit"
+            android:parentActivityName=".CharacterDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="koeln.mop.elpeefpe.CharacterDetailActivity" />
+        </activity>
+        <activity
+            android:name=".CharacterCreateActivity"
+            android:label="@string/title_character_create"
+            android:parentActivityName=".CharacterListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="koeln.mop.elpeefpe.CharacterListActivity" />
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_enabled"
+        android:title="@string/title_enabled" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:dependency="pref_enabled"
+        android:key="pref_toast"
+        android:title="@string/title_toast" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:dependency="pref_enabled"
+        android:key="pref_altitude"
+        android:title="@string/title_altitude" />
+    <EditTextPreference
+        android:defaultValue="25"
+        android:dependency="pref_enabled"
+        android:inputType="number"
+        android:key="pref_accuracy"
+        android:summary="@string/summary_accuracy" />
+    <EditTextPreference
+        android:defaultValue="60"
+        android:dependency="pref_enabled"
+        android:inputType="number"
+        android:key="pref_timeout"
+        android:summary="@string/summary_timeout" />
+    <ListPreference
+        android:defaultValue="240"
+        android:dependency="pref_enabled"
+        android:entries="@array/known_names"
+        android:entryValues="@array/known_values"
+        android:key="pref_known"
+        android:summary="@string/summary_known" />
+    <Preference
+        android:key="pref_check"
+        android:summary="@string/summary_check"
+        android:title="@string/title_check" />
+    <Preference
+        android:key="pref_version"
+        android:title="@string/title_version" />
+    <Preference
+        android:summary="@string/summary_author"
+        android:title="@string/title_author">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.faircode.eu/" />
+    </Preference>
+    <Preference
+        android:summary="@string/summary_license"
+        android:title="@string/title_license">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.gnu.org/licenses/gpl.txt" />
+    </Preference>
+    <Preference
+        android:summary="@string/summary_egm96"
+        android:title="@string/title_egm96">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://worldwind.arc.nasa.gov/worldwind-nosa-1.3.html" />
+    </Preference>
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ListView
+    android:id="@+id/dialog_more_apps_listview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="@dimen/default_padding"
+    android:drawSelectorOnTop="true"
+    android:listSelector="@drawable/selector_more_apps"
+    android:padding="@dimen/default_padding"
+    android:scrollbarStyle="outsideOverlay" />

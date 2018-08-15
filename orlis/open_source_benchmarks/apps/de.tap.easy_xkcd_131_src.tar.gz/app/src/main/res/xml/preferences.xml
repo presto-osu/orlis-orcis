@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="appearance"
+        android:persistent="false"
+        android:title="@string/pref_appearance"
+        android:summary="@string/pref_appearance_sum" />
+
+    <Preference
+        android:key="behavior"
+        android:persistent="false"
+        android:summary="@string/pref_behavior_sum"
+        android:title="@string/pref_behavior" />
+
+    <Preference
+        android:key="night"
+        android:persistent="false"
+        android:title="@string/pref_night_options"
+        android:summary="@string/pref_night_options_sum"/>
+
+    <Preference
+        android:key="altSharing"
+        android:persistent="false"
+        android:summary="@string/pref_alt_sharing_sum"
+        android:title="@string/pref_alt_sharing" />
+
+    <Preference
+        android:key="widget"
+        android:summary="@string/pref_widget_sum"
+        android:persistent="false"
+        android:title="@string/pref_widget" />
+
+    <Preference
+        android:key="advanced"
+        android:persistent="false"
+        android:title="@string/pref_advanced" />
+
+</PreferenceScreen>

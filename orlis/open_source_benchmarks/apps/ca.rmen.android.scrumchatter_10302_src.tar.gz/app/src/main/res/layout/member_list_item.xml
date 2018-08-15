@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2013 Carmen Alvarez
+ 
+  This file is part of Scrum Chatter.
+ 
+  Scrum Chatter is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+ 
+  Scrum Chatter is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with Scrum Chatter. If not, see <http://www.gnu.org/licenses/>.
+-->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="@dimen/list_inner_horizontal_margin"
+    android:paddingRight="@dimen/list_inner_horizontal_margin" >
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:gravity="start"
+        android:textAlignment="viewStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tv_avg_duration"
+        android:layout_toStartOf="@+id/tv_avg_duration"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <TextView
+        android:id="@id/tv_avg_duration"
+        android:gravity="start"
+        android:textAlignment="viewStart"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/tv_sum_duration"
+        android:layout_toStartOf="@+id/tv_sum_duration"
+        tools:targetApi="jelly_bean_mr1" />
+
+    <TextView
+        android:id="@id/tv_sum_duration"
+        android:gravity="start"
+        android:textAlignment="viewStart"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/btn_delete_member"
+        android:layout_toStartOf="@+id/btn_delete_member"
+        tools:targetApi="jelly_bean_mr1"/>
+
+    <ImageButton
+        android:id="@id/btn_delete_member"
+        android:background="?selectableItemBackgroundBorderless"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/action_delete_member"
+        android:src="@drawable/ic_action_delete" />
+
+</RelativeLayout>
+</layout>

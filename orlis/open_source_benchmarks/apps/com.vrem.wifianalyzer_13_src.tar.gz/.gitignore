@@ -1,0 +1,10 @@
+*.iml
+.gradle
+.idea
+.navigation
+local.properties
+.DS_Store
+build
+coverage
+libs
+release

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Profiles">
+
+        <ListPreference
+            android:dialogTitle=""
+            android:key="@string/settings_profiles_choose_key"
+            android:shouldDisableView="true"
+            android:summary="@string/settings_profiles_choose_summary"
+            android:title="@string/settings_profiles_choose_title" />
+
+        <EditTextPreference
+            android:dialogTitle=""
+            android:hint="@string/settings_profiles_add_hint"
+            android:imeOptions="actionDone"
+            android:key="@string/settings_profiles_add_key"
+            android:singleLine="true"
+            android:summary="@string/settings_profiles_add_summary"
+            android:title="@string/settings_profiles_add_title" />
+
+        <ListPreference
+            android:dialogTitle=""
+            android:key="@string/settings_profiles_delete_key"
+            android:shouldDisableView="true"
+            android:summary="@string/settings_profiles_delete_summary"
+            android:title="@string/settings_profiles_delete_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Network">
+
+        <EditTextPreference
+            android:defaultValue="@string/settings_ipAddress_defaultValue"
+            android:dialogTitle=""
+            android:digits="0123456789."
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+            android:key="@string/settings_ipAddress_key"
+            android:singleLine="true"
+            android:summary="@string/settings_ipAddress_summary"
+            android:title="@string/settings_ipAddress_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="About">
+
+        <Preference
+            android:summary="@string/settings_about_version_summary"
+            android:title="@string/settings_about_version_title" />
+        
+        <Preference
+            android:summary="@string/settings_about_rate_summary"
+            android:title="@string/settings_about_rate_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

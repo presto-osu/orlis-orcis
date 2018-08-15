@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="OK">OK</string>
+    <string name="dlg_certificate_message_fmt">
+        Failed to establish secure connection.\n
+        (<xliff:g id="error" example="Unknown Error">%s</xliff:g>)
+    </string>
+    <string name="dlg_invalid_certificate_title">Trust unknown certificate?</string>
+    <string name="dlg_invalid_certificate_accept">Accept </string>
+    <string name="dlg_invalid_certificate_reject">Deny </string>
+    <string name="dlg_invalid_certificate_could_not_apply">Certificate could not be added.</string>
+    <string name="dlg_err_connection_failed">Connection failure</string>
+    <string name="dlg_err_failed_wrong_password">Wrong password</string>
+    <string name="dlg_err_failed_unknown_host">Unknown address:\n%s</string>
+    <string name="dlg_err_failed_wrong_http_credentials">Invalid HTTP Authentication</string>
+	<string name="dlg_err_failed_timeout">Server doesn\'t respond (Timeout).
+	</string>
+    <string name="dlg_err_failed_connect_failure">Unknown connection failure</string>
+    <string name="dlg_err_failed_encoding_failure">Encoding failure</string>
+    <string name="dlg_err_failed_parse_failure">Couldn\'t parse response</string>
+    <string name="dlg_err_failed_ssl_failure">SSL failure</string>
+    <string name="refresh">Refresh</string>
+    <string name="progress_loading_data">Get schedule &#8230;</string>
+    <string name="progress_processing_data">Processing schedule &#8230;</string>
+    <string name="load_data">Load</string>
+    <string name="choose_day">Choose day</string>
+    <string name="day">Day</string>
+    <string name="about">Info</string>
+    <string name="fahrplan">Schedule</string>
+    <string name="appVersion">App Version %s</string>
+    <string name="aktualisiert_auf">Updated to %s</string>
+    <string name="settings">Settings</string>
+    <string name="alarms">Alarms</string>
+    <string name="delete">Delete</string>
+    <string name="event_online">Event online</string>
+    <string name="event_detail_section_title_links">Links</string>
+    <string name="alarm_prompt">Reminder</string>
+    <string name="choose_alarm_time">Choose alarm time</string>
+    <string name="default_alarm_time_title">Choose a default alarm time</string>
+    <string name="default_alarm_time_dialog_title">Default alarm time</string>
+    <!-- Synchronize with @integers/default_alarm_time_index and string-array/alarm_time_values -->
+    <string name="default_alarm_time_value" translatable="false">10</string>
+    <string name="reminders">Reminders</string>
+    <string name="reminder">Reminder</string>
+    <string name="feedback">Feedback</string>
+    <string name="delete_all">Delete all</string>
+    <string name="reminder_ringtone">Alarm Tone</string>
+    <string name="insistent_alarm">Insistent Alarm</string>
+    <string name="usage">Note:\n\nLong-press on a lecture to set an alarm.</string>
+    <string name="set_alarm">Set alarm</string>
+	<string name="libraries">
+		This application uses the following libraries:
+		Google Support Library v4, Google AppCompat Library v7
+	</string>
+    <string name="copyright_notes">Copyright 2015 Daniel Dorau.\nCopyright 2015 SubOptimal, entropynil, johnjohndoe.\nPortions Copyright 2008-2011 The K-9 Dog Walkers and 2006-2013 the Android Open Source Project.</string>
+    <string name="copyright_logo">30C3 artwork by <![CDATA[<a href="http://evelynschubert.com/">Evelyn Schubert</a>]]> licensed under <![CDATA[<a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">CC BY-SA 3.0</a>]]></string>
+	<string name="issues">
+		<![CDATA[<a href="http://github.com/tuxmobil/CampFahrplan/issues">Issues or feature requests</a>]]>
+	</string>
+    <string name="delete_alarm">Clear alarm</string>
+    <string name="today">today</string>
+    <string name="addToCalendar">Add to calendar</string>
+    <string name="share">Share</string>
+    <string name="flag_as_favorite">Add to favorites</string>
+    <string name="navigate">Navigate</string>
+    <string name="unflag_as_favorite">Remove from favorites</string>
+    <string name="uptodate">Schedule is up to date.</string>
+    <string name="close_detail">Close detail view</string>
+    <string name="pref_auto_download">Automatic updates</string>
+    <string name="parsing_error_generic">Unknown error while parsing schedule</string>
+    <string name="parsing_error_with_version">Parsing error for schedule version %s</string>
+	<string name="alarms_empty">
+		There are no alarms to display. Please note that you
+		can set up individual alarms for each item in the schedule.
+		Just press the alarm icon in the action bar.
+	</string>
+    <string name="add_to_calendar_failed">Adding event to calendar failed.</string>
+    <string name="no_changes">No schedule changes</string>
+    <string name="no_favorites">No favorite lectures</string>
+    <string name="schedule_changes">Schedule changes</string>
+    <string name="changes_dlg_text1">The schedule has been updated to</string>
+    <string name="changes_dlg_text2">. There are changes in <xliff:g id="num_changes" example="3 lectures">%2$s</xliff:g>, <xliff:g id="num_new" example="2 are">%3$s</xliff:g> new, <xliff:g id="num_canceled" example="1 is">%4$s</xliff:g> cancelled.</string>
+    <string name="changes_dlg_text3">The changes affect <xliff:g id="num_marked" example="2">%1$d</xliff:g> of your marked lectures.</string>
+
+    <plurals name="numberOfLectures">
+        <item quantity="one">%d lecture</item>
+        <item quantity="other">%d lectures</item>
+    </plurals>
+    <plurals name="being">
+        <item quantity="one">%d is</item>
+        <item quantity="other">%d are</item>
+    </plurals>
+    <plurals name="changes_notification">
+        <item quantity="one">%d lecture has changed.</item>
+        <item quantity="other">%d lectures have been changed.</item>
+    </plurals>
+    <string name="dash" translatable="false"><xliff:g id="dash">—</xliff:g></string>
+    <string name="general_settings">General</string>
+    <string name="schedule_udpate">Schedule update</string>
+    <string name="action_show_starred_lectures">Show favorites</string>
+    <string name="starred_lectures">Favorites</string>
+    <string name="schedule_url">Alternative Schedule URL</string>
+    <string name="invalid_url">Invalid URL</string>
+    <string name="choose_to_delete">Select lectures</string>
+    <string name="day_seperator">Day <xliff:g id="day_of_congress" example="2">%1$d</xliff:g> - <xliff:g id="date_of_congress_day" example="29.12.2014">%2$s</xliff:g></string>
+    <string name="btn_dlg_browse">Browse</string>
+    <string name="btn_dlg_later">Later</string>
+    <string name="alternative_highlight">Alternative highlighting</string>
+    <string name="dlg_delete_all_favorites">Delete all favorites?</string>
+    <string name="dlg_delete_all_favorites_delete_all">Delete all</string>
+
+    <!-- Build information -->
+    <string name="build_info_time">
+        Build time: <xliff:g id="build_time" example="2015-12-27T13:42Z">%s</xliff:g>
+    </string>
+    <string name="build_info_version_code">
+        Version code: <xliff:g id="version_code" example="42">%s</xliff:g>
+    </string>
+    <string name="build_info_hash">
+        Version hash: <xliff:g id="build_hash" example="e1f2g3h-dirty">%s</xliff:g>
+    </string>
+
+</resources>

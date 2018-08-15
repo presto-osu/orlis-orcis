@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * Copyright (c) 2016  Marien Raat <marienraat@riseup.net>
+ *
+ *  This file is free software: you may copy, redistribute and/or modify it
+ *  under the terms of the GNU General Public License as published by the Free
+ *  Software Foundation, either version 3 of the License, or (at your option)
+ *  any later version.
+ *
+ *  This file is distributed in the hope that it will be useful, but WITHOUT ANY
+ *  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ *  FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+ *  details.
+ *
+ *  You should have received a copy of the GNU General Public License along with
+ *  this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * This file incorporates work covered by the following copyright and
+ * permission notice:
+ *
+ *     Copyright (c) 2016 techwebpd <https://github.com/techwebpd>
+ *
+ *     Permission to use, copy, modify, and/or distribute this software
+ *     for any purpose with or without fee is hereby granted, provided
+ *     that the above copyright notice and this permission notice appear
+ *     in all copies.
+ *
+ *     THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL
+ *     WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED
+ *     WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
+ *     AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR
+ *     CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+ *     OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
+ *     NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+ *     CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+ -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- App Name and Activity Labels -->
+    <string name="app_name">Red Moon</string>
+    <string name="shortcut_activity">Red Moon pasirinkti</string>
+
+    <!-- Notification -->
+    <string name="running">Vykdoma. Sustabdykite, jei norite instaliuoti programėles</string>
+    <string name="paused">Sustabdyta</string>
+
+    <!-- Preference -->
+    <string name="pref_title_appearance">Filtras</string>
+    <string name="pref_title_automatic_filter">Automatinis filtras</string>
+    <string name="pref_title_startup">Paleistis</string>
+	<string name="pref_title_other">Kita</string>
+
+    <string name="button_add_profile">Pridėti</string>
+    <string name="button_remove_profile">Ištrinti</string>
+    <string name="shades_dim_level">Pritemdymo lygis</string>
+    <string name="shades_intensity_level">Intensyvumo lygis</string>
+    <string name="shades_color_temp">Spalvų temperatūra</string>
+    <string name="control_brightness_title">Sumažinti ryškumą</string>
+
+    <string name="automatic_filter_title">Automatiškai įjungti filtrą</string>
+    <string name="custom_start_time_title">Automatinio įjungimo laikas</string>
+    <string name="custom_end_time_title">Automatinio išjungimo laikas</string>
+	<string name="location_title">Vieta</string>
+    <string name="location_not_set">Nenustatyta</string>
+    <string name="latitude_short">Platuma</string>
+    <string name="longitude_short">Ilguma</string>
+    <string name="searching_location">Ieškoma vieta</string>
+
+    <string name="dark_theme">Tamsi tema</string>
+
+    <string name="email_me_title">Parašyti man el. paštu marienraat@riseup.net</string>
+    <string name="email_me_summary">Parašyti man el. paštu dėl programinių klaidų ar pasiūlymų</string>
+    <string name="project_page_title">Aplankyti projekto internetinį puslapį</string>
+    <string name="project_page_summary">Rasti daugiau informacijos, palikti grįžtamąjį ryšį ir/arba prisidėti prie projekto</string>
+
+    <!-- Toasts -->
+    <string name="toast_warning_install">negalima instaliuoti programėlių, kai filtras įjungtas.</string>
+    <string name="toast_warning_no_location">Vietos nustatymo paslauga neįjungta, bus naudojamas pritaikytas laikas. Prašome įjungti vietos nustatymo paslaugą, kad nustatyti saulėtekio ir saulėlydžio laiką</string>
+
+	 <!-- Snackbar -->
+    <string name="help_snackbar_text">Paslinkite įjungimo slinktuką, kad įgalintumėte Red Moon</string>
+
+    <!-- Dialog -->
+    <string name="add_new_profile_dialog_title">Įvesti profilio pavadinimo</string>
+    <string name="add_new_profile_edit_hint">Profilio pavadinimas</string>
+    <string name="remove_profile_dialog_title">Ištrinti šį profilį?</string>
+    <string name="set_dialog">Nustatyti</string>
+    <string name="ok_dialog">Gerai</string>
+    <string name="cancel_dialog">Atšaukti</string>
+
+    <!-- Shortcuts -->
+    <string name="toggle_shortcut_title">Pasirinkti</string>
+
+    <!-- Profiles -->
+    <!-- standard_profiles_array -->
+    <string name="standard_profiles_array_0">Pritaikytas</string>
+    <string name="standard_profiles_array_1">Numatytasis</string>
+    <string name="standard_profiles_array_2">Skaitymui</string>
+
+    <!-- Automatic filter -->
+    <!-- automatic_filter_options_array -->
+    <string name="automatic_filter_options_array_0">Niekada</string>
+    <string name="automatic_filter_options_array_1">Saulė</string>
+    <string name="automatic_filter_options_array_2">Pritaikytas laikas</string>
+<string name="shades_settings">Red Moon</string>
+    </resources>

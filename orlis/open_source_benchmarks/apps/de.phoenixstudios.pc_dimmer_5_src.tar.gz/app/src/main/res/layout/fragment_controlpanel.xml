@@ -1,0 +1,22 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="de.phoenixstudios.pc_dimmer.Controlpanel">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear1"
+        android:weightSum="1">
+
+        <GridView
+            android:layout_height="100dp"
+            android:layout_width="match_parent"
+            android:id="@+id/controlpanel"
+            android:verticalSpacing="5dp"
+            android:horizontalSpacing="5dp"
+            android:numColumns="5" />
+    </LinearLayout>
+</ScrollView>

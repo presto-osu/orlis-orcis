@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- widget -->
+    <color name="colorWidgetBG_Dark">#303030</color>
+    <color name="colorWidgetBG_Light">#EEEEEE</color>
+
+    <!-- dark -->
+    <color name="colorPrimary_Dark">#424242</color>
+    <color name="colorPrimaryDark_Dark">#212121</color>
+    <color name="colorAccent_Dark">#616161</color>
+
+    <!-- light -->
+    <color name="colorPrimary_Light">#BDBDBD</color>
+    <color name="colorPrimaryDark_Light">#9E9E9E</color>
+    <color name="colorAccent_Light">#BDBDBD</color>
+
+    <!-- red -->
+    <color name="colorPrimary_Red">#F44336</color>
+    <color name="colorPrimaryDark_Red">#D32F2F</color>
+    <color name="colorAccent_Red">#FF5252</color>
+
+    <!-- green -->
+    <color name="colorPrimary_Green">#4CAF50</color>
+    <color name="colorPrimaryDark_Green">#388E3C</color>
+    <color name="colorAccent_Green">#8BC34A</color>
+
+    <!-- blue -->
+    <color name="colorPrimary_Blue">#2196F3</color>
+    <color name="colorPrimaryDark_Blue">#1976D2</color>
+    <color name="colorAccent_Blue">#03A9F4</color>
+</resources>

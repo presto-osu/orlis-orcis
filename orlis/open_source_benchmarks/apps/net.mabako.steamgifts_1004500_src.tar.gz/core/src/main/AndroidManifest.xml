@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.mabako.steamgifts.core">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- we check for network state in broadcast receivers -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- schedule tasks despite not running initially on the device (and before being started once) -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme.Light">
+        <activity
+            android:name="net.mabako.steamgifts.activities.LoginActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.Dark" />
+
+        <activity
+            android:name="net.mabako.steamgifts.activities.MainActivity"
+            android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="net.mabako.steamgifts.activities.DetailActivity"
+            android:configChanges="orientation|screenSize" />
+
+        <activity
+            android:name="net.mabako.steamgifts.activities.WriteCommentActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+
+        <activity
+            android:name="net.mabako.steamgifts.activities.AboutActivity"
+            android:exported="false"
+            android:parentActivityName="net.mabako.steamgifts.activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dark">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.mabako.steamgifts.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="net.mabako.steamgifts.activities.WebViewActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name="net.mabako.steamgifts.activities.SyncActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Dark" />
+
+        <!-- handle all urls... or at least some -->
+        <activity android:name="net.mabako.steamgifts.activities.UrlHandlingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:host="www.steamgifts.com" />
+                <data android:host="steamgifts.com" />
+
+                <!-- individual giveaways -->
+                <data android:pathPattern="/giveaway/....." />
+                <data android:pathPattern="/giveaway/...../.*" />
+
+                <!-- individual discussions -->
+                <data android:pathPattern="/discussion/....." />
+                <data android:pathPattern="/discussion/...../.*" />
+
+                <!-- individual trades -->
+                <data android:path="/trade/....." />
+                <data android:path="/trade/...../.*" />
+
+                <!-- users -->
+                <data android:pathPattern="/user/.*" />
+
+                <!-- list of giveaways -->
+                <data android:path="/giveaways/search" />
+
+                <!-- breaks other filtering? -->
+                <!-- <data android:path="/"/> -->
+            </intent-filter>
+        </activity>
+
+        <!-- Settings -->
+        <activity
+            android:name="net.mabako.steamgifts.activities.SettingsActivity"
+            android:label="@string/preferences"
+            android:parentActivityName="net.mabako.steamgifts.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.mabako.steamgifts.activities.MainActivity" />
+        </activity>
+
+        <!-- sgtools.info -->
+        <activity
+            android:name="net.mabako.sgtools.SGToolsLoginActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.Dark" />
+
+        <!-- intro -->
+        <activity
+            android:name="net.mabako.steamgifts.intro.IntroActivity"
+            android:exported="false"
+            android:theme="@style/AppTheme.Light" />
+
+        <!-- start new message checking on boot -->
+        <receiver android:name="net.mabako.steamgifts.receivers.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <!-- check for new messages -->
+        <receiver android:name="net.mabako.steamgifts.receivers.CheckForNewMessages" />
+
+        <!-- check for won giveaways -->
+        <receiver android:name="net.mabako.steamgifts.receivers.CheckForWonGiveaways" />
+    </application>
+</manifest>

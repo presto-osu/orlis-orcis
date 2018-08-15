@@ -1,0 +1,108 @@
+Abbreviation: Com    
+Genitive: Comae Berenices    
+Pronunciation: /ˈkoʊmə bɛrəˈnaɪsiːz/, genitive /ˈkoʊmiː/    
+Symbolism: the Berenice's Hair    
+Right ascension: 11h 58m 25.0885s–13h 36m 06.9433s    
+Declination: 33.3074303°–13.3040485°    
+Family: Ursa Major    
+Area: 386 sq. deg. (42nd)    
+Main stars: 3    
+Bayer/Flamsteed stars: 44    
+Stars with planets: 5    
+Stars brighter than 3.00m: 0    
+Stars within 10.00 pc (32.62 ly): 1    
+Brightest star: β Com (4.26m)    
+Nearest star: β Com (29.96 ly, 9.18 pc)    
+Messier objects: 8    
+Meteor showers: Coma Berenicids    
+Bordering constellations: Canes Venatici Ursa Major Leo Virgo Boötes    
+Visible at latitudes between +90° and −70°. Best visible at 21:00 (9 p.m.) during the month of May. 
+   
+Coma Berenices is a traditional asterism that has since been defined as one of the 88 modern constellations. It is located near Leo, to which it formerly belonged, and accommodates the North Galactic Pole. Its name means "Berenice's Hair" (in Greek, via Latin), and refers to the legend of Queen Berenice II of Egypt, who sacrificed her long hair.
+
+History and mythology
+Coma Berenices is one of the few constellations to owe its name to a historical figure, in this case Queen Berenice II of Egypt, wife of Ptolemy III Euergetes (fl. 246 BC–221 BC), the king under whom Alexandria became an important cultural center.
+In 243 BC, during the Third Syrian War, Ptolemy undertook a dangerous expedition against the Seleucids, who had murdered his sister. His newlywed bride, Berenice, swore to the goddess Aphrodite to sacrifice her long, blonde hair, of which she was extremely proud, if her husband returned safely. He did, so she cut her hair and placed it in the goddess's temple. By the next morning the hair had disappeared. To appease the furious king the court astronomer, Conon, announced that the offering had so pleased the goddess that she had placed it in the sky. He indicated a cluster of stars that have since been called Berenice's Hair.
+This incident inspired the court poet Callimachus of Cyrene to write a poem entitled Βερενίκης πλόκαμος (Greek "Berenice's braid"). About 2/3 of the Greek original is now lost, but the full version was translated to Latin by the Roman poet Catullus, and his version exists to this day.
+Coma Berenices consists of a number of stars close together, and has been recognized as a distinct asterism since the Hellenistic period. Eratosthenes referred to it as both "Ariadne's Hair" and "Berenice's Hair". Ptolemy referred to it as "the lock" of hair; however, he did not list it as one of his 48 constellations, considering it to be a part of Leo, specifically, the tuft at the end of the lion's tail.
+Tycho Brahe, who is usually given credit for Coma's promotion to constellation status, listed it in his star catalogue of 1602, but it originally occurred on a celestial globe by the cartographer Caspar Vopel from 1536. Gerardus Mercator has also been credited as its promoter in 1551. Coma Berenices and the now-defunct constellation Antinous are considered to be the first post-Ptolemaic constellations to be depicted on a celestial globe.
+It appeared in Johann Bayer's Uranometria of 1603, and during the 17th century, a few other maps that were made of the sky followed suit.
+
+Notable features
+NGC 4565 has been nicknamed the Needle Galaxy because, when seen in full, it appears as a very narrow streak of light on the sky.
+Although Coma Berenices is not a large constellation, it contains eight Messier objects. The constellation is rich in galaxies, containing the northern part of the Virgo cluster. There are also several globular clusters to be seen. These objects can be seen with minimal obscuration from dust because the constellation is not in the direction of the galactic plane. However, because of this fact, there are few open clusters (except for the Coma Berenices Cluster, which dominates the northern part of the constellation), diffuse nebulae, or planetary nebulae.
+
+Stars
+Coma Berenices is not particularly bright, having no stars brighter than fourth magnitude. Beta Comae Berenices is the brightest star in the constellation, at magnitude 4.2; it is 30 light-years from Earth. Like the Sun, it is a yellow-hued main-sequence star. It is intrinsically only slightly brighter than the Sun, which gives an idea of how faint the Sun would appear seen from Beta Comae's distance.
+The second brightest star in Coma Berenices is α Comae Berenices also called Diadem. The name represents the gem in Berenice's crown. It is a binary star, with two components of almost equal magnitude. To the naked eye, it appears to be one star of magnitude 4.3. Because the orbital plane is so close to the Earth's line of sight, it was long suspected of being an eclipsing binary, but it now appears that the orbital tilt is 0.1° relative to the line of sight, so the stars do not eclipse each other as seen from Earth. The two components are slightly yellow-tinged; both are of magnitude 5.1. This binary has a period of 26 years and is 47 light-years from Earth.
+Gamma Comae Berenices, which is superimposed on the Coma Star Cluster, is an orange-hued giant star of magnitude 4.4, 170 light-years from Earth.
+There are two other prominent multiple stars in Coma Berenices. 35 Comae Berenices is a binary star with an optical companion. The two physically related components have a period of 360 years and are 324 light-years from Earth. The primary is a yellow-hued star of magnitude 5.1 and the secondary is a white-hued star of magnitude 7.2. The optical tertiary component is of magnitude 9. 24 Comae Berenices is a double star with contrasting colors. The primary is an orange-hued giant star of magnitude 5.0, 610 light-years from Earth, and the secondary is a blue-white hued star of magnitude 6.6.
+Over 200 variable stars are known in Coma Berenices, although many of them are obscure. FK Comae Berenices, which varies between 8.14m and 8.33m over a period of 2.4 days, is the prototype for the FK Com class of variable stars. It is believed that the variability of FK Com stars is caused by large, cool spots on the rotating surfaces of the stars. FS Comae Berenices is a semi-regular variable, a red giant with a minimum magnitude of 6.1 and a maximum magnitude of 5.3. It has a period of approximately 2 months and is 572 light-years from Earth.
+Richard Hinckley Allen lists among others the following star names for stars in Coma:
+Bayer: Name: Origin: Meaning 
+α Com    Diadem    Latin    diadem    
+β Com    Al Ḍafīrah    Arabic    the curl    
+(31) p Com    Shang Tseang    Chinese    higher army general    
+21 Com    Kissīn    Greek    species of ivy    
+
+Star clusters
+The Coma Berenices Cluster does not have a Messier or an NGC designation, but it is in the Melotte catalogue of open clusters, where it is designated Melotte 111. It is a large, diffuse open cluster of about 50 stars that range between 5th and 10th magnitudes, including several of the naked eye stars in the constellation. 12 Comae Berenices, at magnitude 4.8, is the cluster's brightest member. The cluster is spread over a huge region, more than 5 degrees across, near γ Coma Berenices. The cluster has such a large apparent size because it is relatively nearby, only 288 light years away.
+Globular clustersM53 (NGC 5024) is a globular cluster that was discovered by Johann Elert Bode in 1775 and independently by Charles Messier in February 1777. it is of magnitude 7.7 and is 56,000 light-years from Earth. M53 is a Shapley class V cluster, indicating that it has intermediate concentration towards its center. Only 1° away is NGC 5053, a globular cluster that is sparser and has a less dense nucleus of stars. Its total luminosity is around 16,000 suns, which is one of the lowest luminosities of any globular cluster. It was discovered by Sir William Herschel in 1784. It is around magnitude 9.9 m. NGC 4147 is a somewhat dimmer (magnitude 10.2m) globular cluster with a much smaller apparent size.
+
+Galaxies
+Coma Berenices contains the northern portion of the Virgo cluster (also known as the Coma-Virgo cluster), which is around 60 million light years away.
+M100 (NGC 4321) is a 9th-magnitude spiral galaxy seen face-on. It is part of the Virgo Cluster. At 7 arcminutes across, it has the largest apparent size of any galaxy in the Virgo cluster. Its diameter is over 120,000 light years, making it among the largest spiral galaxies in the Virgo cluster. Photographs reveal a brilliant core, two prominent spiral arms and an array of secondary ones, as well as several dust lanes.
+M85 (NGC 4382) is an elliptical galaxy in the Virgo cluster. It is one of the brighter members of the cluster at magnitude 9. Its nucleus is bright and appears starlike in small amateur telescopes.
+M98 (NGC 4192) is a bright, elongated spiral galaxy that is seen nearly edge-on; it can appear elliptical because of its unusual angle. It is of the 10th magnitude and is a member of the Virgo Cluster.
+M99 (NGC 4254) is a spiral galaxy seen face-on. Like M98, it is a 10th-magnitude member of the Virgo Cluster. R.H. Allen called it the "Pinwheel nebula", although this name is more often applied to the Triangulum Galaxy.
+M88 (NGC 4501) is a multi-arm spiral galaxy, seen about 30° from edge-on.
+M91 (NGC 4548) is a barred spiral galaxy.
+
+The Coma cluster of galaxies is to the north of the Virgo cluster. It lies much further off, however, around 230 to 300 million light years away. The cluster is quite large, containing 1,000 large galaxies and possibly up to 30,000 smaller ones. A survey by Fritz Zwicky in 1957 identified 29,951 galaxies in the area that are brighter than 19.0m. While some of these may be distant background objects, the total number of galaxies in the cluster is quite large.
+Due to the great distance to the cluster, most of the galaxies are only visible in large telescopes. The brightest members are NGC 4889 and NGC 4874, both of which are of thirteenth magnitude, with most of the other members being of fifteenth magnitude or dimmer. NGC 4889 is a giant elliptical galaxy, which is also the home of the largest known black hole at 21 billion solar masses. The Coma cluster contains comparatively few spiral galaxies. NGC 4921 is the brightest among them.
+
+Other galaxies
+M64 (NGC 4826) is known as the Black Eye Galaxy because of the prominent dark dust lane in front of the galaxy's bright nucleus. The dust lane is only visible in larger amateur telescopes, though galaxy is easily visible in even the smallest amateur instruments because it is of the 9th magnitude. Also known as the Sleeping Beauty and Evil Eye galaxy, it is relatively nearby, at around 17 million light years away from Earth. Recent studies have revealed that the interstellar gas in the outer regions of the galaxy rotates in the opposite direction from that in the inner regions, leading astronomers to believe that at least one satellite galaxy had collided with it less than a billion years ago. All other evidence of the smaller galaxy has been destroyed; it has been completely assimilated. At the interface between the clockwise- and counterclockwise- rotating regions, there are many new nebulae and young stars.
+NGC 4314 is a face-on barred spiral galaxy at a distance of 40 million light-years. It is unique for its region of intense star formation that creates a ring around the nucleus, discovered by the Hubble Space Telescope. The prodigious star formation began a short 5 million years ago and is in a region with a diameter of only 1,000 light-years. The architecture of the core is further unique because the small ring itself has spiral arms that feed gas into the bar.
+NGC 4565 is a very well known edge-on spiral galaxy. It is of the 10th magnitude and appears superimposed on the Virgo Cluster, though it is only 20 million light-years from Earth. Like many edge-on spiral galaxies, it has a prominent dust lane and a central bulge.
+NGC 4676, sometimes called the "Mice" galaxies, is a pair of interacting galaxies at a distance of 300 million light-years from Earth. The progenitor galaxies were both spiral galaxies; astronomers estimate that they had their closest approach about 160 million years ago. That close approach caused large regions of star formation in both galaxies, along with long "tails" of dust, stars, and gas. The two progenitor galaxies are predicted to interact significantly at least one more time before completely merging into a larger, probably elliptical galaxy.
+
+Quasars
+Quasar PG1247+26° is the brightest quasar visible in Coma Berenices. As well, W Com was originally identified as a variable star and so given a variable star designation, but later discovered to be a BL Lacertae object. It is normally around magnitude 16.5 m, but has been known to reach 12th magnitude.
+
+Other
+Coma Berenices contains the North Galactic Pole, at right ascension 12h 51m 25s and declination +27° 07′ 48″ (epoch J2000.0).
+
+Meteor showers
+The December Coma Berenicids are a meteor shower that lasts from December through January; it peaks between December 18 and 25.
+
+Equivalents
+In Chinese astronomy, the stars of Coma Berenices are located in two areas: the Supreme Palace enclosure (太微垣, Tài Wēi Yuán) and the Azure Dragon of the East (東方青龍, Dōng Fāng Qīng Lóng).
+The asterism of Coma Berenices was recognized by several Polynesian peoples. The people of Pukapuka likely called it Te Yiku-o-te-kiole; the people of Tonga had three different names. These included Fatana-lua, Fata-olunga (also Fata-lalo), and Kapakau-o-Tafahi.
+
+References
+
+^ a b "Coma Berenices, constellation boundary". The Constellations (International Astronomical Union). Retrieved 27 February 2014. 
+^ Gaius Julius Hyginus. "2.24". Astronomica. 
+^ a b c Pasachoff, Jay M. (2006). Stars and Planets. Boston, Massachusetts: Houghton Mifflin. 
+^ Ridpath, Ian. "Coma Berenices". Star Tales. Retrieved 11 April 2012. 
+^ Thompson, Gary D. "An Outline Sketch of the Origin and History of Constellations and Star-Names". 
+^ "Celestial table globe (GLB0095)". National Maritime Museum. 
+^ a b c d e f g h i j k l Ridpath & Tirion 2001, pp. 122-124.
+^ John Lankford (2011) History of Astronomy: An Encyclopedia, p. 165 (ISBN 0-8153-0322-X).
+^ "A Galactic Disc, Edge-on and Up Close". ESA/Hubble Picture of the Week. Retrieved 9 July 2012. 
+^ a b Burnham, Robert Jr. (1966, 1978). Burnham's Celestial Handbook: An Observer's Guide to the Universe Beyond the Solar System, v.2. General Publishing Company, Ltd., Toronto. ISBN 0-486-23567-X.  Check date values in: |date= (help)
+^ Star Names, Their Lore and Meaning, by Richard Hinckley Allen
+^ Levy 2005, pp. 159-160.
+^ McConnell, Nicholas J. (2011-12-08). "Two ten-billion-solar-mass black holes at the centres of giant elliptical galaxies". Nature. Archived from the original on 2011-12-06. Retrieved 2011-12-06. 
+^ van den Bergh, S. (1976-06-15). "A new classification system for galaxies". Astrophysical Journal 206: 883–887. Bibcode:1976ApJ...206..883V. doi:10.1086/154452. 
+^ a b c Wilkins, Jamie; Dunn, Robert (2006). 300 Astronomical Objects: A Visual Reference to the Universe. Buffalo, New York: Firefly Books. ISBN 978-1-55407-175-3. 
+^ Jenniskens, Peter (September 2012). "Mapping Meteoroid Orbits: New Meteor Showers Discovered". Sky & Telescope: 24. 
+^ Makemson 1941, p. 281.
+
+The Deep Photographic Guide to the Constellations: Coma Berenices
+Makemson, Maud Worcester (1941). The Morning Star Rises: an account of Polynesian astronomy. Yale University Press. 
+Ridpath, Ian; Tirion, Wil (2001), Stars and Planets Guide, Princeton University Press, ISBN 0-691-08913-2 
+Ian Ridpath and Wil Tirion (2007). Stars and Planets Guide, Collins, London. ISBN 978-0-00-725120-9. Princeton University Press, Princeton. ISBN 978-0-691-13556-4.
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Coma_Berenices&oldid=606859130"

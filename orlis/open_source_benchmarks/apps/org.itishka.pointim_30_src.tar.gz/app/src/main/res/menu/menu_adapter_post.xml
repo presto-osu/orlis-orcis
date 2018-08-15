@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="org.itishka.pointim.activities.SinglePostActivity">
+
+    <item
+        android:id="@+id/action_reply"
+        android:title="@string/action_quick_reply"
+        app:showAsAction="never" />
+
+    <group android:id="@+id/group_my_editable">
+        <item
+            android:id="@+id/action_edit"
+            android:title="@string/action_edit"
+            app:showAsAction="never" />
+    </group>
+    <group android:id="@+id/group_not_recommended">
+        <item
+            android:id="@+id/action_recommend"
+            android:icon="@drawable/ic_share_white_24dp"
+            android:title="@string/action_recommend"
+            app:showAsAction="never" />
+    </group>
+    <group android:id="@+id/group_recommended">
+        <item
+            android:id="@+id/action_not_recommend"
+            android:title="@string/action_not_recommend"
+            app:showAsAction="never" />
+    </group>
+    <group android:id="@+id/group_loaded">
+        <item
+            android:id="@+id/menu_item_share"
+            android:icon="@drawable/ic_share_variant_white_24dp"
+            android:title="@string/action_share"
+            app:showAsAction="never" />
+    </group>
+
+    <item
+        android:id="@+id/action_copy_link"
+        android:title="@string/action_copy_link"
+        app:showAsAction="never" />
+    <group android:id="@+id/group_my">
+        <item
+            android:id="@+id/action_delete"
+            android:icon="@drawable/ic_delete_white_24dp"
+            android:title="@string/action_delete"
+            app:showAsAction="never" />
+    </group>
+</menu>

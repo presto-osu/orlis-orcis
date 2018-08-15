@@ -1,0 +1,26 @@
+apply plugin: 'com.android.library'
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 22
+    buildToolsVersion '23.0.3'
+
+    defaultConfig {
+        minSdkVersion 10
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+    // compile 'com.android.support:support-v4:19.0.1'
+    // compile 'com.android.support:support-v4:23.+'
+    compile 'com.android.support:support-v4:22.2.0'
+}
+

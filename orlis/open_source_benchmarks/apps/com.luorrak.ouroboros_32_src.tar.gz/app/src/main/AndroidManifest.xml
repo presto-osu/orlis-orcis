@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luorrak.ouroboros" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name">
+        <activity
+            android:name=".catalog.CatalogActivity"
+            android:label="@string/app_name"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".thread.ThreadActivity"
+            android:label="Thread">
+        </activity>
+        <activity
+            android:name=".deepzoom.DeepZoomActivity"
+            android:label="Deepzoom" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".thread.ThreadActivity" />
+        </activity>
+        <activity
+            android:name=".reply.ReplyCommentActivity"
+            android:label="@string/title_activity_post_comment_activity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".thread.ThreadActivity" />
+        </activity>
+        <service android:name=".services.ReplyCheckerService"
+            android:exported="false"/>
+        <receiver android:name=".services.AlarmReceiver"/>
+    </application>
+</manifest>

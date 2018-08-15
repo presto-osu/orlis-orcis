@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="rn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">BipolAlarm</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="alarm_off">Alarm off</string>
+    <string name="alarm_on">Alarm on</string>
+    <string name="placeholder">You should not see this</string>
+    <string name="time_placeholder">08:30</string>
+    <string name="test_player">Music</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="set_delay">Set delay</string>
+    <string name="choose_playlist">Choose playlist</string>
+    <string name="no_playlist_dialog_title">No playlist found</string>
+    <string name="no_playlist_dialog_message">You can create playlists with most standard music
+        player apps (eg. Apollo).\n
+        \nSee also: https://github.com/iexos/BipolAlarm/issues/4</string>
+    <string name="choose_ringtone">Choose ringtone</string>
+    <string name="no_valid_playlist">No valid playlist</string>
+    <string name="error_playlist">ERROR: no valid playlist selected</string>
+    <string name="icon_music_note">Music note</string>
+    <string name="icon_bell">bell</string>
+    <string name="toast_alarm_set">Alarm set!</string>
+    <string name="notification_dismiss_all">Stop all</string>
+    <string name="notification_dismiss_alarm">Dismiss alarm</string>
+    <string name="notification_snooze">Snooze</string>
+    <string name="notification_title_playing">BipolAlarm</string>
+    <string name="notification_title_ringing">BipolAlarm</string>
+    <string name="notification_title_waiting">BipolAlarm</string>
+    <string name="notification_waiting">Alarm rings at <xliff:g >%s</xliff:g></string>
+    <string name="notification_playing">Playing</string>
+    <string name="notification_playing_upcoming">Playing, alarm rings at <xliff:g>%s</xliff:g></string>
+    <string name="notification_ringing">Ringing</string>
+</resources>

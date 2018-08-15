@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+    <item android:id="@+id/action_choose_naming_convention"
+          android:title="@string/action_choose_naming_convention"
+          android:orderInCategory="1"
+          app:showAsAction="always"/>
+    <item android:id="@+id/action_select_all"
+          android:title="@string/action_select_all"
+          app:showAsAction="ifRoom"
+          android:orderInCategory="2"/>
+    <item android:title="@string/action_about"
+          app:showAsAction="ifRoom"
+          android:orderInCategory="3">
+        <menu>
+            <group>
+                <item android:id="@+id/action_about"
+                      android:title="@string/action_about"
+                      app:showAsAction="never"
+                      android:orderInCategory="4"/>
+                <item android:id="@+id/action_view_author_website"
+                      android:title="@string/action_view_author_website"
+                      app:showAsAction="never"
+                      android:orderInCategory="5"/>
+                <item android:id="@+id/action_view_source_code"
+                      android:title="@string/action_view_source_code"
+                      app:showAsAction="never"
+                      android:orderInCategory="6"/>
+                <item android:id="@+id/action_view_changelog"
+                      android:title="@string/action_view_changelog"
+                      app:showAsAction="never"
+                      android:orderInCategory="7" />
+                <item android:id="@+id/action_view_license"
+                      android:title="@string/action_view_license"
+                      app:showAsAction="never"
+                      android:orderInCategory="8"/>
+            </group>
+        </menu>
+    </item>
+</menu>

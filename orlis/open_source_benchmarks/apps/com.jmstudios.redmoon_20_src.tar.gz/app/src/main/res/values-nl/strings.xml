@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="app_name">Red Moon</string>
+    <string name="running">Loopt. Pauzeer om apks te installeren</string>
+    <string name="paused">Gepauzeerd</string>
+
+    <string name="pref_title_appearance">Filter</string>
+    <string name="pref_title_automatic_filter">Filter tijden</string>
+    <string name="pref_title_startup">Opstarten</string>
+    <string name="pref_title_other">Overig</string>
+
+    <string name="button_add_profile">Nieuw</string>
+    <string name="button_remove_profile">Verwijder</string>
+    <string name="shades_dim_level">Verduister niveau</string>
+    <string name="shades_intensity_level">Intensiteit niveau</string>
+    <string name="shades_color_temp">Kleur temperatuur</string>
+    <string name="control_brightness_title">Verminder helderheid</string>
+
+    <string name="automatic_filter_title">Schakel mode</string>
+    <string name="custom_start_time_title">Hervat om</string>
+    <string name="custom_end_time_title">Pauzeer om</string>
+    <string name="location_title">Locatie</string>
+    <string name="location_not_set">Niet ingesteld</string>
+    <string name="latitude_short">Breedte</string>
+    <string name="longitude_short">Lengte</string>
+    <string name="searching_location">Locatie aan het zoeken</string>
+
+    <string name="dark_theme">Donker thema</string>
+
+    <string name="email_me_title">Email me op marienraat@riseup.net</string>
+    <string name="email_me_summary">Email me met bugs of suggesties</string>
+    <string name="project_page_title">Bezoek de project pagina</string>
+    <string name="project_page_summary">Vind informatie, geef feedback en help mee</string>
+    <string name="toast_warning_install">Je kan geen APKs installeren terwijl de filter loopt.</string>
+    <string name="toast_warning_no_location">Zet locatiediensten aan om de locatie te hernieuwen</string>
+
+    <string name="help_snackbar_text">Druk de schakelaar om Red Moon in te schakelen</string>
+
+    <string name="add_new_profile_dialog_title">Voer de naam van het profiel in</string>
+    <string name="add_new_profile_edit_hint">Profielnaam</string>
+    <string name="remove_profile_dialog_title">Verwijder dit profiel?</string>
+    <string name="set_dialog">Stel in</string>
+    <string name="ok_dialog">OK</string>
+    <string name="cancel_dialog">Annuleren</string>
+
+    <string name="toggle_shortcut_title">Schakel</string>
+
+    <string name="shortcut_activity">Red Moon schakelaar</string>
+
+    <string name="shades_settings">Red Moon</string>
+    <string name="standard_profiles_array_0">Aangepast</string>
+    <string name="standard_profiles_array_1">Standaard</string>
+    <string name="standard_profiles_array_2">Lezen</string>
+
+    <string name="automatic_filter_options_array_0">Handmatig</string>
+    <string name="automatic_filter_options_array_1">Automatisch (zon)</string>
+    <string name="automatic_filter_options_array_2">Automatisch (aangepast)</string>
+
+    <string name="resume_action">Hervat</string>
+    <string name="pause_action">Pauzeer</string>
+
+    </resources>

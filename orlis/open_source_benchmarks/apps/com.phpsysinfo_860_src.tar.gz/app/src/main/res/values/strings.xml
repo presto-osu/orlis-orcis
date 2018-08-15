@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PSIAndroid</string>
+    
+    <string name="lblLoading">Loading...</string>
+    <string name="lblRefresh">Refresh</string>
+    <string name="lblSettings">Settings</string>
+    <string name="lblAbout">About</string>
+    <string name="lblError">Error</string>
+    
+    <string name="lblKernel">Kernel:</string>
+    <string name="lblMachine">Machine:</string>
+    <string name="lblDistro">Distro:</string>
+    <string name="lblIp">IP:</string>
+    <string name="lblUptime">Uptime:</string>
+    <string name="lblLoad">Load:</string>
+    <string name="lblUsers">Users:</string>
+    <string name="lblCpu">Cpu:</string>
+    <string name="lblProcesses">Processes:</string>
+    <string name="lblProcessesRunning">running</string>
+    <string name="lblProcessesSleeping">sleeping</string>
+    <string name="lblProcessesStopped">stopped</string>
+    <string name="lblProcessesZombie">zombie</string>
+    <string name="lblProcessesWaiting">waiting</string>
+    <string name="lblProcessesOther">other</string>
+    <string name="lblVersion">PSI version:</string>
+    <string name="lblMemory">Memory</string>
+    
+    <string name="lblMemoryUsage">Memory Usage</string>
+    <string name="lblMountPoints">Mounted File Systems</string>
+    <string name="lblNetwork">Networks</string>
+    <string name="lblTemperatures">Temperatures</string>
+    <string name="lblVoltage">Voltage</string>
+    <string name="lblFans">Fans</string>
+    
+    <string name="lblUrlHint">http://</string>
+    <string name="lblHosts">Hosts</string>
+    <string name="lblHost">Host</string>
+    <string name="lblUser">Username</string>
+    <string name="lblPassword">Password</string>
+    <string name="lblSave">Save</string>
+    <string name="lblAlias">Alias</string>
+    <string name="lblCertificate">Ignore certificate (not recommended)</string>
+    
+    <string name="lblOf">of</string>
+    <string name="lblMio">MiB</string>
+    <string name="lblGio">GiB</string>
+    <string name="lblTio">TiB</string>
+    
+    <string name="lblAdd">Add</string>
+    <string name="lblActionFor">Action for %1$s ?</string>
+    <string name="lblCancel">Cancel</string>
+    <string name="lblEdit">Edit</string>
+    <string name="lblRemove">Remove</string>
+    
+    <string name="lblProcessStatus">Process Status</string>
+    
+    <string name="lblUps">UPS</string>
+    <string name="lblUpsModel">Model</string>
+    <string name="lblUpsBatteryCharge">Battery charge</string>
+    <string name="lblUpsLoad">Load</string>
+    <string name="lblUpsTime">Time left</string>
+    <string name="lblUpsBattery">Battery voltage</string>
+    <string name="lblUpsLine">Line voltage</string>
+    
+    <string name="lblSmart">SMART</string>
+    
+    <string name="lblRaid">RAID</string>
+    
+    <string name="lblUpdate">Update</string>
+    <string name="lblPackages">Packages</string>
+    <string name="lblSecurity">Security</string>
+    
+    <string name="lblPrinter">Printers</string>
+    <string name="lblPercent">Percent</string>  
+    <string name="lblTenthsMl">Tenths of ml</string>  
+    <string name="lblImpressions">Impressions</string>  
+    <string name="lblTenthsGrams">Tenths of grams</string>
+    
+    <string name="lblBat">Battery</string>  
+    <string name="lblRemaining">Remaining:</string> 
+    <string name="lblState">State:</string> 
+    
+    <string name="tv_settings">Settings</string>
+    <string name="lblPreference">Settings</string>
+    <string name="autorefresh_title">Auto-Refresh</string> 
+    <string name="autorefresh_sum">Auto-Refresh interval (seconds)</string>
+    <string name="timeout_title">HTTP timeout</string>
+    <string name="timeout_sum">HTTP timeout (seconds)</string>
+
+    <string name="pref_swipe_title">Disable Swipe</string> 
+    <string name="pref_swipe_sum">Disable Swipe to change host</string> 
+    
+</resources>

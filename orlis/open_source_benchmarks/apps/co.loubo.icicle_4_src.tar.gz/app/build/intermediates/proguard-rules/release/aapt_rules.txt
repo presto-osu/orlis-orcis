@@ -1,0 +1,150 @@
+# view res/layout/activity_main.xml #generated:21
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view res/layout/fragment_downloads.xml #generated:2
+# view res/layout/fragment_peers.xml #generated:2
+# view res/layout/fragment_status.xml #generated:2
+# view res/layout/fragment_uploads.xml #generated:2
+-keep class android.support.v4.widget.SwipeRefreshLayout { <init>(...); }
+
+# view res/layout/abc_action_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abc_expanded_menu_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ExpandedMenuView { <init>(...); }
+
+# view res/layout/abc_list_menu_item_layout.xml #generated:17
+# view res/layout/abc_popup_menu_item_layout.xml #generated:17
+-keep class android.support.v7.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:27
+-keep class android.support.v7.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abc_action_mode_bar.xml #generated:19
+# view res/layout/abc_screen_toolbar.xml #generated:43
+-keep class android.support.v7.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:17
+-keep class android.support.v7.internal.widget.ActionBarOverlayLayout { <init>(...); }
+
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
+-keep class android.support.v7.internal.widget.FitWindowsFrameLayout { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:17
+-keep class android.support.v7.internal.widget.FitWindowsLinearLayout { <init>(...); }
+
+# view v11/res/layout-v11/abc_screen_content_include.xml #generated:19
+-keep class android.support.v7.internal.widget.NativeActionModeAwareLayout { <init>(...); }
+
+# view res/layout/abc_action_mode_close_item_material.xml #generated:17
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:27
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:37
+# view res/layout/abc_search_dropdown_item_icons_2line.xml #generated:48
+# view res/layout/abc_search_view.xml #generated:116
+# view res/layout/abc_search_view.xml #generated:128
+# view res/layout/abc_search_view.xml #generated:38
+# view res/layout/abc_search_view.xml #generated:60
+# view res/layout/abc_search_view.xml #generated:97
+-keep class android.support.v7.internal.widget.TintImageView { <init>(...); }
+
+# view res/layout/abc_screen_simple.xml #generated:25
+# view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
+-keep class android.support.v7.internal.widget.ViewStubCompat { <init>(...); }
+
+# view res/layout/abc_action_menu_layout.xml #generated:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# view res/layout/abc_activity_chooser_view.xml #generated:19
+-keep class android.support.v7.widget.LinearLayoutCompat { <init>(...); }
+
+# view res/layout/abc_search_view.xml #generated:78
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view res/layout/abc_screen_toolbar.xml #generated:36
+# view res/layout/toolbar.xml #generated:2
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class co.loubo.icicle.ComposeMessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class co.loubo.icicle.FCPService { <init>(...); }
+
+# view res/layout/activity_friend_node_management.xml #generated:14
+-keep class co.loubo.icicle.FriendNodeListFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class co.loubo.icicle.FriendNodeManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class co.loubo.icicle.GlobalState { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class co.loubo.icicle.ListMessagesActivity { <init>(...); }
+
+# view res/layout/activity_list_messages.xml #generated:13
+-keep class co.loubo.icicle.ListMessagesFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class co.loubo.icicle.ListRecipientsActivity { <init>(...); }
+
+# view res/layout/activity_list_recipients.xml #generated:14
+-keep class co.loubo.icicle.ListRecipientsFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class co.loubo.icicle.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class co.loubo.icicle.MainViewBroadcastReceiver { <init>(...); }
+
+# view res/layout/activity_node_management.xml #generated:22
+-keep class co.loubo.icicle.MyNodeListFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class co.loubo.icicle.NodeManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class co.loubo.icicle.OpenReferenceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class co.loubo.icicle.SettingsActivity { <init>(...); }
+
+# view res/layout/activity_settings.xml #generated:13
+-keep class co.loubo.icicle.SettingsFragment { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:14
+-keep class co.loubo.icicle.SlidingTabLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class co.loubo.icicle.UploadActivity { <init>(...); }
+
+# onClick res/layout/activity_open_reference.xml #generated:111
+-keepclassmembers class * { *** addReference(...); }
+
+# onClick res/layout/activity_open_reference.xml #generated:92
+-keepclassmembers class * { *** cancelReference(...); }
+
+# onClick res/layout/transfer.xml #generated:18
+# onClick res/layout/transfer.xml #generated:6
+-keepclassmembers class * { *** changeTransferPriority(...); }
+
+# onClick res/layout/fragment_no_node.xml #generated:23
+-keepclassmembers class * { *** manageLocalNodes(...); }
+
+# onClick res/layout/activity_file_upload.xml #generated:56
+# onClick res/layout/activity_file_upload.xml #generated:70
+-keepclassmembers class * { *** pickFile(...); }
+
+# onClick res/layout/activity_open_reference.xml #generated:102
+-keepclassmembers class * { *** saveReference(...); }
+
+# onClick res/layout/activity_open_reference.xml #generated:120
+-keepclassmembers class * { *** shareReference(...); }
+
+# onClick res/layout/activity_file_upload.xml #generated:23
+# onClick res/layout/activity_file_upload.xml #generated:31
+-keepclassmembers class * { *** updateKeyType(...); }
+
+# onClick res/layout/activity_file_upload.xml #generated:96
+-keepclassmembers class * { *** uploadFile(...); }
+

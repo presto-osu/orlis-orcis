@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Congress" parent="Theme.AppCompat">
+        <!-- Set AppCompat’s actionBarStyle -->
+        <!--<item name="actionBarStyle">@style/MyActionBarStyle</item>-->
+
+        <!-- Set AppCompat’s color theming attrs -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- The rest of your attributes -->
+        <item name="actionDropDownStyle">@style/MyActionDropDownStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/colorPrimary</item>
+        <item name="alertDialogTheme">@style/AlertDialog</item>
+    </style>
+
+    <style name="Theme.Congress.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <!-- Set AppCompat’s actionBarStyle -->
+        <!--<item name="actionBarStyle">@style/MyActionBarStyle</item>-->
+
+        <!-- Set AppCompat’s color theming attrs -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- The rest of your attributes -->
+        <item name="actionDropDownStyle">@style/MyActionDropDownStyle</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="actionModeBackground">@color/colorPrimary</item>
+        <item name="alertDialogTheme">@style/AlertDialog</item>
+    </style>
+
+    <style name="AlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorAccent">@color/alert_dialog_button_text</item>
+        <item name="android:textColor">@color/alert_dialog_title</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+    </style>
+
+    <style name="MyActionDropDownStyle" parent="Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Title
+        </item>
+        <!--<item name="android:background">@android:color/black</item>-->
+        <item name="android:textColor">@color/spinner_drop_down_text</item>
+    </style>
+
+    <style name="MySpinnerDropDownItemStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.ActionBar.Title
+        </item>
+    </style>
+
+    <style name="MySpinnerDropDownItemListStyle" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+
+    <style name="AlarmList.Icon" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">@dimen/alarm_list_icon_width</item>
+        <item name="android:layout_height">@dimen/alarm_list_icon_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/alarm_list_icon_layer</item>
+        <item name="android:text">0</item>
+    </style>
+
+    <style name="ActivityIndicator" parent="@android:style/Widget.ProgressBar">
+        <item name="android:minWidth">48dp</item>
+        <item name="android:maxWidth">48dp</item>
+        <item name="android:minHeight">32dp</item>
+        <item name="android:maxHeight">32dp</item>
+    </style>
+
+    <style name="ScheduleListSeperator" parent="@android:style/TextAppearance.Small">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_link_color</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="ScheduleListPrimary" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily" tools:targetApi="jelly_bean">sans-serif-condensed</item>
+    </style>
+
+    <style name="ScheduleListSecondary" parent="@android:style/TextAppearance.Small">
+    </style>
+
+    <style name="TextViewLinks">
+        <item name="android:textColorLink">@color/text_link_color</item>
+    </style>
+
+    <!-- Event detail -->
+
+    <style name="EventDetailSection">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/event_detail_text</item>
+        <item name="android:textSize">@dimen/event_detail_text</item>
+        <item name="android:paddingBottom">@dimen/event_detail_section_margin_top</item>
+    </style>
+
+    <style name="EventDetailSection.Last" parent="EventDetailSection">
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="EventDetailSection.Long" parent="EventDetailSection">
+        <item name="android:lineSpacingMultiplier">
+            @dimen/event_detail_line_spacing_multiplier
+        </item>
+    </style>
+
+    <style name="EventDetailSection.Header" parent="EventDetailSection">
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingBottom">@dimen/event_detail_section_margin_bottom</item>
+    </style>
+
+    <style name="EventDetailSection.Header.Long" parent="EventDetailSection.Header">
+        <item name="android:lineSpacingMultiplier">
+            @dimen/event_detail_line_spacing_multiplier
+        </item>
+    </style>
+
+    <style name="EventDetailSection.Title" parent="EventDetailSection.Header">
+        <item name="android:textSize">@dimen/event_detail_title</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="EventDetailSection.Subtitle" parent="EventDetailSection">
+        <item name="android:textSize">@dimen/event_detail_subtitle</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="EventDetailSection.Speakers" parent="EventDetailSection">
+        <item name="android:textSize">@dimen/event_detail_speakers</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingBottom">@dimen/event_detail_section_margin_top</item>
+        <item name="android:paddingTop">@dimen/event_detail_section_margin_top</item>
+    </style>
+
+    <style name="BuildInfoItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginStart" tools:targetApi="jelly_bean_mr1">16dp</item>
+        <item name="android:layout_marginEnd" tools:targetApi="jelly_bean_mr1">16dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

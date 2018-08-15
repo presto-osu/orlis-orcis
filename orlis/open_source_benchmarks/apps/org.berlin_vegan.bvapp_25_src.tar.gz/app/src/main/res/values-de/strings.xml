@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Berlin-Vegan</string>
+    <string name="action_gastro">Gastronomie</string>
+    <string name="action_shopping">Einkaufen</string>
+    <string name="action_favorites">Favoriten</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_mapview">Kartenübersicht</string>
+    <string name="action_listview">Listenansicht</string>
+    <string name="action_about">Über</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_menu_search">Suche</string>
+    <string name="action_rate_app">App bewerten</string>
+
+    <string name="km_string">km</string>
+    <string name="mi_string">mi</string>
+
+    <string name="please_wait">Bitte warten&#8230;</string>
+    <string name="retrieving_data">Empfange Daten.</string>
+    <string name="units">Einheiten</string>
+    <string name="units_summaryOn">Benutze das metrische System.</string>
+    <string name="units_summaryOff">Benutze das imperiale System.</string>
+    <string name="guide">Guide</string>
+    <string name="error">Fehler</string>
+    <string name="no_gps_data">Keine GPS-Daten empfangen. Die Liste wird in der Standard-Reihenfolge angezeigt.</string>
+    <string name="insert_error_report">Bitte trage hier die Fehlerbeschreibung ein:</string>
+    <string name="something_went_wrong">Etwas ist schiefgelaufen. Aber keine Sorge, ein Fehlerbericht wurde verschickt um das Problem zu beheben.</string>
+
+    <string name="about_version">&lt;b>%1$s&lt;/b>&lt;br>Version: %2$s</string>
+    <string name="about_flavor">Variante: %1$s</string>
+    <string name="about_licenses">Open-Source-Lizenzen</string>
+    <string name="about_credits">Credits</string>
+
+    <string name="gastro_list_closed">derzeit geschlossen</string>
+    <string name="gastro_list_closed_soon">schließt um\n%1$s Uhr!</string>
+    <string name="gastro_list_empty_favorites">Keine Favoriten vorhanden.\nDu kannst einen Ort in der Detailansicht als Favorit markieren.</string>
+    <string name="gastro_list_empty_search">Keine Ergebnisse gefunden.</string>
+
+    <string name="gastro_details_contact_address">Keine Adresse</string>
+    <string name="gastro_details_contact_telephone">Keine Telefonnummer</string>
+    <string name="gastro_details_contact_website">Keine Webseite</string>
+    <string name="gastro_details_opening_hours_content_monday">Montag</string>
+    <string name="gastro_details_opening_hours_content_tuesday">Dienstag</string>
+    <string name="gastro_details_opening_hours_content_wednesday">Mittwoch</string>
+    <string name="gastro_details_opening_hours_content_thursday">Donnerstag</string>
+    <string name="gastro_details_opening_hours_content_friday">Freitag</string>
+    <string name="gastro_details_opening_hours_content_saturday">Samstag</string>
+    <string name="gastro_details_opening_hours_content_sunday">Sonntag</string>
+    <string name="gastro_details_opening_hours_content_closed">geschlossen</string>
+
+    <string name="gastro_details_opening_hours_content_holiday_warning">Achtung, heute ist ein Feiertag!</string>
+    <string name="gastro_details_miscellaneous_content_catering">Catering</string>
+    <string name="gastro_details_miscellaneous_content_child_chair">Kinderstuhl</string>
+    <string name="gastro_details_miscellaneous_content_delivery">Lieferdienst</string>
+    <string name="gastro_details_miscellaneous_content_dog">Hunde erlaubt</string>
+    <string name="gastro_details_miscellaneous_content_gluten_free">Glutenfrei</string>
+    <string name="gastro_details_miscellaneous_content_handicapped_accessible">Rollstuhl geeignet</string>
+    <string name="gastro_details_miscellaneous_content_handicapped_accessible_wc">Rollstuhl geeignetes WC</string>
+    <string name="gastro_details_miscellaneous_content_organic">Bioware</string>
+    <string name="gastro_details_miscellaneous_content_seats_indoor">Stühle im Gebäude</string>
+    <string name="gastro_details_miscellaneous_content_seats_outdoor">Stühle im Freien</string>
+    <string name="gastro_details_miscellaneous_content_vegan">Vegan</string>
+    <string name="gastro_details_miscellaneous_content_wlan">WLAN</string>
+    <string name="gastro_details_miscellaneous_content_yes">ja</string>
+    <string name="gastro_details_miscellaneous_content_no">nein</string>
+    <string name="gastro_details_miscellaneous_content_unknown">unbekannt</string>
+    <string name="gastro_details_miscellaneous_content_omnivore">omnivor</string>
+    <string name="gastro_details_miscellaneous_content_omnivore_vegan_declared">omnivor (vegan deklariert)</string>
+    <string name="gastro_details_miscellaneous_content_vegetarian">vegetarisch</string>
+    <string name="gastro_details_miscellaneous_content_vegetarian_vegan_declared">vegetarisch (vegan deklariert)</string>
+    <string name="gastro_details_miscellaneous_content_completely_vegan">100% vegan</string>
+    <string name="gastro_details_editing">Änderungen vorschlagen</string>
+    <string name="gastro_details_opening_hours_content_clock">Uhr</string>
+    <string name="gastro_details_dial">Anrufen</string>
+    <string name="gastro_details_favorite">Favorit</string>
+    <string name="gastro_details_website">Webseite</string>
+    <string name="gastro_details_no_navigation_found">Keine App für die Navigation gefunden. Du kannst zum Beispiel OsmAnd aus dem F-Droid store installieren.</string>
+
+    <string name="gastro_filter_title_dialog">Filter</string>
+    <string name="gastro_filter_result">%1$s ausgewählt</string>
+    <string name="gastro_filter_category">Kategorie</string>
+    <string name="gastro_filter_category_vegan">vegan</string>
+    <string name="gastro_filter_category_vegetarian">vegetarisch</string>
+    <string name="gastro_filter_category_omnivore">omnivor</string>
+    <string name="gastro_filter_type">Art der Lokalität</string>
+    <string name="gastro_filter_type_restaurant">Restaurant</string>
+    <string name="gastro_filter_type_fast_food">Imbiss</string>
+    <string name="gastro_filter_type_ice_cafe">Eiscafe</string>
+    <string name="gastro_filter_type_cafe">Cafe</string>
+    <string name="gastro_filter_options">Optionen</string>
+
+
+</resources>

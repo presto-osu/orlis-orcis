@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_delete"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_discard"
+        android:title="@string/action_delete" />
+
+    <item
+        android:id="@+id/action_stop"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_stop"
+        android:title="@string/action_stop" />
+
+</menu>

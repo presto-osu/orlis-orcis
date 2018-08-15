@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2010, 2011 Christopher Eby <kreed@kreed.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+<resources>
+	<string name="app_name">Vanilla Music</string>
+
+	<!-- Playback Activity (main screen) -->
+	<string name="no_songs">No songs found on your device.</string>
+	<string name="empty_queue">No songs selected. Pick some from the library or enter random mode by tapping this message.</string>
+	<string name="settings">Settings</string>
+	<string name="no_shuffle">No shuffle</string>
+	<string name="shuffle_songs">Shuffle songs</string>
+	<string name="shuffle_songs_continuously">Shuffle songs continuously</string>
+	<string name="shuffle_albums">Shuffle albums</string>
+	<string name="no_repeat">No repeat</string>
+	<string name="repeat">Repeat</string>
+	<string name="repeat_current_song">Repeat current song</string>
+	<string name="stop_current_song">Stop after current song</string>
+	<string name="random">Random</string>
+	<string name="random_enabling">Random enabled</string>
+	<string name="song_load_failed">Failed to load song %s. It may be corrupt or missing.</string>
+	<string name="queue_cleared">Queue cleared.</string>
+	<string name="cover_art">Cover art</string>
+	<string name="close_notification">Close notification</string>
+	<string name="_genre">genre</string>
+	<string name="_track">track</string>
+	<string name="_composer">composer</string>
+	<string name="_path">path</string>
+	<string name="_format">format</string>
+	<string name="_title">title</string>
+	<string name="_artist">artist</string>
+	<string name="_album">album</string>
+	<string name="_year">year</string>
+	<string name="_replaygain">rgain</string>
+	<!-- New Playlist Dialog -->
+	<string name="choose_playlist_name">Choose playlist name</string>
+	<string name="create">Create</string>
+	<string name="overwrite">Overwrite</string>
+
+	<string name="delete_playlist">Delete playlist %s?</string>
+
+	<!-- Library -->
+	<string name="enqueue">Enqueue</string>
+	<string name="enqueue_as_next">Play next</string>
+	<string name="play">Play</string>
+	<string name="edit">Edit</string>
+	<string name="rename">Rename</string>
+	<string name="save_as_playlist">Save as playlist…</string>
+	<string name="add_to_playlist">Add to playlist…</string>
+	<string name="add_to_favorites">Add to favorites</string>
+	<string name="remove_from_favorites">Remove from favorites</string>
+	<string name="playlist_favorites">Favorites</string>
+	<string name="new_playlist">New playlist…</string>
+	<string name="expand">Expand</string>
+	<string name="delete">Delete</string>
+	<string name="playback_view">Now playing</string>
+	<string name="sort_by">Sort by</string>
+	<string name="search">Search</string>
+	<string name="done">Done</string>
+	<string name="remove">Remove</string>
+	<string name="play_or_enqueue">Enqueue if playing; Play if paused</string>
+	<string name="open">Open</string>
+
+	<plurals name="playing">
+		<item quantity="one">1 song playing.</item>
+		<item quantity="other">%d songs playing.</item>
+	</plurals>
+	<plurals name="enqueued">
+		<item quantity="one">1 song enqueued.</item>
+		<item quantity="other">%d songs enqueued.</item>
+	</plurals>
+	<plurals name="added_to_playlist">
+		<item quantity="one">1 song added to playlist %2$s.</item>
+		<item quantity="other">%1$d songs added to playlist %2$s.</item>
+	</plurals>
+	<plurals name="removed_from_playlist">
+		<item quantity="one">1 song removed from playlist %2$s.</item>
+		<item quantity="other">%1$d songs removed from playlist %2$s.</item>
+	</plurals>
+	<plurals name="deleted">
+		<item quantity="one">1 song deleted.</item>
+		<item quantity="other">%d songs deleted.</item>
+	</plurals>
+	<string name="delete_file_failed">Failed to delete %s.</string>
+
+	<string name="deleted_item">\'%s\' deleted.</string>
+	<string name="delete_item">Delete \'%s\'?</string>
+	<string name="delete_file">Delete file \'%s\'?</string>
+
+	<string name="artists">Artists</string>
+	<string name="albums">Albums</string>
+	<string name="songs">Songs</string>
+	<string name="playlists">Playlists</string>
+	<string name="genres">Genres</string>
+	<string name="files">Files</string>
+
+	<string name="unknown">Unknown</string>
+	<string name="play_all">Play all</string>
+	<string name="enqueue_all">Enqueue all</string>
+	<string name="all_songs">All songs</string>
+	<string name="more_from_artist">More from artist</string>
+	<string name="more_from_album">More from album</string>
+
+	<string name="name">Name</string>
+	<string name="number_of_tracks">Number of tracks</string>
+	<string name="year">Year</string>
+	<string name="date_added">Date added</string>
+	<string name="artist_album">Artist, album</string>
+	<string name="artist_album_track">Artist, album, track number</string>
+	<string name="artist_album_title">Artist, album, title</string>
+	<string name="artist_year">Artist, year</string>
+	<string name="album_track">Album, track number</string>
+	<string name="song_playcount">Playcount</string>
+
+	<!-- Preferences -->
+	<plurals name="seconds">
+		<item quantity="one">1 second</item>
+		<item quantity="other">%d seconds</item>
+	</plurals>
+	<plurals name="minutes">
+		<item quantity="one">1 minute</item>
+		<item quantity="other">%d minutes</item>
+	</plurals>
+	<plurals name="hours">
+		<item quantity="one">1 hour</item>
+		<item quantity="other">%d hours</item>
+	</plurals>
+
+	<string name="audio">Audio</string>
+	<string name="volume_during_ducking_title">Volume during notification</string>
+	<string name="volume_during_ducking_summary">Playback volume: </string>
+	<string name="ignore_audiofocus_loss_summary">Keep playing on permanent audio focus loss</string>
+	<string name="media_button_title">Headset/Bluetooth controls</string>
+	<string name="media_button_summary">This is also required for ICS lockscreen controls.</string>
+	<string name="media_button_beep_title">Headset control beep</string>
+	<string name="media_button_beep_summary">Beep after skipping a track with a headset control double click.</string>
+	<string name="headset_only_title">External output only</string>
+	<string name="headset_only_summary">Prevents music from being played through the internal speakers.</string>
+	<string name="headset_pause_title">Pause when unplugged</string>
+	<string name="headset_pause_summary">Pause when the headphones are unplugged.</string>
+	<string name="headset_launch_title">Play when plugged</string>
+	<string name="headset_launch_summary">Play when the headphones are plugged in. (Requires the \'Headphone detector\' app to be installed.)</string>
+	<string name="headset_launch_app_missing">This features requires the \'Headphone detector\' app to be installed.\nWould you like to open the Play Store to install the application?</string>
+
+	<string name="replaygain">ReplayGain</string>
+	<string name="replaygain_summary">Configure handling of ReplayGain information</string>
+	<string name="replaygain_track_title">Enable per-track ReplayGain</string>
+	<string name="replaygain_track_summary">Play all tracks at equal loudness</string>
+	<string name="replaygain_album_title">Enable album ReplayGain</string>
+	<string name="replaygain_album_summary">Preserve album dynamics</string>
+	<string name="replaygain_bump_title">ReplayGain pre-amp</string>
+	<string name="replaygain_untagged_debump_title">Songs without ReplayGain tag</string>
+	<string name="replaygain_untagged_debump_summary">Decrease volume by</string>
+	<string name="replaygain_preamp_note_title">Note</string>
+	<string name="replaygain_preamp_note_content">Android does not allow Vanilla Music to raise the volume to >100%. Setting the Pre-amp to a high value may cause issues if you are listening to \'quiet\' music. \n\nRecommended values are:\n-> -3dB for silent/classical music\n-> +3dB for post-2000 recordings</string> 
+
+	<string name="readahead">Enable readahead</string>
+	<string name="readahead_summary">Readahead the currently playing song. This option may solve \'audio dropout\' issues. (caused by a slow SD card)</string>
+
+	<string name="equalizer">Equalizer</string>
+
+	<string name="cycle_continuous_shuffling">Continuous shuffle</string>
+	<string name="cycle_continuous_shuffling_summary">\'Shuffle mode\' will play songs in completely random order</string>
+
+	<string name="notifications">Notifications</string>
+	<string name="notification_mode_title">Notification mode</string>
+	<string name="notification_action_title">Notification action</string>
+
+	<string name="notification_nag">Very verbose notification</string>
+	<string name="notification_nag_summary">Announce song changes using a \'Heads-Up-Notification\'</string>
+
+	<string name="playback_screen">Playback screen</string>
+	<string name="playback_on_startup_title">Open on startup</string>
+	<string name="playback_on_startup_summary">Open playback view on startup</string>
+	<string name="display_mode_title">Display mode</string>
+	<string name="swipe_up_action_title">Swipe up action</string>
+	<string name="swipe_down_action_title">Swipe down action</string>
+	<string name="cover_press_action_title">Cover tap action</string>
+	<string name="cover_longpress_action_title">Cover long press action</string>
+
+	<string name="library_screen">Library screen</string>
+	<string name="default_action_title">Default action</string>
+	<string name="default_playlist_action_title">Default playlist action</string>
+
+	<string name="accelerometer_shake">Accelerometer shake</string>
+	<string name="enable_shake_title">Enable accelerometer shake</string>
+	<string name="enable_shake_summary">Only active when music is playing. Does not work when screen is off on some devices.</string>
+	<string name="shake_action_title">Shake action</string>
+	<string name="shake_threshold_title">Shake force threshold</string>
+
+	<string name="misc_features">Miscellaneous features</string>
+	<string name="theme">Theme</string>
+	<string name="disable_lockscreen_title">Disable lockscreen</string>
+	<string name="disable_lockscreen_summary">Prevent the lockscreen from activating when in the library or playback screen</string>
+	<string name="use_idle_timeout_title">Enable idle timeout</string>
+	<string name="use_idle_timeout_summary">When active, playback will be stopped after the given period of inactivity</string>
+	<string name="idle_timeout_title">Idle timeout</string>
+
+	<string name="coverloader_android_title">Load artwork from Android</string>
+	<string name="coverloader_android_summary">Query Androids internal media database for album artwork</string>
+
+	<string name="coverloader_vanilla_title">Load artwork from folder</string>
+	<string name="coverloader_vanilla_summary">Search for image files named cover.jpg, album.jpg or artwork.jpg and display them as album cover</string>
+
+	<string name="coverloader_shadow_title">Load artwork from hidden folder</string>
+	<string name="coverloader_shadow_summary">Try to load artwork from \'/sdcard/Music/.vanilla/ARTIST/ALBUM.jpg\'</string>
+
+	<string name="cover_on_lockscreen_title">Show artwork on lockscreen</string>
+	<string name="cover_on_lockscreen_summary">Display the artwork of the currently playing song on the lockscreen</string>
+
+	<string name="double_tap_title">Double tap widget</string>
+	<string name="double_tap_summary">Double-tapping the 1x1 widget will open the player. Incurs a 400ms delay before the widget responds to actions.</string>
+	<string name="scrobble_title">Use ScrobbleDroid API</string>
+	<string name="scrobble_summary">Scrobble to Last.fm through ScrobbleDroid or Simple Last.fm Scrobbler</string>
+	<string name="stock_broadcast_title">Emulate stock broadcasts</string>
+	<string name="stock_broadcast_summary">Send broadcasts emulating those sent by the stock music player to work with 3rd party lockscreen controls, widgets, etc.</string>
+
+	<string name="about">About</string>
+
+	<string name="tabs">Tab order</string>
+	<string name="customize_tab_order">Adjust the order and visibility of library tabs</string>
+	<string name="restore_default">Restore default</string>
+
+	<!-- The following are for the list preferences -->
+	<string name="last_used_action">Last used action</string>
+
+	<string name="never_show">Never show</string>
+	<string name="show_when_playing">Show when playing (default)</string>
+	<string name="always_show">Always show</string>
+
+	<string name="open_main_activity">Open library (default)</string>
+	<string name="open_mini_popup">Open mini popup</string>
+	<string name="skip_to_next_song">Skip to next song</string>
+	<string name="open_full_player">Open full player</string>
+
+	<string name="info_on_cover">Info on cover art</string>
+	<string name="info_below_cover">Info below cover art</string>
+	<string name="fixed_info">Info fixed at top</string>
+
+	<string name="do_nothing">Do nothing</string>
+	<string name="open_library">Open library</string>
+	<string name="play_pause">Play/Pause</string>
+	<string name="next_song">Next song</string>
+	<string name="previous_song">Previous song</string>
+	<string name="next_album">Next album</string>
+	<string name="previous_album">Previous album</string>
+	<string name="cycle_repeat_mode">Cycle repeat mode</string>
+	<string name="cycle_shuffle_mode">Cycle shuffle mode</string>
+	<string name="enqueue_current_album">Enqueue album</string>
+	<string name="enqueue_current_artist">Enqueue artist</string>
+	<string name="enqueue_current_genre">Enqueue genre</string>
+	<string name="empty_the_queue">Empty queue</string>
+	<string name="show_queue">Show queue</string>
+	<string name="hide_queue">Hide queue</string>
+	<string name="dequeue_rest">Dequeue rest</string>
+	<string name="toggle_controls">Toggle controls</string>
+	<string name="seek_10s_backward">Seek 10 seconds backward</string>
+	<string name="seek_10s_forward">Seek 10 seconds forward</string>
+	<string name="preferences_action_show_queue">Show queue</string>
+	<string name="preferences_action_clear_queue">Clear queue</string>
+	<string name="preferences_action_enqueue_current_album">Enqueue album</string>
+	<string name="preferences_action_enqueue_current_artist">Enqueue artist</string>
+	<string name="preferences_action_enqueue_current_genre">Enqueue genre</string>
+
+	<string name="filebrowser_start">Filebrowser home</string>
+	<string name="customize_filebrowser_start">Filebrowser starts at this directory</string>
+	<string name="select">Select</string>
+
+
+	<string name="autoplaylist_playcounts_title">Automatic playlist creation</string>
+	<string name="autoplaylist_playcounts_summary">Automatically create a</string>
+	<string name="autoplaylist_playcounts_fmt" formatted="false">%s \'Top %.0f\' playlist</string>
+	<string name="autoplaylist_playcounts_disabled">Do not create an automatic playlist</string>
+	<string name="autoplaylist_playcounts_name" formatted="false">Top %d</string>
+
+	<string name="permission_request_summary">Vanilla Music needs read permission to display your music library</string>
+	<string name="reverse_sort">Reverse sort</string>
+
+	<!-- SD Scanner -->
+	<string name="sdscan_help">Starting a rescan causes Vanilla Music to trigger a full rebuild of the media database.</string>
+	<string name="button_start">Start Rescan</string>
+	<string name="database_proc">Examined</string>
+	<string name="delete_proc">Removed reference to</string>
+	<string name="db_label">Will also check existing media database for updated or deleted files.</string>
+	<string name="db_error_failure">Encountered error reading media database, and might miss updated or deleted files or rescan up-to-date files.</string>
+	<string name="db_error_recovered">Encountered error reading media database, but recovered.</string>
+	<string name="db_error_retrying">Encountered error reading media database.  Retrying in 1 second...</string>
+	<string name="final_proc">Processed</string>
+	<string name="progress_completed_label">Completed, ready to start another scan.</string>
+	<string name="progress_error_bad_path_label">Scan failed: bad path specified for new file search.</string>
+	<string name="progress_filelist_label">Preparing initial list of files...</string>
+	<string name="progress_database_label">Querying database...</string>
+	<string name="progress_unstarted_label">Not yet started.</string>
+	<string name="skipping_folder_label">Encountered an error and skipping</string>
+	<string name="sdscanner">SD Scanner</string>
+</resources>

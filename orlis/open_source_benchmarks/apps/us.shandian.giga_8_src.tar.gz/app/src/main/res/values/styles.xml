@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Theme.App.Base" parent="Theme.AppCompat.Light.NoActionBar">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@color/light_gray</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="windowActionBar">false</item>
+		<item name="windowActionModeOverlay">true</item>
+	</style>
+	
+	<style name="Theme.App.Blue" parent="Theme.App.Base">
+		<item name="colorPrimary">@color/blue</item>
+		<item name="colorPrimaryDark">@color/blue_dark</item>
+		<item name="colorAccent">@color/blue</item>
+	</style>
+	
+	<style name="Theme.App.Orange" parent="Theme.App.Base">
+		<item name="colorPrimary">@color/orange</item>
+		<item name="colorPrimaryDark">@color/orange_dark</item>
+		<item name="colorAccent">@color/orange</item>
+	</style>
+	
+	<style name="Theme.App.BlueGray" parent="Theme.App.Base">
+		<item name="colorPrimary">@color/bluegray</item>
+		<item name="colorPrimaryDark">@color/bluegray_dark</item>
+		<item name="colorAccent">@color/bluegray</item>
+	</style>
+	
+	<style name="Theme.App.Cyan" parent="Theme.App.Base">
+		<item name="colorPrimary">@color/cyan</item>
+		<item name="colorPrimaryDark">@color/cyan_dark</item>
+		<item name="colorAccent">@color/cyan</item>
+	</style>
+	
+	<style name="Theme.App.Green" parent="Theme.App.Base">
+		<item name="colorPrimary">@color/green</item>
+		<item name="colorPrimaryDark">@color/green_dark</item>
+		<item name="colorAccent">@color/green</item>
+	</style>
+	
+	<style name="Theme.App.Brown" parent="Theme.App.Base">
+		<item name="colorPrimary">@color/brown</item>
+		<item name="colorPrimaryDark">@color/brown_dark</item>
+		<item name="colorAccent">@color/brown</item>
+	</style>
+</resources>

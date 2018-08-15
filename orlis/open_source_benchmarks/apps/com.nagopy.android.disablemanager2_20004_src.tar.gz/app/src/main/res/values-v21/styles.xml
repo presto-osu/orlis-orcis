@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:colorEdgeEffect">@color/primary_2</item>
+        <item name="android:colorControlHighlight">@color/primary_1</item>
+    </style>
+
+    <style name="AppTheme.ListView">
+        <item name="android:colorEdgeEffect">@color/primary_2</item>
+    </style>
+
+</resources>

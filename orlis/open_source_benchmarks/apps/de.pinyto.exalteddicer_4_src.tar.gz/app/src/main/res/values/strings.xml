@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Exalted Dicer</string>
+
+    <!-- Fragment Headings-->
+    <string name="title_pool">Pool</string>
+    <string name="title_damage">Damage</string>
+
+    <!-- Fragment Items-->
+    <string name="rollButton">Roll the Dice</string>
+    <string name="initSuccesses">0</string>
+    <string name="botch">Botch</string>
+
+    <!-- Menu Items-->
+    <string name="action_settings">Settings</string>
+
+    <!-- Settings Items-->
+    <string name="settings_title">Dicing Settings</string>
+    <string name="enable_shaking">Roll Dice by Shaking</string>
+    <string name="vibration_title">Enable Vibration Feedback</string>
+    <string name="version">Version</string>
+
+    <string name="about">About</string>
+    <string name="version_number">Version 2.2</string>
+    <string name="about_text">Exalted Dicer has been developed to support the RPG Exalted. It uses a default difficulty of seven and automatically calculates the number of successes.</string>
+
+
+    <!-- Tutorial Items-->
+    <string name="tutorial_title">Welcome to Exalted Dicer 2.2</string>
+    <string name="tutorial_text">The pool size can be set by the number pickers. To roll the dice either the smartphone has to shaked or the button has be to be pressed.</string>
+    <string name="tutorial_confirm">Okay</string>
+</resources>

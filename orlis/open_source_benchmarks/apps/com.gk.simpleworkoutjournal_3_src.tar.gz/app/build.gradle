@@ -1,0 +1,25 @@
+apply plugin: 'android'
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 18
+    buildToolsVersion '23.0.0'
+
+    defaultConfig {
+        applicationId "com.gk.simpleworkoutjournal"
+        minSdkVersion 14
+        targetSdkVersion 18
+    }
+
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.jjoe64:graphview:4.0.1'
+}

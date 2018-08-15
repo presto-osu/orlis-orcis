@@ -1,0 +1,1523 @@
+[
+    {
+        "outputFile": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 632
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 593
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 637,
+                    "endColumn": 90,
+                    "endOffset": 723
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 91,
+                        "endOffset": 143
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 728,
+                    "endColumn": 102,
+                    "endOffset": 826
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 149,
+                        "endColumn": 103,
+                        "endOffset": 248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 831,
+                    "endColumn": 102,
+                    "endOffset": 929
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 254,
+                        "endColumn": 103,
+                        "endOffset": 353
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 934,
+                    "endColumn": 104,
+                    "endOffset": 1034
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 359,
+                        "endColumn": 105,
+                        "endOffset": 460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1039,
+                    "endColumn": 106,
+                    "endOffset": 1141
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 466,
+                        "endColumn": 107,
+                        "endOffset": 569
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1146,
+                    "endColumn": 108,
+                    "endOffset": 1250
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 575,
+                        "endColumn": 109,
+                        "endOffset": 680
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1255,
+                    "endColumn": 108,
+                    "endOffset": 1359
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 686,
+                        "endColumn": 109,
+                        "endOffset": 791
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1364,
+                    "endColumn": 108,
+                    "endOffset": 1468
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 797,
+                        "endColumn": 109,
+                        "endOffset": 902
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1473,
+                    "endColumn": 108,
+                    "endOffset": 1577
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 908,
+                        "endColumn": 109,
+                        "endOffset": 1013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1582,
+                    "endColumn": 108,
+                    "endOffset": 1686
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1019,
+                        "endColumn": 109,
+                        "endOffset": 1124
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1691,
+                    "endColumn": 106,
+                    "endOffset": 1793
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1130,
+                        "endColumn": 107,
+                        "endOffset": 1233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1798,
+                    "endColumn": 102,
+                    "endOffset": 1896
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1239,
+                        "endColumn": 103,
+                        "endOffset": 1338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1901,
+                    "endColumn": 118,
+                    "endOffset": 2015
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1344,
+                        "endColumn": 119,
+                        "endOffset": 1459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2020,
+                    "endColumn": 142,
+                    "endOffset": 2158
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1465,
+                        "endColumn": 149,
+                        "endOffset": 1610
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2163,
+                    "endColumn": 142,
+                    "endOffset": 2301
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1616,
+                        "endColumn": 149,
+                        "endOffset": 1761
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2306,
+                    "endColumn": 104,
+                    "endOffset": 2406
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1767,
+                        "endColumn": 105,
+                        "endOffset": 1868
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2411,
+                    "endColumn": 120,
+                    "endOffset": 2527
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1874,
+                        "endColumn": 121,
+                        "endOffset": 1991
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2532,
+                    "endColumn": 100,
+                    "endOffset": 2628
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1997,
+                        "endColumn": 101,
+                        "endOffset": 2094
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2633,
+                    "endColumn": 135,
+                    "endOffset": 2764
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 4,
+                        "startOffset": 2100,
+                        "endColumn": 142,
+                        "endOffset": 2238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2769,
+                    "endColumn": 129,
+                    "endOffset": 2894
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 4,
+                        "startOffset": 2244,
+                        "endColumn": 136,
+                        "endOffset": 2376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2899,
+                    "endColumn": 102,
+                    "endOffset": 2997
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 4,
+                        "startOffset": 2382,
+                        "endColumn": 103,
+                        "endOffset": 2481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3002,
+                    "endColumn": 118,
+                    "endOffset": 3116
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 2487,
+                        "endColumn": 119,
+                        "endOffset": 2602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3121,
+                    "endColumn": 106,
+                    "endOffset": 3223
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 2608,
+                        "endColumn": 107,
+                        "endOffset": 2711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3228,
+                    "endColumn": 102,
+                    "endOffset": 3326
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 2717,
+                        "endColumn": 103,
+                        "endOffset": 2816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3331,
+                    "endColumn": 134,
+                    "endOffset": 3461
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 2822,
+                        "endColumn": 141,
+                        "endOffset": 2959
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3466,
+                    "endColumn": 142,
+                    "endOffset": 3604
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 2965,
+                        "endColumn": 149,
+                        "endOffset": 3110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3609,
+                    "endColumn": 158,
+                    "endOffset": 3763
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3116,
+                        "endColumn": 165,
+                        "endOffset": 3277
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3768,
+                    "endColumn": 136,
+                    "endOffset": 3900
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 4,
+                        "startOffset": 3283,
+                        "endColumn": 143,
+                        "endOffset": 3422
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3905,
+                    "endColumn": 152,
+                    "endOffset": 4053
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 4,
+                        "startOffset": 3428,
+                        "endColumn": 159,
+                        "endOffset": 3583
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4058,
+                    "endColumn": 144,
+                    "endOffset": 4198
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 4,
+                        "startOffset": 3589,
+                        "endColumn": 151,
+                        "endOffset": 3736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4203,
+                    "endColumn": 138,
+                    "endOffset": 4337
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3742,
+                        "endColumn": 145,
+                        "endOffset": 3883
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4342,
+                    "endColumn": 136,
+                    "endOffset": 4474
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3889,
+                        "endColumn": 143,
+                        "endOffset": 4028
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4479,
+                    "endColumn": 136,
+                    "endOffset": 4611
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 4034,
+                        "endColumn": 143,
+                        "endOffset": 4173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4616,
+                    "endColumn": 111,
+                    "endOffset": 4723
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 4179,
+                        "endColumn": 112,
+                        "endOffset": 4287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4728,
+                    "endColumn": 140,
+                    "endOffset": 4864
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 4,
+                        "startOffset": 4293,
+                        "endColumn": 147,
+                        "endOffset": 4436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4869,
+                    "endColumn": 134,
+                    "endOffset": 4999
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 4,
+                        "startOffset": 4442,
+                        "endColumn": 141,
+                        "endOffset": 4579
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 5004,
+                    "endColumn": 74,
+                    "endOffset": 5074
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 4,
+                        "startOffset": 4585,
+                        "endColumn": 75,
+                        "endOffset": 4656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 5079,
+                    "endColumn": 88,
+                    "endOffset": 5163
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 4,
+                        "startOffset": 4662,
+                        "endColumn": 89,
+                        "endOffset": 4747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 5168,
+                    "endColumn": 86,
+                    "endOffset": 5250
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 4753,
+                        "endColumn": 87,
+                        "endOffset": 4836
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 5255,
+                    "endColumn": 100,
+                    "endOffset": 5351
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 4,
+                        "startOffset": 4842,
+                        "endColumn": 101,
+                        "endOffset": 4939
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5356,
+                    "endColumn": 86,
+                    "endOffset": 5438
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 4,
+                        "startOffset": 4945,
+                        "endColumn": 93,
+                        "endOffset": 5034
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 5443,
+                    "endLine": 56,
+                    "endColumn": 12,
+                    "endOffset": 5635
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 85,
+                        "startColumn": 4,
+                        "startOffset": 5040,
+                        "endLine": 87,
+                        "endColumn": 12,
+                        "endOffset": 5232
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 5640,
+                    "endLine": 62,
+                    "endColumn": 12,
+                    "endOffset": 5907
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 89,
+                        "startColumn": 4,
+                        "startOffset": 5238,
+                        "endLine": 94,
+                        "endColumn": 12,
+                        "endOffset": 5505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 5912,
+                    "endLine": 69,
+                    "endColumn": 12,
+                    "endOffset": 6277
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 5511,
+                        "endLine": 102,
+                        "endColumn": 12,
+                        "endOffset": 5876
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 70,
+                    "startColumn": 4,
+                    "startOffset": 6282,
+                    "endLine": 75,
+                    "endColumn": 12,
+                    "endOffset": 6551
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 5882,
+                        "endLine": 109,
+                        "endColumn": 12,
+                        "endOffset": 6151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 76,
+                    "startColumn": 4,
+                    "startOffset": 6556,
+                    "endLine": 112,
+                    "endColumn": 12,
+                    "endOffset": 9124
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 6157,
+                        "endLine": 147,
+                        "endColumn": 12,
+                        "endOffset": 8725
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 9129,
+                    "endLine": 149,
+                    "endColumn": 12,
+                    "endOffset": 11712
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 8731,
+                        "endLine": 185,
+                        "endColumn": 12,
+                        "endOffset": 11314
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 11717,
+                    "endLine": 186,
+                    "endColumn": 12,
+                    "endOffset": 14297
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 187,
+                        "startColumn": 4,
+                        "startOffset": 11320,
+                        "endLine": 223,
+                        "endColumn": 12,
+                        "endOffset": 13900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 14302,
+                    "endLine": 223,
+                    "endColumn": 12,
+                    "endOffset": 16897
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 225,
+                        "startColumn": 4,
+                        "startOffset": 13906,
+                        "endLine": 261,
+                        "endColumn": 12,
+                        "endOffset": 16501
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 224,
+                    "startColumn": 4,
+                    "startOffset": 16902,
+                    "endColumn": 110,
+                    "endOffset": 17008
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 263,
+                        "startColumn": 4,
+                        "startOffset": 16507,
+                        "endColumn": 117,
+                        "endOffset": 16620
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 225,
+                    "startColumn": 4,
+                    "startOffset": 17013,
+                    "endColumn": 110,
+                    "endOffset": 17119
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 265,
+                        "startColumn": 4,
+                        "startOffset": 16626,
+                        "endColumn": 117,
+                        "endOffset": 16739
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 226,
+                    "startColumn": 4,
+                    "startOffset": 17124,
+                    "endColumn": 100,
+                    "endOffset": 17220
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 267,
+                        "startColumn": 4,
+                        "startOffset": 16745,
+                        "endColumn": 107,
+                        "endOffset": 16848
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 227,
+                    "startColumn": 4,
+                    "startOffset": 17225,
+                    "endColumn": 120,
+                    "endOffset": 17341
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 269,
+                        "startColumn": 4,
+                        "startOffset": 16854,
+                        "endColumn": 127,
+                        "endOffset": 16977
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 228,
+                    "startColumn": 4,
+                    "startOffset": 17346,
+                    "endColumn": 118,
+                    "endOffset": 17460
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 271,
+                        "startColumn": 4,
+                        "startOffset": 16983,
+                        "endColumn": 125,
+                        "endOffset": 17104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 229,
+                    "startColumn": 4,
+                    "startOffset": 17465,
+                    "endLine": 235,
+                    "endColumn": 12,
+                    "endOffset": 17858
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 273,
+                        "startColumn": 4,
+                        "startOffset": 17110,
+                        "endLine": 279,
+                        "endColumn": 12,
+                        "endOffset": 17503
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 236,
+                    "startColumn": 4,
+                    "startOffset": 17863,
+                    "endColumn": 116,
+                    "endOffset": 17975
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 281,
+                        "startColumn": 4,
+                        "startOffset": 17509,
+                        "endColumn": 117,
+                        "endOffset": 17622
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 17980,
+                    "endColumn": 116,
+                    "endOffset": 18092
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 283,
+                        "startColumn": 4,
+                        "startOffset": 17628,
+                        "endColumn": 117,
+                        "endOffset": 17741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 238,
+                    "startColumn": 4,
+                    "startOffset": 18097,
+                    "endColumn": 122,
+                    "endOffset": 18215
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 285,
+                        "startColumn": 4,
+                        "startOffset": 17747,
+                        "endColumn": 129,
+                        "endOffset": 17872
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 239,
+                    "startColumn": 4,
+                    "startOffset": 18220,
+                    "endColumn": 130,
+                    "endOffset": 18346
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 287,
+                        "startColumn": 4,
+                        "startOffset": 17878,
+                        "endColumn": 137,
+                        "endOffset": 18011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 240,
+                    "startColumn": 4,
+                    "startOffset": 18351,
+                    "endColumn": 122,
+                    "endOffset": 18469
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 289,
+                        "startColumn": 4,
+                        "startOffset": 18017,
+                        "endColumn": 129,
+                        "endOffset": 18142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 241,
+                    "startColumn": 4,
+                    "startOffset": 18474,
+                    "endColumn": 122,
+                    "endOffset": 18592
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 291,
+                        "startColumn": 4,
+                        "startOffset": 18148,
+                        "endColumn": 123,
+                        "endOffset": 18267
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 242,
+                    "startColumn": 4,
+                    "startOffset": 18597,
+                    "endColumn": 106,
+                    "endOffset": 18699
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 293,
+                        "startColumn": 4,
+                        "startOffset": 18273,
+                        "endColumn": 113,
+                        "endOffset": 18382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 243,
+                    "startColumn": 4,
+                    "startOffset": 18704,
+                    "endLine": 246,
+                    "endColumn": 12,
+                    "endOffset": 18900
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 295,
+                        "startColumn": 4,
+                        "startOffset": 18388,
+                        "endLine": 298,
+                        "endColumn": 12,
+                        "endOffset": 18584
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 18905,
+                    "endColumn": 106,
+                    "endOffset": 19007
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 300,
+                        "startColumn": 4,
+                        "startOffset": 18590,
+                        "endColumn": 113,
+                        "endOffset": 18699
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 248,
+                    "startColumn": 4,
+                    "startOffset": 19012,
+                    "endColumn": 110,
+                    "endOffset": 19118
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 302,
+                        "startColumn": 4,
+                        "startOffset": 18705,
+                        "endColumn": 111,
+                        "endOffset": 18812
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 249,
+                    "startColumn": 4,
+                    "startOffset": 19123,
+                    "endColumn": 97,
+                    "endOffset": 19216
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 304,
+                        "startColumn": 4,
+                        "startOffset": 18818,
+                        "endColumn": 98,
+                        "endOffset": 18912
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 250,
+                    "startColumn": 4,
+                    "startOffset": 19221,
+                    "endColumn": 94,
+                    "endOffset": 19311
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 306,
+                        "startColumn": 4,
+                        "startOffset": 18918,
+                        "endColumn": 101,
+                        "endOffset": 19015
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 251,
+                    "startColumn": 4,
+                    "startOffset": 19316,
+                    "endLine": 254,
+                    "endColumn": 12,
+                    "endOffset": 19506
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 308,
+                        "startColumn": 4,
+                        "startOffset": 19021,
+                        "endLine": 311,
+                        "endColumn": 12,
+                        "endOffset": 19211
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 255,
+                    "startColumn": 4,
+                    "startOffset": 19511,
+                    "endColumn": 98,
+                    "endOffset": 19605
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 313,
+                        "startColumn": 4,
+                        "startOffset": 19217,
+                        "endColumn": 105,
+                        "endOffset": 19318
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 256,
+                    "startColumn": 4,
+                    "startOffset": 19610,
+                    "endColumn": 120,
+                    "endOffset": 19726
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 315,
+                        "startColumn": 4,
+                        "startOffset": 19324,
+                        "endColumn": 127,
+                        "endOffset": 19447
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 19731,
+                    "endColumn": 90,
+                    "endOffset": 19817
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 317,
+                        "startColumn": 4,
+                        "startOffset": 19453,
+                        "endColumn": 91,
+                        "endOffset": 19540
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 19822,
+                    "endLine": 262,
+                    "endColumn": 12,
+                    "endOffset": 20126
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 319,
+                        "startColumn": 4,
+                        "startOffset": 19546,
+                        "endLine": 323,
+                        "endColumn": 12,
+                        "endOffset": 19850
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 263,
+                    "startColumn": 4,
+                    "startOffset": 20131,
+                    "endColumn": 126,
+                    "endOffset": 20253
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 325,
+                        "startColumn": 4,
+                        "startOffset": 19856,
+                        "endColumn": 133,
+                        "endOffset": 19985
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 264,
+                    "startColumn": 4,
+                    "startOffset": 20258,
+                    "endLine": 267,
+                    "endColumn": 12,
+                    "endOffset": 20449
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 327,
+                        "startColumn": 4,
+                        "startOffset": 19991,
+                        "endLine": 330,
+                        "endColumn": 12,
+                        "endOffset": 20182
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 268,
+                    "startColumn": 4,
+                    "startOffset": 20454,
+                    "endLine": 271,
+                    "endColumn": 12,
+                    "endOffset": 20659
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 332,
+                        "startColumn": 4,
+                        "startOffset": 20188,
+                        "endLine": 335,
+                        "endColumn": 12,
+                        "endOffset": 20393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 272,
+                    "startColumn": 4,
+                    "startOffset": 20664,
+                    "endLine": 275,
+                    "endColumn": 12,
+                    "endOffset": 20867
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 337,
+                        "startColumn": 4,
+                        "startOffset": 20399,
+                        "endLine": 340,
+                        "endColumn": 12,
+                        "endOffset": 20602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 276,
+                    "startColumn": 4,
+                    "startOffset": 20872,
+                    "endLine": 279,
+                    "endColumn": 12,
+                    "endOffset": 21089
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/co.loubo.icicle_4_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 342,
+                        "startColumn": 4,
+                        "startOffset": 20608,
+                        "endLine": 345,
+                        "endColumn": 12,
+                        "endOffset": 20825
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="1024"
+    height="500"
+    viewBox="0 0 2048 1000">
+    
+    <rect x="0" y="0" width="2048" height="1000"/>
+    
+    <g fill="#FFFFFF" font-size="250" text-anchor="middle">
+          <text x="1300" y="400">Movian</text>
+          <text x="1300" y="700">Remote</text>
+    </g>
+
+    <g fill="#236B8E" opacity="1.0">
+        <path id="t" d="M81 180 v306 l265 -153 z"/>
+        <use xlink:href="#t" x="0" y="306" />
+        <use xlink:href="#t" x="265" y="153" />
+    </g>
+
+    <g fill="#000000" opacity="0.7" transform="translate(-40,170) rotate(-26,265,306)">
+        
+        <rect width="200" height="330" x="206" y="141" />
+        <rect width="180" height="310" x="216" y="151" fill="#FFFFFF" />
+        
+        <g fill="#236B8E">
+            <circle id="c" cx="306" cy="280" r="15" />
+            <use xlink:href="#c" x="-35" y="0" />
+            <use xlink:href="#c" x="35" y="0" />
+            <use xlink:href="#c" x="0" y="-35" />
+            <use xlink:href="#c" x="0" y="35" />
+            <use xlink:href="#c" x="-35" y="75" />
+            <use xlink:href="#c" x="0" y="75" />
+            <use xlink:href="#c" x="35" y="75" />
+        </g>
+        
+    </g>
+
+</svg>

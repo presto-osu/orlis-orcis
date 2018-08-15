@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themeNames">
+        <item>روشن</item>
+        <item>تاریک</item>
+    </string-array>
+
+    <string-array name="prayMethodsNames">
+        <item>شیعهٔ دوازده امامی، انجمن لوا، قم</item>
+        <item>اتّحادیهٔ جهانی اسلام، عربستان سعودی</item>
+        <item>جامعهٔ اسلامی آمریکای شمالی</item>
+        <item>مرجع عمومی تحقیقات مصر</item>
+        <item>دانشگاه امّ‌القری، مکه</item>
+        <item>دانشگاه علوم اسلامی، کراچی</item>
+        <item>انجمن ژئوفیزیک، دانشگاه تهران</item>
+    </string-array>
+
+    <string-array name="colorNames">
+        <item>سپید</item>
+        <item>سرخ</item>
+        <item>سبز</item>
+        <item>سیاه</item>
+    </string-array>
+
+    <string-array name="prayerTimeNames">
+        <item>صبح</item>
+        <item>ظهر</item>
+        <item>عصر</item>
+        <item>مغرب</item>
+        <item>عشاء</item>
+    </string-array>
+
+    <string-array name="islamicOffsetNames">
+        <item>-۲</item>
+        <item>-۱</item>
+        <item>۰</item>
+        <item>+۱</item>
+        <item>+۲</item>
+    </string-array>
+
+    <string-array name="drawerTitles">
+        <item>تقویم</item>
+        <item>تبدیل تاریخ</item>
+        <item>قطب‌نما</item>
+        <item>تنظیمات</item>
+        <item>درباره</item>
+        <item>خروج</item>
+    </string-array>
+
+    <string-array name="drawerSubtitles">
+        <item></item>
+        <item></item>
+        <item>و قبله‌نما، در صورت تنظیم مکان در تنظیمات</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>

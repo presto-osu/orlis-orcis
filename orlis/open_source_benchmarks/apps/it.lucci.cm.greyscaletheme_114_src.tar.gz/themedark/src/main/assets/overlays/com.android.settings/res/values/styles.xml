@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SettingsBase" parent="@android:style/Theme.Material.Settings">
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+    </style>
+
+    <style name="TextAppearance.CategoryTitle"
+        parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textColor">@color/category_title_color</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

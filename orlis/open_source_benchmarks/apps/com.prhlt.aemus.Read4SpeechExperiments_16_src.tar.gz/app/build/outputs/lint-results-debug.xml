@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 26.1.1">
+
+    <issue
+        id="CommitPrefEdits"
+        severity="Warning"
+        message="Consider using `apply()` instead; `commit` writes its data to persistent storage immediately, whereas `apply` will handle it in the background"
+        category="Correctness"
+        priority="6"
+        summary="Missing `commit()` on `SharedPreference` editor"
+        explanation="After calling `edit()` on a `SharedPreference`, you must call `commit()` or `apply()` on the editor to save the results."
+        errorLine1="                editor.commit();"
+        errorLine2="                ~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java"
+            line="235"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        severity="Warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Implied default locale in case conversion"
+        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` *without specifying an explicit locale* is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is *not* `I`.
+
+If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
+        url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        errorLine1="                            sentencesID.add(String.format(&quot;%s_test_%s_%s&quot;, name, String.format(&quot;%02d&quot;, l), Secure.getString(getApplicationContext().getContentResolver(), Secure.ANDROID_ID)));"
+        errorLine2="                                                                                 ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java"
+            line="444"
+            column="82"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        severity="Warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Implied default locale in case conversion"
+        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` *without specifying an explicit locale* is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is *not* `I`.
+
+If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
+        url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        errorLine1="            progress.setText(String.format(&quot;%s%%&quot;, String.format(&quot;%.2f&quot;, getPercentDone())));"
+        errorLine2="                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java"
+            line="788"
+            column="52"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        severity="Warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Implied default locale in case conversion"
+        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` *without specifying an explicit locale* is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is *not* `I`.
+
+If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
+        url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        errorLine1="            sentenceNumber.setText(String.format(&quot;%s %s/%d&quot;, getResources().getString(R.string.sentence), Integer.toString(getArguments().getInt(ARG_SENTENCE_NUMBER)), sentences.size()));"
+        errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java"
+            line="789"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        severity="Warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Implied default locale in case conversion"
+        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` *without specifying an explicit locale* is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is *not* `I`.
+
+If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
+        url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        errorLine1="            progress.setText(String.format(&quot;%s%%&quot;, String.format(&quot;%.2f&quot;, getPercentDone())));"
+        errorLine2="                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java"
+            line="1028"
+            column="52"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        severity="Warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead"
+        category="Correctness"
+        priority="6"
+        summary="Implied default locale in case conversion"
+        explanation="Calling `String#toLowerCase()` or `#toUpperCase()` *without specifying an explicit locale* is a common source of bugs. The reason for that is that those methods will use the current locale on the user&apos;s device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for `i` is *not* `I`.
+
+If you want the methods to just perform ASCII replacement, for example to convert an enum name, call `String#toUpperCase(Locale.US)` instead. If you really want to use the current locale, call `String#toUpperCase(Locale.getDefault())` instead."
+        url="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        urls="http://developer.android.com/reference/java/util/Locale.html#default_locale"
+        errorLine1="            sentenceNumber.setText(String.format(&quot;%s %s/%d&quot;, getResources().getString(R.string.sentence), Integer.toString(this.getArguments().getInt(ARG_SENTENCE_NUMBER)), sentences.size()));"
+        errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java"
+            line="1029"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        severity="Warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details."
+        category="Correctness"
+        priority="6"
+        summary="Target SDK attribute is not targeting latest version"
+        explanation="When your application runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.
+
+To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        url="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        urls="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
+        errorLine1="        targetSdkVersion 20"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/build.gradle"
+            line="11"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of com.android.support:support-v4 than 20.0.0 is available: 25.3.1"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    compile &apos;com.android.support:support-v4:20.0.0&apos;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/build.gradle"
+            line="24"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        severity="Warning"
+        message="A newer version of com.android.support:appcompat-v7 than 20.0.0 is available: 25.3.1"
+        category="Correctness"
+        priority="4"
+        summary="Obsolete Gradle Dependency"
+        explanation="This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find."
+        errorLine1="    compile &apos;com.android.support:appcompat-v7:20.0.0&apos;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/build.gradle"
+            line="25"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="Typos"
+        severity="Warning"
+        message="&quot;Ok&quot; is usually capitalized as &quot;OK&quot;"
+        category="Correctness:Messages"
+        priority="7"
+        summary="Spelling error"
+        explanation="This check looks through the string definitions, and if it finds any words that look like likely misspellings, they are flagged."
+        errorLine1="    &lt;string name=&quot;ok&quot;>Ok&lt;/string>"
+        errorLine2="                      ^"
+        quickfix="studio,adt">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="6"
+            column="23"/>
+    </issue>
+
+    <issue
+        id="Typos"
+        severity="Warning"
+        message="&quot;aplication&quot; is a common misspelling; did you mean &quot;application&quot; ?"
+        category="Correctness:Messages"
+        priority="7"
+        summary="Spelling error"
+        explanation="This check looks through the string definitions, and if it finds any words that look like likely misspellings, they are flagged."
+        errorLine1="    &lt;string name=&quot;instructions&quot;>Buttons:&amp;lt;br /&amp;gt;\&amp;quot;Record\&amp;quot;: records the audio.&amp;lt;br /&amp;gt;\&amp;quot;Play\&amp;quot;: plays the sentence audio file recorded.&amp;lt;br /&amp;gt;\&amp;quot;Menu/Clean...\&amp;quot;: delete all files recorded by this aplication.&amp;lt;br /&amp;gt;\&amp;quot;Menu/Send...\&amp;quot;: send all files recorded.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Background color:&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color=&quot;#080862&quot;>Blue&lt;/font>&lt;/b>]]>\&amp;quot;: the sentence has not been recorded.&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color=&quot;#086208&quot;>Green&lt;/font>&lt;/b>]]>\&amp;quot;: the sentence has already been recorded.&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color=&quot;#620808&quot;>Red&lt;/font>&lt;/b>]]>\&amp;quot;: the sentence is being recorded.&lt;/string>"
+        errorLine2="                                                                                                                                                                                              ^"
+        quickfix="studio,adt">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="14"
+            column="191"/>
+    </issue>
+
+    <issue
+        id="Typos"
+        severity="Warning"
+        message="&quot;adress&quot; is a common misspelling; did you mean &quot;address&quot; ?"
+        category="Correctness:Messages"
+        priority="7"
+        summary="Spelling error"
+        explanation="This check looks through the string definitions, and if it finds any words that look like likely misspellings, they are flagged."
+        errorLine1="    &lt;string name=&quot;serverIPSummary&quot;>Server IP adress&lt;/string>"
+        errorLine2="                                             ^"
+        quickfix="studio,adt">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="46"
+            column="46"/>
+    </issue>
+
+    <issue
+        id="HardwareIds"
+        severity="Warning"
+        message="Using `getString` to get device identifiers is not recommended."
+        category="Security"
+        priority="6"
+        summary="Hardware Id Usage"
+        explanation="Using device identifiers is not recommended other than for high value fraud prevention and advanced telephony use-cases. For advertising use-cases, use `AdvertisingIdClient$Info#getId` and for analytics, use `InstanceId#getId`."
+        url="https://developer.android.com/training/articles/user-data-ids.html"
+        urls="https://developer.android.com/training/articles/user-data-ids.html"
+        errorLine1="        ID = Secure.getString(getApplicationContext().getContentResolver(), Secure.ANDROID_ID);"
+        errorLine2="             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java"
+            line="350"
+            column="14"/>
+    </issue>
+
+    <issue
+        id="HardwareIds"
+        severity="Warning"
+        message="Using `getString` to get device identifiers is not recommended."
+        category="Security"
+        priority="6"
+        summary="Hardware Id Usage"
+        explanation="Using device identifiers is not recommended other than for high value fraud prevention and advanced telephony use-cases. For advertising use-cases, use `AdvertisingIdClient$Info#getId` and for analytics, use `InstanceId#getId`."
+        url="https://developer.android.com/training/articles/user-data-ids.html"
+        urls="https://developer.android.com/training/articles/user-data-ids.html"
+        errorLine1="                            sentencesID.add(String.format(&quot;%s_test_%s_%s&quot;, name, String.format(&quot;%02d&quot;, l), Secure.getString(getApplicationContext().getContentResolver(), Secure.ANDROID_ID)));"
+        errorLine2="                                                                                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java"
+            line="444"
+            column="108"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        severity="Warning"
+        message="Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)"
+        category="Performance"
+        priority="6"
+        summary="Static Field Leaks"
+        explanation="A static field will leak contexts."
+        errorLine1="    private static Context context;"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java"
+            line="115"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="HandlerLeak"
+        severity="Warning"
+        message="This Handler class should be static or leaks might occur (anonymous android.os.Handler)"
+        category="Performance"
+        priority="4"
+        summary="Handler reference leaks"
+        explanation="Since this Handler is declared as an inner class, it may prevent the outer class from being garbage collected. If the Handler is using a Looper or MessageQueue for a thread other than the main thread, then there is no issue. If the Handler is using the Looper or MessageQueue of the main thread, you need to fix your Handler declaration, as follows: Declare the Handler as a static class; In the outer class, instantiate a WeakReference to the outer class and pass this object to your Handler when you instantiate the Handler; Make all references to members of the outer class using the WeakReference object."
+        errorLine1="            handler = new Handler() {"
+        errorLine2="                          ~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java"
+            line="690"
+            column="27"/>
+    </issue>
+
+    <issue
+        id="InefficientWeight"
+        severity="Warning"
+        message="Use a `layout_width` of `0dp` instead of `250dp` for better performance"
+        category="Performance"
+        priority="3"
+        summary="Inefficient layout weight"
+        explanation="When only a single widget in a LinearLayout defines a weight, it is more efficient to assign a width/height of `0dp` to it since it will absorb all the remaining space anyway. With a declared width/height of `0dp` it does not have to measure its own size first."
+        errorLine1="                    android:layout_width=&quot;250dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio,adt">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/layout-land/fragment_main.xml"
+            line="75"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="InefficientWeight"
+        severity="Warning"
+        message="Use a `layout_width` of `0dp` instead of `210dp` for better performance"
+        category="Performance"
+        priority="3"
+        summary="Inefficient layout weight"
+        explanation="When only a single widget in a LinearLayout defines a weight, it is more efficient to assign a width/height of `0dp` to it since it will absorb all the remaining space anyway. With a declared width/height of `0dp` it does not have to measure its own size first."
+        errorLine1="                    android:layout_width=&quot;210dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio,adt">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/layout-port/fragment_main.xml"
+            line="100"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.black` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;color name=&quot;black&quot;>#000000&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/colors.xml"
+            line="6"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.color.white` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;color name=&quot;white&quot;>#FFFFFF&lt;/color>"
+        errorLine2="           ~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/colors.xml"
+            line="7"
+            column="12"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.play_stop_pressed` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds.">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/play_stop_pressed.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.record_stop_pressed` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds.">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/record_stop_pressed.png"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.drawable.recstopbutton` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="&lt;selector xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/recstopbutton.xml"
+            line="2"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.send` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;send&quot;>Enviar&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="4"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="4"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="4"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.next` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;next&quot;>Siguiente&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="11"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="11"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="11"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.previous` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;previous&quot;>Anterior&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="12"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="12"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="12"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.menu` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;menu&quot;>Menú&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="26"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="26"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="26"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.audioPathSummary` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;audioPathSummary&quot;>Directorio en el que se guardarán los ficheros de audio.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="30"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="30"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="30"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.audioPathTitle` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;audioPathTitle&quot;>Directorio para el audio&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="31"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="31"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="31"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.notSentencesFile` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;notSentencesFile&quot;>El fichero de frases indicado no existe: &lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="40"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="40"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="40"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.settingsData` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;settingsData&quot;>Origen de los datos&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="47"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="50"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="50"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.serverIPSummary` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;serverIPSummary&quot;>Dirección IP del servidor&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="48"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="46"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="46"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.serverIPTitle` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;serverIPTitle&quot;>IP del servidor&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="49"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="47"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="47"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.serverPortSummary` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;serverPortSummary&quot;>Puerto de escucha del servicio&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="50"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="48"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="48"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.serverPortTitle` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;serverPortTitle&quot;>Puerto&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="51"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="49"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="49"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.optionalSentencesSummary` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;optionalSentencesSummary&quot;>Ruta absoluta al fichero zip que contiene el fichero de texto y/o las imágenes de las frases a leer.&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="53"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="53"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="53"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.optionalSentencesTitle` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;optionalSentencesTitle&quot;>Fichero zip con las frases&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values/strings.xml"
+            line="54"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="54"
+            column="13"/>
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-es/strings.xml"
+            line="54"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="TypographyEllipsis"
+        severity="Warning"
+        message="Replace &quot;...&quot; with ellipsis character (…, &amp;#8230;) ?"
+        category="Usability:Typography"
+        priority="5"
+        summary="Ellipsis string can be replaced with ellipsis character"
+        explanation="You can replace the string &quot;...&quot; with a dedicated ellipsis character, ellipsis character (…, &amp;#8230;). This can help make the text more readable."
+        url="http://en.wikipedia.org/wiki/Ellipsis"
+        urls="http://en.wikipedia.org/wiki/Ellipsis"
+        errorLine1="    &lt;string name=&quot;instructions&quot;>Buttons:&amp;lt;br /&amp;gt;\&amp;quot;Record\&amp;quot;: records the audio.&amp;lt;br /&amp;gt;\&amp;quot;Play\&amp;quot;: plays the sentence audio file recorded.&amp;lt;br /&amp;gt;\&amp;quot;Menu/Clean...\&amp;quot;: delete all files recorded by this aplication.&amp;lt;br /&amp;gt;\&amp;quot;Menu/Send...\&amp;quot;: send all files recorded.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Background color:&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color=&quot;#080862&quot;>Blue&lt;/font>&lt;/b>]]>\&amp;quot;: the sentence has not been recorded.&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color=&quot;#086208&quot;>Green&lt;/font>&lt;/b>]]>\&amp;quot;: the sentence has already been recorded.&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color=&quot;#620808&quot;>Red&lt;/font>&lt;/b>]]>\&amp;quot;: the sentence is being recorded.&lt;/string>"
+        errorLine2="                                ^"
+        quickfix="studio,adt">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="14"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/ic_launcher.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/ic_launcher.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/play.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/play.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/play_disabled.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/play_disabled.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/play_pressed.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/play_pressed.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/play_stop.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/play_stop.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/play_stop_pressed.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/play_stop_pressed.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/record.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/record.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/record_disabled.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/record_disabled.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/record_pressed.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/record_pressed.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/record_stop.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/record_stop.png"/>
+    </issue>
+
+    <issue
+        id="IconLocation"
+        severity="Warning"
+        message="Found bitmap drawable `res/drawable/record_stop_pressed.png` in densityless folder"
+        category="Usability:Icons"
+        priority="5"
+        summary="Image defined in density-independent drawable folder"
+        explanation="The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to `drawable-mdpi` and consider providing higher and lower resolution versions in `drawable-ldpi`, `drawable-hdpi` and `drawable-xhdpi`. If the icon *really* is density independent (for example a solid color) you can place it in `drawable-nodpi`."
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/drawable/record_stop_pressed.png"/>
+    </issue>
+
+    <issue
+        id="IconMissingDensityFolder"
+        severity="Warning"
+        message="Missing density variation folders in `src/main/res`: drawable-xxxhdpi"
+        category="Usability:Icons"
+        priority="3"
+        summary="Missing density folder"
+        explanation="Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra-high, extra-extra-high). This lint check identifies folders which are missing, such as `drawable-hdpi`.
+
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable `ANDROID_LINT_INCLUDE_LDPI=true`. For more information on current density usage, see http://developer.android.com/resources/dashboard/screens.html"
+        url="http://developer.android.com/guide/practices/screens_support.html"
+        urls="http://developer.android.com/guide/practices/screens_support.html">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res"/>
+    </issue>
+
+    <issue
+        id="GoogleAppIndexingWarning"
+        severity="Warning"
+        message="App is not indexable by Google Search; consider adding at least one Activity with an ACTION-VIEW intent filter. See issue explanation for more details."
+        category="Usability"
+        priority="5"
+        summary="Missing support for Google App Indexing"
+        explanation="Adds URLs to get your app into the Google index, to get installs and traffic to your app from Google Search."
+        url="https://g.co/AppIndexing/AndroidStudio"
+        urls="https://g.co/AppIndexing/AndroidStudio"
+        errorLine1="    &lt;application"
+        errorLine2="    ^"
+        quickfix="studio">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml"
+            line="13"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ButtonCase"
+        severity="Warning"
+        message="The standard Android way to capitalize Ok is &quot;OK&quot; (tip: use `@android:string/ok` instead)"
+        category="Usability"
+        priority="2"
+        summary="Cancel/OK dialog button capitalization"
+        explanation="The standard capitalization for OK/Cancel dialogs is &quot;OK&quot; and &quot;Cancel&quot;. To ensure that your dialogs use the standard strings, you can use the resource strings @android:string/ok and @android:string/cancel."
+        errorLine1="    &lt;string name=&quot;ok&quot;>Ok&lt;/string>"
+        errorLine2="                      ^">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/values-en/strings.xml"
+            line="6"
+            column="23"/>
+    </issue>
+
+    <issue
+        id="ClickableViewAccessibility"
+        severity="Warning"
+        message="`com/prhlt/aemus/Read4SpeechExperiments/MainActivity$PlaceholderFragment$2#onTouch` should call `View#performClick` when a click is detected"
+        category="Accessibility"
+        priority="6"
+        summary="Accessibility in Custom Views"
+        explanation="If a `View` that overrides `onTouchEvent` or uses an `OnTouchListener` does not also implement `performClick` and call it when clicks are detected, the `View` may not handle accessibility actions properly. Logic handling the click actions should ideally be placed in `View#performClick` as some accessibility services invoke `performClick` when a click action should occur."
+        errorLine1="                public boolean onTouch(View v, MotionEvent event) {"
+        errorLine2="                               ~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java"
+            line="770"
+            column="32"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.
+
+Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.
+
+Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="    &lt;ImageView"
+        errorLine2="    ^"
+        quickfix="studio,adt">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/layout-port/fragment_main.xml"
+            line="21"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.
+
+Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.
+
+Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="    &lt;ImageView"
+        errorLine2="    ^"
+        quickfix="studio,adt">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/layout-land/fragment_main.xml"
+            line="22"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.
+
+Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.
+
+Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                &lt;ImageButton"
+        errorLine2="                ^"
+        quickfix="studio,adt">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/layout-port/fragment_main.xml"
+            line="72"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.
+
+Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.
+
+Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                &lt;ImageButton"
+        errorLine2="                ^"
+        quickfix="studio,adt">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/layout-port/fragment_main.xml"
+            line="81"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.
+
+Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.
+
+Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                &lt;ImageButton"
+        errorLine2="                ^"
+        quickfix="studio,adt">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/layout-land/fragment_main.xml"
+            line="91"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="ContentDescription"
+        severity="Warning"
+        message="[Accessibility] Missing `contentDescription` attribute on image"
+        category="Accessibility"
+        priority="3"
+        summary="Image without `contentDescription`"
+        explanation="Non-textual widgets like ImageViews and ImageButtons should use the `contentDescription` attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.
+
+Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore=&quot;ContentDescription&quot; attribute.
+
+Note that for text fields, you should not set both the `hint` and the `contentDescription` attributes since the hint will never be shown. Just set the `hint`. See http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases."
+        errorLine1="                &lt;ImageButton"
+        errorLine2="                ^"
+        quickfix="studio,adt">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/layout-land/fragment_main.xml"
+            line="102"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:layout_marginEnd=&quot;30dp&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.
+
+For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.
+
+(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="                    android:layout_marginRight=&quot;30dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/layout-port/fragment_main.xml"
+            line="76"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:layout_marginStart=&quot;10dp&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.
+
+For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.
+
+(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="                    android:layout_marginLeft=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/layout-land/fragment_main.xml"
+            line="79"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:layout_marginStart=&quot;30dp&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.
+
+For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.
+
+(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="                    android:layout_marginLeft=&quot;30dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/layout-port/fragment_main.xml"
+            line="85"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="RtlHardcoded"
+        severity="Warning"
+        message="Consider adding `android:layout_marginEnd=&quot;10dp&quot;` to better support right-to-left layouts"
+        category="Internationalization:Bidirectional Text"
+        priority="5"
+        summary="Using left/right instead of start/end attributes"
+        explanation="Using `Gravity#LEFT` and `Gravity#RIGHT` can lead to problems when a layout is rendered in locales where text flows from right to left. Use `Gravity#START` and `Gravity#END` instead. Similarly, in XML `gravity` and `layout_gravity` attributes, use `start` rather than `left`.
+
+For XML attributes such as paddingLeft and `layout_marginLeft`, use `paddingStart` and `layout_marginStart`. *NOTE*: If your `minSdkVersion` is less than 17, you should add *both* the older left/right attributes *as well as* the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.
+
+(Note: For `Gravity#LEFT` and `Gravity#START`, you can use these constants even when targeting older platforms, because the `start` bitmask is a superset of the `left` bitmask. Therefore, you can use `gravity=&quot;start&quot;` rather than `gravity=&quot;left|start&quot;`.)"
+        errorLine1="                    android:layout_marginRight=&quot;10dp&quot;"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/res/layout-port/fragment_main.xml"
+            line="104"
+            column="21"/>
+    </issue>
+
+</issues>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GigaGet</string>
+    <string name="hello_world">Hello world!</string>
+	
+	<!-- Missions -->
+	<string name="start">Start</string>
+	<string name="pause">Pause</string>
+	<string name="view">View</string>
+	<string name="delete">Delete</string>
+	<string name="checksum">Checksum</string>
+	
+	<!-- Info -->
+	<string name="url">Url</string>
+	<string name="path">Path</string>
+	<string name="create_date">Created on</string>
+	<string name="total_size">Total size</string>
+	<string name="downloaded_size">Downloaded size</string>
+	<string name="speed">Speed</string>
+	<string name="blocks_count">Blocks count</string>
+	<string name="threads_count">Threads count</string>
+	
+	<!-- Fragment -->
+	<string name="add">New mission</string>
+	<string name="finish">Okay</string>
+	<string name="switch_mode">Switch between list and grid</string>
+	<string name="settings">Settings</string>
+	
+	<!-- Browser -->
+	<string name="browser">Simple Browser</string>
+	<string name="detector">Video detector</string>
+	
+	<!-- Settings -->
+	<string name="about">About</string>
+	
+	<!-- Msg -->
+	<string name="msg_url">Download URL</string>
+	<string name="msg_name">File name</string>
+	<string name="msg_threads">Threads</string>
+	<string name="msg_fetch_filename">Fetch file name</string>
+	<string name="msg_error">Error</string>
+	<string name="msg_server_unsupported">Server unsupported</string>
+	<string name="msg_enter_url">Enter url here</string>
+	<string name="msg_no_video">Oops, no video detected</string>
+	<string name="msg_exists">File already exists</string>
+	<string name="msg_url_malform">Malformed URL or Internet not available</string>
+	<string name="msg_running">GigaGet is running</string>
+	<string name="msg_running_detail">Click for details</string>
+	<string name="msg_wait">Please wait...</string>
+	<string name="msg_copied">Copied to clipboard.</string>
+	<string name="msg_close">Close</string>
+	<string name="change_download_dir">Download directory</string>
+	<string name="no_available_dir">Please select an available download directory.</string>
+	<string name="need_restart">Will not take effect before you restart the app.</string>
+	<string name="open_with_gigaget">Open with GigaGet</string>
+	
+	<!-- Checksum types -->
+	<string name="md5" translatable="false">MD5</string>
+	<string name="sha1" translatable="false">SHA1</string>
+	
+</resources>

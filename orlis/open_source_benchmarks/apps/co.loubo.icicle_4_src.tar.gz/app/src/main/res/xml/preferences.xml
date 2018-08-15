@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference 
+        android:defaultValue="false" 
+        android:title="@string/pref_wifi_only_title" 
+        android:summary="@string/pref_wifi_only_desc" android:key="pref_key_wifi_only"/>
+    <Preference android:title="@string/pref_nodes_title"
+                android:key="pref_key_nodes"/>
+    <Preference android:title="@string/pref_friend_nodes_title"
+        android:key="pref_key_friend_nodes"/>
+    <ListPreference android:key="pref_key_refresh_rate" android:entries="@array/refreshFrequencyArray" android:entryValues="@array/refreshFrequencyValues" android:title="@string/refresh_rate"/>
+
+</PreferenceScreen>

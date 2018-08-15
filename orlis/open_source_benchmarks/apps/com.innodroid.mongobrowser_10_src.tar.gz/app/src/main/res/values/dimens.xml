@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="standard_padding">16dp</dimen>
+    <dimen name="standard_padding_small">12dp</dimen>
+    <dimen name="standard_padding_xsmall">8dp</dimen>
+    <dimen name="standard_padding_tiny">2dp</dimen>
+
+    <dimen name="icon_size_small">38dp</dimen>
+    <dimen name="icon_size_large">80dp</dimen>
+
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+    <dimen name="fab_compat_margin">0dp</dimen>
+</resources>
+

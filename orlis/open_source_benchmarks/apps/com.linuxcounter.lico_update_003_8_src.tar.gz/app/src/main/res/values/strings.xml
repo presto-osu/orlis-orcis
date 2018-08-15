@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Linux Counter Updater</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hello1">Hello Linux User!</string>
+    <string name="start1">This app is the official <i>Linux Counter Updater</i> app of <b>The Linux Counter Project</b>. It will read all needed, system related information from your smartphone and send this information to <b>The Linux Counter Project</b> (https://www.linuxcounter.net).</string>
+    <string name="start2">Please continue by touching the button below. You then have to enter (or check) your Linux Counter data...</string>
+    <string name="button1">Save your machine_id and your machine_updatekey\nand get system information</string>
+    <string name="button2">Try to send information...</string>
+    <string name="button0">Check your machine data...</string>
+    <string name="enter_counternum">Please enter your machine_id here:</string>
+    <string name="enter_machinenum">Please also enter your machine_updatekey here:</string>
+    <string name="showdata">The following data will be sent to the Linux Counter if you decide to continue. Please check the data carefully and then confirm sending this data by touching the button below (you may need to scroll).</string>
+    <string name="send_data">Send data...</string>
+    <string name="sending">Data sent!</string>
+    <string name="local_service_started">lico-update started!</string>
+    <string name="apikeytext">First you have to register an account for The Linux Counter Project on https://www.linuxcounter.net. Then you need to log into your account and go to "Account" -> "Create new machine". You don\'t need to enter anything in the fields there, just only hit "Save". After that you see the machine_id and the machine_updatekey in your profile at the bottom in the list of your machines.</string>
+
+</resources>

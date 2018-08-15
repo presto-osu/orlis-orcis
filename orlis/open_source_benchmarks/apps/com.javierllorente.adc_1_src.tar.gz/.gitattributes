@@ -1,0 +1,2 @@
+# Keep Windows line endings for batch scripts
+*.bat -crlf

@@ -1,0 +1,93 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_reply"
+        android:orderInCategory="100"
+        android:title="Reply"
+        android:icon="@drawable/ic_reply_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:visible="false"/>
+
+    <item android:id="@+id/action_scroll_bottom"
+        android:orderInCategory="110"
+        android:title="Go to Bottom"
+        android:icon="@drawable/ic_arrow_down_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:visible="false"/>
+
+    <item android:id="@+id/action_scroll_top"
+        android:orderInCategory="115"
+        android:title="Go to Top"
+        android:icon="@drawable/ic_arrow_upward_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="120"
+        android:title="Search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/action_add_watchlist"
+        android:orderInCategory="130"
+        android:title="Add To Watchlist"
+        android:icon="@drawable/ic_bookmark_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:visible="false"/>
+
+    <item android:id="@+id/action_refresh"
+        android:orderInCategory="140"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:visible="false"/>
+
+    <item android:id="@+id/action_gallery"
+        android:orderInCategory="150"
+        android:title="Gallery"
+        android:icon="@drawable/ic_view_module_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/action_menu_layout"
+        android:orderInCategory="160"
+        android:title="Choose Layout"
+        app:showAsAction="never"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/action_layout_vertical"
+                android:title="Vertical Layout" />
+            <item
+                android:id="@+id/action_layout_horizontal"
+                android:title="Horizontal Layout" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_save_all_images"
+        android:orderInCategory="170"
+        android:title="Save All Images"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:orderInCategory="180"
+        android:title="Share"
+        android:icon="@drawable/ic_share_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider"
+        android:visible="false"/>
+
+    <item android:id="@+id/action_external_browser"
+        android:orderInCategory="190"
+        android:title="Open In External Browser"
+        app:showAsAction="never"
+        android:visible="false"/>
+</menu>

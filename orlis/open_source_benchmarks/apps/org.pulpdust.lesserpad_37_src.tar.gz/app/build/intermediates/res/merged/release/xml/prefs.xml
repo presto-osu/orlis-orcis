@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/pref_cat_app">
+        <ListPreference android:key="font_size"
+            android:title="@string/pref_font"
+            android:entries="@array/font_labels"
+            android:entryValues="@array/font_values"
+            android:defaultValue="18.0f"
+            android:dialogTitle="@string/pref_font" />
+        <ListPreference android:entries="@array/cursor_labels"
+             android:summary="@string/pref_cur_desc" 
+             android:title="@string/pref_cur" 
+             android:defaultValue="1" 
+             android:dialogTitle="@string/pref_cur" 
+             android:entryValues="@array/cursor_values" 
+             android:key="cur_pos"/>
+        <EditTextPreference android:key="default_dir"
+             android:title="@string/pref_dir"
+             android:summary="@string/pref_dir_desc"
+             android:dialogTitle="@string/pref_dir"
+             android:defaultValue="@string/app_default_dir"/>
+        <ListPreference android:key="look_style"
+            android:title="@string/pref_look"
+            android:summary="@string/pref_look_desc"
+            android:entries="@array/look_labels"
+            android:entryValues="@array/look_values"
+            android:defaultValue="0"
+            android:dialogTitle="@string/pref_look" />
+        <PreferenceScreen android:title="@string/pref_cat_advance">
+                <CheckBoxPreference android:title="@string/pref_ext"
+                    android:key="hide_ext"
+                    android:defaultValue="false" />
+                <CheckBoxPreference android:title="@string/pref_specify_path"
+                    android:key="spec_path"
+                    android:summary="@string/pref_specify_path_desc"
+                    android:defaultValue="false" />
+                <EditTextPreference android:title="@string/pref_path_to"
+                    android:key="path_to"
+                    android:dialogTitle="@string/pref_path_to"
+                    android:dependency="spec_path" />
+                <CheckBoxPreference android:title="@string/pref_not_absplit"
+                    android:summary="@string/pref_not_absplit_desc"
+                    android:key="abar_not_split"
+                    android:defaultValue="false" />
+                <CheckBoxPreference android:title="@string/pref_dontsave"
+                    android:key="show_close_wo_save"
+                    android:defaultValue="false" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_cat_about">
+        <Preference
+            android:selectable="false"
+            android:title="@string/app_name"
+            android:summary="@string/app_ver" />
+        <Preference
+            android:selectable="false"
+            android:title="@string/copy"
+            android:summary="@string/app_copy" />
+        <Preference
+            android:selectable="false"
+            android:title="@string/license"
+            android:summary="@string/app_lic" />
+        <Preference
+            android:selectable="false"
+            android:title="@string/address"
+            android:summary="@string/app_author" />
+    </PreferenceCategory>
+    
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_label">Åpne kobling</string>
+    <string name="error_unable_to_open">Kan ikke åpne:\n%1$s</string>
+    <string name="error_no_url_found">Ingen linker funnet.</string>
+    <string name="lbl_video">Instruksjoner</string>
+    <string name="lbl_source_code">Kildekoden</string>
+
+</resources>

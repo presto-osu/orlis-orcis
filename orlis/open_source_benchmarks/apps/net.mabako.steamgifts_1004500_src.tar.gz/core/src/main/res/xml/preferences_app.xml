@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="preferences_theme"
+        android:title="@string/preference_theme_header">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="preference_theme_nightmode"
+            android:summary="@string/preference_theme_nightmode_sub"
+            android:title="@string/preference_theme_nightmode" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="preferences_giveaways"
+        android:title="@string/preferences_giveaways">
+        <ListPreference
+            android:defaultValue="details;list"
+            android:entries="@array/preference_giveaway_load_images_entries"
+            android:entryValues="@array/preference_giveaway_load_images_entry_values"
+            android:key="preference_giveaway_load_images"
+            android:summary="%s"
+            android:title="@string/preference_giveaway_load_images" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="preference_giveaway_show_pinned"
+            android:summaryOff="@string/preference_giveaway_show_pinned_off"
+            android:summaryOn="@string/preference_giveaway_show_pinned_on"
+            android:title="@string/preference_giveaway_show_pinned" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="preferences_discussions"
+        android:title="@string/preferences_discussions">
+        <ListPreference
+            android:defaultValue="full"
+            android:entries="@array/preference_sidebar_discussion_list_entries"
+            android:entryValues="@array/preference_sidebar_discussion_list_entry_values"
+            android:key="preference_sidebar_discussion_list"
+            android:summary="%s"
+            android:title="@string/preference_sidebar_discussion_list" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="preference_discussion_comments_reversed"
+            android:summaryOff="@string/preference_discussion_comments_reversed_sub_off"
+            android:summaryOn="@string/preference_discussion_comments_reversed_sub_on"
+            android:title="@string/preference_discussion_comments_reversed" />
+    </PreferenceCategory>
+</PreferenceScreen>

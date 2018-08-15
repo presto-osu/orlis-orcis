@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/action_undo"
+        android:id="@+id/action_restore"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_undo"
+        />
+
+    <item android:title="@string/action_redo"
+        android:id="@+id/action_set_with_last_dns"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_redo"
+        />
+
+
+    <item android:title="@string/action_settings"
+        android:id="@+id/action_settings"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_settings"/>
+
+</menu>

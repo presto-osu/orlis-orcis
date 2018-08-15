@@ -1,0 +1,5 @@
+com.nightshadelabs.anotherbrowser.BuildConfig
+com.nightshadelabs.anotherbrowser.R
+com.nightshadelabs.anotherbrowser.R$attr
+com.nightshadelabs.anotherbrowser.R$mipmap
+com.nightshadelabs.anotherbrowser.R$string

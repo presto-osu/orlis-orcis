@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/exercise_entry_container"
+    android:layout_width="match_parent"
+    android:layout_height="68dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    >
+
+ <TextView
+    android:id="@+id/workout_entry_date_header"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="top|left"
+    android:maxLength="20"
+    android:maxLines="1"
+    android:textSize="12sp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@drawable/date_header_bg"
+    android:textColor="@android:color/white"
+    />
+    
+<TextView
+    android:id="@+id/workout_entry_textview"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    android:maxLength="45"
+    android:maxLines="2"
+    android:paddingRight="20dp"
+    android:paddingLeft="5dp"
+    android:layout_marginTop="-8dp"
+    android:layout_marginBottom="-5dp"
+    android:textSize="20sp" />
+
+<ImageView
+    android:id="@+id/workout_entry_note_image"
+    android:visibility="visible"
+    android:layout_centerInParent="true"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/note_mark"
+    android:src="@drawable/ic_custom_circleddot"
+/>
+
+</RelativeLayout>
+
+

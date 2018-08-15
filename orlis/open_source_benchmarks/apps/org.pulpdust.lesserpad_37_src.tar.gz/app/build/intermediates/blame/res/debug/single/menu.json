@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/debug/menu/activity_lesser_pad_dark.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/menu/activity_lesser_pad_dark.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/debug/menu/activity_lesser_pad_list.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/menu/activity_lesser_pad_list.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/debug/menu/activity_lesser_pad.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/menu/activity_lesser_pad.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/debug/menu/activity_category_editor.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/menu/activity_category_editor.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/debug/menu/activity_lesser_pad_list_dark.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/menu/activity_lesser_pad_list_dark.xml"
+    }
+]

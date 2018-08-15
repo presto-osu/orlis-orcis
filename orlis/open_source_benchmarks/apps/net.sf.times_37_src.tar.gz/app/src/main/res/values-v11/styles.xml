@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Zmanim" parent="android:Widget.Holo"/>
+
+    <style name="Zmanim.ListView" parent="android:Widget.Holo.ListView"/>
+
+    <style name="Zmanim.ListItem">
+        <item name="android:background">?android:attr/listChoiceBackgroundIndicator</item>
+    </style>
+
+</resources>

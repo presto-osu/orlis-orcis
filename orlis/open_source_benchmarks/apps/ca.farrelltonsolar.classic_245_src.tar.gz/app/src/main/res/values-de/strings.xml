@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="AbsorbDescription">Regulierung der Batteriespannung am Absorb-Sollwert.</string>
+    <string name="BulkMPPTDescription">MPPT bis Absorb-Spannung.</string>
+    <string name="FloatDescription">Batterie ist voll und Ladeerhaltung.</string>
+    <string name="FloatMPPTDescription">MPPT, Float-Sollspannung wird gesucht.</string>
+    <string name="EqMPPTDescription">MPPT-Spannung wird gesucht.</string>
+    <string name="RestingDescription">Keine Energie, warte auf Eingangsspannung.</string>
+    <string name="AbsorbTitle">Absorbieren</string>
+    <string name="BulkMPPTTitle">Bulk MPPT</string>
+    <string name="FloatTitle">Float</string>
+    <string name="FloatMPPTTitle">Float MPPT</string>
+    <string name="EqualizeTitle">ausgeglichen</string>
+    <string name="EqMpptTitle">Ausgleichsladung</string>
+    <string name="FoundClassic">Verbindung mit Classic auf Adresse %1$s:%2$d hergestellt</string>
+    <string name="NoConnection">Keine Verbindung</string>
+    <string name="SettingsLabel">Einstellungen</string>
+    <string name="About">Über</string>
+    <string name="ApplyButton">Übernehmen</string>
+    <string name="CancelButton">Abbrechen</string>
+    <string name="dialog_port_hint">Port-Nummer</string>
+    <string name="dialog_ipaddress_hint">IP-Adresse, URI</string>
+    <string name="UploadLogsSummary">Hochladen von Protokollen zu PVOutput</string>
+    <string name="ClearLogsTitle">Aufgezeichnete Protokolle leeren</string>
+    <string name="navigation_drawer_close">Navigation schließen</string>
+    <string name="network">Netzwerk</string>
+    <string name="PowerTabTitle">Übersicht</string>
+    <string name="EnergyTabTitle">Energie</string>
+    <string name="LoadTabTitle">Verbrauch</string>
+    <string name="StateOfChargeTabTitle">Ladezustand</string>
+    <string name="TemperatureTabTitle">Temperatur</string>
+    <string name="DayLogTabTitle">Protokoll-Kalender</string>
+    <string name="DayChartTabTitle">Tages-Diagramm</string>
+    <string name="HourChartTabTitle">Stunden-Diagramm</string>
+    <string name="MessagesTabTitle">Nachrichten</string>
+    <string name="PVVoltTitle">PV-Volt</string>
+    <string name="PVCurrentTitle">PV-Strom</string>
+    <string name="BatVoltsTitle">Batterie-Spannung</string>
+    <string name="BatPowerTitle">Energie</string>
+    <string name="PowerTitle">Energie</string>
+    <string name="LoadCurrentTitle">Strom</string>
+    <string name="LoadPowerTitle">Energie</string>
+    <string name="EnergyTodayTitle">Energieertrag heute</string>
+    <string name="TotalEnergyTitle">Gesamtenergie</string>
+    <string name="amp_unit">Ampere</string>
+    <string name="BatTemperature">Batterie</string>
+    <string name="Calendar">Kalender</string>
+    <string name="CalendarFloat">(Float)</string>
+    <string name="info_model_title">Modell:</string>
+    <string name="info_mac_title">MAC-Adresse:</string>
+    <string name="info_ipaddress_title">IP-Adresse:</string>
+    <string name="info_network_rev_title">Netzwerk-Version:</string>
+    <string name="info_last_voc_title">Letzte VOC:</string>
+    <string name="info_build_date_title">Software Build-Datum:</string>
+    <string name="info_nominal_battery_voltage">Batterie-Nennspannung:</string>
+    <string name="info_message_1">Übertemperatur</string>
+    <string name="info_message_2">Fehler beim EEprom lesen/schreiben</string>
+    <string name="info_message_100">Eingangsspannung (PV) liegt unter der Batteriespannung.</string>
+    <string name="info_message_200">Benutzerdefinierte Strombegenzung oder interne Temperaturgrenze erreicht.</string>
+    <string name="info_message_400">Hyper Voc PV liegt über zulässiger Eingangsspannung.</string>
+    <string name="info_message_4000">AUX 1 aktiv (Spannung  am Aux 1-Anschluss oder Relais geschlossen).</string>
+    <string name="info_message_8000">Aux-2 aktiv (Spannung am Aux 2-Anschluss).</string>
+    <string name="info_message_10000">Erdschluss erkannt.</string>
+    <string name="info_message_20000">DEFCON 4: FET Treiber Fehler.</string>
+    <string name="info_message_40000">Störung durch Lichtbogen.</string>
+    <string name="info_message_100000">DEFCON 3: FET Fehler.</string>
+    <string name="info_message_400000">Teilverschattung während Solar Sweeps</string>
+    <string name="info_message_8000000">Kurzschluss am Temperatursensor.</string>
+    <string name="BatCurrentTitle">Batterie-Strom</string>
+    <string name="ClassicNotConnecting">Verbindungsversuch zu %1$s:%2$d</string>
+    <string name="EqualizeDescription">Regulierung der Batteriespannung zum Sollwert.</string>
+    <string name="HyperVocDescription">Eingangsspannung liegt über maximaler Betriebsspannung.</string>
+    <string name="IPAddressPrompt">Statische IP-Adresse eingeben</string>
+    <string name="InfoTabTitle">Info</string>
+    <string name="RestingTitle">Ruhend</string>
+    <string name="navigation_drawer_open">Navigation öffnen</string>
+    <string name="volt_unit">Volt</string>
+    <string name="menu_add">Hinzufügen</string>
+    <string name="toast_pvoutput">Hochladen von Protokollen zu PVOutput abgeschlossen.</string>
+    <string name="toast_minute_logs">Stunden-Protokoll vollständig gelesen</string>
+    <string name="toast_day_logs">Tages-Protokoll vollständig gelesen</string>
+    <string name="CapacityTabTitle">Kapazität</string>
+    <string name="amp_hours_unit">Ah</string>
+    <string name="NetCapacityGaugeTitle">Netto</string>
+    <string name="TotalCapacityTitle">Gesamtkapazität</string>
+    <string name="Positive_AH_Title">Ladung </string>
+    <string name="Negative_AH_Title">Entladung</string>
+    <string name="RemainingCapacityTitle">Verbleibende Kapazität</string>
+    <string name="TemperatureScaleSummary">Temperaturen in Fahrenheit</string>
+    <string name="turn_off_local_app">Die Midnite Local App darf nicht zeitgleich aktiv sein.\n Der Classic unterstützt nur eine Verbindung!</string>
+
+    <string-array name="minute_log_chart_selection">
+        <item>brutto</item>
+        <item>PV-Spannung</item>
+        <item>Batterie-Spannung</item>
+        <item>Batterie Strom</item>
+        <item>Energieertrag</item>
+    </string-array>
+
+    <string-array name="day_log_chart_selection">
+        <item>brutto</item>
+        <item>netto</item>
+        <item>Temperatur</item>
+        <item>PV-Spannung</item>
+        <item>Batterie-Spannung</item>
+        <item>Float Zeit</item>
+    </string-array>
+    <string name="SystemTabTitle">System</string>
+    <string name="LoadTitle">Laden</string>
+    <string name="device_button">Controller</string>
+    <string name="system_button">System</string>
+    <string name="ShowPopupSummary">Aktivieren von Benachrichtigungen</string>
+    <string name="connectionsPreferenceCategory">Verbindung</string>
+    <string name="connectionsPreferenceSummary">Automatische Erkennung Classic</string>
+    <string name="gaugesPreferenceCategory">Anzeige</string>
+    <string name="RealTimeChartTabTitle">Live-Diagramm</string>
+    <string name="SupplyCurrentTitle">Liefern-Strom</string>
+    <string name="SystemViewEnabled">System View Enabled</string>
+
+</resources>

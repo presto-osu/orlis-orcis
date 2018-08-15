@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Share With NewPipe</string>
+    <string name="np_not_installed">NewPipe seems not installed.</string>
+    <string name="not_a_valid_youtube_url">Not a valid youtube url.</string>
+</resources>

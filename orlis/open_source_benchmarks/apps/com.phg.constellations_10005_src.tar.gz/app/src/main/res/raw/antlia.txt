@@ -1,0 +1,63 @@
+Abbreviation: Ant    
+Genitive: Antliae    
+Pronunciation: /ˈæntliə/, genitive /ˈæntlɪ.iː/    
+Symbolism: the Air Pump    
+Right ascension: 09h 27m 05.1837s–11h 05m 55.0471s    
+Declination: −24.5425186°–−40.4246216°    
+Family: La Caille    
+Area: 239 sq. deg. (62nd)    
+Main stars: 3    
+Bayer/Flamsteed stars: 9    
+Stars with planets: 2    
+Stars brighter than 3.00m: 0    
+Stars within 10.00 pc (32.62 ly): 2    
+Brightest star: α Ant (4.25m)    
+Nearest star: DEN 1048-3956 (13.17 ly, 4.04 pc)    
+Messier objects: 0    
+Meteor showers: None    
+Bordering constellations: Hydra Pyxis Vela Centaurus    
+Visible at latitudes between +45° and −90°. Best visible at 21:00 (9 p.m.) during the month of April.  
+  
+Antlia (/ˈæntliə/; from Ancient Greek ἀντλία) is a constellation in the southern sky. Its name means "pump" and it specifically represents an air pump. The constellation was created in the 18th century from an undesignated region of sky, so the stars comprising Antlia are faint. Antlia is bordered by Hydra the sea snake, Pyxis the compass, Vela the sails, and Centaurus the centaur. This group of constellations is prominent in the southern sky in late winter and spring. NGC 2997, a spiral galaxy, and the Antlia Dwarf Galaxy lie within Antlia's borders.
+
+History
+Antlia was created in 1756 by the French astronomer Abbé Nicolas Louis de Lacaille, who created fourteen constellations for the southern sky to fill some faint regions. Though Antlia was technically visible to ancient Greek astronomers, its stars were too faint to have been included in any constellations. Because of this, its main stars have no particular pattern and it is devoid of bright deep-sky objects. It was originally named Antlia pneumatica ("Machine Pneumatique" in French) to commemorate the air pump invented by the French physicist Denis Papin.
+Lacaille and Johann Bode each depicted Antlia differently, as either the single-cylinder vacuum pump used in Papin's initial experiments, or the more advanced double-cylinder version. The International Astronomical Union subsequently adopted it as one of the 88 modern constellations. There is no mythology attached to Antlia as Lacaille discontinued the tradition of giving names from mythology to constellations and instead chose names mostly from scientific instruments.
+According to some, the most prominent stars that now comprise Antlia were once included within the ancient constellation Argo Navis, the Ship of the Argonauts, which due to its immense size was split into several smaller constellations by French astronomer Nicolas Louis de Lacaille in 1763. However, given the faintness and obscurity of its stars, most authorities do not believe that the ancient Greeks included Antlia as part of their classical depiction of Argo Navis.
+
+Notable features
+Stars
+α Antliae is the constellation's brightest star at magnitude 4.25. It is a class M0 orange giant located 366 light years away from Earth.
+δ Antliae is a blue double star 481 light years away. The primary is of magnitude 5.6 and the secondary is of magnitude 9.6.
+ζ Antliae is a wide double star 373 light years away. The primary (ζ1 Ant) is of magnitude 5.8, though it is a double star with a primary of magnitude 6.2 and a secondary of magnitude 7.0. The secondary (ζ2 Ant) is of magnitude 5.9.
+
+Deep-sky objects
+Because it occupies a part of the celestial sphere that faces away from the Milky Way, Antlia contains very few deep-sky objects. It contains no globular clusters, no planetary nebulae, and no open clusters. However, it does contain several galaxies.
+NGC 2997 is a loose face-on spiral galaxy of type Sc. It is the brightest galaxy in Antlia at an integrated magnitude of 10.6. Though nondescript in most amateur telescopes, it presents bright clusters of young stars and many dark dust lanes in photographs.
+The Antlia Dwarf, a 14.8m dwarf spheroidal galaxy that belongs to our Local Group of galaxies. It was discovered only as recently as 1997.
+
+In non-Western astronomy
+Chinese astronomers were able to view what is modern Antlia from their latitudes, and incorporated its stars into two different constellations. Several stars in the southern part of Antlia were a portion of "Dong'ou", which represented an area in southern China. Furthermore, epsilon Antliae, eta Antliae, and theta Antliae were incorporated into the celestial temple, which also contained stars from modern Pyxis.
+
+References
+Citations
+^ Bakich 1995
+^ a b "Antlia, constellation boundary". The Constellations (International Astronomical Union). Retrieved 14 February 2014. 
+^ "The 100 Nearest Star Systems". Research Consortium on Nearby Stars. 1 January 2012. Retrieved 8 April 2012. 
+^ a b c d e f g Ridpath, Ian. "Antlia". Star Tales. Archived from the original on 18 December 2007. Retrieved 3 December 2007. 
+^ a b c d e f g Ridpath 2001, pp. 74–76
+^ a b c Moore & Tirion 1997
+^ a b Pasachoff 2000
+^ Peter Birren (2002) Objects in the Heavens, pp. 9, 45 (ISBN 155369662X).
+^ Thomas William Webb (Dover Publications 1962) Celestial objects for common telescopes, Volume 2, p. 36.
+^ Ian Ridpath (2002) Stars and Planets, pp, 65, 122. (ISBN 0-7894-8988-0)
+^ Nemiroff, Robert (23 April 1997). "Antlia: A New Galactic Neighbor". Astronomy Picture of the Day. Retrieved 9 April 2012. 
+
+References
+Bakich, Michael E. (1995), The Cambridge Guide to the Constellations, Cambridge University Press, ISBN 978-0-521-44921-2 
+Moore, Patrick; Tirion, Wil (1997), Cambridge Guide to Stars and Planets (2nd ed.), Cambridge University Press, ISBN 0-521-58582-1 
+Pasachoff, Jay M. (2000), A Field Guide to the Stars and Planets (4th ed.), Houghton Mifflin, ISBN 978-0-395-93431-9 
+Ridpath, Ian (2001), Stars and Planets Guide, Princeton University Press, ISBN 0-691-08913-2 
+Ridpath, Ian (2007), Stars and Planets Guide, Wil Tirion (4th ed.), Princeton University Press, ISBN 978-0-691-13556-4 
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Antlia&oldid=607760378"

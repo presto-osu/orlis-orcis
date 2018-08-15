@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*"
+    >
+    <TableRow>
+        <ca.farrelltonsolar.uicomponents.OdometerSpinner
+            android:id="@+id/widget_odometer_spinner_100k"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+        <ca.farrelltonsolar.uicomponents.OdometerSpinner
+            android:id="@+id/widget_odometer_spinner_10k"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+        <ca.farrelltonsolar.uicomponents.OdometerSpinner
+            android:id="@+id/widget_odometer_spinner_1k"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+        <ca.farrelltonsolar.uicomponents.OdometerSpinner
+            android:id="@+id/widget_odometer_spinner_100"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+        <ca.farrelltonsolar.uicomponents.OdometerSpinner
+            android:id="@+id/widget_odometer_spinner_10"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+        <ca.farrelltonsolar.uicomponents.OdometerSpinner
+            android:id="@+id/widget_odometer_spinner_1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+    </TableRow>
+</TableLayout>

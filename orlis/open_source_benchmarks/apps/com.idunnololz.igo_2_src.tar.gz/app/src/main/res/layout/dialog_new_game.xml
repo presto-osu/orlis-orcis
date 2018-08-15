@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_bg_color"
+    android:minWidth="300dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="@string/new_game"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        style="@style/DialogText"/>
+
+    <TextView
+        android:id="@+id/txtBoardSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtTitle"
+        android:padding="10dp"
+        android:text="@string/board_size"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/dialog_form_text_size"
+        style="@style/DialogText"/>
+
+    <Spinner
+        android:id="@+id/boardSize"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtBoardSize"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/dialog_form_text_size" />
+
+    <TextView
+        android:id="@+id/txtHandicap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtBoardSize"
+        android:padding="10dp"
+        android:text="@string/handicap"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/dialog_form_text_size"
+        style="@style/DialogText"/>
+
+    <Spinner
+        android:id="@+id/handicap"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtHandicap"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/dialog_form_text_size" />
+
+    <TextView
+        android:id="@+id/txtKomi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtHandicap"
+        android:padding="10dp"
+        android:text="@string/komi"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/dialog_form_text_size"
+        style="@style/DialogText"/>
+
+    <Spinner
+        android:id="@+id/komi"
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtKomi"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/dialog_form_text_size" />
+
+    <Button
+        android:id="@+id/btnStartGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtKomi"
+        android:background="?attr/selectableItemBackground"
+        android:text="@string/start_game"
+        android:textSize="@dimen/dialog_form_text_size"
+        style="@style/DialogButton"/>
+
+</RelativeLayout>

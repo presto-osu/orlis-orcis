@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="VisualHashEditText">
+        <attr name="showVisualHash" format="boolean" />
+        <attr name="visualHashWidth" format="dimension" />
+        <attr name="visualHashHeight" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="GeneratedPasswordView"></declare-styleable>
+    <declare-styleable name="Theme">
+        <attr name="generatedPasswordViewStyle" format="reference" />
+    </declare-styleable>
+
+</resources>

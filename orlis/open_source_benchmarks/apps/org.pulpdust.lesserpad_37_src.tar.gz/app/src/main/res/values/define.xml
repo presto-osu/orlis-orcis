@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_ver">0.94b</string>
+    <string name="app_lic">GNU GPL v3</string>
+    <string name="app_author">Kodakana&lt;kodakana.hws@gmail.com&gt;</string>
+    <string name="app_copy">&#169; 2016 Kodakana &amp; Good Contributors</string>
+</resources>

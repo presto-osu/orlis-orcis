@@ -1,0 +1,4 @@
+#Mon Nov 27 17:40:42 EST 2017
+base.0=/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

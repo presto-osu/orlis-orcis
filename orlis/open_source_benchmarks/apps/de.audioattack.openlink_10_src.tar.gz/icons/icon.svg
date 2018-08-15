@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="icon.svg">
+  <defs
+     id="defs4">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter3168">
+      <feFlood
+         flood-opacity="0.2"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3170" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3172" />
+      <feGaussianBlur
+         in="composite"
+         stdDeviation="4"
+         result="blur"
+         id="feGaussianBlur3174" />
+      <feOffset
+         dx="0"
+         dy="4"
+         result="offset"
+         id="feOffset3176" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="fbSourceGraphic"
+         id="feComposite3178" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3180" />
+      <feFlood
+         id="feFlood3182"
+         flood-opacity="0.2"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         id="feComposite3184"
+         in2="fbSourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur3186"
+         in="composite"
+         stdDeviation="4"
+         result="blur" />
+      <feOffset
+         id="feOffset3188"
+         dx="0"
+         dy="4"
+         result="offset" />
+      <feComposite
+         id="feComposite3190"
+         in2="offset"
+         in="fbSourceGraphic"
+         operator="over"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix3204" />
+      <feFlood
+         id="feFlood3206"
+         flood-opacity="0.2"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         in="fbSourceGraphic" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite3208"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur3210"
+         in="composite"
+         stdDeviation="50"
+         result="blur" />
+      <feOffset
+         id="feOffset3212"
+         dx="0"
+         dy="50"
+         result="offset" />
+      <feComposite
+         in2="offset"
+         id="feComposite3214"
+         in="fbSourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="361.42858"
+     inkscape:cy="452.3"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1600"
+     inkscape:window-height="834"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3134"
+       style="filter:url(#filter3168)"
+       inkscape:export-filename="/home/low012/StudioProjects/OpenLink/app/src/main/res/drawable-hdpi/ic_launcher.png"
+       inkscape:export-xdpi="5.4000001"
+       inkscape:export-ydpi="5.4000001">
+      <g
+         transform="translate(-99.999999,-13.352101)"
+         id="g3047">
+        <path
+           inkscape:connector-curvature="0"
+           d="m 50,350 600,0 0,600 -600,0 0,-600 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:#0066cc;stroke-width:100;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3037" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 450,150 0,-100 500,0 0,500 -100,0 L 750,450 450,750 250,550 550,250 450,150 z"
+           style="fill:#ffffff;fill-opacity:1;stroke:#0066ff;stroke-width:100;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path3039" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3053"
+         d="m -99.142857,636.93361 0,-348.57143 212.111337,0 212.11135,0 -48.5084,48.57143 -48.5084,48.57143 -115.03151,0 -115.03152,0 0,251.42857 0,251.42857 251.42857,0 251.42857,0 0,-115.03151 0,-115.03152 48.57143,-48.5084 L 598,561.28237 l 0,212.11133 0,212.11134 -348.57143,0 -348.571427,0 0,-348.57143 z"
+         style="fill:#ffbb33" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3055"
+         d="m -99.142857,636.93361 0,-348.57143 210.682767,0 210.68278,0 -48.5084,48.57143 -48.5084,48.57143 -113.60294,0 -113.60295,0 0,251.42857 0,251.42857 251.42857,0 251.42857,0 0,-113.60294 0,-113.60294 48.57143,-48.5084 L 598,564.13951 l 0,210.68276 0,210.68277 -348.57143,0 -348.571427,0 0,-348.57143 z"
+         style="fill:#0099cc" />
+      <path
+         inkscape:export-ydpi="113.01"
+         inkscape:export-xdpi="113.01"
+         inkscape:export-filename="/home/low012/workspace/OpenURL/icon.png"
+         inkscape:connector-curvature="0"
+         id="path3057"
+         d="M 216.68132,671.32924 82.526913,537.15204 164.8222,453.47141 c 45.2624,-46.02437 112.70813,-113.54 149.8794,-150.03477 l 67.58411,-66.35413 -40.71428,-40.82448 -40.71429,-40.82448 0,-83.535685 0,-83.535682 298.57143,0 298.57143,0 0,298.571427 0,298.57143 -83.60971,0 -83.60969,0 L 690.84303,545.4909 650.90546,505.47675 500.8706,655.49158 350.83573,805.50641 216.68132,671.32924 l 0,0 z m 494.16808,-242.9748 59.95671,60.00774 15.02552,0 15.02551,0 0,-201.42857 0,-201.42857 -201.42857,0 -201.42857,0 0,14.97564 0,14.97564 60.69671,60.74601 60.69672,60.746 -149.96566,149.98608 -149.9657,149.98612 65.68088,65.72745 65.68088,65.72749 150.03443,-150.0144 150.03443,-150.0144 59.95671,60.00777 0,0 z"
+         style="fill:#ffbb33" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3080"
+         d="m 0.85714286,636.93361 0,-248.57143 112.12224714,0 112.12226,0 -74.25294,74.29415 -74.25293,74.29415 136.40796,136.40796 136.40797,136.40797 74.29415,-74.25294 L 498,661.26054 l 0,112.12224 0,112.12226 -248.57143,0 -248.57142714,0 0,-248.57143 z"
+         style="fill:#33b5e5" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3082"
+         d="m 285.13579,599.78367 -62.81551,-62.8642 149.96515,-149.98557 149.96514,-149.98557 -60.69671,-60.746 -60.69672,-60.74601 0,-13.54707 0,-13.547067 198.57143,0 198.57143,0 0,198.571427 0,198.57143 -13.54706,0 -13.54708,0 -60.746,-60.69671 -60.746,-60.69673 -149.28847,149.26815 C 418.01673,595.47724 350.18766,662.6479 349.39411,662.6479 c -0.79355,0 -29.7098,-28.28889 -64.25832,-62.86423 z"
+         style="fill:none" />
+    </g>
+  </g>
+</svg>

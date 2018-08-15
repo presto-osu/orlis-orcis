@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Primary: Blue -->
+    <color name="primaryBlue100">#D0D9FF</color>
+    <color name="primaryBlue500">#5677FC</color>
+    <color name="primaryBlue700">#455EDE</color>
+
+    <!-- Primary: Grey -->
+    <color name="primaryGrey200">#EEEEEE</color>
+    <color name="primaryGrey300">#E0E0E0</color>
+    <color name="primaryGrey400">#99BDBDBD</color>
+
+    <!-- Accent: Pink -->
+    <color name="accentPinkA100">#FF80AB</color>
+    <color name="accentPinkA200">#FF4081</color>
+    <color name="accentPinkA400">#F50057</color>
+
+    <!-- Text, Icon, Divider -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="primaryText">#212121</color>
+    <color name="secondaryText">#727272</color>
+    <color name="hintText">#B8B8B8</color>
+    <color name="icon">#727272</color>
+    <color name="divider">#DADADA</color>
+
+    <!-- Backgrounds. -->
+    <color name="primaryBackground">#FAFAFA</color>
+    <color name="secondaryBackground">#FFFFFF</color>
+
+</resources>

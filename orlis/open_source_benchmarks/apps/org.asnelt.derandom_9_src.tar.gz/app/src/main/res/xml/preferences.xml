@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2015 Arno Onken
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_prediction_title"
+        android:key="pref_key_prediction_settings">
+        <CheckBoxPreference
+            android:key="pref_auto_detect"
+            android:title="@string/pref_auto_detect"
+            android:summary="@string/pref_auto_detect_summary"
+            android:defaultValue="true" />
+        <EditTextPreference
+            android:key="pref_prediction_length"
+            android:title="@string/pref_prediction_length"
+            android:dialogTitle="@string/pref_prediction_length"
+            android:inputType="number"
+            android:defaultValue="@string/pref_prediction_length_default_value" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_io_title"
+        android:key="pref_key_io_settings">
+        <CheckBoxPreference
+            android:key="pref_colored_past"
+            android:title="@string/pref_colored_past"
+            android:summary="@string/pref_colored_past_summary"
+            android:defaultValue="true" />
+        <EditTextPreference
+            android:key="pref_history_length"
+            android:title="@string/pref_history_length"
+            android:dialogTitle="@string/pref_history_length"
+            android:inputType="number"
+            android:defaultValue="@string/pref_history_length_default_value" />
+        <ListPreference
+            android:key="pref_parameter_base"
+            android:title="@string/pref_parameter_base"
+            android:dialogTitle="@string/pref_parameter_base"
+            android:entries="@array/pref_parameter_base_entries"
+            android:entryValues="@array/pref_parameter_base_values"
+            android:defaultValue="@string/pref_parameter_base_default" />
+        <EditTextPreference
+            android:key="pref_socket_port"
+            android:title="@string/pref_socket_port"
+            android:dialogTitle="@string/pref_socket_port"
+            android:inputType="number"
+            android:defaultValue="@string/pref_socket_port_default_value" />
+    </PreferenceCategory>
+</PreferenceScreen>

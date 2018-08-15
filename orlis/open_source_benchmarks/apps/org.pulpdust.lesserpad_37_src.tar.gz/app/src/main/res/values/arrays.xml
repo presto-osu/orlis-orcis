@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cursor_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="cursor_labels">
+        <item>@string/pref_cur_not</item>
+        <item>@string/pref_cur_head</item>
+        <item>@string/pref_cur_end</item>
+    </string-array>
+    <string-array name="look_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="look_labels">
+        <item>@string/look_light</item>
+        <item>@string/look_dark</item>
+    </string-array>
+    <string-array name="font_values">
+        <item>10.0f</item>
+        <item>12.0f</item>
+        <item>14.0f</item>
+        <item>16.0f</item>
+        <item>18.0f</item>
+        <item>20.0f</item>
+        <item>22.0f</item>
+        <item>24.0f</item>
+    </string-array>
+    <string-array name="font_labels">
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="sort_labels">
+        <item>@string/sort_old</item>
+        <item>@string/sort_new</item>
+        <item>@string/sort_a2z</item>
+        <item>@string/sort_z2a</item>
+    </string-array>
+</resources>

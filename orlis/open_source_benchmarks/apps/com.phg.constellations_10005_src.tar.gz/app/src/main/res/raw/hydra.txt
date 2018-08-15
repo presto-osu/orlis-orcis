@@ -1,0 +1,78 @@
+Abbreviation: Hya    
+Genitive: Hydrae    
+Pronunciation: /ˈhaɪdrə/, genitive /ˈhaɪdriː/
+Symbolism: the sea serpent    
+Right ascension: 8–15    
+Declination: −20    
+Family: Hercules    
+Quadrant: SQ2    
+Area: 1303 sq. deg. (1st)    
+Main stars: 17    
+Bayer/Flamsteed stars: 75    
+Stars with planets: 18    
+Stars brighter than 3.00m: 2    
+Stars within 10.00 pc (32.62 ly): 4    
+Brightest star: Alphard (α Hya) (1.98m)    
+Nearest star: LHS 3003 (20.67 ly, 6.34 pc)    
+Messier objects: 3    
+Meteor showers: Alpha Hydrids, Sigma Hydrids
+Bordering constellations: Antlia, Cancer, Canis Minor, Centaurus, Corvus, Crater, Leo, Libra, Lupus (corner), Monoceros, Puppis, Pyxis, Sextans, Virgo
+Visible at latitudes between +54° and −83°. Best visible at 21:00 (9 p.m.) during the month of April.
+    
+Hydra is the largest of the 88 modern constellations, measuring 1303 square degrees. Also one of the longest at over 100 degrees, its southern end abuts Libra and Centaurus and its northern end borders Cancer. It has a long history, having been included among the 48 constellations listed by the 2nd century astronomer Ptolemy. It is commonly represented as a water snake. It should not be confused with the similarly named constellation of Hydrus.
+
+Notable features
+Stars
+Despite its size, Hydra contains only one reasonably bright star, Alphard, designated Alpha Hydrae. It is an orange giant of magnitude 2.0, 177 light-years from Earth. Its traditional name means "the solitary one". Beta Hydrae is a blue-white star of magnitude 4.3, 365 light-years from Earth. Gamma Hydrae is a yellow giant of magnitude 3.0, 132 light-years from Earth.
+Hydra has one bright binary star, Epsilon Hydrae, which is difficult to split in amateur telescopes; it has a period of 1000 years and is 135 light-years from Earth. The primary is a yellow star of magnitude 3.4 and the secondary is a blue star of magnitude 6.7. However, there are several dimmer double stars and binary stars in Hydra. 27 Hydrae is a triple star with two components visible in binoculars and three visible in small amateur telescopes. The primary is a white star of magnitude 4.8, 244 light-years from Earth. The secondary, a binary star, appears in binoculars at magnitude 7.0 but is composed of a magnitude 7 and a magnitude 11 star; it is 202 light-years from Earth. 54 Hydrae is a binary star 99 light-years from Earth, easily divisible in small amateur telescopes. The primary is a yellow star of magnitude 5.3 and the secondary is a purple star of magnitude 7.4. N Hydrae (N Hya) is a pair of stars of magnitudes 5.8 and 5.9. Struve 1270 (Σ1270) consists of a pair of stars, magnitudes 6.4 and 7.4.
+The other main named star in Hydra is Sigma, σ, Hydrae, which also has the name of Minaruja, from the Arabic for snake's nose. At magnitude 4.54, it is rather dim. The head of the snake corresponds to the Āshleshā nakshatra, the lunar zodiacal constellation in Indian astronomy.
+Hydra is also home to several variable stars. R Hydrae is a Mira variable star 2000 light-years from Earth; it is one of the brightest Mira variables at its maximum of magnitude 3.5. It has a minimum magnitude of 10 and a period of 390 days. V Hydrae is an unusually vivid red variable star 20,000 light-years from Earth. It varies in magnitude from a minimum of 9.0 to a maximum of 6.6. Along with its notable color, V Hydrae is also home to at least two exoplanets. U Hydrae is a semi-regular variable star with a deep red color, 528 light-years from Earth. It has a minimum magnitude of 6.6 and a maximum magnitude of 4.2; its period is 115 days.
+The constellation also contains the radio source Hydra A.
+
+Deep-sky objects
+Hydra contains three Messier objects. M83, also known as the Southern Pinwheel Galaxy, is located on the border of Hydra and Centaurus, M68 is a globular cluster near M83, and M48 is an open star cluster in the western end of the serpent.
+NGC 3242 is a planetary nebula of magnitude 7.5, 1400 light-years from Earth. Discovered in 1785 by William Herschel, it has earned the nickname "Ghost of Jupiter" because of its striking resemblance to the giant planet. 2600 light-years from Earth, tts blue-green disk is visible in small telescopes and its halo is visible in larger instruments.
+M48 (NGC 2548) is an open cluster that is visible to the naked eye under dark skies. Its shape has been described as "triangular"; this 80-star cluster is unusually large, more than half a degree in diameter, larger than the diameter of the full Moon.
+There are several globular clusters in Hydra. M68 (NGC 4590) is a globular cluster visible in binoculars and resolvable in medium amateur telescopes. It is 31,000 light-years from Earth and of the 8th magnitude. NGC 5694 is a globular cluster of magnitude 10.2, 105,000 light-years from Earth. Also called "Tombaugh's Globular Cluster", it is a Shapley class VII cluster; the classification indicates that it has intermediate concentration at its nucleus. Though it was discovered as a non-stellar object in 1784 by William Herschel, its status as a globular cluster was not ascertained until 1932, when Clyde Tombaugh looked at photographic plates taken of the region near Pi Hydrae on 12 May 1931.
+M83 (NGC 5236), the Southern Pinwheel Galaxy, is a 8th magnitude face-on spiral galaxy. It is easily observed in skies south of 40°N latitude, found by using 1, 2, 3, and 4 Centauri as guide stars. It has been host to six supernovae, more than any Messier object. Large amateur telescopes - above 12 inches aperture - reveal its spiral arms, bar, and small, bright nucleus. In a medium-sized amateur instrument, around 8 inches in aperture, the spiral arms become visible under good conditions. It is not perfectly symmetrical in the eyepiece, rather, the northwest side is flattened and the nucleus has a southwest-to-northeast bar. A smaller sister to the Milky Way, it is a grand design spiral galaxy 40,000 light-years across.
+There are many other galaxies located in Hydra. NGC 3314, usually delineated as NGC 3314a and NGC 3314b, is a pair of galaxies that appear superimposed, despite the fact that they are not related or interacting in any way. The foreground galaxy, NGC 3314a, is at a distance of 140 million light-years, and is a face-on spiral galaxy. The background galaxy, NGC 3314b, is an oblique spiral galaxy, and has a nucleus that appears reddened because of NGC 3314a's dusty disk. ESO 510-G13 is a warped spiral galaxy located 150 million light-years from Earth. Though most galactic disks are flat because of their rate of rotation, their conformation can be changed, as is the case with this galaxy. Astronomers speculate that this is due to interactions with other galaxies. NGC 5068 may be a member of the M83 group, but its identity is disputed. It has a low surface brightness and has a diameter of 4.5 arcminutes. It is not perfectly circular, rather, it is elliptical and oriented on a west-northwest/east-southeast axis. However, it is of fairly uniform brightness throughout.
+
+Meteor showers
+The Sigma Hydrids peak on December 6 and are a very active shower with an unknown parent body. The Alpha Hydrids are a minor shower that peaks between January 1 and 7.
+
+History and Mythology
+Western Mythology
+The Greek constellation of Hydra is an adaptation of a Babylonian constellation: the MUL.APIN includes a "serpent" constellation (MUL.DINGIR.MUŠ) that loosely corresponds to Hydra. It is one of two Babylonian "serpent" constellations (the other being the origin of the Greek Serpens), a mythological hybrid of serpent, lion and bird.
+The shape of Hydra resembles a twisting snake, and features as such in some Greek myths. One myth associates it with a water snake that a crow served Apollo in a cup when it was sent to fetch water; Apollo saw through the fraud, and angrily cast the crow, cup, and snake, into the sky. It is also associated with the monster Hydra, with its many heads, killed by Hercules, represented in another constellation. According to legend, if one of the hydra's heads was cut off, two more would grow in its place. However, Hercules burned out the roots of the heads he severed to prevent them from growing again, and thus overcame the hydra.
+
+Mythology and Equivalents in Other Cultures
+In Hindu Mythology the star that equivalents Hydra is Ashlesha. In Chinese astronomy, the stars that correspond to Hydra are located within the Vermilion Bird and the Azure Dragon. In Japanese culture, the stars are known as Nuriko.
+
+References
+Citations
+^ a b c d e f g h i j Ridpath & Tirion 2001, pp. 158–160.
+^ Levy 2005, p. [page needed].
+^ "Chance Meeting Creates Celestial Diamond Ring". ESO Press Release. Retrieved 10 April 2014. 
+^ Levy 2005, pp. 132–133.
+^ Levy 2005, p. 173.
+^ a b c Dalrymple 2013, p. 38-40.
+^ Wilkins & Dunn 2006, p. [page needed].
+^ Wilkins & Dunn 2006, p. [page needed].
+^ Dalrymple 2013, p. 41.
+^ Jenniskens 2012, p. 23.
+^ Jenniskens 2012, p. 24.
+^ White 2008, pp. 89, 180.
+^ Ridpath & Tirion 2001, pp. 158–159.
+^ P.K. Chen (2007) A Constellation Album: Stars and Mythology of the Night Sky, p. 44 (ISBN 978-1931559386).
+^ http://www.selfrealisation.net/UK/VedicAstrology/ashlesha.htm
+
+References
+Dalrymple, Les (May 2013). "Exploring the M83 Galaxy Group". Sky & Telescope. 
+Jenniskens, Peter (September 2012). "Mapping Meteoroid Orbits: New Meteor Showers Discovered". Sky & Telescope. 
+Levy, David H. (2005). Deep Sky Objects. Prometheus Books. ISBN 978-1-59102-361-6. 
+Ridpath, Ian; Tirion, Wil (2001). Stars and Planets Guide. Princeton University Press. ISBN 978-0-691-08913-3. 
+Ian Ridpath and Wil Tirion (2007). Stars and Planets Guide, Collins, London. ISBN 978-0-00-725120-9. Princeton University Press, Princeton. ISBN 978-0-691-13556-4.
+White, Gavin (2008). Babylonian Star-lore. Solaria Pubs. 
+Wilkins, Jamie; Dunn, Robert (2006). 300 Astronomical Objects: A Visual Reference to the Universe. Buffalo, New York: Firefly Books. ISBN 978-1-55407-175-3. 
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Hydra_(constellation)&oldid=610096021"

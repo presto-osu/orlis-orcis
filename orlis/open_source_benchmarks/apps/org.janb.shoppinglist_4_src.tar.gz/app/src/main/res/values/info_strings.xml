@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="define_FruitsAndVegetables" translatable="false"></string>
+    <string name="library_FruitsAndVegetables_author" translatable="false">Penn State</string>
+    <string name="library_FruitsAndVegetables_libraryName" translatable="false">FruitsAndVegetables</string>
+    <string name="library_FruitsAndVegetables_libraryDescription" translatable="false">A picture of locally grown vegetables and fruits.</string>
+    <string name="library_FruitsAndVegetables_repositoryLink" translatable="false">https://www.flickr.com/photos/pennstatelive/9242445730/</string>
+</resources>

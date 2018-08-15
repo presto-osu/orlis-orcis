@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_label">Avaa linkki</string>
+    <string name="error_unable_to_open">Ei voi avata:\n%1$s</string>
+    <string name="error_no_url_found">Linkkejä ei löytynyt.</string>
+    <string name="lbl_video">Ohjeet</string>
+    <string name="lbl_source_code">Lähdekoodi</string>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+    <TableLayout android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+
+        <Switch android:hint="Private?"
+                android:id="@+id/Upload.IsPrivate"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/Upload.Sunset"
+            android:hint="Sunset? (optional)"/>
+
+        <Switch android:hint="Vanity?"
+                android:id="@+id/Upload.HasVanity" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Vanity alias"
+            android:visibility="invisible"
+            android:id="@+id/Upload.VanityAlias"/>
+
+    </TableLayout>
+
+
+    <ImageView
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/ContentDescriptionDivider"
+        android:scaleType="fitXY"
+        android:src="?android:attr/dividerHorizontal" />
+
+    <LinearLayout
+        style="?android:attr/buttonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/UploadOptions.Cancel"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:onClick="cancelSubmission"
+            android:text="@string/Cancel" />
+
+        <Button
+            android:id="@+id/UploadOptions.OK"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:onClick="finishSubmission"
+            android:text="@string/OK" />
+    </LinearLayout>
+
+</LinearLayout>

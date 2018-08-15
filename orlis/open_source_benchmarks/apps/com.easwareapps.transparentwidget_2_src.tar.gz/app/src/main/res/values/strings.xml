@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Transparent Widget</string>
+    <string name="desc_cant_lock">Can\'t Lock. No Permission</string>
+    <string name="desc_enable_admin">Enable Device Admin to lock the phone</string>
+    <string name="disable_admin">Disable Admin</string>
+    <string name="uninstall">Uninstall app.</string>
+    <string name="show" >Make All Widget Opaque</string>
+    <string name="hide" >Make All Widget Transparent</string>
+    <string name="select_action">Select Action For Double Tap</string>
+    <string name="do_nothing">Do Nothing</string>
+    <string name="lock_screen">Lock Screen</string>
+    <string name="open_app">Open App</string>
+    <string name="select_app">Select App</string>
+    <string name="toggle_flash">Toggle Flash</string>
+    <string name="done">OK</string>
+    <string name="rate_us">Rat Us on Play store</string>
+    <string name="refer">Refer a Friend</string>
+    <string name="msg">Take a look at Transparent Widget</string>
+    <string name="share_via">Share Via</string>
+    <string name="transparent_widget">Transparent Widget</string>
+
+    <string-array name="actions">
+        <item>Do Nothing</item>
+        <item>Lock Screen</item>
+        <item>Open App</item>
+        <item>Open Flash Light</item>
+    </string-array>
+</resources>

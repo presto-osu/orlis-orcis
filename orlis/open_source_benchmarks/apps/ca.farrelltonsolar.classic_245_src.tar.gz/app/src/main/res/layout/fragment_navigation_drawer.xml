@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="ca.farrelltonsolar.classic.NavigationDrawerFragment">
+
+    <ProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/root_progressbar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:indeterminate="true"
+        android:visibility="visible"
+        android:indeterminateDrawable="@drawable/pinkprogress"
+        android:layout_gravity="center" />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:id="@+id/drawer_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#cccc"
+        />
+
+</FrameLayout>

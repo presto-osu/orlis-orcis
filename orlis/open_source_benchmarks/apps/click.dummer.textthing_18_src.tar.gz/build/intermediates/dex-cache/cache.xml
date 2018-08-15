@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/click.dummer.textthing_18_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/click.dummer.textthing_18_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_58dfb15680eef994176da42f81d9db5506e95fcd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/click.dummer.textthing_18_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/click.dummer.textthing_18_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0_838d8317065e6cb6d95ae52ea76907b736f804be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/click.dummer.textthing_18_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/click.dummer.textthing_18_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0_3448e82abb592a0f4120af9323782f9420ef98ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/click.dummer.textthing_18_src.tar.gz/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_2ec8495b74e43884412d1caf6476cd3d50197c1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/click.dummer.textthing_18_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/click.dummer.textthing_18_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_130d0c6bfb6465fc2596ef7f674addbe701f767e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/click.dummer.textthing_18_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/click.dummer.textthing_18_src.tar.gz/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_cbd4744edff1ce0b4411dab92c7fdda02f2c7566.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin" android:background="#b7000000"
+    tools:showIn="@layout/fortune_widget_info">
+
+    <TextView android:id="@+id/fortune_widget_text" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" android:text=""
+        android:textColor="#ffffff" android:textSize="18sp"
+        android:layout_margin="8dp" android:contentDescription=""
+        android:background="#b7000000" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BAC76</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_about">À propos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_refresh">Rafraîchir</string>
+    <string name="readme">BAC76 permet de trouver le prochain BAC de Seine-Maritime et affiche le temps restant pour le prochain départ.\nPar défaut, l\'application est configurée pour la Seine-Maritime, mais il est possible de changer les horaires en modifiant le fichier SDCARD/riverferry/schedules.tsv et en supprimant le fichier &quot;schedules.tsv.bin&quot;  du même dossier. Il est aussi possible de définir un autre fichier d\'horaires à partir des préférences.\n\nCette application est open-source et le code est disponible à l\'adresse suivante :  \nhttp://github.com/mdecorde/BAC76</string>
+    <string name="title_activity_read_me">Lisez moi</string>
+    <string name="action_reinitialize">Réinitialiser</string>
+    <string name="reloadingall">Rechargement des horaires</string>
+    <string name="refreshing">Rafraîchissement...</string>
+    <string name="usedefaultstation">Station par défaut : </string>
+    <string name="cancel">Annuler</string>
+    <string name="okreinit">Valider, il faut réinitialiser</string>
+    <string name="defaultferrystation">Station par défaut</string>
+    <string name="defaulttsvfile">Nom du fichier TSV des horaires</string>
+    <string name="defaulttsvfiledialog">Le fichier des horaires est par défaut nommé "schedules.tsv". Vous pouvez mettre votre propre fichier TSV dans le répertoire SDCARD/riverferry</string>
+	<string name="defaultferrystationdialog">Entrer le nom de la station par défaut</string>
+	<string name="noschedulesfile">Erreur. Le fichier TSV des horaires est pas présent : </string>
+	<string name="help">**Utiliser l\'application**\n\nLes 2 listes du haut sont les stations de rive gauche et de rive droite.\nEn sélectionnant une station de ces stations, les 3 listes du dessous sont rafraîchies.\nLa liste grise contient les horaires de la station sélectionnée, les 2 autres sont les horaires de la station précédente et de la suivante.\n\n**Menus**\n\nRafraichir : recalcul les horaires de prochain départ\nPréférences : permet de changer le fichier source des stations+horaires et aussi de définir une station par défaut\nAide : affiche cette écran\nA propos : affiche des informations générale sur l\'application.</string>
+	<string name="title_activity_help">Aide</string>
+	<string name="img_desc">Le bac de La Bouille (76)</string>
+    <string name="console"></string>
+</resources>

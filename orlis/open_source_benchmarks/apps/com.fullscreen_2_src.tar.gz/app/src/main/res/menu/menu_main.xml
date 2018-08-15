@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_share"
+        android:orderInCategory="1"
+        android:title="@string/action_share"
+        android:icon="@drawable/ic_share_white_24dp"
+        app:showAsAction="ifRoom" />
+
+    <group
+        android:orderInCategory="2"
+        app:showAsAction="never">
+        <item
+            android:id="@+id/action_home"
+            android:title="@string/action_home" />
+        <item
+            android:id="@+id/action_advertiser"
+            android:title="@string/action_advertiser" />
+        <item
+            android:id="@+id/action_ubuntu"
+            android:title="@string/action_ubuntu" />
+        <item
+            android:id="@+id/action_android"
+            android:title="@string/action_android" />
+        <item
+            android:id="@+id/action_contact"
+            android:title="@string/action_contact" />
+        <item
+            android:id="@+id/action_dio_cast"
+            android:title="@string/action_dio_cast" />
+        <item
+            android:id="@+id/action_dio_store"
+            android:title="@string/action_dio_store" />
+        <item
+            android:id="@+id/action_about"
+            android:title="@string/action_about" />
+    </group>
+</menu>

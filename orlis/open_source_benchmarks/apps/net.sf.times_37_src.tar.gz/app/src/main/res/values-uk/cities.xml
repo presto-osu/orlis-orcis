@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated using Google Translator Toolkit. -->
+<resources>
+
+    <string-array name="cities">
+        <item>Ванкувер</item>
+        <item>Сан-Франциско</item>
+        <item>Сіетл</item>
+        <item>Сан-Дієго</item>
+        <item>Фенікс</item>
+        <item>Лас-Вегас</item>
+        <item>Денвер</item>
+        <item>Мехіко</item>
+        <item>Даллас</item>
+        <item>Х\'юстон</item>
+        <item>Сент-Луїс</item>
+        <item>Чикаго</item>
+        <item>Клівленд</item>
+        <item>Атланти</item>
+        <item>Детройт</item>
+        <item>Майамі</item>
+        <item>Піттсбург</item>
+        <item>Торонто</item>
+        <item>Вашингтон, ДК</item>
+        <item>Балтімор</item>
+        <item>Філадельфія</item>
+        <item>Богота</item>
+        <item>Нью-Йорк</item>
+        <item>Монреаль</item>
+        <item>Лос-Анджелес</item>
+        <item>Бостон</item>
+        <item>Портленд</item>
+        <item>Буенос-Айрес</item>
+        <item>Сан-Паулу</item>
+        <item>Ріо-де-Жанейро</item>
+        <item>Касабланка</item>
+        <item>Мадрид</item>
+        <item>Манчестер</item>
+        <item>Лондон</item>
+        <item>Париж</item>
+        <item>Брюссель</item>
+        <item>Ліон</item>
+        <item>Амстердам</item>
+        <item>Марсель</item>
+        <item>Женева</item>
+        <item>Ніцца</item>
+        <item>Цюрих</item>
+        <item>Мюнхен</item>
+        <item>Циган</item>
+        <item>Берлін</item>
+        <item>Відня</item>
+        <item>Стокгольм</item>
+        <item>Сараєво</item>
+        <item>Кейптаун</item>
+        <item>Будапешт</item>
+        <item>Хельсінкі</item>
+        <item>Йоганнесбург</item>
+        <item>Стамбул</item>
+        <item>Санкт-Петербург</item>
+        <item>Київ</item>
+        <item>Дурбан</item>
+        <item>Ашкелон</item>
+        <item>Ашдод</item>
+        <item>Тель-Авів</item>
+        <item>Беер-Шева</item>
+        <item>Хадера</item>
+        <item>Ейлат</item>
+        <item>Хайфа</item>
+        <item>Бейт-Шемеш</item>
+        <item>Нагарія</item>
+        <item>Аріель</item>
+        <item>Єрусалим</item>
+        <item>Назарет</item>
+        <item>Цфат</item>
+        <item>Тверія</item>
+        <item>Москва</item>
+        <item>Аддіс-Абеба</item>
+        <item>Мумбаї</item>
+        <item>Ейзол</item>
+        <item>Перт</item>
+        <item>Мельбурн</item>
+        <item>Сідней</item>
+        <item>Окленд</item>
+    </string-array>
+
+</resources>

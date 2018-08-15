@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?attr/colorPrimary"
+    android:elevation="3sp"
+    android:minHeight="@dimen/abc_action_bar_default_height_material"
+    app:navigationIcon="?attr/homeAsUpIndicator"
+    app:title="@string/title_activity_settings" />

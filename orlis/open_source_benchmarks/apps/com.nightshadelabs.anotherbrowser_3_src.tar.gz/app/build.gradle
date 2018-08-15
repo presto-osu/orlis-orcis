@@ -1,0 +1,24 @@
+apply plugin: 'com.android.application'
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 21
+    buildToolsVersion "22.0.0"
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 21
+        versionCode 3
+        versionName "1.2"
+    }
+
+
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+}

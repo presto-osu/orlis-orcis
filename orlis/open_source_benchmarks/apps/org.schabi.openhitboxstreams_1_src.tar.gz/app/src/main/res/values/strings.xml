@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OpenHitboxStreams</string>
+    <string name="invalide_url">Invalide url</string>
+    <string name="watch_with">Watch with</string>
+</resources>

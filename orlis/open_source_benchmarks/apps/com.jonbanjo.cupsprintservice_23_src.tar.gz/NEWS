@@ -1,0 +1,13 @@
+0.23 (23) - 2015-05-14
+* Migrate to gradle
+* Remove jars
+
+0.21 JfBeta (2) - 2014-03-27
+* Printer configurations may be shown in shares, print services or both.
+
+0.2Beta (2) - 2014-03-18
+* Fix problem with paper dimensions (and Chrome crash)
+* Revision to resolution handling
+
+0.1Beta (1) - 2014-03-10
+* Original release

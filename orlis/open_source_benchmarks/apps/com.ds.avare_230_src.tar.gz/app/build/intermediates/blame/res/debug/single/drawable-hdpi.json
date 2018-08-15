@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-hdpi/plane_green.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-hdpi/plane_green.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-hdpi/runway_extension.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-hdpi/runway_extension.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-hdpi/plane.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-hdpi/plane.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-hdpi/heli.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-hdpi/heli.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-hdpi/planeother.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-hdpi/planeother.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-hdpi/canard.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-hdpi/canard.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-hdpi/obstacle.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-hdpi/obstacle.png"
+    }
+]

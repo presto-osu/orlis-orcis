@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String TODO translation !-->
+    <string name="activity_support_label">Support Developers</string>
+    <string name="action_name_support">Support Dev</string>
+    <string name="support_dialog_already_owned_title">Do you want to support us again ?</string>
+    <string name="support_dialog_already_owned_description">You have already supported us with %1$s</string>
+    <string name="support_dialog_already_owned_date">Purchased made on %1$s</string>
+    <string name="support_dialog_already_owned_buy_again">Buy again</string>
+    <string name="support_dialog_already_owned_chose_another">Chose another</string>
+    <string name="support_title">Support free content app and help us bringing our open-source projects to life.</string>
+    <string name="support_error">Fail to load coffee list. \n Please, check your network connection.</string>
+    <string name="support_thanks_positive_btn">Merci !</string>
+    <string name="support_has_supported_us">Merci de votre soutient !</string>
+    <string name="support_thanks">We are very grateful for your support ! This %1$s will help us to develop more free content apps !</string>
+    <string name="support_bar_text"> %1$d %%</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/touch_size"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/comment_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:background="?attr/chipDrawable"
+                android:gravity="bottom"
+                android:paddingBottom="4dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="4dp"
+                android:visibility="gone"
+                tools:text="12" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/attach"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:layout_width="@dimen/touch_size"
+            android:layout_height="@dimen/touch_size"
+            android:contentDescription="@string/action_attach"
+            android:src="@drawable/ic_attach_file_grey600_24dp" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:completionThreshold="1"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minWidth="150dp" />
+
+        <ImageButton
+            android:id="@+id/send"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:layout_width="@dimen/touch_size"
+            android:layout_height="@dimen/touch_size"
+            android:contentDescription="@string/action_send"
+            android:src="@drawable/ic_send_grey600_24dp" />
+    </LinearLayout>
+
+    <org.itishka.pointim.widgets.ImageUploadingPanel
+        android:id="@+id/imagesPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

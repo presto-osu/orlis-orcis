@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/domodroid"
+        android:layout_width="40dip"
+        android:layout_height="44dip"
+        android:paddingBottom="12dip"
+        android:src="@drawable/domodroid" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/domodroid_list_of_place"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dawn">#50fbf2db</color>
+    <color name="tallis">#50eac599</color>
+    <color name="sunrise">#50d99058</color>
+    <color name="shema">#50B9A78F</color>
+    <color name="prayers">#50A8B4AE</color>
+    <color name="midday">#5087ceeb</color>
+    <color name="earliest_mincha">#508EC4DB</color>
+    <color name="mincha">#50B68D84</color>
+    <color name="plug_hamincha">#50C7765F</color>
+    <color name="sunset">#50d9603b</color>
+    <color name="twilight">#509966cc</color>
+    <color name="nightfall">#50440044</color>
+    <color name="midnight">#50000000</color>
+
+    <color name="dawn_solid">#fffbf2db</color>
+    <color name="tallis_solid">#ffeac599</color>
+    <color name="sunrise_solid">#ffd99058</color>
+    <color name="shema_solid">#ffB9A78F</color>
+    <color name="prayers_solid">#ffA8B4AE</color>
+    <color name="midday_solid">#ff87ceeb</color>
+    <color name="earliest_mincha_solid">#ff8EC4DB</color>
+    <color name="mincha_solid">#ffB68D84</color>
+    <color name="plug_hamincha_solid">#ffC7765F</color>
+    <color name="sunset_solid">#ffd9603b</color>
+    <color name="twilight_solid">#ff9966cc</color>
+    <color name="nightfall_solid">#ff440044</color>
+    <color name="midnight_solid">#ff444444</color>
+
+    <!-- Widget applet. -->
+    <color name="bright">#10ffffff</color>
+    <color name="candles">#ccffff00</color>
+    <color name="widget_box">#80000000</color>
+    <color name="widget_border">#10ffffff</color>
+    <color name="background_nokia">#ffff8200</color>
+    <color name="text_nokia">@android:color/white</color>
+    <color name="text_inverse_nokia">@android:color/black</color>
+
+    <!-- Compass. -->
+    <color name="compass">#ffffff</color>
+    <color name="compass_gradient">#cc9933</color>
+    <color name="compass_frame">#cc9933</color>
+    <color name="compass_frame_highlight">#ffdd77</color>
+    <color name="compass_frame_shadow">#aa6600</color>
+    <color name="compass_label">#dddddd</color>
+    <color name="compass_label_dark">#b0b0b0</color>
+    <color name="compass_label2">#dddddd</color>
+    <color name="compass_north">#ff0000</color>
+    <color name="compass_north_dark">#800000</color>
+    <color name="compass_south">#0000ff</color>
+    <color name="compass_south_dark">#000080</color>
+    <color name="compass_east">@color/compass_label</color>
+    <color name="compass_east_dark">@color/compass_label_dark</color>
+    <color name="compass_west">@color/compass_label</color>
+    <color name="compass_west_dark">@color/compass_label_dark</color>
+    <color name="compass_holiest">#ff00ff</color>
+    <color name="compass_arrow_bg">#80400040</color>
+    <color name="compass_pivot">@color/compass</color>
+    <color name="compass_pivot_dark">@color/compass_label2</color>
+
+    <!-- Text. -->
+    <color name="bright_foreground_dark">@android:color/background_light</color>
+    <color name="bright_foreground_light">@android:color/background_dark</color>
+    <color name="bright_foreground_dark_disabled">#80ffffff</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="bright_foreground_dark_inverse">@color/bright_foreground_light</color>
+    <color name="bright_foreground_light_inverse">@color/bright_foreground_dark</color>
+
+    <!-- Buttons. -->
+    <color name="btn_navigation_pressed">#ccffff00</color>
+    <color name="btn_navigation_selected">#a6808000</color>
+    <color name="btn_navigation_default">#80000000</color>
+
+</resources>

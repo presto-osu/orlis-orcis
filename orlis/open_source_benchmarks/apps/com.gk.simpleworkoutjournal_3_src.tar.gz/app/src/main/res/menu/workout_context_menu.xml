@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   <item
+       android:id="@+id/context_action_rename_edit_single"
+       android:showAsAction="never"
+       android:title="@string/edit"
+       />
+
+   <item
+       android:id="@+id/context_action_delete_ex"
+       android:showAsAction="never"
+       android:title="@string/delete_ex"
+       />
+
+    <!--
+       <item
+           android:id="@+id/context_action_delete_log_entry"
+           android:showAsAction="never"
+           android:title="Delete log entry"
+           /> -->
+</menu>

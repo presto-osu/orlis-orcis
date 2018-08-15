@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">無効化マネージャー</string>
+    <string name="action_share">共有</string>
+    <string name="action_search">検索</string>
+    <string name="keyword_disable">無効化</string>
+    <string name="title_disablable">無効化可能</string>
+    <string name="title_disabled">無効化済み</string>
+    <string name="title_undisablable">無効化不可</string>
+    <string name="title_user">ユーザー</string>
+    <string name="not_installed">未インストール</string>
+    <string name="action_more">その他</string>
+    <string name="open_source_license">オープンソースライセンス</string>
+    <string name="about">このアプリについて</string>
+    <string name="title_disablable_running">無効化可能（実行中）</string>
+
+</resources>

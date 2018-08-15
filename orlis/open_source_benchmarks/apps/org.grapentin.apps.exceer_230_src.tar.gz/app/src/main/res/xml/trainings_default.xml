@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<training name="default">
+
+  <property name="pause_after_set">90s</property>
+  <property name="pause_after_exercise">90s</property>
+
+  <property name="reps_increment">1</property>
+  <property name="reps_increment_direction">front_to_back</property>
+  <!-- vs. <property name="reps_increment_direction">back_to_front</property> -->
+  <property name="reps_increment_style">balanced</property>
+  <!-- vs. <property name="reps_increment_style">fill_sets</property> -->
+
+  <property name="reps_duration_concentric">2s</property>
+  <property name="reps_duration_eccentric">3s</property>
+  <property name="reps_pause_after_concentric">1s</property>
+  <property name="reps_pause_after_eccentric">0</property>
+
+  <exercise name="Dynamic Warm Up">
+
+    <property name="duration">10min</property>
+    <property name="pause_after_exercise">0</property>
+
+  </exercise>
+
+  <exercise name="Squats">
+
+    <property name="primary_motion">eccentric</property>
+    <property name="reps_begin">4,4,4</property>
+    <property name="reps_finish">8,8,8</property>
+
+    <level name="Assisted Squats">
+      <property name="image">
+        http://2.bp.blogspot.com/-i0AEuk34ICY/Um-XmYHD8_I/AAAAAAAABR0/GmNlYXXuNYY/s1600/assisted+squats.JPG
+      </property>
+    </level>
+    <level name="Deep Assisted Squats">
+      <property name="image">
+        http://4.bp.blogspot.com/-kHnx4C87568/Um-X5umptsI/AAAAAAAABR8/ybqTP8FeQ5I/s200/deep+assisted+squats.JPG
+      </property>
+    </level>
+    <level name="Squats">
+      <property name="image">
+        http://2.bp.blogspot.com/-MUShfZ1RvXQ/Um-YImISkSI/AAAAAAAABSE/nn8mQvjOa8M/s200/squats.JPG
+      </property>
+    </level>
+    <level name="Deep Squats">
+      <property name="image">
+        http://2.bp.blogspot.com/-HpBgMfptmhQ/Um-ZwoPZybI/AAAAAAAABSM/x7WoqkDIuXE/s200/deep+squats.JPG
+      </property>
+    </level>
+    <level name="Bulgarian Split Squats">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://3.bp.blogspot.com/-pOKZL4-r-dI/Um-Z6nZadjI/AAAAAAAABSU/O95A3praemc/s200/bulgarian+split+squats.JPG
+      </property>
+    </level>
+    <level name="Beginner Shrimp Squats">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://2.bp.blogspot.com/-XAzPVFco0OU/Um-aLvUOAeI/AAAAAAAABSc/-egoyKsacok/s200/beginner+shrimps.JPG
+      </property>
+    </level>
+    <level name="Assisted One Legged Squats">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://3.bp.blogspot.com/-xY0zcblDaSk/Um-cd24sslI/AAAAAAAABSo/x6obkVL8bnU/s1600/assisted+one+legged+squat.JPG
+      </property>
+    </level>
+    <level name="Balance Assisted One Legged Squats">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://3.bp.blogspot.com/-V_3fVCDGMZo/Um-dHEt3khI/AAAAAAAABSw/V0Yr1FAuQKw/s200/balance+assisted+one+legged+squat.JPG
+      </property>
+    </level>
+    <level name="Weighted One Legged Squats">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://4.bp.blogspot.com/-gLUfxKxIwXU/Um-dlnRC88I/AAAAAAAABS4/cfp9sLrU2cI/s200/weighted+one+legged+squat.JPG
+      </property>
+    </level>
+    <level name="One Legged Squats">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://4.bp.blogspot.com/-locfl0MRB58/Um-e7prSU9I/AAAAAAAABTE/1M89vp8lcgo/s200/one+legged+squat.JPG
+      </property>
+    </level>
+    <level name="Renegade Pistols">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://4.bp.blogspot.com/-pFvtLICTk08/Um-fYZ7CfzI/AAAAAAAABTM/bUzhsk2Bq7s/s1600/renegade+squat+composite.JPG
+      </property>
+    </level>
+    <level name="Intermediate Shrimps">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://2.bp.blogspot.com/-wuwjHnjFUlY/Um-fxNqh2LI/AAAAAAAABTU/b_2LdoKeND0/s1600/intermediate+shrimps.JPG
+      </property>
+    </level>
+    <level name="Advanced Shrimps">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://1.bp.blogspot.com/-WHEM_Si1kMY/Um-gYs2LlLI/AAAAAAAABTc/nns6BbyEBYo/s200/advanced+shrimps.JPG
+      </property>
+    </level>
+
+  </exercise>
+
+  <exercise name="Pull Ups">
+
+    <property name="primary_motion">concentric</property>
+    <property name="reps_begin">4,4,4</property>
+    <property name="reps_finish">8,8,8</property>
+
+    <level name="Leg Assisted Pull Ups">
+      <property name="image">
+        http://2.bp.blogspot.com/-emrejEQuDpo/Um-yXDBPhdI/AAAAAAAABT4/4YRbeiPiyjc/s200/chair+assisted+pull+ups.JPG
+      </property>
+    </level>
+    <level name="Jackknife Pull Ups">
+      <property name="image">
+        http://2.bp.blogspot.com/-54-jUyO3LXQ/Um-zDkwT5gI/AAAAAAAABUA/7SLagDV6qis/s1600/jackknife+pull+ups.JPG
+      </property>
+    </level>
+    <level name="Eccentric Pull Ups">
+      <property name="reps_duration_concentric">1s</property>
+      <property name="reps_duration_eccentric">5s</property>
+      <property name="image">
+        http://3.bp.blogspot.com/-vFnrE-Qit3Y/Um-0lDnOUEI/AAAAAAAABUM/beSdTxJDmkU/s200/Eccentric+pull+ups.JPG
+      </property>
+    </level>
+    <level name="Half Pull Ups">
+      <property name="image">
+        http://2.bp.blogspot.com/-tGthbE2HIB0/Um-1AYXoeDI/AAAAAAAABUU/DDxJ4f2bDk0/s200/half+pull+ups+top+half.JPG
+      </property>
+    </level>
+    <level name="Pull Ups">
+      <property name="image">
+        http://3.bp.blogspot.com/-ZkFqikSwb-Q/Um-17Xt1N2I/AAAAAAAABUo/0pcgKhKzePI/s200/pull+ups.JPG
+      </property>
+    </level>
+    <level name="Close Grip Pull Ups">
+      <property name="image">
+        http://2.bp.blogspot.com/-6CgXVd9V348/Um-2QJrlATI/AAAAAAAABUw/I8O5vUzBI9c/s200/close+grip+pull+ups.JPG
+      </property>
+    </level>
+    <level name="Wide Grip Pull Ups">
+      <property name="image">
+        http://1.bp.blogspot.com/-R50Aaz-YT3k/Um-2mFzA_oI/AAAAAAAABU4/PaqWmRRnd9o/s200/wide+grip+pull+ups.JPG
+      </property>
+    </level>
+    <level name="Archer Pull Ups">
+      <property name="image">
+        http://2.bp.blogspot.com/-AJvDDSnxFpo/Um-3BJlzNYI/AAAAAAAABVA/-DTSBY0rO98/s200/archer+pull+ups.JPG
+      </property>
+    </level>
+    <level name="Sternum Pull Ups">
+      <property name="image">
+        http://1.bp.blogspot.com/-w6H3wMAM304/Um-3v6Ox4NI/AAAAAAAABVI/Xu_GErq1jtg/s200/sternum+pull+up.jpg
+      </property>
+    </level>
+    <level name="Belly Button Pull Ups">
+      <property name="image">
+        http://3.bp.blogspot.com/-kJyeS6EvR18/Um-4EES2FqI/AAAAAAAABVQ/2qI1r6x5Cw8/s1600/belly+button+pull+ups.jpg
+      </property>
+    </level>
+    <level name="One Arm Towel Assisted Pull Ups">
+      <property name="two_sided">true</property>
+      <property name="reps_finish">6,6,6</property>
+      <property name="image">
+        http://1.bp.blogspot.com/-suHkWAnuuOY/UsgWvvkRPxI/AAAAAAAABug/zoNqhqXRJp0/s1600/IMG_20131218_181844.jpg
+      </property>
+    </level>
+    <level name="One Arm Towel Assisted Pull Ups And Eccentrics">
+      <property name="two_sided">true</property>
+      <property name="reps_finish">6,6,6</property>
+      <property name="reps_duration_eccentric">5s</property>
+      <property name="image">
+        http://4.bp.blogspot.com/-FhalyqC5tTs/UsgXpQdySGI/AAAAAAAABuo/mZW33Cnm2Bs/s200/IMG_20131218_181800.jpg
+      </property>
+    </level>
+    <level name="Half One Arm Pull Ups">
+      <property name="image">
+        http://3.bp.blogspot.com/-uZwfPqSEq5Q/UsgYJ23WQZI/AAAAAAAABuw/KMn-Bx5EDDQ/s200/IMG_20131218_181723.jpg
+      </property>
+    </level>
+    <level name="One Arm Pull Ups">
+      <property name="image">
+        http://4.bp.blogspot.com/-e59NgioFefQ/UsgYkSnUslI/AAAAAAAABu4/d44oNqv2Y_E/s200/IMG_20131218_181312.jpg
+      </property>
+    </level>
+
+  </exercise>
+
+  <exercise name="Handstand Push Ups">
+
+    <property name="primary_motion">eccentric</property>
+    <property name="reps_begin">4,4,4</property>
+    <property name="reps_finish">8,8,8</property>
+
+    <level name="Incline Pike Push Ups">
+      <property name="image">
+        http://4.bp.blogspot.com/-iQ15HXNfluA/Um-9v7CzqJI/AAAAAAAABVk/SAt7W-_uOJI/s200/incline+pike+push+ups.JPG
+      </property>
+    </level>
+    <level name="Incline Pike Diamond Push Ups">
+      <property name="image">
+        http://1.bp.blogspot.com/-ee-ODzIzjPQ/Um--pWLfnMI/AAAAAAAABVs/HWhfdFzngug/s1600/incline+pike+diamond+push+ups.JPG
+      </property>
+    </level>
+    <level name="Pike Push Ups">
+      <property name="image">
+        http://2.bp.blogspot.com/-2SZlD-lI6eo/Um-_CoHEt0I/AAAAAAAABV0/9MKf36cZllA/s200/pike+push+ups.JPG
+      </property>
+    </level>
+    <level name="Pike Diamond Push Ups">
+      <property name="image">
+        http://1.bp.blogspot.com/-tZQdLaLborQ/Um-_YEV7OXI/AAAAAAAABV8/tbR8eYGFbEM/s200/pike+diamond+push+ups.JPG
+      </property>
+    </level>
+    <level name="Decline Pike Push Ups">
+      <property name="image">
+        http://2.bp.blogspot.com/-JHkPEDN2VMg/Um-_oMmC-oI/AAAAAAAABWE/KVAjO1FM83o/s1600/decline+pike+push+ups.JPG
+      </property>
+    </level>
+    <level name="Decline Pike Diamond Push Ups">
+      <property name="image">
+        http://3.bp.blogspot.com/-ZRjBMrBv9M8/Um-_38lSpGI/AAAAAAAABWM/KamKLNNkuQo/s200/decline+pike+diamond+push+ups.JPG
+      </property>
+    </level>
+    <level name="Wall Bent Waist Handstand Push Ups">
+      <property name="image">
+        http://3.bp.blogspot.com/-fskNH91M-Xk/Um_AKjwnGxI/AAAAAAAABWU/r6KyvEdbLaA/s200/wall+bent+waist+handstand+push+up.JPG
+      </property>
+    </level>
+    <level name="Wall Bent Waist Handstand Diamond Push Ups">
+      <property name="image">
+        http://3.bp.blogspot.com/-x82T78S6EQ4/UsauRwjwToI/AAAAAAAABuI/yqtkYZF1rkI/s200/CameraZOOM-20131218130528453.jpg
+      </property>
+    </level>
+    <level name="Wall Half Handstand Push Ups">
+      <property name="image">
+        http://3.bp.blogspot.com/-TtKMxQOERT8/Um_AeZXKDsI/AAAAAAAABWc/KzF5vqH0Nm8/s200/half+wall+handstand+push+up.JPG
+      </property>
+    </level>
+    <level name="Wall Handstand Push Ups">
+      <property name="image">
+        http://4.bp.blogspot.com/-SFStMn0D98w/Um_AzMH-gzI/AAAAAAAABWk/RmfQasB2iJA/s200/wall+handstand+push+up.JPG
+      </property>
+    </level>
+    <level name="Wall Handstand Diamond Push Ups">
+      <property name="image">
+        http://1.bp.blogspot.com/-ruqAEGeLiNs/Um_BB2kt3BI/AAAAAAAABWs/eY8wXF1PQ7o/s200/wall+handstand+diamond+push+up.JPG
+      </property>
+    </level>
+    <level name="Wall Raised Handstand Push Ups">
+      <property name="image">
+        http://2.bp.blogspot.com/-eUKvjYP7a_Q/Usax5927SfI/AAAAAAAABuQ/rR1c0lmH_8o/s200/CameraZOOM-20140103105914699.jpg
+      </property>
+    </level>
+
+  </exercise>
+
+  <exercise name="Leg Raises">
+
+    <property name="primary_motion">concentric</property>
+    <property name="reps_begin">4,4,4</property>
+    <property name="reps_finish">8,8,8</property>
+
+    <level name="Flat Knee Raises">
+      <property name="image">
+        http://3.bp.blogspot.com/-echR1u61eHA/Um_JaRWqQnI/AAAAAAAABW8/jkB42BUxI3U/s1600/flat+knee+raises.JPG
+      </property>
+    </level>
+    <level name="Flat Bent Leg Raises">
+      <property name="image">
+        http://2.bp.blogspot.com/-3LCfZfMxlJ0/Um_J3bZXArI/AAAAAAAABXE/OmJaeMwzchQ/s1600/flat+bent+leg+raises.JPG
+      </property>
+    </level>
+    <level name="Flat Straight Leg Raises">
+      <property name="image">
+        http://1.bp.blogspot.com/-GApTyOXhl6Q/Um_KE1FHKkI/AAAAAAAABXM/i7bk1CNG0_0/s1600/flat+straight+leg+raises.JPG
+      </property>
+    </level>
+    <level name="Forearm Knee Raises">
+      <property name="image">
+        http://1.bp.blogspot.com/-quZQqbZYtrA/Um_KXiMteXI/AAAAAAAABXU/87mLOi5VE54/s1600/forearm+knee+raises.JPG
+      </property>
+    </level>
+    <level name="Hanging Knee Raises">
+      <property name="image">
+        http://2.bp.blogspot.com/-EAA7X49ev-o/Um_LTXknjrI/AAAAAAAABXk/c8tuzt1-EVk/s1600/hanging+knee+raises.JPG
+      </property>
+    </level>
+    <level name="Forearm Bent Leg Raises">
+      <property name="image">
+        http://3.bp.blogspot.com/-T6BDLIoMDwg/Um_LpPxr2XI/AAAAAAAABXs/odvcrlAwumg/s200/forearm+bent+leg+raises.JPG
+      </property>
+    </level>
+    <level name="Hanging Bent Leg Raises">
+      <property name="image">
+        http://3.bp.blogspot.com/-r0DK8vLSmt8/Um_L5S1_aHI/AAAAAAAABX0/qCijnpka5AQ/s1600/hanging+bent+leg+raises.JPG
+      </property>
+    </level>
+    <level name="Forearm Straight Leg Raises">
+      <property name="image">
+        http://4.bp.blogspot.com/-puD9t3XRaXE/Um_MUhOu2jI/AAAAAAAABX8/B9_KgsA5MBo/s200/forearm+straight+leg+raises.JPG
+      </property>
+    </level>
+    <level name="Hanging Straight Leg Raises">
+      <property name="image">
+        http://2.bp.blogspot.com/-lr4oXEV4bB4/Um_Mm7p_zhI/AAAAAAAABYE/7RBBXea1dgo/s1600/hanging+straight+leg+raises.JPG
+      </property>
+    </level>
+    <level name="Hanging Bent Leg V Raises">
+      <property name="image">
+        http://2.bp.blogspot.com/-0SsXJ1bZtO4/Um_M6G3BRSI/AAAAAAAABYM/aQaEf3LrdqM/s200/hanging+bent+leg+V+raises.JPG
+      </property>
+    </level>
+    <level name="Hanging Straight Leg V Raises">
+      <property name="image">
+        http://3.bp.blogspot.com/-HO1VW454-R0/Um_NHQARjbI/AAAAAAAABYU/ylYWDfDdrQo/s200/hanging+straight+leg+V+raises.JPG
+      </property>
+    </level>
+    <level name="Hanging Fan Raises">
+      <property name="image">
+        http://3.bp.blogspot.com/-vIkAFVSjwJM/Um_Nt8gHT0I/AAAAAAAABYc/zBQP4emu7hg/s200/hanging+fan+raises+composite.JPG
+      </property>
+    </level>
+    <level name="Hanging V Raise Windshield Wipers">
+      <property name="reps_pause_after_concentric">6s</property>
+      <property name="image">
+        http://1.bp.blogspot.com/-m5eX9MxEeb8/Um_OS-BO05I/AAAAAAAABYk/Xbsb1CMvRtU/s200/Hanging+V+raise+windshield+wipers.JPG
+      </property>
+    </level>
+    <level name="One Arm Hanging Leg Raises">
+      <property name="image">
+        http://3.bp.blogspot.com/-q5FLF-NGykk/Ure_tcW3KYI/AAAAAAAABrs/tJnCN_FSKI4/s200/one+arm+hanging+leg+raises.jpg
+      </property>
+    </level>
+  </exercise>
+
+  <exercise>
+
+    <property name="reps_increment">2</property>
+
+    <exercise name="Push Ups">
+
+      <property name="primary_motion">eccentric</property>
+      <property name="reps_begin">4,4,4</property>
+      <property name="reps_finish">8,8,8</property>
+
+      <level name="Wall Push Ups">
+        <property name="image">
+          http://2.bp.blogspot.com/-xy1QHg2Nwrs/Um_Z1LmgwFI/AAAAAAAABY0/VFjVw6n937I/s1600/wall+push+ups.JPG
+        </property>
+      </level>
+      <level name="Box Push Ups">
+        <property name="image">
+          http://4.bp.blogspot.com/-9JJ06nq5X0Y/Um_agCK8NfI/AAAAAAAABY8/iWIakY9l_OQ/s1600/box+push+ups.JPG
+        </property>
+      </level>
+      <level name="Three Quarter Push Ups">
+        <property name="image">
+          http://1.bp.blogspot.com/-WUjdep6X3Zg/Um_awRE5t3I/AAAAAAAABZE/Ji7Ky7ypAmw/s1600/three+quarter+push+ups.JPG
+        </property>
+      </level>
+      <level name="Three Quarter Push Ups And Eccentric">
+        <property name="reps_duration_eccentric">5s</property>
+        <property name="image">
+          http://4.bp.blogspot.com/-EQ-v5HUpo7o/Um_bBGmo3II/AAAAAAAABZM/S53OQ5g6v48/s1600/three+quarter+push+ups+and+eccentrics+composite.JPG
+        </property>
+      </level>
+      <level name="Push Ups">
+        <property name="image">
+          http://3.bp.blogspot.com/-ZR44I_mEAwM/Um_bxANjOAI/AAAAAAAABZY/ztMARkIofPE/s200/push+ups.JPG
+        </property>
+      </level>
+      <level name="Elbow In Push Ups">
+        <property name="image">
+          http://1.bp.blogspot.com/-_a1_PXkEny4/Um_caFQSPHI/AAAAAAAABZg/V_sdoi6IzT4/s1600/elbows+in+push+ups.JPG
+        </property>
+      </level>
+      <level name="Diamond Push Ups">
+        <property name="image">
+          http://3.bp.blogspot.com/-Fmcy_zT7UlI/Um_crdbTZSI/AAAAAAAABZo/DOtVNsx8y5c/s1600/diamond+push+ups.JPG
+        </property>
+      </level>
+      <level name="Uneven Push Ups">
+        <property name="two_sided">true</property>
+        <property name="image">
+          http://2.bp.blogspot.com/-eaeT1VN8rjg/Um_c7ohsxLI/AAAAAAAABZw/Lo_Rj2QVGZU/s200/uneven+push+ups.JPG
+        </property>
+      </level>
+      <level name="Decline Push Ups">
+        <property name="image">
+          http://4.bp.blogspot.com/-zI7rQPCwx78/Um_dUv2lerI/AAAAAAAABZ4/nYIWsdUmQMA/s200/decline+push+ups.JPG
+        </property>
+      </level>
+      <level name="Decline Elbows In Push Ups">
+        <property name="image">
+          http://2.bp.blogspot.com/-nCppQZSnCn8/Um_dvbWZgxI/AAAAAAAABaA/choTc25pt_8/s200/decline+elbows+in+push+ups.JPG
+        </property>
+      </level>
+      <level name="Decline Diamond Push Ups">
+        <property name="image">
+          http://1.bp.blogspot.com/-1oVd0ihdxTw/Um_d7PtOfCI/AAAAAAAABaI/5F8pjyI4Utw/s200/decline+diamond+push+ups.JPG
+        </property>
+      </level>
+      <level name="Wall One Arm Push Ups">
+        <property name="two_sided">true</property>
+        <property name="image">
+          http://4.bp.blogspot.com/-kDoVoE7ID2M/Um_eI_im5TI/AAAAAAAABaQ/M4_ucaZoFkg/s200/wall+one+arm+push+ups+composite.JPG
+        </property>
+      </level>
+      <level name="Incline One Arm Push Ups">
+        <property name="two_sided">true</property>
+        <property name="image">
+          http://1.bp.blogspot.com/-Qa_nnRZTqy4/Um_eYEQqeLI/AAAAAAAABaY/tqTXV7NKsiU/s200/incline+one+arm+push+ups.JPG
+        </property>
+      </level>
+      <level name="One Arm Push Ups">
+        <property name="two_sided">true</property>
+        <property name="image">
+          http://3.bp.blogspot.com/-SHmywCYIajg/Um_ezjMiKQI/AAAAAAAABag/g2AVm5gd--c/s1600/one+arm+push+ups.JPG
+        </property>
+      </level>
+      <level name="Decline One Arm Push Ups">
+        <property name="two_sided">true</property>
+        <property name="image">
+          http://3.bp.blogspot.com/-dvWyYdRFrPw/Um_e_d1DCwI/AAAAAAAABao/5Ss3iTbnsDA/s200/declime+one+arm+push+ups.JPG
+        </property>
+      </level>
+    </exercise>
+
+    <exercise name="Dips">
+
+      <property name="primary_motion">eccentric</property>
+      <property name="reps_begin">4,4,4</property>
+      <property name="reps_finish">8,8,8</property>
+
+      <level name="Bent Knee Bench Dips">
+        <property name="image">
+          http://2.bp.blogspot.com/-mr_RXs_lVdY/Um_m7sQb1tI/AAAAAAAABa4/5vbUMMCKu5I/s200/bent+knee+bench+dips.JPG
+        </property>
+      </level>
+      <level name="Straight Legs Bench Dips">
+        <property name="image">
+          http://3.bp.blogspot.com/-rUxhI0nCbOs/Um_nHlPTVqI/AAAAAAAABbA/u5ehqlBvKms/s200/straight+legs+bench+dips.JPG
+        </property>
+      </level>
+      <level name="One Elevated Leg Straight Legs Bench Dips">
+        <property name="image">
+          http://3.bp.blogspot.com/-3Ti6U42LE9o/Um_nWPE7s0I/AAAAAAAABbI/LlN39mk21iM/s200/one+extended+leg+straight+legs+bench+dips.JPG
+        </property>
+      </level>
+      <level name="Elevated Legs Bench Dips">
+        <property name="image">
+          http://4.bp.blogspot.com/-xqX-0YBj3C0/Um_nihO5hlI/AAAAAAAABbQ/6bXOCl2nfoU/s200/elevated+legs+bench+dips.JPG
+        </property>
+      </level>
+      <level name="One Extended Leg Elevated Legs Bench Dips">
+        <property name="image">
+          http://1.bp.blogspot.com/-PN6znMHtHJ8/Um_nu15e79I/AAAAAAAABbY/3zTUFK_dYvQ/s200/one+extended+leg+elevated+legs+bench+dips.JPG
+        </property>
+      </level>
+      <level name="Legs Supported Dips">
+        <property name="image">
+          http://2.bp.blogspot.com/-rAy0jLs5Pzw/Um_oBnrOQmI/AAAAAAAABbg/ppr4ogSW3YU/s200/legs+supported+dips.JPG
+        </property>
+      </level>
+      <level name="One Leg Supported Dips">
+        <property name="image">
+          http://1.bp.blogspot.com/-Eo08R5C8RY0/Um_pLMPxW7I/AAAAAAAABcI/m_QXeRkTqTk/s200/One+leg+supported+dips.JPG
+        </property>
+      </level>
+      <level name="Jumping Eccentric Dips">
+        <property name="reps_duration_concentric">1s</property>
+        <property name="reps_duration_eccentric">5s</property>
+        <property name="image">
+          http://2.bp.blogspot.com/-3n0ABuxr4hY/Um_piMRM1SI/AAAAAAAABcU/tb8iuFKZR08/s200/jumping+and+eccentric+dips.JPG
+        </property>
+      </level>
+      <level name="Half Dips">
+        <property name="image">
+          http://2.bp.blogspot.com/--Tg52iE2Bsc/Um_pzE-cVEI/AAAAAAAABcg/8X7Y-5Ah1ZA/s200/half+dips.JPG
+        </property>
+      </level>
+      <level name="Dips">
+        <property name="image">
+          http://4.bp.blogspot.com/-buA9msOZ4Qg/Um_qP_JWBrI/AAAAAAAABco/tR6Y9r0Jfog/s1600/dips.JPG
+        </property>
+      </level>
+      <level name="Legs Forward Dips">
+        <property name="image">
+          http://2.bp.blogspot.com/-aBsZ-LxGxqY/Um_qizNrZhI/AAAAAAAABcw/dksLmLTzLzk/s200/legs+forward+dips.JPG
+        </property>
+      </level>
+      <level name="Modified Russian Dips">
+        <property name="image">
+          http://2.bp.blogspot.com/-PALEwmqhh0g/Um_qxhKGiqI/AAAAAAAABc4/nMxsM7o6l8A/s1600/modified+russian+dips.JPG
+        </property>
+      </level>
+      <level name="Russian Dips">
+        <property name="image">
+          http://3.bp.blogspot.com/-HZVlh6kB9iw/Um_rClsGQNI/AAAAAAAABdA/Uy1YvII8HDE/s200/russiandips.JPG
+        </property>
+      </level>
+    </exercise>
+
+  </exercise>
+
+  <exercise name="Horizontal Pulls">
+
+    <property name="primary_motion">concentric</property>
+    <property name="reps_begin">4,4,4</property>
+    <property name="reps_finish">8,8,8</property>
+
+    <level name="Vertical Pulls">
+      <property name="image">
+        http://1.bp.blogspot.com/-Vvxd7I_IYpE/Um_1YfuTC6I/AAAAAAAABdo/66JhO7Srbu4/s1600/vertical+pull.JPG
+      </property>
+    </level>
+    <level name="Vertical Pulls With A Towel">
+      <property name="image">
+        http://1.bp.blogspot.com/-XZijo-cJNls/Um_2YahGvqI/AAAAAAAABd4/-qp2K3PErkA/s1600/vertical+pulls+with+towel.JPG
+      </property>
+    </level>
+    <level name="Inverted Rows Legs Bend">
+      <property name="image">
+        http://3.bp.blogspot.com/-pysUDQzp044/Um_20WBLxAI/AAAAAAAABeE/VJEaJ_qgpdU/s1600/inverted+rows,+legs+bent.JPG
+      </property>
+    </level>
+    <level name="Inverted Rows Straight Legs">
+      <property name="image">
+        http://4.bp.blogspot.com/-Tqo2art42HQ/Um_3d8oQeZI/AAAAAAAABeM/odi8_l6scd0/s200/inverted+rows,+straight+legs.JPG
+      </property>
+    </level>
+    <level name="Inverted Rows One Leg Extended">
+      <property name="image">
+        http://4.bp.blogspot.com/-spe3f7vudq0/Um_4mhsN_sI/AAAAAAAABes/t_jfI5S0xgs/s1600/inverted+rows,+one+leg+extended.JPG
+      </property>
+    </level>
+    <level name="Inverted Rows Legs Elevated">
+      <property name="image">
+        http://2.bp.blogspot.com/-ozS4Ee_DtaA/Um_44SlT1CI/AAAAAAAABe0/C8p8lBwsvos/s1600/inverted+rows+legs+elevated.JPG
+      </property>
+    </level>
+    <level name="Inverted Rows Legs Elevated One Leg Extended">
+      <property name="image">
+        http://4.bp.blogspot.com/-LF2hHXFLLEk/Um_5INkUwdI/AAAAAAAABfA/RHeYr9tEVuw/s200/inverted+rows+legs+elevated+one+leg+extended.JPG
+      </property>
+    </level>
+    <level name="Tuck Knees Front Lever Rows">
+      <property name="image">
+        http://4.bp.blogspot.com/-j71rDum7y1M/Um_5b46iykI/AAAAAAAABfE/5C0zA-xCsvY/s200/tuck+knees+front+lever+rows.JPG
+      </property>
+    </level>
+    <level name="Advanced Tuck Knees Front Lever Rows">
+      <property name="image">
+        http://3.bp.blogspot.com/-5axxLDZBAy8/Um_5mlTT0-I/AAAAAAAABfM/D-Y-BPIC4ls/s200/advanced+tuck+knees+front+lever+rows.JPG
+      </property>
+    </level>
+    <level name="One Tuck Knee One Leg Extended Front Lever Rows">
+      <property name="image">
+        http://2.bp.blogspot.com/-wbvU-8K4QME/Um_51m5FYZI/AAAAAAAABfU/y1ZfX9GxhK0/s200/one+tuck+knee+one+leg+extended+front+lever+rows.JPG
+      </property>
+    </level>
+    <level name="Straddle Legs Front Lever Rows">
+      <property name="image">
+        http://3.bp.blogspot.com/-hAJbYn1_fa0/Um_6DCETBaI/AAAAAAAABfo/rX_clGn5E_Y/s200/straddle+legs+front+lever+rows.JPG
+      </property>
+    </level>
+    <level name="Front Lever Rows">
+      <property name="image">
+        http://2.bp.blogspot.com/-sCjs2LDbpkg/Um_6ankhP7I/AAAAAAAABfw/FXBd2NMQ-hA/s200/front+lever+rows.JPG
+      </property>
+    </level>
+  </exercise>
+
+  <exercise name="Plank">
+
+    <property name="duration_begin">30s</property>
+    <property name="duration_finish">1min</property>
+    <property name="duration_increment">5s</property>
+    <property name="pause_after_exercise">0</property>
+
+    <level name="Kneeling Plank">
+      <property name="image">
+        http://4.bp.blogspot.com/-5B3O_MeOnOk/UnAC6wMWhWI/AAAAAAAABgk/flTlcO-kKkk/s1600/kneeling+plank.JPG
+      </property>
+    </level>
+    <level name="Kneeling Side Plank">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://4.bp.blogspot.com/-7p3Kv2ijyEQ/UnADKuLqyaI/AAAAAAAABgs/iLElOcb_7yk/s1600/kneeling+side+plank.JPG
+      </property>
+    </level>
+    <level name="Plank">
+      <property name="image">
+        http://3.bp.blogspot.com/-N9tjvL7HAmo/UnADv5KWa3I/AAAAAAAABhA/6vbeLXUs-nk/s1600/plank.JPG
+      </property>
+    </level>
+    <level name="Side Plank">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://4.bp.blogspot.com/-xOQnxo73h7k/UnAEEJR3dYI/AAAAAAAABhI/dr24w295NSI/s1600/side+plank.JPG
+      </property>
+    </level>
+    <level name="Decline Plank">
+      <property name="image">
+        http://2.bp.blogspot.com/-0GmPJzRld48/UnAEWNAw1NI/AAAAAAAABhQ/EZ9c_aKyezM/s1600/decline+plank.JPG
+      </property>
+    </level>
+    <level name="Leg Lift Plank">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://4.bp.blogspot.com/-OMgXBSxbYEI/UnAE4hZVd9I/AAAAAAAABho/M_4bzEvVm_U/s200/leg+lift+plank.JPG
+      </property>
+    </level>
+    <level name="Arm And Leg Lift Plank">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://1.bp.blogspot.com/-ZERuKipEA2w/UnAFQ-WeZmI/AAAAAAAABhw/ndg2NrcKIpw/s1600/arm+and+leg+lift+plank.JPG
+      </property>
+    </level>
+    <level name="Arm And Leg Lift Side Plank">
+      <property name="two_sided">true</property>
+      <property name="image">
+        http://1.bp.blogspot.com/-cCgoHg3zdpE/UnAFp2GSSrI/AAAAAAAABh4/S9Gc-8sZAPI/s200/arm+and+leg+lift+side+plank.JPG
+      </property>
+    </level>
+    <level name="Wall Plank">
+      <property name="image">
+        http://4.bp.blogspot.com/-etuy7uUCXsg/UnAGEFRMIBI/AAAAAAAABiA/UBx37fpFUGE/s1600/wall+plank.JPG
+      </property>
+    </level>
+
+  </exercise>
+
+  <exercise name="Static Stretching">
+
+    <property name="duration">10min</property>
+    <property name="pause_after_exercise">0</property>
+
+  </exercise>
+
+</training>

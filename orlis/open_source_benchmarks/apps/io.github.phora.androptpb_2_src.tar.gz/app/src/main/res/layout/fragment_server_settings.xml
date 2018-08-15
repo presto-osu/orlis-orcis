@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context="io.github.phora.androptpb.activities.ServersFragment">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/android:list"
+        android:longClickable="true"
+        android:layout_gravity="center_horizontal"
+        android:choiceMode="singleChoice" />
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:id="@+id/footer">
+
+        <Spinner
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:id="@+id/spinner"
+            android:layout_weight="0.5"
+            android:entries="@array/UrlPrefixes"/>
+
+        <EditText
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:id="@+id/ServersFragment.UrlBox"
+            android:layout_weight="1"
+            android:inputType="textUri"/>
+
+        <ImageButton android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/ic_menu_add"
+                android:contentDescription="@string/ServersFragment.AddServer"
+                android:id="@+id/ServersFragment.AddServer"
+                android:longClickable="true"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+com.nightshadelabs.anotherbrowser.AnotherBrowserActivity
+com.nightshadelabs.anotherbrowser.AnotherBrowserActivity: AnotherBrowserActivity()
+com.nightshadelabs.anotherbrowser.AnotherBrowserActivity: void onCreate(android.os.Bundle)
+com.nightshadelabs.anotherbrowser.AnotherBrowserActivity: android.net.Uri findUrlInString(java.lang.String)
+com.nightshadelabs.anotherbrowser.BuildConfig
+com.nightshadelabs.anotherbrowser.BuildConfig: BuildConfig()
+com.nightshadelabs.anotherbrowser.R
+com.nightshadelabs.anotherbrowser.R: R()
+com.nightshadelabs.anotherbrowser.R$attr
+com.nightshadelabs.anotherbrowser.R$attr: R$attr()
+com.nightshadelabs.anotherbrowser.R$mipmap
+com.nightshadelabs.anotherbrowser.R$mipmap: int ic_launcher
+com.nightshadelabs.anotherbrowser.R$mipmap: R$mipmap()
+com.nightshadelabs.anotherbrowser.R$string
+com.nightshadelabs.anotherbrowser.R$string: int app_name
+com.nightshadelabs.anotherbrowser.R$string: int error
+com.nightshadelabs.anotherbrowser.R$string: int open_in_browser
+com.nightshadelabs.anotherbrowser.R$string: R$string()

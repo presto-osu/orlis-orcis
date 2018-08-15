@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Halachiczny Czasy Modły</string>
+    <string name="title_activity_zmanim">Halachiczny Czasy</string>
+    <string name="location_unknown">Nieznany adres</string>
+    <string name="location_coords">Szr. %1$s; Dług. %2$s</string>
+    <string name="twelve_hour_time_format">h:mm:ss a</string>
+    <string name="twenty_four_hour_time_format">H:mm:ss</string>
+    <string name="month_day_year" formatted="false">%-e %B %Y</string>
+    <string name="off">Wyłączony</string>
+
+    <!-- Recurring opinions -->
+    <string name="opinion_120">Dzień jest 120 minut przed wschodem słońca / po zachodzie słońca</string>
+    <string name="opinion_120_zmanis">Dzień jest 120 <i>zmanios</i> minut przed wschodem słońca / po zachodzie słońca</string>
+    <string name="opinion_16">Dzień jest 16,1° poniżej wschodem słońca / zachodzie słońca</string>
+    <string name="opinion_16_sunset">Dzień jest od świtu 16,1° do poziomu morza słońca</string>
+    <string name="opinion_16_night">Dzień jest od świtu 16,1° do zmroku</string>
+    <string name="opinion_26">Dzień jest 26° poniżej wschodem słońca / zachodzie słońca</string>
+    <string name="opinion_19">Dzień jest 19,8° poniżej wschodem słońca / zachodzie słońca</string>
+    <string name="opinion_18">Dzień jest 18° poniżej wschodem słońca / zachodzie słońca</string>
+    <string name="opinion_60">Dzień jest 60 minut przed wschodem słońca / po zachodzie słońca</string>
+    <string name="opinion_72">Dzień jest 72 minut przed wschodem słońca / po zachodzie słońca</string>
+    <string name="opinion_72_zmanis">Dzień jest 72 <i>zmanios</i> minut przed wschodem słońca / po zachodzie słońca</string>
+    <string name="opinion_90">Dzień jest 90 minut przed wschodem słońca / po zachodzie słońca</string>
+    <string name="opinion_90_zmanis">Dzień jest 90 <i>zmanios</i> minut przed wschodem słońca / po zachodzie słońca</string>
+    <string name="opinion_96">Dzień jest 96 minut przed wschodem słońca / po zachodzie słońca</string>
+    <string name="opinion_96_zmanis">Dzień jest 96 <i>zmanios</i> minut przed wschodem słońca / po zachodzie słońca</string>
+    <string name="opinion_ateret">Zgodnie z Jesziwy Ateret Torą</string>
+    <string name="opinion_gra">Zgodnie z GRA i Baal Tanya</string>
+    <string name="opinion_mga">Zgodnie z Magen Abrahama</string>
+    <string name="opinion_tam">Zgodnie z Rabbeinu Tam</string>
+
+    <!-- Temporal hour -->
+    <string name="hour">Sezonowy godzin</string>
+
+    <!-- List -->
+    <string name="dawn">Świt</string>
+
+    <!-- Tallis and Tefillin -->
+    <string name="tallis">Najwcześniejsze tallis i tefilin (miszejakir)</string>
+    <string name="tallis_summary">Słońce jest 11,5° poniżej horyzontu</string>
+    <string name="tallis_11">Słońce jest 11° poniżej horyzontu</string>
+    <string name="tallis_10">Słońce jest 10,2° poniżej horyzontu</string>
+
+    <!-- Sunrise -->
+    <string name="sunrise">Wschód słońca</string>
+    <string name="sunrise_summary">W regionie poziom</string>
+    <string name="sunrise_sea">Na poziomie morza</string>
+
+    <!-- Latest shema -->
+    <string name="shema">Ostatnia szema</string>
+    <string name="shema_7">Dzień jest od świtu 16,1° do nocy 7,083°</string>
+    <string name="shema_3">3 godziny jeszcze przed południem</string>
+    <string name="shema_fixed">3 godziny przed stałym lokalnym południem</string>
+
+    <!-- Latest shacharis -->
+    <string name="prayers">Ostatnia szacharis</string>
+    <string name="prayers_fixed">2 godziny przed stałym lokalnym południem</string>
+    <string name="prayers_2">2 godziny jeszcze przed południem</string>
+
+    <!-- Midday -->
+    <string name="midday">Południe (chatzos)</string>
+    <string name="midday_summary">Słoneczne południe</string>
+    <string name="midday_fixed">Południe korekcie o lokalnym szerokości geograficznej</string>
+
+    <!-- Earliest mincha -->
+    <string name="earliest_mincha">Mincha gedola</string>
+    <string name="earliest_mincha_summary">Najwcześniejsze modlitwy popołudniowe</string>
+    <string name="earliest_mincha_30">30 minut po południa</string>
+
+    <!-- Mincha ketana -->
+    <string name="mincha">Mincha ketana</string>
+    <string name="mincha_summary">Modły popołudniowe</string>
+
+    <!-- Plug hamincha -->
+    <string name="plug_hamincha">Plag hamincha</string>
+
+    <!-- Candle lighting -->
+    <string name="candles">Oświetlenie świecę</string>
+    <string name="chanukka">Hanukka</string>
+
+    <plurals name="candles_summary">
+        <item quantity="one">%1$d minut przed zachodem słońca</item>
+        <item quantity="few">%1$d minuty przed zachodem słońca</item>
+        <item quantity="many">%1$d minut przed zachodem słońca</item>
+        <item quantity="other">%1$d minut przed zachodem słońca</item>
+    </plurals>
+    <plurals name="candles_chanukka">
+        <item quantity="one">%1$d świeca Hanukkowy</item>
+        <item quantity="few">%1$d świece Hanukkowy</item>
+        <item quantity="many">%1$d świec Hanukkowy</item>
+        <item quantity="other">%1$d świec Hanukkowy</item>
+    </plurals>
+
+    <!-- Sunset -->
+    <string name="sunset">Zachód słońca</string>
+
+    <!-- Twilight -->
+    <string name="twilight">Zmierzch</string>
+    <string name="twilight_2stars">2 gwiazdki widoczne</string>
+    <string name="twilight_7_083">13,5 minut przed 7,083° zmroku</string>
+    <string name="twilight_58">58,5 minut po zachodzie słońca</string>
+    <string name="twilight_13">Słońce jest 13,24° poniżej horyzontu</string>
+
+    <!-- Nightfall -->
+    <string name="nightfall">Zmrok</string>
+    <string name="nightfall_3stars">3 gwiazdki widoczne</string>
+    <string name="nightfall_3_65">Słońce jest 3,65° poniżej poziomu morza</string>
+    <string name="nightfall_3_676">Słońce jest 3,676° poniżej poziomu morza</string>
+    <string name="nightfall_4_37">Słońce jest 4,37° poniżej poziomu morza</string>
+    <string name="nightfall_4_61">Słońce jest 4,61° poniżej poziomu morza</string>
+    <string name="nightfall_4_8">Słońce jest 4,8° poniżej poziomu morza</string>
+    <string name="nightfall_5_88">Słońce jest 5,88° poniżej poziomu morza</string>
+    <string name="nightfall_5_95">Słońce jest 5,95° poniżej poziomu morza</string>
+    <string name="nightfall_7">Słońce jest 7,083° poniżej poziomu morza</string>
+    <string name="nightfall_8">Słońce jest 8,5° poniżej poziomu morza</string>
+
+    <!-- Midnight -->
+    <string name="midnight">Północ (chatzos)</string>
+    <string name="midnight_summary">Słoneczne północ</string>
+    <string name="midnight_12">12 godziny po południa</string>
+    <string name="midnight_6">6 godziny po zmrok</string>
+
+    <!-- Pesach -->
+    <string name="eat_chametz">Ostatni czas zjeść chamec</string>
+    <string name="burn_chametz">Ostatni czas spalić chamec</string>
+
+    <!-- Moon -->
+    <string name="molad">Narodziny nowego księżyca (molad)</string>
+    <string name="molad_summary">Średnia molad</string>
+    <string name="levana_earliest">Najwcześniej uświęcenie nowiu (kidusz levana)</string>
+    <string name="levana_earliest_summary">3 dni po molad</string>
+    <string name="levana_7">7 dni po molad</string>
+    <string name="levana_latest">Ostatnia uświęcenie nowiu (kidusz levana)</string>
+    <string name="levana_latest_summary">W połowie drogi między molad i molad</string>
+    <string name="levana_15">15 dni po molad</string>
+
+    <!-- Fast / Taanis -->
+    <string name="fast_begins">Post rozpoczyna</string>
+    <string name="fast_ends">Post kończy</string>
+
+    <!-- Omer -->
+    <string name="omer">Omer</string>
+    <string name="omer_format">%1$s %2$s</string>
+    <string name="omer_33">Lag %1$s</string>
+    <string name="omer_off">@string/off</string>
+    <string name="omer_b">ba-Omer</string>
+    <string name="omer_l">la-Omer</string>
+
+    <!-- Preferences -->
+    <string name="menu_settings">Ustawienia</string>
+    <string name="pref_general_title">Ogólne</string>
+    <string name="pref_appearance_title">Wygląd</string>
+    <string name="coords_title">Współrzędne</string>
+    <string name="coords_format_title">Format współrzędne</string>
+    <string name="coords_format_decimal">Dziesiętny</string>
+    <string name="coords_format_sexagesimal">Sześćdziesiątkowa</string>
+    <string name="past_title">Czasy które upłynęły</string>
+    <string name="seconds_title">Sekund</string>
+    <string name="summaries_title">Podsumowań</string>
+    <string name="gradient_title">Tło gradient</string>
+    <string name="theme_dark">Ciemny</string>
+    <string name="theme_light">Światła</string>
+    <string name="theme_none">Żaden</string>
+
+    <!-- Go to date -->
+    <string name="menu_date">Data</string>
+    <string name="today">Dzisiaj</string>
+    <string name="yesterday">Wczoraj</string>
+    <string name="tomorrow">Jutro</string>
+
+    <!-- Compass -->
+    <string name="menu_compass">Kompas</string>
+    <string name="title_activity_compass">Kierunek modlitwy</string>
+    <string name="compass_summary">Kierunek modlitwy do Świętego Świętych w Jerozolimie</string>
+    <string name="north">P</string>
+    <string name="east">W</string>
+    <string name="south">p</string>
+    <string name="west">Z</string>
+
+    <!-- Setting per time -->
+    <string name="opinion">Opinia</string>
+    <string name="emphasis_title">Akcent</string>
+    <string name="animations">Animacje</string>
+
+    <!-- Location -->
+    <string name="menu_location">Lokalizacja</string>
+    <string name="title_activity_location">Moja lokalizacja</string>
+
+    <!-- Settings screen - Privacy -->
+    <string name="pref_privacy_security_title">Prywatność i bezpieczeństwo</string>
+    <string name="pref_privacy_clear_history">Wyczyść historię</string>
+
+    <!-- About -->
+    <string name="pref_about_title">O</string>
+    <string name="version">Wersja aplikacji</string>
+    <string name="kosherjava">KosherJava</string>
+    <string name="kosherjava_version">Prawa autorskie \u00A9 2004–2011 Elijahu Hershfeld</string>
+
+    <!-- Widget -->
+    <string name="title_widget_clock">Halachiczny Czasy Zegar</string>
+
+    <!-- Reminder -->
+    <string name="reminder">Przypomnienie</string>
+    <string name="reminder_stream_title">Rodzaj przypomnienia</string>
+    <string name="reminder_tone">Dzwonek przypomnienia</string>
+    <string name="alarm_volume_title" msgid="2285597478377758706">"Alarm"</string>
+    <string name="notification_volume_title" msgid="2012640760341080408">"Powiadomienie"</string>
+    <string name="reminder_friday">Przypomnij w piątek</string>
+    <string name="reminder_monday">Przypomnij w poniedziałek</string>
+    <string name="reminder_saturday">Przypomnij w soboty i święta</string>
+    <string name="reminder_sunday">Przypomnij w niedzielę</string>
+    <string name="reminder_thursday">Przypomnij w czwartek</string>
+    <string name="reminder_tuesday">Przypomnij we wtorek</string>
+    <string name="reminder_wednesday">Przypomnij w środę</string>
+
+</resources>

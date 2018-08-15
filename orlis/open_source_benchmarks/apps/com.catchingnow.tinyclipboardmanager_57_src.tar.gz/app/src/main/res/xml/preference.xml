@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_app_setting_category">
+        <SwitchPreference
+            android:title="@string/pref_service_title"
+            android:summary="@string/pref_service_summary"
+            android:key="pref_start_service"
+            android:defaultValue="true" />
+
+        <!-- <SwitchPreference
+            android:title="Display"
+            android:summary="Show icon in launcher"
+            android:key="pref_show_icon"
+            android:defaultValue="true" /> -->
+        <ListPreference
+            android:title="@string/pref_storage_title"
+            android:summary="@string/pref_storage_summary"
+            android:key="pref_save_dates"
+            android:dialogTitle="@string/pref_storage_dialog"
+            android:defaultValue="9999"
+            android:entries="@array/pref_save_dates_descriptions"
+            android:entryValues="@array/pref_save_dates_values" />
+        <ListPreference
+            android:title="@string/pref_click_title"
+            android:summary="@string/pref_click_summary"
+            android:key="pref_long_click_behavior"
+            android:dialogTitle="@string/pref_click_title"
+            android:defaultValue="0"
+            android:entries="@array/pref_click_behavior_descriptions"
+            android:entryValues="@array/pref_click_behavior_values" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:dependency="pref_start_service"
+        android:title="@string/pref_floating_button">
+        <SwitchPreference
+            android:title="@string/pref_floating_button"
+            android:key="pref_floating_button_switch"
+            android:summary="@string/pref_floating_button_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:dependency="pref_start_service"
+        android:title="@string/pref_notification_title">
+        <SwitchPreference
+            android:title="@string/pref_notification_title"
+            android:key="pref_notification_show"
+            android:summaryOn="@string/pref_notification_summary_on"
+            android:summaryOff="@string/pref_notification_summary_off"
+            android:defaultValue="true" />
+        <ListPreference
+            android:title="@string/pref_notification_priority_title"
+            android:summary="@string/pref_notification_priority_summary"
+            android:key="pref_notification_priority"
+            android:dialogTitle="@string/pref_notification_priority_title"
+            android:defaultValue="0"
+            android:entries="@array/pref_notification_priority_descriptions"
+            android:entryValues="@array/pref_notification_priority_values"
+            android:dependency="pref_notification_show" />
+        <SwitchPreference
+            android:title="@string/pref_notification_pin_title"
+            android:key="pref_notification_pin"
+            android:summaryOn="@string/pref_notification_pin_summary_on"
+            android:summaryOff="@string/pref_notification_pin_summary_off"
+            android:defaultValue="false"
+            android:dependency="pref_notification_show" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_about_category">
+        <Preference
+            android:title="@string/pref_about_title"
+            android:summary="@string/pref_about_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://goo.gl/dpwozO" />
+        </Preference>
+        <Preference
+            android:title="@string/pref_rate_title"
+            android:summary="@string/pref_rate_summary">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://goo.gl/1KigA6" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

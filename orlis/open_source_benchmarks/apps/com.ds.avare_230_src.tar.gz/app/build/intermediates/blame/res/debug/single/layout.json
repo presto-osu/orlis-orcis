@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/airport.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/airport.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/plan.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/plan.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/checklist.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/checklist.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/message.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/message.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/textview.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/textview.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/satellite.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/satellite.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/platestag.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/platestag.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/hotel.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/hotel.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/fuel_submit.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/fuel_submit.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/location.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/location.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/privacy.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/privacy.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/chart_download.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/chart_download.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/trip.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/trip.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/tabs_bg.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/tabs_bg.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/search.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/search.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/web.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/web.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/weather.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/weather.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/search_list.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/search_list.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/chart_download_list.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/chart_download_list.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/comments_submit.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/comments_submit.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/input.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/input.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/textview_wrap.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/textview_wrap.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/nearest.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/nearest.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/preferences.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/preferences.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/plates.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/plates.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/typevalue.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/typevalue.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/folder.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/folder.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/lonlat.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/lonlat.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/layout/nearest_list.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/layout/nearest_list.xml"
+    }
+]

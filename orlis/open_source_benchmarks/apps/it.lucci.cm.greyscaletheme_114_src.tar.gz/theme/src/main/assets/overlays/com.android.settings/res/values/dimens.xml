@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Cards Style -->
+    <dimen name="dashboard_padding_start">8.0dip</dimen>
+    <dimen name="dashboard_padding_end">8.0dip</dimen>
+    <dimen name="dashboard_padding_top">8.0dip</dimen>
+    <dimen name="dashboard_padding_bottom">0.0dip</dimen>
+
+    <!-- Category card radius -->
+    <dimen name="dashboard_radius">2.0dip</dimen>
+
+    <!-- Category -->
+    <dimen name="dashboard_category_elevation">2.0dip</dimen>
+    <dimen name="dashboard_category_title_margin_start">16.0dip</dimen>
+    <dimen name="dashboard_category_title_height">48dp</dimen>
+    <dimen name="dashboard_tile_image_size">32.0dip</dimen>
+    <dimen name="dashboard_category_padding_start">0.0dip</dimen>
+    <dimen name="dashboard_category_padding_end">0.0dip</dimen>
+
+</resources>
+

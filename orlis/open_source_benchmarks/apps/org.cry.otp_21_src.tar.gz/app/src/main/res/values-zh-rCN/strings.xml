@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_dialog_title">关于</string>
+    <string name="add_info">添加配置</string>
+    <string name="app_name">mOTP</string>
+    <string name="about_info">关于</string>
+    <string name="edit_profile">更改配置</string>
+    <string name="delete">删除</string>
+    <string name="error_title">错误!</string>
+    <string name="gen_key">生成密钥</string>
+    <string name="get_secret">查看秘密</string>
+    <string name="key">密钥</string>
+    <string name="manage_profile_title">管理配置</string>
+    <string name="ok">确定</string>
+    <string name="pin">密码:</string>
+    <string name="prof_name">配置名:</string>
+    <string name="prof_name_no_colon">配置名</string>
+    <string name="secret">秘密</string>
+    <string name="seed_name">数种子:</string>
+    <string name="seed_notes">请注意，这是生成数种子的密钥。必须包含20个字符，只能使用字母数字字符 - 无符号\r\n\r\n为了找到密钥，配置后，长按配置，然后选择“查看秘密”</string>
+    <string name="time">时间</string>
+    <string name="time_zone">时区</string>
+    <string name="epochLabel">时代:</string>
+    <string name="epochValue">尚未确定</string>
+    <string name="info">参考:\nmOTP - http://motp.sf.net\nHOTP - RFC 4226
+\nTOTP - http://tools.ietf.org/html/draft-mraihi-totp-timebased-05\n\n
+程序员:\nChristopher Miceli\nMichael Miceli</string>
+    <string name="error">名称必须至少4个字符。
+\n\n蜜种子必须包含20个字符。\n\n不能有重复的配置名。</string>
+    <string name="hex_seed_error">数种子只能用0–9 A-F,还有必须位必须为偶数.</string>
+    <string name="seed_type">数种子种类</string>
+    <string name="digit_error">数字长度必须介于1到10数字。</string>
+    <string name="otp_type_prompt">选择一个OTP</string>
+    <string name="sha_type_prompt">选择一个SHA家族</string>
+    <string name="output_size">數字: </string>
+    <string name="save">保存</string>
+    <string name="time_interval">时间间隔</string>
+    <string name="six">6</string>
+</resources>

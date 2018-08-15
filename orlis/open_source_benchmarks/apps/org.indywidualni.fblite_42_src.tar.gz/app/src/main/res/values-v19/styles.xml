@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowNoTitle">true</item> <!-- Remove action bar -->
+        <item name="windowActionBar">false</item> <!-- The same for 2.x version -->
+
+        <!-- Translucent status bar with background color (for KitKat only) -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowBackground">@drawable/window_background</item>
+    </style>
+
+    <style name="AppWithToolbar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Not needed but let's leave it here just in case -->
+        <item name="android:textColorPrimary">@color/titleColor</item>
+
+        <!-- Translucent status bar with background color (for KitKat only) -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowBackground">@drawable/window_background</item>
+    </style>
+</resources>

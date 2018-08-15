@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="decimal"
+        android:entries="@array/coords_format_entries"
+        android:entryValues="@array/coords_format_values"
+        android:key="coords.format"
+        android:summary="@string/coords_format_decimal"
+        android:title="@string/coords_format_title"/>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="coords.visible"
+        android:title="@string/coords_title"/>
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="seconds.visible"
+        android:title="@string/seconds_title"/>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="summaries.visible"
+        android:title="@string/summaries_title"/>
+    <ListPreference
+        android:defaultValue="dark"
+        android:entries="@array/list_theme_entries"
+        android:entryValues="@array/list_theme_values"
+        android:key="theme"
+        android:title="@string/theme_title"/>
+
+</PreferenceScreen>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainListActivity">
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@mipmap/ic_filter_list_white_24dp"
+        android:orderInCategory="100"
+        android:title="@string/action_filter"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_mapview"
+        android:icon="@mipmap/ic_map_white_24dp"
+        android:title="@string/action_mapview"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@mipmap/ic_search_white_24dp"
+        android:title="@string/action_menu_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+</menu>

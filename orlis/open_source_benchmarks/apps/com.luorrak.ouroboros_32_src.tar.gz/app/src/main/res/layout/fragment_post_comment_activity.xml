@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/post_comment_scrollview"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    tools:context="com.luorrak.ouroboros.reply.ReplyCommentFragment"
+    android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/post_comment_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/post_comment_editText_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:maxLines="1" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="100">
+                <CheckBox
+                    android:id="@+id/post_comment_checkBox_sage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="sage"
+                    android:layout_weight="5"/>
+                <EditText
+                    android:id="@+id/post_comment_editText_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="text"
+                    android:layout_weight="95"
+                    android:maxLines="1" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/post_comment_editText_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Subject"
+                android:inputType="textCapSentences"
+                android:maxLines="1" />
+            <EditText
+                android:id="@+id/post_comment_editText_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences|textMultiLine"
+                android:hint="Enter your comment" />
+            <ImageView
+                android:id="@+id/post_comment_captcha_image"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:visibility="gone"/>
+            <EditText
+                android:id="@+id/post_comment_captcha_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Please Enter Captcha Text"
+                android:visibility="gone"/>
+        </LinearLayout>
+</ScrollView>

@@ -1,0 +1,50 @@
+# はじめに
+野良アプリをインストールした時点でご理解いただけているとは思いますが、当アプリは自己責任でご利用ください。
+
+# 無効化とは
+サードパーティ（端末製造メーカーや通信キャリア、Googleなど）が予めインストールしたアプリケーションを停止させることです。
+無効化自体は、OSの標準機能です。
+
+# 無効化マネージャーとは
+【「無効にする」ボタンが押せるかどうか】
+を基準にカテゴリ分けを行い、設定画面へのショートカットを提供するツールです。
+
+※ 【無効化ボタンが押せること】と【無効化して良いか否か】は別問題です。
+
+# なぜ野良アプリなのか
+Google Playのコンテンツポリシーに違反する恐れがあるためです。
+https://play.google.com/intl/ALL_jp/about/developer-content-policy.html
+
+> アプリは、アプリによって提供されるセキュリティ サービスの一部である場合を除き、サードパーティのアプリを削除または無効にするようユーザーを助長、誘導したり、欺いたりしてはなりません。
+
+# Running process status
+See http://developer.android.com/reference/android/app/ActivityManager.RunningAppProcessInfo.html
+
+Background
+> this process process contains background code that is expendable.
+Empty
+> this process is empty of any actively running code.
+Foreground
+> this process is running the foreground UI.
+Gone
+> this process does not exist.
+Perceptible
+> this process is running something that is considered to be actively perceptible to the user. An example would be an application performing background music playback.
+Service
+> this process is contains services that should remain running.
+Visible
+> this process is running something that is actively visible to the user, though not in the immediate foreground.
+
+# Source code
+https://github.com/75py/DisableManager
+License: Apache License 2.0
+
+# Developer
+Twitter
+ https://twitter.com/dev75py
+Google+
+ https://plus.google.com/117203260116749253181/
+Email
+ dev.75py@gmail.com
+Other apps
+ https://play.google.com/store/apps/developer?id=75py

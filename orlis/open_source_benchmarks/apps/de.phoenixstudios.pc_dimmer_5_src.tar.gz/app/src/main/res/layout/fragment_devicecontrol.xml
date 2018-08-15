@@ -1,0 +1,415 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="de.phoenixstudios.pc_dimmer.Devicecontrol">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:id="@+id/linear1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/devicecontrol_devices"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:id="@+id/devicelbl"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/devicecontrol_groups"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_weight="0.5"
+                android:id="@+id/grouplbl"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/linear2"
+            android:weightSum="1"
+            android:layout_below="@+id/linear1">
+
+            <Spinner
+                android:layout_height="wrap_content"
+                android:id="@+id/devicelistbox"
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content" />
+
+            <Spinner
+                android:layout_height="wrap_content"
+                android:id="@+id/grouplistbox"
+                android:layout_weight="0.5"
+                android:layout_width="wrap_content" />
+        </LinearLayout>
+
+        <TabHost
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/devicecontrol_tabHost"
+            android:layout_gravity="center"
+            android:layout_below="@+id/linear2">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"/>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:id="@+id/devicecontrol_tab1">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="75dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_dimmer"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:id="@+id/dimmerlbl"
+                                android:layout_alignParentTop="true"
+                                android:textAlignment="center"
+                                android:layout_alignParentLeft="true"/>
+
+                            <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+                                android:id="@+id/dimmerslider"
+                                android:layout_width="75dp"
+                                android:layout_height="300dp"
+                                android:progress="128"
+                                android:max="255"
+                                android:layout_below="@+id/dimmerlbl"
+                                android:layout_alignParentLeft="true"/>
+
+                            <TextView
+                                android:layout_width="75dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_strobe"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:id="@+id/strobelbl"
+                                android:layout_toRightOf="@+id/dimmerlbl"
+                                android:textAlignment="center"
+                                android:layout_alignParentTop="true" />
+
+                            <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+                                android:id="@+id/strobeslider"
+                                android:layout_width="75dp"
+                                android:layout_height="300dp"
+                                android:layout_below="@+id/strobelbl"
+                                android:layout_toRightOf="@+id/dimmerslider"
+                                android:progress="128"
+                                android:max="255" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_dimmer100"
+                                android:id="@+id/dimmer100btn"
+                                android:layout_below="@+id/strobelbl"
+                                android:layout_toRightOf="@+id/strobelbl"
+                                android:layout_alignParentRight="true" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_dimmer75"
+                                android:id="@+id/dimmer75btn"
+                                android:layout_below="@+id/dimmer100btn"
+                                android:layout_alignLeft="@+id/dimmer100btn"
+                                android:layout_alignRight="@+id/dimmer100btn" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_dimmer50"
+                                android:id="@+id/dimmer50btn"
+                                android:layout_below="@+id/dimmer75btn"
+                                android:layout_alignLeft="@+id/dimmer75btn"
+                                android:layout_alignRight="@+id/dimmer75btn" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_dimmer25"
+                                android:id="@+id/dimmer25btn"
+                                android:layout_below="@+id/dimmer50btn"
+                                android:layout_alignLeft="@+id/dimmer50btn"
+                                android:layout_alignRight="@+id/dimmer50btn" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_shutteropen"
+                                android:id="@+id/shutteraufbtn"
+                                android:layout_alignBottom="@+id/strobeslider"
+                                android:layout_alignLeft="@+id/dimmer25btn" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_shutterclose"
+                                android:id="@+id/shutterzubtn"
+                                android:layout_alignTop="@+id/shutteraufbtn"
+                                android:layout_toRightOf="@+id/shutteraufbtn"
+                                android:layout_alignRight="@+id/dimmer25btn" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_dimmer0"
+                                android:id="@+id/dimmer0btn"
+                                android:layout_below="@+id/dimmer25btn"
+                                android:layout_alignLeft="@+id/dimmer25btn"
+                                android:layout_alignRight="@+id/dimmer25btn" />
+                        </RelativeLayout>
+                    </ScrollView>
+
+                    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="375dp"
+                        android:id="@+id/devicecontrol_tab2">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <com.larswerkman.holocolorpicker.ColorPicker
+                                android:id="@+id/colorpicker"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentLeft="true"
+                                android:layout_toLeftOf="@+id/amberslider"/>
+
+                            <com.larswerkman.holocolorpicker.SaturationBar
+                                android:id="@+id/saturationbar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/colorpicker"/>
+
+                            <com.larswerkman.holocolorpicker.ValueBar
+                                android:id="@+id/valuebar"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/saturationbar"/>
+
+                            <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+                                android:id="@+id/amberslider"
+                                android:layout_width="50dp"
+                                android:layout_height="300dp"
+                                android:progress="0"
+                                android:max="255"
+                                android:layout_below="@+id/amberlbl"
+                                android:layout_toLeftOf="@+id/whiteslider"
+                                android:progressTint="#ff9100" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_amber"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:id="@+id/amberlbl"
+                                android:layout_alignParentTop="true"
+                                android:layout_toRightOf="@+id/colorpicker"
+                                android:textAlignment="center"
+                                android:layout_toLeftOf="@+id/whitelbl" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_white"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:id="@+id/whitelbl"
+                                android:layout_above="@+id/amberslider"
+                                android:layout_toRightOf="@+id/amberslider"
+                                android:textAlignment="center"
+                                android:layout_alignRight="@+id/whiteslider" />
+
+                            <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+                                android:id="@+id/whiteslider"
+                                android:layout_width="50dp"
+                                android:layout_height="300dp"
+                                android:progress="0"
+                                android:max="255"
+                                android:layout_below="@+id/whitelbl"
+                                android:layout_alignParentRight="true"
+                                android:progressTint="#000000" />
+                        </RelativeLayout>
+                    </ScrollView>
+
+                    <RelativeLayout
+                        android:id="@+id/devicecontrol_tab3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical">
+
+                        <de.phoenixstudios.pc_dimmer.PanTiltCanvasView
+                            android:id="@+id/pantiltcanvas"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_above="@+id/linear3"
+                            android:textColor="#FFFFFF" />
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:id="@+id/linear3"
+                            android:layout_alignParentBottom="true"
+                            android:weightSum="1">
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+                    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:id="@+id/devicecontrol_tab4">
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="75dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_iris"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:id="@+id/irislbl"
+                                android:layout_alignParentTop="true"
+                                android:textAlignment="center"
+                                android:layout_alignParentLeft="true"/>
+
+                            <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+                                android:id="@+id/irisslider"
+                                android:layout_width="75dp"
+                                android:layout_height="300dp"
+                                android:progress="128"
+                                android:max="255"
+                                android:layout_below="@+id/irislbl"
+                                android:layout_alignParentLeft="true"/>
+
+                            <TextView
+                                android:layout_width="75dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_prismrot"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:id="@+id/prismarotlbl"
+                                android:layout_toRightOf="@+id/irislbl"
+                                android:textAlignment="center"
+                                android:layout_alignParentTop="true" />
+
+                            <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+                                android:id="@+id/prismarotslider"
+                                android:layout_width="75dp"
+                                android:layout_height="300dp"
+                                android:layout_below="@+id/prismarotlbl"
+                                android:layout_toRightOf="@+id/irisslider"
+                                android:progress="128"
+                                android:max="255" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_prismon"
+                                android:id="@+id/prismaonbtn"
+                                android:layout_alignTop="@+id/prismarotslider"
+                                android:layout_toRightOf="@+id/prismarotslider"
+                                android:layout_alignParentRight="true" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_prismoff"
+                                android:id="@+id/prismaoffbtn"
+                                android:layout_below="@+id/prismaonbtn"
+                                android:layout_toRightOf="@+id/prismarotslider"
+                                android:layout_alignParentRight="true" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_gobo1p"
+                                android:id="@+id/gobo1p"
+                                android:layout_below="@+id/prismaoffbtn"
+                                android:layout_alignLeft="@+id/prismaoffbtn"
+                                android:layout_marginTop="25dp" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_gobo1m"
+                                android:id="@+id/gobo1m"
+                                android:layout_below="@+id/prismaoffbtn"
+                                android:layout_toRightOf="@+id/gobo1p"
+                                android:layout_marginTop="25dp" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_gobo2p"
+                                android:id="@+id/gobo2p"
+                                android:layout_below="@+id/gobo1p"
+                                android:layout_alignLeft="@+id/gobo1p" />
+
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_gobo2m"
+                                android:id="@+id/gobo2m"
+                                android:layout_alignTop="@+id/gobo2p"
+                                android:layout_toRightOf="@+id/gobo2p" />
+
+                            <TextView
+                                android:layout_width="75dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/devicecontrol_fog"
+                                android:textAppearance="?android:attr/textAppearanceSmall"
+                                android:id="@+id/foglbl"
+                                android:textAlignment="center"
+                                android:layout_below="@+id/prismaoffbtn"
+                                android:layout_toRightOf="@+id/gobo1m" />
+
+
+                            <de.phoenixstudios.pc_dimmer.VerticalSeekBar
+                                android:id="@+id/fogslider"
+                                android:layout_width="75dp"
+                                android:layout_height="200dp"
+                                android:progress="128"
+                                android:max="255"
+                                android:layout_alignTop="@+id/gobo1m"
+                                android:layout_toRightOf="@+id/gobo1m"
+                                android:layout_alignBottom="@+id/prismarotslider" />
+                        </RelativeLayout>
+                    </ScrollView>
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+
+    </RelativeLayout>

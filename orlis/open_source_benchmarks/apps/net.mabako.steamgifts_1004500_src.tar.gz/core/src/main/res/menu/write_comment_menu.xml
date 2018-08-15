@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.DetailActivity">
+
+    <item
+        android:id="@+id/send_comment_and_enter"
+        android:title="@string/send_comment_and_enter"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/send_comment"
+        android:icon="@drawable/ic_send"
+        android:title="@string/send_comment"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/headerlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/previous"
+            android:gravity="left"
+            android:padding="5dp"
+            android:paddingLeft="10dp"
+            android:textColor="#669900"
+            android:textSize="@dimen/textSizeXLarge"
+            android:textStyle="bold"
+            android:text="Month Year"
+            />
+
+        <RadioGroup
+            android:id="@+id/radio_unit_system"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:checkedButton="@+id/radio_unit"
+            android:orientation="horizontal"
+            android:weightSum="20">
+
+            <RadioButton
+                android:id="@+id/radio_system"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/custom_radio_button"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/system_button"
+                android:textColor="@color/custom_radio_color"
+
+                android:textSize="@dimen/textSizeLarge" />
+
+            <RadioButton
+                android:id="@+id/radio_unit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:background="@drawable/custom_radio_button"
+                android:checked="true"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/device_button"
+                android:textColor="@color/custom_radio_color"
+                android:textSize="@dimen/textSizeLarge" />
+
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/headerlayout"
+        android:choiceMode="none"
+        android:gravity="center"
+        android:horizontalSpacing="2dp"
+        android:numColumns="7"
+
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dp" />
+</LinearLayout>

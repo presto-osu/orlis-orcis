@@ -1,0 +1,11 @@
+ 
+For the map view:
+
+To achieve Sandies plan:
+LocationListActivity  -> LocationOverviewActivity
+    a) Do it on a View Level, xchange recycler view
+    b) Do it with fragments
+    
+    xtract mRecyclerView, turn into fragment
+    
+>>>>>>               // mLocationListActivity.getLocationAdapter().notifyDataSetChanged();

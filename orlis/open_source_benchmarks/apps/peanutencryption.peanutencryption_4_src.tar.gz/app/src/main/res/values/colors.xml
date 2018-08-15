@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ @author Gabriel Oexle
+  ~ 2015.
+  -->
+
+<resources>
+    <color name="Orange">#FF5722</color>
+    <color name="ColorPrimaryVariant">#2196f3</color>
+    <color name="ColorPrimary">#2090EA</color>
+    <color name="ColorPrimaryDark">#1973bb</color>
+    <color name="White">#FFFFFFFF</color>
+    <color name="Black">#000000</color>
+
+</resources>

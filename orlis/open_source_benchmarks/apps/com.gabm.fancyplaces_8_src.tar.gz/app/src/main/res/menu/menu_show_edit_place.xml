@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gabm.fancyplaces.ui.ShowEditPlace">
+
+    <item
+        android:id="@+id/sep_show_on_map"
+        android:icon="@drawable/ic_map_white_24dp"
+        android:title="@string/sep_action_edit_title"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/sep_action_edit"
+        android:icon="@drawable/ic_edit_white_24dp"
+        android:title="@string/sep_action_edit_title"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/sep_action_take_image"
+        android:icon="@drawable/ic_camera_alt_white_24dp"
+        android:title="@string/sep_action_confirm_title"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/sep_action_confirm"
+        android:icon="@drawable/ic_done_white_24dp"
+        android:title="@string/sep_action_confirm_title"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+</menu>

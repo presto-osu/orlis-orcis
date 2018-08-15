@@ -1,0 +1,101 @@
+<resources>
+    <style name="TransparentCompat" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparentBackground</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:divider">@color/defaultMarginColor</item>
+        <item name="sageColor">@color/defaultSageColor</item>
+        <item name="nameColor">@color/defaultNameColor</item>
+        <item name="marginColor">@color/defaultMarginColor</item>
+        <item name="tripcodeColor">@color/defaultTripcodeColor</item>
+        <item name="isDarkTheme">false</item>
+        <item name="quoteColor">@color/defaultQuote</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="AppTheme.NoActionBar">
+        <item name="android:textColor">@color/nightTextColor</item>
+        <item name="android:background">@color/nightBackground</item>
+        <item name="android:divider">@color/nightMarginColor</item>
+        <item name="android:textColorLink">@color/nightLinkColor</item>
+        <item name="sageColor">@color/nightSageColor</item>
+        <item name="nameColor">@color/nightNameColor</item>
+        <item name="marginColor">@color/nightMarginColor</item>
+        <item name="tripcodeColor">@color/nightTripcodeColor</item>
+        <item name="isDarkTheme">true</item>
+        <item name="quoteColor">@color/nightQuote</item>
+    </style>
+
+    <style name="AppTheme.HeadLineActionBar.NoActionBar" parent="AppTheme.HeadLineActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.HeadLineActionBar">
+        <item name="colorPrimary">@color/headlineTextColor</item>
+        <item name="colorPrimaryDark">@color/blackBackground</item>
+        <item name="colorAccent">@color/headlineLinkColor</item>
+        <item name="isDarkTheme">true</item>
+    </style>
+
+    <style name="AppTheme.HeadLine" parent="AppTheme.NoActionBar">
+        <item name="android:textColor">@color/headlineTextColor</item>
+        <item name="android:background">@color/headlineBackground</item>
+        <item name="android:divider">@color/headlineMarginColor</item>
+        <item name="android:textColorLink">@color/headlineLinkColor</item>
+        <item name="sageColor">@color/headlineSageColor</item>
+        <item name="nameColor">@color/headlineNameColor</item>
+        <item name="marginColor">@color/headlineMarginColor</item>
+        <item name="tripcodeColor">@color/headlineTripcodeColor</item>
+        <item name="colorPrimary">@color/headlineTextColor</item>
+        <item name="colorPrimaryDark">@color/headlineLinkColor</item>
+        <item name="colorAccent">@color/headlineLinkColor</item>
+        <item name="isDarkTheme">false</item>
+        <item name="quoteColor">@color/headlineQuote</item>
+    </style>
+
+    <style name="AppTheme.BlackActionBar.NoActionBar" parent="AppTheme.BlackActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.BlackActionBar">
+        <item name="colorPrimary">#101012</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/blackMarginColor</item>
+        <item name="isDarkTheme">true</item>
+    </style>
+
+    <style name="AppTheme.Black" parent="AppTheme.NoActionBar">
+        <item name="android:textColor">@color/blackTextColor</item>
+        <item name="android:background">@color/blackBackground</item>
+        <item name="android:divider">@color/blackMarginColor</item>
+        <item name="android:textColorLink">@color/blackLinkColor</item>
+        <item name="sageColor">@color/blackSageColor</item>
+        <item name="nameColor">@color/blackNameColor</item>
+        <item name="marginColor">@color/blackMarginColor</item>
+        <item name="tripcodeColor">@color/blackTripcodeColor</item>
+        <item name="colorPrimary">@color/blackBackground</item>
+        <item name="colorPrimaryDark">@color/blackMarginColor</item>
+        <item name="colorAccent">@color/blackSageColor</item>
+        <item name="isDarkTheme">true</item>
+        <item name="quoteColor">@color/blackQuote</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

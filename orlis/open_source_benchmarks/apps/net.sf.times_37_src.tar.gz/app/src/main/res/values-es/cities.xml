@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Translated using Google Translator Toolkit. -->
+<resources>
+
+    <string-array name="cities">
+        <item>Vancouver</item>
+        <item>San Francisco</item>
+        <item>Seattle</item>
+        <item>San Diego</item>
+        <item>Fénix</item>
+        <item>Las Vegas</item>
+        <item>Denver</item>
+        <item>Ciudad de México</item>
+        <item>Dallas</item>
+        <item>Houston</item>
+        <item>Saint Louis</item>
+        <item>Chicago</item>
+        <item>Cleveland</item>
+        <item>Atlanta</item>
+        <item>Detroit</item>
+        <item>Miami</item>
+        <item>Pittsburgh</item>
+        <item>Toronto</item>
+        <item>Washington DC</item>
+        <item>Baltimore</item>
+        <item>Filadelfia</item>
+        <item>Bogotá</item>
+        <item>Nueva York</item>
+        <item>Montreal</item>
+        <item>Los Ángeles</item>
+        <item>Boston</item>
+        <item>Portland</item>
+        <item>Buenos Aires</item>
+        <item>São Paulo</item>
+        <item>Rio de Janeiro</item>
+        <item>Casablanca</item>
+        <item>Madrid</item>
+        <item>Manchester</item>
+        <item>Londres</item>
+        <item>París</item>
+        <item>Bruselas</item>
+        <item>Lyon</item>
+        <item>Ámsterdam</item>
+        <item>Marsella</item>
+        <item>Ginebra</item>
+        <item>Niza</item>
+        <item>Zúrich</item>
+        <item>München</item>
+        <item>Roma</item>
+        <item>Berlín</item>
+        <item>Viena</item>
+        <item>Estocolmo</item>
+        <item>Sarajevo</item>
+        <item>Ciudad del Cabo</item>
+        <item>Budapest</item>
+        <item>Helsinki</item>
+        <item>Johannesburgo</item>
+        <item>Estanbul</item>
+        <item>San Petersburgo</item>
+        <item>Kiev</item>
+        <item>Durban</item>
+        <item>Ashkelon</item>
+        <item>Ashdod</item>
+        <item>Tel Aviv</item>
+        <item>Beersheva</item>
+        <item>Jadera</item>
+        <item>Eilat</item>
+        <item>Jaifa</item>
+        <item>Bet Shemesh</item>
+        <item>Nahariya</item>
+        <item>Ariel</item>
+        <item>Jerusalén</item>
+        <item>Nazaret</item>
+        <item>Sefat</item>
+        <item>Tiberíades</item>
+        <item>Moscú</item>
+        <item>Addis Abeba</item>
+        <item>Mumbai</item>
+        <item>Aizawl</item>
+        <item>Perth</item>
+        <item>Melbourne</item>
+        <item>Sydney</item>
+        <item>Auckland</item>
+    </string-array>
+
+</resources>

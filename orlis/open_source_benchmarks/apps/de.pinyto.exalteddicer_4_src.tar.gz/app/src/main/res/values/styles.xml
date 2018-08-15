@@ -1,0 +1,11 @@
+<resources>
+    <style name="ExaltedDicer" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarTabStyle">@style/ExaltedDicer.ActionBar</item>
+        <item name="actionBarTabStyle">@style/ExaltedDicer.ActionBar</item>
+    </style>
+
+    <style name="ExaltedDicer.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.TabBar">
+        <item name="android:background">@drawable/tab_bar_background</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

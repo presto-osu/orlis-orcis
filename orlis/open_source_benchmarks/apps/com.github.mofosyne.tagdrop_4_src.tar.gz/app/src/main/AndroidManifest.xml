@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.mofosyne.tagdrop" >
+
+    <!-- Display data uris and html pages -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- May be needed eventually to decode NFC tags -->
+    <!-- <uses-permission android:name="android.permission.NFC" /> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".viewDatauri"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="displaying data uri"
+            android:parentActivityName=".main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.github.mofosyne.tagdrop.main" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="data" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReadMe"
+            android:label="@string/title_activity_read_me"
+            android:parentActivityName=".main" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.github.mofosyne.tagdrop.main" />
+        </activity>
+    </application>
+
+</manifest>

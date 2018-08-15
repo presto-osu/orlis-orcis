@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Temperature unit names -->
+    <string-array name="temperature_unit_names">
+        <item>@string/temperature_unit_celsius</item>
+        <item>@string/temperature_unit_fahrenheit</item>
+        <item>@string/temperature_unit_kelvin</item>
+    </string-array>
+
+    <!-- Temperature unit symbols -->
+    <string-array name="temperature_unit_symbols">
+        <item>@string/temperature_unit_celsius_symbol</item>
+        <item>@string/temperature_unit_fahrenheit_symbol</item>
+        <item>@string/temperature_unit_kelvin_symbol</item>
+    </string-array>
+
+    <!-- Colors used for the background -->
+    <integer-array name="background_colors">
+        <item>@color/holo_blue</item>
+        <item>@color/holo_purple</item>
+        <item>@color/holo_yellow</item>
+        <item>@color/holo_red</item>
+        <item>@color/holo_green</item>
+    </integer-array>
+</resources>

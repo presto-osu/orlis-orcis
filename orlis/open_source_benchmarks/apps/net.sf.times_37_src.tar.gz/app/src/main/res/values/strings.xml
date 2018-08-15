@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Halachic Prayer Times</string>
+    <string name="title_activity_zmanim">Halachic Times</string>
+    <string name="location_unknown">Unknown address</string>
+    <string name="location_coords">Lat. %1$s; Lng. %2$s</string>
+    <string name="twelve_hour_time_format">h:mm:ss a</string>
+    <string name="twenty_four_hour_time_format">HH:mm:ss</string>
+    <string name="month_day_year" formatted="false">%B %-e, %Y</string>
+    <string name="off">Off</string>
+
+    <!-- Backup -->
+    <string name="google_backup_api_key" translatable="false">GoogleKey</string>
+
+    <!-- Recurring opinions -->
+    <string name="opinion_120">Day is 120 minutes before sunrise / after sunset</string>
+    <string name="opinion_120_zmanis">Day is 120 <i>zmaniyos</i> minutes before sunrise / after sunset</string>
+    <string name="opinion_16">Day is 16.1° below sunrise / sunset</string>
+    <string name="opinion_16_sunset">Day is from dawn 16.1° to sea level sunset</string>
+    <string name="opinion_16_night">Day is from dawn 16.1° to nightfall</string>
+    <string name="opinion_26">Day is 26° below sunrise / sunset</string>
+    <string name="opinion_19">Day is 19.8° below sunrise / sunset</string>
+    <string name="opinion_18">Day is 18° below sunrise / sunset</string>
+    <string name="opinion_60">Day is 60 minutes before sunrise / after sunset</string>
+    <string name="opinion_72">Day is 72 minutes before sunrise / after sunset</string>
+    <string name="opinion_72_zmanis">Day is 72 <i>zmaniyos</i> minutes before sunrise / after sunset</string>
+    <string name="opinion_90">Day is 90 minutes before sunrise / after sunset</string>
+    <string name="opinion_90_zmanis">Day is 90 <i>zmaniyos</i> minutes before sunrise / after sunset</string>
+    <string name="opinion_96">Day is 96 minutes before sunrise / after sunset</string>
+    <string name="opinion_96_zmanis">Day is 96 <i>zmaniyos</i> minutes before sunrise / after sunset</string>
+    <string name="opinion_ateret">According to Yeshivat Ateret Torah</string>
+    <string name="opinion_gra">According to GRA and Baal Tanya</string>
+    <string name="opinion_mga">According to Magen Avraham</string>
+    <string name="opinion_tam">According to Rabbeinu Tam</string>
+
+    <!-- Temporal hour -->
+    <string name="hour">Seasonal hour</string>
+    <string name="hour_mga" translatable="false">@string/opinion_mga</string>
+    <string name="hour_gra" translatable="false">@string/opinion_gra</string>
+    <string name="hour_120" translatable="false">@string/opinion_120</string>
+    <string name="hour_120_zmanis" translatable="false">@string/opinion_120_zmanis</string>
+    <string name="hour_16" translatable="false">@string/opinion_16</string>
+    <string name="hour_18" translatable="false">@string/opinion_18</string>
+    <string name="hour_19" translatable="false">@string/opinion_19</string>
+    <string name="hour_26" translatable="false">@string/opinion_26</string>
+    <string name="hour_60" translatable="false">@string/opinion_60</string>
+    <string name="hour_72" translatable="false">@string/opinion_72</string>
+    <string name="hour_72_zmanis" translatable="false">@string/opinion_72_zmanis</string>
+    <string name="hour_90" translatable="false">@string/opinion_90</string>
+    <string name="hour_90_zmanis" translatable="false">@string/opinion_90_zmanis</string>
+    <string name="hour_96" translatable="false">@string/opinion_96</string>
+    <string name="hour_96_zmanis" translatable="false">@string/opinion_96_zmanis</string>
+    <string name="hour_ateret" translatable="false">@string/opinion_ateret</string>
+    <string name="hour_title" translatable="false">@string/hour</string>
+
+    <!-- List -->
+    <string name="dawn">Dawn</string>
+    <string name="dawn_19" translatable="false">@string/opinion_19</string>
+    <string name="dawn_120" translatable="false">@string/opinion_120</string>
+    <string name="dawn_120_zmanis" translatable="false">@string/opinion_120_zmanis</string>
+    <string name="dawn_18" translatable="false">@string/opinion_18</string>
+    <string name="dawn_26" translatable="false">@string/opinion_26</string>
+    <string name="dawn_16" translatable="false">@string/opinion_16</string>
+    <string name="dawn_96" translatable="false">@string/opinion_96</string>
+    <string name="dawn_96_zmanis" translatable="false">@string/opinion_96_zmanis</string>
+    <string name="dawn_90" translatable="false">@string/opinion_90</string>
+    <string name="dawn_90_zmanis" translatable="false">@string/opinion_90_zmanis</string>
+    <string name="dawn_72" translatable="false">@string/opinion_72</string>
+    <string name="dawn_72_zmanis" translatable="false">@string/opinion_72_zmanis</string>
+    <string name="dawn_60" translatable="false">@string/opinion_60</string>
+
+    <!-- Tallis and Tefillin -->
+    <string name="tallis">Earliest tallis and tefillin (misheyakir)</string>
+    <string name="tallis_summary">Sun is 11.5° below horizon</string>
+    <string name="tallis_11">Sun is 11° below horizon</string>
+    <string name="tallis_10">Sun is 10.2° below horizon</string>
+
+    <!-- Sunrise -->
+    <string name="sunrise">Sunrise</string>
+    <string name="sunrise_summary">In a level region</string>
+    <string name="sunrise_sea">At sea level</string>
+
+    <!-- Latest shema -->
+    <string name="shema">Latest shema</string>
+    <string name="shema_16_sunset" translatable="false">@string/opinion_16_sunset</string>
+    <string name="shema_7">Day is from dawn 16.1° to night 7.083°</string>
+    <string name="shema_19" translatable="false">@string/opinion_19</string>
+    <string name="shema_120" translatable="false">@string/opinion_120</string>
+    <string name="shema_18" translatable="false">@string/opinion_18</string>
+    <string name="shema_96" translatable="false">@string/opinion_96</string>
+    <string name="shema_96_zmanis" translatable="false">@string/opinion_96_zmanis</string>
+    <string name="shema_16" translatable="false">@string/opinion_16</string>
+    <string name="shema_90" translatable="false">@string/opinion_90</string>
+    <string name="shema_90_zmanis" translatable="false">@string/opinion_90_zmanis</string>
+    <string name="shema_72" translatable="false">@string/opinion_72</string>
+    <string name="shema_72_zmanis" translatable="false">@string/opinion_72_zmanis</string>
+    <string name="shema_mga" translatable="false">@string/opinion_mga</string>
+    <string name="shema_ateret" translatable="false">@string/opinion_ateret</string>
+    <string name="shema_3">3 hours before midday</string>
+    <string name="shema_fixed">3 hours before fixed local midday</string>
+    <string name="shema_gra" translatable="false">@string/opinion_gra</string>
+
+    <!-- Latest shacharis -->
+    <string name="prayers">Latest morning prayers (shacharis)</string>
+    <string name="prayers_120" translatable="false">@string/opinion_120</string>
+    <string name="prayers_96" translatable="false">@string/opinion_96</string>
+    <string name="prayers_96_zmanis" translatable="false">@string/opinion_96_zmanis</string>
+    <string name="prayers_19" translatable="false">@string/opinion_19</string>
+    <string name="prayers_90" translatable="false">@string/opinion_90</string>
+    <string name="prayers_90_zmanis" translatable="false">@string/opinion_90_zmanis</string>
+    <string name="prayers_ateret" translatable="false">@string/opinion_ateret</string>
+    <string name="prayers_18" translatable="false">@string/opinion_18</string>
+    <string name="prayers_fixed">2 hours before fixed local midday</string>
+    <string name="prayers_16" translatable="false">@string/opinion_16</string>
+    <string name="prayers_72" translatable="false">@string/opinion_72</string>
+    <string name="prayers_72_zmanis" translatable="false">@string/opinion_72_zmanis</string>
+    <string name="prayers_2">2 hours before midday</string>
+    <string name="prayers_mga" translatable="false">@string/opinion_mga</string>
+    <string name="prayers_gra" translatable="false">@string/opinion_gra</string>
+
+    <!-- Midday -->
+    <string name="midday">Midday (chatzos)</string>
+    <string name="midday_summary">Solar noon</string>
+    <string name="midday_fixed">Noon adjusted for the local latitude</string>
+
+    <!-- Earliest mincha -->
+    <string name="earliest_mincha">Mincha gedola</string>
+    <string name="earliest_mincha_summary">Earliest afternoon prayers</string>
+    <string name="earliest_mincha_ateret" translatable="false">@string/opinion_ateret</string>
+    <string name="earliest_mincha_72" translatable="false">@string/opinion_72</string>
+    <string name="earliest_mincha_30">30 minutes after midday</string>
+    <string name="earliest_mincha_16" translatable="false">@string/opinion_16</string>
+
+    <!-- Mincha ketana -->
+    <string name="mincha">Mincha ketana</string>
+    <string name="mincha_summary">Afternoon prayers</string>
+    <string name="mincha_72" translatable="false">@string/opinion_72</string>
+    <string name="mincha_16" translatable="false">@string/opinion_16</string>
+    <string name="mincha_ateret" translatable="false">@string/opinion_ateret</string>
+
+    <!-- Plug hamincha -->
+    <string name="plug_hamincha">Plug hamincha</string>
+    <string name="plug_hamincha_gra" translatable="false">@string/opinion_gra</string>
+    <string name="plug_hamincha_120" translatable="false">@string/opinion_120</string>
+    <string name="plug_hamincha_120_zmanis" translatable="false">@string/opinion_120_zmanis</string>
+    <string name="plug_hamincha_16" translatable="false">@string/opinion_16</string>
+    <string name="plug_hamincha_16_alos" translatable="false">@string/opinion_16_night</string>
+    <string name="plug_hamincha_18" translatable="false">@string/opinion_18</string>
+    <string name="plug_hamincha_19" translatable="false">@string/opinion_19</string>
+    <string name="plug_hamincha_26" translatable="false">@string/opinion_26</string>
+    <string name="plug_hamincha_60" translatable="false">@string/opinion_60</string>
+    <string name="plug_hamincha_72" translatable="false">@string/opinion_72</string>
+    <string name="plug_hamincha_72_zmanis" translatable="false">@string/opinion_72_zmanis</string>
+    <string name="plug_hamincha_90" translatable="false">@string/opinion_90</string>
+    <string name="plug_hamincha_90_zmanis" translatable="false">@string/opinion_90_zmanis</string>
+    <string name="plug_hamincha_96" translatable="false">@string/opinion_96</string>
+    <string name="plug_hamincha_96_zmanis" translatable="false">@string/opinion_96_zmanis</string>
+    <string name="plug_hamincha_16_sunset" translatable="false">@string/opinion_16_sunset</string>
+    <string name="plug_hamincha_ateret" translatable="false">@string/opinion_ateret</string>
+
+    <!-- Candle lighting -->
+    <string name="candles">Candle lighting</string>
+    <string name="chanukka">Chanukka</string>
+    <string name="candles_chanukka_opinion" translatable="false">@string/chanukka</string>
+
+    <plurals name="candles_summary">
+        <item quantity="one">%1$d minute before sunset</item>
+        <item quantity="other">%1$d minutes before sunset</item>
+    </plurals>
+    <plurals name="candles_chanukka">
+        <item quantity="one">%1$d Chanukka candle</item>
+        <item quantity="other">%1$d Chanukka candles</item>
+    </plurals>
+
+    <!-- Sunset -->
+    <string name="sunset">Sunset</string>
+    <string name="sunset_summary" translatable="false">@string/sunrise_summary</string>
+    <string name="sunset_sea" translatable="false">@string/sunrise_sea</string>
+
+    <!-- Twilight -->
+    <string name="twilight">Twilight</string>
+    <string name="twilight_2stars">2 stars visible</string>
+    <string name="twilight_7_083">13.5 minutes before 7.083° nightfall</string>
+    <string name="twilight_58">58.5 minutes after sunset</string>
+    <string name="twilight_13">Sun is 13.24° below horizon</string>
+
+    <!-- Nightfall -->
+    <string name="nightfall">Nightfall</string>
+    <string name="nightfall_3stars">3 stars visible</string>
+    <string name="nightfall_120" translatable="false">@string/opinion_120</string>
+    <string name="nightfall_120_zmanis" translatable="false">@string/opinion_120_zmanis</string>
+    <string name="nightfall_16" translatable="false">@string/opinion_16</string>
+    <string name="nightfall_18" translatable="false">@string/opinion_18</string>
+    <string name="nightfall_19" translatable="false">@string/opinion_19</string>
+    <string name="nightfall_26" translatable="false">@string/opinion_26</string>
+    <string name="nightfall_60" translatable="false">@string/opinion_60</string>
+    <string name="nightfall_72" translatable="false">@string/opinion_tam</string>
+    <string name="nightfall_72_zmanis" translatable="false">@string/opinion_72_zmanis</string>
+    <string name="nightfall_90" translatable="false">@string/opinion_90</string>
+    <string name="nightfall_90_zmanis" translatable="false">@string/opinion_90_zmanis</string>
+    <string name="nightfall_96" translatable="false">@string/opinion_96</string>
+    <string name="nightfall_96_zmanis" translatable="false">@string/opinion_96_zmanis</string>
+    <string name="nightfall_ateret" translatable="false">@string/opinion_ateret</string>
+    <string name="nightfall_3_65">Sun is 3.65° below sea level</string>
+    <string name="nightfall_3_676">Sun is 3.676° below sea level</string>
+    <string name="nightfall_4_37">Sun is 4.37° below sea level</string>
+    <string name="nightfall_4_61">Sun is 4.61° below sea level</string>
+    <string name="nightfall_4_8">Sun is 4.8° below sea level</string>
+    <string name="nightfall_5_88">Sun is 5.88° below sea level</string>
+    <string name="nightfall_5_95">Sun is 5.95° below sea level</string>
+    <string name="nightfall_7">Sun is 7.083° below sea level</string>
+    <string name="nightfall_8">Sun is 8.5° below sea level</string>
+
+    <!-- Midnight -->
+    <string name="midnight">Midnight (chatzos)</string>
+    <string name="midnight_summary">Solar midnight</string>
+    <string name="midnight_12">12 hours after midday</string>
+    <string name="midnight_6">6 hours after nightfall</string>
+
+    <!-- Pesach -->
+    <string name="eat_chametz">Latest time to eat chametz</string>
+    <string name="burn_chametz">Latest time to burn chametz</string>
+    <string name="burn_chametz_gra" translatable="false">@string/opinion_gra</string>
+    <string name="burn_chametz_16" translatable="false">@string/opinion_16</string>
+    <string name="burn_chametz_72" translatable="false">@string/opinion_72</string>
+
+    <!-- Moon -->
+    <string name="molad">Birth of new moon (molad)</string>
+    <string name="molad_summary">Average molad</string>
+    <string name="levana_earliest">Earliest sanctification of the new moon (kiddush levana)</string>
+    <string name="levana_earliest_summary">3 days after the molad</string>
+    <string name="levana_7">7 days after the molad</string>
+    <string name="levana_latest">Latest sanctification of the new moon (kiddush levana)</string>
+    <string name="levana_latest_summary">Halfway between molad and molad</string>
+    <string name="levana_15">15 days after the molad</string>
+
+    <!-- Fast / Taanis -->
+    <string name="fast_begins">Fast begins</string>
+    <string name="fast_ends">Fast ends</string>
+
+    <!-- Omer -->
+    <string name="omer">Omer</string>
+    <string name="omer_format">%1$s %2$s</string>
+    <string name="omer_33">Lag %1$s</string>
+    <string name="omer_off">@string/off</string>
+    <string name="omer_b">BaOmer</string>
+    <string name="omer_l">LaOmer</string>
+
+    <!-- Preferences -->
+    <string name="menu_settings">Settings</string>
+    <string name="pref_general_title">General</string>
+    <string name="pref_appearance_title">Appearance</string>
+    <string name="pref_zmanim_title" translatable="false">@string/title_activity_zmanim</string>
+    <string name="coords_title">Coordinates</string>
+    <string name="coords_format_title">Coordinates format</string>
+    <string name="coords_format_decimal">Decimal</string>
+    <string name="coords_format_sexagesimal">Sexagesimal</string>
+    <string name="past_title">Times that have elapsed</string>
+    <string name="seconds_title">Seconds</string>
+    <string name="summaries_title">Summaries</string>
+    <string name="gradient_title">Gradient background</string>
+    <string name="theme_title" translatable="false">@string/gradient_title</string>
+    <string name="theme_none">None</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+
+    <!-- Go to date -->
+    <string name="menu_date">Date</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <!-- Compass -->
+    <string name="menu_compass">Compass</string>
+    <string name="title_activity_compass">Direction of prayer</string>
+    <string name="compass_summary">Direction of prayer to Holy of Holies in Jerusalem</string>
+    <string name="north">N</string>
+    <string name="east">E</string>
+    <string name="south">S</string>
+    <string name="west">W</string>
+
+    <!-- Setting per time -->
+    <string name="opinion">Opinion</string>
+    <string name="emphasis_title">Emphasis</string>
+    <string name="animations">Animations</string>
+
+    <!-- Location -->
+    <string name="menu_location">Location</string>
+    <string name="title_activity_location">My location</string>
+
+    <!-- Settings screen - Privacy -->
+    <string name="pref_privacy_security_title">Privacy &amp; security</string>
+    <string name="pref_privacy_clear_history">Clear history</string>
+
+    <!-- About -->
+    <string name="pref_about_title">About</string>
+    <string name="version">Application version</string>
+    <string name="support_url" translatable="false">https://sourceforge.net/projects/halachictimes/?source=navbar</string>
+    <string name="kosherjava">KosherJava</string>
+    <string name="kosherjava_version">Copyright \u00A9 2004–2011 Eliyahu Hershfeld</string>
+    <string name="kosherjava_url" translatable="false">http://www.kosherjava.com/</string>
+
+    <!-- Widget -->
+    <string name="title_widget_zmanim" translatable="false">@string/title_activity_zmanim</string>
+    <string name="title_widget_clock">Halachic Times Clock</string>
+    <string name="clock_12_hours_format" translatable="false">h:mm</string>
+    <string name="clock_24_hours_format" translatable="false">HH:mm</string>
+
+    <!-- Reminder -->
+    <string name="reminder">Reminder</string>
+    <string name="reminder_stream_title">Reminder type</string>
+    <string name="reminder_tone">Reminder ringtone</string>
+    <string name="alarm_volume_title">Alarm</string>
+    <string name="notification_volume_title">Notification</string>
+    <string name="reminder_stream_alarm" translatable="false">@string/alarm_volume_title</string>
+    <string name="reminder_stream_notification" translatable="false">@string/notification_volume_title</string>
+    <string name="reminder_friday">Remind on Friday</string>
+    <string name="reminder_monday">Remind on Monday</string>
+    <string name="reminder_saturday">Remind on Saturday and Yom Tov</string>
+    <string name="reminder_sunday">Remind on Sunday</string>
+    <string name="reminder_thursday">Remind on Thursday</string>
+    <string name="reminder_tuesday">Remind on Tuesday</string>
+    <string name="reminder_wednesday">Remind on Wednesday</string>
+
+</resources>

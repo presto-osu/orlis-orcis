@@ -1,0 +1,86 @@
+<!--
+    DroidBeard - a free, open-source Android app for managing SickBeard
+    Copyright (C) 2014-2015 Robert Carr
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see http://www.gnu.org/licenses/.
+-->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="SickBeardTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/SickBeardActionBar</item>
+        <item name="android:actionModeStyle">@style/SickBeardActionMode</item>
+        <item name="android:listViewStyle">@style/SickBeardListViewStyle</item>
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_color</item>
+        <item name="android:actionBarItemBackground">@drawable/selector_action_item_background</item>
+        <item name="android:actionModeCloseButtonStyle">@style/CloseButton</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:actionBarWidgetTheme">@style/ActionBar.Widget</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+        <item name="android:buttonStyle">@style/ButtonDroidBeard</item>
+        <item name="android:imageButtonStyle">@style/ImageButtonDroidBeard</item>
+    </style>
+
+    <style name="ButtonDroidBeard" parent="android:Widget.Button">
+        <item name="android:background">@drawable/droidbeard_btn_default_holo_light</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ImageButtonDroidBeard" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/droidbeard_btn_default_holo_light</item>
+    </style>
+
+    <style name="SickBeardTheme.NoTitle" parent="SickBeardTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="SickBeardListViewStyle" parent="@android:style/Widget.ListView">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="SickBeardActionMode" parent="@android:style/Widget.Holo.Light.ActionMode">
+        <item name="android:background">@color/navigation_list_item_selected</item>
+        <item name="android:actionBarItemBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="SickBeardActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/action_bar_background</item>
+        <item name="android:icon">@drawable/sickbeard_icon</item>
+    </style>
+
+    <style name="CloseButton" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/action_mode_close_button</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel</item>
+    </style>
+
+    <style name="DropDownListView" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/popup_menu_background</item>
+    </style>
+
+    <style name="ActionBar.Widget" parent="@android:style/Theme.Holo.Light">
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView</item>
+    </style>
+
+    <style name="SickBeardTheme.LightActionBar" parent="SickBeardTheme">
+        <item name="android:actionBarItemBackground">@drawable/selector_action_item_background_light</item>
+    </style>
+</resources>

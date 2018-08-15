@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="info.staticfree.SuperGenPass"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:smallScreens="true" />
+
+    <permission
+        android:name="${applicationId}.permission.ACCESS_DOMAINS"
+        android:label="Access and change SuperGenPass remembered domains"
+        android:protectionLevel="normal" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:description="@string/app_description"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Super_Gen_Pass"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateVisible">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SuperGenPassShare"
+            android:label="@string/app_name"
+            android:theme="@style/ShareTheme"
+            android:windowSoftInputMode="stateVisible"
+            tools:ignore="ExportedActivity">
+
+            <!-- integrate in the browser so it can be shared to -->
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SgpPreferencesActivity"
+            android:exported="false"
+            android:label="@string/preferences"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="info.staticfree.android.supergenpass.action.SCAN_SALT" />
+                <action android:name="info.staticfree.android.supergenpass.action.GENERATE_SALT" />
+                <action android:name="info.staticfree.android.supergenpass.action.CLEAR_STORED_DOMAINS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".RememberedDomainProvider"
+            android:authorities="${applicationId}"
+            android:readPermission="${applicationId}.permission.ACCESS_DOMAINS"
+            android:writePermission="${applicationId}.permission.ACCESS_DOMAINS" />
+
+    </application>
+
+</manifest>

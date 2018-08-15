@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="OTPTypes">
+        <item>mOTP</item>
+        <item>HOTP</item>
+        <item>TOTP</item>
+    </string-array>
+    <string-array name="SeedTypes">
+        <item>16进制</item>
+        <item>ASCII</item>
+    </string-array>
+    <string-array name="SHATypes">
+        <item>SHA-1</item>
+        <item>SHA-256</item>
+        <item>SHA-512</item>
+    </string-array>
+    <string-array name="TimeZones">
+        <item>UTC -12</item>
+        <item>UTC -11</item>
+        <item>UTC -10</item>
+        <item>UTC -09:30</item>
+        <item>UTC -09</item>
+        <item>UTC -08</item>
+        <item>UTC -07</item>
+        <item>UTC -06</item>
+        <item>UTC -05</item>
+        <item>UTC -04:30</item>
+        <item>UTC -04</item>
+        <item>UTC -03:30</item>
+        <item>UTC -03</item>
+        <item>UTC -02</item>
+        <item>UTC -01</item>
+        <item>UTC</item>
+        <item>UTC +01</item>
+        <item>UTC +02</item>
+        <item>UTC +03</item>
+        <item>UTC +03:30</item>
+        <item>UTC +04</item>
+        <item>UTC +04:30</item>
+        <item>UTC +05</item>
+        <item>UTC +05:30</item>
+        <item>UTC +05:45</item>
+        <item>UTC +06</item>
+        <item>UTC +06:30</item>
+        <item>UTC +07</item>
+        <item>UTC +08</item>
+        <item>UTC +08:45</item>
+        <item>UTC +09</item>
+        <item>UTC +09:30</item>
+        <item>UTC +10</item>
+        <item>UTC +10:30</item>
+        <item>UTC +11</item>
+        <item>UTC +11:30</item>
+        <item>UTC +12</item>
+        <item>UTC +12:45</item>
+        <item>UTC +13</item>
+        <item>UTC +14</item>
+    </string-array>
+    <string-array name="TimeIntervals">
+        <item>30 秒</item>
+        <item>60 秒</item>
+    </string-array>
+</resources>

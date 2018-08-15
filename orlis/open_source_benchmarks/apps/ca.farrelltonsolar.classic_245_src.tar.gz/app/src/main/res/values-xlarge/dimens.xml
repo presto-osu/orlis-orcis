@@ -1,0 +1,13 @@
+<resources>
+
+    <dimen name="textSizeXLarge">30sp</dimen>
+    <dimen name="textSizeLarge">22sp</dimen>
+    <dimen name="textSizeMedium">14sp</dimen>
+    <dimen name="textSizeSmall">10sp</dimen>
+
+    <dimen name="SOCBarWidth">5sp</dimen>
+    <dimen name="SOCRimWidth">8sp</dimen>
+
+    <dimen name="BigSOCBarWidth">15sp</dimen>
+    <dimen name="BigSOCRimWidth">25sp</dimen>
+</resources>

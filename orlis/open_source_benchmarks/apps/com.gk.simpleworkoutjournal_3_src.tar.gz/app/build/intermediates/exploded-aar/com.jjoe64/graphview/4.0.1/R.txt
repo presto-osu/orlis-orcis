@@ -1,0 +1,10 @@
+int attr seriesColor 0x7f010003
+int attr seriesData 0x7f010000
+int attr seriesTitle 0x7f010002
+int attr seriesType 0x7f010001
+int[] styleable GraphViewXML { 0x010101e1, 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003 }
+int styleable GraphViewXML_android_title 0
+int styleable GraphViewXML_seriesColor 4
+int styleable GraphViewXML_seriesData 1
+int styleable GraphViewXML_seriesTitle 3
+int styleable GraphViewXML_seriesType 2

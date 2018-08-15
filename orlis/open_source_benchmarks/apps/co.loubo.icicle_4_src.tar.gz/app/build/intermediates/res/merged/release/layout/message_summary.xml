@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selection_background">
+
+	<ImageView
+        android:id="@+id/message_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/icon"
+        android:src="@drawable/ic_message_white_36dp" />
+
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="72dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+
+    	<TextView
+	        android:id="@+id/message_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:text="@string/placeholder_lorem_ipsum_short"
+	        android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar" />
+
+        <TextView
+            android:id="@+id/message_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/message_name"
+            android:text="@string/placeholder_lorem_ipsum_short"
+            android:textColor="@color/grey_500"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar" />
+	
+	    <TextView
+	        android:id="@+id/message_summary"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_below="@+id/message_date"
+	        android:text="@string/placeholder_lorem_ipsum"
+            android:textSize="@dimen/abc_text_size_small_material" />
+
+	</RelativeLayout>
+</LinearLayout>

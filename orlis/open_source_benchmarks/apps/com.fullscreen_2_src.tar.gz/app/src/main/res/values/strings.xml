@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Diolinux</string>
+
+    <string name="action_options">Opções</string>
+    <string name="action_home">Home</string>
+    <string name="action_advertiser">Anuncie</string>
+    <string name="action_ubuntu">Ubuntu</string>
+    <string name="action_contact">Contato</string>
+    <string name="action_dio_cast">DioCast</string>
+    <string name="action_dio_store">DioStore</string>
+    <string name="action_about">Sobre</string>
+    <string name="action_share">Share</string>
+    <string name="action_android">Android</string>
+
+    <string name="activity_main_share_info">Compartilhe o link com as opções do menu</string>
+    <string name="activity_main_manteiners">"%s\n\nDeveloper: Renan Cunha\nDeveloper: Jackson Miras\n"Designer: Dionatan Simioni\nContato sobre o app:\n\nrenan.cunha33@gmail.com\njackmiras@gmail.com"</string>
+
+    <string name="global_ok">Ok</string>
+    <string name="view_loading_description">Carregando...</string>
+</resources>

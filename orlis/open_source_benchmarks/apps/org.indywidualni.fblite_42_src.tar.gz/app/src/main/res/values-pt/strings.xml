@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="app_name">Face Slim</string>
+    <string name="image_chooser">Escolher imagem</string>
+    <string name="loading_link">Abrindo um link</string>
+    <string name="applying_changes">Aplicando altereções</string>
+
+    <string-array name="item_array">
+        <item>Feed de notícias</item>
+        <item>Mensagens</item>
+        <item>Chat (Amigos Online)</item>
+        <item>Grupos</item>
+        <item>Eventos</item>
+        <item>Configurações do App</item>
+        <item>Sobre</item>
+        <item>Encerrar</item>
+        <item>Ir ao topo\u0020 &#8593;</item>
+    </string-array>
+
+    <string name="author">por Krzysztof \'Koras\' Grabowski</string>
+
+    <string name="title_activity_settings">Configurações</string>
+    <string name="title_activity_about">Sobre</string>
+    <string name="preference_category1">Interface</string>
+    <string name="preference_category2">Configurações Avançadas</string>
+    <string name="progress_bar">Barra de progresso</string>
+    <string name="transparent_nav">Barra de navegação transparente &#8635;</string>
+    <string name="transparent_nav_description">KitKat e Lollipop. Teclas de navegação transparentes.</string>
+    <string name="clear_cache">Limpar cache</string>
+    <string name="clear_cache_description">Limpar cache do aplicativo. Ele também irá desconectar você.</string>
+    <string name="email_author">Contato</string>
+    <string name="choose_email_client">Escolher cliente de e-mail</string>
+    <string name="notifications">Notificações</string>
+    <string name="no_network">Você está offline ;)</string>
+    <string name="hardware_acceleration">Aceleração por Hardware &#8635;</string>
+    <string name="hardware_acceleration_description">Desative apenas em dispositivos de memória de baixo (em caso de problemas).</string>
+    <string name="share_link">Compartilhar o link</string>
+    <string name="long_clicks">Toque longo</string>
+    <string name="long_clicks_description">Dê um toque longo sobre um link ou uma imagem para compartilhar.</string>
+    <string name="me_google_play">Google Play</string>
+    <string name="preference_category3">Experimental</string>
+    <string name="dark_theme">Tema Escuro</string>
+    <string name="dark_theme_description">Torne o Facebook preto. Sua tela AMOLED irá gostar.</string>
+    <string name="fixed_nav">Fixar a barra azul</string>
+    <string name="fixed_nav_description">A barra de navegação do Facebook ficará sempre no topo.</string>
+    <string name="facebook_zero">Facebook Zero</string>
+    <string name="facebook_zero_description">Não há taxas de dados. Depende da operadora de telefonia. Funciona durante as conexões de rede móvel.</string>
+    <string name="facebook_zero_active">Facebook Zero está ativado</string>
+    <string name="preference_category4">Adicional</string>
+    <string name="quick_guide">Guia de Início Rápido</string>
+    <string name="messages">Mensagens</string>
+    <string name="donate_paypal">Doar\u0020 –\u0020 PayPal</string>
+    <string name="donate_google">Doar\u0020 –\u0020 Google</string>
+    <string name="paypal_url" formatted="false">https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=koras%2eevil%40gmail%2ecom&amp;lc=GB&amp;item_name=Krzysztof%20Grabowski&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted</string>
+
+    <string-array name="drawerPosTitles">
+        <item>esquerdo</item>
+        <item>direito</item>
+    </string-array>
+
+    <string name="drawer_pos">Posição para deslizar o menu &#8635;</string>
+    <string name="drawer_pos_description">O menu está do lado %s da tela.</string>
+    <string name="preference_category5">Notificações</string>
+    <string name="notifications_feed_url">Feed de notificações</string>
+    <string name="interval_pref">Intervalo de tempo para verificação</string>
+    <string name="interval_pref_description">O feed de notificações será checado a cada %s.</string>
+    <string name="activate_notifications">Notificações estão ativadas</string>
+    <string name="get_feed">Obter suas notificações</string>
+    <string name="get_feed_description">Clique aqui, encontre o seu RSS de notificações exclusivo, copie o endereço e cole-o acima.</string>
+    <string name="notifications_service_created">Notificações ativadas</string>
+    <string name="notifications_settings">Configurações de notificações</string>
+    <string name="notifications_settings_description">Configurações adicionais. Escolha intervalo de tempo, sons, LED e vibração.</string>
+
+    <string-array name="intervalPrefTitles">
+        <item>2 minutos</item>
+        <item>5 minutos</item>
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>3 horas</item>
+        <item>6 horas</item>
+    </string-array>
+
+    <string name="all_notifications">Todas notificações</string>
+    <string name="notification_sound">Som de notificação</string>
+    <string name="notification_sound_description">Escolher um toque ou manter silêncio: \u0020</string>
+    <string name="silent">Sem som</string>
+    <string name="vibrate">Vibração</string>
+    <string name="led_light">Luz LED</string>
+    <string name="notifications_extra">Adicional</string>
+    <string name="notifications_everywhere">Sempre notificar</string>
+    <string name="notifications_everywhere_description">Além disso, quando você está na tela principal do aplicativo.</string>
+    <string name="setup_notifications">Visite configurações do aplicativo para configurar as notificações</string>
+    <string name="no_images">Desativar imagens &#8635;</string>
+    <string name="no_images_description">Não carregará nenhuma imagem. Reduz drasticamente o uso de dados.</string>
+    <string name="no_storage_permission">Conceda permissão de armazenamento para utilizar esta função</string>
+    <string name="basic_mode">Modo básico</string>
+    <string name="basic_mode_description">Usar a versão básica do site. O tema escuro será desativado. Pode não funcionar numa conexão rápida.</string>
+    <string name="preference_category6">Feed de Notícias</string>
+    <string name="hide_sponsored">Ocultar posts patrocinados</string>
+    <string name="hide_sponsored_description">Não gostamos de links patrocinados ou anúncios.</string>
+    <string name="hide_people">Ocultar pessoas que talvez você conheça</string>
+    <string name="hide_people_description">Feed limpo, mais espaço.</string>
+    <string name="hide_news_feed">Ocultar Feed de Notícias</string>
+    <string name="hide_news_feed_description">[…] para evitar distração/procrastinação.</string>
+
+    <string name="message_notifications">Notificações de mensagens</string>
+    <string name="you_have_one_message">Você tem uma mensagem.</string>
+    <string name="you_have_n_messages">Você tem %d mensagens.</string>
+    <string name="special_thanks_notifications">Agradecimento pela ajuda com as notificações:</string>
+    <string name="sync_problem">Cookies não podem ser sincronizados. Primeira execução, certo? Por favor reinicie o app :)</string>
+    <string name="interval_pref_description_new">Notificações serão verificadas a cada %s.</string>
+    <string name="facebook_notifications">Notificações do Facebook</string>
+    <string name="notification_sound_msg">Som de mensagens</string>
+    <string name="crash_toast_text">Face Slim: Algo deu errado. Preparando relatório de erros</string>
+    <string name="crash_dialog_title">Houve algum problema com o Face Slim</string>
+    <string name="crash_dialog_text">Um erro inesperado fez o app fechar. Por favor me ajude a consertar isso enviando dados do problema. Tudo o que precisa fazer é enviar um e-mail clicando em OK.</string>
+    <string name="crash_dialog_comment_prompt">Pode adicionar um detalhe sobre o problema abaixo:</string>
+    <string name="file_logger">Salvar logs em um arquivo</string>
+    <string name="file_logger_description">Notificação de Serviço de Salvamento de Logs na memória externa. Exige permissão de armazenamento.</string>
+    <string name="file_logger_needs_permission">Sem permissão para armazenar. O log não foi salvo</string>
+    <string name="save_img">Salvar imagem</string>
+    <string name="downloading_img">Baixando imagem&#8230;</string>
+
+    <string name="download_manager_disabled">Gerenciador de downloads desativado. Ative-o por favor.</string>
+    <string name="cannot_access_storage">Sem permissão no armazenamento externo</string>
+    <string name="file_cannot_be_saved">Um arquivo não pôde ser salvo</string>
+    <string name="camera_exception">Problemas com uma câmera</string>
+
+</resources>

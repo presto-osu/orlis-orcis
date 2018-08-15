@@ -1,0 +1,11 @@
+
+syntax: glob
+
+# Ignore patterns
+.metadata/
+bin/
+gen/
+lint.xml
+.apt_generated/
+out/
+

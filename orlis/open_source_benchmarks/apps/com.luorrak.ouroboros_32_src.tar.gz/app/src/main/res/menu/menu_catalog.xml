@@ -1,0 +1,82 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="110"
+        android:title="Search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:visible="false" />
+
+    <item android:id="@+id/action_reply"
+        android:orderInCategory="140"
+        android:title="Reply"
+        android:icon="@drawable/ic_reply_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:visible="false"/>
+
+    <item android:id="@+id/action_refresh"
+        android:orderInCategory="150"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:visible="false"/>
+
+    <item android:id="@+id/action_sort_by"
+        android:orderInCategory="160"
+        android:title="Sort By"
+        app:showAsAction="never"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/action_sort_by_bump_order"
+                android:title="Bump Order" />
+            <item
+                android:id="@+id/action_sort_by_creation_date"
+                android:title="Creation Date" />
+            <item
+                android:id="@+id/action_sort_by_reply_count"
+                android:title="Reply Count" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_external_browser"
+        android:orderInCategory="180"
+        android:title="Open In External Browser"
+        app:showAsAction="never"
+        android:visible="false"/>
+
+    <item android:id="@+id/action_add_board"
+        android:orderInCategory="190"
+        android:title="Add Board"
+        android:icon="@drawable/ic_add_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:orderInCategory="220"
+        android:title="Share"
+        android:icon="@drawable/ic_share_white_24dp"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider"
+        android:visible="false"/>
+    <item
+        android:id="@+id/action_menu_layout"
+        android:orderInCategory="230"
+        android:title="Choose Layout"
+        app:showAsAction="never"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/action_layout_list"
+                android:title="List Layout" />
+            <item
+                android:id="@+id/action_layout_grid"
+                android:title="Grid Layout" />
+        </menu>
+    </item>
+</menu>

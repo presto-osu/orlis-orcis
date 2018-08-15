@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:fillViewport="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/contentView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:contentDescription="@string/image"
+                android:id="@+id/imageView0"
+                style="@style/AppTheme.ImageListItem" />
+
+            <ImageView
+                android:contentDescription="@string/image"
+                android:id="@+id/imageView1"
+                style="@style/AppTheme.ImageListItem" />
+
+            <ImageView
+                android:contentDescription="@string/image"
+                android:id="@+id/imageView2"
+                style="@style/AppTheme.ImageListItem" />
+
+            <ImageView
+                android:contentDescription="@string/image"
+                android:id="@+id/imageView3"
+                style="@style/AppTheme.ImageListItem" />
+
+            <ImageView
+                android:contentDescription="@string/image"
+                android:id="@+id/imageView4"
+                style="@style/AppTheme.ImageListItem" />
+
+            <ImageView
+                android:contentDescription="@string/image"
+                android:id="@+id/imageView5"
+                style="@style/AppTheme.ImageListItem" />
+
+            <ImageView
+                android:contentDescription="@string/image"
+                android:id="@+id/imageView6"
+                style="@style/AppTheme.ImageListItem" />
+
+            <ImageView
+                android:contentDescription="@string/image"
+                android:id="@+id/imageView7"
+                style="@style/AppTheme.ImageListItem" />
+
+            <ImageView
+                android:contentDescription="@string/image"
+                android:id="@+id/imageView8"
+                style="@style/AppTheme.ImageListItem" />
+
+            <ImageView
+                android:contentDescription="@string/image"
+                android:id="@+id/imageView9"
+                style="@style/AppTheme.ImageListItem" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</FrameLayout>

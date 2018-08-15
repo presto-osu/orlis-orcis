@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+Copyright 2014 "Renzokuken" (pseudonym, first committer of WikipOff project) at
+https://github.com/conchyliculture/wikipoff
+
+This file is part of WikipOff.
+
+    WikipOff is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    WikipOff is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with WikipOff.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings">
+    <PreferenceCategory
+        android:key="@string/config_key_storage_category"
+        android:title="@string/title_storage_category">
+        <Preference
+            android:key="@string/config_key_storage_warning"
+            android:selectable="false"
+            android:summary="@string/message_storage_warning"
+            android:title="@string/message_warning" />
+
+        <ListPreference
+            android:key="@string/config_key_storage"
+            android:title="@string/pref_storage" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/config_key_misc_category"
+        android:title="@string/title_misc_category">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/config_key_use_mathjax"
+            android:summary="@string/pref_mathjax_summ"
+            android:title="@string/pref_mathjax" />
+    </PreferenceCategory>
+</PreferenceScreen>

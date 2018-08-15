@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wifi Key View</string>
+    <string name="backup">Cop. Seg.</string>
+    <string name="restore">Restaurar</string>
+    <string name="ssid">Nombre</string>
+    <string name="pwd">Cont.</string>
+    <string name="type">Tipo</string>
+    <string name="open">Abierta</string>
+    <string name="error">Error: Se necesita Acceso root y ademas tener instalados los binarios de busybox</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <Space
+        android:id="@+id/Space1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_vertical" />
+
+    <TextView
+        android:id="@+id/txtCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="130dp"
+        android:text="@string/countdownDefault"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/verybig" />
+
+    <Button
+        android:id="@+id/btnStartCountdown010"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnStartCountdown300"
+        android:layout_alignBottom="@+id/btnStartCountdown300"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="32dp"
+        android:text="@string/start010" />
+
+    <Button
+        android:id="@+id/btnCountdownStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="32dp"
+        android:enabled="false"
+        android:text="@string/stop" />
+
+    <Button
+        android:id="@+id/btnStartCountdown300"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnCountdownStop"
+        android:layout_alignBottom="@+id/btnCountdownStop"
+        android:layout_centerHorizontal="true"
+        android:text="@string/start300" />
+
+</RelativeLayout>

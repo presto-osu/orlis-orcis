@@ -1,0 +1,153 @@
+/*
+ *    Copyright (C) 2015 - 2016 VREM Software Development <VREMSoftwareDevelopment@gmail.com>
+ *
+ *    Licensed under the Apache License, Version 2.0 (the "License");
+ *    you may not use this file except in compliance with the License.
+ *    You may obtain a copy of the License at
+ *
+ *        http://www.apache.org/licenses/LICENSE-2.0
+ *
+ *    Unless required by applicable law or agreed to in writing, software
+ *    distributed under the License is distributed on an "AS IS" BASIS,
+ *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ *    See the License for the specific language governing permissions and
+ *    limitations under the License.
+ */
+
+apply plugin: 'com.android.application'
+apply plugin: 'jacoco-android'
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 22
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.vrem.wifianalyzer"
+        minSdkVersion 22
+        targetSdkVersion 22
+        versionCode
+        versionName
+    }
+
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+            signingConfig
+        }
+        debug {
+            debuggable true
+            testCoverageEnabled true
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+jacocoAndroidUnitTestReport {
+    excludes += ['**/com/jjoe64/*']
+    html.enabled true
+    xml.enabled true
+    csv.enabled false
+}
+
+if (project.hasProperty('keyAlias')) {
+    def propertiesFile = file('../../keystores/androidkeystore.properties')
+    def Properties properties = readProperties(propertiesFile);
+
+    System.out.println(">>> Signing Config " + properties)
+    android.buildTypes.release.signingConfig.keyAlias = properties['key_alias'].toString()
+    android.buildTypes.release.signingConfig.keyPassword = properties['key_password'].toString()
+    android.buildTypes.release.signingConfig.storeFile = file(properties['store_filename'].toString())
+    android.buildTypes.release.signingConfig.storePassword = properties['store_password'].toString()
+}
+
+dependencies {
+    // Compile Build Dependencies
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:design:22.2.1'
+    compile 'org.apache.commons:commons-lang3:3.4'
+    compile 'com.jjoe64:graphview:4.0.1'
+    // Unit Test Dependencies
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.powermock:powermock-module-junit4:1.6.4'
+    testCompile 'org.powermock:powermock-api-mockito:1.6.4'
+    testCompile 'com.googlecode.junit-toolbox:junit-toolbox:2.2'
+    testCompile 'org.robolectric:robolectric:3.1-rc1'
+    testCompile 'org.robolectric:shadows-support-v4:3.1-rc1'
+}
+
+updateVersion()
+
+def updateVersion() {
+    def propertiesFile = file('build.properties')
+    def Properties properties = readProperties(propertiesFile)
+
+    def versionMajor = properties['version_major'].toString().toInteger()
+    def versionMinor = properties['version_minor'].toString().toInteger()
+    def versionPatch = properties['version_patch'].toString().toInteger()
+    def versionBuild = properties['version_build'].toString().toInteger()
+    def versionStore = properties['version_store'].toString().toInteger()
+
+    if (isReleaseTask()) {
+        System.out.println(">>> Building Release...")
+        versionPatch++
+        versionStore++
+        versionBuild = 0
+        properties['version_patch'] = versionPatch.toString()
+        properties['version_store'] = versionStore.toString()
+        properties['version_build'] = versionBuild.toString()
+        writeProperties(propertiesFile, properties)
+    }
+    if (isCompileTask()) {
+        System.out.println(">>> Compiling Source...")
+        versionBuild++
+        properties['version_build'] = versionBuild.toString()
+        writeProperties(propertiesFile, properties)
+    }
+
+    def versionName = "${versionMajor}.${versionMinor}.${versionPatch}"
+    if (android.defaultConfig.applicationId.endsWith(".BETA")) {
+        versionName = versionName + ".${versionBuild}"
+    }
+    System.out.println(">>> " + project.parent.name + " " + versionName + " (" + versionStore + ") '" + android.defaultConfig.applicationId + "'")
+    android.defaultConfig.versionCode = versionStore
+    android.defaultConfig.versionName = versionName
+}
+
+def isCompileTask() {
+    def tasks = gradle.getStartParameter().getTaskNames()
+    return ':app:generateDebugSources' in tasks || ':app:generateReleaseSources' in tasks ||
+            'generateDebugSources' in tasks || 'generateReleaseSources' in tasks
+}
+
+def isReleaseTask() {
+    def tasks = gradle.getStartParameter().getTaskNames()
+    return ':app:assembleRelease' in tasks || 'assembleRelease' in tasks
+}
+
+def Properties readProperties(propertiesFile) {
+    if (propertiesFile.canRead()) {
+        def Properties properties = new Properties()
+        def inputStream = new FileInputStream(propertiesFile)
+        properties.load(inputStream)
+        inputStream.close()
+        return properties
+    } else {
+        def message = ">>> Could not read " + propertiesFile.name + " file!"
+        System.err.println(message)
+        throw new GradleException(message)
+    }
+}
+
+def writeProperties(propertiesFile, properties) {
+    def writer = propertiesFile.newWriter()
+    properties.store(writer, "Build Properties")
+    writer.close()
+}
+

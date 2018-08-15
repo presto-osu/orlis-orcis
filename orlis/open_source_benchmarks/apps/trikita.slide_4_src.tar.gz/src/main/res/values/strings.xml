@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Slide</string>
+
+    <string name="tutorial_text">SLIDE\n\nEach paragraph\nis a slide\n\nThis is a slide\n.\nwith a blank line\n\nTap on the preview\nto start the presentation.\nYou may also pick\na color scheme there.\n\nDone!\n\nDon\'t forget to export\nto PDF and share.</string>
+
+    <string name="pdf_name_prefix">Slide-</string>
+    <string name="failed_export_pdf">Failed to export to PDF</string>
+    <string name="default_new_doc_name">NewSlideDoc</string>
+    <string name="failed_open_doc">Failed to open a document</string>
+    <string name="failed_save_doc">Failed to found a document</string>
+
+    <string name="dlg_style_picker_title">Pick a style</string>
+    <string name="btn_ok">Ok</string>
+
+    <string name="om_open">Open</string>
+    <string name="om_insert_image">Insert image</string>
+    <string name="om_style">Style</string>
+    <string name="om_settings">Settings</string>
+    <string name="om_export_pdf">Export to PDF</string>
+</resources>

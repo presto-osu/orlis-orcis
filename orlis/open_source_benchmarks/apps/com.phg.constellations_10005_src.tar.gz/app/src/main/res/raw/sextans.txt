@@ -1,0 +1,36 @@
+Abbreviation: Sex    
+Genitive: Sextantis, Sextansis    
+Pronunciation: /ˈsɛkstənz/, genitive /sɛksˈtæntɨs/    
+Symbolism: the Sextant    
+Right ascension: 10    
+Declination: 0    
+Family: Hercules    
+Quadrant: SQ2    
+Area: 314 sq. deg. (47th)    
+Main stars: 3    
+Bayer/Flamsteed stars: 28    
+Stars with planets: 5    
+Stars brighter than 3.00m: 0    
+Stars within 10.00 pc (32.62 ly): 5    
+Brightest star: α Sex (4.49m)    
+Nearest star: LHS 292 (14.80 ly, 4.54 pc)    
+Messier objects: None    
+Meteor showers: Sextantids    
+Bordering constellations: Leo Hydra Crater    
+Visible at latitudes between +80° and −90°. Best visible at 21:00 (9 p.m.) during the month of April.
+    
+Sextans is a minor equatorial constellation which was introduced in 1687 by Johannes Hevelius. Its name is Latin for the astronomical sextant, an instrument that Hevelius made frequent use of in his observations.
+
+Notable features
+Sextans as a constellation covers a rather dim, sparse region of the sky. It has only one star above the fifth magnitude, namely α Sextantis at 4.49m. The constellation contains a few double stars, including γ, 35, and 40 Sextantis. There are a few notable variable stars, including β, 25, 23 Sextantis, and LHS 292. NGC 3115, an edge-on lenticular galaxy, is the only noteworthy deep-sky object. It also lies near the ecliptic, which causes the Moon, and some of the planets to occasionally pass through it for brief periods of time.
+The constellation is the location of the field studied by the COSMOS project, undertaken by the Hubble Space Telescope.
+Sextans B is a fairly bright dwarf irregular galaxy at magnitude 6.6, 4.3 million light-years from Earth. It is part of the Local Group of galaxies.
+
+References
+
+^ Levy 2005, p. 178.
+
+Levy, David H. (2005). Deep Sky Objects. Prometheus Books. ISBN 1-59102-361-0. 
+Ian Ridpath and Wil Tirion (2007). Stars and Planets Guide, Collins, London. ISBN 978-0-00-725120-9. Princeton University Press, Princeton. ISBN 978-0-691-13556-4.
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Sextans&oldid=600237512"

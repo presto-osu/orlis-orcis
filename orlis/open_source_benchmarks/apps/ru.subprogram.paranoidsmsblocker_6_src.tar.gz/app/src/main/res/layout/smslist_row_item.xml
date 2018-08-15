@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:padding="8dp"
+	android:background="@drawable/abc_list_selector_holo_dark" >
+
+    <TextView android:id="@+id/address"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+	    android:layout_toLeftOf="@+id/date"
+		android:layout_toStartOf="@+id/date"
+		android:textSize="18sp"
+	    android:textStyle="bold"
+	    android:text="ADDRESS"/>
+    
+    <TextView android:id="@+id/text"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/address"
+	    android:textSize="14sp"
+	    android:textStyle="italic"
+	    android:singleLine="true"
+	    android:text="TEXT"/>
+    
+    <TextView android:id="@+id/date"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true"
+	    android:textSize="14sp"
+	    android:text="23.05.2013"/>
+
+	<ProgressBar android:id="@id/progress"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"/>
+</RelativeLayout>

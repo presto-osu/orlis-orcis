@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ElpeEfpeControlView">
+        <attr name="damageType" format="enum">
+            <enum name="Kanalisiert" value="0"/>
+            <enum name="Erschoepft" value="1"/>
+            <enum name="Verzehrt" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

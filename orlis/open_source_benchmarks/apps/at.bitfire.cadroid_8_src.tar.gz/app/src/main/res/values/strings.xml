@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CAdroid</string>
+    <string name="menu_item_next">Next</string>
+    
+    <string name="intro_title">1 Intro</string>
+    <string name="intro_text"><![CDATA[
+        <h1>Welcome to CAdroid!</h1>
+        
+        <p>CAdroid is intended to assist you in importing your own CA or self-signed certificate
+        to your Android device.</p>
+        
+        <h1>How does it work?</h1>
+        
+        <p>After you enter the host name of your HTTPS site, the certificate chain will be
+        fetched and you can select the root certificate to import. Possible import issues
+        will be detected and displayed.</p>
+
+        <p>As soon as you have verified the certificate by its details and fingerprints,
+        it will be exported into a .crt file. You can then simply import the certificate from the file with a few clicks.</p>
+        
+        <p>When the certificate was imported correctly, it will be accepted in (nearly) all
+        apps, including <a href="https://davdroid.bitfire.at">DAVdroid</a> and the
+        Android email app (<a href="https://code.google.com/p/android/issues/detail?id=67038">don\'t
+        choose \"Accept all certificates\" there</a>).</p>
+        
+        <h1>Further info</h1>
+        
+        <p>* <a href="http://cadroid.bitfire.at">CAdroid home page</a><br />
+        * <a href="https://github.com/bitfireAT/cadroid">Github page</a> (source code, issues)</p>
+        
+        <p>Copyright (c) 2013 – 2015 Ricki Hirner (<a href="http://www.bitfire.at">bitfire web engineering</a>). All rights reserved.
+	    This program and the accompanying materials are made available under the terms of the GNU Public License v3.0 which
+	    accompanies this distribution, and is available at <a
+	    href="http://www.gnu.org/licenses/gpl.html">http://www.gnu.org/licenses/gpl.html</a>. As far as Google Play, Samsung
+	    Store or Amazon Appstore require other terms, the respective terms apply for versions
+	    that are downloaded via these services.</p>
+        
+    ]]></string>
+    
+    <string name="fetch_title">2 Fetch certificate</string>
+    <string name="fetch_which_url">Which URL shall the certificate be fetched from?</string>
+    <string name="fetch">Fetch</string>
+    <string name="querying_server">Querying server …</string>
+
+    <string name="select_title">3 Select certificate</string>
+    <string name="select_text">Select certificate to import:</string>
+    <string name="select_invalid_hostname">The certificate chain doesn\'t contain a valid certificate for the host name in the URL. Use the correct host name or change the corresponding certificate\'s subject.</string>
+    <string name="select_already_trusted">The certificate chain is already trusted. You don\'t need to import a certificate.</string>
+
+    <string name="verify_title">4 Verify certificate</string>
+    <string name="certificate_details">Certificate details</string>
+    <string name="subject_dn">Subject (DN):</string>
+    <string name="alternative_subject_names">Alternative subject names:</string>
+    <string name="serial_number">Serial number:</string>
+    <string name="signature_sha1">Signature (SHA1):</string>
+    <string name="signature_md5">Signature (MD5):</string>
+    <string name="valid_from">Valid from:</string>
+    <string name="valid_until">Valid until:</string>
+    <string name="basic_constraints">Basic Constraints extension:</string>
+    <string name="is_a_ca">Is a CA (may issue certificates), max. path length: %s</string>
+    <string name="is_not_a_ca">Is not a CA (must not issue certificates)</string>
+    <string name="basic_constraints_not_present">Basic Constraints extension not present, thus no CA flag</string>
+    <string name="alert_currently_not_valid">The certificate has expired or is not yet valid.</string>
+    <string name="alert_is_not_a_ca"><![CDATA[
+        <p>X.509 v3+ certificates may contain the Basic Constraints extension.
+        It contains a CA flag and optionally, a path length constraint. Android will only accept CA certificates when they have a CA flag set to TRUE.
+        Otherwise, it\'s assumed that this CA mustn\'t issue certificates, not even for itself (self-signed).</p>
+        <p><b>There\'s no CA flag=TRUE in this certificate, so Android can\'t import it.</b> Trying so wouldn\'t result
+        in an error message, but the certificate wouldn\'t appear in the list and wouldn\'t be trusted.</b></p>
+        <p>Solution: Set the CA flag to TRUE when using a self-signed certificate.</p>
+    ]]></string>
+
+    <string name="export_title">5 Export certificate</string>
+    <string name="export_successful">The certificate has been exported. Remember the file name because you may have to select it in the next step:</string>
+    <string name="export_failed">The certificate couldn\'t be exported!</string>
+    
+    <string name="import_title">6 Import certificate</string>
+    <string name="import_text"><![CDATA[
+        <p>The certificate has been stored on your "external storage". Now you can import it to
+        your Android device using Android Settings (Security):</p>
+        
+        <p>1. Click \"Open Settings\" to open Android Settings.</p>
+        <p>2. Scroll down to \"Credential Storage\".</p>
+        <p>3. Use \"Install from SD card\" (the exact term may differ) and follow the instructions.</p>
+        <p>Note 1: You may have to set up a PIN or password for the lock screen
+        (<a href="https://code.google.com/p/android/issues/detail?id=31101">Android bug #31101</a>).</p>
+        <p>Note 2: On Android 4.4+, there will be a strange \"Network may be monitored\" warning
+        (<a href="https://code.google.com/p/android/issues/detail?id=62644">Android bug #62644</a>).</p>
+        
+        <p>4. After installing the certificate, you can verify whether it worked by using \"Trusted credentials
+        (Display trusted CA certificates)\" in Settings (Security). Your CA should appear in the \"User\"
+        tab.</p>
+    ]]></string>
+    <string name="certificate_not_yet_imported">The certificate has not been imported successfully yet (and thus won\'t be trusted yet).</string>
+    <string name="certificate_imported">The certificate has been imported successfully. You may now use any Android app like DAVdroid or the stock email app to connect to this host.</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="menu_help">Help</string>
+    
+</resources>

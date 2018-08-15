@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditTextPreference
+            android:positiveButtonText="@string/okreinit"
+            android:dialogMessage='@string/defaulttsvfiledialog'
+            android:dialogTitle="@string/defaulttsvfile"
+            android:negativeButtonText="@string/cancel"
+            android:title="Select TSV horaire filename"
+            android:defaultValue="schedules.tsv" android:key="TSVFILENAME"/>
+        <EditTextPreference
+            android:title="Default Ferry Station"
+            android:key="DEFAULTSTATION"
+            android:dialogMessage="@string/defaultferrystationdialog"
+            android:dialogTitle="@string/defaultferrystation"/>
+</PreferenceScreen>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item
+        android:id="@+id/view_on_bart_site_button"
+        android:icon="@drawable/ic_action_web"
+        android:title="@string/view_on_bart_site"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/view_system_map_button"
+        android:icon="@drawable/ic_action_map"
+        android:title="@string/view_system_map"
+        app:showAsAction="ifRoom|withText"
+        />
+
+</menu>

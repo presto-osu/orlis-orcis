@@ -1,0 +1,104 @@
+Abbreviation: Sgr    
+Genitive: Sagittarii    
+Pronunciation: /ˌsædʒɨˈtɛəriəs/, genitive /ˌsædʒɨˈtɛəri.aɪ/    
+Symbolism: the Archer    
+Right ascension: 19    
+Declination: −25    
+Family: Zodiac    
+Quadrant: SQ4    
+Area: 867 sq. deg. (15th)    
+Main stars: 12, 8    
+Bayer/Flamsteed stars: 68    
+Stars with planets: 32    
+Stars brighter than 3.00m: 7    
+Stars within 10.00 pc (32.62 ly): 2    
+Brightest star: ε Sgr (Kaus Australis) (1.79m)    
+Nearest star: Ross 154 (9.69 ly, 2.97 pc)    
+Messier objects: 15    
+Bordering constellations: Aquila, Scutum, Serpens Cauda, Ophiuchus, Scorpius, Corona Australis, Telescopium, Indus (corner), Microscopium, Capricornus
+Visible at latitudes between +55° and −90°. Best visible at 21:00 (9 p.m.) during the month of August. 
+   
+Sagittarius is one of the constellations of the zodiac. It is one of the 48 constellations listed by the 2nd-century astronomer Ptolemy and remains one of the 88 modern constellations. Its name is Latin for the archer, and its symbol is  (Unicode U+2650 ♐), a stylized arrow. Sagittarius is commonly represented as a centaur drawing a bow. It lies between Scorpius and Ophiuchus to the west and Capricornus to the east.
+
+Visualizations
+The "Teapot" asterism is in Sagittarius. The Milky Way is the "steam" coming from the spout.
+As seen from the northern hemisphere, the constellation's brighter stars form an easily recognizable asterism known as 'the Teapot'. The stars δ Sgr (Kaus Media), ε Sgr (Kaus Australis), ζ Sgr (Ascella), and φ Sgr (Nanto) form the body of the pot; λ Sgr (Kaus Borealis) is the point of the lid; γ2 Sgr (Alnasl) is the tip of the spout; and σ Sgr (Nunki) and τ Sgr the handle (the closest bright star to the possible origin of the Wow! signal.)
+Marking the bottom of the teapot's "handle" (or the shoulder area of the archer, are the bright star (2.59 magnitude) Zeta Sagittarii (ζ Sgr), named Ascella, and the fainter Tau Sagittarii (τ Sgr).
+To complete the teapot metaphor, under good conditions, a particularly dense area of the Milky Way can be seen rising in a north-westerly arc above the spout, like a puff of steam rising from a boiling kettle.
+The constellation as a whole is often depicted as having the rough appearance of a stick-figure archer drawing its bow, with the fainter stars providing the outline of the horse's body. Sagittarius famously points its arrow at the heart of Scorpius, represented by the reddish star Antares, as the two constellations race around the sky. Following the direct line formed by Delta Sagittarii (δ Sgr) and Gamma Sagittarii (γ Sgr) leads nearly directly to Antares.
+Fittingly, Gamma Sagittarii is named Alnasl, the Arabic word for "arrowhead," and Delta Sagittarii is called Kaus Media, the "center of the bow," from which the arrow protrudes. Kaus Media bisects Lambda Sagittarii (λ Sgr) and Epsilon Sagittarii (ε Sgr), whose names Kaus Borealis and Kaus Australis refer to the northern and southern portions of the bow, respectively.
+
+Notable Features
+Stars
+α Sgr (Rukbat, meaning "the archer's knee", despite having the "alpha" appellation, is not the brightest star of the constellation, having a magnitude of only 3.96 (not shown on the main map as it is located below the map's southeastern corner, north is up). Instead, the brightest star is Epsilon Sagittarii (ε Sgr) ("Kaus Australis," or "southern part of the bow"), at magnitude 1.85.
+Sigma Sagittarii (σ Sgr) ("Nunki") is the constellation's second-brightest star at magnitude 2.08. Nunki is a B2V star approximately 260 light years away. "Nunki" is a Babylonian name of uncertain origin, but thought to represent the sacred Babylonian city of Eridu on the Euphrates, which would make Nunki the oldest star name currently in use.
+Zeta Sagittarii (ζ Sgr) ("Ascella"), with apparent magnitude 2.61 of A2 spectra, is actually a double star whose two components have magnitudes 3.3 and 3.5.
+Delta Sagittarii (δ Sgr) ("Kaus Maridionalis"), is a K2 spectra star with magnitude 2.71 and only 85 light years from Earth.
+Eta Sagittarii (η Sgr) is a double star with component magnitudes of 3.18 and 10, while Pi Sagittarii (π Sgr) is actually a triple system whose components have magnitudes 3.7, 3.8, and 6.0.
+The Bayer designation Beta Sagittarii (Beta Sgr, β Sagittarii, β Sgr) is shared by two star systems, β¹ Sagittarii, with apparent magnitude 3.96, and β² Sagittarii, magnitude 7.4. The two stars are separated by 0.36° in the sky and are 378 light years from earth. Beta Sagittarii, located at a position associated with the forelegs of the centaur, has the traditional name Arkab, meaning "achilles tendon."
+
+Deep-Space objects
+The Milky Way is at its densest near Sagittarius, as this is where the galactic center lies. Consequently, Sagittarius contains many star clusters and nebulae.
+NebulaeSagittarius contains several well-known nebulae, including the Lagoon Nebula (Messier 8), near λ Sagittarii; the Omega Nebula (Messier 17), also known as the Horseshoe Nebula or Swan Nebula, near the border with Scutum; and the Trifid Nebula (Messier 20), a large nebula containing some very young, hot stars.
+The Lagoon Nebula (M8) is an emission nebula that is located 5,000 light-years from Earth and measures 140 light-years by 60 light-years (1.5°). Though it appears grey in telescopes to the unaided eye, long-exposure photographs reveal its pink hue, common to emission nebulae. It is fairly bright, with an integrated magnitude of 3.0. The Lagoon Nebula was discovered independently by John Flamsteed in 1680, Guillaume Le Gentil in 1747, and Charles Messier in 1764. The central area of the Lagoon Nebula is also known as the Hourglass Nebula, so named for its distinctive shape. The Hourglass Nebula has its shape because of matter propelled by Herschel 36. The Lagoon Nebula also features three dark nebulae catalogued in Barnard's Catalog. The Lagoon Nebula was instrumental in the discovery of Bok globules, as Bart Bok studied prints of the nebula intensively in 1947. Approximately 17,000 Bok globules were discovered in the nebula nine years later as a part of the Palomar Sky Survey; studies later showed that Bok's hypothesis that the globules held protostars was correct.
+The Omega Nebula is a fairly bright nebula; it has an integrated magnitude of 6.0 and is 4890 light-years from Earth. It was discovered in 1746 by Philippe Loys de Chésaux; observers since him have differed greatly in how they view the nebula, hence its myriad of names. Most often viewed as a checkmark, it was seen as a swan by George F. Chambers in 1889, a loon by Roy Bishop, and as a curl of smoke by Camille Flammarion.
+The Trifid Nebula (M20, NGC 6514) is an emission nebula in Sagittarius that lies less than two degrees from the Lagoon Nebula. Discovered by French comet-hunter Charles Messier, it is located between 2,000 and 9,000 light-years from Earth and has a diameter of approximately 50 light-years. The outside of the Trifid Nebula is a bluish reflection nebula; the interior is pink with two dark bands that divide it into three areas, sometimes called "lobes". Hydrogen in the nebula is ionized, creating its characteristic color, by a central triple star, which formed in the intersection of the two dark bands. M20 is associated with a cluster that has a magnitude of 6.3.
+NGC 6559 is a star forming region located at a distance of about 5000 light-years from Earth, in the constellation of Sagittarius, showing both emission (red) and reflection (bluish) regions.
+The grouping of the Lagoon Nebula, the Trifid Nebula, and NGC 6559 is often called the Sagittarius triplet.
+In addition, several other nebulae have been located within Sagittarius and are of interest to astronomers.
+M24, also called the Small Sagittarius Star Cloud, is a star cluster with an approximate magnitude of 3. About 9400 light-years away, it has a diameter of approximately 330 light-years. Embedded in M24 is NGC 6603, a smaller star cluster that is very dense. NGC 6567, a dim planetary nebula, and Barnard 92, a Bok globule, are also nearby.
+NGC 6445 is a planetary nebula with an approximate magnitude of 11. A large nebula at over one arcminute in diameter, it appears very close to the globular cluster NGC 6440.
+NGC 6638 is a dimmer globular at magnitude 9.2, though it is more distant than M71 at a distance of 26,000 light-years. It is a Shapley class VI cluster; the classification means that it has intermediate concentration at its core. It is approximately a degree away from the brighter globulars M22 and M28; NGC 6638 is southeast and southwest of the clusters respectively.
+Messier 54 was the first globular cluster found that is outside the Milky Way.
+
+Other deep sky objects
+In 1999 a violent outburst at V4641 Sgr was thought to have revealed the location of the closest known black hole to Earth, but later investigation increased its estimated distance by a factor of 15. The complex radio source Sagittarius A is also here. Astronomers believe that one of its components, known as Sagittarius A*, is associated with a supermassive black hole at the center of the galaxy, with a mass of 2.6 million solar masses. The Sagittarius Dwarf Elliptical Galaxy is located just outside the Milky Way.
+Baade's Window is an area with very little obscuring dust that shows objects closer to the Milky Way's center than would normally be visible. NGC 6522, magnitude 8.6, and NGC 6528, magnitude 9.5, are both globular clusters visible through Baade's Window. 20,000 and 24,000 light-years from Earth, with Shapley classes of VI and V respectively, both are moderately concentrated at their cores. NGC 6528 is closer to the galactic core at an approximate distance of 2,000 light-years.
+
+Mythology
+Sagittarius as depicted in Urania's Mirror, a set of constellation cards published in London c.1825.
+The Babylonians identified Sagittarius as the god Nergal, a strange centaur-like creature firing an arrow from a bow. It is generally depicted with wings, with two heads, one panther head and one human head, as well as a scorpion's stinger raised above its more conventional horse's tail. The Sumerian name Pabilsag is composed of two elements – Pabil, meaning 'elder paternal kinsman' and Sag, meaning 'chief, head'. The name may thus be translated as the 'Forefather' or 'Chief Ancestor'. The figure is reminiscent of modern depictions of Sagittarius.
+In Greek mythology, Sagittarius is usually identified as a centaur: half human, half horse. However, perhaps due to the Greek's adoption of the Sumerian constellation, some confusion surrounds the identity of the archer. Some identify Sagittarius as the centaur Chiron, the son of Philyra and Saturn and tutor to Jason, who was said to have changed himself into a horse to escape his jealous wife, Rhea. However, Chiron is in fact represented by the constellation Centaurus, the other heavenly centaur. An alternative tradition is that Chiron merely invented the constellation Sagittarius to help in guiding the Argonauts in their quest for the Golden Fleece.
+A competing mythological tradition, as espoused by Eratosthenes, identified the Archer not as a centaur but as the satyr Crotus, son of Pan, who Greeks credited with the invention of archery. According to myth, Crotus often went hunting on horseback and lived among the Muses, who requested that Zeus place him in the sky, where he is seen demonstrating archery.
+The arrow of this constellation points towards the star Antares, the "heart of the scorpion," and Sagittarius stands poised to attack should Scorpius ever attack the nearby Hercules, or to avenge Scorpius's slaying of Orion.
+
+Astrology
+As of 2002, the Sun appears in the constellation Sagittarius from 18 December to 18 January. In tropical astrology, the Sun is considered to be in the sign Sagittarius from 22 November to 21 December, and in sidereal astrology, from 16 December to 14 January.
+Space exploration
+The Space probe New Horizons is moving in the direction of this constellation, though it will not be nearing any of the stars in this constellation for many thousands of years, by which time its radioisotope thermoelectric generator will have exhausted itself.
+
+Notes
+
+^ "Sagittarius". deepsky.astroinfo.org. Retrieved 30 August 2008. 
+^ skywatchers[dead link]
+^ P.K. Chen (Sky Publishing 2007) A Constellation Album: Stars and Mythology of the Night Sky (ISBN 978-1931559386).
+^ a b c d e f Ridpath, Ian (1988). Star Tales. James Clarke & Co. pp. 112–114. ISBN 9780718826956. 
+^ a b Chartrand III, Mark R. (1983). Skyguide: A Field Guide for Amateur Astronomers. New York, NY: Golden Press. p. 184. ISBN 0-307-13667-1. 
+^ James B. Kaler, Prof. Emeritus of Astronomy, University of Illinois, http://stars.astro.illinois.edu/sow/sowlist.html
+^ a b c Baker, David (1978). The Henry Holt Guide to Astronomy. New York, NY: The Hamlyn Publishing Group, Ltd. p. 132. ISBN 0805011978. 
+^ a b c d Wilkins, Jamie; Dunn, Robert (2006). 300 Astronomical Objects: A Visual Reference to the Universe (1st ed.). Buffalo, New York: Firefly Books. ISBN 978-1-55407-175-3. 
+^ Levy 2005, p. 108.
+^ a b Levy 2005, p. 109.
+^ Levy 2005, pp. 111–112.
+^ Levy 2005, p. 103.
+^ Levy 2005, p. 114.
+^ Levy 2005, pp. 143–144.
+^ Levy 2005, p. 133.
+^ Levy 2005, pp. 167–168.
+^ "First Globular Cluster Outside the Milky Way". ESA/Hubble Photo of the Week. Retrieved 9 November 2011. 
+^ "Dramatic Outburst Reveals Nearest Black Hole". National Radio Astronomy Observatory. Retrieved 30 August 2008. 
+^ A Black Hole in the Superluminal Source SAX J1819.3-2525 (V4641 SGR), 2001: "Finally, we find a distance in the range 7.40 ≤ d ≤ 12.31 kpc (90% confidence), which is at least a factor of ≈ 15 larger than the initially assumed distance of ≈ 500 pc."
+^ Levy 2005, p. 143.
+^ Levy 2005, pp. 174–175.
+^ Page 15 of Origins of the ancient constellations: I. The Mesopotamian traditions, by J. H. Rogers
+^ White, Gavin (2008). Babylonian Star-lore. Solaria Pubs. p. 155. 
+^ Patrick Moore (CRC Press 2010) The Data Book of Astronomy, p. 433 (ISBN 9781420033441.)
+^ Theony Condos, Ph.D. (Red Wheel/Weiser 1997) Star Myths of the Greeks and Romans: A Sourcebook, p. 186 (ISBN 9781609256784.)
+^ Milton D. Heifetz (Cambridge University Press 2004) A Walk Through the Heavens: A Guide to Stars and Constellations and Their Legends, p. 66 (ISBN 9780521544153).
+
+References
+
+Levy, David H. (2005). Deep Sky Objects. Prometheus Books. ISBN 978-1-59102-361-6. 
+Ridpath, Ian; Tirion, Wil (2007). Stars and Planets Guide. London: Collins. ISBN 978-0-691-13556-4. 
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Sagittarius_(constellation)&oldid=607518315"

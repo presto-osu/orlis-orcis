@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Berlin-Vegan</string>
+    <string name="action_gastro">Food</string>
+    <string name="action_shopping">Shopping</string>
+    <string name="action_favorites">Favorites</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_mapview">Map overview</string>
+    <string name="action_listview">List view</string>
+    <string name="action_about">About</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_menu_search">Search</string>
+    <string name="action_rate_app">Rate app</string>
+
+    <string name="km_string">km</string>
+    <string name="mi_string">mi</string>
+
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="retrieving_data">Retrieving data.</string>
+    <string name="units">Units</string>
+    <string name="units_summaryOn">Use metric system.</string>
+    <string name="units_summaryOff">Use imperial system.</string>
+    <string name="guide">Guide</string>
+    <string name="error">Error</string>
+    <string name="no_gps_data">No GPS data received. Show list in default order.</string>
+    <string name="insert_error_report">Please insert error report here:</string>
+    <string name="something_went_wrong">Something went wrong. But no worries, a report has been sent to help fix the issue.</string>
+
+    <string name="about_version">&lt;b>%1$s&lt;/b>&lt;br>Version: %2$s</string>
+    <string name="about_flavor">Flavor:  %1$s</string>
+    <string name="about_licenses">Open Source Licenses</string>
+    <string name="about_credits">Credits</string>
+
+    <string name="gastro_list_closed">closed at the moment</string>
+    <string name="gastro_list_closed_soon">closes by\n%1$s clock!</string>
+    <string name="gastro_list_empty_favorites">No favorites available.\nYou can mark a location as favorite in the detail view.</string>
+    <string name="gastro_list_empty_search">No search result.</string>
+
+    <string name="gastro_details_contact_address">No address</string>
+    <string name="gastro_details_contact_telephone">No phone number</string>
+    <string name="gastro_details_contact_website">No website</string>
+    <string name="gastro_details_opening_hours_content_monday">Monday</string>
+    <string name="gastro_details_opening_hours_content_tuesday">Tuesday</string>
+    <string name="gastro_details_opening_hours_content_wednesday">Wednesday</string>
+    <string name="gastro_details_opening_hours_content_thursday">Thursday</string>
+    <string name="gastro_details_opening_hours_content_friday">Friday</string>
+    <string name="gastro_details_opening_hours_content_saturday">Saturday</string>
+    <string name="gastro_details_opening_hours_content_sunday">Sunday</string>
+    <string name="gastro_details_opening_hours_content_closed">closed soon</string>
+    <string name="gastro_details_opening_hours_content_holiday_warning">Attention, today is a public holiday!</string>
+    <string name="gastro_details_miscellaneous_content_catering">Catering</string>
+    <string name="gastro_details_miscellaneous_content_child_chair">High chair</string>
+    <string name="gastro_details_miscellaneous_content_delivery">Delivery service</string>
+    <string name="gastro_details_miscellaneous_content_dog">Dog allowed</string>
+    <string name="gastro_details_miscellaneous_content_gluten_free">Glutenfree</string>
+    <string name="gastro_details_miscellaneous_content_handicapped_accessible">wheelchair friendly</string>
+    <string name="gastro_details_miscellaneous_content_handicapped_accessible_wc">wheelchair friendly WC</string>
+    <string name="gastro_details_miscellaneous_content_organic">Organic food</string>
+    <string name="gastro_details_miscellaneous_content_seats_indoor">Seats indoor</string>
+    <string name="gastro_details_miscellaneous_content_seats_outdoor">Seats outdoor</string>
+    <string name="gastro_details_miscellaneous_content_vegan">Vegan</string>
+    <string name="gastro_details_miscellaneous_content_wlan">WLAN</string>
+    <string name="gastro_details_miscellaneous_content_yes">yes</string>
+    <string name="gastro_details_miscellaneous_content_no">no</string>
+    <string name="gastro_details_miscellaneous_content_unknown">unknown</string>
+    <string name="gastro_details_miscellaneous_content_omnivore">omnivore</string>
+    <string name="gastro_details_miscellaneous_content_omnivore_vegan_declared">omnivore (vegan declared)</string>
+    <string name="gastro_details_miscellaneous_content_vegetarian">vegetarian</string>
+    <string name="gastro_details_miscellaneous_content_vegetarian_vegan_declared">vegetarian (vegan declared)</string>
+    <string name="gastro_details_miscellaneous_content_completely_vegan">100% vegan</string>
+    <string name="gastro_details_editing">Suggest changes</string>
+    <string name="gastro_details_opening_hours_content_clock" />
+    <string name="gastro_details_dial">Call</string>
+    <string name="gastro_details_favorite">Favorite</string>
+    <string name="gastro_details_website">Website</string>
+    <string name="gastro_details_no_navigation_found">No navigation app found. You can install, for example, OsmAnd from F-Droid store.</string>
+
+    <string name="gastro_filter_title_dialog">Filter</string>
+    <string name="gastro_filter_result">%1$s selected</string>
+    <string name="gastro_filter_category">Category</string>
+    <string name="gastro_filter_category_vegan">vegan</string>
+    <string name="gastro_filter_category_vegetarian">vegetarian</string>
+    <string name="gastro_filter_category_omnivore">omnivore</string>
+    <string name="gastro_filter_type">Type of locality</string>
+    <string name="gastro_filter_type_restaurant">Restaurant</string>
+    <string name="gastro_filter_type_fast_food">Fast food</string>
+    <string name="gastro_filter_type_ice_cafe">Ice cream shop</string>
+    <string name="gastro_filter_type_cafe">Cafe</string>
+    <string name="gastro_filter_options">Options</string>
+
+
+</resources>

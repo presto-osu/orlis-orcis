@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="SentencesTitle">Información de las Frases</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <string name="app_name">Read4SpeechExperiments</string>
+    <string name="audioPathSummary">Directorio en el que se guardarán los ficheros de audio.</string>
+    <string name="audioPathTitle">Directorio para el audio</string>
+    <string name="bluetoothSummary">Permite utilizar un micrófono bluetooth</string>
+    <string name="bluetoothTitle">Micrfono Bluetooth</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cleanMessage">¿Seguro que deseas borrar las grabaciones?</string>
+    <string name="cleanTitle">Borrar las grabaciones</string>
+    <string name="close">Cerrar</string>
+    <string name="content">DUMMY CONTENT</string>
+    <string name="handsfreeSummary">Permite acquirir las muestras de audio sin interacción del usuario</string>
+    <string name="handsfreeTitle">Manos Libres</string>
+    <string name="imagesSummary">Muestra las imágenes de las líneas de texto a leer, si están disponibles.</string>
+    <string name="imagesTitle">Muestra las imágenes</string>
+    <string name="instructions">Botones:&lt;br />\"Grabar\": graba el audio.&lt;br />\"Reproducir\": reproduce el audio de la frase grabada.&lt;br />\"Menú/Borrar...\": borra todos los ficheros generados por esta aplicación.&lt;br />\"Menú/Enviar...\": envía las grabaciones.&lt;br />&lt;br />Color del fondo:&lt;br />\"&lt;b>&lt;font color="#080862">Azul&lt;/font>&lt;/b>\": la frase aún no se ha grabado.&lt;br />\"&lt;b>&lt;font color="#086208">Verde&lt;/font>&lt;/b>\": la frase ya se ha grabado.&lt;br />\"&lt;b>&lt;font color="#620808">Rojo&lt;/font>&lt;/b>\": la frase se está grabando.</string>
+    <string name="intructionTitle">Instrucciones</string>
+    <string name="mandatorySentencesSummary">Ruta absoluta al fichero de texto o zip que contiene las frases a leer.</string>
+    <string name="mandatorySentencesTitle">Fichero con las frases a leer</string>
+    <string name="menu">Menú</string>
+    <string name="newRecord">Nueva grabación</string>
+    <string name="next">Siguiente</string>
+    <string name="noRecordToDelete">No hay grabaciones que borrar.</string>
+    <string name="noRecords">No hay grabaciones.</string>
+    <string name="notSentencesFile">El fichero de frases indicado no existe: </string>
+    <string name="notSpaceTitle">Espacio de memoria insuficiente.</string>
+    <string name="ok">Aceptar</string>
+    <string name="optionalSentencesSummary">Ruta absoluta al fichero zip que contiene el fichero de texto y/o las imágenes de las frases a leer.</string>
+    <string name="optionalSentencesTitle">Fichero zip con las frases</string>
+    <string name="play">Reproducir</string>
+    <string name="previous">Anterior</string>
+    <string name="record">Grabar</string>
+    <string name="recordMessage">Esta frase ya se ha grabado.\n¿Quieres volverla a grabar?\nAl grabarla de nuevo se sobreescribirá la grabación anterior.</string>
+    <string name="recordTitle">Grabar una nueva frase</string>
+    <string name="send">Enviar</string>
+    <string name="sendMessage">No se han grabado todas las frases.\n¿Estás seguro de que quieres enviarlas?</string>
+    <string name="sendTitle">Enviar las grabaciones</string>
+    <string name="senteceFileNeeded">Se necesita un fichero de texto con las frases. Se van a cargar unas frases como demostración.</string>
+    <string name="sentence">Frase</string>
+    <string name="serverIPSummary">Dirección IP del servidor</string>
+    <string name="serverIPTitle">IP del servidor</string>
+    <string name="serverPortSummary">Puerto de escucha del servicio</string>
+    <string name="serverPortTitle">Puerto</string>
+    <string name="setSpeakerID">Por favor, indique un identificador para el locutor.</string>
+    <string name="settings">Configuración</string>
+    <string name="settingsData">Origen de los datos</string>
+    <string name="settingsTitle">Configuración general</string>
+    <string name="settingsUser">Información del usuario</string>
+    <string name="showAtStart">Muestra las instruciones al iniciar.</string>
+    <string name="spaceNecessary1">No hay espacio suficiente para grabar todas las frases.\nPor favos, libere al menos </string>
+    <string name="spaceNecessary2">MB antes de utilizar esta aplicación.</string>
+    <string name="speakerIDHint">20 carácteres (letras y números) máx."</string>
+    <string name="speakerIDSummary">Identificador del locutor.</string>
+    <string name="speakerIDTitle">Locutor ID</string>
+    <string name="thanksMessage">Muchas gracias por su colaboración.</string>
+    <string name="thanksTitle">Se han borrado todas las grabaciones.</string>
+</resources>

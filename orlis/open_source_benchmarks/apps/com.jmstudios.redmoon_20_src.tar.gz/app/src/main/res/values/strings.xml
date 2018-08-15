@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (c) 2016  Marien Raat <marienraat@riseup.net>
+ *
+ *  This file is free software: you may copy, redistribute and/or modify it
+ *  under the terms of the GNU General Public License as published by the Free
+ *  Software Foundation, either version 3 of the License, or (at your option)
+ *  any later version.
+ *
+ *  This file is distributed in the hope that it will be useful, but WITHOUT ANY
+ *  WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ *  FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+ *  details.
+ *
+ *  You should have received a copy of the GNU General Public License along with
+ *  this program.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ * This file incorporates work covered by the following copyright and
+ * permission notice:
+ *
+ *     Copyright (c) 2015 Chris Nguyen
+ *
+ *     Permission to use, copy, modify, and/or distribute this software
+ *     for any purpose with or without fee is hereby granted, provided
+ *     that the above copyright notice and this permission notice appear
+ *     in all copies.
+ *
+ *     THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL
+ *     WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED
+ *     WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE
+ *     AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR
+ *     CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS
+ *     OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
+ *     NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+ *     CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+-->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <!-- App Name and Activity Labels -->
+    <string name="app_name">Red Moon</string>
+    <string name="shades_settings">Red Moon</string>
+    <string name="shortcut_activity">Red Moon Toggle</string>
+    <string name="intro_label">Intro</string>
+    <string name="show_intro_text">Show intro</string>
+
+    <!-- Notification -->
+    <string name="running">Running. Pause to install apks</string>
+    <string name="paused">Paused</string>
+    <string name="resume_action">Resume</string>
+    <string name="pause_action">Pause</string>
+
+    <!-- Preference -->
+    <string name="pref_title_appearance">Filter</string>
+    <string name="pref_title_automatic_filter">Filter times</string>
+    <string name="pref_title_startup">Startup</string>
+    <string name="pref_title_other">Other</string>
+
+    <string name="button_add_profile">Add</string>
+    <string name="button_remove_profile">Delete</string>
+    <string name="shades_dim_level">Dim level</string>
+    <string name="shades_intensity_level">Intensity level</string>
+    <string name="shades_color_temp">Color temperature</string>
+    <string name="control_brightness_title">Lower brightness</string>
+
+    <string name="automatic_filter_title">Toggle mode</string>
+    <string name="custom_start_time_title">Resume at</string>
+    <string name="custom_end_time_title">Pause at</string>
+    <string name="location_title">Location</string>
+    <string name="location_not_set">Not set</string>
+    <string name="latitude_short">Lat</string>
+    <string name="longitude_short">Long</string>
+    <string name="searching_location">Searching for location</string>
+
+    <string name="dark_theme">Dark theme</string>
+
+    <string name="email_me_title">Email me at marienraat@riseup.net</string>
+    <string name="email_me_summary">Email me with bugs or suggestions</string>
+    <string name="contact_email_adress" translatable="false">mailto:marienraat@riseup.net</string>
+    <string name="project_page_title">Visit the project page</string>
+    <string name="project_page_summary">Find more info, leave feedback and contribute</string>
+    <string name="project_page_url" translatable="false">https://github.com/raatmarien/red-moon</string>
+
+    <!-- Toasts -->
+    <string name="toast_warning_install">You won\'t be able to install APKs while the filter is running.</string>
+    <string name="toast_warning_no_location">Enable location services to update location</string>
+
+    <!-- Snackbar -->
+    <string name="help_snackbar_text">Press the switch to enable Red Moon</string>
+
+    <!-- Dialog -->
+    <string name="add_new_profile_dialog_title">Enter profile name</string>
+    <string name="add_new_profile_edit_hint">Profile name</string>
+    <string name="remove_profile_dialog_title">Delete this profile?</string>
+    <string name="set_dialog">Set</string>
+    <string name="ok_dialog">OK</string>
+    <string name="cancel_dialog">Cancel</string>
+
+    <!-- Shortcuts -->
+    <string name="toggle_shortcut_title">Toggle</string>
+
+    <!-- Intro -->
+    <string name="intro_slide_1_title">Welcome!</string>
+    <string name="intro_slide_1_text">Welcome to Red Moon!</string>
+
+    <string name="intro_slide_2_title">Protecting your eyes</string>
+    <string name="intro_slide_2_text">At night, when looking at your
+    phone hurts your eyes, you can use Red Moon to dim your screen.</string>
+
+    <string name="intro_slide_3_title">Improving your sleep</string>
+    <string name="intro_slide_3_text">Blue light suppresses the
+    production of Melatonin, a hormone that helps you fall asleep at
+    night. Red Moon removes the blue light from your screen, ensuring
+    you can fall asleep easily.</string>
+
+    <string name="intro_slide_4_title">Get started!</string>
+    <string name="intro_slide_4_text">To enable Red Moon, press the
+    switch in the top right corner.</string>
+
+    <!-- Profiles -->
+    <!-- standard_profiles_array -->
+    <string name="standard_profiles_array_0">Custom</string>
+    <string name="standard_profiles_array_1">Default</string>
+    <string name="standard_profiles_array_2">Reading</string>
+
+    <!-- Automatic filter -->
+    <!-- automatic_filter_options_array -->
+    <string name="automatic_filter_options_array_0">Manual</string>
+    <string name="automatic_filter_options_array_1">Automatic (sun)</string>
+    <string name="automatic_filter_options_array_2">Automatic (custom)</string>
+
+    <string-array name="automatic_filter_values_array"
+                  translatable="false">
+      <item>never</item>
+      <item>sun</item>
+      <item>custom</item>
+    </string-array>
+</resources>

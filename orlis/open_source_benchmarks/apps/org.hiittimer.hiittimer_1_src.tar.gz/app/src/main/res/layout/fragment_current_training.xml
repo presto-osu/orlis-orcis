@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewCurrentRoundRoundIdLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="@string/round"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCurrentRoundRoundId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="40sp" />
+
+        <View style="@style/Divider" />
+
+        <TextView
+            android:id="@+id/textViewCurrentRoundRoundActionLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="@string/training_action"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCurrentRoundRoundAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="40sp"
+            android:textColor="#000000" />
+
+        <View style="@style/Divider" />
+
+        <TextView
+            android:id="@+id/textViewCurrentRoundRoundRemainingtimeLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="@string/remaining_time"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCurrentRoundRemainingTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text=""
+            android:textSize="40sp" />
+
+        <View style="@style/Divider" />
+
+        <Button
+            android:id="@+id/btn_stop_training"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:keepScreenOn="true"
+            android:onClick="terminateTraining"
+            android:text="@string/stop_training" />
+    </LinearLayout>
+
+</ScrollView>

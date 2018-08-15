@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/exercise_entry.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/exercise_entry.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/fragment_ex_stats.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/fragment_ex_stats.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/set_entry.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/set_entry.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/exercise_chooser_spinner.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/exercise_chooser_spinner.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/autocomplete_entry.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/autocomplete_entry.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/note_edit_dialog.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/note_edit_dialog.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/period_chooser_spinner.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/period_chooser_spinner.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/activity_workout_journal.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/activity_workout_journal.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/report_configurator.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/report_configurator.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/ex_to_report_list_entry.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/ex_to_report_list_entry.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/fragment_ex_graph.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/fragment_ex_graph.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/activity_main_menu.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/activity_main_menu.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/activity_ex_report_container.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/activity_ex_report_container.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/res/merged/debug/layout/activity_common_reports.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/layout/activity_common_reports.xml"
+    }
+]

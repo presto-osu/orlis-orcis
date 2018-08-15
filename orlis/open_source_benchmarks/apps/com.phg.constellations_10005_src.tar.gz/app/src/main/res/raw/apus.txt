@@ -1,0 +1,64 @@
+Abbreviation: Aps    
+Genitive: Apodis    
+Pronunciation: /ˈeɪpəs/, genitive /ˈæpədɨs/    
+Symbolism: The Bird-of-Paradise    
+Right ascension: 13h 51m 07.5441s–18h 27m 27.8395s    
+Declination: −67.4800797°–−83.1200714°    
+Family: Bayer    
+Area: 206 sq. deg. (67th)    
+Main stars: 4    
+Bayer/Flamsteed stars: 12    
+Stars with planets: 2    
+Stars brighter than 3.00m: 0    
+Stars within 10.00 pc (32.62 ly): 0    
+Brightest star: α Aps (3.83m)    
+Nearest star: HD 128400 (66.36 ly, 20.35 pc)    
+Messier objects: None    
+Meteor showers: None    
+Bordering constellations: Triangulum Australe Circinus Musca Chamaeleon Octans Pavo Ara    
+Visible at latitudes between +5° and −90°. Best visible at 21:00 (9 p.m.) during the month of July. 
+   
+Apus is a faint constellation in the southern sky, first defined in the late 16th century. Its name means "no feet" in Greek, and it represents a bird-of-paradise (which were once believed to lack feet). It is bordered by Triangulum Australe, Circinus, Musca, Chamaeleon, Octans, Pavo and Ara. Its genitive is "Apodis".
+
+History
+Apus was one of twelve constellations created by Petrus Plancius from the observations of Pieter Dirkszoon Keyser and Frederick de Houtman and it first appeared on a 35 cm diameter celestial globe published in 1597 (or 1598) in Amsterdam by Plancius with Jodocus Hondius. Plancius called the constellation "Paradysvogel Apis Indica"; the first word is Dutch for 'bird of paradise,' of genus Pteridophora, but the others are Latin for "Indian Bee," although "apis" (Latin for "bee") is presumably an error for "avis" or "bird".
+The name "Apus" is derived from the Greek "apous", meaning "without feet", which referred to the Western conception of a bird-of-paradise as one without feet, a misconception perpetuated by the fact that the only specimens available in the West had both feet and wings removed. These specimens began to arrive in Europe in 1522, when the survivors of Ferdinand Magellan's expedition brought them home.
+After its introduction on Plancius's globe, the first known depiction of the constellation in a celestial atlas was in Johann Bayer's Uranometria of 1603, where it was called "Apis Indica".
+It was suggested by Richard Allen that Houtmann, who observed the southern constellations from the island of Sumatra, took his ideas for the formation of Apus (as well as Phoenix and Indus) from the Chinese, who knew these stars as the "Little Wonder Bird.". Ridpath, however, disputes this possibility, arguing that the southern constellations were introduced later than Allen believed, and by different people altogether.
+
+Notable features
+The most prominent deep-sky objects in Apus include the globular clusters NGC 6101 and IC 4499 as well as the spiral galaxy IC 4633.
+
+Stars
+α Apodis is an orange giant 411 light years away, with a magnitude of 3.8.
+β Apodis is an orange giant 158 light years away, with a magnitude of 4.2.
+γ Apodis is an orange giant 160 light years away, with a magnitude of 3.9.
+δ Apodis is a double star with a separation of 103 arcseconds. δ1 is a red giant star located 765 light years away, with a magnitude of 4.7. δ2 is an orange giant star located 663 light years away, with a magnitude of 5.3. The separate components can be resolved with binoculars, a telescope, or the naked eye.
+θ Apodis is a variable red giant at a distance of 328 light years with a period of approximately 4 months, or 109 days. It has a maximum magnitude of 4.8 and a minimum magnitude of 6.1.
+
+Deep-sky objects
+NGC 6101 is a 14th magnitude globular cluster, located seven degrees north of γ Aps.
+IC 4499 is a loose globular cluster in the medium-far galactic halo. Its apparent magnitude is 10.6, and it is unique because it is younger than most other globular clusters in the same region as determined by its metallicity.
+IC 4633 is a very faint spiral galaxy  surrounded by a vast amount of Milky Way line-of-sight Integrated Flux Nebulae.
+
+Equivalents
+When the Ming Dynasty Chinese astronomer Xu Guangqi adapted the European southern hemisphere constellations to the Chinese system in The Southern Asterisms, he combined Apus with some of the stars in Octans to form the "Exotic Bird" (異雀, Yìquè).
+
+References
+Citations
+^ a b c d e Ridpath, Ian. "Apus". Star Tales. Retrieved 10 April 2012. 
+^ a b "Apus, constellation boundary". The Constellations (International Astronomical Union). Retrieved 14 February 2014. 
+^ a b c d e f Ridpath 2001, pp. 76-77.
+^ a b c d e f g h i j Plotner, Tammy (13 October 2008). "Apus". Universe Today. Retrieved 22 April 2012. 
+^ Staal 1988, p. 252.
+^ Richard H. Allen (1899) Star Names: Their Lore and Meaning, p. 43 <http://penelope.uchicago.edu/Thayer/E/Gazetteer/Topics/astronomy/_Texts/secondary/ALLSTA/Apus*.html>
+^ Ridpath, Chapter 1.
+^ a b Ferraro, I.; Ferraro, F.R.; Pecci, F. Fusi; Corsi, C.E.; Buonanno, R. (August 1995). "Young globular clusters in the Milky Way: IC 4499". Monthly Notices of the Royal Astronomical Society (SAO/NASA ADS Astronomy Abstract Service) 275 (4): 1057–1076. Bibcode:1995MNRAS.275.1057F. Retrieved 22 April 2012. 
+^ Frommert, Hartmut. "IC 4499". Students for the Exploration and Development of Space. Retrieved 22 April 2012. 
+^ (Chinese) AEEA (Activities of Exhibition and Education in Astronomy) 天文教育資訊網 2006 年 7 月 29 日
+
+ReferencesRidpath, Ian (2001), Stars and Planets Guide, Princeton University Press, ISBN 0-691-08913-2 
+Ridpath, Ian (2007), Stars and Planets Guide, Wil Tirion (4th ed.), Princeton University Press, ISBN 978-0-691-13556-4 
+Staal, Julius D.W. (1988), The New Patterns in the Sky: Myths and Legends of the Stars, The McDonald and Woodward Publishing Company, ISBN 0-939923-04-1 
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Apus&oldid=602426337"

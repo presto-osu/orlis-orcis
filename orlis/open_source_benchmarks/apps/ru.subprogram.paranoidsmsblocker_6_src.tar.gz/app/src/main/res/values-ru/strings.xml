@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Paranoid Sms Blocker</string>
+    <string name="action_settings">Настройки</string>
+    
+    <string name="black_list_tab">ЧЕРНЫЙ СПИСОК</string>
+    <string name="white_list_tab">БЕЛЫЙ СПИСОК</string>
+    <string name="blocked_sms_list_tab">ЗАБЛОК. СМС</string>
+
+    <string name="this_is_spam_button">Отмена</string>
+    <string name="move_to_white_list_button">В белый список</string>
+    <string name="move_to_black_list_button">В черный список</string>
+    <string name="cancel_button">Отмена</string>
+    <string name="close_button">Закрыть</string>
+    <string name="yes_button">Да</string>
+    <string name="no_button">Нет</string>
+
+    <string name="action_backup">Сохранить базу</string>
+    <string name="action_restore">Восстановить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_delete_all">Удалить все</string>
+    <string name="action_move_to_inbox">Поместить во входящие</string>
+    <string name="action_add_contact">Добавить контакт</string>
+    <string name="delete_all_question">Удалить все сообщения?</string>
+    <string name="delete_selected_items_question">Удалить выбранные сообщения?</string>
+
+    <string name="backup_complete">Файл %s успешно сохранен</string>
+    <string name="backup_failed">Не удалось сохранить файл %s</string>
+    <string name="restore_complete">Файл %s успешно загружен</string>
+    <string name="restore_failed">Не удалось загрузить файл %s</string>
+    
+	<string name="select_file">Выбрать файл</string>
+    <string name="select">Выбрать</string>
+    <string name="havent_access_privileges">У Вас нет прав доступа к данной директории</string>
+    <string name="yesterday">вчера</string>
+    <string name="units_b">Б</string>
+	<string name="units_kb">КБ</string>
+	<string name="units_mb">МБ</string>
+	<string name="units_gb">ГБ</string>
+	<string name="units_tb">ТБ</string>
+	<string name="units_pb">ПБ</string>
+    
+    <string name="notification_ticker">Заблокирована смс от %s</string>
+    <string name="cab_selected_title">Выбрано: %1$d</string>
+
+    <string name="unknown_error">Неизвестная ошибка (код: %1$d)</string>
+    <string name="failed_to_init_db_error">Не удалось инициализировать базу данных (код ошибки: %1$d)</string>
+    <string name="db_corrupted_error">База данных повреждена</string>
+</resources>

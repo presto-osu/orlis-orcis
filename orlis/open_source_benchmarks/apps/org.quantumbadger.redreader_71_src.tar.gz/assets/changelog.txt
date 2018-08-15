@@ -1,0 +1,290 @@
+71/1.9.4
+Material Design
+Imgur upload support
+Internal viewer now supports images hosted by reddit
+Experimental Tor support (thanks to SpotComms)
+Preference to open images/albums in browser
+Preference for comment long-click action (thanks to mateoeh)
+Made default comment tap action "collapse" rather than "menu"
+Ability to filter read posts in the inbox (thanks to H4rryA)
+Mod/admin comments are now distinguished
+Make archived posts read-only (thanks to chaitan94)
+Fixed image saving on Android Marshmallow
+LG split window support
+Various code improvements (thanks to veyndan)
+Fixes and improvements to local change data manager
+Various bugfixes (thanks to mariokmk and Igor Shults)
+
+70/1.9.3.4
+Fixed album swiping
+
+69/1.9.3.3
+Fixed wiki link freeze when internal browser was disabled
+Re-implemented imgur album thumbnail support for new API
+
+68/1.9.3.2
+Use updated imgur API
+
+67/1.9.3.1
+Fix for past versions not showing up in the list
+Fixed issue with disabling minimum comment score
+Fixed issue with intent handling
+
+66/1.9.3
+Ability to hide subreddits from /r/all (thanks to Igor Shults)
+Added Swedish translation (thanks to tjernquist)
+Preference to collapse low score comments (thanks to Igor Shults)
+Fixed issue with reddit link handling (thanks to Igor Shults)
+Fix for some posts not being marked as read (thanks to Igor Shults)
+Fixed issues with "limit post count" feature
+Fixed issue where subreddit sidebar was inaccessible for logged out users
+Text in properties dialogs is now selectable
+Various build improvements (thanks to mvdan)
+
+65/1.9.2
+Ability to view image titles/captions
+Ability to pin subreddits to top of main menu
+Precaching for comment threads
+Improved connection robustness
+Use .mp4 instead of .webm for imgur (should improve device compatibility)
+Overlay icon for up/downvoted posts
+Various ListView improvements
+Fixed bug where submission rate limit errors were ignored
+Various bugfixes
+Made post list comments buttons slightly wider
+
+64/1.9.1
+Native support for Gfycat and Streamable
+Added album swipe length preference
+Darker image loading checkerboard in night mode
+Added Q&A comment sort
+Fix for subreddit list parse error
+Fix for account list crash
+"Share comment" no longer uses oAuth domain
+Spanish translation updates (thanks to moshpirit)
+
+63/1.9.0
+Switched to oAuth authentication
+Native imgur gallery support
+Imgur .gifv support
+Support for some types of video link (e.g. those ending in .webm)
+Workaround for imgur redirect bug
+Ability to delete comments and posts
+Ability to change inbox font size
+Added screen orientation preference (thanks to chaitan94)
+Fixed scrolling bug when collapsing large comments (thanks to chaitan94)
+Added preference to skip straight to the front page (thanks to chaitan94)
+Disallow voting on archived posts (thanks to Ciaran Curley)
+Fixed typo in German translation (thanks to Aruee)
+Fixed UTF-8 support in subreddit sidebars
+Added options menu item to close all open activities (hidden by default)
+Added preference to customise options menu
+Post context menu no longer shown if all items are disabled
+Added preference to change bezel toolbar swipe zone size
+Added preference to change GIF viewer
+Added intent support for m.reddit.com (thanks to Septolum)
+Ability to hide username in main menu
+Strips all whitespace when entering custom subreddit
+Removed dependency on HoloEverywhere
+Removed support for Android 2.x and 3.x
+
+62/1.8.7.8
+Ability to mark all inbox messages as read
+Added intent support for https (thanks to ajs124)
+Added support for redd.it links (thanks to ajs124)
+Fixed image view bug when rotating screen while touching (thanks to ThomasKomarnicki)
+Markdown link parsing improvements
+Fixed gif-related hang
+Fixed bug with subreddit names containing colons
+
+61/1.8.7.7
+Ability to sort search results (thanks to chaitan94)
+Fixed regression where "cache miss error" would be displayed instead of "end of cached data" message
+Improved behaviour when searching from within search results (thanks to chaitan94)
+Added Italian translation (thanks to klenje)
+Potential improvement to how WiFi connections are detected (vs mobile data)
+Improved handling of out-of-memory errors when viewing images
+
+60/1.8.7.6
+The image view now opens imgur links using HTTPS. This should hopefully circumvent a block by the Indian government.
+Added "Use HTTPS" menu option to web view.
+Bugfixes
+
+58/1.8.7.4
+Fixed bug when navigating to the /r/reddit.com subreddit
+Various crash fixes
+
+57/1.8.7.3
+Fixed image decoding failures on Android 2.3, caused by Android's shambolic BitmapRegionDecoder class
+Fixed segfaults on Android 4.X, caused by Android's shambolic BitmapRegionDecoder class
+Android 2.2 users can now use the new OpenGL image view. This was formerly impossible due to Android's shambolic BitmapRegionDecoder class
+
+56/1.8.7.2
+Links to specific comments (e.g. in /r/bestof) now work correctly
+Ability to load more comments
+Comment long-click menu now has "Context" and "Go to Comment"
+Tapping a comment reply in the inbox takes you to that specific comment thread
+Notifications for new inbox messages/comment replies (thanks to NoNeedToBail)
+Image view now shows all images at full resolution
+Double-tap to zoom supported in image view
+Double-tap-and-drag to zoom supported in image view
+Show default subreddits to anonymous users (rather than most popular)
+Got rid of the red icon in night mode
+Lots of performance improvements
+
+53/1.8.6.5
+Added asterisk next to edited comments
+Added Czech translation (thanks to Martin Macko)
+German translation improvements (thanks to andihorner)
+Spanish translation improvements (thanks to moshpirit)
+Fixed bug when searching in two-pane mode (thanks to Oleksiy Kovtun)
+Fixed parse error with invalid named Unicode characters
+Fixed bug where users subscribed to precisely 100 subreddits would be shown extra (unwanted) subreddits
+Fixed crash bug when selecting "Submit Post"
+
+52/1.8.6.4
+Comment header now shows if a comment has been given reddit gold
+Shows modmail replies
+Fixed handling of some links starting with '/'
+Fixed bug where [deleted] comments were highlighted in [deleted] posts
+Sidebar is black when in night mode
+Improved "invalid user" error message
+Cache performance improvement (note: cache entries saved by previous version will be unreadable)
+
+51/1.8.6.3
+Significant post list performance improvement
+Updated HTTPS domain
+Added Spanish translation (thanks to Juanma Reyes)
+Updated Arabic translation (thanks to Husam Bilal)
+
+50/1.8.6.2
+Post flair support
+Better comment flair colour
+Fixed rare crash bug during subreddit (un)subscription
+Fixed rare crash bug when pruning cache
+Fixed bug where searching for multiple words didn't work
+Minor post list performance improvements
+Removed ability to see upvote/downvote counts (since reddit removed support for this)
+Added Markdown parser support for named/hexadecimal Unicode
+Fixed crash when searching whole site
+
+48/1.8.6
+Added ability to save comments (but not list them, yet)
+Sticky posts highlighted green (thanks to Chris Jones)
+Fixed bug where not all subscribed subreddits were shown
+Added Arabic translation (thanks to Husam Bilal)
+Added menu option to clear web view cache
+Web view cookies are now deleted when it is closed
+The homescreen icon should now take you to your last position in the app
+Main menu subscription list loads much more quickly when cached
+Post list header changes when new sort order is selected
+Ability to view sidebar of all subreddits, not just subscribed ones
+Markdown formatting improvements
+Reverted "home" button action to behave the same as "back"
+Vine links should now work in the internal browser
+Lots of bugfixes
+New icon
+
+47/1.8.5.2
+Added ability to subscribe to/unsubscribe from subreddits
+Added ability to view subreddit sidebar
+No longer cuts off subreddit list if you have 100+ subscriptions
+Made main menu customisable (under Settings > Menus)
+Ability to view mod mail, submitted posts, downvoted posts
+Fixed bug where saved/hidden posts were marked as unsaved/unhidden
+Fixed bug with HTML entities when editing comments
+Avoids crashing when the disk is full
+Opens Google Play links externally
+Tidied up some code (thanks to kageiit)
+Fixed bug causing the app to crash
+
+44/1.8.4
+Fixed bug with imgur gallery links
+Added ability to limit number of posts displayed (thanks to Rroia)
+Added French translation (thanks to Rémi Lapeyre)
+User agent change (thanks to Melker Narikka)
+Added back button to Settings action bar
+
+43/1.8.3
+Better GIF support on Android 4.0+
+Can share links from other apps (thanks to andrewgiang)
+Preference to show comment indent lines (thanks to GzFighter)
+
+42/1.8.2
+Reddit links in other apps handled (thanks to andrewgiang)
+Up button handled correctly for incoming intents (thanks to andrewgiang)
+Bugfix when linkifying HTTPS links
+Bugfix when joining two consecutive markdown lines
+Bugfix where comment tap action pref was not respected
+Bugfix where tapping an inbox item didn't take you to the relevant thread
+
+41/1.8.1
+Preference to disable internal browser
+Preference to disable link buttons
+Handles deep redirect loops
+
+40/1.8.0
+Better markdown support (superscript, multi-level quotes, code, etc)
+Links in comments are represented by buttons
+Better back button handling in internal browser (thanks to Evan Tatarka)
+Ability to switch from internal to external browser (thanks to trevor-e)
+Custom subreddit bugfix (thanks to DubHunt)
+Search bugfix
+Back button delay
+Samsung multi-window support (phone reboot required)
+
+39/1.7.5
+HTTPS enabled by default
+"Links in Comment" should now have predictable order
+Bugfixes
+
+38/1.7.4
+Bugfix for user profile dialog crash
+Minor appearance improvement
+Bugfix where subreddit name wasn't always filled in when submitting posts
+
+37/1.7.3
+Bugfix for users with saved comments
+Bugfix when clicking links in a user's comment list
+Bugfix when viewing images with null mimetypes
+
+36/1.7.2
+Additional bugfix for users who logged in with a space after their username
+
+35/1.7.1
+Bugfix when viewing a user's post list
+Potential bugfix when recycling images
+
+34/1.7.0
+Basic search feature
+Preference to change the default comment sort
+Preference to override Android's default language
+Handles hidden comment scores on certain subreddits
+Adds saved images to the Android gallery
+Fixed profile 404 bug (caused by space after username when logging in)
+Added "up" button in internal browser action bar
+Replaced thumbs up icon with upvote icon in bezel swipe toolbar
+
+33/1.6.9
+Spoiler support
+Crash fixes
+Corrections to German translations
+
+32/1.6.8
+Added German translations (thanks to /u/balducien and /u/andiho)
+Added preference to disable post flinging (select "disabled" under "post fling action")
+Added "About" section to preferences
+Changed actionbar highlight color to white
+Now respects Android's "24 hour time" setting
+
+31/1.6.7
+Added this changelog!
+Added Danish translations (thanks to /u/fosterbuster)
+Reformats youtu.be links so the YouTube app can handle them
+Reformats invalid youtube.com links provided by reddit
+
+29/1.6.6
+Massively sped up cache pruning (no more freezing on startup)
+Fixed a bug - everyone should now be able to edit their own comments
+Moved the subreddit loading bar
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clip_line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/each_item"
+        android:layout_marginTop="0.5dp"
+        android:layout_marginBottom="0.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/clip_text"
+            android:gravity="center_vertical|start"
+            android:layout_marginLeft="10dp"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="text test test"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.StatusBar.EventContent" />
+
+        <ImageButton
+            android:id="@+id/clip_copy_button"
+            android:background="#00000000"
+            android:src="@drawable/ic_notification_action_copy"
+            android:padding="4dp"
+            android:layout_gravity="center"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/clip_notification_copy_button" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/notification_item_up_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/each_item"
+        android:background="@color/divider" />
+
+    <ImageView
+        android:id="@+id/notification_item_down_line"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/each_item"
+        android:background="@color/divider" />
+
+</RelativeLayout>
+
+

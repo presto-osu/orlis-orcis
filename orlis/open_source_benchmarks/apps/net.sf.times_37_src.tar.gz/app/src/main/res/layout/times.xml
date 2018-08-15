@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/times_header"/>
+
+    <ViewSwitcher
+        android:id="@+id/frame_fragments"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <view
+            android:id="@+id/list_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            class="net.sf.times.ZmanimFragment"/>
+
+        <ViewSwitcher
+            android:id="@+id/details_fragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <view
+                android:id="@+id/details_list_fragment"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                class="net.sf.times.ZmanimDetailsFragment"/>
+
+            <view
+                android:id="@+id/candles_fragment"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                class="net.sf.times.CandlesFragment"/>
+        </ViewSwitcher>
+    </ViewSwitcher>
+
+</LinearLayout>

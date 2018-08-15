@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/primary</color>
+    <color name="colorPrimaryDark">@color/primary_dark</color>
+    <color name="colorAccent">@color/accent</color>
+
+    <!-- Colors from Palette -->
+    <color name="primary">#607d8b</color>
+    <color name="primary_dark">#607d8b</color>
+    <color name="accent">#4CAF50</color>
+    <!-- End colors from Palette -->
+
+    <color name="fab_big">@color/accent</color>
+
+    <color name="white">#ffffff</color>
+</resources>

@@ -1,0 +1,789 @@
+#+TITLE: EP Mobile Development Notes
+* Features
+** DONE Dofetilide Calculator
+** DONE QTc Calculator
+** DONE CL/HR Converter
+** DONE WPW Accessory Pathway localizer
+*** Milstein et al.  PACE 10:555, 1987.
+*** Arruda 1998
+** DONE VT vs SVT Brugada algorithm
+*** Proposed implementation
+    | Follow steps in order: |                                                  |     |
+    | Step 1                 | Absence of an RS Complex in all precordial leads | Y/N |
+    |                        | Y = VT                                           |     |
+    | Step 2                 | R to S interval > 100 ms in one precordial lead  | Y/N |
+    |                        | Y = VT                                           |     |
+    | Step 3                 | AV Dissociation                                  | Y/N |
+    |                        | Y = VT                                           |     |
+    | Step 4                 | Morphology criteria in V1-2 and V6               | Y/N |
+    |                        | Y = VT                                           |     |
+*** Morphology criteria
+    - RBBB QRS
+      - Lead V1
+	- Monophasic R or QR or RS favors VT
+	- Triphasic RSR' favors SVT
+      - Lead V6
+	- R to S ratio < 1 (R small than S) favors VT
+	- RS or QR favors VT
+	- Monophasic R favors VT
+	- Triphasic favors SVT
+	- R to S ration > 1 favors SVT
+    - LBBB QRS
+      - Lead V1 or V2
+	- Any of the following R > 30 ms, >60 ms to nadir S, notched S favors VT
+      - Lead V6
+	- Presence of any Q wave, QR or QS favors VT
+	- Absence of Q wave in V6 favors SVT
+*** Reference
+    http://askdrwiki.com/mediawiki/index.php?title=Brugada_Criteria#Four_Brugada_Criteria_for_Diagnosis_of_Ventricular_Tachycardia
+** DONE CHADS score
+** DONE CHADS-VASc score
+** DONE HAS-BLED
+   | Risk                           | Score |
+   | HTN (sys >= 160)               |     1 |
+   | Abnormal Kidney Cr>2.6 mg/dL   |     1 |
+   | Abnormal Liver                 |     1 |
+   | Previous Stroke                |     1 |
+   | Hx Bleeding or Anemia          |     1 |
+   | Labile INR (< 60% therapeutic) |     1 |
+   | Elderly (65 or older)          |     1 |
+   | Drugs - antiplatet             |     1 |
+   | Drugs - EtOH (>= 8 drinks/wk)  |     1 |
+   - Score of 3 or more indicates caution in using AC and increased 1 year
+     risk of bleeding.
+** DONE ARVD score
+** DONE Pradaxa dose calculator
+** DONE Warfarin dose calculator
+** DONE Rivoraxaban dose calculator
+** DONE SQTS diagnosis
+** TODO Epicardial vs endocardial VT
+** TODO Mitral annular VT
+** DONE Brugada ECG types
+** DONE LVH
+** DONE Normal EP Values
+** TODO EP Glossary
+** DONE CMS ICD criteria
+** DONE LQTS criteria
+** TODO ACC WCT algorithm
+** TODO Creatinine Clearance calculator
+** TODO Para-Hisian pacing guide
+** TODO Apical vs septal pacing guide
+* Menu
+** units
+*** msec or sec
+*** metric or US
+** QTc formulae
+*** DONE Bazett's (default)
+*** DONE all others!
+*** implementation*
+*** DONE Java class QtcCalculator
+*** Normal values
+**** DONE Color code abnormal QTc
+* Issues
+** Themes
+   We are using default Android theme.  android:background settings
+   probably should not be used.  Should try to use Android predefined
+   text settings and not specific colors.  Potentially could have an
+   application theme which by default is the default Android theme,
+   but with the ability to override it.
+** Strings
+   Still have a mixture of strings in strings.xml and in code.  All
+   strings (except maybe some numbers) should be in strings.xml.
+** Grouping
+*** DONE add Warfarin dose calculator to Drug Dose Calculators group
+*** ? other groups
+    - Risk Scores
+    - Diagnostic Scores
+    - ECG patterns
+* Main screen
+** New screen
+   Need alphabetized grouped by letter scrollview list
+* Implementation
+** Abstract base classes
+*** DONE For creatinine clearance based calculators
+*** DONE For scores
+* Warfarin
+  | Day  | Change1 | Change2 |
+  | Sun  | 1 tab   | 1 tab   |
+  | Mon  |         |         |
+  | Tues |         |         |
+  | Wed  |         |         |
+  | Thur |         |         |
+  | Fri  |         |         |
+  | Sat  |         |         |
+  |------+---------+---------|
+** 
+* Style
+** General
+*** lower_case_hyphenated
+*** separate_numbers_1
+** Titles vs Labels
+   Activities have titles, everything else has labels
+* Eclipse set up
+** Android 4 SDK
+** Window->Preferences->Android->Editors->Format on Save
+** Window->Preferences->Android->Java->Editor->Perform selected actions on save
+*** Format Source code -> Format all lines
+** Project->Properties->Android->Project Build Target Android 4.0
+** 
+* References
+** RV dysplasia
+   http://arvc.ca/arvc/info/i.php?ix=1&pag=3
+** WCT algorithms
+   http://askdrwiki.com/mediawiki/index.php?title=Brugada_Criteria#Four_Brugada_Criteria_for_Diagnosis_of_Ventricular_Tachycardia
+   http://en.ecgpedia.org/wiki/Approach_to_the_Wide_Complex_Tachycardia
+** RWPT
+   http://www.heartrhythmjournal.com/article/S1547-5271%2810%2900216-X/abstract
+* WCT
+** Wellens morphology criteria
+*** ECGpedia
+    - LBBB VT
+      - Initial R > 40 ms in V1 or V2 => VT
+      - RS > 100 ms in V1 or V2 => VT (redundent, already in Step 1?, Brugada)
+      - Slurred or notched S in V1 or V2 => VT
+      - Q to nadir QS > 60 ms in V1 or V2 => VT
+      - Q or QS in V6 => VT
+    - RBBB VT
+      - Monophasic R or qR in V1 => VT
+      - R taller than R' (rabbit ears) in V1 => VT
+      - rS in V6 => VT (i.e. RS ratio < 1)
+*** Brugada et al.
+**** Notes
+     - Text only refers to V1 and V6, figure (Fig 1) refers to V1-2 and
+       V6
+     - Table 1 on morphology criteria uses V1 for RBBB but V1 or V2 for LBBB
+     - In text, step 4 = "if the tachycardia fulfilled the morphology criteria
+       for VT in leads V1 and V6, the diagnosis of VT was made."
+**** Criteria from Table 1
+     - LBBB VT
+       - Lead V1 or V2
+	 - R > 30 msec or > 60 msec to nadir S or notched S 
+       - Lead V6
+	 - QR or QS
+	 - Monophasic R indeterminate
+	 - Triphasic SVT
+     - RBBB VT
+       - Lead V1
+	 - Monophasic R
+	 - QR or RS
+	 - Triphasic => SVT
+       - Lead V6
+	 - R to S ratio < 1
+	 - QS or QR
+	 - Monophasic R
+	 - Triphasic => SVT
+	 - R to S > 1 => ?VT or SVT
+*** Final criteria
+    - LBBB VT
+      - Lead V1 or V2
+	- R > 30 msec
+	- RS > 60 msec
+	- Notched S
+      - Lead V6
+	- QR
+	- QS
+    - RBBB VT
+      - Lead V1
+	- Monophasic R
+	- QR
+	- RS
+      - Lead V6
+	- R to S < 1
+	- QR
+	- QS
+	- Monophasic R
+*** Analysis
+**** Wellens
+***** At least 1 point in V1 and V6 => VT
+***** Zero points => SVT
+***** V1 and V6 discordant => indeterminate
+***** Include rabbit ears? - not listed in Brugada
+**** Brugada
+***** At least 1 point in V1 and V6 => VT
+***** Otherwise SVT
+*** Implementation
+    - Use figures and text for morphology criteria
+    - Use checklist for Brugada morphology criteria
+* Short QT Syndrome
+** fine print of algorithm
+   - Jpoint-Tpeak interval measured in precordial lead with greatest
+     amplitude T wave.
+   - Clinical History: events must occur in the absence of an
+     identifiable etiology, including structural heart disease.
+   - Points can only be received for 1 of cardiac arrest, documented
+     polymorphic VT, or unexplained syncope.
+   - Family history points can only be received once int his section.
+   - A minimum of 1 point must be obtained in the ECG section in order
+     to obtain additional points.  
+* Rivaroxaban
+  | CrCl           | Dose                          |
+  | > 50 ml/min    | 20 mg daily with evening meal |
+  | 15 - 50 ml/min | 15 mg daily with evening meal |
+  | < 15 mL/min    | avoid                         |
+* ICD Criteria
+  1. Documented cardiac arrest due to VF, not due to transient or
+     reversible cause.
+  2. Documented sustained ventricular tachyarrhythmia, either
+     spontaneous or induced by EP study, not associated with an acute
+     MI, and not due to a transient or reversible cause.
+  3. Documented familial or inherited conditions with a high risk of
+     life-threatening VT, such as long QT syndrome or hypertrophic
+     cardiomyopathy.
+  4. Documented prior MI, EF <= 35%, and inducible sus VT or VF at
+     EPS.  (MI more than 40 days pre-ICD, and EPS performed > 4 weeks
+     post MI.)
+  5. Documented prior MI and EF <= 30%
+  6. ICM, documented prior MI, Class II or III HF, EF <= 35%.
+  7. NICM, > 9 months, Class II or III HF, EF <= 35%.
+  8. Pts who meed CMS coverage criteria for CRT device and have Class
+     IV HF.
+  9. NICM > 3 months, Class II or III, and EF <= 35%.
+** Exclusions
+*** Cardiogenic shock or symptomatic hypotension
+*** CABG or PCI within past 3 months
+*** Acute MI within 40 days
+*** Symptoms or findings that would make patient a candidate for revascularization
+*** Irreversible brain damage from preexisting cerebral disease
+*** Non-cardiac disease with likelihood of survival < 1 year
+** Patients must be enrolled in ICD registry
+** Note exclusions and registry apply to the primary prevention indications
+** Parameters
+   - Cardiac arrest y/n
+   - sustained VT/VF spontaneous
+   - sustained VT/VF induced
+   - familial high risk condition
+   - EF <= 35%
+   - EF <= 30%
+   - Documented MI
+   - ICM
+   - NICM
+   - NYHA Class
+   - Duration of CM
+   - CRT indication
+** Simplified Parameters
+   - [ ] Cardiac arrest due to VF not due to reversible cause
+   - [ ] Spontaneous or inducible VT/VF
+   - [ ] Familial high risk condition (e.g. LQTS, HCM)
+   - [ ] Documented MI
+   - [ ] Ischemic CM
+   - [ ] Nonischemic CM
+   - [ ] Duration of CM
+   - [ ] EF (radio group)
+   - [ ] NYHA class (radio group)
+   - [ ] CRT Indication?
+*** Exclusions
+    - [ ] Cardiogenic shock or symptomatic hypotension
+    - CABG or PCI withing past 3 months
+    - Acute MI within 40 days
+    - Symptoms or findings that would make patient a candidate for revascularization
+    - Irreversible brain damage from preexisting cerebral disease
+    - Non-cardiac disease with likelihood of survival < 1 year
+** Logic
+   - Apply exclusions only where they should be (Primary prevention)
+   - 3 month limit only for NICM
+   - If indicated by too soon, say so
+   - CRT indication only enters into Class IV CHF
+     - Class IV excludes other indications
+** Additional info
+   - ACC/AHA/HRS indication
+   - cite which CMS indication it falls under
+   - button to list CMS indications
+   - button to list AHA indications
+   - change module to ICD indications?
+   - maybe separate modules for CMS, AHA?
+   - show study that supports each indication
+     - AVID
+     - MADIT II
+     - etc.
+* Unicode symbols
+  |-------------------------+----------|
+  | Description             | Hex Code |
+  |-------------------------+----------|
+  | right pointing triangle | \u25b6   |
+  | <                       | \u003c   |
+  | >                       | \u003e   |
+  | ≤                       | \u2264   |
+  | ≥                       | \u2265   |
+  | subscript 2             | \u2082   |
+  | ±                       | \u00b1   |
+  | Black star  ★           | \u2605   |
+  | degree °                | \u00b0   |
+  |-------------------------+----------|
+  - insert unicode char in emacs: C-x 8 RET name of char or code number
+  - Note, necessary to add formatted="false" to string tag if using
+    more than 2 % symbols in a string (bug).
+* WPW Arruda algorithm
+** Locations
+   - LPL
+   - LL
+   - LAL
+   - LP
+   - PSTA
+   - L FREE WALL
+   - SUBEPICARDIAL
+   - PSMA
+   - AS
+   - MSTA
+   - RA
+   - RAL
+   - RL
+   - RP
+   - RPL
+* DONE add transparent backgrounds to png
+* New Main Menu
+** Calculators
+*** TODO Creatinine Clearance Calculator
+*** Cycle Length Calculator
+*** Drug Dose Calculators
+**** Dabigatran Calculator
+**** Dofetilide Calculator
+**** Rovaroxaban Calculator
+**** Warfarin Calculator
+*** QTc Calculator
+** Diagnosis
+*** ARVC/D
+**** ARVC/D 1994 Diagnostic Criteria
+**** ARVC/D 2010 Diagnostic Criteria
+*** Brugada
+*** Left Ventricular Hypertrophy
+**** Romhilt-Estes LVH Score
+**** LVH Voltage Criteria
+*** Long QT Syndrome
+**** Long QT Syndrome Diagnosis
+**** Long QT Subtypes
+**** Long QT ECG
+*** Short QT Syndrome Diagnosis
+*** TODO Ventricular Tachycardia
+**** TODO Epicardial VT Criteria
+**** TODO Outflow Tract VT
+**** TODO Mitral Annular VT
+*** Wide Complex Tachycardia
+**** Brugada Algorithm
+**** Morphology Criteria
+**** R Wave Peak Time Criterion
+*** WPW Pathway Location
+**** Anatomy of AV Annulus
+**** Arruda Algorithm
+**** Modified Arruda Algorithm
+**** Milstein Algorithm
+** Reference
+*** CMS Criteria
+*** TODO EP Glossary
+*** Normal EP Values
+*** TODO ParaHisian Pacing
+*** TODO RVA vs RVS Pacing
+** Risk Scores
+*** CHADS2 Score
+*** CHADS-VASc Score
+*** HAS-BLED Score
+*** HEMORRHAGES Score
+*** HCM Sudden Death Risk Score
+* VT Patterns
+** Epicardial vs Endocardial
+*** Bazan et al.http://www.ncbi.nlm.nih.gov/pubmed/17018339 
+    - epicardial vs endocardial RV
+    - Q or QS pattern in sites of origin
+    - No predictor for RVOT epi vs endo
+    - LV epi vs endo patterns not predictive:
+      - pseudo-delta wave >= 34 ms
+      - intrinsicoid deflection time >= 85 ms
+      - RS complex >= 121 ms.
+	- RV epicardial vs endocardial VT
+	- LV criteria for epicardial
+	  - Pseudo-delta wave (>= 34 ms)
+	  - intrinsicoid deflection time >= 85 ms
+	  - RS complex >= 121 ms
+	- Above criteria do not identify RV epicardial origin
+*** Berruezo A et al.  http://circ.ahajournals.org/content/109/15/1842.full
+    Circulation 2004;109:1842-1847
+    - Pseudo delta: earliest V activation to earliest fast deflection
+      in any precordial lead.
+    - Intrinsicoid Deflection Time: earliest V activation to peak of R
+      wave in V2.
+    - Shortest RS complex: earliest V activation to nadir of
+      first S wave in any precordial lead.
+    - QRS duration: earliest V activation to offset of QRS in
+      precordial leads.
+    - Proposed criteria
+      - pseudodelta >= 34 ms Sens 83%, Spec 95%
+      - intrinsicoid deflection time >= 85 ms Sens 87% Spec 90%
+      - RS complex duration >= 121 ms Sens 76% Spec 85% for epi VT
+** RVOT vs LVOT
+   - Joshi and Wilber
+     - Free wall vs septal
+       - QRS >= 140 msec
+       - R wave notching in inferior leads
+       - V3 R/S ratio <= 1
+     - Anterior vs posterior
+       - negative or isoelectric QRS in I
+     - Caudal (> 2 cm from PV)
+       - isoelectric or + QRS in avL
+     - LV
+       - RS ratio >= 1 in V1 or V2
+   - Tada JACC Mitral annular VT
+     - Transition < V2 and R or Rs in V2 to V6 (R/S > 3 in V2-V4) = MAVT
+     - + QRS in inferior leads
+       - yes: Notching in R wave inferior leads
+	 - yes: anterolateral
+	 - no: anteromedial
+       - no: Notching of Q wave in inferior leads and no q or s wave
+         in V1 and transition < V1
+	 - yes: posterior
+	 - no: posteroseptal
+   - Srivathsan Indian Pacing J
+     - LBBB pattern (transition V3 or later)
+       - yes: RVOT but see above
+       - no: ie transition V1 or V2, S in I
+	 - absent S in V5 or V6: supravalvular LVOT
+	 - present: infravalvular
+*** Proposed algorithm
+    - Enter transition lead (first lead R > S)
+      - V1 V2 V3 V4 or later
+    - V3, V4 or later
+      - RVOT, possible RVOT or LVOT if V3
+	- QRS >= 140 ms or R wave notching inferior leads and V4 transition
+	  - Is free wall, otherwise septal
+	- negative or iso QRS in I
+	  - Anterior, otherwise posterior
+	- iso or - QRS in avL
+	  - caudal vs cranial
+      - V2 or V1 transition
+	- V1 transition and R or Rs in V2 to V3 (R/S > 3 in V2-V4)
+	  - MAVT: use above algorithm
+	- 
+** Fasicular VT/Idiopathic LVT
+** Mitral annular VT
+   http://www.sciencedirect.com/science/article/pii/S0735109704025094
+   Tada H et al.  JACC 2005;45:877-886
+* Drugs
+** Amiodarone
+*** Metabolism
+    - CYP3A4, CYP2C8
+    - Also inhibits CYP3A4
+    - active metabolite N-desethylamiodarone (DEA)
+*** Pregnancy
+    - cross placenta
+    - appears in breast milk
+*** Renal Failure
+    Not dialyzable
+*** Drug levels not useful
+*** Half-life
+    20 - 47 days (DEA same or longer)
+*** Side-effects
+**** IV amio
+     - hypotension
+     - bradycardia
+     - hepatic injury
+     - proarrhythmia
+       - with fluoroquinolones, macrolide antibiotics, azoles
+     - acute onset pulmonary toxicity, ARDS
+**** Oral amio
+*** Drug interactions
+**** CYP3A inhibitors increase amio concentration
+     - protease inhibitors
+     - Cimetidine
+     - grapefruit juice
+**** Amio inhibits certain CYP450 enzymes, increasing other drug concentrations
+     - cyclosporine (CYP3A4)
+     - simvastatin (CYP3A4)
+     - digoxin levels increase 70% in one day
+     - propranolol (CYP3A4 inhibitor)
+     - verapamil (CYP3A4 substrate)
+     - diltiazem (CYP3A4 inhibitor)
+     - warfarin (CYP3A4 and CYP2C9 substrate)
+       - increases PT 100% after 3-4 days
+       - reduce warfarin dose 1/3 to 1/2
+     - rifampin (CYP3A4 inducer) reduces amio levels
+     - St. John's wort (CYP3A4 inducer) reduces amio levels
+     - Misc
+       - fentanyl, dextromethorphan, cholestyramine, disopyramide
+       - fluroroquinolones (levofloxacin, ciprofloxacin, etc.),
+         macrolide antibiotics (erythromycin, clarithromycin, but not
+         azithromycin (does not inhibit CYP3A4), azoles
+         (e.g. ketoconazole)
+** Drug Interaction Module
+*** Layout?
+    - Contraindicated drug list
+    - Drugs that increase drug levels
+    - Drugs that decrease drug level
+    - Increase levels of drugs
+    - Decrease levels of drugs
+*** Example: Amiodarone
+    - Contraindicated
+    - Drugs that increase amiodarone levels
+      - CYP3A4 inhibitors
+	- protease inhibitors (e.g. indinavir)
+	- loratadine (Claritin)
+	- cimetidine
+	- trazadone
+	- grapefruit juice
+    - Drugs that reduce amiodarone levels
+      - rifampin
+      - St. John's wart
+    - Misc interactions
+      - fentanyl
+      - lidocaine
+      - dextroethrophan
+      - cholestyramine
+      - volatile anesthetic agents
+    - Amiodarone increases drug effects
+      - inhalation anesthetics
+      - flecainide
+      - phenytoin
+      - (quinidine, procainamide, all AADS)
+      - Coumadin - reduce dose 1/3 to 1/2 with amio
+      - BBs (pharmacodynamic effect)
+      - digoxin - reduce dose by at least 50%
+      - diuretics (hypokalemia)
+      - fluoroquinolones, macrolide antibiotics, azoles
+      - cyclosporine
+      - simvastatin
+      - atorvastatin
+      - digoxin
+      - propranolol
+      - verapamil
+      - diltiazem
+      - warfarin
+      - clopidogrel
+*** Multaq
+    - CYP3A inhibitor
+      - increases statins
+      - increases CCB
+      - increases propranolol
+      - increases digoxin
+      - no warfarin 
+    - Also inhibits P-glycoprotein (P-gp) transport
+     - increases digoxin level, BB and CCB levels
+    - Contraindicated
+      - strong CYP3A inhibitors
+	- ketoconazole
+	- cyclosporine
+	- clarithromycin
+      - QT prolonging drugs
+    - increase Multaq levels
+      - CYP3A inhibitors
+	- Grapefruit juice
+	- verapamil, diltiazem
+    - increases drug levels
+      - digoxin
+      - CCBs
+      - BBs
+      - statins
+*** Pradaxa
+    - metabolized by P-gp
+    - not metabolized by CYP450 enzymes
+    - reduce dose to 75 mg bid when dronederone or ketoconazole
+      administered and CrCl 30-50 mL/min
+    - increase Pradaxa levels
+      - dronederone
+      - ketoconazole
+      - verapamil (probably not clinically important)
+      - no important effect from amiodarone
+*** Tikosyn
+    - iKr blocker
+    - Renal excretion, small metabolism by CYP3A4
+    - Contraindications
+      - cimetidine
+      - verapamil
+      - ketoconazole
+      - trimethoprim with or without sulfamethoxazole
+      - HCTZ
+*** Warfarin
+    - multiple CYP450 enzymes involved in metabolism, esp CYP2C9
+    - some common/cardiac drugs that interact
+      - amiodarone, cipro, mexiletine, BCPs, propafenone, propranolol,
+        verapmil, amlodipine, atorvastatin, cimetidine, diltiazem
+*** sotalol
+    - not metabolized, only renally excreted unchanged
+    - AFB package insert dosing
+      - do not start if QTc > 450 msec
+      - 80 mg BID if CrCl > 60 ml/min, 80 mg once daily if 40-60.
+        Contraindicated if CrCl < 40.  
+      - can increase to 120 mg or 160 mg if QTc < 500 ms
+      - 3 days recommended for hospitalization
+* AT Location
+** Kistler et al. Summary
+   - in V1, - or + /- P 100% specific RA
+   - in V1, -/+ or + P 100% sensitive LA
+   - Algoritm sensitivity = 93%
+   - P wave must have discrete iso segment before (i.e. not fused with
+     T wave, etc.)
+   - isoelectric means no P-wave deviation from the baseline of >=
+     0.05 mV
+   - Algorithm is for focal AT only
+* Entrainment
+** Sources
+   - http://askdrwiki.com/mediawiki/index.php?title=Entrainment
+   - http://content.onlinejacc.org/article.aspx?articleid=1121699
+** Criteria
+   - Concealed fusion y/n
+   - S-QRS interval
+     - Exit site S-QRS < 30% TCL
+     - Central site S-QRS > 31-50% TCL
+     - Proximal Site S-QRS 51-70%
+     - Inner Loop S-QRS > 70%
+   - TCL
+   - PPI
+   - PPI - TCL <= 30 msec in circuit
+   - EGM-QRS interval
+     - in circuit (with concealed fusion) S-QRS = EGM-QRS +/- 20 msec
+** Long QT drugs
+*** website: http://www.azcert.org/medical-pros/drug-lists/printable-drug-list.cfm
+* DONE Verecki algorithm
+** Algorithm (uses only lead avR)
+   1. evaluate presence of initial R wave in avR
+   2. initial r or q with width >= 40 msec
+   3. notching on descending limb of a negative onset, predominantly
+      negative QRS complex.
+   4. Vi/Vt <= 1
+      1. Vi = initial ventricular activation velocity
+      2. Vt = terminal ventricular activation velocity
+      3. Measured by excursion in mV recorded on the ECG during the
+         initial Vi and terminal Vt 40 msec of the QRS
+** Use of algorithm
+   Similar to Brugada.  Yes at each step means VT.
+** References
+   http://academics.ochsner.org/uploadedFiles/Education/Library/Healthcare_Professionals/Differentiating%20Wide%20Complex%20Tachycardia_Saad.pdf
+   http://www.heartrhythmjournal.com/article/S1547-5271(07)00943-5/abstract
+* DONE New ICD risk algorithm
+  - Female sex 2 points
+  - Reason for admission
+    - admitted for procedure 0
+    - heart failure 4
+    - other 5
+  - NYHA functional class
+    - I/II 0
+    - III 3
+    - IV 7
+  - No prior CABG 2
+  - Current dialysis 3
+  - Chronic lung disease 2
+  - Abnormal conduction
+    - No 0
+    - Yes LBBB 2
+    - Yes other 2
+    - (could be checkbox - abnl conduction yes/no)
+  - Procedure type
+    - Initial implant 13
+    - gen replacement ERI 0
+    - gen replacement infection 17
+    - gen replacement device relocation 18
+    - gen replacement upgrade 12
+    - gen replacement malfunction 13
+    - gen replacement other 14
+  - ICD type
+    - Single chamber 0
+    - Dual chamber 4
+    - CRT-D 6
+  - Sodium
+    - < 135 3
+    - 135-145 0
+    - > 145 2
+  - Hgb
+    - < 12 3
+    - 12-14 2
+    - > 14 0
+  - BUN
+    - < 20 0
+    - 20-40 2
+    - > 40 4
+** Results
+   - score <= 10 risk 0.3%
+   - score >= 30 risk 4.2%
+   - score 10-30 in between
+** Outcome
+   in-hospital complications or mortality
+* New scores [2015-11-29 Sun]
+** DONE ATRIA Bleeding risk score
+CLOSED: [2015-11-29 Sun 15:23]
+:LOGBOOK:
+- State "DONE"       from              [2015-11-29 Sun 15:23]
+:END:
+*** Reference
+[[http://content.onlinejacc.org/article.aspx?articleid=1146658#tbl3][JACC article]]
+[[http://www.mdcalc.com/atria-bleeding-risk-score/][online calculator]]
+*** Definitions
+- Anemia: hgb <13 g/dl men, <12 g/dl women
+- Severe renal disease: GFR <30 ml/min or HD dependent
+- Any prior hemorrhage dx (all-cause)
+*** risk score
+| risk factor           | points |
+| anemia                |      3 |
+| severe renal disease  |      3 |
+| age >= 75 y           |      2 |
+| any prior hemorrhage  |      1 |
+| diagnosed HTN         |      1 |
+*** Results
+- low risk 0-3 points (hemorrhage rate <1% per year 0.8%
+- intermediate risk 4 points 2.6% risk
+- high risk 5-10 points >5% per year risk 5.8%
+*** endpoint
+major hemorrhage
+note all pts on warfarin
+** TODO ATRIA Stroke risk score
+*** References
+[[http://jaha.ahajournals.org/content/2/3/e000250.full][AHA article]]
+[[http://jaha.ahajournals.org/content/2/3/e000250/T3.expansion.html][Table showing point assignment]]
+*** risk score
+ATRIA Stroke Risk Model Point Scoring System
+
+| Risk Factor     | Without Stroke | With Stroke |
+|-----------------+----------------+-------------|
+| Age, y          |                |             |
+| ≥85             |              6 |           9 |
+| 75 to 84        |              5 |           7 |
+| 65 to 74        |              3 |           7 |
+| <65             |              0 |           8 |
+| Female          |              1 |           1 |
+| Diabetes        |              1 |           1 |
+| CHF             |              1 |           1 |
+| Hypertension    |              1 |           1 |
+| Proteinuria     |              1 |           1 |
+| eGFR<45 or ESRD |              1 |           1 |
+Possible point scores range from 0 to 12 for those without a prior stroke and from 7 to 15 for those with a prior stroke. ATRIA indicates Anticoagulation and Risk Factors in Atrial Fibrillation; CHF, congestive heart failure; eGFR, estimated glomerular filtration rate; ESRD, end‐stage renal disease.
+*** Results
+| Score              | events/year |
+|--------------------+-------------|
+| low 0-5 points     | < 1%        |
+| moderate 6 points  | 1 to < 2%   |
+| high 7 - 15 points | >= 2%       |
+*** Outcome events
+- ischemic stroke
+- other thromboembolic events
+** TODO SAMe-TT2R2 score
+*** Reference
+[[http://journal.publications.chestnet.org/article.aspx?articleid=1686270][full text]]
+*** Score
+| factor                 | points |
+| Sex (female)           |      1 |
+| Age (<60 y)            |      1 |
+| Medical hx (see below) |      1 |
+| Treatment (see below)  |      1 |
+| Tobacco use            |      2 |
+| Race (non-Caucasian    |      2 |
+- Medical Hx = more than 2 of following: HTN, DM, CAD/MI, PAD, CHF, prior stroke, pulmonary disease, hepatic or renal disease.
+- Treatment: interacting drugs, e.g. amiodarone
+*** Results
+- 0-2 Patients have high TTR (Time in Therapeutic Range)( e.g. >65%) so initiating VKA likely beneficial
+- > 2 Improve education regarding AC control, or use a NOAC
+* Preparing new version -- IMPORTANT!
+  - [X] finish version, commit.
+  - [X] git flow release start vx.y
+  - [X] IMPORTANT - update build.gradle
+    - [X] increment android:versionCode
+    - [X] change android:versionName
+  - [X] ALSO IMPORTANT - update version in About.java!!!
+  - [X] run git log --pretty=oneline and update changes/x.y.z.txt
+  - [X] git add changes/x.y.z.txt
+  - [X] update doc/description.txt
+  - [X] update screenshots - resize them with GIMP to 480 x 800.
+  - [X] git commit
+  - [ ] git flow release finish vx.y
+  - [ ] git push --tags origin master
+  - [ ] git push origin develop
+  - [ ] refresh android studio epmobile
+  - [ ] make/sign epmobile.apk, save it in dev/epmobileapp/later_verisons/
+  - [ ] on market.android.com update product details
+  - [ ] upload apk, deactivate old one
+  - [ ] Tweet It! (after confirming it's on the Market)
+  - [ ] DONE!

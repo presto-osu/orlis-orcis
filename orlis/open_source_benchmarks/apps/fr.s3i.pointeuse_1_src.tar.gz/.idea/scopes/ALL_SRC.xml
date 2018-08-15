@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="ALL SRC" pattern="!file[app]:build//*&amp;&amp;!file[app]:gen//*&amp;&amp;!file[app]:res//*&amp;&amp;!file[Pointeuse]:*/||file[app]:src/*" />
+</component>

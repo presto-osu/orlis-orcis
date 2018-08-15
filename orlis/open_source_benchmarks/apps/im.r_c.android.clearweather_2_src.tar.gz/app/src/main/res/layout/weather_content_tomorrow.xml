@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/VerticalLinearLayout"
+              android:layout_height="wrap_content">
+
+    <TextView
+        style="@style/DayTitleTextView"
+        android:text="@string/day_tomorrow"/>
+
+    <LinearLayout
+        style="@style/HorizontalLinearLayout">
+
+        <RelativeLayout
+            style="@style/DetailItemLayout.Left">
+
+            <TextView
+                android:id="@+id/tv_tomorrow_day_weather"
+                style="@style/DetailTextView"
+                android:layout_toLeftOf="@+id/tv_tomorrow_day_weather_title"
+                android:layout_toStartOf="@+id/tv_tomorrow_day_weather_title"
+                android:text="小雨"/>
+
+            <TextView
+                android:id="@+id/tv_tomorrow_day_weather_title"
+                style="@style/DetailTextView.Title.Left"
+                android:text="@string/detail_title_weather"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/DetailItemLayout.Right">
+
+            <TextView
+                android:id="@+id/tv_tomorrow_temperature_title"
+                style="@style/DetailTextView.Title.Right"
+                android:text="@string/detail_title_temperature_right"/>
+
+            <TextView
+                android:id="@+id/tv_tomorrow_temperature"
+                style="@style/DetailTextView"
+                android:layout_toEndOf="@id/tv_tomorrow_temperature_title"
+                android:layout_toRightOf="@+id/tv_tomorrow_temperature_title"
+                android:text="17˚~25˚"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

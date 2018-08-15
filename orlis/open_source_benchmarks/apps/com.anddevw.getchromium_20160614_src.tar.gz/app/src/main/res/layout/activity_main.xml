@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".GetChromium">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <RelativeLayout
+        android:id="@+id/wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center_vertical">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_getchromium" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            app:layout_anchorGravity="top|right|end"
+            android:src="@drawable/ic_getchromium"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_above="@+id/fabB"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tip of Tree (Latest)"
+            android:id="@+id/textView4"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/fabB"
+            android:layout_toStartOf="@+id/fabB"
+            android:layout_alignBottom="@+id/fabB"
+            android:layout_alignEnd="@+id/textView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Last Known Good Revision"
+            android:id="@+id/textView6"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:layout_alignTop="@+id/fabA"
+            android:layout_toStartOf="@+id/fabA"
+            android:layout_alignBottom="@+id/fabA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/warning_text"
+            android:id="@+id/textView"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_toStartOf="@+id/fabB" />
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

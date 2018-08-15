@@ -1,0 +1,22 @@
+apply plugin: 'com.android.application'
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 22
+    buildToolsVersion "22.0.0"
+
+    defaultConfig {
+        applicationId "com.jotabout.screeninfo"
+        minSdkVersion 4
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+}

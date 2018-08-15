@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">セブン</string>
+
+    //Menu
+    <string name="action_license">ライセンス</string>
+    <string name="action_help">ヘルプ</string>
+    <string name="action_changelog">変更履歴</string>
+
+    //Snackbar
+    <string name="sn_pause">一時休止 …</string>
+    <string name="sn_weiter">… 再開しましょう!</string>
+    <string name="end">完了!</string>
+    <string name="sn_first">最初のエクササイズです。</string>
+    <string name="sn_last">最後のエクササイズです。</string>
+
+    //Titles
+    <string name="act">1. エクササイズ | 足広げジャンプ</string>
+    <string name="act_2" tools:keep="@string/act_2">2. エクササイズ | 壁にもたれて行う空気イス</string>
+    <string name="act_3" tools:keep="@string/act_3">3. エクササイズ | 腕立て伏せ</string>
+    <string name="act_4" tools:keep="@string/act_4">4. エクササイズ | 腹筋</string>
+    <string name="act_5" tools:keep="@string/act_5">5. エクササイズ | 椅子の上で踏み台昇降</string>
+    <string name="act_6" tools:keep="@string/act_6">6. エクササイズ | スクワット</string>
+    <string name="act_7" tools:keep="@string/act_7">7. エクササイズ | 上腕三頭筋 - 椅子の上で</string>
+    <string name="act_8" tools:keep="@string/act_8">8. エクササイズ | プランク</string>
+    <string name="act_9" tools:keep="@string/act_9">9. エクササイズ | もも上げ</string>
+    <string name="act_10" tools:keep="@string/act_10">10. エクササイズ | ランジ</string>
+    <string name="act_11" tools:keep="@string/act_11">11. エクササイズ | 腕立て伏せ - ローテーション</string>
+    <string name="act_12" tools:keep="@string/act_12">12. エクササイズ | サイド プランク</string>
+
+    <string name="acte">1. Exercise</string>
+    <string name="act_2e" tools:keep="@string/act_2e">2. Exercise</string>
+    <string name="act_3e" tools:keep="@string/act_3e">3. Exercise</string>
+    <string name="act_4e" tools:keep="@string/act_4e">4. Exercise</string>
+    <string name="act_5e" tools:keep="@string/act_5e">5. Exercise</string>
+    <string name="act_6e" tools:keep="@string/act_6e">6. Exercise</string>
+    <string name="act_7e" tools:keep="@string/act_7e">7. Exercise</string>
+    <string name="act_8e" tools:keep="@string/act_8e">8. Exercise</string>
+    <string name="act_9e" tools:keep="@string/act_9e">9. Exercise</string>
+    <string name="act_10e" tools:keep="@string/act_10e">10. Exercise</string>
+    <string name="act_11e" tools:keep="@string/act_11e">11. Exercise</string>
+    <string name="act_12e" tools:keep="@string/act_12e">12. Exercise</string>
+
+    <string name="actee">Jumping jacks</string>
+    <string name="act_2ee" tools:keep="@string/act_2ee">Wall sit</string>
+    <string name="act_3ee" tools:keep="@string/act_3ee">Push ups</string>
+    <string name="act_4ee" tools:keep="@string/act_4ee">Abdominal crunch</string>
+    <string name="act_5ee" tools:keep="@string/act_5ee">Step up on chair</string>
+    <string name="act_6ee" tools:keep="@string/act_6ee">Squat</string>
+    <string name="act_7ee" tools:keep="@string/act_7ee">Tricepts on chair</string>
+    <string name="act_8ee" tools:keep="@string/act_8ee">Plank</string>
+    <string name="act_9ee" tools:keep="@string/act_9ee">High knees running</string>
+    <string name="act_10ee" tools:keep="@string/act_10ee">Lunge</string>
+    <string name="act_11ee" tools:keep="@string/act_11ee">Push up with rotation</string>
+    <string name="act_12ee" tools:keep="@string/act_12ee">Side plank</string>
+
+    <string name="pau">休止 | その後: 壁にもたれて行う空気イス</string>
+    <string name="pau_2" tools:keep="@string/pau_2">休止 | その後: 腕立て伏せ</string>
+    <string name="pau_3" tools:keep="@string/pau_3">休止 | その後: 腹筋</string>
+    <string name="pau_4" tools:keep="@string/pau_4">休止 | その後: 椅子の上で踏み台昇降</string>
+    <string name="pau_5" tools:keep="@string/pau_5">休止 | その後: スクワット</string>
+    <string name="pau_6" tools:keep="@string/pau_6">休止 | その後: 上腕三頭筋 - 椅子の上で</string>
+    <string name="pau_7" tools:keep="@string/pau_7">休止 | その後: プランク</string>
+    <string name="pau_8" tools:keep="@string/pau_8">休止 | その後: もも上げ</string>
+    <string name="pau_9" tools:keep="@string/pau_9">休止 | その後: ランジ</string>
+    <string name="pau_10">休止 | その後: 腕立て伏せ - ローテーション</string>
+    <string name="pau_11" tools:keep="@string/pau_11">休止 | その後: サイド プランク</string>
+
+    //License Dialog
+    <string name="about_yes">OK</string>
+    <string name="about_title">Copyright © 2016  by Gaukler Faun</string>
+    <string name="about_text">
+        &lt;b>Contributors:&lt;/b>&lt;br>&lt;br>
+
+        &lt;i>Development&lt;/i>&lt;br>
+        Gaukler Faun https://github.com/scoute-dich&lt;br> &lt;br>
+
+        &lt;i>Translations&lt;/i>&lt;br>
+        Japanese: naofum https://github.com/naofum&lt;br> &lt;br>
+
+        このプログラムはフリーソフトウェアです: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see http://www.gnu.org/licenses.&lt;br> &lt;br>
+
+        &lt;i>The pictures from the workout can be found on the Blog of \"C. Gilbert\"
+        (http://almostfearless.com/the-21-minute-workout-or-7-minutes-if-youre-really-fit). Thanks to her
+        for the permission to use them in the app.&lt;/i></string>
+
+    //Changelog Dialog
+    <string name="changelog_text">
+        &lt;i>さらに詳しい情報は、GitHub のプロジェクトサイトを参照してください:&lt;br>
+        https://github.com/scoute-dich/Seven&lt;/i>&lt;br>&lt;br>
+
+        &lt;b>v1.7.2 - 1.7.2.1:&lt;/b>&lt;br>
+        &#8226; bug fixes&lt;br>&lt;br>
+
+        &lt;b>v1.7 - 1.7.1:&lt;/b>&lt;br>
+        &#8226; option to select exercises&lt;br>
+        &#8226; fixed lint warnings&lt;br>&lt;br>
+
+        &lt;b>v1.6 - 1.6.2:&lt;/b>&lt;br>
+        &#8226; fixed broken link&lt;br>
+        &#8226; removed fab-button&lt;br>
+        &#8226; added audio settings&lt;br>
+        &#8226; splited last exercise in two parts&lt;br>
+        &#8226; break before first exercise&lt;br>&lt;br>
+
+        &lt;b>v1.5:&lt;/b>&lt;br>
+        &#8226; text to speech support&lt;br>
+        &#8226; countdown pause and resume support&lt;br>
+        &#8226; code clean up&lt;br>&lt;br>
+
+        &lt;b>v1.3:&lt;/b>&lt;br>
+        &#8226; スワイプ機能を追加しました (ヘルプダイアログを参照してください)&lt;br>
+        &#8226; 画面をオンのままにします&lt;br>
+        &#8226; 新しいダイアログ (ヘルプ/変更履歴)&lt;br>&lt;br>
+
+        &lt;b>v1.2:&lt;/b>&lt;br>
+        &#8226; デフォルトの言語を英語に変更しました&lt;br>&lt;br>
+
+        &lt;b>v1.1:&lt;/b>&lt;br>
+        &#8226; スナックバーの統合&lt;br>&lt;br>
+
+        &lt;b>v1.0:&lt;/b>&lt;br>
+        &#8226; 初回リリース
+    </string>
+
+    //Help Dialog
+    <string name="help_text">
+        &lt;i>左にスワイプ: &lt;/i>次のエクササイズに切り替えます&lt;br>&lt;br>
+
+        &lt;i>右にスワイプ: &lt;/i>前のエクササイズに切り替えます&lt;br>&lt;br>
+
+        &lt;i>下にスワイプ: &lt;/i>一時休止します&lt;br>&lt;br>
+
+        &lt;i>上にスワイプ: &lt;/i>エクササイズを再開します
+    </string>
+    <string name="act_122">12. Exercise - Side plank left</string>
+    <string name="action_beep">Beep</string>
+    <string name="action_beep_summary">Do you want to hear a short \"Beep\" after each exercise?</string>
+    <string name="action_changelog_summary">See what\'s new …</string>
+    <string name="action_help_summary">Learn about the swipe gestures …</string>
+    <string name="action_license_summary">App is licensed under GPL3</string>
+    <string name="action_settings">Settings | Help | About</string>
+    <string name="action_tts">TTS</string>
+    <string name="action_tts_summary">Do you want to hear voice commands?</string>
+    <string name="pau_112">Break - please change sides</string>
+    <string name="pref_1">About the app</string>
+    <string name="pref_2">Settings</string>
+    <string name="sn_change" tools:keep="@string/sn_change">Please change from right to left side.</string>
+    <string name="start">Swipe up to begin (after 5 sec. break) …</string>
+    <string name="start2">5 seconds break before first exersise …</string>
+    <string name="action_exercises">Exercises</string>
+
+</resources>

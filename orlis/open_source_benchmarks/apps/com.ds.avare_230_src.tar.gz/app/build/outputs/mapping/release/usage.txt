@@ -1,0 +1,675 @@
+com.ds.avare.BuildConfig
+com.ds.avare.ChecklistActivity:
+    public static final int SHOW_BUSY
+    public static final int UNSHOW_BUSY
+    private static final int MESSAGE
+    public static final int INIT
+com.ds.avare.IHelper$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_sendDataText
+    static final int TRANSACTION_recvDataText
+    23:30:public static com.ds.avare.IHelper asInterface(android.os.IBinder)
+com.ds.avare.IHelper$Stub$Proxy
+com.ds.avare.MainActivity:
+    float mTabHeight
+    public static final int tabMain
+    public static final int tabPlates
+    public static final int tabAFD
+    public static final int tabFind
+    public static final int tabPlan
+    public static final int tabWXB
+    public static final int tabNear
+    public static final int tabChecklist
+    public static final int tabTrip
+    public static final int tabTools
+com.ds.avare.PlanActivity:
+    public static final int SHOW_BUSY
+    public static final int UNSHOW_BUSY
+    public static final int ACTIVE
+    public static final int INACTIVE
+    public static final int MESSAGE
+    public static final int INIT
+com.ds.avare.PlatesActivity:
+    public static final java.lang.String AD
+com.ds.avare.PlatesTagActivity:
+    private static final int POINTS
+    private static final double MIN_SEPARATION
+    private static final double MIN_SEPARATION_COORD
+    private static final int MAX_DISTANCE_FROM_TOP
+    private static final int MIN_DISTANCE_FROM_TOP
+com.ds.avare.R
+com.ds.avare.R$anim
+com.ds.avare.R$array
+com.ds.avare.R$attr
+com.ds.avare.R$dimen
+com.ds.avare.R$drawable
+com.ds.avare.R$id
+com.ds.avare.R$layout
+com.ds.avare.R$string
+com.ds.avare.R$style
+com.ds.avare.R$xml
+com.ds.avare.RegisterActivity:
+    private static final int MAX_ATTEMPTS
+    private static final int BACKOFF_MILLI_SECONDS
+    353:355:public static void unregister(android.content.Context,java.lang.String)
+com.ds.avare.StorageService:
+    725:726:public void newPlan()
+    732:733:public void newPlanFromStorage(java.lang.String,boolean)
+    1109:1110:public void setChecklist(com.ds.avare.flight.Checklist)
+com.ds.avare.SubmitActivity:
+    private static final int MAX_ATTEMPTS
+    private static final int BACKOFF_MILLI_SECONDS
+    public static final java.lang.String SUBMIT
+    public static final int FUEL
+    public static final int RATINGS
+    public static final java.lang.String FUEL_AIRPORT
+    public static final java.lang.String RATINGS_AIRPORT
+com.ds.avare.WeatherActivity:
+    public static final int SHOW_BUSY
+    public static final int UNSHOW_BUSY
+    public static final int MESSAGE
+com.ds.avare.adapters.ChartAdapter:
+    private static final int STATE_UNCHECKED
+    private static final int STATE_CHECKED
+    private static final int STATE_DELETE
+    static final int blocksize
+    private static final int GROUP_DATABASE
+    private static final int GROUP_WEATHER
+    private static final int GROUP_PLATE
+    private static final int GROUP_SECTIONAL
+    private static final int GROUP_TAC
+    private static final int GROUP_WAC
+    private static final int GROUP_IFRLE
+    private static final int GROUP_AFD
+    private static final int GROUP_TERRAIN
+    private static final int GROUP_IFRHE
+    private static final int GROUP_TOPO
+    private static final int GROUP_HELI
+    private static final int GROUP_IFRA
+    private static final int GROUP_VFRA
+    private static final int GROUP_NUM
+    308:316:public void setDelete(java.lang.String)
+com.ds.avare.adapters.PopoutAdapter:
+    private static final int GROUP_COMM
+    private static final int GROUP_PERFORMANCE
+    private static final int GROUP_METAR
+    private static final int GROUP_TAF
+    private static final int GROUP_WA
+    private static final int GROUP_PIREP
+    private static final int GROUP_METS
+    private static final int GROUP_TFR
+    private static final int GROUP_SUA
+    private static final int GROUP_FUEL
+    private static final int GROUP_RATINGS
+    private static final int GROUP_RADAR
+    private static final int GROUP_NUM
+com.ds.avare.adsb.NexradBitmap:
+    156:156:public int getBlock()
+com.ds.avare.adsb.NexradImage:
+    private static final long EXPIRES
+    private static final int MAX_ENTRIES
+com.ds.avare.adsb.NexradImageConus:
+    private static final long EXPIRES
+    private static final int MAX_ENTRIES
+    127:128:public java.lang.String getDate()
+com.ds.avare.adsb.Traffic:
+    public static final double TRAFFIC_ALTITUDE_DIFF_DANGEROUS
+    private static final long EXPIRES
+com.ds.avare.adsb.TrafficCache:
+    private static final int MAX_ENTRIES
+com.ds.avare.animation.AnimateButton:
+    public static final int DIRECTION_L_R
+    public static final int DIRECTION_R_L
+    public static final int DIRECTION_B_U
+    public static final int DIRECTION_U_B
+com.ds.avare.animation.TwoButton:
+    117:117:public boolean isChecked()
+com.ds.avare.cap.CapChartFetcher:
+    public static final double GRID_SIZE
+com.ds.avare.externalFlightPlan.ExternalFlightPlan:
+    38:38:public java.util.List getWaypoints()
+    40:40:public java.lang.String getType()
+    42:42:public java.lang.String getFileName()
+    108:112:public void load(com.ds.avare.StorageService)
+    119:123:public void unload(com.ds.avare.StorageService)
+com.ds.avare.externalFlightPlan.ExternalPlanMgr:
+    56:66:public java.lang.String[] getPlans()
+    77:98:public java.util.ArrayList getPlanFileNames(java.lang.String)
+    146:146:public boolean isExternal(java.lang.String)
+    155:166:public boolean delete(java.lang.String)
+com.ds.avare.externalFlightPlan.GpxPlanParser:
+    private static final java.lang.String GPX
+    private static final java.lang.String RTE
+    private static final java.lang.String RTEPT
+    private static final java.lang.String LAT
+    private static final java.lang.String LON
+    private static final java.lang.String NAME
+    private static final java.lang.String CMT
+    88:88:public void generate(java.lang.String,java.io.FileOutputStream,com.ds.avare.externalFlightPlan.ExternalFlightPlan)
+com.ds.avare.externalFlightPlan.PlanParser:
+    static final java.lang.String gUndef
+    public abstract void generate(java.lang.String,java.io.FileOutputStream,com.ds.avare.externalFlightPlan.ExternalFlightPlan)
+com.ds.avare.externalFlightPlan.SkvPlanParser:
+    private static final java.lang.String SKV
+    private static final java.lang.String PLAN
+    private static final java.lang.String WPSEP
+    private static final java.lang.String FIELDSEP
+    private static final java.lang.String ALTFIELDSEP
+    119:119:public void generate(java.lang.String,java.io.FileOutputStream,com.ds.avare.externalFlightPlan.ExternalFlightPlan)
+com.ds.avare.flight.Checklist:
+    49:53:public Checklist(java.lang.String,java.lang.String)
+    74:75:public void changeName(java.lang.String)
+    82:83:public void addStep(java.lang.String)
+    90:90:public java.lang.String getSteps()
+    98:113:public void removeStep(int)
+    121:138:public void insertStep(java.lang.String,int)
+    146:153:public void moveStep(int,int)
+    173:181:public org.json.JSONObject getJSON()
+    199:206:public static java.lang.String putCheckListsToStorageFormat(java.util.LinkedList)
+    259:266:public void moveTo(int)
+    272:277:public void moveItemUp()
+    284:290:public void moveItemDown()
+    296:302:public void deleteItem()
+com.ds.avare.flight.FlightStatus:
+    private static final double SPEED_FOR_ROLLOUT
+    private static final double SPEED_FOR_FLIGHT
+com.ds.avare.flightLog.KMLRecorder:
+    public static final java.lang.String KMLFILENAMEFORMAT
+    public static final java.lang.String KMLFILENAMEEXTENTION
+    public static final java.lang.String KMLFILEPREFIX
+    public static final java.lang.String KMLCOORDINATESHEADER
+    public static final java.lang.String KMLCOORDINATESTRAILER
+    public static final java.lang.String KMLTRACKPOINT
+    public static final java.lang.String KMLFILESUFFIX
+com.ds.avare.gps.Gps:
+    private static final int GPS_PERIOD_LONG_MS
+    93:105:public static boolean isGpsAvailable(android.content.Context)
+com.ds.avare.gps.GpsParams:
+    162:162:public com.ds.avare.position.Scale getScale()
+    186:186:public java.lang.String getLatStringDMS()
+    194:194:public java.lang.String getLonStringDMS()
+    205:217:private java.lang.String getDMS(double)
+com.ds.avare.instruments.CDI:
+    private static final double BAR_DEGREES_VOR
+    private static final double BAR_DEGREES_LOC
+com.ds.avare.instruments.DistanceRings:
+    public static final int RING_INNER
+    public static final int RING_MIDDLE
+    public static final int RING_OUTER
+    public static final int RING_SPEED
+    private static final int STALLSPEED
+    private static final int RINGS_1_2_5
+    private static final int RINGS_2_5_10
+    private static final int RINGS_5_10_20
+    private static final int RINGS_10_20_40
+    private static final int RINGS_20_40_80
+    private static final int RINGS_40_80_160
+com.ds.avare.instruments.FlightTimer:
+    61:62:public void setMinFlightSpeed(double)
+com.ds.avare.instruments.FuelTimer:
+    public static final int REFRESH
+    public static final int SWITCH_TANK
+com.ds.avare.instruments.VNAV:
+    private static final double BAR_DEGREES
+    public static final double APPROACH_DISTANCE
+com.ds.avare.message.Helper:
+    18:18:public Helper()
+com.ds.avare.message.Logger:
+    16:16:public Logger()
+com.ds.avare.message.NetworkHelper:
+    21:21:public NetworkHelper()
+com.ds.avare.network.Delete:
+    public static final int FAILED
+    public static final int SUCCESS
+com.ds.avare.network.Download:
+    public static final int FAILED
+    public static final int SUCCESS
+    public static final int NONEED
+    private static final int blocksize
+com.ds.avare.place.Airport:
+    69:70:public void updateLocation(double,double)
+    109:109:public double getVariation()
+com.ds.avare.place.Airway
+com.ds.avare.place.Area:
+    private static final int UPDATE_TIME
+com.ds.avare.place.Awos:
+    public static final float INVALID
+    48:48:public double getLat()
+    52:52:public double getLon()
+com.ds.avare.place.Destination:
+    public static final java.lang.String GPS
+    public static final java.lang.String MAPS
+    public static final java.lang.String BASE
+    public static final java.lang.String FIX
+    public static final java.lang.String NAVAID
+    public static final java.lang.String AD
+    public static final java.lang.String UDW
+    359:362:public void findGuessType()
+    688:688:public com.ds.avare.utils.BitmapHolder getBitmap()
+    860:860:public double getDeclination()
+com.ds.avare.place.GameTFR:
+    public static final double RADIUS_NM
+    public static final java.lang.String GAME_TEXT
+    11:11:public GameTFR()
+com.ds.avare.place.Obstacle:
+    public static final float RADIUS
+    public static final float HEIGHT_BELOW
+    65:65:public int getHeight()
+com.ds.avare.place.Plan:
+    private static final int MAX_DESTINATIONS
+    private static final int MILES_PER_SEGMENT
+    105:106:public void setName(java.lang.String)
+    109:109:public java.lang.String getName()
+    270:270:public boolean isPassed(int)
+    795:802:public java.lang.String putPlanToStorageFormat()
+    69:853:public Plan(android.content.Context,com.ds.avare.StorageService,java.lang.String,boolean)
+    911:931:public static java.lang.String putAllPlans(com.ds.avare.StorageService,java.util.LinkedHashMap)
+    940:940:public double getDistance()
+    949:960:public void moveTo(int)
+com.ds.avare.place.Plan$Passage:
+    private static final double EARLY_PASS_THRESHOLD
+    private static final double PASSAGE_ENROUTE_DISTANCE_MIN
+    private static final double PASSAGE_APPROACH_MIN
+    private static final double PASSAGE_APPROACH_DISTANCE
+com.ds.avare.place.Route
+com.ds.avare.place.Runway:
+    public static final float INVALID
+com.ds.avare.plan.LmfsInterface
+com.ds.avare.plan.LmfsPlan:
+    public static final java.lang.String DOMESTIC
+    public static final java.lang.String PROPOSED
+    public static final java.lang.String DIRECT
+    public static final java.lang.String ROUTE_WIDTH
+    113:113:public boolean isValid()
+    121:121:public java.lang.String getId()
+    129:130:public void setId(java.lang.String)
+    137:234:public LmfsPlan(java.lang.String)
+    239:247:private boolean putJSON(org.json.JSONObject,java.lang.String,java.lang.String)
+    255:325:public java.lang.String makeJSON()
+    331:338:private void put(java.util.Map,java.lang.String,java.lang.String)
+    345:367:public java.util.Map makeHashMap()
+    377:381:public static java.lang.String getTime(java.lang.String)
+    390:400:public static java.lang.String getTimeFromInstance(java.lang.String)
+    409:418:public static java.lang.String getInstanceFromTime(java.lang.String)
+    426:427:public static java.lang.String getTimeFromInput(java.lang.String)
+    436:437:public static java.lang.String getDurationFromInput(java.lang.String)
+    446:450:public static java.lang.String durationToTime(java.lang.String)
+    460:462:public static java.lang.String timeToDuration(double)
+    473:498:public static java.lang.String convertLocationToGpsCoords(android.location.Location)
+com.ds.avare.plan.LmfsPlanList:
+    42:67:public LmfsPlanList(java.lang.String)
+com.ds.avare.plan.LmfsPlanLog
+com.ds.avare.position.Origin:
+    112:112:public double getLongitudeLeft()
+    120:120:public double getLatitudeUpper()
+    128:128:public double getLongitudeRight()
+    136:136:public double getLatitudeLower()
+    168:184:public boolean isInDisplayRange(com.ds.avare.position.Coordinate)
+com.ds.avare.position.Radial:
+    21:21:public Radial()
+com.ds.avare.position.Scale:
+    private static final double MIN_SCALE
+    197:206:public void adjustZoom(double)
+com.ds.avare.shapes.Draw:
+    private static final int MAX_DRAW_POINTS
+    private static final int DRAW_POINT_THRESHOLD
+com.ds.avare.shapes.ElevationTile:
+    111:111:public com.ds.avare.shapes.Tile getTile()
+com.ds.avare.shapes.PixelDraw:
+    private static final int MAX_DRAW_POINTS
+    private static final int DRAW_POINT_THRESHOLD
+com.ds.avare.shapes.Radar:
+    private static final long EXPIRES
+com.ds.avare.shapes.Shape:
+    194:194:public double getLatitudeMinimum()
+com.ds.avare.shapes.Tile:
+    217:217:public double getLongitude()
+com.ds.avare.shapes.TrackShape:
+    private static final int MILES_PER_SEGMENT
+    private static final int LEG_PREV
+    private static final int LEG_CURRENT
+    private static final int LEG_NEXT
+com.ds.avare.storage.DataBaseHelper:
+    private android.database.sqlite.SQLiteDatabase mDataBaseProcedures
+    private android.database.sqlite.SQLiteDatabase mDataBasePlates
+    public static final java.lang.String FACILITY_NAME
+    private static final java.lang.String FACILITY_NAME_DB
+    private static final int FACILITY_NAME_COL
+    public static final java.lang.String LOCATION_ID
+    private static final java.lang.String LOCATION_ID_DB
+    private static final java.lang.String INFO_DB
+    private static final int LOCATION_ID_COL
+    public static final java.lang.String MAGNETIC_VARIATION
+    private static final int MAGNETIC_VARIATION_COL
+    public static final java.lang.String TYPE
+    private static final java.lang.String TYPE_DB
+    private static final int TYPE_COL
+    public static final java.lang.String LATITUDE
+    private static final java.lang.String LATITUDE_DB
+    private static final int LATITUDE_COL
+    public static final java.lang.String LONGITUDE
+    private static final java.lang.String LONGITUDE_DB
+    private static final int LONGITUDE_COL
+    public static final java.lang.String FUEL_TYPES
+    private static final int FUEL_TYPES_COL
+    private static final int CUSTOMS_COL
+    private static final java.lang.String CUSTOMS
+    private static final int BEACON_COL
+    private static final java.lang.String BEACON
+    private static final int FSSPHONE_COL
+    public static final java.lang.String FSSPHONE
+    private static final int SEGCIRCLE_COL
+    private static final java.lang.String SEGCIRCLE
+    public static final java.lang.String MANAGER_PHONE
+    public static final java.lang.String PROC
+    public static final java.lang.String ELEVATION
+    private static final java.lang.String TABLE_AIRPORTS
+    private static final java.lang.String TABLE_AIRPORT_DIAGS
+    private static final java.lang.String TABLE_AIRPORT_FREQ
+    private static final java.lang.String TABLE_AIRPORT_AWOS
+    private static final java.lang.String TABLE_AIRPORT_RUNWAYS
+    private static final java.lang.String TABLE_FILES
+    private static final java.lang.String TABLE_FIX
+    private static final java.lang.String TABLE_NAV
+    private static final java.lang.String TABLE_TO
+    private static final java.lang.String TABLE_ALT
+    private static final java.lang.String TABLE_AFD
+    private static final java.lang.String TABLE_OBSTACLES
+    private static final java.lang.String TABLE_SUA
+    private static final java.lang.String TABLE_PROCEDURE
+    private static final java.lang.String TABLE_GEOPLATES
+    private static final java.lang.String TABLE_AIRWAYS
+    private static final java.lang.String TABLE_FUEL
+    private static final java.lang.String TABLE_RATINGS
+    private static final java.lang.String TILE_NAME
+    534:556:public com.ds.avare.position.Coordinate getCoordinate(java.lang.String)
+    1671:1696:public java.lang.String findObstacle(java.lang.String,com.ds.avare.place.Destination)
+    2518:2568:private android.database.Cursor doQueryProcedures(java.lang.String,java.lang.String)
+    2576:2596:private void closesProcedures(android.database.Cursor)
+    2608:2642:public java.util.LinkedList findProcedure(java.lang.String,java.lang.String,java.lang.String)
+    2651:2701:private android.database.Cursor doQueryPlates(java.lang.String,java.lang.String)
+    2709:2729:private void closesPlates(android.database.Cursor)
+    2739:2793:public java.util.HashMap findPlatesMatrix(java.lang.String)
+    2928:2967:public com.ds.avare.position.Coordinate findNavaid(java.lang.String)
+    2977:3002:public java.util.LinkedList findAirway(java.lang.String)
+com.ds.avare.storage.DataSource:
+    103:103:public com.ds.avare.position.Coordinate getCoordinate(java.lang.String)
+    150:150:public java.util.HashMap findPlatesMatrix(java.lang.String)
+    228:228:public java.lang.String findObstacle(java.lang.String,com.ds.avare.place.Destination)
+    329:329:public java.util.LinkedList findProcedure(java.lang.String,java.lang.String,java.lang.String)
+    340:340:public java.util.LinkedList findAirway(java.lang.String)
+    349:349:public com.ds.avare.position.Coordinate findNavaid(java.lang.String)
+com.ds.avare.storage.Preferences:
+    public static final double DISTANCE_TO_AUTO_LOAD_PLATE
+    public static final java.lang.String IMAGE_EXTENSION
+    public static final int MAX_RECENT
+    public static final int MAX_PLANS
+    public static final int MAX_LISTS
+    public static final int MAX_AREA_AIRPORTS
+    public static final double MIN_TOUCH_MOVEMENT_SQ_DISTANCE
+    public static final long MEM_192
+    public static final long MEM_128
+    public static final long MEM_64
+    public static final long MEM_32
+    public static final long MEM_16
+    public static final int MEM_192_X
+    public static final int MEM_192_Y
+    public static final int MEM_128_X
+    public static final int MEM_128_Y
+    public static final int MEM_64_X
+    public static final int MEM_64_Y
+    public static final int MEM_32_X
+    public static final int MEM_32_Y
+    public static final int MEM_16_X
+    public static final int MEM_16_Y
+    270:271:public void putPlans(java.lang.String)
+    454:482:public boolean isNewerVersion(android.app.Activity)
+    595:595:public java.lang.String loadString(java.lang.String)
+    827:828:public void putLists(java.lang.String)
+    1049:1050:public void saveLMFSPlan(java.lang.String)
+    1057:1057:public java.lang.String getLMFSPlan()
+com.ds.avare.storage.StringPreference:
+    134:138:public static java.lang.String parseHashedNameIdAfter(java.lang.String)
+    163:170:public static java.lang.String parseHashedNameDesc(java.lang.String)
+com.ds.avare.touch.GestureInterface:
+    public static final int LONG_PRESS
+    public static final int DOUBLE_TAP
+    public static final int TOUCH
+com.ds.avare.touch.MultiTouchController:
+    private static final long EVENT_SETTLE_TIME_INTERVAL
+    private static final float MAX_MULTITOUCH_POS_JUMP_SIZE
+    private static final float MAX_MULTITOUCH_DIM_JUMP_SIZE
+    private static final float MIN_MULTITOUCH_SEPARATION
+    public static final int MAX_TOUCH_POINTS
+    public static final boolean DEBUG
+    private static final int MODE_NOTHING
+    private static final int MODE_DRAG
+    private static final int MODE_PINCH
+    189:190:protected void setHandleSingleTouchEvents(boolean)
+    196:196:protected boolean getHandleSingleTouchEvents()
+    500:500:public int getMode()
+com.ds.avare.touch.MultiTouchController$PointInfo:
+    673:673:public int getNumTouchPoints()
+    703:703:public int[] getPointerIds()
+    708:708:public float getPressure()
+    713:713:public float[] getPressures()
+    723:723:public int getAction()
+com.ds.avare.touch.MultiTouchController$PositionAndScale:
+    784:784:public float getScaleX()
+    789:789:public float getScaleY()
+    793:793:public float getAngle()
+com.ds.avare.userDefinedWaypoints.GpxUDWParser:
+    private static final java.lang.String GPX
+    private static final java.lang.String WPT
+    private static final java.lang.String LAT
+    private static final java.lang.String LON
+    private static final java.lang.String NAME
+    private static final java.lang.String CREATOR
+    private static final java.lang.String VFRGPSPROCEDURES
+com.ds.avare.userDefinedWaypoints.KmlUDWParser:
+    private static final java.lang.String KML
+    private static final java.lang.String DOCUMENT
+    private static final java.lang.String PLACEMARK
+    private static final java.lang.String FOLDER
+    private static final java.lang.String POINT
+    private static final java.lang.String NAME
+    private static final java.lang.String COORDINATES
+com.ds.avare.userDefinedWaypoints.UDWMgr:
+    static final int MAXUDW
+    78:78:public int getCount()
+    163:166:public void remove(com.ds.avare.userDefinedWaypoints.Waypoint)
+com.ds.avare.userDefinedWaypoints.Waypoint:
+    public static final int MT_NONE
+    public static final int MT_CYANDOT
+    public static final int MT_CROSSHAIRS
+    59:59:public boolean getLocked()
+com.ds.avare.utils.BitmapHolder:
+    public static final int WIDTH
+    public static final int HEIGHT
+com.ds.avare.utils.DisplayIcon:
+    21:21:public DisplayIcon()
+com.ds.avare.utils.Dms
+com.ds.avare.utils.EditTextPreferenceWithSummary
+com.ds.avare.utils.Helper:
+    52:52:public Helper()
+    460:468:public static java.lang.String makeVariation(double)
+    732:734:public static java.lang.String millisToGMT(long)
+com.ds.avare.utils.InfoLines:
+    static final int ID_DO_LANDSCAPE
+    static final int ID_DO_PORTRAIT
+    static final int ID_FLD_NUL
+    static final int ID_FLD_GMT
+    static final int ID_FLD_LT
+    static final int ID_FLD_SPD
+    static final int ID_FLD_HDG
+    static final int ID_FLD_BRG
+    static final int ID_FLD_DST
+    static final int ID_FLD_DIS
+    static final int ID_FLD_ETE
+    static final int ID_FLD_ETA
+    static final int ID_FLD_MSL
+    static final int ID_FLD_AGL
+    static final int ID_FLD_HOB
+    static final int ID_FLD_VSI
+    static final int ID_FLD_VSR
+    static final int ID_FLD_ODO
+    static final int ID_FLD_CDI
+    static final int ID_FLD_FPR
+    static final int ID_FLD_FUL
+    static final int ID_FLD_MAX
+    static final java.lang.String NOVALUE
+    static final double TITLE_TO_TEXT_RATIO
+    static final int MAX_INFO_ROWS
+    static final int MAX_FIELD_SIZE_IN_CHARS
+com.ds.avare.utils.NetworkHelper:
+    public static final int EXPIRES
+    53:54:public NetworkHelper()
+    61:61:public static java.lang.String getDonationURL(java.lang.String)
+    119:135:public static java.lang.String getMETAR(java.lang.String)
+    148:165:public static java.lang.String getTAF(java.lang.String)
+    179:201:public static java.lang.String getPIREPS(java.lang.String,java.lang.String)
+    606:632:public static java.lang.String getNotams(java.lang.String)
+com.ds.avare.utils.PossibleEmail:
+    19:19:public PossibleEmail()
+com.ds.avare.utils.ShadowedText:
+    public static final int ABOVE
+    public static final int RIGHT
+    public static final int BELOW
+    public static final int LEFT
+    public static final int ABOVE_RIGHT
+    public static final int BELOW_RIGHT
+    public static final int ABOVE_LEFT
+    public static final int BELOW_LEFT
+com.ds.avare.utils.TwilightCalculator:
+    public static final int DAY
+    public static final int NIGHT
+    private static final double DEGREES_TO_RADIANS
+    private static final double J0
+    private static final double ALTIDUTE_CORRECTION_CIVIL_TWILIGHT
+    private static final double C1
+    private static final double C2
+    private static final double C3
+    private static final double OBLIQUITY
+    private static final long UTC_2000
+com.ds.avare.utils.USGSElevation
+com.ds.avare.utils.WeatherHelper:
+    18:18:public WeatherHelper()
+com.ds.avare.views.AfdView:
+    private static final double MAX_AFD_SCALE
+com.ds.avare.views.LocationView:
+    private static final int TEXT_COLOR
+    private static final int TEXT_COLOR_OPPOSITE
+    private static final float MOVEMENT_THRESHOLD
+    private static final int MAX_SCALE
+com.ds.avare.views.PlatesTagView:
+    private static final double MAX_PLATE_SCALE
+    268:282:public void center()
+com.ds.avare.views.PlatesView:
+    private static final double MAX_PLATE_SCALE
+    private static final int TEXT_COLOR
+    private static final int TEXT_COLOR_OPPOSITE
+    private static final int SHADOW
+com.ds.avare.weather.AdsbWeatherCache:
+    private static final long EXPIRY_PERIOD
+com.ds.avare.weather.Airep:
+    public static final int RADIUS
+com.ds.avare.weather.Stations:
+    19:19:public Stations()
+com.ds.avare.webinfc.WebAppInterface:
+    private static final int MSG_NOTBUSY
+    private static final int MSG_BUSY
+    private static final int MSG_FILL_FORM
+    private static final int MSG_ERROR
+    private static final int MSG_FAA_PLANS
+    private static final int MSG_SET_EMAIL
+    private static final int MSG_SET_NAVLOG
+    77:80:private java.lang.String checkNull(java.lang.String)
+    88:172:public void fillPlan()
+    179:191:public void moveTo(int)
+    199:233:public void getNavlog()
+    242:271:public void getWeather()
+    300:340:public void filePlan(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    369:417:public void amendPlan(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    425:463:public void planChangeState(java.lang.String,java.lang.String)
+    471:488:public void getPlans()
+    497:542:public void loadPlan()
+com.ds.avare.webinfc.WebAppListInterface:
+    private com.ds.avare.webinfc.WebAppListInterface$ImportTask mImportTask
+    private static final int MSG_UPDATE_LIST
+    private static final int MSG_CLEAR_LIST
+    private static final int MSG_ADD_LIST
+    private static final int MSG_CLEAR_LIST_SAVE
+    private static final int MSG_ADD_LIST_SAVE
+    private static final int MSG_NOTBUSY
+    private static final int MSG_BUSY
+    private static final int MAX_FILE_LINE_SIZE
+    private static final int MAX_FILE_LINES
+    169:174:public void moveUpItem()
+    181:183:public void moveTo(int)
+    191:197:public void moveDownItem()
+    204:208:public void discardList()
+    216:222:public void deleteItem()
+    234:239:public void addToList(java.lang.String)
+    247:272:public void saveList(java.lang.String)
+    280:294:public void loadList(java.lang.String)
+    302:329:public void saveDelete(java.lang.String)
+    340:361:public void importFromFile(java.lang.String)
+    41:41:static synthetic android.os.Handler access$100(com.ds.avare.webinfc.WebAppListInterface)
+com.ds.avare.webinfc.WebAppListInterface$ImportTask
+com.ds.avare.webinfc.WebAppPlanInterface:
+    private com.ds.avare.webinfc.WebAppPlanInterface$SearchTask mSearchTask
+    private com.ds.avare.webinfc.WebAppPlanInterface$CreateTask mCreateTask
+    private com.ds.avare.webinfc.WebAppPlanInterface$NotamsTask mNotamsTask
+    private java.lang.Thread mNotamsThread
+    private static final int MSG_CLEAR_PLAN
+    private static final int MSG_ADD_PLAN
+    private static final int MSG_ADD_SEARCH
+    private static final int MSG_TIMER
+    private static final int MSG_CLEAR_PLAN_SAVE
+    private static final int MSG_ADD_PLAN_SAVE
+    private static final int MSG_NOTBUSY
+    private static final int MSG_BUSY
+    private static final int MSG_ACTIVE
+    private static final int MSG_INACTIVE
+    private static final int MSG_SAVE_HIDE
+    private static final int MSG_ERROR
+    private static final int MSG_PREV_HIDE
+    private static final int MSG_NEXT_HIDE
+    private static final int MSG_PLAN_COUNT
+    private static final int MAX_PLANS_SHOWN
+    253:255:public void nextPage()
+    259:261:public void prevPage()
+    265:267:public void firstPage()
+    271:273:public void lastPage()
+    277:283:public void refreshPlanList()
+    346:358:public void moveUp()
+    368:383:public void moveDown()
+    390:396:public void discardPlan()
+    426:431:public void deleteWaypoint()
+    449:450:public void moveTo(int)
+    474:480:public void addToPlan(java.lang.String,java.lang.String,java.lang.String)
+    489:505:public void savePlan(java.lang.String)
+    514:544:public void loadPlan(java.lang.String)
+    552:558:public void loadPlanReverse(java.lang.String)
+    570:580:public void planFilter(java.lang.String)
+    611:640:public void saveDelete(java.lang.String)
+    651:667:public void search(java.lang.String)
+    674:702:public java.lang.String getPlanData()
+    710:712:public void refreshPlan()
+    719:727:public void getWeather()
+    734:742:public void getNotams()
+    753:769:public void createPlan(java.lang.String)
+    1280:1283:private java.lang.String getNotamsFileName(java.lang.String)
+    57:57:static synthetic java.lang.String access$1200(com.ds.avare.webinfc.WebAppPlanInterface,java.lang.String)
+com.ds.avare.webinfc.WebAppPlanInterface$CreateTask
+com.ds.avare.webinfc.WebAppPlanInterface$NotamsTask
+com.ds.avare.webinfc.WebAppPlanInterface$SearchTask
+com.ds.avare.webinfc.WebAppPlanInterface$WeatherTask:
+    1091:1093:private WebAppPlanInterface$WeatherTask(com.ds.avare.webinfc.WebAppPlanInterface)
+    1091:1091:synthetic WebAppPlanInterface$WeatherTask(com.ds.avare.webinfc.WebAppPlanInterface,com.ds.avare.webinfc.WebAppPlanInterface$1)
+com.sromku.polygon.Line:
+    103:103:public com.sromku.polygon.Point getEnd()
+com.sromku.polygon.Polygon:
+    197:197:public java.util.List getSides()
+com.sromku.polygon.Polygon$Builder:
+    84:90:public com.sromku.polygon.Polygon$Builder close()

@@ -1,0 +1,17 @@
+/syncthing
+/discosrv
+syncthing.exe
+discosrv.exe
+*.tar.gz
+*.zip
+*.asc
+.jshintrc
+coverage.out
+files/pidx
+bin
+perfstats*.csv
+coverage.xml
+syncthing.sig
+RELEASE
+deb
+lib/auto/gui.files.go

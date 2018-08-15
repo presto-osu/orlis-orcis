@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="themeNames">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <string-array name="themeKeys" translatable="false">
+        <item>LightTheme</item>
+        <item>DarkTheme</item>
+    </string-array>
+
+    <string-array name="prayMethodsNames">
+        <item>Shia Ithna-Ashari, Leva Institute, Qum</item>
+        <item>Muslim World League</item>
+        <item>Islamic Society of North America</item>
+        <item>Egyptian General Authority of Survey</item>
+        <item>Umm Al-Qura University, Makkah</item>
+        <item>University of Islamic Sciences, Karachi</item>
+        <item>Institute of Geophysics, University of Tehran</item>
+    </string-array>
+
+    <string-array name="prayMethodsKeys" translatable="false">
+        <item>Jafari</item>
+        <item>MWL</item>
+        <item>ISNA</item>
+        <item>Egypt</item>
+        <item>Makkah</item>
+        <item>Karachi</item>
+        <item>Tehran</item>
+    </string-array>
+
+    <string-array name="colorNames">
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Black</item>
+    </string-array>
+
+    <string-array name="colorKeys" translatable="false">
+        <item>#ffffffff</item>
+        <item>#ffe65100</item>
+        <item>#ff00796b</item>
+        <item>#ff202020</item>
+    </string-array>
+
+    <string-array name="languageNames" translatable="false">
+        <item>فارسی</item>
+        <item>دری</item>
+        <item>پښتو</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="languageKeys" translatable="false">
+        <item>fa</item>
+        <item>fa-AF</item>
+        <item>ps</item>
+        <item>en</item>
+    </string-array>
+
+    <string-array name="prayerTimeNames">
+        <item>Morning</item>
+        <item>Dhohr</item>
+        <item>Asr</item>
+        <item>Maghrib</item>
+        <item>Isha</item>
+    </string-array>
+
+    <string-array name="prayerTimeKeys" translatable="false">
+        <item>FAJR</item>
+        <item>DHUHR</item>
+        <item>ASR</item>
+        <item>MAGHRIB</item>
+        <item>ISHA</item>
+    </string-array>
+
+    <string-array name="islamicOffsetNames">
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>+1</item>
+        <item>+2</item>
+    </string-array>
+
+    <string-array name="islamicOffsetKeys" translatable="false">
+        <item>-2</item>
+        <item>-1</item>
+        <item>0</item>
+        <item>+1</item>
+        <item>+2</item>
+    </string-array>
+
+    <string-array name="drawerTitles">
+        <item>Calendar</item>
+        <item>Calendar Converter</item>
+        <item>Compass</item>
+        <item>Settings</item>
+        <item>About</item>
+        <item>Exit</item>
+    </string-array>
+
+    <string-array name="drawerIcons" translatable="false">
+        <item>@drawable/ic_date_range</item>
+        <item>@drawable/ic_swap_vertical_circle</item>
+        <item>@drawable/ic_explore</item>
+        <item>@drawable/ic_settings</item>
+        <item>@drawable/ic_info</item>
+        <item>@drawable/ic_cancel</item>
+    </string-array>
+
+    <string-array name="drawerSubtitles">
+        <item></item>
+        <item></item>
+        <item>and Qibla, if location is set in the Settings</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+</resources>

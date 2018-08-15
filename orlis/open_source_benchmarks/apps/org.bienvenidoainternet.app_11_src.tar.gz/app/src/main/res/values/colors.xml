@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3B6B94</color>
+    <color name="colorPrimaryDark">#1B3345</color>
+    <color name="colorAccent">#3B6B94</color>
+    <color name="transparentBackground">#CC000000</color>
+
+    <color name="defaultSageColor">#0000FF</color>
+    <color name="defaultNameColor">#008000</color>
+    <color name="defaultMarginColor">#CCCCCC</color>
+    <color name="defaultTripcodeColor">#FF0000</color>
+    <color name="defaultQuote">#000000</color>
+
+    <color name="nightBackground">#2F3D48</color> <!-- 1 -->
+    <color name="nightMarginColor">#58636c</color> <!-- 3 58636c-->
+    <color name="nightTextColor">#979ea3</color> <!-- 6 -->
+    <color name="nightLinkColor">#c0c4c8</color> <!-- 8 -->
+    <color name="nightNameColor">#5f962e</color>
+    <color name="nightSageColor">#2e5f96</color>
+    <color name="nightTripcodeColor">#962e5f</color>
+    <color name="nightQuote">#7eab57</color>
+
+    <color name="headlineBackground">#DDDDDD</color> <!-- 1 -->
+    <color name="headlineMarginColor">#EEEEEE</color> <!-- 3 58636c-->
+    <color name="headlineTextColor">#333333</color> <!-- 6 -->
+    <color name="headlineLinkColor">#FF6600</color> <!-- 8 -->
+    <color name="headlineNameColor">#004A99</color>
+    <color name="headlineSageColor">#FF6600</color>
+    <color name="headlineTripcodeColor">#d279ef</color>
+    <color name="headlineQuote">#ff8533</color>
+
+    <color name="blackBackground">#282A2E</color> <!-- 1 -->
+    <color name="blackMarginColor">#1D1F21</color> <!-- 3 58636c-->
+    <color name="blackTextColor">#c5c8c6</color> <!-- 6 -->
+    <color name="blackLinkColor">#81a2be</color> <!-- 8 -->
+    <color name="blackNameColor">#c5c8c6</color>
+    <color name="blackSageColor">#81a2be</color>
+    <color name="blackTripcodeColor">#b294bb</color>
+    <color name="blackQuote">#9dbb94</color>
+</resources>

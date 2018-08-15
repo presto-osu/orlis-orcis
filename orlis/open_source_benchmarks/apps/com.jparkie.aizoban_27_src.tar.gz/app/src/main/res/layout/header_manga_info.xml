@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/baseline_component_unit">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/manga_header_thumbnail_height"
+                android:id="@+id/headerImageView"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.4"
+                android:background="@color/primaryBlue500"
+                android:id="@+id/maskImageView" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/baseline_component_unit"
+            android:layout_marginLeft="@dimen/baseline_content_left"
+            android:layout_marginStart="@dimen/baseline_content_left"
+            android:layout_marginRight="@dimen/baseline_content_unit"
+            android:layout_marginEnd="@dimen/baseline_content_unit"
+            android:ellipsize="middle"
+            android:textColor="@color/primaryBlue500"
+            android:textSize="@dimen/typography_headline"
+            android:textStyle="bold"
+            android:id="@+id/nameTextView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/baseline_component_unit"
+            android:layout_marginLeft="@dimen/baseline_content_left"
+            android:layout_marginStart="@dimen/baseline_content_left"
+            android:layout_marginRight="@dimen/baseline_content_unit"
+            android:layout_marginEnd="@dimen/baseline_content_unit"
+            android:textColor="@color/secondaryText"
+            android:textSize="@dimen/typography_body_1"
+            android:id="@+id/descriptionTextView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/baseline_component_unit"
+            android:layout_marginLeft="@dimen/baseline_content_left"
+            android:layout_marginStart="@dimen/baseline_content_left"
+            android:layout_marginRight="@dimen/baseline_content_unit"
+            android:layout_marginEnd="@dimen/baseline_content_unit"
+            android:textColor="@color/primaryBlue500"
+            android:textSize="@dimen/typography_subhead"
+            android:textStyle="bold"
+            android:text="@string/manga_header_title_author"
+            android:id="@+id/authorTitleTextView"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/baseline_component_unit"
+            android:layout_marginLeft="@dimen/baseline_content_left"
+            android:layout_marginStart="@dimen/baseline_content_left"
+            android:layout_marginRight="@dimen/baseline_content_unit"
+            android:layout_marginEnd="@dimen/baseline_content_unit"
+            android:textColor="@color/secondaryText"
+            android:textSize="@dimen/typography_body_1"
+            android:id="@+id/authorTextView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/baseline_component_unit"
+            android:layout_marginLeft="@dimen/baseline_content_left"
+            android:layout_marginStart="@dimen/baseline_content_left"
+            android:layout_marginRight="@dimen/baseline_content_unit"
+            android:layout_marginEnd="@dimen/baseline_content_unit"
+            android:textColor="@color/primaryBlue500"
+            android:textSize="@dimen/typography_subhead"
+            android:textStyle="bold"
+            android:text="@string/manga_header_title_artist"
+            android:id="@+id/artistTitleTextView"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/baseline_component_unit"
+            android:layout_marginLeft="@dimen/baseline_content_left"
+            android:layout_marginStart="@dimen/baseline_content_left"
+            android:layout_marginRight="@dimen/baseline_content_unit"
+            android:layout_marginEnd="@dimen/baseline_content_unit"
+            android:textColor="@color/secondaryText"
+            android:textSize="@dimen/typography_body_1"
+            android:id="@+id/artistTextView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/baseline_component_unit"
+            android:layout_marginLeft="@dimen/baseline_content_left"
+            android:layout_marginStart="@dimen/baseline_content_left"
+            android:layout_marginRight="@dimen/baseline_content_unit"
+            android:layout_marginEnd="@dimen/baseline_content_unit"
+            android:textColor="@color/primaryBlue500"
+            android:textSize="@dimen/typography_subhead"
+            android:textStyle="bold"
+            android:text="@string/manga_header_title_genre"
+            android:id="@+id/genreTitleTextView"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/baseline_component_unit"
+            android:layout_marginLeft="@dimen/baseline_content_left"
+            android:layout_marginStart="@dimen/baseline_content_left"
+            android:layout_marginRight="@dimen/baseline_content_unit"
+            android:layout_marginEnd="@dimen/baseline_content_unit"
+            android:textColor="@color/secondaryText"
+            android:textSize="@dimen/typography_body_1"
+            android:id="@+id/genreTextView" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/baseline_component_unit"
+            android:layout_marginLeft="@dimen/baseline_content_left"
+            android:layout_marginStart="@dimen/baseline_content_left"
+            android:layout_marginRight="@dimen/baseline_content_unit"
+            android:layout_marginEnd="@dimen/baseline_content_unit"
+            android:textColor="@color/primaryBlue500"
+            android:textSize="@dimen/typography_subhead"
+            android:textStyle="bold"
+            android:text="@string/manga_header_title_status"
+            android:id="@+id/statusTitleTextView"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/baseline_component_unit"
+            android:layout_marginLeft="@dimen/baseline_content_left"
+            android:layout_marginStart="@dimen/baseline_content_left"
+            android:layout_marginRight="@dimen/baseline_content_unit"
+            android:layout_marginEnd="@dimen/baseline_content_unit"
+            android:textColor="@color/secondaryText"
+            android:textSize="@dimen/typography_body_1"
+            android:id="@+id/statusTextView" />
+
+    </LinearLayout>
+
+    <com.melnykov.fab.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/manga_header_fab_margin_top"
+        android:layout_marginLeft="@dimen/manga_header_fab_margin_left"
+        android:layout_marginStart="@dimen/manga_header_fab_margin_left"
+        android:layout_gravity="top|start"
+        android:src="@drawable/ic_favourite_outline_white_24dp"
+        fab:fab_colorNormal="@color/primaryBlue500"
+        fab:fab_colorPressed="@color/accentPinkA200"
+        android:id="@+id/favouriteButton" />
+
+</FrameLayout>

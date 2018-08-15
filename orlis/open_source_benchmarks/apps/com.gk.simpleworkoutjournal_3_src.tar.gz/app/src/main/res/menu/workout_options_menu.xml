@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_timer"
+        android:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_moreinfo_icon"
+        android:icon="@drawable/ic_action_custom_circledlist"
+        android:showAsAction="always"
+        android:title="@string/notes"
+        />
+
+       <!-- Disabled while there are no use for this button -->
+    <!--
+    <item
+        android:id="@+id/action_makedone_icon"
+        android:icon="@drawable/ic_action_custom_circledsave"
+        android:showAsAction="always"
+        android:title="Done"
+        />
+    -->
+</menu>

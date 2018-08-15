@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.MainActivity">
+
+    <item
+        android:id="@+id/action_notifications"
+        android:icon="@drawable/ic_bell_outline_white_24dp"
+        android:title="@string/notifications"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_conversations"
+        android:icon="@drawable/ic_message_text_outline_white_24dp"
+        android:title="@string/messages"
+        app:showAsAction="always" />
+
+</menu>

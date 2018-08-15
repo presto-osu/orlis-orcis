@@ -1,0 +1,5 @@
+![1](https://github.com/scoute-dich/Diaspora/blob/master/Screenshots/Screenshot_20160303-194540.png?raw=true)
+![2](https://github.com/scoute-dich/Diaspora/blob/master/Screenshots/Screenshot_20160303-194559.png?raw=true)
+![3](https://github.com/scoute-dich/Diaspora/blob/master/Screenshots/Screenshot_20160303-194608.png?raw=true)
+![4](https://github.com/scoute-dich/Diaspora/blob/master/Screenshots/Screenshot_20160303-194621.png?raw=true)
+![5](https://github.com/scoute-dich/Diaspora/blob/master/Screenshots/Screenshot_20160303-194752.png?raw=true)

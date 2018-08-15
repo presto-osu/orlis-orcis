@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:id="@+id/ivMargin"
+        android:src="@color/defaultMarginColor"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ivMargin"
+        android:layout_toEndOf="@+id/ivMargin">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="397 Nombre: VIPPEADOR : 11/03/16(vie)20:18:31"
+            android:id="@+id/lv_txtPoster"
+            android:textSize="10sp"
+            android:layout_below="@+id/lv_txtTitle"
+            android:layout_toRightOf="@+id/ivThumb"
+            android:layout_toEndOf="@+id/ivThumb"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Cuerpo del post"
+            android:id="@+id/lv_txtBody"
+            android:layout_below="@+id/lv_txtFileInfo"
+            android:layout_toRightOf="@+id/ivThumb"
+            android:layout_toEndOf="@+id/ivThumb"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Titulo"
+            android:id="@+id/lv_txtTitle"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/ivThumb"
+            android:layout_toEndOf="@+id/ivThumb"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="3dp" />/>
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/ivThumb"
+            android:src="@drawable/blank"
+            android:layout_alignParentTop="true"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="123 Respuestas, 123 Imágenes"
+            android:id="@+id/lv_txtReplyCounter"
+            android:layout_below="@+id/lv_txtBody"
+            android:layout_toRightOf="@+id/ivThumb"
+            android:layout_toEndOf="@+id/ivThumb"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="3dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/lv_txtFileInfo"
+            android:textSize="10sp"
+            android:layout_below="@+id/lv_txtPoster"
+            android:layout_toRightOf="@+id/ivThumb"
+            android:layout_toEndOf="@+id/ivThumb"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp" />
+    </RelativeLayout>
+
+</LinearLayout>

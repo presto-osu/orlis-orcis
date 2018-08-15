@@ -1,0 +1,110 @@
+# view AndroidManifest.xml #generated:59
+-keep class com.ds.avare.AirportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.ds.avare.ChartsDownloadActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:68
+-keep class com.ds.avare.ChecklistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.ds.avare.IHelperService { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class com.ds.avare.LocationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.ds.avare.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.ds.avare.MessageActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:63
+-keep class com.ds.avare.NearestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.ds.avare.PlanActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.ds.avare.PlatesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.ds.avare.PlatesTagActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.ds.avare.PrefActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.ds.avare.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.ds.avare.SatelliteActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class com.ds.avare.SearchActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:47
+-keep class com.ds.avare.StorageService { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.ds.avare.SubmitActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:69
+-keep class com.ds.avare.TripActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.ds.avare.WeatherActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.ds.avare.WebActivity { <init>(...); }
+
+# view res/layout/location.xml #generated:117
+# view res/layout/location.xml #generated:129
+# view res/layout/location.xml #generated:141
+# view res/layout/location.xml #generated:172
+# view res/layout/plates.xml #generated:73
+-keep class com.ds.avare.animation.TwoButton { <init>(...); }
+
+# view res/xml/preferences.xml #generated:21
+# view res/xml/preferences.xml #generated:39
+-keep class com.ds.avare.utils.FolderPreference { <init>(...); }
+
+# view res/xml/preferences.xml #generated:112
+# view res/xml/preferences.xml #generated:143
+# view res/xml/preferences.xml #generated:150
+# view res/xml/preferences.xml #generated:157
+# view res/xml/preferences.xml #generated:184
+# view res/xml/preferences.xml #generated:246
+# view res/xml/preferences.xml #generated:25
+# view res/xml/preferences.xml #generated:258
+# view res/xml/preferences.xml #generated:32
+# view res/xml/preferences.xml #generated:327
+# view res/xml/preferences.xml #generated:63
+# view res/xml/preferences.xml #generated:75
+# view res/xml/preferences.xml #generated:87
+-keep class com.ds.avare.utils.ListPreferenceWithSummary { <init>(...); }
+
+# view res/xml/preferences.xml #generated:104
+-keep class com.ds.avare.utils.RegisterActivityPreference { <init>(...); }
+
+# view res/layout/location.xml #generated:24
+-keep class com.ds.avare.utils.VerticalSeekBar { <init>(...); }
+
+# view res/layout/airport.xml #generated:22
+-keep class com.ds.avare.views.AfdView { <init>(...); }
+
+# view res/layout/location.xml #generated:18
+-keep class com.ds.avare.views.LocationView { <init>(...); }
+
+# view res/layout/satellite.xml #generated:70
+-keep class com.ds.avare.views.MemView { <init>(...); }
+
+# view res/layout/platestag.xml #generated:17
+-keep class com.ds.avare.views.PlatesTagView { <init>(...); }
+
+# view res/layout/plates.xml #generated:27
+-keep class com.ds.avare.views.PlatesView { <init>(...); }
+
+# view res/layout/satellite.xml #generated:90
+-keep class com.ds.avare.views.SatelliteView { <init>(...); }
+

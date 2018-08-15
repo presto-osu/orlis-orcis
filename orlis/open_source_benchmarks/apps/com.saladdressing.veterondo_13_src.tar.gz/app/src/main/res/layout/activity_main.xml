@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="16dp"
+    >
+
+    <GridView
+        android:soundEffectsEnabled="false"
+        android:id="@+id/dot_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="center"
+        android:horizontalSpacing="32dp"
+        android:numColumns="6"
+        android:verticalSpacing="32dp" />
+
+    <TextView
+        android:id="@+id/weather_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dot_grid"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_below="@id/weather_desc"
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+
+
+        />
+
+
+    <TextView
+
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:background="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:text="veterondo::::::::"
+        android:textColor="#ffffff"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/location"
+        android:id="@+id/circle"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_centerInParent="true"
+        android:scaleX="1.0"
+        android:scaleY="1.0"
+        android:src="@drawable/circle" />
+
+    <TextView
+        android:textSize="24sp"
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/location"
+        android:layout_marginTop="36dp"
+        android:text=""
+        android:textColor="#000000"
+
+        />
+
+    <ImageView
+        android:id="@+id/wraps"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/circle_yellow"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_083bd37bd033b58c2455fd818dc98574e4088194.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.0.0_02d1c6fd7a866ff77e724c024d99594d187404fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0_a41e0d97b8f534aab7e5c96214f0c2a040877683.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_2ec8495b74e43884412d1caf6476cd3d50197c1e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0_e9ce8c928a088e5c28039178c3004e9f5cc05cd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.9.1/3dc0a3bea4f876c54846cd050e688f1bfc78fc96/jsoup-1.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3dc0a3bea4f876c54846cd050e688f1bfc78fc96">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/pre-dexed/debug/jsoup-1.9.1_baeee31dd35a618695878efc92782e08788bca29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_edf62ce361a7e3be9d9de4e7e69194170a577dcc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.0.0_c963583135243937cfa7cf0c543cfa24eeeffd43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/org.xposeddownloader_11_src.tar.gz/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_35eafefa7f3b30e0eb521e27855a51340a5c0516.jar" />
+    </item>
+
+</items>

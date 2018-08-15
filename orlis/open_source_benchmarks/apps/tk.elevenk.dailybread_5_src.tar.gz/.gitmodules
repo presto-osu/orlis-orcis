@@ -1,0 +1,3 @@
+[submodule "OpenLibraryAPI"]
+	path = OpenLibraryAPI
+	url = https://github.com/jpkrause/OpenLibraryAPI.git

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string-array name="fullchangelog">
+        <item>@array/v26</item>
+        <item>@array/v25</item>
+        <item>@array/v24</item>
+        <item>@array/v23</item>
+        <item>@array/v22</item>
+        <item>@array/v21</item>
+        <item>@array/v2</item>
+    </string-array>
+
+    <string-array name="v26">
+        <item>V2.0.6</item>
+        <item>@string/v26_line1</item>
+        <item>@string/v26_line2</item>
+    </string-array>
+
+    <string-array name="v25">
+        <item>V2.0.5</item>
+        <item>@string/v25_line1</item>
+        <item>@string/v25_line2</item>
+        <item>@string/v25_line3</item>
+    </string-array>
+
+    <string-array name="v24">
+        <item>V2.0.4</item>
+        <item>@string/v24_line1</item>
+        <item>@string/v24_line2</item>
+        <item>@string/v24_line3</item>
+        <item>@string/v24_line4</item>
+    </string-array>
+
+    <string-array name="v23">
+        <item>V2.0.3</item>
+        <item>@string/v23_line1</item>
+        <item>@string/v23_line2</item>
+        <item>@string/v23_line3</item>
+    </string-array>
+
+    <string-array name="v22">
+        <item>V2.0.2</item>
+        <item>@string/v22_line1</item>
+        <item>@string/v22_line2</item>
+        <item>@string/v22_line3</item>
+    </string-array>
+
+    <string-array name="v21">
+        <item>V2.0.1</item>
+        <item>@string/v21_line1</item>
+        <item>@string/v21_line2</item>
+    </string-array>
+
+    <string-array name="v2">
+        <item>V2.0</item>
+        <item>@string/v2_line1</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/empty"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipeRefreshLayout">
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/baseline_grid_unit"
+            android:clipToPadding="false"
+            android:verticalSpacing="@dimen/baseline_grid_unit"
+            android:horizontalSpacing="@dimen/baseline_grid_unit"
+            android:columnWidth="@dimen/grid_item_width"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:drawSelectorOnTop="true"
+            android:listSelector="@drawable/item_selector"
+            android:fastScrollEnabled="true"
+            android:id="@+id/gridView" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</FrameLayout>

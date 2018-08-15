@@ -1,0 +1,22 @@
+#http://docs.travis-ci.com/user/languages/android/
+language: android
+
+sudo: false
+jdk: oraclejdk8
+android:
+  components:
+      - tools
+      - platform-tools
+      - build-tools-23.0.2
+      - android-23
+      - extra-android-support
+      - extra-android-m2repository
+
+script:
+    - cp app/key.properties.example app/key.properties
+    - cp app/key.properties.example app/debugkey.properties
+    - keytool -genkey -v -keystore app/debug.keystore -alias AndroidDebugKey -keyalg RSA -keysize 2048 -validity 1 -storepass android -keypass android -dname "cn=TEST, ou=TEST, o=TEST, c=TE"
+    - ./gradlew clean assemble
+
+
+# reference https://docs.travis-ci.com/user/languages/android

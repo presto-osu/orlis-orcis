@@ -1,0 +1,10 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'junit:junit:4.11'
+    compile fileTree(
+            include: ['android.jar', 'uiautomator.jar'],
+            dir: android.getSdkDirectory().getAbsolutePath() + '/platforms/android-21'
+    )
+}

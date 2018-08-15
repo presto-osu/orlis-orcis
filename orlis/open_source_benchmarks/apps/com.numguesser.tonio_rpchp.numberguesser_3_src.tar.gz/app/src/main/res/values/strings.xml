@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Number Guesser</string>
+    <string name="welcome"><b>Hello Friend!</b>\nI think of a number between 0 and 100\nCan you guess the number in 5 attempts?\n</string>
+    <string name="action_settings">Settings</string>
+    <string name="guess">Guess</string>
+    <string name="ask">Insert a number</string>
+    
+    <string name="more">Is Greater-than</string>
+    <string name="less">Is Less-than</string>
+
+    <string name="win">OK, You Win</string>
+    <string name="lose">You lose, the number was: </string>
+
+    <string name="new_game">New Game</string>
+
+    <string name="error">Try a valid number</string>
+
+    <string name="end_game">Game End</string>
+    <string name="play_again">Play Again?</string>
+
+    <string name="ok">Play</string>
+    <string name="exit">Exit</string>
+
+    <string name="tries_text">Tries: </string>
+
+    <string name="in_range">Outside range: Insert a number between 1 and 100</string>
+
+</resources>

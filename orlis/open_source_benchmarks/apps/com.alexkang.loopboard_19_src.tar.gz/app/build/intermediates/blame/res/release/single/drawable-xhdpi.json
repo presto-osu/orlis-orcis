@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_action_stop.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/src/main/res/drawable-xhdpi/ic_action_stop.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_action_discard.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/src/main/res/drawable-xhdpi/ic_action_discard.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_launcher.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    }
+]

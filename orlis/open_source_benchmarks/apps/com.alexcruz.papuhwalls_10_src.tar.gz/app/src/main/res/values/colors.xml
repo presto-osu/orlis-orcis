@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#c03d34</color>
+    <color name="primary_dark">#c03d34</color>
+    <color name="primary_pressed">#039be5</color>
+    <color name="accent">#2a88bf</color>
+    <color name="accent_lighter">#F06292</color>
+    <color name="accent_pressed">#C2185B</color>
+    <color name="accent_secondary">@color/accent</color>
+    <color name="secondary">#c03c38</color>
+    <color name="secondary_pressed">#c03c38</color>
+    <color name="navigation_drawer_color">#1c1c1c</color>
+    <color name="selector_drawer_color">#171717</color>
+    <color name="statusbar_color">#af3029</color>
+    <color name="cardsbg">#04000000</color>
+    <color name="cardstext">#a93531</color>
+    <color name="dialogcontent">#8d8d8d</color>
+    <color name="semitransparent_black">#80000000</color>
+    <color name="dark_grey">#8d8d8d</color>
+    <color name="red">#E53935</color>
+    <color name="green">#43A047</color>
+    <color name="white">#ffffff</color>
+    <color name="divider_grey">#d4d4d4</color>
+    <color name="black_semi_transparent">#Cc000000</color>
+    <color name="ripple_accent">#b3e91e63</color>
+    <color name="edit_color">#62ab27</color>
+    <color name="share_color">#8148c2</color>
+    <color name="crop_color">#44B3C2</color>
+    <color name="save_color">#F1A94E</color>
+    <color name="add_lw_color">#E91E63</color>
+    <color name="apply_color">#E45641</color>
+    <color name="credits_text">#a93531</color>
+    <color name="md_background_color">#151515</color>
+    <color name="md_title_color">#ffffff</color>
+    <color name="md_content_color">#a93531</color>
+    <color name="md_positive_color">#ffffff</color>
+    <color name="md_neutral_color">#ffffff</color>
+    <color name="md_negative_color">#ffffff</color>
+    <color name="window_bg">@color/primary_dark</color>
+    <color name="drawer_name_color">#FFFFFFFF</color>
+    <color name="material_drawer_background">#1a1a1a</color>
+    <color name="material_drawer_primary_text">#fcfcfc</color>
+    <color name="material_drawer_secondary_text">#ffffff</color>
+    <color name="material_drawer_hint_text">#42000000</color>
+    <color name="material_drawer_divider">#05ffffff</color>
+    <color name="material_drawer_header_selection_text">#FFF</color>
+    <color name="material_drawer_primary_icon">#FFFFFF</color>
+    <color name="material_drawer_selected">#181818</color>
+    <color name="first_slide">#2a87bd</color>
+    <color name="second_slide">#C03C38</color>
+    <color name="third_slide">#5238c0</color>
+    <color name="fourth_slide">#42c038</color>
+    <color name="last_slide">#3851c0</color>
+    <color name="semitransparent_white">#80ffffff</color>
+    <color name="settings_title">#939393</color>
+    <color name="settings_summary">#6d6d6d</color>
+    <color name="material_drawer_primary_icon_light">#8A000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="bright_foreground_material_dark">@color/white</color>
+    <color name="background_floating_material_dark">#cc000000</color>
+    <color name="background_material_dark">#80000000</color>
+
+    <!-- Shadow color for the first pixels around CardView. -->
+    <color name="cardview_shadow_start_color">#27000000</color>
+    <!-- Shadow color for the furthest pixels around CardView. -->
+    <color name="cardview_shadow_end_color">#03000000</color>
+
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_all_contacts">Всички номера</string>
+    <string name="assign_to_contact">Да се зададе на номер</string>
+    <string name="auto_mode">Автоматичен режим</string>
+    <string name="dialog_msg_missing">
+        Различните версии на Android и някои приложения съхраняват по различен начин
+        снимките на контактите.
+        Има малка вероятност изображения на контакти да бъдат загубени или презаписани
+    </string>
+    <string name="backup">Създаване на резервно копие</string>
+    <string name="backup_not_activated">
+        Отидете в настройките, за да направите резервно копие
+    </string>
+    <string name="dialog_msg_all_contacts">Моля потвърдете презаписването на всички изображения на контакти.
+    </string>
+    <string name="deep_search">Deep Search</string>
+    <string name="settings">Настройки</string>
+    <string name="enable_backup">
+        Включване на резервно копие на текущи снимки на контакти преди заменянето им.
+    </string>
+    <string name="enable_deep_search">
+        Ако имате проблем с намиране на някой контакт, включете Deep Search.
+    </string>
+    <string name="error_assign">
+        Възникна грешка при задаването на това изображение на контакта.
+    </string>
+    <string name="error_saving">
+        Възникна грешка при запаметяването на изображението като файл на телефон Ви.
+        Моля уверете се че паметта Ви не е заключена.
+    </string>
+    <string name="first_name">Собствено име</string>
+    <string name="first_three">Първите три имена</string>
+    <string name="generated_image">Получена картинка за номер</string>
+    <string name="got_new_picture">%1$s има нова картинка</string>
+    <string name="initials_circle">Кръгче с инициали</string>
+    <string name="missing_pictures">Липсващи картинки</string>
+    <string name="next_image">Следващо изображение</string>
+    <string name="none">Нито един</string>
+    <string name="overwrite_all_or_only">
+        Всички снимки ли искате да замените, или да се генерират нови само за тези без снимка?
+        \nПромените, направени от Micopi, не могат да бъдат отстранени.
+        Препоръчително е за всеки случай да си направите резервно
+        копие на текущите снимки на номерата Ви.
+    </string>
+    <string name="dialog_title_please_note">Моля имайте предвид</string>
+    <string name="pick_contact">Избиране на единичен номер</string>
+    <string name="picture_will_be_previewed">
+        След избирането на номер,
+        генерираната снимка ще може да бъде разгледана преди задаването ѝ.
+    </string>
+    <string name="pixel_matrix">Пикселова матрица</string>
+    <string name="previous_image">Предишно изображение</string>
+    <string name="save_image_file">Запазване на изображението като файл</string>
+    <string name="saved_picture_as">Изображението е запаметено като %1$s.</string>
+    <string name="shrinking_plates">Свиващи се плочи</string>
+    <string name="store_images">
+        Това ще запамети изображенията от списъка Ви с номера в медийната директория
+        на Micopi на телефона Ви.
+        Имайте предвид че това е все още експериментална функция.
+        Препоръчително е да направите резервните Ви копия и по някакъв друг начин.
+    Също така молим да имате предвид факта, че колкото повече снимки
+        с включена опция за резервно копие генерирате, толкова повече памет Micopi ще заема.
+    </string>
+    <string name="structured_discs">Структурирани дискове</string>
+    <string name="styles">Стилове</string>
+    <string name="want_to_assign">Искате ли да задедете това изображение на %1$s?</string>
+
+    <!-- Welcome -->
+    <string name="button_reset_images">Нулиране на изображения</string>
+    <string name="button_buy_full">Buy the full version</string>
+
+    <!-- Upgrade Teaser -->
+    <string name="upgrade_teaser_1">Искате ли резервни копия?</string>
+    <string name="upgrade_teaser_2">Искате ли настройки на стила?</string>
+    <string name="upgrade_teaser_3">Искате ли да получавате нови функции по-рано?</string>
+    <string name="upgrade_teaser_4">Искате ли да получавате обновления по-бързо?</string>
+    <string name="upgrade_teaser_5">Искате ли да махнете рекламите?</string>
+
+    <!-- Batch Mode -->
+    <string name="button_redo_micopi">Сменяне на сегашните Micopi картинки</string>
+
+    <!-- Batch Mode - Dialogs -->
+    <string name="dialog_msg_redo_micopi">
+        Този режим може да открива само изображения, създадени от текущата версия на Micopi.
+        По-стари снимки няма за бъдат заменяни.
+    </string>
+
+    <!-- Image Reset -->
+    <string name="msg_reset">
+        Желаете ли да нулирате една снимка, или всички снимки наведнъж?
+    </string>
+    <string name="dialog_msg_reset_all_contacts">
+        Моля потвърдете нулирането на ВСИЧКИ снимки на контакти.
+    </string>
+    <string name="dialog_check_delete">
+        Изтрий снимки които нямат резервно копие!
+    </string>
+
+    <!-- Settings - Backup -->
+    <string name="button_delete_backup">
+        Изтриване на папката за резервни копия
+    </string>
+    <string name="dialog_msg_delete_backup">
+        Моля потвърдете изтриването на всички резервни копия, правени от Micopi.
+    </string>
+
+</resources>

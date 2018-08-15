@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.github.redpanal.android.MainActivity">
+
+    <item
+        android:id="@+id/recargar"
+        android:icon="@drawable/ic_sync_white_24dp"
+        android:title="@string/recargar"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/salir"
+        android:icon="@drawable/ic_exit_to_app_white_24dp"
+        android:title="@string/salir"
+        android:orderInCategory="105"
+        app:showAsAction="ifRoom" />
+
+</menu>

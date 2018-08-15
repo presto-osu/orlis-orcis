@@ -1,0 +1,7 @@
+FancyPlaces is an open source project by Matthias Gabriel that is licensed under GPLv3. The source code is available on <a href="https://github.com/gabm/FancyPlaces">GitHub</a>. It comes without any warranty.
+<br><br>
+FancyPlaces wouldn't be possible without the following libraries that are used:<br>
+<b>osmdroid:</b> <a href="https://github.com/osmdroid/osmdroid">GitHub</a> (Apache License)<br>
+<b>MapQuest:</b> Tile services of <a href="http://www.mapquest.com">MapQuest</a> (ODbL)<br>
+<b>FloatingActionButton:</b> <a href="https://github.com/makovkastar/FloatingActionButton">GitHub</a> (MIT)<br>
+<b>Google Material Icons:</b> <a href="https://github.com/google/material-design-icons">GitHub</a> (CC-BY 4.0)

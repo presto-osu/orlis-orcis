@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">清心天气</string>
+
+    <string name="action_add">添加</string>
+    <string name="action_settings">设置</string>
+    <string name="action_remove">删除</string>
+    <string name="action_refresh">刷新</string>
+
+    <string name="day_today">今天</string>
+    <string name="day_tomorrow">明天</string>
+    <string name="day_day_after_tomorrow">后天</string>
+    <string name="day_monday">星期一</string>
+    <string name="day_tuesday">星期二</string>
+    <string name="day_wednesday">星期三</string>
+    <string name="day_thursday">星期四</string>
+    <string name="day_friday">星期五</string>
+    <string name="day_saturday">星期六</string>
+    <string name="day_sunday">星期日</string>
+
+    <string name="detail_title_day">← 日间</string>
+    <string name="detail_title_humidity">湿度 →</string>
+    <string name="detail_title_night">← 夜间</string>
+    <string name="detail_title_rain_probability">降雨概率 →</string>
+    <string name="detail_title_temperature_left">← 温度</string>
+    <string name="detail_title_temperature_right">温度 →</string>
+    <string name="detail_title_visibility">能见度 →</string>
+    <string name="detail_title_weather">← 天气</string>
+
+    <string name="degree_unit">˚</string>
+
+    <string name="add_county_hint">请输入你想要添加的城市:</string>
+    <string name="add_county">添加</string>
+    <string name="loading_county_list">正在加载城市列表……</string>
+    <string name="load_failed">加载失败</string>
+    <string name="load_county_list_failed_msg">加载城市列表失败, 请稍后再试……</string>
+    <string name="i_know">知道了</string>
+    <string name="dont_modify_selected_county">在下拉选单中选中了城市(区县)之后请直接点击添加, 而不要修改文本.</string>
+    <string name="remove_county">删除</string>
+    <string name="remove_county_msg">确定删除「%s」?</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="empty_now_temperature">--</string>
+    <string name="format_update_time">最后更新于 %s</string>
+</resources>

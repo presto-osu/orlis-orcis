@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general_settings">
+        <CheckBoxPreference
+            android:key="auto_update"
+            android:title="@string/pref_auto_download"
+            android:defaultValue="true"/>
+        <EditTextPreference
+            android:key="schedule_url"
+            android:title="@string/schedule_url"
+            android:hint="https://yourhost/schedule.xml"
+            android:inputType="textUri"
+            />
+        <CheckBoxPreference
+            android:key="alternative_highlight"
+            android:title="@string/alternative_highlight"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/reminders">
+        <RingtonePreference
+            android:title="@string/reminder_ringtone"
+            android:key="reminder_tone"
+            android:ringtoneType="notification|alarm"
+            android:showDefault="true"
+            android:showSilent="true"/>
+        <CheckBoxPreference
+            android:title="@string/insistent_alarm"
+            android:key="insistent"/>
+        <ListPreference
+            android:key="default_alarm_time"
+            android:title="@string/default_alarm_time_dialog_title"
+            android:dialogTitle="@string/default_alarm_time_title"
+            android:entries="@array/alarm_time_titles"
+            android:entryValues="@array/alarm_time_values"
+            android:defaultValue="@string/default_alarm_time_value" />
+    </PreferenceCategory>
+</PreferenceScreen>

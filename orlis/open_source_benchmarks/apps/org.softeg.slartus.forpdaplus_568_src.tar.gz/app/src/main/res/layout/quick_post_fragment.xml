@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        style="?post_panel"
+        android:clickable="true">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/post_text"
+            android:minHeight="48dp"
+            android:background="@android:color/transparent"
+            android:hint="Сообщение"
+            android:inputType="textCapSentences|textMultiLine"
+            android:minLines="1"
+            android:singleLine="false"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="8dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="56dp"
+            android:maxLines="5" />
+
+        <ImageButton
+            android:layout_width="56dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/send"
+            android:id="@+id/send_button"
+            android:layout_gravity="right|bottom" />
+
+        <ImageButton
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:srcCompat="@drawable/plus"
+            android:id="@+id/advanced_button"
+            android:layout_gravity="left|bottom" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/footer_for_emoticons"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/keyboard_height"
+        android:background="?android:colorBackground"
+        android:orientation="vertical"
+        android:visibility="gone" />
+</LinearLayout>

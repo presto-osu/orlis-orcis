@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Talalarmo</string>
+    <string name="leave_feedback">Leave feedback</string>
+    <string name="settings">Settings</string>
+    <string name="settings_ringtone_option">Ringtone</string>
+    <string name="settings_snap_option">Snap to 5 min</string>
+    <string name="settings_theme_option">Theme</string>
+    <string name="settings_vibration_option">Vibrate</string>
+    <string name="settings_volume_increase_option">Fade-in sound</string>
+    <string name="tv_start_alarm_text">Tap here\nto set alarm</string>
+
+    <string name="hour">1 hour</string>
+    <string name="hours">%s hours</string>
+    <string name="minute">1 minute</string>
+    <string name="minutes">%s minutes</string>
+
+    <string-array name="alarm_set">
+        <item>This alarm is set for less than 1 minute from now</item>
+        <item>This alarm is set for %1$s from now</item>
+        <item>This alarm is set for %2$s from now</item>
+        <item>This alarm is set for %1$s and %2$s from now</item>
+    </string-array>
+    <string-array name="settings_themes">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="settings_themes_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

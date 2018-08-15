@@ -1,0 +1,18 @@
+<resources>
+    <string name="Title.Activity.Settings">Settings</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="PrefHeader.General">General</string>
+    <string name="Pref.Title.IsDark">Dark Theme?</string>
+    <string name="Pref.Desc.IsDark">You will need to restart the app to apply this.</string>
+
+    <string name="PrefHeader.Servers">Servers</string>
+    <string name="ServersFragment.AddServer">Add Server</string>
+    <string name="ServersFragment.Exists">Already have server</string>
+    <string name="ServersFragment.Exists.Msg">Please enter a url that you don\'t have yet.</string>
+    <string-array name="UrlPrefixes">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+</resources>

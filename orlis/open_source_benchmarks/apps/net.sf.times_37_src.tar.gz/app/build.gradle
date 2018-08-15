@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+    buildToolsVersion '23.0.1'
+
+    defaultConfig {
+        applicationId "net.sf.times"
+        minSdkVersion Integer.parseInt(project.ANDROID_BUILD_MIN_SDK_VERSION)
+        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+        versionCode 37
+        versionName "6.0"
+
+        buildConfigField "String", "BING_API_KEY", '"' + project.BING_API_KEY + '"'
+        buildConfigField "String", "GEONAMES_USERNAME", '"' + project.GEONAMES_USERNAME + '"'
+
+        testApplicationId "net.sf.times.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+
+
+    buildTypes {
+
+        debug {
+            debuggable true
+            applicationIdSuffix ".debug"
+        }
+
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':KosherJava')
+}
+

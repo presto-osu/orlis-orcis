@@ -1,0 +1,26 @@
+# Android Studio
+.idea/
+/.idea
+build/
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+/Domodroid/src/main/gen/org/domogik/domodroid13/BuildConfig.java
+/Domodroid/src/main/gen/org/domogik/domodroid13/Manifest.java
+/Domodroid/src/main/gen/org/domogik/domodroid13/R.java
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+/Domodroid/src/main/gen
+
+# Windows thumbnail db
+Thumbs.db
+
+/captures
+# Additionnal files
+gradlew
+#gradlew.bat
+local.properties

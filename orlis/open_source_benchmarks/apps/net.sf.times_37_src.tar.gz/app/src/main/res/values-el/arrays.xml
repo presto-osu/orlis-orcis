@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="reminder_entries">
+        <item>@string/off</item>
+        <item>Έγκαιρα</item>
+        <item>1 λεπτό πριν</item>
+        <item>5 λεπτά πριν</item>
+        <item>10 λεπτά πριν</item>
+        <item>15 λεπτά πριν</item>
+        <item>20 λεπτά πριν</item>
+        <item>25 λεπτά πριν</item>
+        <item>30 λεπτά πριν</item>
+        <item>45 λεπτά πριν</item>
+        <item>1 ώρα πριν</item>
+    </string-array>
+    <string-array name="hebrew_months">
+        <item>Νισάν</item>
+        <item>Ιάρ</item>
+        <item>Σιβάν</item>
+        <item>Ταμούζ</item>
+        <item>Αβ</item>
+        <item>Ελούλ</item>
+        <item>Τισσρί</item>
+        <item>Χεσσβάν</item>
+        <item>Κισλεβ</item>
+        <item>Τεβέτ</item>
+        <item>Σσεβάτ</item>
+        <item>Αδάρ</item>
+        <item>Αδάρ II</item>
+        <item>Αδάρ I</item>
+    </string-array>
+
+</resources>

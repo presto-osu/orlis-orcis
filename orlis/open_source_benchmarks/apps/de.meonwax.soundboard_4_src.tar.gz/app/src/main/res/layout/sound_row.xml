@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/sound_play"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:drawableStart="@drawable/ic_play_arrow_24dp"
+        android:drawableLeft="@drawable/ic_play_arrow_24dp"
+        android:singleLine="true" />
+
+    <ImageButton
+        android:id="@+id/sound_delete"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/ic_delete_24dp" />
+
+</LinearLayout>

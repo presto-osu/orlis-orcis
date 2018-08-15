@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="choices">
+        <item>Don\'t show again</item>
+    </string-array>
+
+</resources>

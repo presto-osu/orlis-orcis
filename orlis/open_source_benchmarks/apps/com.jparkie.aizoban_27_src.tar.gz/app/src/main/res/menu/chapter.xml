@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_select_page"
+        android:title="@string/action_select_page"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_direction"
+        android:title="@string/action_right_to_left"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_orientation"
+        android:title="@string/action_lock_orientation"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_zoom"
+        android:title="@string/action_lock_zoom"
+        android:orderInCategory="5"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_help"
+        android:title="@string/action_help"
+        android:orderInCategory="6"
+        app:showAsAction="never" />
+
+</menu>

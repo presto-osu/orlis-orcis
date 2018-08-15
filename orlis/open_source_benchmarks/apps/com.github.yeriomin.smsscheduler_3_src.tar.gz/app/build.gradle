@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.github.yeriomin.smsscheduler"
+        minSdkVersion 8
+        targetSdkVersion 23
+        versionCode 3
+        versionName "0.3"
+    }
+
+    lintOptions {
+        disable 'GoogleAppIndexingWarning','GoogleAppIndexingApiWarning'
+    }
+
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

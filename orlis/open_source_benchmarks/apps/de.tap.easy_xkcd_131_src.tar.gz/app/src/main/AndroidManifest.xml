@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2015, Tom Praschan
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~ http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tap.xkcd_reader"
+    android:installLocation="auto" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_easy_xkcd_def"
+        android:label="@string/app_name"
+        android:theme="@style/LimeTheme"
+        tools:replace="android:theme, android:label" >
+        <activity
+            android:name="de.tap.easy_xkcd.Activities.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="de.tap.easy_xkcd.ACTION_COMIC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="de.tap.easy_xkcd.ACTION_WHAT_IF" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.xkcd.com"
+                    android:scheme="http" />
+                <data
+                    android:host="xkcd.com"
+                    android:scheme="http" />
+                <data
+                    android:host="xkcd.com"
+                    android:scheme="https" />
+                <data
+                    android:host="xkcd.com"
+                    android:scheme="https" />
+                <data
+                    android:host="m.xkcd.com"
+                    android:scheme="http" />
+                <data
+                    android:host="m.xkcd.com"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="what-if.xkcd.com"
+                    android:scheme="http" />
+                <data
+                    android:host="what-if.xkcd.com"
+                    android:scheme="https" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".Activities.SearchResultsActivity" />
+            <meta-data
+                android:name="de.tap.easy_xkcd.misc.GlideConfiguration"
+                android:value="GlideModule" />
+        </activity>
+        <activity
+            android:name="de.tap.easy_xkcd.Activities.SettingsActivity"
+            android:label="@string/pref_title"
+            android:launchMode="singleTop"
+            android:parentActivityName="de.tap.easy_xkcd.Activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.tap.easy_xkcd.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.tap.easy_xkcd.Activities.NestedSettingsActivity"
+            android:label="@string/pref_title"
+            android:launchMode="singleTop"
+            android:parentActivityName="de.tap.easy_xkcd.Activities.SettingsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.tap.easy_xkcd.Activities.SettingsActivity" />
+        </activity>
+        <activity
+            android:name="de.tap.easy_xkcd.Activities.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="de.tap.easy_xkcd.Activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.tap.easy_xkcd.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.tap.easy_xkcd.Activities.SearchResultsActivity"
+            android:label="@string/title_activity_search_results"
+            android:launchMode="singleTop"
+            android:parentActivityName="de.tap.easy_xkcd.Activities.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.tap.easy_xkcd.Activities.MainActivity" />
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <service android:name="de.tap.easy_xkcd.notifications.ComicNotifier" />
+
+        <receiver android:name="com.commonsware.cwac.wakeful.AlarmReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.commonsware.cwac.wakeful"
+                android:resource="@xml/wakeful" />
+        </receiver>
+        <receiver
+            android:name="de.tap.easy_xkcd.notifications.ConnectivityReceiver"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="de.tap.easy_xkcd.Activities.WhatIfActivity"
+            android:label="@string/title_activity_what_if"
+            android:launchMode="singleTop"
+            android:parentActivityName="de.tap.easy_xkcd.Activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.tap.easy_xkcd.Activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.tap.easy_xkcd.Activities.DonateActivity"
+            android:label="@string/title_activity_donate"
+            android:launchMode="singleInstance"
+            android:parentActivityName="de.tap.easy_xkcd.Activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.tap.easy_xkcd.Activities.MainActivity" />
+        </activity>
+        <activity android:name="de.tap.easy_xkcd.Activities.CustomFilePickerActivity" />
+
+        <service android:name="de.tap.easy_xkcd.services.ComicDownloadService" />
+        <service android:name="de.tap.easy_xkcd.services.ArticleDownloadService" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="de.tap.easy_xkcd.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+        <receiver android:name="de.tap.easy_xkcd.widget.WidgetRandomProvider"
+            android:label="@string/widget_random">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/widget_random_info" />
+        </receiver>
+
+        <receiver android:name="de.tap.easy_xkcd.widget.WidgetLatestProvider"
+            android:label="@string/widget_latest">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider"
+                android:resource="@xml/widget_latest_info" />
+        </receiver>
+
+    </application>
+
+</manifest>

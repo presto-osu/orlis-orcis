@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0_1151894e7a1d104062e12a476785b31a63a05060.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-20.0.0_509b9cf35b9d14c191ddb032ec905eb720df8274.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0_c142e3019049ca0c5023fbea98ecad4d0b1b5ef9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="22.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-20.0.0_0353c46686d410f7dbbccec8eb0aaf05df62aba5.jar" />
+    </item>
+
+</items>

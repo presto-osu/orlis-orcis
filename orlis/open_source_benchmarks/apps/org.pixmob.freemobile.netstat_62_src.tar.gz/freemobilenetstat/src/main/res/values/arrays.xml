@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="notif_action_titles">
+        <item>@string/notif_action_statistics</item>
+        <item>@string/notif_action_network_operator_settings</item>
+    </string-array>
+    <string-array name="notif_action_values">
+        <item>statistics</item>
+        <item>network_operator_settings</item>
+    </string-array>
+    <string-array name="theme_titles">
+        <item>@string/theme_default</item>
+        <item>@string/theme_color</item>
+        <item>@string/theme_pie</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>default</item>
+        <item>color</item>
+        <item>pie</item>
+    </string-array>
+    
+    <string-array name="lollipop_theme_titles">
+        <item>@string/theme_default</item>
+        <item>@string/theme_pie</item>
+    </string-array>
+    <string-array name="lollipop_theme_values">
+        <item>default</item>
+        <item>pie</item>
+    </string-array>
+
+</resources>

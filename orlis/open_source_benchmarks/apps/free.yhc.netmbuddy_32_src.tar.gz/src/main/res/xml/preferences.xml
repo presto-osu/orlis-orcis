@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/pref_cat_tuning">
+        <ListPreference
+            android:title="@string/pref_mem_consumption"
+            android:summary="@string/pref_mem_consumption_desc"
+            android:key="@string/csmem_consumption"
+            android:defaultValue="@string/csNORMAL"
+            android:entries="@array/pref_3level_entry"
+            android:entryValues="@array/pref_3level_value"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_operation">
+        <CheckBoxPreference
+            android:title="@string/pref_shuffle"
+            android:summary="@string/pref_shuffle_desc"
+            android:key="@string/csshuffle"
+            android:defaultValue="false"
+            />
+        <CheckBoxPreference
+            android:title="@string/pref_repeat"
+            android:summary="@string/pref_repeat_desc"
+            android:key="@string/csrepeat"
+            android:defaultValue="false"
+            />
+        <ListPreference
+            android:title="@string/pref_quality"
+            android:summary="@string/pref_quality_desc"
+            android:key="@string/csquality"
+            android:defaultValue="@string/csNORMAL"
+            android:entries="@array/strarr_pref_quality_entry"
+            android:entryValues="@array/strarr_pref_quality_value"
+            />
+        <CheckBoxPreference
+            android:title="@string/pref_use_wifi_only"
+            android:summary="@string/pref_use_wifi_only_desc"
+            android:key="@string/csuse_wifi_only"
+            android:defaultValue="false"
+            />
+        <ListPreference
+            android:title="@string/pref_title_tts"
+            android:summary="@string/pref_title_tts_desc"
+            android:key="@string/cstitle_tts"
+            android:defaultValue="0x00"
+            android:entries="@array/strarr_pref_title_tts_entry"
+            android:entryValues="@array/strarr_pref_title_tts_value"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_ux">
+        <CheckBoxPreference
+            android:title="@string/pref_stop_on_back"
+            android:summary="@string/pref_stop_on_back_desc"
+            android:key="@string/csstop_on_back"
+            android:defaultValue="true"
+            />
+        <CheckBoxPreference
+            android:title="@string/pref_lockscreen"
+            android:summary="@string/pref_lockscreen_desc"
+            android:key="@string/cslockscreen"
+            android:defaultValue="false"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_algorithm">
+        <ListPreference
+            android:title="@string/pref_title_similarity_threshold"
+            android:summary="@string/pref_title_similarity_threshold_desc"
+            android:key="@string/cstitle_similarity_threshold"
+            android:defaultValue="@string/csNORMAL"
+            android:entries="@array/strarr_pref_title_similarity_threshold_entry"
+            android:entryValues="@array/strarr_pref_title_similarity_threshold_value"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cat_report">
+        <CheckBoxPreference
+            android:title="@string/pref_err_report"
+            android:summary="@string/pref_err_report_desc"
+            android:key="@string/cserr_report"
+            android:defaultValue="true"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

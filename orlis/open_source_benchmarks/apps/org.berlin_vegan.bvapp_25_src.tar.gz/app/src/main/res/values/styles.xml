@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- see: http://developer.android.com/training/material/theme.html#ColorPalette -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_primary_accent</item>
+        <item name="android:textColorLink">@color/theme_primary_secondary_text</item>
+    </style>
+
+    <style name="FabStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="borderWidth">0dp</item>
+        <item name="elevation">6dp</item>
+        <item name="pressedTranslationZ">12dp</item>
+        <item name="backgroundTint">@android:color/white</item>
+        <item name="android:tint">@color/theme_primary</item>
+        <item name="rippleColor">@color/theme_primary_light</item>
+    </style>
+
+    <style name="TransparentText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/transparent</item>
+        <!--
+        todo, transparent should be enough, but doesn't work with 23.0.1 design support lib
+        fixes: https://github.com/Berlin-Vegan/berlin-vegan-guide/issues/38
+        different behavior, API <19 == 0 -> crash, API>=19 0sp works as aspect, so we override it her
+        https://stackoverflow.com/questions/31662416/show-collapsingtoolbarlayout-title-only-when-collapsed
+        -->
+        <item name="android:textSize">0.1sp</item>
+    </style>
+</resources>

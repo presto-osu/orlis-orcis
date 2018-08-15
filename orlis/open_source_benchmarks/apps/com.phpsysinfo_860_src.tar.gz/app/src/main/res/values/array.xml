@@ -1,0 +1,35 @@
+<resources>
+
+    <string-array name="autorefresh_step_entries">
+        <item>disable</item>
+        <item>5s</item>
+        <item>10s</item>
+        <item>15s</item>
+        <item>20s</item>
+        <item>30s</item>
+        <item>45s</item>
+    </string-array>
+    <string-array name="autorefresh_step_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+    </string-array>
+
+    <string-array name="timeout_entries">
+        <item>10s</item>
+        <item>15s</item>
+        <item>30s</item>
+        <item>45s</item>
+    </string-array>
+    <string-array name="timeout_values">
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>45000</item>
+    </string-array>
+
+</resources>

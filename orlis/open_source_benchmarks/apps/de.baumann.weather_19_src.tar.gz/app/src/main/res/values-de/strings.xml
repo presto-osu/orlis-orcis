@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    // Application
+
+    <string name="app_name">Wetter</string>
+    <string name="app_permissions">Du musst der App Zugriff auf den Gerätespeicher gewähren, damit Bildschirmfotos und Downloads
+        gespeichert werden können. Danach solltest du die Anwendung komplett schließen oder das Telefon neu starten.
+        Wenn du den Zugriff verweigerst und die Funktion später doch nutzen willst, kannst du die Berechtigung
+        nachträglich erteilen. Öffne dafür: Systemeinstellungen - Apps - Wetter. Im Bereich Berechtigungen kannst
+        dann die entsprechende Einstellung vornehmen.</string>
+    <string name="app_share_screenshot">Bildschirmfoto Teilen mit:</string>
+    <string name="app_share_image">Bild Teilen mit:</string>
+    <string name="app_share_link">Link Teilen mit:</string>
+
+
+    // Tab - Titles
+
+    <string name="title_overview">Übersicht</string>
+    <string name="title_hourly">Stündlich</string>
+    <string name="title_trend">Trend</string>
+    <string name="title_weatherInfo">Wetterinfos</string>
+    <string name="title_bookmarks">Lesezeichen</string>
+
+
+    // Menu Items
+
+    <string name="menu_share">Wetterbericht teilen</string>
+    <string name="menu_share_screenshot">Bildschirmfoto teilen</string>
+    <string name="menu_share_link">Link als Text teilen</string>
+    <string name="menu_save_screenshot">Bildschirmfoto speichern</string>
+    <string name="menu_search">Suche …</string>
+    <string name="menu_settings">Einstellungen</string>
+
+
+    // Context Menu
+
+    <string name="context_saveImage">Bild speichern</string>
+    <string name="context_shareImage">Bild teilen</string>
+    <string name="context_externalBrowser">Im Browser öffnen</string>
+    <string name="context_linkCopy">Link kopieren</string>
+    <string name="context_linkCopy_toast">Link erfolgreich kopiert</string>
+    <string name="context_shareImage_toast">Bild kann nicht geteilt werden: kein URL</string>
+    <string name="context_saveImage_toast">Bild gespeichert unter:</string>
+
+
+    // Settings
+
+    <string name="pref_1">Über die Appp</string>
+    <string name="pref_2">App Einstellungen</string>
+    <string name="pref_3">Hilfe</string>
+
+    <string name="action_changelog">Änderungen</string>
+    <string name="action_changelog_summary">Was gibt es Neues …</string>
+
+    <string name="action_java">Javascript aktivieren</string>
+    <string name="action_java_summary">Manche Funktionen der Internetseiten benötigen Javascript um zu
+        funktionieren. Javascript stellt allerdings ein Sicherheitsrisiko dar.</string>
+
+    <string name="action_longPress">App verlassen</string>
+    <string name="action_longPress_summary">Lange auf die Titelleiste drücken um die App zu verlassen</string>
+
+    <string name="action_license">Lizenz</string>
+    <string name="action_license_summary">Die App ist komplett frei (Open Source) und unter der GPL3-Lizenz lizenziert.</string>
+
+    <string name="action_forecastStart">Bundesland</string>
+    <string name="action_forecastStart_summary">Von welchem Bundesland soll der Wetterbericht geladen werden?</string>
+
+    <string name="action_clearCache">Cache leeren</string>
+    <string name="action_clearCache_summary">Den Cache der Anwendung leeren. Alle offline gespeicherten Seiten werden gelöscht …</string>
+    <string name="action_clearCache_dialog">Möchtest du wirklich den Cache leeren? Alle offline gespeicherten Seiten werden gelöscht.</string>
+
+    <string name="action_start">App Start und Titelleiste-Klick</string>
+    <string name="action_start_summary">Was möchtest du sehen: Entweder den Startschirm oder den Lesezeichenfavorit?</string>
+
+    <string name="action_tabMain">Tabs: Startschirm</string>
+    <string name="action_tabMain_summary">Welcher Tab soll standardmäßig auf dem Startschirm geöffnet werden?</string>
+
+    <string name="action_tabWeather">Tabs: Wetter</string>
+    <string name="action_tabWeather_summary">Welcher Tab soll standardmäßig bei der Wettervorhersage geöffnet werden?</string>
+
+
+    // DWD = German Weather Service
+
+    <string name="dwd">Deutscher Wetterdienst</string>
+    <string name="dwd_thema">DWD - Thema des Tages</string>
+    <string name="dwd_karten">Wetterkarten</string>
+    <string name="dwd_lexikon">DWD - Wetterlexikon</string>
+    <string name="dwd_forecast">Vorhersage</string>
+    <string name="dwd_satellit">Satellitenbild</string>
+    <string name="dwd_webSearch">Web Suche</string>
+    <string name="dwd_radar">Regenradar</string>
+
+    <string name="text_des_1">Der Wetterbericht für dein bevorzugtes Bundesland.</string>
+    <string name="text_des_2">Zeigt den Regenradar (-film) von Deutschland.</string>
+    <string name="text_des_5">Jeden Tag eine neue, interressante Geschichte zum Thema Wetter.</string>
+    <string name="text_des_6">Das Wetterlexikon des Deutschen Wetterdienstes.</string>
+    <string name="text_des_3">Zeigt mehrere (Vorhersage-) Wetterkarten von Europa und der Welt.</string>
+    <string name="text_des_4">Aktuelle und vergangene Satellitenbilder der ganzen Welt.</string>
+    <string name="text_des_7">Startpage: eine sichere und auf Privatshäre bedachte Suchmaschiene.</string>
+
+
+    // Snackbar
+
+    <string name="toast_yes">OK</string>
+    <string name="toast_cancel">Abbrechen</string>
+    <string name="toast_screenshot">Bildschirmfoto gespeichert unter:</string>
+    <string name="toast_clearCache">Cache wird geleert …</string>
+    <string name="toast_cache">Keine Internetverbindung. Seite wird aus dem Cache geladen.</string>
+    <string name="toast_download">Lade herunter:</string>
+    <string name="toast_download_1">Möchtest du herunterladen:</string>
+
+
+    // Bookmarks
+
+    <string name="bookmark_remove_confirmation">Lesezeichen wird gelöscht. OK?</string>
+    <string name="bookmark_remove_cannot">Du brauchst mindestens ein Lesezeichen!</string>
+    <string name="bookmark_remove_bookmark">Lesezeichen löschen</string>
+    <string name="bookmark_added">Lesezeichen wird hinzugefügt.</string>
+    <string name="bookmark_setFav">Erfolgreich als Favorit gespeichert.</string>
+    <string name="bookmark_edit_url">URL bearbeiten</string>
+    <string name="bookmark_edit_title">Titel bearbeiten</string>
+    <string name="bookmark_edit_fav">Als Favorit speichern</string>
+
+
+    //States
+
+    <string name="state_1">für Deutschland</string>
+    <string name="state_2">für Baden-Württemberg</string>
+    <string name="state_3">für Bayern</string>
+    <string name="state_4">für Berlin und Brandenburg</string>
+    <string name="state_5">für Hessen</string>
+    <string name="state_6">für Mecklenburg-Vorpommern</string>
+    <string name="state_7">für Niedersachsen und Bremen</string>
+    <string name="state_8">für Nordrhein-Westfalen</string>
+    <string name="state_9">für Rheinland-Pfalz und Saarland</string>
+    <string name="state_10">für Sachsen</string>
+    <string name="state_11">für Sachsen-Anhalt</string>
+    <string name="state_12">für Schleswig-Holstein und Hamburg</string>
+    <string name="state_13">für Thüringen</string>
+
+</resources>

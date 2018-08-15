@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+android {
+lintOptions { abortOnError false }
+    useLibrary 'org.apache.http.legacy'
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.alexcruz.papuhwalls"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 10
+        versionName "2.0.6"
+    }
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+}
+
+repositories {
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    //Basic Libraries
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.android.support:support-v4:23.0.0'
+    compile 'com.android.support:palette-v7:23.0.0'
+//Material Dialogs Library
+    compile('com.github.afollestad.material-dialogs:core:0.8.5.2@aar') {
+        transitive = true
+    }
+//Material Drawer Library
+    compile 'com.mikepenz:google-material-typeface:1.2.0.1@aar'
+    compile 'com.mikepenz:fontawesome-typeface:4.4.0.1@aar'
+    compile 'com.mikepenz:octicons-typeface:3.0.0.1@aar'
+    compile('com.mikepenz:materialdrawer:4.3.7@aar') {
+        transitive = true
+    }
+
+//Needed for wallpapers
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.okhttp:okhttp:2.3.0'
+    compile 'com.squareup.okhttp:okhttp-urlconnection:2.3.0'
+//Muzei Support Library
+    compile 'com.google.android.apps.muzei:muzei-api:2.0'
+//SnackBar Library
+    compile 'com.github.mrengineer13:snackbar:1.2.0'
+//App Intro Library
+    compile 'com.github.paolorotolo:appintro:3.2.0'
+//System wide FC dialog replacement Library
+    compile 'cat.ereza:customactivityoncrash:1.4.0'
+//Material Design Preferences Library
+    compile 'com.jenzz:materialpreference:1.3'
+//Material Design Ripple Library
+    compile 'com.balysv:material-ripple:1.0.2'
+//Progress Bar Library
+    compile 'com.jpardogo.googleprogressbar:library:1.2.0'
+//License Dialog Library
+    compile('de.psdev.licensesdialog:licensesdialog:1.7.0')
+// Color Changer Library
+    compile 'com.github.yukuku:ambilwarna:2.0.1'
+// Pinch to Zoom Library
+    compile 'com.commit451:PhotoView:1.2.4'
+// Convert list to json and reverse
+    compile 'com.google.code.gson:gson:1.7.2'
+}
+

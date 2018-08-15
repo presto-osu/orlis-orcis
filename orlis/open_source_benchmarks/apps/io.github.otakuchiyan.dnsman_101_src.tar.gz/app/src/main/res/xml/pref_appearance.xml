@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   <ListPreference
+       android:key="pref_toast"
+       android:title="@string/pref_toast"
+       android:defaultValue="show"
+       android:entries="@array/toast_strings"
+       android:entryValues="@array/toast_values"
+       />
+   <SwitchPreference android:key="pref_notification"
+       android:title="@string/pref_notification"
+       android:defaultValue="true"/>
+
+</PreferenceScreen>

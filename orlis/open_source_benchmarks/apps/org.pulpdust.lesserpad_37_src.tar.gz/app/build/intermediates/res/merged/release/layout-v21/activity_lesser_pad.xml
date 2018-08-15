@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="8dip" >
+
+    <Toolbar
+        android:id="@+id/toolBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:minHeight="?android:actionBarSize"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:actionBarSize"
+        android:stretchColumns="0,1,2">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dip"
+            android:layout_weight="0.6"
+            android:focusable="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:maxLines="1"
+            android:paddingTop="4dip"
+            android:paddingBottom="4dip"
+            android:paddingLeft="2dip"
+            android:paddingRight="2dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:gravity="right|center_vertical"
+            />
+
+    </TableRow>
+
+    <view
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="org.pulpdust.lesserpad.LesserPadActivity$EditMemo"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textMultiLine|textCapSentences"
+        android:scrollbars="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tableRow1"
+        android:layout_above="@+id/toolBar1"
+        android:paddingBottom="0dp"
+        android:paddingTop="0dp">
+        <requestFocus />
+    </view>
+
+    <!--     <EditText -->
+    <!--         android:id="@+id/editText1" -->
+    <!--         android:layout_width="wrap_content" -->
+    <!--         android:layout_height="wrap_content" -->
+    <!--         android:layout_alignParentBottom="true" -->
+    <!--         android:layout_alignParentLeft="true" -->
+    <!--         android:layout_alignParentRight="true" -->
+    <!--         android:layout_below="@+id/tableRow1" -->
+    <!--         android:ems="10" -->
+    <!--         android:gravity="top" -->
+    <!--         android:inputType="textMultiLine" /> -->
+
+</RelativeLayout>

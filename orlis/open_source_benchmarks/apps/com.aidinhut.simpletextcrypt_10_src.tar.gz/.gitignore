@@ -1,0 +1,17 @@
+# Temp files
+*~
+*.bak
+*.backup
+\#*
+.\#*
+*\#
+*.sav
+*.save
+*.autosav
+*.autosave
+
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build

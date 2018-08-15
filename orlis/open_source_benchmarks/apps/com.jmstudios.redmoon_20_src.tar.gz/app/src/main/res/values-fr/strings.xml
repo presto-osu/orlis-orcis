@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="app_name">Red Moon</string>
+    <string name="shortcut_activity">Activer Red Moon</string>
+
+    <string name="running">En exécution. Suspendre pour installer des apks</string>
+    <string name="paused">Suspendu</string>
+
+    <string name="pref_title_appearance">Filtre</string>
+    <string name="pref_title_automatic_filter">Horaires filtre</string>
+    <string name="pref_title_startup">Démarrer</string>
+    <string name="pref_title_other">Autre</string>
+
+    <string name="button_add_profile">Ajouter</string>
+    <string name="button_remove_profile">Supprimer</string>
+    <string name="shades_dim_level">Niveau luminosité</string>
+    <string name="shades_intensity_level">Niveau intensité</string>
+    <string name="shades_color_temp">Température couleur</string>
+    <string name="control_brightness_title">Luminosité minimale</string>
+
+    <string name="automatic_filter_title">Mode d\'activation</string>
+    <string name="custom_start_time_title">Reprendre à</string>
+    <string name="custom_end_time_title">Suspendre à</string>
+    <string name="location_title">Localisation</string>
+    <string name="location_not_set">Non défini</string>
+    <string name="latitude_short">Lat</string>
+    <string name="longitude_short">Long</string>
+    <string name="searching_location">Recherche de localisation</string>
+
+    <string name="dark_theme">Thème sombre</string>
+
+    <string name="email_me_title">E-mail : marienraat@riseup.net</string>
+    <string name="email_me_summary">Envoyer un e-mail pour signaler un problème ou une suggestion</string>
+    <string name="project_page_title">Accéder au projet</string>
+    <string name="project_page_summary">Pour trouver plus d\'informations, laisser un commentaire et contribuer</string>
+    <string name="toast_warning_install">Impossible d\'installer des fichiers APK quand le filtre est en cours d\'exécution.</string>
+    <string name="toast_warning_no_location">Activer les services de localisation pour actualiser la position</string>
+
+    <string name="help_snackbar_text">Appuyer sur le bouton pour activer Red Moon</string>
+
+    <string name="add_new_profile_dialog_title">Entrez un nom de profil</string>
+    <string name="add_new_profile_edit_hint">Nom de profil</string>
+    <string name="remove_profile_dialog_title">Supprimer ce profil ?</string>
+    <string name="set_dialog">OK</string>
+    <string name="ok_dialog">OK</string>
+    <string name="cancel_dialog">Annuler</string>
+
+    <string name="toggle_shortcut_title">Activer</string>
+
+    <string name="shades_settings">Red Moon</string>
+    <string name="standard_profiles_array_0">Personnalisé</string>
+    <string name="standard_profiles_array_1">Par défaut</string>
+    <string name="standard_profiles_array_2">Lecture</string>
+
+    <string name="automatic_filter_options_array_0">Manuel</string>
+    <string name="automatic_filter_options_array_1">Automatique (localisation)</string>
+    <string name="automatic_filter_options_array_2">Automatique (personnalisé)</string>
+
+    <string name="resume_action">Reprendre</string>
+    <string name="pause_action">Suspendre</string>
+
+    </resources>

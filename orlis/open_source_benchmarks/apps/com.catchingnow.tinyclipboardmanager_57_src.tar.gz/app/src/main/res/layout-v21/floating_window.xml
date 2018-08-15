@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/transparent"
+    android:clipToPadding="false"
+    android:paddingTop="2dp"
+    android:paddingBottom="6dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/main_fab"
+        android:contentDescription="@string/app_name"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        android:background="@drawable/background_fab"
+        android:elevation="6dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_stat_icon"
+        android:scaleType="centerInside" />
+
+</RelativeLayout>

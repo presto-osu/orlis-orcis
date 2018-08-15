@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Der Bund ePaper Downloader - App to download ePaper issues of the Der Bund newspaper
+  ~ Copyright (C) 2013 Adrian Gygax
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, either version 3 of the License, or
+  ~ (at your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful,
+  ~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  ~ GNU General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program. If not, see {http://www.gnu.org/licenses/}.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="pref_key_main_settings"
+        android:title="@string/action_settings">
+        <EditTextPreference
+            android:inputType="textEmailAddress"
+            android:key="username"
+            android:persistent="true"
+            android:title="Benutzername (E-Mail Adresse)" />
+        <EditTextPreference
+            android:inputType="textPassword"
+            android:key="password"
+            android:persistent="true"
+            android:title="Passwort" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="wifi_only"
+            android:persistent="true"
+            android:summary="@string/wifi_only_summary"
+            android:title="@string/wifi_only" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="auto_download_enabled"
+            android:persistent="true"
+            android:title="@string/auto_download" />
+        <com.github.notizklotz.derbunddownloader.settings.TimePickerPreference
+            android:defaultValue="06:00"
+            android:dependency="auto_download_enabled"
+            android:key="auto_download_time"
+            android:persistent="true"
+            android:title="@string/auto_download_time" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_key_debugging"
+        android:title="@string/debugging">
+        <EditTextPreference
+            android:editable="false"
+            android:inputType="none"
+            android:key="last_wakeup"
+            android:persistent="true"
+            android:selectable="false"
+            android:title="@string/last_wakeup" />
+        <EditTextPreference
+            android:editable="false"
+            android:inputType="none"
+            android:key="next_wakeup"
+            android:persistent="true"
+            android:selectable="false"
+            android:title="@string/next_wakeup" />
+    </PreferenceCategory>
+</PreferenceScreen>

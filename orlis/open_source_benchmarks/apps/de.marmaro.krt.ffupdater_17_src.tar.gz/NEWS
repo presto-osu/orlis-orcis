@@ -1,0 +1,59 @@
+2016-04-29 Version 46.0 (16)
+ * No changes, just bump to reming people
+
+2016-04-06 Version 45.0.1 (15)
+ * Remove everything but URL generator and download button.
+
+2016-03-09 Version 45.0a (14)
+ * Really, really quickfix Android6 issues..
+ * Remove version check since it's broken: Just download the APK.
+
+2016-03-06 Version 45.0 (13)
+ * Use lower traget to qucikfix Android6 permissions
+
+2016-01-26 Version 44.0 (12)
+ * Update to reflect new Firefox version, but no change in
+   architecture. Mozilla "-latest" URL still works...
+
+2015-12-31 Version 43.0.x (11)
+ * Mozilla removed /latest/* downloads from archive. As recommended in
+   https://archive.mozilla.org/pub/mobile/releases/latest/README.txt
+   we use https://download.mozilla.org/?product=fennec-latest now.
+
+2015-12-25 Version 43.0 (10)
+ * Update to 43.0
+ * Mozilla does not populate /latest/ anymore, see
+   https://bugzilla.mozilla.org/show_bug.cgi?id=1233399
+
+2015-12-24 Version 42.0.2 (9)
+ * Update to 42.0.2
+
+2015-11-23 Version 42.0.1 (8)
+ * Update to 42.0.1
+
+2015-11-02 Version 42.0 (7)
+ * Update to 42.0
+
+2015-09-23 Version 41.0 (6)
+ * Bump to 41.0 (6)
+
+2015-09-01 Version 40.0.3 (5)
+ * Mark background setting as non-functional for now.
+ * Update to 40.0.3
+
+2015-08-10 Version 40.0 (3)
+ * Remove FTP lookup since Mozilla is shutting down the servers.
+ * Handle both request type by a single button.
+ * "I am feeling lucky" now gets the next relase, not the latest.
+ * Add preferences to restrict connections: WiFi-only, metered, roaming.
+ * Use actionbar.
+
+2015-07-08 Version 39.0 (1)
+ * Select download uri based on arch and api.
+ * Check filename via FTP.
+ * Download update file via HTTPS and DownloadManager.
+ * Log errors and status.
+ * Toast on updates.
+ * Prompt for update (if necessary).
+ * Option to use fixed/tested download location.
+ * Add proper LICENSE (GPLv3+).

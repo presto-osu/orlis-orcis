@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <plurals name="time_minute">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="time_second">
+        <item quantity="other">%d segundos</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="time_hour">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">horas</item>
+        <item quantity="one" tools:ignore="ImpliedQuantity">hora</item>
+    </plurals>
+    <plurals name="day">
+        <item quantity="other">dias</item>
+        <item quantity="one" tools:ignore="ImpliedQuantity">dia</item>
+    </plurals>
+    <plurals name="week">
+        <item quantity="other">semanas</item>
+        <item quantity="one" tools:ignore="ImpliedQuantity">semana</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">meses</item>
+        <item quantity="one" tools:ignore="ImpliedQuantity">mês</item>
+    </plurals>
+    <plurals name="year">
+        <item quantity="other">anos</item>
+        <item quantity="one" tools:ignore="ImpliedQuantity">ano</item>
+    </plurals>
+</resources>

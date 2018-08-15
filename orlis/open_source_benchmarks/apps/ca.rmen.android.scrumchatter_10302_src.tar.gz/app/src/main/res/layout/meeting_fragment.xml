@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2016 Carmen Alvarez
+ 
+  This file is part of Scrum Chatter.
+ 
+  Scrum Chatter is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+ 
+  Scrum Chatter is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
+ 
+  You should have received a copy of the GNU General Public License
+  along with Scrum Chatter. If not, see <http://www.gnu.org/licenses/>.
+-->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/drawer_background"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin" >
+
+        <TextView
+            style="@style/listHeader"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_meeting_duration"
+            android:layout_toStartOf="@+id/tv_meeting_duration"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/list_inner_horizontal_margin"
+            android:layout_marginStart="@dimen/list_inner_horizontal_margin"
+            android:text="@string/meeting_header_total_duration"
+            tools:targetApi="jelly_bean_mr1"/>
+
+        <Chronometer
+            android:id="@id/tv_meeting_duration"
+            android:gravity="start"
+            android:textAlignment="viewStart"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btn_stop_meeting"
+            android:layout_toStartOf="@+id/btn_stop_meeting"
+            android:textStyle="bold"
+            android:color="@color/selected_header"
+            tools:targetApi="jelly_bean_mr1"/>
+
+        <ImageButton
+            android:id="@id/btn_stop_meeting"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/list_inner_horizontal_margin"
+            android:layout_marginEnd="@dimen/list_inner_horizontal_margin"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/action_stop_meeting"
+            android:src="@drawable/ic_action_stop"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/selected_header" />
+
+    <ProgressBar
+        android:id="@+id/header_progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-6dp"
+        android:layout_marginTop="-7dp"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <include android:id="@+id/list_content" layout="@layout/list_content" />
+
+</LinearLayout>
+</layout>

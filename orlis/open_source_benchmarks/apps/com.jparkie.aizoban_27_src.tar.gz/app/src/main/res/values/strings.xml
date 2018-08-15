@@ -1,0 +1,158 @@
+<resources>
+    <!-- Application Names: -->
+    <string name="app_name">Aizōban</string>
+    <string name="service_name">Aizōban Downloader</string>
+
+    <!-- Notifications: -->
+    <string name="notification_download_title">Aizōban Downloader</string>
+    <string name="notification_download_text">Downloading...</string>
+
+    <!-- Fragment Names: -->
+    <string name="fragment_catalogue">Catalogue</string>
+    <string name="fragment_latest_manga">Latest Updates</string>
+    <string name="fragment_download_manga">Downloaded Manga</string>
+    <string name="fragment_favourite_manga">Favourite Manga</string>
+    <string name="fragment_recent_chapter">Recent Chapters</string>
+    <string name="fragment_queue">Download Queue</string>
+    <string name="fragment_settings">Settings</string>
+    <string name="fragment_manga">Manga</string>
+    <string name="fragment_chapter">Chapter</string>
+
+    <!-- Navigation Names: -->
+    <string name="navigation_catalogue_title">Catalogue</string>
+    <string name="navigation_latest_title">Latest Manga</string>
+    <string name="navigation_explore_title">Explore Manga</string>
+    <string name="navigation_download_title">Downloaded Manga</string>
+    <string name="navigation_favourite_title">Favourite Manga</string>
+    <string name="navigation_recent_title">Recent Chapters</string>
+    <string name="navigation_queue_title">Download Queue</string>
+    <string name="navigation_settings_title">Settings</string>
+
+    <!-- Dialog Names: -->
+    <string name="dialog_catalogue_filter">Filter Catalogue</string>
+    <string name="dialog_add_to_queue">Add To Queue</string>
+    <string name="dialog_mark_read">Mark Read</string>
+    <string name="dialog_resume_chapter">Resume Chapter</string>
+    <string name="dialog_select_page">Select Page</string>
+    <string name="dialog_chapter_help">Chapter Help</string>
+    <string name="dialog_disclaimer">Disclaimer</string>
+    <string name="dialog_open_source_licenses">Open Source Licenses</string>
+
+    <!-- Empty Name and Instruction Pairs: -->
+    <string name="no_catalogue">Empty Catalogue</string>
+    <string name="catalogue_instructions">Try a new search or filter</string>
+    <string name="no_latest">No Latest Updates</string>
+    <string name="latest_instructions">Swipe down to refresh</string>
+    <string name="no_download_manga">No Downloaded Manga</string>
+    <string name="download_manga_instructions">To download a manga, \n tap the \"Download\" button in the manga activity</string>
+    <string name="no_favourite_manga">No Favourite Manga</string>
+    <string name="favourite_manga_instructions">To favourite a manga, \n tap the \"Favourite\" button in the manga activity</string>
+    <string name="no_recent_chapter">No Recent Chapters</string>
+    <string name="recent_chapter_instructions">Any opened chapters will be recorded here</string>
+    <string name="no_queued_downloads">No Queued Downloads</string>
+    <string name="queue_downloads_instructions">Any queued downloads for chapters will be displayed here</string>
+    <string name="no_manga">No Manga</string>
+    <string name="manga_instructions">Swipe down to refresh</string>
+    <string name="no_chapter">No Chapter</string>
+    <string name="chapter_instructions">Select "Refresh" in the overflow menu</string>
+    <string name="no_available_chapters">No Available Chapters</string>
+    <string name="available_chapters_instructions">Any available chapter able to be marked read will be displayed here</string>
+    <string name="no_available_downloads">No Available Downloads</string>
+    <string name="available_downloads_instructions">Any available chapter for download will be displayed here</string>
+
+    <!-- Catalogue Fragment: -->
+    <string name="catalogue_subtitle_page">Page:</string>
+
+    <!-- Catalogue Filter Dialog Items: -->
+    <string name="catalogue_filter_title_genres">Genres</string>
+    <string name="catalogue_filter_title_status">Status</string>
+    <string name="catalogue_filter_title_order_by">Order By</string>
+    <string name="catalogue_filter_radio_option_all">All</string>
+    <string name="catalogue_filter_radio_option_completed">Completed</string>
+    <string name="catalogue_filter_radio_option_ongoing">Ongoing</string>
+    <string name="catalogue_filter_radio_option_name">Name</string>
+    <string name="catalogue_filter_radio_option_rank">Rank</string>
+    <string name="catalogue_filter_dialog_button_filter">Filter</string>
+    <string name="catalogue_filter_dialog_button_clear">Clear</string>
+    <string name="catalogue_filter_dialog_button_cancel">Cancel</string>
+
+    <!-- Favourite Manga Selection Name: -->
+    <string name="favourite_manga_selection_title">Delete:</string>
+
+    <!-- Recent Chapter Items: -->
+    <string name="recent_chapter_offline">Offline</string>
+
+    <!-- Recent Chapter Selection Name: -->
+    <string name="recent_chapter_selection_title">Delete:</string>
+
+    <!-- Queue Selection Name: -->
+    <string name="queue_selection_title">Cancel:</string>
+
+    <!-- Queue Item Flags: -->
+    <string name="flag_failed">Failed (Retrying)</string>
+    <string name="flag_paused">Paused</string>
+    <string name="flag_pending">Pending</string>
+    <string name="flag_running_fetching">Fetching Links</string>
+    <string name="flag_running_downloading">Downloading</string>
+    <string name="flag_completed">Completed</string>
+    <string name="flag_canceled">Canceled</string>
+
+    <!-- Disclaimer Dialog Items: -->
+    <string name="disclaimer_dialog_button">Understood</string>
+    <string name="disclaimer_text_one">Copyrights and trademarks for the manga, and other promotional materials are held by their respective owners and their use is allowed under the fair use clause of the Copyright Law.</string>
+    <string name="disclaimer_text_two">Aizōban is developed by an individual who does not have any affiliation with the content providers. This individual reserves the right to change the sources of manga without prior notice.</string>
+    <string name="disclaimer_text_three">Please support the authors by purchasing the volumes from official avenues when they are available in your locale.</string>
+
+    <!-- Manga Header Items: -->
+    <string name="manga_header_title_author">AUTHOR</string>
+    <string name="manga_header_title_artist">ARTIST</string>
+    <string name="manga_header_title_genre">GENRES</string>
+    <string name="manga_header_title_status">STATUS</string>
+    <string name="manga_header_title_chapter">CHAPTERS</string>
+    <string name="manga_header_chapter_error">No chapters available</string>
+    <string name="manga_header_status_completed">Completed</string>
+    <string name="manga_header_status_ongoing">Ongoing</string>
+
+    <!-- Manga Offline Selection Name: -->
+    <string name="manga_offline_selection_title">Delete:</string>
+
+    <!-- Chapter Listings Items: -->
+    <string name="chapter_list_item_new">NEW</string>
+    <string name="chapter_list_item_no_date">No Date</string>
+
+    <!-- Add To Queue Dialog Items: -->
+    <string name="add_to_queue_dialog_button_queue">Queue</string>
+    <string name="add_to_queue_dialog_button_toggle_all">Toggle All</string>
+    <string name="add_to_queue_dialog_button_cancel">Cancel</string>
+
+    <!-- Mark Read Dialog Items: -->
+    <string name="mark_read_dialog_button_mark">Mark</string>
+    <string name="mark_read_dialog_button_toggle_all">Toggle All</string>
+    <string name="mark_read_dialog_button_cancel">Cancel</string>
+
+    <!-- Resume Chapter Dialog Items: -->
+    <string name="resume_chapter_text">Found a recent chapter, would you like to resume that chapter where you last left off?</string>
+    <string name="resume_chapter_dialog_button_yes">Yes</string>
+    <string name="resume_chapter_dialog_button_no">No</string>
+
+    <!-- Chapter Items: -->
+    <string name="chapter_subtitle_progress">Image Urls Fetched:</string>
+    <string name="chapter_subtitle_page">Page:</string>
+
+    <!-- Chapter Help Dialog Items: -->
+    <string name="chapter_help_dialog_text">
+        <ul><li><b>Toolbar Title</b>: Tap the toolbar title to view the full title of the chapter.</li>\n
+            <li><b>Refresh</b>: Tap the \"Refresh\" button to reload the current chapter or page if not loaded.</li>\n
+            <li><b>Right-to-Left/Left-to-Right</b>: Toggle the button to switch between the reading directions.</li>\n
+            <li><b>Lock Orientation/Unlock Orientation</b>: Toggle the button to enable and disable orientation lock.</li>\n
+            <li><b>Lock Zoom/Unlock Zoom</b>: Toggle the button to either lock or unlock the zoom settings between pages.</li>\n
+            <li><b>Single Tap (Middle)</b>: Toggle the visibility of on-screen controls.</li>\n
+            <li><b>Single Tap (Sides)</b>: Navigate to either the previous or next page.</li>\n
+            <li><b>Double Tap</b>: Toggle between the maximum and minimum zoom levels.</li>\n
+            <li><b>Scroll</b>: If the page is zoomed, scroll the page to move the image.</li>\n
+            <li><b>Fling</b>: If the page is zoomed, fling the page to move the image in the specified direction.</li>\n
+            <li><b>First/Last Page Swipe Out</b>: If the first or last page is swiped out, the previous or the next chapter will load.</li>\n
+            <li><b>Left Arrow/Right Arrow</b>: If either the left arrow or right arrow buttons are pressed, the previous or the next chapter will load, respectively.</li></ul>
+    </string>
+
+</resources>

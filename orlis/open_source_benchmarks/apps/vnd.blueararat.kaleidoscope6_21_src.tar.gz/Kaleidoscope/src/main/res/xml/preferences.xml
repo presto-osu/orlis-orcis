@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:kaleidoscope="vnd.blueararat.kaleidoscope" >
+
+    <PreferenceCategory android:title="@string/kp_category" >
+        <vnd.blueararat.kaleidoscope6.SeekbarPref
+            android:defaultValue="4"
+            android:key="number_of_mirrors"
+            android:max="25"
+            android:selectable="false"
+            android:title="@string/kp_number_of_mirrors"
+            kaleidoscope:min="2" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="blur"
+            android:title="@string/kp_blur" />
+
+        <vnd.blueararat.kaleidoscope6.SeekbarPref
+            android:defaultValue="49"
+            android:dependency="blur"
+            android:key="blur_value"
+            android:max="98"
+            android:selectable="false"
+            android:title="@string/kp_blur_value"
+            kaleidoscope:min="1" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kp2cat_save" >
+        <ListPreference
+            android:defaultValue="@string/default_save_format"
+            android:dialogTitle="@string/choose_format"
+            android:entries="@array/entries_list_preference"
+            android:entryValues="@array/entryvalues_list_preference"
+            android:key="format"
+            android:title="@string/kp2_save_format" />
+
+        <vnd.blueararat.kaleidoscope6.SeekbarPref
+            android:defaultValue="40"
+            android:key="jpeg_quality"
+            android:max="50"
+            android:selectable="false"
+            android:title="@string/kp2_jpeg_quality"
+            kaleidoscope:min="50" />
+
+        <vnd.blueararat.kaleidoscope6.FolderPref
+            android:key="save_location"
+            android:title="@string/save_location" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kps_cat" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="hardware_accel"
+            android:title="@string/hardware_accel_title"
+            android:summary="@string/hardware_accel_summary" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="camera_in_menu"
+            android:summaryOff="@string/disable_camera_summary2"
+            android:summaryOn="@string/disable_camera_summary1"
+            android:title="@string/disable_camera_title" />
+
+        <Preference
+            android:key="reset_settings"
+            android:selectable="false"
+            android:summary="@string/kps_summary"
+            android:title="@string/kps_default"
+            android:widgetLayout="@layout/pref_widget_button" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

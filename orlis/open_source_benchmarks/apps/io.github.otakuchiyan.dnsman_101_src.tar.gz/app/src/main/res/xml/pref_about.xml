@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/pref_license"
+        android:summary="@string/pref_license_summary">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://www.gnu.org/licenses/gpl.html"
+            />
+    </Preference>
+    <Preference android:title="@string/pref_open_source"
+        android:summary="@string/pref_open_source_summary">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://github.com/otakuchiyan/DNSman"
+            />
+    </Preference>
+    <Preference android:title="@string/pref_usage">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://github.com/otakuchiyan/DNSman/wiki"
+            />
+    </Preference>
+    <Preference android:title="@string/pref_hint_chinese_phone">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="https://github.com/otakuchiyan/DNSman/wiki/hint_for_chinese_phone"
+            />
+    </Preference>
+</PreferenceScreen>

@@ -1,0 +1,83 @@
+Abbreviation: Cen    
+Genitive: Centauri    
+Pronunciation: /sɛnˈtɔrəs/, genitive /sɛnˈtɔraɪ/    
+Symbolism: the Centaur    
+Right ascension: 11h 05m 20.9415s–15h 03m 11.1071s    
+Declination: −29.9948788°–−64.6957885°    
+Family: Hercules    
+Area: 1060 sq. deg. (9th)    
+Main stars: 11    
+Bayer/Flamsteed stars: 69    
+Stars with planets: 15    
+Stars brighter than 3.00m: 10    
+Stars within 10.00 pc (32.62 ly): 8    
+Brightest star: α Cen (−0.27m)    
+Nearest star: Proxima Centauri (α Cen C) (4.24 ly, 1.30 pc)    
+Messier objects: 0    
+Meteor showers: Alpha Centaurids Omicron Centaurids Theta Centaurids    
+Bordering constellations: Antlia Carina Circinus Crux Hydra Libra (corner) Lupus Musca Vela    
+Visible at latitudes between +25° and −90°. Best visible at 21:00 (9 p.m.) during the month of May.
+    
+Centaurus /sɛnˈtɔrəs/ is a bright constellation in the southern sky. One of the largest constellations, Centaurus was included among the 48 constellations listed by the 2nd century astronomer Ptolemy, and it remains one of the 88 modern constellations. In Greek mythology, Centaurus represents a centaur; a creature that is half man, half horse (another constellation named after a centaur is one from the zodiac: Sagittarius). Notable stars include Alpha Centauri, the nearest star system to our own Solar System, its neighbour in the sky Beta Centauri, and V766 Centauri, one of the largest stars yet discovered. The constellation also contains Omega Centauri, the brightest globular cluster as visible from Earth and one of the largest known.
+
+Notable features
+The two bright stars are (left) Alpha Centauri and (right) Beta Centauri. The faint red star in the center of the red circle is Proxima Centauri. Taken with Canon 85mm f/1.8 lens with 11 frames stacked, each frame exposed 30 seconds.
+Stars
+Centaurus contains several very bright stars because of its position in the Milky Way; in addition, its alpha and beta stars are used to find the constellation Crux. The constellation has 281 stars above magnitude 6.5, meaning that they are visible to the unaided eye, the most of any constellation. Alpha Centauri, the closest star to the Sun, has a high proper motion; it will be a mere half-degree from Beta Centauri in approximately 4000 years.
+Alpha Centauri is a triple star system that contains Proxima Centauri, the nearest star to the Sun. Traditionally called Rigil Kentaurus or Toliman, meaning "foot of the centaur", the system has an overall magnitude of -0.28 and is 4.4 light-years from Earth. The primary and secondary are both yellow-hued stars; the primary, is of magnitude -0.01 and the secondary is of magnitude 1.35. Proxima, the tertiary star, is a red dwarf of magnitude 11.0; it is almost 2 degrees away from the primary and secondary and has a period of approximately one million years. Also a flare star, Proxima has minutes-long outbursts where it brightens by over a magnitude. The primary and secondary have a period of 80 years and will be closest to each other as seen from Earth in 2037 and 2038.
+In addition to Alpha Centauri (the 3rd brightest star in the sky), a second first magnitude star, Beta Centauri, is part of Centaurus. Also called Hadar and Agena, Beta Centauri is a double star; the primary is a blue-hued giant star of magnitude 0.6, 525 light-years from Earth. The secondary is of magnitude 4.0 and has a very small separation. A bright binary star in Centaurus is Gamma Centauri, which appears to the naked eye at magnitude 2.2. The primary and secondary are both blue-white hued stars of magnitude 2.9; their period is 85 years.
+Centaurus also has many dimmer double stars and binary stars. 3 Centauri is a double star with a blue-white hued primary of magnitude 4.6 and a secondary of magnitude 6.1. The primary is 298 light-years from Earth.
+Centaurus is home to many variable stars. R Centauri is a Mira variable star with a minimum magnitude of 11.8 and a maximum magnitude of 5.3; it is 2100 light-years from Earth and has a period of 18 months. V810 Centauri is a semiregular variable.
+BPM 37093 is a white dwarf star whose carbon atoms are thought to have formed a crystalline structure. Since diamond also consists of carbon arranged in a crystalline lattice (though of a different configuration), scientists have nicknamed this star "Lucy" after the Beatles song "Lucy in the Sky with Diamonds."
+
+Deep-sky objects
+ω Centauri (NGC 5139), despite being listed as the constellation's "omega" star, is in fact a naked-eye globular cluster, located at a distance of 17,000 light-years with a diameter of 150 light-years. It is the largest and brightest globular cluster in the Milky Way, at ten times the size of the next-largest cluster, it has a magnitude of 3.7. It is also the most luminous globular cluster in the Milky Way, at over one million solar luminosities. Omega Centauri is classified as a Shapley class VIII cluster, which means that its center is loosely concentrated. It is also the only globular cluster to be designated with a Bayer letter; the globular cluster 47 Tucanae is the only one designated with a Flamsteed number. It contains several million stars, most of which are yellow dwarf stars, but also possesses red giants and blue-white stars; the stars have an average age of 12 billion years. This has prompted suspicion that Omega Centauri was the core of a dwarf galaxy that had been absorbed by the Milky Way. Omega Centauri was determined to be nonstellar in 1677 by the English astronomer Edmond Halley, though it was visible as a star to the ancients. Its status as a globular cluster was determined by James Dunlop in 1827. To the unaided eye, Omega Centauri appears fuzzy and is obviously non-circular; it is approximately half a degree in diameter, the same size as the full Moon.
+Centaurus is also home to open clusters. NGC 3766 is an open cluster 6300 light-years from Earth that is visible to the unaided eye. It contains approximately 100 stars, the brightest of which are 7th magnitude. NGC 5460 is another naked-eye open cluster, 2500 light-years from Earth, that has an overall magnitude of 6 and contains approximately 40 stars.
+There is one bright planetary nebula in Centaurus, NGC 3918, also known as the Blue Planetary. It has an overall magnitude of 8.0 and a central star of magnitude 11.0; it is 2600 light-years from Earth. The Blue Planetary was discovered by John Herschel and named for its color's similarity to Uranus, though the nebula is three times larger than the planet.
+Centaurus is rich in galaxies as well. NGC 4622 is a face-on spiral galaxy located 200 million light-years from Earth (redshift 0.0146). Its spiral arms wind in both directions, which makes it nearly impossible for astronomers to determine the rotation of the galaxy. Astronomers theorize that a collision with a smaller companion galaxy near the core of the main galaxy could have led to the unusual spiral structure. NGC 5253, a peculiar irregular galaxy, is located near the border with Hydra and M83, with which it likely had a close gravitational interaction 1-2 billion years ago. This may have sparked the galaxy's high rate of star formation, which continues today and contributes to its high surface brightness. NGC 5253 includes a large nebula and at least 12 large star clusters. In the eyepiece, it is a small galaxy of magnitude 10 with dimensions of 5 arcminutes by 2 arcminutes and a bright nucleus. NGC 4945 is a spiral galaxy seen edge-on from Earth, 13 million light-years away. It is visible with any amateur telescope, as well as binoculars under good conditions; it has been described as "shaped like a candle flame", being long and thin (16' by 3'). In the eyepiece of a large telescope, its southeastern dust lane becomes visible. Another galaxy is NGC 5102, found by star-hopping from Iota Centauri. In the eyepiece, it appears as an elliptical object 9 arcminutes by 2.5 arcminutes tilted on a southwest-northeast axis.
+One of the closest active galaxies to Earth is the Centaurus A galaxy, NGC 5128, at a distance of 11 million light-years (redshift 0.00183). It has a supermassive black hole at its core, which expels massive jets of matter that emit radio waves due to synchrotron radiation. Astronomers posit that its dust lanes, not common in elliptical galaxies, are due to a previous merger with another galaxy, probably a spiral galaxy. NGC 5128 appears in the optical spectrum as a fairly large elliptical galaxy with a prominent dust lane. Its overall magnitude is 7.0,  and it has been seen under perfect conditions with the naked eye, making it one of the most distant objects visible to the unaided observer. In equatorial and southern latitudes, it is easily found by star hopping from Omega Centauri. In small telescopes, the dust lane is not visible; it begins to appear with about 4 inches of aperture under good conditions. In large amateur instruments, above about 12 inches in aperture, the dust lane's west-northwest to east-southeast direction is easily discerned. Another dim dust lane on the east side of the 12 arcminute by 15 arcminute galaxy is also visible. ESO 270-17, also called the Fourcade-Figueroa Object, is a low-surface brightness object believed to be the remnants of a galaxy; it does not have a core and is very difficult to observe with an amateur telescope. It measures 7 arcminutes by 1 arcminute. It likely originated as a spiral galaxy and underwent a catastrophic gravitational interaction with Centaurus A around 500 million years ago, stopping its rotation and destroying its structure.
+NGC 4650A is a polar-ring galaxy located at a distance of 136 million light years from Earth (redshift 0.01). It has a central core made of older stars that resembles an elliptical galaxy, and an outer ring of young stars that orbits around the core. The plane of the outer ring is distorted, which suggests that NGC 4650A is the result of a galaxy collision about a billion years ago. This galaxy has also been cited in studies of dark matter, because the stars in the outer ring orbit too quickly for their collective mass. This suggests that the galaxy is surrounded by a dark matter halo, which provides the necessary mass.
+One of the closest galaxy clusters to Earth is the Centaurus Cluster, located at a distance of 160 million light-years (redshift 0.0114). It has a cooler, denser central region of gas and a hotter, more diffuse outer region. The intracluster medium in the Centaurus Cluster has a high concentration of metals (elements heavier than helium) due to a large number of supernovae. This cluster also possesses a plume of gas whose origin is unknown.
+
+History
+While Centaurus now has a high southern latitude, at the dawn of civilization it was an equatorial constellation. Precession has been slowly shifting it southward for millennia, and it is now close to its maximal southern declination. Thousands of years from now Centaurus will, once again, be at lower latitudes and be visible worldwide.
+The figure of Centaurus can be traced back to a Babylonian constellation known as the Bison-man (MUL.GUD.ALIM). This being was depicted in two major forms: firstly, as a 4-legged bison with a human head, and secondly, as a being with a man's head and torso attached to the rear legs and tail of a bull or bison. It has been closely associated with the Sun god Utu-Shamash from very early times.
+The Greeks depicted the constellation as a centaur and gave it its current name. It was mentioned by Eudoxus in the 4th century BCE and Aratus in the 3rd century BCE. In the 2nd century AD, Claudius Ptolemy catalogued 37 stars in Centaurus. Large as it is now, in earlier times it was even larger, as the constellation Lupus was treated as an asterism within Centaurus, portrayed in illustrations as an unspecified animal either in the centaur's grasp or impaled on its spear.[citation needed] The Southern Cross, which is now regarded as a separate constellation, was treated by the ancients as a mere asterism formed of the stars composing the centaur's legs. Additionally, what is now the minor constellation Circinus was treated as undefined stars under the centaur's front hooves.
+According to the Roman poet Ovid (Fasti v.379), the constellation honors the centaur Chiron, who was tutor to many of the earlier Greek heroes including Heracles (Hercules), Theseus, and Jason, the leader of the Argonauts. However, most authorities consider Sagittarius to be the civilized Chiron, while Centaurus represents a more uncouth member of the species. The legend associated with Chiron says that he was accidentally poisoned with an arrow shot by Hercules, and was subsequently placed in the heavens.
+
+Equivalents
+In Chinese astronomy, the stars of Centaurus are found in three areas: the Azure Dragon of the East (東方青龍, Dōng Fāng Qīng Lóng), the Vermillion Bird of the South (南方朱雀, Nán Fāng Zhū Què), and the Southern Asterisms (近南極星區, Jìnnánjíxīngōu). Not all of the stars of Centaurus can be seen from China, and the unseen stars were classified among the Southern Asterisms by Xu Guangqi, based on his study of western star charts. However, most of the brightest stars of Centaurus, including α Cen, θ Cen, ε Cen and η Cen, can be seen in the Chinese sky.
+Some Polynesian peoples considered the stars of Centaurus to be a constellation as well. On Pukapuka, Centaurus had two names: Na Mata-o-te-tokolua and Na Lua-mata-o-Wua-ma-Velo. In Tonga, the constellation was called by four different names: O-nga-tangata, Tautanga-ufi, Mamangi-Halahu, and Mau-kuo-mau. Alpha and Beta Centauri were not named specifically by the people of Pukapuka or Tonga, but they were named by the people of Hawaii and the Tuamotus. In Hawaii, the name for Alpha Centauri was either Melemele or Ka Maile-hope and the name for Beta Centauri was either Polapola or Ka Maile-mua. In the Tuamotu islands, Alpha was called Na Kuhi and Beta was called Tere.
+
+Namesakes
+Two United States navy ships, USS Centaurus (AKA-17) and USS Centaurus (AK-264), are named after the constellation.
+The Centaurus is a Mega Mall and commercial/residential complex in Islamabad, Pakistan. Construction started in 2005 and the three 41-storey towers, the tallest structures in Islamabad, were completed by late 2012. The shopping mall was officially opened on February 17, 2013. The Centaurus originally included a 7 star hotel, construction of which is yet to begin.
+
+References
+Citations
+^ a b "Centaurus, constellation boundary". The Constellations (International Astronomical Union). Retrieved 15 February 2014. 
+^ a b c d e f g h i j k l Ridpath & Tirion 2001, pp. 108-111.
+^ "Discovery of largest known diamond". AZoM. February 15, 2004. Retrieved 2008-12-04. 
+^ a b c d e f Wilkins, Jamie; Dunn, Robert (2006). 300 Astronomical Objects: A Visual Reference to the Universe (1st ed.). Buffalo, New York: Firefly Books. ISBN 978-1-55407-175-3.  |accessdate= requires |url= (help)
+^ Levy 2005, p. 161.
+^ Levy 2005, p. 163.
+^ a b Dalrymple 2013, p. 40.
+^ a b Dalrymple 2013, p. 41.
+^ Steinicke 2007, p. 182.
+^ Babylonian Star-lore by Gavin White, Solaria Pubs, 2008, page 57ff
+^ Sagittarius - "The Archer." Retrieved on September 03, 2010
+^ Gergard Fasching, Sternbilder und ihre Myten, Springer, 1994 ISBN 3-211-82552-5, page 171
+^ Makemson 1941, p. 281.
+
+References
+Centaurus, by Chris Dolan
+C.S. Constellations and Stars
+Constellations, by Richard Dibon-Smith
+Dalrymple, Les (May 2013). "Exploring the M83 Galaxy Group". Sky & Telescope: 38–41. 
+Levy, David H. (2005). Deep Sky Objects. Prometheus Books. ISBN 1-59102-361-0. 
+Makemson, Maud Worcester (1941). The Morning Star Rises: an account of Polynesian astronomy. Yale University Press. p. 281. 
+Ridpath, Ian; Tirion, Wil (2001), Stars and Planets Guide, Princeton University Press, ISBN 0-691-08913-2 
+Ian Ridpath and Wil Tirion (2007). Stars and Planets Guide, Collins, London. ISBN 978-0-00-725120-9. Princeton University Press, Princeton. ISBN 978-0-691-13556-4.
+Steinicke, Wolfgang (2007), Jakiel, Richard, ed., Galaxies and How to Observe Them, Springer, ISBN 9781852337520 
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Centaurus&oldid=611134713"

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Dark Material Theme -->
+    <color name="key_background_lxx_dark">@*common:color/primary</color>
+    <color name="key_background_pressed_lxx_dark">#ff303030</color>
+    <color name="key_text_color_lxx_dark">#ccffffff</color>
+    <color name="suggested_word_color_lxx_dark">#ccffffff</color>
+    <color name="key_functional_text_color_lxx_dark">#ccffffff</color>
+    <color name="key_text_inactive_color_lxx_dark">#80ffffff</color>
+    <color name="key_hint_letter_color_lxx_dark">#80ffffff</color>
+    <color name="language_on_spacebar_text_color_lxx_dark">#b3ffffff</color>
+    <color name="highlight_color_lxx_dark">#ffffffff</color>
+    <color name="auto_correct_color_lxx_dark">#ffffffff</color>
+    <color name="typed_word_color_lxx_dark">#d9ffffff</color>
+    <color name="gesture_trail_color_lxx_dark">#ff616161</color>
+    <color name="sliding_key_input_preview_color_lxx_dark">#b3424242</color>
+    <color name="gesture_floating_preview_color_lxx_dark">#df424242</color>
+    <color name="suggested_word_background_selected_lxx_dark">#19ffffff</color>
+    <color name="emoji_tab_page_indicator_background_lxx_dark">@*common:color/primary</color>
+
+    <!-- Light Material Theme -->
+    <color name="key_background_lxx_light">@*common:color/primary</color>
+    <color name="key_background_pressed_lxx_light">#ff303030</color>
+    <color name="key_text_color_lxx_light">#ccffffff</color>
+    <color name="suggested_word_color_lxx_light">#ccffffff</color>
+    <color name="key_functional_text_color_lxx_light">#ccffffff</color>
+    <color name="key_text_inactive_color_lxx_light">#80ffffff</color>
+    <color name="key_hint_letter_color_lxx_light">#80ffffff</color>
+    <color name="language_on_spacebar_text_color_lxx_light">#b3ffffff</color>
+    <color name="highlight_color_lxx_light">#ffffffff</color>
+    <color name="auto_correct_color_lxx_light">#ffffffff</color>
+    <color name="typed_word_color_lxx_light">#d9ffffff</color>
+    <color name="gesture_trail_color_lxx_light">#ff616161</color>
+    <color name="sliding_key_input_preview_color_lxx_light">#b3424242</color>
+    <color name="gesture_floating_preview_color_lxx_light">#df424242</color>
+    <color name="suggested_word_background_selected_lxx_light">#19ffffff</color>
+    <color name="emoji_tab_page_indicator_background_lxx_light">@*common:color/primary</color>
+
+    <!-- Misc -->
+    <color name="notification_accent_color">@*common:color/accent</color>
+</resources>

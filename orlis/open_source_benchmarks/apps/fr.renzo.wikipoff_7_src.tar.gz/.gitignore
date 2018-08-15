@@ -1,0 +1,37 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+
+tools/*.xml
+*.pyc
+*.sqlite
+!languages.sqlite
+tools/lib/python2.7
+*.swp
+tools/log*
+TODO
+srsly_google
+*journal
+tools/managedb.py
+tools/*.rb
+build
+.gradle
+gfx

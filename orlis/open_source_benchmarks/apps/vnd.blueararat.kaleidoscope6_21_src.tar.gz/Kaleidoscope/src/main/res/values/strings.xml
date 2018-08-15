@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kaleidoscope</string>
+    <string name="settings">Settings</string>
+    <string name="export">Save</string>
+    <string name="camera">Camera</string>
+    <string name="open">Open</string>
+    <string name="kp_number_of_mirrors">Number of Mirrors</string>
+    <string name="kp_category">Main</string>
+    <string name="open_picture">Open Picture</string>
+    <string name="kps_default">Reset Settings</string>
+    <string name="kps_summary">Press the button to load defaults</string>
+    <string name="kps_cat">Other</string>
+    <string name="png_save_name">Kaleidoscope_</string>
+    <string name="switch_camera">Cameras</string>
+    <string name="color_mode">Effects</string>
+    <string name="focus">Focus</string>
+    <string name="color_effect">Effects</string>
+    <string name="normal">Normal</string>
+    <string name="gray">Gray</string>
+    <string name="aqua">Aqua</string>
+    <string name="negative">Negative</string>
+    <string name="picture_saved_to">Picture saved to</string>
+    <string name="kp2cat_save">Save</string>
+    <string name="kp2_save_format">Save Format</string>
+    <string name="kp2_jpeg_quality">JPEG Compression</string>
+    <string name="pictures_will_be_saved">Pictures will be saved as</string>
+    <string name="kp_blur">Blur</string>
+    <string name="kp_blur_value">Blur Value</string>
+    <string name="choose_format">Picture Format</string>
+    <string name="save_location">Save Folder</string>
+    <string name="cant_read_folder">folder can\'t be read!</string>
+    <string name="nnew">New</string>
+    <string name="select">Finish</string>
+    <string name="file_name">Folder Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="create">Save</string>
+    <string name="no_data">No Data</string>
+    <string name="cant_save_picture_to">Can\'t save picture to</string>
+    <string name="please_change_folder">\nPlease, choose another folder in the preferences.</string>
+    <string name="cant_zoom_in">Can\'t zoom in. Memory is used up.</string>
+    <string name="picture_was_too_large">The picture was too large and therefore scaled down</string>
+    <string name="times">times.</string>
+    <string name="disable_camera_title">Camera in menu</string>
+    <string name="disable_camera_summary1">Camera is present in menu</string>
+    <string name="disable_camera_summary2">Camera is removed from menu</string>
+    <string name="hardware_accel_title">Hardware acceleration</string>
+    <string name="hardware_accel_summary">Requires Android +3.0</string>
+    <string name="hardware_accel_toast">Restart required</string>
+    
+</resources>

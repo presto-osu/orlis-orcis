@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable-hdpi/ic_menu_copy.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-hdpi/ic_menu_copy.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable-hdpi/ic_action_search.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-hdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable-hdpi/ic_action_new_light.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-hdpi/ic_action_new_light.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable-hdpi/ic_action_done_light.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-hdpi/ic_action_done_light.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable-hdpi/ic_menu_paste.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-hdpi/ic_menu_paste.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable-hdpi/ic_menu_select.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-hdpi/ic_menu_select.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable-hdpi/ic_launcher.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable-hdpi/ic_menu_cut.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-hdpi/ic_menu_cut.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable-hdpi/ic_action_done_dark.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-hdpi/ic_action_done_dark.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable-hdpi/ic_menu_da.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-hdpi/ic_menu_da.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable-hdpi/ic_action_new_dark.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-hdpi/ic_action_new_dark.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/release/drawable-hdpi/ic_menu_folder.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-hdpi/ic_menu_folder.png"
+    }
+]

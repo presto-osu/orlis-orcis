@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Theme -->
+    <color name="theme_primary">@*common:color/primary</color>
+    <color name="theme_primary_dark">@*common:color/primary_dark</color>
+    <color name="theme_accent">@*common:color/accent</color>
+
+    <!-- Icons -->
+    <color name="ic_tab_installed_color">@*common:color/accent</color>
+</resources>

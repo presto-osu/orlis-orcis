@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reload">Перезагрузить</string>
+    <string name="title_activity_pods">Выбрать стручок</string>
+    <string name="filter_hint">Введите домен стручка</string>
+    <string name="changePod">Сменить стручок</string>
+    <string name="clear_cookies">Очистить куки</string>
+    <string name="liked_posts">Понравилось сообщений</string>
+    <string name="commented_posts">Прокомментировано сообщений</string>
+    <string name="followed_tags">Метки</string>
+    <string name="exit_app">Выход</string>
+    <string name="mentions">Упоминания</string>
+    <string name="confirm_url">Подтвердить URL стручка</string>
+    <string name="podlist_source_note">Внимание: В этом списке отражены только безопасные стручки с podupti.me</string>
+    <string name="valid_pod">Пожалуйста введите имя действующего домена</string>
+    <string name="podlist_error">Ошибка: Не удалось получить список стручков!</string>
+    <string name="loading_podlist">Загрузка списка стручков ...</string>
+    <string name="no_internet">Извините, вы должны быть подключены к интернету для продолжения</string>
+    <string name="connection_established">Подключение к интернету установлено! Пожалуйста перезагрузите список при необходимости</string>
+    <string name="connection_lost">Внимание: Подключение к интернету потеряно!</string>
+    <string name="confirmation">Подтверждение</string>
+    <string name="confirm_pod">Вы хотите использовать стручок: </string>
+    <string name="confirm_exit">Вы уверены что хотите выйти?</string>
+    <string name="yes">ДА</string>
+    <string name="no">НЕТ</string>
+    <string name="please_wait">Пожалуйста подождите</string>
+    <string name="loading">Загрузка...</string>
+    <string name="change_pod_warning">Это действие приведет к удалению всех куков и данных сеанса. Вы действительно хотите сменить стручок?</string>
+    <string name="clear_cookies_warning">Очистка куков приведет к выходу из системы и удалению всех данных сеанса. Вы хотите продолжить?</string>
+</resources>

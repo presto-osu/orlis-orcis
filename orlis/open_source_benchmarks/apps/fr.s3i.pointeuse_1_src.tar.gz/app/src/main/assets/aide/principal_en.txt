@@ -1,0 +1,23 @@
+Oburo.O:
+
+	This application makes working hours counting easy as a simple touch of the screen. The calculation is automatic. The alternation between check in and  out work is automatic.
+
+Add a check in:
+
+	In order to add a check in/out since the application, just push the «Fast check in/out» button. The check in hour will be the same as the telephone hour. The first touch initiate the check in, the second will end it. 
+	In case of omission, an insertion is possible with the « insert a check in/out» button.
+
+Add a comment:
+	To comment a check in/out just click on this one from the calendar and add your comment. Press OK to validate or Cancel to ... cancel.
+
+Save:
+
+	Saving all the check in is possible by e-mail in CSV (Exel) format. An e-mail adress must previously be inserted in the parameters. The CSV file parameters can also be modified in the parameters section.
+
+Check in displaying:
+
+	Daily, weekly, monthly or annual chek in are viewable in the calendar tab. Just select a date or a period on the calendar, the display is automatic.
+
+Widget:
+
+	A widget is available on the desktop. It allows fast check and ongoing check in displaying.

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="view_count_text">%1$s pogledov</string>
+    <string name="upload_date_text">Objavljeno %1$s</string>
+    <string name="no_player_found">Predvajalnika pretoka ni mogoče najti. Ali želite namestiti program VLC?</string>
+    <string name="install">Namesti</string>
+    <string name="cancel">Prekliči</string>
+    <string name="open_in_browser">Odpri v brskalniku</string>
+    <string name="share">Omogoči souporabo</string>
+    <string name="download">Prejmi</string>
+    <string name="search">Poišči</string>
+    <string name="settings">Nastavitve</string>
+    <string name="did_you_mean">Ali ste mislili: %1$s?</string>
+    <string name="search_page">"Stran iskanja: "</string>
+    <string name="share_dialog_title">Omogoči souporabo z</string>
+    <string name="choose_browser">Izbor brskalnika</string>
+    <string name="screen_rotation">usmerjenost</string>
+    <string name="settings_activity_title">Nastavitve</string>
+    <string name="use_external_video_player_title">Uporabi zunanji predvajalnik videa</string>
+    <string name="use_external_audio_player_title">Uporabi zunanji predvajalnik zvoka</string>
+    <string name="download_path_title">Pot do mape za prejem videa</string>
+    <string name="download_path_summary">Pot do mape za prejem video datotek</string>
+    <string name="download_path_dialog_title">Vpis poti za prejem videa</string>
+    <string name="default_resolution_title">Privzeta ločljivost</string>
+    <string name="play_with_kodi_title">Predvajaj s Kodi</string>
+    <string name="kore_not_found">Programa Kore ni mogoče najti. Ali želite program namestiti?</string>
+    <string name="installeKore">Namesti program Kore</string>
+    <string name="show_play_with_kodi_title">Pokaži možnost \"Predvajaj s Kodi\"</string>
+    <string name="default_audio_format_title">Privzet zapis zvoka</string>
+    <string name="play_audio">Zvok</string>
+    <string name="webm_description">WebM — prost zapis</string>
+    <string name="m4a_description">m4a — višja kakovost posnetkov</string>
+    <string name="download_dialog_title">Prejem</string>
+    <string name="next_video_title">Naslednji video</string>
+    <string name="show_next_and_similar_title">Pokaži naslednji video in podobne posnetke</string>
+    <string name="url_not_supported_toast">Zapis naslova URL ni podprt.</string>
+    <string name="similar_videos_btn_text">Podobni posnetki</string>
+    <string name="search_language_title">Prednostni jezik vsebine</string>
+    <string name="settings_category_video_audio_title">Video in Zvok</string>
+    <string name="list_thumbnail_view_description">Sličica predogleda videa</string>
+    <string name="detail_thumbnail_view_description">Sličica predogleda videa</string>
+    <string name="detail_uploader_thumbnail_view_description">Sličica pošiljalnika</string>
+    <string name="autoplay_through_intent_title">Samodejno predvajanje prek vmesnika Intent</string>
+    <string name="autoplay_through_intent_summary">Začne samodejno predvajanje videa, ko je zagnan prek drugega programa.</string>
+    <string name="show_play_with_kodi_summary">Pokaže možnost predvajanja videa preko predstavnega središča Kodi.</string>
+    <string name="settingsCategoryEtcTitle">Drugo</string>
+
+    <string name="detail_likes_img_view_description">Všeč mi je</string>
+<string name="detail_dislikes_img_view_description">Ni mi všeč</string>
+    <string name="background_player_name">Ozadnji predvajalnik NewPipe</string>
+    <string name="loading">Nalaganje ...</string>
+    <string name="background_player_playing_toast">Predvajanje v ozadju</string>
+    <string name="play_btn_text">Predvajaj</string>
+
+    <string name="theme_title">Tema</string>
+    <string name="dark_theme_title">Temna</string>
+    <string name="light_theme_title">Svetla</string>
+
+    <string name="settings_category_appearance_title">Videz</string>
+    <string name="settings_category_other_title">Drugo</string>
+    <string name="network_error">Omrežna napaka</string>
+
+    <string name="use_tor_title">Uporabi Tor</string>
+    <string name="use_tor_summary">(Preizkusno) Vsili prenos prejema preko sistema Tor za povečanje zasebnosti (pretakanje videa ni še podprto).</string>
+<string name="download_path_audio_title">Pot do mape za prejem zvočnih datotek</string>
+    <string name="download_path_audio_summary">Pot do mape, ki je določena za prejem zvočnih datotek</string>
+    <string name="download_path_audio_dialog_title">Vpis poti za prejem zvočnih datotek</string>
+
+    <string name="err_dir_create">Ni mogoče ustvariti mape za prejem \'%1$s\'</string>
+    <string name="info_dir_created">Ustvarjena je mapa za prejem \'%1$s\'</string>
+<string name="general_error">Napaka</string>
+    <string name="could_not_load_thumbnails">Vseh sličic videov ni mogoče naložiti</string>
+    <string name="youtube_signature_decryption_error">Ni mogoče dešifrirati podpisa naslova URL videa.</string>
+    <string name="parsing_error">Ni mogoče razčleniti spletišča.</string>
+    <string name="content_not_available">Vsebina ni na voljo.</string>
+    <string name="blocked_by_gema">Blokirano zaradi pripomb GEMA.</string>
+
+    <string name="could_not_setup_download_menu">Ni mogoče nastaviti menija za prejem datotek.</string>
+
+
+    <string name="live_streams_not_supported">To je pretok v živo. Ta vrsta še ni podprta.</string>
+
+
+    <string name="content">Vsebina</string>
+    <string name="show_age_restricted_content_title">Pokaži starostno omejeno vsebino</string>
+    <string name="video_is_age_restricted">Za posnetek je določena starostna omejitev ogleda. Pred ogledom je treba ustrezno nastaviti omejitve med nastavitvami.</string>
+
+    <string name="light_parsing_error">Ni mogoče dokončno razčleniti spletišča.</string>
+    <string name="could_not_get_stream">Ni mogoče prejeti pretoka.</string>
+    <string name="sorry_string">Do te napake naj ne bi prišlo.</string>
+    <string name="error_report_button_text">Pošlji poročilo preko elektronske pošte</string>
+    <string name="error_snackbar_message">Prišlo je do napak.</string>
+    <string name="error_snackbar_action">POROČILO</string>
+    <string name="what_device_headline">Podrobnosti:</string>
+    <string name="what_happened_headline">Kaj se je zgodilo:</string>
+    <string name="error_details_headline">Podrobnosi:</string>
+
+
+    <string name="enable_background_audio">Predvajaj v ozadju</string>
+    <string name="video">Video</string>
+    <string name="audio">Zvok</string>
+    <string name="text">Besedilo</string>
+    <string name="logging">Dnevniki</string>
+    <string name="logging_normal">Običajno</string>
+    <string name="logging_verbose">Podrobno</string>
+    <string name="retry">Poskusi znova</string>
+    <string name="off">[izklopljeno]</string>
+    <string name="use_exoplayer_title">Uporabi ExoPlayer</string>
+    <string name="use_exoplayer_summary">Preizkusne zmožnosti</string>
+<string name="info_labels">Predmet:\\nZahteva:\\nJezik vsebine:\\nStoritev:\\nČas po GMT:\\nRazličica:\\nRazličica OS:\\nObseg IP:</string>
+    <string name="info_searched_lbl">Iskano:</string>
+    <string name="info_requested_stream_lbl">Zahtevan pretok:</string>
+    <string name="your_comment">Opomba (v angleščini):</string>
+    <string name="error_drm_not_supported">Zaščitena vsebina na ravneh API pod 18 ni podprta</string>
+    <string name="error_drm_unsupported_scheme">Ta naprava ne podpira zahtevane sheme DRM</string>
+    <string name="error_drm_unknown">Prišlo je do neznane napake DRM</string>
+    <string name="error_no_decoder">Na napravi ni nameščenega dekodirnika vrste <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="error_no_secure_decoder">Na napravi ni nameščenega varnega dekodirnika vrste <xliff:g id="mime_type">%1$s</xliff:g></string>
+    <string name="error_querying_decoders">Ni mogoče preiskati dekodirnikov na napravi</string>
+    <string name="error_instantiating_decoder">Ni mogoče začeti dekodirnika <xliff:g id="decoder_name">%1$s</xliff:g></string>
+    <string name="storage_permission_denied">Dovoljenje za dostop do shrambe je zavrnjeno</string>
+    <string name="autoplay_by_calling_app_title">Samodejno predvajaj vsebino, poslano iz drugega programa</string>
+    <string name="autoplay_by_calling_app_summary">Samodejno predvajaj vsebino, če je NewPipe klican iz drugega programa.</string>
+    <string name="report_error">Pošlji poročilo o napaki</string>
+    <string name="user_report">Poročilo uporabnika</string>
+
+    <string name="duration_live">v živo</string>
+
+    <string name="main_bg_subtitle">Za začetek začnite z iskanjem</string>
+    <string name="start">Začni</string>
+    <string name="pause">Premor</string>
+    <string name="view">Poglej</string>
+    <string name="delete">Izbriši</string>
+    <string name="checksum">Nadzorna vsota</string>
+
+    <string name="switch_mode">Preklopi med vrstičnim in mrežnim seznamom</string>
+
+
+    <string name="msg_url">Naslov URL za prejem</string>
+    <string name="msg_name">Ime datoteke</string>
+    <string name="msg_threads">Nizi</string>
+    <string name="msg_fetch_filename">Pridobi ime datoteke</string>
+    <string name="msg_error">Napaka</string>
+    <string name="msg_server_unsupported">Strežnik ni podprt</string>
+    <string name="msg_exists">Datoteka že obstaja</string>
+    <string name="msg_url_malform">Napačno oblikovan naslov URL oziroma nedostopen internet</string>
+    <string name="msg_running">Prejemanje</string>
+    <string name="msg_running_detail">Podrobnosti</string>
+    <string name="msg_wait">Počakajte ...</string>
+    <string name="msg_copied">Kopirano v odložišče.</string>
+    <string name="no_available_dir">Izberite mapo za prejem.</string>
+
+    <string name="add">Nova naloga</string>
+    <string name="finish">V redu</string>
+    <string name="downloads">Prejemi</string>
+    <string name="downloads_title">Prejemi</string>
+    <string name="settings_title">Nastavitve</string>
+    <string name="error_report_title">Poročilo o napaki</string>
+
+    </resources>

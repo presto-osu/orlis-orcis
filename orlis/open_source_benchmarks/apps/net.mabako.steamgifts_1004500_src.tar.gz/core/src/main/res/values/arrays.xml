@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preference_giveaway_load_images_entries">
+        <item>Never</item>
+        <item>Only on giveaway pages</item>
+        <item>Always</item>
+    </string-array>
+
+    <string-array name="preference_giveaway_load_images_entry_values">
+        <item>-</item>
+        <item>details</item>
+        <item>details;list</item>
+    </string-array>
+
+    <string-array name="preference_sidebar_discussion_list_entries">
+        <item>None</item>
+        <item>Compact</item>
+        <item>All</item>
+    </string-array>
+
+    <string-array name="preference_sidebar_discussion_list_entry_values">
+        <item>hide</item>
+        <item>compact</item>
+        <item>full</item>
+    </string-array>
+
+    <string-array name="preference_browser_entries">
+        <item>WebView (default)</item>
+        <item>External Browser</item>
+    </string-array>
+
+    <string-array name="preference_browser_entry_values">
+        <item>default</item>
+        <item>external</item>
+    </string-array>
+
+    <string-array name="preference_browser_entries_with_tabs">
+        <item>WebView</item>
+        <item>Chrome Tab (default)</item>
+        <item>External Browser</item>
+    </string-array>
+
+    <string-array name="preference_browser_entry_values_with_tabs">
+        <item>webview</item>
+        <item>default</item>
+        <item>external</item>
+    </string-array>
+</resources>

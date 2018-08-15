@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name" translatable="false">Beacon Locator</string>
+    <string name="nav_drawer_open">open drawer</string>
+    <string name="nav_drawer_close">close drawer</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_action_ok">OK</string>
+    <string name="dialog_action_delete">Delete</string>
+    <string name="dialog_action_cancel">Cancel</string>
+    <string name="dialog_action_exit">Exit</string>
+    <string name="dialog_error_title">Error</string>
+
+    <string name="dialog_error_functionality_limited">Functionality limited</string>
+    <string name="error_message_location_access_not_granted">\"Since location access has not been granted, this app will not be able to discover beacons when in the background.</string>
+    <string name="dialog_error_need_location_access">This app needs location access</string>
+    <string name="error_message_location_access_need_tobe_granted">Please grant location access so this app can detect beacons in the background.</string>
+    <string name="dialog_error_ble_not_enabled">Bluetooth not enabled</string>
+    <string name="error_message_please_enable_bluetooth">Please enable bluetooth in settings and restart this application.</string>
+    <string name="dialog_error_ble_not_supported">Bluetooth LE not available</string>
+    <string name="error_message_bluetooth_le_not_supported">Sorry, this device does not support Bluetooth LE.</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Scan settings -->
+    <string name="pref_title_background_scan">Enable background scan</string>
+    <string name="pref_description_background_scan">Enables to run scanning in background and trigger actions.</string>
+    <string name="pref_title_background_scan_timeout">Background scan interval (only Android 4.X)</string>
+    <string name="pref_title_region_name">Region name</string>
+    <string name="pref_default_region_name">Default</string>
+    <string name="pref_title_manual_scan_timeout">Manual scan interval</string>
+    <string name="pref_title_scan_sorting">Sorting mode</string>
+    <string name="pref_title_scan_layout_category" translatable="false">Scan Layouts</string>
+    <string name="pref_scan_parser_layout_eddystone_uid">Eddystone UID</string>
+    <string name="pref_scan_parser_layout_eddystone_url">Eddystone URL</string>
+    <string name="pref_scan_parser_layout_eddystone_tlm">Eddystone TLM</string>
+
+
+    <!-- settings for actions -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_use_notifications">Use notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- drawer navigation -->
+    <string name="pref_header_scanner">Scan</string>
+    <string name="pref_header_actions">Action</string>
+
+    <!-- titles activities-->
+    <string name="title_activity_main_navigation">Beacon Locator</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_beacon">Beacon Action</string>
+
+    <!-- settings menu actions -->
+    <string name="action_settings">Settings</string>
+    <string name="action_view_on_github">GitHub</string>
+    <string name="action_donate">Donate</string>
+    <string name="action_help">Help</string>
+
+
+    <!-- Popup menu long click -->
+    <string name="action_detected_beacon_add">Manage</string>
+    <string name="action_detected_beacon_add_filter">Add To Filter</string>
+
+    <string name="action_tracked_list_delete">Delete</string>
+    <string name="action_tracked_action_add">Add Event Action</string>
+
+    <!-- left drawer menu actions -->
+    <string name="title_action_group_beacon_manage">Beacons</string>
+    <string name="action_scan_around">Scan</string>
+    <string name="action_scan_managed">Radar</string>
+    <string name="action_tracked_list">Manage</string>
+
+    <!-- detected beacon properties -->
+    <string name="mv_text_rssi" translatable="false">RSSI</string>
+    <string name="mv_text_rssi_unit">dBm</string>
+    <string name="mv_text_txpower" translatable="false">TX</string>
+    <string name="mv_text_distance_unit">m</string>
+    <string name="mv_text_uuid" translatable="false">UUID</string>
+    <string name="mv_text_major" translatable="false">Major</string>
+    <string name="mv_text_minor" translatable="false">Minor</string>
+    <string name="mv_text_distance">Distance</string>
+    <string name="mv_text_vendor">Vendor</string>
+    <string name="mv_text_name">Bluetooth Name</string>
+    <string name="mv_text_url" translatable="false">URL</string>
+    <string name="mv_text_instance" translatable="false">Instance</string>
+    <string name="mv_text_namespace" translatable="false">Namespace</string>
+
+    <!-- Radar fragment -->
+    <string name="title_fragment_radar_beacons">Beacon Radar</string>
+    <string name="text_scanning">Scanning...</string>
+    <string name="text_scanner_found_beacons_size">%1$d found</string>
+
+    <!-- Scan fragment -->
+    <string name="title_fragment_detected_beacons">Beacon Scanner</string>
+    <string name="text_empty_list">No Data</string>
+    <string name="text_scan_not_found">No beacon found in your neighborhood</string>
+    <string name="text_please_start_scan">Press scan button for detecting beacons</string>
+
+    <!-- tracked list fragment -->
+    <string name="title_fragment_tracked_beacons">Beacon List</string>
+    <string name="text_empty_list_tracked_beacons">No tracked beacons. Go to scan</string>
+    <string name="tab_title_beacon_info">Info</string>
+    <string name="tab_title_beacon_event">Event</string>
+    <string name="tab_title_beacon_action">Action</string>
+    <string name="tab_title_beacon_notification">Notification</string>
+
+    <!-- Beacon details info dialog tab -->
+
+    <string name="pref_bd_name_category">Name and Enable watched beacon</string>
+    <string name="pref_bd_switch_active">Enable it</string>
+    <string name="pref_bd_summary_switch_active">Enables action for the beacon</string>
+    <string name="pref_bd_name">Region Name</string>
+    <string name="pref_bd_default_name">Default action name</string>
+
+    <string name="pref_bd_uuid" translatable="false">UUID</string>
+    <string name="pref_bd_type">Type</string>
+    <string name="pref_bd_rssi" translatable="false">RSSI</string>
+    <string name="pref_bd_txpower">Tx Power</string>
+    <string name="pref_bd_bluetooth_name">Bluetooth Name</string>
+    <string name="pref_bd_bluetooth_address">Bluetooth Address</string>
+    <string name="pref_bd_distance">Distance</string>
+    <string name="pref_bd_major" translatable="false">Major</string>
+    <string name="pref_bd_minor" translatable="false">Minor</string>
+
+    <!-- Beacon events dialog tab -->
+    <string name="pref_be_event_category">Select type of event</string>
+    <string name="pref_be_event_range">Event range</string>
+    <string name="pref_be_summary_event_range">Defined event for triggering actions</string>
+    <string name="pref_be_event_enter_region">Enter region (in range)</string>
+    <string name="pref_be_summary_event_enter_region">Occurs when beacon is entering region</string>
+    <string name="pref_be_event_leave_region">Leave region (out of range)</string>
+    <string name="pref_be_summary_event_leave_region">Occurs when beacon is going out of range</string>
+    <string name="pref_be_event_near">Beacon near you</string>
+    <string name="pref_be_summary_event_near">Occurs when beacon is close to you</string>
+
+    <!-- Beacon actions dialog tab -->
+    <string name="pref_ba_action_category">Select action and set param</string>
+    <string name="pref_ba_action_param1">Action parameter</string>
+    <string name="pref_ba_action_selection">Action Type</string>
+    <string name="pref_ba_action_test_category">Test your action</string>
+    <string name="pref_ba_action_test_button">Execute</string>
+
+
+    <!-- Beacon notifications dialog tab -->
+    <string name="pref_bn_notification_category">Enable alarm notification</string>
+    <string name="pref_bn_notification_action">Notification</string>
+    <string name="pref_bn_notification_action_message">Message</string>
+    <string name="pref_bn_default_notification_action_message">Default Message (Replace with yours)</string>
+    <string name="pref_bn_notification_action_ringtone">Ring tone</string>
+    <string name="pref_bn_none_notification_action_ringtone">None (Silent)</string>
+    <string name="pref_bn_notification_action_vibrate">Vibrate</string>
+
+    <!-- item action mvv -->
+    <string name="action_add_action">ACTION</string>
+    <string name="mv_action_text_name">Name</string>
+    <string name="mv_action_text_event">Event</string>
+    <string name="mv_event_type_leaves_region">Leaves region</string>
+    <string name="mv_event_type_enters_region">Enters region</string>
+    <string name="mv_event_type_near_you">Near you</string>
+    <string name="mv_action_status_enable">Enabled</string>
+    <string name="mv_action_status_disabled">Disabled</string>
+
+    <!-- action types  -->
+    <string name="mv_action_type_none">None</string>
+    <string name="mv_action_type_tasker">Tasker</string>
+    <string name="mv_action_type_set_silent_on">Silent sound profile</string>
+    <string name="mv_action_type_set_silent_off">Normal sound profile</string>
+    <string name="mv_action_type_start_app">Start application</string>
+    <string name="mv_action_type_get_location">Get Location</string>
+    <string name="mv_action_type_broadcast_intent">Broadcast intent</string>
+    <string name="mv_action_type_open_url">Open Url</string>
+    <string name="mv_action_type_open_web">Open WebUrl</string>
+
+    <!-- tasker -->
+    <string name="action_tasker_default">Select task</string>
+    <string name="action_tasker_download">Buy/try Tasker</string>
+    <string name="action_tasker_message">Tasker is an application for Android which performs tasks (sets of actions) based on contexts (application, time, date, location, event, gesture) in user-defined profiles or in clickable or timer home screen widgets.
+\n\nnBeacon Locator may use Beacons to trigger the task you specify.</string>
+    <string name="tasker_download">Google Play</string>
+    <string name="tasker_website">Download trial</string>
+    <string name="tasker_not_installed">Tasker application is not installed.</string>
+    <string name="tasker_error">An error occurred when launching the task.</string>
+    <string name="tasker_success">The task has been executed.</string>
+    <string name="tasker_disabled">Tasker is disabled.</string>
+    <string name="tasker_external_access_denided">External access to Tasker is disabled. See Preferences -> MISC -> Allow External Access in the Tasker.</string>
+
+    <!-- actions -->
+    <string name="action_alarm_text_title">Beacon Event"</string>
+    <string name="action_location_no_location">Current GPS Location is unknown</string>
+    <string name="action_urlaction_error">Cannot open url, url is invalid or malformed</string>
+    <string name="action_start_application_error">Can not start application, not exists</string>
+    <string name="action_action_param_is_required">You have to provide a parameter for the action</string>
+    <string name="notification_display_last_position">your location on map</string>
+
+    <!-- enums -->
+    <string name="proximity_immediate">Immediate</string>
+    <string name="proximity_near">Near</string>
+    <string name="proximity_far">Far</string>
+
+    <string name="sort_type_nearest_first">Nearest first</string>
+    <string name="sort_type_furthest_first">Furthest first</string>
+    <string name="sort_type_uuid_major_minor">UUID, Major and Minor</string>
+
+</resources>

@@ -1,0 +1,85 @@
+Abbreviation: Dor    
+Genitive: Doradus    
+Pronunciation: /dɒˈreɪdoʊ/, genitive /dɒˈreɪdəs/    
+Symbolism: the swordfish    
+Right ascension: 5    
+Declination: −65    
+Family: Bayer    
+Quadrant: SQ1    
+Area: 179 sq. deg. (72nd)    
+Main stars: 3    
+Bayer/Flamsteed stars: 14    
+Stars with planets: 5    
+Stars brighter than 3.00m: 0    
+Stars within 10.00 pc (32.62 ly): 0    
+Brightest star: α Dor (3.27m)    
+Nearest star: GJ 2036 (36.50 ly, 11.19 pc)    
+Messier objects: 0    
+Meteor showers: None    
+Bordering constellations: Caelum Horologium Reticulum Hydrus Mensa Volans Pictor    
+Visible at latitudes between +20° and −90°. Best visible at 21:00 (9 p.m.) during the month of January.
+    
+Dorado /dɒˈreɪdoʊ/ is a constellation in the southern sky. It was named in the late 16th century and is now one of the 88 modern constellations. Its name refers to the dolphinfish (Coryphaena hippurus), which is known as dorado in Portuguese, although it has also been depicted as a swordfish. Dorado is notable for containing most of the Large Magellanic Cloud, the remainder being in the constellation Mensa. The South ecliptic pole also lies within this constellation.
+Even though the name Dorado is not Latin but Portuguese, astronomers give it the Latin genitive form Doradus when naming its stars; they are treating it (like the adjacent constellation Argo Navis) as if it were a feminine proper name of Greek origin ending in -ō (like Io or Callisto or Argo), names that have a genitive ending in -ūs.
+
+History
+Dorado was one of twelve constellations named by Petrus Plancius from the observations of Pieter Dirkszoon Keyser and Frederick de Houtman, and it first appeared on a 35-cm diameter celestial globe published in 1597 (or 1598) in Amsterdam by Plancius with Jodocus Hondius. Its first depiction in a celestial atlas was in Johann Bayer's Uranometria of 1603 where it was also named Dorado. Dorado has been represented historically as a dolphinfish and a swordfish; the latter depiction is inaccurate. It has also been represented as a goldfish. The constellation was also known in the 17th and 18th century as Xiphias, the swordfish, first attested in Johannes Kepler's edition of Tycho Brahe's star list in the Rudolphine Tables of 1627. The name Dorado ultimately become dominant and was adopted by the IAU.
+
+Notable features
+Stars
+Alpha Doradus is a blue-white star of magnitude 3.3, 176 light-years from Earth. It is the brightest star in Dorado. Beta Doradus is a notably bright Cepheid variable star. It is a yellow-tinged supergiant star that has a minimum magnitude of 4.1 and a maximum magnitude of 3.5. 1040 light-years from Earth, Beta Doradus has a period of 9 days and 20 hours.
+R Doradus is one of the many variable stars in Dorado. S Dor, 9.721 hypergiant in the Large Magellanic Cloud, is the prototype of S Doradus variable stars. The variable star R Doradus 5.73 has the largest known[update] apparent size of any star. Gamma Doradus is the prototype of the Gamma Doradus variable stars.
+Supernova 1987A was the closest supernova to occur since the invention of the telescope. SNR 0509-67.5 is the remnant of an unusually energetic Type 1a supernova from about 400 years ago.
+HE 0437-5439 is a hypervelocity star escaping from the Milky Way/Magellanic Cloud system.
+Dorado is also the location of the South Ecliptic pole, which lies near the fish's head. The pole was called "Polus Doradinalis" by Willem Jansson Blaeu.
+
+Deep-sky objects
+Because Dorado contains part of the Large Magellanic Cloud, it is rich in deep sky objects. The Large Magellanic Cloud, 1,000 light-years in diameter, is a satellite galaxy of the Milky Way, located at a distance of 179,000 light-years. It has been deformed by its gravitational interactions with the larger Milky Way. In 1987, it became host to SN 1987A, the first supernova of 1987 and the closest since 1604. This 25,000 light-year wide galaxy contains over 10,000 million stars. All coordinates given are for Epoch J2000.0.
+NGC 1566 is an intermediate spiral galaxy.
+NGC 1566 (RA 04h 20m 00s Dec -56° 56.3′) Skyview image is a face-on spiral galaxy. It gives its name to the NGC 1566 Group of galaxies.
+NGC 1755 (RA 04h 55m 13s Dec -68° 12.2′) Skyview image is a globular cluster.
+NGC 1763 (RA 04h 56m 49s Dec -68° 24.5′) Skyview image is a bright nebula associated with three type B stars.
+NGC 1820 (RA 05h 04m 02s Dec -67° 15.9′) Skyview image is an open cluster.
+NGC 1850 (RA 05h 08m 44s Dec -68° 45.7′) Skyview image is a globular cluster.
+NGC 1854 (RA 05h 09m 19s Dec -68° 50.8′) Skyview image is a globular cluster.
+NGC 1869 (RA 05h 13m 56s Dec -67° 22.8′) Skyview image is an open cluster.
+NGC 1901 (RA 05h 18m 15s Dec -68° 26.2′) Skyview image is an open cluster.
+NGC 1910 (RA 05h 18m 43s Dec -69° 13.9′) Skyview image is an open cluster.
+NGC 1936 (RA 05h 22m 14s Dec -67° 58.7′) Skyview image is a bright nebula and is one of four NGC objects in close proximity, the others being NGC 1929, NGC 1934 and NGC 1935.
+NGC 1978 (RA 05h 28m 36s Dec -66° 14.0′) Skyview image is an open cluster.
+NGC 2002 (RA 05h 30m 17s Dec -66° 53.1′) Skyview image is an open cluster.
+NGC 2027 (RA 05h 35m 00s Dec -66° 55.0′) Skyview image is an open cluster.
+NGC 2032 (RA 05h 35m 21s Dec -67° 34.1′) (Seagull Nebula) Skyview image is a nebula complex that contains four separate NGC designations: NGC 2029, NGC 2032, NGC 2035 and NGC 2040.
+NGC 2080, also called the "Ghost Head Nebula", is an emission nebula that is 50 light-years wide in the Large Magellanic Cloud. It is named for the two distinct white patches that it possesses, which are regions of recent star formation. The western portion is colored green from doubly-ionized oxygen, the southern portion is red from hydrogen alpha emissions, and the center region is colored yellow from both oxygen and hydrogen emissions. The western white patch, A1, has one massive, recently formed star inside. The eastern patch, A2, has several stars hidden in its dust.
+NGC 2070 is a nebula in the Large Magellanic Cloud, also known as the Tarantula Nebula and named for its spiderlike shape. It is also designated 30 Doradus, as it is visible to the naked eye as a slightly out-of-focus star. Larger than any nebula in the Milky Way at 1000 light-years in diameter, it is also brighter, because it is illuminated by a cluster of stars, R136. The illuminating stars are supergiants.
+NGC 2164 (RA 05h 58m 53s Dec -68° 30.9′) Skyview image is a globular cluster.
+N44 is a superbubble in the Large Magellanic Cloud that is 1,000 light-years wide. Its overall structure is shaped by the 40 hot stars towards its center. Within the superbubble of N44 is a smaller bubble catalogued as N44F. It is approximately 35 light-years in diameter and is shaped by an incredibly hot star at its center, which has a stellar wind speed of 7 million kilometers per hour. N44F also features dust columns with probable star formation hidden inside.
+
+Equivalents
+In Chinese astronomy, the stars of Dorado are located in two of Xu Guangqi's Southern Asterisms (近南極星區, Jìnnánjíxīngōu): the White Patches Attached (夾白, Jiābái) and the Goldfish (金魚, Jīnyú).
+
+Namesakes
+USS Dorado (SS-248) and USS Dorado (SS-526), two United States Navy ships, are named after the constellation. Correction to this: US Navy submarines are traditionally named after fish. The submarines cited are named after the dorado, which is also known as dolphin fish (not to be confused with dolphin) and mahi-mahi.
+
+References
+Notes
+The above deep sky objects appear in Norton's Star Atlas, 1973 edition.
+Co-ordinates are obtained from Uranometria Chart Index and Skyview.
+Images of the deep sky objects described herein may be viewed at Skyview.
+
+Citations
+^ a b c d e Ridpath & Tirion 2001, pp. 140-141.
+^ a b Staal 1988, p. 244.
+^ "R Doradus". SIMBAD. Retrieved 28 July 2012. 
+^ a b Wilkins, Jamie; Dunn, Robert (2006). 300 Astronomical Objects: A Visual Reference to the Universe (1st ed.). Buffalo, New York: Firefly Books. ISBN 978-1-55407-175-3.  |accessdate= requires |url= (help)
+^ "Grand swirls". Picture of the Week. ESA/Hubble. Retrieved 6 June 2014. 
+^ Wilkins & Dunn 2006.
+^ (Chinese) AEEA (Activities of Exhibition and Education in Astronomy) 天文教育資訊網 2006 年 7 月 27 日
+
+References
+Ridpath, Ian; Tirion, Wil (2001), Stars and Planets Guide, Princeton University Press, ISBN 0-691-08913-2 
+Ridpath, Ian; Tirion, Wil (2007), Stars and Planets Guide, Princeton University Press, ISBN 978-0-691-13556-4 
+Staal, Julius D.W. (1988), The New Patterns in the Sky, McDonald and Woodward Publishing Company, ISBN 0-939923-04-1 
+Wilkins, Jamie; Dunn, Robert (2006), 300 Astronomical Objects: A Visual Reference to the Universe, Firefly Books, ISBN 978-1-55407-175-3
+ 
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Dorado&oldid=611776012"

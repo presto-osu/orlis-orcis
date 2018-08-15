@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_box"
+    android:padding="@dimen/endgame_padding">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/endGameTitle"
+            android:textSize="@dimen/large_text_size" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+
+            <ImageView
+                android:layout_width="@dimen/highscore_medal_size"
+                android:layout_height="@dimen/highscore_medal_size"
+                android:src="@drawable/highscore_medal"
+                android:id="@+id/highScoreMedalImageView"
+                android:gravity="end" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/endGameText"
+        android:textSize="@dimen/small_text_size"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/box_margins" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highScoreText"
+        android:textSize="@dimen/small_text_size"
+        android:layout_gravity="left"
+        android:layout_marginBottom="@dimen/box_margins" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/endgame_replay"
+            android:textSize="@dimen/small_text_size"
+            android:id="@+id/replayButton" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/endgame_new_game_button"
+            android:textSize="@dimen/small_text_size"
+            android:id="@+id/newGameButton" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seedTextView"
+        android:text="your seed here"
+        android:textSize="@dimen/small_text_size"
+        android:layout_gravity="end" />
+
+</LinearLayout>

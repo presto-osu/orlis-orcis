@@ -1,0 +1,13 @@
+Rounding :
+
+	Rounding check in allows to round the check in to a lower value.
+	For example, a time of 1h02min will be rounded to 1 hour if the rounding  interval is 5 minute.
+	In this case, 1h54min will be rounded to 1h50min.
+
+E-mail adress :
+
+	This is the e-mail adress that will be used in order to receive saving data. E-mail sending will be launched since an Android e-mail application that will be choosen by the user at saving time.
+
+Separator :
+
+	The separator will be the one selected during saving in CSV format. This allows to collect directly check in in an Excel table.

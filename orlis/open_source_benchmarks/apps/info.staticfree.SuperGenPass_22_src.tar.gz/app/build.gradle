@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "info.staticfree.SuperGenPass"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionName '3.0.0'
+        versionCode 22
+
+        testApplicationId "info.staticfree.SuperGenPass.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+        setProperty("archivesBaseName", "$applicationId-$versionCode-$versionName")
+    }
+
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+        debug {
+            applicationIdSuffix '.debug'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-annotations:23.1.1'
+    compile 'commons-codec:commons-codec:1.8'
+    compile 'com.google.zxing:android-integration:3.2.1'
+}

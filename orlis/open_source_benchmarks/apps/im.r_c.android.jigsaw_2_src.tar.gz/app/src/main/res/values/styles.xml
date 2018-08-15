@@ -1,0 +1,50 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <style name="CropImageActivityTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="TextView.Title" parent="TextView">
+        <item name="android:textSize">42sp</item>
+        <item name="android:textColor">@color/color_title_text</item>
+    </style>
+
+    <style name="TextView.Label" parent="TextView">
+        <item name="android:textColor">@color/color_label_text</item>
+    </style>
+
+    <style name="TextView.LabelSecondary" parent="TextView">
+        <item name="android:textColor">@color/color_label_text_secondary</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="LabelLayout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/label_background</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:minWidth">60dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/color_button_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+    </style>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string-array name="intervalNames">
+		<item>10 minutes</item>
+		<item>30 minutes</item>
+		<item>1 hour</item>
+		<item>2 hours</item>
+		<item>12 hours</item>
+		<item>24 hours</item>
+	</string-array>
+
+	<string-array name="intervalValues">
+		<item>10</item>
+		<item>30</item>
+		<item>60</item>
+		<item>120</item>
+		<item>720</item>
+		<item>1440</item>
+	</string-array>
+
+	<string-array name="animeProviderNames">
+		<item>kissanime.com</item>
+		<item>nyaa.se</item>
+		<item>twist.moe</item>
+	</string-array>
+
+	<string-array name="animeProviderValues">
+		<item>KissAnime</item>
+		<item>Nyaa</item>
+		<item>AnimeTwist</item>
+	</string-array>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Vouchers"
+        android:id="@+id/available_vouchers_label"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/available_vouchers"
+        android:layout_below="@+id/available_vouchers_label"
+        android:layout_alignRight="@+id/available_vouchers_label"
+        android:layout_alignEnd="@+id/available_vouchers_label"
+        android:text="0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Price"
+        android:id="@+id/price_label"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/available_vouchers"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/price"
+        android:layout_below="@+id/price_label"
+        android:layout_alignRight="@+id/available_vouchers"
+        android:layout_alignEnd="@+id/available_vouchers"
+        android:text="13.52" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Result"
+        android:id="@+id/show"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/available_vouchers"
+        android:layout_toEndOf="@+id/available_vouchers"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp" />
+</RelativeLayout>

@@ -1,0 +1,81 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:3:5-53
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:5:5-31
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:4:5-29
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:8:5-70
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:9:22-65
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:10:22-77
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:11:22-72
+application
+ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:13:5-28:19
+MERGED from [com.android.support:appcompat-v7:20.0.0] /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/AndroidManifest.xml:17:5-19
+MERGED from [com.android.support:support-v4:20.0.0] /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:17:5-19
+	android:label
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:16:9-41
+	android:allowBackup
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:15:9-45
+	android:theme
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:17:9-40
+activity#com.prhlt.aemus.Read4SpeechExperiments.MainActivity
+ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:21:13-45
+	android:configChanges
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:20:13-74
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:19:13-79
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.prhlt.aemus.Read4SpeechExperiments.settings
+ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:27:9-83
+	android:name
+		ADDED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml:27:19-81
+uses-sdk
+INJECTED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:20.0.0] /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/AndroidManifest.xml:16:5-42
+MERGED from [com.android.support:support-v4:20.0.0] /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/AndroidManifest.xml:16:5-42
+	android:targetSdkVersion
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yan/backup/android-obfuscator/apps/com.prhlt.aemus.Read4SpeechExperiments_16_src.tar.gz/app/src/main/AndroidManifest.xml

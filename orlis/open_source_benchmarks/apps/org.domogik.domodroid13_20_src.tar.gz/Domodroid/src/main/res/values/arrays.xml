@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * This file is part of Domodroid.
+ * 
+ * Domodroid is Copyright (C) 2011 Pierre LAINE, Maxime CHOFARDET
+ * 
+ * Domodroid is free software: you can redistribute it and/or modify it under the
+ * terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ * 
+ * Domodroid is distributed in the hope that it will be useful, but WITHOUT ANY
+ * WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+ * A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License along with
+ * Domodroid. If not, see <http://www.gnu.org/licenses/>.
+ -->
+<resources>
+<string-array name="icon_area_array">
+    <item>area</item>
+    <item>attic</item>
+    <item>basement</item>
+    <item>basement2</item>
+ 	<item>first_floor</item>
+    <item>first_floor2</item>
+    <item>ground_floor</item>
+    <item>ground_floor2</item>
+    <item>second_floor</item>
+    <item>second_floor2</item>
+    <item>bathroom</item>
+    <item>bedroom</item>
+    <item>garage</item>
+    <item>garden</item>
+    <item>office</item>
+    <item>kitchen</item>
+    <item>kidsroom</item>
+    <item>tvlounge</item>
+    <item>unknow</item>
+    <item>air_conditionning</item>
+	<item>appliance</item>
+	<item>battery</item>
+	<item>bluetooth</item>
+	<item>christmas_tree</item>
+	<item>computer</item>
+	<item>cron</item>
+	<item>door</item>
+	<item>electricity</item>
+	<item>heating</item>
+	<item>light</item>
+	<item>mirror</item>
+	<item>motion</item>
+    <item>music</item>
+    <item>nanoztag</item>
+	<item>portal</item>
+	<item>scene</item>
+	<item>security_camera</item>
+	<item>server</item>
+	<item>socket</item>
+	<item>shutter</item>
+	<item>telephony</item>
+	<item>temperature</item>
+	<item>tv</item>
+	<item>usage</item>
+	<item>ventilation</item>
+	<item>water</item>
+	<item>water_tank</item>
+	<item>window</item>
+	<item>map</item>
+</string-array>
+
+    <string-array name="device_sync_order_name">
+        <item>@string/sync_by_device_name</item>
+        <item>@string/sync_by_device_type</item>
+        <item>@string/sync_by_plugin</item>
+    </string-array>
+
+    <string-array name="device_sync_order_value">
+        <item>device_name</item>
+        <item>device_type</item>
+        <item>plugin</item>
+    </string-array>
+</resources>

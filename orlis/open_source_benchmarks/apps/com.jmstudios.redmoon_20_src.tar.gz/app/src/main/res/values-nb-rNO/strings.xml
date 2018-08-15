@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="app_name">Rød måne</string>
+    <string name="shades_settings">Rød måne</string>
+    <string name="shortcut_activity">Veksle Rød måne</string>
+
+    <string name="running">Kjører. Pause for å installere APK-er</string>
+    <string name="paused">Satt på pause</string>
+
+    <string name="pref_title_appearance">Filter</string>
+    <string name="pref_title_automatic_filter">Filtreringstider</string>
+    <string name="pref_title_startup">Oppstart</string>
+    <string name="pref_title_other">Annet</string>
+
+    <string name="button_add_profile">Legg til</string>
+    <string name="button_remove_profile">Slett</string>
+    <string name="shades_dim_level">Filternivå</string>
+    <string name="shades_intensity_level">Intensitetsnivå</string>
+    <string name="shades_color_temp">Fargetemperatur</string>
+    <string name="control_brightness_title">Lavere lysstyrke</string>
+
+    <string name="automatic_filter_title">Veksle modus</string>
+    <string name="custom_start_time_title">Gjennoppta om</string>
+    <string name="custom_end_time_title">Pause om</string>
+    <string name="location_title">Plassering</string>
+    <string name="location_not_set">Ikke satt</string>
+    <string name="searching_location">Søker etter plassering</string>
+
+    <string name="dark_theme">Mørk drakt</string>
+
+    <string name="email_me_title">Send meg epost på marienraat@riseup.net</string>
+    <string name="email_me_summary">Send epost om feilrettinger og forslag</string>
+    <string name="project_page_title">Besøk prosjektsiden</string>
+    <string name="project_page_summary">Finn mer info, gi tilbakemelding og bidra</string>
+    <string name="toast_warning_install">Du vil ikke kunne installere APK-er mens filteret kjører.</string>
+    <string name="toast_warning_no_location">Skru på plasseringstjenester for å bestemme plassering</string>
+
+    <string name="help_snackbar_text">Trykk på bryteren for å skru på den Røde månen</string>
+
+    <string name="add_new_profile_dialog_title">Skriv inn profilnavn</string>
+    <string name="add_new_profile_edit_hint">Profilnavn</string>
+    <string name="remove_profile_dialog_title">Slett denne profilen?</string>
+    <string name="set_dialog">Sett</string>
+    <string name="ok_dialog">OK</string>
+    <string name="cancel_dialog">Avbryt</string>
+
+    <string name="toggle_shortcut_title">Veksle</string>
+
+    <string name="standard_profiles_array_0">Egendefinert</string>
+    <string name="standard_profiles_array_1">Forvalg</string>
+    <string name="standard_profiles_array_2">Leser</string>
+
+    <string name="automatic_filter_options_array_0">Manuell</string>
+    <string name="automatic_filter_options_array_1">Automatisk (sola)</string>
+    <string name="automatic_filter_options_array_2">Automatisk (egendefinert)</string>
+
+    <string name="latitude_short">Breddegrad</string>
+    <string name="longitude_short">Lengdegrad</string>
+    <string name="resume_action">Fortsett</string>
+    <string name="pause_action">Pause</string>
+
+    </resources>

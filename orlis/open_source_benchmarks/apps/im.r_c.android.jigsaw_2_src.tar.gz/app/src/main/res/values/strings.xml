@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">J 拼图</string>
+    <string name="time_count">计时</string>
+    <string name="step_count">步数</string>
+    <string name="change_picture">换张图片</string>
+    <string name="restart">重新开始</string>
+    <string name="look_up_original_picture">查看原图</string>
+    <string name="win_prompt_format">你赢了! 用时 %1$s, 走了 %2$s 步.</string>
+    <string name="confirm_restart_msg">你确定要重新开始吗? 当前游戏进度会消失哦~</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="choose_picture_to_start">点击这里选择一张图片开始游戏</string>
+    <string name="choose_from_gallery">从相册选择</string>
+
+    <string name="bottom_button_trans_name">bottom button trans</string>
+    <string name="crop">裁剪</string>
+    <string name="not_started">你还没有开始哦~</string>
+    <string name="default_time">00:00</string>
+    <string name="default_step">0</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Movian Remote</string>
+
+    <string name="version" translatable="false">v1.1.0</string>
+
+    <string name="settings_profiles_key" translatable="false">profiles</string>
+
+    <string name="settings_profiles_choose_key" translatable="false">profiles_choose</string>
+    <string name="settings_profiles_choose_title">Choose</string>
+    <string name="settings_profiles_choose_summary">Choose which profile to use</string>
+
+    <string name="settings_profiles_add_key" translatable="false">profiles_add</string>
+    <string name="settings_profiles_add_title">Add</string>
+    <string name="settings_profiles_add_summary">Add a new profile with current settings</string>
+    <string name="settings_profiles_add_hint">name</string>
+
+    <string name="settings_profiles_delete_key" translatable="false">profiles_delete</string>
+    <string name="settings_profiles_delete_title">Delete</string>
+    <string name="settings_profiles_delete_summary">Delete an existing profile</string>
+
+    <string name="settings_ipAddress_key" translatable="false">ipAddress</string>
+    <string name="settings_ipAddress_title">IP Address</string>
+    <string name="settings_ipAddress_summary">IP address of Movian</string>
+    <string name="settings_ipAddress_defaultValue" translatable="false">192.168.1.74</string>
+
+    <string name="settings_about_version_title">Version</string>
+    <string name="settings_about_version_summary" translatable="false">@string/version</string>
+
+    <string name="settings_about_rate_title">Rate</string>
+    <string name="settings_about_rate_summary">Please rate Movian Remote in Google Play</string>
+
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+
+</resources>

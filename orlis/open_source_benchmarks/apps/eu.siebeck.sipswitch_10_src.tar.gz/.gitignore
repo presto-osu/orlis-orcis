@@ -1,0 +1,24 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+build
+gen/
+
+#Gradle and IDEA stuff
+local.properties
+.gradle
+.idea
+*iml
+
+# Local stuff
+.svn
+.directory

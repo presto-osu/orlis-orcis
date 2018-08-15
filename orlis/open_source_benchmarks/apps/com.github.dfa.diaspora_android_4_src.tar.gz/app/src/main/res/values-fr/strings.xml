@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Application -->
+
+    <string name="reload">Rafraîchir</string>
+    <string name="new_notifications">Notifications non lues. Lire ?</string>
+    <string name="permissions_screenshot">Vous devez autoriser \"Modifier ou supprimer le contenu de la carte SD \" pour sauvegarder les captures d\'écrans. Ensuite, vous devriez fermer l\'application ou redémarrer votre téléphone. Si vous n\'avez pas autorisé l\'accès à l\'espace de stockage mais que vous souhaitez utiliser la fonctionnalité de prise de capture d\'écran plus tard, vous pouvez donner la permission plus tard. Veuillez ouvrir : Paramètres - applications - Diaspora. Dans la section Autorisations, vous pouvez autoriser \"Modifier ou supprimer le contenu de la carte SD \".</string>
+    <string name="permissions_image">Vous devez autoriser \"Modifier ou supprimer le contenu de la carte SD \" pour sauvegarder les images. Ensuite, vous devriez fermer l\'application ou redémarrer votre téléphone. Si vous n\'avez pas autorisé l\'accès à l\'espace de stockage mais que vous souhaitez sauvegarder des images ultérieurement, vous pouvez donner la permission plus tard. Veuillez ouvrir : Paramètres - applications - Diaspora. Dans la section Autorisations, vous pouvez autoriser \"Modifier ou supprimer le contenu de la carte SD \".</string>
+    <string name="permission_denied">Permission refusée.</string>
+    <string name="permission_granted_try_again">Permission accordée. Veuillez réessayer.</string>
+
+
+    <!-- Titles -->
+
+    <string name="title_notifications">D* Notifications</string>
+    <string name="title_conversations">D* Discussions</string>
+    <string name="title_stream">D* Flux</string>
+    <string name="title_profil">D* Profil</string>
+    <string name="title_aspects">D* Aspects</string>
+    <string name="title_activities">D* Activités</string>
+    <string name="title_liked">D* Aimés</string>
+    <string name="title_commented">D* Commentés</string>
+    <string name="title_mentions">D* Mentions</string>
+    <string name="title_public">D* Public</string>
+
+
+    <!-- Pod Activity -->
+
+    <string name="title_activity_pods">Selectionnez un Pod</string>
+    <string name="filter_hint">Entrez le nom de domaine du pod</string>
+    <string name="confirm_url">Confirmez l\'url du pod</string>
+    <string name="podlist_source_note">Note : la liste est générée à partir de la liste des pods sécurisés depuis https://podupti.me. Vous pouvez entrer l\'url d\'un pod non listé.</string>
+    <string name="valid_pod">Veuillez entrer un nom de domaine valide</string>
+    <string name="podlist_error">Erreur : impossible de récupérer la liste des pods !</string>
+
+
+    <string name="no_internet">Désolé, vous devez être connecté à Internet pour continuer</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="confirm_pod">Voulez-vous vraiment utiliser\nhttps://%1$s\ncomme pod Diaspora ?</string>
+    <string name="confirm_exit">Souhaitez-vous quitter ?</string>
+    <string name="new_post">D* Nouveau message</string>
+    <string name="notifications">Notifications</string>
+    <string name="messages">Discussions</string>
+
+    <!-- Drawer and App -->
+
+    <string name="jb_menu_1">Paramètres</string>
+    <string name="jb_help_license">A propos de l\'application | Aide</string>
+    <string name="jb_stream">Flux</string>
+    <string name="jb_liked">Aimés</string>
+    <string name="jb_commented">Commentés</string>
+    <string name="jb_mentions">Mentions</string>
+    <string name="jb_activities">Activités</string>
+    <string name="jb_followed_tags">Hashtags suivis</string>
+    <string name="jb_aspects">Aspects</string>
+    <string name="jb_public">Activités publiques</string>
+    <string name="jb_settings_view">Paramètres de l\'application</string>
+    <string name="jb_share">Partager du contenu</string>
+
+    <string name="share_link">Partager le lien comme texte</string>
+    <string name="share_screenshot">Partager la capture d\'écran d\'un site web</string>
+    <string name="take_screenshot">Prendre une capture d\'écran d\'un site web</string>
+
+    <string name="help_license">Licence</string>
+    <string name="help_help">Mise en page Markdown</string>
+    <string name="help_about">Changelog</string>
+
+    <string name="toast_screenshot">Enregistrer la capture d\'écran sous :</string>
+
+
+    <!-- Floating Action Buttons - Titles -->
+
+    <string name="go_to_top">Retour en haut</string>
+    <string name="search_by_tags_or_persons">Recherche par tags ou par personnes</string>
+    <string name="compose">Nouveau message</string>
+
+
+    <string name="search_alert_title">Recherche</string>
+    <string name="search_alert_tag">par tags</string>
+    <string name="search_alert_people">par personne</string>
+    <string name="search_alert_bypeople_validate_needsomedata">Veuillez ajouter un nom</string>
+
+    <!-- Dialog License -->
+
+    <string name="markdown_text">&lt;i>"Sur diaspora* il est possible de mettre en forme votre texte des messages de statut, des commentaires et des conversations en utilisant un système de balises simple nommé Markdown. Cette page est une introduction aux codes utilisés pour créer ce formatage..&lt;/i>&lt;br> &lt;br>
+
+        &lt;b>En-têtes&lt;/b>&lt;br>
+        # Ceci est un très grand titre&lt;br>
+        ## Moitié moins grand que le précédent&lt;br>
+        ### Deux fois la taille d\'un texte normal&lt;br> &lt;br>
+
+        &lt;b>Italique et gras&lt;/b>&lt;br>
+        Italiques : *mot* ou _mot_&lt;br>
+        Gras : **mot** ou __mot__&lt;br>
+        Gras italique : ***mot*** ou ___mot___&lt;br> &lt;br>
+
+        &lt;b>Listes&lt;/b>&lt;br>
+        *, + ou - au début chaque ligne que vous souhaitez lister ou 1., 2., etc. au début de chaque ligne de la liste&lt;br> &lt;br>
+
+        &lt;b>Citation&lt;/b>&lt;br>
+        Lorsque vous souhaitez citer un extrait d\'un article ou d\'un autre commentaire, vous pouvez formater facilement votre texte en commençant la ligne ou le paragraphe avec le caractère >&lt;br> &lt;br>
+
+        &lt;b>Ligne horizontale&lt;/b>&lt;br>
+        Pour créer une ligne horizontale, utilisez au moins trois ---, ___ ou *** sur une ligne à part. N\'importe quel nombre au-delà de trois aura le même résultat et les espaces entre les caractères n\'ont pas d\'importance.&lt;br> &lt;br>
+
+        &lt;b>Liens intégrés&lt;/b>&lt;br>
+        [texte qui apparaîtra ici](http://lien.adresse.ici \"texte alternatif\") Le \"texte alternatif\" est facultatif et affiché lorsque la souris survole le lien.&lt;br> &lt;br>
+
+        &lt;b>Images&lt;/b>&lt;br>
+        ![Texte alternatif](http://siteweb.com/image.jpg \"titre facultatif\") Le texte alternatif entre crochets est affiché si l\'image ne peut pas être chargée et le titre optionnel est affiché lorsque la souris survole l\'image ; les deux sont utiles mais pas essentiels.&lt;br> &lt;br>
+
+        &lt;b>Escape&lt;/b>&lt;br>
+        Si vous voulez inclure dans votre message un caractère aussi utilisé dans le codage Markdown, vous pouvez empêcher qu\'il soit interprété en l\'\"échappant\". Pour cela, placez un backslash (\) devant le caractère. Vous pouvez toutefois écrire "diaspora*" ou "D*" sans que l\'astérisque devienne un code de formatage !&lt;br> &lt;br>
+
+        &lt;b>Caractères spéciaux&lt;/b>&lt;br>
+        Vous pouvez créez les symboles et autres caractères spéciaux suivants en utilisant une combinaison de caractères :&lt;br>
+        (c) = © ; (r) = ® ; x^2 = x²"</string>
+
+    <string name="license_text">&lt;b>Principaux contributeurs :&lt;/b>&lt;br>
+
+        &#8226; gsantner https://gsantner.github.io&lt;br>
+        &#8226; martinchodev https://github.com/martinchodev&lt;br>
+        &#8226; scoute-dich https://github.com/scoute-dich&lt;br> &lt;br>
+
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.
+
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see http://www.gnu.org/licenses.&lt;br> &lt;br>
+
+        &lt;i>The splashscreen images can be found on flickr:
+        https://www.flickr.com/photos/129581906@N06/sets/72157651933980136/with/16594947123.
+        They were published by \"Lydia\" and are licensed under cc by-nc-sa.&lt;/i></string>
+
+    <string name="splash_screen_description">Splash screen</string>
+    <string name="image">Impossible de récupérer l\'image</string>
+    <string name="jb_profile">Profile</string>
+
+    <string name="exit_app">Quitter l\'application</string>
+    <string name="toggle_desktop_page">Toggle mobile/desktop view</string>
+    <string name="shared_by_diaspora_android">*[partagé via #DiasporaForAndroid]*</string>
+    <string name="toast_link_address_copied">Lien copié…</string>
+    <string name="context_menu_share_link">Partager un lien</string>
+    <string name="context_menu_save_image">Enregistrer l\'image</string>
+    <string name="context_menu_share_image">Partager l\'image</string>
+    <string name="context_menu_open_external_browser">Ouvrir dans un navigateur externe…</string>
+    <string name="context_menu_copy_link">Copier le lien dans le presse-papier</string>
+    <string name="toast_saved_image_to_location">Enregistrer l\'image sous</string>
+
+    <string name="toast_set_proxy_failed">Attention: connexion au proxy impossible…</string>
+    <string name="share_dotdotdot">Partager…</string>
+</resources>

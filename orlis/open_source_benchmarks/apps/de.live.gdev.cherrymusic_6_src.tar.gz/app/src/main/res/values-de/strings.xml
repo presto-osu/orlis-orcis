@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="info_author">erstellt von Gregor Santner\nsangre.gitlab.io/\ngdev@live.de</string>
+    
+    <string name="ssl_webview_error_str"> <![CDATA[<font size="38"><center><h1> SSL Zertifikat ung&uumlltig </h1></center></font><font size="25"><br> Es gibt in den Einstellungen eine Option, die es erlaubt alle Zertifikate zu akzeptieren!<br><br><b>Achtung:</b> Das Ignorieren von Zertifikats-Fehlern stellt ein Sicherheitsrisiko dar.</font>]]></string>
+    <string name="ssl_toast_error">SSL Zertifikat nicht akzeptiert</string>
+    <string name="no_valid_path"> <![CDATA[<font size="38"><center><h1> Ung&uumlltiger Pfad </h1></center></font> <font size="25"><br> Bitte die Login-Daten in den Einstellungen bearbeiten!</font>]]></string>
+    <string name="action_info">Über</string>
+    <string name="action_exit">Beenden</string>
+    <string name="action_login">Einloggen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="edit_webapp_username_hint">Benutzername</string>
+    <string name="profile_selection">Profil Auswahl</string>
+    <string name="save_settings_succ">Profil gespeichert</string>
+    <string name="save_str">Profil speichern</string>
+    <string name="text_check_webapp_accept_all_ssl">Alle SSL Zertifikate akzeptieren</string>
+    <string name="text_check_webapp_auto_login">Auto-Login einschalten</string>
+    <string name="text_hint_webapp_password">Passwort</string>
+    <string name="text_webapp_filename">Dateiname:</string>
+    <string name="text_webapp_password">Passwort:</string>
+    <string name="text_webapp_path">Pfad zu Cherrymusic:</string>
+    <string name="text_webapp_username">Username:</string>
+    <string name="webapp_profile_1">Standard</string>
+    <string name="webapp_profile_2">Profil 2</string>
+    <string name="webapp_profile_3">Profil 3</string>
+
+</resources>

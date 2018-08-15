@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tether companion</string>
+    <string name="started_on">Запущено на: </string>
+    <string name="disabled">Выключено</string>
+    <string name="battery_level">Заряд батареи</string>
+    <string name="network_type">Режим сети</string>
+    <string name="network_connected">Есть подключение</string>
+    <string name="network_disconnected">Нет подключения</string>
+    <string name="network_restricted">Подключение ограниченно</string>
+    <string name="network_nonrestricted">Подключение не ограниченно</string>
+</resources>

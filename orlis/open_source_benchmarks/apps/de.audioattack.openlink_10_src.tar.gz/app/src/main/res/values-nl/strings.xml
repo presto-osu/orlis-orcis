@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menu_label">koppeling openen</string>
+    <string name="error_unable_to_open">Niet in staat om te openen:\n%1$s</string>
+    <string name="error_no_url_found">Geen links gevonden.</string>
+    <string name="lbl_video">Handmatig</string>
+    <string name="lbl_source_code">Broncode</string>
+
+</resources>

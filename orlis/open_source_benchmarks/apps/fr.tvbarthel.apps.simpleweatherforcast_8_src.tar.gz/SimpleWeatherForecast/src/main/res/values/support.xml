@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Color !-->
+    <color name="support_second_color">#cc7d321a</color>
+    <color name="support_main_color">#eae0d5</color>
+    <color name="support_third_color">#33b5e5</color>
+    <color name="support_transparent_black">#22000000</color>
+    <color name="support_bar_progress">#df7d321a</color>
+    <color name="support_bar_background">#dfffffff</color>
+    <color name="support_card_background">#55000000</color>
+    <color name="support_card_background_pressed">#22000000</color>
+    <color name="support_text">#ffffff</color>
+
+    <!-- Theme !-->
+    <style name="SupportTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/SupportTheme.ActionBarStyle</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/SupportTheme.ActionBarStyle</item>
+    </style>
+
+    <style name="SupportTheme.ActionBarStyle" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/black_translucent</item>
+        <!-- Support library compatibility -->
+        <item name="background">@color/black_translucent</item>
+    </style>
+
+    <style name="SupportTheme.ProgressBar" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/support_progress_bar</item>
+        <item name="android:minHeight">10dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+    <!-- String !-->
+    <string name="activity_support_label">Support Developers</string>
+    <string name="action_name_support">Support Dev</string>
+    <string name="support_dialog_already_owned_title">Do you want to support us again ?</string>
+    <string name="support_dialog_already_owned_description">You have already supported us with %1$s</string>
+    <string name="support_dialog_already_owned_date">Purchased made on %1$s</string>
+    <string name="support_dialog_already_owned_buy_again">Buy again</string>
+    <string name="support_dialog_already_owned_chose_another">Chose another</string>
+    <string name="support_key" translatable="false">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAicFRmNNgpkZMMkJHkGfOPk1KEQC+c9ZV8I9terRzgtARfvgFRK53kWIOQ1D1dTXLU6qY3l7MiYNarifVp4BplHQ9sUdzHkQ0MezW81FuBsVSIbr7ZBZVXLNB9wE47QqCqQzbOYJ0pYQGr4mGt3Ag1qftuLpcI1cP92VJOpm5ht5VbuVkFAJZOVyXJUAFtSwYHxXmWV9fuhFj6hOYR41y5oI0xVlCuZblvQuNTvXpENfODQZOYyNbewf+dkEdyD9mL+IJbSAD66OgeqXItfWQW8ICbecPtcPpeL6o68JlDcra5BxO6eOh6c/WejoXrrS1nYLYtYDp0TKw4yd2ikgNCwIDAQAB</string>
+    <string name="support_title">Support free content app and help us bringing our open-source projects to life.</string>
+    <string name="support_error">Fail to load coffee list. \n Please, check your network connection.</string>
+    <string name="support_thanks_positive_btn">Thanks!</string>
+    <string name="support_has_supported_us">Thanks for your support!</string>
+    <string name="support_thanks">We are very grateful for your support ! This %1$s will help us to develop more free content apps !</string>
+    <string name="support_bar_text"> %1$d %%</string>
+
+    <!-- Dimens !-->
+    <dimen name="support_list_divider_height">10dp</dimen>
+    <dimen name="support_list_padding">16dp</dimen>
+    <dimen name="support_horizontal_margin">16dp</dimen>
+    <dimen name="support_vertical_margin">16dp</dimen>
+    <dimen name="support_entry_padding">8dp</dimen>
+</resources>

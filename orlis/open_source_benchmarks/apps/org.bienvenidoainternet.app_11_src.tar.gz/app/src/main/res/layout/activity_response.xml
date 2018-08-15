@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="org.bienvenidoainternet.app.ResponseActivity"
+    android:textAlignment="textEnd"
+    android:layout_gravity="end">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutForm">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:id="@+id/txtEmail"
+            android:hint="@string/txt_email"
+            android:layout_below="@+id/txtPosterName"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:nextFocusDown="@+id/txtThreadSubject"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/buttonBold"
+            android:background="@drawable/ic_action_font_bold"
+            android:layout_below="@+id/btnSelectFiles"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ic_action_font_italic"
+            android:id="@+id/buttonItalic"
+            android:layout_above="@+id/txtResponse"
+            android:layout_toRightOf="@+id/buttonBold"
+            android:layout_toEndOf="@+id/buttonBold"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="..."
+            android:id="@+id/btnSelectFiles"
+            android:layout_below="@+id/txtThreadSubject"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtPosterName"
+            android:hint="@string/txt_postername"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:nextFocusDown="@+id/txtEmail"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtThreadSubject"
+            android:hint="@string/txt_thread_subject"
+            android:layout_below="@+id/txtEmail"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:nextFocusDown="@+id/txtResponse"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences|textMultiLine"
+            android:ems="10"
+            android:id="@+id/txtResponse"
+            android:hint="@string/txt_response"
+            android:clickable="false"
+            android:capitalize="sentences"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/buttonBold"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtFilePath"
+            android:enabled="false"
+            android:hint="Archivo "
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/txtThreadSubject"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ic_format_strikethrough"
+            android:id="@+id/buttonStrike"
+            android:layout_alignTop="@+id/buttonItalic"
+            android:layout_toRightOf="@+id/buttonItalic"
+            android:layout_toEndOf="@+id/buttonItalic"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ic_action_font_underline"
+            android:id="@+id/buttonUnderline"
+            android:layout_alignTop="@+id/buttonStrike"
+            android:layout_toRightOf="@+id/buttonStrike"
+            android:layout_toEndOf="@+id/buttonStrike"
+            android:layout_marginLeft="10dp"
+            android:allowUndo="false" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/buttonList"
+            android:background="@drawable/ic_action_list_2"
+            android:layout_alignTop="@+id/buttonUnderline"
+            android:layout_toRightOf="@+id/buttonUnderline"
+            android:layout_toEndOf="@+id/buttonUnderline"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/buttonCode"
+            android:background="@drawable/ic_code"
+            android:layout_alignTop="@+id/buttonList"
+            android:layout_toRightOf="@+id/buttonList"
+            android:layout_toEndOf="@+id/buttonList"
+            android:layout_marginLeft="10dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutForm"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/layoutPostProcess">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Diviendiendo por 0 ..."
+            android:id="@+id/txtPostingState"
+            android:layout_gravity="center_horizontal" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/barPosting"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/relativeLayout"
+            android:layout_alignEnd="@+id/relativeLayout"
+            android:layout_marginTop="3dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

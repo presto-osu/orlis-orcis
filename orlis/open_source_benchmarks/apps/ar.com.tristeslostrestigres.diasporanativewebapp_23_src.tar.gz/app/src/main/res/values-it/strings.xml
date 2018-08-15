@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reload">Aggiornare pagina</string>
+    <string name="title_activity_pods">Selezionare il pod</string>
+    <string name="filter_hint">Digitare il dominio del pod</string>
+    <string name="changePod">Cambiare pod</string>
+    <string name="clear_cookies">Cancellare i cookie</string>
+    <string name="liked_posts">Post piaciuti</string>
+    <string name="commented_posts">Post commentati</string>
+    <string name="followed_tags">Tag seguiti</string>
+    <string name="exit_app">Abbandonare l’applicazione</string>
+    <string name="mentions">Menzioni</string>
+    <string name="confirm_url">Confermare l’url del pod</string>
+    <string name="podlist_source_note">Notabene: La seguente lista contiene soltanto pod sicuri elencati in podupti.me</string>
+    <string name="valid_pod">La preghiamo di digitare un nome di dominio valido</string>
+    <string name="podlist_error">Errore: impossibile reperire la lista dei pod!</string>
+    <string name="loading_podlist">Caricamento della lista dei pod…</string>
+    <string name="no_internet">Nessun segnale internet, la preghiamo di connettersi ad internet al fine di procedere</string>
+    <string name="connection_established">La connessione ad internet è stata stabilita! La preghiamo di ricaricare la lista nel caso sia necessario</string>
+    <string name="connection_lost">Attenzione: La connessione ad internet è mancata!</string>
+    <string name="confirmation">Conferma</string>
+    <string name="confirm_pod">Vuole usare il seguente pod: </string>
+    <string name="confirm_exit">Si è sicuri di voler chiudere l’applicazione?</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
+    <string name="please_wait">La preghiamo di attendere</string>
+    <string name="loading">Caricamento…</string>
+    <string name="change_pod_warning">Verranno ora cancellati tutti i cookie e i dati di sessione. Si è sicuri di voler cambiare di pod?</string>
+    <string name="clear_cookies_warning">Per poter effettuare la cancellazione completa dei cookie e dei dati di sessione, è necessario uscire dall’applicazione. Si è sicuri di voler procedere?</string>
+</resources>

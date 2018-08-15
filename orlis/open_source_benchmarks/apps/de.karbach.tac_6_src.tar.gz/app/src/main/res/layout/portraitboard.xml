@@ -1,0 +1,184 @@
+<!-- 
+	MoTAC - digital board for TAC board game
+    Copyright (C) 2013-2014  Carsten Karbach
+    
+    Contact by mail carstenkarbach@gmx.de
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License along
+    with this program; if not, write to the Free Software Foundation, Inc.,
+    51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:karbach="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/wood"
+              android:orientation="vertical"
+              android:weightSum="100"
+              tools:ignore="Overdraw">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:gravity="center"
+        android:layout_weight="15"
+        android:stretchColumns="*"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp" >
+
+        <de.karbach.tac.ui.EnDisImageButton
+	            android:id="@+id/tacButton"
+	            android:layout_width="0dip"
+	            android:layout_weight="10"
+	            android:layout_height="match_parent"
+	            android:background="@null"
+	            android:contentDescription="@string/restartString"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/button_restart"
+	            karbach:activeimage="@drawable/button_restart" />
+	        
+	        <de.karbach.tac.ui.EnDisImageButton
+	            android:id="@+id/leftButton"
+	            android:layout_width="0dip"
+	            android:layout_weight="10"
+	            android:layout_height="match_parent"
+	            android:background="@null"
+	            android:contentDescription="@string/backString"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/button_back_inactive"
+	            karbach:activeimage="@drawable/button_back" />
+	        
+	        <de.karbach.tac.ui.EnDisImageButton
+	            android:id="@+id/rightButton"
+	            android:layout_width="0dip"
+	            android:layout_weight="10"
+	            android:layout_height="match_parent"
+	            android:background="@null"
+	            android:contentDescription="@string/forward"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/button_next_inactive"
+	            karbach:activeimage="@drawable/button_next" />
+	        
+	        <de.karbach.tac.ui.EnDisImageButton
+	            android:id="@+id/plusButton"
+	            android:layout_width="0dip"
+	            android:layout_weight="10"
+	            android:layout_height="match_parent"
+	            android:background="@null"
+	            android:contentDescription="@string/plus"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/button_zoomin_inactive"
+	            karbach:activeimage="@drawable/button_zoomin" />
+	        
+	        <de.karbach.tac.ui.EnDisImageButton
+	            android:id="@+id/minusButton"
+	            android:layout_width="0dip"
+	            android:layout_weight="10"
+	            android:layout_height="match_parent"
+	            android:background="@null"
+	            android:contentDescription="@string/minus"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/button_zoomout_inactive"
+	            karbach:activeimage="@drawable/button_zoomout" />
+	        
+	        <de.karbach.tac.ui.EnDisImageButton
+	            android:id="@+id/moveButton"
+	            android:layout_width="0dip"
+	            android:layout_weight="10"
+	            android:layout_height="match_parent"
+	            android:background="@null"
+	            android:clickable="true"
+	            android:contentDescription="@string/drag"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/button_move_inactive"
+	            karbach:activeimage="@drawable/button_move" />
+	        
+	        <de.karbach.tac.ui.EnDisImageButton
+	            android:id="@+id/switchButton"
+	            android:layout_width="0dip"
+	            android:layout_weight="10"
+	            android:layout_height="match_parent"
+	            android:background="@null"
+	            android:clickable="true"
+	            android:contentDescription="@string/switchstring"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/button_color_inactive"
+	            karbach:activeimage="@drawable/button_color"
+	            />
+
+    </TableRow>
+
+    <de.karbach.tac.ui.BoardWithCards
+        android:id="@+id/tac"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="75"
+        android:layout_marginTop="3dp" />
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:gravity="end"
+        android:layout_weight="10"
+        android:stretchColumns="*"
+        android:paddingRight="2dp"
+        android:paddingEnd="2dp"
+        android:paddingBottom="2dp"
+        android:paddingStart="0dp"
+        android:paddingLeft="0dp"
+         >
+
+        <ProgressBar
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="18dp"
+            android:id="@+id/progressBar"
+            android:layout_weight="30"
+            android:visibility="invisible"
+            android:layout_gravity="start|bottom"
+            android:progress="0"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text=""
+            />
+
+        <ImageButton
+            android:id="@+id/menuHelpButton"
+	        android:layout_width="0dip"
+	        android:layout_weight="10"
+	        android:layout_height="match_parent"
+	        android:background="@null"
+	        android:contentDescription="@string/plus"
+	        android:scaleType="fitCenter"
+	        android:src="@drawable/ic_help"
+            />
+        
+        <ImageButton 
+            android:id="@+id/menuButton"
+	        android:layout_width="0dip"
+	        android:layout_weight="10"
+	        android:layout_height="match_parent"
+	        android:background="@null"
+	        android:contentDescription="@string/plus"
+	        android:scaleType="fitCenter"
+	        android:src="@drawable/ic_more"
+            />
+    </TableRow>
+
+</LinearLayout>

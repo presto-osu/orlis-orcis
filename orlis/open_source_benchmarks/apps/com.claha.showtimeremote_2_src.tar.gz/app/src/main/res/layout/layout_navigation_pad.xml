@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/vertical_center_layout">
+
+    <LinearLayout style="@style/horizontal_center_layout">
+
+        <com.claha.showtimeremote.widget.MovianRemoteButton
+            style="@style/showtime_button"
+            app:action="Up"
+            app:onPress="true"
+            android:src="@drawable/ic_action_up" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/horizontal_center_layout">
+
+        <com.claha.showtimeremote.widget.MovianRemoteButton
+            style="@style/showtime_button"
+            app:action="Left"
+            app:onPress="true"
+            android:src="@drawable/ic_action_left" />
+
+        <com.claha.showtimeremote.widget.MovianRemoteButton
+            style="@style/showtime_button"
+            app:action="Activate"
+            android:src="@drawable/ic_action_activate" />
+
+        <com.claha.showtimeremote.widget.MovianRemoteButton
+            style="@style/showtime_button"
+            app:action="Right"
+            app:onPress="true"
+            android:src="@drawable/ic_action_right" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/horizontal_center_layout">
+
+        <com.claha.showtimeremote.widget.MovianRemoteButton
+            style="@style/showtime_button"
+            app:action="Down"
+            app:onPress="true"
+            android:src="@drawable/ic_action_down" />
+
+    </LinearLayout>
+
+</LinearLayout>

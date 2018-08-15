@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="@dimen/widget_margin"
+    android:background="@drawable/widget_bg"
+    android:padding="@dimen/widget_padding"/>

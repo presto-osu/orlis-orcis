@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-mdpi/obstacle.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-mdpi/obstacle.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-mdpi/canard.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-mdpi/canard.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-mdpi/plane.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-mdpi/plane.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-mdpi/heli.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-mdpi/heli.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-mdpi/runway_extension.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-mdpi/runway_extension.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-mdpi/planeother.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-mdpi/planeother.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-mdpi/plane_green.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.ds.avare_230_src.tar.gz/app/src/main/res/drawable-mdpi/plane_green.png"
+    }
+]

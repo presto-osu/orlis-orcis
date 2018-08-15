@@ -1,0 +1,40 @@
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_category_app">App settings</string>
+    <string name="pref_category_notifications">Notifications</string>
+    <string name="pref_category_api">API settings</string>
+
+    <string name="pref_title_school">URL</string>
+
+    <string name="pref_title_theme">Theme</string>
+    <string name="pref_title_themeAccent">Theme accent</string>
+    <string name="pref_title_restore_lessons">Restore hidden lessons</string>
+    <string name="pref_title_notification_vibrate">Vibrate before the lesson</string>
+    <string name="pref_title_notification_vibrate_length">Vibration length (ms)</string>
+    <string name="pref_title_notification_vibrate_time">Vibrate earlier (min)</string>
+
+    <string-array name="themeEntries">
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+    <string-array name="themeAccentEntries">
+        <item>Normal</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+
+    <string-array name="themeValues" translatable="false">
+        <item>dark</item>
+        <item>light</item>
+    </string-array>
+
+    <string-array name="themeAccentValues" translatable="false">
+        <item>normal</item>
+        <item>red</item>
+        <item>green</item>
+        <item>blue</item>
+    </string-array>
+</resources>

@@ -1,0 +1,254 @@
+[
+    {
+        "outputFile": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 108,
+                    "endOffset": 159
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 108,
+                        "endOffset": 160
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 164,
+                    "endColumn": 99,
+                    "endOffset": 259
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 165,
+                        "endColumn": 99,
+                        "endOffset": 260
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 264,
+                    "endColumn": 108,
+                    "endOffset": 368
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 265,
+                        "endColumn": 108,
+                        "endOffset": 369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 373,
+                    "endColumn": 83,
+                    "endOffset": 452
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 374,
+                        "endColumn": 83,
+                        "endOffset": 453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 457,
+                    "endColumn": 108,
+                    "endOffset": 561
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 458,
+                        "endColumn": 108,
+                        "endOffset": 562
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 566,
+                    "endColumn": 124,
+                    "endOffset": 686
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 567,
+                        "endColumn": 124,
+                        "endOffset": 687
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 691,
+                    "endColumn": 105,
+                    "endOffset": 792
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 692,
+                        "endColumn": 105,
+                        "endOffset": 793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 797,
+                    "endColumn": 107,
+                    "endOffset": 900
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 798,
+                        "endColumn": 107,
+                        "endOffset": 901
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 905,
+                    "endColumn": 97,
+                    "endOffset": 998
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 906,
+                        "endColumn": 97,
+                        "endOffset": 999
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1003,
+                    "endColumn": 103,
+                    "endOffset": 1102
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1004,
+                        "endColumn": 103,
+                        "endOffset": 1103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1107,
+                    "endColumn": 104,
+                    "endOffset": 1207
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1108,
+                        "endColumn": 104,
+                        "endOffset": 1208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1212,
+                    "endColumn": 106,
+                    "endOffset": 1314
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1213,
+                        "endColumn": 106,
+                        "endOffset": 1315
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1319,
+                    "endColumn": 121,
+                    "endOffset": 1436
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.numguesser.tonio_rpchp.numberguesser_3_src.tar.gz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-it/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1320,
+                        "endColumn": 121,
+                        "endOffset": 1437
+                    }
+                }
+            }
+        ]
+    }
+]

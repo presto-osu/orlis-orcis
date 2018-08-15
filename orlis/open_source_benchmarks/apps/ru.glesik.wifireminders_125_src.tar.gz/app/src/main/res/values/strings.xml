@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation" >
+
+    <string name="app_name">Wi-Fi Reminders</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_reminder">New Reminder</string>
+    <string name="action_save">Save</string>
+    <string name="action_add">Add</string>
+    <string name="action_edit">Edit Text</string>
+    <string name="action_delete">Delete</string>
+    <string name="label_title">Title</string>
+    <string name="label_reminder_text">Reminder Text</string>
+    <string name="error_wifi_off_title">No networks found</string>
+    <string name="error_wifi_off_text">Enable Wi-Fi in Settings?</string>
+    <string name="label_reminders_list">Reminders List</string>
+    <string name="label_ssid_list">SSID List</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="settings_interval">Interval</string>
+    <string name="settings_interval_sum">Wi-Fi polling interval</string>
+    <string name="settings_sound">Sound</string>
+    <string name="settings_sound_sum">Set notification sound</string>
+    <string name="settings_vibrate">Vibration</string>
+    <string name="settings_vibrate_sum">Vibrate on notification</string>
+    <string name="notification_dismiss">Dismiss</string>
+    <string name="array_0">0 (only on connection)</string>
+    <string name="array_5">5 seconds</string>
+    <string name="array_10">10 seconds</string>
+    <string name="array_60">1 minute</string>
+    <string name="array_600">10 minutes</string>
+    <string name="array_1800">30 minutes</string>
+    <string name="array_3600">1 hour</string>
+    <string name="array_v_0">0</string>
+    <string name="array_v_5">5000</string>
+    <string name="array_v_10">10000</string>
+    <string name="array_v_60">60000</string>
+    <string name="array_v_600">600000</string>
+    <string name="array_v_1800">1800000</string>
+    <string name="array_v_3600">3600000</string>
+
+</resources>

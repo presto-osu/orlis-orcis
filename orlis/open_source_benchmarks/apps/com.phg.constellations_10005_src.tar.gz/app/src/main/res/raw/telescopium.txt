@@ -1,0 +1,86 @@
+Abbreviation: Tel    
+Genitive: Telescopii    
+Pronunciation: /ˌtɛlɨˈskɒpiəm/, genitive /ˌtɛlɨˈskɒpi.aɪ/    
+Symbolism: the Telescope    
+Right ascension: 19    
+Declination: −50    
+Family: La Caille    
+Quadrant: SQ4    
+Area: 252 sq. deg. (57th)    
+Main stars: 2    
+Bayer/Flamsteed stars: 13    
+Stars with planets: 0    
+Stars brighter than 3.00m: 0    
+Stars within 10.00 pc (32.62 ly): 2    
+Brightest star: α Tel (3.49m)    
+Nearest star: Gliese 754 (19.35 ly, 5.93 pc)    
+Messier objects: none    
+Bordering constellations: Ara Corona Australis Indus Microscopium (corner) Pavo Sagittarius    
+Visible at latitudes between +40° and −90°. Best visible at 21:00 (9 p.m.) during the month of August.  
+  
+Telescopium is a minor southern constellation created in the 18th century by Nicolas Louis de Lacaille, a French astronomer and student of the southern skies. Its name is a Latinized form of the Greek word for telescope. It was created in honor of the telescope's invention.
+The brightest star in the constellation is Alpha Telescopii, a blue-white subgiant with an apparent magnitude of 3.5, followed by the orange giant star Zeta Telescopii at magnitude 4.1.
+
+History
+Telescopium was introduced in 1751-52 by Nicolas Louis de Lacaille with the French name le Telescope, depicting an aerial telescope. It stretched out northwards between Sagittarius and Scorpio. Johann Bode called it the Astronomische Fernrohr in his 1805 Gestirne and kept its size, but Baily and Gould subsequently shrank its boundaries. The much reduced constellation lost several brighter stars to neighbouring constellations: Beta Telescopii became Eta Sagittarii, which it had been before Lacaille placed it in Telescopium, Gamma was placed in Scorpio and renamed G Scorpii by Benjamin Gould, Theta Telescopii reverted to its old appellation of d Ophiuchi, and Sigma Telescopii was placed in Corona Australis. Initially unnamed, it is now known as HR 6875.
+Telescopium was periodically called "Tubus Astronomicus"; this name is now deprecated.
+
+Characteristics
+A small constellation, Telescopium is bordered by Sagittarius and Corona Australis to the north, Ara to the west, Pavo to the south, and Indus to the east, cornering on Microscopium to the northeast. The three-letter abbreviation for the constellation, as adopted by the International Astronomical Union in 1922, is 'Tel'. The official constellation boundaries, as set by Eugène Delporte in 1930, are defined by a polygon of four segments. In the equatorial coordinate system, the right ascension coordinates of these borders lie between 18h 09.1m and 20h 29.5m, while the declination coordinates are between −45.09° and −56.98°.
+
+Notable features
+Stars
+There are no European names for stars in this constellation. The Chinese did assign names to α Tel (We, meaning danger), and γ Tel (the present-day G Scorpii) as Chuen Shwo, with a mythological meaning.
+With an apparent magnitude of 3.5, Alpha Telescopii is the brightest star in the constellation. It is a blue-white subgiant of spectral type B3IV which lies around 250 light years away. Close by Alpha are the two blue-white stars sharing the designation of Delta Telescopii. Delta¹ is of spectral type B6IV and apparent magnitude 4.9, while Delta² is of spectral type B3III and magnitude 5.1. They form an optical double, as the stars are 800 and 1120 light years away respectively. The second brightest star in the constellation is Zeta Telescopii of apparent magnitude 4.1 and spectral type K1III-IV. 127 light years distant, it has been described as yellow, or reddish in appearance. Epsilon Telescopii is another double star, though this time a true binary system. Epsilon Telescopii A is an orange giant of spectral type K0III with an apparent magnitude of +4.52, with a 13th magnitude companion, Epsilon Telescopii B, 21 arcseconds away from the primary, and just visible with a 15 cm telescope on a dark night. The system is 409 light years away. Kappa Telescopii is a yellow giant with a spectral type G9III and apparent magnitude of 5.18. It is approximately 293 light years from Earth, and is another optical double. RR Telescopii, also designated Nova Telescopium 1948, often called a slow nova is now classified as a symbiotic nova system composed of an M5III pulsating red giant and a white dwarf; between 1944 and 1948 it brightened by about 7 magnitudes before being noticed at apparent magnitude 6.0 in mid-1948. It has since faded slowly to about apparent magnitude 12.
+
+Deep sky objects
+The globular cluster NGC 6584 lies near Theta Arae and is 45000 light years distant. It is an Oosterhoff type I cluster, and contains at least 59 variable stars, most of which are RR Lyrae variables. The planetary nebula IC 4699 is of 13th magnitude and lies midway between Alpha and Epsilon Telescopii.
+There are a group of twelve galaxies spanning three degrees in the northeastern part of the constellation. They lie around 120 million light years from our own galaxy. This group is known as the Telescopium group or AS0851. The brightest is the elliptical galaxy NGC 6868. To the west lies the spiral galaxy NGC 6861. These are the brightest members of two respective subgroups within the galaxy group, and are heading toward a merger in the future.
+On September 9, 2012, Voyager 2 was 99.077 AU (1.48217×1010 km; 9.2098×109 mi) from the Earth and 99.504 AU (1.48856×1010 km; 9.2495×109 mi) from the Sun; and traveling at 15.436 km/s (34,530 mph) (relative to the Sun) and traveling outward at about 3.256 AU per year. Sunlight takes 13.73 hours to get to Voyager 2. The brightness of the Sun from the spacecraft is magnitude -16.7. Voyager 2 is heading in the direction of the constellation Telescopium.
+
+Citations
+^ a b c Staal 1988, p. 233.
+^ Ridpath, Star Tales Telescopium.
+^ Allen 1963, p. 414.
+^ a b c d Wagman 2003, p. 300.
+^ Russell 1922, p. 469.
+^ IAU, The Constellations, Telescopium.
+^ Kaler, Alpha Telescopii.
+^ SIMBAD HR 6934.
+^ SIMBAD HR 6938.
+^ a b Moore & Tirion 2007, pp. 242–43.
+^ SIMBAD LTT 7332.
+^ a b c d e Streicher 2009, pp. 168–71.
+^ a b c Ferreira 2009, pp. 166–67.
+^ SIMBAD Epsilon Telescopii.
+^ SIMBAD Kappa Telescopii.
+^ Robinson, E. L. "Preeruption light curves of novae". Astronomical Journal 80 (7): 515. Bibcode:1975AJ.....80..515R. doi:10.1086/111774. 
+^ AAVSO. "AAVSO Light Curve Generator". Retrieved 5 September 2013. 
+^ Toddy & 2012 63–71.
+^ a b Machacek et al. 2010, p. 1316–32.
+^ a b c Peat, Chris (September 9, 2012). "Spacecraft escaping the Solar System". Heavens-Above. Retrieved September 9, 2012. 
+
+Sources
+
+Allen, Richard Hinckley (1963) . Star Names: Their Lore and Meaning (reprint ed.). New York, NY: Dover Publications. ISBN 978-0-486-21079-7. 
+Machacek, M. E.; O'Sullivan, E.; Randall, S. W.; Jones, C.; Forman, W. R. (2010). "The Mysterious Merger of NGC 6868 and NGC 6861 in the Telescopium Group". The Astrophysical Journal 711 (2): 1316–1332. arXiv:1001.2567. Bibcode:2010ApJ...711.1316M. doi:10.1088/0004-637X/711/2/1316.  edit
+Moore, Patrick; Tirion, Wil (2007). Stars and Planets Guide. Princeton, New Jersey: Princeton University Press. ISBN 978-0-691-13556-4. 
+Russell, Henry Norris (October 1922). "The new international symbols for the constellations". Popular Astronomy 30: 469. Bibcode:1922PA.....30..469R. 
+Staal, Julius D.W. (1988). The New Patterns in the Sky. McDonald and Woodward Publishing Company. ISBN 0-939923-04-1. 
+Toddy, Joseph M.; Johnson, Elliott W.; Darragh, Andrew N.; Murphy, Brian W. (2012). "New Variable Stars in the Globular Cluster NGC 6584" (PDF). Journal of the Southeastern Association for Research in Astronomy 6: 63–71. arXiv:1205.1034. Bibcode:2012JSARA...6...63T. 
+Wagman, Morton (2003). Lost Stars: Lost, Missing and Troublesome Stars from the Catalogues of Johannes Bayer, Nicholas Louis de Lacaille, John Flamsteed, and Sundry Others. Blacksburg, VA: The McDonald & Woodward Publishing Company. ISBN 978-0-939923-78-6. 
+
+Online sources
+
+Ferreira, Lucas (August 2009). "Double Stars in Telescopium" (PDF). Deepsky Delights. The Astronomical Society of Southern Africa. Retrieved 30 September 2012. 
+"Telescopium, constellation boundary". The Constellations. International Astronomical Union. Retrieved 29 September 2012. 
+Kaler, Jim. "Alpha Telescopii". Stars. University of Illinois. Retrieved 29 September 2012. 
+Ridpath, Ian (1988). "Telescopium". Star Tales. Retrieved 29 September 2012. 
+"Epsilon Telescopii - Star in Double System". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 30 September 2012. 
+"HR 6934". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 29 September 2012. 
+"HR 6938". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 29 September 2012. 
+"Kappa Telescopii". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 30 September 2012. 
+"LTT 7332". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 29 September 2012. 
+Streicher, Magda (August 2009). "A Spyglass Telescope" (PDF). Deepsky Delights. The Astronomical Society of Southern Africa. Retrieved 29 September 2012.
+ 
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Telescopium&oldid=599954091"

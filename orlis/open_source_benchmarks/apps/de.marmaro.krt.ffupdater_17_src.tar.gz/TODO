@@ -1,0 +1,7 @@
+TODO: Cleaning
+TODO: Switch to background service
+TODO: UI
+TODO: Check for connectivity first
+TODO: DownloadManager exceptions: https://developer.android.com/reference/android/app/DownloadManager.html
+TODO: ...
+TODO: Make Android-23 work (WRITE_EXTERNAL..)

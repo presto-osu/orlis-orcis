@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SimpleWeatherForecast</string>
+
+    <!-- License dialog fragment -->
+    <string name="dialog_license_title">Licença</string>
+
+    <!-- About dialog fragment -->
+    <string name="dialog_about_title">Sobre</string>
+    <string name="dialog_about_content">SimpleWeatherForecast é um aplicativo open-source desenvolvido por Vincent \"vbarthel\" Barthélémy e Thomas \"tbarthel\" Barthélémy, dois estudantes em ciênçia da computação.\n\nFonte: https://github.com/tvbarthel/SimpleWeatherForecast\n\nEste aplicativo utiliza a API de openweathermap: http://openweathermap.org/</string>
+
+    <!-- More apps dialog fragment -->
+    <string name="dialog_more_apps_title">Mais aplicativos</string>
+    <string name="dialog_more_apps_simplethermometer_app_name">Simple Thermometer</string>
+    <string name="dialog_more_apps_chase_whisply_app_name">Chase Whisply</string>
+    <string name="dialog_more_apps_googly_zoo_app_name">Googly Zoo</string>
+
+    <!-- Temperature unit picker dialog fragment -->
+    <string name="dialog_temperature_unit_picker_title">Definir a unidade utilizada</string>
+
+    <!-- Temperature Units -->
+    <string name="temperature_unit_celsius">Celsius</string>
+    <string name="temperature_unit_kelvin">Kelvin</string>
+    <string name="temperature_unit_fahrenheit">Fahrenheit</string>
+
+    <!-- Toast messages -->
+    <string name="toast_already_up_to_date">Actualizado.</string>
+    <string name="toast_no_connection_available">Não foi possível actualizar os dados meteorológicos, ninguma conexão disponível.</string>
+    <string name="toast_not_allowed_to_access_location">Por favor active os serviços de localização.</string>
+
+    <!-- Menu item -->
+    <string name="menu_item_refresh">Actualizar</string>
+    <string name="menu_item_unit">Definir unidade</string>
+    <string name="menu_item_about">Sobre</string>
+    <string name="menu_item_license">Licença</string>
+    <string name="menu_item_more_apps">Mais aplicativos</string>
+    <string name="menu_item_support">Compre-nos um café!</string>
+    <string name="menu_item_contact_us">Nos contactar</string>
+    <string name="menu_item_thanks">Obrigado!</string>
+
+    <!-- Contact Us -->
+    <string name="contact_us_title">Nos contactar</string>
+    <string name="contact_us_default_subject">[SimpleWeatherForecast] </string>
+
+</resources>

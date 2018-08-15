@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:own="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.gabm.fancyplaces.ui.ShowEditPlace">
+
+
+
+    <com.gabm.fancyplaces.ui.ObservableScrollView
+        android:id="@+id/sep_scroll_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/sep_image"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/top_image"
+                android:background="#ff828282"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_camera_grey_full_size" />
+
+            <LinearLayout
+                android:id="@+id/sep_main_area"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+                android:background="@color/background_material_dark"
+                android:elevation="8dp"
+                android:fitsSystemWindows="true"
+                android:orientation="vertical">
+
+
+                <com.gabm.fancyplaces.ui.VerticalCardView
+                    android:id="@+id/sep_map_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    own:card_title="@string/map">
+
+                    <org.osmdroid.views.MapView
+                        android:id="@+id/sep_map"
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/vertical_media_element_height" />
+
+                    <Button
+                        android:id="@+id/sep_map_update_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:onClick="onClick"
+                        android:text="@string/sep_update_map_button" />
+
+
+                </com.gabm.fancyplaces.ui.VerticalCardView>
+
+                <com.gabm.fancyplaces.ui.VerticalCardView
+                    android:id="@+id/sep_notes_card"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    own:card_title="@string/notes">
+
+                    <EditText
+                        android:id="@+id/sep_notes_edit_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="top"
+                        android:inputType="textMultiLine" />
+
+                    <TextView
+                        android:id="@+id/sep_notes_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="top" />
+                </com.gabm.fancyplaces.ui.VerticalCardView>
+        </LinearLayout>
+        </LinearLayout>
+    </com.gabm.fancyplaces.ui.ObservableScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/sep_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ColorPrimary"
+        android:elevation="16dp"
+        android:minHeight="?attr/actionBarSize">
+
+        <EditText
+            android:id="@+id/sep_title_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="gone" />
+    </android.support.v7.widget.Toolbar>
+
+</FrameLayout>

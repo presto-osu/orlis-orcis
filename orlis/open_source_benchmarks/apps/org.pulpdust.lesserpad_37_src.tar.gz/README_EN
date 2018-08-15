@@ -1,0 +1,96 @@
+Lesser Pad
+===============================
+
+Lesser Pad is the "simply" memo pad. Data is saved as a text file on SD card, you do not need to be conscious of file name. Lesser Pad design philosophy derived from the old Palm OS Memo Pad. Lesser Pad is not a lesser panda, sorry.
+
+Requirements
+-------------
+Android 1.6 or higher, with inserted SD card or built-in external storage area is mandatory.
+
+Encryption Software
+--------------------
+This software contains the encryption function. this feature is available on Android 2.2 or higher.
+This is "publicly available" encryption source code and its object code.
+Notified already to the U.S.A authorities as ECCN 5D002.
+If there is a restriction on the importation or use of encryption products at area where to use this, you must be comply it.
+
+  * Encryption of text to run from menu in the editor screen. decryption is similar.
+  * The password will be applied only to that file. The strength of the encryption depends on the strength of the password.
+  * Lesser Pad does not store the password. If you forget the password, you can not open that file.
+  * If you want to change the password once decrypt and once again encrypt.
+  * Document that was encrypted by the Lesser Pad please do not edit in other apps.
+  
+Usage
+------
+###File List
+When you launch the Lesser Pad, a list of text files in the "Default Folder" is displayed.
+
+  * When you tap the spinner on the top right corner of the screen (on the ActionBar in Honeycomb or higher), you can select "other folders in the same level as the default folder".
+  * Tap a file name, open the editor screen.
+  * Hold a file name, can open the file in other apps.
+  * When you press the "New" button at the bottom left of the screen (on the ActionBar in Honeycomb or higher), can create a new text file.
+  * Press "Edit Folders..." on the ActionBar or menu, "Edit Folders" screen is displayed.
+  * Press "Settings ..." on the menu or ActionBar, open the Settings screen. 
+
+###Editor Screen
+
+  * Tap the spinner in the upper right corner of the screen(on the ActionBar in Honeycomb or higher), if you select a other folder, move to that folder the current file.
+  * Can be "search by passed to other apps", "copy", "cut", for selected text in the edit field.
+  * Can be shared with other apps of the text in edit field.
+  * Open the dialog from ActionBar or menu, you can check modified date and the number of characters, automatic renaming, or deleting file.
+  * Text is automatically saved when the Lesser Pad is paused by, for example, press the home key or back key.
+  * When you create new file, file name is generated automatically by the Lesser Pad.
+
+###Edit Folders Dialog
+
+  * You can do name change and create new folder, and delete.
+  * Can only delete folders that are empty.
+  * For "Default Folder" can not be operated.
+
+###Preferences
+
+  * You can set the font size, cursor position when open a file, the default folder.
+  * If you want to change the default folder, please enter the folder name on the SD card. Please omit the part that points such as "/mnt/sdcard", the upper layer of the SD card.
+
+Keyboard Shortcut
+------------------
+If You have a device that has a built-in keyboard, can use shortcut operation.
+
+ * On The File List
+  * menu+n: Create new file
+  * menu+s: Sort order
+  * menu+e: Edit folders
+  * menu+p: Preferences
+ * On The Editor Screen
+  * menu+x: Cut
+  * menu+c: Copy
+  * menu+v: Paste
+  * menu+a: Select all
+  * menu+z: Undo
+  * menu+e: Share text
+  * menu+f: External search
+  * menu+i: Details
+  * menu+d: Delete file
+  * menu+p: Preferences
+  * menu+j: Switch input method
+  * menu+s: Manually save
+  * menu+q: Close without save
+  * menu+l: Launch Desk Accessories(if DAs installed)
+
+Permissions
+------------
+For save of text file, Lesser Pad requires write permission to the SD card.Depending on the version of Android, which may be displayed to allow the permissions other than this during the installation, it is one that is required by the OS for compatibility, Lesser Pad are those permissions are not used.
+
+Copyright of part
+------------------
+Part of the menu icons and the launcher icon of Lesser Pad is based on an icon set that Mr. Danny Allen has created the [Monochrome](http://kde-look.org/content/show.php/Monochrome?content=18317).
+
+License
+--------
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. For more information, please read the [GNU General Public License](http://www.gnu.org/copyleft/gpl.html).
+
+Source Code
+------------
+Can be obtained from http://osdn.jp/users/kodakana/pf/Lesser_Pad/scm/ The source code of this program.

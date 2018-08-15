@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="com.gabm.fancyplaces.VerticalCardView">
+        <attr name="card_title" format="string" />
+    </declare-styleable>
+    <declare-styleable name="com.gabm.fancyplaces.OsmMapViewScrollWorkaround">
+        <attr name="ScrollWorkaroundEnabled" format="boolean" />
+    </declare-styleable>
+</resources>

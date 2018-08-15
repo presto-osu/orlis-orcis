@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Common: -->
+    <dimen name="baseline_grid_unit">4dp</dimen>
+    <dimen name="baseline_component_unit">8dp</dimen>
+    <dimen name="baseline_margin_unit">16dp</dimen>
+    <dimen name="baseline_content_unit">16dp</dimen>
+    <dimen name="baseline_content_left">72dp</dimen>
+    <dimen name="baseline_avatar_diameter">48dp</dimen>
+
+    <!-- Splash Logo: -->
+    <dimen name="splash_logo_diameter">80dp</dimen>
+
+    <!-- ListView: -->
+    <dimen name="single_line_height">48dp</dimen>
+    <dimen name="double_line_height">72dp</dimen>
+    <dimen name="triple_line_height">88dp</dimen>
+
+    <!-- Empty: -->
+    <dimen name="empty_content_minimum_height">144dp</dimen>
+
+    <!-- Navigation: -->
+    <dimen name="navigation_width">304dp</dimen>
+
+    <!-- Dialog: -->
+    <dimen name="dialog_content_padding">24dp</dimen>
+
+    <!-- Grid Item: -->
+    <dimen name="grid_item_width">96dp</dimen>
+    <dimen name="grid_item_thumbnail_height">144dp</dimen>
+
+    <!-- Manga Header: -->
+    <dimen name="manga_header_thumbnail_height">144dp</dimen>
+    <dimen name="manga_header_fab_margin_top">116dp</dimen>
+    <dimen name="manga_header_fab_margin_left">8dp</dimen>
+
+</resources>

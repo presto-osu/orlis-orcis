@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 3,
+                    "endColumn": 12,
+                    "endOffset": 129
+                },
+                "from": {
+                    "file": "/home/yan/backup/android-obfuscator/apps/com.gk.simpleworkoutjournal_3_src.tar.gz/app/src/main/res/values-v11/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 251
+                    }
+                }
+            }
+        ]
+    }
+]

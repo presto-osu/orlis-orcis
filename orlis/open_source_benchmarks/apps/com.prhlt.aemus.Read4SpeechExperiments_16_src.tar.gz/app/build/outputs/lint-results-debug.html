@@ -1,0 +1,1454 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Lint Report</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto" />
+<style>
+body {
+    max-width: 800px;
+    background-color: #000000;
+    background: -webkit-gradient(linear, left top, right bottom, from(#000000), to(#272d33));
+    background: -moz-linear-gradient(left top, #000000, #272d33);
+    color: #f3f3f3;
+    font-family: 'Roboto', Sans-Serif;
+}
+.issue {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 0px 5px 5px;
+}
+.id {
+    font-size: 14pt;
+    color: #bebebe;
+    margin: 5px 0px 5px 0px;
+}
+.category {
+    font-size: 18pt;
+    color: #bebebe;
+    margin: 10px 0px 5px 0px;
+}
+.explanation {
+    margin-top: 10px;
+}
+.explanation b {
+    color: #ffbbbb;
+}
+.explanation code {
+    color: #bebebe;
+    font-family: 'Roboto', Sans-Serif;
+}
+pre {
+    background-color: #282828;
+    margin: 5px 0px 5px 5px;
+    padding: 5px 5px 5px 0px;
+    overflow: hidden;
+}
+.lineno {
+    color: #4f4f4f;
+}
+.embedimage {
+    max-width: 200px;
+    max-height: 200px;
+}
+th { font-weight: normal; }
+table { border: none; }
+.metadata {
+}
+.location {
+    color: #bebebe;
+}
+.message { }
+.errorspan { color: #33b5e5; }
+.errorline { color: #33b5e5; }
+.warningslist { margin-bottom: 20px; }
+.overview {
+    padding: 10pt;
+    width: 100%;
+    overflow: auto;
+    border-collapse:collapse;
+}
+.overview tr {
+    border-top: solid 1px #39393a;
+    border-bottom: solid 1px #39393a;
+}
+.countColumn {
+    text-align: right;
+    padding-right: 20px;
+}
+.issueColumn {
+   padding-left: 16px;
+}
+.categoryColumn {
+   position: relative;
+   left: -50px;
+   padding-top: 20px;
+   padding-bottom: 5px;
+}
+.titleSeparator {
+    background-color: #33b5e5;
+    height: 3px;
+    margin-bottom: 10px;
+}
+.categorySeparator {
+    background-color: #33b5e5;
+    height: 3px;
+    margin-bottom: 10px;
+}
+.issueSeparator {
+    background-color: #39393a;
+    height: 2px;
+    margin-bottom: 10px;
+}
+.location a:link {
+    text-decoration: none;
+    color: #bebebe;
+}
+.location a:hover {
+    text-decoration: underline;
+    color: #f3f3f3;
+}
+a:link {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+a:visited {
+    text-decoration: none;
+    color: #bebebe;
+}
+a:hover {
+    text-decoration: underline;
+    color: #f3f3f3;
+}
+a:active {
+    text-decoration: underline;
+    color: #f3f3f3;
+}
+.moreinfo a:link {
+    text-decoration: underline;
+    color: #33b5e5;
+}
+.moreinfo a:visited {
+    text-decoration: underline;
+    color: #33b5e5;
+}
+.issue a:link {
+    text-decoration: underline;
+}
+.issue a:visited {
+    text-decoration: underline;
+}
+.id a:link {
+    text-decoration: none;
+    color: #bebebe;
+}
+.id a:visited {
+    text-decoration: none;
+    color: #bebebe;
+}
+.id a:hover {
+    text-decoration: underline;
+    color: #f3f3f3;
+}
+.id a:active {
+    text-decoration: underline;
+    color: #bebebe;
+}
+.category a:link {
+    text-decoration: none;
+    color: #bebebe;
+}
+.category a:visited {
+    text-decoration: none;
+    color: #bebebe;
+}
+.category a:hover {
+    text-decoration: underline;
+    color: #f3f3f3;
+}
+.category a:active {
+    text-decoration: underline;
+    color: #bebebe;
+}
+button {
+    color: #ffffff;
+    background-color: #353535;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: solid 1px #5b5b5b;
+    font-family: 'Roboto', Sans-Serif;
+    font-size: 12pt;
+}
+</style>
+<script language="javascript" type="text/javascript"> 
+<!--
+function reveal(id) {
+if (document.getElementById) {
+document.getElementById(id).style.display = 'block';
+document.getElementById(id+'Link').style.display = 'none';
+}
+}
+//--> 
+</script>
+</head>
+<body>
+<h1>Lint Report</h1>
+<div class="titleSeparator"></div>
+Check performed at Mon Nov 27 16:53:28 EST 2017.<br/>
+0 errors and 63 warnings found:<br/><br/>
+<table class="overview">
+<tr><td></td><td class="categoryColumn"><a href="#Correctness">Correctness</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#CommitPrefEdits">CommitPrefEdits: Missing <code>commit()</code> on <code>SharedPreference</code> editor</a>
+</td></tr>
+<tr>
+<td class="countColumn">5</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#DefaultLocale">DefaultLocale: Implied default locale in case conversion</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#OldTargetApi">OldTargetApi: Target SDK attribute is not targeting latest version</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#GradleDependency">GradleDependency: Obsolete Gradle Dependency</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Correctness:Messages">Correctness:Messages</a>
+</td></tr>
+<tr>
+<td class="countColumn">3</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#Typos">Typos: Spelling error</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Security">Security</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#HardwareIds">HardwareIds: Hardware Id Usage</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Performance">Performance</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#StaticFieldLeak">StaticFieldLeak: Static Field Leaks</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#HandlerLeak">HandlerLeak: Handler reference leaks</a>
+</td></tr>
+<tr>
+<td class="countColumn">2</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#InefficientWeight">InefficientWeight: Inefficient layout weight</a>
+</td></tr>
+<tr>
+<td class="countColumn">19</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#UnusedResources">UnusedResources: Unused resources</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Usability:Typography">Usability:Typography</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#TypographyEllipsis">TypographyEllipsis: Ellipsis string can be replaced with ellipsis character</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Usability:Icons">Usability:Icons</a>
+</td></tr>
+<tr>
+<td class="countColumn">11</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#IconLocation">IconLocation: Image defined in density-independent drawable folder</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#IconMissingDensityFolder">IconMissingDensityFolder: Missing density folder</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Usability">Usability</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#GoogleAppIndexingWarning">GoogleAppIndexingWarning: Missing support for Google App Indexing</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#ButtonCase">ButtonCase: Cancel/OK dialog button capitalization</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Accessibility">Accessibility</a>
+</td></tr>
+<tr>
+<td class="countColumn">1</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#ClickableViewAccessibility">ClickableViewAccessibility: Accessibility in Custom Views</a>
+</td></tr>
+<tr>
+<td class="countColumn">6</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#ContentDescription">ContentDescription: Image without <code>contentDescription</code></a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#Internationalization:Bidirectional Text">Internationalization:Bidirectional Text</a>
+</td></tr>
+<tr>
+<td class="countColumn">4</td><td class="issueColumn"><img border="0" align="top" width="16" height="15" alt="Warning" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAPCAQAAABHeoekAAAA3klEQVR42nWPsWoCQRCGVyJiF9tAsNImbcDKR/ABBEurYCsBsfQRQiAPYGPyAAnYWQULS9MErNU2Vsr/ObMX7g6O+xd2/5n5dmY3hFQEBVVpuCsVT/yoUl6u4XotBz4E4qR2YYyH6ugEWY8comR/t+tvPPJtSLPYvhvvTswtbdCmCOwjMHXAzjP9kB/ByB7nejbgy43WVPF3WNG+p9+kzkozdhGAQdZh7BlHdGTL3z98pp6Um7okKdvHNuIzWk+9xN+yINOcHps0OnAfuOOoHJH3pmHghhYP2VJcaXx7BaKz9YB2HVrDAAAAAElFTkSuQmCC"/>
+<a href="#RtlHardcoded">RtlHardcoded: Using left/right instead of start/end attributes</a>
+</td></tr>
+<tr><td></td><td class="categoryColumn"><a href="#MissingIssues">Disabled Checks (16)</a>
+</td></tr></table>
+<br/>
+<a name="Correctness"></a>
+<div class="category"><a href="#" title="Return to top">Correctness</a><div class="categorySeparator"></div>
+</div>
+<a name="CommitPrefEdits"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">CommitPrefEdits: Missing <code>commit()</code> on <code>SharedPreference</code> editor</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java">../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java</a>:235</span>: <span class="message">Consider using <code>apply()</code> instead; <code>commit</code> writes its data to persistent storage immediately, whereas <code>apply</code> will handle it in the background</span><br /><pre class="errorlines">
+<span class="lineno"> 232</span>                 SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
+<span class="lineno"> 233</span>                 SharedPreferences.Editor editor = settings.edit();
+<span class="lineno"> 234</span>                 editor.putString("name", "");
+<span class="lineno"> 235</span>                 <span class="errorspan">editor.commit();</span>
+<span class="lineno"> 236</span> 
+<span class="lineno"> 237</span>                 if (rootDir.exists()) {
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ<br>
+Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing <code>commit()</code> on <code>SharedPreference</code> editor.</div>
+<div class="explanation">
+After calling <code>edit()</code> on a <code>SharedPreference</code>, you must call <code>commit()</code> or <code>apply()</code> on the editor to save the results.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "CommitPrefEdits" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="DefaultLocale"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">DefaultLocale: Implied default locale in case conversion</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java">../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java</a>:444</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="lineno"> 441</span>                         l++;
+<span class="lineno"> 442</span>                         if (numbers.contains(l)) {
+<span class="lineno"> 443</span>                             sentences.add(line);
+<span class="lineno"> 444</span>                             sentencesID.add(String.format("%s_test_%s_%s", name, <span class="errorspan">String.format("%02d", l), Secure.getString(getApplicationContext().getContentResolver(), Secure.ANDROID_ID)));</span>
+<span class="lineno"> 445</span>                         }
+<span class="lineno"> 446</span>                     }
+</pre>
+<span class="location"><a href="../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java">../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java</a>:788</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="lineno"> 785</span>             progressBar.setMax(100);
+<span class="lineno"> 786</span>             progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.progressbar));
+<span class="lineno"> 787</span>             progressBar.setProgress((int) getPercentDone());
+<span class="lineno"> 788</span>             progress.setText(String.format("%s%%", <span class="errorspan">String.format("%.2f", getPercentDone())));</span>
+<span class="lineno"> 789</span>             sentenceNumber.setText(String.format("%s %s/%d", getResources().getString(R.string.sentence), Integer.toString(getArguments().getInt(ARG_SENTENCE_NUMBER)), sentences.size()));
+<span class="lineno"> 790</span>             sentence.setText(sentences.get(getArguments().getInt(ARG_SENTENCE_NUMBER) - 1));
+</pre>
+<span class="location"><a href="../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java">../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java</a>:789</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="lineno"> 786</span>             progressBar.setProgressDrawable(getResources().getDrawable(R.drawable.progressbar));
+<span class="lineno"> 787</span>             progressBar.setProgress((int) getPercentDone());
+<span class="lineno"> 788</span>             progress.setText(String.format("%s%%", String.format("%.2f", getPercentDone())));
+<span class="lineno"> 789</span>             sentenceNumber.setText(<span class="errorspan">String.format("%s %s/%d", getResources().getString(R.string.sentence), Integer.toString(getArguments().getInt(ARG_SENTENCE_NUMBER)), sentences.size()));</span>
+<span class="lineno"> 790</span>             sentence.setText(sentences.get(getArguments().getInt(ARG_SENTENCE_NUMBER) - 1));
+<span class="lineno"> 791</span>             sentence.setOnClickListener(new OnClickListener() {
+</pre>
+<span class="location"><a href="../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java">../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java</a>:1028</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="lineno">1025</span>                     imageSentence.setImageDrawable(Drawable.createFromPath(mDrawableName));
+<span class="lineno">1026</span>             }
+<span class="lineno">1027</span>             progressBar.setProgress((int) getPercentDone());
+<span class="lineno">1028</span>             progress.setText(String.format("%s%%", <span class="errorspan">String.format("%.2f", getPercentDone())));</span>
+<span class="lineno">1029</span>             sentenceNumber.setText(String.format("%s %s/%d", getResources().getString(R.string.sentence), Integer.toString(this.getArguments().getInt(ARG_SENTENCE_NUMBER)), sentences.size()));
+<span class="lineno">1030</span>         }
+</pre>
+<span class="location"><a href="../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java">../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java</a>:1029</span>: <span class="message">Implicitly using the default locale is a common source of bugs: Use <code>String.format(Locale, ...)</code> instead</span><br /><pre class="errorlines">
+<span class="lineno">1026</span>             }
+<span class="lineno">1027</span>             progressBar.setProgress((int) getPercentDone());
+<span class="lineno">1028</span>             progress.setText(String.format("%s%%", String.format("%.2f", getPercentDone())));
+<span class="lineno">1029</span>             sentenceNumber.setText(<span class="errorspan">String.format("%s %s/%d", getResources().getString(R.string.sentence), Integer.toString(this.getArguments().getInt(ARG_SENTENCE_NUMBER)), sentences.size()));</span>
+<span class="lineno">1030</span>         }
+<span class="lineno">1031</span> 
+</pre>
+</div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Implied default locale in case conversion.</div>
+<div class="explanation">
+Calling <code>String#toLowerCase()</code> or <code>#toUpperCase()</code> <b>without specifying an explicit locale</b> is a common source of bugs. The reason for that is that those methods will use the current locale on the user's device, and even though the code appears to work correctly when you are developing the app, it will fail in some locales. For example, in the Turkish locale, the uppercase replacement for <code>i</code> is <b>not</b> <code>I</code>.<br/>
+<br/>
+If you want the methods to just perform ASCII replacement, for example to convert an enum name, call <code>String#toUpperCase(Locale.US)</code> instead. If you really want to use the current locale, call <code>String#toUpperCase(Locale.getDefault())</code> instead.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/reference/java/util/Locale.html#default_locale">http://developer.android.com/reference/java/util/Locale.html#default_locale</a>
+</div><br/>To suppress this error, use the issue id "DefaultLocale" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="OldTargetApi"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">OldTargetApi: Target SDK attribute is not targeting latest version</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:11</span>: <span class="message">Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.</span><br /><pre class="errorlines">
+<span class="lineno">   8</span>     defaultConfig {
+<span class="lineno">   9</span>         applicationId "com.prhlt.aemus.Read4SpeechExperiments"
+<span class="lineno">  10</span>         minSdkVersion 9
+<span class="lineno">  11</span>         <span class="errorspan">targetSdkVersion 20</span>
+<span class="lineno">  12</span>     }
+<span class="lineno">  13</span> 
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ<br>
+Priority: 6 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Target SDK attribute is not targeting latest version.</div>
+<div class="explanation">
+When your application runs on a version of Android that is more recent than your <code>targetSdkVersion</code> specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the <code>targetSdkVersion</code> is less than 14, your app may get an option button in the UI.<br/>
+<br/>
+To fix this issue, set the <code>targetSdkVersion</code> to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: <a href="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html">http://developer.android.com/reference/android/os/Build.VERSION_CODES.html</a>
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html">http://developer.android.com/reference/android/os/Build.VERSION_CODES.html</a>
+</div><br/>To suppress this error, use the issue id "OldTargetApi" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="GradleDependency"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">GradleDependency: Obsolete Gradle Dependency</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:24</span>: <span class="message">A newer version of com.android.support:support-v4 than 20.0.0 is available: 25.3.1</span><br /><pre class="errorlines">
+<span class="lineno">  21</span> }
+<span class="lineno">  22</span> 
+<span class="lineno">  23</span> dependencies {
+<span class="lineno">  24</span>     <span class="errorspan">compile 'com.android.support:support-v4:20.0.0'</span>
+<span class="lineno">  25</span>     compile 'com.android.support:appcompat-v7:20.0.0'
+<span class="lineno">  26</span> }
+</pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:25</span>: <span class="message">A newer version of com.android.support:appcompat-v7 than 20.0.0 is available: 25.3.1</span><br /><pre class="errorlines">
+<span class="lineno">  22</span> 
+<span class="lineno">  23</span> dependencies {
+<span class="lineno">  24</span>     compile 'com.android.support:support-v4:20.0.0'
+<span class="lineno">  25</span>     <span class="errorspan">compile 'com.android.support:appcompat-v7:20.0.0'</span>
+<span class="lineno">  26</span> }
+<span class="lineno">  27</span> 
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ<br>
+Priority: 4 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Obsolete Gradle Dependency.</div>
+<div class="explanation">
+This detector looks for usages of libraries where the version you are using is not the current stable release. Using older versions is fine, and there are cases where you deliberately want to stick with an older version. However, you may simply not be aware that a more recent version is available, and that is what this lint check helps find.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "GradleDependency" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Correctness:Messages"></a>
+<div class="category"><a href="#" title="Return to top">Correctness:Messages</a><div class="categorySeparator"></div>
+</div>
+<a name="Typos"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">Typos: Spelling error</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:6</span>: <span class="message">"Ok" is usually capitalized as "OK"</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     &lt;string name="app_name">Read4SpeechExperiments&lt;/string>
+<span class="lineno">   4</span>     &lt;string name="send">Send&lt;/string>
+<span class="lineno">   5</span>     &lt;string name="close">Close&lt;/string>
+<span class="lineno">   6</span>     &lt;string name="ok"><span class="errorspan">Ok&lt;/string></span>
+<span class="lineno">   7</span>     &lt;string name="cancel">Cancel&lt;/string>
+<span class="lineno">   8</span>     &lt;string name="content">DUMMY CONTENT&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:14</span>: <span class="message">"aplication" is a common misspelling; did you mean "application" ?</span><br /><pre class="errorlines">
+<span class="lineno">  11</span>     &lt;string name="next">Next&lt;/string>
+<span class="lineno">  12</span>     &lt;string name="previous">Previous&lt;/string>
+<span class="lineno">  13</span>     &lt;string name="intructionTitle">Instructions&lt;/string>
+<span class="lineno">  14</span>     &lt;string name="instructions">Buttons:&amp;lt;br /&amp;gt;\&amp;quot;Record\&amp;quot;: records the audio.&amp;lt;br /&amp;gt;\&amp;quot;Play\&amp;quot;: plays the sentence audio file recorded.&amp;lt;br /&amp;gt;\&amp;quot;Menu/Cle<span class="errorspan">an...\&amp;quot;: delete all files recorded by this aplication.&amp;lt;br /&amp;gt;\&amp;quot;Menu/Send...\&amp;quot;: send all files recorded.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Background color:&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color="#080862">Blue&lt;/font>&lt;/b>]]>\&amp;quot;: the sentence has not been recorded.&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color="#086208">Green&lt;/font>&lt;/b>]]>\&amp;quot;: the sentence has already been recorded.&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color="#620808">Red&lt;/font>&lt;/b>]]>\&amp;quot;: the sentence is being recorded.&lt;/string></span>
+<span class="lineno">  15</span>     &lt;string name="showAtStart">Show instructions at the start.&lt;/string>
+<span class="lineno">  16</span>     &lt;string name="notSpaceTitle">Not enough free space.&lt;/string>
+</pre>
+<span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:46</span>: <span class="message">"adress" is a common misspelling; did you mean "address" ?</span><br /><pre class="errorlines">
+<span class="lineno">  43</span>     &lt;string name="spaceNecessary2"> MB before using this application.&lt;/string>
+<span class="lineno">  44</span>     &lt;string name="noRecords">There are not records to send.&lt;/string>
+<span class="lineno">  45</span>     &lt;string name="noRecordToDelete">There are not records to delete.&lt;/string>
+<span class="lineno">  46</span>     &lt;string name="serverIPSummary">Server IP <span class="errorspan">adress&lt;/string></span>
+<span class="lineno">  47</span>     &lt;string name="serverIPTitle">Server IP&lt;/string>
+<span class="lineno">  48</span>     &lt;string name="serverPortSummary">Service listening port&lt;/string>
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT<br>
+Priority: 7 / 10<br/>
+Category: Correctness:Messages</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Spelling error.</div>
+<div class="explanation">
+This check looks through the string definitions, and if it finds any words that look like likely misspellings, they are flagged.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "Typos" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Security"></a>
+<div class="category"><a href="#" title="Return to top">Security</a><div class="categorySeparator"></div>
+</div>
+<a name="HardwareIds"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">HardwareIds: Hardware Id Usage</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java">../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java</a>:350</span>: <span class="message">Using <code>getString</code> to get device identifiers is not recommended.</span><br /><pre class="errorlines">
+<span class="lineno"> 347</span>     void init() {
+<span class="lineno"> 348</span>         SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(this);
+<span class="lineno"> 349</span>         name = settings.getString("name", "user");
+<span class="lineno"> 350</span>         ID = <span class="errorspan">Secure.getString(getApplicationContext().getContentResolver(), Secure.ANDROID_ID);</span>
+<span class="lineno"> 351</span> 
+<span class="lineno"> 352</span>         rootDir = new File(Environment.getExternalStorageDirectory().getPath() + "/Read4SpeechExperiments/");
+</pre>
+<span class="location"><a href="../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java">../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java</a>:444</span>: <span class="message">Using <code>getString</code> to get device identifiers is not recommended.</span><br /><pre class="errorlines">
+<span class="lineno"> 441</span>                         l++;
+<span class="lineno"> 442</span>                         if (numbers.contains(l)) {
+<span class="lineno"> 443</span>                             sentences.add(line);
+<span class="lineno"> 444</span>                             sentencesID.add(String.format("%s_test_%s_%s", name, String.format("%02d", l), <span class="errorspan">Secure.getString(getApplicationContext().getContentResolver(), Secure.ANDROID_ID)));</span>
+<span class="lineno"> 445</span>                         }
+<span class="lineno"> 446</span>                     }
+</pre>
+</div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Security</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Hardware Id Usage.</div>
+<div class="explanation">
+Using device identifiers is not recommended other than for high value fraud prevention and advanced telephony use-cases. For advertising use-cases, use <code>AdvertisingIdClient$Info#getId</code> and for analytics, use <code>InstanceId#getId</code>.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://developer.android.com/training/articles/user-data-ids.html">https://developer.android.com/training/articles/user-data-ids.html</a>
+</div><br/>To suppress this error, use the issue id "HardwareIds" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Performance"></a>
+<div class="category"><a href="#" title="Return to top">Performance</a><div class="categorySeparator"></div>
+</div>
+<a name="StaticFieldLeak"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">StaticFieldLeak: Static Field Leaks</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java">../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java</a>:115</span>: <span class="message">Do not place Android context classes in static fields; this is a memory leak (and also breaks Instant Run)</span><br /><pre class="errorlines">
+<span class="lineno"> 112</span>     private static Boolean record = false;
+<span class="lineno"> 113</span>     private static File rootDir;
+<span class="lineno"> 114</span>     private static File linesDir;
+<span class="lineno"> 115</span>     <span class="errorspan">private static Context context;</span>
+<span class="lineno"> 116</span>     AlertDialog.Builder cleanDialog;
+<span class="lineno"> 117</span>     AlertDialog.Builder thanksDialog;
+</pre>
+</div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Static Field Leaks.</div>
+<div class="explanation">
+A static field will leak contexts.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "StaticFieldLeak" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="HandlerLeak"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">HandlerLeak: Handler reference leaks</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java">../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java</a>:690</span>: <span class="message">This Handler class should be static or leaks might occur (anonymous android.os.Handler)</span><br /><pre class="errorlines">
+<span class="lineno"> 687</span>         ProgressBar progressBar;
+<span class="lineno"> 688</span> 
+<span class="lineno"> 689</span>         public PlaceholderFragment() {
+<span class="lineno"> 690</span>             handler = new <span class="errorspan">Handler() {</span>
+<span class="lineno"> 691</span> 
+<span class="lineno"> 692</span>                 // Create handleMessage function
+</pre>
+</div>
+<div class="metadata">Priority: 4 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Handler reference leaks.</div>
+<div class="explanation">
+Since this Handler is declared as an inner class, it may prevent the outer class from being garbage collected. If the Handler is using a Looper or MessageQueue for a thread other than the main thread, then there is no issue. If the Handler is using the Looper or MessageQueue of the main thread, you need to fix your Handler declaration, as follows: Declare the Handler as a static class; In the outer class, instantiate a WeakReference to the outer class and pass this object to your Handler when you instantiate the Handler; Make all references to members of the outer class using the WeakReference object.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "HandlerLeak" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="InefficientWeight"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">InefficientWeight: Inefficient layout weight</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout-land/fragment_main.xml">../../src/main/res/layout-land/fragment_main.xml</a>:75</span>: <span class="message">Use a <code>layout_width</code> of <code>0dp</code> instead of <code>250dp</code> for better performance</span><br /><pre class="errorlines">
+<span class="lineno">  72</span>                 &lt;ProgressBar
+<span class="lineno">  73</span>                     android:id="@+id/progressBar1"
+<span class="lineno">  74</span>                     style="?android:attr/progressBarStyleHorizontal"
+<span class="lineno">  75</span>                     <span class="errorspan">android:layout_width="250dp"</span>
+<span class="lineno">  76</span>                     android:layout_height="20dp"
+<span class="lineno">  77</span>                     android:layout_gravity="center"
+</pre>
+<span class="location"><a href="../../src/main/res/layout-port/fragment_main.xml">../../src/main/res/layout-port/fragment_main.xml</a>:100</span>: <span class="message">Use a <code>layout_width</code> of <code>0dp</code> instead of <code>210dp</code> for better performance</span><br /><pre class="errorlines">
+<span class="lineno">  97</span>                 &lt;ProgressBar
+<span class="lineno">  98</span>                     android:id="@+id/progressBar1"
+<span class="lineno">  99</span>                     style="?android:attr/progressBarStyleHorizontal"
+<span class="lineno"> 100</span>                     <span class="errorspan">android:layout_width="210dp"</span>
+<span class="lineno"> 101</span>                     android:layout_height="20dp"
+<span class="lineno"> 102</span>                     android:layout_gravity="center"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT<br>
+Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Inefficient layout weight.</div>
+<div class="explanation">
+When only a single widget in a LinearLayout defines a weight, it is more efficient to assign a width/height of <code>0dp</code> to it since it will absorb all the remaining space anyway. With a declared width/height of <code>0dp</code> it does not have to measure its own size first.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "InefficientWeight" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UnusedResources"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">UnusedResources: Unused resources</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/values/colors.xml">../../src/main/res/values/colors.xml</a>:6</span>: <span class="message">The resource <code>R.color.black</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     &lt;color name="recording">#620808&lt;/color>
+<span class="lineno">   4</span>     &lt;color name="recorded">#086208&lt;/color>
+<span class="lineno">   5</span>     &lt;color name="notRecorded">#080862&lt;/color>
+<span class="lineno">   6</span>     &lt;color <span class="errorspan">name="black">#000000&lt;/color></span>
+<span class="lineno">   7</span>     &lt;color name="white">#FFFFFF&lt;/color>
+<span class="lineno">   8</span> &lt;/resources>
+</pre>
+<span class="location"><a href="../../src/main/res/values/colors.xml">../../src/main/res/values/colors.xml</a>:7</span>: <span class="message">The resource <code>R.color.white</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   4</span>     &lt;color name="recorded">#086208&lt;/color>
+<span class="lineno">   5</span>     &lt;color name="notRecorded">#080862&lt;/color>
+<span class="lineno">   6</span>     &lt;color name="black">#000000&lt;/color>
+<span class="lineno">   7</span>     &lt;color <span class="errorspan">name="white">#FFFFFF&lt;/color></span>
+<span class="lineno">   8</span> &lt;/resources>
+
+</pre>
+<span class="location"><a href="../../src/main/res/drawable/play_stop_pressed.png">../../src/main/res/drawable/play_stop_pressed.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/play_stop_pressed.png" /><span class="message">The resource <code>R.drawable.play_stop_pressed</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/record_stop_pressed.png">../../src/main/res/drawable/record_stop_pressed.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/record_stop_pressed.png" /><span class="message">The resource <code>R.drawable.record_stop_pressed</code> appears to be unused</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/recstopbutton.xml">../../src/main/res/drawable/recstopbutton.xml</a>:2</span>: <span class="message">The resource <code>R.drawable.recstopbutton</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> <span class="errorspan">&lt;selector xmlns:android="http://schemas.android.com/apk/res/android"></span>
+<span class="lineno">   3</span> 
+<span class="lineno">   4</span>     &lt;item android:drawable="@drawable/record_stop" android:state_focused="true" android:state_pressed="false"/>
+</pre>
+<button id="UnusedResourcesDivLink" onclick="reveal('UnusedResourcesDiv');" />+ 14 More Occurrences...</button>
+<div id="UnusedResourcesDiv" style="display: none">
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:4</span>: <span class="message">The resource <code>R.string.send</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   1</span> &lt;?xml version="1.0" encoding="utf-8"?>
+<span class="lineno">   2</span> &lt;resources>
+<span class="lineno">   3</span>     &lt;string name="app_name">Read4SpeechExperiments&lt;/string>
+<span class="lineno">   4</span>     &lt;string <span class="errorspan">name="send">Enviar&lt;/string></span>
+<span class="lineno">   5</span>     &lt;string name="close">Cerrar&lt;/string>
+<span class="lineno">   6</span>     &lt;string name="ok">Aceptar&lt;/string>
+</pre>
+<ul></ul><button id="Location6DivLink" onclick="reveal('Location6Div');" />+ 2 Additional Locations...</button>
+<div id="Location6Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:4</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:4</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:11</span>: <span class="message">The resource <code>R.string.next</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   8</span>     &lt;string name="content">DUMMY CONTENT&lt;/string>
+<span class="lineno">   9</span>     &lt;string name="record">Grabar&lt;/string>
+<span class="lineno">  10</span>     &lt;string name="play">Reproducir&lt;/string>
+<span class="lineno">  11</span>     &lt;string <span class="errorspan">name="next">Siguiente&lt;/string></span>
+<span class="lineno">  12</span>     &lt;string name="previous">Anterior&lt;/string>
+<span class="lineno">  13</span>     &lt;string name="intructionTitle">Instrucciones&lt;/string>
+</pre>
+<ul></ul><button id="Location7DivLink" onclick="reveal('Location7Div');" />+ 2 Additional Locations...</button>
+<div id="Location7Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:11</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:11</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:12</span>: <span class="message">The resource <code>R.string.previous</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">   9</span>     &lt;string name="record">Grabar&lt;/string>
+<span class="lineno">  10</span>     &lt;string name="play">Reproducir&lt;/string>
+<span class="lineno">  11</span>     &lt;string name="next">Siguiente&lt;/string>
+<span class="lineno">  12</span>     &lt;string <span class="errorspan">name="previous">Anterior&lt;/string></span>
+<span class="lineno">  13</span>     &lt;string name="intructionTitle">Instrucciones&lt;/string>
+<span class="lineno">  14</span>     &lt;string name="instructions">Botones:&amp;lt;br /&amp;gt;\&amp;quot;Grabar\&amp;quot;: graba el audio.&amp;lt;br /&amp;gt;\&amp;quot;Reproducir\&amp;quot;: reproduce el audio de la frase grabada.&amp;lt;br /&amp;gt;\&amp;quot;Menú/Borrar...\&amp;quot;: borra todos los ficheros generados por esta aplicación.&amp;lt;br /&amp;gt;\&amp;quot;Menú/Enviar...\&amp;quot;: envía las grabaciones.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Color del fondo:&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color="#080862">Azul&lt;/font>&lt;/b>]]>\&amp;quot;: la frase aún no se ha grabado.&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color="#086208">Verde&lt;/font>&lt;/b>]]>\&amp;quot;: la frase ya se ha grabado.&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color="#620808">Rojo&lt;/font>&lt;/b>]]>\&amp;quot;: la frase se está grabando.&lt;/string>
+</pre>
+<ul></ul><button id="Location8DivLink" onclick="reveal('Location8Div');" />+ 2 Additional Locations...</button>
+<div id="Location8Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:12</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:12</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:26</span>: <span class="message">The resource <code>R.string.menu</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  23</span>     &lt;string name="recordTitle">Grabar una nueva frase&lt;/string>
+<span class="lineno">  24</span>     &lt;string name="recordMessage">Esta frase ya se ha grabado.\n¿Quieres volverla a grabar?\nAl grabarla de nuevo se sobreescribirá la grabación anterior.&lt;/string>
+<span class="lineno">  25</span>     &lt;string name="newRecord">Nueva grabación&lt;/string>
+<span class="lineno">  26</span>     &lt;string <span class="errorspan">name="menu">Menú&lt;/string></span>
+<span class="lineno">  27</span>     &lt;string name="sentence">Frase&lt;/string>
+<span class="lineno">  28</span>     &lt;string name="setSpeakerID">Por favor, indique un identificador para el locutor.&lt;/string>
+</pre>
+<ul></ul><button id="Location9DivLink" onclick="reveal('Location9Div');" />+ 2 Additional Locations...</button>
+<div id="Location9Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:26</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:26</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:30</span>: <span class="message">The resource <code>R.string.audioPathSummary</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  27</span>     &lt;string name="sentence">Frase&lt;/string>
+<span class="lineno">  28</span>     &lt;string name="setSpeakerID">Por favor, indique un identificador para el locutor.&lt;/string>
+<span class="lineno">  29</span>     &lt;string name="settings">Configuración&lt;/string>
+<span class="lineno">  30</span>     &lt;string <span class="errorspan">name="audioPathSummary">Directorio en el que se guardarán los ficheros de audio.&lt;/string></span>
+<span class="lineno">  31</span>     &lt;string name="audioPathTitle">Directorio para el audio&lt;/string>
+<span class="lineno">  32</span>     &lt;string name="speakerIDSummary">Identificador del locutor.&lt;/string>
+</pre>
+<ul></ul><button id="Location10DivLink" onclick="reveal('Location10Div');" />+ 2 Additional Locations...</button>
+<div id="Location10Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:30</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:30</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:31</span>: <span class="message">The resource <code>R.string.audioPathTitle</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  28</span>     &lt;string name="setSpeakerID">Por favor, indique un identificador para el locutor.&lt;/string>
+<span class="lineno">  29</span>     &lt;string name="settings">Configuración&lt;/string>
+<span class="lineno">  30</span>     &lt;string name="audioPathSummary">Directorio en el que se guardarán los ficheros de audio.&lt;/string>
+<span class="lineno">  31</span>     &lt;string <span class="errorspan">name="audioPathTitle">Directorio para el audio&lt;/string></span>
+<span class="lineno">  32</span>     &lt;string name="speakerIDSummary">Identificador del locutor.&lt;/string>
+<span class="lineno">  33</span>     &lt;string name="speakerIDTitle">Locutor ID&lt;/string>
+</pre>
+<ul></ul><button id="Location11DivLink" onclick="reveal('Location11Div');" />+ 2 Additional Locations...</button>
+<div id="Location11Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:31</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:31</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:40</span>: <span class="message">The resource <code>R.string.notSentencesFile</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  37</span>     &lt;string name="settingsTitle">Configuración general&lt;/string>
+<span class="lineno">  38</span>     &lt;string name="mandatorySentencesSummary">Ruta absoluta al fichero de texto o zip que contiene las frases a leer.&lt;/string>
+<span class="lineno">  39</span>     &lt;string name="mandatorySentencesTitle">Fichero con las frases a leer&lt;/string>
+<span class="lineno">  40</span>     &lt;string <span class="errorspan">name="notSentencesFile">El fichero de frases indicado no existe: &lt;/string></span>
+<span class="lineno">  41</span>     &lt;string name="senteceFileNeeded">Se necesita un fichero de texto con las frases. Se van a cargar unas frases como demostración.&lt;/string>
+<span class="lineno">  42</span>     &lt;string name="spaceNecessary1">No hay espacio suficiente para grabar todas las frases.\nPor favos, libere al menos &lt;/string>
+</pre>
+<ul></ul><button id="Location12DivLink" onclick="reveal('Location12Div');" />+ 2 Additional Locations...</button>
+<div id="Location12Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:40</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:40</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:47</span>: <span class="message">The resource <code>R.string.settingsData</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  44</span>     &lt;string name="noRecords">No hay grabaciones.&lt;/string>
+<span class="lineno">  45</span>     &lt;string name="noRecordToDelete">No hay grabaciones que borrar.&lt;/string>
+<span class="lineno">  46</span>     &lt;string name="settingsUser">Información del usuario&lt;/string>
+<span class="lineno">  47</span>     &lt;string <span class="errorspan">name="settingsData">Origen de los datos&lt;/string></span>
+<span class="lineno">  48</span>     &lt;string name="serverIPSummary">Dirección IP del servidor&lt;/string>
+<span class="lineno">  49</span>     &lt;string name="serverIPTitle">IP del servidor&lt;/string>
+</pre>
+<ul></ul><button id="Location13DivLink" onclick="reveal('Location13Div');" />+ 2 Additional Locations...</button>
+<div id="Location13Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:50</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:50</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:48</span>: <span class="message">The resource <code>R.string.serverIPSummary</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  45</span>     &lt;string name="noRecordToDelete">No hay grabaciones que borrar.&lt;/string>
+<span class="lineno">  46</span>     &lt;string name="settingsUser">Información del usuario&lt;/string>
+<span class="lineno">  47</span>     &lt;string name="settingsData">Origen de los datos&lt;/string>
+<span class="lineno">  48</span>     &lt;string <span class="errorspan">name="serverIPSummary">Dirección IP del servidor&lt;/string></span>
+<span class="lineno">  49</span>     &lt;string name="serverIPTitle">IP del servidor&lt;/string>
+<span class="lineno">  50</span>     &lt;string name="serverPortSummary">Puerto de escucha del servicio&lt;/string>
+</pre>
+<ul></ul><button id="Location14DivLink" onclick="reveal('Location14Div');" />+ 2 Additional Locations...</button>
+<div id="Location14Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:46</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:46</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:49</span>: <span class="message">The resource <code>R.string.serverIPTitle</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  46</span>     &lt;string name="settingsUser">Información del usuario&lt;/string>
+<span class="lineno">  47</span>     &lt;string name="settingsData">Origen de los datos&lt;/string>
+<span class="lineno">  48</span>     &lt;string name="serverIPSummary">Dirección IP del servidor&lt;/string>
+<span class="lineno">  49</span>     &lt;string <span class="errorspan">name="serverIPTitle">IP del servidor&lt;/string></span>
+<span class="lineno">  50</span>     &lt;string name="serverPortSummary">Puerto de escucha del servicio&lt;/string>
+<span class="lineno">  51</span>     &lt;string name="serverPortTitle">Puerto&lt;/string>
+</pre>
+<ul></ul><button id="Location15DivLink" onclick="reveal('Location15Div');" />+ 2 Additional Locations...</button>
+<div id="Location15Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:47</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:47</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:50</span>: <span class="message">The resource <code>R.string.serverPortSummary</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  47</span>     &lt;string name="settingsData">Origen de los datos&lt;/string>
+<span class="lineno">  48</span>     &lt;string name="serverIPSummary">Dirección IP del servidor&lt;/string>
+<span class="lineno">  49</span>     &lt;string name="serverIPTitle">IP del servidor&lt;/string>
+<span class="lineno">  50</span>     &lt;string <span class="errorspan">name="serverPortSummary">Puerto de escucha del servicio&lt;/string></span>
+<span class="lineno">  51</span>     &lt;string name="serverPortTitle">Puerto&lt;/string>
+<span class="lineno">  52</span>     &lt;string name="SentencesTitle">Información de las Frases&lt;/string>
+</pre>
+<ul></ul><button id="Location16DivLink" onclick="reveal('Location16Div');" />+ 2 Additional Locations...</button>
+<div id="Location16Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:48</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:48</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:51</span>: <span class="message">The resource <code>R.string.serverPortTitle</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  48</span>     &lt;string name="serverIPSummary">Dirección IP del servidor&lt;/string>
+<span class="lineno">  49</span>     &lt;string name="serverIPTitle">IP del servidor&lt;/string>
+<span class="lineno">  50</span>     &lt;string name="serverPortSummary">Puerto de escucha del servicio&lt;/string>
+<span class="lineno">  51</span>     &lt;string <span class="errorspan">name="serverPortTitle">Puerto&lt;/string></span>
+<span class="lineno">  52</span>     &lt;string name="SentencesTitle">Información de las Frases&lt;/string>
+<span class="lineno">  53</span>     &lt;string name="optionalSentencesSummary">Ruta absoluta al fichero zip que contiene el fichero de texto y/o las imágenes de las frases a leer.&lt;/string>
+</pre>
+<ul></ul><button id="Location17DivLink" onclick="reveal('Location17Div');" />+ 2 Additional Locations...</button>
+<div id="Location17Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:49</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:49</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:53</span>: <span class="message">The resource <code>R.string.optionalSentencesSummary</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  50</span>     &lt;string name="serverPortSummary">Puerto de escucha del servicio&lt;/string>
+<span class="lineno">  51</span>     &lt;string name="serverPortTitle">Puerto&lt;/string>
+<span class="lineno">  52</span>     &lt;string name="SentencesTitle">Información de las Frases&lt;/string>
+<span class="lineno">  53</span>     &lt;string <span class="errorspan">name="optionalSentencesSummary">Ruta absoluta al fichero zip que contiene el fichero de texto y/o las imágenes de las frases a leer.&lt;/string></span>
+<span class="lineno">  54</span>     &lt;string name="optionalSentencesTitle">Fichero zip con las frases&lt;/string>
+<span class="lineno">  55</span>     &lt;string name="handsfreeTitle">Hands Free&lt;/string>
+</pre>
+<ul></ul><button id="Location18DivLink" onclick="reveal('Location18Div');" />+ 2 Additional Locations...</button>
+<div id="Location18Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:53</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:53</span>
+</ul>
+</div><br/><br/>
+<span class="location"><a href="../../src/main/res/values/strings.xml">../../src/main/res/values/strings.xml</a>:54</span>: <span class="message">The resource <code>R.string.optionalSentencesTitle</code> appears to be unused</span><br /><pre class="errorlines">
+<span class="lineno">  51</span>     &lt;string name="serverPortTitle">Puerto&lt;/string>
+<span class="lineno">  52</span>     &lt;string name="SentencesTitle">Información de las Frases&lt;/string>
+<span class="lineno">  53</span>     &lt;string name="optionalSentencesSummary">Ruta absoluta al fichero zip que contiene el fichero de texto y/o las imágenes de las frases a leer.&lt;/string>
+<span class="lineno">  54</span>     &lt;string <span class="errorspan">name="optionalSentencesTitle">Fichero zip con las frases&lt;/string></span>
+<span class="lineno">  55</span>     &lt;string name="handsfreeTitle">Hands Free&lt;/string>
+<span class="lineno">  56</span>     &lt;string name="handsfreeSummary">Permits to acquire the audio without user interaction&lt;/string>
+</pre>
+<ul></ul><button id="Location19DivLink" onclick="reveal('Location19Div');" />+ 2 Additional Locations...</button>
+<div id="Location19Div" style="display: none">
+Additional locations: <ul>
+<li> <span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:54</span>
+<li> <span class="location"><a href="../../src/main/res/values-es/strings.xml">../../src/main/res/values-es/strings.xml</a>:54</span>
+</ul>
+</div><br/><br/>
+</div>
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused resources.</div>
+<div class="explanation">
+Unused resources make applications larger and slow down builds.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedResources" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Usability:Typography"></a>
+<div class="category"><a href="#" title="Return to top">Usability:Typography</a><div class="categorySeparator"></div>
+</div>
+<a name="TypographyEllipsis"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">TypographyEllipsis: Ellipsis string can be replaced with ellipsis character</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:14</span>: <span class="message">Replace "..." with ellipsis character (&#8230;, &amp;#8230;) ?</span><br /><pre class="errorlines">
+<span class="lineno">  11</span>     &lt;string name="next">Next&lt;/string>
+<span class="lineno">  12</span>     &lt;string name="previous">Previous&lt;/string>
+<span class="lineno">  13</span>     &lt;string name="intructionTitle">Instructions&lt;/string>
+<span class="lineno">  14</span>     &lt;string name="instructions"><span class="errorspan">Buttons:&amp;lt;br /&amp;gt;\&amp;quot;Record\&amp;quot;: records the audio.&amp;lt;br /&amp;gt;\&amp;quot;Play\&amp;quot;: plays the sentence audio file recorded.&amp;lt;br /&amp;gt;\&amp;quot;Menu/Clean...\&amp;quot;: delete all files recorded by this aplication.&amp;lt;br /&amp;gt;\&amp;quot;Menu/Send...\&amp;quot;: send all files recorded.&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Background color:&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color="#080862">Blue&lt;/font>&lt;/b>]]>\&amp;quot;: the sentence has not been recorded.&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color="#086208">Green&lt;/font>&lt;/b>]]>\&amp;quot;: the sentence has already been recorded.&amp;lt;br /&amp;gt;\&amp;quot;&lt;![CDATA[&lt;b>&lt;font color="#620808">Red&lt;/font>&lt;/b>]]>\&amp;quot;: the sentence is being recorded.&lt;/string></span>
+<span class="lineno">  15</span>     &lt;string name="showAtStart">Show instructions at the start.&lt;/string>
+<span class="lineno">  16</span>     &lt;string name="notSpaceTitle">Not enough free space.&lt;/string>
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT<br>
+Priority: 5 / 10<br/>
+Category: Usability:Typography</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Ellipsis string can be replaced with ellipsis character.</div>
+<div class="explanation">
+You can replace the string "..." with a dedicated ellipsis character, ellipsis character (&#8230;, &amp;#8230;). This can help make the text more readable.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://en.wikipedia.org/wiki/Ellipsis">http://en.wikipedia.org/wiki/Ellipsis</a>
+</div><br/>To suppress this error, use the issue id "TypographyEllipsis" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Usability:Icons"></a>
+<div class="category"><a href="#" title="Return to top">Usability:Icons</a><div class="categorySeparator"></div>
+</div>
+<a name="IconLocation"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconLocation: Image defined in density-independent drawable folder</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/drawable/ic_launcher.png">../../src/main/res/drawable/ic_launcher.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/ic_launcher.png" /><span class="message">Found bitmap drawable <code>res/drawable/ic_launcher.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/play.png">../../src/main/res/drawable/play.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/play.png" /><span class="message">Found bitmap drawable <code>res/drawable/play.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/play_disabled.png">../../src/main/res/drawable/play_disabled.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/play_disabled.png" /><span class="message">Found bitmap drawable <code>res/drawable/play_disabled.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/play_pressed.png">../../src/main/res/drawable/play_pressed.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/play_pressed.png" /><span class="message">Found bitmap drawable <code>res/drawable/play_pressed.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/play_stop.png">../../src/main/res/drawable/play_stop.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/play_stop.png" /><span class="message">Found bitmap drawable <code>res/drawable/play_stop.png</code> in densityless folder</span><br clear="right"/>
+<button id="IconLocationDivLink" onclick="reveal('IconLocationDiv');" />+ 6 More Occurrences...</button>
+<div id="IconLocationDiv" style="display: none">
+<span class="location"><a href="../../src/main/res/drawable/play_stop_pressed.png">../../src/main/res/drawable/play_stop_pressed.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/play_stop_pressed.png" /><span class="message">Found bitmap drawable <code>res/drawable/play_stop_pressed.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/record.png">../../src/main/res/drawable/record.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/record.png" /><span class="message">Found bitmap drawable <code>res/drawable/record.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/record_disabled.png">../../src/main/res/drawable/record_disabled.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/record_disabled.png" /><span class="message">Found bitmap drawable <code>res/drawable/record_disabled.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/record_pressed.png">../../src/main/res/drawable/record_pressed.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/record_pressed.png" /><span class="message">Found bitmap drawable <code>res/drawable/record_pressed.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/record_stop.png">../../src/main/res/drawable/record_stop.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/record_stop.png" /><span class="message">Found bitmap drawable <code>res/drawable/record_stop.png</code> in densityless folder</span><br clear="right"/>
+<span class="location"><a href="../../src/main/res/drawable/record_stop_pressed.png">../../src/main/res/drawable/record_stop_pressed.png</a></span>: <img class="embedimage" align="right" src="../../src/main/res/drawable/record_stop_pressed.png" /><span class="message">Found bitmap drawable <code>res/drawable/record_stop_pressed.png</code> in densityless folder</span><br clear="right"/>
+</div>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Image defined in density-independent drawable folder.</div>
+<div class="explanation">
+The res/drawable folder is intended for density-independent graphics such as shapes defined in XML. For bitmaps, move it to <code>drawable-mdpi</code> and consider providing higher and lower resolution versions in <code>drawable-ldpi</code>, <code>drawable-hdpi</code> and <code>drawable-xhdpi</code>. If the icon <b>really</b> is density independent (for example a solid color) you can place it in <code>drawable-nodpi</code>.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/screens_support.html">http://developer.android.com/guide/practices/screens_support.html</a>
+</div><br/>To suppress this error, use the issue id "IconLocation" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconMissingDensityFolder"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">IconMissingDensityFolder: Missing density folder</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res">../../src/main/res</a></span>: <span class="message">Missing density variation folders in <code>src/main/res</code>: drawable-xxxhdpi</span><br />
+</div>
+<div class="metadata">Priority: 3 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing density folder.</div>
+<div class="explanation">
+Icons will look best if a custom version is provided for each of the major screen density classes (low, medium, high, extra-high, extra-extra-high). This lint check identifies folders which are missing, such as <code>drawable-hdpi</code>.<br/>
+<br/>
+Low density is not really used much anymore, so this check ignores the ldpi density. To force lint to include it, set the environment variable <code>ANDROID_LINT_INCLUDE_LDPI=true</code>. For more information on current density usage, see <a href="http://developer.android.com/resources/dashboard/screens.html">http://developer.android.com/resources/dashboard/screens.html</a>
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/screens_support.html">http://developer.android.com/guide/practices/screens_support.html</a>
+</div><br/>To suppress this error, use the issue id "IconMissingDensityFolder" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Usability"></a>
+<div class="category"><a href="#" title="Return to top">Usability</a><div class="categorySeparator"></div>
+</div>
+<a name="GoogleAppIndexingWarning"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">GoogleAppIndexingWarning: Missing support for Google App Indexing</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/AndroidManifest.xml">../../src/main/AndroidManifest.xml</a>:13</span>: <span class="message">App is not indexable by Google Search; consider adding at least one Activity with an ACTION-VIEW intent filter. See issue explanation for more details.</span><br /><pre class="errorlines">
+<span class="lineno">  10</span>     &lt;uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+<span class="lineno">  11</span>     &lt;uses-permission android:name="android.permission.BROADCAST_STICKY" />
+<span class="lineno">  12</span> 
+<span class="lineno">  13</span>     <span class="errorspan">&lt;application</span>
+<span class="lineno">  14</span>         android:allowBackup="true"
+<span class="lineno">  15</span>         android:icon="@drawable/ic_launcher"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ<br>
+Priority: 5 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing support for Google App Indexing.</div>
+<div class="explanation">
+Adds URLs to get your app into the Google index, to get installs and traffic to your app from Google Search.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://g.co/AppIndexing/AndroidStudio">https://g.co/AppIndexing/AndroidStudio</a>
+</div><br/>To suppress this error, use the issue id "GoogleAppIndexingWarning" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="ButtonCase"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ButtonCase: Cancel/OK dialog button capitalization</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/values-en/strings.xml">../../src/main/res/values-en/strings.xml</a>:6</span>: <span class="message">The standard Android way to capitalize Ok is "OK" (tip: use <code>@android:string/ok</code> instead)</span><br /><pre class="errorlines">
+<span class="lineno">   3</span>     &lt;string name="app_name">Read4SpeechExperiments&lt;/string>
+<span class="lineno">   4</span>     &lt;string name="send">Send&lt;/string>
+<span class="lineno">   5</span>     &lt;string name="close">Close&lt;/string>
+<span class="lineno">   6</span>     &lt;string name="ok"><span class="errorspan">Ok&lt;/string></span>
+<span class="lineno">   7</span>     &lt;string name="cancel">Cancel&lt;/string>
+<span class="lineno">   8</span>     &lt;string name="content">DUMMY CONTENT&lt;/string>
+</pre>
+</div>
+<div class="metadata">Priority: 2 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Cancel/OK dialog button capitalization.</div>
+<div class="explanation">
+The standard capitalization for OK/Cancel dialogs is "OK" and "Cancel". To ensure that your dialogs use the standard strings, you can use the resource strings @android:string/ok and @android:string/cancel.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "ButtonCase" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Accessibility"></a>
+<div class="category"><a href="#" title="Return to top">Accessibility</a><div class="categorySeparator"></div>
+</div>
+<a name="ClickableViewAccessibility"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ClickableViewAccessibility: Accessibility in Custom Views</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java">../../src/main/java/com/prhlt/aemus/Read4SpeechExperiments/MainActivity.java</a>:770</span>: <span class="message"><code>com/prhlt/aemus/Read4SpeechExperiments/MainActivity$PlaceholderFragment$2#onTouch</code> should call <code>View#performClick</code> when a click is detected</span><br /><pre class="errorlines">
+<span class="lineno"> 767</span>             RelativeLayout layout = (RelativeLayout) rootView.findViewById(R.id.fragmentLayout);
+<span class="lineno"> 768</span>             layout.setOnTouchListener(new View.OnTouchListener() {
+<span class="lineno"> 769</span>                 @Override
+<span class="lineno"> 770</span>                 public boolean <span class="errorspan">onTouch(View v, MotionEvent event) {</span>
+<span class="lineno"> 771</span>                     Log.v(null, "TOUCH EVENT");
+<span class="lineno"> 772</span>                     return false;
+</pre>
+</div>
+<div class="metadata">Priority: 6 / 10<br/>
+Category: Accessibility</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Accessibility in Custom Views.</div>
+<div class="explanation">
+If a <code>View</code> that overrides <code>onTouchEvent</code> or uses an <code>OnTouchListener</code> does not also implement <code>performClick</code> and call it when clicks are detected, the <code>View</code> may not handle accessibility actions properly. Logic handling the click actions should ideally be placed in <code>View#performClick</code> as some accessibility services invoke <code>performClick</code> when a click action should occur.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "ClickableViewAccessibility" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="ContentDescription"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">ContentDescription: Image without <code>contentDescription</code></a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout-port/fragment_main.xml">../../src/main/res/layout-port/fragment_main.xml</a>:21</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  18</span>         android:text="@string/content"
+<span class="lineno">  19</span>         android:textSize="20sp" />
+<span class="lineno">  20</span> 
+<span class="lineno">  21</span>     <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  22</span>         android:id="@+id/imageSentence"
+<span class="lineno">  23</span>         android:layout_width="wrap_content"
+</pre>
+<span class="location"><a href="../../src/main/res/layout-land/fragment_main.xml">../../src/main/res/layout-land/fragment_main.xml</a>:22</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  19</span>         android:text="@string/content"
+<span class="lineno">  20</span>         android:textSize="20sp" />
+<span class="lineno">  21</span> 
+<span class="lineno">  22</span>     <span class="errorspan">&lt;ImageView</span>
+<span class="lineno">  23</span>         android:id="@+id/imageSentence"
+<span class="lineno">  24</span>         android:layout_width="wrap_content"
+</pre>
+<span class="location"><a href="../../src/main/res/layout-port/fragment_main.xml">../../src/main/res/layout-port/fragment_main.xml</a>:72</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  69</span>                 android:orientation="horizontal"
+<span class="lineno">  70</span>                 tools:ignore="UselessParent">
+<span class="lineno">  71</span> 
+<span class="lineno">  72</span>                 <span class="errorspan">&lt;ImageButton</span>
+<span class="lineno">  73</span>                     android:id="@+id/play_button"
+<span class="lineno">  74</span>                     android:layout_width="45dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout-port/fragment_main.xml">../../src/main/res/layout-port/fragment_main.xml</a>:81</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  78</span>                     android:background="@drawable/playbutton"
+<span class="lineno">  79</span>                     android:text="@string/play" />
+<span class="lineno">  80</span> 
+<span class="lineno">  81</span>                 <span class="errorspan">&lt;ImageButton</span>
+<span class="lineno">  82</span>                     android:id="@+id/rec_button"
+<span class="lineno">  83</span>                     android:layout_width="45dp"
+</pre>
+<span class="location"><a href="../../src/main/res/layout-land/fragment_main.xml">../../src/main/res/layout-land/fragment_main.xml</a>:91</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  88</span>                     android:text=""
+<span class="lineno">  89</span>                     android:textSize="15sp" />
+<span class="lineno">  90</span> 
+<span class="lineno">  91</span>                 <span class="errorspan">&lt;ImageButton</span>
+<span class="lineno">  92</span>                     android:id="@+id/play_button"
+<span class="lineno">  93</span>                     style="?buttonBarButtonStyle"
+</pre>
+<span class="location"><a href="../../src/main/res/layout-land/fragment_main.xml">../../src/main/res/layout-land/fragment_main.xml</a>:102</span>: <span class="message">[Accessibility] Missing <code>contentDescription</code> attribute on image</span><br /><pre class="errorlines">
+<span class="lineno">  99</span>                     android:background="@drawable/playbutton"
+<span class="lineno"> 100</span>                     android:text="@string/play" />
+<span class="lineno"> 101</span> 
+<span class="lineno"> 102</span>                 <span class="errorspan">&lt;ImageButton</span>
+<span class="lineno"> 103</span>                     android:id="@+id/rec_button"
+<span class="lineno"> 104</span>                     style="?buttonBarButtonStyle"
+</pre>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT<br>
+Priority: 3 / 10<br/>
+Category: Accessibility</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Image without <code>contentDescription</code></div>
+<div class="explanation">
+Non-textual widgets like ImageViews and ImageButtons should use the <code>contentDescription</code> attribute to specify a textual description of the widget such that screen readers and other accessibility tools can adequately describe the user interface.<br/>
+<br/>
+Note that elements in application screens that are purely decorative and do not provide any content or enable a user action should not have accessibility content descriptions. In this case, just suppress the lint warning with a tools:ignore="ContentDescription" attribute.<br/>
+<br/>
+Note that for text fields, you should not set both the <code>hint</code> and the <code>contentDescription</code> attributes since the hint will never be shown. Just set the <code>hint</code>. See <a href="http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases">http://developer.android.com/guide/topics/ui/accessibility/checklist.html#special-cases</a>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "ContentDescription" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="Internationalization:Bidirectional Text"></a>
+<div class="category"><a href="#" title="Return to top">Internationalization:Bidirectional Text</a><div class="categorySeparator"></div>
+</div>
+<a name="RtlHardcoded"></a>
+<div class="issue">
+<div class="id"><a href="#" title="Return to top">RtlHardcoded: Using left/right instead of start/end attributes</a><div class="issueSeparator"></div>
+</div>
+<div class="warningslist">
+<span class="location"><a href="../../src/main/res/layout-port/fragment_main.xml">../../src/main/res/layout-port/fragment_main.xml</a>:76</span>: <span class="message">Consider adding <code>android:layout_marginEnd="30dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  73</span>                     android:id="@+id/play_button"
+<span class="lineno">  74</span>                     android:layout_width="45dp"
+<span class="lineno">  75</span>                     android:layout_height="45dp"
+<span class="lineno">  76</span>                     <span class="errorspan">android:layout_marginRight="30dp"</span>
+<span class="lineno">  77</span>                     android:layout_weight="1"
+<span class="lineno">  78</span>                     android:background="@drawable/playbutton"
+</pre>
+<span class="location"><a href="../../src/main/res/layout-land/fragment_main.xml">../../src/main/res/layout-land/fragment_main.xml</a>:79</span>: <span class="message">Consider adding <code>android:layout_marginStart="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  76</span>                     android:layout_height="20dp"
+<span class="lineno">  77</span>                     android:layout_gravity="center"
+<span class="lineno">  78</span>                     android:layout_margin="5dp"
+<span class="lineno">  79</span>                     <span class="errorspan">android:layout_marginLeft="10dp"</span>
+<span class="lineno">  80</span>                     android:layout_weight="0.53" />
+<span class="lineno">  81</span> 
+</pre>
+<span class="location"><a href="../../src/main/res/layout-port/fragment_main.xml">../../src/main/res/layout-port/fragment_main.xml</a>:85</span>: <span class="message">Consider adding <code>android:layout_marginStart="30dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno">  82</span>                     android:id="@+id/rec_button"
+<span class="lineno">  83</span>                     android:layout_width="45dp"
+<span class="lineno">  84</span>                     android:layout_height="45dp"
+<span class="lineno">  85</span>                     <span class="errorspan">android:layout_marginLeft="30dp"</span>
+<span class="lineno">  86</span>                     android:layout_weight="1"
+<span class="lineno">  87</span>                     android:background="@drawable/recbutton"
+</pre>
+<span class="location"><a href="../../src/main/res/layout-port/fragment_main.xml">../../src/main/res/layout-port/fragment_main.xml</a>:104</span>: <span class="message">Consider adding <code>android:layout_marginEnd="10dp"</code> to better support right-to-left layouts</span><br /><pre class="errorlines">
+<span class="lineno"> 101</span>                     android:layout_height="20dp"
+<span class="lineno"> 102</span>                     android:layout_gravity="center"
+<span class="lineno"> 103</span>                     android:layout_margin="5dp"
+<span class="lineno"> 104</span>                     <span class="errorspan">android:layout_marginRight="10dp"</span>
+<span class="lineno"> 105</span>                     android:layout_weight="0.53" />
+<span class="lineno"> 106</span> 
+</pre>
+</div>
+<div class="metadata">Priority: 5 / 10<br/>
+Category: Internationalization:Bidirectional Text</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using left/right instead of start/end attributes.</div>
+<div class="explanation">
+Using <code>Gravity#LEFT</code> and <code>Gravity#RIGHT</code> can lead to problems when a layout is rendered in locales where text flows from right to left. Use <code>Gravity#START</code> and <code>Gravity#END</code> instead. Similarly, in XML <code>gravity</code> and <code>layout_gravity</code> attributes, use <code>start</code> rather than <code>left</code>.<br/>
+<br/>
+For XML attributes such as paddingLeft and <code>layout_marginLeft</code>, use <code>paddingStart</code> and <code>layout_marginStart</code>. <b>NOTE</b>: If your <code>minSdkVersion</code> is less than 17, you should add <b>both</b> the older left/right attributes <b>as well as</b> the new start/right attributes. On older platforms, where RTL is not supported and the start/right attributes are unknown and therefore ignored, you need the older left/right attributes. There is a separate lint check which catches that type of error.<br/>
+<br/>
+(Note: For <code>Gravity#LEFT</code> and <code>Gravity#START</code>, you can use these constants even when targeting older platforms, because the <code>start</code> bitmask is a superset of the <code>left</code> bitmask. Therefore, you can use <code>gravity="start"</code> rather than <code>gravity="left|start"</code>.)
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "RtlHardcoded" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="MissingIssues"></a>
+<div class="category">Disabled Checks<div class="categorySeparator"></div>
+</div>
+The following issues were not run by lint, either because the check is not enabled by default, or because it was disabled with a command line flag or via one or more lint.xml configuration files in the project directories.
+<br/><br/>
+<a name="AppLinksAutoVerifyError"></a>
+<div class="issue">
+<div class="id">AppLinksAutoVerifyError<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="error">Error</span><div class="summary">
+Explanation: App Links Auto Verification Failure.</div>
+<div class="explanation">
+Ensures that app links are correctly set and associated with website.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://g.co/appindexing/applinks">https://g.co/appindexing/applinks</a>
+</div><br/>To suppress this error, use the issue id "AppLinksAutoVerifyError" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="AppLinksAutoVerifyWarning"></a>
+<div class="issue">
+<div class="id">AppLinksAutoVerifyWarning<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Potential App Links Auto Verification Failure.</div>
+<div class="explanation">
+Ensures that app links are correctly set and associated with website.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://g.co/appindexing/applinks">https://g.co/appindexing/applinks</a>
+</div><br/>To suppress this error, use the issue id "AppLinksAutoVerifyWarning" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="BackButton"></a>
+<div class="issue">
+<div class="id">BackButton<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Back button.</div>
+<div class="explanation">
+According to the Android Design Guide,<br/>
+<br/>
+"Other platforms use an explicit back button with label to allow the user to navigate up the application's hierarchy. Instead, Android uses the main action bar's app icon for hierarchical navigation and the navigation bar's back button for temporal navigation."<br/>
+This check is not very sophisticated (it just looks for buttons with the label "Back"), so it is disabled by default to not trigger on common scenarios like pairs of Back/Next buttons to paginate through screens.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/patterns/pure-android.html">http://developer.android.com/design/patterns/pure-android.html</a>
+</div><br/>To suppress this error, use the issue id "BackButton" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="EasterEgg"></a>
+<div class="issue">
+<div class="id">EasterEgg<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 6 / 10<br/>
+Category: Security</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains easter egg.</div>
+<div class="explanation">
+An "easter egg" is code deliberately hidden in the code, both from potential users and even from other developers. This lint check looks for code which looks like it may be hidden from sight.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "EasterEgg" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="FieldGetter"></a>
+<div class="issue">
+<div class="id">FieldGetter<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Using getter instead of field.</div>
+<div class="explanation">
+Accessing a field within the class that defines a getter for that field is at least 3 times faster than calling the getter. For simple getters that do nothing other than return the field, you might want to just reference the local field directly instead.<br/>
+<br/>
+<b>NOTE</b>: As of Android 2.3 (Gingerbread), this optimization is performed automatically by Dalvik, so there is no need to change your code; this is only relevant if you are targeting older versions of Android.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/practices/design/performance.html#internal_get_set">http://developer.android.com/guide/practices/design/performance.html#internal_get_set</a>
+</div><br/>To suppress this error, use the issue id "FieldGetter" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="GoogleAppIndexingApiWarning"></a>
+<div class="issue">
+<div class="id">GoogleAppIndexingApiWarning<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ<br>
+Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Missing support for Google App Indexing Api.</div>
+<div class="explanation">
+Adds URLs to get your app into the Google index, to get installs and traffic to your app from Google Search.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://g.co/AppIndexing/AndroidStudio">https://g.co/AppIndexing/AndroidStudio</a>
+</div><br/>To suppress this error, use the issue id "GoogleAppIndexingApiWarning" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="IconExpectedSize"></a>
+<div class="issue">
+<div class="id">IconExpectedSize<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Icons</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Icon has incorrect size.</div>
+<div class="explanation">
+There are predefined sizes (for each density) for launcher icons. You should follow these conventions to make sure your icons fit in with the overall look of the platform.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/design/style/iconography.html">http://developer.android.com/design/style/iconography.html</a>
+</div><br/>To suppress this error, use the issue id "IconExpectedSize" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="LogConditional"></a>
+<div class="issue">
+<div class="id">LogConditional<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unconditional Logging Calls.</div>
+<div class="explanation">
+The BuildConfig class (available in Tools 17) provides a constant, "DEBUG", which indicates whether the code is being built in release mode or in debug mode. In release mode, you typically want to strip out all the logging calls. Since the compiler will automatically remove all code which is inside a "if (false)" check, surrounding your logging calls with a check for BuildConfig.DEBUG is a good idea.<br/>
+<br/>
+If you <b>really</b> intend for the logging to be present in release mode, you can suppress this warning with a @SuppressLint annotation for the intentional logging calls.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "LogConditional" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="MangledCRLF"></a>
+<div class="issue">
+<div class="id">MangledCRLF<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Eclipse/ADT<br>
+Disabled By: Default<br/>
+Priority: 2 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="error">Error</span><div class="summary">
+Explanation: Mangled file line endings.</div>
+<div class="explanation">
+On Windows, line endings are typically recorded as carriage return plus newline: \r\n.<br/>
+<br/>
+This detector looks for invalid line endings with repeated carriage return characters (without newlines). Previous versions of the ADT plugin could accidentally introduce these into the file, and when editing the file, the editor could produce confusing visual artifacts.
+</div>
+<br/><div class="moreinfo">More info: <a href="https://bugs.eclipse.org/bugs/show_bug.cgi?id=375421">https://bugs.eclipse.org/bugs/show_bug.cgi?id=375421</a>
+</div><br/>To suppress this error, use the issue id "MangledCRLF" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="MissingRegistered"></a>
+<div class="issue">
+<div class="id">MissingRegistered<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 8 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="error">Error</span><div class="summary">
+Explanation: Missing registered class.</div>
+<div class="explanation">
+If a class is referenced in the manifest or in a layout file, it must also exist in the project (or in one of the libraries included by the project. This check helps uncover typos in registration names, or attempts to rename or move classes without updating the manifest file properly.
+</div>
+<br/><div class="moreinfo">More info: <a href="http://developer.android.com/guide/topics/manifest/manifest-intro.html">http://developer.android.com/guide/topics/manifest/manifest-intro.html</a>
+</div><br/>To suppress this error, use the issue id "MissingRegistered" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NegativeMargin"></a>
+<div class="issue">
+<div class="id">NegativeMargin<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Negative Margins.</div>
+<div class="explanation">
+Margin values should be positive. Negative values are generally a sign that you are making assumptions about views surrounding the current one, or may be tempted to turn off child clipping to allow a view to escape its parent. Turning off child clipping to do this not only leads to poor graphical performance, it also results in wrong touch event handling since touch events are based strictly on a chain of parent-rect hit tests. Finally, making assumptions about the size of strings can lead to localization problems.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NegativeMargin" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="NewerVersionAvailable"></a>
+<div class="issue">
+<div class="id">NewerVersionAvailable<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ<br>
+Disabled By: Default<br/>
+Priority: 4 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Newer Library Versions Available.</div>
+<div class="explanation">
+This detector checks with a central repository to see if there are newer versions available for the dependencies used by this project. This is similar to the <code>GradleDependency</code> check, which checks for newer versions available in the Android SDK tools and libraries, but this works with any MavenCentral dependency, and connects to the library every time, which makes it more flexible but also <b>much</b> slower.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "NewerVersionAvailable" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="SelectableText"></a>
+<div class="issue">
+<div class="id">SelectableText<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ<br>
+Disabled By: Default<br/>
+Priority: 7 / 10<br/>
+Category: Usability</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Dynamic text should probably be selectable.</div>
+<div class="explanation">
+If a <code>&lt;TextView></code> is used to display data, the user might want to copy that data and paste it elsewhere. To allow this, the <code>&lt;TextView></code> should specify <code>android:textIsSelectable="true"</code>.<br/>
+<br/>
+This lint check looks for TextViews which are likely to be displaying data: views whose text is set dynamically. This value will be ignored on platforms older than API 11, so it is okay to set it regardless of your <code>minSdkVersion</code>.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "SelectableText" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="StopShip"></a>
+<div class="issue">
+<div class="id">StopShip<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ<br>
+Disabled By: Default<br/>
+Priority: 10 / 10<br/>
+Category: Correctness</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Code contains <code>STOPSHIP</code> marker.</div>
+<div class="explanation">
+Using the comment <code>// STOPSHIP</code> can be used to flag code that is incomplete but checked in. This comment marker can be used to indicate that the code should not be shipped until the issue is addressed, and lint will look for these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "StopShip" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="TypographyQuotes"></a>
+<div class="issue">
+<div class="id">TypographyQuotes<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Note: This issue has an associated quickfix operation in Android Studio/IntelliJ & Eclipse/ADT<br>
+Disabled By: Default<br/>
+Priority: 5 / 10<br/>
+Category: Usability:Typography</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Straight quotes can be replaced with curvy quotes.</div>
+<div class="explanation">
+Straight single quotes and double quotes, when used as a pair, can be replaced by "curvy quotes" (or directional quotes). This can make the text more readable.<br/>
+<br/>
+Note that you should never use grave accents and apostrophes to quote, `like this'.<br/>
+<br/>
+(Also note that you should not use curvy quotes for code fragments.)
+</div>
+<br/><div class="moreinfo">More info: <a href="http://en.wikipedia.org/wiki/Quotation_mark">http://en.wikipedia.org/wiki/Quotation_mark</a>
+</div><br/>To suppress this error, use the issue id "TypographyQuotes" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+<a name="UnusedIds"></a>
+<div class="issue">
+<div class="id">UnusedIds<div class="issueSeparator"></div>
+</div>
+<div class="metadata">Disabled By: Default<br/>
+Priority: 1 / 10<br/>
+Category: Performance</div>
+Severity: <span class="warning">Warning</span><div class="summary">
+Explanation: Unused id.</div>
+<div class="explanation">
+This resource id definition appears not to be needed since it is not referenced from anywhere. Having id definitions, even if unused, is not necessarily a bad idea since they make working on layouts and menus easier, so there is not a strong reason to delete these.
+</div>
+<br/><div class="moreinfo">More info: </div><br/>To suppress this error, use the issue id "UnusedIds" as explained in the <a href="#SuppressInfo">Suppressing Warnings and Errors</a> section.<br/>
+</div>
+
+<a name="SuppressInfo"></a>
+<div class="category">Suppressing Warnings and Errors<div class="categorySeparator"></div>
+</div>
+Lint errors can be suppressed in a variety of ways:<br/>
+<br/>
+1. With a <code>@SuppressLint</code> annotation in the Java code<br/>
+2. With a <code>tools:ignore</code> attribute in the XML file<br/>
+3. With ignore flags specified in the <code>build.gradle</code> file, as explained below<br/>
+4. With a <code>lint.xml</code> configuration file in the project<br/>
+5. With a <code>lint.xml</code> configuration file passed to lint via the --config flag<br/>
+6. With the --ignore flag passed to lint.<br/>
+<br/>
+To suppress a lint warning with an annotation, add a <code>@SuppressLint("id")</code> annotation on the class, method or variable declaration closest to the warning instance you want to disable. The id can be one or more issue id's, such as <code>"UnusedResources"</code> or <code>{"UnusedResources","UnusedIds"}</code>, or it can be <code>"all"</code> to suppress all lint warnings in the given scope.<br/>
+<br/>
+To suppress a lint warning in an XML file, add a <code>tools:ignore="id"</code> attribute on the element containing the error, or one of its surrounding elements. You also need to define the namespace for the tools prefix on the root element in your document, next to the <code>xmlns:android</code> declaration:<br/>
+<code>xmlns:tools="http://schemas.android.com/tools"</code><br/>
+<br/>
+To suppress a lint warning in a <code>build.gradle</code> file, add a section like this:<br/>
+<br/>
+android {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;lintOptions {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;disable 'TypographyFractions','TypographyQuotes'<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br/>
+}<br/>
+<br/>
+Here we specify a comma separated list of issue id's after the disable command. You can also use <code>warning</code> or <code>error</code> instead of <code>disable</code> to change the severity of issues.<br/>
+<br/>
+To suppress lint warnings with a configuration XML file, create a file named <code>lint.xml</code> and place it at the root directory of the project in which it applies.<br/>
+<br/>
+The format of the <code>lint.xml</code> file is something like the following:<br/>
+<br/>
+&lt;?xml version="1.0" encoding="UTF-8"?><br/>
+&lt;lint><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Disable this given check in this project --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="IconMissingDensityFolder" severity="ignore" /><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the ObsoleteLayoutParam issue in the given files --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="ObsoleteLayoutParam"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout-xlarge/activation.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Ignore the UselessLeaf issue in the given file --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="UselessLeaf"><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;ignore path="res/layout/main.xml" /><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/issue><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;!-- Change the severity of hardcoded strings to "error" --><br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;issue id="HardcodedText" severity="error" /><br/>
+&lt;/lint><br/>
+<br/>
+To suppress lint checks from the command line, pass the --ignore flag with a comma separated list of ids to be suppressed, such as:<br/>
+<code>$ lint --ignore UnusedResources,UselessLeaf /my/project/path</code><br/>
+<br/>
+For more information, see <a href="http://g.co/androidstudio/suppressing-lint-warnings">http://g.co/androidstudio/suppressing-lint-warnings</a><br/>
+
+
+</body>
+</html>

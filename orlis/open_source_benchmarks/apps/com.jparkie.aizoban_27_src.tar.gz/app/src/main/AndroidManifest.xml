@@ -1,0 +1,65 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.jparkie.aizoban">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.jparkie.aizoban.AizobanApplication"
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".views.activities.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme"
+            android:configChanges="keyboardHidden|orientation|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".views.activities.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <activity
+            android:name=".views.activities.MangaActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".views.activities.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".views.activities.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".views.activities.ChapterActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".views.activities.MangaActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".views.activities.MangaActivity" />
+        </activity>
+
+        <service
+            android:name=".controllers.databases.DatabaseService"
+            android:exported="false">
+        </service>
+
+        <service
+            android:name=".controllers.downloads.DownloadService"
+            android:exported="false"
+            android:label="@string/service_name"
+            android:icon="@drawable/ic_logo">
+        </service>
+
+    </application>
+
+</manifest>

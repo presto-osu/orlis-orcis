@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="action_bar_bg">#f18324</color> <!--  jasniejszy pomarancz -->
+    <color name="tab_underline_color">#fe983e</color>
+    <color name="text_bg">#e87817</color> <!--  ciemniejszy pomarancz -->
+    <color name="header_bg">#e16810</color> <!--  ciemniejszy pomarancz -->
+    <color name="text_bg2">#ee4b35</color> <!-- jasniejszy czerwony -->
+    <color name="text_menu">#e23f29</color> <!-- cimniejszy czerwony -->
+    <color name="drawer_hover">#efa962</color>
+    <color name="navigation_drawer_text">#3a3430</color> <!-- ciemne (szaro/brązowe) teksty na navigation drawerze -->
+    <color name="navigation_drawet_bg">#eeeeee</color>
+    <color name="list_item_bg">#ffffff</color>
+    <color name="text_main">#ffffff</color>
+    <color name="list_item_text">#1f1a17</color> <!-- teksty na list itemach -->
+    <color name="item_separator">#c7bfba</color> <!--  linie separujące list itemy -->
+    <color name="grayout_list_item_bg">#EDEDED</color> <!-- Tło wyszarzonego elementu listy aplikacji -->
+    <color name="disabled_app_name">#c3c3c3</color>
+
+    <color name="app_detail_bg">#ffffff</color>
+    <color name="app_detail_list_divider">#ffffff</color>
+    <color name="app_detail_button_text">#ffffff</color>
+    <color name="app_detail_list_text">#000000</color>
+
+    <color name="popup_bg">#1f1a17</color>
+
+    <color name="welcome_header_bg">@color/text_bg</color>
+    <color name="welcome_footer_bg">#ffffff</color>
+    <color name="welcome_link_color">#feca9c</color>
+    
+</resources>

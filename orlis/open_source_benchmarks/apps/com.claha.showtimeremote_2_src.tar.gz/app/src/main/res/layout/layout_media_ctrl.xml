@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/vertical_center_layout">
+
+    <LinearLayout style="@style/horizontal_center_layout">
+
+        <com.claha.showtimeremote.widget.MovianRemoteButton
+            style="@style/showtime_button"
+            android:src="@drawable/ic_action_skip_previous"
+            app:action="PreviousTrack" />
+
+        <com.claha.showtimeremote.widget.MovianRemoteButton
+            style="@style/showtime_button"
+            android:src="@drawable/ic_action_skip_next"
+            app:action="NextTrack" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/horizontal_center_layout">
+
+        <com.claha.showtimeremote.widget.MovianRemoteButton
+            style="@style/showtime_button"
+            android:src="@drawable/ic_action_fast_rewind"
+            app:action="SeekReverse"
+            app:onPress="true" />
+
+        <com.claha.showtimeremote.widget.MovianRemoteButton
+            style="@style/showtime_button"
+            android:src="@drawable/ic_action_stop"
+            app:action="Stop" />
+
+        <com.claha.showtimeremote.widget.MovianRemoteToggleButton
+            android:id="@+id/playPause"
+            style="@style/showtime_button"
+            android:src="@drawable/ic_action_play"
+            app:action="PlayPause"
+            app:src2="@drawable/ic_action_pause" />
+
+        <com.claha.showtimeremote.widget.MovianRemoteButton
+            style="@style/showtime_button"
+            android:src="@drawable/ic_action_fast_forward"
+            app:action="SeekForward"
+            app:onPress="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

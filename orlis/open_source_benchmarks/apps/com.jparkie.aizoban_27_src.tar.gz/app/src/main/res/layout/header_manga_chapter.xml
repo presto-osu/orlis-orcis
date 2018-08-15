@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/baseline_component_unit"
+    android:paddingBottom="@dimen/baseline_component_unit"
+    android:paddingLeft="@dimen/baseline_content_left"
+    android:paddingStart="@dimen/baseline_content_left"
+    android:paddingRight="@dimen/baseline_content_unit"
+    android:paddingEnd="@dimen/baseline_content_unit"
+    android:background="@color/primaryBlue500">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="@dimen/typography_title"
+        android:textStyle="bold"
+        android:text="@string/manga_header_title_chapter"
+        android:id="@+id/chapterTitleTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chapterTitleTextView"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/hintText"
+        android:text="@string/manga_header_chapter_error"
+        android:visibility="gone"
+        android:id="@+id/chapterErrorTextView" />
+
+</RelativeLayout>

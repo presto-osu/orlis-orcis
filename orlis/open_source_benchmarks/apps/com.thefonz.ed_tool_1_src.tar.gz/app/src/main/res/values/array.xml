@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TradeRouteArray">
+        <item>Elite Rare Trader</item>
+        <item>Elite: Dangerous Trader</item>
+        <item>CMDR Club</item>
+    </string-array>
+    <string-array name="TradeRouteValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="ThemeArray">
+        <item>Material Dark Theme</item>
+        <item>Material Light Theme</item>
+    </string-array>
+    <string-array name="ThemeValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="rn:oasis:names:tc:xliff:document:1.2">
+    <!--
+        Copyright 2015  Nicola Spanti <translation@nicola-spanti.info>
+        
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+        https://www.apache.org/licenses/LICENSE-2.0
+        
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+    -->
+
+    <string name="app_name">BipolAlarm</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="alarm_off">Alarme désactivée</string>
+    <string name="alarm_on">Alarm activée</string>
+    <string name="placeholder">Vous ne devriez pas voir ça</string>
+    <string name="time_placeholder">08:30</string>
+    <string name="test_player">Musique</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Annuler</string>
+    <string name="set_delay">Définir le delai</string>
+    <string name="choose_playlist">Choisir la playlist</string>
+    <string name="choose_ringtone">Choisir la sonnerie</string>
+    <string name="no_valid_playlist">Pas de playlist valide</string>
+    <string name="error_playlist">ERREUR : pas de playlist valide selectionnée</string>
+    <string name="icon_music_note">Note de musique</string>
+    <string name="icon_bell">sonnerie</string>
+    <string name="toast_alarm_set">Alarme définie !</string>
+    <string name="notification_dismiss_all">Arrêter toutes les alarmes</string>
+    <string name="notification_dismiss_alarm">Arrêter une alarme</string>
+    <string name="notification_snooze">Répéter</string>
+    <string name="notification_title_playing">BipolAlarm</string>
+    <string name="notification_title_ringing">BipolAlarm</string>
+    <string name="notification_title_waiting">BipolAlarm</string>
+    <string name="notification_waiting">Sonnerie de l\'alarme à <xliff:g >%s</xliff:g></string>
+    <string name="notification_playing">Jouant</string>
+    <string name="notification_playing_upcoming">Jouant, sonnerie de l\'alarme à <xliff:g>%s</xliff:g></string>
+    <string name="notification_ringing">Sonnant</string>
+</resources>

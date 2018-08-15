@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Peanut Encryption</string>
+
+    <string name="title_activity_initialization">Initialisierung</string>
+    <string name="title_activity_start">Log In</string>
+    <string name="sharedPref">passwordPref</string>
+    <string name="NewCodeName">Passwort/Code Bezeichnung</string>
+    <string name="NewCodeSecret">Passwort/Code</string>
+    <string name="Login_Password_Hint">Passwort</string>
+    <string name="Login_Textview">Passwort eingeben</string>
+    <string name="Title_Initialization">Bitte wähle ein Passwort</string>
+    <string name="button_new_code">Speichern</string>
+    <string name="Initialization_Password_Hint">Passwort</string>
+    <string name="Initialization_Password_Hint_2">Passwort wiederholen</string>
+    <string name="Initialization_Button_Text">Weiter</string>
+    <string name="Log_In_Button_Text">Log In</string>
+    <string name="Main_Title_Menu_Open_Source">Open-Source Lizenzen</string>
+    <string name="Main_Title_Menu_Logout">Ausloggen</string>
+    <string name="main_Act_delete_Code_text">Lösche Code</string>
+    <string name="Log_In_Act_Wrong_Password">Passwort falsch</string>
+    <string name="Init_App_Empty_password">Bitte gib ein Passwort ein</string>
+    <string name="Init_App_Password_do_not_match">Passwort stimmt nicht überein</string>
+    <string name="Title_Change_Passord">Passwort ändern</string>
+    <string name="title_activity_change__password_">Passwort ändern</string>
+    <string name="Change_Password_Hint_old">Altes Passwort</string>
+    <string name="Menu_Title_Change_PSW">Passwort ändern</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme_Dark" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/colorPrimary_Dark</item>
+    </style>
+
+    <style name="AppTheme_Light" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/colorPrimary_Light</item>
+    </style>
+
+    <style name="AppTheme_Dark_Red" parent="AppTheme_Dark">
+        <item name="colorPrimary">@color/colorPrimary_Red</item>
+    </style>
+
+    <style name="AppTheme_Light_Red" parent="AppTheme_Light">
+        <item name="colorPrimary">@color/colorPrimary_Red</item>
+    </style>
+
+    <style name="AppTheme_Dark_Green" parent="AppTheme_Dark">
+        <item name="colorPrimary">@color/colorPrimary_Green</item>
+    </style>
+
+    <style name="AppTheme_Light_Green" parent="AppTheme_Light">
+        <item name="colorPrimary">@color/colorPrimary_Green</item>
+    </style>
+
+    <style name="AppTheme_Dark_Blue" parent="AppTheme_Dark">
+        <item name="colorPrimary">@color/colorPrimary_Blue</item>
+    </style>
+
+    <style name="AppTheme_Light_Blue" parent="AppTheme_Light">
+        <item name="colorPrimary">@color/colorPrimary_Blue</item>
+    </style>
+</resources>

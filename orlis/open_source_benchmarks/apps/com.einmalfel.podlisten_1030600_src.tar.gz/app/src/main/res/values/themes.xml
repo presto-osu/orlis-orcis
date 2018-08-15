@@ -1,0 +1,35 @@
+<resources>
+
+    <style name="PodListenActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/background_contrast</item>
+    </style>
+
+    <style name="PodListenCommon" parent="Theme.AppCompat">
+        <!--sans-serif is roboto font on android 4.1+. Sadly, specifying it as fontFamily sometimes
+        leads to app crashes (encountered on SM-T231, Android 4.4). So, use system default font for
+        now. -->
+        <!--<item name="android:fontFamily">sans-serif</item>-->
+
+        <item name="colorPrimary">@color/background_contrast</item>
+        <item name="colorPrimaryDark">@android:color/black</item>
+        <item name="android:textColorPrimary">@color/text_bright</item>
+        <item name="android:windowBackground">@color/background_primary</item>
+        <item name="colorAccent">@color/accent_primary</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="actionBarStyle">@style/PodListenActionBar</item>
+        <item name="colorButtonNormal">@color/background_soft</item>
+    </style>
+
+    <style name="PodListenPrefs" parent="PodListenCommon">
+        <item name="android:textAppearanceLarge">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.AppCompat.Caption</item>
+    </style>
+
+    <style name="PodlistenMain" parent="PodListenCommon">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="FilePickerTheme" parent="NNF_BaseTheme"/>
+
+</resources>

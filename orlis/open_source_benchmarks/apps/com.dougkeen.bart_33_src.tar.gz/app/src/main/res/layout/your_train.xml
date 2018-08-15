@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bart="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <!-- Holds the "Your Train" title and the alarm indicator -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/yourTrainHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/your_train"
+            android:textAllCaps="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/alarmText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/ic_action_alarm"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            android:visibility="gone"
+            tools:text="5"
+            />
+
+    </FrameLayout>
+
+    <!-- Holds the color bar, destination text, train info, bike icon, and xfer icon -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <View
+            android:id="@+id/yourTrainDestinationColorBar"
+            android:layout_width="15dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            tools:background="#F00"
+            />
+
+        <!-- Holds the destination text and train info -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:id="@+id/yourTrainDestinationText"
+                style="@style/DepartureDestinationText"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                tools:text="Richmond"
+                />
+
+            <TextView
+                android:id="@+id/yourTrainTrainLengthText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="9 cars, platform 2"
+                />
+
+        </LinearLayout>
+
+        <!-- Holds the bike icon and xfer icon -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/yourTrainBikeIcon"
+                style="@style/TrainInfoIcon"
+                tools:src="@drawable/bike"
+                />
+
+            <ImageView
+                android:id="@+id/yourTrainXferIcon"
+                style="@style/TrainInfoIcon"
+                android:src="@drawable/xfer"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.dougkeen.bart.controls.CountdownTextView
+        android:id="@+id/yourTrainDepartureCountdown"
+        style="@style/DepartureCountdownText"
+        bart:tickInterval="1"
+        tools:text="Leaves in 15 min, 20s (+8s)"
+        />
+
+    <com.dougkeen.bart.controls.CountdownTextView
+        android:id="@+id/yourTrainArrivalCountdown"
+        style="@style/DepartureCountdownText"
+        android:ellipsize="end"
+        bart:tickInterval="5"
+        tools:text="Arrives ~11:12 AM (20 mins)"
+        />
+
+</LinearLayout>

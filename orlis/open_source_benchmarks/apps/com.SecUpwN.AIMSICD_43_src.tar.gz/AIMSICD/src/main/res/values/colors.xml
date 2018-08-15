@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="white">#ffffffff</color>
+    <color name="transparent_white">#50ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="action_bar_color">#ff0d0d0d</color>
+    <color name="green_text">#ff00FF00</color>
+    <color name="medium_blue">#ff33B5E5</color>
+    <color name="standard_yellow">#ffea59</color>
+    <color name="standard_grey">#dddddd</color>
+    
+    <color name="red_text">#a00000</color>          <!-- deep red -->
+    <color name="bright_red_text">#ffff0000</color>          <!-- bright red -->
+
+</resources>

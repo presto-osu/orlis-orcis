@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Галахические Времена Молитв</string>
+    <string name="title_activity_zmanim">Галахические Времена</string>
+    <string name="location_unknown">Адрес не найден</string>
+    <string name="location_coords">Шрт. %1$s; Длг. %2$s</string>
+    <string name="twelve_hour_time_format">h:mm:ss a</string>
+    <string name="twenty_four_hour_time_format">H:mm:ss</string>
+    <string name="month_day_year" formatted="false">%-e %B %Y г.</string>
+    <string name="off">Выключено</string>
+
+    <!-- Recurring opinions -->
+    <string name="opinion_120">День 120 минут до восхода / после заката</string>
+    <string name="opinion_120_zmanis">День 120 <i>временных</i> минут до восхода / после заката</string>
+    <string name="opinion_16">День 16,1° ниже восхода / заката</string>
+    <string name="opinion_16_sunset">День с 16,1° рассвета до заката на уровне моря</string>
+    <string name="opinion_16_night">День с 16,1°  рассвета до темноты</string>
+    <string name="opinion_26">День 26° ниже восхода / заката</string>
+    <string name="opinion_19">День 19,8° ниже восхода / заката</string>
+    <string name="opinion_18">День 18° ниже восхода / заката</string>
+    <string name="opinion_60">День 60 минут до восхода / после заката</string>
+    <string name="opinion_72">День 72 минут до восхода / после заката</string>
+    <string name="opinion_72_zmanis">День 72 <i>временных</i> минут до восхода / после заката</string>
+    <string name="opinion_90">День 90 минут до восхода / после заката</string>
+    <string name="opinion_90_zmanis">День 90 <i>временных</i> минут до восхода / после заката</string>
+    <string name="opinion_96">День 96 минут до восхода / после заката</string>
+    <string name="opinion_96_zmanis">День 96 <i>временных</i> минут до восхода / после заката</string>
+    <string name="opinion_ateret">В соответствии с Ешйват Атэрэт Тора</string>
+    <string name="opinion_gra">В соответствии с ГРА и Баал хаТания</string>
+    <string name="opinion_mga">В соответствии с Маген Авраам</string>
+    <string name="opinion_tam">В соответствии с Рабейну Там</string>
+
+    <!-- Temporal hour -->
+    <string name="hour">Сезонный час</string>
+
+    <!-- List -->
+    <string name="dawn">Рассвет</string>
+
+    <!-- Tallis and Tefillin -->
+    <string name="tallis">Самое раннее время для Талита и Тфилина (мишякир)</string>
+    <string name="tallis_summary">Солнце 11,5° ниже горизонта</string>
+    <string name="tallis_11">Солнце 11° ниже горизонта</string>
+    <string name="tallis_10">Солнце 10,2° ниже горизонта</string>
+
+    <!-- Sunrise -->
+    <string name="sunrise">Восход солнца</string>
+    <string name="sunrise_summary">На горизонтальном регионе</string>
+    <string name="sunrise_sea">На уровне моря</string>
+
+    <!-- Latest shema -->
+    <string name="shema">Самое позднее время для Киръят Шма</string>
+    <string name="shema_7">День с 16,1° рассвета до 7,083° ночи</string>
+    <string name="shema_3">3 часа до полудня</string>
+    <string name="shema_fixed">3 часа до местного фикс. полудня</string>
+
+    <!-- Latest shacharis -->
+    <string name="prayers">Самое позднее время для Шахарит</string>
+    <string name="prayers_fixed">2 часа до местного фикс. полудня</string>
+    <string name="prayers_2">2 часа до полудня</string>
+
+    <!-- Midday -->
+    <string name="midday">Полдень (хацот)</string>
+    <string name="midday_summary">Середина дня</string>
+    <string name="midday_fixed">Середина дня с поправкой на местную широту</string>
+
+    <!-- Earliest mincha -->
+    <string name="earliest_mincha">Минха гдола</string>
+    <string name="earliest_mincha_summary">Самое раннее время молитв днем</string>
+    <string name="earliest_mincha_30">30 минут после полудня</string>
+
+    <!-- Mincha ketana -->
+    <string name="mincha">Минха ктана</string>
+    <string name="mincha_summary">Молитва Минха</string>
+
+    <!-- Plug hamincha -->
+    <string name="plug_hamincha">Плаг минха</string>
+
+    <!-- Candle lighting -->
+    <string name="candles">Зажигание свечей</string>
+    <string name="chanukka">Ханука</string>
+
+    <plurals name="candles_summary">
+        <item quantity="one">%1$d минута до захода солнца</item>
+        <item quantity="few">%1$d минуты до захода солнца</item>
+        <item quantity="many">%1$d минут до захода солнца</item>
+        <item quantity="other">%1$d минут до захода солнца</item>
+    </plurals>
+    <plurals name="candles_chanukka">
+        <item quantity="one">%1$d Ханукальная свеча</item>
+        <item quantity="few">%1$d Ханукальные свечи</item>
+        <item quantity="many">%1$d Ханукальные свечи</item>
+        <item quantity="other">%1$d Ханукальные свечи</item>
+    </plurals>
+
+    <!-- Sunset -->
+    <string name="sunset">Заход солнца</string>
+
+    <!-- Twilight -->
+    <string name="twilight">Сумерки</string>
+    <string name="twilight_2stars">2 звезды видны</string>
+    <string name="twilight_7_083">13,5 минут до 7,083° темноты</string>
+    <string name="twilight_58">58,5 минут после захода солнца</string>
+    <string name="twilight_13">Солнце 13,24° ниже горизонта</string>
+
+    <!-- Nightfall -->
+    <string name="nightfall">Наступление темноты</string>
+    <string name="nightfall_3stars">3 звезды видны</string>
+    <string name="nightfall_3_65">Солнце 3,65° ниже уровне моря</string>
+    <string name="nightfall_3_676">Солнце 3,676° ниже уровне моря</string>
+    <string name="nightfall_4_37">Солнце 4,37° ниже уровне моря</string>
+    <string name="nightfall_4_61">Солнце 4,61° ниже уровне моря</string>
+    <string name="nightfall_4_8">Солнце 4,8° ниже уровне моря</string>
+    <string name="nightfall_5_88">Солнце 5,88° ниже уровне моря</string>
+    <string name="nightfall_5_95">Солнце 5,95° ниже уровне моря</string>
+    <string name="nightfall_7">Солнце 7,083° ниже уровне моря</string>
+    <string name="nightfall_8">Солнце 8,5° ниже уровне моря</string>
+
+    <!-- Midnight -->
+    <string name="midnight">Полночь (хацот)</string>
+    <string name="midnight_summary">Солнечная полночь</string>
+    <string name="midnight_12">12 часа после полудня</string>
+    <string name="midnight_6">6 часа после наступление темноты</string>
+
+    <!-- Pesach -->
+    <string name="eat_chametz">Последнее время есть Хамец</string>
+    <string name="burn_chametz">Последнее время сжигания Хамеца</string>
+
+    <!-- Moon -->
+    <string name="molad">Рождение новой луны (молад)</string>
+    <string name="molad_summary">Средний молад</string>
+    <string name="levana_earliest">Самое раннее время освящение новой луны (киддуш левана)</string>
+    <string name="levana_earliest_summary">3 дня после молада</string>
+    <string name="levana_7">7 дня после молада</string>
+    <string name="levana_latest">Самое позднее освящение новой луны (киддуш левана)</string>
+    <string name="levana_latest_summary">Между моладами</string>
+    <string name="levana_15">15 дней после молада</string>
+
+    <!-- Fast / Taanis -->
+    <string name="fast_begins">Пост начинается</string>
+    <string name="fast_ends">Пост заканчивается</string>
+
+    <!-- Omer -->
+    <string name="omer">Омер</string>
+    <string name="omer_format">%1$s %2$s</string>
+    <string name="omer_33">Lag %1$s</string>
+    <string name="omer_off">@string/off</string>
+    <string name="omer_b">ба-Омер</string>
+    <string name="omer_l">ла-Омер</string>
+
+    <!-- Preferences -->
+    <string name="menu_settings">Настройки</string>
+    <string name="pref_general_title">Общие</string>
+    <string name="pref_appearance_title">Внешность</string>
+    <string name="coords_title">Координаты</string>
+    <string name="coords_format_title">Формат координатов</string>
+    <string name="coords_format_decimal">Десятичный</string>
+    <string name="coords_format_sexagesimal">Шестидесятеричный</string>
+    <string name="past_title">Прошедшие времена</string>
+    <string name="seconds_title">Секунды</string>
+    <string name="summaries_title">Описания</string>
+    <string name="gradient_title">Градиент фона</string>
+    <string name="theme_dark">Темный</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_none">Ни одной</string>
+
+    <!-- Go to date -->
+    <string name="menu_date">Дата</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="tomorrow">Завтра</string>
+
+    <!-- Compass -->
+    <string name="menu_compass">Компас</string>
+    <string name="title_activity_compass">Направление молитвы</string>
+    <string name="compass_summary">Направление молитвы к Святому Святых в Иерусалиме</string>
+    <string name="north">С</string>
+    <string name="east">В</string>
+    <string name="south">Ю</string>
+    <string name="west">З</string>
+
+    <!-- Setting per time -->
+    <string name="opinion">Мнение</string>
+    <string name="emphasis_title">Акцент</string>
+    <string name="animations">Анимации</string>
+
+    <!-- Location -->
+    <string name="menu_location">Местоположение</string>
+    <string name="title_activity_location">Мое местоположение</string>
+
+    <!-- Settings screen - Privacy -->
+    <string name="pref_privacy_security_title">Личные данные</string>
+    <string name="pref_privacy_clear_history">Очистить историю</string>
+
+    <!-- About -->
+    <string name="pref_about_title">Инфо</string>
+    <string name="version">Версия приложения</string>
+    <string name="kosherjava">KosherJava</string>
+    <string name="kosherjava_version">Авторские права \u00A9 2004–2011 Элиягу Хиршфельд</string>
+
+    <!-- Widget -->
+    <string name="title_widget_clock">Галахические Времена Часы</string>
+
+    <!-- Reminder -->
+    <string name="reminder">Напоминание</string>
+    <string name="reminder_stream_title">Тип напоминания</string>
+    <string name="reminder_tone">Мелодия напоминания</string>
+    <string name="alarm_volume_title" msgid="2285597478377758706">"Будильник"</string>
+    <string name="notification_volume_title" msgid="2012640760341080408">"Уведомление"</string>
+    <string name="reminder_friday">Напомнить пятницу</string>
+    <string name="reminder_monday">Напомнить понедельник</string>
+    <string name="reminder_saturday">Напомнить субботу и праздники</string>
+    <string name="reminder_sunday">Напомнить воскресенье</string>
+    <string name="reminder_thursday">Напомнить четверг</string>
+    <string name="reminder_tuesday">Напомнить вторник</string>
+    <string name="reminder_wednesday">Напомнить среду</string>
+
+</resources>

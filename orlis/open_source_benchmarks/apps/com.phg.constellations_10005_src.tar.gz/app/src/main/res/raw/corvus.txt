@@ -1,0 +1,68 @@
+Abbreviation: Crv    
+Genitive: Corvi    
+Pronunciation: /ˈkɔrvəs/, genitive /ˈkɔrvaɪ/    
+Symbolism: the Crow/Raven    
+Right ascension: 12    
+Declination: −20    
+Family: Hercules    
+Quadrant: SQ3    
+Area: 184 sq. deg. (70th)    
+Main stars: 4    
+Bayer/Flamsteed stars: 10    
+Stars with planets: 1    
+Stars brighter than 3.00m: 3    
+Stars within 10.00 pc (32.62 ly): 1    
+Brightest star: γ Crv (Gienah) (2.59m)    
+Nearest star: Ross 695 (28.99 ly, 8.89 pc)    
+Messier objects: 0    
+Meteor showers: Corvids (June 26)    
+Bordering constellations: Virgo Crater Hydra    
+Visible at latitudes between +60° and −90°. Best visible at 21:00 (9 p.m.) during the month of May. 
+   
+Corvus is a small constellation in the southern sky. Its name is Latin for raven or crow. It includes only 11 stars visible to the naked eye (brighter than magnitude 4.02). It was one of the 48 constellations listed by Ptolemy, who only counted 7 stars, and it remains one of the 88 modern constellations.
+
+Notable features
+Stars
+Four principal stars, δ, γ, ε, and β Crv, form an asterism known as "the "Spica's Spanker" or "the Sail". γ and δ serve as pointers toward Spica.
+The four brightest stars in Corvus are mostly unremarkable. Alpha Corvi, also called Alchiba, is a white-hued star of magnitude 4.0, 40 light-years from Earth. Beta Corvi is a yellow-hued giant star of magnitude 2.7, 140 light-years from Earth. Gamma Corvi, also called Gienah, is the brightest star in Corvus at magnitude 2.6. 165 light-years from Earth, it is a blue-white hued giant star. Its traditional name means "wing". Delta Corvi, traditionally called Algorab, is a double star divisible in small amateur telescopes. The primary is a blue-white hued star of magnitude 2.9, 88 light-years from Earth. The secondary is a purple-tinged star of magnitude 9. Its common name means "the raven".
+Struve 1669 is a binary star that is divisible by small amateur telescopes, 280 light-years from Earth. The pair, both white stars, is visible to the naked eye at magnitude 5.2; the primary is of magnitude 5.9 and the secondary is of magnitude 6.0.
+31 Crateris (which was originally placed within in Crater) is a 5.2 magnitude star which was once mistaken for a moon of Mercury.
+TT Corvi is a Semiregular variable red giant of spectral type M3III and apparent magnitude 6.48 around 923 light years distant.
+
+Notable deep-sky objects
+Corvus contains no Messier objects.
+The Antennae peculiar galaxy, NGC 4038 and 4039, consists of two interacting galaxies that appear to have a heart shape as seen from Earth. The name originates from the huge tidal tails that come off the ends of the two galaxies, formed because of the spiral galaxies' original rotation. Both original galaxies were spiral galaxies and are now experiencing extensive star formation due to the interaction of gas clouds. The galaxies are 45 million light-years from Earth and each has multiple ultraluminous X-ray sources, the source of which is unknown. Astronomers theorize that they may be a rare type of x-ray emitting binary stars or intermediate-mass black holes. The Antennae galaxies appear in a telescope at the 10th magnitude.
+The center of Corvus is home to a planetary nebula NGC 4361. The nebula itself resembles a small elliptical galaxy, but the magnitude 13 star at its centre gives away its true nature.
+
+History and mythology
+The Greek figure of Corvus is modeled on the Babylonian Raven (MUL.UGA.MUSHEN), which was similarly placed sitting on the tail of the Serpent (Greek Hydra). The Babylonian constellation was sacred to Adad, the god of rain and storm; in the second Millennium it would have risen just before the start of the autumnal rainy season.
+One myth associated with Corvus is that of Apollo and Coronis. Coronis had been unfaithful to her lover, who learned this information from a pure white crow. Apollo then turned its feathers black in a fit of rage.
+Another legend associated with Corvus is that a crow stopped on his way to fetch water for Apollo, in order to eat figs. Instead of telling the truth to Apollo, he lied and said that a snake, Hydra, kept him from the water, while holding a snake in his talons as proof. Apollo saw this to be a lie, however, and flung the crow (Corvus), cup (Crater), and the snake (Hydra) into the sky. He further punished the wayward bird by making sure that it would forever be thirsty, both in real life and in the heavens, where the Cup is barely out of reach.
+
+Equivalents
+In Chinese astronomy, the stars of Corvus are located within the Vermillion Bird of the South (南方朱雀, Nán Fāng Zhū Què).
+In Indian astronomy, the first five stars of Corvus correspond to the Hastā, the 11th nakshatra or lunar mansion.
+Corvus was recognized as a constellation by several Polynesian cultures. In the Marquesas Islands, it was called Mee; in Pukapuka, it was called Te Manu, and in the Society Islands, it was called Metua-ai-papa.
+
+References
+
+^  This article incorporates text from a publication now in the public domain: Chambers, Ephraim, ed. (1728). "article name needed". Cyclopaedia, or an Universal Dictionary of Arts and Sciences (first ed.). James and John Knapton, et al. 
+^ Nickel, J., (1999): Lift Up Your Eyes on High: Understanding the Stars, Christian Liberty Press, p. 53.
+^ Bakich, M. E., (1995): The Cambridge Guide to the Constellations, Cambridge, Cambridge University Press, pp. 21,22.
+^ Mullaney, J., (2007): The Herschel objects and how to observe them <Astronomers' Observing Guides>, Springer, p. 39.
+^ a b c d e Ridpath & Tirion 2001, pp. 128-130.
+^ Tabur & Bedding 2009.
+^ Wilkins, Jamie; Dunn, Robert (2006). 300 Astronomical Objects: A Visual Reference to the Universe. Buffalo, New York: Firefly Books. ISBN 978-1-55407-175-3. 
+^ Babylonian Star-lore by Gavin White, Solaria Pubs, 2008, page 166ff
+^ (Chinese) AEEA (Activities of Exhibition and Education in Astronomy) 天文教育資訊網 2006 年 7 月 22 日
+^ Allen, R. H., (1963): Star Names: Their Lore and Meaning, New York, Dover Publications, p. 182.
+^ Makemson 1941, p. 282.
+References
+Makemson, Maud Worcester (1941). The Morning Star Rises: an account of Polynesian astronomy. Yale University Press. 
+Ridpath, Ian; Tirion, Wil (2001), Stars and Planets Guide, Princeton University Press, ISBN 0-691-08913-2 
+Tabur, V.; Bedding, T. R. (2009). "Long-term photometry and periods for 261 nearby pulsating M giants". Monthly Notices of the Royal Astronomical Society 400 (4): 1945–61. arXiv:0908.3228. Bibcode:2009MNRAS.400.1945T. doi:10.1111/j.1365-2966.2009.15588.x. 
+Ian Ridpath and Wil Tirion (2007). Stars and Planets Guide, Collins, London. ISBN 978-0-00-725120-9. Princeton University Press, Princeton. ISBN 978-0-691-13556-4.
+Richard Hinckley Allen, Star Names, Their Lore and Legend, New York, Dover.
+Thomas Wm. Hamilton, Useful Star Names, Viewlex, Holbrook, New York, 1968.
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Corvus_(constellation)&oldid=610550419"

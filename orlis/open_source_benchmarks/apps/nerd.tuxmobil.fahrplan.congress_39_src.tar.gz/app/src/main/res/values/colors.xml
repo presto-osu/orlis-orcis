@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fahrplan_background">#003339</color>
+    <color name="text_link_color">#33b5e5</color>
+    <color name="lightgray">#505050</color>
+    <color name="alarm_list_icon_default_fill_color">#ddd</color>
+    <color name="alarm_list_icon_default_stroke_color">#003339</color>
+    <color name="alarm_list_icon_text_color">#000000</color>
+    <color name="lecture_background">#ffffff</color>
+    <color name="lecture_detailbar_background">#eee</color>
+    <color name="lecture_detailbar_text">#999</color>
+
+    <!-- Alarm dialogs -->
+    <color name="alert_dialog_title">@color/colorAccent</color>
+    <color name="alert_dialog_button_text">@color/colorPrimary</color>
+
+    <!-- Schedule changes -->
+    <color name="schedule_change">#ff0000</color>
+    <color name="schedule_change_new">#00ff00</color>
+    <color name="schedule_change_canceled">#808080</color>
+
+    <!-- Spinner -->
+    <color name="spinner_drop_down_text">#cc0000</color>
+
+    <!-- Event detail -->
+    <color name="event_detail_background">
+        @color/lecture_background
+    </color>
+    <color name="event_detail_text">
+        @android:color/black
+    </color>
+
+</resources>

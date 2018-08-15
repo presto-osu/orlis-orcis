@@ -1,0 +1,12 @@
+.settings
+gen
+bin
+_cache
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/app/build
+/build
+*.apk

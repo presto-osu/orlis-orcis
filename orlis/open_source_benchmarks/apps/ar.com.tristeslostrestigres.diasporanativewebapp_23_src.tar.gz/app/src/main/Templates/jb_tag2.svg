@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="jb_tag2.svg"
+   inkscape:export-filename="/home/juergen/Projekte/Android/Android_Studio/Diaspora-Native-WebApp-1.5.4/app/src/main/Templates/jb_tag2.png"
+   inkscape:export-xdpi="172"
+   inkscape:export-ydpi="172">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="726"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="1.3928609"
+     inkscape:cy="16.720816"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <path
+     id="path4-7"
+     d="M 14.5,17 C 11.733333,17 9.4999999,14.758333 9.4999999,12 9.4999999,9.233333 11.733333,7 14.5,7 a 5,5 0 0 1 5,5 5,5 0 0 1 -5,5 M 5.3333332,12.833333 A 0.83333333,0.83333333 0 0 1 4.4999999,12 0.83333333,0.83333333 0 0 1 5.3333332,11.166667 0.83333333,0.83333333 0 0 1 6.1666665,12 0.83333333,0.83333333 0 0 1 5.3333332,12.833333 M 20.333333,4.5 8.3583332,4.5 c -0.55,0 -1.0416667,0.266667 -1.3583333,0.675 l -5,6.825 5,6.816667 C 7.3166665,19.233333 7.8083332,19.5 8.3583332,19.5 l 11.9749998,0 A 1.6666667,1.6666667 0 0 0 22,17.833333 L 22,6.166667 C 22,5.241667 21.25,4.5 20.333333,4.5 m -7.5,6.666667 A 0.83333333,0.83333333 0 0 0 13.666667,10.333333 0.83333333,0.83333333 0 0 0 12.833333,9.5 0.83333333,0.83333333 0 0 0 12,10.333333 0.83333333,0.83333333 0 0 0 12.833333,11.166667 M 14.5,15.333333 c 1.55,0 2.791667,-1.066666 3.166667,-2.5 l -6.333334,0 c 0.375,1.433334 1.616667,2.5 3.166667,2.5 m 1.666667,-4.166666 A 0.83333333,0.83333333 0 0 0 17,10.333333 0.83333333,0.83333333 0 0 0 16.166667,9.5 a 0.83333333,0.83333333 0 0 0 -0.833334,0.833333 0.83333333,0.83333333 0 0 0 0.833334,0.833334 z"
+     inkscape:connector-curvature="0" />
+</svg>

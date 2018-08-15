@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <!--  Global title layout -->
+	<LinearLayout
+	    android:id="@+id/layout_stats_title"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	
+	    <TextView
+	        android:id="@+id/text_stats_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="left"
+	        android:text="@string/stats_title"
+	        android:textColor="@android:color/black"
+	        android:textSize="18sp"
+	        />	    
+	</LinearLayout>
+	
+	<View
+	    android:layout_width="fill_parent"
+	    android:layout_height="1.6dp"
+	    android:visibility="visible"
+	    android:background="@android:color/black"/>
+	
+	<!-- Container for Cumulated at left, Periodic at right -->
+    <LinearLayout
+	    android:id="@+id/layout_container1"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+	    <!--  Cumuls -->
+        <LinearLayout
+		    android:id="@+id/layout_container_cumuls"
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.5"
+	        android:orientation="vertical" >
+	    	<!--  title  -->
+	    	<LinearLayout
+			    android:id="@+id/layout_title_cumul"
+		        android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal" >
+      			<TextView
+			        android:id="@+id/text_cumuls_title"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="0.5"
+	        	    android:gravity="center"
+			        android:textColor="@android:color/black"
+			        android:textSize="14sp"
+			        android:text="@string/stats_cumuls"  />
+            	<TextView
+			        android:id="@+id/textCumulValue"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="0.5"
+	        	    android:gravity="center"
+			        android:textColor="@android:color/black"
+			        android:textSize="14sp" />
+			</LinearLayout>
+            <View
+			    android:layout_width="fill_parent"
+			    android:layout_height="1.6dp"
+			    android:visibility="visible"
+			    android:background="@android:color/black"/>
+            
+            <!-- Bloc 'cumuls'  -->
+            <LinearLayout
+			    android:id="@+id/layout_cumuls1"
+		        android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical" >
+            	
+                <!--  sens title -->
+                <LinearLayout
+				    android:id="@+id/layout_cum2"
+			        android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal" >
+
+	                <TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                     />
+					<TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                     />
+	 				<TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/Send"
+	                    android:textSize="12sp" />
+	
+	                <TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/Received"
+	                    android:textSize="12sp" />
+					
+	           </LinearLayout> <!--  of sent/received  -->
+	            <View
+				    android:layout_width="fill_parent"
+				    android:layout_height="1.6dp"
+				    android:visibility="visible"
+				    android:background="@android:color/black"/>
+	            
+	            <!--  Cumulated Stats packets -->
+                <LinearLayout
+				    android:id="@+id/layout_cum3"
+			        android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal" >
+            	
+	                <TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/stats"
+	                    android:textSize="14sp"/>
+					<TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/packets"
+	                    android:textSize="12sp" />
+	 				<TextView
+	                    android:id="@+id/statsPS"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+	
+	                <TextView
+	                    android:id="@+id/statsPR"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+					
+	           </LinearLayout> <!--  of cumul STATS packets  -->
+            	
+            	<!--  Cumulated Stats Bytes -->
+                <LinearLayout
+				    android:id="@+id/layout_cum4"
+			        android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal" >
+            	
+	                <TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="14sp"/>
+					<TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/bytes"
+	                    android:textSize="12sp" />
+	 				<TextView
+	                    android:id="@+id/statsBS"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+	
+	                <TextView
+	                    android:id="@+id/statsBR"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+					
+	           </LinearLayout> <!--  cumuls STATS bytes  -->
+            	<View
+				    android:layout_width="fill_parent"
+				    android:layout_height="1.6dp"
+				    android:visibility="visible"
+				    android:background="@android:color/black"/>
+            	
+            	<!--  Cumulated Events packets -->
+                <LinearLayout
+				    android:id="@+id/layout_cum5"
+			        android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal" >
+            	
+	                <TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/events"
+	                    android:textSize="14sp"/>
+					<TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/packets"
+	                    android:textSize="12sp" />
+	 				<TextView
+	                    android:id="@+id/eventsPS"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+	
+	                <TextView
+	                    android:id="@+id/eventsPR"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+					
+	           </LinearLayout> <!--  of cumul Events packets  -->
+            	
+            	<!--  Cumulated Events Bytes -->
+                <LinearLayout
+				    android:id="@+id/layout_cum6"
+			        android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal" >
+            	
+	                <TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:textSize="14sp"/>
+					<TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/bytes"
+	                    android:textSize="12sp" />
+	 				<TextView
+	                    android:id="@+id/eventsBS"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+	
+	                <TextView
+	                    android:id="@+id/eventsBR"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+						android:textSize="12sp" />
+					
+	           </LinearLayout> <!--  cumuls EVENTS bytes  -->
+            	<View
+				    android:layout_width="fill_parent"
+				    android:layout_height="1.6dp"
+				    android:visibility="visible"
+				    android:background="@android:color/black"/>
+            </LinearLayout>
+            
+            
+            
+            
+            
+      	</LinearLayout>
+      	<!--   Vertical Separator -->
+      	<View
+	    android:layout_width="1.6dp"
+	    android:layout_height="fill_parent"
+	    android:visibility="visible"
+	    android:background="@android:color/black"/>
+      	<!--  Periodic -->
+      	<LinearLayout
+		    android:id="@+id/layout_container_period"
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.5"
+	        android:orientation="vertical" >
+	    	<!-- Title -->
+			<LinearLayout
+			    android:id="@+id/layout_title_period"
+		        android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal" >
+      			<TextView
+	      		    android:id="@+id/textstatsPeriod"
+	      		    android:layout_width="wrap_content"
+	      		    android:layout_height="wrap_content"
+	      		    android:layout_weight="0.5"
+	        	    android:gravity="center"
+	      		    android:textColor="@android:color/black"
+			        android:textSize="14sp"
+			        android:text="@string/stats_title_period" />
+	      		<TextView
+			        android:id="@+id/textPeriodValue"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="0.5"
+	        	    android:gravity="center"
+			        android:textColor="@android:color/black"
+			        android:textSize="14sp"  />
+			</LinearLayout>
+            <View
+			    android:layout_width="fill_parent"
+			    android:layout_height="1.6dp"
+			    android:visibility="visible"
+			    android:background="@android:color/black"/>
+            <!-- Bloc 'periodic'  -->
+            <LinearLayout
+			    android:id="@+id/layout_period2"
+		        android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical" >
+            	
+                <!--  sens title -->
+                <LinearLayout
+				    android:id="@+id/layout_period3"
+			        android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal" >
+            	
+	                <TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                     />
+					<TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                     />
+	 				<TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/Send"
+	                    android:textSize="12sp" />
+	
+	                <TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/Received"
+	                    android:textSize="12sp" />
+					
+	           </LinearLayout> <!--  of sent/received  -->
+	            <View
+				    android:layout_width="fill_parent"
+				    android:layout_height="1.6dp"
+				    android:visibility="visible"
+				    android:background="@android:color/black"/>
+	            
+	            <!--  Periodic Stats packets -->
+                <LinearLayout
+				    android:id="@+id/layout_cum7"
+			        android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal" >
+            	
+	                <TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/stats"
+	                    android:textSize="14sp"/>
+					<TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/packets"
+	                    android:textSize="12sp" />
+	 				<TextView
+	                    android:id="@+id/PstatsPS"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+	
+	                <TextView
+	                    android:id="@+id/PstatsPR"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+					
+	           </LinearLayout> <!--  of periodic STATS packets  -->
+            	
+            	<!--  periodic Stats Bytes -->
+                <LinearLayout
+				    android:id="@+id/layout_cum8"
+			        android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal" >
+            	
+	                <TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="14sp"/>
+					<TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/bytes"
+	                    android:textSize="12sp" />
+	 				<TextView
+	                    android:id="@+id/PstatsBS"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+	
+	                <TextView
+	                    android:id="@+id/PstatsBR"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+					
+	           </LinearLayout> <!--  periodic STATS bytes  -->
+            	<View
+				    android:layout_width="fill_parent"
+				    android:layout_height="1.6dp"
+				    android:visibility="visible"
+				    android:background="@android:color/black"/>
+            	
+            	<!--  periodic Events packets -->
+                <LinearLayout
+				    android:id="@+id/layout_period1"
+			        android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal" >
+            	
+	                <TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/events"
+	                    android:textSize="14sp"/>
+					<TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/packets"
+	                    android:textSize="12sp" />
+	 				<TextView
+	                    android:id="@+id/PeventsPS"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+	
+	                <TextView
+	                    android:id="@+id/PeventsPR"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+					
+	           </LinearLayout> <!--  of periodic Events packets  -->
+            	
+            	<!--  periodic Events Bytes -->
+                <LinearLayout
+				    android:id="@+id/layout_cum1"
+			        android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal" >
+            	
+	                <TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:textSize="14sp"/>
+					<TextView
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="left"
+	                    android:textColor="@android:color/black"
+				        android:text="@string/bytes"
+	                    android:textSize="12sp" />
+	 				<TextView
+	                    android:id="@+id/PeventsBS"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+	
+	                <TextView
+	                    android:id="@+id/PeventsBR"
+                    	android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_weight="0.25"
+	                    android:gravity="center"
+	                    android:textColor="@android:color/black"
+				        android:text=""
+	                    android:textSize="12sp" />
+					
+	           </LinearLayout> <!--  periodic EVENTS bytes  -->
+            	<View
+				    android:layout_width="fill_parent"
+				    android:layout_height="1.6dp"
+				    android:visibility="visible"
+				    android:background="@android:color/black"/>
+            </LinearLayout>
+            
+            
+            
+      	</LinearLayout>
+      	
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,79 @@
+Abbreviation: UMi    
+Genitive: Ursae Minoris    
+Pronunciation: /ˌɜrsə ˈmaɪnər/, genitive /ˌɜrsiː mɨˈnɒrɨs/    
+Symbolism: the lesser Bear    
+Right ascension: 15    
+Declination: +75    
+Family: Ursa Major    
+Quadrant: NQ3    
+Area: 256 sq. deg. (56th)    
+Main stars: 7    
+Bayer/Flamsteed stars: 23    
+Stars with planets: 3    
+Stars brighter than 3.00m: 3    
+Stars within 10.00 pc (32.62 ly): 0    
+Brightest star: Polaris (1.97m)    
+Nearest star: UU UMi (42.60 ly, 13.06 pc)    
+Messier objects: 0    
+Meteor showers: Ursids    
+Bordering constellations: Draco Camelopardalis Cepheus    
+Visible at latitudes between +90° and −10°. Best visible at 21:00 (9 p.m.) during the month of June.
+    
+Ursa Minor (Latin: "Smaller Bear", contrasting with Ursa Major), also known as the Little Bear, is a constellation in the northern sky. Like the Great Bear, the tail of the Little Bear may also be seen as the handle of a ladle, hence the name Little Dipper. It was one of the 48 constellations listed by the 2nd century astronomer Ptolemy, and remains one of the 88 modern constellations. Ursa Minor is notable as the location of the north celestial pole, although this will change after some centuries due to the precession of the equinoxes.
+Polaris, the brightest star in the constellation, is a yellow-white supergiant and brightest Cepheid variable star, ranging from apparent magnitude 1.97 to 2.00. Beta Ursae Minoris is only slightly fainter, with its apparent magnitude of 2.08. Also known as Kochab, it is an orange giant star, 16 degrees from Polaris. It and magnitude 3 Gamma Ursae Minoris have been called the 'guardians of the pole star'. Three stellar systems have been discovered to contain planets.
+
+History and mythology
+Ursa Minor and Ursa Major were related by the Greeks to the myth of Callisto and Arcas. However, in a variant of the story, in which it is Boötes that represents Arcas, Ursa Minor represents a dog. This is the older tradition, which sensibly explains both the length of the tail and the obsolete alternate name of Cynosura (the dog's tail) for Polaris, the North Star.
+Previously, Ursa Minor was considered just seven close stars, mythologically regarded as sisters. In early Greek mythology, the seven stars of the Little Dipper were the Hesperides, daughters of Atlas. Together with the nearby constellations of Boötes, Ursa Major, and Draco, it may have formed the origin of the myth of the apples of the Hesperides, which forms part of the Labours of Hercules.[original research?] Ursa Minor with its modern associations was invented by Thales of Miletus in approximately 600 BCE, from what had previously represented the wings of Draco, the Dragon. He did so out of a desire to commemorate the location of the North Celestial Pole, then near Beta and Gamma Ursae Minoris.
+In Hungarian mythology the constellation is called 'Little Goncol cart' (Göncöl szekér) after a legendary shaman. (Ursa Major is 'Big Goncol cart.') The shaman's knowledge knew no limit. He invented the cart: His nation was wandering, so the cart was the biggest gift of the Gods to the country. Legends claim he knew everything about the world. Nobody saw his death; his body simply disappeared among the stars.
+Because Ursa Minor consists of seven stars, the Latin word for "North" (i.e. where Polaris points) is septentrio, from septem (seven) and triones (oxen), from seven oxen driving a plow, which the seven stars also resemble.
+
+Characteristics
+Ursa Minor is notable as the location of the north celestial pole, although this will change after some centuries due to the precession of the equinoxes. It is bordered by Camelopardalis to the west, Draco to the west, and Cepheus to the east. Covering 256 square degrees, it ranks 56th of the 88 constellations in size. The three-letter abbreviation for the constellation, as adopted by the International Astronomical Union in 1922, is 'UMi'. The official constellation boundaries, as set by Eugène Delporte in 1930, are defined by a polygon of 22 segments. In the equatorial coordinate system, the right ascension coordinates of these borders lie between 08h 41.4m and 22h 54.0m, while the declination coordinates range from the North Celestial Pole south to 65.40°.
+
+Notable features
+Stars
+Ursa Minor is colloquially known as the Little Dipper because its seven brightest stars seem to form the shape of a dipper (ladle or scoop). The star at the end of the dipper handle is Polaris, the North Star. Polaris can also be found by following a line through the two stars that form the end of the "bowl" of the Big Dipper, a nearby asterism found in the constellation Ursa Major.
+The four stars constituting the "bowl" of the little dipper are unusual in that they are of second, third, fourth, and fifth magnitudes. Hence, they provide an easy guide to determining what magnitude stars are visible, useful for city dwellers or testing one's eyesight.
+The German cartographer Johann Bayer used the Greek letters Alpha through Theta to label the most prominent stars in the constellation, while his countryman Johann Elert Bode subsequently added Iota to Phi. However, only Lambda and Pi remain in use, likely because of their closeness to the North Celestial Pole.
+Marking the Little Bear's tail, Polaris, or Alpha Ursae Minoris, the brightest star in the constellation, is a 'yellow-white' supergiant that varies between spectral types F7Ib and F8Ib, and located around 430 light-years away from Earth. Varying between apparent magnitude 1.97 and 2.00 over a period of 3.97 days, it is the closest Cepheid variable star to Earth. Beta Ursae Minoris, traditionally called Kochab, is only slightly less bright than Polaris. It is an orange giant—a evolved star that has used up the hydrogen in its core and moved off the main sequence—of spectral type K4III. Slightly variable over a period of 4.6 days, Kochab has had its mass estimated at 1.3 times that of the sun via measurement of these oscillations. 16 degrees from Polaris, Kochab is 126.4 ± 2.5 light years from the Sun, and is 130 times more luminous than the Sun, at a surface temperature of approximately 4,000 K.
+Gamma Ursae Minoris, traditionally known as Pherkad, has an apparent magnitude that varies between 3.04 and 3.09 roughly every 3.4 hours. A white bright giant of spectral type A3II-III, it is a Delta Scuti variable. with around 4.8 times the Sun's mass, 1050 times its luminosity and 15 times its radius.
+RR Ursae Minoris is a red giant of spectral type M5III that is also a semiregular variable ranging from magnitude 4.44 to 4.85 over a period of 43.3 days. T Ursae Minoris is another red giant variable star that has undergone a dramatic change in status—from being a long period (Mira) variable ranging from magnitude 7.8 to 15 over 310-315 days to a semiregular variable. The star is thought to have undergone a helium flash—a point where the shell of helium around the star's core reaches a critical mass and ignites—in 1979. Z Ursae Minoris is a faint variable star that suddenly dropped 6 magnitudes in 1992 and was identified as one of a rare class of stars—R Coronae Borealis variables. RW Ursae Minoris is a cataclysmic variable star system that flared up as a nova in 1956, reaching magnitude 6. In 2003, it was still two magnitudes brighter than its baseline, and dimming at a rate of 0.02 magnitude a year. Its distance has been calculated as 5000 ± 800 parsecs (16300 light-years), which puts its location in the galactic halo.
+Three stellar systems have been discovered to contain planets. 11 Ursae Minoris is an orange giant of spectral type K4III around 1.8 times as massive as the Sun. Around 1.5 billion years old, it has cooled and expanded since it was an A-type main sequence star. Around 390 light-years distant, it shines with an apparent magnitude of 5.04. A planet around 11 times the mass of Jupiter was discovered orbiting the star with a period of 516 days in 2009. HD 120084 is another evolved star, this time a yellow giant of spectral type G7III, around 2.4 times the mass of the Sun. It has a planet 4.5 times the mass of Jupiter with one of the most eccentric planetary orbits (with an eccentricity of 0.66), discovered by precisely measuring the radial velocity of the star in 2013.
+
+Deep-sky objects
+Ursa Minor is rather devoid of many deep-sky objects. A notable object is the Ursa Minor Dwarf, a dwarf galaxy, located in the area of the constellation.
+
+Meteor showers
+The Ursids are Ursa Minor's prominent meteor shower and peak between December 18 and 25. Its parent body is the comet 8P/Tuttle.
+
+Citations
+
+^ "Urania’s Mirror c.1825 – Ian Ridpath's Old Star Atlases". Ianridpath.com. Retrieved 2012-02-13. 
+^ Allen, Richard Hinckley (1969). Star Names: Their Lore and Meaning. Dover Publications Inc. (Reprint of 1899 original). ISBN 0-486-21079-0. 
+^ "Draco Constellation". Constellation Guide. , Retrieved 2013-06-03.
+^ Schaaf 2013.
+^ Guilherme de Almeida (2004). Navigating the Night Sky: How to Identify the Stars and Constellations. Springer. ISBN 1-85233-737-0. 
+^ Russell, Henry Norris (1922). "The New International Symbols for the Constellations". Popular Astronomy 30: 469. Bibcode:1922PA.....30..469R. 
+^ "Ursa Minor, Constellation Boundary". The Constellations (International Astronomical Union). Retrieved 12 May 2014. 
+^ Wagman 2003, p. 312.
+^ Wagman 2003, p. 518.
+^ a b Otero, Sebastian Alberto (4 December 2007). "Alpha Ursae Minoris". AAVSO Website. American Association of Variable Star Observers. Retrieved 16 May 2014. 
+^ "Beta Ursae Minoris - Variable Star". SIMBAD Astronomical Database. Centre de Données astronomiques de Strasbourg. Retrieved 18 May 2014. 
+^ Tarrant, N. J.; Chaplin, W. J.; Elsworth, Y.; Spreckley, S. A.; Stevens, I. R. (June 2008). "Oscillations in ß Ursae Minoris. Observations with SMEI". Astronomy and Astrophysics 483 (3): L43–L46. arXiv:0804.3253. Bibcode:2008A&A...483L..43T. doi:10.1051/0004-6361:200809738. 
+^ a b Watson, Christopher (4 January 2010). "Gamma Ursae Minoris". AAVSO Website. American Association of Variable Star Observers. Retrieved 18 May 2014. 
+^ Kaler, James B. (20 December 2013). "Pherkad". Stars. University of Illinois. Retrieved 18 May 2014. 
+^ Otero, Sebastian Alberto (16 November 2009). "RR Ursae Minoris". AAVSO Website. American Association of Variable Star Observers. Retrieved 18 May 2014. 
+^ Uttenthaler, S.; van Stiphout, K.; Voet, K.; van Winckel, H.; van Eck, S.; Jorissen, A.; Kerschbaum, F.; Raskin, G.; Prins, S.; Pessemier, W.; Waelkens, C.; Frémat, Y.; Hensberge, H.; Dumortier, L.; Lehmann, H. (2011). "The evolutionary state of Miras with changing pulsation periods". Astronomy & Astrophysics 531: A88. Bibcode:2011A&A...531A..88U. 
+^ Mattei, Janet A.; Foster, Grant (1995). "Dramatic Period Decrease in T Ursae Minoris". The Journal of the American Association of Variable Star Observers 23 (2): 106–16. Bibcode:1995JAVSO..23..106M. 
+^ Benson, Priscilla J.; Clayton, Geoffrey C.; Garnavich, Peter; Szkody, Paula. "Z Ursa Minoris -- a new R Coronae Borealis variable". The Astronomical Journal 108 (1): 247–50. Bibcode:1994AJ....108..247B. 
+^ Bianchini, A.; Tappert, C.; Canterna, R.; Tamburini, F.; Osborne, H.; Cantrell, K. "RW Ursae Minoris (1956): An Evolving Postnova System". The Publications of the Astronomical Society of the Pacific 115 (809): 811–18. Bibcode:2003PASP..115..811B. 
+^ Döllinger, M.P.; Hatzes, A.P.; Pasquini, L.; Guenther, E. W.; Hartmann, M. (2009). "Planetary Companions around the K Giant Stars 11 Ursae Minoris and HD 32518". Astronomy and Astrophysics 505 (3): 1311–17. arXiv:0908.1753. Bibcode:2009A&A...505.1311D. doi:10.1051/0004-6361/200911702. 
+^ Sato, Bun'ei; Omiya, Masashi; Harakawa, Hiroki; Liu, Yu-Juan; Izumiura, Hideyuki; Kambe, Eiji; Takeda, Yoichi; Yoshida, Michitoshi; Itoh, Yoichi; Ando, Hiroyasu; Kokubo, Eiichiro; Ida, Shigeru (2013). "Planetary Companions to Three Evolved Intermediate-Mass Stars: HD 2952, HD 120084, and omega Serpentis". Publ. Astron. Soc. Japan: 1–15. 
+^ Jenniskens, Peter (September 2012). "Mapping Meteoroid Orbits: New Meteor Showers Discovered". Sky & Telescope: 24. 
+References
+Ian Ridpath and Wil Tirion (2007). Stars and Planets Guide, Collins, London. ISBN 978-0-00-725120-9. Princeton University Press, Princeton. ISBN 978-0-691-13556-4.
+Schaaf, Fred (May 2013). "Pursuing Mythic Sky Bears". Sky & Telescope. 
+Wagman, Morton (2003). Lost Stars: Lost, Missing and Troublesome Stars from the Catalogues of Johannes Bayer, Nicholas Louis de Lacaille, John Flamsteed, and Sundry Others. Blacksburg, Virginia: The McDonald & Woodward Publishing Company. ISBN 978-0-939923-78-6. 
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Ursa_Minor&oldid=611619369"

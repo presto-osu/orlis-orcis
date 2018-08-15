@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Zmanim" parent="android:Widget"/>
+
+    <style name="Zmanim.ListView" parent="android:Widget.ListView">
+    </style>
+
+    <style name="Zmanim.ListDivider">
+        <item name="android:background">@drawable/divider_horizontal_dark</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Zmanim.ListItem">
+        <item name="android:background">@android:drawable/list_selector_background</item>
+    </style>
+
+    <style name="Zmanim.ListItem.Dark">
+    </style>
+
+    <style name="Zmanim.ListItem.Light">
+    </style>
+
+    <style name="Zmanim.ListItem.NoGradient">
+    </style>
+
+    <style name="LightRow">
+        <item name="android:background">@color/bright</item>
+    </style>
+
+    <style name="CandleRow">
+        <item name="android:background">@color/candles</item>
+    </style>
+
+    <style name="BigThin">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:layout_marginBottom">-15dp</item>
+    </style>
+
+    <style name="WidgetBigThin" parent="BigThin">
+        <item name="android:textSize">@dimen/widget_big_font_size</item>
+    </style>
+
+    <style name="Zmanim.ListView.Dark">
+        <item name="android:background">@drawable/list_gradient</item>
+    </style>
+
+    <style name="Zmanim.ListView.Light">
+        <item name="android:background">@drawable/list_gradient_light</item>
+    </style>
+
+    <style name="Zmanim.ListView.NoGradient">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Zmanim.TextAppearance">
+    </style>
+
+    <style name="Zmanim.TextAppearance.Title" parent="android:TextAppearance.Medium">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Zmanim.TextAppearance.Time" parent="android:TextAppearance.Medium">
+    </style>
+
+    <style name="Zmanim.TextAppearance.Summary" parent="android:TextAppearance.Small">
+        <item name="android:maxLines">3</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Zmanim.TextAppearance.Title.Dark">
+        <item name="android:textColor">@color/primary_text_dark</item>
+    </style>
+
+    <style name="Zmanim.TextAppearance.Title.Light">
+        <item name="android:textColor">@color/primary_text_light</item>
+    </style>
+
+    <style name="Zmanim.TextAppearance.Title.NoGradient">
+    </style>
+
+    <style name="Zmanim.TextAppearance.Time.Dark">
+        <item name="android:textColor">@color/primary_text_dark</item>
+    </style>
+
+    <style name="Zmanim.TextAppearance.Time.Light">
+        <item name="android:textColor">@color/primary_text_light</item>
+    </style>
+
+    <style name="Zmanim.TextAppearance.Time.NoGradient">
+    </style>
+
+    <style name="Zmanim.TextAppearance.Summary.Dark">
+    </style>
+
+    <style name="Zmanim.TextAppearance.Summary.Light">
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+    </style>
+
+    <style name="Zmanim.TextAppearance.Summary.NoGradient">
+    </style>
+
+</resources>

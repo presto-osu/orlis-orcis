@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent" >
+
+   	<LinearLayout
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content"
+   	    android:orientation="vertical"
+   	    android:useDefaultMargins="true" >
+
+        <TextView
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left"
+		    android:layout_marginBottom="20dp"
+		    android:text="@string/certificate_details"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+		
+		<TextView
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left"
+		    android:text="@string/subject_dn"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textStyle="bold" />
+		<TextView
+		    android:id="@+id/cert_cn"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left"
+		    android:layout_marginBottom="10dp"
+		    android:singleLine="false"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		<TextView
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left"
+		    android:text="@string/alternative_subject_names"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textStyle="bold" />
+		<TextView
+		    android:id="@+id/cert_altsubjnames"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left"
+		    android:layout_marginBottom="10dp"
+		    android:singleLine="false"
+		    android:maxLines="3"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		<TextView
+		    android:layout_gravity="left"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/serial_number"
+		    android:textStyle="bold"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TextView
+		    android:id="@+id/cert_serial"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="10dp"
+		    android:layout_gravity="left"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		<TextView
+		    android:layout_gravity="left"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/signature_sha1"
+		    android:textStyle="bold"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TextView
+		    android:id="@+id/cert_sig_sha1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="10dp"
+		    android:layout_gravity="left"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		<TextView
+		    android:layout_gravity="left"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/signature_md5"
+		    android:textStyle="bold"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TextView
+		    android:id="@+id/cert_sig_md5"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="10dp"
+		    android:layout_gravity="left"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		<TextView
+		    android:layout_gravity="left"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/valid_from"
+		    android:textStyle="bold"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TextView
+		    android:id="@+id/cert_valid_from"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="10dp"
+		    android:layout_gravity="left"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		<TextView
+		    android:layout_gravity="left"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/valid_until"
+		    android:textStyle="bold"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TextView
+		    android:id="@+id/cert_valid_until"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="10dp"
+		    android:layout_gravity="left"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+			
+		<TextView
+		    android:layout_gravity="left"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/basic_constraints"
+		    android:textStyle="bold"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		<TextView
+		    android:id="@+id/cert_basic_constraints"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="10dp"
+		    android:layout_gravity="left"
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        <TextView
+	        android:id="@+id/cert_currently_not_valid"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:layout_marginBottom="10dp"
+	        android:text="@string/alert_currently_not_valid"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:drawablePadding="10dp"
+	        android:padding="10dp" />
+	
+	    <TextView
+	        android:id="@+id/cert_is_not_a_ca"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+	        android:layout_gravity="left"
+	        android:layout_marginBottom="10dp"
+	        android:text="@string/alert_is_not_a_ca"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:drawableLeft="@drawable/ic_action_error"
+	        android:drawablePadding="10dp"
+	        android:padding="10dp" />
+
+    </LinearLayout>
+</ScrollView>

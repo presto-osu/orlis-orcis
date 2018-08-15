@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@id/tag_list"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_labels_white"
+        android:title="@string/title_activity_tag_list" />
+
+    <item android:id="@id/create_notebook_menu"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_collection_new"
+        android:title="@string/title_create_notebook" />
+
+    <item android:id="@id/delete_notebook_menu"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_collection_remove"
+        android:title="@string/title_delete_notebook" />
+
+    <!--Add search item to the tool bar, use app:actionViewClass instead of android:actionViewClass-->
+    <!--because of the error return null search info-->
+    <item android:id="@+id/action_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/title_dialog_search"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item android:id="@+id/export_menu"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/title_activity_export" />
+
+    <item android:id="@+id/import_menu"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="@string/title_activity_import" />
+
+    <item android:id="@+id/settings_menu"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_settings"
+        android:title="@string/title_activity_settings" />
+</menu>

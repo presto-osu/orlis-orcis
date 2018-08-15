@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Instant Readme Demo</string>
+    <string name="title_activity_readme">ReadMe Viewer</string>
+</resources>

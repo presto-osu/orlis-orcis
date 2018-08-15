@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    DroidBeard - a free, open-source Android app for managing SickBeard
+    Copyright (C) 2014-2015 Robert Carr
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see http://www.gnu.org/licenses/.
+-->
+
+<resources>
+    <color name="navigation_list_item_selected">#dfdacf</color>
+    <color name="selected_list_item">#cfcfcf</color>
+    <color name="secondary_color">#838383</color>
+    <color name="primary_text_color">#333333</color>
+    <color name="downloaded_episode_background">#c3e3c8</color>
+    <color name="skipped_episode_background">#bedeed</color>
+    <color name="unaired_episode_background">#f5f1e4</color>
+    <color name="wanted_episode_background">#ffb0b0</color>
+    <color name="snatched_episode_background">#ebc1ea</color>
+    <color name="upcoming_episode_past">#fdd</color>
+    <color name="upcoming_episode_current">#dfd</color>
+    <color name="upcoming_episode_future">#f5f1e4</color>
+    <color name="upcoming_episode_distant">#ddf</color>
+    <color name="header">#333333</color>
+    <color name="about_link">#ed5153</color>
+    <color name="popup_background_color">#f2f2f2</color>
+
+    <color name="materialColorPrimary">#624F36</color>
+    <color name="materialColorPrimaryDark">#ff4c3c26</color>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">SuperGenPass</string>
+    <string name="domain_hint">site\'s domain</string>
+    <string name="done">Done</string>
+    <string name="password_hint">master password</string>
+    <string name="genpw_shown">abc1</string>
+    <string name="genpw_hidden">•••••</string>
+    <string name="sgp_type" translatable="false">SuperGenPass (MD5)</string>
+    <string name="sgp_type_sha_512" translatable="false">SuperGenPass (SHA-512)</string>
+    <string name="pwc_type" translatable="false">Password Composer</string>
+    <string name="app_description">Password hashing tool.</string>
+    <string name="err_no_md5">Error finding MD5 implementation: %1$s</string>
+    <string name="err_json_load">Error loading domain names from JSON file: %s</string>
+    <string name="err_empty_master_password">Please enter your master password.</string>
+
+    <!-- GeneratedPasswordView widget -->
+    <string name="generated_password">Generated password</string>
+    <string name="toast_copied">Password for %s copied to clipboard.</string>
+    <string name="toast_copied_no_domain">Password copied to clipboard.</string>
+    <string name="pin_length">PIN length</string>
+
+    <string name="tab_password">Password</string>
+    <string name="tab_pin">PIN</string>
+
+    <string-array name="pin_lengths">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="preferences">SuperGenPass Preferences</string>
+    <string name="user_preferences">User Preferences</string>
+    <string name="advanced_preferences">Advanced Preferences</string>
+    <string name="pwgen_type_prompt">Password generator type</string>
+    <string name="pwgen_type_summary">Pick a password generating algorithm other than SuperGenPass</string>
+    <string name="pref_copy_password">Copy gen\'d password</string>
+    <string name="pref_copy_password_summary">Copy the generated password when enter is pressed on the keyboard</string>
+    <string name="pref_pw_clear_timeout">Clear password timeout</string>
+    <string name="pref_pw_clear_timeout_summary">Clear generated and master passwords after this many minutes of inactivity. Does not clear the clipboard.</string>
+    <string name="pref_pw_clear_timeout_description">Timeout in minutes. Enter 0 to clear immediately.</string>
+    <string name="pref_visual_hash">Show visual hash</string>
+    <string name="pref_visual_hash_summary">Show a graphical SHA1 hash of the master password to aid entry</string>
+    <string name="pref_pw_length">Generated password length</string>
+    <string name="pref_pw_length_description">This should be value between 4 and 24. A value of 10 for SGP and 8 for PWC is highly recommended for compatibility with the other implementations.</string>
+    <string name="pref_autocomplete">Autocomplete domains</string>
+    <string name="pref_autocomplete_summary">Remember any domains you\'ve used</string>
+    <string name="pref_clear_remembered_domains">Clear remembered domains</string>
+    <string name="pref_clear_remembered_default_summary">…</string>
+
+    <plurals name="pref_autocomplete_count">
+        <item quantity="one">1 domain</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> domains</item>
+    </plurals>
+
+    <string name="pref_pin_summary">Generates a strong PIN as well as a password</string>
+    <string name="pref_pin_title">Show a generated PIN</string>
+    <string name="pref_pw_salt_category">Stealth password (salt)</string>
+    <string name="pref_pw_salt_title">Set salt</string>
+    <string name="pref_pw_salt_summary">Add a salt to your master password for extra security</string>
+    <string name="pref_pw_salt_description">This password salt is added to the end of your master password upon generation. This is saved to your device and you will not be prompted for it again, so make sure you remember it somewhere else too. You can use any symbols/characters here.</string>
+    <string name="pref_scan_salt_from_qr_code_title">Scan salt</string>
+    <string name="pref_scan_salt_summary">Load a salt by scanning a QR code</string>
+    <string name="pref_generate_salt_title">Generate and set salt</string>
+    <string name="pref_generate_salt_summary">Generate a random salt, set it, and display it as a QR code</string>
+    <string name="pref_generate_salt_dialog_message">This generates a random 4096-bit base64-encoded salt. Once generated, it sets the salt and displays it as a QR code. This barcode should be recorded and kept in a safe place (press “menu” to share it).\n\nThis will overwrite your existing salt.</string>
+    <string name="pref_generate_salt_and_set">Generate and Set</string>
+
+    <!-- displayed in the zxing scan window -->
+    <string name="pref_scan_qr_code_to_load_zxing_message">Scan a QR code to load as your salt.</string>
+    <string name="pref_domain_check">Domain checking</string>
+    <string name="pref_domain_check_on">Sub-domains will be stripped</string>
+    <string name="pref_domain_check_off">Use any lowercase keywords or domain name</string>
+    <string name="domain_hint_no_checking">site\'s domain or keyword</string>
+    <string name="pref_err_not_number">Not updating preference: new value isn\'t a number.</string>
+    <string name="dialog_verify_title">Verify master password</string>
+    <string name="dialog_verify_hint">retype master password</string>
+    <string name="master_pw_verify_description">Retype your master password below to verify that you typed it correctly.</string>
+    <string name="toast_verify_success">Master password matches!</string>
+    <string name="menu_about">About</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_verify">Verify</string>
+    <string name="menu_copy_generated_password">Copy Generated Password</string>
+    <string name="about_title">About SuperGenPass</string>
+    <string name="about_text">SuperGenPass is a different kind of password manager: instead of randomly generating and storing passwords, it combines a Web site’s domain and your master password to generate a unique password for each Web site you visit using a strong cryptographic hash.\n\n
+ 
+In addition to launching it directly, in Chrome go to: Menu → Share Page → SuperGenPass.\n\n
+
+To use on your computer, please see the parent project: SuperGenPass.com. This has both a handy bookmarklet as well as a stand-alone Javascript page. The author of Android SuperGenPass highly recommends finding a plugin for your browser instead of the bookmarklet as it’s more secure.\n\n
+
+This app also includes a strong PIN generation algorithm. It’s a slightly modified version of RFC4226 HOTP (modified to work with domains instead of numerical counters) and is designed to never generate easily-guessable pins, such as 1234, 0000, 1985, 8675309, or 0007. See the source code for more details.\n\n
+
+This project is Free Software/Open Source and is licensed under the GNU GPL Version 3. You can get the source for this application from http://staticfree.info/projects/sgp/\n\n
+
+Final word of caution: while SGP generates strong passwords, if a malicious Web site knows that you’re using SGP and has access to the plain-text of your password for their site, they could potentially brute-force your master password. Therefore it is recommended to make sure your master password is also strong or that you use a salt. One great technique for such a password is to use the first letters of a favorite phrase. For example, “When on Earth, do as the humans do?” becomes “W0EdatHd”.</string>
+    <string name="err_no_hash">Your device does not support the needed hash algorithms for this application</string>
+
+</resources>

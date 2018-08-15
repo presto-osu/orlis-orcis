@@ -1,0 +1,82 @@
+Abbreviation: CVn    
+Genitive: Canum Venaticorum    
+Pronunciation: /ˈkeɪniːz vɨˈnætɨsaɪ/ Cánes Venátici, genitive /ˈkeɪnəm vɨnætɨˈkɒrəm/    
+Symbolism: the Hunting Dogs    
+Right ascension: 12h 06.2m to 14h 07.3m    
+Declination: +27.84° to +52.36°    
+Family: Ursa Major    
+Quadrant: NQ3    
+Area: 465 sq. deg. (38th)    
+Main stars: 2    
+Bayer/Flamsteed stars: 21    
+Stars with planets: 4    
+Stars brighter than 3.00m: 1    
+Stars within 10.00 pc (32.62 ly): 2    
+Brightest star: Cor Caroli (α CVn) (2.90m)    
+Nearest star: DG CVn (25.89 ly, 7.94 pc)    
+Messier objects: 5    
+Meteor showers: Canes Venaticids    
+Bordering constellations: Ursa Major Boötes Coma Berenices    
+Visible at latitudes between +90° and −40°. Best visible at 21:00 (9 p.m.) during the month of May.
+    
+Canes Venatici /ˈkeɪniːz vɨˈnætɨsaɪ/ is one of the 88 official modern constellations. It is a small northern constellation that was created by Johannes Hevelius in the 17th century. Its name is Latin for "hunting dogs", and the constellation is often depicted in illustrations as representing the dogs of Boötes the Herdsman, a neighboring constellation.
+
+History
+The stars of Canes Venatici are not bright. In classical times, they were included by Ptolemy within the constellation Ursa Major in his star catalogue. α CVn was Ptolemy's "28th of Ursa Major", and β CVn was his "29th of Ursa Major".[citation needed]
+In medieval times, the identification of these stars with the dogs of Boötes arose through a mistranslation. Some of Boötes' stars were traditionally described as representing the club (Greek, Κολλοροβος) of Boötes. When the Greek astronomer Ptolemy's Almagest was translated from Greek to Arabic, the translator Johannitius (following Alberuni) did not know the Greek word and rendered it as the nearest-looking Arabic word, writing العصى ذات الكلاب in ordinary unvowelled Arabic text "al-`aşā dhāt al-kullāb", which means "the spearshaft having a hook". When the Arabic text was translated into Latin, the translator Gerard of Cremona (probably in Spain) mistook the Arabic word كلاب for kilāb (the plural of كلب kalb), meaning "dogs", writing hastile habens canes ("spearshaft having dogs"). In 1533, the German astronomer Peter Apian depicted Boötes as having two dogs with him.
+These spurious dogs floated about the astronomical literature until Hevelius decided to specify their presence in the sky by making them a separate constellation in 1687. Hevelius chose the name Asterion (from the Greek 'αστέριον, meaning the "little star", the diminutive of 'αστηρ the "star", or adjective meaning "starry") for the northern dog and Chara (from the Greek χαρά, meaning "joy") for the southern dog, as Canes Venatici, the Hunting Dogs, in his star atlas. In his star catalogue, the Czech astronomer Bečvář assigned Asterion to β CVn and Chara to α CVn.
+
+Characteristics
+Canes Venatici is bordered by Ursa Major to the north and west, Coma Berenices to the south, and Bootes to the east. The three-letter abbreviation for the constellation, as adopted by the International Astronomical Union in 1922, is 'CVn'. The official constellation boundaries, as set by Eugène Delporte in 1930, are defined by a polygon of 14 sides. In the equatorial coordinate system, the right ascension coordinates of these borders lie between 12h 06.2m and 14h 07.3m, while the declination coordinates are between +27.84° and +52.36°. Covering 465 square degrees, it ranks 38th of the 88 constellations in size.
+
+Notable features
+Stars
+Canes Venatici contains no bright stars, α and β CVn being only of 3rd and 4th magnitude respectively. Flamsteed catalogued 25 stars in the constellation, labelling them 1 to 25 Canum Venaticorum, however 1 turned out to be in Ursa Major, 13 was in Coma Berenices and 22 did not exist.
+α CVn (Asterion, Cor Caroli) is the constellation's brightest star, named by Sir Charles Scarborough in memory of King Charles I, the deposed king of Britain. Legend has it that α CVn was brighter than usual during the Restoration, as Charles II returned to England to take the throne. Cor Caroli is a wide double star, with a primary of magnitude 2.9 and a secondary of magnitude 5.6; the primary is 110 light-years from Earth. The primary also has an unusually strong variable magnetic field.
+β CVn (Chara) is a yellow-hued main sequence star of magnitude 4.2, 27 light-years from Earth. Its common name comes from the word for "joy".
+Y CVn (La Superba) is a semiregular variable star that varies between magnitudes 5.0 and 6.5 over a period of around 158 days. It is a carbon star and is famous for being deep red.
+AM CVn, a very blue star of magnitude 14, is the prototype of a special class of cataclysmic variable stars, in which the companion star is a white dwarf, rather than a main sequence star.
+RS CVn is the prototype of a special class of binary stars of chromospherically active and optically variable components.
+
+Deep-sky objects
+Messier 51, the Whirlpool Galaxy taken by the Hubble Space Telescope.
+Canes Venatici contains five Messier objects, including four galaxies. One of the more significant galaxies in Canes Venatici is the Whirlpool Galaxy (M51, NGC 5194) and NGC 5195, a small barred spiral galaxy that is seen face on. This was the first galaxy recognised as having a spiral structure, this structure being first observed by Lord Rosse in 1845. It is a face-on spiral galaxy 37 million light-years from Earth. Widely considered to be one of the most beautiful galaxies visible, M51 has many star-forming regions and nebulae in its arms, coloring them pink and blue in contrast to the older yellow core. M51 has a smaller companion, NGC 5195, that has very few star-forming regions and thus appears yellow. It is passing behind M51 and may be the cause of the larger galaxy's prodigious star formation.
+NGC 4631 taken by the Hubble Space Telescope.
+Other notable spiral galaxies in Canes Venatici are the Sunflower Galaxy (M63, NGC 5055), M94 (NGC 4736), and M106 (NGC 4258). M63, the Sunflower Galaxy, was named for its appearance in large amateur telescopes. It is a spiral galaxy with an integrated magnitude of 9.0. M94 is a small face-on spiral galaxy with an approximate magnitude of 8.0, about 15 million light-years from Earth. NGC 4631 is a barred spiral galaxy, which is one of the largest and brightest edge-on galaxies in the sky.
+M3 (NGC 5272) is a globular cluster 32,000 light-years from Earth. It is 18' in diameter, and at magnitude 6.3 is bright enough to be seen with binoculars. It can even be seen with the naked eye under particularly dark skies.
+M94, also classified as NGC 4736, is a face-on spiral galaxy 15 million light-years from Earth. It has very tight spiral arms and a bright core. The outskirts of the galaxy are incredibly luminous in the ultraviolet because of a ring of new stars surrounding the core, 7,000 light-years in diameter. Though astronomers are not sure what has caused this ring of new stars, some hypothesize that it is from shock waves caused by a bar that is thus far invisible.
+
+References
+
+^ a b "Canes Venatici, Constellation Boundary". The Constellations (International Astronomical Union). Retrieved 15 February 2014. 
+^ Allen 1963, p. 105
+^ Kunitzsch 1959, pp. 123–124
+^ Kunitzsch 1974, pp. 227–228
+^ Kunitzsch 1990, pp. 48–49
+^ Apianus 1533
+^ Allen 1963, p. 157
+^ Ridpath, Ian. "Canes Venatici". Star Tales. Retrieved 9 June 2012. 
+^ a b c d e f g h i Ridpath 2001, pp. 96–97
+^ Kunitzsch & Smart 2006, p. 22
+^ Allen 1963, p. 115
+^ Hevelius 1690
+^ Bečvář 1951
+^ Russell, Henry Norris (1922). "The New International Symbols for the Constellations". Popular Astronomy 30: 469–71. Bibcode:1922PA.....30..469R. 
+^ Wagman 2003, p. 366.
+^ According to R. H. Allen (Star Names: Their Lore and Meaning), the star was named by Halley for Charles II "at the suggestion of the court physician Sir Charles Scarborough, who said it had shone with special brilliance on the eve of the king's return to London, May 29, 1660". According to Deborah J. Warner (The Sky Explored: Celestial Cartography 1500-1800), it was originally named "Cor Caroli Regis Martyris" ("The Heart of King Charles the Martyr") for Charles I. According to Robert Burnham, Jr. (Burnham's Celestial Handbook, Volume 1), "the attribution of the name to Halley appears in a report published by J. E. Bode at Berlin in 1801, but seems to have no other verification".
+^ "RS CVn -- Variable of RS CVn type". SIMBAD. Retrieved 9 June 2012. 
+^ a b Wilkins & Dunn 2006
+^ O'Meara, Stephen James: The Caldwell Objects, Sky Publishing Corporation ISBN 0-933346-97-2 page 126
+
+Cited textsAllen, Richard Hinckley (1899), Star Names: Their Lore and Meaning 
+Apianus, Petrus (1533), Horoscopion generale 
+Bečvář, Antonín (1951), Atlas Coeli II - Catalogue 1950.0, Czechoslovak Astronomical Society 
+Hevelius, Johannes (1690), Firmamentum Soviescianum 
+Kunitzsch, P. (1959), Arabische Sternnamen in Europa, Otto Harassowitz 
+Kunitzsch, P. (1974), Der Almagest: Die Syntaxis Mathematica des Claudius Ptolemäus in arabisch-lateinischer Ūberlieferung, Otto Harassowitz 
+Kunitzsch, P. (1990), Der Sternkatalog des Almagest Die arabisch-mittelalterliche Tradition: II Die lateinische Ūbersetzung Gerhards von Cremona, Otto Harassowitz 
+Kunitzsch, P.; Smart, T. (2006), A Dictionary of Modern Star Names: A Short Guide to 254 Star Names and Their Derivations (2nd Revised ed.), Sky Publishing, ISBN 1-931559-44-9 
+Wagman, Morton (2003). Lost Stars: Lost, Missing and Troublesome Stars from the Catalogues of Johannes Bayer, Nicholas Louis de Lacaille, John Flamsteed, and Sundry Others. Blacksburg, Virginia: The McDonald & Woodward Publishing Company. ISBN 978-0-939923-78-6. 
+Wilkins, Jamie; Dunn, Robert (2006), 300 Astronomical Objects: A Visual Reference to the Universe, Firefly Books, ISBN 9781554071753 
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Canes_Venatici&oldid=611429951"

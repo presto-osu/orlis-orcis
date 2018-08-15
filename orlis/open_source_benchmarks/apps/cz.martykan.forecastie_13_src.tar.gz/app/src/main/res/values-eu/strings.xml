@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Forecastie</string>
+
+    <string name="action_search">Bilatu</string>
+    <string name="action_refresh">Freskatu</string>
+    <string name="action_settings">Ezarpenak</string>
+    <string name="action_about">Honi buruz</string>
+    
+    <string name="today">Gaur</string>
+    <string name="tomorrow">Bihar</string>
+    <string name="later">Aurrerago</string>
+
+    <string name="wind">Haizea</string>
+    <string name="pressure">Presioa</string>
+    <string name="humidity">Hezetasuna</string>
+
+    <string name="search_title">Hiri bat bilatu</string>
+    
+    <string name="error_dateFormat">AKATSA DATA FORMATUAN</string>
+    
+    <string name="setting_dateFormat">Dataren formatua</string>
+    <string name="setting_dateFormatCustom">Datarentzako formatu pertsonalizatua</string>
+    <string name="setting_dateFormatCustom_summary">Goian pertsonalizatua hautatu bada, eman erabiltzeko SimpleDateFormat kate pertsonalizatua</string>
+    <string name="setting_speedUnits">Abiaduraren unitateak</string>
+    <string name="setting_tempUnits">Tenperaturaren unitateak</string>
+    <string name="setting_pressureUnits">Presioaren unitateak</string>
+    <string name="setting_darkTheme">Gai iluna</string>
+    <string name="setting_differentiateDaysByTint">Egunak kolorez bereizi</string>
+    <string name="setting_refreshInterval">Atzeko planoko freskatze tartea</string>
+
+    <!-- 1: temperature; 2: unit -->
+    <string name="dash_clock_status">%1$s°%2$s</string>
+    <!-- 1: temperature; 2: unit; 3: weather description -->
+    <string name="dash_clock_expanded_title">%1$s°%2$s - %3$s</string>
+    <!-- 1: city; 2: country; 3: wind; 4: speed units; 5: pressure; 6: pressure units; 7: humidity -->
+    <string name="dash_clock_expanded_body">%1$s, %2$s\nHaizea: %3$s %4$s\nPresioa: %5$s %6$s\nHezetasuna: %7$s %%\n</string>
+</resources>

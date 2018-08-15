@@ -1,0 +1,155 @@
+{
+	"version": 2016060800,
+	"schedules": [
+		{
+			"version": 2015052500,
+			"url": "http://www.tuebix.org/2015/giggity.xml",
+			"title": "TUEBIX 2015",
+			"start": "2015-06-13",
+			"end": "2015-06-13"
+		},
+		{
+			"version": 2015061200,
+			"url": "http://piandmore.de/schedule/pam7/schedule.xml",
+			"title": "Pi and More 7",
+			"start": "2015-06-20",
+			"end": "2015-06-20"
+		},
+		{
+			"version": 2015073100,
+			"url": "http://programm.froscon.de/2015/schedule.xml",
+			"title": "FrOSCon 2015",
+			"start": "2015-08-22",
+			"end": "2015-08-23"
+		},
+		{
+			"version": 2015080600,
+			"url": "https://events.ccc.de/camp/2015/Fahrplan/schedule.xml",
+			"title": "Chaos Communication Camp 2015",
+			"start": "2015-08-13",
+			"end": "2015-08-15"
+		},
+		{
+			"version": 2015081400,
+			"url": "https://summit.debconf.org/debconf15.xml",
+			"title": "DebConf15",
+			"start": "2015-08-15",
+			"end": "2015-08-22"
+		},
+		{
+			"version": 2015111700,
+			"url": "http://2015.es.pycon.org/schedule/pentabarf.xml",
+			"title": "PyConES 2015",
+			"start": "2015-11-20",
+			"end": "2015-11-22"
+		},
+		{
+			"version": 2016031902,
+			"url": "https://events.ccc.de/congress/2015/Fahrplan/schedule.xml",
+			"title": "32. Chaos Communication Congress",
+			"start": "2015-12-27",
+			"end": "2015-12-31",
+			"metadata": {
+				"links": [
+					{
+						"url": "https://events.ccc.de/congress/2015/wiki/Main_Page",
+						"title": "Wiki"
+					}
+				]
+			}
+		},
+		{
+			"version": 2016040302,
+			"url": "https://fosdem.org/2016/schedule/xml",
+			"title": "FOSDEM 2016",
+			"start": "2016-01-30",
+			"end": "2016-01-31",
+			"metadata": {
+				"links": [
+					{
+						"url": "https://fosdem.org/2016/",
+						"title": "Website"
+					},
+					{
+						"url": "https://fosdem.org/2016/assets/booklet-327941bc89717b26611707b50b6109f66104f1de0edefc349af425091197543e.pdf",
+						"title": "Info booklet",
+						"type": "application/pdf"
+					},
+					{
+						"url": "https://fosdem.org/2016/schedule/buildings/",
+						"title": "Map"
+					}
+				],
+				"icon": "https://fosdem.org/2016/icon-1a3618bf8816852a0bba761ea9367f1a8f95da41dd7f366e327aa4a543aec99a.png",
+				"rooms": [
+					{
+						"name": "Janson",
+						"latlon": [50.813231,4.3791498]
+					},
+					{
+						"name": "K\.1\.105.*",
+						"latlon": [50.814531,4.3812588]
+					}
+				]
+			}
+		},
+		{
+			"version": 2016052400,
+			"url": "http://www.tuebix.org/2016/giggity.xml",
+			"title": "TUEBIX 2016",
+			"start": "2016-06-11",
+			"end": "2016-06-11",
+			"metadata": {
+				"links": [
+					{
+						"url": "http://www.tuebix.org/",
+						"title": "Website"
+					},
+					{
+						"url": "http://www.tuebix.org/anfahrt/",
+						"title": "Anfahrt"
+					}
+				]
+			}
+		},
+		{
+			"version": 2016052600,
+			"url": "http://piandmore.de/schedule/pam9/schedule.xml",
+			"title": "Pi and More 9",
+			"start": "2016-06-11",
+			"end": "2016-06-11",
+			"metadata": {
+				"links": [
+					{
+						"url": "https://piandmore.de/en",
+						"title": "Website"
+					},
+					{
+						"url": "http://piandmore.de/files/pam9/raumplan.png",
+						"title": "Raumplan",
+						"type": "image/png"
+					},
+					{
+						"url": "http://piandmore.de/de/next/ort",
+						"title": "Anfahrt"
+					}
+				]
+			}
+		},
+		{
+			"version": 2016060800,
+			"url": "https://debconf16.debconf.org/schedule/pentabarf.xml",
+			"title": "DebConf16",
+			"start": "2016-07-04",
+			"end": "2016-07-09",
+			"metadata": {
+				"links": [
+					{
+						"url": "https://debconf16.debconf.org/",
+						"title": "Website"
+					}
+				]
+			}
+		}
+	]
+}

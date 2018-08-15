@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        tools:text="scattered cloud"
+        android:id="@+id/fragment_forecast_weather_description"
+        android:gravity="center"
+        android:textColor="@color/text_palette_one"
+        android:textSize="@dimen/fragment_forecast_text_medium"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:text="22°C"
+        android:id="@+id/fragment_forecast_day_temperature"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/text_palette_one"
+        android:textSize="@dimen/fragment_forecast_text_large"
+        android:fontFamily="sans-serif-light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/fragment_forecast_min_max"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/text_palette_one"
+        android:textSize="@dimen/fragment_forecast_text_medium"
+        android:fontFamily="sans-serif-light" />
+</LinearLayout>

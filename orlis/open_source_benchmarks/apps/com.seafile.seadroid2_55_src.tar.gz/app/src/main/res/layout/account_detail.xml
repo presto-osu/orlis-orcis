@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+    <include layout="@layout/toolbar_actionbar" /> <!-- placeholder, empty except on L -->
+    <CheckBox
+            android:id="@+id/https_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cb_padding_left"
+            android:layout_marginStart="@dimen/cb_padding_left"
+            android:layout_marginTop="@dimen/cb_padding_top"
+            android:onClick="onHttpsCheckboxClicked"
+            android:textSize="@dimen/cb_btn_txt_size"
+            android:text="@string/accounts_https_hint"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/form_padding_bottom"
+            android:paddingTop="@dimen/form_padding_top">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/server_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/server_url"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/et_margin_bottom"
+                android:layout_marginLeft="@dimen/et_margin_left"
+                android:layout_marginRight="@dimen/et_margin_right"
+                android:hint="@string/server_hint"
+                android:inputType="textUri"
+                android:textSize="@dimen/et_txt_size" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/email_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.seafile.seadroid2.ui.EmailAutoCompleteTextView
+                android:id="@+id/email_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email_hint"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:layout_marginBottom="@dimen/et_margin_bottom"
+                android:layout_marginLeft="@dimen/auto_complete_ed_margin_left"
+                android:layout_marginRight="@dimen/auto_complete_ed_margin_right" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/password_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/passwd_hint"
+                android:inputType="textPassword"
+                android:layout_marginBottom="@dimen/et_margin_bottom"
+                android:layout_marginLeft="@dimen/auto_complete_ed_margin_left"
+                android:layout_marginRight="@dimen/auto_complete_ed_margin_right" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+
+    <Button
+            android:id="@+id/login_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/long_btn_height"
+            android:paddingBottom="@dimen/long_btn_padding_bottom"
+            android:paddingTop="@dimen/long_btn_padding_top"
+            android:layout_marginLeft="@dimen/long_btn_margin_left"
+            android:layout_marginRight="@dimen/long_btn_margin_right"
+            android:onClick="login"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/long_btn_txt_size"/>
+
+    <TextView
+            android:id="@+id/status_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tv_margin_left"
+            android:layout_marginRight="@dimen/tv_margin_right"
+            android:text=""/>
+
+    <TextView
+            android:id="@+id/seahub_url_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tv_margin_left"
+            android:layout_marginRight="@dimen/tv_margin_right"
+            android:textSize="@dimen/tv_txt_size"
+            android:text="@string/seahub_url_hint"/>
+
+</LinearLayout>

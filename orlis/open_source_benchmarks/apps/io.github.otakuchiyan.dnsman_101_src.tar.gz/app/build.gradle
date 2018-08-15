@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+
+    defaultConfig {
+        applicationId "io.github.otakuchiyan.dnsman"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 101
+        versionName "0.10.1"
+    }
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+    //workaround
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    provided fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':libsuperuser')
+    compile 'com.android.support:support-v4:23.3.0'
+}

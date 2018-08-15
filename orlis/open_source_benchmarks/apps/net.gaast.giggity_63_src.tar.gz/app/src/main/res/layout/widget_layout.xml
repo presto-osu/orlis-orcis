@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:paddingLeft="4dp"
+        android:text="Giggity"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:background="@drawable/widget_head" />
+
+    <!--
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/deoxide_icon" />
+
+-->
+
+    <TextView
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:paddingLeft="4dp"
+        android:paddingBottom="2dp"
+        android:text="Nothing interesting coming up .. yet?"
+        android:textAppearance="?android:attr/textAppearanceSmallInverse"
+        android:background="@drawable/widget_bottom" />
+
+</LinearLayout>

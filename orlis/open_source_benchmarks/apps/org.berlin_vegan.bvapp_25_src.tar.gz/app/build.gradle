@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+lintOptions { abortOnError false }
+    def gitTag = 'git describe --exact HEAD'.execute().text.trim()
+    def gitHash = 'git rev-parse --short HEAD'.execute().text.trim()
+    def gitBranch = 'git rev-parse --abbrev-ref HEAD'.execute().text.trim()
+    def hasModifiedDeletedOrOtherFiles = !'git ls-files -mdo --exclude-standard'.execute().text.trim().isEmpty()
+    def hasStagedFiles = !'git diff-index --no-ext-diff --name-only --cached HEAD'.execute().text.trim().isEmpty()
+    def dirtyWorkingCopy = hasModifiedDeletedOrOtherFiles || hasStagedFiles
+    def gitDescription = gitHash
+
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    android {
+lintOptions { abortOnError false }
+        useLibrary 'org.apache.http.legacy'
+    }
+    defaultConfig {
+        applicationId "org.berlin_vegan.bvapp"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 25
+        versionName gitTag ?: gitBranch
+        if (versionName) {
+            buildConfigField "String", "VERSION_GIT_DESCRIPTION", "\"${versionName}-${gitDescription}\""
+        } else {
+            buildConfigField "String", "VERSION_GIT_DESCRIPTION", "\"empty version name\""
+        }
+    }
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+
+        }
+    }
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+
+    compile 'com.google.code.gson:gson:2.4'
+    compile('com.afollestad.material-dialogs:core:0.8.5.1@aar') {
+        transitive = true
+    }
+    compile 'ch.acra:acra:4.6.2'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'org.osmdroid:osmdroid-android:5.0.1@aar'
+
+    testCompile 'junit:junit:4.12'
+}

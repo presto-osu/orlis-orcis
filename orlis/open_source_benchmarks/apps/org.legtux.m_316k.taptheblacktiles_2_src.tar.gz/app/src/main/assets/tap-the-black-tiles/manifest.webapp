@@ -1,0 +1,31 @@
+{
+    "version": "3.141592653589793",
+    "name": "Tap the Black Tiles",
+    "description": "A free clone of Don't Tap the White Tiles (aka Piano Tiles)",
+    "launch_path": "/index.html",
+    "icons": {
+        "128": "/icon-128.png"
+    },
+    "developer": {
+        "name": "316k",
+        "url": "https://github.com/316k/"
+    },
+    "locales": {
+        "en": {
+            "description": "A free clone of Don't Tap the White Tiles (aka Piano Tiles)",
+            "developer": {
+                "name": "316k",
+                "url": "https://github.com/316k/"
+            }
+        },
+        "fr": {
+            "description": "Un clone libre du jeu Don't Tap the White Tiles (aka Piano Tiles)",
+            "developer": {
+                "name": "316k",
+                "url": "https://github.com/316k/"
+            }
+        }
+    },
+    "default_locale": "en",
+    "orientation": "portrait"
+}

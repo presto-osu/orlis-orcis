@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Classic Monitor</title>
+<meta charset="UTF-8">
+<meta name="description" content="Context Help file for the Classic Monitor Android App">
+<meta name="keywords" content="HTML,CSS">
+<meta name="author" content="Graham Ross">
+<link rel="stylesheet" type="text/css" href="layout-styles.css">
+</head>
+
+<body>
+<a id="Top"></a>
+<div class="container text-center">
+
+&nbsp;|&nbsp;
+<a href="#Bot">Fine</a>
+&nbsp;|&nbsp;
+</div>
+<br>
+<div class="container text-center">
+<table id="t01">
+<tr><td>
+<a href="#Overview">Panoramica</a>
+</td></tr>
+<tr><td>
+<a href="#NavigationBar">Barra di navigazione</a>
+</td></tr>
+<tr><td>
+<a href="#Settings">Impostazioni</a>
+</td></tr>
+<tr><td>
+<a href="#StateOfCharge">Lo stato di carica</a>
+</td></tr>
+<tr><td>
+<a href="#System">Sistema</a>
+</td></tr>
+<tr><td>
+<a href="#Load">Consumo</a>
+</tr></td>
+<tr><td>
+<a href="#Power">Potenza</a>
+</td></tr>
+<tr><td>
+<a href="#Energy">Energia</a>
+</td></tr>
+<tr><td>
+<a href="#Capacity">Capacità</a>
+</td></tr>
+<tr><td>
+<a href="#RealTimeChart">Grafico dal vivo</a>
+</td></tr>
+<tr><td>
+<a href="#RealTimeChart">Grafico attuale</a>
+</td></tr>
+<tr><td>
+<a href="#Temperature">Temperatura</a>
+</td></tr>
+<tr><td>
+<a href="#DayChart">Grafico del mese</a>
+</td></tr>
+<tr><td>
+<a href="#HourChart">Grafico giornaliero</a>
+</td></tr>
+<tr><td>
+<a href="#Calendar">Il Journal Calendario di Giorno</a>
+</td></tr>
+<tr><td>
+<a href="#Info">Informazioni</a>
+</td></tr>
+<tr><td>
+<a href="#Messages">Messaggi</a>
+</td></tr>
+
+</table>
+</div>
+	<hr style="page-break-before:always;">
+<div class="container text-center" >
+
+  <div class="row">
+	<div class="col-md-12">
+	  <h1>Classic Monitor</h1>
+	  <h2 class="text-center">Panoramica</h2>
+	</div>
+
+	<a id="Overview"></a>	
+
+	<br>
+	<div class="center">
+		<p>
+			Il monitor classico applicazione Android visualizza le informazioni dal regolatore di carica convenzionale. Il controller di carica deve essere collegato e configurato per la rete locale, vorresti fare riferimento alla documentazione del regolatore di carica classico forniti da Solar Midnite. .
+			Il dispositivo Android deve essere collegato alla stessa rete locale. 
+		</p>
+		<p>
+			Con il port in avanti e DDNS un servizio, il normale monitor in grado di connettersi al controller con l'aggiunta di una connessione al l’Internet utilizzando il nome di dominio fornito dal servizio DDNS e il numero di porta pubblica configurata nel router.
+			Un servizio DDNS gratuito è disponibile dal <a href="https://www.noip.com" target="_blank"> www.noip.com</a>, il router deve supportare il servizio DDNS selezionato. 
+		</p>
+		<p>
+			Questa applicazione supporta attualmente i modelli Classic & Classic Lite 150, 200, 250 regolatori di carica, la serie Classic SL non è supportato perché non dispone di una connessione di rete, 
+			supporto di base per regolatori di carica MPPT TriStar anche incluso.
+		</p>
+		<p>
+			L'applicazione visualizza una serie di varie schede a seconda della configurazione;
+		</p>
+		<p>
+			Uno o più convenzionale non WhizbangJr, le schede sono:
+		</p>
+		<p>
+			<b>Alimentazione | Energia | Temperatura | Journal Calendario Giorno | Giorno Grafico Journal | Ufficiale Grafico Tempo | Informazioni | Messaggi | A proposito</b>
+		</p>
+
+		<p>
+			Un classico con un unico WhizbangJr, le schede sono:
+		</p>
+		<p>
+			<b>lo stato di carica | Caricare | Potenza | Energia | Capacità | Temperatura | Journal Calendario Giorno | Giorno Grafico Journal | Ufficiale Grafico Tempo | Informazioni | Messaggi | A proposito</b>
+		</p>
+
+		<p>
+			Più di un classico con un WhizbangJr, le schede sono:
+		</p>
+		<p>
+			<b>lo stato di carica | System | Potenza | Energia | Capacità | Temperatura | Journal Calendario Giorno | Giorno Grafico Journal | Ufficiale Grafico Tempo | Informazioni | Messaggi | A proposito</b>
+		</p>
+
+		<p>
+			MPPT Morningstar Tri-Star, le schede sono:
+		</p>
+		<p>
+			<b>Alimentazione | Energia | A proposito</b>
+		</p>
+
+		<p>
+			Quando si dispone di più di un controller e un WhizbangJr, un pulsante di scelta è visualizzata sul calendario e le schede che consente di vedere l'energia raccolta dal controllore o il sistema (somma di tutti i controller).
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+		<a id="NavigationBar"></a>		
+	<h2 class="text-center">Navigazione</h2>
+	<img class="center_image" alt="NavBar_landscape.PNG" src="images_it/NavBar_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			La barra di navigazione si visualizza quando si fa scorrere dal bordo sinistro del app verso destra o toccando l'icona "hamburger", a sinistra della barra delle operazioni.
+		</p>
+		
+		<p>
+			Viene visualizzato ogni control monitorato dalla app. 
+		</p>
+		<p>
+			È possibile rimuovere una voce facendola scorrere verso destra. 
+		</p>
+
+		<p>
+			Un'icona esclamativo arancione si visualizza accanto a una voce quando l'applicazione non è in grado di comunicare con il controller.
+		</p>
+	</div>
+		
+	<br>
+	<img class="center_image" alt="AddDevice_landscape.PNG" src="images_it/AddDevice_landscape.png"  title="" >
+	<br>
+	<div class="center">
+		<p>
+			È possibile inserire un indirizzo di controllo statica selezionando l'azione <b>+ADD</b>. Questo vi permetterà di inserire il nome della porta e rete o l'indirizzo IP del controller.
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="Settings"></a>
+	<h2 class="text-center">Impostazioni</h2>
+	<img class="center_image" alt="Settings_portrait.PNG" src="images_it/Settings_portrait.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			La finestra di dialogo Impostazioni viene visualizzata premendo l'icona ingranaggio in alto a destra della barra delle operazioni. 
+		</p>
+		<p>
+			<b>Classica Auto Detect</b>: L'applicazione rimane in ascolto di pacchetti UDP sulla rete locale per un Controller Classico disponibile non impostato quando questa opzione è selezionata. 
+			Quando la sua selezione, ogni classico deve essere aggiunto manualmente utilizzando il pulsante Aggiungi + quando viene visualizzato il cassetto navigazione di sinistra. 
+		</p>
+		<p>
+			<b>Usa scala Fahrenheit</b>: La temperatura viene visualizzata in gradi Fahrenheit il calibri, il calendario e la grafica Celsius contrario. 
+		</p>
+		<p>
+			<b>Mostra messaggi pop-up</b>: I messaggi vengono visualizzati al centro dello schermo ogni volta che i cambiamenti di stato di carica e quando uno De-selezionare qualsiasi messaggio. 
+	</p>
+	</div>
+	<a id="PVOutput"></a>
+	<h2 class="text-center">PV Output</h2>
+	<img class="center_image" alt="PVOutput_landscape.PNG" src="images_it/PVOutput_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			<b>PVOutput</b>: Quando si attiva PVOutput e si fornice una chiave e systemId (SID), l'applicazione scarica la energetico giornaliero (kWh) salvato dal PVoutput.org classico sul sito web.
+		</p>
+
+		<p>
+			Il pulsante <b>Elimina salvato registro</b> ripristina l'ultima data di scarica, l'applicazione poi ri-scaricato fino a 30 giorni di quotidiani registrati. 
+		</p>
+		<p>
+			L'applicazione scarica le ultime letture per ogni giorno dopo l'ultimo scarico per 30 giorni. 
+		</p>
+		<p>
+			Avrete bisogno di ottenere un conto in <a href="http://PVOutput.org" target="_blank"> PVOutput.org</a> per ottenere una chiave e SID.
+		</p>
+		<p>
+			Un'icona PVOutput sulla barra delle operazioni e seguire la navigazione sul sito PVOutput.org. 
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="StateOfCharge"></a>
+	<h2 class="text-center">Lo stato di carica</h2>
+	<img class="center_image" alt="StateOfCharge_landscape.PNG" src="images_it/StateOfCharge_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p> 
+			La scheda stato di carica viene visualizzato quando si dispone di almeno un configurato con un WhizbangJr classico. 
+		</p>
+		<p>
+			L'indicatore bidirezionale è in grado di visualizzare la corrente o il potere, premere il manometro per alternare la selezione. 
+			Una lettura negativa indica che la batteria è scaricata, una lettura positiva indica carico.
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="System"></a>
+	<h2 class="text-center">Sistema</h2>
+	<img class="center_image" alt="System_landscape.PNG" src="images_it/System_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			La scheda Sistema viene visualizzato quando si dispone di più di un caricatore di controllo e di avere almeno un configurato con un WhizbangJr classico. 
+		</p>
+		<p>
+			Il misuratore di potenza visualizza la quantità di potenza generata dal sistema (la somma di tutti i controller).
+		</p>
+		<p>
+			Il scheda de consumo di energia consumata dal sistema, essa viene calcolata dalla potenza generata meno energia per inserire le batterie.
+		</p>
+	</div>
+		<hr style="page-break-before:always;">
+
+	<a id="Load"></a>
+	<h2 class="text-center">Consumo</h2>
+	<img class="center_image" alt="Consumption_landscape.PNG" src="images_it/Consumption_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			Il display di misurare il consumo di energia consumata dal sistema, essa viene calcolata dalla potenza generata meno energia per inserire le batterie.
+		</p>
+	</div>
+	
+	<hr style="page-break-before:always;">
+
+	<a id="Power"></a>
+	<h2 class="text-center">Potenza</h2>
+	<img class="center_image" alt="Power_landscape.PNG" src="images_it/Power_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			Dalla scheda di Potenza si visualizza la tensione e la corrente al controller dei pannelli solari e la tensione e corrente, permettendo il controller per le batterie e il gioco di potere risultante per il controller selezionato.
+		</p>
+		<p>
+			I principali LED di Power includono vicino al fondo del misuratore. Il LED di sinistra è Aux 1 e il diritto LED Aux 2.
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="Energy"></a>
+	<h2 class="text-center">Energia</h2>
+	<img class="center_image" alt="Energy_landscape.PNG" src="images_it/Energy_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			La scheda mostra la quantità di energia raccolta oggi dal controller selezionato e la quantità totale di energia raccolta dal controller da quando è stato commissionato.
+		</p>
+		<p>
+			Quando si dispone di più di un controller e un WhizbangJr, un pulsante di scelta è visualizzata per consentire vedere l'energia raccolta dal controllore o il sistema (somma di tutti i controller).
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="Capacity"></a>
+	<h2 class="text-center">Capacità</h2>
+	<img class="center_image" alt="Capacity_landscape.PNG" src="images_it/Capacity_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			La scheda Capacità mostra l'equilibrio di energia in Amp / ora rimanente nelle batterie. 
+		</p>
+		<p>
+			Vorresti fare riferimento alla documentazione <a href="http://www.midnitesolar.com/pdfs/Whizbang_manual.pdf" target="_blank"> Midnite Solar WhizbangJr</a> per ulteriori informazioni.
+		</p>
+	</div>
+		<hr style="page-break-before:always;">
+	
+	<a id="RealTimeChart"></a>
+	<h2 class="text-center">Grafico dal vivo</h2>
+
+	<img class="center_image" alt="LiveChart.PNG" src="images_en/LiveChart.png"  title="">
+	<br>
+	<div class="center">	
+	<p>
+		La Carta dal vivo visualizza il volt della batteria (rosso), corrente di alimentazione (giallo) e uno stato di indicatore di carica.
+		Se viene rilevato un WhizbangJr, il grafico mostrerà anche la carica della batteria / corrente di scarica (ciano).
+	</p>
+	<p>
+	Lo stato di carica (linea nella parte inferiore del grafico) display come segue;
+	
+	<ul>
+	<li>Non definito: White</li>
+	<li>Riposo: Nero (codice 0)</li>
+	<li>Assorbire: arancia (codice 3)</li>
+	<li>BulkMPPT: verde (codice 4)</li>
+	<li>Float: Blu (codice 5)</li>
+	<li>FloatMPPT: Ciano (codice 6)</li>
+	<li>Pareggiare:  Rosa (codice 7)</li>
+	<li>HyperVOC: Rosso (codice 10)</li>
+	<li>EQMPPT: viola (codice 18)</li>
+	</ul>
+	</p>
+	</div>
+	
+	<hr style="page-break-before:always;">
+
+	<a id="Temperature"></a>
+	<h2 class="text-center">Temperatura</h2>
+
+	<img class="center_image" alt="Temperature_landscape.PNG" src="images_it/Temperature_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			La scheda visualizza la temperatura in gradi Celsius o Fahrenheit batteria, FET interni e PCB, e se avete un WhizbangJr, la temperatura di bypass.
+		</p>
+	</div>
+
+	<hr style="page-break-before:always;">
+
+	<a id="DayChart"></a>
+	<h2 class="text-center">Grafico del mese</h2>
+	<img class="center_image" alt="DayLogChart_landscape.PNG" src="images_it/DayLogChart_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			Il grafico Journal visualizza informazioni registrate dal classico per il calendario, un menu è in alto a destra della barra delle azioni consente di selezionare il valore tracciato.
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="HourChart"></a>
+	<h2 class="text-center">Grafico giornaliero</h2>
+	<img class="center_image" alt="HourLogChart_landscape.PNG" src="images_it/HourLogChart_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			Il grafico Journal visualizza informazioni registrate dal classico per il giorno corrente, un menu è in alto a destra della barra delle azioni consente di selezionare il valore tracciato.
+		</p>
+	</div>
+		<hr style="page-break-before:always;">
+
+	<a id="Calendar"></a>
+	<h2 class="text-center">Il Journal Calendario di Giorno</h2>
+
+	<img class="center_image" alt="Calendar_landscape.PNG" src="images_it/Calendar_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			Il Journal Calendario di Giorno mostra l’energia raccolta per ogni giorno del mese con il PV massima, tensione della batteria, la temperatura e la potenza massima per la giornata. 
+		</p>
+		<p>
+			Giorni in cui il sistema raggiunge float o pareggiare sono contrassegnati "(float)" e (EQ).
+		</p>
+		<p>
+			Se il calendario non è completamente visualizzato sullo schermo, è possibile scorrere la posizione trascinando la parte nera del calendario. 
+		</p>
+		<p>
+			Mesi precedenti possono essere visualizzati facendo scorrere la parte grigia del programma su o giù.
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="Info"></a>
+	<h2 class="text-center">Informazioni</h2>
+	<img class="center_image" alt="Info_landscape.PNG" src="images_it/Info_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			La scheda Informazioni visualizza le informazioni della piastra della caldaia del dispositivo con l'ultimo valore del fotovoltaico VOC. 
+		</p>
+	</div>
+	<hr style="page-break-before:always;">
+
+	<a id="Messages"></a>
+	<h2 class="text-center">Messaggi</h2>
+	<img class="center_image" alt="Messages_landscape.PNG" src="images_it/Messages_landscape.png"  title="">
+	<br>
+	<div class="center">
+		<p>
+			La scheda Messaggi visualizza i messaggi informativi e di errore di avviso sul controller indicati da un'icona all'inizio del messaggio. 
+		</p>
+	</div>
+
+</div>
+
+<div class="container text-center">
+	<a id="Bot"></a>
+	&nbsp;|&nbsp;
+	<a href="#Top">Inizio</a>
+	&nbsp;|&nbsp;
+</div>
+</div>
+
+</body>
+</html>

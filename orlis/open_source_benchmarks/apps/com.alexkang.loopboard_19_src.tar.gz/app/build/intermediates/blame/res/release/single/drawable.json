@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/res/merged/release/drawable/loop_background.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/src/main/res/drawable/loop_background.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/res/merged/release/drawable/swirl_pattern.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/src/main/res/drawable/swirl_pattern.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/res/merged/release/drawable/record_background.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/src/main/res/drawable/record_background.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/res/merged/release/drawable/play_background.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/src/main/res/drawable/play_background.xml"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/res/merged/release/drawable/rerecord_background.xml",
+        "source": "/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/src/main/res/drawable/rerecord_background.xml"
+    }
+]

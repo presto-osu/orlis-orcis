@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="widget_padding">8dp</dimen>
+    <!-- dimen name="widget_big_font_size">80dp</dimen -->
+    <dimen name="widget_big_font_size">80dp</dimen>
+
+    <!-- width/height of layout/digital_widget_time -->
+    <dimen name="min_digital_widget_width">206dp</dimen>
+    <!-- height is sum of widget_big_font_size + label_font_size + margins -->
+    <dimen name="min_digital_widget_height">110dp</dimen>
+    <!-- same as min_digital_widget_{width,height} -->
+    <dimen name="min_digital_widget_resize_width">@dimen/min_digital_widget_width</dimen>
+    <dimen name="min_digital_widget_resize_height">@dimen/min_digital_widget_height</dimen>
+
+    <!-- Compass. -->
+    <dimen name="padding">0dp</dimen>
+    <dimen name="circle_thickness">5dp</dimen>
+    <dimen name="circle_bevel_thickness">1dp</dimen>
+    <dimen name="holiest_thickness">4dp</dimen>
+    <dimen name="north_thickness">2dp</dimen>
+    <dimen name="south_thickness">2dp</dimen>
+    <dimen name="label_thickness">1dp</dimen>
+    <dimen name="label2_thickness">1dp</dimen>
+    <dimen name="label_size">10dp</dimen>
+
+</resources>

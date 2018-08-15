@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Toolbar"
+    app:logo="@mipmap/ic_left_top"
+    app:title="@string/app_name"
+    app:titleMarginStart="@dimen/toolbar_title_margin_start"
+    app:titleTextColor="@color/white"/>

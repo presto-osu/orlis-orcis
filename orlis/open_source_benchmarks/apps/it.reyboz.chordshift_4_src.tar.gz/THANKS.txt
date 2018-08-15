@@ -1,0 +1,14 @@
+* Icons from openclipart.org under Public Domain
+  https://openclipart.org/detail/1757/bass-clef
+
+* Appcompat from Google under Apache 2 License
+  https://developer.android.com/tools/support-library/features.html
+
+Project homepage:
+  https://launchpad.net/android-chord-shift
+
+Java source code:
+  https://code.launchpad.net/android-chord-shift
+
+Contact me (Valerio Bozzolan) at:
+  http://boz.reyboz.it

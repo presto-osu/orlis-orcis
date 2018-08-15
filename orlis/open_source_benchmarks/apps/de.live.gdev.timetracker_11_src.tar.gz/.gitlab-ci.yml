@@ -1,0 +1,32 @@
+image: jangrewe/gitlab-ci-android
+
+variables:
+  ANDROID_BUILD_TOOLS: "24.0.0"
+  ANDROID_TARGET_SDK: "24"
+  #ANDROID_SDK_TOOLS: "25.1.7" # not implemented
+
+before_script:
+  - bash -c '(while [ 1 ]; do sleep 5; echo y; done) | ${ANDROID_HOME}/tools/android update sdk -u -a -t "build-tools-${ANDROID_BUILD_TOOLS},android-${ANDROID_TARGET_SDK}" ; exit 0'
+
+stages:
+  - build
+
+debug:
+  stage: build
+  except:
+    - release
+  script:
+    - ./gradlew assembleDebug
+  artifacts:
+    paths:
+    - app/build/outputs/apk/app-debug.apk
+
+release:
+  stage: build
+  only:
+    - release
+  script:
+    - ./gradlew assembleRelease
+  artifacts:
+    paths:
+    - app/build/outputs/apk/app-release.apk﻿

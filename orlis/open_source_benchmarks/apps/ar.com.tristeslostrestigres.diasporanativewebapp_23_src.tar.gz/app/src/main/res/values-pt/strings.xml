@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reload">Atualizar</string>
+    <string name="title_activity_pods">Selecionar Pod</string>
+    <string name="filter_hint">Digite o domínio do Pod</string>
+    <string name="changePod">Trocar de Pod</string>
+    <string name="clear_cookies">Limpar cookies</string>
+    <string name="liked_posts">Curtidas</string>
+    <string name="commented_posts">Comentou na publicação</string>
+    <string name="followed_tags">Tags seguidas</string>
+    <string name="exit_app">Sair do App</string>
+    <string name="mentions">Menções</string>
+    <string name="confirm_url">Confirme o URL do pod</string>
+    <string name="podlist_source_note">Nota: Essa lista contém apenas pods seguros do podupti.me</string>
+    <string name="valid_pod">Please enter a valid domain name</string>
+    <string name="podlist_error">Error: Could not retrieve list of pods!</string>
+    <string name="loading_podlist">Loading pod list ...</string>
+    <string name="no_internet">Sorry, you must be connected to the Internet to proceed</string>
+    <string name="connection_established">Internet connection established! Please reload the list if necessary</string>
+    <string name="connection_lost">Warning: Internet connection lost!</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="confirm_pod">Do you want to use the pod: </string>
+    <string name="confirm_exit">Are you sure you want to exit?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="loading">Loading...</string>
+    <string name="change_pod_warning">This will erase all cookies and session data. Do you really want to change pods?</string>
+    <string name="clear_cookies_warning">Clearing the cookies will log you out and clear all session data. Do you want to proceed?</string>
+</resources>

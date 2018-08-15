@@ -1,0 +1,77 @@
+Abbreviation: Vir    
+Genitive: Virginis    
+Pronunciation: /ˈvɜrɡoʊ/, genitive /ˈvɜrdʒɨnɨs/    
+Symbolism: the Virgin    
+Right ascension: 13    
+Declination: −4    
+Family: Zodiac    
+Quadrant: SQ3    
+Area: 1294 sq. deg. (2nd)    
+Main stars: 9, 15    
+Bayer/Flamsteed stars: 96    
+Stars with planets: 29    
+Stars brighter than 3.00m: 3    
+Stars within 10.00 pc (32.62 ly): 10    
+Brightest star: Spica (α Vir) (0.98m)    
+Nearest star: Ross 128 (10.94 ly, 3.35 pc)    
+Messier objects: 11    
+Meteor showers: Virginids Mu Virginids    
+Bordering constellations: Boötes Coma Berenices Leo Crater Corvus Hydra Libra Serpens Caput    
+Visible at latitudes between +80° and −80°. Best visible at 21:00 (9 p.m.) during the month of May. 
+   
+Virgo is one of the constellations of the zodiac. Its name is Latin for virgin, and its symbol is Unicode ♍. Lying between Leo to the west and Libra to the east, it is the second largest constellation in the sky (after Hydra). It can be easily found through its brightest star, Spica.
+
+Location
+The bright Spica makes it easy to locate Virgo, as it can be found by following the curve of the Big Dipper/Plough to Arcturus in Boötes and continuing from there in the same curve ("follow the arc to Arcturus and speed on to Spica").
+Due to the effects of precession, the First Point of Libra, (also known as the autumn equinox point) lies within the boundaries of Virgo very close to β Virginis. This is one of the two points in the sky where the celestial equator crosses the ecliptic (the other being the First Point of Aries, now in the constellation of Pisces.) This point will pass into the neighbouring constellation of Leo around the year 2440.
+
+Notable features
+Stars
+Besides Spica, other bright stars in Virgo include β Virginis (Zavijava), γ Vir (Porrima), δ Virginis (Auva) and ε Virginis (Vindemiatrix). Other fainter stars that were also given names are ζ Virginis (Heze), η Virginis (Zaniah), ι Virginis (Syrma) and μ Virginis (Rijl al Awwa).
+The star 70 Virginis has one of the first known extrasolar planetary systems with one confirmed planet 7.5 times the mass of Jupiter.
+The star Chi Virginis has one of the most massive planets ever detected, at a mass of 11.1 times that of Jupiter.
+The sun-like star 61 Virginis has three planets: one is a super-Earth and two are Neptune-mass planets.
+SS Virginis is a variable star with a noticeable red color. It varies in magnitude from a minimum of 9.6 to a maximum of 6.0 over a period of approximately one year.
+
+Exoplanets
+There are 35 verified exoplanets orbiting 29 stars in Virgo, including PSR B1257+12 (three planets), 70 Virginis (one planet), Chi Virginis (one planet), 61 Virginis (three planets), NY Virginis (two planets), and 59 Virginis (one planet).
+
+Deep-sky objects
+Because of the presence of a galaxy cluster (consequently called the Virgo cluster) within its borders 5° to 12° west of ε Vir (Vindemiatrix), this constellation is especially rich in galaxies.
+Some examples are Messier 49 (elliptical), Messier 58 (spiral), Messier 59 (elliptical), Messier 60 (elliptical), Messier 61 (spiral), Messier 84 (lenticular), Messier 86 (lenticular), Messier 87 (elliptical and a famous radio source), Messier 89 (elliptical) and Messier 90 (spiral). A noted galaxy that is not part of the cluster is the Sombrero Galaxy (M104), an unusual spiral galaxy. It is located about 10° due west of Spica.
+NGC 4639 is a face-on barred spiral galaxy located 78 Mly from Earth (redshift 0.0034). Its outer arms have a high number of Cepheid variables, which are used as standard candles to determine astronomical distances. Because of this, astronomers used several Cepheid variables in NGC 4639 to calibrate type 1a supernovae as standard candles for more distant galaxies.
+Virgo possesses several galaxy clusters, one of which is HCG 62. A Hickson Compact Group, HCG 62 is at a distance of 200 Mly from Earth (redshift 0.0137) and possesses a large central elliptical galaxy. It has a heterogeneous halo of extremely hot gas, posited to be due to the active galactic nucleus at the core of the central elliptical galaxy.
+M87 is the largest galaxy in the Virgo cluster, and is at a distance of 60 Mly from Earth (redshift 0.0035). It is a major radio source, partially due to its jet of electrons being flung out of the galaxy by its central supermassive black hole. Because this jet is visible in several different wavelengths, it is of interest to astronomers who wish to observe black holes in a unique galaxy.
+M84 is another elliptical radio galaxy in the constellation of Virgo; it is at a distance of 60 Mly (redshift 0.0035) as well. Astronomers have surmised that the speed of the gas clouds orbiting the core (approximately 400 km/s) indicates the presence of an object with a mass 300 million times that of the sun, which is most likely a black hole.
+The Sombrero Galaxy, M104, is an edge-on spiral galaxy located 28 million light-years from Earth (redshift 0.0034). It has a bulge at its center made up of older stars that is larger than normal. It is surrounded by large, bright globular clusters and has a very prominent dust lane made up of polycyclic aromatic hydrocarbons.
+NGC 4438 is a peculiar galaxy with an active galactic nucleus, at a distance of 50 Mly from Earth (redshift 0.0035). Its supermassive black hole is ejecting jets of matter, creating bubbles with a diameter of up to 78 ly.
+NGC 4261 also has a black hole 20 ly from its center with a mass of 1.2 billion solar masses. It is located at a distance of 45 Mly from Earth (redshift 0.0075), and has an unusually dusty disk with a diameter of 300 ly. Along with M84 and M87, NGC 4261 has strong emissions in the radio spectrum.
+IC 1101 is a supergiant elliptical galaxy in the Abell 2029 galaxy cluster located about 1.07 Gly from Earth. At the diameter of 5.5 million light years, or more than 50 times the size of the Milky Way, it was the largest known galaxy in the universe.
+Virgo is also home to the quasar 3C 273 which was the first quasar ever to be identified. With a magnitude of ~12.9 it is also the optically brightest quasar in the sky.
+
+Mythology
+According to the Babylonian Mul.Apin, which dates from 1000–686 BCE, this constellation was known as "The Furrow", representing the goddess Shala's ear of grain or corn. One star in this constellation, Spica, retains this tradition as it is Latin for "ear of grain", one of the major products of the Mesopotamian furrow. The constellation was also known as AB.SIN and absinnu. For this reason the constellation became associated with fertility. According to Gavin White the figure of Virgo corresponds to two Babylonian constellations - the 'Furrow' in the eastern sector of Virgo and the 'Frond of Erua' in the western sector. The Frond of Erua was depicted as a goddess holding a palm-frond - a motif that still occasionally appears in much later depictions of Virgo.
+The Greeks and Romans associated Virgo with their goddess of wheat/agriculture, Demeter-Ceres who is the mother of Persephone-Proserpina. Alternatively, she was sometimes identified as the virgin goddess Iustitia or Astraea, holding the scales of justice in her hand as the constellation Libra. Another myth identifies Virgo as Erigone, the daughter of Icarius of Athens. Icarius, who had been favoured by Dionysus, was killed by his shepherds while they were intoxicated and Erigone hanged herself in grief; Dionysus placed the father and daughter in the stars as Boötes and Virgo respectively. In the Middle Ages, Virgo was sometimes associated with the Blessed Virgin Mary.
+
+Astrology
+As of 2002, the Sun appears in the constellation Virgo from September 17 to October 30. In tropical astrology, the Sun is considered to be in the sign Virgo from August 23 to September 22, and in sidereal astrology, from September 16 to October 15.
+
+Visualizations
+Virgo is often portrayed carrying two sheaves of wheat, one of which is marked by the bright star Spica.
+H.A. Rey has suggested an alternative way to visualize Virgo, which graphically shows the virgin lying down in a supine position. The stars γ Vir, η Vir, β Vir, ν Vir, and ο Vir form the virgin's head. The stars γ Vir, δ Vir, ζ Vir, α Vir (Spica), and θ Vir form the virgin's blouse. The stars α Vir, ζ Vir, τ Vir, ι Vir, and κ Vir form the virgin's skirt. The stars 109 Vir and μ Vir represent the Virgin's feet, and the star ε Vir represents the virgin's hand.
+
+Citations
+
+^ The history of the star: Spica by Richard Hinckley Allen, 1889.
+^ "Night Sky~Big Dipper Navigation". Souledout.org. Retrieved 2012-05-16. 
+^ Levy, David H. (2005), Deep Sky Objects, Prometheus Books, ISBN 1-59102-361-0 
+^ a b c d e f g Wilkins, Jamie; Dunn, Robert (2006). 300 Astronomical Objects: A Visual Reference to the Universe (1st ed.). Buffalo, New York: Firefly Books. ISBN 978-1-55407-175-3.  |accessdate= requires |url= (help)
+^ "MUL.APIN - Wikipedia, the free encyclopedia". En.wikipedia.org. Retrieved 2012-05-16. 
+^ a b Time and Calendars, William Matthew O'Neil
+^ Babylonian Star-lore by Gavin White, Solaria Pubs, 2008, page 115
+^ Universe, Martin Rees, General Editor. DK
+^ H. A. Rey, The Stars — A New Way To See Them. Enlarged World-Wide Edition. Houghton Mifflin, Boston, 1997. ISBN 0-395-24830-2.
+References
+Ian Ridpath and Wil Tirion (2007). Stars and Planets Guide, Collins, London. ISBN 978-0-00-725120-9. Princeton University Press, Princeton. ISBN 978-0-691-13556-4.
+
+Retrieved from "http://en.wikipedia.org/w/index.php?title=Virgo_(constellation)&oldid=604785762"

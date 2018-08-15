@@ -1,0 +1,31 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="colorAccent">@android:color/holo_orange_light</item>
+        <item name="android:colorBackground">@color/dim_foreground_material_dark</item>
+    </style>
+
+    <style name="activated" parent="AppBaseTheme">
+        <item name="android:background">?android:attr/activatedBackgroundIndicator</item>
+    </style>
+
+    <style name="splashScreenTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:windowBackground">@drawable/cc</item>-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

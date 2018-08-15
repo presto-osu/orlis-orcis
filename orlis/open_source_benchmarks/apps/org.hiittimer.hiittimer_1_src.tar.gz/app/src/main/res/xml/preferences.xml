@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/preferences_audio" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/preferences_audio_onoff_key"
+            android:title="@string/preferences_audio_onoff" />
+    </PreferenceCategory>
+
+    <ListPreference
+        android:defaultValue="@string/preferences_volume_default_value"
+        android:dependency="@string/preferences_audio_onoff_key"
+        android:dialogTitle="@string/preferences_volume"
+        android:entries="@array/volume_levels"
+        android:entryValues="@array/volume_level_values"
+        android:key="@string/preferences_volume_key"
+        android:summary="%s"
+        android:title="@string/preferences_volume" />
+
+    <PreferenceCategory android:title="@string/preferences_training_screen_title" >
+        <ListPreference
+            android:defaultValue="@string/preferences_training_screen_text_size_default_value"
+            android:dialogTitle="@string/preferences_training_screen_settings_text_size_title"
+            android:entries="@array/text_sizes"
+            android:entryValues="@array/text_sizes_values"
+            android:key="@string/preferences_training_screen_text_size_key"
+            android:summary="%s"
+            android:title="@string/preferences_training_screen_settings_text_size_title" >
+        </ListPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

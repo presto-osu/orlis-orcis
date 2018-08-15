@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dougkeen.bart"
+    android:installLocation="auto"
+    >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".BartRunnerApplication_"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:allowBackup="true"
+        >
+        <activity
+            android:name=".activities.RoutesListActivity_"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.EDIT" />
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/com.dougkeen.bart.favorite" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/com.dougkeen.bart.favorite" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ViewDeparturesActivity"
+            android:label="@string/departures">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/com.dougkeen.bart.favorite" />
+                <data android:mimeType="vnd.android.cursor.item/com.dougkeen.bart.arbitraryroute" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ViewMapActivity"
+            android:label="@string/system_map"></activity>
+
+        <service
+            android:name=".services.BoardedDepartureService"
+            android:exported="false" />
+        <service
+            android:name=".services.EtdService_"
+            android:exported="false" />
+
+        <receiver
+            android:name=".receivers.AlarmBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.dougkeen.action.ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/com.dougkeen.bart.favorite" />
+                <data android:mimeType="vnd.android.cursor.item/com.dougkeen.bart.arbitraryroute" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

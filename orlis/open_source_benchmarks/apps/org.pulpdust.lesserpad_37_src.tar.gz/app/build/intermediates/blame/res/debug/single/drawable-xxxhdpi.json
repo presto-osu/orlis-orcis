@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_action_new_dark.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-xxxhdpi/ic_action_new_dark.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_action_done_light.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-xxxhdpi/ic_action_done_light.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_launcher.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_action_new_light.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-xxxhdpi/ic_action_new_light.png"
+    },
+    {
+        "merged": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_action_done_dark.png",
+        "source": "/home/yan/backup/android-obfuscator/apps/org.pulpdust.lesserpad_37_src.tar.gz/app/src/main/res/drawable-xxxhdpi/ic_action_done_dark.png"
+    }
+]

@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+
+android {
+lintOptions {
+abortOnError false
+}
+
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 227
+        versionName '2.5.7'
+    }
+    buildTypes {
+        release {
+minifyEnabled true
+        }
+    }
+    productFlavors {
+        full {
+            applicationId 'org.transdroid.full'
+            resValue "string", "search_history_authority", applicationId + ".search.SearchHistoryProvider"
+        }
+        lite {
+            applicationId 'org.transdroid.lite'
+            resValue "string", "search_history_authority", applicationId + ".search.SearchHistoryProvider"
+        }
+    }
+    lintOptions {
+        disable 'MissingTranslation', 'ExtraTranslation', 'StringFormatInvalid', 'ValidFragment'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'org.androidannotations:androidannotations-api:3.3.2'
+    compile 'com.j256.ormlite:ormlite-core:4.48'
+    compile 'com.j256.ormlite:ormlite-android:4.48'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:support-annotations:23.4.0'
+    compile 'com.getbase:floatingactionbutton:1.10.1'
+    compile 'com.nispok:snackbar:2.11.0'
+    compile('com.github.afollestad.material-dialogs:core:0.8.5.5@aar') {
+        transitive = true
+    }
+    apt 'org.androidannotations:androidannotations:3.3.2'
+}
+
+apt {
+    arguments {
+        androidManifestFile variant.outputs[0].processResources.manifestFile
+        resourcePackageName 'org.transdroid'
+        //logLevel 'INFO'
+        //logFile '/Users/erickok/Dev/transdroid/transdroid/app/build/aa-log.txt'
+    }
+}
+

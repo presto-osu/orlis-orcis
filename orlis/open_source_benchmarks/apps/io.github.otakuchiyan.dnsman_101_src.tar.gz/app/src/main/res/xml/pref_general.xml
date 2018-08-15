@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/pref_general_auto_setting"
+        android:defaultValue="true"
+        android:key="pref_auto_setting"/>
+    <SwitchPreference android:title="@string/pref_general_full_keyboard"
+        android:key="pref_full_keyboard"/>
+    <SwitchPreference android:title="@string/pref_general_individual_mode"
+        android:key="pref_individual_mode"/>
+    <SwitchPreference android:title="@string/pref_general_auto_flush"
+        android:key="pref_auto_flush"/>
+    <!--<Preference android:title="@string/pref_dns_list">
+        <intent android:action=".DnsListActivity"/>
+    </Preference>-->
+        
+
+</PreferenceScreen>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<training name="default">
+
+  <property name="pause_after_set">90s</property>
+  <property name="pause_after_exercise">90s</property>
+
+  <property name="reps_increment">1</property>
+  <property name="reps_increment_direction">front_to_back</property>
+  <!-- vs. <property name="reps_increment_direction">back_to_front</property> -->
+  <property name="reps_increment_style">balanced</property>
+  <!-- vs. <property name="reps_increment_style">fill_sets</property> -->
+
+  <property name="reps_duration_concentric">2s</property>
+  <property name="reps_duration_eccentric">3s</property>
+  <property name="reps_pause_after_concentric">1s</property>
+  <property name="reps_pause_after_eccentric">0</property>
+
+  <exercise name="Dynamic Warm Up">
+
+    <property name="duration">10s</property>
+    <property name="pause_after_exercise">0</property>
+
+  </exercise>
+
+</training>

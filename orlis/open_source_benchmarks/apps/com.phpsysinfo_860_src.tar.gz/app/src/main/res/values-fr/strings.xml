@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PSIAndroid</string>
+    
+    <string name="lblLoading">Chargement...</string>
+    <string name="lblRefresh">Actualiser</string>
+    <string name="lblSettings">Paramètres</string>
+    <string name="lblAbout">A propos</string>
+    <string name="lblError">Erreur</string>
+    
+    <string name="lblKernel">Noyau:</string>
+    <string name="lblMachine">Machine:</string>
+    <string name="lblDistro">Distribution:</string>
+    <string name="lblIp">IP:</string>
+    <string name="lblUptime">Uptime:</string>
+    <string name="lblLoad">Charge:</string>
+    <string name="lblUsers">Utilisateurs:</string>
+    <string name="lblCpu">Processeur:</string>
+    <string name="lblProcesses">Processus:</string>
+    <string name="lblVersion">PSI version:</string>
+    <string name="lblMemory">Mémoire</string>
+
+    <string name="lblMemoryUsage">Utilisation mémoire</string>
+    <string name="lblMountPoints">Système de fichiers</string>
+    <string name="lblNetwork">Réseaux</string>
+    <string name="lblTemperatures">Températures</string>
+    <string name="lblFans">Ventilateurs</string>
+    
+    <string name="lblUrlHint">http://</string>
+    <string name="lblHosts">Serveurs</string>
+    <string name="lblHost">Serveur</string>
+    <string name="lblUser">Nom</string>
+    <string name="lblPassword">Mot de passe</string>
+    <string name="lblSave">Enregistrer</string>
+    <string name="lblAlias">Alias</string>
+    
+    <string name="lblOf">sur</string>
+    <string name="lblMio">MiB</string>
+    <string name="lblGio">GiB</string>
+    <string name="lblTio">TiB</string>
+    
+    <string name="lblAdd">Ajouter</string>
+    <string name="lblActionFor">Action pour %1$s ?</string>
+    <string name="lblCancel">Annuler</string>
+    <string name="lblEdit">Editer</string>
+    <string name="lblRemove">Supprimer</string>
+
+    <string name="lblProcessStatus">Etat Processus</string>
+
+    <string name="lblUps">UPS</string>
+    <string name="lblUpsModel">Modèle</string>
+    <string name="lblUpsBatteryCharge">Charge battery</string>
+    <string name="lblUpsLoad">Charge</string>
+    <string name="lblUpsTime">Temps restant</string>
+    <string name="lblUpsBattery">Tension batterie</string>
+    <string name="lblUpsLine">Tension ligne</string>
+    
+    <string name="lblSmart">SMART</string>
+    
+    <string name="lblRaid">RAID</string>
+    
+    <string name="lblUpdate">Mise à jour</string>
+    <string name="lblPackages">Paquets</string>
+    <string name="lblSecurity">Sécurités</string>
+    
+    <string name="lblPrinter">Imprimantes</string>
+    <string name="lblPercent">Pourcent</string>  
+    <string name="lblTenthsMl">Dixièmes de ml</string>  
+    <string name="lblImpressions">Impressions</string> 
+    <string name="lblTenthsGrams">Dixièmes de gramme</string>
+    
+    <string name="lblBat">Batterie</string>  
+    <string name="lblRemaining">Restant:</string> 
+    <string name="lblState">Etat:</string>
+    
+    <string name="tv_settings">Paramètres</string>
+    <string name="lblPreference">Paramètres</string>
+    <string name="autorefresh_title">Actualisation automatique</string> 
+    <string name="autorefresh_sum">Intervalle d\'actualisation (secondes)</string>  
+    
+</resources>

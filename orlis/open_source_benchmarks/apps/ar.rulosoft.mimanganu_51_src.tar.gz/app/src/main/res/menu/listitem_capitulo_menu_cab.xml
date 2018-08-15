@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/select_all"
+        android:icon="@drawable/ic_action_selecionar_todos"
+        android:title="@string/seleccionar_todo"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/unselect"
+        android:icon="@drawable/ic_action_image_filter_none"
+        android:title="@string/quitar_seleccion"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/select_from"
+        android:icon="@drawable/ic_action_select_from"
+        android:title="@string/select_end"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/select_to"
+        android:icon="@drawable/ic_action_select_to"
+        android:title="@string/select_begin"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mark_selected_as_read"
+        android:icon="@drawable/ic_action_read"
+        android:title="@string/marcarleido"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mark_selected_as_unread"
+        android:icon="@drawable/ic_action_unread"
+        android:title="@string/markSelectedUnread"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/download_selection"
+        android:icon="@drawable/ic_action_downloads"
+        android:title="@string/download_selection"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mark_as_read_and_delete_images"
+        android:title="@string/mar_and_di"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/delete_images"
+        android:icon="@drawable/ic_action_delete_images"
+        android:title="@string/borrar_imagenes"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/remove_chapter"
+        android:icon="@drawable/ic_action_ic_borrar_light"
+        android:title="@string/borrarcap"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/reset_chapter"
+        android:icon="@drawable/ic_action_av_reload"
+        android:title="@string/resetcap"
+        app:showAsAction="ifRoom" />
+</menu>

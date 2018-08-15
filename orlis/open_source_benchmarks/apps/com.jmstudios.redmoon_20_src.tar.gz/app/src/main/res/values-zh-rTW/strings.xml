@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources><string name="app_name">紅月</string>
+    <string name="shades_settings">紅月</string>
+    <string name="shortcut_activity">紅月切換鍵</string>
+
+    <string name="paused">已暫停</string>
+
+    <string name="pref_title_other">其他</string>
+
+    <string name="button_remove_profile">刪除</string>
+    <string name="location_title">位置</string>
+    <string name="latitude_short">緯度</string>
+    <string name="longitude_short">經度</string>
+    <string name="ok_dialog">確定</string>
+    <string name="cancel_dialog">取消</string>
+
+    <string name="running">運行中……需要暫停來安裝APK</string>
+    <string name="pref_title_appearance">濾鏡</string>
+    <string name="pref_title_automatic_filter">濾鏡時間段</string>
+    <string name="pref_title_startup">啟動</string>
+    <string name="button_add_profile">添加</string>
+    <string name="shades_dim_level">暗度</string>
+    <string name="shades_intensity_level">強度等級</string>
+    <string name="shades_color_temp">色溫</string>
+    <string name="control_brightness_title">降低亮度</string>
+    <string name="location_not_set">未設定</string>
+    <string name="set_dialog">設定</string>
+    <string name="remove_profile_dialog_title">是否刪除配置？</string>
+    <string name="searching_location">正在搜尋位置</string>
+    <string name="project_page_title">瀏覽官方網站</string>
+    <string name="standard_profiles_array_0">自定義</string>
+    <string name="standard_profiles_array_1">預設</string>
+    <string name="standard_profiles_array_2">閱讀</string>
+    <string name="toggle_shortcut_title">切換</string>
+    <string name="help_snackbar_text">點擊按鈕切換紅月模式</string>
+    <string name="dark_theme">暗黑主題</string>
+    <string name="custom_end_time_title">中止時間</string>
+    <string name="custom_start_time_title">恢復時間</string>
+    <string name="add_new_profile_edit_hint">配置檔名</string>
+    <string name="add_new_profile_dialog_title">輸入配置檔名</string>
+    <string name="automatic_filter_title">切換模式</string>
+    <string name="automatic_filter_options_array_2">自動(自定義)</string>
+    <string name="automatic_filter_options_array_1">自動(日落時間)</string>
+    <string name="automatic_filter_options_array_0">手動</string>
+    <string name="email_me_title">給我發送郵件：marienraat@riseup.net</string>
+    <string name="email_me_summary">發郵件給我報告Bug或者提意見</string>
+    <string name="project_page_summary">檢視更多資訊，提交反饋和貢獻</string>
+    <string name="toast_warning_no_location">啟用位置服務來更新位置</string>
+    <string name="toast_warning_install">濾鏡運行時無法安裝APK</string>
+
+</resources>

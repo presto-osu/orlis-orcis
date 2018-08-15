@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="key_units"
+        android:summaryOff="@string/units_summaryOff"
+        android:summaryOn="@string/units_summaryOn"
+        android:title="@string/units" />
+
+</PreferenceScreen>

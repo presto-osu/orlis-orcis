@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+lintOptions { abortOnError false }
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion '23.0.3'
+
+    defaultConfig {
+        applicationId 'net.mabako.steamgifts'
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        project.ext.set('archivesBaseName', 'SteamGifts')
+    }
+    buildTypes {
+        release {
+minifyEnabled true
+proguardFiles '/home/yan/Android/Sdk/tools/proguard/proguard-android.txt'
+        }
+    }
+    productFlavors {
+        // ** This is the build flavor you want to pick for running the app locally. **
+        chocolate {
+            null
+        }
+        // Release for the beta channel
+        strawberry {
+            applicationIdSuffix '.beta'
+        }
+        // Release pushed on f-droid to non-beta testers
+        vanilla {
+            null
+        }
+        // Release pushed on google play store
+        googleplay {
+            null
+        }
+    }
+
+    lintOptions {
+        disable 'GoogleAppIndexingWarning'
+        warning 'InvalidPackage' // okio references java.nio, which is not part of android.
+    }
+}
+
+dependencies {
+    compile project(':core')
+}

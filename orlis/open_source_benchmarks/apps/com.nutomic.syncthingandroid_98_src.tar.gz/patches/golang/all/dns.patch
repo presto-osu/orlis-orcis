@@ -1,0 +1,94 @@
+diff --git a/net/dnsclient_unix.go b/net/dnsclient_unix.go
+index 17188f0..15a1663 100644
+--- a/net/dnsclient_unix.go
++++ b/net/dnsclient_unix.go
+@@ -279,12 +279,6 @@ func (conf *resolverConfig) tryUpdate(name string) {
+ 			return
+ 		}
+ 		conf.modTime = fi.ModTime()
+-	} else {
+-		// If modTime wasn't set prior, assume nothing has changed.
+-		if conf.modTime.IsZero() {
+-			return
+-		}
+-		conf.modTime = time.Time{}
+ 	}
+ 
+ 	dnsConf := dnsReadConfig(name)
+diff --git a/net/dnsconfig_unix.go b/net/dnsconfig_unix.go
+index 6073fdb..bd6ca41 100644
+--- a/net/dnsconfig_unix.go
++++ b/net/dnsconfig_unix.go
+@@ -8,7 +8,53 @@
+ 
+ package net
+ 
+-var defaultNS = []string{"127.0.0.1", "::1"}
++import (
++	"fmt"
++	"os/exec"
++	"strings"
++)
++
++var currentNS []string
++
++func getDefaultNS() []string {
++	var servers []string
++	for _, prop := range []string{"net.dns1", "net.dns2"} {
++		cmd := exec.Command("getprop", prop)
++		outputBytes, err := cmd.Output()
++		if err != nil {
++			continue
++		}
++		output := strings.Trim(string(outputBytes), "\n")
++		if ParseIP(output) != nil {
++			servers = append(servers, output)
++		}
++	}
++
++	if len(servers) == 0 {
++		servers = []string{"8.8.8.8", "8.8.4.4", "4.2.2.1"}
++	}
++
++	if !slicesEqual(currentNS, servers) {
++		fmt.Println("Using DNS servers:", servers)
++		currentNS = servers
++	}
++
++	return currentNS
++}
++
++func slicesEqual(a, b []string) bool {
++	if len(a) != len(b) {
++		return false
++	}
++
++	for i := range a {
++		if a[i] != b[i] {
++			return false
++		}
++	}
++
++	return true
++}
+ 
+ type dnsConfig struct {
+ 	servers    []string // servers to use
+@@ -33,7 +79,7 @@ func dnsReadConfig(filename string) *dnsConfig {
+ 	}
+ 	file, err := open(filename)
+ 	if err != nil {
+-		conf.servers = defaultNS
++		conf.servers = getDefaultNS()
+ 		conf.err = err
+ 		return conf
+ 	}
+@@ -110,7 +156,7 @@ func dnsReadConfig(filename string) *dnsConfig {
+ 		}
+ 	}
+ 	if len(conf.servers) == 0 {
+-		conf.servers = defaultNS
++		conf.servers = getDefaultNS()
+ 	}
+ 	return conf
+ }

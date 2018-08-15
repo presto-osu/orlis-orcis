@@ -1,0 +1,15 @@
+Arrondis:
+
+	L'arrondi des pointages permet d'arrondir les pointages à une valeur inférieure.
+	Par exemple un pointage de 1h02min sera considéré comme un pointage de 1h si on l'arrondit à plus 5min.
+	1h54min sera lui arrondi à 1h50min.
+
+Adresse Email
+
+	C'est l'adresse qui sera utilisée pour la réception des données de sauvegarde.
+	L'envoi de l'email s'effectuera à partir d'une application mail android qui sera sélectionnée par l'utilisateur au moment de la sauvegarde
+
+Séparateur:
+
+	Le séparateur est celui souhaité lors de la sauvegarde au format CSV.
+	Cela permet de récupérer directement les pointages dans un tableau excel.

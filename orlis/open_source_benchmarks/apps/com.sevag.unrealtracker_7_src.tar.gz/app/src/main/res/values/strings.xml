@@ -1,0 +1,8 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Unreal Tracker</string>
+    <string name="app_state">Fetching latest...</string>
+    <string name="theme1">Default</string>
+    <string name="theme2">Classic</string>
+    <string name="theme3">Hacker</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="method_strings">
+        <item>@string/pref_method_vpn</item>
+<!--        <item>@string/pref_method_accessibility</item> -->
+        <item>@string/pref_method_ndc</item>
+        <item>@string/pref_method_iptables</item>
+        <!--<item>@string/pref_method_module</item>-->
+        <item>@string/pref_method_setprop</item>
+    </string-array>
+    <string-array name="method_values">
+        <item>vpn</item>
+        <!--<item>accessibility</item>-->
+        <item>ndc</item>
+        <item>iptables</item>
+        <!--<item>module</item>-->
+        <item>setprop</item>
+    </string-array>
+
+    <string-array name="toast_strings">
+        <item>@string/pref_toast_show</item>
+        <item>@string/pref_toast_error</item>
+        <item>@string/pref_toast_never</item>
+    </string-array>
+    <string-array name="toast_values">
+        <item>show</item>
+        <item>error</item>
+        <item>never</item>
+    </string-array>
+
+</resources>

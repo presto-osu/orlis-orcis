@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/AppBaseTheme"
+    android:title="Preferences"
+    tools:context="activities.Activity_Main">
+    <PreferenceCategory
+        android:icon="@drawable/ic_home_black_24dp"
+        android:persistent="false"
+        android:summary="@string/soon"
+        android:title="@string/house_settings">
+
+        <Preference
+            android:enabled="false"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:selectable="false"
+            android:shouldDisableView="false"
+            android:summary="@string/house_explain" />
+        <ListPreference
+            android:entries="@array/device_sync_order_name"
+            android:entryValues="@array/device_sync_order_value"
+            android:icon="@drawable/ic_sync_problem_black_24dp"
+            android:key="device_sync_order"
+            android:summary="@string/OPTION_only_0_4_more"
+            android:title="@string/OPTION_Device_sync_organization" />
+        <CheckBoxPreference
+            android:key="BY_USAGE"
+            android:summaryOff="@string/usage_byhouse"
+            android:summaryOn="@string/usage_byusage"
+            android:title="@string/usage_byusagecheckbox" />
+    </PreferenceCategory>
+</PreferenceScreen>

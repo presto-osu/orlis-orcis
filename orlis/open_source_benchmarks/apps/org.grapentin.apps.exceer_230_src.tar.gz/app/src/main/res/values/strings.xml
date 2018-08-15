@@ -1,0 +1,48 @@
+<resources>
+  <string name="app_name">Exceer</string>
+
+  <string name="title_activity_training">Training</string>
+  <string name="title_activity_about">About</string>
+  <string name="title_activity_settings">Settings</string>
+
+  <string name="action_settings">Settings</string>
+  <string name="action_about">About</string>
+  <string name="action_training_abort">Abort Session</string>
+
+  <string name="MainActivityWelcomeLabelText">Exceer</string>
+  <string name="MainActivityLastSessionLabel1Text">last session was</string>
+  <string name="MainActivityLastSessionDateText">0 sec</string>
+  <string name="MainActivityLastSessionLabel2Text">ago</string>
+  <string name="MainActivityTrainButtonText">Train Now!</string>
+
+  <string name="TrainingActivityNoExercises">(no exercises)</string>
+  <string name="TrainingActivityContextButtonTextStart">Start</string>
+  <string name="TrainingActivityContextButtonTextPause">Pause</string>
+  <string name="TrainingActivityContextButtonTextFinish">Finish</string>
+  <string name="TrainingActivityCurrentExerciseLevelNone" />
+  <string name="TrainingActivityCurrentExerciseLevelInt">Level </string>
+
+  <string name="AboutActivityIconDescription">the launcher icon</string>
+  <string name="AboutActivityShortCopyrightLabelText">Copyright 2015 Andreas Grapentin\nSee below for Copying Conditions.</string>
+  <string name="AboutActivityNickJanvierLabelText">Exceer has been inspired by <a href="http://www.nickjanvier.com">Nick Janvier</a>, and his <a href="http://www.startbodyweight.com">bodyweight training programme</a>. All exercises and illustrations have been generously made available by Nick.</string>
+  <string name="AboutActivitySoundsCopyrightLabelText">Exceer uses sounds from <a href="http://freesound.org">freesound.org</a>:\n
+    <a href="https://www.freesound.org/people/datwilightz/sounds/194283/">Beep 1.wav</a> made by <a href="https://www.freesound.org/people/datwilightz/">datwilightz</a>\n
+    <a href="https://www.freesound.org/people/carbilicon/sounds/65243/">beep.wav</a> made by <a href="https://www.freesound.org/people/carbilicon/">carbilicon</a>\n
+    <a href="https://www.freesound.org/people/pera/sounds/56229/">3beeps.wav</a> made by <a href="https://www.freesound.org/people/pera/">pera</a>\n
+    <a href="https://www.freesound.org/people/pan14/sounds/263133/">tone beep.wav</a> made by <a href="https://www.freesound.org/people/pan14/">pan14</a></string>
+  <string name="AboutActivityIconCopyrightLabelText"><div>Icon made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>\nfrom <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a></div></string>
+  <string name="AboutActivityLongCopyrightLabelText">
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.\n\n
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.\n\n
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see &lt;<a href="http://www.gnu.org/licenses/">http://www.gnu.org/licenses/</a>&gt;.</string>
+
+</resources>

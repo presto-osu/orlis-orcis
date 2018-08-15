@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_dev_name">by Alex Cruz</string>
+    <string name="gplus_join">BEITRETEN</string>
+    <string name="ratebtn">BEWERTEN</string>
+    <string name="description">Papuh wurde von Alex Cruz entwickelt, um nicht nur einen zentralen Ort für all seine Hintergrundbilder bereitzustellen, sondern ebenfalls um sie für all jene zu aktualisieren, die sie nutzen. Diese App wurde mithilfe von Open-Source Bibliotheken und Beiträgen zur Open-Source Community erstellt.</string>
+    <string name="play_card_title">Papuh Walls auf Google Plus</string>
+    <string name="play_card_content">Trete der Papuh Walls community für Support bei</string>
+    <string name="section_home">Hauptmenü</string>
+    <string name="section_all_walls">Alle Hintergrundbilder</string>
+    <string name="section_android_walls">Android</string>
+    <string name="section_bw_walls">Schwarz &amp; Weiß</string>
+    <string name="section_blur_walls">Verschwommen</string>
+    <string name="section_clouds_walls">Wolken</string>
+    <string name="section_misc_walls">Sonstiges</string>
+    <string name="section_mustaches_walls">Mustache</string>
+    <string name="section_nexus_walls">Nexus</string>
+    <string name="section_original_walls">Originale Hintergrundbilder</string>
+    <string name="section_papuh_walls">Papuh Swag</string>
+    <string name="section_solids_walls">Solide</string>
+    <string name="section_stars_walls">Sterne</string>
+    <string name="section_rom_category">CUSTOM ROMS</string>
+    <string name="section_aicp_walls">AICP</string>
+    <string name="section_brokenos_walls">BrokenOS</string>
+    <string name="section_candy_walls">Candy ROM</string>
+    <string name="section_du_walls">Dirty Unicorns</string>
+    <string name="section_eos_walls">EOS</string>
+    <string name="section_liquidsmooth_walls">Liquid Smooth</string>
+    <string name="section_omni_walls">OmniROM</string>
+    <string name="section_orion_walls">Orion</string>
+    <string name="section_pa_walls">Paranoid Android</string>
+    <string name="section_pacrom_walls">PAC ROM</string>
+    <string name="section_rr_walls">Resurrection Remix</string>
+    <string name="section_slim_walls">Slim</string>
+    <string name="section_tesla_walls">Tesla</string>
+    <string name="section_twistedaosp_walls">Twisted AOSP</string>
+    <string name="section_validus_walls">Validus</string>
+    <string name="section_aboutapp">Über Papuh Walls</string>
+    <string name="changelog">Änderungen</string>
+    <string name="changelog_dialog_title">Änderungen &#38; Infos</string>
+    <string name="first_slide_title">Willkommen zu Papuh!</string>
+    <string name="first_slide_description">Hält dein Gerät stylisch!</string>
+    <string name="second_slide_title">Ein Hintergrund der dir gefällt?</string>
+    <string name="second_slide_description">Ein Klick und dein Hintergrund wird festgelegt!\n\nSo einfach! So schnell!</string>
+    <string name="third_slide_title">Dir gefällt das Design der App nicht?</string>
+    <string name="third_slide_description">Besuche die Einstellungen und ändere es! Mit den integrierten Farb-Wechslern kannst du das Aussehen der App sofort verändern.. und das solange bis Du vollkommen glücklich damit bist!</string>
+    <string name="fourth_slide_title">Du willst auch etwas beitragen?</string>
+    <string name="fourth_slide_description">Alle Beiträge zu Papuh sind erwünscht!\n\nKlein oder groß, es kommt der Community zu gunsten! Deshalb wird diese App immer gratis und open-source sein!</string>
+    <string name="last_slide_title">Das war\'s!</string>
+    <string name="last_slide_description">Viel spaß mit der App :-)</string>
+    <string name="customactivityoncrash_error_activity_error_occurred_explanation">UPS!!\n\nAlex muss auf dem Computer\neingeschlafen sein!\nBerichte ihm den Fehler!</string>
+    <string name="customactivityoncrash_error_activity_restart_app">Papuh neu starten</string>
+    <string name="customactivityoncrash_error_activity_error_details">Fehler Info</string>
+    <string name="customactivityoncrash_error_activity_error_details_title">Fehler Info</string>
+    <string name="customactivityoncrash_error_activity_error_details_close">Ok</string>
+    <string name="settings">Einstellungen</string>
+    <string name="wallpaper_downloading_wait">Bitte warten während der Hintergrund geladen wird</string>
+    <string name="wallpaper_item_name">"Hintergrund "</string>
+    <string name="clear_cache">Zwischenspeicher leeren</string>
+    <string name="reset_data">Daten löschen</string>
+    <string name="theme_settings">Thema-Einstallungen</string>
+    <string name="theme_toolbar_title">Toolbar</string>
+    <string name="theme_toolbar_summary">Farbe der Toolbar ändern</string>
+    <string name="theme_navbar_title">NavBar (Nur für Lollipop/M)</string>
+    <string name="theme_navbar_summary">Farbe der Navigationsleiste anpassen</string>
+    <string name="theme_statusbar_tint_title">Statusleisten Farbe (Nur für Lollipop/M)</string>
+    <string name="theme_enable_statusbar_tint_summary">Statusleisten Farbe aktivieren</string>
+    <string name="theme_disable_statusbar_tint_summary">Statusleisten Farbe deaktivieren</string>
+    <string name="theme_navbar_tint_title">Navigationsleisten Farbe (Nur für Lollipop/M)</string>
+    <string name="theme_enable_navbar_tint_summary">Navigationsleisten Farbe aktivieren</string>
+    <string name="theme_disable_navbar_tint_summary">Navigationsleisten Farbe deaktivieren</string>
+    <string name="theme_background_theme_title">Hintergrund</string>
+    <string name="theme_background_theme_summary">Hintergrundfarbe anpassen</string>
+    <string name="theme_primary_text">Primäre Textfarbe</string>
+    <string name="theme_primary_text_summary">Ändert die Farbe des primären Texts im Hauptmenü bzw. in der Credits-Anzeige</string>
+    <string name="theme_secondary_text">Sekundäre Textfarbe</string>
+    <string name="theme_secondary_text_summary">Ändert die Farbe des sekundären Texts im Hauptmenü bzw. in der Credits-Anzeige</string>
+    <string name="theme_accent">Betonungsfarbe</string>
+    <string name="theme_accent_summary">Ändert die Farbbetonung im Hauptmenü bzw. in der Credits-Anzeige</string>
+    <string name="theme_material_drawer_settings">Material Drawer</string>
+    <string name="theme_drawer_theme_title">Drawer Hintergrund</string>
+    <string name="theme_drawer_normal_icon">Drawer Icon Standard</string>
+    <string name="theme_drawer_selected_icon">Drawer Icon Ausgewählt</string>
+    <string name="theme_drawer_theme_summary">Ändert die Farbe des Drawer-Hintergrundes</string>
+    <string name="theme_drawer_text_theme_title">Drawer Text</string>
+    <string name="theme_drawer_text_theme_summary">Ändert die Textfarbe des Drawers</string>
+    <string name="theme_drawer_selected_text_theme_title">Drawer Text Ausgewählt</string>
+    <string name="theme_drawer_selected_text_theme_summary">Ändert die Farbe des ausgewählten Texts im Drawer</string>
+    <string name="theme_drawer_selector_theme_title">Ausgewähltes Drawer Element</string>
+    <string name="theme_drawer_selector_theme_summary">Ändert die Hintergrundfarbe es ausgewählten Elements in der Drawer-Liste</string>
+    <string name="theme_badge_background_theme_title">Drawer Marken Hintergrund</string>
+    <string name="theme_badge_background_theme_summary">Änder den Hintergrund der Drawer-Marken</string>
+    <string name="theme_badge_text_theme_title">Drawer Marken Text</string>
+    <string name="theme_badge_text_theme_summary">Ändert die Textfarbe der Drawer-Marken</string>
+    <string name="theme_wallpaper_fab_settings">Aktionstaste</string>
+    <string name="theme_fab_apply">Anwenden Taste</string>
+    <string name="theme_fab_save">Speichern Taste</string>
+    <string name="theme_fab_crop">Zuschneiden Taste</string>
+    <string name="theme_fab_edit">Bearbeitungstaste</string>
+    <string name="theme_fab_share">Teilen Taste</string>
+    <string name="theme_fab_pressed">Gedrückte Tasten</string>
+    <string name="theme_fab_pressed_summary">Ändert die Farbe der gedrückten Tasten</string>
+    <string name="theme_fab_background">Hintergrundfarbe</string>
+    <string name="theme_fab_background_summary">Ändert die Hintergrundfarbe wenn die Aktionstaste geöffnet ist</string>
+    <string name="time_context_headers">Zeitlich kontextbezogene Bilder</string>
+    <string name="enable_time_context_headers_summary">Aktiviere zeitlich kontextbezogene Bilder</string>
+    <string name="disable_time_context_headers_summary">Deaktiviere zeitlich kontextbezogene Bilder</string>
+    <string name="poly_time_context_headers">(Mehrere) kKontextbezogene Bilder</string>
+    <string name="notify">Hintergrund Benachrichtigungen</string>
+    <string name="notify_content">Erhalte Benachrichtigungen, wenn neue Hintergründe hinzugefügt wurden. \n\nPapuh\'s Benachrichtigungssystem abonnieren.</string>
+    <string name="notify_note"><b>Achtung : Pushbullet ist nötig, um Benachrichtigungen erhalten zu können.</b></string>
+    <string name="notify_url">https://goo.gl/fMw0tE</string>
+    <string name="pushbullet_subscribe">ABONNIEREN</string>
+    <string name="pushbullet_nothanks">NEIN DANKE</string>
+    <string name="grid_changer_column_one">1 Spalte</string>
+    <string name="grid_changer_column_two">2 Spalten</string>
+    <string name="grid_changer_column_three">3 Spalten</string>
+    <string name="grid_changer_column_four">4 Spalten</string>
+    <string name="grid_count_dialog_title">Anzahl Spalten</string>
+    <string name="grid_count_dialog_btn_positive">Ok</string>
+
+    <string name="credit_wallpaper">Wallpaper hinzugefügt von</string>
+
+
+    <!-- Changelog -->
+    <!-- Initial Release -->
+    <string name="v2_line1">Initial Release</string>
+    <!-- Version 2.0.1 -->
+    <string name="v21_line1">- Fixed FC with "clear cache" menu</string>
+    <string name="v21_line2">- Fixed Muzei navbar not being tinted</string>
+    <!-- Version 2.0.2 -->
+    <string name="v22_line1">- Improvements to the wall fragments</string>
+    <string name="v22_line2">- Remove header\'s profile selection tab</string>
+    <string name="v22_line3">- 20 new wallpapers</string>
+    <!-- Version 2.0.3 -->
+    <string name="v23_line1">- More under the hood fixes (Thanks Andrzej)</string>
+    <string name="v23_line2">- Horizontal scrolling/Pinch to zoom </string>
+    <string name="v23_line3">- Pushbullet notification menu (Thanks Sasi)</string>
+    <!-- Version 2.0.4 -->
+    <string name="v24_line1">- Reworked how settings handle themeing (Thanks Andrzej)</string>
+    <string name="v24_line2">- Added time-context headers to material drawer</string>
+    <string name="v24_line3">- Added 95 new wallpapers</string>
+    <string name="v24_line4">- Added French translations (Thanks Kevin)</string>
+    <!-- Version 2.0.5 -->
+    <string name="v25_line1">- Add more themeing functionality to settings</string>
+    <string name="v25_line2">- Fixes to the way FAB works with wallpaper actions</string>
+    <string name="v25_line3">- Added WIP grid changer</string>
+    <!-- Version 2.0.6 -->
+    <string name="v26_line1">- Moar under the hood changes</string>
+    <string name="v26_line2">- Moar translations (french/italian)</string>
+
+
+    <!-- License check / Dialog / Muzei -->
+    <string name="artsource_desc">Hält dein Gerät stylisch!</string>
+    <string name="muzei_settings">Muzei Einstellungen</string>
+    <string name="gplus">GOOGLE+</string>
+    <string name="github">QUELLE</string>
+    <string name="title_activity_detailed_wallpaper">Hintergrund-Betrachter</string>
+    <string name="title_ab_detailed_wallpaper">""</string>
+    <string name="set_as">Hintergrund zuschneiden und festlegen als...</string>
+    <string name="set_wall_title">Hintergrund festgelegt</string>
+    <string name="set_wall_content">Bist du sicher dieses festzulegen?</string>
+    <string name="edit_wall">Diesen Hintergrund bearbeiten in...</string>
+    <string name="no">Nein</string>
+    <string name="yes">Ja</string>
+    <string name="save">Speichern</string>
+    <string name="apply">Festlegen</string>
+    <string name="crop">Zuschneiden</string>
+    <string name="share">Teilen</string>
+    <string name="done">Fertig</string>
+    <string name="error">Uups!</string>
+    <string name="wall_error">Entschuldigung, diese Aktion konnte nicht ausgeführt werden, da kein Bild vorhanden ist. Bitte überprüfe deine Internetverbindung und versuche es erneut.</string>
+    <string name="download_done">Erfolgreich heruntergeladen. Das Bild befindet sich </string>
+    <string name="json_error_toast">Fehler beim Herunterladen der Hintergrund-Infos. Bitte erneut versuchen.</string>
+    <string name="share_wall">Hintergrund teilen</string>
+    <string name="partone">"Mein Hintergrund für heute ist "</string>
+    <string name="parttwo">" von "</string>
+    <string name="partthree">", gefunden im originalen Abschnitt von "</string>
+    <string name="partfour">!\n\n</string>
+    <string name="partfive">" Erhalte es jetzt auf "</string>
+    <string name="dismiss">Abbrechen</string>
+    <string name="close">Schließen</string>
+    <string name="building_request">Anfrage stellen</string>
+    <string name="submit">Bestätigen</string>
+    <string name="googleplus">Google+</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="advice">Hinweis</string>
+    <string name="dontshow">Nicht mehr anzeigen</string>
+    <string name="request_advice">Wenn du keine App für die Icon-Anfrage auswählst, wird für all deine Apps automatisch freigegeben.</string>
+    <string name="no_conn_title">Keine Verbindung gefunden</string>
+    <string name="no_conn_content">Die Hintergründe befinden sich auf der Cloud. Bitte mit dem Internet verbinden und erneut versuchen.</string>
+    <string name="progress_dialog_title">Hintergrund herunterladen</string>
+    <string name="setting_wall_title">Bild als Hintergrund festlegen</string>
+    <string name="please_wait">Bitte warten…</string>
+    <string name="set_as_wall_done">Bild erfolgreich als Hintergrund festgelegt</string>
+    <string name="retry">Erneut versuchen</string>
+    <string name="ok">OK</string>
+    <string name="download">Herunterladen</string>
+    <string name="exit">App beenden</string>
+    <string name="get_app_button">Hol dir die App</string>
+    <string name="installed">Installiert</string>
+    <string name="noninstalled">Nicht installiert</string>
+    <string name="muzeisets_title">Quelle aktualisieren, alle:</string>
+    <string name="minutes">Minuten</string>
+    <string name="hours">Stunden</string>
+    <string name="muzei_info">RICHTE EINE MUZEI QUELLE EIN, UM ALLES ZU SPEICHERN!!</string>
+    <string name="justshare">Teilen</string>
+
+    <!--- About Papuh -->
+    <string name="credit_title">Ehre, wem Ehre gebührt...</string>
+
+    <!-- Live Wall -->
+    <string name="addToLiveWallList">Zum Live-Hintergrund Pool hinzufügen</string>
+    <string name="remFromLiveWallList">Vom Live-Hintergrund Pool entfernen</string>
+    <string name="live_wallpaper_description">Papuh Live</string>
+    <string name="live_wall_update_interval">Aktualisierungs-Intervall</string>
+    <string name="live_wall_pool_update_success">Der Live-Hintergund Pool wurde erfolgreich aktualisiert</string>
+    <string name="live_wallpaper_settings">Papuh Live Einstellungen</string>
+    <string name="interval_minutes">Minuten</string>
+    <string name="interval_minute">Minute</string>
+    <string name="interval_hours">Stunden</string>
+    <string name="interval_hour">Stunde</string>
+    <string name="my_walls_title">Meine Hintergründe</string>
+    <string name="confirm_action">Bestätigen</string>
+    <string name="del_walls_message_1">Willst du</string>
+    <string name="del_walls_message_2">Hintergrund/Hintergründe vom Live-Hintergrund Pool entfernen?</string>
+    <string name="no_item_deselected">Keine Hintergründe zum Entfernen abgewählt</string>
+    <string name="no_walls">Keine Hintergründe im Live-Hintergrund Pool</string>
+    <string name="how_to_lw_title">Wie funktioniert\'s?</string>
+    <string name="how_to_lw">Wechsle zum Hauptmenü von Papuh und wähle eine Hintergrund-Kategorie. Wähle danach einen Hintergrund aus, der dir gefällt und wähle</string>
+    <string name="how_to_try">Versuchen</string>
+    <string name="walls_count">Hintergründe zum Live-Hintergrund Pool hinzugefügt</string>
+    <string name="theme_fab_addLW">Live-Hintergrund Pool Taste</string>
+    <string name="apply_wall_title">Papuh Live festlegen</string>
+    <string name="triple_tap_to_jump">Drei mal auf den Hintergrund tippen, um diesen zu ändern</string>
+</resources>
