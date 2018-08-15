@@ -1,0 +1,341 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.github.yeriomin.dumbphoneassistant.w public final com.github.yeriomin.dumbphoneassistant.BuildConfig
+com.github.yeriomin.dumbphoneassistant.eval__    public com.github.yeriomin.dumbphoneassistant.BuildConfig$NullPointerException
+com.github.yeriomin.dumbphoneassistant.eval_a    public final com.github.yeriomin.dumbphoneassistant.R
+com.github.yeriomin.dumbphoneassistant.eval_b    public com.github.yeriomin.dumbphoneassistant.PhoneUtilDonut$IOException
+com.github.yeriomin.dumbphoneassistant.eval_c    public com.github.yeriomin.dumbphoneassistant.SimUtil
+com.github.yeriomin.dumbphoneassistant.eval_d    public com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter$NullPointerException
+com.github.yeriomin.dumbphoneassistant.eval_e    public com.github.yeriomin.dumbphoneassistant.PermissionManager$ArrayOutOfBoundsException
+com.github.yeriomin.dumbphoneassistant.eval_f    public com.github.yeriomin.dumbphoneassistant.PhoneUtil$IOException
+com.github.yeriomin.dumbphoneassistant.eval_g    public com.github.yeriomin.dumbphoneassistant.PermissionManager
+com.github.yeriomin.dumbphoneassistant.eval_h    public com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$3$IOException
+com.github.yeriomin.dumbphoneassistant.eval_i    public com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker$NullPointerException
+com.github.yeriomin.dumbphoneassistant.eval_j    public com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter$ParseException
+com.github.yeriomin.dumbphoneassistant.eval_k    public com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$ArrayOutOfBoundsException
+com.github.yeriomin.dumbphoneassistant.eval_l    public com.github.yeriomin.dumbphoneassistant.DumbphoneAssistantPreferenceActivity$NullPointerException
+com.github.yeriomin.dumbphoneassistant.eval_m    public com.github.yeriomin.dumbphoneassistant.Util$IOException
+com.github.yeriomin.dumbphoneassistant.eval_n    public abstract com.github.yeriomin.dumbphoneassistant.PhoneUtil
+com.github.yeriomin.dumbphoneassistant.eval_o    public com.github.yeriomin.dumbphoneassistant.PhoneUtilEclair$Exception
+com.github.yeriomin.dumbphoneassistant.eval_p    public com.github.yeriomin.dumbphoneassistant.PhoneUtilEclair
+com.github.yeriomin.dumbphoneassistant.eval_q    public abstract com.github.yeriomin.dumbphoneassistant.Util
+com.github.yeriomin.dumbphoneassistant.eval_r    public com.github.yeriomin.dumbphoneassistant.R$NullPointerException
+com.github.yeriomin.dumbphoneassistant.eval_s    public com.github.yeriomin.dumbphoneassistant.DumbphoneAssistantPreferenceActivity
+com.github.yeriomin.dumbphoneassistant.eval_t    public com.github.yeriomin.dumbphoneassistant.Contact$ArrayOutOfBoundsException
+com.github.yeriomin.dumbphoneassistant.eval_u    public com.github.yeriomin.dumbphoneassistant.Contact
+com.github.yeriomin.dumbphoneassistant.eval_v    public com.github.yeriomin.dumbphoneassistant.BuildConfig$1
+com.github.yeriomin.dumbphoneassistant.eval_x    public com.github.yeriomin.dumbphoneassistant.Contact$1
+com.github.yeriomin.dumbphoneassistant.eval_y    public com.github.yeriomin.dumbphoneassistant.PhoneUtilDonut
+com.github.yeriomin.dumbphoneassistant.eval_z    public com.github.yeriomin.dumbphoneassistant.SimUtil$ArrayOutOfBoundsException
+com.github.yeriomin.dumbphoneassistant.eval_a$c  public final com.github.yeriomin.dumbphoneassistant.R$style
+com.github.yeriomin.dumbphoneassistant.eval_a$e  public final com.github.yeriomin.dumbphoneassistant.R$dimen
+com.github.yeriomin.dumbphoneassistant.eval_a$f  public final com.github.yeriomin.dumbphoneassistant.R$xml
+com.github.yeriomin.dumbphoneassistant.eval_a$j  public final com.github.yeriomin.dumbphoneassistant.R$id
+com.github.yeriomin.dumbphoneassistant.eval_a$k  public final com.github.yeriomin.dumbphoneassistant.R$drawable
+com.github.yeriomin.dumbphoneassistant.eval_a$o  public final com.github.yeriomin.dumbphoneassistant.R$string
+com.github.yeriomin.dumbphoneassistant.eval_a$t  public final com.github.yeriomin.dumbphoneassistant.R$attr
+com.github.yeriomin.dumbphoneassistant.eval_a$u  public final com.github.yeriomin.dumbphoneassistant.R$mipmap
+com.github.yeriomin.dumbphoneassistant.eval_a$w  public final com.github.yeriomin.dumbphoneassistant.R$menu
+com.github.yeriomin.dumbphoneassistant.eval_a$y  public final com.github.yeriomin.dumbphoneassistant.R$layout
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$d  com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$i  com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$ContactRowAdapter
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$n  com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$q  com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$d$1        com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter$1
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$d$2        com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter$2
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$n$1        com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter$1
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$n$2        com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter$2
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$q$1        com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker$1
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$q$2        com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker$2
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$q$3        com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker$3
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$eval_j     com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$DeleteHandler
+-------------------------------------------------------------------------------
+
+com.github.yeriomin.dumbphoneassistant.BuildConfig       (com.github.yeriomin.dumbphoneassistant.w)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.BuildConfig$1     (com.github.yeriomin.dumbphoneassistant.eval_v)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.BuildConfig$NullPointerException  (com.github.yeriomin.dumbphoneassistant.eval__)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.Contact   (com.github.yeriomin.dumbphoneassistant.eval_u)
+===============================================================================
+  c        public getLabel()
+  i        public getName()
+  l        public getId()
+  m        public setName(java.lang.String)
+  u        public getNumber()
+  v        public setId(java.lang.String)
+  v        private compareStrings(java.lang.String,java.lang.String)
+  equals   public equals(java.lang.Object)
+
+com.github.yeriomin.dumbphoneassistant.Contact$1 (com.github.yeriomin.dumbphoneassistant.eval_x)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.Contact$ArrayOutOfBoundsException (com.github.yeriomin.dumbphoneassistant.eval_t)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.DumbphoneAssistantPreferenceActivity      (com.github.yeriomin.dumbphoneassistant.eval_s)
+===============================================================================
+  onCreate public onCreate(android.os.Bundle)
+
+com.github.yeriomin.dumbphoneassistant.DumbphoneAssistantPreferenceActivity$NullPointerException (com.github.yeriomin.dumbphoneassistant.eval_l)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity
+===============================================================================
+  a                            private refreshSimListView()
+  eval_h                       static access$700(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity)
+  eval_x                       private copyToPhone(com.github.yeriomin.dumbphoneassistant.Contact)
+  f                            static access$300(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,com.github.yeriomin.dumbphoneassistant.Contact)
+  g                            static access$000(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity)
+  g                            static access$600(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,com.github.yeriomin.dumbphoneassistant.Contact)
+  h                            private startContactEditActivity(com.github.yeriomin.dumbphoneassistant.Contact)
+  j                            private refreshPhoneListView()
+  j                            static access$500(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity)
+  l                            private deleteFromSim(com.github.yeriomin.dumbphoneassistant.Contact)
+  m                            static access$400(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,com.github.yeriomin.dumbphoneassistant.Contact)
+  n                            private copyToSim(com.github.yeriomin.dumbphoneassistant.Contact)
+  o                            static access$200(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity)
+  q                            private initListViews()
+  q                            static access$900(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity)
+  w                            static access$100(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,int,int,int)
+  y                            static access$800(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity,com.github.yeriomin.dumbphoneassistant.Contact)
+  y                            private initProgressDialog(int,int,int)
+  onActivityResult             protected onActivityResult(int,int,android.content.Intent)
+  onCreate                     public onCreate(android.os.Bundle)
+  onCreateOptionsMenu          public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected        public onOptionsItemSelected(android.view.MenuItem)
+  onRequestPermissionsResult   public onRequestPermissionsResult(int,java.lang.String[],int[])
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$1
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$2
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$3
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$3$1
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$3$IOException      (com.github.yeriomin.dumbphoneassistant.eval_h)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$ArrayOutOfBoundsException  (com.github.yeriomin.dumbphoneassistant.eval_k)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker (com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$q)
+===============================================================================
+  b    public setMode(int)
+  h    static access$1000(com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker)
+  run  public run()
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker$1       (com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$q$1)
+===============================================================================
+  run  public run()
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker$2       (com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$q$2)
+===============================================================================
+  run  public run()
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker$3       (com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$q$3)
+===============================================================================
+  run  public run()
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$BulkContactsWorker$NullPointerException    (com.github.yeriomin.dumbphoneassistant.eval_i)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$ContactRowAdapter  (com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$i)
+===============================================================================
+  b            public setListItemId(int)
+  getCount     public getCount()
+  getItem      public getItem(int)
+  getItemId    public getItemId(int)
+  getView      public getView(int,android.view.View,android.view.ViewGroup)
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$DeleteHandler      (com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$eval_j)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter    (com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$n)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter$1  (com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$n$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter$2  (com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$n$2)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$PhoneRowAdapter$ParseException     (com.github.yeriomin.dumbphoneassistant.eval_j)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter      (com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$d)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter$1    (com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$d$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter$2    (com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$d$2)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.github.yeriomin.dumbphoneassistant.ManageContactsActivity$SimRowAdapter$NullPointerException (com.github.yeriomin.dumbphoneassistant.eval_d)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.PermissionManager (com.github.yeriomin.dumbphoneassistant.eval_g)
+===============================================================================
+  g    public permissionsGranted()
+  i    public onRequestPermissionsResult(int,java.lang.String[],int[])
+
+com.github.yeriomin.dumbphoneassistant.PermissionManager$ArrayOutOfBoundsException       (com.github.yeriomin.dumbphoneassistant.eval_e)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.PhoneUtil (com.github.yeriomin.dumbphoneassistant.eval_n)
+===============================================================================
+  i    public abstract retrieveContactUri(com.github.yeriomin.dumbphoneassistant.Contact)
+
+com.github.yeriomin.dumbphoneassistant.PhoneUtil$IOException     (com.github.yeriomin.dumbphoneassistant.eval_f)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.PhoneUtilDonut    (com.github.yeriomin.dumbphoneassistant.eval_y)
+===============================================================================
+  f    public get()
+  i    public retrieveContactUri(com.github.yeriomin.dumbphoneassistant.Contact)
+  n    public create(com.github.yeriomin.dumbphoneassistant.Contact)
+
+com.github.yeriomin.dumbphoneassistant.PhoneUtilDonut$IOException        (com.github.yeriomin.dumbphoneassistant.eval_b)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.PhoneUtilEclair   (com.github.yeriomin.dumbphoneassistant.eval_p)
+===============================================================================
+  f    public get()
+  i    public retrieveContactUri(com.github.yeriomin.dumbphoneassistant.Contact)
+  n    public create(com.github.yeriomin.dumbphoneassistant.Contact)
+
+com.github.yeriomin.dumbphoneassistant.PhoneUtilEclair$Exception (com.github.yeriomin.dumbphoneassistant.eval_o)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.R (com.github.yeriomin.dumbphoneassistant.eval_a)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.R$NullPointerException    (com.github.yeriomin.dumbphoneassistant.eval_r)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.R$attr    (com.github.yeriomin.dumbphoneassistant.eval_a$t)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.R$dimen   (com.github.yeriomin.dumbphoneassistant.eval_a$e)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.R$drawable        (com.github.yeriomin.dumbphoneassistant.eval_a$k)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.R$id      (com.github.yeriomin.dumbphoneassistant.eval_a$j)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.R$layout  (com.github.yeriomin.dumbphoneassistant.eval_a$y)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.R$menu    (com.github.yeriomin.dumbphoneassistant.eval_a$w)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.R$mipmap  (com.github.yeriomin.dumbphoneassistant.eval_a$u)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.R$string  (com.github.yeriomin.dumbphoneassistant.eval_a$o)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.R$style   (com.github.yeriomin.dumbphoneassistant.eval_a$c)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.R$xml     (com.github.yeriomin.dumbphoneassistant.eval_a$f)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.SimUtil   (com.github.yeriomin.dumbphoneassistant.eval_c)
+===============================================================================
+  f    public get()
+  j    public delete(com.github.yeriomin.dumbphoneassistant.Contact)
+  n    public create(com.github.yeriomin.dumbphoneassistant.Contact)
+  t    private detectMaxContactNameLength()
+  w    private detectSimUri()
+  x    private getMaxContactNameLength()
+  z    public convertToSimContact(com.github.yeriomin.dumbphoneassistant.Contact)
+
+com.github.yeriomin.dumbphoneassistant.SimUtil$ArrayOutOfBoundsException (com.github.yeriomin.dumbphoneassistant.eval_z)
+===============================================================================
+  No methods
+
+com.github.yeriomin.dumbphoneassistant.Util      (com.github.yeriomin.dumbphoneassistant.eval_q)
+===============================================================================
+  f    public abstract get()
+  n    public abstract create(com.github.yeriomin.dumbphoneassistant.Contact)
+
+com.github.yeriomin.dumbphoneassistant.Util$IOException  (com.github.yeriomin.dumbphoneassistant.eval_m)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 111
+  Renamed to eval_g :   5 (4.5%)
+  Renamed to eval_q :   5 (4.5%)
+  Renamed to a      :   4 (3.6%)
+  Renamed to eval__ :   4 (3.6%)
+  Renamed to eval_b :   4 (3.6%)
+  Renamed to eval_l :   4 (3.6%)
+  Renamed to eval_r :   4 (3.6%)
+  Renamed to eval_a :   3 (2.7%)
+  Renamed to eval_c :   3 (2.7%)
+  Renamed to eval_f :   3 (2.7%)
+
+Number of Methods : 72
+  Renamed to f :   5 (6.9%)
+  Renamed to i :   5 (6.9%)
+  Renamed to n :   5 (6.9%)
+  Renamed to g :   3 (4.2%)
+  Renamed to j :   3 (4.2%)
+  Renamed to b :   2 (2.8%)
+  Renamed to h :   2 (2.8%)
+  Renamed to l :   2 (2.8%)
+  Renamed to m :   2 (2.8%)
+  Renamed to q :   2 (2.8%)
+

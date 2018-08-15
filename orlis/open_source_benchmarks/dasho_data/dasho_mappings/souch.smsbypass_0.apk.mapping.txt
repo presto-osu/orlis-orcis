@@ -1,0 +1,555 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+souch.smsbypass.c                public souch.smsbypass.BatteryFacade$1$ArrayOutOfBoundsException
+souch.smsbypass.eval__           public souch.smsbypass.Filter
+souch.smsbypass.eval_a           public souch.smsbypass.BatteryFacade$Exception
+souch.smsbypass.eval_b           public souch.smsbypass.FilterList$CheckableFilterListArrayAdapter$IOException
+souch.smsbypass.eval_d           public souch.smsbypass.BatteryFacade$2
+souch.smsbypass.eval_e           public souch.smsbypass.CheckableLinearLayout$ParseException
+souch.smsbypass.eval_f           public souch.smsbypass.Filter$ParseException
+souch.smsbypass.eval_g           public souch.smsbypass.FilterListPicker$ParseException
+souch.smsbypass.eval_h           public souch.smsbypass.BuildConfig$1
+souch.smsbypass.eval_i           public souch.smsbypass.MessageViewer
+souch.smsbypass.eval_j           public souch.smsbypass.C
+souch.smsbypass.eval_k           public souch.smsbypass.MessageList$ParseException
+souch.smsbypass.eval_l           public souch.smsbypass.MessageListFilter$MessageListArrayAdapter$ParseException
+souch.smsbypass.eval_m           public souch.smsbypass.FilterForm$ArrayOutOfBoundsException
+souch.smsbypass.eval_n           public souch.smsbypass.MessageList$MessageListArrayAdapter$ArrayOutOfBoundsException
+souch.smsbypass.eval_o           public souch.smsbypass.Message$IOException
+souch.smsbypass.eval_p           public souch.smsbypass.C$ParseException
+souch.smsbypass.eval_q           public final souch.smsbypass.BuildConfig
+souch.smsbypass.eval_r           public souch.smsbypass.FilterList
+souch.smsbypass.eval_s           public souch.smsbypass.MessageListFilter
+souch.smsbypass.eval_t           public souch.smsbypass.FilterForm
+souch.smsbypass.eval_u           public souch.smsbypass.BuildConfig$ParseException
+souch.smsbypass.eval_v           public souch.smsbypass.FilterListPicker
+souch.smsbypass.eval_w           public souch.smsbypass.Message
+souch.smsbypass.eval_x           public souch.smsbypass.MessageListFilter$IOException
+souch.smsbypass.eval_y           public souch.smsbypass.MessageList
+souch.smsbypass.eval_z           public souch.smsbypass.FilterList$ArrayOutOfBoundsException
+souch.smsbypass.eval_b6          public souch.smsbypass.UI$IOException
+souch.smsbypass.eval_dh          public souch.smsbypass.ViewsAdapter$IOException
+souch.smsbypass.eval_dk          public souch.smsbypass.ViewsAdapter
+souch.smsbypass.eval_do          public souch.smsbypass.TimeFormatter
+souch.smsbypass.eval_fp          public souch.smsbypass.Notifier
+souch.smsbypass.eval_hf          souch.smsbypass.SimpleListItem2
+souch.smsbypass.eval_iz          public souch.smsbypass.Notifier$Exception
+souch.smsbypass.eval_j2          public souch.smsbypass.Settings
+souch.smsbypass.eval_jb          public souch.smsbypass.Settings$Exception
+souch.smsbypass.eval_og          public souch.smsbypass.TimeFormatter$Exception
+souch.smsbypass.eval_pt          public final souch.smsbypass.R
+souch.smsbypass.eval_qr          public souch.smsbypass.MessageViewer$Exception
+souch.smsbypass.eval_rx          public souch.smsbypass.R$ParseException
+souch.smsbypass.eval_sn          public souch.smsbypass.SMSReceiver$ParseException
+souch.smsbypass.eval_sq          public souch.smsbypass.SimpleListItem2$ArrayOutOfBoundsException
+souch.smsbypass.eval_y4          public souch.smsbypass.UI
+souch.smsbypass.eval_i$1         souch.smsbypass.MessageViewer$1
+souch.smsbypass.eval_r$1         souch.smsbypass.FilterList$1
+souch.smsbypass.eval_r$2         souch.smsbypass.FilterList$2
+souch.smsbypass.eval_r$w         souch.smsbypass.FilterList$CheckableFilterListArrayAdapter
+souch.smsbypass.eval_s$1         souch.smsbypass.MessageListFilter$1
+souch.smsbypass.eval_s$2         souch.smsbypass.MessageListFilter$2
+souch.smsbypass.eval_s$3         souch.smsbypass.MessageListFilter$3
+souch.smsbypass.eval_s$4         souch.smsbypass.MessageListFilter$4
+souch.smsbypass.eval_s$b         souch.smsbypass.MessageListFilter$MessageListArrayAdapter
+souch.smsbypass.eval_t$1         souch.smsbypass.FilterForm$1
+souch.smsbypass.eval_t$2         souch.smsbypass.FilterForm$2
+souch.smsbypass.eval_v$1         souch.smsbypass.FilterListPicker$1
+souch.smsbypass.eval_v$c         souch.smsbypass.FilterListPicker$FilterListArrayAdapter
+souch.smsbypass.eval_v$d         souch.smsbypass.FilterListPicker$ViewHolder
+souch.smsbypass.eval_y$1         souch.smsbypass.MessageList$1
+souch.smsbypass.eval_y$2         souch.smsbypass.MessageList$2
+souch.smsbypass.eval_y$3         souch.smsbypass.MessageList$3
+souch.smsbypass.eval_y$4         souch.smsbypass.MessageList$4
+souch.smsbypass.eval_y$k         souch.smsbypass.MessageList$MessageListArrayAdapter
+souch.smsbypass.eval_pt$l        public final souch.smsbypass.R$drawable
+souch.smsbypass.eval_pt$p        public final souch.smsbypass.R$id
+souch.smsbypass.eval_pt$t        public final souch.smsbypass.R$layout
+souch.smsbypass.eval_pt$u        public final souch.smsbypass.R$attr
+souch.smsbypass.eval_r$w$s       souch.smsbypass.FilterList$CheckableFilterListArrayAdapter$ViewHolder
+souch.smsbypass.eval_s$b$m       souch.smsbypass.MessageListFilter$MessageListArrayAdapter$ViewHolder
+souch.smsbypass.eval_y$k$q       souch.smsbypass.MessageList$MessageListArrayAdapter$ViewHolder
+souch.smsbypass.eval_pt$eval_c   public final souch.smsbypass.R$string
+souch.smsbypass.eval_pt$eval_y   public final souch.smsbypass.R$menu
+-------------------------------------------------------------------------------
+
+souch.smsbypass.BatteryFacade
+===============================================================================
+  c                private stopHowto()
+  eval_o           static access$000(souch.smsbypass.BatteryFacade)
+  n                static access$200(souch.smsbypass.BatteryFacade)
+  o                private startSMSbypass()
+  q                static access$400(souch.smsbypass.BatteryFacade)
+  s                public static GetBatteryLevel(android.content.Context)
+  s                static access$100(souch.smsbypass.BatteryFacade)
+  w                static access$300(souch.smsbypass.BatteryFacade)
+  y                static access$102(souch.smsbypass.BatteryFacade,boolean)
+  z                static access$002(souch.smsbypass.BatteryFacade,long)
+  closeEverything  public closeEverything(android.view.View)
+  onCreate         protected onCreate(android.os.Bundle)
+  onStart          protected onStart()
+
+souch.smsbypass.BatteryFacade$1
+===============================================================================
+  onTouch  public onTouch(android.view.View,android.view.MotionEvent)
+
+souch.smsbypass.BatteryFacade$1$1
+===============================================================================
+  run  public run()
+
+souch.smsbypass.BatteryFacade$1$ArrayOutOfBoundsException        (souch.smsbypass.c)
+===============================================================================
+  No methods
+
+souch.smsbypass.BatteryFacade$2  (souch.smsbypass.eval_d)
+===============================================================================
+  No methods
+
+souch.smsbypass.BatteryFacade$Exception  (souch.smsbypass.eval_a)
+===============================================================================
+  No methods
+
+souch.smsbypass.BuildConfig      (souch.smsbypass.eval_q)
+===============================================================================
+  No methods
+
+souch.smsbypass.BuildConfig$1    (souch.smsbypass.eval_h)
+===============================================================================
+  No methods
+
+souch.smsbypass.BuildConfig$ParseException       (souch.smsbypass.eval_u)
+===============================================================================
+  No methods
+
+souch.smsbypass.C        (souch.smsbypass.eval_j)
+===============================================================================
+  No methods
+
+souch.smsbypass.C$ParseException (souch.smsbypass.eval_p)
+===============================================================================
+  No methods
+
+souch.smsbypass.CheckableLinearLayout
+===============================================================================
+  n                public static build(android.content.Context,int,java.lang.String,java.lang.String)
+  t                private findCheckableView(android.view.ViewGroup)
+  isChecked        public isChecked()
+  onFinishInflate  protected onFinishInflate()
+  setChecked       public setChecked(boolean)
+  toggle           public toggle()
+
+souch.smsbypass.CheckableLinearLayout$ParseException     (souch.smsbypass.eval_e)
+===============================================================================
+  No methods
+
+souch.smsbypass.Filter   (souch.smsbypass.eval__)
+===============================================================================
+  No methods
+
+souch.smsbypass.Filter$ParseException    (souch.smsbypass.eval_f)
+===============================================================================
+  No methods
+
+souch.smsbypass.FilterForm       (souch.smsbypass.eval_t)
+===============================================================================
+  i                    private getContentFilters()
+  j                    private addContentFilter(java.lang.String)
+  j                    static access$000(souch.smsbypass.FilterForm)
+  m                    private showTextViewError(int,java.lang.String)
+  x                    private getContentFilterWidgets()
+  y                    private goBackToFilterList()
+  onActivityResult     public onActivityResult(int,int,android.content.Intent)
+  onAddContentFilter   public onAddContentFilter(android.view.View)
+  onCancel             public onCancel(android.view.View)
+  onChooseContact      public onChooseContact(android.view.View)
+  onCreate             public onCreate(android.os.Bundle)
+  onKeyUp              public onKeyUp(int,android.view.KeyEvent)
+  onOK                 public onOK(android.view.View)
+
+souch.smsbypass.FilterForm$1     (souch.smsbypass.eval_t$1)
+===============================================================================
+  afterTextChanged     public afterTextChanged(android.text.Editable)
+  beforeTextChanged    public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  onTextChanged        public onTextChanged(java.lang.CharSequence,int,int,int)
+
+souch.smsbypass.FilterForm$2     (souch.smsbypass.eval_t$2)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+souch.smsbypass.FilterForm$ArrayOutOfBoundsException     (souch.smsbypass.eval_m)
+===============================================================================
+  No methods
+
+souch.smsbypass.FilterList       (souch.smsbypass.eval_r)
+===============================================================================
+  e                        private removeAdapterItem(int)
+  h                        static access$400(souch.smsbypass.FilterList)
+  j                        private refreshList()
+  n                        private getListItem(int)
+  n                        static access$100(souch.smsbypass.FilterList)
+  o                        private getCheckedItems()
+  o                        private replaceListItems(java.util.List)
+  p                        private delete()
+  p                        static access$300(souch.smsbypass.FilterList,int)
+  t                        private getFilterNameFromMenuInfo(android.view.ContextMenu$ContextMenuInfo)
+  v                        static access$200(souch.smsbypass.FilterList)
+  onActivityResult         protected onActivityResult(int,int,android.content.Intent)
+  onAdd                    public onAdd(android.view.View)
+  onConfirmDelete          public onConfirmDelete(android.view.View)
+  onContextItemSelected    public onContextItemSelected(android.view.MenuItem)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateContextMenu      public onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+  onKeyUp                  public onKeyUp(int,android.view.KeyEvent)
+  onStop                   protected onStop()
+
+souch.smsbypass.FilterList$1     (souch.smsbypass.eval_r$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+souch.smsbypass.FilterList$2     (souch.smsbypass.eval_r$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+souch.smsbypass.FilterList$ArrayOutOfBoundsException     (souch.smsbypass.eval_z)
+===============================================================================
+  No methods
+
+souch.smsbypass.FilterList$CheckableFilterListArrayAdapter       (souch.smsbypass.eval_r$w)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+souch.smsbypass.FilterList$CheckableFilterListArrayAdapter$IOException   (souch.smsbypass.eval_b)
+===============================================================================
+  No methods
+
+souch.smsbypass.FilterList$CheckableFilterListArrayAdapter$ViewHolder    (souch.smsbypass.eval_r$w$s)
+===============================================================================
+  No methods
+
+souch.smsbypass.FilterListPicker (souch.smsbypass.eval_v)
+===============================================================================
+  h                private replaceListItems(java.util.List)
+  o                private refreshList()
+  o                private returnFilterName(java.lang.String)
+  v                static access$200(souch.smsbypass.FilterListPicker,java.lang.String)
+  y                static access$100(souch.smsbypass.FilterListPicker)
+  onActivityResult public onActivityResult(int,int,android.content.Intent)
+  onChooseContact  public onChooseContact(android.view.View)
+  onCreate         public onCreate(android.os.Bundle)
+  onKeyUp          public onKeyUp(int,android.view.KeyEvent)
+
+souch.smsbypass.FilterListPicker$1       (souch.smsbypass.eval_v$1)
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+souch.smsbypass.FilterListPicker$FilterListArrayAdapter  (souch.smsbypass.eval_v$c)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+souch.smsbypass.FilterListPicker$ParseException  (souch.smsbypass.eval_g)
+===============================================================================
+  No methods
+
+souch.smsbypass.FilterListPicker$ViewHolder      (souch.smsbypass.eval_v$d)
+===============================================================================
+  No methods
+
+souch.smsbypass.Message  (souch.smsbypass.eval_w)
+===============================================================================
+  No methods
+
+souch.smsbypass.Message$IOException      (souch.smsbypass.eval_o)
+===============================================================================
+  No methods
+
+souch.smsbypass.MessageList      (souch.smsbypass.eval_y)
+===============================================================================
+  c                        private refreshList()
+  g                        static access$500(souch.smsbypass.MessageList)
+  h                        private startFilterListActivity(java.lang.String)
+  i                        private deleteAll()
+  r                        static access$100(souch.smsbypass.MessageList)
+  t                        static access$400(souch.smsbypass.MessageList)
+  u                        public confirmDeleteAll()
+  w                        static access$300(souch.smsbypass.MessageList)
+  w                        static access$200(souch.smsbypass.MessageList,java.lang.String)
+  onActivityResult         public onActivityResult(int,int,android.content.Intent)
+  onContextItemSelected    public onContextItemSelected(android.view.MenuItem)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateContextMenu      public onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onKeyUp                  public onKeyUp(int,android.view.KeyEvent)
+  onNewMsg                 public onNewMsg(android.view.View)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPause                  protected onPause()
+  onResume                 protected onResume()
+  onStop                   protected onStop()
+
+souch.smsbypass.MessageList$1    (souch.smsbypass.eval_y$1)
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+souch.smsbypass.MessageList$2    (souch.smsbypass.eval_y$2)
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+souch.smsbypass.MessageList$3    (souch.smsbypass.eval_y$3)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+souch.smsbypass.MessageList$4    (souch.smsbypass.eval_y$4)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+souch.smsbypass.MessageList$MessageListArrayAdapter      (souch.smsbypass.eval_y$k)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+souch.smsbypass.MessageList$MessageListArrayAdapter$ArrayOutOfBoundsException    (souch.smsbypass.eval_n)
+===============================================================================
+  No methods
+
+souch.smsbypass.MessageList$MessageListArrayAdapter$ViewHolder   (souch.smsbypass.eval_y$k$q)
+===============================================================================
+  No methods
+
+souch.smsbypass.MessageList$ParseException       (souch.smsbypass.eval_k)
+===============================================================================
+  No methods
+
+souch.smsbypass.MessageListFilter        (souch.smsbypass.eval_s)
+===============================================================================
+  a                        static access$100(souch.smsbypass.MessageListFilter)
+  c                        static access$200(souch.smsbypass.MessageListFilter,long)
+  d                        static access$300(souch.smsbypass.MessageListFilter)
+  e                        private startViewerActivity(long)
+  eval_m                   private exportMessages()
+  g                        static access$400(souch.smsbypass.MessageListFilter)
+  h                        private deleteAll()
+  h                        static access$500(souch.smsbypass.MessageListFilter)
+  i                        private refreshList()
+  z                        public confirmDeleteAll()
+  onActivityResult         protected onActivityResult(int,int,android.content.Intent)
+  onContextItemSelected    public onContextItemSelected(android.view.MenuItem)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateContextMenu      public onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onKeyUp                  public onKeyUp(int,android.view.KeyEvent)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPause                  protected onPause()
+  onResume                 protected onResume()
+  onSendMessage            public onSendMessage(android.view.View)
+  onStop                   protected onStop()
+
+souch.smsbypass.MessageListFilter$1      (souch.smsbypass.eval_s$1)
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+souch.smsbypass.MessageListFilter$2      (souch.smsbypass.eval_s$2)
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+souch.smsbypass.MessageListFilter$3      (souch.smsbypass.eval_s$3)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+souch.smsbypass.MessageListFilter$4      (souch.smsbypass.eval_s$4)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+souch.smsbypass.MessageListFilter$IOException    (souch.smsbypass.eval_x)
+===============================================================================
+  No methods
+
+souch.smsbypass.MessageListFilter$MessageListArrayAdapter        (souch.smsbypass.eval_s$b)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+souch.smsbypass.MessageListFilter$MessageListArrayAdapter$ParseException (souch.smsbypass.eval_l)
+===============================================================================
+  No methods
+
+souch.smsbypass.MessageListFilter$MessageListArrayAdapter$ViewHolder     (souch.smsbypass.eval_s$b$m)
+===============================================================================
+  No methods
+
+souch.smsbypass.MessageViewer    (souch.smsbypass.eval_i)
+===============================================================================
+  h                private delete()
+  r                private goBack()
+  v                static access$000(souch.smsbypass.MessageViewer)
+  onConfirmDelete  public onConfirmDelete(android.view.View)
+  onCreate         public onCreate(android.os.Bundle)
+  onKeyUp          public onKeyUp(int,android.view.KeyEvent)
+  onStop           protected onStop()
+
+souch.smsbypass.MessageViewer$1  (souch.smsbypass.eval_i$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+souch.smsbypass.MessageViewer$Exception  (souch.smsbypass.eval_qr)
+===============================================================================
+  No methods
+
+souch.smsbypass.Notifier (souch.smsbypass.eval_fp)
+===============================================================================
+  k    public static cancel(android.content.Context,int)
+  q    public static build(int,java.lang.CharSequence)
+  u    public static cancel(android.content.Context,java.lang.String,int)
+  v    public static notify(android.content.Context,java.lang.String,int,android.app.Notification)
+  x    private static getManager(android.content.Context)
+  z    public static notify(android.content.Context,int,android.app.Notification)
+
+souch.smsbypass.Notifier$Exception       (souch.smsbypass.eval_iz)
+===============================================================================
+  No methods
+
+souch.smsbypass.R        (souch.smsbypass.eval_pt)
+===============================================================================
+  No methods
+
+souch.smsbypass.R$ParseException (souch.smsbypass.eval_rx)
+===============================================================================
+  No methods
+
+souch.smsbypass.R$attr   (souch.smsbypass.eval_pt$u)
+===============================================================================
+  No methods
+
+souch.smsbypass.R$drawable       (souch.smsbypass.eval_pt$l)
+===============================================================================
+  No methods
+
+souch.smsbypass.R$id     (souch.smsbypass.eval_pt$p)
+===============================================================================
+  No methods
+
+souch.smsbypass.R$layout (souch.smsbypass.eval_pt$t)
+===============================================================================
+  No methods
+
+souch.smsbypass.R$menu   (souch.smsbypass.eval_pt$eval_y)
+===============================================================================
+  No methods
+
+souch.smsbypass.R$string (souch.smsbypass.eval_pt$eval_c)
+===============================================================================
+  No methods
+
+souch.smsbypass.SMSReceiver
+===============================================================================
+  f            private contentFiltersMatch(java.util.List,java.lang.String)
+  i            private addressMatchContact(java.lang.String,java.util.ArrayList)
+  o            private vibrate(android.content.Context)
+  y            private shouldBlockMessage(android.content.Context,java.lang.String,java.lang.String)
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+souch.smsbypass.SMSReceiver$ParseException       (souch.smsbypass.eval_sn)
+===============================================================================
+  No methods
+
+souch.smsbypass.Settings (souch.smsbypass.eval_j2)
+===============================================================================
+  a                    public saveMessage(java.lang.String,java.lang.String,long,long,java.lang.String)
+  b                    public getFilters()
+  b                    public setFirstStart(boolean)
+  b                    public getSetting(java.lang.String,java.lang.String)
+  d                    public getContentFilters(java.lang.String)
+  d                    public deleteMessage(long)
+  e                    public getFirstStart()
+  eval_h               public getContacts(java.lang.String)
+  eval_t               public getFilterAddress(java.lang.String)
+  eval_v               private showMessageNotification(long)
+  f                    public saveFilter(souch.smsbypass.Filter)
+  g                    public isFilterNameUsed(java.lang.String)
+  h                    private getMessageFromCursor(android.database.Cursor)
+  h                    public getMessages(java.lang.String,java.lang.Boolean)
+  k                    public saveDraftMessage(java.lang.String,java.lang.String,java.lang.String)
+  l                    public getVibrate()
+  l                    public getDraftMessage(java.lang.String)
+  m                    public getMessage(long)
+  n                    public getMessages()
+  n                    public setSetting(java.lang.String,java.lang.String)
+  o                    public setVibrate(boolean)
+  p                    public deleteDraftMessage(java.lang.String)
+  q                    public deleteFilter(java.lang.String)
+  t                    public setSaveMessages(boolean)
+  t                    public getFilterByName(java.lang.String)
+  u                    public tryUpgradeDB()
+  v                    public findFilterByName(java.lang.String)
+  w                    public saveMessages()
+  w                    public getContactAddress(java.lang.String)
+  getWritableDatabase  public getWritableDatabase()
+  onCreate             public onCreate(android.database.sqlite.SQLiteDatabase)
+  onUpgrade            public onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+
+souch.smsbypass.Settings$Exception       (souch.smsbypass.eval_jb)
+===============================================================================
+  No methods
+
+souch.smsbypass.SimpleListItem2  (souch.smsbypass.eval_hf)
+===============================================================================
+  c    public static build(android.content.Context,int,java.lang.String,java.lang.String)
+
+souch.smsbypass.SimpleListItem2$ArrayOutOfBoundsException        (souch.smsbypass.eval_sq)
+===============================================================================
+  No methods
+
+souch.smsbypass.TimeFormatter    (souch.smsbypass.eval_do)
+===============================================================================
+  p    public static f(android.content.Context,long,int)
+
+souch.smsbypass.TimeFormatter$Exception  (souch.smsbypass.eval_og)
+===============================================================================
+  No methods
+
+souch.smsbypass.UI       (souch.smsbypass.eval_y4)
+===============================================================================
+  a                private showAppMayNotWorkWarning()
+  onCreate         public onCreate(android.os.Bundle)
+  onDestroy        public onDestroy()
+  onListItemClick  public onListItemClick(android.widget.ListView,android.view.View,int,long)
+  onStop           protected onStop()
+
+souch.smsbypass.UI$IOException   (souch.smsbypass.eval_b6)
+===============================================================================
+  No methods
+
+souch.smsbypass.ViewsAdapter     (souch.smsbypass.eval_dk)
+===============================================================================
+  getCount         public getCount()
+  getItem          public getItem(int)
+  getItemId        public getItemId(int)
+  getItemViewType  public getItemViewType(int)
+  getView          public getView(int,android.view.View,android.view.ViewGroup)
+  getViewTypeCount public getViewTypeCount()
+
+souch.smsbypass.ViewsAdapter$IOException (souch.smsbypass.eval_dh)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 256
+  Renamed to eval_d :  10 (3.9%)
+  Renamed to eval_g :   8 (3.1%)
+  Renamed to eval_h :   8 (3.1%)
+  Renamed to eval_l :   8 (3.1%)
+  Renamed to eval_t :   8 (3.1%)
+  Renamed to eval_z :   8 (3.1%)
+  Renamed to eval_c :   7 (2.7%)
+  Renamed to eval_e :   7 (2.7%)
+  Renamed to eval_i :   7 (2.7%)
+  Renamed to eval_j :   7 (2.7%)
+
+Number of Methods : 186
+  Renamed to h :   8 (4.3%)
+  Renamed to o :   7 (3.8%)
+  Renamed to n :   6 (3.2%)
+  Renamed to t :   5 (2.7%)
+  Renamed to v :   5 (2.7%)
+  Renamed to w :   5 (2.7%)
+  Renamed to c :   4 (2.2%)
+  Renamed to i :   4 (2.2%)
+  Renamed to p :   4 (2.2%)
+  Renamed to y :   4 (2.2%)
+

@@ -1,0 +1,192 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.github.wakhub.tinyclock.c    public final com.github.wakhub.tinyclock.BuildConfig
+com.github.wakhub.tinyclock.eval__       public com.github.wakhub.tinyclock.R$Exception
+com.github.wakhub.tinyclock.eval_a       public com.github.wakhub.tinyclock.UpdateService$ArrayOutOfBoundsException
+com.github.wakhub.tinyclock.eval_d       public com.github.wakhub.tinyclock.SettingsActivity
+com.github.wakhub.tinyclock.eval_g       public final com.github.wakhub.tinyclock.R
+com.github.wakhub.tinyclock.eval_k       public com.github.wakhub.tinyclock.UpdateService
+com.github.wakhub.tinyclock.eval_l       public com.github.wakhub.tinyclock.R$1
+com.github.wakhub.tinyclock.eval_m       public com.github.wakhub.tinyclock.BuildConfig$Exception
+com.github.wakhub.tinyclock.eval_n       public com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$ArrayOutOfBoundsException
+com.github.wakhub.tinyclock.eval_o       public com.github.wakhub.tinyclock.TinyClockAppWidget$ArrayOutOfBoundsException
+com.github.wakhub.tinyclock.eval_q       public com.github.wakhub.tinyclock.BuildConfig$1
+com.github.wakhub.tinyclock.eval_s       public com.github.wakhub.tinyclock.Settings
+com.github.wakhub.tinyclock.eval_t       public com.github.wakhub.tinyclock.Settings$ArrayOutOfBoundsException
+com.github.wakhub.tinyclock.eval_z       public com.github.wakhub.tinyclock.SettingsActivity$Exception
+com.github.wakhub.tinyclock.eval_d$x     public final com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment
+com.github.wakhub.tinyclock.eval_g$i     public final com.github.wakhub.tinyclock.R$dimen
+com.github.wakhub.tinyclock.eval_g$m     public final com.github.wakhub.tinyclock.R$drawable
+com.github.wakhub.tinyclock.eval_g$o     public final com.github.wakhub.tinyclock.R$attr
+com.github.wakhub.tinyclock.eval_g$v     public final com.github.wakhub.tinyclock.R$id
+com.github.wakhub.tinyclock.eval_g$x     public final com.github.wakhub.tinyclock.R$xml
+com.github.wakhub.tinyclock.eval_g$y     public final com.github.wakhub.tinyclock.R$layout
+com.github.wakhub.tinyclock.eval_d$x$1   com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$1
+com.github.wakhub.tinyclock.eval_d$x$2   com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$2
+com.github.wakhub.tinyclock.eval_d$x$3   com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$3
+com.github.wakhub.tinyclock.eval_d$x$4   com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$4
+com.github.wakhub.tinyclock.eval_d$x$5   com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$5
+com.github.wakhub.tinyclock.eval_d$x$6   com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$6
+com.github.wakhub.tinyclock.eval_g$eval_t        public final com.github.wakhub.tinyclock.R$string
+-------------------------------------------------------------------------------
+
+com.github.wakhub.tinyclock.BuildConfig  (com.github.wakhub.tinyclock.c)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.BuildConfig$1        (com.github.wakhub.tinyclock.eval_q)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.BuildConfig$Exception        (com.github.wakhub.tinyclock.eval_m)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.R    (com.github.wakhub.tinyclock.eval_g)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.R$1  (com.github.wakhub.tinyclock.eval_l)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.R$Exception  (com.github.wakhub.tinyclock.eval__)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.R$attr       (com.github.wakhub.tinyclock.eval_g$o)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.R$dimen      (com.github.wakhub.tinyclock.eval_g$i)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.R$drawable   (com.github.wakhub.tinyclock.eval_g$m)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.R$id (com.github.wakhub.tinyclock.eval_g$v)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.R$layout     (com.github.wakhub.tinyclock.eval_g$y)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.R$string     (com.github.wakhub.tinyclock.eval_g$eval_t)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.R$xml        (com.github.wakhub.tinyclock.eval_g$x)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.Settings     (com.github.wakhub.tinyclock.eval_s)
+===============================================================================
+  eval_w   public getTextColorString()
+  i        public getBackgroundColor()
+  k        public getTextColor()
+  l        public getBackgroundColorString()
+  u        private onParseError(java.lang.IllegalArgumentException)
+  z        public getBackgroundBitmap(int,int)
+
+com.github.wakhub.tinyclock.Settings$ArrayOutOfBoundsException   (com.github.wakhub.tinyclock.eval_t)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.SettingsActivity     (com.github.wakhub.tinyclock.eval_d)
+===============================================================================
+  k                        static access$000()
+  u                        static access$400()
+  onCreate                 protected onCreate(android.os.Bundle)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+
+com.github.wakhub.tinyclock.SettingsActivity$Exception   (com.github.wakhub.tinyclock.eval_z)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment    (com.github.wakhub.tinyclock.eval_d$x)
+===============================================================================
+  c        static access$200(com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment)
+  d        static access$100(com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment)
+  eval_y   private updateWidget()
+  h        static access$300(com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment)
+  i        private onClickOpenClockApp()
+  k        private onNameNotFound(android.content.pm.PackageManager$NameNotFoundException)
+  n        private showResetStyleDialog()
+  onCreate public onCreate(android.os.Bundle)
+  onPause  public onPause()
+
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$1  (com.github.wakhub.tinyclock.eval_d$x$1)
+===============================================================================
+  onPreferenceChange   public onPreferenceChange(android.preference.Preference,java.lang.Object)
+
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$2  (com.github.wakhub.tinyclock.eval_d$x$2)
+===============================================================================
+  onPreferenceClick    public onPreferenceClick(android.preference.Preference)
+
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$3  (com.github.wakhub.tinyclock.eval_d$x$3)
+===============================================================================
+  onPreferenceClick    public onPreferenceClick(android.preference.Preference)
+
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$4  (com.github.wakhub.tinyclock.eval_d$x$4)
+===============================================================================
+  onPreferenceClick    public onPreferenceClick(android.preference.Preference)
+
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$5  (com.github.wakhub.tinyclock.eval_d$x$5)
+===============================================================================
+  onPreferenceClick    public onPreferenceClick(android.preference.Preference)
+
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$6  (com.github.wakhub.tinyclock.eval_d$x$6)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.github.wakhub.tinyclock.SettingsActivity$SettingsFragment$ArrayOutOfBoundsException  (com.github.wakhub.tinyclock.eval_n)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.TinyClockAppWidget
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+  onUpdate     public onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])
+
+com.github.wakhub.tinyclock.TinyClockAppWidget$ArrayOutOfBoundsException (com.github.wakhub.tinyclock.eval_o)
+===============================================================================
+  No methods
+
+com.github.wakhub.tinyclock.UpdateService        (com.github.wakhub.tinyclock.eval_k)
+===============================================================================
+  eval_z           private updateWidget(int)
+  onBind           public onBind(android.content.Intent)
+  onStartCommand   public onStartCommand(android.content.Intent,int,int)
+
+com.github.wakhub.tinyclock.UpdateService$ArrayOutOfBoundsException      (com.github.wakhub.tinyclock.eval_a)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 62
+  Renamed to eval_x :   4 (6.5%)
+  Renamed to eval_a :   3 (4.8%)
+  Renamed to eval_e :   3 (4.8%)
+  Renamed to f      :   3 (4.8%)
+  Renamed to q      :   3 (4.8%)
+  Renamed to w      :   3 (4.8%)
+  Renamed to eval_b :   2 (3.2%)
+  Renamed to eval_d :   2 (3.2%)
+  Renamed to eval_f :   2 (3.2%)
+  Renamed to eval_g :   2 (3.2%)
+
+Number of Methods : 30
+  Renamed to k      :   3 (10.0%)
+  Renamed to i      :   2 (6.7%)
+  Renamed to u      :   2 (6.7%)
+  Renamed to c      :   1 (3.3%)
+  Renamed to d      :   1 (3.3%)
+  Renamed to eval_w :   1 (3.3%)
+  Renamed to eval_y :   1 (3.3%)
+  Renamed to eval_z :   1 (3.3%)
+  Renamed to h      :   1 (3.3%)
+  Renamed to l      :   1 (3.3%)
+

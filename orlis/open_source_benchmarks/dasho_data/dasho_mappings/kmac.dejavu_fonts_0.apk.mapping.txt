@@ -1,0 +1,58 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+kmac.dejavu_fonts.t              public final kmac.dejavu_fonts.BuildConfig
+kmac.dejavu_fonts.eval_d         public kmac.dejavu_fonts.R$1
+kmac.dejavu_fonts.eval_m         public kmac.dejavu_fonts.BuildConfig$Exception
+kmac.dejavu_fonts.eval_n         public kmac.dejavu_fonts.R$Exception
+kmac.dejavu_fonts.eval_o         public kmac.dejavu_fonts.BuildConfig$1
+kmac.dejavu_fonts.eval_z         public final kmac.dejavu_fonts.R
+kmac.dejavu_fonts.eval_z$_       public final kmac.dejavu_fonts.R$attr
+kmac.dejavu_fonts.eval_z$l       public final kmac.dejavu_fonts.R$drawable
+kmac.dejavu_fonts.eval_z$p       public final kmac.dejavu_fonts.R$style
+kmac.dejavu_fonts.eval_z$t       public final kmac.dejavu_fonts.R$string
+-------------------------------------------------------------------------------
+
+kmac.dejavu_fonts.BuildConfig    (kmac.dejavu_fonts.t)
+===============================================================================
+  No methods
+
+kmac.dejavu_fonts.BuildConfig$1  (kmac.dejavu_fonts.eval_o)
+===============================================================================
+  No methods
+
+kmac.dejavu_fonts.BuildConfig$Exception  (kmac.dejavu_fonts.eval_m)
+===============================================================================
+  No methods
+
+kmac.dejavu_fonts.R      (kmac.dejavu_fonts.eval_z)
+===============================================================================
+  No methods
+
+kmac.dejavu_fonts.R$1    (kmac.dejavu_fonts.eval_d)
+===============================================================================
+  No methods
+
+kmac.dejavu_fonts.R$Exception    (kmac.dejavu_fonts.eval_n)
+===============================================================================
+  No methods
+
+kmac.dejavu_fonts.R$attr (kmac.dejavu_fonts.eval_z$_)
+===============================================================================
+  No methods
+
+kmac.dejavu_fonts.R$drawable     (kmac.dejavu_fonts.eval_z$l)
+===============================================================================
+  No methods
+
+kmac.dejavu_fonts.R$string       (kmac.dejavu_fonts.eval_z$t)
+===============================================================================
+  No methods
+
+kmac.dejavu_fonts.R$style        (kmac.dejavu_fonts.eval_z$p)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 12
+
+Number of Methods : 0

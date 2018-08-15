@@ -1,0 +1,75 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.nightshadelabs.anotherbrowser.q      public com.nightshadelabs.anotherbrowser.AnotherBrowserActivity$1
+com.nightshadelabs.anotherbrowser.eval__ public com.nightshadelabs.anotherbrowser.BuildConfig$NullPointerException
+com.nightshadelabs.anotherbrowser.eval_e public final com.nightshadelabs.anotherbrowser.BuildConfig
+com.nightshadelabs.anotherbrowser.eval_h public com.nightshadelabs.anotherbrowser.AnotherBrowserActivity$ArrayOutOfBoundsException
+com.nightshadelabs.anotherbrowser.eval_i public com.nightshadelabs.anotherbrowser.BuildConfig$1
+com.nightshadelabs.anotherbrowser.eval_j public final com.nightshadelabs.anotherbrowser.R
+com.nightshadelabs.anotherbrowser.eval_p public com.nightshadelabs.anotherbrowser.R$NullPointerException
+com.nightshadelabs.anotherbrowser.eval_j$k       public final com.nightshadelabs.anotherbrowser.R$mipmap
+com.nightshadelabs.anotherbrowser.eval_j$o       public final com.nightshadelabs.anotherbrowser.R$attr
+com.nightshadelabs.anotherbrowser.eval_j$q       public final com.nightshadelabs.anotherbrowser.R$string
+-------------------------------------------------------------------------------
+
+com.nightshadelabs.anotherbrowser.AnotherBrowserActivity
+===============================================================================
+  s        private findUrlInString(java.lang.String)
+  onCreate public onCreate(android.os.Bundle)
+
+com.nightshadelabs.anotherbrowser.AnotherBrowserActivity$1       (com.nightshadelabs.anotherbrowser.q)
+===============================================================================
+  No methods
+
+com.nightshadelabs.anotherbrowser.AnotherBrowserActivity$ArrayOutOfBoundsException       (com.nightshadelabs.anotherbrowser.eval_h)
+===============================================================================
+  No methods
+
+com.nightshadelabs.anotherbrowser.BuildConfig    (com.nightshadelabs.anotherbrowser.eval_e)
+===============================================================================
+  No methods
+
+com.nightshadelabs.anotherbrowser.BuildConfig$1  (com.nightshadelabs.anotherbrowser.eval_i)
+===============================================================================
+  No methods
+
+com.nightshadelabs.anotherbrowser.BuildConfig$NullPointerException       (com.nightshadelabs.anotherbrowser.eval__)
+===============================================================================
+  No methods
+
+com.nightshadelabs.anotherbrowser.R      (com.nightshadelabs.anotherbrowser.eval_j)
+===============================================================================
+  No methods
+
+com.nightshadelabs.anotherbrowser.R$NullPointerException (com.nightshadelabs.anotherbrowser.eval_p)
+===============================================================================
+  No methods
+
+com.nightshadelabs.anotherbrowser.R$attr (com.nightshadelabs.anotherbrowser.eval_j$o)
+===============================================================================
+  No methods
+
+com.nightshadelabs.anotherbrowser.R$mipmap       (com.nightshadelabs.anotherbrowser.eval_j$k)
+===============================================================================
+  No methods
+
+com.nightshadelabs.anotherbrowser.R$string       (com.nightshadelabs.anotherbrowser.eval_j$q)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 10
+  Renamed to eval__ :   1 (10.0%)
+  Renamed to eval_c :   1 (10.0%)
+  Renamed to eval_q :   1 (10.0%)
+  Renamed to eval_r :   1 (10.0%)
+  Renamed to eval_x :   1 (10.0%)
+  Renamed to eval_y :   1 (10.0%)
+  Renamed to eval_z :   1 (10.0%)
+  Renamed to i      :   1 (10.0%)
+  Renamed to k      :   1 (10.0%)
+  Renamed to p      :   1 (10.0%)
+
+Number of Methods : 2
+  Renamed to s :   1 (50.0%)
+

@@ -1,0 +1,402 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.alexkang.bluechat.v          public final com.alexkang.bluechat.BuildConfig
+com.alexkang.bluechat.eval__     public com.alexkang.bluechat.HostActivity$Exception
+com.alexkang.bluechat.eval_b     public final com.alexkang.bluechat.R
+com.alexkang.bluechat.eval_c     public com.alexkang.bluechat.ClientActivity$SendImageThread$ParseException
+com.alexkang.bluechat.eval_d     public com.alexkang.bluechat.ChatManager$IOException
+com.alexkang.bluechat.eval_f     public com.alexkang.bluechat.ClientActivity$ArrayOutOfBoundsException
+com.alexkang.bluechat.eval_h     public com.alexkang.bluechat.ClientActivity$ConnectThread$NullPointerException
+com.alexkang.bluechat.eval_i     public com.alexkang.bluechat.MessageBox$ParseException
+com.alexkang.bluechat.eval_j     public com.alexkang.bluechat.R$IOException
+com.alexkang.bluechat.eval_k     public com.alexkang.bluechat.ChatManager$2
+com.alexkang.bluechat.eval_n     public com.alexkang.bluechat.HostActivity$SendImageThread$NullPointerException
+com.alexkang.bluechat.eval_o     public com.alexkang.bluechat.MessageFeedAdapter
+com.alexkang.bluechat.eval_p     public com.alexkang.bluechat.MainActivity$Exception
+com.alexkang.bluechat.eval_q     public com.alexkang.bluechat.HostActivity
+com.alexkang.bluechat.eval_r     public com.alexkang.bluechat.ClientActivity
+com.alexkang.bluechat.eval_s     public com.alexkang.bluechat.MessageBox
+com.alexkang.bluechat.eval_t     public com.alexkang.bluechat.ChatManager
+com.alexkang.bluechat.eval_u     public com.alexkang.bluechat.BuildConfig$IOException
+com.alexkang.bluechat.eval_w     public com.alexkang.bluechat.MessageFeedAdapter$NullPointerException
+com.alexkang.bluechat.eval_x     public com.alexkang.bluechat.ChatManager$ConnectedThread$Exception
+com.alexkang.bluechat.eval_y     public com.alexkang.bluechat.HostActivity$AcceptThread$ParseException
+com.alexkang.bluechat.eval_z     public com.alexkang.bluechat.BuildConfig$1
+com.alexkang.bluechat.eval_b$_   public final com.alexkang.bluechat.R$color
+com.alexkang.bluechat.eval_b$a   public final com.alexkang.bluechat.R$style
+com.alexkang.bluechat.eval_b$b   public final com.alexkang.bluechat.R$drawable
+com.alexkang.bluechat.eval_b$h   public final com.alexkang.bluechat.R$attr
+com.alexkang.bluechat.eval_b$k   public final com.alexkang.bluechat.R$layout
+com.alexkang.bluechat.eval_b$o   public final com.alexkang.bluechat.R$id
+com.alexkang.bluechat.eval_b$p   public final com.alexkang.bluechat.R$dimen
+com.alexkang.bluechat.eval_o$1   com.alexkang.bluechat.MessageFeedAdapter$1
+com.alexkang.bluechat.eval_o$2   com.alexkang.bluechat.MessageFeedAdapter$2
+com.alexkang.bluechat.eval_q$1   com.alexkang.bluechat.HostActivity$1
+com.alexkang.bluechat.eval_q$2   com.alexkang.bluechat.HostActivity$2
+com.alexkang.bluechat.eval_q$3   com.alexkang.bluechat.HostActivity$3
+com.alexkang.bluechat.eval_q$4   com.alexkang.bluechat.HostActivity$4
+com.alexkang.bluechat.eval_q$5   com.alexkang.bluechat.HostActivity$5
+com.alexkang.bluechat.eval_q$6   com.alexkang.bluechat.HostActivity$6
+com.alexkang.bluechat.eval_q$p   com.alexkang.bluechat.HostActivity$AcceptThread
+com.alexkang.bluechat.eval_q$r   com.alexkang.bluechat.HostActivity$SendImageThread
+com.alexkang.bluechat.eval_r$1   com.alexkang.bluechat.ClientActivity$1
+com.alexkang.bluechat.eval_r$2   com.alexkang.bluechat.ClientActivity$2
+com.alexkang.bluechat.eval_r$3   com.alexkang.bluechat.ClientActivity$3
+com.alexkang.bluechat.eval_r$4   com.alexkang.bluechat.ClientActivity$4
+com.alexkang.bluechat.eval_r$f   com.alexkang.bluechat.ClientActivity$SendImageThread
+com.alexkang.bluechat.eval_r$i   com.alexkang.bluechat.ClientActivity$ConnectThread
+com.alexkang.bluechat.eval_r$j   com.alexkang.bluechat.ClientActivity$WaitForBluetoothThread
+com.alexkang.bluechat.eval_t$1   com.alexkang.bluechat.ChatManager$1
+com.alexkang.bluechat.eval_t$m   com.alexkang.bluechat.ChatManager$ConnectedThread
+com.alexkang.bluechat.eval_t$x   com.alexkang.bluechat.ChatManager$DistributeThread
+com.alexkang.bluechat.eval_q$p$1 com.alexkang.bluechat.HostActivity$AcceptThread$1
+com.alexkang.bluechat.eval_q$r$1 com.alexkang.bluechat.HostActivity$SendImageThread$1
+com.alexkang.bluechat.eval_r$f$1 com.alexkang.bluechat.ClientActivity$SendImageThread$1
+com.alexkang.bluechat.eval_r$i$1 com.alexkang.bluechat.ClientActivity$ConnectThread$1
+com.alexkang.bluechat.eval_t$m$1 com.alexkang.bluechat.ChatManager$ConnectedThread$1
+com.alexkang.bluechat.eval_b$eval_p      public final com.alexkang.bluechat.R$string
+com.alexkang.bluechat.eval_b$eval_t      public final com.alexkang.bluechat.R$menu
+-------------------------------------------------------------------------------
+
+com.alexkang.bluechat.BuildConfig        (com.alexkang.bluechat.v)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.BuildConfig$1      (com.alexkang.bluechat.eval_z)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.BuildConfig$IOException    (com.alexkang.bluechat.eval_u)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.ChatManager        (com.alexkang.bluechat.eval_t)
+===============================================================================
+  a        static access$300(com.alexkang.bluechat.ChatManager)
+  c        public startConnection(android.bluetooth.BluetoothSocket,android.app.ProgressDialog)
+  c        static access$600(com.alexkang.bluechat.ChatManager)
+  d        static access$400(com.alexkang.bluechat.ChatManager)
+  d        static access$002(com.alexkang.bluechat.ChatManager,int)
+  e        static access$200(com.alexkang.bluechat.ChatManager)
+  eval_c   public startConnection(android.bluetooth.BluetoothSocket)
+  eval_f   static access$100(com.alexkang.bluechat.ChatManager)
+  eval_f   public buildPacket(int,int,java.lang.String,byte[])
+  f        static access$700(com.alexkang.bluechat.ChatManager)
+  i        static access$000(com.alexkang.bluechat.ChatManager)
+  i        public buildPacket(int,java.lang.String,byte[])
+  j        public writeMessage(byte[])
+  j        public writeMessage(byte[],int)
+  k        static access$202(com.alexkang.bluechat.ChatManager,boolean)
+  r        public writeChatRoomName(byte[])
+  t        static access$500(com.alexkang.bluechat.ChatManager,com.alexkang.bluechat.MessageBox)
+  y        private addMessage(com.alexkang.bluechat.MessageBox)
+
+com.alexkang.bluechat.ChatManager$1      (com.alexkang.bluechat.eval_t$1)
+===============================================================================
+  handleMessage    public handleMessage(android.os.Message)
+
+com.alexkang.bluechat.ChatManager$2      (com.alexkang.bluechat.eval_k)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.ChatManager$ConnectedThread        (com.alexkang.bluechat.eval_t$m)
+===============================================================================
+  a    private endActivity()
+  n    public write(byte[])
+  run  public run()
+
+com.alexkang.bluechat.ChatManager$ConnectedThread$1      (com.alexkang.bluechat.eval_t$m$1)
+===============================================================================
+  run  public run()
+
+com.alexkang.bluechat.ChatManager$ConnectedThread$Exception      (com.alexkang.bluechat.eval_x)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.ChatManager$DistributeThread       (com.alexkang.bluechat.eval_t$x)
+===============================================================================
+  run  public run()
+
+com.alexkang.bluechat.ChatManager$IOException    (com.alexkang.bluechat.eval_d)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.ClientActivity     (com.alexkang.bluechat.eval_r)
+===============================================================================
+  a                        static access$400(com.alexkang.bluechat.ClientActivity)
+  b                        static access$200(com.alexkang.bluechat.ClientActivity)
+  c                        static access$100(com.alexkang.bluechat.ClientActivity)
+  e                        private manageSocket(android.bluetooth.BluetoothSocket)
+  e                        static access$800(com.alexkang.bluechat.ClientActivity,android.bluetooth.BluetoothSocket)
+  eval_g                   static access$500(com.alexkang.bluechat.ClientActivity)
+  eval_y                   private uploadAttachment()
+  f                        private sendMessage()
+  p                        static access$000(com.alexkang.bluechat.ClientActivity)
+  s                        private startDeviceSearch()
+  t                        static access$600(com.alexkang.bluechat.ClientActivity)
+  onActivityResult         public onActivityResult(int,int,android.content.Intent)
+  onCreate                 protected onCreate(android.os.Bundle)
+  onDestroy                public onDestroy()
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+
+com.alexkang.bluechat.ClientActivity$1   (com.alexkang.bluechat.eval_r$1)
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+com.alexkang.bluechat.ClientActivity$2   (com.alexkang.bluechat.eval_r$2)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.alexkang.bluechat.ClientActivity$3   (com.alexkang.bluechat.eval_r$3)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.alexkang.bluechat.ClientActivity$4   (com.alexkang.bluechat.eval_r$4)
+===============================================================================
+  onCancel public onCancel(android.content.DialogInterface)
+
+com.alexkang.bluechat.ClientActivity$ArrayOutOfBoundsException   (com.alexkang.bluechat.eval_f)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.ClientActivity$ConnectThread       (com.alexkang.bluechat.eval_r$i)
+===============================================================================
+  a    static access$700(com.alexkang.bluechat.ClientActivity$ConnectThread)
+  run  public run()
+
+com.alexkang.bluechat.ClientActivity$ConnectThread$1     (com.alexkang.bluechat.eval_r$i$1)
+===============================================================================
+  run  public run()
+
+com.alexkang.bluechat.ClientActivity$ConnectThread$NullPointerException  (com.alexkang.bluechat.eval_h)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.ClientActivity$SendImageThread     (com.alexkang.bluechat.eval_r$f)
+===============================================================================
+  run  public run()
+
+com.alexkang.bluechat.ClientActivity$SendImageThread$1   (com.alexkang.bluechat.eval_r$f$1)
+===============================================================================
+  run  public run()
+
+com.alexkang.bluechat.ClientActivity$SendImageThread$ParseException      (com.alexkang.bluechat.eval_c)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.ClientActivity$WaitForBluetoothThread      (com.alexkang.bluechat.eval_r$j)
+===============================================================================
+  run  public run()
+
+com.alexkang.bluechat.HostActivity       (com.alexkang.bluechat.eval_q)
+===============================================================================
+  c                        private uploadAttachment()
+  eval_l                   static access$200(com.alexkang.bluechat.HostActivity)
+  g                        private sendMessage()
+  h                        static access$100(com.alexkang.bluechat.HostActivity)
+  k                        public initializeRoom()
+  m                        static access$600(com.alexkang.bluechat.HostActivity)
+  n                        static access$300(com.alexkang.bluechat.HostActivity)
+  o                        private initializeBluetooth()
+  q                        static access$500(com.alexkang.bluechat.HostActivity)
+  r                        private manageSocket(android.bluetooth.BluetoothSocket)
+  r                        static access$202(com.alexkang.bluechat.HostActivity,java.lang.String)
+  s                        static access$400(com.alexkang.bluechat.HostActivity)
+  w                        static access$700(com.alexkang.bluechat.HostActivity,android.bluetooth.BluetoothSocket)
+  z                        static access$000(com.alexkang.bluechat.HostActivity)
+  onActivityResult         public onActivityResult(int,int,android.content.Intent)
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onDestroy                public onDestroy()
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+
+com.alexkang.bluechat.HostActivity$1     (com.alexkang.bluechat.eval_q$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.alexkang.bluechat.HostActivity$2     (com.alexkang.bluechat.eval_q$2)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.alexkang.bluechat.HostActivity$3     (com.alexkang.bluechat.eval_q$3)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.alexkang.bluechat.HostActivity$4     (com.alexkang.bluechat.eval_q$4)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.alexkang.bluechat.HostActivity$5     (com.alexkang.bluechat.eval_q$5)
+===============================================================================
+  onCancel public onCancel(android.content.DialogInterface)
+
+com.alexkang.bluechat.HostActivity$6     (com.alexkang.bluechat.eval_q$6)
+===============================================================================
+  afterTextChanged     public afterTextChanged(android.text.Editable)
+  beforeTextChanged    public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  onTextChanged        public onTextChanged(java.lang.CharSequence,int,int,int)
+
+com.alexkang.bluechat.HostActivity$AcceptThread  (com.alexkang.bluechat.eval_q$p)
+===============================================================================
+  v    public cancel()
+  run  public run()
+
+com.alexkang.bluechat.HostActivity$AcceptThread$1        (com.alexkang.bluechat.eval_q$p$1)
+===============================================================================
+  run  public run()
+
+com.alexkang.bluechat.HostActivity$AcceptThread$ParseException   (com.alexkang.bluechat.eval_y)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.HostActivity$Exception     (com.alexkang.bluechat.eval__)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.HostActivity$SendImageThread       (com.alexkang.bluechat.eval_q$r)
+===============================================================================
+  run  public run()
+
+com.alexkang.bluechat.HostActivity$SendImageThread$1     (com.alexkang.bluechat.eval_q$r$1)
+===============================================================================
+  run  public run()
+
+com.alexkang.bluechat.HostActivity$SendImageThread$NullPointerException  (com.alexkang.bluechat.eval_n)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.MainActivity
+===============================================================================
+  i                        static access$000(com.alexkang.bluechat.MainActivity)
+  l                        private joinRoom()
+  u                        static access$100(com.alexkang.bluechat.MainActivity)
+  w                        private hostRoom()
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onResume                 public onResume()
+
+com.alexkang.bluechat.MainActivity$1
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.alexkang.bluechat.MainActivity$2
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.alexkang.bluechat.MainActivity$3
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.alexkang.bluechat.MainActivity$4
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.alexkang.bluechat.MainActivity$5
+===============================================================================
+  afterTextChanged     public afterTextChanged(android.text.Editable)
+  beforeTextChanged    public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  onTextChanged        public onTextChanged(java.lang.CharSequence,int,int,int)
+
+com.alexkang.bluechat.MainActivity$Exception     (com.alexkang.bluechat.eval_p)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.MessageBox (com.alexkang.bluechat.eval_s)
+===============================================================================
+  a        public getSender()
+  e        public isSelf()
+  eval_l   public getImage()
+  h        public getTime()
+  i        public getMessage()
+  j        public isImage()
+
+com.alexkang.bluechat.MessageBox$ParseException  (com.alexkang.bluechat.eval_i)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.MessageFeedAdapter (com.alexkang.bluechat.eval_o)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+com.alexkang.bluechat.MessageFeedAdapter$1       (com.alexkang.bluechat.eval_o$1)
+===============================================================================
+  onLongClick  public onLongClick(android.view.View)
+
+com.alexkang.bluechat.MessageFeedAdapter$2       (com.alexkang.bluechat.eval_o$2)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.alexkang.bluechat.MessageFeedAdapter$NullPointerException    (com.alexkang.bluechat.eval_w)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.R  (com.alexkang.bluechat.eval_b)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.R$IOException      (com.alexkang.bluechat.eval_j)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.R$attr     (com.alexkang.bluechat.eval_b$h)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.R$color    (com.alexkang.bluechat.eval_b$_)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.R$dimen    (com.alexkang.bluechat.eval_b$p)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.R$drawable (com.alexkang.bluechat.eval_b$b)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.R$id       (com.alexkang.bluechat.eval_b$o)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.R$layout   (com.alexkang.bluechat.eval_b$k)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.R$menu     (com.alexkang.bluechat.eval_b$eval_t)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.R$string   (com.alexkang.bluechat.eval_b$eval_p)
+===============================================================================
+  No methods
+
+com.alexkang.bluechat.R$style    (com.alexkang.bluechat.eval_b$a)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 156
+  Renamed to eval_a :   7 (4.5%)
+  Renamed to eval_z :   7 (4.5%)
+  Renamed to eval_e :   6 (3.8%)
+  Renamed to eval_j :   6 (3.8%)
+  Renamed to eval__ :   5 (3.2%)
+  Renamed to eval_c :   5 (3.2%)
+  Renamed to eval_g :   5 (3.2%)
+  Renamed to eval_i :   5 (3.2%)
+  Renamed to eval_q :   5 (3.2%)
+  Renamed to eval_u :   5 (3.2%)
+
+Number of Methods : 105
+  Renamed to a      :   5 (4.8%)
+  Renamed to c      :   4 (3.8%)
+  Renamed to e      :   4 (3.8%)
+  Renamed to i      :   4 (3.8%)
+  Renamed to j      :   3 (2.9%)
+  Renamed to r      :   3 (2.9%)
+  Renamed to d      :   2 (1.9%)
+  Renamed to eval_f :   2 (1.9%)
+  Renamed to eval_l :   2 (1.9%)
+  Renamed to f      :   2 (1.9%)
+

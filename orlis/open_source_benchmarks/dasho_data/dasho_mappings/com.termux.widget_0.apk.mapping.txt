@@ -1,0 +1,167 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.termux.widget.eval_c         public com.termux.widget.R$1
+com.termux.widget.eval_f         public com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory$NullPointerException
+com.termux.widget.eval_h         public final com.termux.widget.R
+com.termux.widget.eval_i         public com.termux.widget.R$Exception
+com.termux.widget.eval_k         public com.termux.widget.TermuxWidgetProvider$IOException
+com.termux.widget.eval_n         public com.termux.widget.TermuxCreateShortcutActivity$ArrayOutOfBoundsException
+com.termux.widget.eval_r         public com.termux.widget.BuildConfig$Exception
+com.termux.widget.eval_s         public final com.termux.widget.BuildConfig
+com.termux.widget.eval_t         public final com.termux.widget.TermuxWidgetService
+com.termux.widget.eval_v         public com.termux.widget.BuildConfig$1
+com.termux.widget.eval_w         public com.termux.widget.TermuxLaunchShortcutActivity$ArrayOutOfBoundsException
+com.termux.widget.eval_y         public com.termux.widget.TermuxWidgetService$ParseException
+com.termux.widget.eval_h$_       public final com.termux.widget.R$id
+com.termux.widget.eval_h$c       public final com.termux.widget.R$xml
+com.termux.widget.eval_h$d       public final com.termux.widget.R$attr
+com.termux.widget.eval_h$l       public final com.termux.widget.R$layout
+com.termux.widget.eval_h$t       public final com.termux.widget.R$string
+com.termux.widget.eval_h$z       public final com.termux.widget.R$drawable
+com.termux.widget.eval_t$m       public com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory
+com.termux.widget.eval_t$q       public final com.termux.widget.TermuxWidgetService$TermuxWidgetItem
+com.termux.widget.eval_t$m$1     com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory$1
+com.termux.widget.eval_t$m$2     com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory$2
+-------------------------------------------------------------------------------
+
+com.termux.widget.BuildConfig    (com.termux.widget.eval_s)
+===============================================================================
+  No methods
+
+com.termux.widget.BuildConfig$1  (com.termux.widget.eval_v)
+===============================================================================
+  No methods
+
+com.termux.widget.BuildConfig$Exception  (com.termux.widget.eval_r)
+===============================================================================
+  No methods
+
+com.termux.widget.R      (com.termux.widget.eval_h)
+===============================================================================
+  No methods
+
+com.termux.widget.R$1    (com.termux.widget.eval_c)
+===============================================================================
+  No methods
+
+com.termux.widget.R$Exception    (com.termux.widget.eval_i)
+===============================================================================
+  No methods
+
+com.termux.widget.R$attr (com.termux.widget.eval_h$d)
+===============================================================================
+  No methods
+
+com.termux.widget.R$drawable     (com.termux.widget.eval_h$z)
+===============================================================================
+  No methods
+
+com.termux.widget.R$id   (com.termux.widget.eval_h$_)
+===============================================================================
+  No methods
+
+com.termux.widget.R$layout       (com.termux.widget.eval_h$l)
+===============================================================================
+  No methods
+
+com.termux.widget.R$string       (com.termux.widget.eval_h$t)
+===============================================================================
+  No methods
+
+com.termux.widget.R$xml  (com.termux.widget.eval_h$c)
+===============================================================================
+  No methods
+
+com.termux.widget.TermuxCreateShortcutActivity
+===============================================================================
+  onCreate protected onCreate(android.os.Bundle)
+  onResume protected onResume()
+
+com.termux.widget.TermuxCreateShortcutActivity$1
+===============================================================================
+  accept   public accept(java.io.File)
+
+com.termux.widget.TermuxCreateShortcutActivity$2
+===============================================================================
+  onDismiss    public onDismiss(android.content.DialogInterface)
+
+com.termux.widget.TermuxCreateShortcutActivity$3
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+com.termux.widget.TermuxCreateShortcutActivity$ArrayOutOfBoundsException (com.termux.widget.eval_n)
+===============================================================================
+  No methods
+
+com.termux.widget.TermuxLaunchShortcutActivity
+===============================================================================
+  u        public static getGeneratedToken(android.content.Context)
+  onResume protected onResume()
+
+com.termux.widget.TermuxLaunchShortcutActivity$ArrayOutOfBoundsException (com.termux.widget.eval_w)
+===============================================================================
+  No methods
+
+com.termux.widget.TermuxWidgetProvider
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+  onUpdate     public onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])
+
+com.termux.widget.TermuxWidgetProvider$IOException       (com.termux.widget.eval_k)
+===============================================================================
+  No methods
+
+com.termux.widget.TermuxWidgetService    (com.termux.widget.eval_t)
+===============================================================================
+  onGetViewFactory public onGetViewFactory(android.content.Intent)
+
+com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory     (com.termux.widget.eval_t$m)
+===============================================================================
+  getCount         public getCount()
+  getItemId        public getItemId(int)
+  getLoadingView   public getLoadingView()
+  getViewAt        public getViewAt(int)
+  getViewTypeCount public getViewTypeCount()
+  hasStableIds     public hasStableIds()
+  onCreate         public onCreate()
+  onDataSetChanged public onDataSetChanged()
+  onDestroy        public onDestroy()
+
+com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory$1   (com.termux.widget.eval_t$m$1)
+===============================================================================
+  accept   public accept(java.io.File)
+
+com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory$2   (com.termux.widget.eval_t$m$2)
+===============================================================================
+  m        public compare(java.io.File,java.io.File)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+com.termux.widget.TermuxWidgetService$ListRemoteViewsFactory$NullPointerException        (com.termux.widget.eval_f)
+===============================================================================
+  No methods
+
+com.termux.widget.TermuxWidgetService$ParseException     (com.termux.widget.eval_y)
+===============================================================================
+  No methods
+
+com.termux.widget.TermuxWidgetService$TermuxWidgetItem   (com.termux.widget.eval_t$q)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 46
+  Renamed to eval_l :   3 (6.5%)
+  Renamed to eval_b :   2 (4.3%)
+  Renamed to eval_c :   2 (4.3%)
+  Renamed to eval_j :   2 (4.3%)
+  Renamed to eval_m :   2 (4.3%)
+  Renamed to eval_q :   2 (4.3%)
+  Renamed to eval_r :   2 (4.3%)
+  Renamed to eval_v :   2 (4.3%)
+  Renamed to eval_w :   2 (4.3%)
+  Renamed to p      :   2 (4.3%)
+
+Number of Methods : 22
+  Renamed to m :   1 (4.5%)
+  Renamed to u :   1 (4.5%)
+

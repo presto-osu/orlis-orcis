@@ -1,0 +1,2655 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+ch.blinkenlights.android.vanilla.u       public android.support.iosched.tabs.SlidingTabLayout
+android.support.v4.view.ViewPager$_      abstract interface android.support.v4.view.ViewPager$OnAdapterChangeListener
+android.support.v4.view.ViewPager$f      android.support.v4.view.ViewPager$PagerObserver
+android.support.v4.view.ViewPager$h      android.support.v4.view.ViewPager$ItemInfo
+android.support.v4.view.ViewPager$m      public abstract interface android.support.v4.view.ViewPager$PageTransformer
+android.support.v4.view.ViewPager$o      abstract interface android.support.v4.view.ViewPager$Decor
+android.support.v4.view.ViewPager$p      android.support.v4.view.ViewPager$MyAccessibilityDelegate
+android.support.v4.view.ViewPager$t      public abstract interface android.support.v4.view.ViewPager$OnPageChangeListener
+android.support.v4.view.ViewPager$z      public android.support.v4.view.ViewPager$SimpleOnPageChangeListener
+ch.blinkenlights.android.vanilla.u$1     android.support.iosched.tabs.SlidingTabLayout$1
+ch.blinkenlights.android.vanilla.u$a     android.support.iosched.tabs.SlidingTabLayout$TabClickListener
+ch.blinkenlights.android.vanilla.u$c     android.support.iosched.tabs.SlidingTabLayout$InternalViewPagerListener
+ch.blinkenlights.android.vanilla.u$h     public abstract interface android.support.iosched.tabs.SlidingTabLayout$TabColorizer
+ch.blinkenlights.android.vanilla.eval__  public ch.blinkenlights.android.vanilla.DraggableRow$NullPointerException
+ch.blinkenlights.android.vanilla.eval_a  public android.support.v4.view.ViewPager$IOException
+ch.blinkenlights.android.vanilla.eval_b  public abstract android.support.v4.view.PagerAdapter
+ch.blinkenlights.android.vanilla.eval_c  public android.support.v4.view.PagerAdapter$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_d  final ch.blinkenlights.android.vanilla.Action
+ch.blinkenlights.android.vanilla.eval_e  public ch.blinkenlights.android.vanilla.CoverBitmap$Exception
+ch.blinkenlights.android.vanilla.eval_f  public android.support.iosched.tabs.SlidingTabStrip$Exception
+ch.blinkenlights.android.vanilla.eval_g  public ch.blinkenlights.android.vanilla.CoverView$ParseException
+ch.blinkenlights.android.vanilla.eval_h  public ch.blinkenlights.android.vanilla.BastpUtil$ParseException
+ch.blinkenlights.android.vanilla.eval_i  public ch.blinkenlights.android.vanilla.Action$Exception
+ch.blinkenlights.android.vanilla.eval_j  public android.support.iosched.tabs.SlidingTabLayout$NullPointerException
+ch.blinkenlights.android.vanilla.eval_k  public final ch.blinkenlights.android.vanilla.BuildConfig
+ch.blinkenlights.android.vanilla.eval_l  public android.support.v4.view.ViewPager$SavedState$Exception
+ch.blinkenlights.android.vanilla.eval_m  public ch.blinkenlights.android.vanilla.BottomBarControls$NullPointerException
+ch.blinkenlights.android.vanilla.eval_n  public ch.blinkenlights.android.vanilla.CoverCache
+ch.blinkenlights.android.vanilla.eval_o  public android.support.v4.view.ViewPagerIcsCompat$ParseException
+ch.blinkenlights.android.vanilla.eval_p  public ch.blinkenlights.android.vanilla.AudioPickerActivity$ParseException
+ch.blinkenlights.android.vanilla.eval_q  public final ch.blinkenlights.android.vanilla.CoverBitmap
+ch.blinkenlights.android.vanilla.eval_r  public ch.blinkenlights.android.vanilla.AudioPickerActivity$1
+ch.blinkenlights.android.vanilla.eval_s  android.support.iosched.tabs.SlidingTabStrip
+ch.blinkenlights.android.vanilla.eval_t  public ch.blinkenlights.android.vanilla.BastpUtil$1
+ch.blinkenlights.android.vanilla.eval_v  public ch.blinkenlights.android.vanilla.CoverCache$IOException
+ch.blinkenlights.android.vanilla.eval_w  public android.support.iosched.tabs.VanillaTabLayout$NullPointerException
+ch.blinkenlights.android.vanilla.eval_x  public ch.blinkenlights.android.vanilla.BuildConfig$Exception
+ch.blinkenlights.android.vanilla.eval_y  public ch.blinkenlights.android.vanilla.BastpUtil
+ch.blinkenlights.android.vanilla.eval_z  public android.support.v4.view.ViewPagerIcsCompat
+android.support.v4.view.ViewPager$eval_k public android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$eval_v android.support.v4.view.ViewPager$ViewPositionComparator
+android.support.v4.view.ViewPager$eval_z public android.support.v4.view.ViewPager$SavedState
+ch.blinkenlights.android.vanilla.eval__1 public ch.blinkenlights.android.vanilla.LibraryPagerAdapter$ParseException
+ch.blinkenlights.android.vanilla.eval__4 public ch.blinkenlights.android.vanilla.Limiter$NullPointerException
+ch.blinkenlights.android.vanilla.eval__5 public ch.blinkenlights.android.vanilla.Limiter
+ch.blinkenlights.android.vanilla.eval__8 public ch.blinkenlights.android.vanilla.SDScannerFragment$NullPointerException
+ch.blinkenlights.android.vanilla.eval__9 public ch.blinkenlights.android.vanilla.FilebrowserStartActivity$ParseException
+ch.blinkenlights.android.vanilla.eval_a1 public ch.blinkenlights.android.vanilla.ViewHolder$IOException
+ch.blinkenlights.android.vanilla.eval_ad ch.blinkenlights.android.vanilla.ReadaheadThread
+ch.blinkenlights.android.vanilla.eval_ah public ch.blinkenlights.android.vanilla.ListPreferenceSummary$Exception
+ch.blinkenlights.android.vanilla.eval_as public ch.blinkenlights.android.vanilla.RemoteControlImplICS
+ch.blinkenlights.android.vanilla.eval_az public ch.blinkenlights.android.vanilla.R$Exception
+ch.blinkenlights.android.vanilla.eval_bd public ch.blinkenlights.android.vanilla.FastScrollGuardedListView$IOException
+ch.blinkenlights.android.vanilla.eval_bh public ch.blinkenlights.android.vanilla.MediaUtils
+ch.blinkenlights.android.vanilla.eval_bi public ch.blinkenlights.bastp.OpusFile$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_bt public ch.blinkenlights.bastp.LameHeader$IOException
+ch.blinkenlights.android.vanilla.eval_bu public com.mobeta.android.dslv.DragSortController
+ch.blinkenlights.android.vanilla.eval_bv public ch.blinkenlights.android.vanilla.PlaybackService$IOException
+ch.blinkenlights.android.vanilla.eval_bx public ch.blinkenlights.android.vanilla.ShowQueueFragment
+ch.blinkenlights.android.vanilla.eval_by public ch.blinkenlights.android.vanilla.PreferencesActivity$ParseException
+ch.blinkenlights.android.vanilla.eval_c3 public ch.blinkenlights.android.vanilla.PlaylistActivity$Exception
+ch.blinkenlights.android.vanilla.eval_c_ public ch.blinkenlights.android.vanilla.PreferencesActivity$HeadsetLaunchFragment$Exception
+ch.blinkenlights.android.vanilla.eval_cg public ch.blinkenlights.android.vanilla.ViewHolder
+ch.blinkenlights.android.vanilla.eval_cl public ch.blinkenlights.android.vanilla.SeekBarPreference$NullPointerException
+ch.blinkenlights.android.vanilla.eval_co public ch.blinkenlights.android.vanilla.ShowQueueAdapter$Exception
+ch.blinkenlights.android.vanilla.eval_cr public com.gmail.jerickson314.sdscanner.ScanFragment
+ch.blinkenlights.android.vanilla.eval_d1 public ch.blinkenlights.android.vanilla.PreferencesActivity$ReplayGainFragment$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_d8 public ch.blinkenlights.android.vanilla.MiniPlaybackActivity
+ch.blinkenlights.android.vanilla.eval_de public com.mobeta.android.dslv.SimpleFloatViewManager
+ch.blinkenlights.android.vanilla.eval_dg public ch.blinkenlights.android.vanilla.TimestampedObject$NullPointerException
+ch.blinkenlights.android.vanilla.eval_dj public com.mobeta.android.dslv.SimpleDragSortCursorAdapter
+ch.blinkenlights.android.vanilla.eval_dl public ch.blinkenlights.android.vanilla.OneCellWidget$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_e4 public ch.blinkenlights.bastp.Common$Exception
+ch.blinkenlights.android.vanilla.eval_ef public ch.blinkenlights.android.vanilla.TimestampedObject
+ch.blinkenlights.android.vanilla.eval_ej public ch.blinkenlights.android.vanilla.PlaylistDialog
+ch.blinkenlights.android.vanilla.eval_ey public ch.blinkenlights.android.vanilla.FilebrowserStartActivity
+ch.blinkenlights.android.vanilla.eval_ez public ch.blinkenlights.android.vanilla.PreferencesActivity
+ch.blinkenlights.android.vanilla.eval_f2 public ch.blinkenlights.android.vanilla.ThemeHelper
+ch.blinkenlights.android.vanilla.eval_fd public com.mobeta.android.dslv.ResourceDragSortCursorAdapter$IOException
+ch.blinkenlights.android.vanilla.eval_fe public com.gmail.jerickson314.sdscanner.UIStringGenerator$NullPointerException
+ch.blinkenlights.android.vanilla.eval_g4 public ch.blinkenlights.android.vanilla.Playlist
+ch.blinkenlights.android.vanilla.eval_g5 public ch.blinkenlights.android.vanilla.PlaylistAdapter
+ch.blinkenlights.android.vanilla.eval_gl public com.gmail.jerickson314.sdscanner.ScanFragment$NullPointerException
+ch.blinkenlights.android.vanilla.eval_gm public ch.blinkenlights.android.vanilla.PrefDefaults
+ch.blinkenlights.android.vanilla.eval_gn public ch.blinkenlights.android.vanilla.Playlist$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_gp public com.mobeta.android.dslv.DragSortItemViewCheckable
+ch.blinkenlights.android.vanilla.eval_gr public ch.blinkenlights.android.vanilla.FilebrowserStartAdapter$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_gt public com.mobeta.android.dslv.DragSortItemViewCheckable$Exception
+ch.blinkenlights.android.vanilla.eval_gu public com.gmail.jerickson314.sdscanner.ScanFragment$ProgressUpdate$NullPointerException
+ch.blinkenlights.android.vanilla.eval_h1 public com.mobeta.android.dslv.DragSortCursorAdapter$NullPointerException
+ch.blinkenlights.android.vanilla.eval_h6 public abstract ch.blinkenlights.android.vanilla.PlaybackActivity
+ch.blinkenlights.android.vanilla.eval_hh public ch.blinkenlights.android.vanilla.TimelineCallback$Exception
+ch.blinkenlights.android.vanilla.eval_hi public ch.blinkenlights.android.vanilla.FullPlaybackActivity$IOException
+ch.blinkenlights.android.vanilla.eval_hr public ch.blinkenlights.bastp.Common
+ch.blinkenlights.android.vanilla.eval_hs public ch.blinkenlights.android.vanilla.Song
+ch.blinkenlights.android.vanilla.eval_i1 public ch.blinkenlights.android.vanilla.ShowQueueAdapter
+ch.blinkenlights.android.vanilla.eval_ih public ch.blinkenlights.android.vanilla.VanillaMediaPlayer$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_ip public final ch.blinkenlights.android.vanilla.R
+ch.blinkenlights.android.vanilla.eval_ix public ch.blinkenlights.android.vanilla.PermissionRequestActivity
+ch.blinkenlights.android.vanilla.eval_iz public abstract com.mobeta.android.dslv.DragSortCursorAdapter
+ch.blinkenlights.android.vanilla.eval_j7 public ch.blinkenlights.bastp.LameHeader
+ch.blinkenlights.android.vanilla.eval_jb public ch.blinkenlights.bastp.Bastp
+ch.blinkenlights.android.vanilla.eval_jt public ch.blinkenlights.android.vanilla.PermissionRequestActivity$IOException
+ch.blinkenlights.android.vanilla.eval_k3 public ch.blinkenlights.android.vanilla.WidgetE$NullPointerException
+ch.blinkenlights.android.vanilla.eval_k5 public ch.blinkenlights.android.vanilla.PrefKeys$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_k8 public ch.blinkenlights.android.vanilla.FourSquareWidget$Exception
+ch.blinkenlights.android.vanilla.eval_k9 public ch.blinkenlights.android.vanilla.PrefKeys
+ch.blinkenlights.android.vanilla.eval_k_ public com.mobeta.android.dslv.DragSortItemView$NullPointerException
+ch.blinkenlights.android.vanilla.eval_ke public ch.blinkenlights.android.vanilla.PlayCountsHelper
+ch.blinkenlights.android.vanilla.eval_kx public ch.blinkenlights.android.vanilla.ThemeHelper$Exception
+ch.blinkenlights.android.vanilla.eval_kz public ch.blinkenlights.android.vanilla.MediaUtils$IOException
+ch.blinkenlights.android.vanilla.eval_l3 public ch.blinkenlights.bastp.OpusFile
+ch.blinkenlights.android.vanilla.eval_lk public ch.blinkenlights.android.vanilla.RemoteControl$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_ll public ch.blinkenlights.android.vanilla.MediaButtonReceiver$ParseException
+ch.blinkenlights.android.vanilla.eval_lu public ch.blinkenlights.android.vanilla.PlaylistAdapter$IOException
+ch.blinkenlights.android.vanilla.eval_m1 public ch.blinkenlights.android.vanilla.TabOrderActivity
+ch.blinkenlights.android.vanilla.eval_mi public ch.blinkenlights.android.vanilla.Song$ParseException
+ch.blinkenlights.android.vanilla.eval_mm public com.mobeta.android.dslv.DragSortController$ParseException
+ch.blinkenlights.android.vanilla.eval_n2 public ch.blinkenlights.android.vanilla.LibraryActivity$IOException
+ch.blinkenlights.android.vanilla.eval_n5 public ch.blinkenlights.android.vanilla.PreferencesTheme$Exception
+ch.blinkenlights.android.vanilla.eval_nl public com.mobeta.android.dslv.DragSortListView$AdapterWrapper$NullPointerException
+ch.blinkenlights.android.vanilla.eval_nr public ch.blinkenlights.android.vanilla.PlayCountsHelper$Exception
+ch.blinkenlights.android.vanilla.eval_o9 public ch.blinkenlights.android.vanilla.NewPlaylistDialog
+ch.blinkenlights.android.vanilla.eval_ok public ch.blinkenlights.android.vanilla.WidgetD$NullPointerException
+ch.blinkenlights.android.vanilla.eval_p0 public ch.blinkenlights.android.vanilla.FilebrowserStartAdapter
+ch.blinkenlights.android.vanilla.eval_p5 public ch.blinkenlights.bastp.FlacFile$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_p6 public ch.blinkenlights.android.vanilla.FourWhiteWidget$IOException
+ch.blinkenlights.android.vanilla.eval_p_ public ch.blinkenlights.android.vanilla.SlidingView$Exception
+ch.blinkenlights.android.vanilla.eval_pe public ch.blinkenlights.android.vanilla.LibraryAdapter$ParseException
+ch.blinkenlights.android.vanilla.eval_pf public ch.blinkenlights.android.vanilla.RemoteControlImplICS$IOException
+ch.blinkenlights.android.vanilla.eval_ph public ch.blinkenlights.android.vanilla.NewPlaylistDialog$NullPointerException
+ch.blinkenlights.android.vanilla.eval_pi public ch.blinkenlights.android.vanilla.TabOrderAdapter$IOException
+ch.blinkenlights.android.vanilla.eval_po public com.mobeta.android.dslv.DragSortItemView
+ch.blinkenlights.android.vanilla.eval_ps public ch.blinkenlights.android.vanilla.FullPlaybackActivity
+ch.blinkenlights.android.vanilla.eval_pt public ch.blinkenlights.android.vanilla.PlaylistDialog$ParseException
+ch.blinkenlights.android.vanilla.eval_pu public ch.blinkenlights.android.vanilla.SongTimeline$NullPointerException
+ch.blinkenlights.android.vanilla.eval_py public ch.blinkenlights.android.vanilla.PlaylistActivity
+ch.blinkenlights.android.vanilla.eval_q_ public final ch.blinkenlights.android.vanilla.SongTimeline
+ch.blinkenlights.android.vanilla.eval_qs public ch.blinkenlights.android.vanilla.LibraryPagerAdapter
+ch.blinkenlights.android.vanilla.eval_r9 public ch.blinkenlights.bastp.FlacFile
+ch.blinkenlights.android.vanilla.eval_re public ch.blinkenlights.android.vanilla.QueryTask$ParseException
+ch.blinkenlights.android.vanilla.eval_rn public ch.blinkenlights.android.vanilla.ReadaheadThread$IOException
+ch.blinkenlights.android.vanilla.eval_rq public ch.blinkenlights.android.vanilla.FileUtils$ParseException
+ch.blinkenlights.android.vanilla.eval_rr public ch.blinkenlights.android.vanilla.VanillaMediaPlayer
+ch.blinkenlights.android.vanilla.eval_rv public ch.blinkenlights.android.vanilla.TabOrderAdapter
+ch.blinkenlights.android.vanilla.eval_s5 public ch.blinkenlights.android.vanilla.FileSystemAdapter$NullPointerException
+ch.blinkenlights.android.vanilla.eval_sc public ch.blinkenlights.android.vanilla.MiniPlaybackActivity$IOException
+ch.blinkenlights.android.vanilla.eval_si public ch.blinkenlights.android.vanilla.PlaylistTask
+ch.blinkenlights.android.vanilla.eval_sm public ch.blinkenlights.android.vanilla.FourLongWidget$ParseException
+ch.blinkenlights.android.vanilla.eval_so public ch.blinkenlights.android.vanilla.PlaylistTask$NullPointerException
+ch.blinkenlights.android.vanilla.eval_su public ch.blinkenlights.android.vanilla.PrefDefaults$NullPointerException
+ch.blinkenlights.android.vanilla.eval_sw public ch.blinkenlights.android.vanilla.SDScannerFragment
+ch.blinkenlights.android.vanilla.eval_sz public com.mobeta.android.dslv.SimpleFloatViewManager$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_t1 public ch.blinkenlights.android.vanilla.RemoteControlImplLp$ParseException
+ch.blinkenlights.android.vanilla.eval_t5 public ch.blinkenlights.bastp.Bastp$IOException
+ch.blinkenlights.android.vanilla.eval_ta public ch.blinkenlights.android.vanilla.MediaAdapter
+ch.blinkenlights.android.vanilla.eval_te public ch.blinkenlights.bastp.ID3v2File
+ch.blinkenlights.android.vanilla.eval_u2 public ch.blinkenlights.android.vanilla.ShowQueueFragment$NullPointerException
+ch.blinkenlights.android.vanilla.eval_uj public ch.blinkenlights.android.vanilla.IdlePreference$ParseException
+ch.blinkenlights.android.vanilla.eval_uy public com.mobeta.android.dslv.DragSortListView$NullPointerException
+ch.blinkenlights.android.vanilla.eval_uz public ch.blinkenlights.android.vanilla.SlidingPlaybackActivity$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_v6 public ch.blinkenlights.android.vanilla.FileSystemAdapter
+ch.blinkenlights.android.vanilla.eval_vb public ch.blinkenlights.android.vanilla.RemoteControlImplLp
+ch.blinkenlights.android.vanilla.eval_vi public ch.blinkenlights.bastp.OggFile
+ch.blinkenlights.android.vanilla.eval_vu public abstract interface ch.blinkenlights.android.vanilla.TimelineCallback
+ch.blinkenlights.android.vanilla.eval_vv public ch.blinkenlights.android.vanilla.PlaybackActivity$Exception
+ch.blinkenlights.android.vanilla.eval_wh public ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$ParseException
+ch.blinkenlights.android.vanilla.eval_wj public ch.blinkenlights.android.vanilla.VanillaImageButton$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_wr public ch.blinkenlights.android.vanilla.SlidingPlaybackActivity
+ch.blinkenlights.android.vanilla.eval_x2 public ch.blinkenlights.android.vanilla.QueryTask
+ch.blinkenlights.android.vanilla.eval_xe public ch.blinkenlights.bastp.OggFile$NullPointerException
+ch.blinkenlights.android.vanilla.eval_xp public ch.blinkenlights.android.vanilla.LazyCoverView$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_xu public ch.blinkenlights.android.vanilla.TabOrderActivity$Exception
+ch.blinkenlights.android.vanilla.eval_xw public com.gmail.jerickson314.sdscanner.UIStringGenerator
+ch.blinkenlights.android.vanilla.eval_xz public com.mobeta.android.dslv.SimpleDragSortCursorAdapter$ArrayOutOfBoundsException
+ch.blinkenlights.android.vanilla.eval_y7 public abstract interface ch.blinkenlights.android.vanilla.LibraryAdapter
+ch.blinkenlights.android.vanilla.eval_yc public ch.blinkenlights.android.vanilla.MediaAdapter$NullPointerException
+ch.blinkenlights.android.vanilla.eval_yi public ch.blinkenlights.android.vanilla.RemoteControl
+ch.blinkenlights.android.vanilla.eval_yv public ch.blinkenlights.android.vanilla.PreferencesTheme
+ch.blinkenlights.android.vanilla.eval_yz public ch.blinkenlights.android.vanilla.FileUtils
+ch.blinkenlights.android.vanilla.eval_zn public ch.blinkenlights.bastp.ID3v2File$ParseException
+ch.blinkenlights.android.vanilla.eval_zq public abstract com.mobeta.android.dslv.ResourceDragSortCursorAdapter
+ch.blinkenlights.android.vanilla.eval_n$h        ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache
+ch.blinkenlights.android.vanilla.eval_n$x        public ch.blinkenlights.android.vanilla.CoverCache$CoverKey
+ch.blinkenlights.android.vanilla.eval_s$1        android.support.iosched.tabs.SlidingTabStrip$1
+ch.blinkenlights.android.vanilla.eval_s$d        android.support.iosched.tabs.SlidingTabStrip$SimpleTabColorizer
+ch.blinkenlights.android.vanilla.eval_y$i        public ch.blinkenlights.android.vanilla.BastpUtil$GainValues
+ch.blinkenlights.android.vanilla.eval_y$r        ch.blinkenlights.android.vanilla.BastpUtil$RGLruCache
+android.support.v4.view.ViewPager$eval_z$1       final android.support.v4.view.ViewPager$SavedState$1
+ch.blinkenlights.android.vanilla.eval_bu$1       com.mobeta.android.dslv.DragSortController$1
+ch.blinkenlights.android.vanilla.eval_bx$1       ch.blinkenlights.android.vanilla.ShowQueueFragment$1
+ch.blinkenlights.android.vanilla.eval_cr$1       com.gmail.jerickson314.sdscanner.ScanFragment$1
+ch.blinkenlights.android.vanilla.eval_cr$2       com.gmail.jerickson314.sdscanner.ScanFragment$2
+ch.blinkenlights.android.vanilla.eval_cr$g       public abstract interface com.gmail.jerickson314.sdscanner.ScanFragment$ScanProgressCallbacks
+ch.blinkenlights.android.vanilla.eval_cr$m       com.gmail.jerickson314.sdscanner.ScanFragment$ScanParameters
+ch.blinkenlights.android.vanilla.eval_cr$p       com.gmail.jerickson314.sdscanner.ScanFragment$PreprocessTask
+ch.blinkenlights.android.vanilla.eval_cr$y       com.gmail.jerickson314.sdscanner.ScanFragment$ProgressUpdate
+ch.blinkenlights.android.vanilla.eval_cr$z       com.gmail.jerickson314.sdscanner.ScanFragment$Updater
+ch.blinkenlights.android.vanilla.eval_dj$m       public abstract interface com.mobeta.android.dslv.SimpleDragSortCursorAdapter$CursorToStringConverter
+ch.blinkenlights.android.vanilla.eval_dj$x       public abstract interface com.mobeta.android.dslv.SimpleDragSortCursorAdapter$ViewBinder
+ch.blinkenlights.android.vanilla.eval_ej$l       public abstract interface ch.blinkenlights.android.vanilla.PlaylistDialog$Callback
+ch.blinkenlights.android.vanilla.eval_ey$1       ch.blinkenlights.android.vanilla.FilebrowserStartActivity$1
+ch.blinkenlights.android.vanilla.eval_ez$a       public ch.blinkenlights.android.vanilla.PreferencesActivity$NotificationsFragment
+ch.blinkenlights.android.vanilla.eval_ez$b       public ch.blinkenlights.android.vanilla.PreferencesActivity$PlaybackFragment
+ch.blinkenlights.android.vanilla.eval_ez$d       public ch.blinkenlights.android.vanilla.PreferencesActivity$EqualizerFragment
+ch.blinkenlights.android.vanilla.eval_ez$g       public ch.blinkenlights.android.vanilla.PreferencesActivity$MiscFragment
+ch.blinkenlights.android.vanilla.eval_ez$l       public ch.blinkenlights.android.vanilla.PreferencesActivity$LibraryFragment
+ch.blinkenlights.android.vanilla.eval_ez$p       public ch.blinkenlights.android.vanilla.PreferencesActivity$AudioFragment
+ch.blinkenlights.android.vanilla.eval_ez$x       public ch.blinkenlights.android.vanilla.PreferencesActivity$CoverArtFragment
+ch.blinkenlights.android.vanilla.eval_ez$y       public ch.blinkenlights.android.vanilla.PreferencesActivity$AboutFragment
+ch.blinkenlights.android.vanilla.eval_ez$z       public ch.blinkenlights.android.vanilla.PreferencesActivity$HeadsetLaunchFragment
+ch.blinkenlights.android.vanilla.eval_h6$1       ch.blinkenlights.android.vanilla.PlaybackActivity$1
+ch.blinkenlights.android.vanilla.eval_h6$2       ch.blinkenlights.android.vanilla.PlaybackActivity$2
+ch.blinkenlights.android.vanilla.eval_h6$3       ch.blinkenlights.android.vanilla.PlaybackActivity$3
+ch.blinkenlights.android.vanilla.eval_h6$g       ch.blinkenlights.android.vanilla.PlaybackActivity$SaveAsPlaylistDismiss
+ch.blinkenlights.android.vanilla.eval_ip$c       public final ch.blinkenlights.android.vanilla.R$dimen
+ch.blinkenlights.android.vanilla.eval_ip$f       public final ch.blinkenlights.android.vanilla.R$layout
+ch.blinkenlights.android.vanilla.eval_ip$g       public final ch.blinkenlights.android.vanilla.R$color
+ch.blinkenlights.android.vanilla.eval_ip$i       public final ch.blinkenlights.android.vanilla.R$drawable
+ch.blinkenlights.android.vanilla.eval_ip$k       public final ch.blinkenlights.android.vanilla.R$styleable
+ch.blinkenlights.android.vanilla.eval_ip$n       public final ch.blinkenlights.android.vanilla.R$plurals
+ch.blinkenlights.android.vanilla.eval_ip$p       public final ch.blinkenlights.android.vanilla.R$array
+ch.blinkenlights.android.vanilla.eval_ip$r       public final ch.blinkenlights.android.vanilla.R$attr
+ch.blinkenlights.android.vanilla.eval_ip$t       public final ch.blinkenlights.android.vanilla.R$xml
+ch.blinkenlights.android.vanilla.eval_ip$v       public final ch.blinkenlights.android.vanilla.R$raw
+ch.blinkenlights.android.vanilla.eval_ix$1       final ch.blinkenlights.android.vanilla.PermissionRequestActivity$1
+ch.blinkenlights.android.vanilla.eval_ps$1       ch.blinkenlights.android.vanilla.FullPlaybackActivity$1
+ch.blinkenlights.android.vanilla.eval_ps$2       ch.blinkenlights.android.vanilla.FullPlaybackActivity$2
+ch.blinkenlights.android.vanilla.eval_ps$3       ch.blinkenlights.android.vanilla.FullPlaybackActivity$3
+ch.blinkenlights.android.vanilla.eval_q_$m       public abstract interface ch.blinkenlights.android.vanilla.SongTimeline$Callback
+ch.blinkenlights.android.vanilla.eval_q_$t       public ch.blinkenlights.android.vanilla.SongTimeline$FlagComparator
+ch.blinkenlights.android.vanilla.eval_q_$u       public ch.blinkenlights.android.vanilla.SongTimeline$IdComparator
+ch.blinkenlights.android.vanilla.eval_qs$1       ch.blinkenlights.android.vanilla.LibraryPagerAdapter$1
+ch.blinkenlights.android.vanilla.eval_qs$i       ch.blinkenlights.android.vanilla.LibraryPagerAdapter$AdaperPositionLruCache
+ch.blinkenlights.android.vanilla.eval_sw$1       ch.blinkenlights.android.vanilla.SDScannerFragment$1
+ch.blinkenlights.android.vanilla.eval_ta$_       ch.blinkenlights.android.vanilla.MediaAdapter$SectionIndex
+ch.blinkenlights.android.vanilla.eval_v6$1       ch.blinkenlights.android.vanilla.FileSystemAdapter$1
+ch.blinkenlights.android.vanilla.eval_v6$2       ch.blinkenlights.android.vanilla.FileSystemAdapter$2
+ch.blinkenlights.android.vanilla.eval_v6$_       ch.blinkenlights.android.vanilla.FileSystemAdapter$Observer
+ch.blinkenlights.android.vanilla.eval_vb$1       ch.blinkenlights.android.vanilla.RemoteControlImplLp$1
+ch.blinkenlights.android.vanilla.eval_xw$h       com.gmail.jerickson314.sdscanner.UIStringGenerator$StringSubGenerator
+ch.blinkenlights.android.vanilla.eval_xw$i       com.gmail.jerickson314.sdscanner.UIStringGenerator$ResourceSubGenerator
+ch.blinkenlights.android.vanilla.eval_xw$y       abstract interface com.gmail.jerickson314.sdscanner.UIStringGenerator$SubGenerator
+ch.blinkenlights.android.vanilla.eval_yi$_       public abstract interface ch.blinkenlights.android.vanilla.RemoteControl$Client
+com.mobeta.android.dslv.DragSortListView$a       public abstract interface com.mobeta.android.dslv.DragSortListView$RemoveListener
+com.mobeta.android.dslv.DragSortListView$c       public abstract interface com.mobeta.android.dslv.DragSortListView$DragListener
+com.mobeta.android.dslv.DragSortListView$h       com.mobeta.android.dslv.DragSortListView$HeightCache
+com.mobeta.android.dslv.DragSortListView$i       com.mobeta.android.dslv.DragSortListView$DropAnimator
+com.mobeta.android.dslv.DragSortListView$k       public abstract interface com.mobeta.android.dslv.DragSortListView$DragSortListener
+com.mobeta.android.dslv.DragSortListView$l       com.mobeta.android.dslv.DragSortListView$SmoothAnimator
+com.mobeta.android.dslv.DragSortListView$o       com.mobeta.android.dslv.DragSortListView$AdapterWrapper
+com.mobeta.android.dslv.DragSortListView$q       public abstract interface com.mobeta.android.dslv.DragSortListView$DragScrollProfile
+com.mobeta.android.dslv.DragSortListView$s       com.mobeta.android.dslv.DragSortListView$DragScroller
+com.mobeta.android.dslv.DragSortListView$t       com.mobeta.android.dslv.DragSortListView$DragSortTracker
+com.mobeta.android.dslv.DragSortListView$u       public abstract interface com.mobeta.android.dslv.DragSortListView$FloatViewManager
+com.mobeta.android.dslv.DragSortListView$x       public abstract interface com.mobeta.android.dslv.DragSortListView$DropListener
+ch.blinkenlights.android.vanilla.CoverView$n     public abstract interface ch.blinkenlights.android.vanilla.CoverView$Callback
+ch.blinkenlights.android.vanilla.eval_cr$y$b     public final com.gmail.jerickson314.sdscanner.ScanFragment$ProgressUpdate$Type
+ch.blinkenlights.android.vanilla.eval_ez$z$1     ch.blinkenlights.android.vanilla.PreferencesActivity$HeadsetLaunchFragment$1
+ch.blinkenlights.android.vanilla.eval_ez$z$2     ch.blinkenlights.android.vanilla.PreferencesActivity$HeadsetLaunchFragment$2
+com.mobeta.android.dslv.DragSortListView$o$1     com.mobeta.android.dslv.DragSortListView$AdapterWrapper$1
+ch.blinkenlights.android.vanilla.SlidingView$r   public abstract interface ch.blinkenlights.android.vanilla.SlidingView$Callback
+ch.blinkenlights.android.vanilla.SlidingView$v   ch.blinkenlights.android.vanilla.SlidingView$GestureListener
+ch.blinkenlights.android.vanilla.SlidingView$z   ch.blinkenlights.android.vanilla.SlidingView$AnimationListener
+ch.blinkenlights.android.vanilla.eval_ez$eval_k  public ch.blinkenlights.android.vanilla.PreferencesActivity$ShakeFragment
+ch.blinkenlights.android.vanilla.eval_ez$eval_m  public ch.blinkenlights.android.vanilla.PreferencesActivity$ReplayGainFragment
+ch.blinkenlights.android.vanilla.eval_ip$eval__  public final ch.blinkenlights.android.vanilla.R$style
+ch.blinkenlights.android.vanilla.eval_ip$eval_u  public final ch.blinkenlights.android.vanilla.R$string
+ch.blinkenlights.android.vanilla.eval_ip$eval_y  public final ch.blinkenlights.android.vanilla.R$id
+com.mobeta.android.dslv.DragSortListView$eval_r  com.mobeta.android.dslv.DragSortListView$LiftAnimator
+com.mobeta.android.dslv.DragSortListView$eval_t  com.mobeta.android.dslv.DragSortListView$RemoveAnimator
+ch.blinkenlights.android.vanilla.LazyCoverView$p ch.blinkenlights.android.vanilla.LazyCoverView$CoverMsg
+ch.blinkenlights.android.vanilla.LazyCoverView$y ch.blinkenlights.android.vanilla.LazyCoverView$BitmapLruCache
+ch.blinkenlights.android.vanilla.eval_ez$eval_m$1        ch.blinkenlights.android.vanilla.PreferencesActivity$ReplayGainFragment$1
+ch.blinkenlights.android.vanilla.PlaybackService$x       ch.blinkenlights.android.vanilla.PlaybackService$Receiver
+ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$m ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$MediaID
+ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$o final ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$MediaSessionCallback
+-------------------------------------------------------------------------------
+
+android.support.iosched.tabs.SlidingTabLayout    (ch.blinkenlights.android.vanilla.u)
+===============================================================================
+  g                    private scrollToTab(int,int)
+  h                    public setContentDescription(int,java.lang.String)
+  i                    public setCustomTabView(int,int)
+  o                    static access$300(android.support.iosched.tabs.SlidingTabLayout,int,int)
+  o                    public setViewPager(android.support.v4.view.ViewPager)
+  q                    static access$200(android.support.iosched.tabs.SlidingTabLayout)
+  u                    public setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+  v                    private populateTabStrip()
+  v                    public setDistributeEvenly(boolean)
+  w                    public setCustomTabColorizer(android.support.iosched.tabs.SlidingTabLayout$TabColorizer)
+  x                    static access$500(android.support.iosched.tabs.SlidingTabLayout)
+  y                    protected createDefaultTabView(android.content.Context)
+  y                    public transient setSelectedIndicatorColors(int[])
+  z                    static access$400(android.support.iosched.tabs.SlidingTabLayout)
+  onAttachedToWindow   protected onAttachedToWindow()
+
+android.support.iosched.tabs.SlidingTabLayout$1  (ch.blinkenlights.android.vanilla.u$1)
+===============================================================================
+  No methods
+
+android.support.iosched.tabs.SlidingTabLayout$InternalViewPagerListener  (ch.blinkenlights.android.vanilla.u$c)
+===============================================================================
+  j    public onPageScrollStateChanged(int)
+  k    public onPageSelected(int)
+  w    public onPageScrolled(int,float,int)
+
+android.support.iosched.tabs.SlidingTabLayout$NullPointerException       (ch.blinkenlights.android.vanilla.eval_j)
+===============================================================================
+  No methods
+
+android.support.iosched.tabs.SlidingTabLayout$TabClickListener   (ch.blinkenlights.android.vanilla.u$a)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+android.support.iosched.tabs.SlidingTabLayout$TabColorizer       (ch.blinkenlights.android.vanilla.u$h)
+===============================================================================
+  e    public abstract getIndicatorColor(int)
+
+android.support.iosched.tabs.SlidingTabStrip     (ch.blinkenlights.android.vanilla.eval_s)
+===============================================================================
+  d        setCustomTabColorizer(android.support.iosched.tabs.SlidingTabLayout$TabColorizer)
+  eval_h   private static setColorAlpha(int,byte)
+  h        transient setSelectedIndicatorColors(int[])
+  o        onViewPagerPageChanged(int,float)
+  v        private static blendColors(int,int,float)
+  onDraw   protected onDraw(android.graphics.Canvas)
+
+android.support.iosched.tabs.SlidingTabStrip$1   (ch.blinkenlights.android.vanilla.eval_s$1)
+===============================================================================
+  No methods
+
+android.support.iosched.tabs.SlidingTabStrip$Exception   (ch.blinkenlights.android.vanilla.eval_f)
+===============================================================================
+  No methods
+
+android.support.iosched.tabs.SlidingTabStrip$SimpleTabColorizer  (ch.blinkenlights.android.vanilla.eval_s$d)
+===============================================================================
+  e    public final getIndicatorColor(int)
+  x    transient setIndicatorColors(int[])
+
+android.support.iosched.tabs.VanillaTabLayout
+===============================================================================
+  y    protected createDefaultTabView(android.content.Context)
+
+android.support.iosched.tabs.VanillaTabLayout$NullPointerException       (ch.blinkenlights.android.vanilla.eval_w)
+===============================================================================
+  No methods
+
+android.support.v4.view.PagerAdapter     (ch.blinkenlights.android.vanilla.eval_b)
+===============================================================================
+  a    public getPageTitle(int)
+  b    public unregisterDataSetObserver(android.database.DataSetObserver)
+  d    public startUpdate(android.view.View)
+  g    public saveState()
+  h    public finishUpdate(android.view.ViewGroup)
+  h    public setPrimaryItem(android.view.ViewGroup,int,java.lang.Object)
+  h    public getPageWidth(int)
+  i    public setPrimaryItem(android.view.View,int,java.lang.Object)
+  j    public abstract isViewFromObject(android.view.View,java.lang.Object)
+  k    public restoreState(android.os.Parcelable,java.lang.ClassLoader)
+  m    public instantiateItem(android.view.View,int)
+  o    public abstract getCount()
+  o    public registerDataSetObserver(android.database.DataSetObserver)
+  s    public instantiateItem(android.view.ViewGroup,int)
+  t    public startUpdate(android.view.ViewGroup)
+  w    public finishUpdate(android.view.View)
+  x    public notifyDataSetChanged()
+  x    public getItemPosition(java.lang.Object)
+  y    public destroyItem(android.view.View,int,java.lang.Object)
+  z    public destroyItem(android.view.ViewGroup,int,java.lang.Object)
+
+android.support.v4.view.PagerAdapter$ArrayOutOfBoundsException   (ch.blinkenlights.android.vanilla.eval_c)
+===============================================================================
+  No methods
+
+android.support.v4.view.ViewPager
+===============================================================================
+  a                                smoothScrollTo(int,int)
+  a                                private recomputeScrollPosition(int,int,int,int)
+  b                                infoForAnyChild(android.view.View)
+  b                                private performDrag(float)
+  b                                public setOffscreenPageLimit(int)
+  c                                public isFakeDragging()
+  c                                private getChildRectInPagerCoordinates(android.graphics.Rect,android.view.View)
+  c                                static access$300(android.support.v4.view.ViewPager)
+  d                                private pageScrolled(int)
+  d                                protected onPageScrolled(int,float,int)
+  e                                public setPageMargin(int)
+  eval__                           private sortChildDrawingOrder()
+  eval_g                           private infoForCurrentScrollPosition()
+  eval_h                           infoForPosition(int)
+  eval_i                           protected canScroll(android.view.View,boolean,int,int,int)
+  eval_q                           pageRight()
+  eval_u                           private endDrag()
+  eval_v                           static access$400()
+  eval_x                           public arrowScroll(int)
+  f                                public executeKeyEvent(android.view.KeyEvent)
+  g                                private getClientWidth()
+  h                                dataSetChanged()
+  h                                private compatEdgeEffectOnRelease(android.widget.EdgeEffect)
+  h                                private requestParentDisallowInterceptTouchEvent(boolean)
+  h                                private setScrollState(int)
+  h                                setCurrentItemInternal(int,boolean,boolean)
+  i                                public getOffscreenPageLimit()
+  i                                public addOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+  j                                private removeNonDecorViews()
+  j                                public setAdapter(android.support.v4.view.PagerAdapter)
+  j                                setOnAdapterChangeListener(android.support.v4.view.ViewPager$OnAdapterChangeListener)
+  j                                private onSecondaryPointerUp(android.view.MotionEvent)
+  j                                distanceInfluenceForSnapDuration(float)
+  k                                private dispatchOnScrollStateChanged(int)
+  k                                public setCurrentItem(int,boolean)
+  k                                addNewItem(int,int)
+  m                                private isGutterDrag(float,float)
+  n                                static access$200(android.support.v4.view.ViewPager)
+  n                                private calculatePageOffsets(android.support.v4.view.ViewPager$ItemInfo,int,android.support.v4.view.ViewPager$ItemInfo)
+  n                                setChildrenDrawingOrderEnabledCompat(boolean)
+  o                                public clearOnPageChangeListeners()
+  o                                public setCurrentItem(int)
+  p                                public endFakeDrag()
+  p                                static access$000(android.support.v4.view.ViewPager,int)
+  p                                private completeScroll(boolean)
+  p                                public setPageMarginDrawable(int)
+  q                                populate(int)
+  q                                private scrollToItem(int,boolean,int,boolean)
+  r                                public setPageMarginDrawable(android.graphics.drawable.Drawable)
+  r                                setInternalPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+  s                                setCurrentItemInternal(int,boolean,boolean,int)
+  s                                private determineTargetPage(int,float,int,int)
+  t                                initViewPager()
+  t                                public removeOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+  t                                infoForChild(android.view.View)
+  t                                private enableLayers(boolean)
+  t                                public fakeDragBy(float)
+  u                                public getPageMargin()
+  u                                private setScrollingCacheEnabled(boolean)
+  v                                populate()
+  v                                public setPageTransformer(boolean,android.support.v4.view.ViewPager$PageTransformer)
+  v                                private dispatchOnPageSelected(int)
+  w                                public getCurrentItem()
+  x                                pageLeft()
+  x                                private dispatchOnPageScrolled(int,float,int)
+  y                                public beginFakeDrag()
+  z                                public getAdapter()
+  z                                public setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+  z                                smoothScrollTo(int,int,int)
+  addFocusables                    public addFocusables(java.util.ArrayList,int,int)
+  addTouchables                    public addTouchables(java.util.ArrayList)
+  addView                          public addView(android.view.View,int,android.view.ViewGroup$LayoutParams)
+  canScrollHorizontally            public canScrollHorizontally(int)
+  checkLayoutParams                protected checkLayoutParams(android.view.ViewGroup$LayoutParams)
+  computeScroll                    public computeScroll()
+  dispatchKeyEvent                 public dispatchKeyEvent(android.view.KeyEvent)
+  dispatchPopulateAccessibilityEvent   public dispatchPopulateAccessibilityEvent(android.view.accessibility.AccessibilityEvent)
+  draw                             public draw(android.graphics.Canvas)
+  drawableStateChanged             protected drawableStateChanged()
+  generateDefaultLayoutParams      protected generateDefaultLayoutParams()
+  generateLayoutParams             public generateLayoutParams(android.util.AttributeSet)
+  generateLayoutParams             protected generateLayoutParams(android.view.ViewGroup$LayoutParams)
+  getChildDrawingOrder             protected getChildDrawingOrder(int,int)
+  onAttachedToWindow               protected onAttachedToWindow()
+  onDetachedFromWindow             protected onDetachedFromWindow()
+  onDraw                           protected onDraw(android.graphics.Canvas)
+  onInterceptTouchEvent            public onInterceptTouchEvent(android.view.MotionEvent)
+  onLayout                         protected onLayout(boolean,int,int,int,int)
+  onMeasure                        protected onMeasure(int,int)
+  onRequestFocusInDescendants      protected onRequestFocusInDescendants(int,android.graphics.Rect)
+  onRestoreInstanceState           public onRestoreInstanceState(android.os.Parcelable)
+  onSaveInstanceState              public onSaveInstanceState()
+  onSizeChanged                    protected onSizeChanged(int,int,int,int)
+  onTouchEvent                     public onTouchEvent(android.view.MotionEvent)
+  removeView                       public removeView(android.view.View)
+  verifyDrawable                   protected verifyDrawable(android.graphics.drawable.Drawable)
+
+android.support.v4.view.ViewPager$1
+===============================================================================
+  w        public compare(android.support.v4.view.ViewPager$ItemInfo,android.support.v4.view.ViewPager$ItemInfo)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+android.support.v4.view.ViewPager$2
+===============================================================================
+  getInterpolation public getInterpolation(float)
+
+android.support.v4.view.ViewPager$3
+===============================================================================
+  run  public run()
+
+android.support.v4.view.ViewPager$Decor  (android.support.v4.view.ViewPager$o)
+===============================================================================
+  No methods
+
+android.support.v4.view.ViewPager$IOException    (ch.blinkenlights.android.vanilla.eval_a)
+===============================================================================
+  No methods
+
+android.support.v4.view.ViewPager$ItemInfo       (android.support.v4.view.ViewPager$h)
+===============================================================================
+  No methods
+
+android.support.v4.view.ViewPager$LayoutParams   (android.support.v4.view.ViewPager$eval_k)
+===============================================================================
+  No methods
+
+android.support.v4.view.ViewPager$MyAccessibilityDelegate        (android.support.v4.view.ViewPager$p)
+===============================================================================
+  c                                private canScroll()
+  onInitializeAccessibilityEvent   public onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+  onInitializeAccessibilityNodeInfo    public onInitializeAccessibilityNodeInfo(android.view.View,android.view.accessibility.AccessibilityNodeInfo)
+  performAccessibilityAction       public performAccessibilityAction(android.view.View,int,android.os.Bundle)
+
+android.support.v4.view.ViewPager$OnAdapterChangeListener        (android.support.v4.view.ViewPager$_)
+===============================================================================
+  k    public abstract onAdapterChanged(android.support.v4.view.PagerAdapter,android.support.v4.view.PagerAdapter)
+
+android.support.v4.view.ViewPager$OnPageChangeListener   (android.support.v4.view.ViewPager$t)
+===============================================================================
+  j    public abstract onPageScrollStateChanged(int)
+  k    public abstract onPageSelected(int)
+  w    public abstract onPageScrolled(int,float,int)
+
+android.support.v4.view.ViewPager$PageTransformer        (android.support.v4.view.ViewPager$m)
+===============================================================================
+  e    public abstract transformPage(android.view.View,float)
+
+android.support.v4.view.ViewPager$PagerObserver  (android.support.v4.view.ViewPager$f)
+===============================================================================
+  onChanged        public onChanged()
+  onInvalidated    public onInvalidated()
+
+android.support.v4.view.ViewPager$SavedState     (android.support.v4.view.ViewPager$eval_z)
+===============================================================================
+  toString         public toString()
+  writeToParcel    public writeToParcel(android.os.Parcel,int)
+
+android.support.v4.view.ViewPager$SavedState$1   (android.support.v4.view.ViewPager$eval_z$1)
+===============================================================================
+  createFromParcel public createFromParcel(android.os.Parcel)
+  newArray         public newArray(int)
+  createFromParcel public volatile createFromParcel(android.os.Parcel)
+  newArray         public volatile newArray(int)
+
+android.support.v4.view.ViewPager$SavedState$Exception   (ch.blinkenlights.android.vanilla.eval_l)
+===============================================================================
+  No methods
+
+android.support.v4.view.ViewPager$SimpleOnPageChangeListener     (android.support.v4.view.ViewPager$z)
+===============================================================================
+  j    public onPageScrollStateChanged(int)
+  k    public onPageSelected(int)
+  w    public onPageScrolled(int,float,int)
+
+android.support.v4.view.ViewPager$ViewPositionComparator (android.support.v4.view.ViewPager$eval_v)
+===============================================================================
+  s        public compare(android.view.View,android.view.View)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+android.support.v4.view.ViewPagerIcsCompat       (ch.blinkenlights.android.vanilla.eval_z)
+===============================================================================
+  j    public static postInvalidateOnAnimation(android.view.View)
+  r    public static getImportantForAccessibility(android.view.View)
+  y    public static postOnAnimation(android.view.View,java.lang.Runnable)
+
+android.support.v4.view.ViewPagerIcsCompat$ParseException        (ch.blinkenlights.android.vanilla.eval_o)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.Action  (ch.blinkenlights.android.vanilla.eval_d)
+===============================================================================
+  h        public static getAction(android.content.SharedPreferences,java.lang.String,ch.blinkenlights.android.vanilla.Action)
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+ch.blinkenlights.android.vanilla.Action$Exception        (ch.blinkenlights.android.vanilla.eval_i)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.AudioPickerActivity
+===============================================================================
+  g        private getSongForUri(android.net.Uri)
+  onClick  public onClick(android.view.View)
+  onCreate public onCreate(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.AudioPickerActivity$1   (ch.blinkenlights.android.vanilla.eval_r)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.AudioPickerActivity$ParseException      (ch.blinkenlights.android.vanilla.eval_p)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.BastpUtil       (ch.blinkenlights.android.vanilla.eval_y)
+===============================================================================
+  eval_d   public getReplayGainValues(java.lang.String)
+  k        private getFloatFromString(java.lang.String)
+  n        private getReplayGainValuesFromFile(java.lang.String)
+
+ch.blinkenlights.android.vanilla.BastpUtil$1     (ch.blinkenlights.android.vanilla.eval_t)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.BastpUtil$GainValues    (ch.blinkenlights.android.vanilla.eval_y$i)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.BastpUtil$ParseException        (ch.blinkenlights.android.vanilla.eval_h)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.BastpUtil$RGLruCache    (ch.blinkenlights.android.vanilla.eval_y$r)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.BottomBarControls
+===============================================================================
+  a                    public setCover(android.graphics.Bitmap)
+  a                    public setSong(ch.blinkenlights.android.vanilla.Song)
+  f                    public openMenu()
+  i                    private getImageButton(android.graphics.drawable.Drawable)
+  k                    private menuMargin()
+  m                    public enableOptionsMenu(android.app.Activity)
+  o                    public showSearch(boolean)
+  r                    public setOnQueryTextListener(android.widget.SearchView$OnQueryTextListener)
+  t                    private dpToPx(int)
+  y                    private styleSearchView(android.view.View,int)
+  onClick              public onClick(android.view.View)
+  onFinishInflate      public onFinishInflate()
+  onMenuItemClick      public onMenuItemClick(android.view.MenuItem)
+  onSaveInstanceState  public onSaveInstanceState()
+  setOnClickListener   public setOnClickListener(android.view.View$OnClickListener)
+
+ch.blinkenlights.android.vanilla.BottomBarControls$NullPointerException  (ch.blinkenlights.android.vanilla.eval_m)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.BuildConfig     (ch.blinkenlights.android.vanilla.eval_k)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.BuildConfig$Exception   (ch.blinkenlights.android.vanilla.eval_x)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.CoverBitmap     (ch.blinkenlights.android.vanilla.eval_q)
+===============================================================================
+  a        public static generatePlaceholderCover(android.content.Context,int,int,java.lang.String)
+  b        public static generateDefaultCover(android.content.Context,int,int)
+  eval_j   private static loadTextSizes(android.content.Context)
+  h        private static loadIcons(android.content.Context)
+  i        private static createScaledBitmap(android.graphics.Bitmap,int,int)
+  m        public static createBitmap(android.content.Context,int,android.graphics.Bitmap,ch.blinkenlights.android.vanilla.Song,int,int)
+  n        private static createOverlappingBitmap(android.content.Context,android.graphics.Bitmap,ch.blinkenlights.android.vanilla.Song,int,int)
+  n        private static drawText(android.graphics.Canvas,java.lang.String,int,int,int,int,android.graphics.Paint)
+  s        private static createSeparatedBitmap(android.content.Context,android.graphics.Bitmap,ch.blinkenlights.android.vanilla.Song,int,int)
+
+ch.blinkenlights.android.vanilla.CoverBitmap$Exception   (ch.blinkenlights.android.vanilla.eval_e)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.CoverCache      (ch.blinkenlights.android.vanilla.eval_n)
+===============================================================================
+  a        public static evictAll()
+  eval_k   private storeCover(ch.blinkenlights.android.vanilla.CoverCache$CoverKey,android.graphics.Bitmap)
+  g        public getCoverFromSong(ch.blinkenlights.android.vanilla.Song,int)
+  o        private getStoredCover(ch.blinkenlights.android.vanilla.CoverCache$CoverKey)
+
+ch.blinkenlights.android.vanilla.CoverCache$BitmapDiskCache      (ch.blinkenlights.android.vanilla.eval_n$h)
+===============================================================================
+  a            public put(ch.blinkenlights.android.vanilla.CoverCache$CoverKey,android.graphics.Bitmap)
+  c            public get(ch.blinkenlights.android.vanilla.CoverCache$CoverKey)
+  d            private getUnixTime()
+  eval_l       private trim(long)
+  h            private isExpired(long)
+  l            public evictAll()
+  n            private static getSampleSize(java.io.InputStream,android.graphics.BitmapFactory$Options,long)
+  q            public createBitmap(ch.blinkenlights.android.vanilla.Song,long)
+  u            private getUsedSpace()
+  onCreate     public onCreate(android.database.sqlite.SQLiteDatabase)
+  onUpgrade    public onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+
+ch.blinkenlights.android.vanilla.CoverCache$CoverKey     (ch.blinkenlights.android.vanilla.eval_n$x)
+===============================================================================
+  equals   public equals(java.lang.Object)
+  hashCode public hashCode()
+  toString public toString()
+
+ch.blinkenlights.android.vanilla.CoverCache$IOException  (ch.blinkenlights.android.vanilla.eval_v)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.CoverView
+===============================================================================
+  eval_k           public setup(android.os.Looper,ch.blinkenlights.android.vanilla.CoverView$Callback,int)
+  g                public setSong(int,ch.blinkenlights.android.vanilla.Song)
+  j                private generateBitmap(int)
+  k                private resetScroll()
+  q                public querySongs(ch.blinkenlights.android.vanilla.PlaybackService)
+  handleMessage    public handleMessage(android.os.Message)
+  onDraw           protected onDraw(android.graphics.Canvas)
+  onMeasure        protected onMeasure(int,int)
+  onSizeChanged    protected onSizeChanged(int,int,int,int)
+  onTouchEvent     public onTouchEvent(android.view.MotionEvent)
+
+ch.blinkenlights.android.vanilla.CoverView$Callback      (ch.blinkenlights.android.vanilla.CoverView$n)
+===============================================================================
+  t    public abstract shiftCurrentSong(int)
+  x    public abstract downSwipe()
+  z    public abstract upSwipe()
+
+ch.blinkenlights.android.vanilla.CoverView$ParseException        (ch.blinkenlights.android.vanilla.eval_g)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.DraggableRow
+===============================================================================
+  d                public showDragger(boolean)
+  q                public getTextView()
+  r                public highlightRow(boolean)
+  x                public setupLayout(int)
+  y                public getCoverView()
+  isChecked        public isChecked()
+  onFinishInflate  public onFinishInflate()
+  setChecked       public setChecked(boolean)
+  toggle           public toggle()
+
+ch.blinkenlights.android.vanilla.DraggableRow$NullPointerException       (ch.blinkenlights.android.vanilla.eval__)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.FastScrollGuardedListView
+===============================================================================
+  onInterceptTouchEvent    public onInterceptTouchEvent(android.view.MotionEvent)
+
+ch.blinkenlights.android.vanilla.FastScrollGuardedListView$IOException   (ch.blinkenlights.android.vanilla.eval_bd)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.FileSystemAdapter       (ch.blinkenlights.android.vanilla.eval_v6)
+===============================================================================
+  b            public getMediaType()
+  eval_l       public setFilter(java.lang.String)
+  f            public static buildLimiter(java.io.File)
+  g            public getLimiter()
+  i            public query()
+  m            public commitQuery(java.lang.Object)
+  o            public clear()
+  r            public setLimiter(ch.blinkenlights.android.vanilla.Limiter)
+  r            public buildLimiter(long)
+  u            public createData(android.view.View)
+  x            public onHandleRowClick(android.view.View)
+  getCount     public getCount()
+  getItem      public getItem(int)
+  getItemId    public getItemId(int)
+  getView      public getView(int,android.view.View,android.view.ViewGroup)
+  onClick      public onClick(android.view.View)
+
+ch.blinkenlights.android.vanilla.FileSystemAdapter$1     (ch.blinkenlights.android.vanilla.eval_v6$1)
+===============================================================================
+  accept   public accept(java.io.File,java.lang.String)
+
+ch.blinkenlights.android.vanilla.FileSystemAdapter$2     (ch.blinkenlights.android.vanilla.eval_v6$2)
+===============================================================================
+  p        public compare(java.io.File,java.io.File)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+ch.blinkenlights.android.vanilla.FileSystemAdapter$NullPointerException  (ch.blinkenlights.android.vanilla.eval_s5)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.FileSystemAdapter$Observer      (ch.blinkenlights.android.vanilla.eval_v6$_)
+===============================================================================
+  onEvent  public onEvent(int,java.lang.String)
+
+ch.blinkenlights.android.vanilla.FileUtils       (ch.blinkenlights.android.vanilla.eval_yz)
+===============================================================================
+  f    public static getFilesystemBrowseStart(android.content.Context)
+  p    public static dispatchIntent(ch.blinkenlights.android.vanilla.LibraryActivity,android.content.Intent)
+  q    public static canDispatchIntent(android.content.Intent)
+
+ch.blinkenlights.android.vanilla.FileUtils$ParseException        (ch.blinkenlights.android.vanilla.eval_rq)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.FilebrowserStartActivity        (ch.blinkenlights.android.vanilla.eval_ey)
+===============================================================================
+  b                        public onDirectoryClicked(int)
+  f                        static access$100(ch.blinkenlights.android.vanilla.FilebrowserStartActivity)
+  m                        static access$000(ch.blinkenlights.android.vanilla.FilebrowserStartActivity)
+  n                        private refreshDirectoryList()
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onResume                 public onResume()
+
+ch.blinkenlights.android.vanilla.FilebrowserStartActivity$1      (ch.blinkenlights.android.vanilla.eval_ey$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+ch.blinkenlights.android.vanilla.FilebrowserStartActivity$ParseException (ch.blinkenlights.android.vanilla.eval__9)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.FilebrowserStartAdapter (ch.blinkenlights.android.vanilla.eval_p0)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+  onClick  public onClick(android.view.View)
+
+ch.blinkenlights.android.vanilla.FilebrowserStartAdapter$ArrayOutOfBoundsException       (ch.blinkenlights.android.vanilla.eval_gr)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.FourLongWidget
+===============================================================================
+  n            public static updateWidget(android.content.Context,android.appwidget.AppWidgetManager,ch.blinkenlights.android.vanilla.Song,int)
+  o            public static checkEnabled(android.content.Context,android.appwidget.AppWidgetManager)
+  onDisabled   public onDisabled(android.content.Context)
+  onEnabled    public onEnabled(android.content.Context)
+  onUpdate     public onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])
+
+ch.blinkenlights.android.vanilla.FourLongWidget$ParseException   (ch.blinkenlights.android.vanilla.eval_sm)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.FourSquareWidget
+===============================================================================
+  c            public static updateWidget(android.content.Context,android.appwidget.AppWidgetManager,ch.blinkenlights.android.vanilla.Song,int)
+  i            public static checkEnabled(android.content.Context,android.appwidget.AppWidgetManager)
+  onDisabled   public onDisabled(android.content.Context)
+  onEnabled    public onEnabled(android.content.Context)
+  onUpdate     public onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])
+
+ch.blinkenlights.android.vanilla.FourSquareWidget$Exception      (ch.blinkenlights.android.vanilla.eval_k8)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.FourWhiteWidget
+===============================================================================
+  m            public static checkEnabled(android.content.Context,android.appwidget.AppWidgetManager)
+  p            public static updateWidget(android.content.Context,android.appwidget.AppWidgetManager,ch.blinkenlights.android.vanilla.Song,int)
+  onDisabled   public onDisabled(android.content.Context)
+  onEnabled    public onEnabled(android.content.Context)
+  onUpdate     public onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])
+
+ch.blinkenlights.android.vanilla.FourWhiteWidget$IOException     (ch.blinkenlights.android.vanilla.eval_p6)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.FullPlaybackActivity    (ch.blinkenlights.android.vanilla.eval_ps)
+===============================================================================
+  d                        public onPositionInfoChanged()
+  d                        private showOverlayMessage(int)
+  eval_c                   private loadExtraInfo()
+  g                        protected onStateChange(int,int)
+  h                        public onSlideFullyExpanded(boolean)
+  j                        private hideMessageOverlay()
+  j                        private setExtraInfoVisible(boolean)
+  j                        private static decodeMimeType(java.lang.String)
+  v                        protected onSongChange(ch.blinkenlights.android.vanilla.Song)
+  x                        private setControlsVisible(boolean)
+  y                        private updateQueuePosition()
+  y                        protected performAction(ch.blinkenlights.android.vanilla.Action)
+  handleMessage            public handleMessage(android.os.Message)
+  onClick                  public onClick(android.view.View)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onKeyDown                public onKeyDown(int,android.view.KeyEvent)
+  onKeyUp                  public onKeyUp(int,android.view.KeyEvent)
+  onLongClick              public onLongClick(android.view.View)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onSearchRequested        public onSearchRequested()
+  onStart                  public onStart()
+
+ch.blinkenlights.android.vanilla.FullPlaybackActivity$1  (ch.blinkenlights.android.vanilla.eval_ps$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+ch.blinkenlights.android.vanilla.FullPlaybackActivity$2  (ch.blinkenlights.android.vanilla.eval_ps$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+ch.blinkenlights.android.vanilla.FullPlaybackActivity$3  (ch.blinkenlights.android.vanilla.eval_ps$3)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.FullPlaybackActivity$IOException        (ch.blinkenlights.android.vanilla.eval_hi)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.IdlePreference
+===============================================================================
+  o                    private updateText()
+  z                    private formatTime(int)
+  getSummary           public getSummary()
+  onCreateDialogView   protected onCreateDialogView()
+  onDialogClosed       protected onDialogClosed(boolean)
+  onProgressChanged    public onProgressChanged(android.widget.SeekBar,int,boolean)
+  onStartTrackingTouch public onStartTrackingTouch(android.widget.SeekBar)
+  onStopTrackingTouch  public onStopTrackingTouch(android.widget.SeekBar)
+
+ch.blinkenlights.android.vanilla.IdlePreference$ParseException   (ch.blinkenlights.android.vanilla.eval_uj)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.LazyCoverView
+===============================================================================
+  a                static access$000(ch.blinkenlights.android.vanilla.LazyCoverView)
+  d                public setCover(int,long,java.lang.String)
+  n                public drawFromCache(ch.blinkenlights.android.vanilla.CoverCache$CoverKey,boolean)
+  handleMessage    public handleMessage(android.os.Message)
+
+ch.blinkenlights.android.vanilla.LazyCoverView$ArrayOutOfBoundsException (ch.blinkenlights.android.vanilla.eval_xp)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.LazyCoverView$BitmapLruCache    (ch.blinkenlights.android.vanilla.LazyCoverView$y)
+===============================================================================
+  c        protected sizeOf(ch.blinkenlights.android.vanilla.CoverCache$CoverKey,android.graphics.Bitmap)
+  sizeOf   protected volatile sizeOf(java.lang.Object,java.lang.Object)
+
+ch.blinkenlights.android.vanilla.LazyCoverView$CoverMsg  (ch.blinkenlights.android.vanilla.LazyCoverView$p)
+===============================================================================
+  r    public isRecent()
+
+ch.blinkenlights.android.vanilla.LibraryActivity
+===============================================================================
+  a                        private expand(android.content.Intent)
+  b                        public updateLimiterViews()
+  c                        private checkForLaunch(android.content.Intent)
+  e                        public onCreateContextMenu(android.view.ContextMenu,android.content.Intent)
+  eval_e                   private updateHeaders()
+  eval_z                   public openPlaybackActivity()
+  g                        protected onStateChange(int,int)
+  i                        private setLimiter(int,java.lang.String)
+  k                        public onMediaChange()
+  l                        public onPageChanged(int,ch.blinkenlights.android.vanilla.LibraryAdapter)
+  m                        private updateCover(android.graphics.Bitmap)
+  n                        public onItemExpanded(android.content.Intent)
+  n                        private pickSongs(android.content.Intent,int)
+  o                        private loadAlbumIntent(android.content.Intent)
+  s                        private editPlaylist(android.content.Intent)
+  t                        private loadTabOrder()
+  v                        public onItemClicked(android.content.Intent)
+  v                        protected onSongChange(ch.blinkenlights.android.vanilla.Song)
+  w                        static access$000(ch.blinkenlights.android.vanilla.LibraryActivity)
+  handleMessage            public handleMessage(android.os.Message)
+  onClick                  public onClick(android.content.DialogInterface,int)
+  onClick                  public onClick(android.view.View)
+  onContextItemSelected    public onContextItemSelected(android.view.MenuItem)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onDismiss                public onDismiss(android.content.DialogInterface)
+  onKeyDown                public onKeyDown(int,android.view.KeyEvent)
+  onKeyUp                  public onKeyUp(int,android.view.KeyEvent)
+  onNewIntent              public onNewIntent(android.content.Intent)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPrepareOptionsMenu     public onPrepareOptionsMenu(android.view.Menu)
+  onQueryTextChange        public onQueryTextChange(java.lang.String)
+  onQueryTextSubmit        public onQueryTextSubmit(java.lang.String)
+  onRestart                public onRestart()
+  onStart                  public onStart()
+
+ch.blinkenlights.android.vanilla.LibraryActivity$1
+===============================================================================
+  run  public run()
+
+ch.blinkenlights.android.vanilla.LibraryActivity$2
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+ch.blinkenlights.android.vanilla.LibraryActivity$3
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+ch.blinkenlights.android.vanilla.LibraryActivity$IOException     (ch.blinkenlights.android.vanilla.eval_n2)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.LibraryAdapter  (ch.blinkenlights.android.vanilla.eval_y7)
+===============================================================================
+  b        public abstract getMediaType()
+  eval_l   public abstract setFilter(java.lang.String)
+  g        public abstract getLimiter()
+  i        public abstract query()
+  m        public abstract commitQuery(java.lang.Object)
+  o        public abstract clear()
+  r        public abstract setLimiter(ch.blinkenlights.android.vanilla.Limiter)
+  r        public abstract buildLimiter(long)
+  u        public abstract createData(android.view.View)
+
+ch.blinkenlights.android.vanilla.LibraryAdapter$ParseException   (ch.blinkenlights.android.vanilla.eval_pe)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.LibraryPagerAdapter     (ch.blinkenlights.android.vanilla.eval_qs)
+===============================================================================
+  a                    public getPageTitle(int)
+  c                    public requestRequery(ch.blinkenlights.android.vanilla.LibraryAdapter)
+  d                    private requeryIfNeeded(int)
+  eval_f               public invalidateData()
+  eval_m               public loadTabOrder()
+  eval_n               public getCurrentLimiter()
+  eval_z               public clearLimiter(int)
+  g                    public saveState()
+  h                    private maintainPosition()
+  h                    public setPrimaryItem(android.view.ViewGroup,int,java.lang.Object)
+  j                    public isViewFromObject(android.view.View,java.lang.Object)
+  j                    public onPageScrollStateChanged(int)
+  k                    public restoreState(android.os.Parcelable,java.lang.ClassLoader)
+  k                    public onPageSelected(int)
+  m                    public setHeaderText(java.lang.String)
+  o                    public getCount()
+  o                    public postRequestRequery(ch.blinkenlights.android.vanilla.LibraryAdapter)
+  p                    public computeExpansions()
+  p                    public setFilter(java.lang.String)
+  q                    private postRunQuery(ch.blinkenlights.android.vanilla.LibraryAdapter)
+  s                    public instantiateItem(android.view.ViewGroup,int)
+  u                    private static createHeaderIntent(android.view.View)
+  w                    public setLimiter(ch.blinkenlights.android.vanilla.Limiter)
+  w                    public loadSortOrder(ch.blinkenlights.android.vanilla.MediaAdapter)
+  w                    public onPageScrolled(int,float,int)
+  x                    public getItemPosition(java.lang.Object)
+  z                    public destroyItem(android.view.ViewGroup,int,java.lang.Object)
+  z                    public setSortMode(int)
+  handleMessage        public handleMessage(android.os.Message)
+  onCreateContextMenu  public onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+  onItemClick          public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+ch.blinkenlights.android.vanilla.LibraryPagerAdapter$1   (ch.blinkenlights.android.vanilla.eval_qs$1)
+===============================================================================
+  onChange public onChange(boolean)
+
+ch.blinkenlights.android.vanilla.LibraryPagerAdapter$AdaperPositionLruCache      (ch.blinkenlights.android.vanilla.eval_qs$i)
+===============================================================================
+  h    public popPosition(ch.blinkenlights.android.vanilla.LibraryAdapter)
+  i    private _k(ch.blinkenlights.android.vanilla.LibraryAdapter)
+  s    public storePosition(ch.blinkenlights.android.vanilla.LibraryAdapter,java.lang.Integer)
+
+ch.blinkenlights.android.vanilla.LibraryPagerAdapter$ParseException      (ch.blinkenlights.android.vanilla.eval__1)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.Limiter (ch.blinkenlights.android.vanilla.eval__5)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.Limiter$NullPointerException    (ch.blinkenlights.android.vanilla.eval__4)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.ListPreferenceSummary
+===============================================================================
+  getSummary       public getSummary()
+  onDialogClosed   protected onDialogClosed(boolean)
+
+ch.blinkenlights.android.vanilla.ListPreferenceSummary$Exception (ch.blinkenlights.android.vanilla.eval_ah)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.MediaAdapter    (ch.blinkenlights.android.vanilla.eval_ta)
+===============================================================================
+  b                        public getMediaType()
+  e                        public changeCursor(android.database.Cursor)
+  eval_l                   public setFilter(java.lang.String)
+  eval_y                   private getFirstSortColumn()
+  f                        private buildAlphabet()
+  g                        public getLimiter()
+  i                        public query()
+  k                        public setExpandable(boolean)
+  k                        public setSortMode(int)
+  l                        public getSortMode()
+  l                        public buildSongQuery(java.lang.String[])
+  m                        public commitQuery(java.lang.Object)
+  o                        public clear()
+  r                        public setLimiter(ch.blinkenlights.android.vanilla.Limiter)
+  r                        public buildLimiter(long)
+  s                        private buildQuery(java.lang.String[],boolean)
+  u                        public createData(android.view.View)
+  v                        public getDefaultSortMode()
+  x                        public getSortEntries()
+  y                        public getLimiterType()
+  getCount                 public getCount()
+  getItem                  public getItem(int)
+  getItemId                public getItemId(int)
+  getPositionForSection    public getPositionForSection(int)
+  getSectionForPosition    public getSectionForPosition(int)
+  getSections              public getSections()
+  getView                  public getView(int,android.view.View,android.view.ViewGroup)
+  hasStableIds             public hasStableIds()
+  onClick                  public onClick(android.view.View)
+
+ch.blinkenlights.android.vanilla.MediaAdapter$NullPointerException       (ch.blinkenlights.android.vanilla.eval_yc)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.MediaAdapter$SectionIndex       (ch.blinkenlights.android.vanilla.eval_ta$_)
+===============================================================================
+  r        static access$000(ch.blinkenlights.android.vanilla.MediaAdapter$SectionIndex)
+  toString public toString()
+
+ch.blinkenlights.android.vanilla.MediaButtonReceiver
+===============================================================================
+  eval_c       private static beep(android.content.Context)
+  k            public static reloadPreference(android.content.Context)
+  o            public static processKey(android.content.Context,android.view.KeyEvent)
+  q            public static useHeadsetControls(android.content.Context)
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+ch.blinkenlights.android.vanilla.MediaButtonReceiver$ParseException      (ch.blinkenlights.android.vanilla.eval_ll)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.MediaUtils      (ch.blinkenlights.android.vanilla.eval_bh)
+===============================================================================
+  a        private static addDirEndSlash(java.lang.String)
+  b        public static queryResolver(android.content.ContentResolver,android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)
+  e        public static randomSong(android.content.ContentResolver)
+  e        public static queryGenreForSong(android.content.ContentResolver,long)
+  eval_b   public static buildGenreExcludeEmptyQuery(java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)
+  eval_b   public static shuffle(java.util.List,boolean)
+  eval_s   public static getSongByTypeId(android.content.ContentResolver,int,long)
+  g        public static getCursorForFileQuery(java.lang.String)
+  i        public static buildGenreQuery(long,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,int,boolean)
+  j        public static getRandom()
+  k        public static deleteFile(java.io.File)
+  l        public static buildFileQuery(java.lang.String,java.lang.String[])
+  m        private static queryAllSongs(android.content.ContentResolver)
+  o        public static isSongAvailable(android.content.ContentResolver)
+  q        public static onMediaChange()
+  q        private static sanitizeMediaPath(java.lang.String)
+  v        public static shuffle(long[])
+  w        public static buildQuery(int,long,java.lang.String[],java.lang.String)
+  y        public static buildPlaylistQuery(long,java.lang.String[],java.lang.String)
+  z        private static buildMediaQuery(int,long,java.lang.String[],java.lang.String)
+
+ch.blinkenlights.android.vanilla.MediaUtils$IOException  (ch.blinkenlights.android.vanilla.eval_kz)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.MiniPlaybackActivity    (ch.blinkenlights.android.vanilla.eval_d8)
+===============================================================================
+  onClick  public onClick(android.view.View)
+  onCreate public onCreate(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.MiniPlaybackActivity$IOException        (ch.blinkenlights.android.vanilla.eval_sc)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService
+===============================================================================
+  d                public onPositionInfoChanged()
+  e                static access$800(ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService)
+  eval_l           static access$500(ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService)
+  eval_r           static access$300(ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService)
+  eval_r           private loadChildrenAsync(ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$MediaID,android.service.media.MediaBrowserService$Result)
+  eval_y           private setSessionInactive()
+  f                private static buildLimiterFromMediaID(ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$MediaID)
+  g                private getAvailableActions()
+  h                private clearLimiters()
+  h                private buildQueryFromMediaID(ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$MediaID,boolean,boolean)
+  i                public replaceSong(int,ch.blinkenlights.android.vanilla.Song)
+  i                private updatePlaybackState(java.lang.String)
+  i                private runQuery(java.util.List,int,ch.blinkenlights.android.vanilla.MediaAdapter)
+  j                private subtitleForMediaType(int)
+  k                public onMediaChange()
+  m                static access$400(ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService,java.util.List,int,ch.blinkenlights.android.vanilla.MediaAdapter)
+  n                public onTimelineChanged()
+  n                public onError(java.lang.String)
+  p                public onMediaChanged()
+  q                public setState(long,int)
+  recreate         public recreate()
+  s                static access$200(ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService)
+  u                static access$100(ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService)
+  v                private setSessionActive()
+  v                static access$600(ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService)
+  w                private setCustomAction(android.media.session.PlaybackState$Builder)
+  w                static access$700(ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService)
+  w                public setSong(long,ch.blinkenlights.android.vanilla.Song)
+  handleMessage    public handleMessage(android.os.Message)
+  onCreate         public onCreate()
+  onDestroy        public onDestroy()
+  onGetRoot        public onGetRoot(java.lang.String,int,android.os.Bundle)
+  onLoadChildren   public onLoadChildren(java.lang.String,android.service.media.MediaBrowserService$Result)
+  onStartCommand   public onStartCommand(android.content.Intent,int,int)
+
+ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$1
+===============================================================================
+  run  public run()
+
+ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$2
+===============================================================================
+  l                protected onPostExecute(java.lang.Integer)
+  z                protected transient doInBackground(java.lang.Void[])
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+
+ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$MediaID   (ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$m)
+===============================================================================
+  h        public isInvalid()
+  h        public static toString(int,long,java.lang.String)
+  i        public isTopAdapter()
+  i        public static isTopAdapter(java.lang.String)
+  toString public toString()
+
+ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$MediaSessionCallback      (ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$o)
+===============================================================================
+  onCustomAction       public onCustomAction(java.lang.String,android.os.Bundle)
+  onFastForward        public onFastForward()
+  onPause              public onPause()
+  onPlay               public onPlay()
+  onPlayFromMediaId    public onPlayFromMediaId(java.lang.String,android.os.Bundle)
+  onRewind             public onRewind()
+  onSeekTo             public onSeekTo(long)
+  onSkipToNext         public onSkipToNext()
+  onSkipToPrevious     public onSkipToPrevious()
+  onStop               public onStop()
+
+ch.blinkenlights.android.vanilla.MirrorLinkMediaBrowserService$ParseException    (ch.blinkenlights.android.vanilla.eval_wh)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.NewPlaylistDialog       (ch.blinkenlights.android.vanilla.eval_o9)
+===============================================================================
+  b                    public getText()
+  d                    public isAccepted()
+  h                    public getPlaylistTask()
+  afterTextChanged     public afterTextChanged(android.text.Editable)
+  beforeTextChanged    public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  onClick              public onClick(android.view.View)
+  onCreate             protected onCreate(android.os.Bundle)
+  onTextChanged        public onTextChanged(java.lang.CharSequence,int,int,int)
+
+ch.blinkenlights.android.vanilla.NewPlaylistDialog$NullPointerException  (ch.blinkenlights.android.vanilla.eval_ph)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.OneCellWidget
+===============================================================================
+  i            public static checkEnabled(android.content.Context,android.appwidget.AppWidgetManager)
+  j            public static updateWidget(android.content.Context,android.appwidget.AppWidgetManager,ch.blinkenlights.android.vanilla.Song,int)
+  onDisabled   public onDisabled(android.content.Context)
+  onEnabled    public onEnabled(android.content.Context)
+  onUpdate     public onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])
+
+ch.blinkenlights.android.vanilla.OneCellWidget$ArrayOutOfBoundsException (ch.blinkenlights.android.vanilla.eval_dl)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PermissionRequestActivity       (ch.blinkenlights.android.vanilla.eval_ix)
+===============================================================================
+  e                            public static showWarning(ch.blinkenlights.android.vanilla.LibraryActivity,android.content.Intent)
+  l                            public static requestPermissions(android.app.Activity,android.content.Intent)
+  m                            public static havePermissions(android.content.Context)
+  onCreate                     public onCreate(android.os.Bundle)
+  onRequestPermissionsResult   public onRequestPermissionsResult(int,java.lang.String[],int[])
+
+ch.blinkenlights.android.vanilla.PermissionRequestActivity$1     (ch.blinkenlights.android.vanilla.eval_ix$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+ch.blinkenlights.android.vanilla.PermissionRequestActivity$IOException   (ch.blinkenlights.android.vanilla.eval_jt)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PlayCountsHelper        (ch.blinkenlights.android.vanilla.eval_ke)
+===============================================================================
+  e            public getTopSongs(int)
+  p            private performGC(int)
+  w            public countSong(ch.blinkenlights.android.vanilla.Song)
+  onCreate     public onCreate(android.database.sqlite.SQLiteDatabase)
+  onUpgrade    public onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+
+ch.blinkenlights.android.vanilla.PlayCountsHelper$Exception      (ch.blinkenlights.android.vanilla.eval_nr)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PlaybackActivity        (ch.blinkenlights.android.vanilla.eval_h6)
+===============================================================================
+  c                        public openLibrary(ch.blinkenlights.android.vanilla.Song)
+  d                        public onPositionInfoChanged()
+  eval_f                   protected bindControlButtons()
+  eval_f                   protected setSong(ch.blinkenlights.android.vanilla.Song)
+  eval_j                   public cycleFinishAction()
+  eval_l                   public cycleShuffle()
+  eval_y                   private rewindCurrentSong()
+  f                        protected setState(int)
+  g                        protected onStateChange(int,int)
+  i                        protected addToPlaylist(ch.blinkenlights.android.vanilla.PlaylistTask)
+  i                        public replaceSong(int,ch.blinkenlights.android.vanilla.Song)
+  k                        public onMediaChange()
+  l                        protected onServiceReady()
+  n                        public onTimelineChanged()
+  q                        public setState(long,int)
+  s                        private showToast(java.lang.String,int)
+  t                        private removeFromPlaylist(ch.blinkenlights.android.vanilla.PlaylistTask)
+  t                        public shiftCurrentSong(int)
+  u                        public playPause()
+  v                        protected onSongChange(ch.blinkenlights.android.vanilla.Song)
+  w                        public setSong(long,ch.blinkenlights.android.vanilla.Song)
+  x                        public downSwipe()
+  y                        private delete(android.content.Intent)
+  y                        protected performAction(ch.blinkenlights.android.vanilla.Action)
+  z                        public upSwipe()
+  handleMessage            public handleMessage(android.os.Message)
+  onClick                  public onClick(android.view.View)
+  onContextItemSelected    public onContextItemSelected(android.view.MenuItem)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateContextMenu      public onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onDestroy                public onDestroy()
+  onKeyDown                public onKeyDown(int,android.view.KeyEvent)
+  onKeyUp                  public onKeyUp(int,android.view.KeyEvent)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onResume                 public onResume()
+  onStart                  public onStart()
+
+ch.blinkenlights.android.vanilla.PlaybackActivity$1      (ch.blinkenlights.android.vanilla.eval_h6$1)
+===============================================================================
+  run  public run()
+
+ch.blinkenlights.android.vanilla.PlaybackActivity$2      (ch.blinkenlights.android.vanilla.eval_h6$2)
+===============================================================================
+  run  public run()
+
+ch.blinkenlights.android.vanilla.PlaybackActivity$3      (ch.blinkenlights.android.vanilla.eval_h6$3)
+===============================================================================
+  run  public run()
+
+ch.blinkenlights.android.vanilla.PlaybackActivity$Exception      (ch.blinkenlights.android.vanilla.eval_vv)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PlaybackActivity$SaveAsPlaylistDismiss  (ch.blinkenlights.android.vanilla.eval_h6$g)
+===============================================================================
+  onDismiss    public onDismiss(android.content.DialogInterface)
+
+ch.blinkenlights.android.vanilla.PlaybackService
+===============================================================================
+  a                            public getTimelinePosition()
+  c                            public cycleFinishAction()
+  d                            private isSpeakerOn()
+  d                            private showMirrorLinkSafeToast(int,int)
+  d                            private loadPreference(java.lang.String)
+  e                            public playPause()
+  e                            public getReplayGainValues(java.lang.String)
+  eval__                       public getPosition()
+  eval_a                       private getMirrorLinkCallback()
+  eval_b                       private triggerReadAhead()
+  eval_d                       public onMediaChange()
+  eval_g                       private setupSensor()
+  eval_h                       private enterSleepState()
+  eval_j                       public getAudioSession()
+  eval_k                       public positionInfoChanged()
+  eval_l                       public isPlaying()
+  eval_o                       private initWidgets()
+  eval_q                       private getNewMediaPlayer()
+  eval_q                       public getSong(int)
+  eval_s                       public userActionTriggered()
+  eval_t                       private refreshDuckingValues()
+  eval_v                       private triggerGaplessUpdate()
+  eval_v                       private updateState(int)
+  eval_w                       private refreshReplayGainValues()
+  eval_x                       public clearQueue()
+  f                            private stockMusicBroadcast()
+  f                            public performAction(ch.blinkenlights.android.vanilla.Action,ch.blinkenlights.android.vanilla.PlaybackActivity)
+  f                            public prepareMediaPlayer(ch.blinkenlights.android.vanilla.VanillaMediaPlayer,java.lang.String)
+  f                            public unsetFlag(int)
+  g                            public moveSongPosition(int,int)
+  h                            public addSongs(ch.blinkenlights.android.vanilla.QueryTask)
+  h                            public static addTimelineCallback(ch.blinkenlights.android.vanilla.TimelineCallback)
+  h                            public shiftCurrentSong(int)
+  i                            public play()
+  i                            public saveState(int)
+  j                            public static hasInstance()
+  j                            public static get(android.content.Context)
+  j                            public setFlag(int)
+  k                            private scrobble()
+  k                            public jumpToQueuePosition(int)
+  l                            public loadState()
+  l                            public setFinishAction(int)
+  m                            public pause()
+  n                            private updateNotification()
+  n                            public createNotificationAction(android.content.SharedPreferences)
+  o                            public enqueueFromSong(ch.blinkenlights.android.vanilla.Song,int)
+  o                            public activeSongReplaced(int,ch.blinkenlights.android.vanilla.Song)
+  p                            public getState()
+  p                            public createNotification(ch.blinkenlights.android.vanilla.Song,int,int)
+  p                            public static shuffleMode(int)
+  q                            public rewindCurrentSong()
+  q                            public getSongByQueuePosition(int)
+  r                            public cycleShuffle()
+  r                            public removeSongPosition(int)
+  s                            private updateWidgets()
+  t                            public getDuration()
+  t                            public setShuffleMode(int)
+  t                            private broadcastChange(int,ch.blinkenlights.android.vanilla.Song,long)
+  t                            private processNewState(int,int)
+  u                            public deleteMedia(int,long)
+  u                            private showMirrorLinkSafeToast(java.lang.CharSequence,int)
+  v                            public getTimelineLength()
+  v                            private applyReplayGain(ch.blinkenlights.android.vanilla.VanillaMediaPlayer)
+  v                            public seekToProgress(int)
+  w                            public getErrorMessage()
+  w                            public static getSettings(android.content.Context)
+  w                            public runQuery(ch.blinkenlights.android.vanilla.QueryTask)
+  x                            private processSong(ch.blinkenlights.android.vanilla.Song)
+  x                            public static finishAction(int)
+  y                            public timelineChanged()
+  y                            private setCurrentSong(int)
+  z                            public emptyQueue()
+  z                            public static removeTimelineCallback(ch.blinkenlights.android.vanilla.TimelineCallback)
+  handleMessage                public handleMessage(android.os.Message)
+  onAccuracyChanged            public onAccuracyChanged(android.hardware.Sensor,int)
+  onAudioFocusChange           public onAudioFocusChange(int)
+  onBind                       public onBind(android.content.Intent)
+  onCompletion                 public onCompletion(android.media.MediaPlayer)
+  onCreate                     public onCreate()
+  onDestroy                    public onDestroy()
+  onError                      public onError(android.media.MediaPlayer,int,int)
+  onSensorChanged              public onSensorChanged(android.hardware.SensorEvent)
+  onSharedPreferenceChanged    public onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+  onStartCommand               public onStartCommand(android.content.Intent,int,int)
+
+ch.blinkenlights.android.vanilla.PlaybackService$1
+===============================================================================
+  onChange public onChange(boolean)
+
+ch.blinkenlights.android.vanilla.PlaybackService$2
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PlaybackService$IOException     (ch.blinkenlights.android.vanilla.eval_bv)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PlaybackService$Receiver        (ch.blinkenlights.android.vanilla.PlaybackService$x)
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+ch.blinkenlights.android.vanilla.Playlist        (ch.blinkenlights.android.vanilla.eval_g4)
+===============================================================================
+  d        public static renamePlaylist(android.content.ContentResolver,long,java.lang.String)
+  eval_g   private static _copyToPlaylist(android.content.ContentResolver,long,long)
+  h        public static deletePlaylist(android.content.ContentResolver,long)
+  n        public static removeFromPlaylist(android.content.ContentResolver,long,java.util.ArrayList)
+  n        public static getFavoritesId(android.content.Context,boolean)
+  p        public static isInPlaylist(android.content.ContentResolver,long,ch.blinkenlights.android.vanilla.Song)
+  r        public static addToPlaylist(android.content.ContentResolver,long,java.util.ArrayList)
+  s        public static createPlaylist(android.content.ContentResolver,java.lang.String)
+  t        public static getPlaylist(android.content.ContentResolver,java.lang.String)
+  u        public static addToPlaylist(android.content.ContentResolver,long,ch.blinkenlights.android.vanilla.QueryTask)
+  z        public static queryPlaylists(android.content.ContentResolver)
+
+ch.blinkenlights.android.vanilla.Playlist$ArrayOutOfBoundsException      (ch.blinkenlights.android.vanilla.eval_gn)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PlaylistActivity        (ch.blinkenlights.android.vanilla.eval_py)
+===============================================================================
+  g                        public setEditing(boolean)
+  m                        public drop(int,int)
+  q                        public remove(int)
+  z                        private performAction(int,int,long)
+  onClick                  public onClick(android.content.DialogInterface,int)
+  onClick                  public onClick(android.view.View)
+  onContextItemSelected    public onContextItemSelected(android.view.MenuItem)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateContextMenu      public onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+  onDestroy                public onDestroy()
+  onItemClick              public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+  onNewIntent              public onNewIntent(android.content.Intent)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onStart                  public onStart()
+
+ch.blinkenlights.android.vanilla.PlaylistActivity$Exception      (ch.blinkenlights.android.vanilla.eval_c3)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PlaylistAdapter (ch.blinkenlights.android.vanilla.eval_g5)
+===============================================================================
+  eval_b           public moveItem(int,int)
+  q                public setPlaylistId(long)
+  r                public setEditable(boolean)
+  v                private runQuery(android.content.ContentResolver)
+  v                public removeItem(int)
+  bindView         public bindView(android.view.View,android.content.Context,android.database.Cursor)
+  handleMessage    public handleMessage(android.os.Message)
+  newView          public newView(android.content.Context,android.database.Cursor,android.view.ViewGroup)
+
+ch.blinkenlights.android.vanilla.PlaylistAdapter$IOException     (ch.blinkenlights.android.vanilla.eval_lu)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PlaylistDialog  (ch.blinkenlights.android.vanilla.eval_ej)
+===============================================================================
+  onClick          public onClick(android.content.DialogInterface,int)
+  onCreateDialog   public onCreateDialog(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.PlaylistDialog$Callback (ch.blinkenlights.android.vanilla.eval_ej$l)
+===============================================================================
+  e    public abstract appendToPlaylistFromIntent(android.content.Intent)
+  j    public abstract createNewPlaylistFromIntent(android.content.Intent)
+
+ch.blinkenlights.android.vanilla.PlaylistDialog$ParseException   (ch.blinkenlights.android.vanilla.eval_pt)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PlaylistTask    (ch.blinkenlights.android.vanilla.eval_si)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PlaylistTask$NullPointerException       (ch.blinkenlights.android.vanilla.eval_so)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PrefDefaults    (ch.blinkenlights.android.vanilla.eval_gm)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PrefDefaults$NullPointerException       (ch.blinkenlights.android.vanilla.eval_su)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PrefKeys        (ch.blinkenlights.android.vanilla.eval_k9)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PrefKeys$ArrayOutOfBoundsException      (ch.blinkenlights.android.vanilla.eval_k5)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PreferencesActivity     (ch.blinkenlights.android.vanilla.eval_ez)
+===============================================================================
+  isValidFragment              protected isValidFragment(java.lang.String)
+  onBuildHeaders               public onBuildHeaders(java.util.List)
+  onCreate                     protected onCreate(android.os.Bundle)
+  onDestroy                    protected onDestroy()
+  onOptionsItemSelected        public onOptionsItemSelected(android.view.MenuItem)
+  onSharedPreferenceChanged    public onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$AboutFragment       (ch.blinkenlights.android.vanilla.eval_ez$y)
+===============================================================================
+  onCreateView public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$AudioFragment       (ch.blinkenlights.android.vanilla.eval_ez$p)
+===============================================================================
+  onCreate public onCreate(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$CoverArtFragment    (ch.blinkenlights.android.vanilla.eval_ez$x)
+===============================================================================
+  onCreate public onCreate(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$EqualizerFragment   (ch.blinkenlights.android.vanilla.eval_ez$d)
+===============================================================================
+  onCreate public onCreate(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$HeadsetLaunchFragment       (ch.blinkenlights.android.vanilla.eval_ez$z)
+===============================================================================
+  onCreate public onCreate(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$HeadsetLaunchFragment$1     (ch.blinkenlights.android.vanilla.eval_ez$z$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$HeadsetLaunchFragment$2     (ch.blinkenlights.android.vanilla.eval_ez$z$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$HeadsetLaunchFragment$Exception     (ch.blinkenlights.android.vanilla.eval_c_)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$LibraryFragment     (ch.blinkenlights.android.vanilla.eval_ez$l)
+===============================================================================
+  onCreate public onCreate(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$MiscFragment        (ch.blinkenlights.android.vanilla.eval_ez$g)
+===============================================================================
+  onCreate public onCreate(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$NotificationsFragment       (ch.blinkenlights.android.vanilla.eval_ez$a)
+===============================================================================
+  onCreate public onCreate(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$ParseException      (ch.blinkenlights.android.vanilla.eval_by)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$PlaybackFragment    (ch.blinkenlights.android.vanilla.eval_ez$b)
+===============================================================================
+  onCreate public onCreate(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$ReplayGainFragment  (ch.blinkenlights.android.vanilla.eval_ez$eval_m)
+===============================================================================
+  n        private updateConfigWidgets()
+  u        static access$000(ch.blinkenlights.android.vanilla.PreferencesActivity$ReplayGainFragment)
+  onCreate public onCreate(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$ReplayGainFragment$1        (ch.blinkenlights.android.vanilla.eval_ez$eval_m$1)
+===============================================================================
+  onPreferenceClick    public onPreferenceClick(android.preference.Preference)
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$ReplayGainFragment$ArrayOutOfBoundsException        (ch.blinkenlights.android.vanilla.eval_d1)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.PreferencesActivity$ShakeFragment       (ch.blinkenlights.android.vanilla.eval_ez$eval_k)
+===============================================================================
+  onCreate public onCreate(android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.PreferencesTheme        (ch.blinkenlights.android.vanilla.eval_yv)
+===============================================================================
+  e                    private decodeValue(java.lang.String)
+  r                    private generateThemePreview(int[])
+  onCreate             public onCreate(android.os.Bundle)
+  onPreferenceClick    public onPreferenceClick(android.preference.Preference)
+
+ch.blinkenlights.android.vanilla.PreferencesTheme$Exception      (ch.blinkenlights.android.vanilla.eval_n5)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.QueryTask       (ch.blinkenlights.android.vanilla.eval_x2)
+===============================================================================
+  n    public runQuery(android.content.ContentResolver)
+
+ch.blinkenlights.android.vanilla.QueryTask$ParseException        (ch.blinkenlights.android.vanilla.eval_re)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R       (ch.blinkenlights.android.vanilla.eval_ip)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$Exception     (ch.blinkenlights.android.vanilla.eval_az)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$array (ch.blinkenlights.android.vanilla.eval_ip$p)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$attr  (ch.blinkenlights.android.vanilla.eval_ip$r)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$color (ch.blinkenlights.android.vanilla.eval_ip$g)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$dimen (ch.blinkenlights.android.vanilla.eval_ip$c)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$drawable      (ch.blinkenlights.android.vanilla.eval_ip$i)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$id    (ch.blinkenlights.android.vanilla.eval_ip$eval_y)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$layout        (ch.blinkenlights.android.vanilla.eval_ip$f)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$plurals       (ch.blinkenlights.android.vanilla.eval_ip$n)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$raw   (ch.blinkenlights.android.vanilla.eval_ip$v)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$string        (ch.blinkenlights.android.vanilla.eval_ip$eval_u)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$style (ch.blinkenlights.android.vanilla.eval_ip$eval__)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$styleable     (ch.blinkenlights.android.vanilla.eval_ip$k)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.R$xml   (ch.blinkenlights.android.vanilla.eval_ip$t)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.ReadaheadThread (ch.blinkenlights.android.vanilla.eval_ad)
+===============================================================================
+  k                public setSource(java.lang.String)
+  r                public pause()
+  handleMessage    public handleMessage(android.os.Message)
+
+ch.blinkenlights.android.vanilla.ReadaheadThread$IOException     (ch.blinkenlights.android.vanilla.eval_rn)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.RemoteControl   (ch.blinkenlights.android.vanilla.eval_yi)
+===============================================================================
+  d    public getClient(android.content.Context)
+
+ch.blinkenlights.android.vanilla.RemoteControl$ArrayOutOfBoundsException (ch.blinkenlights.android.vanilla.eval_lk)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.RemoteControl$Client    (ch.blinkenlights.android.vanilla.eval_yi$_)
+===============================================================================
+  i    public abstract initializeRemote()
+  n    public abstract reloadPreference()
+  v    public abstract updateRemote(ch.blinkenlights.android.vanilla.Song,int,boolean)
+  y    public abstract unregisterRemote()
+
+ch.blinkenlights.android.vanilla.RemoteControlImplICS    (ch.blinkenlights.android.vanilla.eval_as)
+===============================================================================
+  i    public initializeRemote()
+  n    public reloadPreference()
+  v    public updateRemote(ch.blinkenlights.android.vanilla.Song,int,boolean)
+  y    public unregisterRemote()
+
+ch.blinkenlights.android.vanilla.RemoteControlImplICS$IOException        (ch.blinkenlights.android.vanilla.eval_pf)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.RemoteControlImplLp     (ch.blinkenlights.android.vanilla.eval_vb)
+===============================================================================
+  i    public initializeRemote()
+  n    public reloadPreference()
+  o    static access$000(ch.blinkenlights.android.vanilla.RemoteControlImplLp)
+  v    public updateRemote(ch.blinkenlights.android.vanilla.Song,int,boolean)
+  y    public unregisterRemote()
+
+ch.blinkenlights.android.vanilla.RemoteControlImplLp$1   (ch.blinkenlights.android.vanilla.eval_vb$1)
+===============================================================================
+  onPause          public onPause()
+  onPlay           public onPlay()
+  onSkipToNext     public onSkipToNext()
+  onSkipToPrevious public onSkipToPrevious()
+
+ch.blinkenlights.android.vanilla.RemoteControlImplLp$ParseException      (ch.blinkenlights.android.vanilla.eval_t1)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.SDScannerFragment       (ch.blinkenlights.android.vanilla.eval_sw)
+===============================================================================
+  c                private findViewById(int)
+  h                public updateProgressNum(int)
+  i                public updateStartButtonEnabled(boolean)
+  k                public startButtonPressed(android.view.View)
+  q                public updatePath(java.lang.String)
+  r                public updateDebugMessages(com.gmail.jerickson314.sdscanner.UIStringGenerator)
+  y                public signalFinished()
+  y                public updateProgressText(com.gmail.jerickson314.sdscanner.UIStringGenerator)
+  onCreate         public onCreate(android.os.Bundle)
+  onCreateView     public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onDestroy        public onDestroy()
+  onViewCreated    public onViewCreated(android.view.View,android.os.Bundle)
+
+ch.blinkenlights.android.vanilla.SDScannerFragment$1     (ch.blinkenlights.android.vanilla.eval_sw$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+ch.blinkenlights.android.vanilla.SDScannerFragment$NullPointerException  (ch.blinkenlights.android.vanilla.eval__8)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.SeekBarPreference
+===============================================================================
+  a                    private initDefaults(android.util.AttributeSet)
+  a                    private saveCheckBoxPreference(boolean)
+  b                    private setValue(int)
+  w                    private getSummary(int)
+  x                    private getCheckBoxPreference()
+  getSummary           public getSummary()
+  onCreateDialogView   protected onCreateDialogView()
+  onDialogClosed       protected onDialogClosed(boolean)
+  onGetDefaultValue    protected onGetDefaultValue(android.content.res.TypedArray,int)
+  onProgressChanged    public onProgressChanged(android.widget.SeekBar,int,boolean)
+  onSetInitialValue    protected onSetInitialValue(boolean,java.lang.Object)
+  onStartTrackingTouch public onStartTrackingTouch(android.widget.SeekBar)
+  onStopTrackingTouch  public onStopTrackingTouch(android.widget.SeekBar)
+
+ch.blinkenlights.android.vanilla.SeekBarPreference$NullPointerException  (ch.blinkenlights.android.vanilla.eval_cl)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.ShowQueueAdapter        (ch.blinkenlights.android.vanilla.eval_i1)
+===============================================================================
+  z        public highlightRow(int)
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+ch.blinkenlights.android.vanilla.ShowQueueAdapter$Exception      (ch.blinkenlights.android.vanilla.eval_co)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.ShowQueueFragment       (ch.blinkenlights.android.vanilla.eval_bx)
+===============================================================================
+  d                    public onPositionInfoChanged()
+  eval_z               static access$200(ch.blinkenlights.android.vanilla.ShowQueueFragment,int)
+  i                    public replaceSong(int,ch.blinkenlights.android.vanilla.Song)
+  k                    public onMediaChange()
+  m                    public drop(int,int)
+  n                    public onTimelineChanged()
+  p                    private scrollToCurrentSong(int)
+  q                    static access$100(ch.blinkenlights.android.vanilla.ShowQueueFragment)
+  q                    public remove(int)
+  q                    public setState(long,int)
+  r                    static access$000(ch.blinkenlights.android.vanilla.ShowQueueFragment)
+  recreate             public recreate()
+  s                    public refreshSongQueueList(boolean)
+  w                    public setSong(long,ch.blinkenlights.android.vanilla.Song)
+  onCreateContextMenu  public onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+  onCreateView         public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onDestroyView        public onDestroyView()
+  onItemClick          public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+  onMenuItemClick      public onMenuItemClick(android.view.MenuItem)
+  onResume             public onResume()
+
+ch.blinkenlights.android.vanilla.ShowQueueFragment$1     (ch.blinkenlights.android.vanilla.eval_bx$1)
+===============================================================================
+  run  public run()
+
+ch.blinkenlights.android.vanilla.ShowQueueFragment$NullPointerException  (ch.blinkenlights.android.vanilla.eval_u2)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.SlidingPlaybackActivity (ch.blinkenlights.android.vanilla.eval_wr)
+===============================================================================
+  e                        private updateElapsedTime()
+  e                        public appendToPlaylistFromIntent(android.content.Intent)
+  e                        protected buildQueryFromIntent(android.content.Intent,boolean,ch.blinkenlights.android.vanilla.MediaAdapter)
+  eval_f                   protected bindControlButtons()
+  g                        protected onStateChange(int,int)
+  h                        public onSlideFullyExpanded(boolean)
+  j                        public createNewPlaylistFromIntent(android.content.Intent)
+  p                        private setDuration(long)
+  v                        protected adjustSpines()
+  v                        protected onSongChange(ch.blinkenlights.android.vanilla.Song)
+  handleMessage            public handleMessage(android.os.Message)
+  onContextItemSelected    public onContextItemSelected(android.view.MenuItem)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPause                  public onPause()
+  onProgressChanged        public onProgressChanged(android.widget.SeekBar,int,boolean)
+  onResume                 public onResume()
+  onStartTrackingTouch     public onStartTrackingTouch(android.widget.SeekBar)
+  onStopTrackingTouch      public onStopTrackingTouch(android.widget.SeekBar)
+
+ch.blinkenlights.android.vanilla.SlidingPlaybackActivity$ArrayOutOfBoundsException       (ch.blinkenlights.android.vanilla.eval_uz)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.SlidingView
+===============================================================================
+  a                            private setExpansionStage(int)
+  e                            public isHidden()
+  h                            static access$100(ch.blinkenlights.android.vanilla.SlidingView,int)
+  j                            static access$200(ch.blinkenlights.android.vanilla.SlidingView)
+  j                            public setCallback(ch.blinkenlights.android.vanilla.SlidingView$Callback)
+  k                            public expandSlide()
+  l                            public hideSlide()
+  q                            public hideSlideDelayed()
+  q                            private setSlaveViewStage(int)
+  s                            public isExpanded()
+  v                            static access$002(ch.blinkenlights.android.vanilla.SlidingView,float)
+  onFinishInflate              protected onFinishInflate()
+  onLayout                     protected onLayout(boolean,int,int,int,int)
+  onTouch                      public onTouch(android.view.View,android.view.MotionEvent)
+  onWindowVisibilityChanged    protected onWindowVisibilityChanged(int)
+
+ch.blinkenlights.android.vanilla.SlidingView$AnimationListener   (ch.blinkenlights.android.vanilla.SlidingView$z)
+===============================================================================
+  onAnimationCancel    public onAnimationCancel(android.animation.Animator)
+  onAnimationEnd       public onAnimationEnd(android.animation.Animator)
+
+ch.blinkenlights.android.vanilla.SlidingView$Callback    (ch.blinkenlights.android.vanilla.SlidingView$r)
+===============================================================================
+  h    public abstract onSlideFullyExpanded(boolean)
+
+ch.blinkenlights.android.vanilla.SlidingView$Exception   (ch.blinkenlights.android.vanilla.eval_p_)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.SlidingView$GestureListener     (ch.blinkenlights.android.vanilla.SlidingView$v)
+===============================================================================
+  onFling  public onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+
+ch.blinkenlights.android.vanilla.Song    (ch.blinkenlights.android.vanilla.eval_hs)
+===============================================================================
+  a            public static getId(ch.blinkenlights.android.vanilla.Song)
+  c            public populate(android.database.Cursor)
+  eval_m       public compareTo(ch.blinkenlights.android.vanilla.Song)
+  eval_y       public getSmallCover(android.content.Context)
+  o            public getCover(android.content.Context)
+  r            public isFilled()
+  v            public isRandom()
+  z            private getCoverInternal(android.content.Context,int)
+  compareTo    public volatile compareTo(java.lang.Object)
+  toString     public toString()
+
+ch.blinkenlights.android.vanilla.Song$ParseException     (ch.blinkenlights.android.vanilla.eval_mi)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.SongTimeline    (ch.blinkenlights.android.vanilla.eval_q_)
+===============================================================================
+  a        public moveSongPosition(int,int)
+  b        public setCurrentQueuePosition(int)
+  d        public clearQueue()
+  d        public setFinishAction(int)
+  e        private getShuffledTimeline(boolean)
+  e        public setCallback(ch.blinkenlights.android.vanilla.SongTimeline$Callback)
+  eval_l   private saveActiveSongs()
+  eval_t   private broadcastChangedSongs()
+  eval_v   private changed()
+  f        public getSongByQueuePosition(int)
+  g        public emptyQueue()
+  g        public shiftCurrentSong(int)
+  j        public isEndOfQueue()
+  j        private shrinkQueue(int)
+  k        public getLength()
+  l        private reshuffleTimeline()
+  m        public getPosition()
+  m        public setShuffleMode(int)
+  n        public getFinishAction()
+  n        public removeSongPosition(int)
+  p        public readState(java.io.DataInputStream)
+  p        public writeState(java.io.DataOutputStream)
+  r        public getShuffleMode()
+  s        public getSong(int)
+  t        private shiftCurrentSongInternal(int)
+  v        public addSongs(android.content.Context,ch.blinkenlights.android.vanilla.QueryTask)
+  y        public removeSong(long)
+
+ch.blinkenlights.android.vanilla.SongTimeline$Callback   (ch.blinkenlights.android.vanilla.eval_q_$m)
+===============================================================================
+  eval_k   public abstract positionInfoChanged()
+  o        public abstract activeSongReplaced(int,ch.blinkenlights.android.vanilla.Song)
+  y        public abstract timelineChanged()
+
+ch.blinkenlights.android.vanilla.SongTimeline$FlagComparator     (ch.blinkenlights.android.vanilla.eval_q_$t)
+===============================================================================
+  p        public compare(ch.blinkenlights.android.vanilla.Song,ch.blinkenlights.android.vanilla.Song)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+ch.blinkenlights.android.vanilla.SongTimeline$IdComparator       (ch.blinkenlights.android.vanilla.eval_q_$u)
+===============================================================================
+  e        public compare(ch.blinkenlights.android.vanilla.Song,ch.blinkenlights.android.vanilla.Song)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+ch.blinkenlights.android.vanilla.SongTimeline$NullPointerException       (ch.blinkenlights.android.vanilla.eval_pu)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.TabOrderActivity        (ch.blinkenlights.android.vanilla.eval_m1)
+===============================================================================
+  eval__                   public save()
+  eval_p                   public load()
+  m                        public drop(int,int)
+  s                        public restoreDefault()
+  onClick                  public onClick(android.view.View)
+  onCreate                 protected onCreate(android.os.Bundle)
+  onItemClick              public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+
+ch.blinkenlights.android.vanilla.TabOrderActivity$Exception      (ch.blinkenlights.android.vanilla.eval_xu)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.TabOrderAdapter (ch.blinkenlights.android.vanilla.eval_rv)
+===============================================================================
+  n            public getTabIds()
+  t            public setTabIds(int[])
+  getCount     public getCount()
+  getItem      public getItem(int)
+  getItemId    public getItemId(int)
+  getView      public getView(int,android.view.View,android.view.ViewGroup)
+  hasStableIds public hasStableIds()
+
+ch.blinkenlights.android.vanilla.TabOrderAdapter$IOException     (ch.blinkenlights.android.vanilla.eval_pi)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.ThemeHelper     (ch.blinkenlights.android.vanilla.eval_f2)
+===============================================================================
+  a    private static final getSelectedTheme(android.content.Context)
+  b    private static final usesDarkTheme(android.content.Context)
+  g    public static final getDefaultCoverColors(android.content.Context)
+  g    public static final getPlayButtonResource(boolean)
+  h    public static final setTheme(android.content.Context,int)
+  q    public static final usesHoloTheme()
+
+ch.blinkenlights.android.vanilla.ThemeHelper$Exception   (ch.blinkenlights.android.vanilla.eval_kx)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.TimelineCallback        (ch.blinkenlights.android.vanilla.eval_vu)
+===============================================================================
+  d        public abstract onPositionInfoChanged()
+  i        public abstract replaceSong(int,ch.blinkenlights.android.vanilla.Song)
+  k        public abstract onMediaChange()
+  n        public abstract onTimelineChanged()
+  q        public abstract setState(long,int)
+  w        public abstract setSong(long,ch.blinkenlights.android.vanilla.Song)
+  recreate public abstract recreate()
+
+ch.blinkenlights.android.vanilla.TimelineCallback$Exception      (ch.blinkenlights.android.vanilla.eval_hh)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.TimestampedObject       (ch.blinkenlights.android.vanilla.eval_ef)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.TimestampedObject$NullPointerException  (ch.blinkenlights.android.vanilla.eval_dg)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.VanillaImageButton
+===============================================================================
+  e                private updateImageTint(int)
+  w                private fetchAttrColor(int)
+  setImageResource public setImageResource(int)
+
+ch.blinkenlights.android.vanilla.VanillaImageButton$ArrayOutOfBoundsException    (ch.blinkenlights.android.vanilla.eval_wj)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.VanillaMediaPlayer      (ch.blinkenlights.android.vanilla.eval_rr)
+===============================================================================
+  d                public setDuckingFactor(float)
+  f                public openAudioFx()
+  g                public getDataSource()
+  n                public setIsDucking(boolean)
+  n                public setReplayGain(float)
+  q                private updateVolume()
+  u                public hasNextMediaPlayer()
+  v                public setNextMediaPlayer(ch.blinkenlights.android.vanilla.VanillaMediaPlayer)
+  w                public closeAudioFx()
+  release          public release()
+  reset            public reset()
+  setDataSource    public setDataSource(java.lang.String)
+
+ch.blinkenlights.android.vanilla.VanillaMediaPlayer$ArrayOutOfBoundsException    (ch.blinkenlights.android.vanilla.eval_ih)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.ViewHolder      (ch.blinkenlights.android.vanilla.eval_cg)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.ViewHolder$IOException  (ch.blinkenlights.android.vanilla.eval_a1)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.WidgetD
+===============================================================================
+  i            public static updateWidget(android.content.Context,android.appwidget.AppWidgetManager,ch.blinkenlights.android.vanilla.Song,int)
+  u            public static checkEnabled(android.content.Context,android.appwidget.AppWidgetManager)
+  onDisabled   public onDisabled(android.content.Context)
+  onEnabled    public onEnabled(android.content.Context)
+  onUpdate     public onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])
+
+ch.blinkenlights.android.vanilla.WidgetD$NullPointerException    (ch.blinkenlights.android.vanilla.eval_ok)
+===============================================================================
+  No methods
+
+ch.blinkenlights.android.vanilla.WidgetE
+===============================================================================
+  y            public static updateWidget(android.content.Context,android.appwidget.AppWidgetManager,ch.blinkenlights.android.vanilla.Song,int)
+  z            public static checkEnabled(android.content.Context,android.appwidget.AppWidgetManager)
+  onDisabled   public onDisabled(android.content.Context)
+  onEnabled    public onEnabled(android.content.Context)
+  onUpdate     public onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])
+
+ch.blinkenlights.android.vanilla.WidgetE$NullPointerException    (ch.blinkenlights.android.vanilla.eval_k3)
+===============================================================================
+  No methods
+
+ch.blinkenlights.bastp.Bastp     (ch.blinkenlights.android.vanilla.eval_jb)
+===============================================================================
+  h    public getTags(java.io.RandomAccessFile)
+  q    public getTags(java.lang.String)
+  s    private inheritTag(java.lang.String,java.util.HashMap,java.util.HashMap)
+
+ch.blinkenlights.bastp.Bastp$IOException (ch.blinkenlights.android.vanilla.eval_t5)
+===============================================================================
+  No methods
+
+ch.blinkenlights.bastp.Common    (ch.blinkenlights.android.vanilla.eval_hr)
+===============================================================================
+  a    public debug(java.lang.String)
+  b    public swap32(int)
+  e    public xdie(java.lang.String)
+  j    public b2le16(byte[],int)
+  o    public b2be32(byte[],int)
+  q    public b2u(byte)
+  q    public parse_vorbis_comment(java.io.RandomAccessFile,long,long)
+  r    public b2le32(byte[],int)
+  w    public addTagEntry(java.util.HashMap,java.lang.String,java.lang.String)
+
+ch.blinkenlights.bastp.Common$Exception  (ch.blinkenlights.android.vanilla.eval_e4)
+===============================================================================
+  No methods
+
+ch.blinkenlights.bastp.FlacFile  (ch.blinkenlights.android.vanilla.eval_r9)
+===============================================================================
+  c    private parse_streaminfo_block(java.io.RandomAccessFile,long,long)
+  d    public getTags(java.io.RandomAccessFile)
+  e    private parse_metadata_block(java.io.RandomAccessFile,long)
+
+ch.blinkenlights.bastp.FlacFile$ArrayOutOfBoundsException        (ch.blinkenlights.android.vanilla.eval_p5)
+===============================================================================
+  No methods
+
+ch.blinkenlights.bastp.ID3v2File (ch.blinkenlights.android.vanilla.eval_te)
+===============================================================================
+  e        private getDecodedString(byte[])
+  e        public getTags(java.io.RandomAccessFile)
+  eval_g   public parse_v3_frames(java.io.RandomAccessFile,long,int)
+  v        private unsyncsafe(int)
+  w        private normalizeTaginfo(java.lang.String,byte[])
+
+ch.blinkenlights.bastp.ID3v2File$ParseException  (ch.blinkenlights.android.vanilla.eval_zn)
+===============================================================================
+  No methods
+
+ch.blinkenlights.bastp.LameHeader        (ch.blinkenlights.android.vanilla.eval_j7)
+===============================================================================
+  r    public parseLameHeader(java.io.RandomAccessFile,long)
+  w    public getTags(java.io.RandomAccessFile)
+
+ch.blinkenlights.bastp.LameHeader$IOException    (ch.blinkenlights.android.vanilla.eval_bt)
+===============================================================================
+  No methods
+
+ch.blinkenlights.bastp.OggFile   (ch.blinkenlights.android.vanilla.eval_vi)
+===============================================================================
+  b    protected parse_ogg_page(java.io.RandomAccessFile,long)
+  p    private parse_ogg_vorbis_identification(java.io.RandomAccessFile,long,long)
+  v    private parse_ogg_vorbis_comment(java.io.RandomAccessFile,long,long)
+  z    public getTags(java.io.RandomAccessFile)
+
+ch.blinkenlights.bastp.OggFile$NullPointerException      (ch.blinkenlights.android.vanilla.eval_xe)
+===============================================================================
+  No methods
+
+ch.blinkenlights.bastp.OpusFile  (ch.blinkenlights.android.vanilla.eval_l3)
+===============================================================================
+  f    private calculate_gain(java.util.HashMap,java.util.HashMap)
+  h    private parse_opus_head(java.io.RandomAccessFile,long,long)
+  r    private parse_opus_vorbis_comment(java.io.RandomAccessFile,long,long)
+  z    public getTags(java.io.RandomAccessFile)
+
+ch.blinkenlights.bastp.OpusFile$ArrayOutOfBoundsException        (ch.blinkenlights.android.vanilla.eval_bi)
+===============================================================================
+  No methods
+
+com.gmail.jerickson314.sdscanner.ScanFragment    (ch.blinkenlights.android.vanilla.eval_cr)
+===============================================================================
+  a        static databaseUpdate(java.lang.String,int)
+  b        static access$400(com.gmail.jerickson314.sdscanner.ScanFragment,int)
+  b        static debugUpdate(int,java.lang.String)
+  d        public getProgressNum()
+  d        public setScanProgressCallbacks(com.gmail.jerickson314.sdscanner.ScanFragment$ScanProgressCallbacks)
+  e        static access$300(com.gmail.jerickson314.sdscanner.ScanFragment,int)
+  eval_f   public getProgressText()
+  eval_l   static access$200(com.gmail.jerickson314.sdscanner.ScanFragment,int,java.lang.String)
+  eval_o   private resetDebugMessages()
+  eval_u   static access$100()
+  g        private updateProgressNum(int)
+  h        private addDebugMessage(int,java.lang.String)
+  i        public getStartButtonEnabled()
+  m        public startScan(java.io.File,boolean)
+  n        public getDebugMessages()
+  p        private updateProgressText(com.gmail.jerickson314.sdscanner.UIStringGenerator)
+  q        public startMediaScanner()
+  q        private updateProgressText(int)
+  r        static access$500(com.gmail.jerickson314.sdscanner.ScanFragment,int,java.lang.String)
+  s        private updateStartButtonEnabled(boolean)
+  t        public listPathNamesOnDebug()
+  t        static access$000(com.gmail.jerickson314.sdscanner.ScanFragment)
+  u        public advanceScanner()
+  x        static debugUpdate(int)
+  x        private updateProgressText(int,java.lang.String)
+  x        private addDebugMessage(java.lang.String)
+  y        public getHasStarted()
+  y        public startScan(java.io.File[])
+  z        private signalFinished()
+  z        static stateUpdate(int)
+  onAttach public onAttach(android.app.Activity)
+  onCreate public onCreate(android.os.Bundle)
+
+com.gmail.jerickson314.sdscanner.ScanFragment$1  (ch.blinkenlights.android.vanilla.eval_cr$1)
+===============================================================================
+  onScanCompleted  public onScanCompleted(java.lang.String,android.net.Uri)
+
+com.gmail.jerickson314.sdscanner.ScanFragment$2  (ch.blinkenlights.android.vanilla.eval_cr$2)
+===============================================================================
+  No methods
+
+com.gmail.jerickson314.sdscanner.ScanFragment$NullPointerException       (ch.blinkenlights.android.vanilla.eval_gl)
+===============================================================================
+  No methods
+
+com.gmail.jerickson314.sdscanner.ScanFragment$PreprocessTask     (ch.blinkenlights.android.vanilla.eval_cr$p)
+===============================================================================
+  a                protected transient doInBackground(com.gmail.jerickson314.sdscanner.ScanFragment$ScanParameters[])
+  d                private recursiveAddFiles(java.io.File,com.gmail.jerickson314.sdscanner.ScanFragment$ScanParameters)
+  eval_z           protected onPostExecute(java.lang.Void)
+  i                protected dbOneTry(com.gmail.jerickson314.sdscanner.ScanFragment$ScanParameters)
+  o                protected transient onProgressUpdate(com.gmail.jerickson314.sdscanner.ScanFragment$ProgressUpdate[])
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+  onProgressUpdate protected volatile onProgressUpdate(java.lang.Object[])
+
+com.gmail.jerickson314.sdscanner.ScanFragment$ProgressUpdate     (ch.blinkenlights.android.vanilla.eval_cr$y)
+===============================================================================
+  f    public getString()
+  g    public getResId()
+  l    public getProgress()
+  v    public getType()
+
+com.gmail.jerickson314.sdscanner.ScanFragment$ProgressUpdate$NullPointerException        (ch.blinkenlights.android.vanilla.eval_gu)
+===============================================================================
+  No methods
+
+com.gmail.jerickson314.sdscanner.ScanFragment$ProgressUpdate$Type        (ch.blinkenlights.android.vanilla.eval_cr$y$b)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.gmail.jerickson314.sdscanner.ScanFragment$ScanParameters     (ch.blinkenlights.android.vanilla.eval_cr$m)
+===============================================================================
+  c    public getPath()
+  h    public shouldScan(java.io.File,boolean)
+
+com.gmail.jerickson314.sdscanner.ScanFragment$ScanProgressCallbacks      (ch.blinkenlights.android.vanilla.eval_cr$g)
+===============================================================================
+  h    public abstract updateProgressNum(int)
+  i    public abstract updateStartButtonEnabled(boolean)
+  q    public abstract updatePath(java.lang.String)
+  r    public abstract updateDebugMessages(com.gmail.jerickson314.sdscanner.UIStringGenerator)
+  y    public abstract signalFinished()
+  y    public abstract updateProgressText(com.gmail.jerickson314.sdscanner.UIStringGenerator)
+
+com.gmail.jerickson314.sdscanner.ScanFragment$Updater    (ch.blinkenlights.android.vanilla.eval_cr$z)
+===============================================================================
+  run  public run()
+
+com.gmail.jerickson314.sdscanner.UIStringGenerator       (ch.blinkenlights.android.vanilla.eval_xw)
+===============================================================================
+  eval_w   public addSubGenerator(int)
+  q        public toString(android.app.Activity)
+  z        public addSubGenerator(java.lang.String)
+
+com.gmail.jerickson314.sdscanner.UIStringGenerator$NullPointerException  (ch.blinkenlights.android.vanilla.eval_fe)
+===============================================================================
+  No methods
+
+com.gmail.jerickson314.sdscanner.UIStringGenerator$ResourceSubGenerator  (ch.blinkenlights.android.vanilla.eval_xw$i)
+===============================================================================
+  i    public toString(android.app.Activity)
+
+com.gmail.jerickson314.sdscanner.UIStringGenerator$StringSubGenerator    (ch.blinkenlights.android.vanilla.eval_xw$h)
+===============================================================================
+  i    public toString(android.app.Activity)
+
+com.gmail.jerickson314.sdscanner.UIStringGenerator$SubGenerator  (ch.blinkenlights.android.vanilla.eval_xw$y)
+===============================================================================
+  i    public abstract toString(android.app.Activity)
+
+com.mobeta.android.dslv.DragSortController       (ch.blinkenlights.android.vanilla.eval_bu)
+===============================================================================
+  b                public setDragInitMode(int)
+  d                public viewIdHitPosition(android.view.MotionEvent,int)
+  e                static access$200(com.mobeta.android.dslv.DragSortController)
+  eval_c           public onDragFloatView(android.view.View,android.graphics.Point,android.graphics.Point)
+  eval_u           public setRemoveMode(int)
+  eval_z           public setClickRemoveId(int)
+  f                public setSortEnabled(boolean)
+  g                public isSortEnabled()
+  h                public flingHandleHitPosition(android.view.MotionEvent)
+  i                public isRemoveEnabled()
+  l                static access$100(com.mobeta.android.dslv.DragSortController)
+  m                static access$000(com.mobeta.android.dslv.DragSortController)
+  n                static access$300(com.mobeta.android.dslv.DragSortController)
+  q                public getRemoveMode()
+  q                public dragHandleHitPosition(android.view.MotionEvent)
+  q                public setDragHandleId(int)
+  r                public startDragPosition(android.view.MotionEvent)
+  t                public startDrag(int,int,int)
+  v                public startFlingPosition(android.view.MotionEvent)
+  v                public setRemoveEnabled(boolean)
+  w                public getDragInitMode()
+  w                static access$400(com.mobeta.android.dslv.DragSortController)
+  y                public setFlingHandleId(int)
+  z                static access$102(com.mobeta.android.dslv.DragSortController,boolean)
+  onDown           public onDown(android.view.MotionEvent)
+  onFling          public final onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+  onLongPress      public onLongPress(android.view.MotionEvent)
+  onScroll         public onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float)
+  onShowPress      public onShowPress(android.view.MotionEvent)
+  onSingleTapUp    public onSingleTapUp(android.view.MotionEvent)
+  onTouch          public onTouch(android.view.View,android.view.MotionEvent)
+
+com.mobeta.android.dslv.DragSortController$1     (ch.blinkenlights.android.vanilla.eval_bu$1)
+===============================================================================
+  onFling  public final onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+
+com.mobeta.android.dslv.DragSortController$ParseException        (ch.blinkenlights.android.vanilla.eval_mm)
+===============================================================================
+  No methods
+
+com.mobeta.android.dslv.DragSortCursorAdapter    (ch.blinkenlights.android.vanilla.eval_iz)
+===============================================================================
+  c                public getCursorPosition(int)
+  g                private resetMappings()
+  m                public getListPosition(int)
+  m                public drop(int,int)
+  o                public getCursorPositions()
+  p                private cleanMapping()
+  q                public remove(int)
+  w                public reset()
+  y                public drag(int,int)
+  changeCursor     public changeCursor(android.database.Cursor)
+  getCount         public getCount()
+  getDropDownView  public getDropDownView(int,android.view.View,android.view.ViewGroup)
+  getItem          public getItem(int)
+  getItemId        public getItemId(int)
+  getView          public getView(int,android.view.View,android.view.ViewGroup)
+  swapCursor       public swapCursor(android.database.Cursor)
+
+com.mobeta.android.dslv.DragSortCursorAdapter$NullPointerException       (ch.blinkenlights.android.vanilla.eval_h1)
+===============================================================================
+  No methods
+
+com.mobeta.android.dslv.DragSortItemView (ch.blinkenlights.android.vanilla.eval_po)
+===============================================================================
+  u            public getGravity()
+  v            public setGravity(int)
+  onLayout     protected onLayout(boolean,int,int,int,int)
+  onMeasure    protected onMeasure(int,int)
+
+com.mobeta.android.dslv.DragSortItemView$NullPointerException    (ch.blinkenlights.android.vanilla.eval_k_)
+===============================================================================
+  No methods
+
+com.mobeta.android.dslv.DragSortItemViewCheckable        (ch.blinkenlights.android.vanilla.eval_gp)
+===============================================================================
+  isChecked    public isChecked()
+  setChecked   public setChecked(boolean)
+  toggle       public toggle()
+
+com.mobeta.android.dslv.DragSortItemViewCheckable$Exception      (ch.blinkenlights.android.vanilla.eval_gt)
+===============================================================================
+  No methods
+
+com.mobeta.android.dslv.DragSortListView
+===============================================================================
+  a                        private static findFirstSetIndex(android.util.SparseBooleanArray,int,int)
+  b                        public moveCheckState(int,int)
+  c                        public setFloatViewManager(com.mobeta.android.dslv.DragSortListView$FloatViewManager)
+  c                        public removeItem(int,float)
+  d                        static access$000(com.mobeta.android.dslv.DragSortListView)
+  d                        static access$2602(com.mobeta.android.dslv.DragSortListView,boolean)
+  d                        static access$2900(com.mobeta.android.dslv.DragSortListView,int)
+  e                        public setDropListener(com.mobeta.android.dslv.DragSortListView$DropListener)
+  e                        private static rotate(int,int,int,int)
+  eval__                   static access$1600(com.mobeta.android.dslv.DragSortListView)
+  eval_b                   static access$1000(com.mobeta.android.dslv.DragSortListView)
+  eval_b                   private calcItemHeight(int,int)
+  eval_c                   static access$1500(com.mobeta.android.dslv.DragSortListView)
+  eval_d                   private adjustOnReorder()
+  eval_d                   static access$1200(com.mobeta.android.dslv.DragSortListView)
+  eval_f                   static access$800(com.mobeta.android.dslv.DragSortListView)
+  eval_i                   private clearPositions()
+  eval_k                   private updateFloatView()
+  eval_m                   static access$2500(com.mobeta.android.dslv.DragSortListView)
+  eval_n                   public listViewIntercepted()
+  eval_n                   static access$2300(com.mobeta.android.dslv.DragSortListView)
+  eval_o                   private destroyFloatView()
+  eval_o                   static access$600(com.mobeta.android.dslv.DragSortListView)
+  eval_o                   public startDrag(int,int,int,int)
+  eval_u                   static access$2000(com.mobeta.android.dslv.DragSortListView)
+  eval_w                   static access$2400(com.mobeta.android.dslv.DragSortListView)
+  eval_x                   static access$1700(com.mobeta.android.dslv.DragSortListView)
+  eval_x                   static access$700(com.mobeta.android.dslv.DragSortListView,boolean)
+  eval_y                   private doActionUpOrCancel()
+  f                        public cancelDrag()
+  f                        public stopDrag(boolean)
+  f                        static access$2200(com.mobeta.android.dslv.DragSortListView)
+  f                        public removeItem(int)
+  f                        private drawDivider(int,android.graphics.Canvas)
+  g                        static access$1100(com.mobeta.android.dslv.DragSortListView)
+  g                        static access$102(com.mobeta.android.dslv.DragSortListView,int)
+  g                        private doDragFloatView(int,android.view.View,boolean)
+  h                        private updateScrollStarts()
+  i                        private getItemHeight(int)
+  j                        public isDragEnabled()
+  j                        static access$1400(com.mobeta.android.dslv.DragSortListView)
+  k                        private updatePositions()
+  k                        static access$2100(com.mobeta.android.dslv.DragSortListView)
+  k                        static access$1800(com.mobeta.android.dslv.DragSortListView,int,android.view.View,boolean)
+  k                        private adjustScroll(int,android.view.View,int,int)
+  l                        private measureFloatView()
+  l                        static access$900(com.mobeta.android.dslv.DragSortListView)
+  l                        public setFloatAlpha(float)
+  l                        private adjustItem(int)
+  l                        private getShuffleEdge(int,int)
+  m                        private doDragFloatView(boolean)
+  m                        public removeCheckState(int)
+  n                        private printPosData()
+  n                        public setDragScrollStart(float)
+  o                        static access$300(com.mobeta.android.dslv.DragSortListView)
+  o                        static access$1602(com.mobeta.android.dslv.DragSortListView,float)
+  o                        static access$2700(com.mobeta.android.dslv.DragSortListView,int,android.view.View,boolean)
+  p                        private measureItem(android.view.View)
+  p                        public stopDrag(boolean,float)
+  p                        public setDragSortListener(com.mobeta.android.dslv.DragSortListView$DragSortListener)
+  p                        public setRemoveListener(com.mobeta.android.dslv.DragSortListView$RemoveListener)
+  p                        private adjustItem(int,android.view.View,boolean)
+  q                        public getFloatAlpha()
+  q                        private saveTouchCoords(android.view.MotionEvent)
+  q                        static access$1300(com.mobeta.android.dslv.DragSortListView)
+  q                        public setDragListener(com.mobeta.android.dslv.DragSortListView$DragListener)
+  q                        private getChildHeight(int,android.view.View,boolean)
+  r                        static access$500(com.mobeta.android.dslv.DragSortListView)
+  s                        private adjustAllItems()
+  s                        private static insertionIndexForKey(android.util.SparseBooleanArray,int)
+  s                        public setDragEnabled(boolean)
+  t                        private dropFloatView()
+  t                        protected onDragTouchEvent(android.view.MotionEvent)
+  t                        static access$100(com.mobeta.android.dslv.DragSortListView)
+  t                        public setDragScrollProfile(com.mobeta.android.dslv.DragSortListView$DragScrollProfile)
+  t                        private getChildHeight(int)
+  t                        private continueDrag(int,int)
+  u                        private calcItemHeight(int,android.view.View,boolean)
+  u                        public moveItem(int,int)
+  v                        public getInputAdapter()
+  v                        private static buildRunList(android.util.SparseBooleanArray,int,int,int[],int[])
+  v                        static access$2800(com.mobeta.android.dslv.DragSortListView,int)
+  v                        static access$3100(com.mobeta.android.dslv.DragSortListView,int,int)
+  w                        private invalidateFloatView()
+  w                        static access$400(com.mobeta.android.dslv.DragSortListView)
+  w                        public setMaxScrollSpeed(float)
+  x                        private doRemoveItem()
+  x                        public stopDragWithVelocity(boolean,float)
+  x                        static access$1900(com.mobeta.android.dslv.DragSortListView)
+  x                        public startDrag(int,android.view.View,int,int,int)
+  y                        static access$3000(com.mobeta.android.dslv.DragSortListView)
+  y                        private doRemoveItem(int)
+  z                        static access$302(com.mobeta.android.dslv.DragSortListView,int)
+  z                        static access$200(com.mobeta.android.dslv.DragSortListView,int,android.view.View,boolean)
+  z                        public setDragScrollStarts(float,float)
+  dispatchDraw             protected dispatchDraw(android.graphics.Canvas)
+  layoutChildren           protected layoutChildren()
+  onDraw                   protected onDraw(android.graphics.Canvas)
+  onInterceptTouchEvent    public onInterceptTouchEvent(android.view.MotionEvent)
+  onMeasure                protected onMeasure(int,int)
+  onSizeChanged            protected onSizeChanged(int,int,int,int)
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+  requestLayout            public requestLayout()
+  setAdapter               public volatile setAdapter(android.widget.Adapter)
+  setAdapter               public setAdapter(android.widget.ListAdapter)
+
+com.mobeta.android.dslv.DragSortListView$1
+===============================================================================
+  v    public getSpeed(float,long)
+
+com.mobeta.android.dslv.DragSortListView$2
+===============================================================================
+  t                private cancel()
+  onChanged        public onChanged()
+  onInvalidated    public onInvalidated()
+
+com.mobeta.android.dslv.DragSortListView$AdapterWrapper  (com.mobeta.android.dslv.DragSortListView$o)
+===============================================================================
+  z                    public getAdapter()
+  areAllItemsEnabled   public areAllItemsEnabled()
+  getCount             public getCount()
+  getItem              public getItem(int)
+  getItemId            public getItemId(int)
+  getItemViewType      public getItemViewType(int)
+  getView              public getView(int,android.view.View,android.view.ViewGroup)
+  getViewTypeCount     public getViewTypeCount()
+  hasStableIds         public hasStableIds()
+  isEmpty              public isEmpty()
+  isEnabled            public isEnabled(int)
+
+com.mobeta.android.dslv.DragSortListView$AdapterWrapper$1        (com.mobeta.android.dslv.DragSortListView$o$1)
+===============================================================================
+  onChanged        public onChanged()
+  onInvalidated    public onInvalidated()
+
+com.mobeta.android.dslv.DragSortListView$AdapterWrapper$NullPointerException     (ch.blinkenlights.android.vanilla.eval_nl)
+===============================================================================
+  No methods
+
+com.mobeta.android.dslv.DragSortListView$DragListener    (com.mobeta.android.dslv.DragSortListView$c)
+===============================================================================
+  y    public abstract drag(int,int)
+
+com.mobeta.android.dslv.DragSortListView$DragScrollProfile       (com.mobeta.android.dslv.DragSortListView$q)
+===============================================================================
+  v    public abstract getSpeed(float,long)
+
+com.mobeta.android.dslv.DragSortListView$DragScroller    (com.mobeta.android.dslv.DragSortListView$s)
+===============================================================================
+  a    public startScrolling(int)
+  e    public stopScrolling(boolean)
+  q    public getScrollDir()
+  w    public isScrolling()
+  run  public run()
+
+com.mobeta.android.dslv.DragSortListView$DragSortListener        (com.mobeta.android.dslv.DragSortListView$k)
+===============================================================================
+  No methods
+
+com.mobeta.android.dslv.DragSortListView$DragSortTracker (com.mobeta.android.dslv.DragSortListView$t)
+===============================================================================
+  eval_b   public appendState()
+  j        public flush()
+  s        public startTracking()
+  t        public stopTracking()
+
+com.mobeta.android.dslv.DragSortListView$DropAnimator    (com.mobeta.android.dslv.DragSortListView$i)
+===============================================================================
+  eval_r   public onStart()
+  f        public onStop()
+  o        private getTargetY()
+  v        public onUpdate(float,float)
+
+com.mobeta.android.dslv.DragSortListView$DropListener    (com.mobeta.android.dslv.DragSortListView$x)
+===============================================================================
+  m    public abstract drop(int,int)
+
+com.mobeta.android.dslv.DragSortListView$FloatViewManager        (com.mobeta.android.dslv.DragSortListView$u)
+===============================================================================
+  b        public abstract onDestroyFloatView(android.view.View)
+  eval_c   public abstract onDragFloatView(android.view.View,android.graphics.Point,android.graphics.Point)
+  z        public abstract onCreateFloatView(int)
+
+com.mobeta.android.dslv.DragSortListView$HeightCache     (com.mobeta.android.dslv.DragSortListView$h)
+===============================================================================
+  t    public get(int)
+  u    public clear()
+  v    public add(int,int)
+
+com.mobeta.android.dslv.DragSortListView$LiftAnimator    (com.mobeta.android.dslv.DragSortListView$eval_r)
+===============================================================================
+  eval_r   public onStart()
+  v        public onUpdate(float,float)
+
+com.mobeta.android.dslv.DragSortListView$NullPointerException    (ch.blinkenlights.android.vanilla.eval_uy)
+===============================================================================
+  No methods
+
+com.mobeta.android.dslv.DragSortListView$RemoveAnimator  (com.mobeta.android.dslv.DragSortListView$eval_t)
+===============================================================================
+  eval_r   public onStart()
+  f        public onStop()
+  v        public onUpdate(float,float)
+
+com.mobeta.android.dslv.DragSortListView$RemoveListener  (com.mobeta.android.dslv.DragSortListView$a)
+===============================================================================
+  q    public abstract remove(int)
+
+com.mobeta.android.dslv.DragSortListView$SmoothAnimator  (com.mobeta.android.dslv.DragSortListView$l)
+===============================================================================
+  eval_r   public onStart()
+  f        public onStop()
+  q        public transform(float)
+  v        public onUpdate(float,float)
+  x        public start()
+  y        public cancel()
+  run      public run()
+
+com.mobeta.android.dslv.ResourceDragSortCursorAdapter    (ch.blinkenlights.android.vanilla.eval_zq)
+===============================================================================
+  a                public setViewResource(int)
+  j                public setDropDownViewResource(int)
+  newDropDownView  public newDropDownView(android.content.Context,android.database.Cursor,android.view.ViewGroup)
+  newView          public newView(android.content.Context,android.database.Cursor,android.view.ViewGroup)
+
+com.mobeta.android.dslv.ResourceDragSortCursorAdapter$IOException        (ch.blinkenlights.android.vanilla.eval_fd)
+===============================================================================
+  No methods
+
+com.mobeta.android.dslv.SimpleDragSortCursorAdapter      (ch.blinkenlights.android.vanilla.eval_dj)
+===============================================================================
+  c                public getCursorToStringConverter()
+  c                public setViewText(android.widget.TextView,java.lang.String)
+  g                public setViewImage(android.widget.ImageView,java.lang.String)
+  h                public getViewBinder()
+  i                private findColumns(android.database.Cursor,java.lang.String[])
+  r                public getStringConversionColumn()
+  t                public setViewBinder(com.mobeta.android.dslv.SimpleDragSortCursorAdapter$ViewBinder)
+  v                public changeCursorAndColumns(android.database.Cursor,java.lang.String[],int[])
+  v                public setCursorToStringConverter(com.mobeta.android.dslv.SimpleDragSortCursorAdapter$CursorToStringConverter)
+  w                public setStringConversionColumn(int)
+  bindView         public bindView(android.view.View,android.content.Context,android.database.Cursor)
+  convertToString  public convertToString(android.database.Cursor)
+  swapCursor       public swapCursor(android.database.Cursor)
+
+com.mobeta.android.dslv.SimpleDragSortCursorAdapter$ArrayOutOfBoundsException    (ch.blinkenlights.android.vanilla.eval_xz)
+===============================================================================
+  No methods
+
+com.mobeta.android.dslv.SimpleDragSortCursorAdapter$CursorToStringConverter      (ch.blinkenlights.android.vanilla.eval_dj$m)
+===============================================================================
+  o    public abstract convertToString(android.database.Cursor)
+
+com.mobeta.android.dslv.SimpleDragSortCursorAdapter$ViewBinder   (ch.blinkenlights.android.vanilla.eval_dj$x)
+===============================================================================
+  n    public abstract setViewValue(android.view.View,android.database.Cursor,int)
+
+com.mobeta.android.dslv.SimpleFloatViewManager   (ch.blinkenlights.android.vanilla.eval_de)
+===============================================================================
+  b        public onDestroyFloatView(android.view.View)
+  eval_c   public onDragFloatView(android.view.View,android.graphics.Point,android.graphics.Point)
+  eval_l   public setBackgroundColor(int)
+  z        public onCreateFloatView(int)
+
+com.mobeta.android.dslv.SimpleFloatViewManager$ArrayOutOfBoundsException (ch.blinkenlights.android.vanilla.eval_sz)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 1734
+  Renamed to eval_k :  45 (2.6%)
+  Renamed to eval_s :  45 (2.6%)
+  Renamed to eval__ :  43 (2.5%)
+  Renamed to eval_b :  42 (2.4%)
+  Renamed to eval_p :  42 (2.4%)
+  Renamed to eval_u :  41 (2.4%)
+  Renamed to eval_c :  40 (2.3%)
+  Renamed to eval_m :  40 (2.3%)
+  Renamed to eval_z :  40 (2.3%)
+  Renamed to eval_l :  39 (2.2%)
+
+Number of Methods : 1280
+  Renamed to v :  47 (3.7%)
+  Renamed to q :  45 (3.5%)
+  Renamed to i :  40 (3.1%)
+  Renamed to h :  39 (3.0%)
+  Renamed to n :  36 (2.8%)
+  Renamed to w :  36 (2.8%)
+  Renamed to y :  34 (2.7%)
+  Renamed to j :  33 (2.6%)
+  Renamed to e :  32 (2.5%)
+  Renamed to k :  32 (2.5%)
+

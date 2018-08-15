@@ -1,0 +1,53 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+it.lucci.cm.greyscalethemedark.n public final it.lucci.cm.greyscalethemedark.BuildConfig
+it.lucci.cm.greyscalethemedark.eval_d    public it.lucci.cm.greyscalethemedark.R$1
+it.lucci.cm.greyscalethemedark.eval_j    public it.lucci.cm.greyscalethemedark.BuildConfig$1
+it.lucci.cm.greyscalethemedark.eval_p    public it.lucci.cm.greyscalethemedark.R$ParseException
+it.lucci.cm.greyscalethemedark.eval_t    public final it.lucci.cm.greyscalethemedark.R
+it.lucci.cm.greyscalethemedark.eval_z    public it.lucci.cm.greyscalethemedark.BuildConfig$ParseException
+it.lucci.cm.greyscalethemedark.eval_t$_  public final it.lucci.cm.greyscalethemedark.R$mipmap
+it.lucci.cm.greyscalethemedark.eval_t$d  public final it.lucci.cm.greyscalethemedark.R$attr
+it.lucci.cm.greyscalethemedark.eval_t$u  public final it.lucci.cm.greyscalethemedark.R$string
+-------------------------------------------------------------------------------
+
+it.lucci.cm.greyscalethemedark.BuildConfig       (it.lucci.cm.greyscalethemedark.n)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscalethemedark.BuildConfig$1     (it.lucci.cm.greyscalethemedark.eval_j)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscalethemedark.BuildConfig$ParseException        (it.lucci.cm.greyscalethemedark.eval_z)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscalethemedark.R (it.lucci.cm.greyscalethemedark.eval_t)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscalethemedark.R$1       (it.lucci.cm.greyscalethemedark.eval_d)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscalethemedark.R$ParseException  (it.lucci.cm.greyscalethemedark.eval_p)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscalethemedark.R$attr    (it.lucci.cm.greyscalethemedark.eval_t$d)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscalethemedark.R$mipmap  (it.lucci.cm.greyscalethemedark.eval_t$_)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscalethemedark.R$string  (it.lucci.cm.greyscalethemedark.eval_t$u)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 10
+
+Number of Methods : 0

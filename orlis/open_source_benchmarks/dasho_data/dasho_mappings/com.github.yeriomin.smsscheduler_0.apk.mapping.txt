@@ -1,0 +1,350 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.github.yeriomin.smsscheduler.f       public com.github.yeriomin.smsscheduler.Activity.AddSmsActivity
+com.github.yeriomin.smsscheduler.f$1     com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$1
+com.github.yeriomin.smsscheduler.f$2     com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$2
+com.github.yeriomin.smsscheduler.f$3     com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$3
+com.github.yeriomin.smsscheduler.f$4     com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$4
+com.github.yeriomin.smsscheduler.f$5     com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$5
+com.github.yeriomin.smsscheduler.f$1$1   com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$1$1
+com.github.yeriomin.smsscheduler.eval__  public com.github.yeriomin.smsscheduler.NotificationUtil
+com.github.yeriomin.smsscheduler.eval_a  public com.github.yeriomin.smsscheduler.SmsDeliveredService
+com.github.yeriomin.smsscheduler.eval_b  public com.github.yeriomin.smsscheduler.Activity.SmsListActivity$ParseException
+com.github.yeriomin.smsscheduler.eval_c  public com.github.yeriomin.smsscheduler.NotificationUtil$Exception
+com.github.yeriomin.smsscheduler.eval_d  public final com.github.yeriomin.smsscheduler.BuildConfig
+com.github.yeriomin.smsscheduler.eval_e  public com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$1$IOException
+com.github.yeriomin.smsscheduler.eval_g  public com.github.yeriomin.smsscheduler.Activity.SmsSchedulerPreferenceActivity$ParseException
+com.github.yeriomin.smsscheduler.eval_h  public com.github.yeriomin.smsscheduler.DbHelper$ArrayOutOfBoundsException
+com.github.yeriomin.smsscheduler.eval_i  public com.github.yeriomin.smsscheduler.Activity.SmsListActivity$3
+com.github.yeriomin.smsscheduler.eval_j  public com.github.yeriomin.smsscheduler.SmsDeliveredService$ParseException
+com.github.yeriomin.smsscheduler.eval_k  public com.github.yeriomin.smsscheduler.SmsModel
+com.github.yeriomin.smsscheduler.eval_l  public com.github.yeriomin.smsscheduler.SmsSenderService
+com.github.yeriomin.smsscheduler.eval_m  public com.github.yeriomin.smsscheduler.R$Exception
+com.github.yeriomin.smsscheduler.eval_n  public com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$6
+com.github.yeriomin.smsscheduler.eval_o  public com.github.yeriomin.smsscheduler.Activity.SmsSchedulerPreferenceActivity
+com.github.yeriomin.smsscheduler.eval_p  public com.github.yeriomin.smsscheduler.DbHelper
+com.github.yeriomin.smsscheduler.eval_q  public com.github.yeriomin.smsscheduler.AlarmReceiver$ArrayOutOfBoundsException
+com.github.yeriomin.smsscheduler.eval_r  public com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$ArrayOutOfBoundsException
+com.github.yeriomin.smsscheduler.eval_s  public com.github.yeriomin.smsscheduler.BootReceiver$NullPointerException
+com.github.yeriomin.smsscheduler.eval_t  public com.github.yeriomin.smsscheduler.BuildConfig$Exception
+com.github.yeriomin.smsscheduler.eval_u  public com.github.yeriomin.smsscheduler.SmsDeliveredReceiver
+com.github.yeriomin.smsscheduler.eval_v  public final com.github.yeriomin.smsscheduler.R
+com.github.yeriomin.smsscheduler.eval_w  public com.github.yeriomin.smsscheduler.AlarmReceiver
+com.github.yeriomin.smsscheduler.eval_x  public com.github.yeriomin.smsscheduler.SmsDeliveredReceiver$IOException
+com.github.yeriomin.smsscheduler.eval_y  public com.github.yeriomin.smsscheduler.SmsModel$ArrayOutOfBoundsException
+com.github.yeriomin.smsscheduler.eval_z  public com.github.yeriomin.smsscheduler.BootReceiver
+com.github.yeriomin.smsscheduler.eval__i public com.github.yeriomin.smsscheduler.SmsSentService
+com.github.yeriomin.smsscheduler.eval__s public com.github.yeriomin.smsscheduler.SmsSenderService$Exception
+com.github.yeriomin.smsscheduler.eval_d5 public com.github.yeriomin.smsscheduler.SmsSentReceiver$IOException
+com.github.yeriomin.smsscheduler.eval_dg public com.github.yeriomin.smsscheduler.SmsSentReceiver
+com.github.yeriomin.smsscheduler.eval_sp public com.github.yeriomin.smsscheduler.WakefulBroadcastReceiver$ParseException
+com.github.yeriomin.smsscheduler.eval_t4 public com.github.yeriomin.smsscheduler.SmsSentService$ParseException
+com.github.yeriomin.smsscheduler.eval_u3 public abstract com.github.yeriomin.smsscheduler.WakefulBroadcastReceiver
+com.github.yeriomin.smsscheduler.eval_v$b        public final com.github.yeriomin.smsscheduler.R$string
+com.github.yeriomin.smsscheduler.eval_v$c        public final com.github.yeriomin.smsscheduler.R$id
+com.github.yeriomin.smsscheduler.eval_v$g        public final com.github.yeriomin.smsscheduler.R$mipmap
+com.github.yeriomin.smsscheduler.eval_v$i        public final com.github.yeriomin.smsscheduler.R$xml
+com.github.yeriomin.smsscheduler.eval_v$j        public final com.github.yeriomin.smsscheduler.R$menu
+com.github.yeriomin.smsscheduler.eval_v$m        public final com.github.yeriomin.smsscheduler.R$layout
+com.github.yeriomin.smsscheduler.eval_v$p        public final com.github.yeriomin.smsscheduler.R$attr
+com.github.yeriomin.smsscheduler.eval_v$s        public final com.github.yeriomin.smsscheduler.R$style
+com.github.yeriomin.smsscheduler.eval_v$w        public final com.github.yeriomin.smsscheduler.R$drawable
+-------------------------------------------------------------------------------
+
+com.github.yeriomin.smsscheduler.AlarmReceiver   (com.github.yeriomin.smsscheduler.eval_w)
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+com.github.yeriomin.smsscheduler.AlarmReceiver$ArrayOutOfBoundsException (com.github.yeriomin.smsscheduler.eval_q)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.BootReceiver    (com.github.yeriomin.smsscheduler.eval_z)
+===============================================================================
+  l            private getPendingSms()
+  l            private scheduleAlarm(com.github.yeriomin.smsscheduler.SmsModel)
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+com.github.yeriomin.smsscheduler.BootReceiver$NullPointerException       (com.github.yeriomin.smsscheduler.eval_s)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.BuildConfig     (com.github.yeriomin.smsscheduler.eval_d)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.BuildConfig$Exception   (com.github.yeriomin.smsscheduler.eval_t)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.DbHelper        (com.github.yeriomin.smsscheduler.eval_p)
+===============================================================================
+  b            public static getDbHelper(android.content.Context)
+  c            public getCursor()
+  d            public static closeDbHelper()
+  n            public delete(java.lang.Long)
+  o            public getCursor(java.lang.String)
+  r            private getObjects(android.database.Cursor)
+  v            public save(com.github.yeriomin.smsscheduler.SmsModel)
+  w            public get(java.lang.String)
+  w            public get(long)
+  onCreate     public onCreate(android.database.sqlite.SQLiteDatabase)
+  onUpgrade    public onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+
+com.github.yeriomin.smsscheduler.DbHelper$ArrayOutOfBoundsException      (com.github.yeriomin.smsscheduler.eval_h)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.NotificationUtil        (com.github.yeriomin.smsscheduler.eval__)
+===============================================================================
+  e    private static buildNotificationPreHoneycomb(android.content.Context,android.app.PendingIntent,java.lang.String,java.lang.String,int)
+  j    public static createNotification(android.content.Context,android.app.PendingIntent,java.lang.String,java.lang.String,int)
+  o    public static isNotificationBuilderSupported()
+  p    private static buildNotificationWithBuilder(android.content.Context,android.app.PendingIntent,java.lang.String,java.lang.String,int)
+
+com.github.yeriomin.smsscheduler.NotificationUtil$Exception      (com.github.yeriomin.smsscheduler.eval_c)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.R       (com.github.yeriomin.smsscheduler.eval_v)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.R$Exception     (com.github.yeriomin.smsscheduler.eval_m)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.R$attr  (com.github.yeriomin.smsscheduler.eval_v$p)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.R$drawable      (com.github.yeriomin.smsscheduler.eval_v$w)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.R$id    (com.github.yeriomin.smsscheduler.eval_v$c)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.R$layout        (com.github.yeriomin.smsscheduler.eval_v$m)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.R$menu  (com.github.yeriomin.smsscheduler.eval_v$j)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.R$mipmap        (com.github.yeriomin.smsscheduler.eval_v$g)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.R$string        (com.github.yeriomin.smsscheduler.eval_v$b)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.R$style (com.github.yeriomin.smsscheduler.eval_v$s)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.R$xml   (com.github.yeriomin.smsscheduler.eval_v$i)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.SmsDeliveredReceiver    (com.github.yeriomin.smsscheduler.eval_u)
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+com.github.yeriomin.smsscheduler.SmsDeliveredReceiver$IOException        (com.github.yeriomin.smsscheduler.eval_x)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.SmsDeliveredService     (com.github.yeriomin.smsscheduler.eval_a)
+===============================================================================
+  onHandleIntent   protected onHandleIntent(android.content.Intent)
+
+com.github.yeriomin.smsscheduler.SmsDeliveredService$ParseException      (com.github.yeriomin.smsscheduler.eval_j)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.SmsModel        (com.github.yeriomin.smsscheduler.eval_k)
+===============================================================================
+  c        public getTimestampScheduled()
+  e        public getRecipientNumber()
+  eval_g   public getTimestampCreated()
+  f        public getResult()
+  f        public setStatus(java.lang.String)
+  g        public setRecipientName(java.lang.String)
+  i        public setMessage(java.lang.String)
+  k        public getMessage()
+  l        public setRecipientNumber(java.lang.String)
+  m        public getRecipientName()
+  q        public getId()
+  t        public setResult(java.lang.String)
+  u        public getStatus()
+  v        public setTimestampScheduled(long)
+  z        public setTimestampCreated(long)
+
+com.github.yeriomin.smsscheduler.SmsModel$ArrayOutOfBoundsException      (com.github.yeriomin.smsscheduler.eval_y)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.SmsSenderService        (com.github.yeriomin.smsscheduler.eval_l)
+===============================================================================
+  l                private sendSms(com.github.yeriomin.smsscheduler.SmsModel)
+  onHandleIntent   protected onHandleIntent(android.content.Intent)
+
+com.github.yeriomin.smsscheduler.SmsSenderService$Exception      (com.github.yeriomin.smsscheduler.eval__s)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.SmsSentReceiver (com.github.yeriomin.smsscheduler.eval_dg)
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+com.github.yeriomin.smsscheduler.SmsSentReceiver$IOException     (com.github.yeriomin.smsscheduler.eval_d5)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.SmsSentService  (com.github.yeriomin.smsscheduler.eval__i)
+===============================================================================
+  w                private notify(android.content.Context,android.content.Intent,java.lang.String,java.lang.String,int)
+  onHandleIntent   protected onHandleIntent(android.content.Intent)
+
+com.github.yeriomin.smsscheduler.SmsSentService$ParseException   (com.github.yeriomin.smsscheduler.eval_t4)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.WakefulBroadcastReceiver        (com.github.yeriomin.smsscheduler.eval_u3)
+===============================================================================
+  k    public static startWakefulService(android.content.Context,android.content.Intent)
+  x    public static completeWakefulIntent(android.content.Intent)
+
+com.github.yeriomin.smsscheduler.WakefulBroadcastReceiver$ParseException (com.github.yeriomin.smsscheduler.eval_sp)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity (com.github.yeriomin.smsscheduler.f)
+===============================================================================
+  e                            private getAlarmPendingIntent(com.github.yeriomin.smsscheduler.SmsModel)
+  eval_b                       static access$200(com.github.yeriomin.smsscheduler.Activity.AddSmsActivity)
+  i                            private scheduleAlarm(com.github.yeriomin.smsscheduler.SmsModel)
+  l                            private permissionsGranted()
+  o                            static access$000(com.github.yeriomin.smsscheduler.Activity.AddSmsActivity)
+  p                            private buildForm()
+  r                            private getContacts()
+  s                            static access$100(com.github.yeriomin.smsscheduler.Activity.AddSmsActivity)
+  t                            private unscheduleAlarm(com.github.yeriomin.smsscheduler.SmsModel)
+  x                            private getSmsId(android.os.Bundle)
+  onCreate                     protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu          public onCreateOptionsMenu(android.view.Menu)
+  onDestroy                    protected onDestroy()
+  onOptionsItemSelected        public onOptionsItemSelected(android.view.MenuItem)
+  onPause                      protected onPause()
+  onRequestPermissionsResult   public onRequestPermissionsResult(int,java.lang.String[],int[])
+  onResume                     protected onResume()
+  scheduleSms                  public scheduleSms(android.view.View)
+  unscheduleSms                public unscheduleSms(android.view.View)
+
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$1       (com.github.yeriomin.smsscheduler.f$1)
+===============================================================================
+  run  public run()
+
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$1$1     (com.github.yeriomin.smsscheduler.f$1$1)
+===============================================================================
+  run  public run()
+
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$1$IOException   (com.github.yeriomin.smsscheduler.eval_e)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$2       (com.github.yeriomin.smsscheduler.f$2)
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$3       (com.github.yeriomin.smsscheduler.f$3)
+===============================================================================
+  afterTextChanged     public afterTextChanged(android.text.Editable)
+  beforeTextChanged    public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  onTextChanged        public onTextChanged(java.lang.CharSequence,int,int,int)
+
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$4       (com.github.yeriomin.smsscheduler.f$4)
+===============================================================================
+  afterTextChanged     public afterTextChanged(android.text.Editable)
+  beforeTextChanged    public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  onTextChanged        public onTextChanged(java.lang.CharSequence,int,int,int)
+
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$5       (com.github.yeriomin.smsscheduler.f$5)
+===============================================================================
+  onTimeChanged    public onTimeChanged(android.widget.TimePicker,int,int)
+
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$6       (com.github.yeriomin.smsscheduler.eval_n)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.Activity.AddSmsActivity$ArrayOutOfBoundsException       (com.github.yeriomin.smsscheduler.eval_r)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.Activity.SmsListActivity
+===============================================================================
+  a                        private getSmsListAdapter()
+  b                        static access$000(com.github.yeriomin.smsscheduler.Activity.SmsListActivity,android.database.Cursor)
+  j                        private getFormattedSmsInfo(android.database.Cursor)
+  gotoNextActivity         public gotoNextActivity(android.view.View)
+  onActivityResult         protected onActivityResult(int,int,android.content.Intent)
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onDestroy                protected onDestroy()
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPause                  protected onPause()
+  onResume                 protected onResume()
+
+com.github.yeriomin.smsscheduler.Activity.SmsListActivity$1
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+com.github.yeriomin.smsscheduler.Activity.SmsListActivity$2
+===============================================================================
+  setViewValue public setViewValue(android.view.View,android.database.Cursor,int)
+
+com.github.yeriomin.smsscheduler.Activity.SmsListActivity$3      (com.github.yeriomin.smsscheduler.eval_i)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.Activity.SmsListActivity$ParseException (com.github.yeriomin.smsscheduler.eval_b)
+===============================================================================
+  No methods
+
+com.github.yeriomin.smsscheduler.Activity.SmsSchedulerPreferenceActivity (com.github.yeriomin.smsscheduler.eval_o)
+===============================================================================
+  onCreate public onCreate(android.os.Bundle)
+
+com.github.yeriomin.smsscheduler.Activity.SmsSchedulerPreferenceActivity$ParseException  (com.github.yeriomin.smsscheduler.eval_g)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 114
+  Renamed to eval_g :   5 (4.4%)
+  Renamed to eval_m :   5 (4.4%)
+  Renamed to eval_p :   5 (4.4%)
+  Renamed to eval_q :   5 (4.4%)
+  Renamed to eval_z :   5 (4.4%)
+  Renamed to eval_a :   4 (3.5%)
+  Renamed to eval_b :   4 (3.5%)
+  Renamed to eval_d :   4 (3.5%)
+  Renamed to eval_h :   4 (3.5%)
+  Renamed to eval_x :   4 (3.5%)
+
+Number of Methods : 86
+  Renamed to l :   5 (5.8%)
+  Renamed to e :   3 (3.5%)
+  Renamed to o :   3 (3.5%)
+  Renamed to w :   3 (3.5%)
+  Renamed to b :   2 (2.3%)
+  Renamed to c :   2 (2.3%)
+  Renamed to f :   2 (2.3%)
+  Renamed to i :   2 (2.3%)
+  Renamed to j :   2 (2.3%)
+  Renamed to k :   2 (2.3%)
+

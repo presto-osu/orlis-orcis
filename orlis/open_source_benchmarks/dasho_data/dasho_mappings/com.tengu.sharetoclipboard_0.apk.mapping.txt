@@ -1,0 +1,384 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.tengu.sharetoclipboard.g     public final android.support.v7.cardview.BuildConfig
+com.tengu.sharetoclipboard.eval__        public com.tengu.sharetoclipboard.BuildConfig$IOException
+com.tengu.sharetoclipboard.eval_a        public com.tengu.sharetoclipboard.MainActivity$3
+com.tengu.sharetoclipboard.eval_b        public android.support.v7.widget.CardViewJellybeanMr1$ArrayOutOfBoundsException
+com.tengu.sharetoclipboard.eval_c        public com.tengu.sharetoclipboard.shareToClipboardActivity$ArrayOutOfBoundsException
+com.tengu.sharetoclipboard.eval_d        public com.tengu.sharetoclipboard.BuildConfig$1
+com.tengu.sharetoclipboard.eval_e        public com.tengu.sharetoclipboard.R$IOException
+com.tengu.sharetoclipboard.eval_f        android.support.v7.widget.RoundRectDrawableWithShadow
+com.tengu.sharetoclipboard.eval_h        public android.support.v7.widget.CardViewApi21$Exception
+com.tengu.sharetoclipboard.eval_i        android.support.v7.widget.CardViewApi21
+com.tengu.sharetoclipboard.eval_j        public android.support.v7.cardview.BuildConfig$Exception
+com.tengu.sharetoclipboard.eval_k        public final com.tengu.sharetoclipboard.BuildConfig
+com.tengu.sharetoclipboard.eval_l        public android.support.v7.widget.CardViewEclairMr1$IOException
+com.tengu.sharetoclipboard.eval_m        public android.support.v7.widget.CardViewImpl$IOException
+com.tengu.sharetoclipboard.eval_n        abstract interface android.support.v7.widget.CardViewDelegate
+com.tengu.sharetoclipboard.eval_o        public com.tengu.sharetoclipboard.MainActivity$Exception
+com.tengu.sharetoclipboard.eval_p        public android.support.v7.widget.CardView$Exception
+com.tengu.sharetoclipboard.eval_q        android.support.v7.widget.CardViewEclairMr1
+com.tengu.sharetoclipboard.eval_r        android.support.v7.widget.RoundRectDrawable
+com.tengu.sharetoclipboard.eval_s        public android.support.v7.widget.RoundRectDrawableWithShadow$IOException
+com.tengu.sharetoclipboard.eval_t        abstract interface android.support.v7.widget.CardViewImpl
+com.tengu.sharetoclipboard.eval_u        public android.support.v7.widget.CardViewDelegate$ParseException
+com.tengu.sharetoclipboard.eval_v        public android.support.v7.widget.RoundRectDrawable$IOException
+com.tengu.sharetoclipboard.eval_w        android.support.v7.widget.CardViewJellybeanMr1
+com.tengu.sharetoclipboard.eval_x        public com.tengu.sharetoclipboard.MainActivity$2$ArrayOutOfBoundsException
+com.tengu.sharetoclipboard.eval_y        public final com.tengu.sharetoclipboard.R
+com.tengu.sharetoclipboard.eval_z        public android.support.v7.widget.CardView
+com.tengu.sharetoclipboard.eval_f$u      abstract interface android.support.v7.widget.RoundRectDrawableWithShadow$RoundRectHelper
+com.tengu.sharetoclipboard.eval_q$1      android.support.v7.widget.CardViewEclairMr1$1
+com.tengu.sharetoclipboard.eval_w$1      android.support.v7.widget.CardViewJellybeanMr1$1
+com.tengu.sharetoclipboard.eval_y$_      public final com.tengu.sharetoclipboard.R$mipmap
+com.tengu.sharetoclipboard.eval_y$a      public final com.tengu.sharetoclipboard.R$id
+com.tengu.sharetoclipboard.eval_y$d      public final com.tengu.sharetoclipboard.R$dimen
+com.tengu.sharetoclipboard.eval_y$m      public final com.tengu.sharetoclipboard.R$styleable
+com.tengu.sharetoclipboard.eval_y$o      public final com.tengu.sharetoclipboard.R$style
+com.tengu.sharetoclipboard.eval_y$s      public final com.tengu.sharetoclipboard.R$drawable
+com.tengu.sharetoclipboard.eval_y$t      public final com.tengu.sharetoclipboard.R$string
+com.tengu.sharetoclipboard.eval_y$w      public final com.tengu.sharetoclipboard.R$color
+com.tengu.sharetoclipboard.eval_y$y      public final com.tengu.sharetoclipboard.R$attr
+com.tengu.sharetoclipboard.eval_y$z      public final com.tengu.sharetoclipboard.R$layout
+-------------------------------------------------------------------------------
+
+android.support.v7.cardview.BuildConfig  (com.tengu.sharetoclipboard.g)
+===============================================================================
+  No methods
+
+android.support.v7.cardview.BuildConfig$Exception        (com.tengu.sharetoclipboard.eval_j)
+===============================================================================
+  No methods
+
+android.support.v7.cardview.R
+===============================================================================
+  No methods
+
+android.support.v7.cardview.R$Exception
+===============================================================================
+  No methods
+
+android.support.v7.cardview.R$attr
+===============================================================================
+  No methods
+
+android.support.v7.cardview.R$color
+===============================================================================
+  No methods
+
+android.support.v7.cardview.R$dimen
+===============================================================================
+  No methods
+
+android.support.v7.cardview.R$style
+===============================================================================
+  No methods
+
+android.support.v7.cardview.R$styleable
+===============================================================================
+  No methods
+
+android.support.v7.widget.CardView       (com.tengu.sharetoclipboard.eval_z)
+===============================================================================
+  b                    public setCardBackgroundColor(int)
+  c                    public getMaxCardElevation()
+  d                    public getPreventCornerOverlap()
+  e                    public setCardElevation(float)
+  g                    public getRadius()
+  h                    public getUseCompatPadding()
+  k                    public getContentPaddingBottom()
+  k                    public setRadius(float)
+  q                    public setContentPadding(int,int,int,int)
+  r                    public setShadowPadding(int,int,int,int)
+  t                    public getCardElevation()
+  t                    public setPreventCornerOverlap(boolean)
+  u                    public getContentPaddingRight()
+  u                    public setMaxCardElevation(float)
+  v                    public getContentPaddingLeft()
+  v                    public setUseCompatPadding(boolean)
+  w                    private initialize(android.content.Context,android.util.AttributeSet,int)
+  y                    public getContentPaddingTop()
+  onMeasure            protected onMeasure(int,int)
+  setPadding           public setPadding(int,int,int,int)
+  setPaddingRelative   public setPaddingRelative(int,int,int,int)
+
+android.support.v7.widget.CardView$Exception     (com.tengu.sharetoclipboard.eval_p)
+===============================================================================
+  No methods
+
+android.support.v7.widget.CardViewApi21  (com.tengu.sharetoclipboard.eval_i)
+===============================================================================
+  c        public getRadius(android.support.v7.widget.CardViewDelegate)
+  c        public setRadius(android.support.v7.widget.CardViewDelegate,float)
+  eval_q   public onPreventCornerOverlapChanged(android.support.v7.widget.CardViewDelegate)
+  eval_y   public setElevation(android.support.v7.widget.CardViewDelegate,float)
+  f        public getMaxElevation(android.support.v7.widget.CardViewDelegate)
+  i        public getElevation(android.support.v7.widget.CardViewDelegate)
+  k        public initStatic()
+  n        public onCompatPaddingChanged(android.support.v7.widget.CardViewDelegate)
+  o        public setBackgroundColor(android.support.v7.widget.CardViewDelegate,int)
+  q        public getMinHeight(android.support.v7.widget.CardViewDelegate)
+  r        public setMaxElevation(android.support.v7.widget.CardViewDelegate,float)
+  w        public getMinWidth(android.support.v7.widget.CardViewDelegate)
+  x        public updatePadding(android.support.v7.widget.CardViewDelegate)
+  y        public initialize(android.support.v7.widget.CardViewDelegate,android.content.Context,int,float,float,float)
+
+android.support.v7.widget.CardViewApi21$Exception        (com.tengu.sharetoclipboard.eval_h)
+===============================================================================
+  No methods
+
+android.support.v7.widget.CardViewDelegate       (com.tengu.sharetoclipboard.eval_n)
+===============================================================================
+  d                public abstract getPreventCornerOverlap()
+  g                public abstract getRadius()
+  h                public abstract getUseCompatPadding()
+  r                public abstract setShadowPadding(int,int,int,int)
+  u                public abstract setBackgroundDrawable(android.graphics.drawable.Drawable)
+  getBackground    public abstract getBackground()
+
+android.support.v7.widget.CardViewDelegate$ParseException        (com.tengu.sharetoclipboard.eval_u)
+===============================================================================
+  No methods
+
+android.support.v7.widget.CardViewEclairMr1      (com.tengu.sharetoclipboard.eval_q)
+===============================================================================
+  c        public getRadius(android.support.v7.widget.CardViewDelegate)
+  c        public setRadius(android.support.v7.widget.CardViewDelegate,float)
+  eval_n   private getShadowBackground(android.support.v7.widget.CardViewDelegate)
+  eval_q   public onPreventCornerOverlapChanged(android.support.v7.widget.CardViewDelegate)
+  eval_y   public setElevation(android.support.v7.widget.CardViewDelegate,float)
+  f        public getMaxElevation(android.support.v7.widget.CardViewDelegate)
+  i        public getElevation(android.support.v7.widget.CardViewDelegate)
+  k        public initStatic()
+  n        public onCompatPaddingChanged(android.support.v7.widget.CardViewDelegate)
+  o        public setBackgroundColor(android.support.v7.widget.CardViewDelegate,int)
+  p        createBackground(android.content.Context,int,float,float,float)
+  q        public getMinHeight(android.support.v7.widget.CardViewDelegate)
+  r        public setMaxElevation(android.support.v7.widget.CardViewDelegate,float)
+  w        public getMinWidth(android.support.v7.widget.CardViewDelegate)
+  x        public updatePadding(android.support.v7.widget.CardViewDelegate)
+  y        public initialize(android.support.v7.widget.CardViewDelegate,android.content.Context,int,float,float,float)
+
+android.support.v7.widget.CardViewEclairMr1$1    (com.tengu.sharetoclipboard.eval_q$1)
+===============================================================================
+  m    public drawRoundRect(android.graphics.Canvas,android.graphics.RectF,float,android.graphics.Paint)
+
+android.support.v7.widget.CardViewEclairMr1$IOException  (com.tengu.sharetoclipboard.eval_l)
+===============================================================================
+  No methods
+
+android.support.v7.widget.CardViewImpl   (com.tengu.sharetoclipboard.eval_t)
+===============================================================================
+  c        public abstract getRadius(android.support.v7.widget.CardViewDelegate)
+  c        public abstract setRadius(android.support.v7.widget.CardViewDelegate,float)
+  eval_q   public abstract onPreventCornerOverlapChanged(android.support.v7.widget.CardViewDelegate)
+  eval_y   public abstract setElevation(android.support.v7.widget.CardViewDelegate,float)
+  f        public abstract getMaxElevation(android.support.v7.widget.CardViewDelegate)
+  i        public abstract getElevation(android.support.v7.widget.CardViewDelegate)
+  k        public abstract initStatic()
+  n        public abstract onCompatPaddingChanged(android.support.v7.widget.CardViewDelegate)
+  o        public abstract setBackgroundColor(android.support.v7.widget.CardViewDelegate,int)
+  q        public abstract getMinHeight(android.support.v7.widget.CardViewDelegate)
+  r        public abstract setMaxElevation(android.support.v7.widget.CardViewDelegate,float)
+  w        public abstract getMinWidth(android.support.v7.widget.CardViewDelegate)
+  x        public abstract updatePadding(android.support.v7.widget.CardViewDelegate)
+  y        public abstract initialize(android.support.v7.widget.CardViewDelegate,android.content.Context,int,float,float,float)
+
+android.support.v7.widget.CardViewImpl$IOException       (com.tengu.sharetoclipboard.eval_m)
+===============================================================================
+  No methods
+
+android.support.v7.widget.CardViewJellybeanMr1   (com.tengu.sharetoclipboard.eval_w)
+===============================================================================
+  k    public initStatic()
+
+android.support.v7.widget.CardViewJellybeanMr1$1 (com.tengu.sharetoclipboard.eval_w$1)
+===============================================================================
+  m    public drawRoundRect(android.graphics.Canvas,android.graphics.RectF,float,android.graphics.Paint)
+
+android.support.v7.widget.CardViewJellybeanMr1$ArrayOutOfBoundsException (com.tengu.sharetoclipboard.eval_b)
+===============================================================================
+  No methods
+
+android.support.v7.widget.RoundRectDrawable      (com.tengu.sharetoclipboard.eval_r)
+===============================================================================
+  a                public setColor(int)
+  d                public getRadius()
+  e                setPadding(float,boolean,boolean)
+  t                getPadding()
+  w                private updateBounds(android.graphics.Rect)
+  z                setRadius(float)
+  draw             public draw(android.graphics.Canvas)
+  getOpacity       public getOpacity()
+  getOutline       public getOutline(android.graphics.Outline)
+  onBoundsChange   protected onBoundsChange(android.graphics.Rect)
+  setAlpha         public setAlpha(int)
+  setColorFilter   public setColorFilter(android.graphics.ColorFilter)
+
+android.support.v7.widget.RoundRectDrawable$IOException  (com.tengu.sharetoclipboard.eval_v)
+===============================================================================
+  No methods
+
+android.support.v7.widget.RoundRectDrawableWithShadow    (com.tengu.sharetoclipboard.eval_f)
+===============================================================================
+  c                public setAddPaddingForCorners(boolean)
+  c                static calculateHorizontalPadding(float,float,boolean)
+  d                getCornerRadius()
+  d                private buildComponents(android.graphics.Rect)
+  d                setShadowSize(float,float)
+  f                getShadowSize()
+  f                public setColor(int)
+  i                getMaxShadowSize()
+  k                private buildShadowCorners()
+  k                setShadowSize(float)
+  n                getMinWidth()
+  o                private drawShadow(android.graphics.Canvas)
+  p                setMaxShadowSize(float)
+  p                static calculateVerticalPadding(float,float,boolean)
+  t                setCornerRadius(float)
+  v                getMinHeight()
+  w                getMaxShadowAndCornerPadding(android.graphics.Rect)
+  y                private toEven(float)
+  draw             public draw(android.graphics.Canvas)
+  getOpacity       public getOpacity()
+  getPadding       public getPadding(android.graphics.Rect)
+  onBoundsChange   protected onBoundsChange(android.graphics.Rect)
+  setAlpha         public setAlpha(int)
+  setColorFilter   public setColorFilter(android.graphics.ColorFilter)
+
+android.support.v7.widget.RoundRectDrawableWithShadow$IOException        (com.tengu.sharetoclipboard.eval_s)
+===============================================================================
+  No methods
+
+android.support.v7.widget.RoundRectDrawableWithShadow$RoundRectHelper    (com.tengu.sharetoclipboard.eval_f$u)
+===============================================================================
+  m    public abstract drawRoundRect(android.graphics.Canvas,android.graphics.RectF,float,android.graphics.Paint)
+
+com.tengu.sharetoclipboard.BuildConfig   (com.tengu.sharetoclipboard.eval_k)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.BuildConfig$1 (com.tengu.sharetoclipboard.eval_d)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.BuildConfig$IOException       (com.tengu.sharetoclipboard.eval__)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.MainActivity
+===============================================================================
+  i        private setUpToolbar()
+  onCreate protected onCreate(android.os.Bundle)
+
+com.tengu.sharetoclipboard.MainActivity$1
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.tengu.sharetoclipboard.MainActivity$2
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.tengu.sharetoclipboard.MainActivity$2$1
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.tengu.sharetoclipboard.MainActivity$2$ArrayOutOfBoundsException      (com.tengu.sharetoclipboard.eval_x)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.MainActivity$3        (com.tengu.sharetoclipboard.eval_a)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.MainActivity$Exception        (com.tengu.sharetoclipboard.eval_o)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.R     (com.tengu.sharetoclipboard.eval_y)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.R$IOException (com.tengu.sharetoclipboard.eval_e)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.R$attr        (com.tengu.sharetoclipboard.eval_y$y)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.R$color       (com.tengu.sharetoclipboard.eval_y$w)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.R$dimen       (com.tengu.sharetoclipboard.eval_y$d)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.R$drawable    (com.tengu.sharetoclipboard.eval_y$s)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.R$id  (com.tengu.sharetoclipboard.eval_y$a)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.R$layout      (com.tengu.sharetoclipboard.eval_y$z)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.R$mipmap      (com.tengu.sharetoclipboard.eval_y$_)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.R$string      (com.tengu.sharetoclipboard.eval_y$t)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.R$style       (com.tengu.sharetoclipboard.eval_y$o)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.R$styleable   (com.tengu.sharetoclipboard.eval_y$m)
+===============================================================================
+  No methods
+
+com.tengu.sharetoclipboard.shareToClipboardActivity
+===============================================================================
+  eval_g   private copyToClipboard(java.lang.String)
+  eval_u   private handleSendVCard(android.content.Intent)
+  eval_y   private handleSendText(android.content.Intent)
+  p        private showToast(java.lang.String)
+  q        private arrayToString(java.lang.Object[])
+  t        private handleSchemeSpecificPart(android.content.Intent)
+  onCreate protected onCreate(android.os.Bundle)
+
+com.tengu.sharetoclipboard.shareToClipboardActivity$ArrayOutOfBoundsException    (com.tengu.sharetoclipboard.eval_c)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 147
+  Renamed to eval_r :   8 (5.4%)
+  Renamed to eval_d :   5 (3.4%)
+  Renamed to eval_h :   5 (3.4%)
+  Renamed to eval_l :   5 (3.4%)
+  Renamed to eval_o :   5 (3.4%)
+  Renamed to eval_v :   5 (3.4%)
+  Renamed to eval_w :   5 (3.4%)
+  Renamed to eval_k :   4 (2.7%)
+  Renamed to eval_p :   4 (2.7%)
+  Renamed to eval_t :   4 (2.7%)
+
+Number of Methods : 123
+  Renamed to c :   9 (7.3%)
+  Renamed to k :   8 (6.5%)
+  Renamed to d :   6 (4.9%)
+  Renamed to w :   6 (4.9%)
+  Renamed to f :   5 (4.1%)
+  Renamed to i :   5 (4.1%)
+  Renamed to q :   5 (4.1%)
+  Renamed to r :   5 (4.1%)
+  Renamed to t :   5 (4.1%)
+  Renamed to y :   5 (4.1%)
+

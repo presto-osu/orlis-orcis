@@ -1,0 +1,625 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.holokenmod.l                 public final com.holokenmod.BuildConfig
+com.holokenmod.eval__            public com.holokenmod.GridCage$1
+com.holokenmod.eval_a            public com.holokenmod.SaveGameListActivity$NullPointerException
+com.holokenmod.eval_b            public com.holokenmod.SaveGameListActivity
+com.holokenmod.eval_c            public com.holokenmod.UndoList$IOException
+com.holokenmod.eval_d            public com.holokenmod.SettingsActivity
+com.holokenmod.eval_e            public com.holokenmod.GridCell$IOException
+com.holokenmod.eval_f            public com.holokenmod.UndoList
+com.holokenmod.eval_g            public com.holokenmod.SaveGameListAdapter
+com.holokenmod.eval_h            public com.holokenmod.SaveGameListAdapter$Exception
+com.holokenmod.eval_i            public com.holokenmod.BuildConfig$1
+com.holokenmod.eval_j            public com.holokenmod.UndoState$Exception
+com.holokenmod.eval_k            public com.holokenmod.SettingsActivity$ArrayOutOfBoundsException
+com.holokenmod.eval_m            public com.holokenmod.GridCell
+com.holokenmod.eval_n            public com.holokenmod.SaveGame$IOException
+com.holokenmod.eval_o            public com.holokenmod.BuildConfig$ArrayOutOfBoundsException
+com.holokenmod.eval_p            public com.holokenmod.GridCage
+com.holokenmod.eval_q            public com.holokenmod.MainActivity$ParseException
+com.holokenmod.eval_r            public com.holokenmod.SaveGame
+com.holokenmod.eval_s            public com.holokenmod.StatsActivity$IOException
+com.holokenmod.eval_t            public com.holokenmod.R$ArrayOutOfBoundsException
+com.holokenmod.eval_u            public com.holokenmod.Utils
+com.holokenmod.eval_v            public com.holokenmod.GridCage$IOException
+com.holokenmod.eval_w            public com.holokenmod.UndoState
+com.holokenmod.eval_x            public com.holokenmod.StatsActivity
+com.holokenmod.eval_y            public com.holokenmod.GridView$IOException
+com.holokenmod.eval_z            public final com.holokenmod.R
+com.holokenmod.eval_bk           public com.holokenmod.Utils$NullPointerException
+com.holokenmod.eval_h0           public com.srlee.DLX.MathDokuDLX$NullPointerException
+com.holokenmod.eval_j0           public com.srlee.DLX.DLXNode$ArrayOutOfBoundsException
+com.holokenmod.eval_n1           public com.srlee.DLX.MathDokuDLX
+com.holokenmod.eval_nq           public com.srlee.DLX.DLXColumn
+com.holokenmod.eval_oa           public com.srlee.DLX.LL2DNode
+com.holokenmod.eval_ok           public com.srlee.DLX.LatinSquareDLX
+com.holokenmod.eval_p6           public com.srlee.DLX.LatinSquareDLX$IOException
+com.holokenmod.eval_pg           public com.srlee.DLX.DLXColumn$IOException
+com.holokenmod.eval_pp           public com.srlee.DLX.DLX
+com.holokenmod.eval_q5           public com.srlee.DLX.DLXNode
+com.holokenmod.eval_rt           public com.srlee.DLX.DLXRow$NullPointerException
+com.holokenmod.eval_u6           public com.mobiRic.ui.widget.Boast
+com.holokenmod.eval_vp           public com.mobiRic.ui.widget.Boast$ParseException
+com.holokenmod.eval_vu           public com.srlee.DLX.DLX$ParseException
+com.holokenmod.eval_wg           public com.srlee.DLX.LL2DNode$ParseException
+com.holokenmod.eval_wk           public com.srlee.DLX.DLXRow
+com.holokenmod.eval_b$1          com.holokenmod.SaveGameListActivity$1
+com.holokenmod.eval_b$2          com.holokenmod.SaveGameListActivity$2
+com.holokenmod.eval_b$3          com.holokenmod.SaveGameListActivity$3
+com.holokenmod.eval_b$4          com.holokenmod.SaveGameListActivity$4
+com.holokenmod.eval_b$5          com.holokenmod.SaveGameListActivity$5
+com.holokenmod.eval_b$6          com.holokenmod.SaveGameListActivity$6
+com.holokenmod.eval_d$1          com.holokenmod.SettingsActivity$1
+com.holokenmod.eval_d$2          com.holokenmod.SettingsActivity$2
+com.holokenmod.eval_g$1          com.holokenmod.SaveGameListAdapter$1
+com.holokenmod.eval_g$2          com.holokenmod.SaveGameListAdapter$2
+com.holokenmod.eval_g$w          public com.holokenmod.SaveGameListAdapter$SortSavedGames
+com.holokenmod.eval_x$1          com.holokenmod.StatsActivity$1
+com.holokenmod.eval_z$c          public final com.holokenmod.R$id
+com.holokenmod.eval_z$m          public final com.holokenmod.R$style
+com.holokenmod.eval_z$o          public final com.holokenmod.R$drawable
+com.holokenmod.eval_z$r          public final com.holokenmod.R$plurals
+com.holokenmod.eval_z$u          public final com.holokenmod.R$attr
+com.holokenmod.eval_z$x          public final com.holokenmod.R$array
+com.holokenmod.eval_z$z          public final com.holokenmod.R$color
+com.holokenmod.eval_pp$w         public final com.srlee.DLX.DLX$SolveType
+com.holokenmod.GridView$b        public abstract com.holokenmod.GridView$OnGridTouchListener
+com.holokenmod.GridView$q        public abstract com.holokenmod.GridView$OnSolvedListener
+com.holokenmod.eval_z$eval__     public final com.holokenmod.R$string
+com.holokenmod.eval_z$eval_b     public final com.holokenmod.R$layout
+com.holokenmod.eval_z$eval_e     public final com.holokenmod.R$menu
+com.holokenmod.eval_z$eval_j     public final com.holokenmod.R$xml
+-------------------------------------------------------------------------------
+
+com.holokenmod.BuildConfig       (com.holokenmod.l)
+===============================================================================
+  No methods
+
+com.holokenmod.BuildConfig$1     (com.holokenmod.eval_i)
+===============================================================================
+  No methods
+
+com.holokenmod.BuildConfig$ArrayOutOfBoundsException     (com.holokenmod.eval_o)
+===============================================================================
+  No methods
+
+com.holokenmod.GridCage  (com.holokenmod.eval_p)
+===============================================================================
+  d        private getaddcombos(int,int,int)
+  e        public isMultiplyMathsCorrect()
+  eval_m   private setPossibleNums()
+  eval_q   private getmultcombos(int,int,int)
+  f        public isDivideMathsCorrect()
+  j        public isSubtractMathsCorrect()
+  j        public setCageId(int)
+  k        public getPossibleNums()
+  l        private setPossibleNumsNoOperator()
+  m        public isMathsCorrect()
+  m        public setArithmetic(int)
+  p        private satisfiesConstraints(int[])
+  v        public isAddMathsCorrect()
+  v        private getalladdcombos(int,int,int)
+  x        public userValuesCorrect()
+  x        private getallmultcombos(int,int,int)
+  y        public setBorders()
+  toString public toString()
+
+com.holokenmod.GridCage$1        (com.holokenmod.eval__)
+===============================================================================
+  No methods
+
+com.holokenmod.GridCage$IOException      (com.holokenmod.eval_v)
+===============================================================================
+  No methods
+
+com.holokenmod.GridCell  (com.holokenmod.eval_m)
+===============================================================================
+  c        public setInvalidHighlight(boolean)
+  c        public synchronized setUserValue(int)
+  e        public isUserValueCorrect()
+  e        public setLastModified(boolean)
+  eval_d   public setSelectedCellColor(int)
+  eval_h   public isUserValueSet()
+  eval_o   public getCheatedHighlight()
+  f        public CellInAnyCage()
+  g        public getUserValue()
+  i        private getBorderPaint(int)
+  j        public toggleUserValue()
+  j        public setCheatedHighlight(boolean)
+  j        public synchronized removePossible(int)
+  m        public isPossible(int)
+  n        public setBorders(int,int,int,int)
+  s        public getInvalidHighlight()
+  s        public setTheme(int)
+  u        public onDraw(android.graphics.Canvas,boolean)
+  x        public synchronized clearUserValue()
+  y        public togglePossible(int)
+  toString public toString()
+
+com.holokenmod.GridCell$IOException      (com.holokenmod.eval_e)
+===============================================================================
+  No methods
+
+com.holokenmod.GridView
+===============================================================================
+  a                public valueInColumn(int,int)
+  b                public initGridView()
+  c                public setCageText()
+  d                public countMistakes()
+  e                public countCheated()
+  eval_a           public CreateCages()
+  eval_c           public isSolved()
+  eval_k           public setOnGridTouchListener(com.holokenmod.GridView$OnGridTouchListener)
+  eval_q           public getPossiblesInRowCol(com.holokenmod.GridCell)
+  eval_r           public randomiseGrid()
+  eval_t           public markInvalidChoices()
+  eval_u           public getSinglePossibles()
+  eval_y           public cheatedHighlighted()
+  h                public getNumValueInCol(com.holokenmod.GridCell)
+  i                public invalidsHighlighted()
+  i                public getvalidCages(com.holokenmod.GridCell)
+  j                public Solve(boolean,boolean)
+  l                private measure(int)
+  l                public CageIdAt(int,int)
+  m                public reCreate()
+  n                public clearUserValues()
+  p                private CellToCoord(int)
+  q                public clearLastModified()
+  r                public setSolvedHandler(com.holokenmod.GridView$OnSolvedListener)
+  u                private CoordToCell(float,float)
+  u                public valueInRow(int,int)
+  v                public getCellAt(int,int)
+  w                public ClearAllCages()
+  w                public getNumValueInRow(com.holokenmod.GridCell)
+  w                public clearValue(int)
+  y                public CreateSingleCages(int)
+  z                public setTheme(int)
+  onDraw           protected onDraw(android.graphics.Canvas)
+  onMeasure        protected onMeasure(int,int)
+  onTouch          public onTouch(android.view.View,android.view.MotionEvent)
+  onTrackballEvent public onTrackballEvent(android.view.MotionEvent)
+
+com.holokenmod.GridView$IOException      (com.holokenmod.eval_y)
+===============================================================================
+  No methods
+
+com.holokenmod.GridView$OnGridTouchListener      (com.holokenmod.GridView$b)
+===============================================================================
+  i    public abstract gridTouched(com.holokenmod.GridCell)
+
+com.holokenmod.GridView$OnSolvedListener (com.holokenmod.GridView$q)
+===============================================================================
+  l    public abstract puzzleSolved()
+
+com.holokenmod.MainActivity
+===============================================================================
+  a                        public synchronized saveUndo(com.holokenmod.GridCell,boolean)
+  a                        public setButtonVisibility(int)
+  b                        public synchronized modifyCell()
+  d                        public makeToast(java.lang.String)
+  e                        public synchronized startFreshGrid(boolean)
+  eval_b                   public checkProgress()
+  eval_c                   public restartGameDialog()
+  eval_m                   public setSinglePossibles()
+  eval_u                   public synchronized restoreUndo()
+  f                        public newGameModeDialog()
+  g                        public createNewGame()
+  g                        public storeStats(boolean)
+  g                        public removePossibles(com.holokenmod.GridCell)
+  h                        public postNewGame(int)
+  l                        public storeStreak(boolean)
+  n                        public openAboutDialog()
+  n                        public restoreSaveGame(com.holokenmod.SaveGame)
+  n                        private makeToast(int)
+  o                        public clearSelectedButton()
+  p                        public openHelpDialog()
+  r                        public loadPreferences()
+  s                        public getScreenShot()
+  u                        public newGameGridDialog()
+  u                        private addAllPossibles(com.holokenmod.GridCell)
+  u                        public synchronized enterNumber(int)
+  v                        public newUserCheck()
+  onActivityResult         protected onActivityResult(int,int,android.content.Intent)
+  onContextItemSelected    public onContextItemSelected(android.view.MenuItem)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateContextMenu      public onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+  onCreateDialog           protected onCreateDialog(int)
+  onKeyDown                public onKeyDown(int,android.view.KeyEvent)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPause                  public onPause()
+  onResume                 public onResume()
+
+com.holokenmod.MainActivity$1
+===============================================================================
+  run  public run()
+
+com.holokenmod.MainActivity$10
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.MainActivity$11
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.MainActivity$12
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.MainActivity$13
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.MainActivity$14
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.MainActivity$15
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.MainActivity$16
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.MainActivity$17
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.MainActivity$18
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.MainActivity$2
+===============================================================================
+  run  public run()
+
+com.holokenmod.MainActivity$3
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.holokenmod.MainActivity$4
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.holokenmod.MainActivity$5
+===============================================================================
+  onLongClick  public onLongClick(android.view.View)
+
+com.holokenmod.MainActivity$6
+===============================================================================
+  i    public gridTouched(com.holokenmod.GridCell)
+
+com.holokenmod.MainActivity$7
+===============================================================================
+  l    public puzzleSolved()
+
+com.holokenmod.MainActivity$8
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.holokenmod.MainActivity$9
+===============================================================================
+  run  public run()
+
+com.holokenmod.MainActivity$ParseException       (com.holokenmod.eval_q)
+===============================================================================
+  No methods
+
+com.holokenmod.R (com.holokenmod.eval_z)
+===============================================================================
+  No methods
+
+com.holokenmod.R$ArrayOutOfBoundsException       (com.holokenmod.eval_t)
+===============================================================================
+  No methods
+
+com.holokenmod.R$array   (com.holokenmod.eval_z$x)
+===============================================================================
+  No methods
+
+com.holokenmod.R$attr    (com.holokenmod.eval_z$u)
+===============================================================================
+  No methods
+
+com.holokenmod.R$color   (com.holokenmod.eval_z$z)
+===============================================================================
+  No methods
+
+com.holokenmod.R$drawable        (com.holokenmod.eval_z$o)
+===============================================================================
+  No methods
+
+com.holokenmod.R$id      (com.holokenmod.eval_z$c)
+===============================================================================
+  No methods
+
+com.holokenmod.R$layout  (com.holokenmod.eval_z$eval_b)
+===============================================================================
+  No methods
+
+com.holokenmod.R$menu    (com.holokenmod.eval_z$eval_e)
+===============================================================================
+  No methods
+
+com.holokenmod.R$plurals (com.holokenmod.eval_z$r)
+===============================================================================
+  No methods
+
+com.holokenmod.R$string  (com.holokenmod.eval_z$eval__)
+===============================================================================
+  No methods
+
+com.holokenmod.R$style   (com.holokenmod.eval_z$m)
+===============================================================================
+  No methods
+
+com.holokenmod.R$xml     (com.holokenmod.eval_z$eval_j)
+===============================================================================
+  No methods
+
+com.holokenmod.SaveGame  (com.holokenmod.eval_r)
+===============================================================================
+  b    public Save(com.holokenmod.GridView)
+  f    public getAutosave()
+  r    public Restore(com.holokenmod.GridView)
+  t    public ReadDate()
+
+com.holokenmod.SaveGame$IOException      (com.holokenmod.eval_n)
+===============================================================================
+  No methods
+
+com.holokenmod.SaveGameListActivity      (com.holokenmod.eval_b)
+===============================================================================
+  a        public currentSaveGame()
+  b        public deleteSaveGame(java.lang.String)
+  c        copy(java.io.File,java.io.File)
+  eval_y   public deleteGameDialog(java.lang.String)
+  p        public loadSaveGame(java.lang.String)
+  w        public deleteAllSaveGames()
+  z        public deleteAllGamesDialog()
+  onCreate public onCreate(android.os.Bundle)
+
+com.holokenmod.SaveGameListActivity$1    (com.holokenmod.eval_b$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.holokenmod.SaveGameListActivity$2    (com.holokenmod.eval_b$2)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.holokenmod.SaveGameListActivity$3    (com.holokenmod.eval_b$3)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.SaveGameListActivity$4    (com.holokenmod.eval_b$4)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.SaveGameListActivity$5    (com.holokenmod.eval_b$5)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.SaveGameListActivity$6    (com.holokenmod.eval_b$6)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.holokenmod.SaveGameListActivity$NullPointerException (com.holokenmod.eval_a)
+===============================================================================
+  No methods
+
+com.holokenmod.SaveGameListAdapter       (com.holokenmod.eval_g)
+===============================================================================
+  k            public refreshFiles()
+  p            static access$000(com.holokenmod.SaveGameListAdapter)
+  getCount     public getCount()
+  getItem      public getItem(int)
+  getItemId    public getItemId(int)
+  getView      public getView(int,android.view.View,android.view.ViewGroup)
+
+com.holokenmod.SaveGameListAdapter$1     (com.holokenmod.eval_g$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.holokenmod.SaveGameListAdapter$2     (com.holokenmod.eval_g$2)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.holokenmod.SaveGameListAdapter$Exception     (com.holokenmod.eval_h)
+===============================================================================
+  No methods
+
+com.holokenmod.SaveGameListAdapter$SortSavedGames        (com.holokenmod.eval_g$w)
+===============================================================================
+  y        public compare(java.lang.String,java.lang.String)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+com.holokenmod.SettingsActivity  (com.holokenmod.eval_d)
+===============================================================================
+  onCreate                     public onCreate(android.os.Bundle)
+  onSharedPreferenceChanged    public onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+
+com.holokenmod.SettingsActivity$1        (com.holokenmod.eval_d$1)
+===============================================================================
+  onPreferenceClick    public onPreferenceClick(android.preference.Preference)
+
+com.holokenmod.SettingsActivity$2        (com.holokenmod.eval_d$2)
+===============================================================================
+  onPreferenceClick    public onPreferenceClick(android.preference.Preference)
+
+com.holokenmod.SettingsActivity$ArrayOutOfBoundsException        (com.holokenmod.eval_k)
+===============================================================================
+  No methods
+
+com.holokenmod.StatsActivity     (com.holokenmod.eval_x)
+===============================================================================
+  z        public fillStats()
+  onCreate public onCreate(android.os.Bundle)
+
+com.holokenmod.StatsActivity$1   (com.holokenmod.eval_x$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.holokenmod.StatsActivity$IOException (com.holokenmod.eval_s)
+===============================================================================
+  No methods
+
+com.holokenmod.UndoList  (com.holokenmod.eval_f)
+===============================================================================
+  m            public synchronized add(com.holokenmod.UndoState)
+  removeFirst  public synchronized removeFirst()
+  removeLast   public synchronized removeLast()
+  add          public volatile add(java.lang.Object)
+  removeFirst  public volatile removeFirst()
+  removeLast   public volatile removeLast()
+
+com.holokenmod.UndoList$IOException      (com.holokenmod.eval_c)
+===============================================================================
+  No methods
+
+com.holokenmod.UndoState (com.holokenmod.eval_w)
+===============================================================================
+  a    public getUserValue()
+  d    public copyArrayList(java.util.List)
+  m    public getCellNum()
+  t    public getPossibles()
+  u    public getBatch()
+
+com.holokenmod.UndoState$Exception       (com.holokenmod.eval_j)
+===============================================================================
+  No methods
+
+com.holokenmod.Utils     (com.holokenmod.eval_u)
+===============================================================================
+  l    public static hasHoneycomb()
+  l    public static convertTimetoStr(long)
+
+com.holokenmod.Utils$NullPointerException        (com.holokenmod.eval_bk)
+===============================================================================
+  No methods
+
+com.mobiRic.ui.widget.Boast      (com.holokenmod.eval_u6)
+===============================================================================
+  b        public static makeText(android.content.Context,java.lang.CharSequence)
+  c        public static makeText(android.content.Context,int,int)
+  eval_o   public static showText(android.content.Context,java.lang.CharSequence)
+  j        public static makeText(android.content.Context,int)
+  m        public cancel()
+  m        public static makeText(android.content.Context,java.lang.CharSequence,int)
+  o        public static showText(android.content.Context,int,int)
+  p        public show(boolean)
+  t        public static showText(android.content.Context,int)
+  t        public static showText(android.content.Context,java.lang.CharSequence,int)
+  u        public show()
+
+com.mobiRic.ui.widget.Boast$ParseException       (com.holokenmod.eval_vp)
+===============================================================================
+  No methods
+
+com.srlee.DLX.DLX        (com.holokenmod.eval_pp)
+===============================================================================
+  a    public AddNode(int,int)
+  d    protected Init(int,int,int)
+  f    public Given(int)
+  h    public Given(com.srlee.DLX.DLXNode)
+  i    private UncoverCol(com.srlee.DLX.DLXColumn)
+  m    private search(int)
+  p    public GivenRow(int)
+  q    public Solve(com.srlee.DLX.DLX$SolveType)
+  r    private ChooseMinCol()
+  t    private CoverCol(com.srlee.DLX.DLXColumn)
+  y    public GetSolutionRow(int)
+  z    public GetRowsInSolution()
+
+com.srlee.DLX.DLX$ParseException (com.holokenmod.eval_vu)
+===============================================================================
+  No methods
+
+com.srlee.DLX.DLX$SolveType      (com.holokenmod.eval_pp$w)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.srlee.DLX.DLXColumn  (com.holokenmod.eval_nq)
+===============================================================================
+  e    public GetSize()
+  y    public DecSize()
+  z    public IncSize()
+
+com.srlee.DLX.DLXColumn$IOException      (com.holokenmod.eval_pg)
+===============================================================================
+  No methods
+
+com.srlee.DLX.DLXNode    (com.holokenmod.eval_q5)
+===============================================================================
+  h    public GetColumn()
+  k    public GetRowIdx()
+
+com.srlee.DLX.DLXNode$ArrayOutOfBoundsException  (com.holokenmod.eval_j0)
+===============================================================================
+  No methods
+
+com.srlee.DLX.DLXRow     (com.holokenmod.eval_wk)
+===============================================================================
+  No methods
+
+com.srlee.DLX.DLXRow$NullPointerException        (com.holokenmod.eval_rt)
+===============================================================================
+  No methods
+
+com.srlee.DLX.LL2DNode   (com.holokenmod.eval_oa)
+===============================================================================
+  eval_r   public GetRight()
+  i        public GetUp()
+  n        public GetLeft()
+  p        public SetDown(com.srlee.DLX.LL2DNode)
+  s        public SetLeft(com.srlee.DLX.LL2DNode)
+  t        public SetUp(com.srlee.DLX.LL2DNode)
+  v        public GetDown()
+  z        public SetRight(com.srlee.DLX.LL2DNode)
+
+com.srlee.DLX.LL2DNode$ParseException    (com.holokenmod.eval_wg)
+===============================================================================
+  No methods
+
+com.srlee.DLX.LatinSquareDLX     (com.holokenmod.eval_ok)
+===============================================================================
+  No methods
+
+com.srlee.DLX.LatinSquareDLX$IOException (com.holokenmod.eval_p6)
+===============================================================================
+  No methods
+
+com.srlee.DLX.MathDokuDLX        (com.holokenmod.eval_n1)
+===============================================================================
+  No methods
+
+com.srlee.DLX.MathDokuDLX$NullPointerException   (com.holokenmod.eval_h0)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 509
+  Renamed to eval_b :  14 (2.8%)
+  Renamed to eval_v :  14 (2.8%)
+  Renamed to eval__ :  12 (2.4%)
+  Renamed to eval_c :  12 (2.4%)
+  Renamed to eval_r :  12 (2.4%)
+  Renamed to eval_a :  11 (2.2%)
+  Renamed to eval_d :  11 (2.2%)
+  Renamed to eval_i :  11 (2.2%)
+  Renamed to eval_k :  11 (2.2%)
+  Renamed to eval_m :  11 (2.2%)
+
+Number of Methods : 216
+  Renamed to m :   9 (4.2%)
+  Renamed to l :   8 (3.7%)
+  Renamed to p :   8 (3.7%)
+  Renamed to u :   8 (3.7%)
+  Renamed to i :   7 (3.2%)
+  Renamed to j :   7 (3.2%)
+  Renamed to a :   6 (2.8%)
+  Renamed to e :   6 (2.8%)
+  Renamed to n :   6 (2.8%)
+  Renamed to t :   6 (2.8%)
+

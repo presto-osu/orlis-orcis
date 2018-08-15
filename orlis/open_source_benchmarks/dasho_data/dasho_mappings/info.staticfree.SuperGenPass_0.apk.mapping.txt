@@ -1,0 +1,538 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+info.staticfree.SuperGenPass.x   public final edu.mit.mobile.android.utils.ProviderUtils
+info.staticfree.SuperGenPass.eval__      public final info.staticfree.SuperGenPass.BuildConfig
+info.staticfree.SuperGenPass.eval_a      public edu.mit.mobile.android.utils.ProviderUtils$ParseException
+info.staticfree.SuperGenPass.eval_b      public info.staticfree.SuperGenPass.PasswordGenerationException
+info.staticfree.SuperGenPass.eval_c      public edu.mit.mobile.android.utils.ProviderUtils$1
+info.staticfree.SuperGenPass.eval_d      public final info.staticfree.SuperGenPass.Manifest
+info.staticfree.SuperGenPass.eval_e      public info.staticfree.SuperGenPass.SgpPreferencesActivity
+info.staticfree.SuperGenPass.eval_f      public info.staticfree.SuperGenPass.SgpPreferencesActivity$ArrayOutOfBoundsException
+info.staticfree.SuperGenPass.eval_g      public info.staticfree.SuperGenPass.BuildConfig$1
+info.staticfree.SuperGenPass.eval_h      public info.staticfree.SuperGenPass.RememberedDomainProvider$IOException
+info.staticfree.SuperGenPass.eval_i      public info.staticfree.SuperGenPass.RememberedDBHelper
+info.staticfree.SuperGenPass.eval_j      public info.staticfree.SuperGenPass.IllegalDomainException$ArrayOutOfBoundsException
+info.staticfree.SuperGenPass.eval_k      public info.staticfree.SuperGenPass.Preferences$NullPointerException
+info.staticfree.SuperGenPass.eval_l      public info.staticfree.SuperGenPass.BuildConfig$NullPointerException
+info.staticfree.SuperGenPass.eval_m      public info.staticfree.SuperGenPass.SuperGenPassShare$ArrayOutOfBoundsException
+info.staticfree.SuperGenPass.eval_n      public final info.staticfree.SuperGenPass.R
+info.staticfree.SuperGenPass.eval_o      public info.staticfree.SuperGenPass.PasswordGenerationException$ArrayOutOfBoundsException
+info.staticfree.SuperGenPass.eval_p      public info.staticfree.SuperGenPass.Domain$NullPointerException
+info.staticfree.SuperGenPass.eval_q      public info.staticfree.SuperGenPass.GeneratedPasswordView$SavedState$ArrayOutOfBoundsException
+info.staticfree.SuperGenPass.eval_r      public info.staticfree.SuperGenPass.GeneratedPasswordView$NullPointerException
+info.staticfree.SuperGenPass.eval_s      public info.staticfree.SuperGenPass.Super_Gen_Pass$AboutFragment$ParseException
+info.staticfree.SuperGenPass.eval_t      public info.staticfree.SuperGenPass.Manifest$ParseException
+info.staticfree.SuperGenPass.eval_u      public info.staticfree.SuperGenPass.IllegalDomainException
+info.staticfree.SuperGenPass.eval_v      public info.staticfree.SuperGenPass.R$NullPointerException
+info.staticfree.SuperGenPass.eval_w      public info.staticfree.SuperGenPass.RememberedDBHelper$ParseException
+info.staticfree.SuperGenPass.eval_y      public info.staticfree.SuperGenPass.Preferences$SaltFragment$IOException
+info.staticfree.SuperGenPass.eval_z      public info.staticfree.SuperGenPass.Domain
+info.staticfree.SuperGenPass.eval_ay     public info.staticfree.SuperGenPass.VisualHash$Exception
+info.staticfree.SuperGenPass.eval_b4     public final org.openauthentication.otp.OneTimePasswordAlgorithm
+info.staticfree.SuperGenPass.eval_cc     public info.staticfree.SuperGenPass.hashes.SuperGenPass$IOException
+info.staticfree.SuperGenPass.eval_d8     public info.staticfree.SuperGenPass.VisualHashEditText$ParseException
+info.staticfree.SuperGenPass.eval_ee     public org.openauthentication.otp.OneTimePasswordAlgorithm$ArrayOutOfBoundsException
+info.staticfree.SuperGenPass.eval_et     public info.staticfree.SuperGenPass.hashes.HmacPin$IOException
+info.staticfree.SuperGenPass.eval_gg     public abstract info.staticfree.SuperGenPass.hashes.DomainBasedHash
+info.staticfree.SuperGenPass.eval_h5     public final info.staticfree.SuperGenPass.hashes.PasswordComposer
+info.staticfree.SuperGenPass.eval_jr     public info.staticfree.SuperGenPass.Super_Gen_Pass$VerifyFragment$IOException
+info.staticfree.SuperGenPass.eval_lt     public info.staticfree.SuperGenPass.Super_Gen_Pass$IOException
+info.staticfree.SuperGenPass.eval_lv     public info.staticfree.SuperGenPass.VisualHash
+info.staticfree.SuperGenPass.eval_mv     public info.staticfree.SuperGenPass.hashes.HotpPin$IOException
+info.staticfree.SuperGenPass.eval_qo     public final info.staticfree.SuperGenPass.hashes.SuperGenPass
+info.staticfree.SuperGenPass.eval_t9     public info.staticfree.SuperGenPass.hashes.HmacPin
+info.staticfree.SuperGenPass.eval_wp     public final info.staticfree.SuperGenPass.hashes.HotpPin
+info.staticfree.SuperGenPass.eval_z5     public info.staticfree.SuperGenPass.hashes.PasswordComposer$ParseException
+info.staticfree.SuperGenPass.eval_z8     public info.staticfree.SuperGenPass.hashes.DomainBasedHash$ArrayOutOfBoundsException
+info.staticfree.SuperGenPass.eval_d$i    public final info.staticfree.SuperGenPass.Manifest$permission
+info.staticfree.SuperGenPass.eval_n$g    public final info.staticfree.SuperGenPass.R$string
+info.staticfree.SuperGenPass.eval_n$h    public final info.staticfree.SuperGenPass.R$drawable
+info.staticfree.SuperGenPass.eval_n$i    public final info.staticfree.SuperGenPass.R$layout
+info.staticfree.SuperGenPass.eval_n$p    public final info.staticfree.SuperGenPass.R$array
+info.staticfree.SuperGenPass.eval_n$q    public final info.staticfree.SuperGenPass.R$style
+info.staticfree.SuperGenPass.eval_n$s    public final info.staticfree.SuperGenPass.R$id
+info.staticfree.SuperGenPass.eval_n$w    public final info.staticfree.SuperGenPass.R$attr
+info.staticfree.SuperGenPass.eval_n$x    public final info.staticfree.SuperGenPass.R$raw
+info.staticfree.SuperGenPass.eval_n$y    public final info.staticfree.SuperGenPass.R$styleable
+info.staticfree.SuperGenPass.eval_n$z    public final info.staticfree.SuperGenPass.R$plurals
+info.staticfree.SuperGenPass.Preferences$q       public info.staticfree.SuperGenPass.Preferences$SaltFragment
+info.staticfree.SuperGenPass.eval_n$eval_h       public final info.staticfree.SuperGenPass.R$xml
+info.staticfree.SuperGenPass.eval_n$eval_k       public final info.staticfree.SuperGenPass.R$menu
+info.staticfree.SuperGenPass.Preferences$q$1     info.staticfree.SuperGenPass.Preferences$SaltFragment$1
+info.staticfree.SuperGenPass.Preferences$q$2     info.staticfree.SuperGenPass.Preferences$SaltFragment$2
+info.staticfree.SuperGenPass.Super_Gen_Pass$j    public info.staticfree.SuperGenPass.Super_Gen_Pass$VerifyFragment
+info.staticfree.SuperGenPass.Super_Gen_Pass$q    public info.staticfree.SuperGenPass.Super_Gen_Pass$AboutFragment
+info.staticfree.SuperGenPass.Super_Gen_Pass$j$1  info.staticfree.SuperGenPass.Super_Gen_Pass$VerifyFragment$1
+info.staticfree.SuperGenPass.Super_Gen_Pass$j$2  info.staticfree.SuperGenPass.Super_Gen_Pass$VerifyFragment$2
+info.staticfree.SuperGenPass.Super_Gen_Pass$q$1  info.staticfree.SuperGenPass.Super_Gen_Pass$AboutFragment$1
+info.staticfree.SuperGenPass.GeneratedPasswordView$g     public info.staticfree.SuperGenPass.GeneratedPasswordView$SavedState
+info.staticfree.SuperGenPass.GeneratedPasswordView$g$1   final info.staticfree.SuperGenPass.GeneratedPasswordView$SavedState$1
+-------------------------------------------------------------------------------
+
+edu.mit.mobile.android.utils.ProviderUtils       (info.staticfree.SuperGenPass.x)
+===============================================================================
+  eval_t   public static transient addExtraWhere(java.lang.String,java.lang.String[])
+  m        public static transient addExtraWhereArgs(java.lang.String[],java.lang.String[])
+
+edu.mit.mobile.android.utils.ProviderUtils$1     (info.staticfree.SuperGenPass.eval_c)
+===============================================================================
+  No methods
+
+edu.mit.mobile.android.utils.ProviderUtils$ParseException        (info.staticfree.SuperGenPass.eval_a)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.BuildConfig (info.staticfree.SuperGenPass.eval__)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.BuildConfig$1       (info.staticfree.SuperGenPass.eval_g)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.BuildConfig$NullPointerException    (info.staticfree.SuperGenPass.eval_l)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.Domain      (info.staticfree.SuperGenPass.eval_z)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.Domain$NullPointerException (info.staticfree.SuperGenPass.eval_p)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.GeneratedPasswordView
+===============================================================================
+  p                        public setHidePassword(boolean)
+  s                        public getHidePassword()
+  t                        public setDomainName(java.lang.CharSequence)
+  w                        public copyToClipboard()
+  onClick                  public onClick(android.view.View)
+  onCreateContextMenu      protected onCreateContextMenu(android.view.ContextMenu)
+  onMenuItemClick          public onMenuItemClick(android.view.MenuItem)
+  onRestoreInstanceState   public onRestoreInstanceState(android.os.Parcelable)
+  onSaveInstanceState      public onSaveInstanceState()
+  onTextContextMenuItem    public onTextContextMenuItem(int)
+  setOnClickListener       public setOnClickListener(android.view.View$OnClickListener)
+  setText                  public setText(java.lang.CharSequence,android.widget.TextView$BufferType)
+
+info.staticfree.SuperGenPass.GeneratedPasswordView$1
+===============================================================================
+  getAcceptedChars protected getAcceptedChars()
+  getInputType     public getInputType()
+
+info.staticfree.SuperGenPass.GeneratedPasswordView$NullPointerException  (info.staticfree.SuperGenPass.eval_r)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.GeneratedPasswordView$SavedState    (info.staticfree.SuperGenPass.GeneratedPasswordView$g)
+===============================================================================
+  writeToParcel    public writeToParcel(android.os.Parcel,int)
+
+info.staticfree.SuperGenPass.GeneratedPasswordView$SavedState$1  (info.staticfree.SuperGenPass.GeneratedPasswordView$g$1)
+===============================================================================
+  createFromParcel public createFromParcel(android.os.Parcel)
+  newArray         public newArray(int)
+  createFromParcel public volatile createFromParcel(android.os.Parcel)
+  newArray         public volatile newArray(int)
+
+info.staticfree.SuperGenPass.GeneratedPasswordView$SavedState$ArrayOutOfBoundsException  (info.staticfree.SuperGenPass.eval_q)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.IllegalDomainException      (info.staticfree.SuperGenPass.eval_u)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.IllegalDomainException$ArrayOutOfBoundsException    (info.staticfree.SuperGenPass.eval_j)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.Manifest    (info.staticfree.SuperGenPass.eval_d)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.Manifest$ParseException     (info.staticfree.SuperGenPass.eval_t)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.Manifest$permission (info.staticfree.SuperGenPass.eval_d$i)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.PasswordGenerationException (info.staticfree.SuperGenPass.eval_b)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.PasswordGenerationException$ArrayOutOfBoundsException       (info.staticfree.SuperGenPass.eval_o)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.Preferences
+===============================================================================
+  g                public scanSalt()
+  i                public static getStringAsInteger(android.content.SharedPreferences,java.lang.String,int)
+  j                public isInteger(java.lang.Object)
+  q                static access$100(info.staticfree.SuperGenPass.Preferences,java.lang.String)
+  q                private setSaltPref(java.lang.String)
+  onActivityResult public onActivityResult(int,int,android.content.Intent)
+  onCreate         public onCreate(android.os.Bundle)
+  onResume         public onResume()
+
+info.staticfree.SuperGenPass.Preferences$1
+===============================================================================
+  onPreferenceChange   public onPreferenceChange(android.preference.Preference,java.lang.Object)
+
+info.staticfree.SuperGenPass.Preferences$2
+===============================================================================
+  w                public onLoadFinished(android.content.Loader,android.database.Cursor)
+  onCreateLoader   public onCreateLoader(int,android.os.Bundle)
+  onLoadFinished   public volatile onLoadFinished(android.content.Loader,java.lang.Object)
+  onLoaderReset    public onLoaderReset(android.content.Loader)
+
+info.staticfree.SuperGenPass.Preferences$3
+===============================================================================
+  onPreferenceClick    public onPreferenceClick(android.preference.Preference)
+
+info.staticfree.SuperGenPass.Preferences$NullPointerException    (info.staticfree.SuperGenPass.eval_k)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.Preferences$SaltFragment    (info.staticfree.SuperGenPass.Preferences$q)
+===============================================================================
+  q                private generateSalt()
+  z                static access$000(info.staticfree.SuperGenPass.Preferences$SaltFragment)
+  onCreateDialog   public onCreateDialog(android.os.Bundle)
+
+info.staticfree.SuperGenPass.Preferences$SaltFragment$1  (info.staticfree.SuperGenPass.Preferences$q$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+info.staticfree.SuperGenPass.Preferences$SaltFragment$2  (info.staticfree.SuperGenPass.Preferences$q$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+info.staticfree.SuperGenPass.Preferences$SaltFragment$IOException        (info.staticfree.SuperGenPass.eval_y)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R   (info.staticfree.SuperGenPass.eval_n)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$NullPointerException      (info.staticfree.SuperGenPass.eval_v)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$array     (info.staticfree.SuperGenPass.eval_n$p)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$attr      (info.staticfree.SuperGenPass.eval_n$w)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$drawable  (info.staticfree.SuperGenPass.eval_n$h)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$id        (info.staticfree.SuperGenPass.eval_n$s)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$layout    (info.staticfree.SuperGenPass.eval_n$i)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$menu      (info.staticfree.SuperGenPass.eval_n$eval_k)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$plurals   (info.staticfree.SuperGenPass.eval_n$z)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$raw       (info.staticfree.SuperGenPass.eval_n$x)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$string    (info.staticfree.SuperGenPass.eval_n$g)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$style     (info.staticfree.SuperGenPass.eval_n$q)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$styleable (info.staticfree.SuperGenPass.eval_n$y)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.R$xml       (info.staticfree.SuperGenPass.eval_n$eval_h)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.RememberedDBHelper  (info.staticfree.SuperGenPass.eval_i)
+===============================================================================
+  onCreate     public onCreate(android.database.sqlite.SQLiteDatabase)
+  onUpgrade    public onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+
+info.staticfree.SuperGenPass.RememberedDBHelper$ParseException   (info.staticfree.SuperGenPass.eval_w)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.RememberedDomainProvider
+===============================================================================
+  m        public static addRememberedDomain(android.content.ContentResolver,java.lang.String)
+  delete   public delete(android.net.Uri,java.lang.String,java.lang.String[])
+  getType  public getType(android.net.Uri)
+  insert   public insert(android.net.Uri,android.content.ContentValues)
+  onCreate public onCreate()
+  query    public query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)
+  update   public update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])
+
+info.staticfree.SuperGenPass.RememberedDomainProvider$IOException        (info.staticfree.SuperGenPass.eval_h)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.SgpPreferencesActivity      (info.staticfree.SuperGenPass.eval_e)
+===============================================================================
+  onCreate     protected onCreate(android.os.Bundle)
+  onNewIntent  protected onNewIntent(android.content.Intent)
+
+info.staticfree.SuperGenPass.SgpPreferencesActivity$ArrayOutOfBoundsException    (info.staticfree.SuperGenPass.eval_f)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.SuperGenPassShare
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.SuperGenPassShare$ArrayOutOfBoundsException (info.staticfree.SuperGenPass.eval_m)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.Super_Gen_Pass
+===============================================================================
+  a                        private initPinWidgets()
+  b                        getDomain()
+  c                        private initDomainPasswordEntry()
+  c                        static access$302(info.staticfree.SuperGenPass.Super_Gen_Pass,int)
+  e                        private generateIfValid()
+  eval_d                   private bindTextWatchers()
+  eval_f                   static access$300(info.staticfree.SuperGenPass.Super_Gen_Pass)
+  eval_l                   static access$100(info.staticfree.SuperGenPass.Super_Gen_Pass)
+  eval_q                   private initMasterPasswordHide()
+  eval_r                   getMasterPassword()
+  h                        private clearEditTexts()
+  h                        private postGenerate(boolean)
+  m                        private generateAndDisplay()
+  m                        static access$000(info.staticfree.SuperGenPass.Super_Gen_Pass)
+  n                        private clearGenPassword()
+  r                        static access$200(info.staticfree.SuperGenPass.Super_Gen_Pass)
+  s                        private initGenPassword()
+  v                        go()
+  w                        static access$400()
+  w                        static access$500(info.staticfree.SuperGenPass.Super_Gen_Pass)
+  x                        extractDomain(java.lang.String)
+  y                        protected loadFromPreferences()
+  onActivityResult         protected onActivityResult(int,int,android.content.Intent)
+  onCheckedChanged         public onCheckedChanged(android.widget.CompoundButton,boolean)
+  onClick                  public onClick(android.view.View)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onEditorAction           public onEditorAction(android.widget.TextView,int,android.view.KeyEvent)
+  onLongClick              public onLongClick(android.view.View)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPause                  protected onPause()
+  onPrepareOptionsMenu     public onPrepareOptionsMenu(android.view.Menu)
+  onResume                 protected onResume()
+  onSaveInstanceState      protected onSaveInstanceState(android.os.Bundle)
+  runQuery                 public runQuery(java.lang.CharSequence)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$1
+===============================================================================
+  handleMessage    public handleMessage(android.os.Message)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$2
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$3
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$4
+===============================================================================
+  onItemSelected       public onItemSelected(android.widget.AdapterView,android.view.View,int,long)
+  onNothingSelected    public onNothingSelected(android.widget.AdapterView)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$5
+===============================================================================
+  onCheckedChanged public onCheckedChanged(android.widget.CompoundButton,boolean)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$6
+===============================================================================
+  afterTextChanged     public afterTextChanged(android.text.Editable)
+  beforeTextChanged    public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  onTextChanged        public onTextChanged(java.lang.CharSequence,int,int,int)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$7
+===============================================================================
+  afterTextChanged     public afterTextChanged(android.text.Editable)
+  beforeTextChanged    public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  onTextChanged        public onTextChanged(java.lang.CharSequence,int,int,int)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$AboutFragment        (info.staticfree.SuperGenPass.Super_Gen_Pass$q)
+===============================================================================
+  onCreateDialog   public onCreateDialog(android.os.Bundle)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$AboutFragment$1      (info.staticfree.SuperGenPass.Super_Gen_Pass$q$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$AboutFragment$ParseException (info.staticfree.SuperGenPass.eval_s)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$IOException  (info.staticfree.SuperGenPass.eval_lt)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$VerifyFragment       (info.staticfree.SuperGenPass.Super_Gen_Pass$j)
+===============================================================================
+  a                static access$600(info.staticfree.SuperGenPass.Super_Gen_Pass$VerifyFragment)
+  d                public static showVerifyFragment(android.app.FragmentManager,java.lang.String)
+  onCreate         public onCreate(android.os.Bundle)
+  onCreateDialog   public onCreateDialog(android.os.Bundle)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$VerifyFragment$1     (info.staticfree.SuperGenPass.Super_Gen_Pass$j$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$VerifyFragment$2     (info.staticfree.SuperGenPass.Super_Gen_Pass$j$2)
+===============================================================================
+  afterTextChanged     public afterTextChanged(android.text.Editable)
+  beforeTextChanged    public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  onTextChanged        public onTextChanged(java.lang.CharSequence,int,int,int)
+
+info.staticfree.SuperGenPass.Super_Gen_Pass$VerifyFragment$IOException   (info.staticfree.SuperGenPass.eval_jr)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.VisualHash  (info.staticfree.SuperGenPass.eval_lv)
+===============================================================================
+  i                    public setData(byte[])
+  l                    private static scaleInt(int,int,int)
+  p                    private init()
+  r                    private static scale(int,int,int)
+  draw                 public draw(android.graphics.Canvas)
+  getIntrinsicHeight   public getIntrinsicHeight()
+  getIntrinsicWidth    public getIntrinsicWidth()
+  getOpacity           public getOpacity()
+  onBoundsChange       protected onBoundsChange(android.graphics.Rect)
+  setAlpha             public setAlpha(int)
+  setColorFilter       public setColorFilter(android.graphics.ColorFilter)
+
+info.staticfree.SuperGenPass.VisualHash$Exception        (info.staticfree.SuperGenPass.eval_ay)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.VisualHashEditText
+===============================================================================
+  eval_o           private init(android.content.Context,android.util.AttributeSet)
+  n                private refreshVisualHash()
+  q                public setShowVisualHash(boolean)
+  onTextChanged    protected onTextChanged(java.lang.CharSequence,int,int,int)
+  setError         public setError(java.lang.CharSequence,android.graphics.drawable.Drawable)
+
+info.staticfree.SuperGenPass.VisualHashEditText$ParseException   (info.staticfree.SuperGenPass.eval_d8)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.hashes.DomainBasedHash      (info.staticfree.SuperGenPass.eval_gg)
+===============================================================================
+  d    public getDomain(java.lang.String)
+  g    public setCheckDomain(boolean)
+  j    public generate(java.lang.String,java.lang.String,int)
+  t    public loadDomains()
+  y    protected abstract generateWithFilteredDomain(java.lang.String,java.lang.String,int)
+
+info.staticfree.SuperGenPass.hashes.DomainBasedHash$ArrayOutOfBoundsException    (info.staticfree.SuperGenPass.eval_z8)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.hashes.HmacPin      (info.staticfree.SuperGenPass.eval_t9)
+===============================================================================
+  y    public generateWithFilteredDomain(java.lang.String,java.lang.String,int)
+
+info.staticfree.SuperGenPass.hashes.HmacPin$IOException  (info.staticfree.SuperGenPass.eval_et)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.hashes.HotpPin      (info.staticfree.SuperGenPass.eval_wp)
+===============================================================================
+  eval_w   public isBadPin(java.lang.String)
+  h        public isNumericalRun(java.lang.String)
+  l        public isIncompleteNumericalRun(java.lang.String)
+  y        protected generateWithFilteredDomain(java.lang.String,java.lang.String,int)
+
+info.staticfree.SuperGenPass.hashes.HotpPin$IOException  (info.staticfree.SuperGenPass.eval_mv)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.hashes.PasswordComposer     (info.staticfree.SuperGenPass.eval_h5)
+===============================================================================
+  t    private md5hex(byte[])
+  y    public generateWithFilteredDomain(java.lang.String,java.lang.String,int)
+
+info.staticfree.SuperGenPass.hashes.PasswordComposer$ParseException      (info.staticfree.SuperGenPass.eval_z5)
+===============================================================================
+  No methods
+
+info.staticfree.SuperGenPass.hashes.SuperGenPass (info.staticfree.SuperGenPass.eval_qo)
+===============================================================================
+  r    private hashBase64(byte[])
+  y    public generateWithFilteredDomain(java.lang.String,java.lang.String,int)
+
+info.staticfree.SuperGenPass.hashes.SuperGenPass$IOException     (info.staticfree.SuperGenPass.eval_cc)
+===============================================================================
+  No methods
+
+org.openauthentication.otp.OneTimePasswordAlgorithm      (info.staticfree.SuperGenPass.eval_b4)
+===============================================================================
+  eval_l   public static generateOTPFromText(byte[],byte[],int,boolean,int)
+  l        public static hmac_sha1(byte[],byte[])
+  l        public static generateOTP(byte[],long,int,boolean,int)
+  p        public static calcChecksum(long,int)
+
+org.openauthentication.otp.OneTimePasswordAlgorithm$ArrayOutOfBoundsException    (info.staticfree.SuperGenPass.eval_ee)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 289
+  Renamed to eval_q :  10 (3.5%)
+  Renamed to eval_n :   9 (3.1%)
+  Renamed to eval_v :   9 (3.1%)
+  Renamed to eval_z :   9 (3.1%)
+  Renamed to eval_b :   8 (2.8%)
+  Renamed to eval_e :   8 (2.8%)
+  Renamed to eval_f :   8 (2.8%)
+  Renamed to eval_x :   8 (2.8%)
+  Renamed to eval__ :   7 (2.4%)
+  Renamed to eval_a :   7 (2.4%)
+
+Number of Methods : 142
+  Renamed to y :   6 (4.2%)
+  Renamed to l :   4 (2.8%)
+  Renamed to m :   4 (2.8%)
+  Renamed to q :   4 (2.8%)
+  Renamed to w :   4 (2.8%)
+  Renamed to h :   3 (2.1%)
+  Renamed to p :   3 (2.1%)
+  Renamed to r :   3 (2.1%)
+  Renamed to t :   3 (2.1%)
+  Renamed to a :   2 (1.4%)
+

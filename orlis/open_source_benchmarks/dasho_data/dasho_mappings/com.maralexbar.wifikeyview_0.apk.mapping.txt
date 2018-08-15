@@ -1,0 +1,95 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.maralexbar.wifikeyview.e     public final com.maralexbar.wifikeyview.BuildConfig
+com.maralexbar.wifikeyview.eval_b        public final com.maralexbar.wifikeyview.R
+com.maralexbar.wifikeyview.eval_d        public com.maralexbar.wifikeyview.MainActivity$1
+com.maralexbar.wifikeyview.eval_t        public com.maralexbar.wifikeyview.BuildConfig$IOException
+com.maralexbar.wifikeyview.eval_v        public com.maralexbar.wifikeyview.MainActivity$Exception
+com.maralexbar.wifikeyview.eval_w        public com.maralexbar.wifikeyview.R$IOException
+com.maralexbar.wifikeyview.eval_x        public com.maralexbar.wifikeyview.BuildConfig$1
+com.maralexbar.wifikeyview.eval_b$a      public final com.maralexbar.wifikeyview.R$id
+com.maralexbar.wifikeyview.eval_b$l      public final com.maralexbar.wifikeyview.R$attr
+com.maralexbar.wifikeyview.eval_b$n      public final com.maralexbar.wifikeyview.R$drawable
+com.maralexbar.wifikeyview.eval_b$o      public final com.maralexbar.wifikeyview.R$layout
+com.maralexbar.wifikeyview.eval_b$q      public final com.maralexbar.wifikeyview.R$string
+com.maralexbar.wifikeyview.eval_b$s      public final com.maralexbar.wifikeyview.R$dimen
+com.maralexbar.wifikeyview.eval_b$v      public final com.maralexbar.wifikeyview.R$style
+-------------------------------------------------------------------------------
+
+com.maralexbar.wifikeyview.BuildConfig   (com.maralexbar.wifikeyview.e)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.BuildConfig$1 (com.maralexbar.wifikeyview.eval_x)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.BuildConfig$IOException       (com.maralexbar.wifikeyview.eval_t)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.MainActivity
+===============================================================================
+  e        private RunAsRoot(java.lang.String)
+  onCreate protected onCreate(android.os.Bundle)
+
+com.maralexbar.wifikeyview.MainActivity$1        (com.maralexbar.wifikeyview.eval_d)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.MainActivity$Exception        (com.maralexbar.wifikeyview.eval_v)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.R     (com.maralexbar.wifikeyview.eval_b)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.R$IOException (com.maralexbar.wifikeyview.eval_w)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.R$attr        (com.maralexbar.wifikeyview.eval_b$l)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.R$dimen       (com.maralexbar.wifikeyview.eval_b$s)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.R$drawable    (com.maralexbar.wifikeyview.eval_b$n)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.R$id  (com.maralexbar.wifikeyview.eval_b$a)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.R$layout      (com.maralexbar.wifikeyview.eval_b$o)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.R$string      (com.maralexbar.wifikeyview.eval_b$q)
+===============================================================================
+  No methods
+
+com.maralexbar.wifikeyview.R$style       (com.maralexbar.wifikeyview.eval_b$v)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 24
+  Renamed to eval_c :   2 (8.3%)
+  Renamed to eval_g :   2 (8.3%)
+  Renamed to eval_i :   2 (8.3%)
+  Renamed to eval_j :   2 (8.3%)
+  Renamed to eval_k :   2 (8.3%)
+  Renamed to i      :   2 (8.3%)
+  Renamed to e      :   1 (4.2%)
+  Renamed to eval_b :   1 (4.2%)
+  Renamed to eval_e :   1 (4.2%)
+  Renamed to eval_f :   1 (4.2%)
+
+Number of Methods : 2
+  Renamed to e :   1 (50.0%)
+

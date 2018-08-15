@@ -1,0 +1,53 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+it.lucci.cm.greyscaletheme.r     public final it.lucci.cm.greyscaletheme.BuildConfig
+it.lucci.cm.greyscaletheme.eval_e        public final it.lucci.cm.greyscaletheme.R
+it.lucci.cm.greyscaletheme.eval_t        public it.lucci.cm.greyscaletheme.BuildConfig$1
+it.lucci.cm.greyscaletheme.eval_u        public it.lucci.cm.greyscaletheme.R$IOException
+it.lucci.cm.greyscaletheme.eval_w        public it.lucci.cm.greyscaletheme.BuildConfig$IOException
+it.lucci.cm.greyscaletheme.eval_y        public it.lucci.cm.greyscaletheme.R$1
+it.lucci.cm.greyscaletheme.eval_e$n      public final it.lucci.cm.greyscaletheme.R$string
+it.lucci.cm.greyscaletheme.eval_e$w      public final it.lucci.cm.greyscaletheme.R$attr
+it.lucci.cm.greyscaletheme.eval_e$z      public final it.lucci.cm.greyscaletheme.R$mipmap
+-------------------------------------------------------------------------------
+
+it.lucci.cm.greyscaletheme.BuildConfig   (it.lucci.cm.greyscaletheme.r)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscaletheme.BuildConfig$1 (it.lucci.cm.greyscaletheme.eval_t)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscaletheme.BuildConfig$IOException       (it.lucci.cm.greyscaletheme.eval_w)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscaletheme.R     (it.lucci.cm.greyscaletheme.eval_e)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscaletheme.R$1   (it.lucci.cm.greyscaletheme.eval_y)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscaletheme.R$IOException (it.lucci.cm.greyscaletheme.eval_u)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscaletheme.R$attr        (it.lucci.cm.greyscaletheme.eval_e$w)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscaletheme.R$mipmap      (it.lucci.cm.greyscaletheme.eval_e$z)
+===============================================================================
+  No methods
+
+it.lucci.cm.greyscaletheme.R$string      (it.lucci.cm.greyscaletheme.eval_e$n)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 10
+
+Number of Methods : 0

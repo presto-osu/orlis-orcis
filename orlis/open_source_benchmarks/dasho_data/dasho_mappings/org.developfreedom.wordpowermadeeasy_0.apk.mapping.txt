@@ -1,0 +1,186 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+org.developfreedom.wordpowermadeeasy.a   public final org.developfreedom.wordpowermadeeasy.BuildConfig
+org.developfreedom.wordpowermadeeasy.eval__      public org.developfreedom.wordpowermadeeasy.WordPair
+org.developfreedom.wordpowermadeeasy.eval_c      public org.developfreedom.wordpowermadeeasy.WordEngine$ParseException
+org.developfreedom.wordpowermadeeasy.eval_d      public org.developfreedom.wordpowermadeeasy.DatabaseOpenHelper
+org.developfreedom.wordpowermadeeasy.eval_i      public org.developfreedom.wordpowermadeeasy.DatabaseOpenHelper$1
+org.developfreedom.wordpowermadeeasy.eval_j      public final org.developfreedom.wordpowermadeeasy.R
+org.developfreedom.wordpowermadeeasy.eval_k      public org.developfreedom.wordpowermadeeasy.BuildConfig$1
+org.developfreedom.wordpowermadeeasy.eval_p      public org.developfreedom.wordpowermadeeasy.DatabaseOpenHelper$NullPointerException
+org.developfreedom.wordpowermadeeasy.eval_r      public org.developfreedom.wordpowermadeeasy.WordEngine
+org.developfreedom.wordpowermadeeasy.eval_u      public org.developfreedom.wordpowermadeeasy.R$IOException
+org.developfreedom.wordpowermadeeasy.eval_w      public org.developfreedom.wordpowermadeeasy.BuildConfig$IOException
+org.developfreedom.wordpowermadeeasy.eval_y      public org.developfreedom.wordpowermadeeasy.WordPair$NullPointerException
+org.developfreedom.wordpowermadeeasy.eval_z      public org.developfreedom.wordpowermadeeasy.MainActivity$Exception
+org.developfreedom.wordpowermadeeasy.eval_j$_    public final org.developfreedom.wordpowermadeeasy.R$xml
+org.developfreedom.wordpowermadeeasy.eval_j$b    public final org.developfreedom.wordpowermadeeasy.R$id
+org.developfreedom.wordpowermadeeasy.eval_j$d    public final org.developfreedom.wordpowermadeeasy.R$dimen
+org.developfreedom.wordpowermadeeasy.eval_j$k    public final org.developfreedom.wordpowermadeeasy.R$layout
+org.developfreedom.wordpowermadeeasy.eval_j$q    public final org.developfreedom.wordpowermadeeasy.R$drawable
+org.developfreedom.wordpowermadeeasy.eval_j$r    public final org.developfreedom.wordpowermadeeasy.R$menu
+org.developfreedom.wordpowermadeeasy.eval_j$x    public final org.developfreedom.wordpowermadeeasy.R$color
+org.developfreedom.wordpowermadeeasy.eval_j$y    public final org.developfreedom.wordpowermadeeasy.R$attr
+org.developfreedom.wordpowermadeeasy.eval_j$eval_q       public final org.developfreedom.wordpowermadeeasy.R$style
+org.developfreedom.wordpowermadeeasy.eval_j$eval_z       public final org.developfreedom.wordpowermadeeasy.R$string
+org.developfreedom.wordpowermadeeasy.MainActivity$p      org.developfreedom.wordpowermadeeasy.MainActivity$LongRunningTask
+-------------------------------------------------------------------------------
+
+org.developfreedom.wordpowermadeeasy.BuildConfig (org.developfreedom.wordpowermadeeasy.a)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.BuildConfig$1       (org.developfreedom.wordpowermadeeasy.eval_k)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.BuildConfig$IOException     (org.developfreedom.wordpowermadeeasy.eval_w)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.DatabaseOpenHelper  (org.developfreedom.wordpowermadeeasy.eval_d)
+===============================================================================
+  onCreate     public onCreate(android.database.sqlite.SQLiteDatabase)
+  onUpgrade    public onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+
+org.developfreedom.wordpowermadeeasy.DatabaseOpenHelper$1        (org.developfreedom.wordpowermadeeasy.eval_i)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.DatabaseOpenHelper$NullPointerException     (org.developfreedom.wordpowermadeeasy.eval_p)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.MainActivity
+===============================================================================
+  l                        private showWelcomeScreen()
+  l                        public color_change(java.lang.String)
+  r                        static access$100(org.developfreedom.wordpowermadeeasy.MainActivity)
+  t                        public nextRandom()
+  color_blue               public color_blue(android.view.View)
+  color_green              public color_green(android.view.View)
+  color_orange             public color_orange(android.view.View)
+  color_purple             public color_purple(android.view.View)
+  color_red                public color_red(android.view.View)
+  nextRandom               public nextRandom(android.view.View)
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  search_word              public search_word(android.view.View)
+
+org.developfreedom.wordpowermadeeasy.MainActivity$1
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.developfreedom.wordpowermadeeasy.MainActivity$Exception      (org.developfreedom.wordpowermadeeasy.eval_z)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.MainActivity$LongRunningTask        (org.developfreedom.wordpowermadeeasy.MainActivity$p)
+===============================================================================
+  eval_v           protected transient doInBackground(java.lang.String[])
+  k                protected onPostExecute(java.lang.Boolean)
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+
+org.developfreedom.wordpowermadeeasy.R   (org.developfreedom.wordpowermadeeasy.eval_j)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.R$IOException       (org.developfreedom.wordpowermadeeasy.eval_u)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.R$attr      (org.developfreedom.wordpowermadeeasy.eval_j$y)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.R$color     (org.developfreedom.wordpowermadeeasy.eval_j$x)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.R$dimen     (org.developfreedom.wordpowermadeeasy.eval_j$d)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.R$drawable  (org.developfreedom.wordpowermadeeasy.eval_j$q)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.R$id        (org.developfreedom.wordpowermadeeasy.eval_j$b)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.R$layout    (org.developfreedom.wordpowermadeeasy.eval_j$k)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.R$menu      (org.developfreedom.wordpowermadeeasy.eval_j$r)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.R$string    (org.developfreedom.wordpowermadeeasy.eval_j$eval_z)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.R$style     (org.developfreedom.wordpowermadeeasy.eval_j$eval_q)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.R$xml       (org.developfreedom.wordpowermadeeasy.eval_j$_)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.WordEngine  (org.developfreedom.wordpowermadeeasy.eval_r)
+===============================================================================
+  c    populateDatabase(java.util.Map)
+  e    getMapFromXml()
+  h    public readXml()
+  u    getWeekPairs(int)
+  w    public getRandomWord()
+  z    check_database()
+
+org.developfreedom.wordpowermadeeasy.WordEngine$ParseException   (org.developfreedom.wordpowermadeeasy.eval_c)
+===============================================================================
+  No methods
+
+org.developfreedom.wordpowermadeeasy.WordPair    (org.developfreedom.wordpowermadeeasy.eval__)
+===============================================================================
+  eval_e   public getScore()
+  eval_g   public getIndex()
+  h        public getWord()
+  k        public setWord(java.lang.String)
+  p        public getMeaning()
+  q        public setMeaning(java.lang.String)
+  x        public setScore(int)
+  y        public setIndex(int)
+
+org.developfreedom.wordpowermadeeasy.WordPair$NullPointerException       (org.developfreedom.wordpowermadeeasy.eval_y)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 81
+  Renamed to eval_o :   5 (6.2%)
+  Renamed to eval_g :   4 (4.9%)
+  Renamed to eval_h :   4 (4.9%)
+  Renamed to eval_w :   4 (4.9%)
+  Renamed to eval_x :   4 (4.9%)
+  Renamed to a      :   3 (3.7%)
+  Renamed to eval_a :   3 (3.7%)
+  Renamed to eval_i :   3 (3.7%)
+  Renamed to eval_j :   3 (3.7%)
+  Renamed to eval_k :   3 (3.7%)
+
+Number of Methods : 35
+  Renamed to h      :   2 (5.7%)
+  Renamed to k      :   2 (5.7%)
+  Renamed to l      :   2 (5.7%)
+  Renamed to c      :   1 (2.9%)
+  Renamed to e      :   1 (2.9%)
+  Renamed to eval_e :   1 (2.9%)
+  Renamed to eval_g :   1 (2.9%)
+  Renamed to eval_v :   1 (2.9%)
+  Renamed to p      :   1 (2.9%)
+  Renamed to q      :   1 (2.9%)
+

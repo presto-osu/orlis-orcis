@@ -1,0 +1,100 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+net.loeuillet.wifi_eap_sim_conf.u        public final net.loeuillet.wifi_eap_sim_conf.BuildConfig
+net.loeuillet.wifi_eap_sim_conf.eval_d   public net.loeuillet.wifi_eap_sim_conf.MyActivity$1
+net.loeuillet.wifi_eap_sim_conf.eval_f   public net.loeuillet.wifi_eap_sim_conf.R$IOException
+net.loeuillet.wifi_eap_sim_conf.eval_p   public net.loeuillet.wifi_eap_sim_conf.MyActivity$ParseException
+net.loeuillet.wifi_eap_sim_conf.eval_r   public final net.loeuillet.wifi_eap_sim_conf.R
+net.loeuillet.wifi_eap_sim_conf.eval_s   public net.loeuillet.wifi_eap_sim_conf.BuildConfig$IOException
+net.loeuillet.wifi_eap_sim_conf.eval_t   public net.loeuillet.wifi_eap_sim_conf.BuildConfig$1
+net.loeuillet.wifi_eap_sim_conf.eval_r$b public final net.loeuillet.wifi_eap_sim_conf.R$style
+net.loeuillet.wifi_eap_sim_conf.eval_r$l public final net.loeuillet.wifi_eap_sim_conf.R$dimen
+net.loeuillet.wifi_eap_sim_conf.eval_r$s public final net.loeuillet.wifi_eap_sim_conf.R$layout
+net.loeuillet.wifi_eap_sim_conf.eval_r$t public final net.loeuillet.wifi_eap_sim_conf.R$id
+net.loeuillet.wifi_eap_sim_conf.eval_r$u public final net.loeuillet.wifi_eap_sim_conf.R$string
+net.loeuillet.wifi_eap_sim_conf.eval_r$x public final net.loeuillet.wifi_eap_sim_conf.R$attr
+net.loeuillet.wifi_eap_sim_conf.eval_r$z public final net.loeuillet.wifi_eap_sim_conf.R$menu
+net.loeuillet.wifi_eap_sim_conf.eval_r$eval_i    public final net.loeuillet.wifi_eap_sim_conf.R$drawable
+-------------------------------------------------------------------------------
+
+net.loeuillet.wifi_eap_sim_conf.BuildConfig      (net.loeuillet.wifi_eap_sim_conf.u)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.BuildConfig$1    (net.loeuillet.wifi_eap_sim_conf.eval_t)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.BuildConfig$IOException  (net.loeuillet.wifi_eap_sim_conf.eval_s)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.MyActivity
+===============================================================================
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+
+net.loeuillet.wifi_eap_sim_conf.MyActivity$1     (net.loeuillet.wifi_eap_sim_conf.eval_d)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.MyActivity$ParseException        (net.loeuillet.wifi_eap_sim_conf.eval_p)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.R        (net.loeuillet.wifi_eap_sim_conf.eval_r)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.R$IOException    (net.loeuillet.wifi_eap_sim_conf.eval_f)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.R$attr   (net.loeuillet.wifi_eap_sim_conf.eval_r$x)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.R$dimen  (net.loeuillet.wifi_eap_sim_conf.eval_r$l)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.R$drawable       (net.loeuillet.wifi_eap_sim_conf.eval_r$eval_i)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.R$id     (net.loeuillet.wifi_eap_sim_conf.eval_r$t)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.R$layout (net.loeuillet.wifi_eap_sim_conf.eval_r$s)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.R$menu   (net.loeuillet.wifi_eap_sim_conf.eval_r$z)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.R$string (net.loeuillet.wifi_eap_sim_conf.eval_r$u)
+===============================================================================
+  No methods
+
+net.loeuillet.wifi_eap_sim_conf.R$style  (net.loeuillet.wifi_eap_sim_conf.eval_r$b)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 16
+  Renamed to eval_j :   2 (12.5%)
+  Renamed to e      :   1 (6.2%)
+  Renamed to eval_b :   1 (6.2%)
+  Renamed to eval_e :   1 (6.2%)
+  Renamed to eval_g :   1 (6.2%)
+  Renamed to eval_r :   1 (6.2%)
+  Renamed to eval_t :   1 (6.2%)
+  Renamed to eval_w :   1 (6.2%)
+  Renamed to eval_y :   1 (6.2%)
+  Renamed to f      :   1 (6.2%)
+
+Number of Methods : 3
+

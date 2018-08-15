@@ -1,0 +1,110 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+io.github.sanbeg.flashlight.j    public final io.github.sanbeg.flashlight.BuildConfig
+io.github.sanbeg.flashlight.eval_b       public io.github.sanbeg.flashlight.BuildConfig$1
+io.github.sanbeg.flashlight.eval_c       public io.github.sanbeg.flashlight.R$Exception
+io.github.sanbeg.flashlight.eval_e       public io.github.sanbeg.flashlight.Flash$1
+io.github.sanbeg.flashlight.eval_f       public io.github.sanbeg.flashlight.BuildConfig$Exception
+io.github.sanbeg.flashlight.eval_i       public final io.github.sanbeg.flashlight.R
+io.github.sanbeg.flashlight.eval_r       public io.github.sanbeg.flashlight.Flash$IOException
+io.github.sanbeg.flashlight.eval_t       public io.github.sanbeg.flashlight.Flash
+io.github.sanbeg.flashlight.eval_y       public io.github.sanbeg.flashlight.FlashLightActivity$ArrayOutOfBoundsException
+io.github.sanbeg.flashlight.eval_i$c     public final io.github.sanbeg.flashlight.R$id
+io.github.sanbeg.flashlight.eval_i$d     public final io.github.sanbeg.flashlight.R$drawable
+io.github.sanbeg.flashlight.eval_i$i     public final io.github.sanbeg.flashlight.R$attr
+io.github.sanbeg.flashlight.eval_i$n     public final io.github.sanbeg.flashlight.R$string
+io.github.sanbeg.flashlight.eval_i$w     public final io.github.sanbeg.flashlight.R$layout
+io.github.sanbeg.flashlight.FlashLightActivity$c public io.github.sanbeg.flashlight.FlashLightActivity$LongClickListener
+-------------------------------------------------------------------------------
+
+io.github.sanbeg.flashlight.BuildConfig  (io.github.sanbeg.flashlight.j)
+===============================================================================
+  No methods
+
+io.github.sanbeg.flashlight.BuildConfig$1        (io.github.sanbeg.flashlight.eval_b)
+===============================================================================
+  No methods
+
+io.github.sanbeg.flashlight.BuildConfig$Exception        (io.github.sanbeg.flashlight.eval_f)
+===============================================================================
+  No methods
+
+io.github.sanbeg.flashlight.Flash        (io.github.sanbeg.flashlight.eval_t)
+===============================================================================
+  eval_o   public synchronized on()
+  m        public synchronized off()
+  s        public synchronized close()
+  v        public synchronized open()
+
+io.github.sanbeg.flashlight.Flash$1      (io.github.sanbeg.flashlight.eval_e)
+===============================================================================
+  No methods
+
+io.github.sanbeg.flashlight.Flash$IOException    (io.github.sanbeg.flashlight.eval_r)
+===============================================================================
+  No methods
+
+io.github.sanbeg.flashlight.FlashLightActivity
+===============================================================================
+  c                static access$000(io.github.sanbeg.flashlight.FlashLightActivity)
+  onCreate         public onCreate(android.os.Bundle)
+  onPause          public onPause()
+  onResume         public onResume()
+  onToggleClicked  public onToggleClicked(android.view.View)
+
+io.github.sanbeg.flashlight.FlashLightActivity$ArrayOutOfBoundsException (io.github.sanbeg.flashlight.eval_y)
+===============================================================================
+  No methods
+
+io.github.sanbeg.flashlight.FlashLightActivity$LongClickListener (io.github.sanbeg.flashlight.FlashLightActivity$c)
+===============================================================================
+  onLongClick  public onLongClick(android.view.View)
+
+io.github.sanbeg.flashlight.R    (io.github.sanbeg.flashlight.eval_i)
+===============================================================================
+  No methods
+
+io.github.sanbeg.flashlight.R$Exception  (io.github.sanbeg.flashlight.eval_c)
+===============================================================================
+  No methods
+
+io.github.sanbeg.flashlight.R$attr       (io.github.sanbeg.flashlight.eval_i$i)
+===============================================================================
+  No methods
+
+io.github.sanbeg.flashlight.R$drawable   (io.github.sanbeg.flashlight.eval_i$d)
+===============================================================================
+  No methods
+
+io.github.sanbeg.flashlight.R$id (io.github.sanbeg.flashlight.eval_i$c)
+===============================================================================
+  No methods
+
+io.github.sanbeg.flashlight.R$layout     (io.github.sanbeg.flashlight.eval_i$w)
+===============================================================================
+  No methods
+
+io.github.sanbeg.flashlight.R$string     (io.github.sanbeg.flashlight.eval_i$n)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 19
+  Renamed to eval_k :   2 (10.5%)
+  Renamed to y      :   2 (10.5%)
+  Renamed to a      :   1 (5.3%)
+  Renamed to c      :   1 (5.3%)
+  Renamed to eval_f :   1 (5.3%)
+  Renamed to eval_g :   1 (5.3%)
+  Renamed to eval_i :   1 (5.3%)
+  Renamed to eval_j :   1 (5.3%)
+  Renamed to eval_n :   1 (5.3%)
+  Renamed to eval_r :   1 (5.3%)
+
+Number of Methods : 10
+  Renamed to c      :   1 (10.0%)
+  Renamed to eval_o :   1 (10.0%)
+  Renamed to m      :   1 (10.0%)
+  Renamed to s      :   1 (10.0%)
+  Renamed to v      :   1 (10.0%)
+

@@ -1,0 +1,1271 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.llamacorp.equate.u           public final com.llamacorp.equate.BuildConfig
+com.llamacorp.equate.eval__      public com.llamacorp.equate.unit.Unit$NullPointerException
+com.llamacorp.equate.eval_a      public com.llamacorp.equate.Expression$ArrayOutOfBoundsException
+com.llamacorp.equate.eval_b      public com.llamacorp.equate.Calculator$1
+com.llamacorp.equate.eval_c      public com.llamacorp.equate.Calculator
+com.llamacorp.equate.eval_d      public com.llamacorp.equate.Solver$ParseException
+com.llamacorp.equate.eval_e      public com.llamacorp.equate.Preferences
+com.llamacorp.equate.eval_f      public com.llamacorp.equate.Expression
+com.llamacorp.equate.eval_g      public com.llamacorp.equate.unit.UnitInitializer
+com.llamacorp.equate.eval_h      public com.llamacorp.equate.unit.UnitCurrency
+com.llamacorp.equate.eval_i      public final com.llamacorp.equate.R
+com.llamacorp.equate.eval_j      public com.llamacorp.equate.unit.UnitHistCurrency$ParseException
+com.llamacorp.equate.eval_k      public com.llamacorp.equate.ExpSeparatorHandler$NullPointerException
+com.llamacorp.equate.eval_l      public com.llamacorp.equate.unit.UnitCurrency$IOException
+com.llamacorp.equate.eval_m      public abstract com.llamacorp.equate.unit.Unit
+com.llamacorp.equate.eval_n      public com.llamacorp.equate.BuildConfig$1
+com.llamacorp.equate.eval_o      public com.llamacorp.equate.R$ParseException
+com.llamacorp.equate.eval_p      public com.llamacorp.equate.BuildConfig$ParseException
+com.llamacorp.equate.eval_q      public com.llamacorp.equate.Result
+com.llamacorp.equate.eval_r      public com.llamacorp.equate.Solver
+com.llamacorp.equate.eval_s      public com.llamacorp.equate.SISuffixHelper$NullPointerException
+com.llamacorp.equate.eval_t      public com.llamacorp.equate.Preferences$ParseException
+com.llamacorp.equate.eval_v      public com.llamacorp.equate.Result$ParseException
+com.llamacorp.equate.eval_w      public com.llamacorp.equate.ExpSeparatorHandler
+com.llamacorp.equate.eval_x      public com.llamacorp.equate.SISuffixHelper
+com.llamacorp.equate.eval_y      public com.llamacorp.equate.unit.UnitHistCurrency
+com.llamacorp.equate.eval_z      public com.llamacorp.equate.Calculator$ArrayOutOfBoundsException
+com.llamacorp.equate.eval__1     public com.llamacorp.equate.view.ConvKeysFragment$3$Exception
+com.llamacorp.equate.eval_a0     public com.llamacorp.equate.unit.UnitTypeUpdater$ArrayOutOfBoundsException
+com.llamacorp.equate.eval_ak     public com.llamacorp.equate.view.ConvKeysFragment
+com.llamacorp.equate.eval_b_     public com.viewpagerindicator.TitlePageIndicator$ArrayOutOfBoundsException
+com.llamacorp.equate.eval_by     public com.llamacorp.equate.unit.UnitType$Exception
+com.llamacorp.equate.eval_ck     public com.viewpagerindicator.IconPageIndicator$NullPointerException
+com.llamacorp.equate.eval_cq     com.viewpagerindicator.IcsLinearLayout
+com.llamacorp.equate.eval_cw     public com.llamacorp.equate.view.CalcActivity$6$NullPointerException
+com.llamacorp.equate.eval_fh     public com.viewpagerindicator.UnderlinePageIndicator
+com.llamacorp.equate.eval_fo     public com.llamacorp.equate.view.ConvKeysFragment$1$Exception
+com.llamacorp.equate.eval_gl     public com.llamacorp.equate.view.ResultListFragment
+com.llamacorp.equate.eval_gm     public com.viewpagerindicator.LinePageIndicator$SavedState$ArrayOutOfBoundsException
+com.llamacorp.equate.eval_gw     public com.llamacorp.equate.unit.YahooXmlParser
+com.llamacorp.equate.eval_ic     public com.viewpagerindicator.TitlePageIndicator$SavedState$ParseException
+com.llamacorp.equate.eval_js     public com.llamacorp.equate.unit.UnitScalar$ArrayOutOfBoundsException
+com.llamacorp.equate.eval_ko     public com.viewpagerindicator.CirclePageIndicator$SavedState$IOException
+com.llamacorp.equate.eval_kp     public com.viewpagerindicator.PageIndicator$ArrayOutOfBoundsException
+com.llamacorp.equate.eval_l9     public com.llamacorp.equate.view.ViewUtils
+com.llamacorp.equate.eval_ly     public com.llamacorp.equate.unit.UnitInitializer$ArrayOutOfBoundsException
+com.llamacorp.equate.eval_mu     public com.viewpagerindicator.LinePageIndicator$NullPointerException
+com.llamacorp.equate.eval_n0     public com.llamacorp.equate.view.AnimatedHoldButton$Exception
+com.llamacorp.equate.eval_nz     public com.viewpagerindicator.LinePageIndicator
+com.llamacorp.equate.eval_o0     public com.viewpagerindicator.IconPagerAdapter$Exception
+com.llamacorp.equate.eval_o6     public com.llamacorp.equate.view.ConvKeysFragment$ParseException
+com.llamacorp.equate.eval_ob     public com.llamacorp.equate.view.ConvertButton$Exception
+com.llamacorp.equate.eval_of     public com.llamacorp.equate.view.SecondaryTextButton$NullPointerException
+com.llamacorp.equate.eval_oq     public com.viewpagerindicator.CirclePageIndicator
+com.llamacorp.equate.eval_ou     public com.llamacorp.equate.unit.YahooXmlParser$NullPointerException
+com.llamacorp.equate.eval_p4     public com.llamacorp.equate.unit.UnitScalar
+com.llamacorp.equate.eval_q0     public com.viewpagerindicator.UnderlinePageIndicator$NullPointerException
+com.llamacorp.equate.eval_q6     public abstract interface com.viewpagerindicator.IconPagerAdapter
+com.llamacorp.equate.eval_qg     public com.viewpagerindicator.TabPageIndicator$Exception
+com.llamacorp.equate.eval_qs     public com.llamacorp.equate.view.ResultListFragment$ResultAdapter$IOException
+com.llamacorp.equate.eval_qw     public com.viewpagerindicator.IconPageIndicator
+com.llamacorp.equate.eval_rb     public com.llamacorp.equate.unit.UnitType
+com.llamacorp.equate.eval_rn     public abstract interface com.viewpagerindicator.PageIndicator
+com.llamacorp.equate.eval_rp     public com.llamacorp.equate.unit.UnitTypeUpdater
+com.llamacorp.equate.eval_sf     public com.llamacorp.equate.view.ViewUtils$NullPointerException
+com.llamacorp.equate.eval_tg     public com.llamacorp.equate.view.ResultListFragment$Exception
+com.llamacorp.equate.eval_tk     public com.viewpagerindicator.CirclePageIndicator$ParseException
+com.llamacorp.equate.eval_u5     public com.llamacorp.equate.unit.UnitTemperature$ArrayOutOfBoundsException
+com.llamacorp.equate.eval_v0     public com.viewpagerindicator.UnderlinePageIndicator$SavedState$ArrayOutOfBoundsException
+com.llamacorp.equate.eval_v7     public com.llamacorp.equate.view.EditTextDisplay$ArrayOutOfBoundsException
+com.llamacorp.equate.eval_vw     com.llamacorp.equate.view.SecondaryTextButton
+com.llamacorp.equate.eval_xa     public com.viewpagerindicator.IcsLinearLayout$IOException
+com.llamacorp.equate.eval_y3     public com.viewpagerindicator.TitlePageIndicator
+com.llamacorp.equate.eval_yu     public com.llamacorp.equate.unit.UnitTemperature
+com.llamacorp.equate.eval_zi     public com.llamacorp.equate.view.CalcActivity$IOException
+com.llamacorp.equate.eval_f$1    com.llamacorp.equate.Expression$1
+com.llamacorp.equate.eval_f$_    public final com.llamacorp.equate.Expression$NumFormat
+com.llamacorp.equate.eval_h$1    com.llamacorp.equate.unit.UnitCurrency$1
+com.llamacorp.equate.eval_h$x    com.llamacorp.equate.unit.UnitCurrency$HttpAsyncTask
+com.llamacorp.equate.eval_i$_    public final com.llamacorp.equate.R$string
+com.llamacorp.equate.eval_i$d    public final com.llamacorp.equate.R$dimen
+com.llamacorp.equate.eval_i$l    public final com.llamacorp.equate.R$color
+com.llamacorp.equate.eval_i$m    public final com.llamacorp.equate.R$id
+com.llamacorp.equate.eval_i$p    public final com.llamacorp.equate.R$layout
+com.llamacorp.equate.eval_i$q    public final com.llamacorp.equate.R$integer
+com.llamacorp.equate.eval_i$t    public final com.llamacorp.equate.R$bool
+com.llamacorp.equate.eval_i$v    public final com.llamacorp.equate.R$styleable
+com.llamacorp.equate.eval_i$y    public final com.llamacorp.equate.R$attr
+com.llamacorp.equate.eval_ak$1   com.llamacorp.equate.view.ConvKeysFragment$1
+com.llamacorp.equate.eval_ak$2   com.llamacorp.equate.view.ConvKeysFragment$2
+com.llamacorp.equate.eval_ak$3   com.llamacorp.equate.view.ConvKeysFragment$3
+com.llamacorp.equate.eval_ak$4   com.llamacorp.equate.view.ConvKeysFragment$4
+com.llamacorp.equate.eval_ak$k   public abstract interface com.llamacorp.equate.view.ConvKeysFragment$OnConvertKeySelectedListener
+com.llamacorp.equate.eval_fh$1   com.viewpagerindicator.UnderlinePageIndicator$1
+com.llamacorp.equate.eval_fh$2   com.viewpagerindicator.UnderlinePageIndicator$2
+com.llamacorp.equate.eval_fh$y   com.viewpagerindicator.UnderlinePageIndicator$SavedState
+com.llamacorp.equate.eval_gl$1   com.llamacorp.equate.view.ResultListFragment$1
+com.llamacorp.equate.eval_gl$l   public abstract interface com.llamacorp.equate.view.ResultListFragment$OnResultSelectedListener
+com.llamacorp.equate.eval_gl$v   com.llamacorp.equate.view.ResultListFragment$ResultAdapter
+com.llamacorp.equate.eval_gw$1   com.llamacorp.equate.unit.YahooXmlParser$1
+com.llamacorp.equate.eval_gw$d   public com.llamacorp.equate.unit.YahooXmlParser$Entry
+com.llamacorp.equate.eval_nz$1   com.viewpagerindicator.LinePageIndicator$1
+com.llamacorp.equate.eval_nz$h   com.viewpagerindicator.LinePageIndicator$SavedState
+com.llamacorp.equate.eval_oq$1   com.viewpagerindicator.CirclePageIndicator$1
+com.llamacorp.equate.eval_oq$g   com.viewpagerindicator.CirclePageIndicator$SavedState
+com.llamacorp.equate.eval_qw$1   com.viewpagerindicator.IconPageIndicator$1
+com.llamacorp.equate.eval_rb$1   com.llamacorp.equate.unit.UnitType$1
+com.llamacorp.equate.eval_rb$z   public abstract interface com.llamacorp.equate.unit.UnitType$OnConvertKeyUpdateFinishedListener
+com.llamacorp.equate.eval_rp$w   com.llamacorp.equate.unit.UnitTypeUpdater$UpdateYahooXMLAsyncTask
+com.llamacorp.equate.eval_y3$1   com.viewpagerindicator.TitlePageIndicator$1
+com.llamacorp.equate.eval_y3$l   public abstract interface com.viewpagerindicator.TitlePageIndicator$OnCenterItemClickListener
+com.llamacorp.equate.eval_y3$o   com.viewpagerindicator.TitlePageIndicator$SavedState
+com.llamacorp.equate.eval_y3$u   public final com.viewpagerindicator.TitlePageIndicator$LinePosition
+com.llamacorp.equate.eval_y3$z   public final com.viewpagerindicator.TitlePageIndicator$IndicatorStyle
+com.llamacorp.equate.eval_ak$1$1 com.llamacorp.equate.view.ConvKeysFragment$1$1
+com.llamacorp.equate.eval_ak$3$1 com.llamacorp.equate.view.ConvKeysFragment$3$1
+com.llamacorp.equate.eval_fh$y$1 final com.viewpagerindicator.UnderlinePageIndicator$SavedState$1
+com.llamacorp.equate.eval_gl$v$1 com.llamacorp.equate.view.ResultListFragment$ResultAdapter$1
+com.llamacorp.equate.eval_gl$v$2 com.llamacorp.equate.view.ResultListFragment$ResultAdapter$2
+com.llamacorp.equate.eval_nz$h$1 final com.viewpagerindicator.LinePageIndicator$SavedState$1
+com.llamacorp.equate.eval_oq$g$1 final com.viewpagerindicator.CirclePageIndicator$SavedState$1
+com.llamacorp.equate.eval_y3$o$1 final com.viewpagerindicator.TitlePageIndicator$SavedState$1
+com.llamacorp.equate.eval_i$eval_b       public final com.llamacorp.equate.R$style
+com.llamacorp.equate.eval_i$eval_c       public final com.llamacorp.equate.R$drawable
+com.viewpagerindicator.TabPageIndicator$b        public abstract interface com.viewpagerindicator.TabPageIndicator$OnTabReselectedListener
+com.viewpagerindicator.TabPageIndicator$p        com.viewpagerindicator.TabPageIndicator$TabView
+com.llamacorp.equate.view.AnimatedHoldButton$j   public abstract interface com.llamacorp.equate.view.AnimatedHoldButton$OnExtraLongClickListener
+-------------------------------------------------------------------------------
+
+com.llamacorp.equate.BuildConfig (com.llamacorp.equate.u)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.BuildConfig$1       (com.llamacorp.equate.eval_n)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.BuildConfig$ParseException  (com.llamacorp.equate.eval_p)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.Calculator  (com.llamacorp.equate.eval_c)
+===============================================================================
+  a        private clear()
+  b        public getResultList()
+  e        public getUnitTypeSize()
+  eval_c   private backspace()
+  eval_f   private loadState()
+  eval_m   public static getTestCalculator()
+  eval_o   public isExpressionInvalid()
+  eval_p   public clearHighlighted()
+  eval_s   public getSelectionStart()
+  eval_t   public getCurrUnitType()
+  eval_z   public isExpressionEmpty()
+  f        public getNumberFormat()
+  g        public refreshAllDynamicUnits(boolean)
+  g        private loadResultToArray(com.llamacorp.equate.Result)
+  h        public saveState()
+  h        public setUnitTypePos(int)
+  h        public setSelection(int,int)
+  j        public getHighlighted()
+  j        public static getCalculator(android.content.Context)
+  j        public convertFromTo(com.llamacorp.equate.unit.Unit,com.llamacorp.equate.unit.Unit)
+  k        public setSolved(boolean)
+  l        public isHighlighted()
+  l        public getUnitType(int)
+  m        public getSelectionEnd()
+  n        private clearSelectedUnit()
+  n        public parseKeyPressed(java.lang.String)
+  p        private initiateUnits()
+  q        public isUnitSelected()
+  s        public getUnitTypePos()
+  t        public pasteIntoExpression(java.lang.String)
+  u        public resetCalc()
+  u        private toast(java.lang.String)
+  v        public getUnitTypeName(int)
+  w        private solveAndLoadIntoResultList(boolean)
+  y        public isSolved()
+  toString public toString()
+
+com.llamacorp.equate.Calculator$1        (com.llamacorp.equate.eval_b)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.Calculator$ArrayOutOfBoundsException        (com.llamacorp.equate.eval_z)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.ExpSeparatorHandler (com.llamacorp.equate.eval_w)
+===============================================================================
+  a        public translateIndexListToSep(java.util.ArrayList)
+  b        private static getSepTextHelper(java.lang.String,java.util.ArrayList)
+  c        public translateFromSepIndex(int)
+  eval_h   public getSepText(java.lang.String)
+  f        public static removeSep(java.lang.String)
+  o        public translateToSepIndex(int)
+  r        public makeIndexValid(int)
+  z        public static addSep(java.lang.String)
+
+com.llamacorp.equate.ExpSeparatorHandler$NullPointerException    (com.llamacorp.equate.eval_k)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.Expression  (com.llamacorp.equate.eval_f)
+===============================================================================
+  a        public static findMatchingClosePara(java.lang.String,int)
+  b        public containsOps()
+  b        private static getFirstNumb(java.lang.String)
+  c        public backspaceAtSelection()
+  d        public loadPreciseResult()
+  d        public setSelection(int,int)
+  d        private static numOpenPara(java.lang.String)
+  e        public replaceExpression(java.lang.String)
+  eval_a   private isEntryValid(java.lang.String)
+  eval_d   private numOpenPara()
+  eval_e   public isInvalid()
+  eval_f   private static getLastNumb(java.lang.String)
+  eval_g   private expressionAfterSelectionStart()
+  eval_h   public length()
+  eval_i   private negateLastNumber()
+  eval_j   public static isInvalid(java.lang.String)
+  eval_k   public isHighlighted()
+  eval_k   private highlightMatchingPara(java.lang.String)
+  eval_n   public getSelectionEnd()
+  eval_o   private expressionToSelection()
+  eval_p   public isSolved()
+  eval_q   private getFirstNumb()
+  eval_r   public cleanDanglingOps()
+  eval_s   private getLastPartialNumb()
+  eval_t   public static replacePercentOps(java.lang.String)
+  eval_u   private insertAtSelection(java.lang.String)
+  eval_y   private invertLastNumber()
+  eval_z   public closeOpenPar()
+  f        public keyPresses(java.lang.String)
+  g        private getExpression()
+  h        private lastNumbExponent()
+  h        public setmNumFormat(com.llamacorp.equate.Expression$NumFormat)
+  h        public pasteIntoExpression(java.lang.String)
+  h        public static findMatchingOpenPara(java.lang.String,int)
+  l        public containsParens()
+  l        private markHighlighted(int)
+  m        public getHighlighted()
+  m        public roundAndCleanExpression(com.llamacorp.equate.Expression$NumFormat)
+  o        public setSelectionToEnd()
+  q        public getSelectionStart()
+  q        private static getSciNotation(java.math.BigDecimal,int,boolean)
+  r        public clearExpression()
+  r        private markHighlighted(int[])
+  r        private static cleanFormatting(java.lang.String)
+  s        public static addImpliedParMult(java.lang.String)
+  t        public getPreciseResult()
+  u        public toJSON()
+  u        private insertAt(java.lang.String,int)
+  v        public isEmpty()
+  w        public setSolved(boolean)
+  w        public static groupPowerOperands(java.lang.String)
+  y        public clearHighlightedList()
+  z        public getmNumFormat()
+  z        private setExpression(java.lang.String)
+  toString public toString()
+
+com.llamacorp.equate.Expression$1        (com.llamacorp.equate.eval_f$1)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.Expression$ArrayOutOfBoundsException        (com.llamacorp.equate.eval_a)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.Expression$NumFormat        (com.llamacorp.equate.eval_f$_)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.llamacorp.equate.Preferences (com.llamacorp.equate.eval_e)
+===============================================================================
+  f    public toJSON()
+  f    public setPercentButMain(java.lang.String)
+  g    public getPercentButSec()
+  p    public setPercentButSec(java.lang.String)
+  s    public getPercentButMain()
+
+com.llamacorp.equate.Preferences$ParseException  (com.llamacorp.equate.eval_t)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R   (com.llamacorp.equate.eval_i)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R$ParseException    (com.llamacorp.equate.eval_o)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R$attr      (com.llamacorp.equate.eval_i$y)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R$bool      (com.llamacorp.equate.eval_i$t)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R$color     (com.llamacorp.equate.eval_i$l)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R$dimen     (com.llamacorp.equate.eval_i$d)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R$drawable  (com.llamacorp.equate.eval_i$eval_c)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R$id        (com.llamacorp.equate.eval_i$m)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R$integer   (com.llamacorp.equate.eval_i$q)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R$layout    (com.llamacorp.equate.eval_i$p)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R$string    (com.llamacorp.equate.eval_i$_)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R$style     (com.llamacorp.equate.eval_i$eval_b)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.R$styleable (com.llamacorp.equate.eval_i$v)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.Result      (com.llamacorp.equate.eval_q)
+===============================================================================
+  c        public getTimestamp()
+  d        public getAnswerUnitPos()
+  d        public setResultUnit(com.llamacorp.equate.unit.Unit,int,com.llamacorp.equate.unit.Unit,int,int)
+  e        public getAnswerUnitTextLong()
+  eval_h   public getQueryWithoutSep()
+  eval_m   private getAnswer()
+  eval_q   public getTextAnswer()
+  eval_z   private setAnswer(java.lang.String)
+  f        public toJSON()
+  h        public getQueryUnitTextLong()
+  h        public setAnswerWithSep(java.lang.String)
+  k        private getQuery()
+  l        public setQueryWithSep(java.lang.String)
+  n        public getQueryUnitPos()
+  o        public getUnitTypePos()
+  o        private setQuery(java.lang.String)
+  q        public getAnswerWithoutSep()
+  r        public containsUnits()
+  v        public getTextQuery()
+  v        private formatDate(java.lang.Long)
+
+com.llamacorp.equate.Result$ParseException       (com.llamacorp.equate.eval_v)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.SISuffixHelper      (com.llamacorp.equate.eval_x)
+===============================================================================
+  x    public static getSuffixName(java.lang.String)
+
+com.llamacorp.equate.SISuffixHelper$NullPointerException (com.llamacorp.equate.eval_s)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.Solver      (com.llamacorp.equate.eval_r)
+===============================================================================
+  b    private roundAndClean(com.llamacorp.equate.Expression,boolean)
+  l    public solve(com.llamacorp.equate.Expression,boolean)
+  n    private collapseOps(java.lang.String,java.lang.String)
+  p    public tryToggleSciNote(com.llamacorp.equate.Expression,boolean)
+  r    private collapsePara(java.lang.String)
+  u    public convertFromTo(com.llamacorp.equate.unit.Unit,com.llamacorp.equate.unit.Unit,com.llamacorp.equate.Expression)
+
+com.llamacorp.equate.Solver$ParseException       (com.llamacorp.equate.eval_d)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.unit.Unit   (com.llamacorp.equate.eval_m)
+===============================================================================
+  a        public isHistorical()
+  eval_v   public isDynamic()
+  g        protected getLongName()
+  j        protected getValue()
+  k        public getLowercaseGenericLongName()
+  m        public getName()
+  o        protected toJSON()
+  o        public abstract convertTo(com.llamacorp.equate.unit.Unit,java.lang.String)
+  p        public getLowercaseLongName()
+  q        protected setDispName(java.lang.String)
+  q        protected loadJSON(org.json.JSONObject)
+  v        public getGenericLongName()
+  v        protected setLongName(java.lang.String)
+  z        protected setValue(double)
+  equals   public equals(java.lang.Object)
+  toString public toString()
+
+com.llamacorp.equate.unit.Unit$NullPointerException      (com.llamacorp.equate.eval__)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.unit.UnitCurrency   (com.llamacorp.equate.eval_h)
+===============================================================================
+  eval_b   private getURL()
+  i        public isTimeoutReached(android.content.Context)
+  l        static access$102(com.llamacorp.equate.unit.UnitCurrency,boolean)
+  o        public toJSON()
+  o        public convertTo(com.llamacorp.equate.unit.Unit,java.lang.String)
+  q        public loadJSON(org.json.JSONObject)
+  r        public setUpdateTime(java.util.Date)
+  w        public isUpdating()
+  w        public asyncRefresh(android.content.Context)
+  y        public getTimeOfUpdate()
+
+com.llamacorp.equate.unit.UnitCurrency$1 (com.llamacorp.equate.eval_h$1)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.unit.UnitCurrency$HttpAsyncTask     (com.llamacorp.equate.eval_h$x)
+===============================================================================
+  e                private parseRateFromJSONString(java.lang.String)
+  j                private convertInputStreamToString(java.io.InputStream)
+  m                protected onPostExecute(java.lang.String)
+  u                protected transient doInBackground(java.lang.String[])
+  x                private GET(java.lang.String)
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+
+com.llamacorp.equate.unit.UnitCurrency$IOException       (com.llamacorp.equate.eval_l)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.unit.UnitHistCurrency       (com.llamacorp.equate.eval_y)
+===============================================================================
+  b        public getPossibleYearsReversed()
+  c        public getPreviousLowercaseLongName()
+  eval_j   private getPreviousUnitValue()
+  k        public getLowercaseGenericLongName()
+  n        private getSelectedYear(int)
+  o        public convertTo(com.llamacorp.equate.unit.Unit,java.lang.String)
+  r        public getReversedYearIndex()
+  r        private getShortName(int)
+  s        public setYearIndexReversed(int)
+  t        private getLongName(int)
+  u        private refreshNames()
+  v        public getGenericLongName()
+  v        private setYearIndex(int)
+  x        public getPreviousShortName()
+
+com.llamacorp.equate.unit.UnitHistCurrency$ParseException        (com.llamacorp.equate.eval_j)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.unit.UnitInitializer        (com.llamacorp.equate.eval_g)
+===============================================================================
+  l    private static getCurrUnitType()
+  t    public static getDefaultUnitArray()
+
+com.llamacorp.equate.unit.UnitInitializer$ArrayOutOfBoundsException      (com.llamacorp.equate.eval_ly)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.unit.UnitScalar     (com.llamacorp.equate.eval_p4)
+===============================================================================
+  eval_k   public isInverted()
+  o        public convertTo(com.llamacorp.equate.unit.Unit,java.lang.String)
+
+com.llamacorp.equate.unit.UnitScalar$ArrayOutOfBoundsException   (com.llamacorp.equate.eval_js)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.unit.UnitTemperature        (com.llamacorp.equate.eval_yu)
+===============================================================================
+  o    public convertTo(com.llamacorp.equate.unit.Unit,java.lang.String)
+
+com.llamacorp.equate.unit.UnitTemperature$ArrayOutOfBoundsException      (com.llamacorp.equate.eval_u5)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.unit.UnitType       (com.llamacorp.equate.eval_rb)
+===============================================================================
+  a        public setDynamicUnitCallback(com.llamacorp.equate.unit.UnitType$OnConvertKeyUpdateFinishedListener)
+  a        public selectUnit(int)
+  b        public sortUnitSublist(int,int)
+  c        public getCurrUnitButtonPos()
+  c        public isUnitDynamic(int)
+  d        public containsDynamicUnits()
+  eval_b   private resetUnitDipplayOrder()
+  eval_f   public getUnit(int)
+  eval_i   public findUnitPosInUnitArray(com.llamacorp.equate.unit.Unit)
+  f        public isUnitSelected()
+  f        public rotateUnitSublist(int,int)
+  j        private fillUnitDisplayOrder()
+  j        public getUndisplayedUnitNames(int)
+  k        public swapUnits(int,int)
+  k        public setLastUpdateTime(java.util.Date)
+  l        public getCurrUnit()
+  m        public clearUnitSelection()
+  n        public isUpdating()
+  n        static access$000(com.llamacorp.equate.unit.UnitType)
+  n        public getUnitPosInUnitArray(int)
+  o        public getUnitDisplayName(int)
+  p        public getLowercaseGenericLongName(int)
+  r        public getLastUpdateTime()
+  s        public size()
+  t        public getUnitTypeName()
+  t        public findUnitButtonPosition(com.llamacorp.equate.unit.Unit)
+  u        public addUnit(com.llamacorp.equate.unit.Unit)
+  u        public findButtonPositionforUnitArrayPos(int)
+  w        public toJSON()
+  w        public isUnitHistorical(int)
+  w        public loadJSON(org.json.JSONObject)
+  x        public getXMLCurrencyURL()
+  x        public setUpdating(boolean)
+  y        public getPrevUnit()
+  z        public refreshDynamicUnits(android.content.Context,boolean)
+
+com.llamacorp.equate.unit.UnitType$1     (com.llamacorp.equate.eval_rb$1)
+===============================================================================
+  a        public compare(java.lang.Integer,java.lang.Integer)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+com.llamacorp.equate.unit.UnitType$Exception     (com.llamacorp.equate.eval_by)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.unit.UnitType$OnConvertKeyUpdateFinishedListener    (com.llamacorp.equate.eval_rb$z)
+===============================================================================
+  p    public abstract refreshAllButtonsText()
+
+com.llamacorp.equate.unit.UnitTypeUpdater        (com.llamacorp.equate.eval_rp)
+===============================================================================
+  c    private getCurrRates(java.lang.String)
+  d    static access$100(com.llamacorp.equate.unit.UnitTypeUpdater)
+  e    static access$000(com.llamacorp.equate.unit.UnitTypeUpdater,com.llamacorp.equate.unit.UnitType)
+  h    static access$200(com.llamacorp.equate.unit.UnitTypeUpdater)
+  k    public update(com.llamacorp.equate.unit.UnitType,boolean)
+  l    private isTimeoutReached(com.llamacorp.equate.unit.UnitType)
+  u    private updateRatesWithXML(com.llamacorp.equate.unit.UnitType)
+  x    private downloadUrl(java.lang.String)
+
+com.llamacorp.equate.unit.UnitTypeUpdater$ArrayOutOfBoundsException      (com.llamacorp.equate.eval_a0)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.unit.UnitTypeUpdater$UpdateYahooXMLAsyncTask        (com.llamacorp.equate.eval_rp$w)
+===============================================================================
+  f                protected onPostExecute(java.lang.Boolean)
+  y                protected transient doInBackground(java.lang.Void[])
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+
+com.llamacorp.equate.unit.YahooXmlParser (com.llamacorp.equate.eval_gw)
+===============================================================================
+  a    private readResource(org.xmlpull.v1.XmlPullParser)
+  b    private findResources(org.xmlpull.v1.XmlPullParser)
+  j    private readPrice(org.xmlpull.v1.XmlPullParser)
+  o    private readSymbol(org.xmlpull.v1.XmlPullParser)
+  p    public parse(java.io.InputStream)
+  s    private skip(org.xmlpull.v1.XmlPullParser)
+  v    private readList(org.xmlpull.v1.XmlPullParser)
+  w    private readText(org.xmlpull.v1.XmlPullParser)
+
+com.llamacorp.equate.unit.YahooXmlParser$1       (com.llamacorp.equate.eval_gw$1)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.unit.YahooXmlParser$Entry   (com.llamacorp.equate.eval_gw$d)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.unit.YahooXmlParser$NullPointerException    (com.llamacorp.equate.eval_ou)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.view.AnimatedHoldButton
+===============================================================================
+  b                        static access$202(com.llamacorp.equate.view.AnimatedHoldButton,boolean)
+  d                        public setPrimaryText(java.lang.CharSequence)
+  eval__                   static access$600(com.llamacorp.equate.view.AnimatedHoldButton)
+  eval_b                   static access$500(com.llamacorp.equate.view.AnimatedHoldButton)
+  eval_d                   static access$200(com.llamacorp.equate.view.AnimatedHoldButton)
+  eval_n                   private longClickButton()
+  f                        public volatile setSecondaryText(java.lang.String)
+  h                        protected findSecondaryTextCoordinates()
+  h                        static access$002(com.llamacorp.equate.view.AnimatedHoldButton,boolean)
+  i                        private clickButton()
+  p                        static access$408(com.llamacorp.equate.view.AnimatedHoldButton)
+  s                        private extraLongClickButton()
+  s                        static access$100(com.llamacorp.equate.view.AnimatedHoldButton)
+  v                        static access$400(com.llamacorp.equate.view.AnimatedHoldButton)
+  w                        static access$000(com.llamacorp.equate.view.AnimatedHoldButton)
+  w                        public setOnExtraLongClickListener(com.llamacorp.equate.view.AnimatedHoldButton$OnExtraLongClickListener)
+  y                        static access$300(com.llamacorp.equate.view.AnimatedHoldButton)
+  z                        protected getPrimaryText()
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+  setOnClickListener       public setOnClickListener(android.view.View$OnClickListener)
+  setOnLongClickListener   public setOnLongClickListener(android.view.View$OnLongClickListener)
+
+com.llamacorp.equate.view.AnimatedHoldButton$1
+===============================================================================
+  g    private initializeColors()
+  run  public run()
+
+com.llamacorp.equate.view.AnimatedHoldButton$Exception   (com.llamacorp.equate.eval_n0)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.view.AnimatedHoldButton$OnExtraLongClickListener    (com.llamacorp.equate.view.AnimatedHoldButton$j)
+===============================================================================
+  d    public abstract onExtraLongClick(android.view.View)
+
+com.llamacorp.equate.view.CalcActivity
+===============================================================================
+  a        private getConvKeyFrag(int)
+  b        private updateScreen(boolean,boolean)
+  c        private setupUnitTypePager()
+  eval_s   static access$400(com.llamacorp.equate.view.CalcActivity)
+  eval_u   static access$1000(com.llamacorp.equate.view.CalcActivity)
+  g        static access$800(com.llamacorp.equate.view.CalcActivity)
+  j        public setEqualButtonColor(boolean)
+  j        static access$200(com.llamacorp.equate.view.CalcActivity,boolean,boolean)
+  k        public updateScreen(boolean)
+  k        static access$1002(com.llamacorp.equate.view.CalcActivity,int)
+  l        private clearUnitSelection(int)
+  m        static access$900(com.llamacorp.equate.view.CalcActivity,int)
+  q        static access$100()
+  q        static access$000(com.llamacorp.equate.view.CalcActivity)
+  r        public selectUnitAtUnitArrayPos(int,int)
+  v        static access$1100(com.llamacorp.equate.view.CalcActivity,int)
+  x        static access$300(com.llamacorp.equate.view.CalcActivity)
+  x        public numButtonPressed(java.lang.String)
+  onCreate protected onCreate(android.os.Bundle)
+  onPause  public onPause()
+  onResume public onResume()
+
+com.llamacorp.equate.view.CalcActivity$1
+===============================================================================
+  onLongClick  public onLongClick(android.view.View)
+
+com.llamacorp.equate.view.CalcActivity$2
+===============================================================================
+  onTouch  public onTouch(android.view.View,android.view.MotionEvent)
+
+com.llamacorp.equate.view.CalcActivity$3
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.llamacorp.equate.view.CalcActivity$4
+===============================================================================
+  onLongClick  public onLongClick(android.view.View)
+
+com.llamacorp.equate.view.CalcActivity$5
+===============================================================================
+  d    public onExtraLongClick(android.view.View)
+
+com.llamacorp.equate.view.CalcActivity$6
+===============================================================================
+  f        static access$500(com.llamacorp.equate.view.CalcActivity$6)
+  h        static access$508(com.llamacorp.equate.view.CalcActivity$6)
+  m        static access$502(com.llamacorp.equate.view.CalcActivity$6,int)
+  n        static access$700(com.llamacorp.equate.view.CalcActivity$6)
+  s        static access$600(com.llamacorp.equate.view.CalcActivity$6)
+  onTouch  public onTouch(android.view.View,android.view.MotionEvent)
+
+com.llamacorp.equate.view.CalcActivity$6$1
+===============================================================================
+  run  public run()
+
+com.llamacorp.equate.view.CalcActivity$6$2
+===============================================================================
+  run  public run()
+
+com.llamacorp.equate.view.CalcActivity$6$NullPointerException    (com.llamacorp.equate.eval_cw)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.view.CalcActivity$7
+===============================================================================
+  getCount     public getCount()
+  getItem      public getItem(int)
+  getPageTitle public getPageTitle(int)
+
+com.llamacorp.equate.view.CalcActivity$8
+===============================================================================
+  onPageScrollStateChanged public onPageScrollStateChanged(int)
+  onPageScrolled           public onPageScrolled(int,float,int)
+  onPageSelected           public onPageSelected(int)
+
+com.llamacorp.equate.view.CalcActivity$9
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.llamacorp.equate.view.CalcActivity$IOException       (com.llamacorp.equate.eval_zi)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.view.ConvKeysFragment       (com.llamacorp.equate.eval_ak)
+===============================================================================
+  b            static access$000(com.llamacorp.equate.view.ConvKeysFragment)
+  e            private tryConvert(int)
+  eval_i       public clearButtonSelection()
+  f            private colorSelectedButton()
+  f            public selectUnitAtUnitArrayPos(int)
+  g            private setSelectedButtonHighlight(boolean)
+  k            static access$400(com.llamacorp.equate.view.ConvKeysFragment)
+  k            private updateFavorites(int)
+  m            private refreshButtonText(int)
+  n            static access$500(com.llamacorp.equate.view.ConvKeysFragment)
+  n            static access$200(com.llamacorp.equate.view.ConvKeysFragment,int)
+  o            static access$700(com.llamacorp.equate.view.ConvKeysFragment,int)
+  p            public refreshAllButtonsText()
+  s            static access$600(com.llamacorp.equate.view.ConvKeysFragment,int)
+  s            private clickUnitButton(int)
+  s            private createMoreUnitsDialog(java.lang.CharSequence,android.content.DialogInterface$OnClickListener)
+  v            public static newInstance(int)
+  v            private refreshButtonText(java.lang.String,int)
+  w            static access$100(com.llamacorp.equate.view.ConvKeysFragment,int)
+  y            static access$300(com.llamacorp.equate.view.ConvKeysFragment,java.lang.CharSequence,android.content.DialogInterface$OnClickListener)
+  onAttach     public onAttach(android.app.Activity)
+  onCreate     public onCreate(android.os.Bundle)
+  onCreateView public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onResume     public onResume()
+
+com.llamacorp.equate.view.ConvKeysFragment$1     (com.llamacorp.equate.eval_ak$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.llamacorp.equate.view.ConvKeysFragment$1$1   (com.llamacorp.equate.eval_ak$1$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.llamacorp.equate.view.ConvKeysFragment$1$Exception   (com.llamacorp.equate.eval_fo)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.view.ConvKeysFragment$2     (com.llamacorp.equate.eval_ak$2)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.llamacorp.equate.view.ConvKeysFragment$3     (com.llamacorp.equate.eval_ak$3)
+===============================================================================
+  onLongClick  public onLongClick(android.view.View)
+
+com.llamacorp.equate.view.ConvKeysFragment$3$1   (com.llamacorp.equate.eval_ak$3$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.llamacorp.equate.view.ConvKeysFragment$3$Exception   (com.llamacorp.equate.eval__1)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.view.ConvKeysFragment$4     (com.llamacorp.equate.eval_ak$4)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.llamacorp.equate.view.ConvKeysFragment$OnConvertKeySelectedListener  (com.llamacorp.equate.eval_ak$k)
+===============================================================================
+  j    public abstract setEqualButtonColor(boolean)
+  k    public abstract updateScreen(boolean)
+
+com.llamacorp.equate.view.ConvKeysFragment$ParseException        (com.llamacorp.equate.eval_o6)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.view.ConvertButton
+===============================================================================
+  c        protected drawMainText(android.graphics.Canvas)
+  eval_d   private layoutTextDivided()
+  f        public volatile setSecondaryText(java.lang.String)
+  j        protected layoutText()
+
+com.llamacorp.equate.view.ConvertButton$Exception        (com.llamacorp.equate.eval_ob)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.view.EditTextDisplay
+===============================================================================
+  b                        static access$200(com.llamacorp.equate.view.EditTextDisplay)
+  c                        static access$100(com.llamacorp.equate.view.EditTextDisplay)
+  d                        public disableSoftInputFromAppearing()
+  eval_b                   private layoutText()
+  f                        static access$500(com.llamacorp.equate.view.EditTextDisplay)
+  h                        public updateTextFromCalc()
+  i                        private getSepDispText()
+  k                        private setUpEditText(android.content.Context,android.util.AttributeSet)
+  m                        public setSelectionToEnd()
+  n                        static access$300(com.llamacorp.equate.view.EditTextDisplay,java.lang.String)
+  o                        static access$400(com.llamacorp.equate.view.EditTextDisplay)
+  p                        private setTextHtml(java.lang.String)
+  q                        private onTextPaste()
+  q                        static access$000(com.llamacorp.equate.view.EditTextDisplay)
+  r                        private onTextCut()
+  v                        public setCalc(com.llamacorp.equate.Calculator)
+  y                        public setupHighlighting()
+  z                        public clearHighlighted()
+  onLayout                 protected onLayout(boolean,int,int,int,int)
+  onSelectionChanged       protected onSelectionChanged(int,int)
+  onTextChanged            protected onTextChanged(java.lang.CharSequence,int,int,int)
+  onTextContextMenuItem    public onTextContextMenuItem(int)
+
+com.llamacorp.equate.view.EditTextDisplay$1
+===============================================================================
+  onAnimationUpdate    public onAnimationUpdate(android.animation.ValueAnimator)
+
+com.llamacorp.equate.view.EditTextDisplay$2
+===============================================================================
+  onAnimationEnd   public onAnimationEnd(android.animation.Animator)
+
+com.llamacorp.equate.view.EditTextDisplay$ArrayOutOfBoundsException      (com.llamacorp.equate.eval_v7)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.view.ResultListFragment     (com.llamacorp.equate.eval_gl)
+===============================================================================
+  a        static access$000(com.llamacorp.equate.view.ResultListFragment)
+  d        static access$100(com.llamacorp.equate.view.ResultListFragment)
+  u        public refresh(boolean)
+  onAttach public onAttach(android.app.Activity)
+  onCreate public onCreate(android.os.Bundle)
+
+com.llamacorp.equate.view.ResultListFragment$1   (com.llamacorp.equate.eval_gl$1)
+===============================================================================
+  run  public run()
+
+com.llamacorp.equate.view.ResultListFragment$Exception   (com.llamacorp.equate.eval_tg)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.view.ResultListFragment$OnResultSelectedListener    (com.llamacorp.equate.eval_gl$l)
+===============================================================================
+  k    public abstract updateScreen(boolean)
+  r    public abstract selectUnitAtUnitArrayPos(int,int)
+
+com.llamacorp.equate.view.ResultListFragment$ResultAdapter       (com.llamacorp.equate.eval_gl$v)
+===============================================================================
+  p        private setUpResultTextView(android.widget.TextView,java.lang.String)
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+com.llamacorp.equate.view.ResultListFragment$ResultAdapter$1     (com.llamacorp.equate.eval_gl$v$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.llamacorp.equate.view.ResultListFragment$ResultAdapter$2     (com.llamacorp.equate.eval_gl$v$2)
+===============================================================================
+  onLongClick  public onLongClick(android.view.View)
+
+com.llamacorp.equate.view.ResultListFragment$ResultAdapter$IOException   (com.llamacorp.equate.eval_qs)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.view.SecondaryTextButton    (com.llamacorp.equate.eval_vw)
+===============================================================================
+  c                protected drawMainText(android.graphics.Canvas)
+  f                public setSecondaryText(java.lang.String)
+  h                protected findSecondaryTextCoordinates()
+  j                protected layoutText()
+  z                protected getPrimaryText()
+  onDraw           protected onDraw(android.graphics.Canvas)
+  onLayout         protected onLayout(boolean,int,int,int,int)
+  onTextChanged    protected onTextChanged(java.lang.CharSequence,int,int,int)
+
+com.llamacorp.equate.view.SecondaryTextButton$NullPointerException       (com.llamacorp.equate.eval_of)
+===============================================================================
+  No methods
+
+com.llamacorp.equate.view.ViewUtils      (com.llamacorp.equate.eval_l9)
+===============================================================================
+  a        public static toastCentered(java.lang.String,android.content.Context)
+  b        public static toastLongCentered(java.lang.String,android.content.Context)
+  c        public static pixelsToDp(android.content.Context,float)
+  eval_i   public static toast(java.lang.String,android.content.Context)
+  n        public static toastLong(java.lang.String,android.content.Context)
+  t        public static spToPixels(android.content.Context,float)
+  t        public static floatToInt(float)
+  x        public static pixelsToSp(android.content.Context,float)
+
+com.llamacorp.equate.view.ViewUtils$NullPointerException (com.llamacorp.equate.eval_sf)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.CirclePageIndicator       (com.llamacorp.equate.eval_oq)
+===============================================================================
+  b                        public getOrientation()
+  b                        public setSnap(boolean)
+  e                        public isCentered()
+  e                        public setViewPager(android.support.v4.view.ViewPager)
+  e                        public setRadius(float)
+  e                        public setPageColor(int)
+  eval__                   public notifyDataSetChanged()
+  eval_m                   public getRadius()
+  f                        public getFillColor()
+  g                        public getStrokeWidth()
+  g                        public setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+  g                        public setStrokeWidth(float)
+  h                        public setStrokeColor(int)
+  l                        private measureShort(int)
+  m                        public isSnap()
+  n                        public setCentered(boolean)
+  n                        public setFillColor(int)
+  p                        private measureLong(int)
+  t                        public setViewPager(android.support.v4.view.ViewPager,int)
+  t                        public setCurrentItem(int)
+  w                        public setOrientation(int)
+  x                        public getPageColor()
+  y                        public getStrokeColor()
+  onDraw                   protected onDraw(android.graphics.Canvas)
+  onMeasure                protected onMeasure(int,int)
+  onPageScrollStateChanged public onPageScrollStateChanged(int)
+  onPageScrolled           public onPageScrolled(int,float,int)
+  onPageSelected           public onPageSelected(int)
+  onRestoreInstanceState   public onRestoreInstanceState(android.os.Parcelable)
+  onSaveInstanceState      public onSaveInstanceState()
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+
+com.viewpagerindicator.CirclePageIndicator$1     (com.llamacorp.equate.eval_oq$1)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.CirclePageIndicator$ParseException        (com.llamacorp.equate.eval_tk)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.CirclePageIndicator$SavedState    (com.llamacorp.equate.eval_oq$g)
+===============================================================================
+  writeToParcel    public writeToParcel(android.os.Parcel,int)
+
+com.viewpagerindicator.CirclePageIndicator$SavedState$1  (com.llamacorp.equate.eval_oq$g$1)
+===============================================================================
+  createFromParcel public createFromParcel(android.os.Parcel)
+  newArray         public newArray(int)
+  createFromParcel public volatile createFromParcel(android.os.Parcel)
+  newArray         public volatile newArray(int)
+
+com.viewpagerindicator.CirclePageIndicator$SavedState$IOException        (com.llamacorp.equate.eval_ko)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.IconPageIndicator (com.llamacorp.equate.eval_qw)
+===============================================================================
+  c                        static access$002(com.viewpagerindicator.IconPageIndicator,java.lang.Runnable)
+  e                        public setViewPager(android.support.v4.view.ViewPager)
+  eval__                   public notifyDataSetChanged()
+  g                        public setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+  s                        private animateToIcon(int)
+  t                        public setViewPager(android.support.v4.view.ViewPager,int)
+  t                        public setCurrentItem(int)
+  onAttachedToWindow       public onAttachedToWindow()
+  onDetachedFromWindow     public onDetachedFromWindow()
+  onPageScrollStateChanged public onPageScrollStateChanged(int)
+  onPageScrolled           public onPageScrolled(int,float,int)
+  onPageSelected           public onPageSelected(int)
+
+com.viewpagerindicator.IconPageIndicator$1       (com.llamacorp.equate.eval_qw$1)
+===============================================================================
+  run  public run()
+
+com.viewpagerindicator.IconPageIndicator$NullPointerException    (com.llamacorp.equate.eval_ck)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.IconPagerAdapter  (com.llamacorp.equate.eval_q6)
+===============================================================================
+  c    public abstract getCount()
+  w    public abstract getIconResId(int)
+
+com.viewpagerindicator.IconPagerAdapter$Exception        (com.llamacorp.equate.eval_o0)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.IcsLinearLayout   (com.llamacorp.equate.eval_cq)
+===============================================================================
+  h                        private drawHorizontalDivider(android.graphics.Canvas,int)
+  m                        private drawDividersVertical(android.graphics.Canvas)
+  q                        private hasDividerBeforeChildAt(int)
+  t                        private drawVerticalDivider(android.graphics.Canvas,int)
+  x                        private drawDividersHorizontal(android.graphics.Canvas)
+  measureChildWithMargins  protected measureChildWithMargins(android.view.View,int,int,int,int)
+  onDraw                   protected onDraw(android.graphics.Canvas)
+  setDividerDrawable       public setDividerDrawable(android.graphics.drawable.Drawable)
+
+com.viewpagerindicator.IcsLinearLayout$IOException       (com.llamacorp.equate.eval_xa)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.LinePageIndicator (com.llamacorp.equate.eval_nz)
+===============================================================================
+  a                        public setUnselectedColor(int)
+  c                        public getUnselectedColor()
+  e                        public setViewPager(android.support.v4.view.ViewPager)
+  eval__                   public notifyDataSetChanged()
+  eval_p                   public getGapWidth()
+  g                        public getSelectedColor()
+  g                        public setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+  l                        private measureHeight(int)
+  q                        public getLineWidth()
+  q                        public setSelectedColor(int)
+  r                        private measureWidth(int)
+  s                        public isCentered()
+  t                        public setViewPager(android.support.v4.view.ViewPager,int)
+  t                        public setCurrentItem(int)
+  v                        public setCentered(boolean)
+  v                        public setStrokeWidth(float)
+  x                        public getStrokeWidth()
+  x                        public setGapWidth(float)
+  z                        public setLineWidth(float)
+  onDraw                   protected onDraw(android.graphics.Canvas)
+  onMeasure                protected onMeasure(int,int)
+  onPageScrollStateChanged public onPageScrollStateChanged(int)
+  onPageScrolled           public onPageScrolled(int,float,int)
+  onPageSelected           public onPageSelected(int)
+  onRestoreInstanceState   public onRestoreInstanceState(android.os.Parcelable)
+  onSaveInstanceState      public onSaveInstanceState()
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+
+com.viewpagerindicator.LinePageIndicator$1       (com.llamacorp.equate.eval_nz$1)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.LinePageIndicator$NullPointerException    (com.llamacorp.equate.eval_mu)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.LinePageIndicator$SavedState      (com.llamacorp.equate.eval_nz$h)
+===============================================================================
+  writeToParcel    public writeToParcel(android.os.Parcel,int)
+
+com.viewpagerindicator.LinePageIndicator$SavedState$1    (com.llamacorp.equate.eval_nz$h$1)
+===============================================================================
+  createFromParcel public createFromParcel(android.os.Parcel)
+  newArray         public newArray(int)
+  createFromParcel public volatile createFromParcel(android.os.Parcel)
+  newArray         public volatile newArray(int)
+
+com.viewpagerindicator.LinePageIndicator$SavedState$ArrayOutOfBoundsException    (com.llamacorp.equate.eval_gm)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.PageIndicator     (com.llamacorp.equate.eval_rn)
+===============================================================================
+  e        public abstract setViewPager(android.support.v4.view.ViewPager)
+  eval__   public abstract notifyDataSetChanged()
+  g        public abstract setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+  t        public abstract setViewPager(android.support.v4.view.ViewPager,int)
+  t        public abstract setCurrentItem(int)
+
+com.viewpagerindicator.PageIndicator$ArrayOutOfBoundsException   (com.llamacorp.equate.eval_kp)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.TabPageIndicator
+===============================================================================
+  e                        public setViewPager(android.support.v4.view.ViewPager)
+  eval__                   public notifyDataSetChanged()
+  f                        static access$100(com.viewpagerindicator.TabPageIndicator)
+  g                        public setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+  g                        private addTab(int,java.lang.CharSequence,int)
+  r                        static access$400(com.viewpagerindicator.TabPageIndicator)
+  t                        public setViewPager(android.support.v4.view.ViewPager,int)
+  t                        public setCurrentItem(int)
+  u                        public setOnTabReselectedListener(com.viewpagerindicator.TabPageIndicator$OnTabReselectedListener)
+  w                        static access$000(com.viewpagerindicator.TabPageIndicator)
+  z                        static access$202(com.viewpagerindicator.TabPageIndicator,java.lang.Runnable)
+  z                        private animateToTab(int)
+  onAttachedToWindow       public onAttachedToWindow()
+  onDetachedFromWindow     public onDetachedFromWindow()
+  onMeasure                public onMeasure(int,int)
+  onPageScrollStateChanged public onPageScrollStateChanged(int)
+  onPageScrolled           public onPageScrolled(int,float,int)
+  onPageSelected           public onPageSelected(int)
+
+com.viewpagerindicator.TabPageIndicator$1
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.viewpagerindicator.TabPageIndicator$2
+===============================================================================
+  run  public run()
+
+com.viewpagerindicator.TabPageIndicator$Exception        (com.llamacorp.equate.eval_qg)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.TabPageIndicator$OnTabReselectedListener  (com.viewpagerindicator.TabPageIndicator$b)
+===============================================================================
+  k    public abstract onTabReselected(int)
+
+com.viewpagerindicator.TabPageIndicator$TabView  (com.viewpagerindicator.TabPageIndicator$p)
+===============================================================================
+  a            static access$302(com.viewpagerindicator.TabPageIndicator$TabView,int)
+  v            public getIndex()
+  onMeasure    public onMeasure(int,int)
+
+com.viewpagerindicator.TitlePageIndicator        (com.llamacorp.equate.eval_y3)
+===============================================================================
+  a                        private clipViewOnTheRight(android.graphics.Rect,float,int)
+  b                        private calculateAllBounds(android.graphics.Paint)
+  c                        public getLinePosition()
+  c                        public setTextSize(float)
+  d                        private getTitle(int)
+  e                        public setViewPager(android.support.v4.view.ViewPager)
+  e                        public setFooterIndicatorPadding(float)
+  eval__                   public notifyDataSetChanged()
+  eval_h                   public getSelectedColor()
+  eval_j                   public getTopPadding()
+  eval_o                   public getClipPadding()
+  eval_p                   public getFooterLineHeight()
+  eval_t                   public setTextColor(int)
+  eval_v                   public getTypeface()
+  f                        public setFooterIndicatorStyle(com.viewpagerindicator.TitlePageIndicator$IndicatorStyle)
+  g                        public setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+  g                        public setOnCenterItemClickListener(com.viewpagerindicator.TitlePageIndicator$OnCenterItemClickListener)
+  h                        public getFooterIndicatorStyle()
+  i                        public setFooterIndicatorHeight(float)
+  j                        public getFooterColor()
+  j                        public setSelectedColor(int)
+  l                        private calcBounds(int,android.graphics.Paint)
+  m                        public isSelectedBold()
+  m                        public setTitlePadding(float)
+  n                        private clipViewOnTheLeft(android.graphics.Rect,float,int)
+  o                        public getTextSize()
+  o                        public setClipPadding(float)
+  p                        public getTextColor()
+  r                        public getFooterIndicatorPadding()
+  r                        public setSelectedBold(boolean)
+  s                        public setTypeface(android.graphics.Typeface)
+  t                        public setViewPager(android.support.v4.view.ViewPager,int)
+  t                        public setTopPadding(float)
+  t                        public setCurrentItem(int)
+  v                        public getTitlePadding()
+  v                        public setFooterLineHeight(float)
+  v                        public setFooterColor(int)
+  x                        public setLinePosition(com.viewpagerindicator.TitlePageIndicator$LinePosition)
+  z                        public getFooterIndicatorHeight()
+  onDraw                   protected onDraw(android.graphics.Canvas)
+  onMeasure                protected onMeasure(int,int)
+  onPageScrollStateChanged public onPageScrollStateChanged(int)
+  onPageScrolled           public onPageScrolled(int,float,int)
+  onPageSelected           public onPageSelected(int)
+  onRestoreInstanceState   public onRestoreInstanceState(android.os.Parcelable)
+  onSaveInstanceState      public onSaveInstanceState()
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+
+com.viewpagerindicator.TitlePageIndicator$1      (com.llamacorp.equate.eval_y3$1)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.TitlePageIndicator$ArrayOutOfBoundsException      (com.llamacorp.equate.eval_b_)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.TitlePageIndicator$IndicatorStyle (com.llamacorp.equate.eval_y3$z)
+===============================================================================
+  i        public static fromValue(int)
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.viewpagerindicator.TitlePageIndicator$LinePosition   (com.llamacorp.equate.eval_y3$u)
+===============================================================================
+  j        public static fromValue(int)
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.viewpagerindicator.TitlePageIndicator$OnCenterItemClickListener      (com.llamacorp.equate.eval_y3$l)
+===============================================================================
+  n    public abstract onCenterItemClick(int)
+
+com.viewpagerindicator.TitlePageIndicator$SavedState     (com.llamacorp.equate.eval_y3$o)
+===============================================================================
+  writeToParcel    public writeToParcel(android.os.Parcel,int)
+
+com.viewpagerindicator.TitlePageIndicator$SavedState$1   (com.llamacorp.equate.eval_y3$o$1)
+===============================================================================
+  createFromParcel public createFromParcel(android.os.Parcel)
+  newArray         public newArray(int)
+  createFromParcel public volatile createFromParcel(android.os.Parcel)
+  newArray         public volatile newArray(int)
+
+com.viewpagerindicator.TitlePageIndicator$SavedState$ParseException      (com.llamacorp.equate.eval_ic)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.UnderlinePageIndicator    (com.llamacorp.equate.eval_fh)
+===============================================================================
+  d                        public setSelectedColor(int)
+  e                        public setViewPager(android.support.v4.view.ViewPager)
+  eval__                   public notifyDataSetChanged()
+  eval_d                   static access$200(com.viewpagerindicator.UnderlinePageIndicator)
+  g                        public setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+  h                        public getFadeDelay()
+  i                        public setFadeLength(int)
+  j                        public getFadeLength()
+  j                        static access$300(com.viewpagerindicator.UnderlinePageIndicator)
+  k                        static access$000(com.viewpagerindicator.UnderlinePageIndicator)
+  o                        public getSelectedColor()
+  q                        public getFades()
+  q                        public setFades(boolean)
+  s                        public setFadeDelay(int)
+  t                        public setViewPager(android.support.v4.view.ViewPager,int)
+  t                        public setCurrentItem(int)
+  y                        static access$100(com.viewpagerindicator.UnderlinePageIndicator)
+  onDraw                   protected onDraw(android.graphics.Canvas)
+  onPageScrollStateChanged public onPageScrollStateChanged(int)
+  onPageScrolled           public onPageScrolled(int,float,int)
+  onPageSelected           public onPageSelected(int)
+  onRestoreInstanceState   public onRestoreInstanceState(android.os.Parcelable)
+  onSaveInstanceState      public onSaveInstanceState()
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+
+com.viewpagerindicator.UnderlinePageIndicator$1  (com.llamacorp.equate.eval_fh$1)
+===============================================================================
+  run  public run()
+
+com.viewpagerindicator.UnderlinePageIndicator$2  (com.llamacorp.equate.eval_fh$2)
+===============================================================================
+  run  public run()
+
+com.viewpagerindicator.UnderlinePageIndicator$NullPointerException       (com.llamacorp.equate.eval_q0)
+===============================================================================
+  No methods
+
+com.viewpagerindicator.UnderlinePageIndicator$SavedState (com.llamacorp.equate.eval_fh$y)
+===============================================================================
+  writeToParcel    public writeToParcel(android.os.Parcel,int)
+
+com.viewpagerindicator.UnderlinePageIndicator$SavedState$1       (com.llamacorp.equate.eval_fh$y$1)
+===============================================================================
+  createFromParcel public createFromParcel(android.os.Parcel)
+  newArray         public newArray(int)
+  createFromParcel public volatile createFromParcel(android.os.Parcel)
+  newArray         public volatile newArray(int)
+
+com.viewpagerindicator.UnderlinePageIndicator$SavedState$ArrayOutOfBoundsException       (com.llamacorp.equate.eval_v0)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 702
+  Renamed to eval_d :  24 (3.4%)
+  Renamed to eval_y :  24 (3.4%)
+  Renamed to eval_z :  24 (3.4%)
+  Renamed to eval_k :  22 (3.1%)
+  Renamed to eval_p :  22 (3.1%)
+  Renamed to eval_u :  22 (3.1%)
+  Renamed to eval_x :  22 (3.1%)
+  Renamed to eval_g :  21 (3.0%)
+  Renamed to eval_j :  21 (3.0%)
+  Renamed to eval_o :  21 (3.0%)
+
+Number of Methods : 606
+  Renamed to t :  24 (4.0%)
+  Renamed to g :  20 (3.3%)
+  Renamed to v :  20 (3.3%)
+  Renamed to f :  19 (3.1%)
+  Renamed to h :  19 (3.1%)
+  Renamed to j :  18 (3.0%)
+  Renamed to o :  18 (3.0%)
+  Renamed to c :  17 (2.8%)
+  Renamed to e :  17 (2.8%)
+  Renamed to n :  17 (2.8%)
+

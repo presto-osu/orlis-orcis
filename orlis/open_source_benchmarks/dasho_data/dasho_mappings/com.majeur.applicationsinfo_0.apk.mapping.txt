@@ -1,0 +1,647 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.majeur.applicationsinfo.d    public abstract interface android.content.pm.IPackageStatsObserver
+com.majeur.applicationsinfo.d$d  public abstract android.content.pm.IPackageStatsObserver$Stub
+com.majeur.applicationsinfo.d$d$c        android.content.pm.IPackageStatsObserver$Stub$Proxy
+com.majeur.applicationsinfo.eval__       public com.majeur.applicationsinfo.DetailActivity$ParseException
+com.majeur.applicationsinfo.eval_a       public com.majeur.applicationsinfo.MainListFragment$Adapter$ParseException
+com.majeur.applicationsinfo.eval_b       public com.majeur.applicationsinfo.DetailFragment
+com.majeur.applicationsinfo.eval_c       public final com.majeur.applicationsinfo.BuildConfig
+com.majeur.applicationsinfo.eval_e       public com.majeur.applicationsinfo.DetailFragment$Adapter$NullPointerException
+com.majeur.applicationsinfo.eval_f       public com.majeur.applicationsinfo.ViewManifestActivity
+com.majeur.applicationsinfo.eval_g       public com.majeur.applicationsinfo.DetailFragment$ParseException
+com.majeur.applicationsinfo.eval_h       public com.majeur.applicationsinfo.RetainedFragment
+com.majeur.applicationsinfo.eval_i       public final com.majeur.applicationsinfo.R
+com.majeur.applicationsinfo.eval_j       public com.majeur.applicationsinfo.DetailOverflowMenu
+com.majeur.applicationsinfo.eval_k       public com.majeur.applicationsinfo.MainCallbacks$ArrayOutOfBoundsException
+com.majeur.applicationsinfo.eval_l       public com.majeur.applicationsinfo.R$Exception
+com.majeur.applicationsinfo.eval_m       public abstract interface com.majeur.applicationsinfo.MainCallbacks
+com.majeur.applicationsinfo.eval_n       public com.majeur.applicationsinfo.MainListFragment$Exception
+com.majeur.applicationsinfo.eval_o       public com.majeur.applicationsinfo.DetailFragment$1$Exception
+com.majeur.applicationsinfo.eval_p       public com.majeur.applicationsinfo.BuildConfig$Exception
+com.majeur.applicationsinfo.eval_q       public com.majeur.applicationsinfo.DetailActivity$1
+com.majeur.applicationsinfo.eval_r       public com.majeur.applicationsinfo.MainActivity$NullPointerException
+com.majeur.applicationsinfo.eval_s       public com.majeur.applicationsinfo.ViewManifestActivity$IOException
+com.majeur.applicationsinfo.eval_t       public com.majeur.applicationsinfo.DetailActivity
+com.majeur.applicationsinfo.eval_u       public android.content.pm.IPackageStatsObserver$Stub$NullPointerException
+com.majeur.applicationsinfo.eval_v       public com.majeur.applicationsinfo.MainListFragment$Async$NullPointerException
+com.majeur.applicationsinfo.eval_w       public com.majeur.applicationsinfo.RetainedFragment$Exception
+com.majeur.applicationsinfo.eval_x       public com.majeur.applicationsinfo.DetailOverflowMenu$ArrayOutOfBoundsException
+com.majeur.applicationsinfo.eval_y       public android.content.pm.IPackageStatsObserver$NullPointerException
+com.majeur.applicationsinfo.eval_z       public com.majeur.applicationsinfo.BuildConfig$1
+com.majeur.applicationsinfo.eval_ak      public com.majeur.applicationsinfo.utils.Tuple$Exception
+com.majeur.applicationsinfo.eval_au      public com.majeur.xmlapkparser.AXmlResourceParser
+com.majeur.applicationsinfo.eval_di      public com.majeur.xmlapkparser.StringBlock
+com.majeur.applicationsinfo.eval_dp      public com.majeur.xmlapkparser.IntReader$IOException
+com.majeur.applicationsinfo.eval_hi      public com.majeur.xmlapkparser.StringBlock$NullPointerException
+com.majeur.applicationsinfo.eval_it      public com.majeur.xmlapkparser.AXMLPrinter$NullPointerException
+com.majeur.applicationsinfo.eval_jv      public final com.majeur.xmlapkparser.IntReader
+com.majeur.applicationsinfo.eval_kd      com.majeur.xmlapkparser.ChunkUtil
+com.majeur.applicationsinfo.eval_ld      public com.majeur.applicationsinfo.utils.Tuple
+com.majeur.applicationsinfo.eval_pq      public com.majeur.applicationsinfo.utils.Utils
+com.majeur.applicationsinfo.eval_qm      public com.majeur.applicationsinfo.utils.Utils$Exception
+com.majeur.applicationsinfo.eval_su      public com.majeur.xmlapkparser.AXmlResourceParser$ParseException
+com.majeur.applicationsinfo.eval_y2      public com.majeur.xmlapkparser.ChunkUtil$IOException
+com.majeur.applicationsinfo.eval_b$1     com.majeur.applicationsinfo.DetailFragment$1
+com.majeur.applicationsinfo.eval_b$_     com.majeur.applicationsinfo.DetailFragment$Adapter
+com.majeur.applicationsinfo.eval_f$1     com.majeur.applicationsinfo.ViewManifestActivity$1
+com.majeur.applicationsinfo.eval_f$a     final com.majeur.applicationsinfo.ViewManifestActivity$MyWebChromeClient
+com.majeur.applicationsinfo.eval_f$i     com.majeur.applicationsinfo.ViewManifestActivity$AsyncManifestLoader
+com.majeur.applicationsinfo.eval_i$_     public final com.majeur.applicationsinfo.R$string
+com.majeur.applicationsinfo.eval_i$b     public final com.majeur.applicationsinfo.R$id
+com.majeur.applicationsinfo.eval_i$d     public final com.majeur.applicationsinfo.R$menu
+com.majeur.applicationsinfo.eval_i$g     public final com.majeur.applicationsinfo.R$drawable
+com.majeur.applicationsinfo.eval_i$i     public final com.majeur.applicationsinfo.R$layout
+com.majeur.applicationsinfo.eval_i$q     public final com.majeur.applicationsinfo.R$array
+com.majeur.applicationsinfo.eval_i$r     public final com.majeur.applicationsinfo.R$dimen
+com.majeur.applicationsinfo.eval_i$s     public final com.majeur.applicationsinfo.R$attr
+com.majeur.applicationsinfo.eval_i$w     public final com.majeur.applicationsinfo.R$color
+com.majeur.applicationsinfo.eval_au$k    final com.majeur.xmlapkparser.AXmlResourceParser$NamespaceStack
+com.majeur.applicationsinfo.eval_b$1$1   com.majeur.applicationsinfo.DetailFragment$1$1
+com.majeur.applicationsinfo.eval_b$_$1   com.majeur.applicationsinfo.DetailFragment$Adapter$1
+com.majeur.applicationsinfo.eval_b$_$g   com.majeur.applicationsinfo.DetailFragment$Adapter$ViewHolder
+com.majeur.applicationsinfo.eval_i$eval_n        public final com.majeur.applicationsinfo.R$style
+com.majeur.applicationsinfo.MainListFragment$j   com.majeur.applicationsinfo.MainListFragment$Adapter
+com.majeur.applicationsinfo.MainListFragment$m   com.majeur.applicationsinfo.MainListFragment$SpinnerAdapter
+com.majeur.applicationsinfo.MainListFragment$p   com.majeur.applicationsinfo.MainListFragment$Async
+com.majeur.applicationsinfo.MainListFragment$j$u com.majeur.applicationsinfo.MainListFragment$Adapter$ViewHolder
+com.majeur.applicationsinfo.MainListFragment$j$w com.majeur.applicationsinfo.MainListFragment$Adapter$IconAsyncTask
+com.majeur.applicationsinfo.MainListFragment$p$1 com.majeur.applicationsinfo.MainListFragment$Async$1
+com.majeur.applicationsinfo.MainListFragment$p$k com.majeur.applicationsinfo.MainListFragment$Async$Progress
+com.majeur.applicationsinfo.MainListFragment$eval_w      com.majeur.applicationsinfo.MainListFragment$Item
+-------------------------------------------------------------------------------
+
+android.content.pm.IPackageStatsObserver (com.majeur.applicationsinfo.d)
+===============================================================================
+  p    public abstract onGetStatsCompleted(android.content.pm.PackageStats,boolean)
+
+android.content.pm.IPackageStatsObserver$NullPointerException    (com.majeur.applicationsinfo.eval_y)
+===============================================================================
+  No methods
+
+android.content.pm.IPackageStatsObserver$Stub    (com.majeur.applicationsinfo.d$d)
+===============================================================================
+  b            public static asInterface(android.os.IBinder)
+  p            public abstract onGetStatsCompleted(android.content.pm.PackageStats,boolean)
+  asBinder     public asBinder()
+  onTransact   public onTransact(int,android.os.Parcel,android.os.Parcel,int)
+
+android.content.pm.IPackageStatsObserver$Stub$NullPointerException       (com.majeur.applicationsinfo.eval_u)
+===============================================================================
+  No methods
+
+android.content.pm.IPackageStatsObserver$Stub$Proxy      (com.majeur.applicationsinfo.d$d$c)
+===============================================================================
+  o        public getInterfaceDescriptor()
+  p        public onGetStatsCompleted(android.content.pm.PackageStats,boolean)
+  asBinder public asBinder()
+
+com.majeur.applicationsinfo.BuildConfig  (com.majeur.applicationsinfo.eval_c)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.BuildConfig$1        (com.majeur.applicationsinfo.eval_z)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.BuildConfig$Exception        (com.majeur.applicationsinfo.eval_p)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.DetailActivity       (com.majeur.applicationsinfo.eval_t)
+===============================================================================
+  onCreate                 protected onCreate(android.os.Bundle)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+
+com.majeur.applicationsinfo.DetailActivity$1     (com.majeur.applicationsinfo.eval_q)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.DetailActivity$ParseException        (com.majeur.applicationsinfo.eval__)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.DetailFragment       (com.majeur.applicationsinfo.eval_b)
+===============================================================================
+  a                        private getHeaderView()
+  a                        static access$102(com.majeur.applicationsinfo.DetailFragment,android.content.pm.PackageStats)
+  b                        static access$500(com.majeur.applicationsinfo.DetailFragment)
+  f                        static access$300(com.majeur.applicationsinfo.DetailFragment)
+  f                        private getPackageInfo(java.lang.String)
+  i                        static access$700(com.majeur.applicationsinfo.DetailFragment)
+  i                        private getReadableSize(long)
+  m                        public getTime(long)
+  o                        static access$400(com.majeur.applicationsinfo.DetailFragment)
+  r                        private getNetStats(int)
+  r                        public static getInstance(java.lang.String)
+  s                        private getPackageSizeInfo(android.view.View)
+  t                        static access$200(com.majeur.applicationsinfo.DetailFragment,android.view.View)
+  v                        static access$1000(com.majeur.applicationsinfo.DetailFragment)
+  x                        static access$600(com.majeur.applicationsinfo.DetailFragment)
+  y                        static access$800(com.majeur.applicationsinfo.DetailFragment)
+  z                        private onPackageStatsLoaded(android.view.View)
+  z                        static access$900(com.majeur.applicationsinfo.DetailFragment)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateView             public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onDetach                 public onDetach()
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+
+com.majeur.applicationsinfo.DetailFragment$1     (com.majeur.applicationsinfo.eval_b$1)
+===============================================================================
+  p    public onGetStatsCompleted(android.content.pm.PackageStats,boolean)
+
+com.majeur.applicationsinfo.DetailFragment$1$1   (com.majeur.applicationsinfo.eval_b$1$1)
+===============================================================================
+  run  public run()
+
+com.majeur.applicationsinfo.DetailFragment$1$Exception   (com.majeur.applicationsinfo.eval_o)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.DetailFragment$Adapter       (com.majeur.applicationsinfo.eval_b$_)
+===============================================================================
+  a                    private getSignatureView(android.view.View,int)
+  eval_c               private getReceiverView(android.view.View,int)
+  eval_e               private getPermissionsView(android.view.View,int)
+  f                    private getNeededArray(int)
+  g                    private getUsesPermissionsView(android.view.View,int)
+  j                    private checkIfConvertViewMatch(android.view.View,int)
+  m                    private getActivityView(android.view.View,int)
+  u                    private getFeaturesView(android.view.View,int)
+  w                    private getConfigurationView(android.view.View,int)
+  x                    private getServicesView(android.view.View,int)
+  z                    private getProviderView(android.view.View,int)
+  getChild             public getChild(int,int)
+  getChildId           public getChildId(int,int)
+  getChildView         public getChildView(int,int,boolean,android.view.View,android.view.ViewGroup)
+  getChildrenCount     public getChildrenCount(int)
+  getGroup             public getGroup(int)
+  getGroupCount        public getGroupCount()
+  getGroupId           public getGroupId(int)
+  getGroupView         public getGroupView(int,boolean,android.view.View,android.view.ViewGroup)
+  hasStableIds         public hasStableIds()
+  isChildSelectable    public isChildSelectable(int,int)
+
+com.majeur.applicationsinfo.DetailFragment$Adapter$1     (com.majeur.applicationsinfo.eval_b$_$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.majeur.applicationsinfo.DetailFragment$Adapter$NullPointerException  (com.majeur.applicationsinfo.eval_e)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.DetailFragment$Adapter$ViewHolder    (com.majeur.applicationsinfo.eval_b$_$g)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.DetailFragment$ParseException        (com.majeur.applicationsinfo.eval_g)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.DetailOverflowMenu   (com.majeur.applicationsinfo.eval_j)
+===============================================================================
+  m                public setView(android.view.View)
+  r                public isSystemApp()
+  onClick          public onClick(android.view.View)
+  onMenuItemClick  public onMenuItemClick(android.view.MenuItem)
+
+com.majeur.applicationsinfo.DetailOverflowMenu$ArrayOutOfBoundsException (com.majeur.applicationsinfo.eval_x)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.MainActivity
+===============================================================================
+  p                        public onItemSelected(java.lang.String)
+  w                        private getIntentFilter()
+  z                        private showAboutDialog()
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onStart                  protected onStart()
+  onStop                   protected onStop()
+
+com.majeur.applicationsinfo.MainActivity$1
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+com.majeur.applicationsinfo.MainActivity$NullPointerException    (com.majeur.applicationsinfo.eval_r)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.MainCallbacks        (com.majeur.applicationsinfo.eval_m)
+===============================================================================
+  p    public abstract onItemSelected(java.lang.String)
+
+com.majeur.applicationsinfo.MainCallbacks$ArrayOutOfBoundsException      (com.majeur.applicationsinfo.eval_k)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.MainListFragment
+===============================================================================
+  d                        static access$1200(com.majeur.applicationsinfo.MainListFragment,java.util.List)
+  eval_g                   static access$300(com.majeur.applicationsinfo.MainListFragment)
+  eval_h                   static access$1100(com.majeur.applicationsinfo.MainListFragment)
+  eval_l                   static access$800(com.majeur.applicationsinfo.MainListFragment)
+  f                        static access$1000(com.majeur.applicationsinfo.MainListFragment)
+  h                        static access$200(com.majeur.applicationsinfo.MainListFragment)
+  h                        static access$802(com.majeur.applicationsinfo.MainListFragment,int)
+  k                        static access$400(com.majeur.applicationsinfo.MainListFragment)
+  k                        public sortApplicationList(java.util.List,int)
+  l                        public setSortBy(int,boolean)
+  m                        static access$700(com.majeur.applicationsinfo.MainListFragment)
+  n                        static access$000(com.majeur.applicationsinfo.MainListFragment)
+  o                        static access$600(com.majeur.applicationsinfo.MainListFragment)
+  q                        public loadList()
+  q                        static access$100(com.majeur.applicationsinfo.MainListFragment)
+  r                        static access$900(com.majeur.applicationsinfo.MainListFragment)
+  u                        private checkFastScroll()
+  v                        private onItemFinishedSizeProcess()
+  x                        static access$500(com.majeur.applicationsinfo.MainListFragment)
+  y                        private onTaskEnded(java.util.List)
+  onAttach                 public onAttach(android.app.Activity)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)
+  onDetach                 public onDetach()
+  onItemClick              public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+  onItemSelected           public onItemSelected(android.widget.AdapterView,android.view.View,int,long)
+  onNothingSelected        public onNothingSelected(android.widget.AdapterView)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onSaveInstanceState      public onSaveInstanceState(android.os.Bundle)
+  onStart                  public onStart()
+  onViewCreated            public onViewCreated(android.view.View,android.os.Bundle)
+
+com.majeur.applicationsinfo.MainListFragment$1
+===============================================================================
+  c        public compare(com.majeur.applicationsinfo.MainListFragment$Item,com.majeur.applicationsinfo.MainListFragment$Item)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+com.majeur.applicationsinfo.MainListFragment$2
+===============================================================================
+  run  public run()
+
+com.majeur.applicationsinfo.MainListFragment$Adapter     (com.majeur.applicationsinfo.MainListFragment$j)
+===============================================================================
+  getCount                 public getCount()
+  getItem                  public getItem(int)
+  getItemId                public getItemId(int)
+  getPositionForSection    public getPositionForSection(int)
+  getSectionForPosition    public getSectionForPosition(int)
+  getSections              public getSections()
+  getView                  public getView(int,android.view.View,android.view.ViewGroup)
+
+com.majeur.applicationsinfo.MainListFragment$Adapter$IconAsyncTask       (com.majeur.applicationsinfo.MainListFragment$j$w)
+===============================================================================
+  i                protected transient doInBackground(java.lang.Void[])
+  s                protected onPostExecute(android.graphics.drawable.Drawable)
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+  onPreExecute     protected onPreExecute()
+
+com.majeur.applicationsinfo.MainListFragment$Adapter$ParseException      (com.majeur.applicationsinfo.eval_a)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.MainListFragment$Adapter$ViewHolder  (com.majeur.applicationsinfo.MainListFragment$j$u)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.MainListFragment$Async       (com.majeur.applicationsinfo.MainListFragment$p)
+===============================================================================
+  d                private getItemSize(com.majeur.applicationsinfo.MainListFragment$Item)
+  f                protected onCancelled(java.util.List)
+  t                protected transient doInBackground(java.lang.Void[])
+  t                protected onPostExecute(java.util.List)
+  w                protected transient onProgressUpdate(com.majeur.applicationsinfo.MainListFragment$Async$Progress[])
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onCancelled      protected volatile onCancelled(java.lang.Object)
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+  onPreExecute     protected onPreExecute()
+  onProgressUpdate protected volatile onProgressUpdate(java.lang.Object[])
+
+com.majeur.applicationsinfo.MainListFragment$Async$1     (com.majeur.applicationsinfo.MainListFragment$p$1)
+===============================================================================
+  p    public onGetStatsCompleted(android.content.pm.PackageStats,boolean)
+
+com.majeur.applicationsinfo.MainListFragment$Async$NullPointerException  (com.majeur.applicationsinfo.eval_v)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.MainListFragment$Async$Progress      (com.majeur.applicationsinfo.MainListFragment$p$k)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.MainListFragment$Exception   (com.majeur.applicationsinfo.eval_n)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.MainListFragment$Item        (com.majeur.applicationsinfo.MainListFragment$eval_w)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.MainListFragment$SpinnerAdapter      (com.majeur.applicationsinfo.MainListFragment$m)
+===============================================================================
+  getCount     public getCount()
+  getItem      public getItem(int)
+  getItemId    public getItemId(int)
+  getView      public getView(int,android.view.View,android.view.ViewGroup)
+  isEnabled    public isEnabled(int)
+
+com.majeur.applicationsinfo.R    (com.majeur.applicationsinfo.eval_i)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.R$Exception  (com.majeur.applicationsinfo.eval_l)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.R$array      (com.majeur.applicationsinfo.eval_i$q)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.R$attr       (com.majeur.applicationsinfo.eval_i$s)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.R$color      (com.majeur.applicationsinfo.eval_i$w)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.R$dimen      (com.majeur.applicationsinfo.eval_i$r)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.R$drawable   (com.majeur.applicationsinfo.eval_i$g)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.R$id (com.majeur.applicationsinfo.eval_i$b)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.R$layout     (com.majeur.applicationsinfo.eval_i$i)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.R$menu       (com.majeur.applicationsinfo.eval_i$d)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.R$string     (com.majeur.applicationsinfo.eval_i$_)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.R$style      (com.majeur.applicationsinfo.eval_i$eval_n)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.RetainedFragment     (com.majeur.applicationsinfo.eval_h)
+===============================================================================
+  e        public setList(java.util.List)
+  y        public getList()
+  onCreate public onCreate(android.os.Bundle)
+
+com.majeur.applicationsinfo.RetainedFragment$Exception   (com.majeur.applicationsinfo.eval_w)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.ViewManifestActivity (com.majeur.applicationsinfo.eval_f)
+===============================================================================
+  i                        private displayContent()
+  j                        static access$200(com.majeur.applicationsinfo.ViewManifestActivity)
+  k                        static access$300(com.majeur.applicationsinfo.ViewManifestActivity)
+  m                        private showProgressBar(boolean)
+  o                        static access$100(com.majeur.applicationsinfo.ViewManifestActivity,boolean)
+  p                        private handleError()
+  r                        static access$400(com.majeur.applicationsinfo.ViewManifestActivity)
+  onCreate                 protected onCreate(android.os.Bundle)
+  onDestroy                protected onDestroy()
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+
+com.majeur.applicationsinfo.ViewManifestActivity$1       (com.majeur.applicationsinfo.eval_f$1)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.ViewManifestActivity$AsyncManifestLoader     (com.majeur.applicationsinfo.eval_f$i)
+===============================================================================
+  d                protected onPostExecute(java.lang.Boolean)
+  v                private getProperXml(java.lang.String)
+  v                protected transient doInBackground(java.lang.String[])
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+  onPreExecute     protected onPreExecute()
+
+com.majeur.applicationsinfo.ViewManifestActivity$IOException     (com.majeur.applicationsinfo.eval_s)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.ViewManifestActivity$MyWebChromeClient       (com.majeur.applicationsinfo.eval_f$a)
+===============================================================================
+  onProgressChanged    public onProgressChanged(android.webkit.WebView,int)
+
+com.majeur.applicationsinfo.utils.Tuple  (com.majeur.applicationsinfo.eval_ld)
+===============================================================================
+  eval_u   public getSecond()
+  f        public getFirst()
+  j        public setFirst(java.lang.Object)
+  y        public setSecond(java.lang.Object)
+
+com.majeur.applicationsinfo.utils.Tuple$Exception        (com.majeur.applicationsinfo.eval_ak)
+===============================================================================
+  No methods
+
+com.majeur.applicationsinfo.utils.Utils  (com.majeur.applicationsinfo.eval_pq)
+===============================================================================
+  b        public static isApi20()
+  b        public static dpToPx(android.content.Context,int)
+  b        public static getLaunchMode(int)
+  b        public static checkStringBuilderEnd(java.lang.StringBuilder)
+  d        public static getArrayLengthSafely(java.lang.Object[])
+  eval_c   public static getInputFeaturesString(int)
+  g        public static getSoftInputString(int)
+  n        public static getOrientationString(int)
+  o        public static getServiceFlagsString(int)
+  u        public static getFileContent(java.io.File)
+  y        public static getProtectionLevelString(int)
+  z        public static compareBooleans(boolean,boolean)
+  z        public static getFeatureFlagsString(int)
+
+com.majeur.applicationsinfo.utils.Utils$Exception        (com.majeur.applicationsinfo.eval_qm)
+===============================================================================
+  No methods
+
+com.majeur.xmlapkparser.AXMLPrinter
+===============================================================================
+  i    private static getAttributeValue(com.majeur.xmlapkparser.AXmlResourceParser,int)
+  k    private static transient log(boolean,java.lang.StringBuilder,java.lang.String,java.lang.Object[])
+  p    private static getPackage(int)
+  q    private static getNamespacePrefix(java.lang.String)
+  r    public static getManifestXMLFromAPK(java.lang.String)
+  w    private static transient log(java.lang.StringBuilder,java.lang.String,java.lang.Object[])
+  y    public static complexToFloat(int)
+  main public static main(java.lang.String[])
+
+com.majeur.xmlapkparser.AXMLPrinter$NullPointerException (com.majeur.applicationsinfo.eval_it)
+===============================================================================
+  No methods
+
+com.majeur.xmlapkparser.AXmlResourceParser       (com.majeur.applicationsinfo.eval_au)
+===============================================================================
+  f                            private final resetEventInfo()
+  h                            private final getAttributeOffset(int)
+  k                            public getAttributeValueData(int)
+  n                            public open(java.io.InputStream)
+  o                            private final doNext()
+  o                            private final findAttribute(java.lang.String,java.lang.String)
+  q                            public getAttributeValueType(int)
+  z                            final getStrings()
+  close                        public close()
+  defineEntityReplacementText  public defineEntityReplacementText(java.lang.String,java.lang.String)
+  getAttributeBooleanValue     public getAttributeBooleanValue(int,boolean)
+  getAttributeBooleanValue     public getAttributeBooleanValue(java.lang.String,java.lang.String,boolean)
+  getAttributeCount            public getAttributeCount()
+  getAttributeFloatValue       public getAttributeFloatValue(int,float)
+  getAttributeFloatValue       public getAttributeFloatValue(java.lang.String,java.lang.String,float)
+  getAttributeIntValue         public getAttributeIntValue(int,int)
+  getAttributeIntValue         public getAttributeIntValue(java.lang.String,java.lang.String,int)
+  getAttributeListValue        public getAttributeListValue(int,java.lang.String[],int)
+  getAttributeListValue        public getAttributeListValue(java.lang.String,java.lang.String,java.lang.String[],int)
+  getAttributeName             public getAttributeName(int)
+  getAttributeNameResource     public getAttributeNameResource(int)
+  getAttributeNamespace        public getAttributeNamespace(int)
+  getAttributePrefix           public getAttributePrefix(int)
+  getAttributeResourceValue    public getAttributeResourceValue(int,int)
+  getAttributeResourceValue    public getAttributeResourceValue(java.lang.String,java.lang.String,int)
+  getAttributeType             public getAttributeType(int)
+  getAttributeUnsignedIntValue public getAttributeUnsignedIntValue(int,int)
+  getAttributeUnsignedIntValue public getAttributeUnsignedIntValue(java.lang.String,java.lang.String,int)
+  getAttributeValue            public getAttributeValue(int)
+  getAttributeValue            public getAttributeValue(java.lang.String,java.lang.String)
+  getClassAttribute            public getClassAttribute()
+  getColumnNumber              public getColumnNumber()
+  getDepth                     public getDepth()
+  getEventType                 public getEventType()
+  getFeature                   public getFeature(java.lang.String)
+  getIdAttribute               public getIdAttribute()
+  getIdAttributeResourceValue  public getIdAttributeResourceValue(int)
+  getInputEncoding             public getInputEncoding()
+  getLineNumber                public getLineNumber()
+  getName                      public getName()
+  getNamespace                 public getNamespace()
+  getNamespace                 public getNamespace(java.lang.String)
+  getNamespaceCount            public getNamespaceCount(int)
+  getNamespacePrefix           public getNamespacePrefix(int)
+  getNamespaceUri              public getNamespaceUri(int)
+  getPositionDescription       public getPositionDescription()
+  getPrefix                    public getPrefix()
+  getProperty                  public getProperty(java.lang.String)
+  getStyleAttribute            public getStyleAttribute()
+  getText                      public getText()
+  getTextCharacters            public getTextCharacters(int[])
+  isAttributeDefault           public isAttributeDefault(int)
+  isEmptyElementTag            public isEmptyElementTag()
+  isWhitespace                 public isWhitespace()
+  next                         public next()
+  nextTag                      public nextTag()
+  nextText                     public nextText()
+  nextToken                    public nextToken()
+  require                      public require(int,java.lang.String,java.lang.String)
+  setFeature                   public setFeature(java.lang.String,boolean)
+  setInput                     public setInput(java.io.InputStream,java.lang.String)
+  setInput                     public setInput(java.io.Reader)
+  setProperty                  public setProperty(java.lang.String,java.lang.Object)
+
+com.majeur.xmlapkparser.AXmlResourceParser$NamespaceStack        (com.majeur.applicationsinfo.eval_au$k)
+===============================================================================
+  a        public final findUri(int)
+  b        public final getAccumulatedCount(int)
+  eval_u   public final getPrefix(int)
+  h        public final getTotalCount()
+  h        public final pop(int,int)
+  j        private ensureDataCapacity(int)
+  m        public final getDepth()
+  n        public final reset()
+  p        public final findPrefix(int)
+  q        public final getCurrentCount()
+  r        public final decreaseDepth()
+  r        public final getUri(int)
+  u        public final pop()
+  v        private final find(int,boolean)
+  v        public final push(int,int)
+  x        public final increaseDepth()
+  z        private final get(int,boolean)
+
+com.majeur.xmlapkparser.AXmlResourceParser$ParseException        (com.majeur.applicationsinfo.eval_su)
+===============================================================================
+  No methods
+
+com.majeur.xmlapkparser.ChunkUtil        (com.majeur.applicationsinfo.eval_kd)
+===============================================================================
+  z    public static final readCheckType(com.majeur.xmlapkparser.IntReader,int)
+
+com.majeur.xmlapkparser.ChunkUtil$IOException    (com.majeur.applicationsinfo.eval_y2)
+===============================================================================
+  No methods
+
+com.majeur.xmlapkparser.IntReader        (com.majeur.applicationsinfo.eval_jv)
+===============================================================================
+  a        public final readInt()
+  a        public final readIntArray(int[],int,int)
+  c        public final readByte()
+  e        public final isBigEndian()
+  e        public final readInt(int)
+  eval_n   public final readShort()
+  eval_q   public final readIntArray(int)
+  g        public final available()
+  j        public final close()
+  o        public final readByteArray(int)
+  s        public final getStream()
+  u        public final skip(int)
+  v        public final reset(java.io.InputStream,boolean)
+  w        public final skipInt()
+  y        public final setBigEndian(boolean)
+  z        public final getPosition()
+
+com.majeur.xmlapkparser.IntReader$IOException    (com.majeur.applicationsinfo.eval_dp)
+===============================================================================
+  No methods
+
+com.majeur.xmlapkparser.StringBlock      (com.majeur.applicationsinfo.eval_di)
+===============================================================================
+  b    public getString(int)
+  k    public find(java.lang.String)
+  l    private getStyle(int)
+  o    private static final getShort(int[],int)
+  p    public static read(com.majeur.xmlapkparser.IntReader)
+  w    public getHTML(int)
+  y    public getCount()
+  z    public get(int)
+
+com.majeur.xmlapkparser.StringBlock$NullPointerException (com.majeur.applicationsinfo.eval_hi)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 298
+  Renamed to eval_c :  10 (3.4%)
+  Renamed to eval_e :   9 (3.0%)
+  Renamed to eval_g :   9 (3.0%)
+  Renamed to eval_i :   9 (3.0%)
+  Renamed to eval_r :   9 (3.0%)
+  Renamed to eval_t :   9 (3.0%)
+  Renamed to eval_x :   9 (3.0%)
+  Renamed to eval_a :   8 (2.7%)
+  Renamed to eval_k :   8 (2.7%)
+  Renamed to eval_m :   8 (2.7%)
+
+Number of Methods : 282
+  Renamed to p :  11 (3.9%)
+  Renamed to z :  11 (3.9%)
+  Renamed to o :   9 (3.2%)
+  Renamed to b :   8 (2.8%)
+  Renamed to r :   8 (2.8%)
+  Renamed to y :   8 (2.8%)
+  Renamed to f :   7 (2.5%)
+  Renamed to v :   7 (2.5%)
+  Renamed to a :   6 (2.1%)
+  Renamed to k :   6 (2.1%)
+

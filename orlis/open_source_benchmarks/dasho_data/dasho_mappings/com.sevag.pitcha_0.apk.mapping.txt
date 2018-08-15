@@ -1,0 +1,186 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.sevag.pitcha.m               public final com.sevag.pitcha.BuildConfig
+com.sevag.pitcha.eval_a          public com.sevag.pitcha.music.NotePitchMap
+com.sevag.pitcha.eval_c          public final com.sevag.pitcha.dsp.MPM
+com.sevag.pitcha.eval_d          public com.sevag.pitcha.music.NotePitchMap$NullPointerException
+com.sevag.pitcha.eval_e          public com.sevag.pitcha.BuildConfig$IOException
+com.sevag.pitcha.eval_f          public com.sevag.pitcha.recording.AudioRecorder$NullPointerException
+com.sevag.pitcha.eval_h          public final com.sevag.pitcha.R
+com.sevag.pitcha.eval_n          public com.sevag.pitcha.dsp.MPM$Exception
+com.sevag.pitcha.eval_o          public com.sevag.pitcha.MainActivity$3
+com.sevag.pitcha.eval_p          public abstract interface com.sevag.pitcha.uihelper.UIHelper
+com.sevag.pitcha.eval_q          public com.sevag.pitcha.uihelper.UIHelper$Exception
+com.sevag.pitcha.eval_s          public com.sevag.pitcha.recording.AudioRecorder
+com.sevag.pitcha.eval_t          public com.sevag.pitcha.R$IOException
+com.sevag.pitcha.eval_w          public com.sevag.pitcha.BuildConfig$1
+com.sevag.pitcha.eval_x          public com.sevag.pitcha.MainActivity$Exception
+com.sevag.pitcha.eval_h$_        public final com.sevag.pitcha.R$drawable
+com.sevag.pitcha.eval_h$a        public final com.sevag.pitcha.R$attr
+com.sevag.pitcha.eval_h$b        public final com.sevag.pitcha.R$layout
+com.sevag.pitcha.eval_h$c        public final com.sevag.pitcha.R$id
+com.sevag.pitcha.eval_h$e        public final com.sevag.pitcha.R$mipmap
+com.sevag.pitcha.eval_h$j        public final com.sevag.pitcha.R$color
+com.sevag.pitcha.eval_h$m        public final com.sevag.pitcha.R$array
+com.sevag.pitcha.eval_h$p        public final com.sevag.pitcha.R$style
+com.sevag.pitcha.eval_h$q        public final com.sevag.pitcha.R$string
+com.sevag.pitcha.eval_h$u        public final com.sevag.pitcha.R$dimen
+com.sevag.pitcha.eval_h$eval_l   public final com.sevag.pitcha.R$menu
+-------------------------------------------------------------------------------
+
+com.sevag.pitcha.BuildConfig     (com.sevag.pitcha.m)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.BuildConfig$1   (com.sevag.pitcha.eval_w)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.BuildConfig$IOException (com.sevag.pitcha.eval_e)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.MainActivity
+===============================================================================
+  d                        private startHook()
+  g                        private endHook()
+  j                        private launchPitcha()
+  y                        public display(java.lang.String,double)
+  z                        static access$000(com.sevag.pitcha.MainActivity)
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPause                  protected onPause()
+  onResume                 protected onResume()
+
+com.sevag.pitcha.MainActivity$1
+===============================================================================
+  run  public run()
+
+com.sevag.pitcha.MainActivity$2
+===============================================================================
+  run  public run()
+
+com.sevag.pitcha.MainActivity$3  (com.sevag.pitcha.eval_o)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.MainActivity$Exception  (com.sevag.pitcha.eval_x)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R       (com.sevag.pitcha.eval_h)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R$IOException   (com.sevag.pitcha.eval_t)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R$array (com.sevag.pitcha.eval_h$m)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R$attr  (com.sevag.pitcha.eval_h$a)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R$color (com.sevag.pitcha.eval_h$j)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R$dimen (com.sevag.pitcha.eval_h$u)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R$drawable      (com.sevag.pitcha.eval_h$_)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R$id    (com.sevag.pitcha.eval_h$c)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R$layout        (com.sevag.pitcha.eval_h$b)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R$menu  (com.sevag.pitcha.eval_h$eval_l)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R$mipmap        (com.sevag.pitcha.eval_h$e)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R$string        (com.sevag.pitcha.eval_h$q)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.R$style (com.sevag.pitcha.eval_h$p)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.dsp.MPM (com.sevag.pitcha.eval_c)
+===============================================================================
+  f    public getPitch(double[])
+  j    private normalizedSquareDifference(double[])
+  m    public getPitchFromShort(short[])
+  o    private peakPicking()
+  p    private prabolicInterpolation(int)
+
+com.sevag.pitcha.dsp.MPM$Exception       (com.sevag.pitcha.eval_n)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.music.NotePitchMap      (com.sevag.pitcha.eval_a)
+===============================================================================
+  j    public static displayNoteOf(double,com.sevag.pitcha.uihelper.UIHelper)
+
+com.sevag.pitcha.music.NotePitchMap$NullPointerException (com.sevag.pitcha.eval_d)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.recording.AudioRecorder (com.sevag.pitcha.eval_s)
+===============================================================================
+  c    public static deinit()
+  p    public static run()
+  t    public static init(com.sevag.pitcha.uihelper.UIHelper)
+
+com.sevag.pitcha.recording.AudioRecorder$NullPointerException    (com.sevag.pitcha.eval_f)
+===============================================================================
+  No methods
+
+com.sevag.pitcha.uihelper.UIHelper       (com.sevag.pitcha.eval_p)
+===============================================================================
+  y    public abstract display(java.lang.String,double)
+
+com.sevag.pitcha.uihelper.UIHelper$Exception     (com.sevag.pitcha.eval_q)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 63
+  Renamed to eval_r :   4 (6.3%)
+  Renamed to eval_f :   3 (4.8%)
+  Renamed to eval_h :   3 (4.8%)
+  Renamed to eval_i :   3 (4.8%)
+  Renamed to eval_j :   3 (4.8%)
+  Renamed to eval_z :   3 (4.8%)
+  Renamed to v      :   3 (4.8%)
+  Renamed to c      :   2 (3.2%)
+  Renamed to eval__ :   2 (3.2%)
+  Renamed to eval_b :   2 (3.2%)
+
+Number of Methods : 22
+  Renamed to j :   3 (13.6%)
+  Renamed to p :   2 (9.1%)
+  Renamed to y :   2 (9.1%)
+  Renamed to c :   1 (4.5%)
+  Renamed to d :   1 (4.5%)
+  Renamed to f :   1 (4.5%)
+  Renamed to g :   1 (4.5%)
+  Renamed to m :   1 (4.5%)
+  Renamed to o :   1 (4.5%)
+  Renamed to t :   1 (4.5%)
+

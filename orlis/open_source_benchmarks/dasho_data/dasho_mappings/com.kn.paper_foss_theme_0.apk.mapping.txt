@@ -1,0 +1,58 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.kn.paper_foss_theme.p        public final com.kn.paper_foss_theme.BuildConfig
+com.kn.paper_foss_theme.eval_c   public com.kn.paper_foss_theme.BuildConfig$NullPointerException
+com.kn.paper_foss_theme.eval_g   public com.kn.paper_foss_theme.R$1
+com.kn.paper_foss_theme.eval_j   public com.kn.paper_foss_theme.BuildConfig$1
+com.kn.paper_foss_theme.eval_m   public com.kn.paper_foss_theme.R$NullPointerException
+com.kn.paper_foss_theme.eval_s   public final com.kn.paper_foss_theme.R
+com.kn.paper_foss_theme.eval_s$_ public final com.kn.paper_foss_theme.R$drawable
+com.kn.paper_foss_theme.eval_s$i public final com.kn.paper_foss_theme.R$string
+com.kn.paper_foss_theme.eval_s$o public final com.kn.paper_foss_theme.R$attr
+com.kn.paper_foss_theme.eval_s$t public final com.kn.paper_foss_theme.R$style
+-------------------------------------------------------------------------------
+
+com.kn.paper_foss_theme.BuildConfig      (com.kn.paper_foss_theme.p)
+===============================================================================
+  No methods
+
+com.kn.paper_foss_theme.BuildConfig$1    (com.kn.paper_foss_theme.eval_j)
+===============================================================================
+  No methods
+
+com.kn.paper_foss_theme.BuildConfig$NullPointerException (com.kn.paper_foss_theme.eval_c)
+===============================================================================
+  No methods
+
+com.kn.paper_foss_theme.R        (com.kn.paper_foss_theme.eval_s)
+===============================================================================
+  No methods
+
+com.kn.paper_foss_theme.R$1      (com.kn.paper_foss_theme.eval_g)
+===============================================================================
+  No methods
+
+com.kn.paper_foss_theme.R$NullPointerException   (com.kn.paper_foss_theme.eval_m)
+===============================================================================
+  No methods
+
+com.kn.paper_foss_theme.R$attr   (com.kn.paper_foss_theme.eval_s$o)
+===============================================================================
+  No methods
+
+com.kn.paper_foss_theme.R$drawable       (com.kn.paper_foss_theme.eval_s$_)
+===============================================================================
+  No methods
+
+com.kn.paper_foss_theme.R$string (com.kn.paper_foss_theme.eval_s$i)
+===============================================================================
+  No methods
+
+com.kn.paper_foss_theme.R$style  (com.kn.paper_foss_theme.eval_s$t)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 12
+
+Number of Methods : 0

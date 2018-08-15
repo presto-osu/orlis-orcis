@@ -1,0 +1,123 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+de.audioattack.openlink.f        public final de.audioattack.openlink.BuildConfig
+de.audioattack.openlink.eval_e   public de.audioattack.openlink.MenuActivity$ArrayOutOfBoundsException
+de.audioattack.openlink.eval_g   public de.audioattack.openlink.R$NullPointerException
+de.audioattack.openlink.eval_j   public de.audioattack.openlink.BuildConfig$1
+de.audioattack.openlink.eval_p   public de.audioattack.openlink.MainActivity$3
+de.audioattack.openlink.eval_v   public final de.audioattack.openlink.R
+de.audioattack.openlink.eval_w   public de.audioattack.openlink.MainActivity$ArrayOutOfBoundsException
+de.audioattack.openlink.eval_y   public de.audioattack.openlink.BuildConfig$NullPointerException
+de.audioattack.openlink.eval_v$_ public final de.audioattack.openlink.R$string
+de.audioattack.openlink.eval_v$d public final de.audioattack.openlink.R$attr
+de.audioattack.openlink.eval_v$f public final de.audioattack.openlink.R$style
+de.audioattack.openlink.eval_v$n public final de.audioattack.openlink.R$dimen
+de.audioattack.openlink.eval_v$y public final de.audioattack.openlink.R$layout
+de.audioattack.openlink.eval_v$z public final de.audioattack.openlink.R$color
+de.audioattack.openlink.eval_v$eval_q    public final de.audioattack.openlink.R$id
+de.audioattack.openlink.eval_v$eval_y    public final de.audioattack.openlink.R$mipmap
+-------------------------------------------------------------------------------
+
+de.audioattack.openlink.BuildConfig      (de.audioattack.openlink.f)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.BuildConfig$1    (de.audioattack.openlink.eval_j)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.BuildConfig$NullPointerException (de.audioattack.openlink.eval_y)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.MainActivity
+===============================================================================
+  onCreate protected final onCreate(android.os.Bundle)
+
+de.audioattack.openlink.MainActivity$1
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+de.audioattack.openlink.MainActivity$2
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+de.audioattack.openlink.MainActivity$3   (de.audioattack.openlink.eval_p)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.MainActivity$ArrayOutOfBoundsException   (de.audioattack.openlink.eval_w)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.MenuActivity
+===============================================================================
+  e        private getUris(java.lang.String)
+  f        private static removeHeadingGibberish(java.lang.String)
+  n        private static trim(java.lang.String)
+  x        private handleSendText(android.content.Intent)
+  onCreate protected final onCreate(android.os.Bundle)
+
+de.audioattack.openlink.MenuActivity$ArrayOutOfBoundsException   (de.audioattack.openlink.eval_e)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.R        (de.audioattack.openlink.eval_v)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.R$NullPointerException   (de.audioattack.openlink.eval_g)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.R$attr   (de.audioattack.openlink.eval_v$d)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.R$color  (de.audioattack.openlink.eval_v$z)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.R$dimen  (de.audioattack.openlink.eval_v$n)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.R$id     (de.audioattack.openlink.eval_v$eval_q)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.R$layout (de.audioattack.openlink.eval_v$y)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.R$mipmap (de.audioattack.openlink.eval_v$eval_y)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.R$string (de.audioattack.openlink.eval_v$_)
+===============================================================================
+  No methods
+
+de.audioattack.openlink.R$style  (de.audioattack.openlink.eval_v$f)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 31
+  Renamed to eval_l :   3 (9.7%)
+  Renamed to eval_d :   2 (6.5%)
+  Renamed to eval_g :   2 (6.5%)
+  Renamed to eval_z :   2 (6.5%)
+  Renamed to q      :   2 (6.5%)
+  Renamed to y      :   2 (6.5%)
+  Renamed to b      :   1 (3.2%)
+  Renamed to eval_a :   1 (3.2%)
+  Renamed to eval_b :   1 (3.2%)
+  Renamed to eval_f :   1 (3.2%)
+
+Number of Methods : 8
+  Renamed to e :   1 (12.5%)
+  Renamed to f :   1 (12.5%)
+  Renamed to n :   1 (12.5%)
+  Renamed to x :   1 (12.5%)
+

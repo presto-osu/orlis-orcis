@@ -1,0 +1,1164 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.termux.e                     public final com.termux.BuildConfig
+com.termux.eval__                public final com.termux.app.TermuxHelpActivity
+com.termux.eval_a                public com.termux.BuildConfig$1
+com.termux.eval_b                public com.termux.app.TermuxActivity$14$ParseException
+com.termux.eval_c                public com.termux.drawer.DrawerLayout$NullPointerException
+com.termux.eval_d                public com.termux.app.FullScreenHelper$ArrayOutOfBoundsException
+com.termux.eval_f                final com.termux.app.TermuxPreferences
+com.termux.eval_g                public com.termux.app.TermuxInstaller$2$ParseException
+com.termux.eval_h                public com.termux.app.TermuxService$IOException
+com.termux.eval_i                public final com.termux.R
+com.termux.eval_j                public com.termux.drawer.DrawerLayout$ViewDragCallback$ParseException
+com.termux.eval_k                public com.termux.app.DialogUtils$ArrayOutOfBoundsException
+com.termux.eval_l                public com.termux.app.TermuxActivity$11$ParseException
+com.termux.eval_m                public com.termux.app.TermuxPreferences$ParseException
+com.termux.eval_n                public com.termux.app.TermuxInstaller$NullPointerException
+com.termux.eval_o                final com.termux.app.FullScreenHelper
+com.termux.eval_p                public com.termux.app.TermuxActivity$5$ArrayOutOfBoundsException
+com.termux.eval_q                public com.termux.app.TermuxInstaller$2$2$Exception
+com.termux.eval_r                public final com.termux.app.DialogUtils
+com.termux.eval_s                public final com.termux.app.TermuxService
+com.termux.eval_t                final com.termux.app.TermuxInstaller
+com.termux.eval_u                public com.termux.app.TermuxHelpActivity$IOException
+com.termux.eval_v                public com.termux.app.TermuxActivity$Exception
+com.termux.eval_w                public com.termux.BuildConfig$ParseException
+com.termux.eval_x                com.termux.drawer.DrawerLayoutCompatApi21
+com.termux.eval_y                public com.termux.R$1
+com.termux.eval_z                public com.termux.R$ParseException
+com.termux.eval__a               public final com.termux.terminal.EmulatorDebug
+com.termux.eval__d               public final com.termux.view.GestureAndScaleRecognizer
+com.termux.eval_a0               public com.termux.terminal.TerminalOutput$Exception
+com.termux.eval_a6               public com.termux.terminal.TextStyle$Exception
+com.termux.eval_ac               public com.termux.view.GestureAndScaleRecognizer$ArrayOutOfBoundsException
+com.termux.eval_b1               public final com.termux.terminal.TerminalRow
+com.termux.eval_b8               public com.termux.view.TerminalView$1$NullPointerException
+com.termux.eval_br               public abstract com.termux.terminal.TerminalOutput
+com.termux.eval_cg               public final com.termux.terminal.TerminalSession
+com.termux.eval_d7               public com.termux.view.TerminalKeyListener$NullPointerException
+com.termux.eval_do               public com.termux.drawer.ViewDragHelper
+com.termux.eval_es               final com.termux.terminal.ByteQueue
+com.termux.eval_f5               public final com.termux.terminal.TerminalColors
+com.termux.eval_fz               public com.termux.terminal.TerminalSession$NullPointerException
+com.termux.eval_gn               public com.termux.terminal.KeyHandler$NullPointerException
+com.termux.eval_ha               public com.termux.view.TerminalView$IOException
+com.termux.eval_hi               public com.termux.terminal.WcWidth$ParseException
+com.termux.eval_ja               public com.termux.terminal.ByteQueue$Exception
+com.termux.eval_jj               public com.termux.terminal.TerminalBuffer$Exception
+com.termux.eval_jm               public final com.termux.terminal.KeyHandler
+com.termux.eval_m2               public final com.termux.terminal.TerminalBuffer
+com.termux.eval_ma               public abstract interface com.termux.view.TerminalKeyListener
+com.termux.eval_n_               public com.termux.terminal.JNI$IOException
+com.termux.eval_o5               public final com.termux.terminal.WcWidth
+com.termux.eval_pt               public com.termux.drawer.ViewDragHelper$ParseException
+com.termux.eval_q1               public final com.termux.terminal.TerminalEmulator
+com.termux.eval_rt               public com.termux.terminal.TerminalEmulator$ArrayOutOfBoundsException
+com.termux.eval_s2               public com.termux.terminal.TerminalColorScheme$Exception
+com.termux.eval_s5               public com.termux.terminal.EmulatorDebug$IOException
+com.termux.eval_t8               public com.termux.filepicker.TermuxDocumentsProvider$NullPointerException
+com.termux.eval_tb               public com.termux.terminal.TerminalRow$ArrayOutOfBoundsException
+com.termux.eval_uc               public final com.termux.terminal.TextStyle
+com.termux.eval_we               final com.termux.view.TerminalRenderer
+com.termux.eval_x8               public com.termux.filepicker.TermuxFileReceiverActivity$IOException
+com.termux.eval_xn               public com.termux.drawer.DrawerLayoutCompatApi21$ArrayOutOfBoundsException
+com.termux.eval_ye               public com.termux.view.TerminalRenderer$ParseException
+com.termux.eval_zi               public com.termux.terminal.TerminalColors$Exception
+com.termux.eval_zw               public final com.termux.terminal.TerminalColorScheme
+com.termux.eval__$1              com.termux.app.TermuxHelpActivity$1
+com.termux.eval_f$_              public abstract interface com.termux.app.TermuxPreferences$AsciiBellBehaviour
+com.termux.eval_i$_              public final com.termux.R$attr
+com.termux.eval_i$i              public final com.termux.R$layout
+com.termux.eval_i$n              public final com.termux.R$id
+com.termux.eval_i$o              public final com.termux.R$drawable
+com.termux.eval_i$p              public final com.termux.R$style
+com.termux.eval_i$t              public final com.termux.R$raw
+com.termux.eval_i$z              public final com.termux.R$xml
+com.termux.eval_r$1              final com.termux.app.DialogUtils$1
+com.termux.eval_r$2              final com.termux.app.DialogUtils$2
+com.termux.eval_r$3              final com.termux.app.DialogUtils$3
+com.termux.eval_r$4              final com.termux.app.DialogUtils$4
+com.termux.eval_r$v              public abstract interface com.termux.app.DialogUtils$TextSetListener
+com.termux.eval_s$f              com.termux.app.TermuxService$LocalBinder
+com.termux.eval_t$1              final com.termux.app.TermuxInstaller$1
+com.termux.eval_t$2              final com.termux.app.TermuxInstaller$2
+com.termux.eval_t$3              final com.termux.app.TermuxInstaller$3
+com.termux.eval_x$n              com.termux.drawer.DrawerLayoutCompatApi21$InsetsListener
+com.termux.eval__d$1             com.termux.view.GestureAndScaleRecognizer$1
+com.termux.eval__d$2             com.termux.view.GestureAndScaleRecognizer$2
+com.termux.eval__d$3             com.termux.view.GestureAndScaleRecognizer$3
+com.termux.eval__d$b             public abstract interface com.termux.view.GestureAndScaleRecognizer$Listener
+com.termux.eval_cg$1             com.termux.terminal.TerminalSession$1
+com.termux.eval_cg$2             com.termux.terminal.TerminalSession$2
+com.termux.eval_cg$3             com.termux.terminal.TerminalSession$3
+com.termux.eval_cg$y             public abstract interface com.termux.terminal.TerminalSession$SessionChangedCallback
+com.termux.eval_do$1             final com.termux.drawer.ViewDragHelper$1
+com.termux.eval_do$2             com.termux.drawer.ViewDragHelper$2
+com.termux.eval_do$_             public abstract com.termux.drawer.ViewDragHelper$Callback
+com.termux.eval_q1$t             final com.termux.terminal.TerminalEmulator$SavedScreenState
+com.termux.eval_t$2$1            com.termux.app.TermuxInstaller$2$1
+com.termux.eval_t$2$2            com.termux.app.TermuxInstaller$2$2
+com.termux.eval_t$2$3            com.termux.app.TermuxInstaller$2$3
+com.termux.eval_t$2$2$1          com.termux.app.TermuxInstaller$2$2$1
+com.termux.eval_t$2$2$2          com.termux.app.TermuxInstaller$2$2$2
+com.termux.eval_i$eval_i         public final com.termux.R$string
+com.termux.drawer.DrawerLayout$_ com.termux.drawer.DrawerLayout$ViewDragCallback
+com.termux.drawer.DrawerLayout$a com.termux.drawer.DrawerLayout$AccessibilityDelegate
+com.termux.drawer.DrawerLayout$d public abstract interface com.termux.drawer.DrawerLayout$DrawerListener
+com.termux.drawer.DrawerLayout$e com.termux.drawer.DrawerLayout$DrawerLayoutCompatImplBase
+com.termux.drawer.DrawerLayout$g public abstract com.termux.drawer.DrawerLayout$SimpleDrawerListener
+com.termux.drawer.DrawerLayout$k final com.termux.drawer.DrawerLayout$ChildAccessibilityDelegate
+com.termux.drawer.DrawerLayout$u public com.termux.drawer.DrawerLayout$LayoutParams
+com.termux.drawer.DrawerLayout$_$1       com.termux.drawer.DrawerLayout$ViewDragCallback$1
+com.termux.drawer.DrawerLayout$eval_s    abstract interface com.termux.drawer.DrawerLayout$DrawerLayoutCompatImpl
+-------------------------------------------------------------------------------
+
+com.termux.BuildConfig   (com.termux.e)
+===============================================================================
+  No methods
+
+com.termux.BuildConfig$1 (com.termux.eval_a)
+===============================================================================
+  No methods
+
+com.termux.BuildConfig$ParseException    (com.termux.eval_w)
+===============================================================================
+  No methods
+
+com.termux.R     (com.termux.eval_i)
+===============================================================================
+  No methods
+
+com.termux.R$1   (com.termux.eval_y)
+===============================================================================
+  No methods
+
+com.termux.R$ParseException      (com.termux.eval_z)
+===============================================================================
+  No methods
+
+com.termux.R$attr        (com.termux.eval_i$_)
+===============================================================================
+  No methods
+
+com.termux.R$drawable    (com.termux.eval_i$o)
+===============================================================================
+  No methods
+
+com.termux.R$id  (com.termux.eval_i$n)
+===============================================================================
+  No methods
+
+com.termux.R$layout      (com.termux.eval_i$i)
+===============================================================================
+  No methods
+
+com.termux.R$raw (com.termux.eval_i$t)
+===============================================================================
+  No methods
+
+com.termux.R$string      (com.termux.eval_i$eval_i)
+===============================================================================
+  No methods
+
+com.termux.R$style       (com.termux.eval_i$p)
+===============================================================================
+  No methods
+
+com.termux.R$xml (com.termux.eval_i$z)
+===============================================================================
+  No methods
+
+com.termux.app.DialogUtils       (com.termux.eval_r)
+===============================================================================
+  x    public static textInput(android.app.Activity,int,java.lang.String,int,com.termux.app.DialogUtils$TextSetListener,int,com.termux.app.DialogUtils$TextSetListener,int,com.termux.app.DialogUtils$TextSetListener,android.content.DialogInterface$OnDismissListener)
+
+com.termux.app.DialogUtils$1     (com.termux.eval_r$1)
+===============================================================================
+  onEditorAction   public onEditorAction(android.widget.TextView,int,android.view.KeyEvent)
+
+com.termux.app.DialogUtils$2     (com.termux.eval_r$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.termux.app.DialogUtils$3     (com.termux.eval_r$3)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.termux.app.DialogUtils$4     (com.termux.eval_r$4)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.termux.app.DialogUtils$ArrayOutOfBoundsException     (com.termux.eval_k)
+===============================================================================
+  No methods
+
+com.termux.app.DialogUtils$TextSetListener       (com.termux.eval_r$v)
+===============================================================================
+  c    public abstract onTextSet(java.lang.String)
+
+com.termux.app.FullScreenHelper  (com.termux.eval_o)
+===============================================================================
+  f                public setImmersive(boolean)
+  o                private setImmersiveMode()
+  onGlobalLayout   public onGlobalLayout()
+
+com.termux.app.FullScreenHelper$ArrayOutOfBoundsException        (com.termux.eval_d)
+===============================================================================
+  No methods
+
+com.termux.app.TermuxActivity
+===============================================================================
+  e                            noteSessionInfo()
+  eval_m                       showUrlSelection()
+  g                            getDrawer()
+  g                            switchToSession(com.termux.terminal.TerminalSession)
+  h                            showToast(java.lang.String,boolean)
+  i                            getCurrentTermSession()
+  j                            changeFontSize(boolean)
+  k                            static access$000(com.termux.app.TermuxActivity)
+  n                            doPaste()
+  n                            static extractUrls(java.lang.String)
+  o                            toggleImmersive()
+  q                            public ensureStoragePermissionGranted()
+  r                            addNewSession(boolean,java.lang.String)
+  u                            public getStoredCurrentSessionOrLast()
+  w                            toToastTitle(com.termux.terminal.TerminalSession)
+  y                            static access$100(com.termux.app.TermuxActivity)
+  z                            renameSession(com.termux.terminal.TerminalSession)
+  onBackPressed                public onBackPressed()
+  onContextItemSelected        public onContextItemSelected(android.view.MenuItem)
+  onCreate                     public onCreate(android.os.Bundle)
+  onCreateContextMenu          public onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+  onCreateOptionsMenu          public onCreateOptionsMenu(android.view.Menu)
+  onDestroy                    public onDestroy()
+  onRequestPermissionsResult   public onRequestPermissionsResult(int,java.lang.String[],int[])
+  onServiceConnected           public onServiceConnected(android.content.ComponentName,android.os.IBinder)
+  onServiceDisconnected        public onServiceDisconnected(android.content.ComponentName)
+  onStart                      public onStart()
+  onStop                       protected onStop()
+
+com.termux.app.TermuxActivity$1
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+com.termux.app.TermuxActivity$10
+===============================================================================
+  onItemLongClick  public onItemLongClick(android.widget.AdapterView,android.view.View,int,long)
+
+com.termux.app.TermuxActivity$11
+===============================================================================
+  run  public run()
+
+com.termux.app.TermuxActivity$11$1
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.termux.app.TermuxActivity$11$ParseException  (com.termux.eval_l)
+===============================================================================
+  No methods
+
+com.termux.app.TermuxActivity$12
+===============================================================================
+  c    public onTextSet(java.lang.String)
+
+com.termux.app.TermuxActivity$13
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.termux.app.TermuxActivity$14
+===============================================================================
+  onShow   public onShow(android.content.DialogInterface)
+
+com.termux.app.TermuxActivity$14$1
+===============================================================================
+  onItemLongClick  public onItemLongClick(android.widget.AdapterView,android.view.View,int,long)
+
+com.termux.app.TermuxActivity$14$ParseException  (com.termux.eval_b)
+===============================================================================
+  No methods
+
+com.termux.app.TermuxActivity$15
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.termux.app.TermuxActivity$16
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.termux.app.TermuxActivity$2
+===============================================================================
+  onKey    public onKey(android.view.View,int,android.view.KeyEvent)
+
+com.termux.app.TermuxActivity$3
+===============================================================================
+  c        public onSingleTapUp(android.view.MotionEvent)
+  eval_x   public shouldBackButtonBeMappedToEscape()
+  p        public copyModeChanged(boolean)
+  s        public onScale(float)
+
+com.termux.app.TermuxActivity$4
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.termux.app.TermuxActivity$5
+===============================================================================
+  onLongClick  public onLongClick(android.view.View)
+
+com.termux.app.TermuxActivity$5$1
+===============================================================================
+  c    public onTextSet(java.lang.String)
+
+com.termux.app.TermuxActivity$5$2
+===============================================================================
+  c    public onTextSet(java.lang.String)
+
+com.termux.app.TermuxActivity$5$ArrayOutOfBoundsException        (com.termux.eval_p)
+===============================================================================
+  No methods
+
+com.termux.app.TermuxActivity$6
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.termux.app.TermuxActivity$7
+===============================================================================
+  d    public onSessionFinished(com.termux.terminal.TerminalSession)
+  k    public onTitleChanged(com.termux.terminal.TerminalSession)
+  n    public onTextChanged(com.termux.terminal.TerminalSession)
+  s    public onClipboardText(com.termux.terminal.TerminalSession,java.lang.String)
+  t    public onBell(com.termux.terminal.TerminalSession)
+
+com.termux.app.TermuxActivity$8
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+com.termux.app.TermuxActivity$9
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+com.termux.app.TermuxActivity$Exception  (com.termux.eval_v)
+===============================================================================
+  No methods
+
+com.termux.app.TermuxHelpActivity        (com.termux.eval__)
+===============================================================================
+  u                static access$000(com.termux.app.TermuxHelpActivity)
+  onBackPressed    public onBackPressed()
+  onCreate         protected onCreate(android.os.Bundle)
+
+com.termux.app.TermuxHelpActivity$1      (com.termux.eval__$1)
+===============================================================================
+  onPageFinished           public onPageFinished(android.webkit.WebView,java.lang.String)
+  shouldOverrideUrlLoading public shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)
+
+com.termux.app.TermuxHelpActivity$IOException    (com.termux.eval_u)
+===============================================================================
+  No methods
+
+com.termux.app.TermuxInstaller   (com.termux.eval_t)
+===============================================================================
+  a    static determineZipUrl()
+  f    static deleteFolder(java.io.File)
+  i    static setupIfNeeded(android.app.Activity,java.lang.Runnable)
+  m    public static setupStorageSymlinks(android.content.Context)
+
+com.termux.app.TermuxInstaller$1 (com.termux.eval_t$1)
+===============================================================================
+  onDismiss    public onDismiss(android.content.DialogInterface)
+
+com.termux.app.TermuxInstaller$2 (com.termux.eval_t$2)
+===============================================================================
+  run  public run()
+
+com.termux.app.TermuxInstaller$2$1       (com.termux.eval_t$2$1)
+===============================================================================
+  run  public run()
+
+com.termux.app.TermuxInstaller$2$2       (com.termux.eval_t$2$2)
+===============================================================================
+  run  public run()
+
+com.termux.app.TermuxInstaller$2$2$1     (com.termux.eval_t$2$2$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.termux.app.TermuxInstaller$2$2$2     (com.termux.eval_t$2$2$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.termux.app.TermuxInstaller$2$2$Exception     (com.termux.eval_q)
+===============================================================================
+  No methods
+
+com.termux.app.TermuxInstaller$2$3       (com.termux.eval_t$2$3)
+===============================================================================
+  run  public run()
+
+com.termux.app.TermuxInstaller$2$ParseException  (com.termux.eval_g)
+===============================================================================
+  No methods
+
+com.termux.app.TermuxInstaller$3 (com.termux.eval_t$3)
+===============================================================================
+  run  public run()
+
+com.termux.app.TermuxInstaller$NullPointerException      (com.termux.eval_n)
+===============================================================================
+  No methods
+
+com.termux.app.TermuxPreferences (com.termux.eval_f)
+===============================================================================
+  e    changeFontSize(android.content.Context,boolean)
+  i    static storeCurrentSession(android.content.Context,com.termux.terminal.TerminalSession)
+  k    public reloadFromProperties(android.content.Context)
+  k    setFullScreen(android.content.Context,boolean)
+  m    isFullScreen()
+  q    public static isShowWelcomeDialog(android.content.Context)
+  t    getFontSize()
+  t    static getCurrentSession(com.termux.app.TermuxActivity)
+  v    public static disableWelcomeDialog(android.content.Context)
+
+com.termux.app.TermuxPreferences$AsciiBellBehaviour      (com.termux.eval_f$_)
+===============================================================================
+  No methods
+
+com.termux.app.TermuxPreferences$ParseException  (com.termux.eval_m)
+===============================================================================
+  No methods
+
+com.termux.app.TermuxService     (com.termux.eval_s)
+===============================================================================
+  b                private updateNotification()
+  d                public onSessionFinished(com.termux.terminal.TerminalSession)
+  eval_k           private buildNotification()
+  eval_n           createTermSession(java.lang.String,java.lang.String[],java.lang.String,boolean)
+  f                public removeTermSession(com.termux.terminal.TerminalSession)
+  k                public onTitleChanged(com.termux.terminal.TerminalSession)
+  n                public onTextChanged(com.termux.terminal.TerminalSession)
+  s                public onClipboardText(com.termux.terminal.TerminalSession,java.lang.String)
+  t                public getSessions()
+  t                public onBell(com.termux.terminal.TerminalSession)
+  onBind           public onBind(android.content.Intent)
+  onCreate         public onCreate()
+  onDestroy        public onDestroy()
+  onStartCommand   public onStartCommand(android.content.Intent,int,int)
+
+com.termux.app.TermuxService$IOException (com.termux.eval_h)
+===============================================================================
+  No methods
+
+com.termux.app.TermuxService$LocalBinder (com.termux.eval_s$f)
+===============================================================================
+  No methods
+
+com.termux.drawer.DrawerLayout
+===============================================================================
+  b                                public setDrawerListener(com.termux.drawer.DrawerLayout$DrawerListener)
+  b                                public setDrawerLockMode(int)
+  c                                public setStatusBarBackground(int)
+  d                                public isDrawerVisible(android.view.View)
+  d                                dispatchOnDrawerSlide(android.view.View,float)
+  d                                public setDrawerTitle(int,java.lang.CharSequence)
+  e                                public closeDrawers()
+  e                                public closeDrawer(int)
+  e                                public setDrawerLockMode(int,android.view.View)
+  eval__                           static includeChildForAccessibility(android.view.View)
+  eval_g                           dispatchOnDrawerOpened(android.view.View)
+  eval_k                           private static hasOpaqueBackground(android.view.View)
+  eval_l                           public setStatusBarBackgroundColor(int)
+  eval_r                           public isDrawerVisible(int)
+  eval_r                           public setChildInsets(java.lang.Object,boolean)
+  eval_v                           public getDrawerLockMode(android.view.View)
+  eval_x                           private hasPeekingDrawer()
+  eval_x                           public openDrawer(int)
+  f                                isDrawerView(android.view.View)
+  g                                getDrawerViewOffset(android.view.View)
+  g                                static gravityToString(int)
+  i                                private hasVisibleDrawer()
+  j                                public setDrawerLockMode(int,int)
+  k                                public getStatusBarBackgroundDrawable()
+  k                                public closeDrawer(android.view.View)
+  k                                closeDrawers(boolean)
+  k                                findDrawerWithGravity(int)
+  l                                getDrawerViewAbsoluteGravity(android.view.View)
+  m                                findVisibleDrawer()
+  m                                public setDrawerShadow(android.graphics.drawable.Drawable,int)
+  m                                public getDrawerTitle(int)
+  n                                dispatchOnDrawerClosed(android.view.View)
+  o                                public isDrawerOpen(android.view.View)
+  o                                setDrawerViewOffset(android.view.View,float)
+  q                                public openDrawer(android.view.View)
+  q                                private updateChildrenImportantForAccessibility(android.view.View,boolean)
+  r                                public setDrawerShadow(int,int)
+  s                                public setStatusBarBackground(android.graphics.drawable.Drawable)
+  s                                public isDrawerOpen(int)
+  u                                isContentView(android.view.View)
+  w                                checkDrawerViewAbsoluteGravity(android.view.View,int)
+  w                                public setScrimColor(int)
+  w                                updateDrawerState(int,android.view.View)
+  x                                findOpenDrawer()
+  y                                cancelChildViewTouch()
+  z                                moveDrawerToOffset(android.view.View,float)
+  z                                public getDrawerLockMode(int)
+  addView                          public addView(android.view.View,int,android.view.ViewGroup$LayoutParams)
+  checkLayoutParams                protected checkLayoutParams(android.view.ViewGroup$LayoutParams)
+  computeScroll                    public computeScroll()
+  drawChild                        protected drawChild(android.graphics.Canvas,android.view.View,long)
+  generateDefaultLayoutParams      protected generateDefaultLayoutParams()
+  generateLayoutParams             public generateLayoutParams(android.util.AttributeSet)
+  generateLayoutParams             protected generateLayoutParams(android.view.ViewGroup$LayoutParams)
+  onAttachedToWindow               protected onAttachedToWindow()
+  onDetachedFromWindow             protected onDetachedFromWindow()
+  onDraw                           public onDraw(android.graphics.Canvas)
+  onInterceptTouchEvent            public onInterceptTouchEvent(android.view.MotionEvent)
+  onKeyDown                        public onKeyDown(int,android.view.KeyEvent)
+  onKeyUp                          public onKeyUp(int,android.view.KeyEvent)
+  onLayout                         protected onLayout(boolean,int,int,int,int)
+  onMeasure                        protected onMeasure(int,int)
+  onTouchEvent                     public onTouchEvent(android.view.MotionEvent)
+  requestDisallowInterceptTouchEvent   public requestDisallowInterceptTouchEvent(boolean)
+  requestLayout                    public requestLayout()
+
+com.termux.drawer.DrawerLayout$AccessibilityDelegate     (com.termux.drawer.DrawerLayout$a)
+===============================================================================
+  dispatchPopulateAccessibilityEvent   public dispatchPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+  onInitializeAccessibilityEvent   public onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+  onInitializeAccessibilityNodeInfo    public onInitializeAccessibilityNodeInfo(android.view.View,android.view.accessibility.AccessibilityNodeInfo)
+  onRequestSendAccessibilityEvent  public onRequestSendAccessibilityEvent(android.view.ViewGroup,android.view.View,android.view.accessibility.AccessibilityEvent)
+
+com.termux.drawer.DrawerLayout$ChildAccessibilityDelegate        (com.termux.drawer.DrawerLayout$k)
+===============================================================================
+  onInitializeAccessibilityNodeInfo    public onInitializeAccessibilityNodeInfo(android.view.View,android.view.accessibility.AccessibilityNodeInfo)
+
+com.termux.drawer.DrawerLayout$DrawerLayoutCompatImpl    (com.termux.drawer.DrawerLayout$eval_s)
+===============================================================================
+  b    public abstract getTopInset(java.lang.Object)
+  e    public abstract dispatchChildInsets(android.view.View,java.lang.Object,int)
+  p    public abstract configureApplyInsets(android.view.View)
+  u    public abstract applyMarginInsets(android.view.ViewGroup$MarginLayoutParams,java.lang.Object,int)
+  z    public abstract getDefaultStatusBarBackground(android.content.Context)
+
+com.termux.drawer.DrawerLayout$DrawerLayoutCompatImplBase        (com.termux.drawer.DrawerLayout$e)
+===============================================================================
+  b    public getTopInset(java.lang.Object)
+  e    public dispatchChildInsets(android.view.View,java.lang.Object,int)
+  p    public configureApplyInsets(android.view.View)
+  u    public applyMarginInsets(android.view.ViewGroup$MarginLayoutParams,java.lang.Object,int)
+  z    public getDefaultStatusBarBackground(android.content.Context)
+
+com.termux.drawer.DrawerLayout$DrawerListener    (com.termux.drawer.DrawerLayout$d)
+===============================================================================
+  a    public abstract onDrawerStateChanged(int)
+  h    public abstract onDrawerOpened(android.view.View)
+  p    public abstract onDrawerSlide(android.view.View,float)
+  q    public abstract onDrawerClosed(android.view.View)
+
+com.termux.drawer.DrawerLayout$LayoutParams      (com.termux.drawer.DrawerLayout$u)
+===============================================================================
+  No methods
+
+com.termux.drawer.DrawerLayout$NullPointerException      (com.termux.eval_c)
+===============================================================================
+  No methods
+
+com.termux.drawer.DrawerLayout$SimpleDrawerListener      (com.termux.drawer.DrawerLayout$g)
+===============================================================================
+  a    public onDrawerStateChanged(int)
+  h    public onDrawerOpened(android.view.View)
+  p    public onDrawerSlide(android.view.View,float)
+  q    public onDrawerClosed(android.view.View)
+
+com.termux.drawer.DrawerLayout$ViewDragCallback  (com.termux.drawer.DrawerLayout$_)
+===============================================================================
+  b        public onViewReleased(android.view.View,float,float)
+  c        public onViewPositionChanged(android.view.View,int,int,int,int)
+  eval_o   public onViewDragStateChanged(int)
+  g        public clampViewPositionVertical(android.view.View,int,int)
+  h        public setDragger(com.termux.drawer.ViewDragHelper)
+  j        public tryCaptureView(android.view.View,int)
+  k        public onEdgeDragStarted(int,int)
+  m        public onViewCaptured(android.view.View,int)
+  n        public onEdgeLock(int)
+  p        public clampViewPositionHorizontal(android.view.View,int,int)
+  r        private closeOtherDrawer()
+  u        public removeCallbacks()
+  x        peekDrawer()
+  x        public getViewHorizontalDragRange(android.view.View)
+  y        public onEdgeTouched(int,int)
+
+com.termux.drawer.DrawerLayout$ViewDragCallback$1        (com.termux.drawer.DrawerLayout$_$1)
+===============================================================================
+  run  public run()
+
+com.termux.drawer.DrawerLayout$ViewDragCallback$ParseException   (com.termux.eval_j)
+===============================================================================
+  No methods
+
+com.termux.drawer.DrawerLayoutCompatApi21        (com.termux.eval_x)
+===============================================================================
+  d    public static configureApplyInsets(com.termux.drawer.DrawerLayout)
+  f    public static applyMarginInsets(android.view.ViewGroup$MarginLayoutParams,java.lang.Object,int)
+  q    public static getDefaultStatusBarBackground(android.content.Context)
+  q    public static getTopInset(java.lang.Object)
+  x    public static dispatchChildInsets(android.view.View,java.lang.Object,int)
+
+com.termux.drawer.DrawerLayoutCompatApi21$ArrayOutOfBoundsException      (com.termux.eval_xn)
+===============================================================================
+  No methods
+
+com.termux.drawer.DrawerLayoutCompatApi21$InsetsListener (com.termux.eval_x$n)
+===============================================================================
+  onApplyWindowInsets  public onApplyWindowInsets(android.view.View,android.view.WindowInsets)
+
+com.termux.drawer.ViewDragHelper (com.termux.eval_do)
+===============================================================================
+  a        public shouldInterceptTouchEvent(android.view.MotionEvent)
+  a        private getEdgesTouched(int,int)
+  d        public continueSettling(boolean)
+  d        public flingCapturedView(int,int,int,int)
+  e        private clearMotionHistory(int)
+  eval_c   private clearMotionHistory()
+  eval_d   private ensureMotionHistorySizeForId(int)
+  eval_g   setDragState(int)
+  eval_l   public abort()
+  eval_z   private saveLastMotion(android.view.MotionEvent)
+  f        private dispatchViewReleased(float,float)
+  g        public isPointerDown(int)
+  h        public cancel()
+  h        tryCaptureViewForDrag(android.view.View,int)
+  i        public getActivePointerId()
+  i        private checkTouchSlop(android.view.View,float,float)
+  i        private reportNewEdgeDrags(float,float,int)
+  j        private releaseViewForPointerUp()
+  j        public smoothSlideViewTo(android.view.View,int,int)
+  j        public isEdgeTouched(int)
+  j        public settleCapturedViewAt(int,int)
+  k        public findTopChildUnder(int,int)
+  l        public captureChildView(android.view.View,int)
+  m        private checkNewEdgeDrag(float,float,int,int)
+  m        private computeAxisDuration(int,int,int)
+  m        private dragTo(int,int,int,int)
+  n        public getMinVelocity()
+  n        private computeSettleDuration(android.view.View,int,int,int,int)
+  n        private static clampMag(int,int,int)
+  q        public isViewUnder(android.view.View,int,int)
+  r        public getTouchSlop()
+  r        private saveInitialMotion(float,float,int)
+  r        private forceSettleCapturedViewAt(int,int,int,int)
+  s        public setMinVelocity(float)
+  t        public getViewDragState()
+  t        public checkTouchSlop(int,int)
+  u        protected canScroll(android.view.View,boolean,int,int,int,int)
+  v        public static create(android.view.ViewGroup,com.termux.drawer.ViewDragHelper$Callback)
+  w        public getCapturedView()
+  w        public static create(android.view.ViewGroup,float,com.termux.drawer.ViewDragHelper$Callback)
+  w        private static distanceInfluenceForSnapDuration(float)
+  w        private static clampMag(float,float,float)
+  x        public getEdgeSize()
+  y        public checkTouchSlop(int)
+  y        public isCapturedViewUnder(int,int)
+  z        public processTouchEvent(android.view.MotionEvent)
+  z        public setEdgeTrackingEnabled(int)
+  z        public isEdgeTouched(int,int)
+
+com.termux.drawer.ViewDragHelper$1       (com.termux.eval_do$1)
+===============================================================================
+  getInterpolation public getInterpolation(float)
+
+com.termux.drawer.ViewDragHelper$2       (com.termux.eval_do$2)
+===============================================================================
+  run  public run()
+
+com.termux.drawer.ViewDragHelper$Callback        (com.termux.eval_do$_)
+===============================================================================
+  b        public onViewReleased(android.view.View,float,float)
+  c        public onViewPositionChanged(android.view.View,int,int,int,int)
+  eval_o   public onViewDragStateChanged(int)
+  f        public getOrderedChildIndex(int)
+  g        public clampViewPositionVertical(android.view.View,int,int)
+  j        public getViewVerticalDragRange(android.view.View)
+  j        public abstract tryCaptureView(android.view.View,int)
+  k        public onEdgeDragStarted(int,int)
+  m        public onViewCaptured(android.view.View,int)
+  n        public onEdgeLock(int)
+  p        public clampViewPositionHorizontal(android.view.View,int,int)
+  x        public getViewHorizontalDragRange(android.view.View)
+  y        public onEdgeTouched(int,int)
+
+com.termux.drawer.ViewDragHelper$ParseException  (com.termux.eval_pt)
+===============================================================================
+  No methods
+
+com.termux.filepicker.TermuxDocumentsProvider
+===============================================================================
+  a                        private static getDocIdForFile(java.io.File)
+  b                        private static getFileForDocId(java.lang.String)
+  o                        private static getMimeType(java.io.File)
+  q                        private includeFile(android.database.MatrixCursor,java.lang.String,java.io.File)
+  deleteDocument           public deleteDocument(java.lang.String)
+  getDocumentType          public getDocumentType(java.lang.String)
+  onCreate                 public onCreate()
+  openDocument             public openDocument(java.lang.String,java.lang.String,android.os.CancellationSignal)
+  openDocumentThumbnail    public openDocumentThumbnail(java.lang.String,android.graphics.Point,android.os.CancellationSignal)
+  queryChildDocuments      public queryChildDocuments(java.lang.String,java.lang.String[],java.lang.String)
+  queryDocument            public queryDocument(java.lang.String,java.lang.String[])
+  queryRoots               public queryRoots(java.lang.String[])
+  querySearchDocuments     public querySearchDocuments(java.lang.String,java.lang.String,java.lang.String[])
+
+com.termux.filepicker.TermuxDocumentsProvider$NullPointerException       (com.termux.eval_t8)
+===============================================================================
+  No methods
+
+com.termux.filepicker.TermuxFileReceiverActivity
+===============================================================================
+  a        handleUrlAndFinish(java.lang.String)
+  b        public saveStreamWithName(java.io.InputStream,java.lang.String)
+  o        showErrorDialogAndQuit(java.lang.String)
+  s        static access$000(com.termux.filepicker.TermuxFileReceiverActivity)
+  v        handleContentUri(android.net.Uri,java.lang.String)
+  x        promptNameAndSave(java.io.InputStream,java.lang.String)
+  onResume protected onResume()
+
+com.termux.filepicker.TermuxFileReceiverActivity$1
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.termux.filepicker.TermuxFileReceiverActivity$2
+===============================================================================
+  onDismiss    public onDismiss(android.content.DialogInterface)
+
+com.termux.filepicker.TermuxFileReceiverActivity$3
+===============================================================================
+  c    public onTextSet(java.lang.String)
+
+com.termux.filepicker.TermuxFileReceiverActivity$4
+===============================================================================
+  c    public onTextSet(java.lang.String)
+
+com.termux.filepicker.TermuxFileReceiverActivity$5
+===============================================================================
+  c    public onTextSet(java.lang.String)
+
+com.termux.filepicker.TermuxFileReceiverActivity$6
+===============================================================================
+  onDismiss    public onDismiss(android.content.DialogInterface)
+
+com.termux.filepicker.TermuxFileReceiverActivity$IOException     (com.termux.eval_x8)
+===============================================================================
+  No methods
+
+com.termux.terminal.ByteQueue    (com.termux.eval_es)
+===============================================================================
+  c    public synchronized read(byte[],boolean)
+  e    public write(byte[],int,int)
+  v    public synchronized close()
+
+com.termux.terminal.ByteQueue$Exception  (com.termux.eval_ja)
+===============================================================================
+  No methods
+
+com.termux.terminal.EmulatorDebug        (com.termux.eval__a)
+===============================================================================
+  No methods
+
+com.termux.terminal.EmulatorDebug$IOException    (com.termux.eval_s5)
+===============================================================================
+  No methods
+
+com.termux.terminal.JNI
+===============================================================================
+  close                public static native close(int)
+  createSubprocess     public static native createSubprocess(java.lang.String,java.lang.String,java.lang.String[],java.lang.String[],int[],int,int)
+  hangupProcessGroup   public static native hangupProcessGroup(int)
+  setPtyWindowSize     public static native setPtyWindowSize(int,int,int)
+  waitFor              public static native waitFor(int)
+
+com.termux.terminal.JNI$IOException      (com.termux.eval_n_)
+===============================================================================
+  No methods
+
+com.termux.terminal.KeyHandler   (com.termux.eval_jm)
+===============================================================================
+  a    private static transformForModifiers(java.lang.String,int,char)
+  e    static getCodeFromTermcap(java.lang.String,boolean,boolean)
+  f    public static getCode(int,int,boolean,boolean)
+
+com.termux.terminal.KeyHandler$NullPointerException      (com.termux.eval_gn)
+===============================================================================
+  No methods
+
+com.termux.terminal.TerminalBuffer       (com.termux.eval_m2)
+===============================================================================
+  a        public blockSet(int,int,int,int,int,int)
+  b        public allocateFullLineIfNecessary(int)
+  d        public scrollDownOneLine(int,int,int)
+  e        public getSelectedText(int,int,int,int)
+  eval_h   public setChar(int,int,int,int)
+  eval_y   public getLineWrap(int)
+  f        public externalToInternalRow(int)
+  g        public getActiveTranscriptRows()
+  i        public setOrClearEffect(int,boolean,boolean,boolean,int,int,int,int,int,int)
+  j        public getActiveRows()
+  k        public resize(int,int,int,int[],int,boolean)
+  m        public getTranscriptText()
+  u        public clearLineWrap(int)
+  u        private blockCopyLinesDown(int,int)
+  w        public setLineWrap(int)
+  w        public getStyleAt(int,int)
+  z        public blockCopy(int,int,int,int,int,int)
+
+com.termux.terminal.TerminalBuffer$Exception     (com.termux.eval_jj)
+===============================================================================
+  No methods
+
+com.termux.terminal.TerminalColorScheme  (com.termux.eval_zw)
+===============================================================================
+  p    public updateWith(java.util.Properties)
+  y    public reset()
+
+com.termux.terminal.TerminalColorScheme$Exception        (com.termux.eval_s2)
+===============================================================================
+  No methods
+
+com.termux.terminal.TerminalColors       (com.termux.eval_f5)
+===============================================================================
+  c    public tryParseColor(int,java.lang.String)
+  f    public reset(int)
+  h    public reset()
+  l    static parse(java.lang.String)
+
+com.termux.terminal.TerminalColors$Exception     (com.termux.eval_zi)
+===============================================================================
+  No methods
+
+com.termux.terminal.TerminalEmulator     (com.termux.eval_q1)
+===============================================================================
+  a        public getScreen()
+  a        private doSetMode(boolean)
+  a        private doEscPound(int)
+  a        private setCursorRowCol(int,int)
+  b        private setCursorColRespectingOriginMode(int)
+  c        public isShowingCursor()
+  d        public getScrollCounter()
+  d        public append(byte[],int)
+  d        static mapDecSetBitToInternalBit(int)
+  e        private doLinefeed()
+  e        private setTitle(java.lang.String)
+  eval_a   private resizeScreen()
+  eval_b   public processCodePoint(int)
+  eval_c   public getCursorStyle()
+  eval_e   private setDefaultTabStops()
+  eval_e   public getSelectedText(int,int,int,int)
+  eval_h   public getTitle()
+  eval_h   private emitCodePoint(int)
+  eval_j   private doOsc(int)
+  eval_j   private setCursorPosition(int,int)
+  eval_n   public reset()
+  eval_o   private getStyle()
+  eval_p   public getCursorRow()
+  eval_q   private unknownSequence(int)
+  eval_s   private restoreCursor()
+  eval_s   private collectOSCArgs(int)
+  eval_t   private finishSequence()
+  eval_u   private scrollDownOneLine()
+  eval_w   private parseArg(int)
+  eval_x   private unknownParameter(int)
+  f        private blockClear(int,int,int,int)
+  g        public isReverseVideo()
+  g        private doCsi(int)
+  g        private doOscSetTextParameters(java.lang.String)
+  h        private nextTabStop(int)
+  i        public getCursorCol()
+  i        private doEsc(int)
+  j        private processByte(byte)
+  j        private logError(java.lang.String)
+  k        public isCursorKeysApplicationMode()
+  k        private setDecsetinternalBit(int,boolean)
+  l        private getArg1(int)
+  m        private startEscapeSequence()
+  m        private continueSequence(int)
+  n        private getArg0(int)
+  o        public isMouseTrackingActive()
+  o        public sendMouseEvent(int,int,int,boolean)
+  p        private doCsiQuestionMark(int)
+  p        public paste(java.lang.String)
+  q        private selectGraphicRendition()
+  q        public doDecSetOrReset(boolean,int)
+  q        private doOscEsc(int)
+  r        private blockClear(int,int,int)
+  s        private saveCursor()
+  s        private isDecsetInternalBitSet(int)
+  t        private setCursorCol(int)
+  t        private finishSequenceAndLogError(java.lang.String)
+  u        public clearScrollCounter()
+  v        private unimplementedSequence(int)
+  w        public isAlternateBufferActive()
+  x        private doCsiBiggerThan(int)
+  y        private doDeviceControl(int)
+  y        public resize(int,int)
+  y        private getArg(int,int,boolean)
+  z        public isKeypadApplicationMode()
+  z        private setCursorRow(int)
+  toString public toString()
+
+com.termux.terminal.TerminalEmulator$ArrayOutOfBoundsException   (com.termux.eval_rt)
+===============================================================================
+  No methods
+
+com.termux.terminal.TerminalEmulator$SavedScreenState    (com.termux.eval_q1$t)
+===============================================================================
+  No methods
+
+com.termux.terminal.TerminalOutput       (com.termux.eval_br)
+===============================================================================
+  d    public final write(java.lang.String)
+  i    public abstract clipboardText(java.lang.String)
+  k    public abstract titleChanged(java.lang.String,java.lang.String)
+  w    public abstract onBell()
+  x    public abstract write(byte[],int,int)
+
+com.termux.terminal.TerminalOutput$Exception     (com.termux.eval_a0)
+===============================================================================
+  No methods
+
+com.termux.terminal.TerminalRow  (com.termux.eval_b1)
+===============================================================================
+  k    public clear(int)
+  m    isBlank()
+  n    public copyInterval(com.termux.terminal.TerminalRow,int,int,int)
+  o    public findStartOfColumn(int)
+  r    public setChar(int,int,int)
+  s    public final getStyle(int)
+  v    public getSpaceUsed()
+  z    private wideDisplayCharacterStartingAt(int)
+
+com.termux.terminal.TerminalRow$ArrayOutOfBoundsException        (com.termux.eval_tb)
+===============================================================================
+  No methods
+
+com.termux.terminal.TerminalSession      (com.termux.eval_cg)
+===============================================================================
+  b        public synchronized isRunning()
+  c        public finishIfRunning()
+  eval_y   protected notifyScreenUpdate()
+  f        public getEmulator()
+  f        cleanupResources(int)
+  i        public clipboardText(java.lang.String)
+  j        public writeCodePoint(boolean,int)
+  k        public titleChanged(java.lang.String,java.lang.String)
+  l        public synchronized getExitStatus()
+  s        public getTitle()
+  u        public initializeEmulator(int,int)
+  v        private static wrapFileDescriptor(int)
+  w        public onBell()
+  x        public write(byte[],int,int)
+  y        public reset()
+  z        public updateSize(int,int)
+
+com.termux.terminal.TerminalSession$1    (com.termux.eval_cg$1)
+===============================================================================
+  handleMessage    public handleMessage(android.os.Message)
+
+com.termux.terminal.TerminalSession$2    (com.termux.eval_cg$2)
+===============================================================================
+  run  public run()
+
+com.termux.terminal.TerminalSession$3    (com.termux.eval_cg$3)
+===============================================================================
+  run  public run()
+
+com.termux.terminal.TerminalSession$NullPointerException (com.termux.eval_fz)
+===============================================================================
+  No methods
+
+com.termux.terminal.TerminalSession$SessionChangedCallback       (com.termux.eval_cg$y)
+===============================================================================
+  d    public abstract onSessionFinished(com.termux.terminal.TerminalSession)
+  k    public abstract onTitleChanged(com.termux.terminal.TerminalSession)
+  n    public abstract onTextChanged(com.termux.terminal.TerminalSession)
+  s    public abstract onClipboardText(com.termux.terminal.TerminalSession,java.lang.String)
+  t    public abstract onBell(com.termux.terminal.TerminalSession)
+
+com.termux.terminal.TextStyle    (com.termux.eval_uc)
+===============================================================================
+  h    public static decodeEffect(int)
+  j    public static decodeBackColor(int)
+  p    static encode(int,int,int)
+  r    public static decodeForeColor(int)
+
+com.termux.terminal.TextStyle$Exception  (com.termux.eval_a6)
+===============================================================================
+  No methods
+
+com.termux.terminal.WcWidth      (com.termux.eval_o5)
+===============================================================================
+  j    public static width(int)
+  q    public static width(char[],int)
+
+com.termux.terminal.WcWidth$ParseException       (com.termux.eval_hi)
+===============================================================================
+  No methods
+
+com.termux.view.GestureAndScaleRecognizer        (com.termux.eval__d)
+===============================================================================
+  h    public isInProgress()
+  j    public onTouchEvent(android.view.MotionEvent)
+
+com.termux.view.GestureAndScaleRecognizer$1      (com.termux.eval__d$1)
+===============================================================================
+  onDown       public onDown(android.view.MotionEvent)
+  onFling      public onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+  onLongPress  public onLongPress(android.view.MotionEvent)
+  onScroll     public onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float)
+
+com.termux.view.GestureAndScaleRecognizer$2      (com.termux.eval__d$2)
+===============================================================================
+  onDoubleTap          public onDoubleTap(android.view.MotionEvent)
+  onDoubleTapEvent     public onDoubleTapEvent(android.view.MotionEvent)
+  onSingleTapConfirmed public onSingleTapConfirmed(android.view.MotionEvent)
+
+com.termux.view.GestureAndScaleRecognizer$3      (com.termux.eval__d$3)
+===============================================================================
+  onScale      public onScale(android.view.ScaleGestureDetector)
+  onScaleBegin public onScaleBegin(android.view.ScaleGestureDetector)
+
+com.termux.view.GestureAndScaleRecognizer$ArrayOutOfBoundsException      (com.termux.eval_ac)
+===============================================================================
+  No methods
+
+com.termux.view.GestureAndScaleRecognizer$Listener       (com.termux.eval__d$b)
+===============================================================================
+  h    public abstract onFling(android.view.MotionEvent,float,float)
+  j    public abstract onUp(android.view.MotionEvent)
+  k    public abstract onScroll(android.view.MotionEvent,float,float)
+  m    public abstract onScale(float,float,float)
+  o    public abstract onDown(float,float)
+  t    public abstract onLongPress(android.view.MotionEvent)
+  u    public abstract onSingleTapUp(android.view.MotionEvent)
+  y    public abstract onDoubleTap(android.view.MotionEvent)
+
+com.termux.view.TerminalKeyListener      (com.termux.eval_ma)
+===============================================================================
+  c        public abstract onSingleTapUp(android.view.MotionEvent)
+  eval_x   public abstract shouldBackButtonBeMappedToEscape()
+  p        public abstract copyModeChanged(boolean)
+  s        public abstract onScale(float)
+
+com.termux.view.TerminalKeyListener$NullPointerException (com.termux.eval_d7)
+===============================================================================
+  No methods
+
+com.termux.view.TerminalRenderer (com.termux.eval_we)
+===============================================================================
+  h    private drawTextRun(android.graphics.Canvas,char[],int[],float,int,int,int,int,float,boolean,int,boolean)
+  t    public final render(com.termux.terminal.TerminalEmulator,android.graphics.Canvas,int,int,int,int,int)
+
+com.termux.view.TerminalRenderer$ParseException  (com.termux.eval_ye)
+===============================================================================
+  No methods
+
+com.termux.view.TerminalView
+===============================================================================
+  d                            public getCurrentSession()
+  eval_w                       inputCodePoint(int,boolean,boolean)
+  h                            public onScreenUpdated()
+  h                            doScroll(android.view.MotionEvent,int)
+  i                            sendMouseEventCode(android.view.MotionEvent,int,boolean)
+  i                            public attachSession(com.termux.terminal.TerminalSession)
+  i                            public setOnKeyListener(com.termux.view.TerminalKeyListener)
+  j                            public toggleSelectingText(android.view.MotionEvent)
+  o                            public updateSize()
+  p                            public handleKeyCode(int,int)
+  r                            public checkForFontAndColors()
+  r                            private handleVirtualKeys(int,android.view.KeyEvent,boolean)
+  s                            public setTextSize(int)
+  computeVerticalScrollExtent  protected computeVerticalScrollExtent()
+  computeVerticalScrollOffset  protected computeVerticalScrollOffset()
+  computeVerticalScrollRange   protected computeVerticalScrollRange()
+  isOpaque                     public isOpaque()
+  onCheckIsTextEditor          public onCheckIsTextEditor()
+  onCreateInputConnection      public onCreateInputConnection(android.view.inputmethod.EditorInfo)
+  onDraw                       protected onDraw(android.graphics.Canvas)
+  onGenericMotionEvent         public onGenericMotionEvent(android.view.MotionEvent)
+  onKeyDown                    public onKeyDown(int,android.view.KeyEvent)
+  onKeyPreIme                  public onKeyPreIme(int,android.view.KeyEvent)
+  onKeyUp                      public onKeyUp(int,android.view.KeyEvent)
+  onSizeChanged                protected onSizeChanged(int,int,int,int)
+  onTouchEvent                 public onTouchEvent(android.view.MotionEvent)
+
+com.termux.view.TerminalView$1
+===============================================================================
+  h    public onFling(android.view.MotionEvent,float,float)
+  j    public onUp(android.view.MotionEvent)
+  k    public onScroll(android.view.MotionEvent,float,float)
+  m    public onScale(float,float,float)
+  o    public onDown(float,float)
+  t    public onLongPress(android.view.MotionEvent)
+  u    public onSingleTapUp(android.view.MotionEvent)
+  y    public onDoubleTap(android.view.MotionEvent)
+
+com.termux.view.TerminalView$1$1
+===============================================================================
+  run  public run()
+
+com.termux.view.TerminalView$1$NullPointerException      (com.termux.eval_b8)
+===============================================================================
+  No methods
+
+com.termux.view.TerminalView$2
+===============================================================================
+  beginBatchEdit           public beginBatchEdit()
+  clearMetaKeyStates       public clearMetaKeyStates(int)
+  commitText               public commitText(java.lang.CharSequence,int)
+  deleteSurroundingText    public deleteSurroundingText(int,int)
+  endBatchEdit             public endBatchEdit()
+  finishComposingText      public finishComposingText()
+  getCursorCapsMode        public getCursorCapsMode(int)
+  getTextAfterCursor       public getTextAfterCursor(int,int)
+  getTextBeforeCursor      public getTextBeforeCursor(int,int)
+
+com.termux.view.TerminalView$3
+===============================================================================
+  onActionItemClicked  public onActionItemClicked(android.view.ActionMode,android.view.MenuItem)
+  onCreateActionMode   public onCreateActionMode(android.view.ActionMode,android.view.Menu)
+  onDestroyActionMode  public onDestroyActionMode(android.view.ActionMode)
+  onPrepareActionMode  public onPrepareActionMode(android.view.ActionMode,android.view.Menu)
+
+com.termux.view.TerminalView$4
+===============================================================================
+  onActionItemClicked  public onActionItemClicked(android.view.ActionMode,android.view.MenuItem)
+  onCreateActionMode   public onCreateActionMode(android.view.ActionMode,android.view.Menu)
+  onDestroyActionMode  public onDestroyActionMode(android.view.ActionMode)
+  onGetContentRect     public onGetContentRect(android.view.ActionMode,android.view.View,android.graphics.Rect)
+  onPrepareActionMode  public onPrepareActionMode(android.view.ActionMode,android.view.Menu)
+
+com.termux.view.TerminalView$IOException (com.termux.eval_ha)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 490
+  Renamed to eval_j :  15 (3.1%)
+  Renamed to eval_v :  15 (3.1%)
+  Renamed to eval_w :  15 (3.1%)
+  Renamed to eval_a :  13 (2.7%)
+  Renamed to eval_b :  13 (2.7%)
+  Renamed to eval_f :  12 (2.4%)
+  Renamed to eval_g :  12 (2.4%)
+  Renamed to eval_n :  12 (2.4%)
+  Renamed to eval_s :  12 (2.4%)
+  Renamed to eval_x :  12 (2.4%)
+
+Number of Methods : 525
+  Renamed to k :  21 (4.0%)
+  Renamed to j :  19 (3.6%)
+  Renamed to c :  16 (3.0%)
+  Renamed to m :  16 (3.0%)
+  Renamed to d :  15 (2.9%)
+  Renamed to h :  15 (2.9%)
+  Renamed to i :  15 (2.9%)
+  Renamed to q :  14 (2.7%)
+  Renamed to s :  14 (2.7%)
+  Renamed to a :  13 (2.5%)
+

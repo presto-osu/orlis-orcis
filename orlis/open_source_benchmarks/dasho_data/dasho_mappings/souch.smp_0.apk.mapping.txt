@@ -1,0 +1,624 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+souch.smp.p                      public final souch.smp.BuildConfig
+souch.smp.eval__                 public souch.smp.PrefKeys$IOException
+souch.smp.eval_a                 public souch.smp.ParametersImpl$Exception
+souch.smp.eval_b                 public souch.smp.Path$Exception
+souch.smp.eval_c                 public final souch.smp.R
+souch.smp.eval_d                 public souch.smp.ParametersImpl
+souch.smp.eval_e                 public souch.smp.PlayerState$ArrayOutOfBoundsException
+souch.smp.eval_f                 public souch.smp.Row$IOException
+souch.smp.eval_g                 public abstract interface souch.smp.Parameters
+souch.smp.eval_h                 public souch.smp.Main$Exception
+souch.smp.eval_i                 public final souch.smp.Filter
+souch.smp.eval_j                 public souch.smp.RowGroup
+souch.smp.eval_k                 public souch.smp.MusicService
+souch.smp.eval_l                 public souch.smp.MusicService$ParseException
+souch.smp.eval_m                 public souch.smp.Main$1$ArrayOutOfBoundsException
+souch.smp.eval_n                 public souch.smp.MediaButtonIntentReceiver$NullPointerException
+souch.smp.eval_o                 public souch.smp.R$ArrayOutOfBoundsException
+souch.smp.eval_q                 public final souch.smp.PrefKeys
+souch.smp.eval_r                 public souch.smp.Filter$ArrayOutOfBoundsException
+souch.smp.eval_s                 public souch.smp.BuildConfig$ArrayOutOfBoundsException
+souch.smp.eval_t                 public souch.smp.PlayerState
+souch.smp.eval_u                 public souch.smp.BuildConfig$1
+souch.smp.eval_v                 public souch.smp.RepeatingImageButton$NullPointerException
+souch.smp.eval_w                 public souch.smp.Row
+souch.smp.eval_x                 public souch.smp.Main$10
+souch.smp.eval_y                 public souch.smp.Path
+souch.smp.eval_z                 public souch.smp.Parameters$NullPointerException
+souch.smp.eval_gg                public souch.smp.RowViewHolder
+souch.smp.eval_ih                public souch.smp.Scrobble$IOException
+souch.smp.eval_lt                public souch.smp.RowSong$ParseException
+souch.smp.eval_m1                public souch.smp.RowsAdapter$ArrayOutOfBoundsException
+souch.smp.eval_m8                public souch.smp.Settings$IOException
+souch.smp.eval_nm                public souch.smp.Rows
+souch.smp.eval_p3                public souch.smp.RowViewHolder$IOException
+souch.smp.eval_pk                public souch.smp.Settings
+souch.smp.eval_ql                public souch.smp.Rows$Exception
+souch.smp.eval_sv                public souch.smp.Scrobble
+souch.smp.eval_sw                public souch.smp.RowGroup$IOException
+souch.smp.eval_t9                public souch.smp.RowsAdapter
+souch.smp.eval_wv                public souch.smp.RowSong
+souch.smp.eval_c$_               public final souch.smp.R$color
+souch.smp.eval_c$c               public final souch.smp.R$attr
+souch.smp.eval_c$e               public final souch.smp.R$string
+souch.smp.eval_c$m               public final souch.smp.R$array
+souch.smp.eval_c$p               public final souch.smp.R$dimen
+souch.smp.eval_c$r               public final souch.smp.R$xml
+souch.smp.eval_c$s               public final souch.smp.R$style
+souch.smp.eval_c$u               public final souch.smp.R$menu
+souch.smp.eval_c$z               public final souch.smp.R$id
+souch.smp.eval_k$1               souch.smp.MusicService$1
+souch.smp.eval_k$d               public souch.smp.MusicService$MusicBinder
+souch.smp.eval_nm$1              souch.smp.Rows$1
+souch.smp.eval_nm$2              souch.smp.Rows$2
+souch.smp.eval_nm$3              souch.smp.Rows$3
+souch.smp.eval_pk$1              souch.smp.Settings$1
+souch.smp.eval_c$eval_l          public final souch.smp.R$drawable
+souch.smp.eval_c$eval_s          public final souch.smp.R$layout
+souch.smp.RepeatingImageButton$w public abstract interface souch.smp.RepeatingImageButton$RepeatListener
+-------------------------------------------------------------------------------
+
+souch.smp.BuildConfig    (souch.smp.p)
+===============================================================================
+  No methods
+
+souch.smp.BuildConfig$1  (souch.smp.eval_u)
+===============================================================================
+  No methods
+
+souch.smp.BuildConfig$ArrayOutOfBoundsException  (souch.smp.eval_s)
+===============================================================================
+  No methods
+
+souch.smp.Filter (souch.smp.eval_i)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+souch.smp.Filter$ArrayOutOfBoundsException       (souch.smp.eval_r)
+===============================================================================
+  No methods
+
+souch.smp.Main
+===============================================================================
+  a                        public unfoldAndscrollToCurrSong()
+  b                        static access$900(souch.smp.Main)
+  d                        static access$102(souch.smp.Main,souch.smp.Rows)
+  e                        public getMusicSrv()
+  e                        static access$002(souch.smp.Main,souch.smp.MusicService)
+  eval_i                   public scrollToCurrSong()
+  eval_m                   static access$300(souch.smp.Main)
+  eval_n                   private setShakeItem(android.view.MenuItem)
+  eval_n                   public scrollToSong(int)
+  eval_p                   private restore()
+  f                        static access$1200(souch.smp.Main)
+  h                        static access$1100(souch.smp.Main)
+  i                        static access$000(souch.smp.Main)
+  i                        static access$402(souch.smp.Main,boolean)
+  i                        public static applyTextSize(souch.smp.Parameters)
+  j                        private setChoosedTextSizeItem(android.view.MenuItem)
+  j                        static access$700(souch.smp.Main)
+  l                        static access$1000(souch.smp.Main)
+  n                        private updatePlayButton()
+  o                        private vibrate()
+  p                        static access$800(souch.smp.Main)
+  q                        public applyLock()
+  q                        static access$600(souch.smp.Main)
+  r                        private stopPlayButton()
+  s                        static access$500(souch.smp.Main)
+  t                        static access$400(souch.smp.Main)
+  v                        private save()
+  v                        static access$202(souch.smp.Main,souch.smp.RowsAdapter)
+  x                        static access$200(souch.smp.Main)
+  z                        private setFilterItem(android.view.MenuItem)
+  z                        static access$100(souch.smp.Main)
+  z                        static access$1002(souch.smp.Main,boolean)
+  gotoCurrSong             public gotoCurrSong(android.view.View)
+  lockUnlock               public lockUnlock(android.view.View)
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onDestroy                protected onDestroy()
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPrepareOptionsMenu     public onPrepareOptionsMenu(android.view.Menu)
+  onStart                  protected onStart()
+  onStop                   protected onStop()
+  playNext                 public playNext(android.view.View)
+  playOrPause              public playOrPause(android.view.View)
+  playPrev                 public playPrev(android.view.View)
+  settings                 public settings(android.view.View)
+
+souch.smp.Main$1
+===============================================================================
+  onServiceConnected       public onServiceConnected(android.content.ComponentName,android.os.IBinder)
+  onServiceDisconnected    public onServiceDisconnected(android.content.ComponentName)
+
+souch.smp.Main$1$1
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+souch.smp.Main$1$2
+===============================================================================
+  onItemLongClick  public onItemLongClick(android.widget.AdapterView,android.view.View,int,long)
+
+souch.smp.Main$1$3
+===============================================================================
+  run  public run()
+
+souch.smp.Main$1$ArrayOutOfBoundsException       (souch.smp.eval_m)
+===============================================================================
+  No methods
+
+souch.smp.Main$10        (souch.smp.eval_x)
+===============================================================================
+  No methods
+
+souch.smp.Main$2
+===============================================================================
+  onProgressChanged    public onProgressChanged(android.widget.SeekBar,int,boolean)
+  onStartTrackingTouch public onStartTrackingTouch(android.widget.SeekBar)
+  onStopTrackingTouch  public onStopTrackingTouch(android.widget.SeekBar)
+
+souch.smp.Main$3
+===============================================================================
+  run  public run()
+
+souch.smp.Main$4
+===============================================================================
+  run  public run()
+
+souch.smp.Main$5
+===============================================================================
+  run  public run()
+
+souch.smp.Main$6
+===============================================================================
+  onTouch  public onTouch(android.view.View,android.view.MotionEvent)
+
+souch.smp.Main$7
+===============================================================================
+  e    public onRepeat(android.view.View,long,int)
+
+souch.smp.Main$8
+===============================================================================
+  e    public onRepeat(android.view.View,long,int)
+
+souch.smp.Main$9
+===============================================================================
+  No methods
+
+souch.smp.Main$Exception (souch.smp.eval_h)
+===============================================================================
+  No methods
+
+souch.smp.MediaButtonIntentReceiver
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+souch.smp.MediaButtonIntentReceiver$NullPointerException (souch.smp.eval_n)
+===============================================================================
+  No methods
+
+souch.smp.MusicService   (souch.smp.eval_k)
+===============================================================================
+  a                    private stopSensor()
+  b                    public isPlaying()
+  b                    public setEnableShake(boolean)
+  b                    public seekTo(int)
+  c                    public getRows()
+  d                    public getChanged()
+  d                    private getAccelerometer(android.hardware.SensorEvent)
+  e                    public pause()
+  eval_i               public playingStopped()
+  eval_n               private releaseAudio()
+  eval_q               public playingPaused()
+  eval_r               public getEnableShake()
+  eval_s               public getSeekFinished()
+  eval_x               private restore()
+  f                    private startSensor()
+  f                    public isInState(int)
+  g                    public playPrev()
+  h                    private save()
+  i                    public stopNotification()
+  i                    static access$202(souch.smp.MusicService,boolean)
+  k                    static access$102(souch.smp.MusicService,int)
+  l                    private getPlayer()
+  m                    public start()
+  o                    public playingLaunched()
+  p                    public setMainIsVisible(boolean)
+  r                    public getDuration()
+  r                    public setShakeThreshold(float)
+  t                    static access$100(souch.smp.MusicService)
+  u                    public startNotification()
+  v                    static access$010(souch.smp.MusicService)
+  w                    public getCurrentPosition()
+  x                    public setChanged()
+  y                    public playNext()
+  z                    public playSong()
+  z                    private handleCommand(android.content.Intent)
+  onAccuracyChanged    public onAccuracyChanged(android.hardware.Sensor,int)
+  onAudioFocusChange   public onAudioFocusChange(int)
+  onBind               public onBind(android.content.Intent)
+  onCompletion         public onCompletion(android.media.MediaPlayer)
+  onCreate             public onCreate()
+  onDestroy            public onDestroy()
+  onError              public onError(android.media.MediaPlayer,int,int)
+  onPrepared           public onPrepared(android.media.MediaPlayer)
+  onSeekComplete       public onSeekComplete(android.media.MediaPlayer)
+  onSensorChanged      public onSensorChanged(android.hardware.SensorEvent)
+  onStartCommand       public onStartCommand(android.content.Intent,int,int)
+
+souch.smp.MusicService$1 (souch.smp.eval_k$1)
+===============================================================================
+  run  public run()
+
+souch.smp.MusicService$MusicBinder       (souch.smp.eval_k$d)
+===============================================================================
+  o    getService()
+
+souch.smp.MusicService$ParseException    (souch.smp.eval_l)
+===============================================================================
+  No methods
+
+souch.smp.Parameters     (souch.smp.eval_g)
+===============================================================================
+  b        public abstract getNoLock()
+  c        public abstract getUnfoldSubGroup()
+  c        public abstract setChooseTextSize(boolean)
+  d        public abstract getSongID()
+  eval_b   public abstract getMediaButtonStartAppShake()
+  eval_d   public abstract getSaveSongPos()
+  eval_e   public abstract getUnfoldSubGroupThreshold()
+  eval_n   public abstract getShakeThreshold()
+  eval_w   public abstract getEnableShake()
+  g        public abstract getSongPos()
+  g        public abstract setFilter(souch.smp.Filter)
+  i        public abstract getDefaultFold()
+  j        public abstract getShuffle()
+  m        public abstract getFilter()
+  p        public abstract getFollowSong()
+  q        public abstract getNormalTextSize()
+  q        public abstract setSongPos(int)
+  q        public abstract setSongID(long)
+  s        public abstract getBigTextSize()
+  t        public abstract getTextSizeRatio()
+  u        public abstract setNoLock(boolean)
+  v        public abstract getScrobble()
+  w        public abstract getRootFolder()
+  x        public abstract getVibrate()
+  y        public abstract getChoosedTextSize()
+  y        public abstract setEnableShake(boolean)
+
+souch.smp.Parameters$NullPointerException        (souch.smp.eval_z)
+===============================================================================
+  No methods
+
+souch.smp.ParametersImpl (souch.smp.eval_d)
+===============================================================================
+  b        public getNoLock()
+  c        public getUnfoldSubGroup()
+  c        public setChooseTextSize(boolean)
+  d        public getSongID()
+  eval__   public static getDefaultMusicDir()
+  eval_b   public getMediaButtonStartAppShake()
+  eval_d   public getSaveSongPos()
+  eval_e   public getUnfoldSubGroupThreshold()
+  eval_h   private getEditor()
+  eval_n   public getShakeThreshold()
+  eval_r   private getPref()
+  eval_w   public getEnableShake()
+  g        public getSongPos()
+  g        public setFilter(souch.smp.Filter)
+  i        public getDefaultFold()
+  j        public getShuffle()
+  m        public getFilter()
+  p        public getFollowSong()
+  q        public getNormalTextSize()
+  q        public setSongPos(int)
+  q        public setSongID(long)
+  s        public getBigTextSize()
+  t        public getTextSizeRatio()
+  u        public setNoLock(boolean)
+  v        public getScrobble()
+  w        public getRootFolder()
+  x        public getVibrate()
+  y        public getChoosedTextSize()
+  y        public setEnableShake(boolean)
+
+souch.smp.ParametersImpl$Exception       (souch.smp.eval_a)
+===============================================================================
+  No methods
+
+souch.smp.Path   (souch.smp.eval_y)
+===============================================================================
+  i    private static foldCase(char)
+  i    public static cutFolder(java.lang.String,java.lang.String)
+  s    public static getFolder(java.lang.String)
+  z    public static tokenizeFolder(java.lang.String)
+  z    public static compareToIgnoreCaseShorterFolderLast(java.lang.String,java.lang.String)
+
+souch.smp.Path$Exception (souch.smp.eval_b)
+===============================================================================
+  No methods
+
+souch.smp.PlayerState    (souch.smp.eval_t)
+===============================================================================
+  f    public getState()
+  h    public setState(int)
+  k    public compare(int)
+
+souch.smp.PlayerState$ArrayOutOfBoundsException  (souch.smp.eval_e)
+===============================================================================
+  No methods
+
+souch.smp.PrefKeys       (souch.smp.eval_q)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+souch.smp.PrefKeys$IOException   (souch.smp.eval__)
+===============================================================================
+  No methods
+
+souch.smp.R      (souch.smp.eval_c)
+===============================================================================
+  No methods
+
+souch.smp.R$ArrayOutOfBoundsException    (souch.smp.eval_o)
+===============================================================================
+  No methods
+
+souch.smp.R$array        (souch.smp.eval_c$m)
+===============================================================================
+  No methods
+
+souch.smp.R$attr (souch.smp.eval_c$c)
+===============================================================================
+  No methods
+
+souch.smp.R$color        (souch.smp.eval_c$_)
+===============================================================================
+  No methods
+
+souch.smp.R$dimen        (souch.smp.eval_c$p)
+===============================================================================
+  No methods
+
+souch.smp.R$drawable     (souch.smp.eval_c$eval_l)
+===============================================================================
+  No methods
+
+souch.smp.R$id   (souch.smp.eval_c$z)
+===============================================================================
+  No methods
+
+souch.smp.R$layout       (souch.smp.eval_c$eval_s)
+===============================================================================
+  No methods
+
+souch.smp.R$menu (souch.smp.eval_c$u)
+===============================================================================
+  No methods
+
+souch.smp.R$string       (souch.smp.eval_c$e)
+===============================================================================
+  No methods
+
+souch.smp.R$style        (souch.smp.eval_c$s)
+===============================================================================
+  No methods
+
+souch.smp.R$xml  (souch.smp.eval_c$r)
+===============================================================================
+  No methods
+
+souch.smp.RepeatingImageButton
+===============================================================================
+  h                static access$100(souch.smp.RepeatingImageButton)
+  k                private doRepeat(boolean)
+  t                static access$000(souch.smp.RepeatingImageButton,boolean)
+  w                public setRepeatListener(souch.smp.RepeatingImageButton$RepeatListener,long)
+  onKeyDown        public onKeyDown(int,android.view.KeyEvent)
+  onKeyUp          public onKeyUp(int,android.view.KeyEvent)
+  onTouchEvent     public onTouchEvent(android.view.MotionEvent)
+  performLongClick public performLongClick()
+
+souch.smp.RepeatingImageButton$1
+===============================================================================
+  run  public run()
+
+souch.smp.RepeatingImageButton$NullPointerException      (souch.smp.eval_v)
+===============================================================================
+  No methods
+
+souch.smp.RepeatingImageButton$RepeatListener    (souch.smp.RepeatingImageButton$w)
+===============================================================================
+  e    public abstract onRepeat(android.view.View,long,int)
+
+souch.smp.Row    (souch.smp.eval_w)
+===============================================================================
+  eval_s   public getLevel()
+  f        public static convertDpToPixels(int,android.content.res.Resources)
+  i        public setLevel(int)
+  k        public getParent()
+  l        public setGenuinePos(int)
+  l        public setView(souch.smp.RowViewHolder,souch.smp.Main,int)
+  o        protected getStringOffset()
+  p        public getGenuinePos()
+  p        public setParent(souch.smp.Row)
+
+souch.smp.Row$IOException        (souch.smp.eval_f)
+===============================================================================
+  No methods
+
+souch.smp.RowGroup       (souch.smp.eval_j)
+===============================================================================
+  c        public isSelected()
+  eval_w   public isFolded()
+  f        public incNbRowSong()
+  k        public setSelected(boolean)
+  l        private setText(android.widget.TextView)
+  l        public setView(souch.smp.RowViewHolder,souch.smp.Main,int)
+  n        private setDuration(android.widget.TextView)
+  n        public setFolded(boolean)
+  s        public getName()
+  w        public nbRowSong()
+  toString public toString()
+
+souch.smp.RowGroup$IOException   (souch.smp.eval_sw)
+===============================================================================
+  No methods
+
+souch.smp.RowSong        (souch.smp.eval_wv)
+===============================================================================
+  e        public getPath()
+  eval_n   public getTrack()
+  f        private setCurrIcon(android.widget.ImageView,souch.smp.Main)
+  g        public getDuration()
+  l        public setView(souch.smp.RowViewHolder,souch.smp.Main,int)
+  o        private setDuration(android.widget.TextView)
+  r        public getArtist()
+  t        public getFolder()
+  u        public getTitle()
+  v        public getAlbum()
+  w        public static secondsToMinutes(int)
+  y        public getID()
+  y        private setText(android.widget.TextView)
+  toString public toString()
+
+souch.smp.RowSong$ParseException (souch.smp.eval_lt)
+===============================================================================
+  No methods
+
+souch.smp.RowViewHolder  (souch.smp.eval_gg)
+===============================================================================
+  No methods
+
+souch.smp.RowViewHolder$IOException      (souch.smp.eval_p3)
+===============================================================================
+  No methods
+
+souch.smp.Rows   (souch.smp.eval_nm)
+===============================================================================
+  a        public size()
+  b        public isLastRow(int)
+  c        public moveToNextSong()
+  c        public get(int)
+  d        private setGroupSelectedState(int,boolean)
+  e        private restore()
+  e        private unfoldTree(souch.smp.RowGroup,int)
+  eval_d   private initRowsFolded()
+  eval_y   private fold(souch.smp.RowGroup,int)
+  f        public moveToRandomSongBack()
+  f        public setRootFolder(java.lang.String)
+  f        private unfold(souch.smp.RowGroup,int)
+  h        private updateSavedId()
+  i        public unfold()
+  k        public invertFold(int)
+  l        private initByArtist(android.database.Cursor)
+  m        private initByTree(android.database.Cursor)
+  p        public fold()
+  p        public selectNearestSong(int)
+  q        public getFilter()
+  r        public getCurrSong()
+  r        private getDefaultStrIfNull(java.lang.String)
+  s        public unfoldCurrPos()
+  t        public init()
+  u        public getCurrPos()
+  u        private setCurrPos(int)
+  v        public save()
+  w        public moveToPrevSong()
+  w        private initByPath(android.database.Cursor)
+  x        public setFilter(souch.smp.Filter)
+  y        public moveToRandomSong()
+  y        private hasOneSubGroup(souch.smp.RowGroup,int)
+
+souch.smp.Rows$1 (souch.smp.eval_nm$1)
+===============================================================================
+  c        public compare(souch.smp.Row,souch.smp.Row)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+souch.smp.Rows$2 (souch.smp.eval_nm$2)
+===============================================================================
+  a        public compare(souch.smp.Row,souch.smp.Row)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+souch.smp.Rows$3 (souch.smp.eval_nm$3)
+===============================================================================
+  No methods
+
+souch.smp.Rows$Exception (souch.smp.eval_ql)
+===============================================================================
+  No methods
+
+souch.smp.RowsAdapter    (souch.smp.eval_t9)
+===============================================================================
+  getCount     public getCount()
+  getItem      public getItem(int)
+  getItemId    public getItemId(int)
+  getView      public getView(int,android.view.View,android.view.ViewGroup)
+
+souch.smp.RowsAdapter$ArrayOutOfBoundsException  (souch.smp.eval_m1)
+===============================================================================
+  No methods
+
+souch.smp.Scrobble       (souch.smp.eval_sv)
+===============================================================================
+  s    public send(int)
+
+souch.smp.Scrobble$IOException   (souch.smp.eval_ih)
+===============================================================================
+  No methods
+
+souch.smp.Settings       (souch.smp.eval_pk)
+===============================================================================
+  eval_j                       private setUnfoldThresholdSummary()
+  eval_r                       static access$102(souch.smp.Settings,boolean)
+  eval_v                       private setChoosedTextSizeSummary()
+  l                            static access$002(souch.smp.Settings,souch.smp.MusicService)
+  m                            private showDonateWebsite()
+  o                            private setFoldSummary()
+  q                            private setUnfoldSubgroup()
+  u                            public rescan()
+  onCreate                     protected onCreate(android.os.Bundle)
+  onDestroy                    protected onDestroy()
+  onPause                      protected onPause()
+  onPreferenceClick            public onPreferenceClick(android.preference.Preference)
+  onResume                     protected onResume()
+  onSharedPreferenceChanged    public onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+
+souch.smp.Settings$1     (souch.smp.eval_pk$1)
+===============================================================================
+  onServiceConnected       public onServiceConnected(android.content.ComponentName,android.os.IBinder)
+  onServiceDisconnected    public onServiceDisconnected(android.content.ComponentName)
+
+souch.smp.Settings$IOException   (souch.smp.eval_m8)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 401
+  Renamed to eval_h :  15 (3.7%)
+  Renamed to eval_a :  12 (3.0%)
+  Renamed to eval_v :  12 (3.0%)
+  Renamed to eval_b :  11 (2.7%)
+  Renamed to eval_c :  11 (2.7%)
+  Renamed to eval_f :  11 (2.7%)
+  Renamed to eval_k :  11 (2.7%)
+  Renamed to eval_d :   9 (2.2%)
+  Renamed to eval_e :   9 (2.2%)
+  Renamed to eval_g :   9 (2.2%)
+
+Number of Methods : 276
+  Renamed to i :  11 (4.0%)
+  Renamed to f :  10 (3.6%)
+  Renamed to q :  10 (3.6%)
+  Renamed to c :   9 (3.3%)
+  Renamed to e :   9 (3.3%)
+  Renamed to l :   9 (3.3%)
+  Renamed to y :   9 (3.3%)
+  Renamed to p :   8 (2.9%)
+  Renamed to w :   8 (2.9%)
+  Renamed to b :   7 (2.5%)
+

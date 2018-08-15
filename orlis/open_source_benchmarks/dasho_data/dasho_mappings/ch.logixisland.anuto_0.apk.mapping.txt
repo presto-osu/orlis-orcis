@@ -1,0 +1,2288 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+ch.logixisland.anuto.h           public ch.logixisland.anuto.AnutoApp
+ch.logixisland.anuto.h$1         ch.logixisland.anuto.AnutoApp$1
+ch.logixisland.anuto.eval__      public final ch.logixisland.anuto.game.Layers
+ch.logixisland.anuto.eval_a      public ch.logixisland.anuto.game.GameManager
+ch.logixisland.anuto.eval_b      public ch.logixisland.anuto.game.GameEngine$ArrayOutOfBoundsException
+ch.logixisland.anuto.eval_c      public ch.logixisland.anuto.BuildConfig$1
+ch.logixisland.anuto.eval_d      public ch.logixisland.anuto.GameView$Exception
+ch.logixisland.anuto.eval_e      public final ch.logixisland.anuto.R
+ch.logixisland.anuto.eval_f      public ch.logixisland.anuto.AnutoApp$Exception
+ch.logixisland.anuto.eval_g      public ch.logixisland.anuto.game.WaveManager
+ch.logixisland.anuto.eval_i      public ch.logixisland.anuto.R$ParseException
+ch.logixisland.anuto.eval_j      public ch.logixisland.anuto.game.GameManager$1$Exception
+ch.logixisland.anuto.eval_k      public ch.logixisland.anuto.AnutoApp$2
+ch.logixisland.anuto.eval_l      public ch.logixisland.anuto.BuildConfig$ParseException
+ch.logixisland.anuto.eval_m      public ch.logixisland.anuto.StatusFragment$NullPointerException
+ch.logixisland.anuto.eval_n      public final ch.logixisland.anuto.BuildConfig
+ch.logixisland.anuto.eval_o      public ch.logixisland.anuto.TowerView$NullPointerException
+ch.logixisland.anuto.eval_p      public final ch.logixisland.anuto.game.TypeIds
+ch.logixisland.anuto.eval_q      public ch.logixisland.anuto.game.TickTimer$NullPointerException
+ch.logixisland.anuto.eval_r      public ch.logixisland.anuto.game.Layers$ParseException
+ch.logixisland.anuto.eval_s      public ch.logixisland.anuto.InventoryFragment$IOException
+ch.logixisland.anuto.eval_t      public ch.logixisland.anuto.game.GameManager$ParseException
+ch.logixisland.anuto.eval_u      public ch.logixisland.anuto.game.TypeIds$IOException
+ch.logixisland.anuto.eval_v      public ch.logixisland.anuto.game.TickTimer
+ch.logixisland.anuto.eval_w      public ch.logixisland.anuto.GameOverFragment$ParseException
+ch.logixisland.anuto.eval_x      public ch.logixisland.anuto.MainActivity$IOException
+ch.logixisland.anuto.eval_y      public ch.logixisland.anuto.game.GameEngine
+ch.logixisland.anuto.eval_z      public ch.logixisland.anuto.TowerInfoFragment$IOException
+ch.logixisland.anuto.eval___     public final ch.logixisland.anuto.util.math.Intersections
+ch.logixisland.anuto.eval__b     public ch.logixisland.anuto.game.data.PlateauDescriptor$IOException
+ch.logixisland.anuto.eval__i     public ch.logixisland.anuto.game.WaveManager$2$Exception
+ch.logixisland.anuto.eval__u     public ch.logixisland.anuto.game.objects.impl.Explosion$IOException
+ch.logixisland.anuto.eval__w     public ch.logixisland.anuto.game.objects.impl.Canon$Exception
+ch.logixisland.anuto.eval_a1     public ch.logixisland.anuto.game.objects.impl.GlueShot$ParseException
+ch.logixisland.anuto.eval_av     public ch.logixisland.anuto.game.data.Path
+ch.logixisland.anuto.eval_b1     public ch.logixisland.anuto.game.data.EnemyConfig$ParseException
+ch.logixisland.anuto.eval_bh     public ch.logixisland.anuto.game.objects.impl.HealEffect
+ch.logixisland.anuto.eval_bl     public ch.logixisland.anuto.game.objects.impl.MineLayer$IOException
+ch.logixisland.anuto.eval_c0     public ch.logixisland.anuto.util.iterator.TransformingIterator$NullPointerException
+ch.logixisland.anuto.eval_c9     public ch.logixisland.anuto.game.objects.impl.Mortar$NullPointerException
+ch.logixisland.anuto.eval_cb     public ch.logixisland.anuto.game.objects.impl.LaserStraight$ParseException
+ch.logixisland.anuto.eval_cf     public ch.logixisland.anuto.game.objects.impl.GlueGun$ArrayOutOfBoundsException
+ch.logixisland.anuto.eval_d0     public ch.logixisland.anuto.game.objects.Effect$NullPointerException
+ch.logixisland.anuto.eval_d6     public ch.logixisland.anuto.game.objects.Sprite$NullPointerException
+ch.logixisland.anuto.eval_d7     public ch.logixisland.anuto.game.objects.impl.Blob$IOException
+ch.logixisland.anuto.eval_d_     public ch.logixisland.anuto.util.iterator.StreamIterator$Exception
+ch.logixisland.anuto.eval_db     public ch.logixisland.anuto.game.data.Level$ArrayOutOfBoundsException
+ch.logixisland.anuto.eval_dd     public abstract ch.logixisland.anuto.util.math.SampledFunction
+ch.logixisland.anuto.eval_dj     public abstract ch.logixisland.anuto.game.objects.GameObject
+ch.logixisland.anuto.eval_dm     public ch.logixisland.anuto.game.objects.impl.TeleportTower$ParseException
+ch.logixisland.anuto.eval_do     public ch.logixisland.anuto.game.objects.Shot$IOException
+ch.logixisland.anuto.eval_dq     public abstract ch.logixisland.anuto.util.iterator.ComputingIterator
+ch.logixisland.anuto.eval_dv     public ch.logixisland.anuto.util.container.ListenerList
+ch.logixisland.anuto.eval_dw     public ch.logixisland.anuto.game.objects.impl.CanonDual$IOException
+ch.logixisland.anuto.eval_eo     public ch.logixisland.anuto.game.objects.impl.CanonMG$ArrayOutOfBoundsException
+ch.logixisland.anuto.eval_f0     public ch.logixisland.anuto.game.objects.Tower$Exception
+ch.logixisland.anuto.eval_f2     public ch.logixisland.anuto.game.data.Wave$NullPointerException
+ch.logixisland.anuto.eval_f_     public ch.logixisland.anuto.game.objects.impl.Explosion
+ch.logixisland.anuto.eval_fb     public ch.logixisland.anuto.game.objects.DrawObject$Exception
+ch.logixisland.anuto.eval_fm     public ch.logixisland.anuto.util.math.Vector2$IOException
+ch.logixisland.anuto.eval_g1     public ch.logixisland.anuto.game.objects.impl.LaserTower2$NullPointerException
+ch.logixisland.anuto.eval_gi     public ch.logixisland.anuto.game.objects.impl.GlueTower$IOException
+ch.logixisland.anuto.eval_gu     public ch.logixisland.anuto.game.data.Settings
+ch.logixisland.anuto.eval_ha     public ch.logixisland.anuto.game.objects.impl.Rocket$NullPointerException
+ch.logixisland.anuto.eval_hk     public ch.logixisland.anuto.game.data.Settings$Exception
+ch.logixisland.anuto.eval_hl     public ch.logixisland.anuto.game.objects.impl.Flyer$Exception
+ch.logixisland.anuto.eval_i_     public ch.logixisland.anuto.game.WaveManager$ParseException
+ch.logixisland.anuto.eval_ia     public ch.logixisland.anuto.game.objects.impl.HealEffect$Exception
+ch.logixisland.anuto.eval_id     public ch.logixisland.anuto.game.objects.AimingTower$NullPointerException
+ch.logixisland.anuto.eval_iy     public ch.logixisland.anuto.game.data.TowerConfig
+ch.logixisland.anuto.eval_j6     public ch.logixisland.anuto.game.objects.impl.Laser$Exception
+ch.logixisland.anuto.eval_je     public ch.logixisland.anuto.util.iterator.FilteringIterator$ParseException
+ch.logixisland.anuto.eval_jt     public ch.logixisland.anuto.util.container.ConcurrentCollectionMap$Exception
+ch.logixisland.anuto.eval_jw     public ch.logixisland.anuto.game.objects.impl.LaserTower1$NullPointerException
+ch.logixisland.anuto.eval_k4     public ch.logixisland.anuto.game.objects.impl.MortarShot$Exception
+ch.logixisland.anuto.eval_k7     public abstract ch.logixisland.anuto.util.math.Function
+ch.logixisland.anuto.eval_kx     public abstract ch.logixisland.anuto.game.objects.Plateau
+ch.logixisland.anuto.eval_l0     public ch.logixisland.anuto.game.objects.impl.Mine
+ch.logixisland.anuto.eval_lq     public ch.logixisland.anuto.game.objects.impl.TeleportEffect
+ch.logixisland.anuto.eval_lu     public ch.logixisland.anuto.game.objects.impl.MortarShot
+ch.logixisland.anuto.eval_m8     public ch.logixisland.anuto.game.objects.GameObject$Exception
+ch.logixisland.anuto.eval_m_     public ch.logixisland.anuto.util.math.Vector2
+ch.logixisland.anuto.eval_ma     public ch.logixisland.anuto.game.objects.impl.CanonShotMG$NullPointerException
+ch.logixisland.anuto.eval_mc     public ch.logixisland.anuto.util.container.ListenerList$IOException
+ch.logixisland.anuto.eval_mr     public ch.logixisland.anuto.game.objects.impl.GlueShot
+ch.logixisland.anuto.eval_n4     public abstract ch.logixisland.anuto.game.objects.HomingShot
+ch.logixisland.anuto.eval_ni     public ch.logixisland.anuto.game.objects.Enemy$Exception
+ch.logixisland.anuto.eval_ns     public ch.logixisland.anuto.util.math.SampledFunction$ArrayOutOfBoundsException
+ch.logixisland.anuto.eval_ny     public final ch.logixisland.anuto.util.math.MathUtils
+ch.logixisland.anuto.eval_of     public ch.logixisland.anuto.game.data.Level
+ch.logixisland.anuto.eval_ou     public ch.logixisland.anuto.game.objects.impl.Mine$IOException
+ch.logixisland.anuto.eval_ov     public ch.logixisland.anuto.util.iterator.TransformingIterator
+ch.logixisland.anuto.eval_p5     public ch.logixisland.anuto.util.iterator.ComputingIterator$ParseException
+ch.logixisland.anuto.eval_p7     public ch.logixisland.anuto.game.data.EnemyDescriptor$ArrayOutOfBoundsException
+ch.logixisland.anuto.eval_pk     public ch.logixisland.anuto.util.math.MathUtils$NullPointerException
+ch.logixisland.anuto.eval_q4     public ch.logixisland.anuto.game.objects.impl.GlueEffect
+ch.logixisland.anuto.eval_q7     public ch.logixisland.anuto.game.objects.Sprite$Instance$Exception
+ch.logixisland.anuto.eval_qb     public ch.logixisland.anuto.game.data.Path$NullPointerException
+ch.logixisland.anuto.eval_qt     public ch.logixisland.anuto.util.math.Intersections$Exception
+ch.logixisland.anuto.eval_qy     public ch.logixisland.anuto.game.objects.AreaEffect$Exception
+ch.logixisland.anuto.eval_r0     public abstract ch.logixisland.anuto.game.objects.Enemy
+ch.logixisland.anuto.eval_r3     public abstract ch.logixisland.anuto.game.objects.AreaEffect
+ch.logixisland.anuto.eval_s6     public abstract ch.logixisland.anuto.game.objects.Effect
+ch.logixisland.anuto.eval_s_     public ch.logixisland.anuto.util.iterator.Predicate$Exception
+ch.logixisland.anuto.eval_sc     public ch.logixisland.anuto.game.objects.impl.RocketLauncher$IOException
+ch.logixisland.anuto.eval_sg     public ch.logixisland.anuto.game.objects.impl.LaserStraight
+ch.logixisland.anuto.eval_sx     public ch.logixisland.anuto.game.data.Wave
+ch.logixisland.anuto.eval_t1     public ch.logixisland.anuto.util.container.ConcurrentCollection
+ch.logixisland.anuto.eval_t9     public ch.logixisland.anuto.game.objects.impl.CanonShot$IOException
+ch.logixisland.anuto.eval_t_     public ch.logixisland.anuto.game.data.TowerConfig$ParseException
+ch.logixisland.anuto.eval_tg     public ch.logixisland.anuto.game.objects.Sprite
+ch.logixisland.anuto.eval_to     public ch.logixisland.anuto.util.container.ConcurrentCollection$ArrayOutOfBoundsException
+ch.logixisland.anuto.eval_u1     public ch.logixisland.anuto.game.objects.impl.GlueEffect$Exception
+ch.logixisland.anuto.eval_u5     public ch.logixisland.anuto.util.iterator.Function$IOException
+ch.logixisland.anuto.eval_ug     public abstract ch.logixisland.anuto.game.objects.Shot
+ch.logixisland.anuto.eval_ur     public abstract interface ch.logixisland.anuto.util.iterator.Predicate
+ch.logixisland.anuto.eval_us     public ch.logixisland.anuto.game.objects.impl.CanonShotMG
+ch.logixisland.anuto.eval_ux     public abstract ch.logixisland.anuto.game.objects.Tower
+ch.logixisland.anuto.eval_v6     public ch.logixisland.anuto.game.objects.impl.Laser
+ch.logixisland.anuto.eval_vd     public ch.logixisland.anuto.game.objects.Plateau$ArrayOutOfBoundsException
+ch.logixisland.anuto.eval_vh     public abstract ch.logixisland.anuto.util.iterator.StreamIterator
+ch.logixisland.anuto.eval_vq     public ch.logixisland.anuto.game.objects.impl.Soldier$ArrayOutOfBoundsException
+ch.logixisland.anuto.eval_vw     public ch.logixisland.anuto.game.objects.HomingShot$Exception
+ch.logixisland.anuto.eval_w6     public ch.logixisland.anuto.game.data.EnemyDescriptor
+ch.logixisland.anuto.eval_wo     public ch.logixisland.anuto.game.objects.impl.TeleportEffect$IOException
+ch.logixisland.anuto.eval_x8     public abstract interface ch.logixisland.anuto.util.iterator.Function
+ch.logixisland.anuto.eval_x_     public final ch.logixisland.anuto.util.StringUtils
+ch.logixisland.anuto.eval_xa     public ch.logixisland.anuto.util.math.Function$Exception
+ch.logixisland.anuto.eval_xf     public ch.logixisland.anuto.game.objects.impl.CanonShot
+ch.logixisland.anuto.eval_xy     public abstract ch.logixisland.anuto.game.objects.DrawObject
+ch.logixisland.anuto.eval_xz     public ch.logixisland.anuto.game.objects.impl.LaserTower3$NullPointerException
+ch.logixisland.anuto.eval_yd     public ch.logixisland.anuto.util.container.ConcurrentCollectionMap
+ch.logixisland.anuto.eval_yi     public ch.logixisland.anuto.game.objects.impl.Sprinter$ParseException
+ch.logixisland.anuto.eval_yj     public ch.logixisland.anuto.game.data.PlateauDescriptor
+ch.logixisland.anuto.eval_yl     public ch.logixisland.anuto.game.objects.impl.Healer$NullPointerException
+ch.logixisland.anuto.eval_ym     public ch.logixisland.anuto.game.data.EnemyConfig
+ch.logixisland.anuto.eval_yv     public ch.logixisland.anuto.util.StringUtils$ParseException
+ch.logixisland.anuto.eval_yx     public ch.logixisland.anuto.game.objects.impl.BasicPlateau$ArrayOutOfBoundsException
+ch.logixisland.anuto.eval_zc     public ch.logixisland.anuto.util.iterator.FilteringIterator
+ch.logixisland.anuto.eval_zi     public ch.logixisland.anuto.game.objects.impl.Rocket
+ch.logixisland.anuto.eval_a$1    ch.logixisland.anuto.game.GameManager$1
+ch.logixisland.anuto.eval_a$a    public abstract interface ch.logixisland.anuto.game.GameManager$OnTowersAgedListener
+ch.logixisland.anuto.eval_a$d    public abstract interface ch.logixisland.anuto.game.GameManager$OnGameStartedListener
+ch.logixisland.anuto.eval_a$h    public abstract interface ch.logixisland.anuto.game.GameManager$OnCreditsChangedListener
+ch.logixisland.anuto.eval_a$k    public abstract interface ch.logixisland.anuto.game.GameManager$OnShowTowerInfoListener
+ch.logixisland.anuto.eval_a$p    public abstract interface ch.logixisland.anuto.game.GameManager$OnLivesChangedListener
+ch.logixisland.anuto.eval_a$q    public abstract interface ch.logixisland.anuto.game.GameManager$OnWaveDoneListener
+ch.logixisland.anuto.eval_a$t    public abstract interface ch.logixisland.anuto.game.GameManager$OnWaveStartedListener
+ch.logixisland.anuto.eval_a$v    public abstract interface ch.logixisland.anuto.game.GameManager$OnNextWaveReadyListener
+ch.logixisland.anuto.eval_a$x    public abstract interface ch.logixisland.anuto.game.GameManager$OnBonusChangedListener
+ch.logixisland.anuto.eval_a$y    public abstract interface ch.logixisland.anuto.game.GameManager$Listener
+ch.logixisland.anuto.eval_e$_    public final ch.logixisland.anuto.R$mipmap
+ch.logixisland.anuto.eval_e$l    public final ch.logixisland.anuto.R$style
+ch.logixisland.anuto.eval_e$n    public final ch.logixisland.anuto.R$string
+ch.logixisland.anuto.eval_e$q    public final ch.logixisland.anuto.R$layout
+ch.logixisland.anuto.eval_e$u    public final ch.logixisland.anuto.R$drawable
+ch.logixisland.anuto.eval_e$v    public final ch.logixisland.anuto.R$array
+ch.logixisland.anuto.eval_e$x    public final ch.logixisland.anuto.R$dimen
+ch.logixisland.anuto.eval_e$y    public final ch.logixisland.anuto.R$id
+ch.logixisland.anuto.eval_e$z    public final ch.logixisland.anuto.R$attr
+ch.logixisland.anuto.eval_g$1    ch.logixisland.anuto.game.WaveManager$1
+ch.logixisland.anuto.eval_g$2    ch.logixisland.anuto.game.WaveManager$2
+ch.logixisland.anuto.eval_g$3    ch.logixisland.anuto.game.WaveManager$3
+ch.logixisland.anuto.eval_g$4    ch.logixisland.anuto.game.WaveManager$4
+ch.logixisland.anuto.eval_g$j    public abstract interface ch.logixisland.anuto.game.WaveManager$Listener
+ch.logixisland.anuto.eval_y$1    ch.logixisland.anuto.game.GameEngine$1
+ch.logixisland.anuto.eval_y$2    ch.logixisland.anuto.game.GameEngine$2
+ch.logixisland.anuto.eval_y$3    ch.logixisland.anuto.game.GameEngine$3
+ch.logixisland.anuto.eval_y$_    ch.logixisland.anuto.game.GameEngine$DrawObjectCollectionMap
+ch.logixisland.anuto.eval_y$e    public abstract interface ch.logixisland.anuto.game.GameEngine$Listener
+ch.logixisland.anuto.eval_y$q    ch.logixisland.anuto.game.GameEngine$GameObjectCollectionMap
+ch.logixisland.anuto.eval_y$u    public abstract ch.logixisland.anuto.game.GameEngine$StaticData
+ch.logixisland.anuto.eval_bh$t   ch.logixisland.anuto.game.objects.impl.HealEffect$HealDrawObject
+ch.logixisland.anuto.eval_dj$1   final ch.logixisland.anuto.game.objects.GameObject$1
+ch.logixisland.anuto.eval_dj$2   final ch.logixisland.anuto.game.objects.GameObject$2
+ch.logixisland.anuto.eval_dj$3   final ch.logixisland.anuto.game.objects.GameObject$3
+ch.logixisland.anuto.eval_dj$4   final ch.logixisland.anuto.game.objects.GameObject$4
+ch.logixisland.anuto.eval_dj$5   final ch.logixisland.anuto.game.objects.GameObject$5
+ch.logixisland.anuto.eval_dj$f   public abstract interface ch.logixisland.anuto.game.objects.GameObject$Listener
+ch.logixisland.anuto.eval_dv$1   ch.logixisland.anuto.util.container.ListenerList$1
+ch.logixisland.anuto.eval_f_$v   ch.logixisland.anuto.game.objects.impl.Explosion$ExplosionDrawObject
+ch.logixisland.anuto.eval_iy$1   ch.logixisland.anuto.game.data.TowerConfig$1
+ch.logixisland.anuto.eval_iy$2   ch.logixisland.anuto.game.data.TowerConfig$2
+ch.logixisland.anuto.eval_iy$3   ch.logixisland.anuto.game.data.TowerConfig$3
+ch.logixisland.anuto.eval_iy$4   ch.logixisland.anuto.game.data.TowerConfig$4
+ch.logixisland.anuto.eval_k7$1   final ch.logixisland.anuto.util.math.Function$1
+ch.logixisland.anuto.eval_k7$2   final ch.logixisland.anuto.util.math.Function$2
+ch.logixisland.anuto.eval_k7$3   final ch.logixisland.anuto.util.math.Function$3
+ch.logixisland.anuto.eval_k7$4   final ch.logixisland.anuto.util.math.Function$4
+ch.logixisland.anuto.eval_k7$5   ch.logixisland.anuto.util.math.Function$5
+ch.logixisland.anuto.eval_k7$6   ch.logixisland.anuto.util.math.Function$6
+ch.logixisland.anuto.eval_k7$7   ch.logixisland.anuto.util.math.Function$7
+ch.logixisland.anuto.eval_k7$8   ch.logixisland.anuto.util.math.Function$8
+ch.logixisland.anuto.eval_k7$9   ch.logixisland.anuto.util.math.Function$9
+ch.logixisland.anuto.eval_kx$1   final ch.logixisland.anuto.game.objects.Plateau$1
+ch.logixisland.anuto.eval_l0$1   ch.logixisland.anuto.game.objects.impl.Mine$1
+ch.logixisland.anuto.eval_l0$t   ch.logixisland.anuto.game.objects.impl.Mine$StaticData
+ch.logixisland.anuto.eval_lq$y   ch.logixisland.anuto.game.objects.impl.TeleportEffect$TeleportDrawObject
+ch.logixisland.anuto.eval_lu$1   ch.logixisland.anuto.game.objects.impl.MortarShot$1
+ch.logixisland.anuto.eval_lu$a   ch.logixisland.anuto.game.objects.impl.MortarShot$StaticData
+ch.logixisland.anuto.eval_mr$1   ch.logixisland.anuto.game.objects.impl.GlueShot$1
+ch.logixisland.anuto.eval_mr$o   ch.logixisland.anuto.game.objects.impl.GlueShot$StaticData
+ch.logixisland.anuto.eval_n4$1   ch.logixisland.anuto.game.objects.HomingShot$1
+ch.logixisland.anuto.eval_q4$1   ch.logixisland.anuto.game.objects.impl.GlueEffect$1
+ch.logixisland.anuto.eval_q4$i   ch.logixisland.anuto.game.objects.impl.GlueEffect$StaticData
+ch.logixisland.anuto.eval_r0$1   final ch.logixisland.anuto.game.objects.Enemy$1
+ch.logixisland.anuto.eval_r0$2   final ch.logixisland.anuto.game.objects.Enemy$2
+ch.logixisland.anuto.eval_r0$f   ch.logixisland.anuto.game.objects.Enemy$HealthBar
+ch.logixisland.anuto.eval_r3$1   ch.logixisland.anuto.game.objects.AreaEffect$1
+ch.logixisland.anuto.eval_sg$e   ch.logixisland.anuto.game.objects.impl.LaserStraight$LaserDrawObject
+ch.logixisland.anuto.eval_t1$v   ch.logixisland.anuto.util.container.ConcurrentCollection$Itr
+ch.logixisland.anuto.eval_tg$1   ch.logixisland.anuto.game.objects.Sprite$1
+ch.logixisland.anuto.eval_tg$_   public ch.logixisland.anuto.game.objects.Sprite$AnimatedInstance
+ch.logixisland.anuto.eval_tg$c   public abstract interface ch.logixisland.anuto.game.objects.Sprite$Listener
+ch.logixisland.anuto.eval_tg$q   public abstract ch.logixisland.anuto.game.objects.Sprite$Instance
+ch.logixisland.anuto.eval_tg$v   public ch.logixisland.anuto.game.objects.Sprite$FixedInstance
+ch.logixisland.anuto.eval_us$1   ch.logixisland.anuto.game.objects.impl.CanonShotMG$1
+ch.logixisland.anuto.eval_us$k   ch.logixisland.anuto.game.objects.impl.CanonShotMG$StaticData
+ch.logixisland.anuto.eval_ux$n   public ch.logixisland.anuto.game.objects.Tower$PathSection
+ch.logixisland.anuto.eval_ux$t   ch.logixisland.anuto.game.objects.Tower$RangeIndicator
+ch.logixisland.anuto.eval_v6$i   ch.logixisland.anuto.game.objects.impl.Laser$LaserDrawObject
+ch.logixisland.anuto.eval_vh$1   final ch.logixisland.anuto.util.iterator.StreamIterator$1
+ch.logixisland.anuto.eval_vh$2   final ch.logixisland.anuto.util.iterator.StreamIterator$2
+ch.logixisland.anuto.eval_vh$3   ch.logixisland.anuto.util.iterator.StreamIterator$3
+ch.logixisland.anuto.eval_vh$4   ch.logixisland.anuto.util.iterator.StreamIterator$4
+ch.logixisland.anuto.eval_vh$5   ch.logixisland.anuto.util.iterator.StreamIterator$5
+ch.logixisland.anuto.eval_vh$6   ch.logixisland.anuto.util.iterator.StreamIterator$6
+ch.logixisland.anuto.eval_xf$1   ch.logixisland.anuto.game.objects.impl.CanonShot$1
+ch.logixisland.anuto.eval_xf$i   ch.logixisland.anuto.game.objects.impl.CanonShot$StaticData
+ch.logixisland.anuto.eval_yd$p   ch.logixisland.anuto.util.container.ConcurrentCollectionMap$Itr
+ch.logixisland.anuto.eval_zi$1   ch.logixisland.anuto.game.objects.impl.Rocket$1
+ch.logixisland.anuto.eval_zi$i   ch.logixisland.anuto.game.objects.impl.Rocket$StaticData
+ch.logixisland.anuto.eval_a$1$1  ch.logixisland.anuto.game.GameManager$1$1
+ch.logixisland.anuto.eval_g$2$1  ch.logixisland.anuto.game.WaveManager$2$1
+ch.logixisland.anuto.eval_k7$10  ch.logixisland.anuto.util.math.Function$10
+ch.logixisland.anuto.eval_k7$11  ch.logixisland.anuto.util.math.Function$11
+ch.logixisland.anuto.eval_k7$12  ch.logixisland.anuto.util.math.Function$12
+ch.logixisland.anuto.eval_k7$13  ch.logixisland.anuto.util.math.Function$13
+ch.logixisland.anuto.eval_tg$q$1 ch.logixisland.anuto.game.objects.Sprite$Instance$1
+ch.logixisland.anuto.eval_a$eval__       public abstract interface ch.logixisland.anuto.game.GameManager$OnHideTowerInfoListener
+ch.logixisland.anuto.eval_a$eval_e       public abstract interface ch.logixisland.anuto.game.GameManager$OnGameOverListener
+ch.logixisland.anuto.eval_e$eval_a       public final ch.logixisland.anuto.R$styleable
+ch.logixisland.anuto.eval_e$eval_g       public final ch.logixisland.anuto.R$raw
+ch.logixisland.anuto.eval_y$eval_s       ch.logixisland.anuto.game.GameEngine$StaticDataMap
+ch.logixisland.anuto.game.objects.impl.Blob$j    ch.logixisland.anuto.game.objects.impl.Blob$StaticData
+ch.logixisland.anuto.game.objects.impl.Canon$j   ch.logixisland.anuto.game.objects.impl.Canon$StaticData
+ch.logixisland.anuto.game.objects.impl.Flyer$d   ch.logixisland.anuto.game.objects.impl.Flyer$StaticData
+ch.logixisland.anuto.game.objects.AimingTower$f  public final ch.logixisland.anuto.game.objects.AimingTower$Strategy
+ch.logixisland.anuto.game.objects.impl.Healer$_  ch.logixisland.anuto.game.objects.impl.Healer$StaticData
+ch.logixisland.anuto.game.objects.impl.Mortar$j  ch.logixisland.anuto.game.objects.impl.Mortar$StaticData
+ch.logixisland.anuto.game.objects.impl.CanonMG$q ch.logixisland.anuto.game.objects.impl.CanonMG$StaticData
+ch.logixisland.anuto.game.objects.impl.GlueGun$b ch.logixisland.anuto.game.objects.impl.GlueGun$StaticData
+ch.logixisland.anuto.game.objects.impl.Soldier$i ch.logixisland.anuto.game.objects.impl.Soldier$StaticData
+ch.logixisland.anuto.game.objects.impl.Sprinter$n        ch.logixisland.anuto.game.objects.impl.Sprinter$StaticData
+ch.logixisland.anuto.game.objects.impl.CanonDual$k       ch.logixisland.anuto.game.objects.impl.CanonDual$SubCanon
+ch.logixisland.anuto.game.objects.impl.CanonDual$t       ch.logixisland.anuto.game.objects.impl.CanonDual$StaticData
+ch.logixisland.anuto.game.objects.impl.GlueTower$n       ch.logixisland.anuto.game.objects.impl.GlueTower$SubCanon
+ch.logixisland.anuto.game.objects.impl.GlueTower$t       ch.logixisland.anuto.game.objects.impl.GlueTower$StaticData
+ch.logixisland.anuto.game.objects.impl.MineLayer$y       ch.logixisland.anuto.game.objects.impl.MineLayer$StaticData
+ch.logixisland.anuto.game.objects.impl.LaserTower1$t     ch.logixisland.anuto.game.objects.impl.LaserTower1$StaticData
+ch.logixisland.anuto.game.objects.impl.LaserTower2$m     ch.logixisland.anuto.game.objects.impl.LaserTower2$StaticData
+ch.logixisland.anuto.game.objects.impl.LaserTower3$m     ch.logixisland.anuto.game.objects.impl.LaserTower3$StaticData
+ch.logixisland.anuto.game.objects.impl.BasicPlateau$a    ch.logixisland.anuto.game.objects.impl.BasicPlateau$StaticData
+ch.logixisland.anuto.game.objects.impl.TeleportTower$f   ch.logixisland.anuto.game.objects.impl.TeleportTower$StaticData
+ch.logixisland.anuto.game.objects.impl.RocketLauncher$l  ch.logixisland.anuto.game.objects.impl.RocketLauncher$StaticData
+-------------------------------------------------------------------------------
+
+ch.logixisland.anuto.AnutoApp    (ch.logixisland.anuto.h)
+===============================================================================
+  l    private uncaughtException(java.lang.Thread,java.lang.Throwable)
+  s    static access$000(ch.logixisland.anuto.AnutoApp,java.lang.Thread,java.lang.Throwable)
+
+ch.logixisland.anuto.AnutoApp$1  (ch.logixisland.anuto.h$1)
+===============================================================================
+  uncaughtException    public uncaughtException(java.lang.Thread,java.lang.Throwable)
+
+ch.logixisland.anuto.AnutoApp$2  (ch.logixisland.anuto.eval_k)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.AnutoApp$Exception  (ch.logixisland.anuto.eval_f)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.BuildConfig (ch.logixisland.anuto.eval_n)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.BuildConfig$1       (ch.logixisland.anuto.eval_c)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.BuildConfig$ParseException  (ch.logixisland.anuto.eval_l)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.GameOverFragment
+===============================================================================
+  d            static access$100(ch.logixisland.anuto.GameOverFragment)
+  eval_q       public onGameStarted()
+  f            static access$200(ch.logixisland.anuto.GameOverFragment)
+  i            public onGameOver()
+  j            static access$000(ch.logixisland.anuto.GameOverFragment)
+  onAttach     public onAttach(android.app.Activity)
+  onCreateView public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onDetach     public onDetach()
+
+ch.logixisland.anuto.GameOverFragment$1
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.GameOverFragment$ParseException     (ch.logixisland.anuto.eval_w)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.GameView
+===============================================================================
+  i                public stop()
+  p                public start()
+  onDrag           public onDrag(android.view.View,android.view.DragEvent)
+  onDraw           public onDraw(android.graphics.Canvas)
+  onSizeChanged    public onSizeChanged(int,int,int,int)
+  onTouch          public onTouch(android.view.View,android.view.MotionEvent)
+  run              public run()
+
+ch.logixisland.anuto.GameView$Exception  (ch.logixisland.anuto.eval_d)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.InventoryFragment
+===============================================================================
+  eval_q       public onGameStarted()
+  onAttach     public onAttach(android.app.Activity)
+  onCreateView public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onDetach     public onDetach()
+
+ch.logixisland.anuto.InventoryFragment$IOException       (ch.logixisland.anuto.eval_s)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.MainActivity
+===============================================================================
+  onCreate protected onCreate(android.os.Bundle)
+  onStart  public onStart()
+  onStop   public onStop()
+
+ch.logixisland.anuto.MainActivity$IOException    (ch.logixisland.anuto.eval_x)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R   (ch.logixisland.anuto.eval_e)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R$ParseException    (ch.logixisland.anuto.eval_i)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R$array     (ch.logixisland.anuto.eval_e$v)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R$attr      (ch.logixisland.anuto.eval_e$z)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R$dimen     (ch.logixisland.anuto.eval_e$x)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R$drawable  (ch.logixisland.anuto.eval_e$u)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R$id        (ch.logixisland.anuto.eval_e$y)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R$layout    (ch.logixisland.anuto.eval_e$q)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R$mipmap    (ch.logixisland.anuto.eval_e$_)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R$raw       (ch.logixisland.anuto.eval_e$eval_g)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R$string    (ch.logixisland.anuto.eval_e$n)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R$style     (ch.logixisland.anuto.eval_e$l)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.R$styleable (ch.logixisland.anuto.eval_e$eval_a)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.StatusFragment
+===============================================================================
+  a            static access$000(ch.logixisland.anuto.StatusFragment)
+  c            static access$400(ch.logixisland.anuto.StatusFragment)
+  e            static access$500(ch.logixisland.anuto.StatusFragment)
+  eval_q       public onGameStarted()
+  g            static access$200(ch.logixisland.anuto.StatusFragment)
+  h            public onCreditsChanged(int)
+  i            public onGameOver()
+  l            public onNextWaveReady(ch.logixisland.anuto.game.data.Wave)
+  p            public onLivesChanged(int)
+  q            static access$100(ch.logixisland.anuto.StatusFragment)
+  t            static access$300(ch.logixisland.anuto.StatusFragment)
+  t            public onBonusChanged(int,int)
+  u            public onWaveStarted(ch.logixisland.anuto.game.data.Wave)
+  onAttach     public onAttach(android.app.Activity)
+  onClick      public onClick(android.view.View)
+  onCreateView public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onDetach     public onDetach()
+
+ch.logixisland.anuto.StatusFragment$1
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+ch.logixisland.anuto.StatusFragment$2
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.StatusFragment$3
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.StatusFragment$4
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.StatusFragment$5
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.StatusFragment$6
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.StatusFragment$7
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.StatusFragment$8
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.StatusFragment$NullPointerException (ch.logixisland.anuto.eval_m)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.TowerInfoFragment
+===============================================================================
+  e            private onSellClicked()
+  eval_i       static access$100(ch.logixisland.anuto.TowerInfoFragment)
+  eval_v       private onUpgradeClicked()
+  f            private refresh()
+  h            private hide()
+  h            public onCreditsChanged(int)
+  i            public onGameOver()
+  i            static access$200(ch.logixisland.anuto.TowerInfoFragment)
+  k            public onTowersAged()
+  m            private onEnhanceClicked()
+  o            static access$000(ch.logixisland.anuto.TowerInfoFragment)
+  s            private show()
+  s            public onShowTowerInfo(ch.logixisland.anuto.game.objects.Tower)
+  v            private onStrategyClicked()
+  y            private onLockTargetClicked()
+  z            public onHideTowerInfo()
+  onAttach     public onAttach(android.app.Activity)
+  onClick      public onClick(android.view.View)
+  onCreateView public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onDetach     public onDetach()
+  onTouch      public onTouch(android.view.View,android.view.MotionEvent)
+
+ch.logixisland.anuto.TowerInfoFragment$1
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.TowerInfoFragment$2
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.TowerInfoFragment$3
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.TowerInfoFragment$4
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.TowerInfoFragment$5
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.TowerInfoFragment$IOException       (ch.logixisland.anuto.eval_z)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.TowerView
+===============================================================================
+  b                private newTower()
+  b                public setTowerClass(java.lang.Class)
+  e                public getTowerClass()
+  eval_r           public close()
+  o                static access$100(ch.logixisland.anuto.TowerView)
+  r                public setTower(ch.logixisland.anuto.game.objects.Tower)
+  u                static access$000(ch.logixisland.anuto.TowerView)
+  x                public setTowerClass(java.lang.String)
+  onDraw           protected onDraw(android.graphics.Canvas)
+  onSizeChanged    protected onSizeChanged(int,int,int,int)
+  onTouch          public onTouch(android.view.View,android.view.MotionEvent)
+
+ch.logixisland.anuto.TowerView$1
+===============================================================================
+  h    public onCreditsChanged(int)
+
+ch.logixisland.anuto.TowerView$2
+===============================================================================
+  onDrawShadow             public onDrawShadow(android.graphics.Canvas)
+  onProvideShadowMetrics   public onProvideShadowMetrics(android.graphics.Point,android.graphics.Point)
+
+ch.logixisland.anuto.TowerView$NullPointerException      (ch.logixisland.anuto.eval_o)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.GameEngine     (ch.logixisland.anuto.eval_y)
+===============================================================================
+  b        public setResources(android.content.res.Resources)
+  d        public gameToScreen(ch.logixisland.anuto.util.math.Vector2)
+  d        public getRandom(float)
+  d        public remove(java.lang.Runnable)
+  e        private calcScreenMatrix()
+  e        public tick100ms(java.lang.Object)
+  eval_e   public add(java.lang.Runnable)
+  eval_g   public get()
+  eval_l   public stop()
+  eval_m   public createHandler()
+  eval_o   public getRandom()
+  eval_w   public setScreenSize(int,int)
+  h        public static getInstance()
+  h        public get(int)
+  i        public clear()
+  i        public getRandom(int,int)
+  j        public getStaticData(ch.logixisland.anuto.game.objects.GameObject)
+  k        public getResources()
+  l        public getTickCount()
+  l        public add(ch.logixisland.anuto.game.objects.GameObject)
+  l        public getRandom(int)
+  p        public isRunning()
+  q        public inGame(ch.logixisland.anuto.util.math.Vector2)
+  r        public start()
+  s        public draw(android.graphics.Canvas)
+  s        public remove(ch.logixisland.anuto.game.objects.GameObject)
+  t        public tick()
+  t        public add(ch.logixisland.anuto.game.objects.DrawObject)
+  u        public screenToGame(ch.logixisland.anuto.util.math.Vector2)
+  v        public getGameSize()
+  y        public getScreenSize()
+  y        public remove(ch.logixisland.anuto.game.objects.DrawObject)
+  y        public getRandom(float,float)
+  y        public setGameSize(int,int)
+
+ch.logixisland.anuto.game.GameEngine$1   (ch.logixisland.anuto.eval_y$1)
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.game.GameEngine$2   (ch.logixisland.anuto.eval_y$2)
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.game.GameEngine$3   (ch.logixisland.anuto.eval_y$3)
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.game.GameEngine$ArrayOutOfBoundsException   (ch.logixisland.anuto.eval_b)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.GameEngine$DrawObjectCollectionMap     (ch.logixisland.anuto.eval_y$_)
+===============================================================================
+  t    protected compareKeys(java.lang.Integer,java.lang.Integer)
+  t    protected volatile compareKeys(java.lang.Object,java.lang.Object)
+
+ch.logixisland.anuto.game.GameEngine$GameObjectCollectionMap     (ch.logixisland.anuto.eval_y$q)
+===============================================================================
+  c        public add(java.lang.Integer,ch.logixisland.anuto.game.objects.GameObject)
+  c        public volatile add(java.lang.Object,java.lang.Object)
+  eval_r   public remove(java.lang.Integer,ch.logixisland.anuto.game.objects.GameObject)
+  l        protected compareKeys(java.lang.Integer,java.lang.Integer)
+  p        public volatile remove(java.lang.Object,java.lang.Object)
+  t        protected volatile compareKeys(java.lang.Object,java.lang.Object)
+
+ch.logixisland.anuto.game.GameEngine$Listener    (ch.logixisland.anuto.eval_y$e)
+===============================================================================
+  z    public abstract onTick()
+
+ch.logixisland.anuto.game.GameEngine$StaticData  (ch.logixisland.anuto.eval_y$u)
+===============================================================================
+  m    public tick()
+
+ch.logixisland.anuto.game.GameEngine$StaticDataMap       (ch.logixisland.anuto.eval_y$eval_s)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.GameManager    (ch.logixisland.anuto.eval_a)
+===============================================================================
+  b        public static getInstance()
+  b        public showTowerInfo(ch.logixisland.anuto.game.objects.Tower)
+  b        public setLives(int)
+  c        private onBonusChanged()
+  c        static access$900(ch.logixisland.anuto.game.GameManager)
+  c        public takeLives(int)
+  d        static access$302(ch.logixisland.anuto.game.GameManager,boolean)
+  d        public setCredits(int)
+  e        public getNextWave()
+  e        public removeListener(ch.logixisland.anuto.game.GameManager$Listener)
+  eval__   private onGameStarted()
+  eval_a   public isGameWon()
+  eval_c   public hasCurrentWave()
+  eval_d   private onHideTowerInfo()
+  eval_f   private reset()
+  eval_i   public getWaveIterationCount()
+  eval_j   private onGameOver()
+  eval_m   public hasNextWave()
+  eval_n   private onTowersAged()
+  eval_o   private onCreditsChanged()
+  eval_p   public getLives()
+  eval_q   public getEarlyBonus()
+  eval_u   public startNextWave()
+  eval_v   private onNextWaveReady()
+  eval_x   private onLivesChanged()
+  f        public getScore()
+  g        private ageTowers()
+  h        private calcEarlyBonus()
+  h        static access$200(ch.logixisland.anuto.game.GameManager)
+  i        public getSettings()
+  j        public getSelectedTower()
+  j        static access$500(ch.logixisland.anuto.game.GameManager)
+  j        static access$702(ch.logixisland.anuto.game.GameManager,boolean)
+  j        private calcWaveModifiers(ch.logixisland.anuto.game.WaveManager)
+  j        public setSelectedTower(ch.logixisland.anuto.game.objects.Tower)
+  k        static access$300(ch.logixisland.anuto.game.GameManager)
+  l        public getLevel()
+  m        public restart()
+  m        static access$802(ch.logixisland.anuto.game.GameManager,boolean)
+  n        public giveCredits(int,boolean)
+  o        private getCurrentWaveManager()
+  o        public takeCredits(int)
+  p        public isGameOver()
+  p        public setContext(android.content.Context)
+  q        public getWaveNumber()
+  q        static access$400(ch.logixisland.anuto.game.GameManager)
+  q        public giveLives(int)
+  r        public getBonus()
+  r        public onWaveDone(ch.logixisland.anuto.game.data.Wave)
+  s        public getCredits()
+  t        public hideTowerInfo()
+  v        public getCurrentWave()
+  v        public getContext(android.content.Context)
+  v        static access$600(ch.logixisland.anuto.game.GameManager)
+  w        static access$000(ch.logixisland.anuto.game.GameManager)
+  w        public addListener(ch.logixisland.anuto.game.GameManager$Listener)
+  x        public setLevel(ch.logixisland.anuto.game.data.Level)
+  x        private onShowTowerInfo(ch.logixisland.anuto.game.objects.Tower)
+  y        public onWaveStarted(ch.logixisland.anuto.game.data.Wave)
+  z        static access$100(ch.logixisland.anuto.game.GameManager)
+
+ch.logixisland.anuto.game.GameManager$1  (ch.logixisland.anuto.eval_a$1)
+===============================================================================
+  j    public onFinished(ch.logixisland.anuto.game.WaveManager)
+  l    public onEnemyRemoved(ch.logixisland.anuto.game.WaveManager,ch.logixisland.anuto.game.objects.Enemy)
+  n    public onAborted(ch.logixisland.anuto.game.WaveManager)
+  q    public onStarted(ch.logixisland.anuto.game.WaveManager)
+  z    public onEnemyAdded(ch.logixisland.anuto.game.WaveManager,ch.logixisland.anuto.game.objects.Enemy)
+
+ch.logixisland.anuto.game.GameManager$1$1        (ch.logixisland.anuto.eval_a$1$1)
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.game.GameManager$1$Exception        (ch.logixisland.anuto.eval_j)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.GameManager$Listener   (ch.logixisland.anuto.eval_a$y)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.GameManager$OnBonusChangedListener     (ch.logixisland.anuto.eval_a$x)
+===============================================================================
+  t    public abstract onBonusChanged(int,int)
+
+ch.logixisland.anuto.game.GameManager$OnCreditsChangedListener   (ch.logixisland.anuto.eval_a$h)
+===============================================================================
+  h    public abstract onCreditsChanged(int)
+
+ch.logixisland.anuto.game.GameManager$OnGameOverListener (ch.logixisland.anuto.eval_a$eval_e)
+===============================================================================
+  i    public abstract onGameOver()
+
+ch.logixisland.anuto.game.GameManager$OnGameStartedListener      (ch.logixisland.anuto.eval_a$d)
+===============================================================================
+  eval_q   public abstract onGameStarted()
+
+ch.logixisland.anuto.game.GameManager$OnHideTowerInfoListener    (ch.logixisland.anuto.eval_a$eval__)
+===============================================================================
+  z    public abstract onHideTowerInfo()
+
+ch.logixisland.anuto.game.GameManager$OnLivesChangedListener     (ch.logixisland.anuto.eval_a$p)
+===============================================================================
+  p    public abstract onLivesChanged(int)
+
+ch.logixisland.anuto.game.GameManager$OnNextWaveReadyListener    (ch.logixisland.anuto.eval_a$v)
+===============================================================================
+  l    public abstract onNextWaveReady(ch.logixisland.anuto.game.data.Wave)
+
+ch.logixisland.anuto.game.GameManager$OnShowTowerInfoListener    (ch.logixisland.anuto.eval_a$k)
+===============================================================================
+  s    public abstract onShowTowerInfo(ch.logixisland.anuto.game.objects.Tower)
+
+ch.logixisland.anuto.game.GameManager$OnTowersAgedListener       (ch.logixisland.anuto.eval_a$a)
+===============================================================================
+  k    public abstract onTowersAged()
+
+ch.logixisland.anuto.game.GameManager$OnWaveDoneListener (ch.logixisland.anuto.eval_a$q)
+===============================================================================
+  j    public abstract onWaveDone(ch.logixisland.anuto.game.data.Wave)
+
+ch.logixisland.anuto.game.GameManager$OnWaveStartedListener      (ch.logixisland.anuto.eval_a$t)
+===============================================================================
+  u    public abstract onWaveStarted(ch.logixisland.anuto.game.data.Wave)
+
+ch.logixisland.anuto.game.GameManager$ParseException     (ch.logixisland.anuto.eval_t)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.Layers (ch.logixisland.anuto.eval__)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.Layers$ParseException  (ch.logixisland.anuto.eval_r)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.TickTimer      (ch.logixisland.anuto.eval_v)
+===============================================================================
+  b        public static createInterval(float)
+  d        public tick()
+  eval_i   public setInterval(float)
+  s        public setFrequency(float)
+  t        public static createFrequency(float)
+  u        public addDelay(float)
+  z        public reset()
+
+ch.logixisland.anuto.game.TickTimer$NullPointerException (ch.logixisland.anuto.eval_q)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.TypeIds        (ch.logixisland.anuto.eval_p)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.TypeIds$IOException    (ch.logixisland.anuto.eval_u)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.WaveManager    (ch.logixisland.anuto.eval_g)
+===============================================================================
+  a        public giveReward()
+  a        static access$200(ch.logixisland.anuto.game.WaveManager)
+  b        static access$000(ch.logixisland.anuto.game.WaveManager)
+  c        public modifyReward(float)
+  d        public getHealthModifier()
+  eval_a   public abort()
+  eval_d   private onStarted()
+  eval_e   static access$1000(ch.logixisland.anuto.game.WaveManager)
+  eval_f   static access$800(ch.logixisland.anuto.game.WaveManager)
+  eval_p   private onFinished()
+  eval_t   static access$100(ch.logixisland.anuto.game.WaveManager)
+  f        static access$300(ch.logixisland.anuto.game.WaveManager)
+  g        static access$700(ch.logixisland.anuto.game.WaveManager)
+  h        static access$1200(ch.logixisland.anuto.game.WaveManager)
+  h        static access$400(ch.logixisland.anuto.game.WaveManager,ch.logixisland.anuto.game.objects.Enemy)
+  h        static access$102(ch.logixisland.anuto.game.WaveManager,int)
+  h        private onEnemyRemoved(ch.logixisland.anuto.game.objects.Enemy)
+  j        static access$1500(ch.logixisland.anuto.game.WaveManager)
+  j        public removeListener(ch.logixisland.anuto.game.WaveManager$Listener)
+  j        public modifyWaveReward(int)
+  k        public getEarlyBonus()
+  k        static access$1400(ch.logixisland.anuto.game.WaveManager)
+  l        static access$1100(ch.logixisland.anuto.game.WaveManager)
+  l        static access$002(ch.logixisland.anuto.game.WaveManager,int)
+  m        static access$1502(ch.logixisland.anuto.game.WaveManager,int)
+  o        public getWave()
+  o        static access$900(ch.logixisland.anuto.game.WaveManager)
+  q        public modifyHealth(float)
+  r        static access$1300(ch.logixisland.anuto.game.WaveManager)
+  s        public getRewardModifier()
+  s        static access$500(ch.logixisland.anuto.game.WaveManager)
+  t        public start()
+  v        public getReward()
+  v        static access$010(ch.logixisland.anuto.game.WaveManager)
+  v        public addListener(ch.logixisland.anuto.game.WaveManager$Listener)
+  v        static access$202(ch.logixisland.anuto.game.WaveManager,boolean)
+  v        private onEnemyAdded(ch.logixisland.anuto.game.objects.Enemy)
+  w        private onAborted()
+  y        public getExtend()
+  z        static access$600(ch.logixisland.anuto.game.WaveManager)
+
+ch.logixisland.anuto.game.WaveManager$1  (ch.logixisland.anuto.eval_g$1)
+===============================================================================
+  r    public onObjectAdded(ch.logixisland.anuto.game.objects.GameObject)
+  u    public onObjectRemoved(ch.logixisland.anuto.game.objects.GameObject)
+
+ch.logixisland.anuto.game.WaveManager$2  (ch.logixisland.anuto.eval_g$2)
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.game.WaveManager$2$1        (ch.logixisland.anuto.eval_g$2$1)
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.game.WaveManager$2$Exception        (ch.logixisland.anuto.eval__i)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.WaveManager$3  (ch.logixisland.anuto.eval_g$3)
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.game.WaveManager$4  (ch.logixisland.anuto.eval_g$4)
+===============================================================================
+  run  public run()
+
+ch.logixisland.anuto.game.WaveManager$Listener   (ch.logixisland.anuto.eval_g$j)
+===============================================================================
+  j    public abstract onFinished(ch.logixisland.anuto.game.WaveManager)
+  l    public abstract onEnemyRemoved(ch.logixisland.anuto.game.WaveManager,ch.logixisland.anuto.game.objects.Enemy)
+  n    public abstract onAborted(ch.logixisland.anuto.game.WaveManager)
+  q    public abstract onStarted(ch.logixisland.anuto.game.WaveManager)
+  z    public abstract onEnemyAdded(ch.logixisland.anuto.game.WaveManager,ch.logixisland.anuto.game.objects.Enemy)
+
+ch.logixisland.anuto.game.WaveManager$ParseException     (ch.logixisland.anuto.eval_i_)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.data.EnemyConfig       (ch.logixisland.anuto.eval_ym)
+===============================================================================
+  k    private getClazz()
+  p    private setClazz(java.lang.String)
+
+ch.logixisland.anuto.game.data.EnemyConfig$ParseException        (ch.logixisland.anuto.eval_b1)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.data.EnemyDescriptor   (ch.logixisland.anuto.eval_w6)
+===============================================================================
+  b    private getClazz()
+  l    private setClazz(java.lang.String)
+  q    public create()
+
+ch.logixisland.anuto.game.data.EnemyDescriptor$ArrayOutOfBoundsException (ch.logixisland.anuto.eval_p7)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.data.Level     (ch.logixisland.anuto.eval_of)
+===============================================================================
+  b        public getTowerConfig(java.lang.Class)
+  c        public getSettings()
+  e        public serialize(java.io.OutputStream)
+  eval_c   public serialize()
+  f        public getPlateaus()
+  k        public getWaves()
+  n        public getPaths()
+  n        public getTowerConfig(ch.logixisland.anuto.game.objects.Tower)
+  o        private commit()
+  q        public getTowerConfig(int)
+  r        public getEnemyConfig(ch.logixisland.anuto.game.objects.Enemy)
+  s        public getEnemyConfig(java.lang.Class)
+  y        public static deserialize(java.io.InputStream)
+
+ch.logixisland.anuto.game.data.Level$ArrayOutOfBoundsException   (ch.logixisland.anuto.eval_db)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.data.Path      (ch.logixisland.anuto.eval_av)
+===============================================================================
+  u        public get(int)
+  z        public count()
+  iterator public iterator()
+
+ch.logixisland.anuto.game.data.Path$NullPointerException (ch.logixisland.anuto.eval_qb)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.data.PlateauDescriptor (ch.logixisland.anuto.eval_yj)
+===============================================================================
+  h    public create()
+  k    private getClazz()
+  p    private setClazz(java.lang.String)
+
+ch.logixisland.anuto.game.data.PlateauDescriptor$IOException     (ch.logixisland.anuto.eval__b)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.data.Settings  (ch.logixisland.anuto.eval_gu)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.data.Settings$Exception        (ch.logixisland.anuto.eval_hk)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.data.TowerConfig       (ch.logixisland.anuto.eval_iy)
+===============================================================================
+  eval_m   private setStrongAgainst(java.lang.String)
+  h        private getClazz()
+  h        private setWeakAgainst(java.lang.String)
+  n        private getStrongAgainst()
+  o        private getUpgrade()
+  q        private setUpgrade(java.lang.String)
+  w        private setClazz(java.lang.String)
+  x        public commit(ch.logixisland.anuto.game.data.Level)
+  y        private getWeakAgainst()
+
+ch.logixisland.anuto.game.data.TowerConfig$1     (ch.logixisland.anuto.eval_iy$1)
+===============================================================================
+  g    public volatile apply(java.lang.Object)
+  z    public apply(java.lang.Class)
+
+ch.logixisland.anuto.game.data.TowerConfig$2     (ch.logixisland.anuto.eval_iy$2)
+===============================================================================
+  g    public volatile apply(java.lang.Object)
+  u    public apply(java.lang.String)
+
+ch.logixisland.anuto.game.data.TowerConfig$3     (ch.logixisland.anuto.eval_iy$3)
+===============================================================================
+  f    public apply(java.lang.Class)
+  g    public volatile apply(java.lang.Object)
+
+ch.logixisland.anuto.game.data.TowerConfig$4     (ch.logixisland.anuto.eval_iy$4)
+===============================================================================
+  g    public volatile apply(java.lang.Object)
+  w    public apply(java.lang.String)
+
+ch.logixisland.anuto.game.data.TowerConfig$ParseException        (ch.logixisland.anuto.eval_t_)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.data.Wave      (ch.logixisland.anuto.eval_sx)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.data.Wave$NullPointerException (ch.logixisland.anuto.eval_f2)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.AimingTower
+===============================================================================
+  a        protected nextTarget()
+  b        public clean()
+  d        public setLockOnTarget(boolean)
+  eval_o   public tick()
+  eval_v   protected onTargetLost()
+  h        public upgrade()
+  i        public getStrategy()
+  k        public setStrategy(ch.logixisland.anuto.game.objects.AimingTower$Strategy)
+  p        public getTarget()
+  r        public init()
+  u        public doesLockOnTarget()
+  w        protected setTarget(ch.logixisland.anuto.game.objects.Enemy)
+
+ch.logixisland.anuto.game.objects.AimingTower$1
+===============================================================================
+  r    public onObjectAdded(ch.logixisland.anuto.game.objects.GameObject)
+  u    public onObjectRemoved(ch.logixisland.anuto.game.objects.GameObject)
+
+ch.logixisland.anuto.game.objects.AimingTower$2
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.AimingTower$NullPointerException       (ch.logixisland.anuto.eval_id)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.AimingTower$Strategy   (ch.logixisland.anuto.game.objects.AimingTower$f)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+ch.logixisland.anuto.game.objects.AreaEffect     (ch.logixisland.anuto.eval_r3)
+===============================================================================
+  b        protected abstract enemyEnter(ch.logixisland.anuto.game.objects.Enemy)
+  d        protected effectBegin()
+  e        protected effectEnd()
+  eval_o   public tick()
+  f        public getEnemiesInRange()
+  l        protected abstract enemyExit(ch.logixisland.anuto.game.objects.Enemy)
+  u        static access$000(ch.logixisland.anuto.game.objects.AreaEffect)
+
+ch.logixisland.anuto.game.objects.AreaEffect$1   (ch.logixisland.anuto.eval_r3$1)
+===============================================================================
+  r    public onObjectAdded(ch.logixisland.anuto.game.objects.GameObject)
+  u    public onObjectRemoved(ch.logixisland.anuto.game.objects.GameObject)
+
+ch.logixisland.anuto.game.objects.AreaEffect$Exception   (ch.logixisland.anuto.eval_qy)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.DrawObject     (ch.logixisland.anuto.eval_xy)
+===============================================================================
+  d    public abstract getLayer()
+  j    public abstract draw(android.graphics.Canvas)
+
+ch.logixisland.anuto.game.objects.DrawObject$Exception   (ch.logixisland.anuto.eval_fb)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.Effect (ch.logixisland.anuto.eval_s6)
+===============================================================================
+  d        protected abstract effectBegin()
+  e        protected abstract effectEnd()
+  eval_n   public getDuration()
+  eval_o   public tick()
+  g        public getTypeId()
+  r        public init()
+  t        public getOrigin()
+
+ch.logixisland.anuto.game.objects.Effect$NullPointerException    (ch.logixisland.anuto.eval_d0)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.Enemy  (ch.logixisland.anuto.eval_r0)
+===============================================================================
+  a        public getPath()
+  b        public clean()
+  b        protected setBaseSpeed(float)
+  c        public getDirection()
+  e        protected getBaseSpeed()
+  e        public damage(float,ch.logixisland.anuto.game.objects.GameObject)
+  eval__   protected hasWayPoint()
+  eval_m   public getReward()
+  eval_o   public tick()
+  eval_y   public static health()
+  g        public getTypeId()
+  h        public getDistanceRemaining()
+  i        public modifyHealth(float)
+  i        public getProperty(java.lang.String)
+  k        public getHealth()
+  m        protected getWayPoint()
+  o        public setPath(ch.logixisland.anuto.game.data.Path)
+  p        protected getConfigSpeed()
+  p        public modifySpeed(float)
+  r        public init()
+  r        static access$000(ch.logixisland.anuto.game.objects.Enemy)
+  r        public getPositionAfter(float)
+  s        static access$100(ch.logixisland.anuto.game.objects.Enemy)
+  t        public getHealthMax()
+  u        public heal(float)
+  v        public sendBack(float)
+  x        public static distanceRemaining()
+  z        public getSpeed()
+  z        public modifyReward(float)
+
+ch.logixisland.anuto.game.objects.Enemy$1        (ch.logixisland.anuto.eval_r0$1)
+===============================================================================
+  g    public volatile apply(java.lang.Object)
+  z    public apply(ch.logixisland.anuto.game.objects.Enemy)
+
+ch.logixisland.anuto.game.objects.Enemy$2        (ch.logixisland.anuto.eval_r0$2)
+===============================================================================
+  g    public volatile apply(java.lang.Object)
+  q    public apply(ch.logixisland.anuto.game.objects.Enemy)
+
+ch.logixisland.anuto.game.objects.Enemy$Exception        (ch.logixisland.anuto.eval_ni)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.Enemy$HealthBar        (ch.logixisland.anuto.eval_r0$f)
+===============================================================================
+  d    public getLayer()
+  j    public draw(android.graphics.Canvas)
+
+ch.logixisland.anuto.game.objects.GameObject     (ch.logixisland.anuto.eval_dj)
+===============================================================================
+  b        public clean()
+  b        public getDirectionTo(ch.logixisland.anuto.util.math.Vector2)
+  c        public addListener(ch.logixisland.anuto.game.objects.GameObject$Listener)
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_a   public static inGame()
+  eval_f   protected getStaticData()
+  eval_i   public static enabled()
+  eval_j   public isEnabled()
+  eval_k   protected getManager()
+  eval_o   public tick()
+  eval_q   public move(ch.logixisland.anuto.util.math.Vector2)
+  eval_s   protected getGame()
+  eval_t   public getPosition()
+  eval_y   public getAngleTo(ch.logixisland.anuto.game.objects.GameObject)
+  f        public static distanceTo(ch.logixisland.anuto.util.math.Vector2)
+  g        public abstract getTypeId()
+  h        public move(float,float)
+  k        static access$000(ch.logixisland.anuto.game.objects.GameObject)
+  l        public isInGame()
+  l        public removeListener(ch.logixisland.anuto.game.objects.GameObject$Listener)
+  l        public setPosition(float,float)
+  o        public remove()
+  o        public getDistanceTo(ch.logixisland.anuto.util.math.Vector2)
+  o        public static onLine(ch.logixisland.anuto.util.math.Vector2,ch.logixisland.anuto.util.math.Vector2,float)
+  q        public setEnabled(boolean)
+  q        public setPosition(ch.logixisland.anuto.util.math.Vector2)
+  r        public init()
+  r        public move(ch.logixisland.anuto.util.math.Vector2,float)
+  s        public initStatic()
+  s        public getDirectionTo(ch.logixisland.anuto.game.objects.GameObject)
+  t        public getDistanceTo(ch.logixisland.anuto.game.objects.GameObject)
+  z        public getAngleTo(ch.logixisland.anuto.util.math.Vector2)
+  z        public static inRange(ch.logixisland.anuto.util.math.Vector2,float)
+
+ch.logixisland.anuto.game.objects.GameObject$1   (ch.logixisland.anuto.eval_dj$1)
+===============================================================================
+  e    public apply(ch.logixisland.anuto.game.objects.GameObject)
+  e    public volatile apply(java.lang.Object)
+
+ch.logixisland.anuto.game.objects.GameObject$2   (ch.logixisland.anuto.eval_dj$2)
+===============================================================================
+  a    public apply(ch.logixisland.anuto.game.objects.GameObject)
+  e    public volatile apply(java.lang.Object)
+
+ch.logixisland.anuto.game.objects.GameObject$3   (ch.logixisland.anuto.eval_dj$3)
+===============================================================================
+  e    public volatile apply(java.lang.Object)
+  r    public apply(ch.logixisland.anuto.game.objects.GameObject)
+
+ch.logixisland.anuto.game.objects.GameObject$4   (ch.logixisland.anuto.eval_dj$4)
+===============================================================================
+  e    public volatile apply(java.lang.Object)
+  u    public apply(ch.logixisland.anuto.game.objects.GameObject)
+
+ch.logixisland.anuto.game.objects.GameObject$5   (ch.logixisland.anuto.eval_dj$5)
+===============================================================================
+  g    public volatile apply(java.lang.Object)
+  r    public apply(ch.logixisland.anuto.game.objects.GameObject)
+
+ch.logixisland.anuto.game.objects.GameObject$Exception   (ch.logixisland.anuto.eval_m8)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.GameObject$Listener    (ch.logixisland.anuto.eval_dj$f)
+===============================================================================
+  r    public abstract onObjectAdded(ch.logixisland.anuto.game.objects.GameObject)
+  u    public abstract onObjectRemoved(ch.logixisland.anuto.game.objects.GameObject)
+
+ch.logixisland.anuto.game.objects.HomingShot     (ch.logixisland.anuto.eval_n4)
+===============================================================================
+  b        public clean()
+  eval_c   public getTarget()
+  eval_e   public setTarget(ch.logixisland.anuto.game.objects.Enemy)
+  eval_o   public tick()
+  p        static access$000(ch.logixisland.anuto.game.objects.HomingShot)
+  x        protected abstract onTargetReached()
+  y        protected abstract onTargetLost()
+
+ch.logixisland.anuto.game.objects.HomingShot$1   (ch.logixisland.anuto.eval_n4$1)
+===============================================================================
+  r    public onObjectAdded(ch.logixisland.anuto.game.objects.GameObject)
+  u    public onObjectRemoved(ch.logixisland.anuto.game.objects.GameObject)
+
+ch.logixisland.anuto.game.objects.HomingShot$Exception   (ch.logixisland.anuto.eval_vw)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.Plateau        (ch.logixisland.anuto.eval_kx)
+===============================================================================
+  c    public static unoccupied()
+  g    public getTypeId()
+  h    public isOccupied()
+  r    public setOccupant(ch.logixisland.anuto.game.objects.Tower)
+
+ch.logixisland.anuto.game.objects.Plateau$1      (ch.logixisland.anuto.eval_kx$1)
+===============================================================================
+  e    public volatile apply(java.lang.Object)
+  g    public apply(ch.logixisland.anuto.game.objects.Plateau)
+
+ch.logixisland.anuto.game.objects.Plateau$ArrayOutOfBoundsException      (ch.logixisland.anuto.eval_vd)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.Shot   (ch.logixisland.anuto.eval_ug)
+===============================================================================
+  a        protected setDirection(ch.logixisland.anuto.util.math.Vector2)
+  eval_o   public tick()
+  g        public getTypeId()
+  k        public getOrigin()
+  t        public getSpeed()
+  t        protected setSpeed(float)
+  w        public getDirection()
+
+ch.logixisland.anuto.game.objects.Shot$IOException       (ch.logixisland.anuto.eval_do)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.Sprite (ch.logixisland.anuto.eval_tg)
+===============================================================================
+  c    public getMatrix()
+  d    public setMatrix(android.graphics.Matrix)
+  e    public yieldAnimated(int)
+  k    static access$100(ch.logixisland.anuto.game.objects.Sprite)
+  l    static access$200(ch.logixisland.anuto.game.objects.Sprite)
+  s    public static fromResources(int,int)
+  s    public setMatrix(java.lang.Float,java.lang.Float,ch.logixisland.anuto.util.math.Vector2,java.lang.Float)
+  u    public yieldStatic(int)
+  x    public count()
+
+ch.logixisland.anuto.game.objects.Sprite$1       (ch.logixisland.anuto.eval_tg$1)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.Sprite$AnimatedInstance        (ch.logixisland.anuto.eval_tg$_)
+===============================================================================
+  c        public setSequence(int[])
+  eval_m   public sequenceForwardBackward()
+  eval_n   public sequenceBackward()
+  g        public setInterval(float)
+  l        public tick()
+  n        public sequenceForward()
+  r        public getIndex()
+  s        public getSequenceLength()
+  t        public getSequencePosition()
+  x        public reset()
+  z        public setFrequency(float)
+
+ch.logixisland.anuto.game.objects.Sprite$FixedInstance   (ch.logixisland.anuto.eval_tg$v)
+===============================================================================
+  r    public getIndex()
+  v    public setIndex(int)
+
+ch.logixisland.anuto.game.objects.Sprite$Instance        (ch.logixisland.anuto.eval_tg$q)
+===============================================================================
+  d        public getLayer()
+  eval_e   public copycat()
+  eval_s   public getPaint()
+  j        public draw(android.graphics.Canvas)
+  r        public abstract getIndex()
+  s        public setListener(ch.logixisland.anuto.game.objects.Sprite$Listener)
+  w        public setPaint(android.graphics.Paint)
+  y        public getListener()
+
+ch.logixisland.anuto.game.objects.Sprite$Instance$1      (ch.logixisland.anuto.eval_tg$q$1)
+===============================================================================
+  r    public getIndex()
+
+ch.logixisland.anuto.game.objects.Sprite$Instance$Exception      (ch.logixisland.anuto.eval_q7)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.Sprite$Listener        (ch.logixisland.anuto.eval_tg$c)
+===============================================================================
+  d    public abstract onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+
+ch.logixisland.anuto.game.objects.Sprite$NullPointerException    (ch.logixisland.anuto.eval_d6)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.Tower  (ch.logixisland.anuto.eval_ux)
+===============================================================================
+  b        public clean()
+  c        public getUpgradeCost()
+  c        public setPlateau(ch.logixisland.anuto.game.objects.Plateau)
+  e        public enhance()
+  eval__   public getConfig()
+  eval_b   public getLevel()
+  eval_c   public getReloadTime()
+  eval_e   public getRange()
+  eval_m   public getPlateau()
+  eval_n   public getPathSections()
+  eval_o   public tick()
+  eval_p   public getDamageInflicted()
+  eval_q   public isEnhanceable()
+  eval_u   public getEnhanceCost()
+  eval_w   public getPossibleTargets()
+  eval_y   public getValue()
+  eval_z   public hideRange()
+  f        public devalue(float)
+  g        public getTypeId()
+  g        public getProperty(java.lang.String)
+  h        public upgrade()
+  i        public setValue(int)
+  j        public getDamage()
+  k        public sell()
+  m        public isUpgradeable()
+  n        public abstract preview(android.graphics.Canvas)
+  q        public showRange()
+  q        public setEnabled(boolean)
+  q        public reportDamageInflicted(float)
+  r        public init()
+  s        public setReloaded(boolean)
+  t        public isReloaded()
+  x        public getLevelMax()
+  z        public buy()
+
+ch.logixisland.anuto.game.objects.Tower$Exception        (ch.logixisland.anuto.eval_f0)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.Tower$PathSection      (ch.logixisland.anuto.eval_ux$n)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.Tower$RangeIndicator   (ch.logixisland.anuto.eval_ux$t)
+===============================================================================
+  d    public getLayer()
+  j    public draw(android.graphics.Canvas)
+
+ch.logixisland.anuto.game.objects.impl.BasicPlateau
+===============================================================================
+  b    public clean()
+  r    public init()
+  s    public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.BasicPlateau$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.BasicPlateau$ArrayOutOfBoundsException    (ch.logixisland.anuto.eval_yx)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.BasicPlateau$StaticData   (ch.logixisland.anuto.game.objects.impl.BasicPlateau$a)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Blob
+===============================================================================
+  b    public clean()
+  r    public init()
+  s    public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.Blob$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Blob$IOException  (ch.logixisland.anuto.eval_d7)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Blob$StaticData   (ch.logixisland.anuto.game.objects.impl.Blob$j)
+===============================================================================
+  m    public tick()
+
+ch.logixisland.anuto.game.objects.impl.Canon
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  n        public preview(android.graphics.Canvas)
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.Canon$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Canon$Exception   (ch.logixisland.anuto.eval__w)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Canon$StaticData  (ch.logixisland.anuto.game.objects.impl.Canon$j)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonDual
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  n        public preview(android.graphics.Canvas)
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.CanonDual$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonDual$IOException     (ch.logixisland.anuto.eval_dw)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonDual$StaticData      (ch.logixisland.anuto.game.objects.impl.CanonDual$t)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonDual$SubCanon        (ch.logixisland.anuto.game.objects.impl.CanonDual$k)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonMG
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  n        public preview(android.graphics.Canvas)
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.CanonMG$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonMG$ArrayOutOfBoundsException (ch.logixisland.anuto.eval_eo)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonMG$StaticData        (ch.logixisland.anuto.game.objects.impl.CanonMG$q)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonShot (ch.logixisland.anuto.eval_xf)
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  r        public init()
+  s        public initStatic()
+  x        protected onTargetReached()
+  y        protected onTargetLost()
+
+ch.logixisland.anuto.game.objects.impl.CanonShot$1       (ch.logixisland.anuto.eval_xf$1)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonShot$IOException     (ch.logixisland.anuto.eval_t9)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonShot$StaticData      (ch.logixisland.anuto.eval_xf$i)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonShotMG       (ch.logixisland.anuto.eval_us)
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.CanonShotMG$1     (ch.logixisland.anuto.eval_us$1)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonShotMG$NullPointerException  (ch.logixisland.anuto.eval_ma)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.CanonShotMG$StaticData    (ch.logixisland.anuto.eval_us$k)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Explosion (ch.logixisland.anuto.eval_f_)
+===============================================================================
+  b        public clean()
+  d        protected effectBegin()
+  e        protected effectEnd()
+  eval_o   public tick()
+  h        static access$000(ch.logixisland.anuto.game.objects.impl.Explosion)
+  r        public init()
+
+ch.logixisland.anuto.game.objects.impl.Explosion$ExplosionDrawObject     (ch.logixisland.anuto.eval_f_$v)
+===============================================================================
+  d    public getLayer()
+  j    public decreaseVisibility()
+  j    public draw(android.graphics.Canvas)
+
+ch.logixisland.anuto.game.objects.impl.Explosion$IOException     (ch.logixisland.anuto.eval__u)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Flyer
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.Flyer$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Flyer$Exception   (ch.logixisland.anuto.eval_hl)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Flyer$StaticData  (ch.logixisland.anuto.game.objects.impl.Flyer$d)
+===============================================================================
+  m    public tick()
+
+ch.logixisland.anuto.game.objects.impl.GlueEffect        (ch.logixisland.anuto.eval_q4)
+===============================================================================
+  b        public clean()
+  b        protected enemyEnter(ch.logixisland.anuto.game.objects.Enemy)
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  l        protected enemyExit(ch.logixisland.anuto.game.objects.Enemy)
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.GlueEffect$1      (ch.logixisland.anuto.eval_q4$1)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.GlueEffect$Exception      (ch.logixisland.anuto.eval_u1)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.GlueEffect$StaticData     (ch.logixisland.anuto.eval_q4$i)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.GlueGun
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  n        public preview(android.graphics.Canvas)
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.GlueGun$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.GlueGun$ArrayOutOfBoundsException (ch.logixisland.anuto.eval_cf)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.GlueGun$StaticData        (ch.logixisland.anuto.game.objects.impl.GlueGun$b)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.GlueShot  (ch.logixisland.anuto.eval_mr)
+===============================================================================
+  b        public clean()
+  eval_o   public tick()
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.GlueShot$1        (ch.logixisland.anuto.eval_mr$1)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.GlueShot$ParseException   (ch.logixisland.anuto.eval_a1)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.GlueShot$StaticData       (ch.logixisland.anuto.eval_mr$o)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.GlueTower
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_l   private determineTargets()
+  eval_o   public tick()
+  n        public preview(android.graphics.Canvas)
+  q        public setEnabled(boolean)
+  r        public init()
+  r        static access$000(ch.logixisland.anuto.game.objects.impl.GlueTower)
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.GlueTower$1
+===============================================================================
+  c    public apply(ch.logixisland.anuto.util.math.Vector2)
+  e    public volatile apply(java.lang.Object)
+
+ch.logixisland.anuto.game.objects.impl.GlueTower$IOException     (ch.logixisland.anuto.eval_gi)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.GlueTower$StaticData      (ch.logixisland.anuto.game.objects.impl.GlueTower$t)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.GlueTower$SubCanon        (ch.logixisland.anuto.game.objects.impl.GlueTower$n)
+===============================================================================
+  d    public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+
+ch.logixisland.anuto.game.objects.impl.HealEffect        (ch.logixisland.anuto.eval_bh)
+===============================================================================
+  b        public clean()
+  d        protected effectBegin()
+  e        protected effectEnd()
+  eval_o   public tick()
+  l        static access$000(ch.logixisland.anuto.game.objects.impl.HealEffect)
+  r        public init()
+
+ch.logixisland.anuto.game.objects.impl.HealEffect$Exception      (ch.logixisland.anuto.eval_ia)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.HealEffect$HealDrawObject (ch.logixisland.anuto.eval_bh$t)
+===============================================================================
+  d    public getLayer()
+  j    public draw(android.graphics.Canvas)
+
+ch.logixisland.anuto.game.objects.impl.Healer
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.Healer$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Healer$NullPointerException       (ch.logixisland.anuto.eval_yl)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Healer$StaticData (ch.logixisland.anuto.game.objects.impl.Healer$_)
+===============================================================================
+  m    public tick()
+
+ch.logixisland.anuto.game.objects.impl.Laser     (ch.logixisland.anuto.eval_v6)
+===============================================================================
+  b        public clean()
+  d        protected effectBegin()
+  e        protected effectEnd()
+  eval_o   public tick()
+  r        public init()
+  u        static access$000(ch.logixisland.anuto.game.objects.impl.Laser)
+
+ch.logixisland.anuto.game.objects.impl.Laser$Exception   (ch.logixisland.anuto.eval_j6)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Laser$LaserDrawObject     (ch.logixisland.anuto.eval_v6$i)
+===============================================================================
+  a    public decreaseVisibility()
+  d    public getLayer()
+  j    public draw(android.graphics.Canvas)
+
+ch.logixisland.anuto.game.objects.impl.LaserStraight     (ch.logixisland.anuto.eval_sg)
+===============================================================================
+  b        public clean()
+  d        protected effectBegin()
+  e        protected effectEnd()
+  e        static access$000(ch.logixisland.anuto.game.objects.impl.LaserStraight)
+  eval_o   public tick()
+  r        public init()
+
+ch.logixisland.anuto.game.objects.impl.LaserStraight$LaserDrawObject     (ch.logixisland.anuto.eval_sg$e)
+===============================================================================
+  d    public getLayer()
+  j    public draw(android.graphics.Canvas)
+  k    public decreaseVisibility()
+
+ch.logixisland.anuto.game.objects.impl.LaserStraight$ParseException      (ch.logixisland.anuto.eval_cb)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.LaserTower1
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  n        public preview(android.graphics.Canvas)
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.LaserTower1$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.LaserTower1$NullPointerException  (ch.logixisland.anuto.eval_jw)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.LaserTower1$StaticData    (ch.logixisland.anuto.game.objects.impl.LaserTower1$t)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.LaserTower2
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  n        public preview(android.graphics.Canvas)
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.LaserTower2$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.LaserTower2$NullPointerException  (ch.logixisland.anuto.eval_g1)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.LaserTower2$StaticData    (ch.logixisland.anuto.game.objects.impl.LaserTower2$m)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.LaserTower3
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  n        public preview(android.graphics.Canvas)
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.LaserTower3$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.LaserTower3$NullPointerException  (ch.logixisland.anuto.eval_xz)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.LaserTower3$StaticData    (ch.logixisland.anuto.game.objects.impl.LaserTower3$m)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Mine      (ch.logixisland.anuto.eval_l0)
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.Mine$1    (ch.logixisland.anuto.eval_l0$1)
+===============================================================================
+  e    public volatile apply(java.lang.Object)
+  v    public apply(ch.logixisland.anuto.game.objects.Enemy)
+
+ch.logixisland.anuto.game.objects.impl.Mine$IOException  (ch.logixisland.anuto.eval_ou)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Mine$StaticData   (ch.logixisland.anuto.eval_l0$t)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.MineLayer
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  e        public enhance()
+  eval_d   private getTarget()
+  eval_o   public tick()
+  g        static access$000(ch.logixisland.anuto.game.objects.impl.MineLayer)
+  n        public preview(android.graphics.Canvas)
+  q        public setEnabled(boolean)
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.MineLayer$1
+===============================================================================
+  r    public onObjectAdded(ch.logixisland.anuto.game.objects.GameObject)
+  u    public onObjectRemoved(ch.logixisland.anuto.game.objects.GameObject)
+
+ch.logixisland.anuto.game.objects.impl.MineLayer$IOException     (ch.logixisland.anuto.eval_bl)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.MineLayer$StaticData      (ch.logixisland.anuto.game.objects.impl.MineLayer$y)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Mortar
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  e        public enhance()
+  eval_o   public tick()
+  n        public preview(android.graphics.Canvas)
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.Mortar$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Mortar$NullPointerException       (ch.logixisland.anuto.eval_c9)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Mortar$StaticData (ch.logixisland.anuto.game.objects.impl.Mortar$j)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.MortarShot        (ch.logixisland.anuto.eval_lu)
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.MortarShot$1      (ch.logixisland.anuto.eval_lu$1)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.MortarShot$Exception      (ch.logixisland.anuto.eval_k4)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.MortarShot$StaticData     (ch.logixisland.anuto.eval_lu$a)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Rocket    (ch.logixisland.anuto.eval_zi)
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  eval_u   public setAngle(float)
+  q        public setEnabled(boolean)
+  r        public init()
+  s        public initStatic()
+  x        protected onTargetReached()
+  y        protected onTargetLost()
+
+ch.logixisland.anuto.game.objects.impl.Rocket$1  (ch.logixisland.anuto.eval_zi$1)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Rocket$NullPointerException       (ch.logixisland.anuto.eval_ha)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Rocket$StaticData (ch.logixisland.anuto.eval_zi$i)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.RocketLauncher
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  e        public enhance()
+  eval_o   public tick()
+  n        public preview(android.graphics.Canvas)
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.RocketLauncher$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.RocketLauncher$IOException        (ch.logixisland.anuto.eval_sc)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.RocketLauncher$StaticData (ch.logixisland.anuto.game.objects.impl.RocketLauncher$l)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Soldier
+===============================================================================
+  b    public clean()
+  r    public init()
+  s    public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.Soldier$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Soldier$ArrayOutOfBoundsException (ch.logixisland.anuto.eval_vq)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Soldier$StaticData        (ch.logixisland.anuto.game.objects.impl.Soldier$i)
+===============================================================================
+  m    public tick()
+
+ch.logixisland.anuto.game.objects.impl.Sprinter
+===============================================================================
+  b        public clean()
+  d        public onDraw(ch.logixisland.anuto.game.objects.DrawObject,android.graphics.Canvas)
+  eval_o   public tick()
+  r        public init()
+  s        public initStatic()
+
+ch.logixisland.anuto.game.objects.impl.Sprinter$1
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Sprinter$ParseException   (ch.logixisland.anuto.eval_yi)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.Sprinter$StaticData       (ch.logixisland.anuto.game.objects.impl.Sprinter$n)
+===============================================================================
+  m    public tick()
+
+ch.logixisland.anuto.game.objects.impl.TeleportEffect    (ch.logixisland.anuto.eval_lq)
+===============================================================================
+  b        public clean()
+  d        protected effectBegin()
+  e        protected effectEnd()
+  eval_o   public tick()
+  r        public init()
+
+ch.logixisland.anuto.game.objects.impl.TeleportEffect$IOException        (ch.logixisland.anuto.eval_wo)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.TeleportEffect$TeleportDrawObject (ch.logixisland.anuto.eval_lq$y)
+===============================================================================
+  d    public getLayer()
+  j    public draw(android.graphics.Canvas)
+
+ch.logixisland.anuto.game.objects.impl.TeleportTower
+===============================================================================
+  b        public clean()
+  eval_o   public tick()
+  eval_w   public getPossibleTargets()
+  n        public preview(android.graphics.Canvas)
+  r        public init()
+  s        public initStatic()
+  x        static access$000(ch.logixisland.anuto.game.objects.impl.TeleportTower)
+
+ch.logixisland.anuto.game.objects.impl.TeleportTower$1
+===============================================================================
+  r    public onObjectAdded(ch.logixisland.anuto.game.objects.GameObject)
+  u    public onObjectRemoved(ch.logixisland.anuto.game.objects.GameObject)
+
+ch.logixisland.anuto.game.objects.impl.TeleportTower$ParseException      (ch.logixisland.anuto.eval_dm)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.game.objects.impl.TeleportTower$StaticData  (ch.logixisland.anuto.game.objects.impl.TeleportTower$f)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.StringUtils    (ch.logixisland.anuto.eval_x_)
+===============================================================================
+  c    public static formatSuffix(float)
+  l    public static formatSuffix(int)
+  u    public static formatSuffix(float,boolean)
+
+ch.logixisland.anuto.util.StringUtils$ParseException     (ch.logixisland.anuto.eval_yv)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.container.ConcurrentCollection (ch.logixisland.anuto.eval_t1)
+===============================================================================
+  g            public writeLock()
+  iterator     public iterator()
+  l            public readLock()
+  l            private remove(int)
+  x            static access$000(ch.logixisland.anuto.util.container.ConcurrentCollection)
+  add          public add(java.lang.Object)
+  addAll       public addAll(java.util.Collection)
+  clear        public clear()
+  contains     public contains(java.lang.Object)
+  containsAll  public containsAll(java.util.Collection)
+  isEmpty      public isEmpty()
+  iterator     public volatile iterator()
+  remove       public remove(java.lang.Object)
+  removeAll    public removeAll(java.util.Collection)
+  retainAll    public retainAll(java.util.Collection)
+  size         public size()
+  toArray      public toArray()
+  toArray      public toArray(java.lang.Object[])
+
+ch.logixisland.anuto.util.container.ConcurrentCollection$ArrayOutOfBoundsException       (ch.logixisland.anuto.eval_to)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.container.ConcurrentCollection$Itr     (ch.logixisland.anuto.eval_t1$v)
+===============================================================================
+  f    static access$102(ch.logixisland.anuto.util.container.ConcurrentCollection$Itr,int)
+  i    public computeNext()
+  l    static access$110(ch.logixisland.anuto.util.container.ConcurrentCollection$Itr)
+  t    public close()
+  x    static access$100(ch.logixisland.anuto.util.container.ConcurrentCollection$Itr)
+
+ch.logixisland.anuto.util.container.ConcurrentCollectionMap      (ch.logixisland.anuto.eval_yd)
+===============================================================================
+  c        static access$100(ch.logixisland.anuto.util.container.ConcurrentCollectionMap)
+  c        public add(java.lang.Object,java.lang.Object)
+  i        static access$300(ch.logixisland.anuto.util.container.ConcurrentCollectionMap)
+  iterator public iterator()
+  j        static access$200(ch.logixisland.anuto.util.container.ConcurrentCollectionMap)
+  l        public clear()
+  o        public iteratorKey(java.lang.Object)
+  p        public remove(java.lang.Object,java.lang.Object)
+  t        protected compareKeys(java.lang.Object,java.lang.Object)
+  v        private getCollection(java.lang.Object)
+  w        static access$000(ch.logixisland.anuto.util.container.ConcurrentCollectionMap)
+  iterator public volatile iterator()
+
+ch.logixisland.anuto.util.container.ConcurrentCollectionMap$Exception    (ch.logixisland.anuto.eval_jt)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.container.ConcurrentCollectionMap$Itr  (ch.logixisland.anuto.eval_yd$p)
+===============================================================================
+  i    protected computeNext()
+  t    public close()
+
+ch.logixisland.anuto.util.container.ListenerList (ch.logixisland.anuto.eval_dv)
+===============================================================================
+  eval_d   public remove(java.lang.Object)
+  i        static access$000(ch.logixisland.anuto.util.container.ListenerList)
+  z        public get(java.lang.Class)
+  z        public add(java.lang.Object)
+
+ch.logixisland.anuto.util.container.ListenerList$1       (ch.logixisland.anuto.eval_dv$1)
+===============================================================================
+  iterator public iterator()
+
+ch.logixisland.anuto.util.container.ListenerList$IOException     (ch.logixisland.anuto.eval_mc)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.iterator.ComputingIterator     (ch.logixisland.anuto.eval_dq)
+===============================================================================
+  i        protected abstract computeNext()
+  hasNext  public hasNext()
+  next     public next()
+
+ch.logixisland.anuto.util.iterator.ComputingIterator$ParseException      (ch.logixisland.anuto.eval_p5)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.iterator.FilteringIterator     (ch.logixisland.anuto.eval_zc)
+===============================================================================
+  i    protected computeNext()
+  t    public close()
+
+ch.logixisland.anuto.util.iterator.FilteringIterator$ParseException      (ch.logixisland.anuto.eval_je)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.iterator.Function      (ch.logixisland.anuto.eval_x8)
+===============================================================================
+  g    public abstract apply(java.lang.Object)
+
+ch.logixisland.anuto.util.iterator.Function$IOException  (ch.logixisland.anuto.eval_u5)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.iterator.Predicate     (ch.logixisland.anuto.eval_ur)
+===============================================================================
+  e    public abstract apply(java.lang.Object)
+
+ch.logixisland.anuto.util.iterator.Predicate$Exception   (ch.logixisland.anuto.eval_s_)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.iterator.StreamIterator        (ch.logixisland.anuto.eval_vh)
+===============================================================================
+  c        public cast(java.lang.Class)
+  c        public exclude(java.util.Collection)
+  e        public static fromArray(java.lang.Object[])
+  eval_p   public static fromIterable(java.lang.Iterable)
+  f        public filter(ch.logixisland.anuto.util.iterator.Predicate)
+  g        public max(ch.logixisland.anuto.util.iterator.Function)
+  o        public static fromIterator(java.util.Iterator)
+  p        public first()
+  p        public exclude(java.lang.Object)
+  q        public toList()
+  q        public min(ch.logixisland.anuto.util.iterator.Function)
+  s        public last()
+  t        public abstract close()
+  v        public isEmpty()
+  x        public count()
+  x        public transform(ch.logixisland.anuto.util.iterator.Function)
+  y        public ofType(java.lang.Class)
+  z        public toString(java.lang.String)
+  hasNext  public abstract hasNext()
+  next     public abstract next()
+  remove   public remove()
+
+ch.logixisland.anuto.util.iterator.StreamIterator$1      (ch.logixisland.anuto.eval_vh$1)
+===============================================================================
+  t        public close()
+  hasNext  public hasNext()
+  next     public next()
+
+ch.logixisland.anuto.util.iterator.StreamIterator$2      (ch.logixisland.anuto.eval_vh$2)
+===============================================================================
+  t        public close()
+  hasNext  public hasNext()
+  next     public next()
+
+ch.logixisland.anuto.util.iterator.StreamIterator$3      (ch.logixisland.anuto.eval_vh$3)
+===============================================================================
+  e    public apply(java.lang.Object)
+
+ch.logixisland.anuto.util.iterator.StreamIterator$4      (ch.logixisland.anuto.eval_vh$4)
+===============================================================================
+  e    public apply(java.lang.Object)
+
+ch.logixisland.anuto.util.iterator.StreamIterator$5      (ch.logixisland.anuto.eval_vh$5)
+===============================================================================
+  g    public apply(java.lang.Object)
+
+ch.logixisland.anuto.util.iterator.StreamIterator$6      (ch.logixisland.anuto.eval_vh$6)
+===============================================================================
+  e    public apply(java.lang.Object)
+
+ch.logixisland.anuto.util.iterator.StreamIterator$Exception      (ch.logixisland.anuto.eval_d_)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.iterator.TransformingIterator  (ch.logixisland.anuto.eval_ov)
+===============================================================================
+  t        public close()
+  hasNext  public hasNext()
+  next     public next()
+
+ch.logixisland.anuto.util.iterator.TransformingIterator$NullPointerException     (ch.logixisland.anuto.eval_c0)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.math.Function  (ch.logixisland.anuto.eval_k7)
+===============================================================================
+  b        public offset(float)
+  d        public static sine()
+  eval_q   public invert()
+  f        public repeat(float)
+  o        public multiply(float)
+  r        public static linear()
+  s        public sample()
+  t        public static zero()
+  w        public stretch(float)
+  x        public absolute()
+  x        public join(ch.logixisland.anuto.util.math.Function,float)
+  y        public abstract calculate(float)
+  z        public static quadratic()
+  z        public shift(float)
+
+ch.logixisland.anuto.util.math.Function$1        (ch.logixisland.anuto.eval_k7$1)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$10       (ch.logixisland.anuto.eval_k7$10)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$11       (ch.logixisland.anuto.eval_k7$11)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$12       (ch.logixisland.anuto.eval_k7$12)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$13       (ch.logixisland.anuto.eval_k7$13)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$2        (ch.logixisland.anuto.eval_k7$2)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$3        (ch.logixisland.anuto.eval_k7$3)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$4        (ch.logixisland.anuto.eval_k7$4)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$5        (ch.logixisland.anuto.eval_k7$5)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$6        (ch.logixisland.anuto.eval_k7$6)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$7        (ch.logixisland.anuto.eval_k7$7)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$8        (ch.logixisland.anuto.eval_k7$8)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$9        (ch.logixisland.anuto.eval_k7$9)
+===============================================================================
+  y    public calculate(float)
+
+ch.logixisland.anuto.util.math.Function$Exception        (ch.logixisland.anuto.eval_xa)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.math.Intersections     (ch.logixisland.anuto.eval___)
+===============================================================================
+  t    public static lineCircle(ch.logixisland.anuto.util.math.Vector2,ch.logixisland.anuto.util.math.Vector2,float)
+
+ch.logixisland.anuto.util.math.Intersections$Exception   (ch.logixisland.anuto.eval_qt)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.math.MathUtils (ch.logixisland.anuto.eval_ny)
+===============================================================================
+  n    public static sgn(float)
+  w    public static square(float)
+  y    public static equals(float,float,float)
+
+ch.logixisland.anuto.util.math.MathUtils$NullPointerException    (ch.logixisland.anuto.eval_pk)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.math.SampledFunction   (ch.logixisland.anuto.eval_dd)
+===============================================================================
+  a    public reset()
+  b    public step()
+  l    public getValue()
+  m    public setPosition(int)
+  o    public getPosition()
+  y    public abstract calculate(float)
+
+ch.logixisland.anuto.util.math.SampledFunction$ArrayOutOfBoundsException (ch.logixisland.anuto.eval_ns)
+===============================================================================
+  No methods
+
+ch.logixisland.anuto.util.math.Vector2   (ch.logixisland.anuto.eval_m_)
+===============================================================================
+  e        public dot(ch.logixisland.anuto.util.math.Vector2)
+  e        public static normalizeAngle(float)
+  eval_l   public set(ch.logixisland.anuto.util.math.Vector2)
+  eval_r   public angle()
+  g        public norm()
+  h        public set(float,float)
+  j        public add(ch.logixisland.anuto.util.math.Vector2)
+  j        public equals(ch.logixisland.anuto.util.math.Vector2,float)
+  l        public static fromTo(ch.logixisland.anuto.util.math.Vector2,ch.logixisland.anuto.util.math.Vector2)
+  o        public len()
+  p        public len2()
+  r        public sub(ch.logixisland.anuto.util.math.Vector2)
+  u        public copy()
+  u        public static polar(float,float)
+  v        public round()
+  v        public proj(ch.logixisland.anuto.util.math.Vector2)
+  z        public mul(float)
+  z        public static cartesian(float,float)
+  equals   public equals(java.lang.Object)
+
+ch.logixisland.anuto.util.math.Vector2$IOException       (ch.logixisland.anuto.eval_fm)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 770
+  Renamed to eval_i :  26 (3.4%)
+  Renamed to eval_l :  26 (3.4%)
+  Renamed to eval_t :  26 (3.4%)
+  Renamed to eval_h :  25 (3.2%)
+  Renamed to eval_s :  25 (3.2%)
+  Renamed to eval_q :  24 (3.1%)
+  Renamed to eval_v :  24 (3.1%)
+  Renamed to eval_k :  23 (3.0%)
+  Renamed to eval_m :  23 (3.0%)
+  Renamed to eval_w :  23 (3.0%)
+
+Number of Methods : 864
+  Renamed to r      :  61 (7.1%)
+  Renamed to b      :  51 (5.9%)
+  Renamed to d      :  50 (5.8%)
+  Renamed to s      :  46 (5.3%)
+  Renamed to e      :  38 (4.4%)
+  Renamed to eval_o :  37 (4.3%)
+  Renamed to y      :  30 (3.5%)
+  Renamed to l      :  28 (3.2%)
+  Renamed to t      :  28 (3.2%)
+  Renamed to j      :  27 (3.1%)
+

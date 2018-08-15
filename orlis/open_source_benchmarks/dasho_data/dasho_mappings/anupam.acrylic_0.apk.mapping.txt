@@ -1,0 +1,273 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+anupam.acrylic.b                 public anupam.acrylic.AboutActivity
+anupam.acrylic.eval__            public anupam.acrylic.PictureLayout
+anupam.acrylic.eval_c            public anupam.acrylic.AboutActivity$IOException
+anupam.acrylic.eval_d            public anupam.acrylic.ColorPickerDialog
+anupam.acrylic.eval_f            public anupam.acrylic.R$ArrayOutOfBoundsException
+anupam.acrylic.eval_i            public anupam.acrylic.GraphicsActivity$ArrayOutOfBoundsException
+anupam.acrylic.eval_j            public anupam.acrylic.BuildConfig$1
+anupam.acrylic.eval_k            public anupam.acrylic.Places
+anupam.acrylic.eval_m            public final anupam.acrylic.R
+anupam.acrylic.eval_n            public anupam.acrylic.ColorPickerDialog$ParseException
+anupam.acrylic.eval_o            public anupam.acrylic.PictureLayout$IOException
+anupam.acrylic.eval_p            public anupam.acrylic.BuildConfig$ArrayOutOfBoundsException
+anupam.acrylic.eval_s            public final anupam.acrylic.BuildConfig
+anupam.acrylic.eval_t            public anupam.acrylic.EasyPaint
+anupam.acrylic.eval_u            public anupam.acrylic.AboutActivity$1
+anupam.acrylic.eval_v            anupam.acrylic.GraphicsActivity
+anupam.acrylic.eval_w            public anupam.acrylic.EasyPaint$MyView$ArrayOutOfBoundsException
+anupam.acrylic.eval_x            public anupam.acrylic.Splash$ArrayOutOfBoundsException
+anupam.acrylic.eval_y            public anupam.acrylic.EasyPaint$Exception
+anupam.acrylic.eval_z            public anupam.acrylic.Places$ArrayOutOfBoundsException
+anupam.acrylic.eval_d$1          anupam.acrylic.ColorPickerDialog$1
+anupam.acrylic.eval_d$u          anupam.acrylic.ColorPickerDialog$ColorPickerView
+anupam.acrylic.eval_d$w          public abstract interface anupam.acrylic.ColorPickerDialog$OnColorChangedListener
+anupam.acrylic.eval_m$c          public final anupam.acrylic.R$style
+anupam.acrylic.eval_m$d          public final anupam.acrylic.R$id
+anupam.acrylic.eval_m$k          public final anupam.acrylic.R$dimen
+anupam.acrylic.eval_m$n          public final anupam.acrylic.R$menu
+anupam.acrylic.eval_m$u          public final anupam.acrylic.R$drawable
+anupam.acrylic.eval_m$x          public final anupam.acrylic.R$attr
+anupam.acrylic.eval_m$y          public final anupam.acrylic.R$string
+anupam.acrylic.eval_t$1          anupam.acrylic.EasyPaint$1
+anupam.acrylic.eval_t$2          anupam.acrylic.EasyPaint$2
+anupam.acrylic.eval_t$3          anupam.acrylic.EasyPaint$3
+anupam.acrylic.eval_t$4          anupam.acrylic.EasyPaint$4
+anupam.acrylic.eval_t$d          public anupam.acrylic.EasyPaint$MyView
+anupam.acrylic.eval_t$d$c        anupam.acrylic.EasyPaint$MyView$LinePath
+anupam.acrylic.eval_t$d$p        anupam.acrylic.EasyPaint$MyView$MultiLinePathManager
+anupam.acrylic.eval_m$eval_c     public final anupam.acrylic.R$layout
+-------------------------------------------------------------------------------
+
+anupam.acrylic.AboutActivity     (anupam.acrylic.b)
+===============================================================================
+  onCreate protected onCreate(android.os.Bundle)
+
+anupam.acrylic.AboutActivity$1   (anupam.acrylic.eval_u)
+===============================================================================
+  No methods
+
+anupam.acrylic.AboutActivity$IOException (anupam.acrylic.eval_c)
+===============================================================================
+  No methods
+
+anupam.acrylic.BuildConfig       (anupam.acrylic.eval_s)
+===============================================================================
+  No methods
+
+anupam.acrylic.BuildConfig$1     (anupam.acrylic.eval_j)
+===============================================================================
+  No methods
+
+anupam.acrylic.BuildConfig$ArrayOutOfBoundsException     (anupam.acrylic.eval_p)
+===============================================================================
+  No methods
+
+anupam.acrylic.ColorPickerDialog (anupam.acrylic.eval_d)
+===============================================================================
+  o        static access$000(anupam.acrylic.ColorPickerDialog)
+  onCreate protected onCreate(android.os.Bundle)
+
+anupam.acrylic.ColorPickerDialog$1       (anupam.acrylic.eval_d$1)
+===============================================================================
+  n    public colorChanged(int)
+
+anupam.acrylic.ColorPickerDialog$ColorPickerView (anupam.acrylic.eval_d$u)
+===============================================================================
+  c            private ave(int,int,float)
+  g            private interpColor(int[],float)
+  j            private rotateColor(int,float)
+  k            private floatToByte(float)
+  z            private pinToByte(int)
+  onDraw       protected onDraw(android.graphics.Canvas)
+  onMeasure    protected onMeasure(int,int)
+  onTouchEvent public onTouchEvent(android.view.MotionEvent)
+
+anupam.acrylic.ColorPickerDialog$OnColorChangedListener  (anupam.acrylic.eval_d$w)
+===============================================================================
+  n    public abstract colorChanged(int)
+
+anupam.acrylic.ColorPickerDialog$ParseException  (anupam.acrylic.eval_n)
+===============================================================================
+  No methods
+
+anupam.acrylic.EasyPaint (anupam.acrylic.eval_t)
+===============================================================================
+  e                        private getStrokeSize()
+  n                        public colorChanged(int)
+  p                        static access$100()
+  q                        static access$002(anupam.acrylic.EasyPaint,boolean)
+  s                        static access$200(anupam.acrylic.EasyPaint)
+  w                        private isFirstTime()
+  w                        private takeScreenshot(boolean)
+  onBackPressed            public onBackPressed()
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPrepareOptionsMenu     public onPrepareOptionsMenu(android.view.Menu)
+  setContentView           public volatile setContentView(android.view.View)
+
+anupam.acrylic.EasyPaint$1       (anupam.acrylic.eval_t$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+anupam.acrylic.EasyPaint$2       (anupam.acrylic.eval_t$2)
+===============================================================================
+  run  public run()
+
+anupam.acrylic.EasyPaint$3       (anupam.acrylic.eval_t$3)
+===============================================================================
+  onProgressChanged    public onProgressChanged(android.widget.SeekBar,int,boolean)
+  onStartTrackingTouch public onStartTrackingTouch(android.widget.SeekBar)
+  onStopTrackingTouch  public onStopTrackingTouch(android.widget.SeekBar)
+
+anupam.acrylic.EasyPaint$4       (anupam.acrylic.eval_t$4)
+===============================================================================
+  onProgressChanged    public onProgressChanged(android.widget.SeekBar,int,boolean)
+  onStartTrackingTouch public onStartTrackingTouch(android.widget.SeekBar)
+  onStopTrackingTouch  public onStopTrackingTouch(android.widget.SeekBar)
+
+anupam.acrylic.EasyPaint$Exception       (anupam.acrylic.eval_y)
+===============================================================================
+  No methods
+
+anupam.acrylic.EasyPaint$MyView  (anupam.acrylic.eval_t$d)
+===============================================================================
+  onDraw           protected onDraw(android.graphics.Canvas)
+  onSizeChanged    protected onSizeChanged(int,int,int,int)
+  onTouchEvent     public onTouchEvent(android.view.MotionEvent)
+
+anupam.acrylic.EasyPaint$MyView$ArrayOutOfBoundsException        (anupam.acrylic.eval_w)
+===============================================================================
+  No methods
+
+anupam.acrylic.EasyPaint$MyView$LinePath (anupam.acrylic.eval_t$d$c)
+===============================================================================
+  b    public disassociateFromPointer()
+  j    public isDisassociatedFromPointer()
+  n    public getLastX()
+  s    public touchMove(float,float)
+  t    public isAssociatedToPointer(int)
+  v    public touchStart(float,float)
+  v    public associateToPointer(int)
+  x    public getLastY()
+
+anupam.acrylic.EasyPaint$MyView$MultiLinePathManager     (anupam.acrylic.eval_t$d$p)
+===============================================================================
+  n    public addLinePathWithPointer(int)
+  u    public findLinePathFromPointer(int)
+
+anupam.acrylic.GraphicsActivity  (anupam.acrylic.eval_v)
+===============================================================================
+  onCreate         protected onCreate(android.os.Bundle)
+  setContentView   public setContentView(android.view.View)
+
+anupam.acrylic.GraphicsActivity$ArrayOutOfBoundsException        (anupam.acrylic.eval_i)
+===============================================================================
+  No methods
+
+anupam.acrylic.PictureLayout     (anupam.acrylic.eval__)
+===============================================================================
+  m                            private drawPict(android.graphics.Canvas,int,int,int,int,float,float)
+  addView                      public addView(android.view.View)
+  addView                      public addView(android.view.View,android.view.ViewGroup$LayoutParams)
+  addView                      public addView(android.view.View,int)
+  addView                      public addView(android.view.View,int,android.view.ViewGroup$LayoutParams)
+  dispatchDraw                 protected dispatchDraw(android.graphics.Canvas)
+  generateDefaultLayoutParams  protected generateDefaultLayoutParams()
+  invalidateChildInParent      public invalidateChildInParent(int[],android.graphics.Rect)
+  onLayout                     protected onLayout(boolean,int,int,int,int)
+  onMeasure                    protected onMeasure(int,int)
+
+anupam.acrylic.PictureLayout$IOException (anupam.acrylic.eval_o)
+===============================================================================
+  No methods
+
+anupam.acrylic.Places    (anupam.acrylic.eval_k)
+===============================================================================
+  h    public static getCameraTempFile()
+  n    public static getCameraTempFolder()
+  v    public static getScreenshotFolder()
+
+anupam.acrylic.Places$ArrayOutOfBoundsException  (anupam.acrylic.eval_z)
+===============================================================================
+  No methods
+
+anupam.acrylic.R (anupam.acrylic.eval_m)
+===============================================================================
+  No methods
+
+anupam.acrylic.R$ArrayOutOfBoundsException       (anupam.acrylic.eval_f)
+===============================================================================
+  No methods
+
+anupam.acrylic.R$attr    (anupam.acrylic.eval_m$x)
+===============================================================================
+  No methods
+
+anupam.acrylic.R$dimen   (anupam.acrylic.eval_m$k)
+===============================================================================
+  No methods
+
+anupam.acrylic.R$drawable        (anupam.acrylic.eval_m$u)
+===============================================================================
+  No methods
+
+anupam.acrylic.R$id      (anupam.acrylic.eval_m$d)
+===============================================================================
+  No methods
+
+anupam.acrylic.R$layout  (anupam.acrylic.eval_m$eval_c)
+===============================================================================
+  No methods
+
+anupam.acrylic.R$menu    (anupam.acrylic.eval_m$n)
+===============================================================================
+  No methods
+
+anupam.acrylic.R$string  (anupam.acrylic.eval_m$y)
+===============================================================================
+  No methods
+
+anupam.acrylic.R$style   (anupam.acrylic.eval_m$c)
+===============================================================================
+  No methods
+
+anupam.acrylic.Splash
+===============================================================================
+  onCreate protected onCreate(android.os.Bundle)
+
+anupam.acrylic.Splash$1
+===============================================================================
+  run  public run()
+
+anupam.acrylic.Splash$ArrayOutOfBoundsException  (anupam.acrylic.eval_x)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 108
+  Renamed to eval_e :   5 (4.6%)
+  Renamed to eval_j :   5 (4.6%)
+  Renamed to eval_m :   5 (4.6%)
+  Renamed to eval_n :   5 (4.6%)
+  Renamed to eval_s :   5 (4.6%)
+  Renamed to eval_x :   5 (4.6%)
+  Renamed to eval_h :   4 (3.7%)
+  Renamed to eval_l :   4 (3.7%)
+  Renamed to eval_q :   4 (3.7%)
+  Renamed to eval_r :   4 (3.7%)
+
+Number of Methods : 64
+  Renamed to n :   6 (9.4%)
+  Renamed to v :   3 (4.7%)
+  Renamed to j :   2 (3.1%)
+  Renamed to s :   2 (3.1%)
+  Renamed to w :   2 (3.1%)
+  Renamed to b :   1 (1.6%)
+  Renamed to c :   1 (1.6%)
+  Renamed to e :   1 (1.6%)
+  Renamed to g :   1 (1.6%)
+  Renamed to h :   1 (1.6%)
+

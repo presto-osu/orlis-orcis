@@ -1,0 +1,179 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.jotabout.screeninfo.eval_a   public com.jotabout.screeninfo.Screen$NullPointerException
+com.jotabout.screeninfo.eval_e   public final com.jotabout.screeninfo.R
+com.jotabout.screeninfo.eval_h   public com.jotabout.screeninfo.BuildConfig$NullPointerException
+com.jotabout.screeninfo.eval_i   public com.jotabout.screeninfo.BuildConfig$1
+com.jotabout.screeninfo.eval_j   public com.jotabout.screeninfo.ScreenInfo$Exception
+com.jotabout.screeninfo.eval_n   public com.jotabout.screeninfo.Screen
+com.jotabout.screeninfo.eval_p   public com.jotabout.screeninfo.R$1
+com.jotabout.screeninfo.eval_w   public final com.jotabout.screeninfo.BuildConfig
+com.jotabout.screeninfo.eval_x   public com.jotabout.screeninfo.R$NullPointerException
+com.jotabout.screeninfo.eval_e$a public final com.jotabout.screeninfo.R$id
+com.jotabout.screeninfo.eval_e$d public final com.jotabout.screeninfo.R$dimen
+com.jotabout.screeninfo.eval_e$f public final com.jotabout.screeninfo.R$attr
+com.jotabout.screeninfo.eval_e$g public final com.jotabout.screeninfo.R$drawable
+com.jotabout.screeninfo.eval_e$j public final com.jotabout.screeninfo.R$style
+com.jotabout.screeninfo.eval_e$k public final com.jotabout.screeninfo.R$layout
+com.jotabout.screeninfo.eval_e$l public final com.jotabout.screeninfo.R$string
+com.jotabout.screeninfo.eval_n$c com.jotabout.screeninfo.Screen$SummaryTextBuilder
+-------------------------------------------------------------------------------
+
+com.jotabout.screeninfo.BuildConfig      (com.jotabout.screeninfo.eval_w)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.BuildConfig$1    (com.jotabout.screeninfo.eval_i)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.BuildConfig$NullPointerException (com.jotabout.screeninfo.eval_h)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.R        (com.jotabout.screeninfo.eval_e)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.R$1      (com.jotabout.screeninfo.eval_p)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.R$NullPointerException   (com.jotabout.screeninfo.eval_x)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.R$attr   (com.jotabout.screeninfo.eval_e$f)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.R$dimen  (com.jotabout.screeninfo.eval_e$d)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.R$drawable       (com.jotabout.screeninfo.eval_e$g)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.R$id     (com.jotabout.screeninfo.eval_e$a)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.R$layout (com.jotabout.screeninfo.eval_e$k)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.R$string (com.jotabout.screeninfo.eval_e$l)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.R$style  (com.jotabout.screeninfo.eval_e$j)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.Screen   (com.jotabout.screeninfo.eval_n)
+===============================================================================
+  a        public heightPx()
+  b        private determineCurrentRotation(android.content.Context)
+  c        public pixelFormatText(android.content.Context)
+  d        public diagonalSizeInches()
+  d        private orientationText(android.content.Context,int)
+  e        public deviceModel()
+  eval_a   public pixelFormat()
+  eval_b   public smallestDp()
+  eval_e   public currentOrientationText()
+  eval_e   public touchScreenText(android.content.Context)
+  eval_f   public screenLayoutText(android.content.Context)
+  eval_j   public screenLayout()
+  eval_k   public sizeClassification()
+  eval_p   public physicalHeight()
+  eval_q   public defaultOrientationText(android.content.Context)
+  eval_t   public refreshRate()
+  f        public defaultOrientation()
+  g        public ydpi()
+  h        public summaryText(android.content.Context)
+  i        public densityDpi()
+  j        public widthDp()
+  j        public sizeClassificationText(android.content.Context)
+  k        public realWidthPx()
+  l        public density()
+  l        public realHeightPxText(android.content.Context)
+  m        public scaledDensity()
+  n        public touchScreen()
+  o        public realWidthPxText(android.content.Context)
+  p        public widthPx()
+  s        public realHeightPx()
+  t        public physicalWidth()
+  t        public densityDpiText(android.content.Context)
+  u        public heightDp()
+  w        public xdpi()
+  x        public diagonalSizeMillimeters()
+  y        public androidVersion()
+
+com.jotabout.screeninfo.Screen$NullPointerException      (com.jotabout.screeninfo.eval_a)
+===============================================================================
+  No methods
+
+com.jotabout.screeninfo.Screen$SummaryTextBuilder        (com.jotabout.screeninfo.eval_n$c)
+===============================================================================
+  d        public addLine(int,double)
+  f        public addLine(int,int)
+  i        public addLine(int,java.lang.String)
+  p        public addNewLine()
+  p        public addLine(int,float)
+  t        public addLine(int)
+  toString public toString()
+
+com.jotabout.screeninfo.ScreenInfo
+===============================================================================
+  a                        private appendVersionToSubject(int)
+  b                        private showTouchScreen()
+  eval_d                   private appVersion()
+  eval_e                   private share()
+  g                        private showDefaultOrientation()
+  k                        private showPixelFormat()
+  l                        private showScreenDiagonalSize()
+  m                        private showRefreshRate()
+  n                        public showScreenMetrics()
+  q                        private showScreenLongWide()
+  t                        public showDeviceInfo()
+  y                        private showCurrentOrientation()
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateDialog           protected onCreateDialog(int)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onResume                 protected onResume()
+
+com.jotabout.screeninfo.ScreenInfo$1
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.jotabout.screeninfo.ScreenInfo$Exception     (com.jotabout.screeninfo.eval_j)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 150
+  Renamed to eval_m :   5 (3.3%)
+  Renamed to eval_b :   4 (2.7%)
+  Renamed to eval_d :   4 (2.7%)
+  Renamed to eval_i :   4 (2.7%)
+  Renamed to eval_j :   4 (2.7%)
+  Renamed to eval_k :   4 (2.7%)
+  Renamed to eval_l :   4 (2.7%)
+  Renamed to eval_n :   4 (2.7%)
+  Renamed to eval_o :   4 (2.7%)
+  Renamed to eval_r :   4 (2.7%)
+
+Number of Methods : 61
+  Renamed to t      :   4 (6.6%)
+  Renamed to d      :   3 (4.9%)
+  Renamed to eval_e :   3 (4.9%)
+  Renamed to l      :   3 (4.9%)
+  Renamed to p      :   3 (4.9%)
+  Renamed to a      :   2 (3.3%)
+  Renamed to b      :   2 (3.3%)
+  Renamed to f      :   2 (3.3%)
+  Renamed to g      :   2 (3.3%)
+  Renamed to i      :   2 (3.3%)
+

@@ -1,0 +1,345 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+at.bitfire.cadroid.v             public at.bitfire.cadroid.ASN1Decoder
+at.bitfire.cadroid.eval__        public at.bitfire.cadroid.InfoTrustManager
+at.bitfire.cadroid.eval_a        public at.bitfire.cadroid.CertificateInfo$Exception
+at.bitfire.cadroid.eval_b        public at.bitfire.cadroid.IntroFragment
+at.bitfire.cadroid.eval_c        public at.bitfire.cadroid.InfoHostnameVerifier$Exception
+at.bitfire.cadroid.eval_d        public at.bitfire.cadroid.ASN1Decoder$1
+at.bitfire.cadroid.eval_e        public at.bitfire.cadroid.BuildConfig$NullPointerException
+at.bitfire.cadroid.eval_f        public at.bitfire.cadroid.FetchingCertificateFragment
+at.bitfire.cadroid.eval_g        public at.bitfire.cadroid.FetchingCertificateFragment$ArrayOutOfBoundsException
+at.bitfire.cadroid.eval_h        public at.bitfire.cadroid.ImportFragment
+at.bitfire.cadroid.eval_i        public at.bitfire.cadroid.ASN1UnexpectedTypeException$1
+at.bitfire.cadroid.eval_j        public final at.bitfire.cadroid.BuildConfig
+at.bitfire.cadroid.eval_k        public at.bitfire.cadroid.ExportFragment
+at.bitfire.cadroid.eval_l        public at.bitfire.cadroid.FetchFragment
+at.bitfire.cadroid.eval_m        public at.bitfire.cadroid.MainActivity$ArrayOutOfBoundsException
+at.bitfire.cadroid.eval_n        public at.bitfire.cadroid.IntroFragment$ParseException
+at.bitfire.cadroid.eval_o        public at.bitfire.cadroid.ImportFragment$IOException
+at.bitfire.cadroid.eval_p        public at.bitfire.cadroid.CertificateInfo
+at.bitfire.cadroid.eval_q        public at.bitfire.cadroid.InfoTrustManager$NullPointerException
+at.bitfire.cadroid.eval_r        public at.bitfire.cadroid.ConnectionInfo
+at.bitfire.cadroid.eval_s        public at.bitfire.cadroid.ConnectionInfo$IOException
+at.bitfire.cadroid.eval_t        public at.bitfire.cadroid.InfoHostnameVerifier
+at.bitfire.cadroid.eval_u        public at.bitfire.cadroid.ExportFragment$IOException
+at.bitfire.cadroid.eval_w        public at.bitfire.cadroid.FetchFragment$ParseException
+at.bitfire.cadroid.eval_x        public at.bitfire.cadroid.ASN1UnexpectedTypeException
+at.bitfire.cadroid.eval_y        public at.bitfire.cadroid.ASN1UnexpectedTypeException$ArrayOutOfBoundsException
+at.bitfire.cadroid.eval_z        public at.bitfire.cadroid.ASN1Decoder$NullPointerException
+at.bitfire.cadroid.eval_c5       public at.bitfire.cadroid.TLSSocketFactory$NullPointerException
+at.bitfire.cadroid.eval_jh       public at.bitfire.cadroid.TLSSocketFactory
+at.bitfire.cadroid.eval_n1       public at.bitfire.cadroid.VerifyFragment
+at.bitfire.cadroid.eval_op       public at.bitfire.cadroid.SelectFragment$IOException
+at.bitfire.cadroid.eval_t5       public at.bitfire.cadroid.R$NullPointerException
+at.bitfire.cadroid.eval_ug       public at.bitfire.cadroid.VerifyFragment$IOException
+at.bitfire.cadroid.eval_vs       public at.bitfire.cadroid.SelectFragment
+at.bitfire.cadroid.eval_z2       public final at.bitfire.cadroid.R
+at.bitfire.cadroid.eval_f$g      at.bitfire.cadroid.FetchingCertificateFragment$CertificateInfoLoader
+at.bitfire.cadroid.eval_r$1      final at.bitfire.cadroid.ConnectionInfo$1
+at.bitfire.cadroid.eval_vs$1     at.bitfire.cadroid.SelectFragment$1
+at.bitfire.cadroid.eval_z2$c     public final at.bitfire.cadroid.R$drawable
+at.bitfire.cadroid.eval_z2$e     public final at.bitfire.cadroid.R$attr
+at.bitfire.cadroid.eval_z2$j     public final at.bitfire.cadroid.R$dimen
+at.bitfire.cadroid.eval_z2$r     public final at.bitfire.cadroid.R$string
+at.bitfire.cadroid.eval_z2$u     public final at.bitfire.cadroid.R$id
+at.bitfire.cadroid.eval_z2$v     public final at.bitfire.cadroid.R$layout
+at.bitfire.cadroid.eval_z2$eval_p        public final at.bitfire.cadroid.R$menu
+-------------------------------------------------------------------------------
+
+at.bitfire.cadroid.ASN1Decoder   (at.bitfire.cadroid.v)
+===============================================================================
+  g    private static readBuffer(java.io.InputStream)
+  g    private static assertType(java.io.InputStream,int)
+  m    public static readBoolean(java.io.InputStream)
+  o    public static readInteger(java.io.InputStream)
+  q    public static readSequence(java.io.InputStream)
+  v    public static readOctetString(java.io.InputStream)
+
+at.bitfire.cadroid.ASN1Decoder$1 (at.bitfire.cadroid.eval_d)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.ASN1Decoder$NullPointerException      (at.bitfire.cadroid.eval_z)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.ASN1UnexpectedTypeException   (at.bitfire.cadroid.eval_x)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.ASN1UnexpectedTypeException$1 (at.bitfire.cadroid.eval_i)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.ASN1UnexpectedTypeException$ArrayOutOfBoundsException (at.bitfire.cadroid.eval_y)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.BuildConfig   (at.bitfire.cadroid.eval_j)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.BuildConfig$NullPointerException      (at.bitfire.cadroid.eval_e)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.CertificateInfo       (at.bitfire.cadroid.eval_p)
+===============================================================================
+  eval__   public getNotAfter()
+  eval_b   public getNotBefore()
+  eval_m   public getMaxPathLength()
+  g        public isCurrentlyValid()
+  g        public getSignature(java.lang.String)
+  k        public getSerialNumber()
+  m        public getSubjectName()
+  m        protected singleCertificatePath(java.security.cert.X509Certificate)
+  w        public getSubjectAltNames()
+  y        public isCA()
+  z        private decodeBasicConstraints()
+
+at.bitfire.cadroid.CertificateInfo$Exception     (at.bitfire.cadroid.eval_a)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.ConnectionInfo        (at.bitfire.cadroid.eval_r)
+===============================================================================
+  b                public isTrusted()
+  b                public setCertificates(java.security.cert.X509Certificate[])
+  eval_n           public isHostNameMatching()
+  eval_z           public getCertificates()
+  h                static access$302(at.bitfire.cadroid.ConnectionInfo,java.security.cert.X509Certificate[])
+  l                public setHostName(java.lang.String)
+  m                static access$402(at.bitfire.cadroid.ConnectionInfo,boolean)
+  q                public getException()
+  r                public getHostName()
+  u                public setHostNameMatching(boolean)
+  v                static access$102(at.bitfire.cadroid.ConnectionInfo,java.lang.String)
+  x                static access$202(at.bitfire.cadroid.ConnectionInfo,java.lang.Exception)
+  x                public static fetch(java.net.URL)
+  describeContents public describeContents()
+  writeToParcel    public writeToParcel(android.os.Parcel,int)
+
+at.bitfire.cadroid.ConnectionInfo$1      (at.bitfire.cadroid.eval_r$1)
+===============================================================================
+  createFromParcel public createFromParcel(android.os.Parcel)
+  newArray         public newArray(int)
+  createFromParcel public volatile createFromParcel(android.os.Parcel)
+  newArray         public volatile newArray(int)
+
+at.bitfire.cadroid.ConnectionInfo$IOException    (at.bitfire.cadroid.eval_s)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.ExportFragment        (at.bitfire.cadroid.eval_k)
+===============================================================================
+  h                        private exportCertificate(java.security.cert.X509Certificate)
+  onActivityCreated        public onActivityCreated(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)
+  onCreateView             public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPrepareOptionsMenu     public onPrepareOptionsMenu(android.view.Menu)
+
+at.bitfire.cadroid.ExportFragment$IOException    (at.bitfire.cadroid.eval_u)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.FetchFragment (at.bitfire.cadroid.eval_l)
+===============================================================================
+  eval_u                   private getHostURI()
+  afterTextChanged         public afterTextChanged(android.text.Editable)
+  beforeTextChanged        public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  onActivityCreated        public onActivityCreated(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)
+  onCreateView             public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPrepareOptionsMenu     public onPrepareOptionsMenu(android.view.Menu)
+  onTextChanged            public onTextChanged(java.lang.CharSequence,int,int,int)
+
+at.bitfire.cadroid.FetchFragment$ParseException  (at.bitfire.cadroid.eval_w)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.FetchingCertificateFragment   (at.bitfire.cadroid.eval_f)
+===============================================================================
+  b                public onLoadFinished(android.content.Loader,at.bitfire.cadroid.ConnectionInfo)
+  onCreate         public onCreate(android.os.Bundle)
+  onCreateLoader   public onCreateLoader(int,android.os.Bundle)
+  onCreateView     public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onLoadFinished   public volatile onLoadFinished(android.content.Loader,java.lang.Object)
+  onLoaderReset    public onLoaderReset(android.content.Loader)
+
+at.bitfire.cadroid.FetchingCertificateFragment$ArrayOutOfBoundsException (at.bitfire.cadroid.eval_g)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.FetchingCertificateFragment$CertificateInfoLoader     (at.bitfire.cadroid.eval_f$g)
+===============================================================================
+  loadInBackground public loadInBackground()
+  loadInBackground public volatile loadInBackground()
+
+at.bitfire.cadroid.ImportFragment        (at.bitfire.cadroid.eval_h)
+===============================================================================
+  onAttach                 public onAttach(android.app.Activity)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)
+  onCreateView             public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onResume                 public onResume()
+
+at.bitfire.cadroid.ImportFragment$IOException    (at.bitfire.cadroid.eval_o)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.InfoHostnameVerifier  (at.bitfire.cadroid.eval_t)
+===============================================================================
+  verify   public verify(java.lang.String,javax.net.ssl.SSLSession)
+
+at.bitfire.cadroid.InfoHostnameVerifier$Exception        (at.bitfire.cadroid.eval_c)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.InfoTrustManager      (at.bitfire.cadroid.eval__)
+===============================================================================
+  checkClientTrusted   public checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String)
+  checkServerTrusted   public checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String)
+  getAcceptedIssuers   public getAcceptedIssuers()
+
+at.bitfire.cadroid.InfoTrustManager$NullPointerException (at.bitfire.cadroid.eval_q)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.IntroFragment (at.bitfire.cadroid.eval_b)
+===============================================================================
+  onActivityCreated        public onActivityCreated(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)
+  onCreateView             public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+
+at.bitfire.cadroid.IntroFragment$ParseException  (at.bitfire.cadroid.eval_n)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.MainActivity
+===============================================================================
+  b                    public showHelp(android.view.MenuItem)
+  c                    public getConnectionInfo()
+  eval_c               public onShowFragment(java.lang.String)
+  h                    public setConnectionInfo(at.bitfire.cadroid.ConnectionInfo)
+  o                    public getIdxSelectedCertificate()
+  q                    public showFragment(java.lang.String,boolean)
+  r                    public setIdxSelectedCertificate(int)
+  onCreate             protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu  public onCreateOptionsMenu(android.view.Menu)
+  onSaveInstanceState  protected onSaveInstanceState(android.os.Bundle)
+
+at.bitfire.cadroid.MainActivity$ArrayOutOfBoundsException        (at.bitfire.cadroid.eval_m)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.R     (at.bitfire.cadroid.eval_z2)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.R$NullPointerException        (at.bitfire.cadroid.eval_t5)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.R$attr        (at.bitfire.cadroid.eval_z2$e)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.R$dimen       (at.bitfire.cadroid.eval_z2$j)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.R$drawable    (at.bitfire.cadroid.eval_z2$c)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.R$id  (at.bitfire.cadroid.eval_z2$u)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.R$layout      (at.bitfire.cadroid.eval_z2$v)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.R$menu        (at.bitfire.cadroid.eval_z2$eval_p)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.R$string      (at.bitfire.cadroid.eval_z2$r)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.SelectFragment        (at.bitfire.cadroid.eval_vs)
+===============================================================================
+  onAttach         public onAttach(android.app.Activity)
+  onCreateView     public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onDestroyView    public onDestroyView()
+  onListItemClick  public onListItemClick(android.widget.ListView,android.view.View,int,long)
+  onViewCreated    public onViewCreated(android.view.View,android.os.Bundle)
+
+at.bitfire.cadroid.SelectFragment$1      (at.bitfire.cadroid.eval_vs$1)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+at.bitfire.cadroid.SelectFragment$IOException    (at.bitfire.cadroid.eval_op)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.TLSSocketFactory      (at.bitfire.cadroid.eval_jh)
+===============================================================================
+  e                        private static log(java.lang.String,java.lang.String[])
+  p                        protected configureSocket(java.net.Socket)
+  r                        protected static getDefaultProtocols(javax.net.ssl.SSLSocket)
+  createSocket             public createSocket()
+  createSocket             public createSocket(java.lang.String,int)
+  createSocket             public createSocket(java.lang.String,int,java.net.InetAddress,int)
+  createSocket             public createSocket(java.net.InetAddress,int)
+  createSocket             public createSocket(java.net.InetAddress,int,java.net.InetAddress,int)
+  createSocket             public createSocket(java.net.Socket,java.lang.String,int,boolean)
+  getDefaultCipherSuites   public getDefaultCipherSuites()
+  getSupportedCipherSuites public getSupportedCipherSuites()
+
+at.bitfire.cadroid.TLSSocketFactory$NullPointerException (at.bitfire.cadroid.eval_c5)
+===============================================================================
+  No methods
+
+at.bitfire.cadroid.VerifyFragment        (at.bitfire.cadroid.eval_n1)
+===============================================================================
+  onActivityCreated        public onActivityCreated(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)
+  onCreateView             public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPrepareOptionsMenu     public onPrepareOptionsMenu(android.view.Menu)
+
+at.bitfire.cadroid.VerifyFragment$IOException    (at.bitfire.cadroid.eval_ug)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 138
+  Renamed to eval_p :   9 (6.5%)
+  Renamed to eval_s :   7 (5.1%)
+  Renamed to eval_h :   5 (3.6%)
+  Renamed to eval_k :   5 (3.6%)
+  Renamed to eval_t :   5 (3.6%)
+  Renamed to eval_a :   4 (2.9%)
+  Renamed to eval_b :   4 (2.9%)
+  Renamed to eval_c :   4 (2.9%)
+  Renamed to eval_e :   4 (2.9%)
+  Renamed to eval_g :   4 (2.9%)
+
+Number of Methods : 104
+  Renamed to b :   4 (3.8%)
+  Renamed to g :   4 (3.8%)
+  Renamed to m :   4 (3.8%)
+  Renamed to h :   3 (2.9%)
+  Renamed to q :   3 (2.9%)
+  Renamed to r :   3 (2.9%)
+  Renamed to o :   2 (1.9%)
+  Renamed to v :   2 (1.9%)
+  Renamed to x :   2 (1.9%)
+  Renamed to c :   1 (1.0%)
+

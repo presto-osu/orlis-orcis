@@ -1,0 +1,427 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+org.pulpdust.lesserpad.r         public final org.pulpdust.lesserpad.BuildConfig
+org.pulpdust.lesserpad.eval__    public org.pulpdust.lesserpad.CategoryEditor$8
+org.pulpdust.lesserpad.eval_a    public org.pulpdust.lesserpad.CategoryEditor
+org.pulpdust.lesserpad.eval_b    public org.pulpdust.lesserpad.forBase$NullPointerException
+org.pulpdust.lesserpad.eval_c    public org.pulpdust.lesserpad.forLollipop
+org.pulpdust.lesserpad.eval_d    public org.pulpdust.lesserpad.LesserPadListActivity$SortDialog$NullPointerException
+org.pulpdust.lesserpad.eval_e    public org.pulpdust.lesserpad.forHoneycomb
+org.pulpdust.lesserpad.eval_f    public org.pulpdust.lesserpad.forICS
+org.pulpdust.lesserpad.eval_g    public org.pulpdust.lesserpad.forLollipop$Exception
+org.pulpdust.lesserpad.eval_h    public org.pulpdust.lesserpad.forBase
+org.pulpdust.lesserpad.eval_i    public org.pulpdust.lesserpad.forICS$Exception
+org.pulpdust.lesserpad.eval_j    public org.pulpdust.lesserpad.forFroyo$ArrayOutOfBoundsException
+org.pulpdust.lesserpad.eval_k    public org.pulpdust.lesserpad.ProtectActivity
+org.pulpdust.lesserpad.eval_l    public org.pulpdust.lesserpad.LesserPadPrefs$ParseException
+org.pulpdust.lesserpad.eval_m    public org.pulpdust.lesserpad.LesserPadActivity$NullPointerException
+org.pulpdust.lesserpad.eval_n    public org.pulpdust.lesserpad.forHoneycomb$NullPointerException
+org.pulpdust.lesserpad.eval_o    public org.pulpdust.lesserpad.ProtectActivity$IOException
+org.pulpdust.lesserpad.eval_p    public org.pulpdust.lesserpad.libLesserPad
+org.pulpdust.lesserpad.eval_q    public org.pulpdust.lesserpad.CategoryEditor$ParseException
+org.pulpdust.lesserpad.eval_s    public org.pulpdust.lesserpad.BuildConfig$Exception
+org.pulpdust.lesserpad.eval_t    public final org.pulpdust.lesserpad.R
+org.pulpdust.lesserpad.eval_u    public org.pulpdust.lesserpad.forFroyo
+org.pulpdust.lesserpad.eval_v    public org.pulpdust.lesserpad.R$Exception
+org.pulpdust.lesserpad.eval_w    public org.pulpdust.lesserpad.LesserPadListActivity$Exception
+org.pulpdust.lesserpad.eval_x    public org.pulpdust.lesserpad.libLesserPad$NullPointerException
+org.pulpdust.lesserpad.eval_y    public org.pulpdust.lesserpad.BuildConfig$1
+org.pulpdust.lesserpad.eval_z    public org.pulpdust.lesserpad.LesserPadPrefs
+org.pulpdust.lesserpad.eval_a$1  org.pulpdust.lesserpad.CategoryEditor$1
+org.pulpdust.lesserpad.eval_a$2  org.pulpdust.lesserpad.CategoryEditor$2
+org.pulpdust.lesserpad.eval_a$3  org.pulpdust.lesserpad.CategoryEditor$3
+org.pulpdust.lesserpad.eval_a$4  org.pulpdust.lesserpad.CategoryEditor$4
+org.pulpdust.lesserpad.eval_a$5  org.pulpdust.lesserpad.CategoryEditor$5
+org.pulpdust.lesserpad.eval_a$6  org.pulpdust.lesserpad.CategoryEditor$6
+org.pulpdust.lesserpad.eval_a$7  org.pulpdust.lesserpad.CategoryEditor$7
+org.pulpdust.lesserpad.eval_e$1  org.pulpdust.lesserpad.forHoneycomb$1
+org.pulpdust.lesserpad.eval_e$2  org.pulpdust.lesserpad.forHoneycomb$2
+org.pulpdust.lesserpad.eval_k$1  org.pulpdust.lesserpad.ProtectActivity$1
+org.pulpdust.lesserpad.eval_k$2  org.pulpdust.lesserpad.ProtectActivity$2
+org.pulpdust.lesserpad.eval_t$h  public final org.pulpdust.lesserpad.R$drawable
+org.pulpdust.lesserpad.eval_t$i  public final org.pulpdust.lesserpad.R$attr
+org.pulpdust.lesserpad.eval_t$j  public final org.pulpdust.lesserpad.R$string
+org.pulpdust.lesserpad.eval_t$k  public final org.pulpdust.lesserpad.R$xml
+org.pulpdust.lesserpad.eval_t$q  public final org.pulpdust.lesserpad.R$layout
+org.pulpdust.lesserpad.eval_t$r  public final org.pulpdust.lesserpad.R$array
+org.pulpdust.lesserpad.eval_t$w  public final org.pulpdust.lesserpad.R$id
+org.pulpdust.lesserpad.eval_t$x  public final org.pulpdust.lesserpad.R$menu
+org.pulpdust.lesserpad.eval_t$z  public final org.pulpdust.lesserpad.R$style
+org.pulpdust.lesserpad.LesserPadActivity$o       public org.pulpdust.lesserpad.LesserPadActivity$DetailDialog
+org.pulpdust.lesserpad.LesserPadActivity$p       public org.pulpdust.lesserpad.LesserPadActivity$DeleteDialog
+org.pulpdust.lesserpad.LesserPadActivity$r       public org.pulpdust.lesserpad.LesserPadActivity$Mover
+org.pulpdust.lesserpad.LesserPadListActivity$_   public org.pulpdust.lesserpad.LesserPadListActivity$SortDialog
+org.pulpdust.lesserpad.LesserPadListActivity$y   public org.pulpdust.lesserpad.LesserPadListActivity$Changer
+org.pulpdust.lesserpad.LesserPadListActivity$_$1 org.pulpdust.lesserpad.LesserPadListActivity$SortDialog$1
+-------------------------------------------------------------------------------
+
+org.pulpdust.lesserpad.BuildConfig       (org.pulpdust.lesserpad.r)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.BuildConfig$1     (org.pulpdust.lesserpad.eval_y)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.BuildConfig$Exception     (org.pulpdust.lesserpad.eval_s)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.CategoryEditor    (org.pulpdust.lesserpad.eval_a)
+===============================================================================
+  f        public namingOhji(java.lang.String)
+  h        public setAble(boolean,boolean)
+  k        public readPrefs()
+  m        public sureDelete()
+  q        public isDeletable(java.lang.String)
+  onCreate public onCreate(android.os.Bundle)
+
+org.pulpdust.lesserpad.CategoryEditor$1  (org.pulpdust.lesserpad.eval_a$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+org.pulpdust.lesserpad.CategoryEditor$2  (org.pulpdust.lesserpad.eval_a$2)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+org.pulpdust.lesserpad.CategoryEditor$3  (org.pulpdust.lesserpad.eval_a$3)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+org.pulpdust.lesserpad.CategoryEditor$4  (org.pulpdust.lesserpad.eval_a$4)
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+org.pulpdust.lesserpad.CategoryEditor$5  (org.pulpdust.lesserpad.eval_a$5)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.pulpdust.lesserpad.CategoryEditor$6  (org.pulpdust.lesserpad.eval_a$6)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.pulpdust.lesserpad.CategoryEditor$7  (org.pulpdust.lesserpad.eval_a$7)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.pulpdust.lesserpad.CategoryEditor$8  (org.pulpdust.lesserpad.eval__)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.CategoryEditor$ParseException     (org.pulpdust.lesserpad.eval_q)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.LesserPadActivity
+===============================================================================
+  a                        public static echoDetail(android.content.Context,android.support.v4.app.FragmentActivity,int,java.lang.String)
+  c                        public static enTitle(int,java.lang.String)
+  c                        public static doDelete(java.io.File,java.lang.String)
+  e                        public doCut()
+  eval_a                   public setLabel(java.lang.String)
+  eval_l                   public static doMove(android.content.Context,int)
+  g                        public doInsert(java.lang.CharSequence)
+  h                        public echoProtect(int)
+  i                        public static sureDelete(android.content.Context,android.app.Activity)
+  i                        public textFiling(java.lang.String)
+  j                        public getCopy()
+  k                        public fileOpen(android.net.Uri)
+  l                        public todoCopy()
+  m                        public doCopy(java.lang.CharSequence)
+  n                        public readPrefs()
+  n                        public toEncrypt(java.lang.String,java.lang.String)
+  t                        fileOpened(android.net.Uri)
+  v                        public doBack()
+  w                        public doSave(java.lang.String)
+  x                        public showDetail(android.content.Context,android.support.v4.app.FragmentActivity)
+  y                        public forActionBarMenu(android.view.Menu)
+  z                        public doPaste()
+  afterTextChanged         public afterTextChanged(android.text.Editable)
+  beforeTextChanged        public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  dispatchKeyEvent         public dispatchKeyEvent(android.view.KeyEvent)
+  onActivityResult         protected onActivityResult(int,int,android.content.Intent)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onDestroy                public onDestroy()
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPause                  public onPause()
+  onPrepareOptionsMenu     public onPrepareOptionsMenu(android.view.Menu)
+  onRestart                public onRestart()
+  onResume                 public onResume()
+  onSaveInstanceState      public onSaveInstanceState(android.os.Bundle)
+  onStart                  public onStart()
+  onStop                   public onStop()
+  onTextChanged            public onTextChanged(java.lang.CharSequence,int,int,int)
+
+org.pulpdust.lesserpad.LesserPadActivity$1
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+org.pulpdust.lesserpad.LesserPadActivity$2
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.pulpdust.lesserpad.LesserPadActivity$3
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.pulpdust.lesserpad.LesserPadActivity$4
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.pulpdust.lesserpad.LesserPadActivity$5
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.pulpdust.lesserpad.LesserPadActivity$DeleteDialog    (org.pulpdust.lesserpad.LesserPadActivity$p)
+===============================================================================
+  e                public static newInstance(android.content.Context)
+  onCreateDialog   public onCreateDialog(android.os.Bundle)
+
+org.pulpdust.lesserpad.LesserPadActivity$DetailDialog    (org.pulpdust.lesserpad.LesserPadActivity$o)
+===============================================================================
+  o                public static newInstance(android.content.Context,int,java.lang.String)
+  onCreateDialog   public onCreateDialog(android.os.Bundle)
+
+org.pulpdust.lesserpad.LesserPadActivity$EditMemo
+===============================================================================
+  onDraw   protected onDraw(android.graphics.Canvas)
+
+org.pulpdust.lesserpad.LesserPadActivity$Mover   (org.pulpdust.lesserpad.LesserPadActivity$r)
+===============================================================================
+  onItemSelected       public onItemSelected(android.widget.AdapterView,android.view.View,int,long)
+  onNothingSelected    public onNothingSelected(android.widget.AdapterView)
+
+org.pulpdust.lesserpad.LesserPadActivity$NullPointerException    (org.pulpdust.lesserpad.eval_m)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.LesserPadListActivity
+===============================================================================
+  e                        public static listMemos(java.io.File)
+  g                        public forActionBarMenu(android.view.Menu)
+  k                        public doNew()
+  m                        public static doChange(int)
+  r                        public readPrefs()
+  s                        public writeProps()
+  onActivityResult         protected onActivityResult(int,int,android.content.Intent)
+  onCreate                 public onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPrepareOptionsMenu     public onPrepareOptionsMenu(android.view.Menu)
+  onStop                   protected onStop()
+
+org.pulpdust.lesserpad.LesserPadListActivity$1
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+org.pulpdust.lesserpad.LesserPadListActivity$2
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+org.pulpdust.lesserpad.LesserPadListActivity$3
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+org.pulpdust.lesserpad.LesserPadListActivity$4
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+org.pulpdust.lesserpad.LesserPadListActivity$5
+===============================================================================
+  onItemLongClick  public onItemLongClick(android.widget.AdapterView,android.view.View,int,long)
+
+org.pulpdust.lesserpad.LesserPadListActivity$6
+===============================================================================
+  o        public compare(java.io.File,java.io.File)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+org.pulpdust.lesserpad.LesserPadListActivity$Changer     (org.pulpdust.lesserpad.LesserPadListActivity$y)
+===============================================================================
+  onItemSelected       public onItemSelected(android.widget.AdapterView,android.view.View,int,long)
+  onNothingSelected    public onNothingSelected(android.widget.AdapterView)
+
+org.pulpdust.lesserpad.LesserPadListActivity$Exception   (org.pulpdust.lesserpad.eval_w)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.LesserPadListActivity$SortDialog  (org.pulpdust.lesserpad.LesserPadListActivity$_)
+===============================================================================
+  u                public static newInstance()
+  onCreateDialog   public onCreateDialog(android.os.Bundle)
+
+org.pulpdust.lesserpad.LesserPadListActivity$SortDialog$1        (org.pulpdust.lesserpad.LesserPadListActivity$_$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.pulpdust.lesserpad.LesserPadListActivity$SortDialog$NullPointerException     (org.pulpdust.lesserpad.eval_d)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.LesserPadPrefs    (org.pulpdust.lesserpad.eval_z)
+===============================================================================
+  a        public readPrefs()
+  onCreate public onCreate(android.os.Bundle)
+
+org.pulpdust.lesserpad.LesserPadPrefs$ParseException     (org.pulpdust.lesserpad.eval_l)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.ProtectActivity   (org.pulpdust.lesserpad.eval_k)
+===============================================================================
+  j        public readPrefs()
+  onCreate public onCreate(android.os.Bundle)
+
+org.pulpdust.lesserpad.ProtectActivity$1 (org.pulpdust.lesserpad.eval_k$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+org.pulpdust.lesserpad.ProtectActivity$2 (org.pulpdust.lesserpad.eval_k$2)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+org.pulpdust.lesserpad.ProtectActivity$IOException       (org.pulpdust.lesserpad.eval_o)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.R (org.pulpdust.lesserpad.eval_t)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.R$Exception       (org.pulpdust.lesserpad.eval_v)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.R$array   (org.pulpdust.lesserpad.eval_t$r)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.R$attr    (org.pulpdust.lesserpad.eval_t$i)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.R$drawable        (org.pulpdust.lesserpad.eval_t$h)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.R$id      (org.pulpdust.lesserpad.eval_t$w)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.R$layout  (org.pulpdust.lesserpad.eval_t$q)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.R$menu    (org.pulpdust.lesserpad.eval_t$x)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.R$string  (org.pulpdust.lesserpad.eval_t$j)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.R$style   (org.pulpdust.lesserpad.eval_t$z)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.R$xml     (org.pulpdust.lesserpad.eval_t$k)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.forBase   (org.pulpdust.lesserpad.eval_h)
+===============================================================================
+  i    public static getCopy(android.content.Context)
+  t    public static doCopy(android.content.Context,java.lang.CharSequence)
+
+org.pulpdust.lesserpad.forBase$NullPointerException      (org.pulpdust.lesserpad.eval_b)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.forFroyo  (org.pulpdust.lesserpad.eval_u)
+===============================================================================
+  d    public doDecrypt(java.lang.String,java.lang.String)
+  y    public doEncrypt(java.lang.String,java.lang.String)
+
+org.pulpdust.lesserpad.forFroyo$ArrayOutOfBoundsException        (org.pulpdust.lesserpad.eval_j)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.forHoneycomb      (org.pulpdust.lesserpad.eval_e)
+===============================================================================
+  b    public setText(android.app.Activity,java.lang.CharSequence)
+  f    public static doCopy(android.content.Context,java.lang.CharSequence)
+  k    public setSelection(android.app.Activity,int)
+  m    public setActionBar(android.app.Activity,int,android.widget.ArrayAdapter,int)
+  u    public setEditText(android.widget.EditText,android.content.Context,android.app.Activity,int)
+  v    public static getCopy(android.content.Context)
+
+org.pulpdust.lesserpad.forHoneycomb$1    (org.pulpdust.lesserpad.eval_e$1)
+===============================================================================
+  onActionItemClicked  public onActionItemClicked(android.view.ActionMode,android.view.MenuItem)
+  onCreateActionMode   public onCreateActionMode(android.view.ActionMode,android.view.Menu)
+  onDestroyActionMode  public onDestroyActionMode(android.view.ActionMode)
+  onPrepareActionMode  public onPrepareActionMode(android.view.ActionMode,android.view.Menu)
+
+org.pulpdust.lesserpad.forHoneycomb$2    (org.pulpdust.lesserpad.eval_e$2)
+===============================================================================
+  onNavigationItemSelected public onNavigationItemSelected(int,long)
+
+org.pulpdust.lesserpad.forHoneycomb$NullPointerException (org.pulpdust.lesserpad.eval_n)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.forICS    (org.pulpdust.lesserpad.eval_f)
+===============================================================================
+  e    public setUiOptions(int,android.app.Activity)
+
+org.pulpdust.lesserpad.forICS$Exception  (org.pulpdust.lesserpad.eval_i)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.forLollipop       (org.pulpdust.lesserpad.eval_c)
+===============================================================================
+  d    public static setMenuItems(android.view.Menu,boolean,boolean)
+  p    public static readyActionBar(android.view.View,android.app.Activity,int,int,boolean)
+
+org.pulpdust.lesserpad.forLollipop$Exception     (org.pulpdust.lesserpad.eval_g)
+===============================================================================
+  No methods
+
+org.pulpdust.lesserpad.libLesserPad      (org.pulpdust.lesserpad.eval_p)
+===============================================================================
+  d    public listDir(java.io.File,android.widget.ArrayAdapter,java.util.List,android.widget.Spinner,android.app.Activity,java.lang.String)
+  f    public daLaunch(android.app.Activity,android.widget.EditText,int)
+  i    public getSelection(boolean,android.widget.EditText)
+  m    public goSearch(android.content.Context,android.widget.EditText)
+  t    public getSum(java.lang.String,int)
+  w    public isIntentAvailable(android.content.Context,java.lang.String)
+
+org.pulpdust.lesserpad.libLesserPad$NullPointerException (org.pulpdust.lesserpad.eval_x)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 349
+  Renamed to eval_b :  11 (3.2%)
+  Renamed to eval_c :   9 (2.6%)
+  Renamed to eval_k :   9 (2.6%)
+  Renamed to eval_u :   9 (2.6%)
+  Renamed to eval_x :   9 (2.6%)
+  Renamed to eval__ :   8 (2.3%)
+  Renamed to eval_a :   8 (2.3%)
+  Renamed to eval_d :   8 (2.3%)
+  Renamed to eval_g :   8 (2.3%)
+  Renamed to eval_h :   8 (2.3%)
+
+Number of Methods : 117
+  Renamed to m :   5 (4.3%)
+  Renamed to e :   4 (3.4%)
+  Renamed to i :   4 (3.4%)
+  Renamed to k :   4 (3.4%)
+  Renamed to d :   3 (2.6%)
+  Renamed to f :   3 (2.6%)
+  Renamed to t :   3 (2.6%)
+  Renamed to a :   2 (1.7%)
+  Renamed to c :   2 (1.7%)
+  Renamed to g :   2 (1.7%)
+

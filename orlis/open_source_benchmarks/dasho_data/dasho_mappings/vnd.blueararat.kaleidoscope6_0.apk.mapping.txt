@@ -1,0 +1,493 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+vnd.blueararat.kaleidoscope6.d   public final vnd.blueararat.kaleidoscope6.BuildConfig
+vnd.blueararat.kaleidoscope6.eval__      public vnd.blueararat.kaleidoscope6.Prefs
+vnd.blueararat.kaleidoscope6.eval_a      public vnd.blueararat.kaleidoscope6.Kaleidoscope$ArrayOutOfBoundsException
+vnd.blueararat.kaleidoscope6.eval_b      public vnd.blueararat.kaleidoscope6.FileDialog$6
+vnd.blueararat.kaleidoscope6.eval_c      public vnd.blueararat.kaleidoscope6.Sphere
+vnd.blueararat.kaleidoscope6.eval_e      public vnd.blueararat.kaleidoscope6.Prefs$Exception
+vnd.blueararat.kaleidoscope6.eval_f      public vnd.blueararat.kaleidoscope6.CameraPreview$ParseException
+vnd.blueararat.kaleidoscope6.eval_g      vnd.blueararat.kaleidoscope6.CameraPreview
+vnd.blueararat.kaleidoscope6.eval_h      public vnd.blueararat.kaleidoscope6.KView$Exception
+vnd.blueararat.kaleidoscope6.eval_i      public vnd.blueararat.kaleidoscope6.KCamera$ArrayOutOfBoundsException
+vnd.blueararat.kaleidoscope6.eval_j      public vnd.blueararat.kaleidoscope6.KView
+vnd.blueararat.kaleidoscope6.eval_k      vnd.blueararat.kaleidoscope6.K3DRenderer
+vnd.blueararat.kaleidoscope6.eval_l      public vnd.blueararat.kaleidoscope6.Memory
+vnd.blueararat.kaleidoscope6.eval_m      public vnd.blueararat.kaleidoscope6.FileDialog$Exception
+vnd.blueararat.kaleidoscope6.eval_n      public vnd.blueararat.kaleidoscope6.Sphere$NullPointerException
+vnd.blueararat.kaleidoscope6.eval_o      public vnd.blueararat.kaleidoscope6.SelectionMode
+vnd.blueararat.kaleidoscope6.eval_p      public vnd.blueararat.kaleidoscope6.SeekbarPref$NullPointerException
+vnd.blueararat.kaleidoscope6.eval_q      public vnd.blueararat.kaleidoscope6.BuildConfig$1
+vnd.blueararat.kaleidoscope6.eval_r      public vnd.blueararat.kaleidoscope6.R$NullPointerException
+vnd.blueararat.kaleidoscope6.eval_s      public vnd.blueararat.kaleidoscope6.FileDialog
+vnd.blueararat.kaleidoscope6.eval_t      public vnd.blueararat.kaleidoscope6.KCamera
+vnd.blueararat.kaleidoscope6.eval_u      public vnd.blueararat.kaleidoscope6.K3DRenderer$NullPointerException
+vnd.blueararat.kaleidoscope6.eval_v      public vnd.blueararat.kaleidoscope6.SelectionMode$ParseException
+vnd.blueararat.kaleidoscope6.eval_w      public final vnd.blueararat.kaleidoscope6.R
+vnd.blueararat.kaleidoscope6.eval_x      public vnd.blueararat.kaleidoscope6.Memory$NullPointerException
+vnd.blueararat.kaleidoscope6.eval_y      public vnd.blueararat.kaleidoscope6.FolderPref$Exception
+vnd.blueararat.kaleidoscope6.eval_z      public vnd.blueararat.kaleidoscope6.BuildConfig$NullPointerException
+vnd.blueararat.kaleidoscope6.eval_bv     public vnd.blueararat.kaleidoscope6.filters.Aqua
+vnd.blueararat.kaleidoscope6.eval_c2     public vnd.blueararat.kaleidoscope6.filters.Normal$IOException
+vnd.blueararat.kaleidoscope6.eval_e4     public vnd.blueararat.kaleidoscope6.filters.Aqua$ArrayOutOfBoundsException
+vnd.blueararat.kaleidoscope6.eval_fa     public abstract vnd.blueararat.kaleidoscope6.YUVProcessor
+vnd.blueararat.kaleidoscope6.eval_gz     public vnd.blueararat.kaleidoscope6.filters.RGB2gray$NullPointerException
+vnd.blueararat.kaleidoscope6.eval_m5     public vnd.blueararat.kaleidoscope6.filters.SimplyRGB$ArrayOutOfBoundsException
+vnd.blueararat.kaleidoscope6.eval_o6     public vnd.blueararat.kaleidoscope6.filters.Negative
+vnd.blueararat.kaleidoscope6.eval_qj     public vnd.blueararat.kaleidoscope6.filters.SimplyRGB
+vnd.blueararat.kaleidoscope6.eval_sj     public vnd.blueararat.kaleidoscope6.filters.RGB2gray
+vnd.blueararat.kaleidoscope6.eval_sk     public vnd.blueararat.kaleidoscope6.filters.Normal
+vnd.blueararat.kaleidoscope6.eval_t6     public vnd.blueararat.kaleidoscope6.filters.Negative$NullPointerException
+vnd.blueararat.kaleidoscope6.eval_t7     public vnd.blueararat.kaleidoscope6.YUVProcessor$ArrayOutOfBoundsException
+vnd.blueararat.kaleidoscope6.eval__$1    vnd.blueararat.kaleidoscope6.Prefs$1
+vnd.blueararat.kaleidoscope6.eval__$2    vnd.blueararat.kaleidoscope6.Prefs$2
+vnd.blueararat.kaleidoscope6.eval_g$1    vnd.blueararat.kaleidoscope6.CameraPreview$1
+vnd.blueararat.kaleidoscope6.eval_g$2    vnd.blueararat.kaleidoscope6.CameraPreview$2
+vnd.blueararat.kaleidoscope6.eval_s$1    vnd.blueararat.kaleidoscope6.FileDialog$1
+vnd.blueararat.kaleidoscope6.eval_s$2    vnd.blueararat.kaleidoscope6.FileDialog$2
+vnd.blueararat.kaleidoscope6.eval_s$3    vnd.blueararat.kaleidoscope6.FileDialog$3
+vnd.blueararat.kaleidoscope6.eval_s$4    vnd.blueararat.kaleidoscope6.FileDialog$4
+vnd.blueararat.kaleidoscope6.eval_s$5    vnd.blueararat.kaleidoscope6.FileDialog$5
+vnd.blueararat.kaleidoscope6.eval_t$1    vnd.blueararat.kaleidoscope6.KCamera$1
+vnd.blueararat.kaleidoscope6.eval_w$a    public final vnd.blueararat.kaleidoscope6.R$style
+vnd.blueararat.kaleidoscope6.eval_w$e    public final vnd.blueararat.kaleidoscope6.R$attr
+vnd.blueararat.kaleidoscope6.eval_w$f    public final vnd.blueararat.kaleidoscope6.R$drawable
+vnd.blueararat.kaleidoscope6.eval_w$i    public final vnd.blueararat.kaleidoscope6.R$xml
+vnd.blueararat.kaleidoscope6.eval_w$t    public final vnd.blueararat.kaleidoscope6.R$array
+vnd.blueararat.kaleidoscope6.eval_w$u    public final vnd.blueararat.kaleidoscope6.R$anim
+vnd.blueararat.kaleidoscope6.eval_w$v    public final vnd.blueararat.kaleidoscope6.R$id
+vnd.blueararat.kaleidoscope6.eval_w$x    public final vnd.blueararat.kaleidoscope6.R$layout
+vnd.blueararat.kaleidoscope6.eval_w$y    public final vnd.blueararat.kaleidoscope6.R$string
+vnd.blueararat.kaleidoscope6.eval_w$eval_t       public final vnd.blueararat.kaleidoscope6.R$menu
+vnd.blueararat.kaleidoscope6.Kaleidoscope$k      vnd.blueararat.kaleidoscope6.Kaleidoscope$Renew
+vnd.blueararat.kaleidoscope6.Kaleidoscope$s      vnd.blueararat.kaleidoscope6.Kaleidoscope$Export
+-------------------------------------------------------------------------------
+
+vnd.blueararat.kaleidoscope6.BuildConfig (vnd.blueararat.kaleidoscope6.d)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.BuildConfig$1       (vnd.blueararat.kaleidoscope6.eval_q)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.BuildConfig$NullPointerException    (vnd.blueararat.kaleidoscope6.eval_z)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.CameraPreview       (vnd.blueararat.kaleidoscope6.eval_g)
+===============================================================================
+  d                private guessPreviewSize(int)
+  eval_f           static access$000(vnd.blueararat.kaleidoscope6.CameraPreview)
+  f                setPreviewSize(android.hardware.Camera$Size)
+  g                public switchCamera()
+  i                public takePicture(android.graphics.Bitmap)
+  j                getPreviewWidth()
+  m                public setCameraEffect()
+  o                getPreviewHeight()
+  p                autoFocus(android.hardware.Camera$AutoFocusCallback)
+  p                setPreviewSize(int,int)
+  p                public static setEffect(java.lang.String)
+  t                canAutoFocus()
+  v                getSupportedPreviewSizes()
+  w                public getNumberOfCameras()
+  surfaceChanged   public surfaceChanged(android.view.SurfaceHolder,int,int,int)
+  surfaceCreated   public surfaceCreated(android.view.SurfaceHolder)
+  surfaceDestroyed public surfaceDestroyed(android.view.SurfaceHolder)
+
+vnd.blueararat.kaleidoscope6.CameraPreview$1     (vnd.blueararat.kaleidoscope6.eval_g$1)
+===============================================================================
+  x        public compare(android.hardware.Camera$Size,android.hardware.Camera$Size)
+  compare  public volatile compare(java.lang.Object,java.lang.Object)
+
+vnd.blueararat.kaleidoscope6.CameraPreview$2     (vnd.blueararat.kaleidoscope6.eval_g$2)
+===============================================================================
+  eval_h           protected onPostExecute(java.lang.String)
+  z                protected transient doInBackground(android.graphics.Bitmap[])
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+
+vnd.blueararat.kaleidoscope6.CameraPreview$ParseException        (vnd.blueararat.kaleidoscope6.eval_f)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.FileDialog  (vnd.blueararat.kaleidoscope6.eval_s)
+===============================================================================
+  b                private setCreateVisible(android.view.View)
+  c                static access$100(vnd.blueararat.kaleidoscope6.FileDialog,android.view.View)
+  d                private getDirImpl(java.lang.String)
+  e                static access$000(vnd.blueararat.kaleidoscope6.FileDialog)
+  i                static access$400(vnd.blueararat.kaleidoscope6.FileDialog)
+  n                static access$200(vnd.blueararat.kaleidoscope6.FileDialog)
+  p                private setSelectVisible(android.view.View)
+  s                private getDir(java.lang.String)
+  w                private addItem(java.lang.String,int)
+  y                static access$300(vnd.blueararat.kaleidoscope6.FileDialog,android.view.View)
+  onCreate         public onCreate(android.os.Bundle)
+  onListItemClick  protected onListItemClick(android.widget.ListView,android.view.View,int,long)
+
+vnd.blueararat.kaleidoscope6.FileDialog$1        (vnd.blueararat.kaleidoscope6.eval_s$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+vnd.blueararat.kaleidoscope6.FileDialog$2        (vnd.blueararat.kaleidoscope6.eval_s$2)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+vnd.blueararat.kaleidoscope6.FileDialog$3        (vnd.blueararat.kaleidoscope6.eval_s$3)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+vnd.blueararat.kaleidoscope6.FileDialog$4        (vnd.blueararat.kaleidoscope6.eval_s$4)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+vnd.blueararat.kaleidoscope6.FileDialog$5        (vnd.blueararat.kaleidoscope6.eval_s$5)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+vnd.blueararat.kaleidoscope6.FileDialog$6        (vnd.blueararat.kaleidoscope6.eval_b)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.FileDialog$Exception        (vnd.blueararat.kaleidoscope6.eval_m)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.FolderPref
+===============================================================================
+  m                    setString(java.lang.String)
+  v                    getString()
+  z                    reset()
+  onSetInitialValue    protected onSetInitialValue(boolean,java.lang.Object)
+
+vnd.blueararat.kaleidoscope6.FolderPref$Exception        (vnd.blueararat.kaleidoscope6.eval_y)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.K3DRenderer (vnd.blueararat.kaleidoscope6.eval_k)
+===============================================================================
+  c                    public setShouldExport(boolean)
+  d                    public savePixels(int,int,int,int,javax.microedition.khronos.opengles.GL10)
+  k                    public start()
+  m                    public setBitmap(android.graphics.Bitmap)
+  n                    public stop()
+  onAccuracyChanged    public onAccuracyChanged(android.hardware.Sensor,int)
+  onDrawFrame          public onDrawFrame(javax.microedition.khronos.opengles.GL10)
+  onSensorChanged      public onSensorChanged(android.hardware.SensorEvent)
+  onSurfaceChanged     public onSurfaceChanged(javax.microedition.khronos.opengles.GL10,int,int)
+  onSurfaceCreated     public onSurfaceCreated(javax.microedition.khronos.opengles.GL10,javax.microedition.khronos.egl.EGLConfig)
+
+vnd.blueararat.kaleidoscope6.K3DRenderer$NullPointerException    (vnd.blueararat.kaleidoscope6.eval_u)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.KCamera     (vnd.blueararat.kaleidoscope6.eval_t)
+===============================================================================
+  a                        static access$000(vnd.blueararat.kaleidoscope6.KCamera)
+  d                        public getCameraPreview()
+  i                        private exitMenu()
+  i                        public goOut(android.view.View)
+  j                        static access$100(vnd.blueararat.kaleidoscope6.KCamera)
+  o                        private buildEffectsMenu()
+  p                        private getEffectsMenu()
+  s                        public getWidth()
+  s                        public goIn(android.view.View)
+  s                        private toggle3D(boolean)
+  v                        static access$002(vnd.blueararat.kaleidoscope6.KCamera,vnd.blueararat.kaleidoscope6.YUVProcessor)
+  y                        static access$200(vnd.blueararat.kaleidoscope6.KCamera)
+  z                        private showEffectsMenu()
+  onBackPressed            public onBackPressed()
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPause                  protected onPause()
+  onPrepareOptionsMenu     public onPrepareOptionsMenu(android.view.Menu)
+  onResume                 protected onResume()
+
+vnd.blueararat.kaleidoscope6.KCamera$1   (vnd.blueararat.kaleidoscope6.eval_t$1)
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+vnd.blueararat.kaleidoscope6.KCamera$ArrayOutOfBoundsException   (vnd.blueararat.kaleidoscope6.eval_i)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.KView       (vnd.blueararat.kaleidoscope6.eval_j)
+===============================================================================
+  a                public setNewSettings(int)
+  d                private drawIntoBitmap(android.graphics.Bitmap,android.graphics.Bitmap,int,int)
+  e                public setBitmap()
+  eval_v           getYUVProcessor()
+  eval_w           public updateTexture()
+  f                currentYUVProcessor()
+  g                destroy()
+  h                public setBitmap(android.graphics.Bitmap)
+  i                public getNumberOfMirrors()
+  i                private synchronized paint(android.graphics.Canvas,android.graphics.Bitmap)
+  i                setYUVProcessor(vnd.blueararat.kaleidoscope6.YUVProcessor)
+  j                public isBlur()
+  j                toastString(java.lang.String,int)
+  n                exportImage(android.graphics.Bitmap)
+  n                public setBlur(boolean)
+  n                private static calculateOffset(int)
+  o                public setViewBitmapSizes(int)
+  p                private drawIntoBitmap(int)
+  r                public resetSizes(int,int)
+  s                private drawIntoBitmap()
+  s                public setK3DMode(boolean,vnd.blueararat.kaleidoscope6.K3DRenderer)
+  s                public setBlurValue(int)
+  v                public getBlurValue()
+  w                private synchronized paint(android.graphics.Canvas,android.graphics.Bitmap,int)
+  onDraw           protected onDraw(android.graphics.Canvas)
+  onPreviewFrame   public onPreviewFrame(byte[],android.hardware.Camera)
+  onSizeChanged    protected onSizeChanged(int,int,int,int)
+  onTouchEvent     public onTouchEvent(android.view.MotionEvent)
+
+vnd.blueararat.kaleidoscope6.KView$Exception     (vnd.blueararat.kaleidoscope6.eval_h)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.Kaleidoscope
+===============================================================================
+  eval_i                   private toggle3D(boolean)
+  eval_r                   static access$100()
+  f                        public getWidth()
+  m                        private loadBitmap(android.graphics.BitmapFactory$Options,android.net.Uri)
+  o                        static access$400(vnd.blueararat.kaleidoscope6.Kaleidoscope)
+  q                        static access$000(vnd.blueararat.kaleidoscope6.Kaleidoscope)
+  t                        private fileExists(android.net.Uri)
+  t                        private toggleHardwareAcceleration(boolean)
+  t                        static access$300(vnd.blueararat.kaleidoscope6.Kaleidoscope)
+  w                        static access$200(vnd.blueararat.kaleidoscope6.Kaleidoscope,boolean)
+  x                        private getPath(android.net.Uri)
+  onActivityResult         protected onActivityResult(int,int,android.content.Intent)
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onDestroy                protected onDestroy()
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPause                  protected onPause()
+  onPrepareOptionsMenu     public onPrepareOptionsMenu(android.view.Menu)
+  onResume                 protected onResume()
+  onStart                  protected onStart()
+
+vnd.blueararat.kaleidoscope6.Kaleidoscope$ArrayOutOfBoundsException      (vnd.blueararat.kaleidoscope6.eval_a)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.Kaleidoscope$Export (vnd.blueararat.kaleidoscope6.Kaleidoscope$s)
+===============================================================================
+  t                protected onPostExecute(java.lang.String)
+  u                protected transient doInBackground(android.graphics.Bitmap[])
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+
+vnd.blueararat.kaleidoscope6.Kaleidoscope$Renew  (vnd.blueararat.kaleidoscope6.Kaleidoscope$k)
+===============================================================================
+  d                protected transient doInBackground(java.lang.Void[])
+  w                protected onPostExecute(java.lang.Void)
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+
+vnd.blueararat.kaleidoscope6.Memory      (vnd.blueararat.kaleidoscope6.eval_l)
+===============================================================================
+  i    public static checkBitmapFitsInMemory(int,int)
+  m    static factor()
+  o    static setReqSize(long)
+  q    public static checkBitmapFitsInMemory(android.graphics.BitmapFactory$Options)
+
+vnd.blueararat.kaleidoscope6.Memory$NullPointerException (vnd.blueararat.kaleidoscope6.eval_x)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.Prefs       (vnd.blueararat.kaleidoscope6.eval__)
+===============================================================================
+  onActivityResult             protected onActivityResult(int,int,android.content.Intent)
+  onButtonClicked              public onButtonClicked(android.view.View)
+  onCreate                     public onCreate(android.os.Bundle)
+  onDestroy                    public onDestroy()
+  onPause                      protected onPause()
+  onResume                     protected onResume()
+  onSharedPreferenceChanged    public onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+
+vnd.blueararat.kaleidoscope6.Prefs$1     (vnd.blueararat.kaleidoscope6.eval__$1)
+===============================================================================
+  onPreferenceClick    public onPreferenceClick(android.preference.Preference)
+
+vnd.blueararat.kaleidoscope6.Prefs$2     (vnd.blueararat.kaleidoscope6.eval__$2)
+===============================================================================
+  onPreferenceClick    public onPreferenceClick(android.preference.Preference)
+
+vnd.blueararat.kaleidoscope6.Prefs$Exception     (vnd.blueararat.kaleidoscope6.eval_e)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.R   (vnd.blueararat.kaleidoscope6.eval_w)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.R$NullPointerException      (vnd.blueararat.kaleidoscope6.eval_r)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.R$anim      (vnd.blueararat.kaleidoscope6.eval_w$u)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.R$array     (vnd.blueararat.kaleidoscope6.eval_w$t)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.R$attr      (vnd.blueararat.kaleidoscope6.eval_w$e)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.R$drawable  (vnd.blueararat.kaleidoscope6.eval_w$f)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.R$id        (vnd.blueararat.kaleidoscope6.eval_w$v)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.R$layout    (vnd.blueararat.kaleidoscope6.eval_w$x)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.R$menu      (vnd.blueararat.kaleidoscope6.eval_w$eval_t)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.R$string    (vnd.blueararat.kaleidoscope6.eval_w$y)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.R$style     (vnd.blueararat.kaleidoscope6.eval_w$a)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.R$xml       (vnd.blueararat.kaleidoscope6.eval_w$i)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.SeekbarPref
+===============================================================================
+  h                    public setProgressValue(int)
+  onBindView           public onBindView(android.view.View)
+  onCreateView         protected onCreateView(android.view.ViewGroup)
+  onProgressChanged    public onProgressChanged(android.widget.SeekBar,int,boolean)
+  onSetInitialValue    protected onSetInitialValue(boolean,java.lang.Object)
+  onStartTrackingTouch public onStartTrackingTouch(android.widget.SeekBar)
+  onStopTrackingTouch  public onStopTrackingTouch(android.widget.SeekBar)
+
+vnd.blueararat.kaleidoscope6.SeekbarPref$NullPointerException    (vnd.blueararat.kaleidoscope6.eval_p)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.SelectionMode       (vnd.blueararat.kaleidoscope6.eval_o)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.SelectionMode$ParseException        (vnd.blueararat.kaleidoscope6.eval_v)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.Sphere      (vnd.blueararat.kaleidoscope6.eval_c)
+===============================================================================
+  n    public loadGLTexture(javax.microedition.khronos.opengles.GL10,android.content.Context,android.graphics.Bitmap)
+  y    public draw(javax.microedition.khronos.opengles.GL10)
+  z    public setBitmap(android.graphics.Bitmap)
+
+vnd.blueararat.kaleidoscope6.Sphere$NullPointerException (vnd.blueararat.kaleidoscope6.eval_n)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.YUVProcessor        (vnd.blueararat.kaleidoscope6.eval_fa)
+===============================================================================
+  h        public abstract processYUV420SP(int[],byte[],int,int)
+  j        public abstract setString(java.lang.String)
+  v        public abstract getEffect()
+  y        public abstract getName()
+  toString public toString()
+
+vnd.blueararat.kaleidoscope6.YUVProcessor$ArrayOutOfBoundsException      (vnd.blueararat.kaleidoscope6.eval_t7)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.filters.Aqua        (vnd.blueararat.kaleidoscope6.eval_bv)
+===============================================================================
+  h    public processYUV420SP(int[],byte[],int,int)
+  j    public setString(java.lang.String)
+  v    public getEffect()
+  y    public getName()
+
+vnd.blueararat.kaleidoscope6.filters.Aqua$ArrayOutOfBoundsException      (vnd.blueararat.kaleidoscope6.eval_e4)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.filters.Negative    (vnd.blueararat.kaleidoscope6.eval_o6)
+===============================================================================
+  h    public processYUV420SP(int[],byte[],int,int)
+  j    public setString(java.lang.String)
+  v    public getEffect()
+  y    public getName()
+
+vnd.blueararat.kaleidoscope6.filters.Negative$NullPointerException       (vnd.blueararat.kaleidoscope6.eval_t6)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.filters.Normal      (vnd.blueararat.kaleidoscope6.eval_sk)
+===============================================================================
+  p    public static processYUV420SP(int[],byte[],int,int)
+
+vnd.blueararat.kaleidoscope6.filters.Normal$IOException  (vnd.blueararat.kaleidoscope6.eval_c2)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.filters.RGB2gray    (vnd.blueararat.kaleidoscope6.eval_sj)
+===============================================================================
+  h    public processYUV420SP(int[],byte[],int,int)
+  j    public setString(java.lang.String)
+  v    public getEffect()
+  y    public getName()
+
+vnd.blueararat.kaleidoscope6.filters.RGB2gray$NullPointerException       (vnd.blueararat.kaleidoscope6.eval_gz)
+===============================================================================
+  No methods
+
+vnd.blueararat.kaleidoscope6.filters.SimplyRGB   (vnd.blueararat.kaleidoscope6.eval_qj)
+===============================================================================
+  h    public synchronized processYUV420SP(int[],byte[],int,int)
+  j    public setString(java.lang.String)
+  v    public getEffect()
+  y    public getName()
+
+vnd.blueararat.kaleidoscope6.filters.SimplyRGB$ArrayOutOfBoundsException (vnd.blueararat.kaleidoscope6.eval_m5)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 305
+  Renamed to eval_l :  11 (3.6%)
+  Renamed to eval_y :  11 (3.6%)
+  Renamed to eval_e :  10 (3.3%)
+  Renamed to eval_k :  10 (3.3%)
+  Renamed to eval_m :  10 (3.3%)
+  Renamed to eval_p :  10 (3.3%)
+  Renamed to eval_r :  10 (3.3%)
+  Renamed to eval_s :  10 (3.3%)
+  Renamed to eval__ :   9 (3.0%)
+  Renamed to eval_f :   9 (3.0%)
+
+Number of Methods : 176
+  Renamed to j :   9 (5.1%)
+  Renamed to v :   9 (5.1%)
+  Renamed to i :   8 (4.5%)
+  Renamed to y :   8 (4.5%)
+  Renamed to h :   7 (4.0%)
+  Renamed to p :   7 (4.0%)
+  Renamed to s :   7 (4.0%)
+  Renamed to d :   6 (3.4%)
+  Renamed to n :   6 (3.4%)
+  Renamed to m :   5 (2.8%)
+

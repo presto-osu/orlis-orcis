@@ -1,0 +1,124 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.pjuu.otterdroid.e            public final com.pjuu.otterdroid.BuildConfig
+com.pjuu.otterdroid.eval__       public final com.pjuu.otterdroid.R
+com.pjuu.otterdroid.eval_a       public com.pjuu.otterdroid.BuildConfig$1
+com.pjuu.otterdroid.eval_p       public com.pjuu.otterdroid.MainActivity$ParseException
+com.pjuu.otterdroid.eval_t       public com.pjuu.otterdroid.MainActivity$1
+com.pjuu.otterdroid.eval_v       public com.pjuu.otterdroid.BuildConfig$ArrayOutOfBoundsException
+com.pjuu.otterdroid.eval_w       public com.pjuu.otterdroid.R$ArrayOutOfBoundsException
+com.pjuu.otterdroid.eval__$a     public final com.pjuu.otterdroid.R$id
+com.pjuu.otterdroid.eval__$b     public final com.pjuu.otterdroid.R$style
+com.pjuu.otterdroid.eval__$i     public final com.pjuu.otterdroid.R$string
+com.pjuu.otterdroid.eval__$o     public final com.pjuu.otterdroid.R$drawable
+com.pjuu.otterdroid.eval__$u     public final com.pjuu.otterdroid.R$layout
+com.pjuu.otterdroid.eval__$w     public final com.pjuu.otterdroid.R$attr
+com.pjuu.otterdroid.MainActivity$c       public com.pjuu.otterdroid.MainActivity$PjuuWebChromeClient
+com.pjuu.otterdroid.MainActivity$i       public com.pjuu.otterdroid.MainActivity$WebAppInterface
+com.pjuu.otterdroid.MainActivity$r       public com.pjuu.otterdroid.MainActivity$PjuuWebViewClient
+-------------------------------------------------------------------------------
+
+com.pjuu.otterdroid.BuildConfig  (com.pjuu.otterdroid.e)
+===============================================================================
+  No methods
+
+com.pjuu.otterdroid.BuildConfig$1        (com.pjuu.otterdroid.eval_a)
+===============================================================================
+  No methods
+
+com.pjuu.otterdroid.BuildConfig$ArrayOutOfBoundsException        (com.pjuu.otterdroid.eval_v)
+===============================================================================
+  No methods
+
+com.pjuu.otterdroid.MainActivity
+===============================================================================
+  j                        static access$000(com.pjuu.otterdroid.MainActivity)
+  q                        static access$100(com.pjuu.otterdroid.MainActivity)
+  s                        protected openFileInput(android.webkit.ValueCallback,android.webkit.ValueCallback)
+  x                        public hasConnection()
+  onActivityResult         public onActivityResult(int,int,android.content.Intent)
+  onBackPressed            public onBackPressed()
+  onCreate                 protected onCreate(android.os.Bundle)
+  onRestoreInstanceState   protected onRestoreInstanceState(android.os.Bundle)
+  onSaveInstanceState      protected onSaveInstanceState(android.os.Bundle)
+
+com.pjuu.otterdroid.MainActivity$1       (com.pjuu.otterdroid.eval_t)
+===============================================================================
+  No methods
+
+com.pjuu.otterdroid.MainActivity$ParseException  (com.pjuu.otterdroid.eval_p)
+===============================================================================
+  No methods
+
+com.pjuu.otterdroid.MainActivity$PjuuWebChromeClient     (com.pjuu.otterdroid.MainActivity$c)
+===============================================================================
+  eval_f               public openFileChooser(android.webkit.ValueCallback,java.lang.String,java.lang.String)
+  m                    public openFileChooser(android.webkit.ValueCallback)
+  m                    public openFileChooser(android.webkit.ValueCallback,java.lang.String)
+  onShowFileChooser    public onShowFileChooser(android.webkit.WebView,android.webkit.ValueCallback,android.webkit.WebChromeClient$FileChooserParams)
+
+com.pjuu.otterdroid.MainActivity$PjuuWebViewClient       (com.pjuu.otterdroid.MainActivity$r)
+===============================================================================
+  onPageFinished           public onPageFinished(android.webkit.WebView,java.lang.String)
+  onPageStarted            public onPageStarted(android.webkit.WebView,java.lang.String,android.graphics.Bitmap)
+  onReceivedError          public onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String)
+  shouldOverrideUrlLoading public shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)
+
+com.pjuu.otterdroid.MainActivity$WebAppInterface (com.pjuu.otterdroid.MainActivity$i)
+===============================================================================
+  y    public hideImageUpload()
+
+com.pjuu.otterdroid.R    (com.pjuu.otterdroid.eval__)
+===============================================================================
+  No methods
+
+com.pjuu.otterdroid.R$ArrayOutOfBoundsException  (com.pjuu.otterdroid.eval_w)
+===============================================================================
+  No methods
+
+com.pjuu.otterdroid.R$attr       (com.pjuu.otterdroid.eval__$w)
+===============================================================================
+  No methods
+
+com.pjuu.otterdroid.R$drawable   (com.pjuu.otterdroid.eval__$o)
+===============================================================================
+  No methods
+
+com.pjuu.otterdroid.R$id (com.pjuu.otterdroid.eval__$a)
+===============================================================================
+  No methods
+
+com.pjuu.otterdroid.R$layout     (com.pjuu.otterdroid.eval__$u)
+===============================================================================
+  No methods
+
+com.pjuu.otterdroid.R$string     (com.pjuu.otterdroid.eval__$i)
+===============================================================================
+  No methods
+
+com.pjuu.otterdroid.R$style      (com.pjuu.otterdroid.eval__$b)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 27
+  Renamed to eval_g :   2 (7.4%)
+  Renamed to eval_h :   2 (7.4%)
+  Renamed to eval_i :   2 (7.4%)
+  Renamed to eval_o :   2 (7.4%)
+  Renamed to eval_q :   2 (7.4%)
+  Renamed to eval_z :   2 (7.4%)
+  Renamed to j      :   2 (7.4%)
+  Renamed to x      :   2 (7.4%)
+  Renamed to b      :   1 (3.7%)
+  Renamed to e      :   1 (3.7%)
+
+Number of Methods : 18
+  Renamed to m      :   2 (11.1%)
+  Renamed to eval_f :   1 (5.6%)
+  Renamed to j      :   1 (5.6%)
+  Renamed to q      :   1 (5.6%)
+  Renamed to s      :   1 (5.6%)
+  Renamed to x      :   1 (5.6%)
+  Renamed to y      :   1 (5.6%)
+

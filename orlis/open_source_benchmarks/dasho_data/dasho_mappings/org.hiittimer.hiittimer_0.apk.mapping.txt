@@ -1,0 +1,823 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+org.hiittimer.hiittimer.c        public final org.hiittimer.Constants
+org.hiittimer.MainActivity$u     public org.hiittimer.MainActivity$PlaceholderFragment
+org.hiittimer.hiittimer.eval__   public final org.hiittimer.adapters.RoundBeanArrayAdapter
+org.hiittimer.hiittimer.eval_a   public org.hiittimer.adapters.RoundBeanArrayAdapter$Exception
+org.hiittimer.hiittimer.eval_b   public org.hiittimer.MainActivity$ArrayOutOfBoundsException
+org.hiittimer.hiittimer.eval_d   public org.hiittimer.EditTrainingPlan$PlaceholderFragment$NullPointerException
+org.hiittimer.hiittimer.eval_e   public org.hiittimer.Constants$IOException
+org.hiittimer.hiittimer.eval_f   public final org.hiittimer.adapters.RoundArrayAdapter
+org.hiittimer.hiittimer.eval_g   public final org.hiittimer.CurrentTraining
+org.hiittimer.hiittimer.eval_h   public org.hiittimer.HIITTimerApplication$Exception
+org.hiittimer.hiittimer.eval_i   public org.hiittimer.PreferencesActivity
+org.hiittimer.hiittimer.eval_j   public org.hiittimer.adapters.TrainingPlanArrayAdapter$ParseException
+org.hiittimer.hiittimer.eval_k   public org.hiittimer.TrainingPlans$PlaceholderFragment$ParseException
+org.hiittimer.hiittimer.eval_l   public final org.hiittimer.TrainingPlans
+org.hiittimer.hiittimer.eval_m   public org.hiittimer.Constants$1
+org.hiittimer.hiittimer.eval_n   public org.hiittimer.CurrentTraining$Exception
+org.hiittimer.hiittimer.eval_o   public final org.hiittimer.adapters.TrainingPlanArrayAdapter
+org.hiittimer.hiittimer.eval_p   public org.hiittimer.PreferencesActivity$IOException
+org.hiittimer.hiittimer.eval_q   public org.hiittimer.CreateNewTrainingPlan$5
+org.hiittimer.hiittimer.eval_r   public org.hiittimer.CurrentTraining$PlaceholderFragment$Exception
+org.hiittimer.hiittimer.eval_s   public org.hiittimer.adapters.RoundArrayAdapter$NullPointerException
+org.hiittimer.hiittimer.eval_t   public org.hiittimer.CreateNewTrainingPlan$PlaceholderFragment$NullPointerException
+org.hiittimer.hiittimer.eval_u   public final org.hiittimer.HIITTimerApplication
+org.hiittimer.hiittimer.eval_v   public org.hiittimer.CreateNewTrainingPlan$NullPointerException
+org.hiittimer.hiittimer.eval_w   public org.hiittimer.EditTrainingPlan
+org.hiittimer.hiittimer.eval_x   public org.hiittimer.TrainingPlans$ParseException
+org.hiittimer.hiittimer.eval_y   public org.hiittimer.CreateNewTrainingPlan
+org.hiittimer.hiittimer.eval_z   public org.hiittimer.EditTrainingPlan$NullPointerException
+org.hiittimer.hiittimer.eval__6  public org.hiittimer.beans.RoundBean
+org.hiittimer.hiittimer.eval_ae  public org.hiittimer.database.generated.TrainingPlan
+org.hiittimer.hiittimer.eval_ax  public org.hiittimer.database.generated.DaoMaster$ParseException
+org.hiittimer.hiittimer.eval_cr  public final org.hiittimer.beans.TrainingPlanBean
+org.hiittimer.hiittimer.eval_do  public org.hiittimer.hiittimer.R$NullPointerException
+org.hiittimer.hiittimer.eval_e4  public org.hiittimer.database.generated.DaoSession$IOException
+org.hiittimer.hiittimer.eval_hx  public org.hiittimer.beans.TrainingPlanBeanUtils
+org.hiittimer.hiittimer.eval_ji  public org.hiittimer.beans.RoundBeanUtils$Exception
+org.hiittimer.hiittimer.eval_jm  public org.hiittimer.database.generated.RoundDao$ArrayOutOfBoundsException
+org.hiittimer.hiittimer.eval_k0  public org.hiittimer.services.CurrentRoundService$ParseException
+org.hiittimer.hiittimer.eval_kk  public org.hiittimer.database.generated.TrainingPlan$NullPointerException
+org.hiittimer.hiittimer.eval_ks  public final org.hiittimer.hiittimer.BuildConfig
+org.hiittimer.hiittimer.eval_lf  public final org.hiittimer.services.CurrentRoundService
+org.hiittimer.hiittimer.eval_mh  public org.hiittimer.database.generated.Round$IOException
+org.hiittimer.hiittimer.eval_mn  public org.hiittimer.beans.TrainingPlanBean$ArrayOutOfBoundsException
+org.hiittimer.hiittimer.eval_n9  public org.hiittimer.hiittimer.BuildConfig$NullPointerException
+org.hiittimer.hiittimer.eval_op  public final org.hiittimer.hiittimer.R
+org.hiittimer.hiittimer.eval_p6  public org.hiittimer.database.generated.Round
+org.hiittimer.hiittimer.eval_ps  public final org.hiittimer.enums.TrainingAction
+org.hiittimer.hiittimer.eval_q8  public org.hiittimer.services.CurrentTrainingService$NullPointerException
+org.hiittimer.hiittimer.eval_r0  public org.hiittimer.beans.TrainingPlanBeanUtils$ArrayOutOfBoundsException
+org.hiittimer.hiittimer.eval_ru  public org.hiittimer.database.generated.DaoSession
+org.hiittimer.hiittimer.eval_s6  public org.hiittimer.beans.RoundBean$Exception
+org.hiittimer.hiittimer.eval_up  public org.hiittimer.database.generated.DaoMaster
+org.hiittimer.hiittimer.eval_uv  public org.hiittimer.database.generated.RoundDao
+org.hiittimer.hiittimer.eval_vf  public org.hiittimer.enums.TrainingAction$Exception
+org.hiittimer.hiittimer.eval_wb  public org.hiittimer.database.generated.TrainingPlanDao$IOException
+org.hiittimer.hiittimer.eval_y0  public final org.hiittimer.services.CurrentTrainingService
+org.hiittimer.hiittimer.eval_z6  public org.hiittimer.database.generated.TrainingPlanDao
+org.hiittimer.hiittimer.eval_zi  public org.hiittimer.beans.RoundBeanUtils
+org.hiittimer.hiittimer.eval__$1 org.hiittimer.adapters.RoundBeanArrayAdapter$1
+org.hiittimer.hiittimer.eval__$f org.hiittimer.adapters.RoundBeanArrayAdapter$ViewHolder
+org.hiittimer.hiittimer.eval_f$1 org.hiittimer.adapters.RoundArrayAdapter$1
+org.hiittimer.hiittimer.eval_f$k org.hiittimer.adapters.RoundArrayAdapter$ViewHolder
+org.hiittimer.hiittimer.eval_g$1 org.hiittimer.CurrentTraining$1
+org.hiittimer.hiittimer.eval_g$u public org.hiittimer.CurrentTraining$PlaceholderFragment
+org.hiittimer.hiittimer.eval_i$k public org.hiittimer.PreferencesActivity$PreferencesFragment
+org.hiittimer.hiittimer.eval_l$w public org.hiittimer.TrainingPlans$PlaceholderFragment
+org.hiittimer.hiittimer.eval_o$1 org.hiittimer.adapters.TrainingPlanArrayAdapter$1
+org.hiittimer.hiittimer.eval_o$x org.hiittimer.adapters.TrainingPlanArrayAdapter$ViewHolder
+org.hiittimer.hiittimer.eval_w$1 org.hiittimer.EditTrainingPlan$1
+org.hiittimer.hiittimer.eval_w$2 org.hiittimer.EditTrainingPlan$2
+org.hiittimer.hiittimer.eval_w$3 org.hiittimer.EditTrainingPlan$3
+org.hiittimer.hiittimer.eval_w$p public org.hiittimer.EditTrainingPlan$PlaceholderFragment
+org.hiittimer.hiittimer.eval_y$1 org.hiittimer.CreateNewTrainingPlan$1
+org.hiittimer.hiittimer.eval_y$2 org.hiittimer.CreateNewTrainingPlan$2
+org.hiittimer.hiittimer.eval_y$3 org.hiittimer.CreateNewTrainingPlan$3
+org.hiittimer.hiittimer.eval_y$4 org.hiittimer.CreateNewTrainingPlan$4
+org.hiittimer.hiittimer.eval_y$c public org.hiittimer.CreateNewTrainingPlan$PlaceholderFragment
+org.hiittimer.hiittimer.eval__6$1        final org.hiittimer.beans.RoundBean$1
+org.hiittimer.hiittimer.eval_cr$1        final org.hiittimer.beans.TrainingPlanBean$1
+org.hiittimer.hiittimer.eval_op$b        public final org.hiittimer.hiittimer.R$array
+org.hiittimer.hiittimer.eval_op$f        public final org.hiittimer.hiittimer.R$attr
+org.hiittimer.hiittimer.eval_op$g        public final org.hiittimer.hiittimer.R$dimen
+org.hiittimer.hiittimer.eval_op$h        public final org.hiittimer.hiittimer.R$integer
+org.hiittimer.hiittimer.eval_op$j        public final org.hiittimer.hiittimer.R$menu
+org.hiittimer.hiittimer.eval_op$k        public final org.hiittimer.hiittimer.R$layout
+org.hiittimer.hiittimer.eval_op$o        public final org.hiittimer.hiittimer.R$raw
+org.hiittimer.hiittimer.eval_op$r        public final org.hiittimer.hiittimer.R$drawable
+org.hiittimer.hiittimer.eval_op$v        public final org.hiittimer.hiittimer.R$id
+org.hiittimer.hiittimer.eval_up$b        public org.hiittimer.database.generated.DaoMaster$DevOpenHelper
+org.hiittimer.hiittimer.eval_up$v        public abstract org.hiittimer.database.generated.DaoMaster$OpenHelper
+org.hiittimer.hiittimer.eval_uv$x        public org.hiittimer.database.generated.RoundDao$Properties
+org.hiittimer.hiittimer.eval_y0$1        org.hiittimer.services.CurrentTrainingService$1
+org.hiittimer.hiittimer.eval_y0$v        org.hiittimer.services.CurrentTrainingService$OnTickFinishedReceiver
+org.hiittimer.hiittimer.eval_z6$k        public org.hiittimer.database.generated.TrainingPlanDao$Properties
+org.hiittimer.hiittimer.eval_g$u$m       org.hiittimer.CurrentTraining$PlaceholderFragment$OnTickReceiver
+org.hiittimer.hiittimer.eval_l$w$1       org.hiittimer.TrainingPlans$PlaceholderFragment$1
+org.hiittimer.hiittimer.eval_l$w$2       org.hiittimer.TrainingPlans$PlaceholderFragment$2
+org.hiittimer.hiittimer.eval_l$w$3       org.hiittimer.TrainingPlans$PlaceholderFragment$3
+org.hiittimer.hiittimer.eval_l$w$4       org.hiittimer.TrainingPlans$PlaceholderFragment$4
+org.hiittimer.hiittimer.eval_l$w$5       org.hiittimer.TrainingPlans$PlaceholderFragment$5
+org.hiittimer.hiittimer.eval_w$p$1       org.hiittimer.EditTrainingPlan$PlaceholderFragment$1
+org.hiittimer.hiittimer.eval_w$p$2       org.hiittimer.EditTrainingPlan$PlaceholderFragment$2
+org.hiittimer.hiittimer.eval_w$p$3       org.hiittimer.EditTrainingPlan$PlaceholderFragment$3
+org.hiittimer.hiittimer.eval_y$c$1       org.hiittimer.CreateNewTrainingPlan$PlaceholderFragment$1
+org.hiittimer.hiittimer.eval_y$c$2       org.hiittimer.CreateNewTrainingPlan$PlaceholderFragment$2
+org.hiittimer.hiittimer.eval_y$c$3       org.hiittimer.CreateNewTrainingPlan$PlaceholderFragment$3
+org.hiittimer.hiittimer.eval_op$eval_b   public final org.hiittimer.hiittimer.R$style
+org.hiittimer.hiittimer.eval_op$eval_n   public final org.hiittimer.hiittimer.R$xml
+org.hiittimer.hiittimer.eval_op$eval_p   public final org.hiittimer.hiittimer.R$string
+-------------------------------------------------------------------------------
+
+org.hiittimer.Constants  (org.hiittimer.hiittimer.c)
+===============================================================================
+  No methods
+
+org.hiittimer.Constants$1        (org.hiittimer.hiittimer.eval_m)
+===============================================================================
+  No methods
+
+org.hiittimer.Constants$IOException      (org.hiittimer.hiittimer.eval_e)
+===============================================================================
+  No methods
+
+org.hiittimer.CreateNewTrainingPlan      (org.hiittimer.hiittimer.eval_y)
+===============================================================================
+  b                        private isTrainingPlanValid()
+  b                        static access$200(org.hiittimer.CreateNewTrainingPlan)
+  c                        static access$100(org.hiittimer.CreateNewTrainingPlan)
+  eval_e                   private showQuitOrFixTrainingPlanAlertDialog()
+  g                        static access$000(org.hiittimer.CreateNewTrainingPlan)
+  k                        static access$400(org.hiittimer.CreateNewTrainingPlan)
+  m                        static access$300(org.hiittimer.CreateNewTrainingPlan,org.hiittimer.beans.RoundBean,boolean)
+  p                        private updateTrainingPlan()
+  q                        private getDaoSession()
+  r                        private roundsAdapterUpdate()
+  t                        private saveTrainingPlan()
+  u                        private createAndShowRoundAlertDialog(org.hiittimer.beans.RoundBean,boolean)
+  w                        private getTrainingPlanName()
+  x                        private getGetReadyTimeInSecondsString()
+  z                        public saveUpdateTrainingPlan(android.view.View)
+  addNewRound              public addNewRound(android.view.View)
+  onBackPressed            public onBackPressed()
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onSaveInstanceState      protected onSaveInstanceState(android.os.Bundle)
+
+org.hiittimer.CreateNewTrainingPlan$1    (org.hiittimer.hiittimer.eval_y$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.CreateNewTrainingPlan$2    (org.hiittimer.hiittimer.eval_y$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.CreateNewTrainingPlan$3    (org.hiittimer.hiittimer.eval_y$3)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.CreateNewTrainingPlan$4    (org.hiittimer.hiittimer.eval_y$4)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.CreateNewTrainingPlan$5    (org.hiittimer.hiittimer.eval_q)
+===============================================================================
+  No methods
+
+org.hiittimer.CreateNewTrainingPlan$NullPointerException (org.hiittimer.hiittimer.eval_v)
+===============================================================================
+  No methods
+
+org.hiittimer.CreateNewTrainingPlan$PlaceholderFragment  (org.hiittimer.hiittimer.eval_y$c)
+===============================================================================
+  m                        private isHelpDialogToBeShown()
+  m                        private contextualMenuDeleteAction(org.hiittimer.beans.RoundBean)
+  t                        private showHelpDialog()
+  v                        private setupTrainingPlanData()
+  w                        private setupRoundsList()
+  onActivityCreated        public onActivityCreated(android.os.Bundle)
+  onContextItemSelected    public onContextItemSelected(android.view.MenuItem)
+  onCreateContextMenu      public onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+  onCreateView             public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onResume                 public onResume()
+
+org.hiittimer.CreateNewTrainingPlan$PlaceholderFragment$1        (org.hiittimer.hiittimer.eval_y$c$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.CreateNewTrainingPlan$PlaceholderFragment$2        (org.hiittimer.hiittimer.eval_y$c$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.CreateNewTrainingPlan$PlaceholderFragment$3        (org.hiittimer.hiittimer.eval_y$c$3)
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+org.hiittimer.CreateNewTrainingPlan$PlaceholderFragment$NullPointerException     (org.hiittimer.hiittimer.eval_t)
+===============================================================================
+  No methods
+
+org.hiittimer.CurrentTraining    (org.hiittimer.hiittimer.eval_g)
+===============================================================================
+  d                        public getTrainingPlanId()
+  f                        static access$600(org.hiittimer.CurrentTraining)
+  f                        public setTrainingPlan(org.hiittimer.database.generated.TrainingPlan)
+  j                        public getTrainingPlan()
+  k                        public setTrainingPlanId(java.lang.Long)
+  o                        private getDaoSession()
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onSaveInstanceState      protected onSaveInstanceState(android.os.Bundle)
+  terminateTraining        public terminateTraining(android.view.View)
+
+org.hiittimer.CurrentTraining$1  (org.hiittimer.hiittimer.eval_g$1)
+===============================================================================
+  No methods
+
+org.hiittimer.CurrentTraining$Exception  (org.hiittimer.hiittimer.eval_n)
+===============================================================================
+  No methods
+
+org.hiittimer.CurrentTraining$PlaceholderFragment        (org.hiittimer.hiittimer.eval_g$u)
+===============================================================================
+  c                    static access$400(org.hiittimer.CurrentTraining$PlaceholderFragment)
+  d                    private unregisterBroadcastReceiver()
+  d                    static access$200(org.hiittimer.CurrentTraining$PlaceholderFragment,android.view.View,org.hiittimer.enums.TrainingAction)
+  f                    private disableStopTrainingButton()
+  h                    private selectTrainingActionText(org.hiittimer.enums.TrainingAction)
+  n                    private restoreSavedInstanceState(android.os.Bundle,android.view.View)
+  n                    private setCurrentRoundRoundActionTextViewText(android.view.View,org.hiittimer.enums.TrainingAction)
+  o                    private setRoundRemainingTimeTextViewText(android.view.View,java.lang.String)
+  p                    private registerBroadcastReceiver()
+  r                    private setCurrentRoundRoundIdTextViewText(android.view.View,java.lang.String)
+  r                    private getBackgroundColor(org.hiittimer.enums.TrainingAction)
+  t                    static access$300(org.hiittimer.CurrentTraining$PlaceholderFragment)
+  t                    static access$100(org.hiittimer.CurrentTraining$PlaceholderFragment,android.view.View,java.lang.String)
+  u                    private setText(android.view.View,float)
+  w                    static access$000(org.hiittimer.CurrentTraining$PlaceholderFragment,android.view.View,java.lang.String)
+  y                    private setTextSizes()
+  z                    private setupFragmentWhenTrainingHasEnded()
+  onActivityCreated    public onActivityCreated(android.os.Bundle)
+  onCreateView         public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onPause              public onPause()
+  onResume             public onResume()
+  onSaveInstanceState  public onSaveInstanceState(android.os.Bundle)
+
+org.hiittimer.CurrentTraining$PlaceholderFragment$Exception      (org.hiittimer.hiittimer.eval_r)
+===============================================================================
+  No methods
+
+org.hiittimer.CurrentTraining$PlaceholderFragment$OnTickReceiver (org.hiittimer.hiittimer.eval_g$u$m)
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+org.hiittimer.EditTrainingPlan   (org.hiittimer.hiittimer.eval_w)
+===============================================================================
+  a                        private areTrainingPlanFieldsCorrect()
+  a                        private createAndShowRoundAlertDialog(org.hiittimer.database.generated.Round,boolean)
+  b                        static access$300(org.hiittimer.EditTrainingPlan)
+  eval_w                   static access$200(org.hiittimer.EditTrainingPlan)
+  eval_x                   private createAndShowErrorDialog()
+  j                        private roundsAdapterUpdate()
+  k                        private updateTrainingPlan()
+  k                        static access$000(org.hiittimer.EditTrainingPlan)
+  k                        static access$400(org.hiittimer.EditTrainingPlan,org.hiittimer.database.generated.Round,boolean)
+  n                        private getDaoSession()
+  p                        public saveUpdateTrainingPlan(android.view.View)
+  v                        static access$100(org.hiittimer.EditTrainingPlan)
+  addNewRound              public addNewRound(android.view.View)
+  onBackPressed            public onBackPressed()
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onSaveInstanceState      protected onSaveInstanceState(android.os.Bundle)
+
+org.hiittimer.EditTrainingPlan$1 (org.hiittimer.hiittimer.eval_w$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.EditTrainingPlan$2 (org.hiittimer.hiittimer.eval_w$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.EditTrainingPlan$3 (org.hiittimer.hiittimer.eval_w$3)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.EditTrainingPlan$NullPointerException      (org.hiittimer.hiittimer.eval_z)
+===============================================================================
+  No methods
+
+org.hiittimer.EditTrainingPlan$PlaceholderFragment       (org.hiittimer.hiittimer.eval_w$p)
+===============================================================================
+  d                        private setupRoundsList()
+  d                        private contextualMenuDeleteAction(org.hiittimer.database.generated.Round)
+  f                        private recalculateRoundsNumbers(org.hiittimer.EditTrainingPlan)
+  g                        private setupTrainingPlanData()
+  l                        private showHelpDialog()
+  u                        private isHelpDialogToBeShown()
+  onActivityCreated        public onActivityCreated(android.os.Bundle)
+  onContextItemSelected    public onContextItemSelected(android.view.MenuItem)
+  onCreateContextMenu      public onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+  onCreateView             public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onResume                 public onResume()
+
+org.hiittimer.EditTrainingPlan$PlaceholderFragment$1     (org.hiittimer.hiittimer.eval_w$p$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.EditTrainingPlan$PlaceholderFragment$2     (org.hiittimer.hiittimer.eval_w$p$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.EditTrainingPlan$PlaceholderFragment$3     (org.hiittimer.hiittimer.eval_w$p$3)
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+org.hiittimer.EditTrainingPlan$PlaceholderFragment$NullPointerException  (org.hiittimer.hiittimer.eval_d)
+===============================================================================
+  No methods
+
+org.hiittimer.HIITTimerApplication       (org.hiittimer.hiittimer.eval_u)
+===============================================================================
+  e        public getDaoSession()
+  g        private setupCreateNewTrainingHelpDialog(android.content.SharedPreferences)
+  j        private setupTrainingPlansHelpDialog(android.content.SharedPreferences)
+  p        private setupPreferences()
+  onCreate public onCreate()
+
+org.hiittimer.HIITTimerApplication$Exception     (org.hiittimer.hiittimer.eval_h)
+===============================================================================
+  No methods
+
+org.hiittimer.MainActivity
+===============================================================================
+  onBackPressed            public onBackPressed()
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  preferences              public preferences(android.view.View)
+  trainingPlans            public trainingPlans(android.view.View)
+
+org.hiittimer.MainActivity$ArrayOutOfBoundsException     (org.hiittimer.hiittimer.eval_b)
+===============================================================================
+  No methods
+
+org.hiittimer.MainActivity$PlaceholderFragment   (org.hiittimer.MainActivity$u)
+===============================================================================
+  onCreateView public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+
+org.hiittimer.PreferencesActivity        (org.hiittimer.hiittimer.eval_i)
+===============================================================================
+  onCreate protected onCreate(android.os.Bundle)
+
+org.hiittimer.PreferencesActivity$IOException    (org.hiittimer.hiittimer.eval_p)
+===============================================================================
+  No methods
+
+org.hiittimer.PreferencesActivity$PreferencesFragment    (org.hiittimer.hiittimer.eval_i$k)
+===============================================================================
+  onCreate                     public onCreate(android.os.Bundle)
+  onPause                      public onPause()
+  onResume                     public onResume()
+  onSharedPreferenceChanged    public onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+
+org.hiittimer.TrainingPlans      (org.hiittimer.hiittimer.eval_l)
+===============================================================================
+  c                        static access$000(org.hiittimer.TrainingPlans)
+  o                        private setupTrainingPlanArray()
+  q                        private getDaoSession()
+  createNewTraining        public createNewTraining(android.view.View)
+  onBackPressed            public onBackPressed()
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onResume                 protected onResume()
+
+org.hiittimer.TrainingPlans$ParseException       (org.hiittimer.hiittimer.eval_x)
+===============================================================================
+  No methods
+
+org.hiittimer.TrainingPlans$PlaceholderFragment  (org.hiittimer.hiittimer.eval_l$w)
+===============================================================================
+  b                        private contextualMenuStartAction(org.hiittimer.database.generated.TrainingPlan)
+  eval_t                   private startCurrentTrainingService(org.hiittimer.database.generated.TrainingPlan)
+  i                        private contextualMenuEditAction(org.hiittimer.database.generated.TrainingPlan)
+  j                        private showHelpDialog()
+  l                        private startCurrentTrainingActivity(org.hiittimer.database.generated.TrainingPlan)
+  r                        private startCurrentTraining(org.hiittimer.database.generated.TrainingPlan)
+  s                        private isHelpDialogToBeShown()
+  s                        private contextualMenuDeleteAction(org.hiittimer.database.generated.TrainingPlan,org.hiittimer.adapters.TrainingPlanArrayAdapter)
+  w                        private showTrainingAlreadyRunningAlertDialog()
+  z                        private setupTrainingPlanList()
+  onActivityCreated        public onActivityCreated(android.os.Bundle)
+  onContextItemSelected    public onContextItemSelected(android.view.MenuItem)
+  onCreateContextMenu      public onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)
+  onCreateView             public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onResume                 public onResume()
+
+org.hiittimer.TrainingPlans$PlaceholderFragment$1        (org.hiittimer.hiittimer.eval_l$w$1)
+===============================================================================
+  run  public run()
+
+org.hiittimer.TrainingPlans$PlaceholderFragment$2        (org.hiittimer.hiittimer.eval_l$w$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.TrainingPlans$PlaceholderFragment$3        (org.hiittimer.hiittimer.eval_l$w$3)
+===============================================================================
+  onItemClick  public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+
+org.hiittimer.TrainingPlans$PlaceholderFragment$4        (org.hiittimer.hiittimer.eval_l$w$4)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.TrainingPlans$PlaceholderFragment$5        (org.hiittimer.hiittimer.eval_l$w$5)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+org.hiittimer.TrainingPlans$PlaceholderFragment$ParseException   (org.hiittimer.hiittimer.eval_k)
+===============================================================================
+  No methods
+
+org.hiittimer.adapters.RoundArrayAdapter (org.hiittimer.hiittimer.eval_f)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+org.hiittimer.adapters.RoundArrayAdapter$1       (org.hiittimer.hiittimer.eval_f$1)
+===============================================================================
+  No methods
+
+org.hiittimer.adapters.RoundArrayAdapter$NullPointerException    (org.hiittimer.hiittimer.eval_s)
+===============================================================================
+  No methods
+
+org.hiittimer.adapters.RoundArrayAdapter$ViewHolder      (org.hiittimer.hiittimer.eval_f$k)
+===============================================================================
+  No methods
+
+org.hiittimer.adapters.RoundBeanArrayAdapter     (org.hiittimer.hiittimer.eval__)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+org.hiittimer.adapters.RoundBeanArrayAdapter$1   (org.hiittimer.hiittimer.eval__$1)
+===============================================================================
+  No methods
+
+org.hiittimer.adapters.RoundBeanArrayAdapter$Exception   (org.hiittimer.hiittimer.eval_a)
+===============================================================================
+  No methods
+
+org.hiittimer.adapters.RoundBeanArrayAdapter$ViewHolder  (org.hiittimer.hiittimer.eval__$f)
+===============================================================================
+  No methods
+
+org.hiittimer.adapters.TrainingPlanArrayAdapter  (org.hiittimer.hiittimer.eval_o)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+org.hiittimer.adapters.TrainingPlanArrayAdapter$1        (org.hiittimer.hiittimer.eval_o$1)
+===============================================================================
+  No methods
+
+org.hiittimer.adapters.TrainingPlanArrayAdapter$ParseException   (org.hiittimer.hiittimer.eval_j)
+===============================================================================
+  No methods
+
+org.hiittimer.adapters.TrainingPlanArrayAdapter$ViewHolder       (org.hiittimer.hiittimer.eval_o$x)
+===============================================================================
+  No methods
+
+org.hiittimer.beans.RoundBean    (org.hiittimer.hiittimer.eval__6)
+===============================================================================
+  h                public getWorkInSeconds()
+  h                public setWorkInSeconds(java.lang.Integer)
+  i                public setRestInSeconds(java.lang.Integer)
+  j                public getNumber()
+  m                public getRestInSeconds()
+  p                public setNumber(java.lang.Integer)
+  describeContents public describeContents()
+  equals           public equals(java.lang.Object)
+  hashCode         public hashCode()
+  writeToParcel    public writeToParcel(android.os.Parcel,int)
+
+org.hiittimer.beans.RoundBean$1  (org.hiittimer.hiittimer.eval__6$1)
+===============================================================================
+  createFromParcel public createFromParcel(android.os.Parcel)
+  newArray         public newArray(int)
+  createFromParcel public volatile createFromParcel(android.os.Parcel)
+  newArray         public volatile newArray(int)
+
+org.hiittimer.beans.RoundBean$Exception  (org.hiittimer.hiittimer.eval_s6)
+===============================================================================
+  No methods
+
+org.hiittimer.beans.RoundBeanUtils       (org.hiittimer.hiittimer.eval_zi)
+===============================================================================
+  c    public static calculateRoundNumber(java.util.List)
+  m    public static recalculateRoundsNumbers(java.util.List)
+  v    public static convert(org.hiittimer.beans.RoundBean)
+
+org.hiittimer.beans.RoundBeanUtils$Exception     (org.hiittimer.hiittimer.eval_ji)
+===============================================================================
+  No methods
+
+org.hiittimer.beans.TrainingPlanBean     (org.hiittimer.hiittimer.eval_cr)
+===============================================================================
+  b                public getGetReadyTimeInSeconds()
+  l                public setGetReadyTimeInSeconds(java.lang.Integer)
+  o                public setName(java.lang.String)
+  r                public getName()
+  describeContents public describeContents()
+  equals           public equals(java.lang.Object)
+  hashCode         public hashCode()
+  writeToParcel    public writeToParcel(android.os.Parcel,int)
+
+org.hiittimer.beans.TrainingPlanBean$1   (org.hiittimer.hiittimer.eval_cr$1)
+===============================================================================
+  createFromParcel public createFromParcel(android.os.Parcel)
+  newArray         public newArray(int)
+  createFromParcel public volatile createFromParcel(android.os.Parcel)
+  newArray         public volatile newArray(int)
+
+org.hiittimer.beans.TrainingPlanBean$ArrayOutOfBoundsException   (org.hiittimer.hiittimer.eval_mn)
+===============================================================================
+  No methods
+
+org.hiittimer.beans.TrainingPlanBeanUtils        (org.hiittimer.hiittimer.eval_hx)
+===============================================================================
+  w    public static convert(org.hiittimer.beans.TrainingPlanBean)
+
+org.hiittimer.beans.TrainingPlanBeanUtils$ArrayOutOfBoundsException      (org.hiittimer.hiittimer.eval_r0)
+===============================================================================
+  No methods
+
+org.hiittimer.database.generated.DaoMaster       (org.hiittimer.hiittimer.eval_up)
+===============================================================================
+  b            public static createAllTables(android.database.sqlite.SQLiteDatabase,boolean)
+  newSession   public newSession()
+  newSession   public newSession(de.greenrobot.dao.identityscope.IdentityScopeType)
+  u            public static dropAllTables(android.database.sqlite.SQLiteDatabase,boolean)
+  newSession   public volatile newSession()
+  newSession   public volatile newSession(de.greenrobot.dao.identityscope.IdentityScopeType)
+
+org.hiittimer.database.generated.DaoMaster$DevOpenHelper (org.hiittimer.hiittimer.eval_up$b)
+===============================================================================
+  onUpgrade    public onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+
+org.hiittimer.database.generated.DaoMaster$OpenHelper    (org.hiittimer.hiittimer.eval_up$v)
+===============================================================================
+  onCreate public onCreate(android.database.sqlite.SQLiteDatabase)
+
+org.hiittimer.database.generated.DaoMaster$ParseException        (org.hiittimer.hiittimer.eval_ax)
+===============================================================================
+  No methods
+
+org.hiittimer.database.generated.DaoSession      (org.hiittimer.hiittimer.eval_ru)
+===============================================================================
+  h    public clear()
+  k    public getRoundDao()
+  w    public getTrainingPlanDao()
+
+org.hiittimer.database.generated.DaoSession$IOException  (org.hiittimer.hiittimer.eval_e4)
+===============================================================================
+  No methods
+
+org.hiittimer.database.generated.Round   (org.hiittimer.hiittimer.eval_p6)
+===============================================================================
+  c        public setRestInSeconds(int)
+  d        public setId(java.lang.Long)
+  eval_c   public getNumber()
+  f        public getTrainingPlanId()
+  m        public setNumber(java.lang.Integer)
+  n        public getId()
+  p        public setTrainingPlanId(long)
+  r        public setWorkInSeconds(int)
+  t        public getRestInSeconds()
+  z        public getWorkInSeconds()
+
+org.hiittimer.database.generated.Round$IOException       (org.hiittimer.hiittimer.eval_mh)
+===============================================================================
+  No methods
+
+org.hiittimer.database.generated.RoundDao        (org.hiittimer.hiittimer.eval_uv)
+===============================================================================
+  d                    protected updateKeyAfterInsert(org.hiittimer.database.generated.Round,long)
+  f                    public _queryTrainingPlan_Rounds(long)
+  j                    public static createTable(android.database.sqlite.SQLiteDatabase,boolean)
+  m                    protected bindValues(android.database.sqlite.SQLiteStatement,org.hiittimer.database.generated.Round)
+  m                    public getKey(org.hiittimer.database.generated.Round)
+  readEntity           public readEntity(android.database.Cursor,int)
+  readKey              public readKey(android.database.Cursor,int)
+  v                    public readEntity(android.database.Cursor,org.hiittimer.database.generated.Round,int)
+  y                    public static dropTable(android.database.sqlite.SQLiteDatabase,boolean)
+  bindValues           protected volatile bindValues(android.database.sqlite.SQLiteStatement,java.lang.Object)
+  getKey               public volatile getKey(java.lang.Object)
+  isEntityUpdateable   protected isEntityUpdateable()
+  readEntity           public volatile readEntity(android.database.Cursor,int)
+  readEntity           public volatile readEntity(android.database.Cursor,java.lang.Object,int)
+  readKey              public volatile readKey(android.database.Cursor,int)
+  updateKeyAfterInsert protected volatile updateKeyAfterInsert(java.lang.Object,long)
+
+org.hiittimer.database.generated.RoundDao$ArrayOutOfBoundsException      (org.hiittimer.hiittimer.eval_jm)
+===============================================================================
+  No methods
+
+org.hiittimer.database.generated.RoundDao$Properties     (org.hiittimer.hiittimer.eval_uv$x)
+===============================================================================
+  No methods
+
+org.hiittimer.database.generated.TrainingPlan    (org.hiittimer.hiittimer.eval_ae)
+===============================================================================
+  c        public delete()
+  e        public setName(java.lang.String)
+  eval_b   public getRounds()
+  eval_i   public refresh()
+  h        public getName()
+  l        public getGetReadyTimeInSeconds()
+  n        public __setDaoSession(org.hiittimer.database.generated.DaoSession)
+  o        public update()
+  o        public setGetReadyTimeInSeconds(int)
+  r        public synchronized resetRounds()
+  t        public setId(java.lang.Long)
+  u        public getId()
+
+org.hiittimer.database.generated.TrainingPlan$NullPointerException       (org.hiittimer.hiittimer.eval_kk)
+===============================================================================
+  No methods
+
+org.hiittimer.database.generated.TrainingPlanDao (org.hiittimer.hiittimer.eval_z6)
+===============================================================================
+  j                    public static dropTable(android.database.sqlite.SQLiteDatabase,boolean)
+  o                    public readEntity(android.database.Cursor,org.hiittimer.database.generated.TrainingPlan,int)
+  p                    protected updateKeyAfterInsert(org.hiittimer.database.generated.TrainingPlan,long)
+  readEntity           public readEntity(android.database.Cursor,int)
+  readKey              public readKey(android.database.Cursor,int)
+  s                    public getKey(org.hiittimer.database.generated.TrainingPlan)
+  t                    public static createTable(android.database.sqlite.SQLiteDatabase,boolean)
+  t                    protected bindValues(android.database.sqlite.SQLiteStatement,org.hiittimer.database.generated.TrainingPlan)
+  z                    protected attachEntity(org.hiittimer.database.generated.TrainingPlan)
+  attachEntity         protected volatile attachEntity(java.lang.Object)
+  bindValues           protected volatile bindValues(android.database.sqlite.SQLiteStatement,java.lang.Object)
+  getKey               public volatile getKey(java.lang.Object)
+  isEntityUpdateable   protected isEntityUpdateable()
+  readEntity           public volatile readEntity(android.database.Cursor,int)
+  readEntity           public volatile readEntity(android.database.Cursor,java.lang.Object,int)
+  readKey              public volatile readKey(android.database.Cursor,int)
+  updateKeyAfterInsert protected volatile updateKeyAfterInsert(java.lang.Object,long)
+
+org.hiittimer.database.generated.TrainingPlanDao$IOException     (org.hiittimer.hiittimer.eval_wb)
+===============================================================================
+  No methods
+
+org.hiittimer.database.generated.TrainingPlanDao$Properties      (org.hiittimer.hiittimer.eval_z6$k)
+===============================================================================
+  No methods
+
+org.hiittimer.enums.TrainingAction       (org.hiittimer.hiittimer.eval_ps)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+org.hiittimer.enums.TrainingAction$Exception     (org.hiittimer.hiittimer.eval_vf)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.BuildConfig      (org.hiittimer.hiittimer.eval_ks)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.BuildConfig$NullPointerException (org.hiittimer.hiittimer.eval_n9)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R        (org.hiittimer.hiittimer.eval_op)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$NullPointerException   (org.hiittimer.hiittimer.eval_do)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$array  (org.hiittimer.hiittimer.eval_op$b)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$attr   (org.hiittimer.hiittimer.eval_op$f)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$dimen  (org.hiittimer.hiittimer.eval_op$g)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$drawable       (org.hiittimer.hiittimer.eval_op$r)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$id     (org.hiittimer.hiittimer.eval_op$v)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$integer        (org.hiittimer.hiittimer.eval_op$h)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$layout (org.hiittimer.hiittimer.eval_op$k)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$menu   (org.hiittimer.hiittimer.eval_op$j)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$raw    (org.hiittimer.hiittimer.eval_op$o)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$string (org.hiittimer.hiittimer.eval_op$eval_p)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$style  (org.hiittimer.hiittimer.eval_op$eval_b)
+===============================================================================
+  No methods
+
+org.hiittimer.hiittimer.R$xml    (org.hiittimer.hiittimer.eval_op$eval_n)
+===============================================================================
+  No methods
+
+org.hiittimer.services.CurrentRoundService       (org.hiittimer.hiittimer.eval_lf)
+===============================================================================
+  a                private isAudioEnabled()
+  b                private recoverTime()
+  c                private prepareToAction()
+  d                private getVolume()
+  e                private broadcastRoundDoneMessage()
+  g                private isTimeToReproduceSound(long)
+  h                private setupRound(android.content.Intent)
+  h                private performCycle(int,org.hiittimer.enums.TrainingAction)
+  k                private performRound()
+  q                private playCountdownSound(long)
+  u                private checkForValidTime(long,long)
+  v                private hasCycleTimeElapsed(int)
+  w                private setupSoundPool()
+  z                public static isRunning()
+  z                private sendTickBroadcastMessage(int,org.hiittimer.enums.TrainingAction)
+  onDestroy        public onDestroy()
+  onHandleIntent   protected onHandleIntent(android.content.Intent)
+
+org.hiittimer.services.CurrentRoundService$ParseException        (org.hiittimer.hiittimer.eval_k0)
+===============================================================================
+  No methods
+
+org.hiittimer.services.CurrentTrainingService    (org.hiittimer.hiittimer.eval_y0)
+===============================================================================
+  b                public static isRunning()
+  b                static access$200(org.hiittimer.services.CurrentTrainingService)
+  d                private registerPhoneStateListener()
+  eval_e           private setupRoundDataBundle()
+  eval_k           private listenToPhoneState(int)
+  eval_p           private stopNotification()
+  eval_w           private performRound()
+  f                private updateCurrentRoundActivityWhenTrainingIsTerminatedByACall()
+  f                public setTrainingPlan(org.hiittimer.database.generated.TrainingPlan)
+  i                private showNotification()
+  j                static access$100(org.hiittimer.services.CurrentTrainingService)
+  l                private getDaoSession()
+  o                public getTrainingPlanId()
+  p                private stopCurrentRoundService()
+  q                private updateCurrentRoundActivity(android.os.Bundle)
+  r                private updateCurrentRoundActivityWhenTrainingIsFinished()
+  t                public getCurrentRoundId()
+  u                public getTrainingPlan()
+  v                private trainingNotification()
+  w                public setTrainingPlanId(java.lang.Long)
+  y                public setCurrentRoundId(long)
+  y                static access$000(org.hiittimer.services.CurrentTrainingService)
+  onBind           public onBind(android.content.Intent)
+  onCreate         public onCreate()
+  onDestroy        public onDestroy()
+  onStartCommand   public onStartCommand(android.content.Intent,int,int)
+
+org.hiittimer.services.CurrentTrainingService$1  (org.hiittimer.hiittimer.eval_y0$1)
+===============================================================================
+  onCallStateChanged   public onCallStateChanged(int,java.lang.String)
+
+org.hiittimer.services.CurrentTrainingService$NullPointerException       (org.hiittimer.hiittimer.eval_q8)
+===============================================================================
+  No methods
+
+org.hiittimer.services.CurrentTrainingService$OnTickFinishedReceiver     (org.hiittimer.hiittimer.eval_y0$v)
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+-------------------------------------------------------------------------------
+Number of Fields : 287
+  Renamed to eval_j :  12 (4.2%)
+  Renamed to eval_a :  10 (3.5%)
+  Renamed to eval_c :  10 (3.5%)
+  Renamed to eval_d :   8 (2.8%)
+  Renamed to eval_m :   8 (2.8%)
+  Renamed to eval_n :   8 (2.8%)
+  Renamed to eval_p :   8 (2.8%)
+  Renamed to eval_r :   8 (2.8%)
+  Renamed to eval_u :   8 (2.8%)
+  Renamed to eval_x :   8 (2.8%)
+
+Number of Methods : 299
+  Renamed to b :   9 (3.0%)
+  Renamed to d :   9 (3.0%)
+  Renamed to t :   9 (3.0%)
+  Renamed to f :   8 (2.7%)
+  Renamed to j :   8 (2.7%)
+  Renamed to m :   8 (2.7%)
+  Renamed to o :   8 (2.7%)
+  Renamed to p :   8 (2.7%)
+  Renamed to r :   8 (2.7%)
+  Renamed to w :   8 (2.7%)
+

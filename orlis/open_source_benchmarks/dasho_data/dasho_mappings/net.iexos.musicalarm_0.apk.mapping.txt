@@ -1,0 +1,317 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+net.iexos.musicalarm.p           public final net.iexos.musicalarm.AlarmService
+net.iexos.musicalarm.p$1         net.iexos.musicalarm.AlarmService$1
+net.iexos.musicalarm.p$2         net.iexos.musicalarm.AlarmService$2
+net.iexos.musicalarm.p$m         public final net.iexos.musicalarm.AlarmService$State
+net.iexos.musicalarm.p$p         public final net.iexos.musicalarm.AlarmService$StateChange
+net.iexos.musicalarm.eval__      public final net.iexos.musicalarm.MusicPlayer
+net.iexos.musicalarm.eval_a      public net.iexos.musicalarm.DelayPickerFragment$NullPointerException
+net.iexos.musicalarm.eval_c      public final net.iexos.musicalarm.PlaylistManager
+net.iexos.musicalarm.eval_d      public net.iexos.musicalarm.R$ParseException
+net.iexos.musicalarm.eval_e      public final net.iexos.musicalarm.PlaylistDialog
+net.iexos.musicalarm.eval_f      public final net.iexos.musicalarm.R
+net.iexos.musicalarm.eval_g      public net.iexos.musicalarm.TimePickerFragment$Exception
+net.iexos.musicalarm.eval_h      public net.iexos.musicalarm.NotificationUtils
+net.iexos.musicalarm.eval_i      public final net.iexos.musicalarm.DelayPickerFragment
+net.iexos.musicalarm.eval_j      public net.iexos.musicalarm.AlarmService$3
+net.iexos.musicalarm.eval_k      public net.iexos.musicalarm.AlarmService$IOException
+net.iexos.musicalarm.eval_l      public net.iexos.musicalarm.AlarmUtils$1
+net.iexos.musicalarm.eval_m      public net.iexos.musicalarm.NotificationUtils$IOException
+net.iexos.musicalarm.eval_n      public net.iexos.musicalarm.PlaylistManager$ArrayOutOfBoundsException
+net.iexos.musicalarm.eval_o      public final net.iexos.musicalarm.BuildConfig
+net.iexos.musicalarm.eval_q      public net.iexos.musicalarm.AlarmUtils$ArrayOutOfBoundsException
+net.iexos.musicalarm.eval_r      public net.iexos.musicalarm.BuildConfig$ParseException
+net.iexos.musicalarm.eval_s      public final net.iexos.musicalarm.AlarmUtils
+net.iexos.musicalarm.eval_v      public net.iexos.musicalarm.AlarmViewActivity$IOException
+net.iexos.musicalarm.eval_w      public net.iexos.musicalarm.PlaylistDialog$NullPointerException
+net.iexos.musicalarm.eval_x      public net.iexos.musicalarm.OnBootReceiver$NullPointerException
+net.iexos.musicalarm.eval_y      public net.iexos.musicalarm.MusicPlayer$ParseException
+net.iexos.musicalarm.eval_z      public final net.iexos.musicalarm.TimePickerFragment
+net.iexos.musicalarm.eval__$1    net.iexos.musicalarm.MusicPlayer$1
+net.iexos.musicalarm.eval__$2    net.iexos.musicalarm.MusicPlayer$2
+net.iexos.musicalarm.eval__$w    final net.iexos.musicalarm.MusicPlayer$MusicState
+net.iexos.musicalarm.eval_e$1    net.iexos.musicalarm.PlaylistDialog$1
+net.iexos.musicalarm.eval_f$d    public final net.iexos.musicalarm.R$string
+net.iexos.musicalarm.eval_f$i    public final net.iexos.musicalarm.R$drawable
+net.iexos.musicalarm.eval_f$j    public final net.iexos.musicalarm.R$color
+net.iexos.musicalarm.eval_f$m    public final net.iexos.musicalarm.R$attr
+net.iexos.musicalarm.eval_f$n    public final net.iexos.musicalarm.R$mipmap
+net.iexos.musicalarm.eval_f$s    public final net.iexos.musicalarm.R$dimen
+net.iexos.musicalarm.eval_f$t    public final net.iexos.musicalarm.R$id
+net.iexos.musicalarm.eval_f$z    public final net.iexos.musicalarm.R$style
+net.iexos.musicalarm.eval_i$1    net.iexos.musicalarm.DelayPickerFragment$1
+net.iexos.musicalarm.eval_i$2    net.iexos.musicalarm.DelayPickerFragment$2
+net.iexos.musicalarm.eval_f$eval_g       public final net.iexos.musicalarm.R$layout
+-------------------------------------------------------------------------------
+
+net.iexos.musicalarm.AlarmService        (net.iexos.musicalarm.p)
+===============================================================================
+  b                private checkErrorStates(net.iexos.musicalarm.AlarmService$StateChange)
+  e                public static sendStateChangeIntent(android.content.Context,net.iexos.musicalarm.AlarmService$StateChange)
+  eval_d           private callStarted()
+  f                private stopRinging()
+  f                public static getPendingStateChangeIntent(android.content.Context,net.iexos.musicalarm.AlarmService$StateChange)
+  i                private startRinging()
+  k                private callStopped()
+  n                private startPlayback()
+  p                private stopPlayback()
+  p                private static getStateChangeIntent(android.content.Context,net.iexos.musicalarm.AlarmService$StateChange)
+  x                public static isRinging()
+  onBind           public onBind(android.content.Intent)
+  onCreate         public onCreate()
+  onDestroy        public onDestroy()
+  onStartCommand   public onStartCommand(android.content.Intent,int,int)
+
+net.iexos.musicalarm.AlarmService$1      (net.iexos.musicalarm.p$1)
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+net.iexos.musicalarm.AlarmService$2      (net.iexos.musicalarm.p$2)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.AlarmService$3      (net.iexos.musicalarm.eval_j)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.AlarmService$IOException    (net.iexos.musicalarm.eval_k)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.AlarmService$State  (net.iexos.musicalarm.p$m)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+net.iexos.musicalarm.AlarmService$StateChange    (net.iexos.musicalarm.p$p)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+net.iexos.musicalarm.AlarmUtils  (net.iexos.musicalarm.eval_s)
+===============================================================================
+  a        private static alarmManager(android.content.Context)
+  e        public static dismissAlarm(android.content.Context)
+  eval_i   private static getAlarmIntent(android.content.Context)
+  eval_m   public static getTriggerTime(android.content.Context)
+  eval_r   public static setAlarm(android.content.Context,long)
+  h        public static isAlarmSet(android.content.Context)
+  i        public static updateAlarmInfo(android.content.Context,boolean,long)
+  i        public static setAlarm(android.content.Context,int,int)
+  s        private static getRingIntent(android.content.Context)
+  t        public static dismissRingAlarm(android.content.Context)
+  v        public static setRingAlarm(android.content.Context,int)
+  z        public static getShowIntent(android.content.Context)
+
+net.iexos.musicalarm.AlarmUtils$1        (net.iexos.musicalarm.eval_l)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.AlarmUtils$ArrayOutOfBoundsException        (net.iexos.musicalarm.eval_q)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.AlarmViewActivity
+===============================================================================
+  eval_j                   protected updateRingtoneName()
+  h                        public testMusicPlayerButton(android.view.View)
+  i                        public onDelayChosen(int)
+  l                        private checkAlarmStatus()
+  m                        public updateAlarmStatus()
+  o                        public stopRinging(android.view.View)
+  p                        public static sendUpdateStatus(android.content.Context)
+  t                        public onPlaylistChosen()
+  u                        private updateTimeViews()
+  u                        public startRinging(android.view.View)
+  u                        static access$000(net.iexos.musicalarm.AlarmViewActivity)
+  v                        private setAlarm()
+  v                        public onTimeChosen(int,int)
+  x                        protected updatePlaylistName()
+  onActivityResult         protected onActivityResult(int,int,android.content.Intent)
+  onCreate                 protected onCreate(android.os.Bundle)
+  onDestroy                protected onDestroy()
+  onSetAlarmButton         public onSetAlarmButton(android.view.View)
+  showDelayPickerDialog    public showDelayPickerDialog(android.view.View)
+  showPlaylistDialog       public showPlaylistDialog(android.view.View)
+  showRingtonePicker       public showRingtonePicker(android.view.View)
+  showTimePickerDialog     public showTimePickerDialog(android.view.View)
+
+net.iexos.musicalarm.AlarmViewActivity$1
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+net.iexos.musicalarm.AlarmViewActivity$IOException       (net.iexos.musicalarm.eval_v)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.BuildConfig (net.iexos.musicalarm.eval_o)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.BuildConfig$ParseException  (net.iexos.musicalarm.eval_r)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.DelayPickerFragment (net.iexos.musicalarm.eval_i)
+===============================================================================
+  onCreateDialog   public onCreateDialog(android.os.Bundle)
+
+net.iexos.musicalarm.DelayPickerFragment$1       (net.iexos.musicalarm.eval_i$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+net.iexos.musicalarm.DelayPickerFragment$2       (net.iexos.musicalarm.eval_i$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+net.iexos.musicalarm.DelayPickerFragment$NullPointerException    (net.iexos.musicalarm.eval_a)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.MusicPlayer (net.iexos.musicalarm.eval__)
+===============================================================================
+  a                    public resume()
+  b                    static access$002(net.iexos.musicalarm.MusicPlayer,net.iexos.musicalarm.MusicPlayer$MusicState)
+  eval_e               private initMediaPlayer()
+  g                    public stop()
+  o                    public pause()
+  onAudioFocusChange   public onAudioFocusChange(int)
+
+net.iexos.musicalarm.MusicPlayer$1       (net.iexos.musicalarm.eval__$1)
+===============================================================================
+  onCompletion public onCompletion(android.media.MediaPlayer)
+
+net.iexos.musicalarm.MusicPlayer$2       (net.iexos.musicalarm.eval__$2)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.MusicPlayer$MusicState      (net.iexos.musicalarm.eval__$w)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+net.iexos.musicalarm.MusicPlayer$ParseException  (net.iexos.musicalarm.eval_y)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.NotificationUtils   (net.iexos.musicalarm.eval_h)
+===============================================================================
+  e        private static addDismissAlarmButton(android.content.Context,android.app.Notification$Builder)
+  eval_a   private static addDismissAllButton(android.content.Context,android.app.Notification$Builder)
+  eval_n   public static displayForegroundNotification(android.app.Service,net.iexos.musicalarm.AlarmService$State)
+  m        public static displayStoppedNotification(android.content.Context)
+  q        private static getNotificationBuilder(android.content.Context)
+  t        private static addSnoozeButton(android.content.Context,android.app.Notification$Builder)
+
+net.iexos.musicalarm.NotificationUtils$IOException       (net.iexos.musicalarm.eval_m)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.OnBootReceiver
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+net.iexos.musicalarm.OnBootReceiver$NullPointerException (net.iexos.musicalarm.eval_x)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.PlaylistDialog      (net.iexos.musicalarm.eval_e)
+===============================================================================
+  onCreateDialog   public onCreateDialog(android.os.Bundle)
+
+net.iexos.musicalarm.PlaylistDialog$1    (net.iexos.musicalarm.eval_e$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+net.iexos.musicalarm.PlaylistDialog$NullPointerException (net.iexos.musicalarm.eval_w)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.PlaylistManager     (net.iexos.musicalarm.eval_c)
+===============================================================================
+  eval_p   public getPlaylistAdapter(android.content.Context)
+  j        public getSongs()
+
+net.iexos.musicalarm.PlaylistManager$ArrayOutOfBoundsException   (net.iexos.musicalarm.eval_n)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.R   (net.iexos.musicalarm.eval_f)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.R$ParseException    (net.iexos.musicalarm.eval_d)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.R$attr      (net.iexos.musicalarm.eval_f$m)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.R$color     (net.iexos.musicalarm.eval_f$j)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.R$dimen     (net.iexos.musicalarm.eval_f$s)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.R$drawable  (net.iexos.musicalarm.eval_f$i)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.R$id        (net.iexos.musicalarm.eval_f$t)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.R$layout    (net.iexos.musicalarm.eval_f$eval_g)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.R$mipmap    (net.iexos.musicalarm.eval_f$n)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.R$string    (net.iexos.musicalarm.eval_f$d)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.R$style     (net.iexos.musicalarm.eval_f$z)
+===============================================================================
+  No methods
+
+net.iexos.musicalarm.TimePickerFragment  (net.iexos.musicalarm.eval_z)
+===============================================================================
+  onCreateDialog   public onCreateDialog(android.os.Bundle)
+  onTimeSet        public onTimeSet(android.widget.TimePicker,int,int)
+
+net.iexos.musicalarm.TimePickerFragment$Exception        (net.iexos.musicalarm.eval_g)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 141
+  Renamed to eval_g :   7 (5.0%)
+  Renamed to eval_w :   7 (5.0%)
+  Renamed to eval__ :   6 (4.3%)
+  Renamed to eval_c :   6 (4.3%)
+  Renamed to eval_l :   6 (4.3%)
+  Renamed to eval_m :   6 (4.3%)
+  Renamed to eval_o :   6 (4.3%)
+  Renamed to eval_h :   5 (3.5%)
+  Renamed to eval_k :   5 (3.5%)
+  Renamed to eval_u :   5 (3.5%)
+
+Number of Methods : 80
+  Renamed to i :   4 (5.0%)
+  Renamed to e :   3 (3.8%)
+  Renamed to p :   3 (3.8%)
+  Renamed to t :   3 (3.8%)
+  Renamed to u :   3 (3.8%)
+  Renamed to v :   3 (3.8%)
+  Renamed to a :   2 (2.5%)
+  Renamed to b :   2 (2.5%)
+  Renamed to f :   2 (2.5%)
+  Renamed to h :   2 (2.5%)
+

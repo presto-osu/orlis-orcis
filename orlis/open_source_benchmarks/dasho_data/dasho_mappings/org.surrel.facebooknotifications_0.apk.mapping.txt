@@ -1,0 +1,176 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+org.surrel.facebooknotifications.i       public org.surrel.facebooknotifications.BootReceiver$1
+org.surrel.facebooknotifications.eval_a  public final org.surrel.facebooknotifications.R
+org.surrel.facebooknotifications.eval_b  public org.surrel.facebooknotifications.WakeupManager$ArrayOutOfBoundsException
+org.surrel.facebooknotifications.eval_c  public org.surrel.facebooknotifications.PrefsActivity$ArrayOutOfBoundsException
+org.surrel.facebooknotifications.eval_d  public org.surrel.facebooknotifications.UpdateService$ArrayOutOfBoundsException
+org.surrel.facebooknotifications.eval_e  public org.surrel.facebooknotifications.BuildConfig$Exception
+org.surrel.facebooknotifications.eval_j  public org.surrel.facebooknotifications.UpdateService
+org.surrel.facebooknotifications.eval_l  public org.surrel.facebooknotifications.MainActivity$NullPointerException
+org.surrel.facebooknotifications.eval_n  public org.surrel.facebooknotifications.WakeupManager
+org.surrel.facebooknotifications.eval_o  public org.surrel.facebooknotifications.PrefsActivity
+org.surrel.facebooknotifications.eval_q  public org.surrel.facebooknotifications.R$Exception
+org.surrel.facebooknotifications.eval_w  public final org.surrel.facebooknotifications.BuildConfig
+org.surrel.facebooknotifications.eval_x  public org.surrel.facebooknotifications.BootReceiver$NullPointerException
+org.surrel.facebooknotifications.eval_z  public org.surrel.facebooknotifications.BuildConfig$1
+org.surrel.facebooknotifications.eval_a$e        public final org.surrel.facebooknotifications.R$dimen
+org.surrel.facebooknotifications.eval_a$f        public final org.surrel.facebooknotifications.R$array
+org.surrel.facebooknotifications.eval_a$h        public final org.surrel.facebooknotifications.R$menu
+org.surrel.facebooknotifications.eval_a$j        public final org.surrel.facebooknotifications.R$id
+org.surrel.facebooknotifications.eval_a$p        public final org.surrel.facebooknotifications.R$attr
+org.surrel.facebooknotifications.eval_a$w        public final org.surrel.facebooknotifications.R$mipmap
+org.surrel.facebooknotifications.eval_a$x        public final org.surrel.facebooknotifications.R$color
+org.surrel.facebooknotifications.eval_a$y        public final org.surrel.facebooknotifications.R$drawable
+org.surrel.facebooknotifications.eval_j$1        org.surrel.facebooknotifications.UpdateService$1
+org.surrel.facebooknotifications.eval_a$eval_q   public final org.surrel.facebooknotifications.R$string
+org.surrel.facebooknotifications.eval_a$eval_u   public final org.surrel.facebooknotifications.R$layout
+org.surrel.facebooknotifications.eval_a$eval_z   public final org.surrel.facebooknotifications.R$xml
+-------------------------------------------------------------------------------
+
+org.surrel.facebooknotifications.BootReceiver
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+org.surrel.facebooknotifications.BootReceiver$1  (org.surrel.facebooknotifications.i)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.BootReceiver$NullPointerException       (org.surrel.facebooknotifications.eval_x)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.BuildConfig     (org.surrel.facebooknotifications.eval_w)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.BuildConfig$1   (org.surrel.facebooknotifications.eval_z)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.BuildConfig$Exception   (org.surrel.facebooknotifications.eval_e)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.MainActivity
+===============================================================================
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onKeyDown                public onKeyDown(int,android.view.KeyEvent)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+  onPause                  public onPause()
+
+org.surrel.facebooknotifications.MainActivity$NullPointerException       (org.surrel.facebooknotifications.eval_l)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.PrefsActivity   (org.surrel.facebooknotifications.eval_o)
+===============================================================================
+  onCreate                     protected onCreate(android.os.Bundle)
+  onSharedPreferenceChanged    public onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+
+org.surrel.facebooknotifications.PrefsActivity$ArrayOutOfBoundsException (org.surrel.facebooknotifications.eval_c)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R       (org.surrel.facebooknotifications.eval_a)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R$Exception     (org.surrel.facebooknotifications.eval_q)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R$array (org.surrel.facebooknotifications.eval_a$f)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R$attr  (org.surrel.facebooknotifications.eval_a$p)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R$color (org.surrel.facebooknotifications.eval_a$x)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R$dimen (org.surrel.facebooknotifications.eval_a$e)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R$drawable      (org.surrel.facebooknotifications.eval_a$y)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R$id    (org.surrel.facebooknotifications.eval_a$j)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R$layout        (org.surrel.facebooknotifications.eval_a$eval_u)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R$menu  (org.surrel.facebooknotifications.eval_a$h)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R$mipmap        (org.surrel.facebooknotifications.eval_a$w)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R$string        (org.surrel.facebooknotifications.eval_a$eval_q)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.R$xml   (org.surrel.facebooknotifications.eval_a$eval_z)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.UpdateService   (org.surrel.facebooknotifications.eval_j)
+===============================================================================
+  f            getNewStyleNotification(int,android.graphics.Bitmap,java.lang.String,java.lang.String,int,android.content.Intent,int,java.lang.String,long[])
+  k            private getPattern(java.lang.String)
+  l            getLegacyNotification(int,java.lang.String,java.lang.String,android.content.Intent,int,java.lang.String,long[])
+  n            public processJSON(java.lang.String)
+  t            static access$000(org.surrel.facebooknotifications.UpdateService)
+  v            private getBlinkRate(java.lang.String)
+  onBind       public onBind(android.content.Intent)
+  onCreate     public onCreate()
+  onDestroy    public onDestroy()
+
+org.surrel.facebooknotifications.UpdateService$1 (org.surrel.facebooknotifications.eval_j$1)
+===============================================================================
+  onPageFinished   public onPageFinished(android.webkit.WebView,java.lang.String)
+
+org.surrel.facebooknotifications.UpdateService$ArrayOutOfBoundsException (org.surrel.facebooknotifications.eval_d)
+===============================================================================
+  No methods
+
+org.surrel.facebooknotifications.WakeupManager   (org.surrel.facebooknotifications.eval_n)
+===============================================================================
+  f    public static updateNotificationSystem(android.content.Context)
+
+org.surrel.facebooknotifications.WakeupManager$ArrayOutOfBoundsException (org.surrel.facebooknotifications.eval_b)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 66
+  Renamed to eval_a :   3 (4.5%)
+  Renamed to eval_l :   3 (4.5%)
+  Renamed to eval_p :   3 (4.5%)
+  Renamed to eval_w :   3 (4.5%)
+  Renamed to eval_b :   2 (3.0%)
+  Renamed to eval_d :   2 (3.0%)
+  Renamed to eval_e :   2 (3.0%)
+  Renamed to eval_f :   2 (3.0%)
+  Renamed to eval_g :   2 (3.0%)
+  Renamed to eval_i :   2 (3.0%)
+
+Number of Methods : 19
+  Renamed to f :   2 (10.5%)
+  Renamed to k :   1 (5.3%)
+  Renamed to l :   1 (5.3%)
+  Renamed to n :   1 (5.3%)
+  Renamed to t :   1 (5.3%)
+  Renamed to v :   1 (5.3%)
+

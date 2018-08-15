@@ -1,0 +1,161 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+eu.faircode.finegeotag.j         public eu.faircode.finegeotag.ActivitySettings$1
+eu.faircode.finegeotag.eval__    public eu.faircode.finegeotag.ActivitySettings$Exception
+eu.faircode.finegeotag.eval_h    public final eu.faircode.finegeotag.BuildConfig
+eu.faircode.finegeotag.eval_k    public eu.faircode.finegeotag.BuildConfig$Exception
+eu.faircode.finegeotag.eval_l    public eu.faircode.finegeotag.R$Exception
+eu.faircode.finegeotag.eval_n    public eu.faircode.finegeotag.BuildConfig$1
+eu.faircode.finegeotag.eval_o    public eu.faircode.finegeotag.ExifInterfaceEx
+eu.faircode.finegeotag.eval_q    public eu.faircode.finegeotag.LocationService$IOException
+eu.faircode.finegeotag.eval_r    public eu.faircode.finegeotag.NewPictureReceiver$ArrayOutOfBoundsException
+eu.faircode.finegeotag.eval_s    public final eu.faircode.finegeotag.R
+eu.faircode.finegeotag.eval_y    public eu.faircode.finegeotag.LocationService
+eu.faircode.finegeotag.eval_z    public eu.faircode.finegeotag.ExifInterfaceEx$IOException
+eu.faircode.finegeotag.eval_s$c  public final eu.faircode.finegeotag.R$attr
+eu.faircode.finegeotag.eval_s$d  public final eu.faircode.finegeotag.R$id
+eu.faircode.finegeotag.eval_s$j  public final eu.faircode.finegeotag.R$xml
+eu.faircode.finegeotag.eval_s$k  public final eu.faircode.finegeotag.R$layout
+eu.faircode.finegeotag.eval_s$o  public final eu.faircode.finegeotag.R$array
+eu.faircode.finegeotag.eval_s$z  public final eu.faircode.finegeotag.R$mipmap
+eu.faircode.finegeotag.eval_y$1  eu.faircode.finegeotag.LocationService$1
+eu.faircode.finegeotag.eval_y$j  eu.faircode.finegeotag.LocationService$LocationSerializer
+eu.faircode.finegeotag.eval_y$u  eu.faircode.finegeotag.LocationService$LocationDeserializer
+eu.faircode.finegeotag.eval_s$eval__     public final eu.faircode.finegeotag.R$string
+-------------------------------------------------------------------------------
+
+eu.faircode.finegeotag.ActivitySettings
+===============================================================================
+  onCreate                     public onCreate(android.os.Bundle)
+  onPause                      protected onPause()
+  onResume                     protected onResume()
+  onSharedPreferenceChanged    public onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+
+eu.faircode.finegeotag.ActivitySettings$1        (eu.faircode.finegeotag.j)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.ActivitySettings$Exception        (eu.faircode.finegeotag.eval__)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.BuildConfig       (eu.faircode.finegeotag.eval_h)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.BuildConfig$1     (eu.faircode.finegeotag.eval_n)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.BuildConfig$Exception     (eu.faircode.finegeotag.eval_k)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.ExifInterfaceEx   (eu.faircode.finegeotag.eval_o)
+===============================================================================
+  u    public setLocation(android.location.Location)
+  y    private static DMS(double)
+
+eu.faircode.finegeotag.ExifInterfaceEx$IOException       (eu.faircode.finegeotag.eval_z)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.LocationService   (eu.faircode.finegeotag.eval_y)
+===============================================================================
+  e                private notify(java.lang.String,java.lang.String)
+  eval_p           private handleLocation(java.lang.String,android.location.Location)
+  i                private static reverseGeocode(android.location.Location,android.content.Context)
+  q                private isBetterLocation(android.location.Location,android.location.Location)
+  r                public static startLocating(java.lang.String,android.content.Context)
+  u                private static getEGM96Offset(android.location.Location,android.content.Context)
+  y                private stopLocating(java.lang.String)
+  onHandleIntent   protected onHandleIntent(android.content.Intent)
+
+eu.faircode.finegeotag.LocationService$1 (eu.faircode.finegeotag.eval_y$1)
+===============================================================================
+  run  public run()
+
+eu.faircode.finegeotag.LocationService$IOException       (eu.faircode.finegeotag.eval_q)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.LocationService$LocationDeserializer      (eu.faircode.finegeotag.eval_y$u)
+===============================================================================
+  deserialize  public deserialize(com.google.gson.JsonElement,java.lang.reflect.Type,com.google.gson.JsonDeserializationContext)
+  n            public static deserialize(java.lang.String)
+  deserialize  public volatile deserialize(com.google.gson.JsonElement,java.lang.reflect.Type,com.google.gson.JsonDeserializationContext)
+
+eu.faircode.finegeotag.LocationService$LocationSerializer        (eu.faircode.finegeotag.eval_y$j)
+===============================================================================
+  g            public serialize(android.location.Location,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+  n            public static serialize(android.location.Location)
+  serialize    public volatile serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)
+
+eu.faircode.finegeotag.NewPictureReceiver
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+eu.faircode.finegeotag.NewPictureReceiver$ArrayOutOfBoundsException      (eu.faircode.finegeotag.eval_r)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.R (eu.faircode.finegeotag.eval_s)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.R$Exception       (eu.faircode.finegeotag.eval_l)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.R$array   (eu.faircode.finegeotag.eval_s$o)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.R$attr    (eu.faircode.finegeotag.eval_s$c)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.R$id      (eu.faircode.finegeotag.eval_s$d)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.R$layout  (eu.faircode.finegeotag.eval_s$k)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.R$mipmap  (eu.faircode.finegeotag.eval_s$z)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.R$string  (eu.faircode.finegeotag.eval_s$eval__)
+===============================================================================
+  No methods
+
+eu.faircode.finegeotag.R$xml     (eu.faircode.finegeotag.eval_s$j)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 68
+  Renamed to eval_b :   4 (5.9%)
+  Renamed to eval_e :   4 (5.9%)
+  Renamed to eval__ :   3 (4.4%)
+  Renamed to eval_g :   3 (4.4%)
+  Renamed to eval_m :   3 (4.4%)
+  Renamed to eval_r :   3 (4.4%)
+  Renamed to eval_u :   3 (4.4%)
+  Renamed to eval_v :   3 (4.4%)
+  Renamed to eval_a :   2 (2.9%)
+  Renamed to eval_d :   2 (2.9%)
+
+Number of Methods : 22
+  Renamed to n      :   2 (9.1%)
+  Renamed to u      :   2 (9.1%)
+  Renamed to y      :   2 (9.1%)
+  Renamed to e      :   1 (4.5%)
+  Renamed to eval_p :   1 (4.5%)
+  Renamed to g      :   1 (4.5%)
+  Renamed to i      :   1 (4.5%)
+  Renamed to q      :   1 (4.5%)
+  Renamed to r      :   1 (4.5%)
+

@@ -1,0 +1,346 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+ch.ihdg.calendarcolor.l          public final ch.ihdg.calendarcolor.BuildConfig
+ch.ihdg.calendarcolor.eval__     public com.larswerkman.holocolorpicker.ValueBar$NullPointerException
+ch.ihdg.calendarcolor.eval_a     public com.larswerkman.holocolorpicker.OpacityBar
+ch.ihdg.calendarcolor.eval_b     public com.larswerkman.holocolorpicker.OpacityBar$ParseException
+ch.ihdg.calendarcolor.eval_c     public ch.ihdg.calendarcolor.ColorPickerActivity$ArrayOutOfBoundsException
+ch.ihdg.calendarcolor.eval_d     public com.larswerkman.holocolorpicker.BuildConfig$IOException
+ch.ihdg.calendarcolor.eval_e     public ch.ihdg.calendarcolor.BuildConfig$IOException
+ch.ihdg.calendarcolor.eval_f     public ch.ihdg.calendarcolor.R$IOException
+ch.ihdg.calendarcolor.eval_h     public com.larswerkman.holocolorpicker.ColorPicker$IOException
+ch.ihdg.calendarcolor.eval_i     public ch.ihdg.calendarcolor.ColorPickerActivity
+ch.ihdg.calendarcolor.eval_j     public com.larswerkman.holocolorpicker.SaturationBar
+ch.ihdg.calendarcolor.eval_m     public ch.ihdg.calendarcolor.CalendarListActivity$ParseException
+ch.ihdg.calendarcolor.eval_o     public com.larswerkman.holocolorpicker.SaturationBar$NullPointerException
+ch.ihdg.calendarcolor.eval_p     public com.larswerkman.holocolorpicker.SVBar$ParseException
+ch.ihdg.calendarcolor.eval_r     public ch.ihdg.calendarcolor.CalendarListActivity$2
+ch.ihdg.calendarcolor.eval_t     public final com.larswerkman.holocolorpicker.BuildConfig
+ch.ihdg.calendarcolor.eval_v     public com.larswerkman.holocolorpicker.SVBar
+ch.ihdg.calendarcolor.eval_w     public final ch.ihdg.calendarcolor.R
+ch.ihdg.calendarcolor.eval_x     public ch.ihdg.calendarcolor.BuildConfig$1
+ch.ihdg.calendarcolor.eval_y     public com.larswerkman.holocolorpicker.ColorPicker
+ch.ihdg.calendarcolor.eval_z     public com.larswerkman.holocolorpicker.ValueBar
+ch.ihdg.calendarcolor.eval_a$v   public abstract interface com.larswerkman.holocolorpicker.OpacityBar$OnOpacityChangedListener
+ch.ihdg.calendarcolor.eval_i$1   ch.ihdg.calendarcolor.ColorPickerActivity$1
+ch.ihdg.calendarcolor.eval_i$2   ch.ihdg.calendarcolor.ColorPickerActivity$2
+ch.ihdg.calendarcolor.eval_i$3   ch.ihdg.calendarcolor.ColorPickerActivity$3
+ch.ihdg.calendarcolor.eval_i$4   ch.ihdg.calendarcolor.ColorPickerActivity$4
+ch.ihdg.calendarcolor.eval_j$u   public abstract interface com.larswerkman.holocolorpicker.SaturationBar$OnSaturationChangedListener
+ch.ihdg.calendarcolor.eval_w$_   public final ch.ihdg.calendarcolor.R$drawable
+ch.ihdg.calendarcolor.eval_w$b   public final ch.ihdg.calendarcolor.R$styleable
+ch.ihdg.calendarcolor.eval_w$d   public final ch.ihdg.calendarcolor.R$attr
+ch.ihdg.calendarcolor.eval_w$g   public final ch.ihdg.calendarcolor.R$id
+ch.ihdg.calendarcolor.eval_w$k   public final ch.ihdg.calendarcolor.R$layout
+ch.ihdg.calendarcolor.eval_w$l   public final ch.ihdg.calendarcolor.R$string
+ch.ihdg.calendarcolor.eval_w$m   public final ch.ihdg.calendarcolor.R$style
+ch.ihdg.calendarcolor.eval_w$n   public final ch.ihdg.calendarcolor.R$dimen
+ch.ihdg.calendarcolor.eval_w$y   public final ch.ihdg.calendarcolor.R$menu
+ch.ihdg.calendarcolor.eval_y$a   public abstract interface com.larswerkman.holocolorpicker.ColorPicker$OnColorChangedListener
+ch.ihdg.calendarcolor.eval_y$y   public abstract interface com.larswerkman.holocolorpicker.ColorPicker$OnColorSelectedListener
+ch.ihdg.calendarcolor.eval_z$s   public abstract interface com.larswerkman.holocolorpicker.ValueBar$OnValueChangedListener
+-------------------------------------------------------------------------------
+
+ch.ihdg.calendarcolor.BuildConfig        (ch.ihdg.calendarcolor.l)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.BuildConfig$1      (ch.ihdg.calendarcolor.eval_x)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.BuildConfig$IOException    (ch.ihdg.calendarcolor.eval_e)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.CalendarListActivity
+===============================================================================
+  n                        public onLoadFinished(android.content.Loader,android.database.Cursor)
+  onCreate                 protected onCreate(android.os.Bundle)
+  onCreateLoader           public onCreateLoader(int,android.os.Bundle)
+  onCreateOptionsMenu      public onCreateOptionsMenu(android.view.Menu)
+  onListItemClick          public onListItemClick(android.widget.ListView,android.view.View,int,long)
+  onLoadFinished           public volatile onLoadFinished(android.content.Loader,java.lang.Object)
+  onLoaderReset            public onLoaderReset(android.content.Loader)
+  onOptionsItemSelected    public onOptionsItemSelected(android.view.MenuItem)
+
+ch.ihdg.calendarcolor.CalendarListActivity$1
+===============================================================================
+  setViewValue public setViewValue(android.view.View,android.database.Cursor,int)
+
+ch.ihdg.calendarcolor.CalendarListActivity$2     (ch.ihdg.calendarcolor.eval_r)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.CalendarListActivity$ParseException        (ch.ihdg.calendarcolor.eval_m)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.ColorPickerActivity        (ch.ihdg.calendarcolor.eval_i)
+===============================================================================
+  onCreate protected onCreate(android.os.Bundle)
+
+ch.ihdg.calendarcolor.ColorPickerActivity$1      (ch.ihdg.calendarcolor.eval_i$1)
+===============================================================================
+  n    public onColorChanged(int)
+
+ch.ihdg.calendarcolor.ColorPickerActivity$2      (ch.ihdg.calendarcolor.eval_i$2)
+===============================================================================
+  afterTextChanged     public afterTextChanged(android.text.Editable)
+  beforeTextChanged    public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  onTextChanged        public onTextChanged(java.lang.CharSequence,int,int,int)
+
+ch.ihdg.calendarcolor.ColorPickerActivity$3      (ch.ihdg.calendarcolor.eval_i$3)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+ch.ihdg.calendarcolor.ColorPickerActivity$4      (ch.ihdg.calendarcolor.eval_i$4)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+ch.ihdg.calendarcolor.ColorPickerActivity$ArrayOutOfBoundsException      (ch.ihdg.calendarcolor.eval_c)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.R  (ch.ihdg.calendarcolor.eval_w)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.R$IOException      (ch.ihdg.calendarcolor.eval_f)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.R$attr     (ch.ihdg.calendarcolor.eval_w$d)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.R$dimen    (ch.ihdg.calendarcolor.eval_w$n)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.R$drawable (ch.ihdg.calendarcolor.eval_w$_)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.R$id       (ch.ihdg.calendarcolor.eval_w$g)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.R$layout   (ch.ihdg.calendarcolor.eval_w$k)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.R$menu     (ch.ihdg.calendarcolor.eval_w$y)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.R$string   (ch.ihdg.calendarcolor.eval_w$l)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.R$style    (ch.ihdg.calendarcolor.eval_w$m)
+===============================================================================
+  No methods
+
+ch.ihdg.calendarcolor.R$styleable        (ch.ihdg.calendarcolor.eval_w$b)
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.BuildConfig      (ch.ihdg.calendarcolor.eval_t)
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.BuildConfig$IOException  (ch.ihdg.calendarcolor.eval_d)
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.ColorPicker      (ch.ihdg.calendarcolor.eval_y)
+===============================================================================
+  a                        public setOnColorChangedListener(com.larswerkman.holocolorpicker.ColorPicker$OnColorChangedListener)
+  b                        public setShowOldCenterColor(boolean)
+  b                        public changeValueBarColor(int)
+  c                        public hasSVBar()
+  c                        public addOpacityBar(com.larswerkman.holocolorpicker.OpacityBar)
+  d                        public getShowOldCenterColor()
+  e                        public getOnColorChangedListener()
+  eval_w                   public getColor()
+  eval_w                   public addSaturationBar(com.larswerkman.holocolorpicker.SaturationBar)
+  eval_z                   public hasValueBar()
+  g                        public getTouchAnywhereOnColorWheel()
+  h                        public setOldCenterColor(int)
+  i                        private calculatePointerPosition(float)
+  i                        public setNewCenterColor(int)
+  j                        private colorToAngle(int)
+  l                        private calculateColor(float)
+  m                        public hasSaturationBar()
+  m                        public setTouchAnywhereOnColorWheelEnabled(boolean)
+  q                        public getOldCenterColor()
+  q                        private init(android.util.AttributeSet,int)
+  r                        private ave(int,int,float)
+  t                        public setColor(int)
+  w                        public hasOpacityBar()
+  w                        public setOnColorSelectedListener(com.larswerkman.holocolorpicker.ColorPicker$OnColorSelectedListener)
+  w                        public addValueBar(com.larswerkman.holocolorpicker.ValueBar)
+  w                        public changeSaturationBarColor(int)
+  x                        public getOnColorSelectedListener()
+  x                        public addSVBar(com.larswerkman.holocolorpicker.SVBar)
+  x                        public changeOpacityBarColor(int)
+  onDraw                   protected onDraw(android.graphics.Canvas)
+  onMeasure                protected onMeasure(int,int)
+  onRestoreInstanceState   protected onRestoreInstanceState(android.os.Parcelable)
+  onSaveInstanceState      protected onSaveInstanceState()
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+
+com.larswerkman.holocolorpicker.ColorPicker$IOException  (ch.ihdg.calendarcolor.eval_h)
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.ColorPicker$OnColorChangedListener       (ch.ihdg.calendarcolor.eval_y$a)
+===============================================================================
+  n    public abstract onColorChanged(int)
+
+com.larswerkman.holocolorpicker.ColorPicker$OnColorSelectedListener      (ch.ihdg.calendarcolor.eval_y$y)
+===============================================================================
+  u    public abstract onColorSelected(int)
+
+com.larswerkman.holocolorpicker.OpacityBar       (ch.ihdg.calendarcolor.eval_a)
+===============================================================================
+  c                        public getColor()
+  f                        public getOpacity()
+  j                        public getOnOpacityChangedListener()
+  k                        private init(android.util.AttributeSet,int)
+  o                        public setColor(int)
+  q                        public setColorPicker(com.larswerkman.holocolorpicker.ColorPicker)
+  v                        public setOpacity(int)
+  x                        public setOnOpacityChangedListener(com.larswerkman.holocolorpicker.OpacityBar$OnOpacityChangedListener)
+  x                        private calculateColor(int)
+  onDraw                   protected onDraw(android.graphics.Canvas)
+  onMeasure                protected onMeasure(int,int)
+  onRestoreInstanceState   protected onRestoreInstanceState(android.os.Parcelable)
+  onSaveInstanceState      protected onSaveInstanceState()
+  onSizeChanged            protected onSizeChanged(int,int,int,int)
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+
+com.larswerkman.holocolorpicker.OpacityBar$OnOpacityChangedListener      (ch.ihdg.calendarcolor.eval_a$v)
+===============================================================================
+  x    public abstract onOpacityChanged(int)
+
+com.larswerkman.holocolorpicker.OpacityBar$ParseException        (ch.ihdg.calendarcolor.eval_b)
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.R
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.R$IOException
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.R$attr
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.R$dimen
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.R$styleable
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.SVBar    (ch.ihdg.calendarcolor.eval_v)
+===============================================================================
+  a                        public getColor()
+  e                        public setColorPicker(com.larswerkman.holocolorpicker.ColorPicker)
+  g                        public setSaturation(float)
+  m                        public setValue(float)
+  o                        public setColor(int)
+  s                        private calculateColor(int)
+  w                        private init(android.util.AttributeSet,int)
+  onDraw                   protected onDraw(android.graphics.Canvas)
+  onMeasure                protected onMeasure(int,int)
+  onRestoreInstanceState   protected onRestoreInstanceState(android.os.Parcelable)
+  onSaveInstanceState      protected onSaveInstanceState()
+  onSizeChanged            protected onSizeChanged(int,int,int,int)
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+
+com.larswerkman.holocolorpicker.SVBar$ParseException     (ch.ihdg.calendarcolor.eval_p)
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.SaturationBar    (ch.ihdg.calendarcolor.eval_j)
+===============================================================================
+  c                        public getColor()
+  e                        public setOnSaturationChangedListener(com.larswerkman.holocolorpicker.SaturationBar$OnSaturationChangedListener)
+  e                        public setColor(int)
+  j                        public getOnSaturationChangedListener()
+  m                        private init(android.util.AttributeSet,int)
+  n                        public setColorPicker(com.larswerkman.holocolorpicker.ColorPicker)
+  o                        public setSaturation(float)
+  y                        private calculateColor(int)
+  onDraw                   protected onDraw(android.graphics.Canvas)
+  onMeasure                protected onMeasure(int,int)
+  onRestoreInstanceState   protected onRestoreInstanceState(android.os.Parcelable)
+  onSaveInstanceState      protected onSaveInstanceState()
+  onSizeChanged            protected onSizeChanged(int,int,int,int)
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+
+com.larswerkman.holocolorpicker.SaturationBar$NullPointerException       (ch.ihdg.calendarcolor.eval_o)
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.SaturationBar$OnSaturationChangedListener        (ch.ihdg.calendarcolor.eval_j$u)
+===============================================================================
+  n    public abstract onSaturationChanged(int)
+
+com.larswerkman.holocolorpicker.ValueBar (ch.ihdg.calendarcolor.eval_z)
+===============================================================================
+  eval_u                   public setOnValueChangedListener(com.larswerkman.holocolorpicker.ValueBar$OnValueChangedListener)
+  l                        public setColor(int)
+  m                        public getOnValueChangedListener()
+  p                        public getColor()
+  p                        private calculateColor(int)
+  r                        private init(android.util.AttributeSet,int)
+  s                        public setColorPicker(com.larswerkman.holocolorpicker.ColorPicker)
+  x                        public setValue(float)
+  onDraw                   protected onDraw(android.graphics.Canvas)
+  onMeasure                protected onMeasure(int,int)
+  onRestoreInstanceState   protected onRestoreInstanceState(android.os.Parcelable)
+  onSaveInstanceState      protected onSaveInstanceState()
+  onSizeChanged            protected onSizeChanged(int,int,int,int)
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+
+com.larswerkman.holocolorpicker.ValueBar$NullPointerException    (ch.ihdg.calendarcolor.eval__)
+===============================================================================
+  No methods
+
+com.larswerkman.holocolorpicker.ValueBar$OnValueChangedListener  (ch.ihdg.calendarcolor.eval_z$s)
+===============================================================================
+  f    public abstract onValueChanged(int)
+
+-------------------------------------------------------------------------------
+Number of Fields : 277
+  Renamed to eval_l :  11 (4.0%)
+  Renamed to eval_u :  10 (3.6%)
+  Renamed to eval_x :  10 (3.6%)
+  Renamed to eval_y :  10 (3.6%)
+  Renamed to eval__ :   9 (3.2%)
+  Renamed to eval_o :   9 (3.2%)
+  Renamed to eval_v :   9 (3.2%)
+  Renamed to eval_w :   9 (3.2%)
+  Renamed to eval_a :   8 (2.9%)
+  Renamed to eval_b :   8 (2.9%)
+
+Number of Methods : 111
+  Renamed to x :   7 (6.3%)
+  Renamed to m :   5 (4.5%)
+  Renamed to n :   5 (4.5%)
+  Renamed to w :   5 (4.5%)
+  Renamed to c :   4 (3.6%)
+  Renamed to e :   4 (3.6%)
+  Renamed to j :   3 (2.7%)
+  Renamed to o :   3 (2.7%)
+  Renamed to q :   3 (2.7%)
+  Renamed to a :   2 (1.8%)
+

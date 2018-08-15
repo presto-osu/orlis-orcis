@@ -1,0 +1,382 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.doomy.torch.y                public final com.doomy.torch.BuildConfig
+com.doomy.torch.eval__           public com.doomy.torch.MainActivity
+com.doomy.torch.eval_b           public com.doomy.torch.SettingsActivity
+com.doomy.torch.eval_c           public com.doomy.torch.SettingsActivity$2$Exception
+com.doomy.torch.eval_d           public com.doomy.torch.TorchWidgetProvider$NullPointerException
+com.doomy.torch.eval_e           public com.doomy.torch.TorchService
+com.doomy.torch.eval_g           public com.doomy.torch.TorchService$IOException
+com.doomy.torch.eval_h           public com.doomy.torch.Utils$ArrayOutOfBoundsException
+com.doomy.torch.eval_i           public com.doomy.torch.FlashDevice$1
+com.doomy.torch.eval_k           public com.doomy.torch.WidgetActivity$NullPointerException
+com.doomy.torch.eval_l           public com.doomy.torch.TorchSwitch$ParseException
+com.doomy.torch.eval_m           public final com.doomy.torch.R
+com.doomy.torch.eval_n           public com.doomy.torch.Utils
+com.doomy.torch.eval_p           public com.doomy.torch.FlashDevice
+com.doomy.torch.eval_q           public com.doomy.torch.SettingsActivity$ParseException
+com.doomy.torch.eval_r           public com.doomy.torch.MainActivity$IOException
+com.doomy.torch.eval_s           public com.doomy.torch.R$ParseException
+com.doomy.torch.eval_w           public com.doomy.torch.FlashDevice$ParseException
+com.doomy.torch.eval_x           public com.doomy.torch.BuildConfig$1
+com.doomy.torch.eval_z           public com.doomy.torch.BuildConfig$ParseException
+com.doomy.torch.eval__$1         com.doomy.torch.MainActivity$1
+com.doomy.torch.eval__$2         com.doomy.torch.MainActivity$2
+com.doomy.torch.eval__$3         com.doomy.torch.MainActivity$3
+com.doomy.torch.eval__$4         com.doomy.torch.MainActivity$4
+com.doomy.torch.eval_b$1         com.doomy.torch.SettingsActivity$1
+com.doomy.torch.eval_b$2         com.doomy.torch.SettingsActivity$2
+com.doomy.torch.eval_b$3         com.doomy.torch.SettingsActivity$3
+com.doomy.torch.eval_b$4         com.doomy.torch.SettingsActivity$4
+com.doomy.torch.eval_b$5         com.doomy.torch.SettingsActivity$5
+com.doomy.torch.eval_b$6         com.doomy.torch.SettingsActivity$6
+com.doomy.torch.eval_e$1         com.doomy.torch.TorchService$1
+com.doomy.torch.eval_e$2         com.doomy.torch.TorchService$2
+com.doomy.torch.eval_e$3         com.doomy.torch.TorchService$3
+com.doomy.torch.eval_e$4         com.doomy.torch.TorchService$4
+com.doomy.torch.eval_e$p         public com.doomy.torch.TorchService$WrapperTask
+com.doomy.torch.eval_m$a         public final com.doomy.torch.R$array
+com.doomy.torch.eval_m$d         public final com.doomy.torch.R$string
+com.doomy.torch.eval_m$e         public final com.doomy.torch.R$attr
+com.doomy.torch.eval_m$h         public final com.doomy.torch.R$mipmap
+com.doomy.torch.eval_m$j         public final com.doomy.torch.R$menu
+com.doomy.torch.eval_m$m         public final com.doomy.torch.R$bool
+com.doomy.torch.eval_m$p         public final com.doomy.torch.R$drawable
+com.doomy.torch.eval_m$r         public final com.doomy.torch.R$xml
+com.doomy.torch.eval_m$s         public final com.doomy.torch.R$id
+com.doomy.torch.eval_m$t         public final com.doomy.torch.R$dimen
+com.doomy.torch.eval_m$v         public final com.doomy.torch.R$integer
+com.doomy.torch.eval_m$w         public final com.doomy.torch.R$color
+com.doomy.torch.eval_m$y         public final com.doomy.torch.R$layout
+com.doomy.torch.eval_b$2$1       com.doomy.torch.SettingsActivity$2$1
+com.doomy.torch.eval_b$2$2       com.doomy.torch.SettingsActivity$2$2
+com.doomy.torch.eval_m$eval_j    public final com.doomy.torch.R$style
+com.doomy.torch.TorchWidgetProvider$k    final com.doomy.torch.TorchWidgetProvider$widgetState
+-------------------------------------------------------------------------------
+
+com.doomy.torch.BuildConfig      (com.doomy.torch.y)
+===============================================================================
+  No methods
+
+com.doomy.torch.BuildConfig$1    (com.doomy.torch.eval_x)
+===============================================================================
+  No methods
+
+com.doomy.torch.BuildConfig$ParseException       (com.doomy.torch.eval_z)
+===============================================================================
+  No methods
+
+com.doomy.torch.FlashDevice      (com.doomy.torch.eval_p)
+===============================================================================
+  d    public static synchronized getInstance(android.content.Context)
+  w    public synchronized setFlashMode(int)
+  z    public getFlashMode()
+
+com.doomy.torch.FlashDevice$1    (com.doomy.torch.eval_i)
+===============================================================================
+  No methods
+
+com.doomy.torch.FlashDevice$ParseException       (com.doomy.torch.eval_w)
+===============================================================================
+  No methods
+
+com.doomy.torch.MainActivity     (com.doomy.torch.eval__)
+===============================================================================
+  b                    private showSystemUi(android.view.View)
+  c                    private openFirstDialog()
+  d                    private hideSystemUi(android.view.View)
+  eval_g               static access$400(com.doomy.torch.MainActivity)
+  eval_j               static access$100(com.doomy.torch.MainActivity)
+  eval_m               private setThemeColor()
+  eval_q               public static getInstance()
+  f                    static access$200(com.doomy.torch.MainActivity)
+  g                    private getMeasureScale()
+  h                    static access$102(com.doomy.torch.MainActivity,boolean)
+  k                    static access$300(com.doomy.torch.MainActivity)
+  n                    private setShapeColor()
+  o                    private setFlashOn()
+  p                    private setThemeDialog()
+  p                    static access$000(com.doomy.torch.MainActivity)
+  v                    private setFlashOff()
+  x                    private onCreateIntent()
+  z                    public updateWidget()
+  onAttachedToWindow   public onAttachedToWindow()
+  onCreate             public onCreate(android.os.Bundle)
+  onPause              public onPause()
+  onResume             public onResume()
+
+com.doomy.torch.MainActivity$1   (com.doomy.torch.eval__$1)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.doomy.torch.MainActivity$2   (com.doomy.torch.eval__$2)
+===============================================================================
+  onLongClick  public onLongClick(android.view.View)
+
+com.doomy.torch.MainActivity$3   (com.doomy.torch.eval__$3)
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+com.doomy.torch.MainActivity$4   (com.doomy.torch.eval__$4)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.doomy.torch.MainActivity$IOException (com.doomy.torch.eval_r)
+===============================================================================
+  No methods
+
+com.doomy.torch.R        (com.doomy.torch.eval_m)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$ParseException (com.doomy.torch.eval_s)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$array  (com.doomy.torch.eval_m$a)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$attr   (com.doomy.torch.eval_m$e)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$bool   (com.doomy.torch.eval_m$m)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$color  (com.doomy.torch.eval_m$w)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$dimen  (com.doomy.torch.eval_m$t)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$drawable       (com.doomy.torch.eval_m$p)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$id     (com.doomy.torch.eval_m$s)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$integer        (com.doomy.torch.eval_m$v)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$layout (com.doomy.torch.eval_m$y)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$menu   (com.doomy.torch.eval_m$j)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$mipmap (com.doomy.torch.eval_m$h)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$string (com.doomy.torch.eval_m$d)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$style  (com.doomy.torch.eval_m$eval_j)
+===============================================================================
+  No methods
+
+com.doomy.torch.R$xml    (com.doomy.torch.eval_m$r)
+===============================================================================
+  No methods
+
+com.doomy.torch.SettingsActivity (com.doomy.torch.eval_b)
+===============================================================================
+  b                            public updateWidget()
+  c                            private enablementKeys()
+  e                            static access$300(com.doomy.torch.SettingsActivity)
+  eval_d                       private setThemeDialog()
+  eval_m                       private openAboutDialog()
+  eval_x                       static access$200()
+  f                            private enablementScreen()
+  k                            private enablementSOS()
+  o                            private deviceHasNoFlash()
+  t                            static access$000()
+  u                            static access$202(java.lang.Boolean)
+  z                            static access$100(com.doomy.torch.SettingsActivity)
+  onCreate                     public onCreate(android.os.Bundle)
+  onCreateOptionsMenu          public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected        public onOptionsItemSelected(android.view.MenuItem)
+  onPause                      public onPause()
+  onResume                     public onResume()
+  onSharedPreferenceChanged    public onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+
+com.doomy.torch.SettingsActivity$1       (com.doomy.torch.eval_b$1)
+===============================================================================
+  onPreferenceChange   public onPreferenceChange(android.preference.Preference,java.lang.Object)
+
+com.doomy.torch.SettingsActivity$2       (com.doomy.torch.eval_b$2)
+===============================================================================
+  onPreferenceClick    public onPreferenceClick(android.preference.Preference)
+
+com.doomy.torch.SettingsActivity$2$1     (com.doomy.torch.eval_b$2$1)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.doomy.torch.SettingsActivity$2$2     (com.doomy.torch.eval_b$2$2)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.doomy.torch.SettingsActivity$2$Exception     (com.doomy.torch.eval_c)
+===============================================================================
+  No methods
+
+com.doomy.torch.SettingsActivity$3       (com.doomy.torch.eval_b$3)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.doomy.torch.SettingsActivity$4       (com.doomy.torch.eval_b$4)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.doomy.torch.SettingsActivity$5       (com.doomy.torch.eval_b$5)
+===============================================================================
+  onClick  public onClick(android.view.View)
+
+com.doomy.torch.SettingsActivity$6       (com.doomy.torch.eval_b$6)
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.doomy.torch.SettingsActivity$ParseException  (com.doomy.torch.eval_q)
+===============================================================================
+  No methods
+
+com.doomy.torch.TorchService     (com.doomy.torch.eval_e)
+===============================================================================
+  f                static access$000(com.doomy.torch.TorchService)
+  k                private updateState(boolean)
+  k                static access$200(com.doomy.torch.TorchService)
+  l                static access$300(com.doomy.torch.TorchService)
+  m                static access$100(com.doomy.torch.TorchService)
+  o                static access$600(com.doomy.torch.TorchService)
+  q                static access$500(com.doomy.torch.TorchService)
+  u                static access$400(com.doomy.torch.TorchService)
+  v                static access$408(com.doomy.torch.TorchService)
+  v                static access$402(com.doomy.torch.TorchService,int)
+  w                static access$002(com.doomy.torch.TorchService,android.content.SharedPreferences)
+  w                static access$202(com.doomy.torch.TorchService,com.doomy.torch.TorchService$WrapperTask)
+  onBind           public onBind(android.content.Intent)
+  onCreate         public onCreate()
+  onDestroy        public onDestroy()
+  onStartCommand   public onStartCommand(android.content.Intent,int,int)
+
+com.doomy.torch.TorchService$1   (com.doomy.torch.eval_e$1)
+===============================================================================
+  run  public run()
+
+com.doomy.torch.TorchService$2   (com.doomy.torch.eval_e$2)
+===============================================================================
+  run  public run()
+
+com.doomy.torch.TorchService$3   (com.doomy.torch.eval_e$3)
+===============================================================================
+  run  public run()
+
+com.doomy.torch.TorchService$4   (com.doomy.torch.eval_e$4)
+===============================================================================
+  run  public run()
+
+com.doomy.torch.TorchService$IOException (com.doomy.torch.eval_g)
+===============================================================================
+  No methods
+
+com.doomy.torch.TorchService$WrapperTask (com.doomy.torch.eval_e$p)
+===============================================================================
+  run  public run()
+
+com.doomy.torch.TorchSwitch
+===============================================================================
+  m            private isTorchServiceRunning(android.content.Context)
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+
+com.doomy.torch.TorchSwitch$ParseException       (com.doomy.torch.eval_l)
+===============================================================================
+  No methods
+
+com.doomy.torch.TorchWidgetProvider
+===============================================================================
+  eval_q       public disableWidget(android.content.Context)
+  i            static synchronized getInstance()
+  k            public updateAppWidget(android.content.Context)
+  k            public updateState(android.content.Context,int)
+  o            private static getLaunchPendingIntent(android.content.Context,int,int)
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+  onUpdate     public onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])
+
+com.doomy.torch.TorchWidgetProvider$NullPointerException (com.doomy.torch.eval_d)
+===============================================================================
+  No methods
+
+com.doomy.torch.TorchWidgetProvider$widgetState  (com.doomy.torch.TorchWidgetProvider$k)
+===============================================================================
+  t        public getImgDrawable()
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.doomy.torch.Utils    (com.doomy.torch.eval_n)
+===============================================================================
+  d    public static getPrefColor(android.content.Context,java.lang.String)
+  f    public static setMainTheme(android.app.Activity)
+  i    public static colorizeBar(android.app.Activity,android.content.Context,java.lang.String)
+  q    public static setPreferenceTheme(android.app.Activity)
+  w    public static deviceHasCameraFlash(android.content.Context)
+
+com.doomy.torch.Utils$ArrayOutOfBoundsException  (com.doomy.torch.eval_h)
+===============================================================================
+  No methods
+
+com.doomy.torch.WidgetActivity
+===============================================================================
+  b                            static access$000()
+  f                            public updateWidget()
+  m                            public addWidget()
+  s                            static access$100(com.doomy.torch.WidgetActivity)
+  onCreate                     public onCreate(android.os.Bundle)
+  onCreateOptionsMenu          public onCreateOptionsMenu(android.view.Menu)
+  onOptionsItemSelected        public onOptionsItemSelected(android.view.MenuItem)
+  onPause                      public onPause()
+  onResume                     public onResume()
+  onSharedPreferenceChanged    public onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)
+
+com.doomy.torch.WidgetActivity$1
+===============================================================================
+  onPreferenceChange   public onPreferenceChange(android.preference.Preference,java.lang.Object)
+
+com.doomy.torch.WidgetActivity$NullPointerException      (com.doomy.torch.eval_k)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 254
+  Renamed to eval_k :  11 (4.3%)
+  Renamed to eval_e :  10 (3.9%)
+  Renamed to eval_p :  10 (3.9%)
+  Renamed to eval_b :   9 (3.5%)
+  Renamed to eval_c :   9 (3.5%)
+  Renamed to eval_t :   9 (3.5%)
+  Renamed to eval_m :   8 (3.1%)
+  Renamed to eval_q :   8 (3.1%)
+  Renamed to eval_n :   7 (2.8%)
+  Renamed to eval_u :   7 (2.8%)
+
+Number of Methods : 104
+  Renamed to k :   6 (5.8%)
+  Renamed to f :   5 (4.8%)
+  Renamed to o :   4 (3.8%)
+  Renamed to w :   4 (3.8%)
+  Renamed to b :   3 (2.9%)
+  Renamed to d :   3 (2.9%)
+  Renamed to m :   3 (2.9%)
+  Renamed to v :   3 (2.9%)
+  Renamed to z :   3 (2.9%)
+  Renamed to c :   2 (1.9%)
+

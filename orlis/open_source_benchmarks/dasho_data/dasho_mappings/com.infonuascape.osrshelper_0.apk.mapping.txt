@@ -1,0 +1,1321 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+com.infonuascape.osrshelper.u    public final com.infonuascape.osrshelper.BuildConfig
+com.infonuascape.osrshelper.eval__       public com.infonuascape.osrshelper.adapters.PoIAdapter$ParseException
+com.infonuascape.osrshelper.eval_a       public com.infonuascape.osrshelper.WorldMapActivity
+com.infonuascape.osrshelper.eval_b       public com.infonuascape.osrshelper.HighScoreActivity$NullPointerException
+com.infonuascape.osrshelper.eval_c       public com.infonuascape.osrshelper.adapters.PointOfInterest$ParseException
+com.infonuascape.osrshelper.eval_d       public com.infonuascape.osrshelper.adapters.PointOfInterest
+com.infonuascape.osrshelper.eval_e       public com.infonuascape.osrshelper.adapters.PoIAdapter
+com.infonuascape.osrshelper.eval_f       public com.infonuascape.osrshelper.UsernameActivity$Exception
+com.infonuascape.osrshelper.eval_g       public com.infonuascape.osrshelper.R$Exception
+com.infonuascape.osrshelper.eval_h       public com.infonuascape.osrshelper.SearchItemActivity$PopulateSearchResults$IOException
+com.infonuascape.osrshelper.eval_i       public com.infonuascape.osrshelper.CombatCalcActivity$3
+com.infonuascape.osrshelper.eval_j       public com.infonuascape.osrshelper.WorldMapActivity$Exception
+com.infonuascape.osrshelper.eval_k       public com.infonuascape.osrshelper.MainMenuActivity$Exception
+com.infonuascape.osrshelper.eval_l       public com.infonuascape.osrshelper.HighScoreActivity
+com.infonuascape.osrshelper.eval_m       public abstract com.infonuascape.osrshelper.adapters.EndlessScrollListener
+com.infonuascape.osrshelper.eval_n       public com.infonuascape.osrshelper.adapters.SearchAdapter
+com.infonuascape.osrshelper.eval_o       public com.infonuascape.osrshelper.XPTrackerActivity
+com.infonuascape.osrshelper.eval_p       public com.infonuascape.osrshelper.BuildConfig$1
+com.infonuascape.osrshelper.eval_q       public com.infonuascape.osrshelper.CombatCalcActivity$PopulateTable$NullPointerException
+com.infonuascape.osrshelper.eval_r       public com.infonuascape.osrshelper.SearchItemActivity
+com.infonuascape.osrshelper.eval_s       public com.infonuascape.osrshelper.SearchItemActivity$ArrayOutOfBoundsException
+com.infonuascape.osrshelper.eval_t       public com.infonuascape.osrshelper.adapters.EndlessScrollListener$IOException
+com.infonuascape.osrshelper.eval_v       public com.infonuascape.osrshelper.CombatCalcActivity
+com.infonuascape.osrshelper.eval_w       public com.infonuascape.osrshelper.XPTrackerActivity$NullPointerException
+com.infonuascape.osrshelper.eval_x       public final com.infonuascape.osrshelper.R
+com.infonuascape.osrshelper.eval_y       public com.infonuascape.osrshelper.BuildConfig$Exception
+com.infonuascape.osrshelper.eval_z       public com.infonuascape.osrshelper.CombatCalcActivity$ArrayOutOfBoundsException
+com.infonuascape.osrshelper.eval__k      public com.infonuascape.osrshelper.views.RSViewPopulate$IOException
+com.infonuascape.osrshelper.eval__t      public com.infonuascape.osrshelper.utils.exceptions.PlayerNotFoundException
+com.infonuascape.osrshelper.eval_a6      public com.infonuascape.osrshelper.hiscore.HiscoreFetcher
+com.infonuascape.osrshelper.eval_a7      public com.infonuascape.osrshelper.hiscore.HiscoreHelper$Exception
+com.infonuascape.osrshelper.eval_af      public com.infonuascape.osrshelper.widget.OSRSWidgetService$ParseException
+com.infonuascape.osrshelper.eval_aq      public com.jeremyfeinstein.slidingmenu.lib.CustomViewBehind$ParseException
+com.infonuascape.osrshelper.eval_bd      public com.infonuascape.osrshelper.utils.grandexchange.Item
+com.infonuascape.osrshelper.eval_bw      public com.infonuascape.osrshelper.grandexchange.GEHelper$NullPointerException
+com.infonuascape.osrshelper.eval_bx      public abstract interface com.jeremyfeinstein.slidingmenu.lib.MenuInterface
+com.infonuascape.osrshelper.eval_c2      public com.infonuascape.osrshelper.adapters.StableArrayAdapter
+com.infonuascape.osrshelper.eval_cc      public com.infonuascape.osrshelper.views.RSViewOnClickListener$NullPointerException
+com.infonuascape.osrshelper.eval_d1      public com.infonuascape.osrshelper.db.Credential
+com.infonuascape.osrshelper.eval_d9      public com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$ArrayOutOfBoundsException
+com.infonuascape.osrshelper.eval_di      public com.infonuascape.osrshelper.widget.StackRemoteViewsFactory$IOException
+com.infonuascape.osrshelper.eval_dk      public com.infonuascape.osrshelper.tracker.Updater$IOException
+com.infonuascape.osrshelper.eval_dn      public com.infonuascape.osrshelper.widget.OSRSAppWidgetProvider$ArrayOutOfBoundsException
+com.infonuascape.osrshelper.eval_dx      public com.infonuascape.osrshelper.utils.exceptions.ParserErrorException$NullPointerException
+com.infonuascape.osrshelper.eval_eh      public com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder
+com.infonuascape.osrshelper.eval_fc      public com.infonuascape.osrshelper.db.OSRSHelperDataSource$ArrayOutOfBoundsException
+com.infonuascape.osrshelper.eval_gg      public com.infonuascape.osrshelper.utils.SkillsEnum
+com.infonuascape.osrshelper.eval_gu      public com.infonuascape.osrshelper.views.HiscoresDialogFragment$ArrayOutOfBoundsException
+com.infonuascape.osrshelper.eval_hd      public com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$ParseException
+com.infonuascape.osrshelper.eval_ii      public com.infonuascape.osrshelper.tracker.TrackerTimeEnum
+com.infonuascape.osrshelper.eval_ip      public com.infonuascape.osrshelper.tracker.TrackerHelper$Exception
+com.infonuascape.osrshelper.eval_j0      public com.sigseg.android.view.InputStreamScene
+com.infonuascape.osrshelper.eval_j5      public com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$NullPointerException
+com.infonuascape.osrshelper.eval_jc      public com.infonuascape.osrshelper.utils.http.HTTPRequest
+com.infonuascape.osrshelper.eval_jq      public com.sigseg.android.view.InputStreamScene$NullPointerException
+com.infonuascape.osrshelper.eval_js      public com.infonuascape.osrshelper.utils.Utils$Exception
+com.infonuascape.osrshelper.eval_k4      public com.infonuascape.osrshelper.views.RSViewOnClickListener
+com.infonuascape.osrshelper.eval_kn      public com.infonuascape.osrshelper.utils.Utils
+com.infonuascape.osrshelper.eval_l0      public com.infonuascape.osrshelper.tracker.Updater
+com.infonuascape.osrshelper.eval_lc      public com.sigseg.android.view.Scene$Exception
+com.infonuascape.osrshelper.eval_le      public com.infonuascape.osrshelper.utils.players.PlayerSkillProgress$ArrayOutOfBoundsException
+com.infonuascape.osrshelper.eval_lo      public com.infonuascape.osrshelper.utils.players.PlayerSkillProgress
+com.infonuascape.osrshelper.eval_m5      public com.infonuascape.osrshelper.tracker.TrackerHelper
+com.infonuascape.osrshelper.eval_mb      public com.infonuascape.osrshelper.utils.grandexchange.Item$ParseException
+com.infonuascape.osrshelper.eval_mg      public com.infonuascape.osrshelper.views.HiscoresDialogFragment
+com.infonuascape.osrshelper.eval_mn      public com.infonuascape.osrshelper.widget.OSRSWidgetService
+com.infonuascape.osrshelper.eval_mz      public abstract com.sigseg.android.view.Scene
+com.infonuascape.osrshelper.eval_n3      public com.sigseg.android.map.ImageSurfaceView$Touch$NullPointerException
+com.infonuascape.osrshelper.eval_nh      public com.infonuascape.osrshelper.hiscore.HiscoreFetcher$NullPointerException
+com.infonuascape.osrshelper.eval_nl      public com.jeremyfeinstein.slidingmenu.lib.MenuInterface$Exception
+com.infonuascape.osrshelper.eval_nu      public com.infonuascape.osrshelper.tracker.TrackerTimeEnum$ArrayOutOfBoundsException
+com.infonuascape.osrshelper.eval_nv      public com.infonuascape.osrshelper.utils.players.PlayerSkills$Exception
+com.infonuascape.osrshelper.eval_og      public com.jeremyfeinstein.slidingmenu.lib.CustomViewBehind
+com.infonuascape.osrshelper.eval_ow      public com.infonuascape.osrshelper.hiscore.HiscoreHelper
+com.infonuascape.osrshelper.eval_pv      public com.infonuascape.osrshelper.utils.exceptions.ParserErrorException
+com.infonuascape.osrshelper.eval_q4      public com.infonuascape.osrshelper.db.OSRSHelperDataSource
+com.infonuascape.osrshelper.eval_qd      public com.infonuascape.osrshelper.grandexchange.GEFetcher
+com.infonuascape.osrshelper.eval_qi      public com.infonuascape.osrshelper.grandexchange.GESearchResults$ParseException
+com.infonuascape.osrshelper.eval_qo      public com.sigseg.android.io.RandomAccessFileInputStream
+com.infonuascape.osrshelper.eval_rb      public com.infonuascape.osrshelper.adapters.StableArrayAdapter$NullPointerException
+com.infonuascape.osrshelper.eval_rd      public com.infonuascape.osrshelper.db.DBController$IOException
+com.infonuascape.osrshelper.eval_re      public com.infonuascape.osrshelper.utils.Skill
+com.infonuascape.osrshelper.eval_ri      public com.infonuascape.osrshelper.grandexchange.GEFetcher$ArrayOutOfBoundsException
+com.infonuascape.osrshelper.eval_rm      public com.infonuascape.osrshelper.adapters.SearchAdapter$NullPointerException
+com.infonuascape.osrshelper.eval_sp      public com.infonuascape.osrshelper.views.RSViewPopulate
+com.infonuascape.osrshelper.eval_sx      public com.infonuascape.osrshelper.utils.players.PlayerSkills
+com.infonuascape.osrshelper.eval_t8      public com.infonuascape.osrshelper.grandexchange.GEHelper
+com.infonuascape.osrshelper.eval_ub      public com.infonuascape.osrshelper.db.Credential$ArrayOutOfBoundsException
+com.infonuascape.osrshelper.eval_uj      public com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove
+com.infonuascape.osrshelper.eval_ur      public com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$SavedState$IOException
+com.infonuascape.osrshelper.eval_vk      public com.infonuascape.osrshelper.utils.SkillsEnum$Exception
+com.infonuascape.osrshelper.eval_vm      public com.infonuascape.osrshelper.db.DBController
+com.infonuascape.osrshelper.eval_vw      public com.sigseg.android.map.ImageSurfaceView$Exception
+com.infonuascape.osrshelper.eval_we      public com.infonuascape.osrshelper.utils.exceptions.PlayerNotFoundException$IOException
+com.infonuascape.osrshelper.eval_wj      com.infonuascape.osrshelper.widget.StackRemoteViewsFactory
+com.infonuascape.osrshelper.eval_xm      public com.infonuascape.osrshelper.tracker.TrackerFetcher
+com.infonuascape.osrshelper.eval_xp      public com.infonuascape.osrshelper.utils.http.HTTPRequest$NullPointerException
+com.infonuascape.osrshelper.eval_y6      public com.infonuascape.osrshelper.grandexchange.GESearchResults
+com.infonuascape.osrshelper.eval_yc      public com.sigseg.android.io.RandomAccessFileInputStream$Exception
+com.infonuascape.osrshelper.eval_yp      public com.infonuascape.osrshelper.utils.Skill$Exception
+com.infonuascape.osrshelper.eval_zb      public com.infonuascape.osrshelper.tracker.TrackerFetcher$NullPointerException
+com.infonuascape.osrshelper.eval_l$1     com.infonuascape.osrshelper.HighScoreActivity$1
+com.infonuascape.osrshelper.eval_l$2     com.infonuascape.osrshelper.HighScoreActivity$2
+com.infonuascape.osrshelper.eval_l$3     com.infonuascape.osrshelper.HighScoreActivity$3
+com.infonuascape.osrshelper.eval_l$u     com.infonuascape.osrshelper.HighScoreActivity$WizardPagerAdapter
+com.infonuascape.osrshelper.eval_l$v     com.infonuascape.osrshelper.HighScoreActivity$PopulateTable
+com.infonuascape.osrshelper.eval_n$c     com.infonuascape.osrshelper.adapters.SearchAdapter$ViewHolder
+com.infonuascape.osrshelper.eval_o$1     com.infonuascape.osrshelper.XPTrackerActivity$1
+com.infonuascape.osrshelper.eval_o$p     com.infonuascape.osrshelper.XPTrackerActivity$PopulateTable
+com.infonuascape.osrshelper.eval_r$1     com.infonuascape.osrshelper.SearchItemActivity$1
+com.infonuascape.osrshelper.eval_r$k     com.infonuascape.osrshelper.SearchItemActivity$PopulateSearchResults
+com.infonuascape.osrshelper.eval_v$1     com.infonuascape.osrshelper.CombatCalcActivity$1
+com.infonuascape.osrshelper.eval_v$2     com.infonuascape.osrshelper.CombatCalcActivity$2
+com.infonuascape.osrshelper.eval_v$_     com.infonuascape.osrshelper.CombatCalcActivity$PopulateTable
+com.infonuascape.osrshelper.eval_x$b     public final com.infonuascape.osrshelper.R$attr
+com.infonuascape.osrshelper.eval_x$c     public final com.infonuascape.osrshelper.R$layout
+com.infonuascape.osrshelper.eval_x$d     public final com.infonuascape.osrshelper.R$string
+com.infonuascape.osrshelper.eval_x$e     public final com.infonuascape.osrshelper.R$xml
+com.infonuascape.osrshelper.eval_x$i     public final com.infonuascape.osrshelper.R$array
+com.infonuascape.osrshelper.eval_x$j     public final com.infonuascape.osrshelper.R$bool
+com.infonuascape.osrshelper.eval_x$l     public final com.infonuascape.osrshelper.R$styleable
+com.infonuascape.osrshelper.eval_x$r     public final com.infonuascape.osrshelper.R$color
+com.infonuascape.osrshelper.eval_x$u     public final com.infonuascape.osrshelper.R$drawable
+com.infonuascape.osrshelper.eval_x$v     public final com.infonuascape.osrshelper.R$id
+com.infonuascape.osrshelper.eval_bd$v    public com.infonuascape.osrshelper.utils.grandexchange.Item$Trend
+com.infonuascape.osrshelper.eval_bd$w    public final com.infonuascape.osrshelper.utils.grandexchange.Item$TrendRate
+com.infonuascape.osrshelper.eval_eh$1    final com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$1
+com.infonuascape.osrshelper.eval_eh$2    com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$2
+com.infonuascape.osrshelper.eval_eh$3    com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$3
+com.infonuascape.osrshelper.eval_eh$4    com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$4
+com.infonuascape.osrshelper.eval_eh$5    com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$5
+com.infonuascape.osrshelper.eval_eh$6    com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$6
+com.infonuascape.osrshelper.eval_gg$a    public final com.infonuascape.osrshelper.utils.SkillsEnum$SkillType
+com.infonuascape.osrshelper.eval_ii$k    public final com.infonuascape.osrshelper.tracker.TrackerTimeEnum$TrackerTime
+com.infonuascape.osrshelper.eval_jc$d    public final com.infonuascape.osrshelper.utils.http.HTTPRequest$StatusCode
+com.infonuascape.osrshelper.eval_jc$g    public final com.infonuascape.osrshelper.utils.http.HTTPRequest$RequestType
+com.infonuascape.osrshelper.eval_mz$1    com.sigseg.android.view.Scene$1
+com.infonuascape.osrshelper.eval_mz$e    public com.sigseg.android.view.Scene$Viewport
+com.infonuascape.osrshelper.eval_mz$g    com.sigseg.android.view.Scene$CacheThread
+com.infonuascape.osrshelper.eval_mz$m    com.sigseg.android.view.Scene$Cache
+com.infonuascape.osrshelper.eval_uj$1    final com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$1
+com.infonuascape.osrshelper.eval_uj$2    com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$2
+com.infonuascape.osrshelper.eval_uj$k    public com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$SimpleOnPageChangeListener
+com.infonuascape.osrshelper.eval_uj$t    public abstract interface com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$OnPageChangeListener
+com.infonuascape.osrshelper.eval_r$k$1   com.infonuascape.osrshelper.SearchItemActivity$PopulateSearchResults$1
+com.infonuascape.osrshelper.eval_r$k$2   com.infonuascape.osrshelper.SearchItemActivity$PopulateSearchResults$2
+com.infonuascape.osrshelper.eval_v$_$1   com.infonuascape.osrshelper.CombatCalcActivity$PopulateTable$1
+com.infonuascape.osrshelper.eval_v$_$2   com.infonuascape.osrshelper.CombatCalcActivity$PopulateTable$2
+com.sigseg.android.map.ImageSurfaceView$_        com.sigseg.android.map.ImageSurfaceView$DrawThread
+com.sigseg.android.map.ImageSurfaceView$g        com.sigseg.android.map.ImageSurfaceView$Touch
+com.sigseg.android.map.ImageSurfaceView$q        com.sigseg.android.map.ImageSurfaceView$ScaleListener
+com.infonuascape.osrshelper.eval_mz$eval_j       final com.sigseg.android.view.Scene$CacheState
+com.sigseg.android.map.ImageSurfaceView$g$o      com.sigseg.android.map.ImageSurfaceView$Touch$TouchThread
+com.sigseg.android.map.ImageSurfaceView$eval_p   final com.sigseg.android.map.ImageSurfaceView$TouchState
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$a        public abstract interface com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnClosedListener
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$e        public abstract interface com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnCloseListener
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$i        public abstract interface com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnOpenListener
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$j        public abstract interface com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnOpenedListener
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$m        public abstract interface com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$CanvasTransformer
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$s        public com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$SavedState
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$s$1      final com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$SavedState$1
+-------------------------------------------------------------------------------
+
+com.infonuascape.osrshelper.BuildConfig  (com.infonuascape.osrshelper.u)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.BuildConfig$1        (com.infonuascape.osrshelper.eval_p)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.BuildConfig$Exception        (com.infonuascape.osrshelper.eval_y)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.CombatCalcActivity   (com.infonuascape.osrshelper.eval_v)
+===============================================================================
+  a                    public static show(android.content.Context)
+  a                    static access$1400(com.infonuascape.osrshelper.CombatCalcActivity)
+  d                    private changeCombatText()
+  d                    static access$200(com.infonuascape.osrshelper.CombatCalcActivity)
+  eval_h               static access$1300(com.infonuascape.osrshelper.CombatCalcActivity)
+  eval_o               static access$800(com.infonuascape.osrshelper.CombatCalcActivity)
+  eval_y               static access$1500(com.infonuascape.osrshelper.CombatCalcActivity)
+  eval_z               static access$400(com.infonuascape.osrshelper.CombatCalcActivity)
+  g                    static access$900(com.infonuascape.osrshelper.CombatCalcActivity)
+  h                    static access$700(com.infonuascape.osrshelper.CombatCalcActivity)
+  i                    static access$300(com.infonuascape.osrshelper.CombatCalcActivity)
+  m                    static access$1700(com.infonuascape.osrshelper.CombatCalcActivity)
+  n                    static access$1000(com.infonuascape.osrshelper.CombatCalcActivity)
+  s                    public static showWithPrefillUSername(android.content.Context,java.lang.String)
+  s                    static access$600(com.infonuascape.osrshelper.CombatCalcActivity)
+  t                    static access$1100(com.infonuascape.osrshelper.CombatCalcActivity)
+  v                    static access$1200(com.infonuascape.osrshelper.CombatCalcActivity)
+  w                    static access$500(com.infonuascape.osrshelper.CombatCalcActivity)
+  w                    public eraseAndChangeHint(java.lang.String)
+  x                    static access$1600(com.infonuascape.osrshelper.CombatCalcActivity)
+  y                    static access$100(com.infonuascape.osrshelper.CombatCalcActivity)
+  afterTextChanged     public afterTextChanged(android.text.Editable)
+  beforeTextChanged    public beforeTextChanged(java.lang.CharSequence,int,int,int)
+  onClick              public onClick(android.view.View)
+  onCreate             protected onCreate(android.os.Bundle)
+  onTextChanged        public onTextChanged(java.lang.CharSequence,int,int,int)
+
+com.infonuascape.osrshelper.CombatCalcActivity$1 (com.infonuascape.osrshelper.eval_v$1)
+===============================================================================
+  run  public run()
+
+com.infonuascape.osrshelper.CombatCalcActivity$2 (com.infonuascape.osrshelper.eval_v$2)
+===============================================================================
+  run  public run()
+
+com.infonuascape.osrshelper.CombatCalcActivity$3 (com.infonuascape.osrshelper.eval_i)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.CombatCalcActivity$ArrayOutOfBoundsException (com.infonuascape.osrshelper.eval_z)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.CombatCalcActivity$PopulateTable     (com.infonuascape.osrshelper.eval_v$_)
+===============================================================================
+  e                protected onPostExecute(com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  e                protected transient doInBackground(java.lang.String[])
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+
+com.infonuascape.osrshelper.CombatCalcActivity$PopulateTable$1   (com.infonuascape.osrshelper.eval_v$_$1)
+===============================================================================
+  run  public run()
+
+com.infonuascape.osrshelper.CombatCalcActivity$PopulateTable$2   (com.infonuascape.osrshelper.eval_v$_$2)
+===============================================================================
+  run  public run()
+
+com.infonuascape.osrshelper.CombatCalcActivity$PopulateTable$NullPointerException        (com.infonuascape.osrshelper.eval_q)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.HighScoreActivity    (com.infonuascape.osrshelper.eval_l)
+===============================================================================
+  b        static access$500(com.infonuascape.osrshelper.HighScoreActivity,java.lang.String)
+  d        static access$302(com.infonuascape.osrshelper.HighScoreActivity,com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  eval_t   static access$300(com.infonuascape.osrshelper.HighScoreActivity)
+  i        private changeCombatText()
+  i        private createRow(com.infonuascape.osrshelper.utils.Skill)
+  j        static access$400(com.infonuascape.osrshelper.HighScoreActivity)
+  n        static access$100(com.infonuascape.osrshelper.HighScoreActivity)
+  o        public selectDot(int)
+  q        public addDots()
+  q        private populateTable(com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  s        static access$600(com.infonuascape.osrshelper.HighScoreActivity,com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  v        static access$200(com.infonuascape.osrshelper.HighScoreActivity)
+  w        private changeHeaderText(java.lang.String)
+  y        public static show(android.content.Context,java.lang.String)
+  onCreate protected onCreate(android.os.Bundle)
+
+com.infonuascape.osrshelper.HighScoreActivity$1  (com.infonuascape.osrshelper.eval_l$1)
+===============================================================================
+  run  public run()
+
+com.infonuascape.osrshelper.HighScoreActivity$2  (com.infonuascape.osrshelper.eval_l$2)
+===============================================================================
+  run  public run()
+
+com.infonuascape.osrshelper.HighScoreActivity$3  (com.infonuascape.osrshelper.eval_l$3)
+===============================================================================
+  onPageScrollStateChanged public onPageScrollStateChanged(int)
+  onPageScrolled           public onPageScrolled(int,float,int)
+  onPageSelected           public onPageSelected(int)
+
+com.infonuascape.osrshelper.HighScoreActivity$NullPointerException       (com.infonuascape.osrshelper.eval_b)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.HighScoreActivity$PopulateTable      (com.infonuascape.osrshelper.eval_l$v)
+===============================================================================
+  v                protected onPostExecute(com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  v                protected transient doInBackground(java.lang.String[])
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+
+com.infonuascape.osrshelper.HighScoreActivity$WizardPagerAdapter (com.infonuascape.osrshelper.eval_l$u)
+===============================================================================
+  getCount         public getCount()
+  instantiateItem  public instantiateItem(android.view.ViewGroup,int)
+  isViewFromObject public isViewFromObject(android.view.View,java.lang.Object)
+
+com.infonuascape.osrshelper.MainMenuActivity
+===============================================================================
+  onClick  public onClick(android.view.View)
+  onCreate protected onCreate(android.os.Bundle)
+
+com.infonuascape.osrshelper.MainMenuActivity$Exception   (com.infonuascape.osrshelper.eval_k)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.R    (com.infonuascape.osrshelper.eval_x)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.R$Exception  (com.infonuascape.osrshelper.eval_g)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.R$array      (com.infonuascape.osrshelper.eval_x$i)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.R$attr       (com.infonuascape.osrshelper.eval_x$b)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.R$bool       (com.infonuascape.osrshelper.eval_x$j)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.R$color      (com.infonuascape.osrshelper.eval_x$r)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.R$drawable   (com.infonuascape.osrshelper.eval_x$u)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.R$id (com.infonuascape.osrshelper.eval_x$v)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.R$layout     (com.infonuascape.osrshelper.eval_x$c)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.R$string     (com.infonuascape.osrshelper.eval_x$d)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.R$styleable  (com.infonuascape.osrshelper.eval_x$l)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.R$xml        (com.infonuascape.osrshelper.eval_x$e)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.SearchItemActivity   (com.infonuascape.osrshelper.eval_r)
+===============================================================================
+  c                    public static show(android.content.Context)
+  d                    static access$400(com.infonuascape.osrshelper.SearchItemActivity)
+  eval_t               static access$408(com.infonuascape.osrshelper.SearchItemActivity)
+  g                    static access$200(com.infonuascape.osrshelper.SearchItemActivity)
+  j                    static access$300(com.infonuascape.osrshelper.SearchItemActivity)
+  k                    static access$500(com.infonuascape.osrshelper.SearchItemActivity)
+  l                    static access$702(com.infonuascape.osrshelper.SearchItemActivity,com.infonuascape.osrshelper.adapters.SearchAdapter)
+  n                    static access$600(com.infonuascape.osrshelper.SearchItemActivity)
+  p                    static access$602(com.infonuascape.osrshelper.SearchItemActivity,boolean)
+  s                    static access$202(com.infonuascape.osrshelper.SearchItemActivity,com.infonuascape.osrshelper.SearchItemActivity$PopulateSearchResults)
+  t                    static access$800(com.infonuascape.osrshelper.SearchItemActivity)
+  w                    static access$700(com.infonuascape.osrshelper.SearchItemActivity)
+  z                    static access$100(com.infonuascape.osrshelper.SearchItemActivity)
+  z                    static access$102(com.infonuascape.osrshelper.SearchItemActivity,boolean)
+  onCreate             protected onCreate(android.os.Bundle)
+  onItemClick          public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+  onQueryTextChange    public onQueryTextChange(java.lang.String)
+  onQueryTextSubmit    public onQueryTextSubmit(java.lang.String)
+  onResume             public onResume()
+
+com.infonuascape.osrshelper.SearchItemActivity$1 (com.infonuascape.osrshelper.eval_r$1)
+===============================================================================
+  s    public onLoadMore(int,int)
+
+com.infonuascape.osrshelper.SearchItemActivity$ArrayOutOfBoundsException (com.infonuascape.osrshelper.eval_s)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.SearchItemActivity$PopulateSearchResults     (com.infonuascape.osrshelper.eval_r$k)
+===============================================================================
+  n                protected transient doInBackground(java.lang.String[])
+  y                protected onPostExecute(com.infonuascape.osrshelper.grandexchange.GESearchResults)
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+
+com.infonuascape.osrshelper.SearchItemActivity$PopulateSearchResults$1   (com.infonuascape.osrshelper.eval_r$k$1)
+===============================================================================
+  run  public run()
+
+com.infonuascape.osrshelper.SearchItemActivity$PopulateSearchResults$2   (com.infonuascape.osrshelper.eval_r$k$2)
+===============================================================================
+  run  public run()
+
+com.infonuascape.osrshelper.SearchItemActivity$PopulateSearchResults$IOException (com.infonuascape.osrshelper.eval_h)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.UsernameActivity
+===============================================================================
+  g                static access$100(com.infonuascape.osrshelper.UsernameActivity)
+  k                public static show(android.content.Context,int)
+  p                private closeActivity(java.lang.String)
+  t                static access$000(com.infonuascape.osrshelper.UsernameActivity)
+  onClick          public onClick(android.view.View)
+  onCreate         protected onCreate(android.os.Bundle)
+  onItemClick      public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+  onItemLongClick  public onItemLongClick(android.widget.AdapterView,android.view.View,int,long)
+  onResume         public onResume()
+
+com.infonuascape.osrshelper.UsernameActivity$1
+===============================================================================
+  onClick  public onClick(android.content.DialogInterface,int)
+
+com.infonuascape.osrshelper.UsernameActivity$Exception   (com.infonuascape.osrshelper.eval_f)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.WorldMapActivity     (com.infonuascape.osrshelper.eval_a)
+===============================================================================
+  b                    public static show(android.content.Context)
+  b                    public zoomToPoT(android.graphics.Point)
+  eval_x               private initPoT()
+  o                    public getCenterScreen()
+  onBackPressed        public onBackPressed()
+  onClick              public onClick(android.view.View)
+  onCreate             protected onCreate(android.os.Bundle)
+  onItemClick          public onItemClick(android.widget.AdapterView,android.view.View,int,long)
+  onResume             protected onResume()
+  onSaveInstanceState  protected onSaveInstanceState(android.os.Bundle)
+
+com.infonuascape.osrshelper.WorldMapActivity$Exception   (com.infonuascape.osrshelper.eval_j)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.XPTrackerActivity    (com.infonuascape.osrshelper.eval_o)
+===============================================================================
+  a                    private createRow(com.infonuascape.osrshelper.utils.Skill,com.infonuascape.osrshelper.utils.Skill)
+  a                    private changeHeaderText(java.lang.String,int)
+  d                    private createHeadersRow()
+  f                    static access$300(com.infonuascape.osrshelper.XPTrackerActivity,com.infonuascape.osrshelper.utils.players.PlayerSkills,com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  g                    static access$100(com.infonuascape.osrshelper.XPTrackerActivity)
+  k                    private populateTable(com.infonuascape.osrshelper.utils.players.PlayerSkills,com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  l                    public static show(android.content.Context,java.lang.String)
+  u                    private createAsyncTaskToPopulate(java.lang.String,boolean)
+  y                    static access$000(com.infonuascape.osrshelper.XPTrackerActivity)
+  y                    static access$200(com.infonuascape.osrshelper.XPTrackerActivity,java.lang.String,int)
+  onClick              public onClick(android.view.View)
+  onCreate             protected onCreate(android.os.Bundle)
+  onItemSelected       public onItemSelected(android.widget.AdapterView,android.view.View,int,long)
+  onNothingSelected    public onNothingSelected(android.widget.AdapterView)
+
+com.infonuascape.osrshelper.XPTrackerActivity$1  (com.infonuascape.osrshelper.eval_o$1)
+===============================================================================
+  run  public run()
+
+com.infonuascape.osrshelper.XPTrackerActivity$NullPointerException       (com.infonuascape.osrshelper.eval_w)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.XPTrackerActivity$PopulateTable      (com.infonuascape.osrshelper.eval_o$p)
+===============================================================================
+  i                protected transient doInBackground(java.lang.String[])
+  n                protected onPostExecute(com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  doInBackground   protected volatile doInBackground(java.lang.Object[])
+  onPostExecute    protected volatile onPostExecute(java.lang.Object)
+
+com.infonuascape.osrshelper.adapters.EndlessScrollListener       (com.infonuascape.osrshelper.eval_m)
+===============================================================================
+  s                    public abstract onLoadMore(int,int)
+  onScroll             public onScroll(android.widget.AbsListView,int,int,int)
+  onScrollStateChanged public onScrollStateChanged(android.widget.AbsListView,int)
+
+com.infonuascape.osrshelper.adapters.EndlessScrollListener$IOException   (com.infonuascape.osrshelper.eval_t)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.adapters.PoIAdapter  (com.infonuascape.osrshelper.eval_e)
+===============================================================================
+  getItem      public getItem(int)
+  getCount     public getCount()
+  getItem      public volatile getItem(int)
+  getItemId    public getItemId(int)
+  getView      public getView(int,android.view.View,android.view.ViewGroup)
+
+com.infonuascape.osrshelper.adapters.PoIAdapter$ParseException   (com.infonuascape.osrshelper.eval__)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.adapters.PointOfInterest     (com.infonuascape.osrshelper.eval_d)
+===============================================================================
+  e    public getPoint()
+  r    public getName()
+
+com.infonuascape.osrshelper.adapters.PointOfInterest$ParseException      (com.infonuascape.osrshelper.eval_c)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.adapters.SearchAdapter       (com.infonuascape.osrshelper.eval_n)
+===============================================================================
+  getView  public getView(int,android.view.View,android.view.ViewGroup)
+
+com.infonuascape.osrshelper.adapters.SearchAdapter$NullPointerException  (com.infonuascape.osrshelper.eval_rm)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.adapters.SearchAdapter$ViewHolder    (com.infonuascape.osrshelper.eval_n$c)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.adapters.StableArrayAdapter  (com.infonuascape.osrshelper.eval_c2)
+===============================================================================
+  getItemId    public getItemId(int)
+  hasStableIds public hasStableIds()
+
+com.infonuascape.osrshelper.adapters.StableArrayAdapter$NullPointerException     (com.infonuascape.osrshelper.eval_rb)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.db.Credential        (com.infonuascape.osrshelper.eval_d1)
+===============================================================================
+  n    public getUsername()
+  t    public getPassword()
+
+com.infonuascape.osrshelper.db.Credential$ArrayOutOfBoundsException      (com.infonuascape.osrshelper.eval_ub)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.db.DBController      (com.infonuascape.osrshelper.eval_vm)
+===============================================================================
+  onCreate     public onCreate(android.database.sqlite.SQLiteDatabase)
+  onUpgrade    public onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+
+com.infonuascape.osrshelper.db.DBController$IOException  (com.infonuascape.osrshelper.eval_rd)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.db.OSRSHelperDataSource      (com.infonuascape.osrshelper.eval_q4)
+===============================================================================
+  a        public open()
+  b        public getAllUsernames()
+  b        public updateCredentials(java.lang.String,java.lang.String)
+  c        public deleteUsername(java.lang.String)
+  eval_f   public deleteAllUsernames()
+  eval_m   public createCredentials(java.lang.String,java.lang.String)
+  j        public close()
+  m        public setUsernameForWidget(int,java.lang.String)
+  n        public getUsernameForWidget(int)
+  n        public addUsername(java.lang.String)
+  q        public getCredentials()
+
+com.infonuascape.osrshelper.db.OSRSHelperDataSource$ArrayOutOfBoundsException    (com.infonuascape.osrshelper.eval_fc)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.grandexchange.GEFetcher      (com.infonuascape.osrshelper.eval_qd)
+===============================================================================
+  a    public search(java.lang.String,int)
+
+com.infonuascape.osrshelper.grandexchange.GEFetcher$ArrayOutOfBoundsException    (com.infonuascape.osrshelper.eval_ri)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.grandexchange.GEHelper       (com.infonuascape.osrshelper.eval_t8)
+===============================================================================
+  s    public search(java.lang.String,int)
+
+com.infonuascape.osrshelper.grandexchange.GEHelper$NullPointerException  (com.infonuascape.osrshelper.eval_bw)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.grandexchange.GESearchResults        (com.infonuascape.osrshelper.eval_y6)
+===============================================================================
+  x    private parseTrend(org.json.JSONObject)
+
+com.infonuascape.osrshelper.grandexchange.GESearchResults$ParseException (com.infonuascape.osrshelper.eval_qi)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.hiscore.HiscoreFetcher       (com.infonuascape.osrshelper.eval_a6)
+===============================================================================
+  h    public mapDataSet(java.lang.String)
+  k    public getPlayerSkills()
+  l    private getDataFromAPI()
+  n    public getUserName()
+
+com.infonuascape.osrshelper.hiscore.HiscoreFetcher$NullPointerException  (com.infonuascape.osrshelper.eval_nh)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.hiscore.HiscoreHelper        (com.infonuascape.osrshelper.eval_ow)
+===============================================================================
+  p    public getUserName()
+  s    public getPlayerStats()
+  w    public setUserName(java.lang.String)
+
+com.infonuascape.osrshelper.hiscore.HiscoreHelper$Exception      (com.infonuascape.osrshelper.eval_a7)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.tracker.TrackerFetcher       (com.infonuascape.osrshelper.eval_xm)
+===============================================================================
+  c    private getDataFromAPI()
+  e    public getLookupTime()
+  f    public getUserName()
+  l    public mapDataSet(java.lang.String)
+  r    public getPlayerTracker()
+
+com.infonuascape.osrshelper.tracker.TrackerFetcher$NullPointerException  (com.infonuascape.osrshelper.eval_zb)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.tracker.TrackerHelper        (com.infonuascape.osrshelper.eval_m5)
+===============================================================================
+  d    public getPlayerStats(com.infonuascape.osrshelper.tracker.TrackerTimeEnum$TrackerTime)
+  s    public getPlayerStats()
+  v    public getUserName()
+  z    public setUserName(java.lang.String)
+
+com.infonuascape.osrshelper.tracker.TrackerHelper$Exception      (com.infonuascape.osrshelper.eval_ip)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.tracker.TrackerTimeEnum      (com.infonuascape.osrshelper.eval_ii)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.tracker.TrackerTimeEnum$ArrayOutOfBoundsException    (com.infonuascape.osrshelper.eval_nu)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.tracker.TrackerTimeEnum$TrackerTime  (com.infonuascape.osrshelper.eval_ii$k)
+===============================================================================
+  u        public getSeconds()
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.infonuascape.osrshelper.tracker.Updater      (com.infonuascape.osrshelper.eval_l0)
+===============================================================================
+  x    public static perform(java.lang.String)
+
+com.infonuascape.osrshelper.tracker.Updater$IOException  (com.infonuascape.osrshelper.eval_dk)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.utils.Skill  (com.infonuascape.osrshelper.eval_re)
+===============================================================================
+  b        public getExperience()
+  d        public setExperience(long)
+  d        public setLevel(short)
+  g        public getSkillType()
+  m        public getDrawableInt()
+  o        public getLevel()
+  q        public setSkillType(com.infonuascape.osrshelper.utils.SkillsEnum$SkillType)
+  t        public getRank()
+  x        public setRank(int)
+  toString public toString()
+
+com.infonuascape.osrshelper.utils.Skill$Exception        (com.infonuascape.osrshelper.eval_yp)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.utils.SkillsEnum     (com.infonuascape.osrshelper.eval_gg)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.utils.SkillsEnum$Exception   (com.infonuascape.osrshelper.eval_vk)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.utils.SkillsEnum$SkillType   (com.infonuascape.osrshelper.eval_gg$a)
+===============================================================================
+  toString public toString()
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.infonuascape.osrshelper.utils.Utils  (com.infonuascape.osrshelper.eval_kn)
+===============================================================================
+  b        public static final getMissingMagicUntilNextCombatLvl(com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  c        public static final getCombatLvl(com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  eval_r   public static final getMissingPrayerUntilNextCombatLvl(com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  eval_s   public static final getMissingRangingUntilNextCombatLvl(com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  f        public static final getMissingHPDefenceUntilNextCombatLvl(com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  p        public static final getXPToLvl(int)
+  w        public static final getMissingAttackStrengthUntilNextCombatLvl(com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  z        public static getCitiesPoI()
+
+com.infonuascape.osrshelper.utils.Utils$Exception        (com.infonuascape.osrshelper.eval_js)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.utils.exceptions.ParserErrorException        (com.infonuascape.osrshelper.eval_pv)
+===============================================================================
+  v    public getError()
+
+com.infonuascape.osrshelper.utils.exceptions.ParserErrorException$NullPointerException   (com.infonuascape.osrshelper.eval_dx)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.utils.exceptions.PlayerNotFoundException     (com.infonuascape.osrshelper.eval__t)
+===============================================================================
+  a    public getUserName()
+
+com.infonuascape.osrshelper.utils.exceptions.PlayerNotFoundException$IOException (com.infonuascape.osrshelper.eval_we)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.utils.grandexchange.Item     (com.infonuascape.osrshelper.eval_bd)
+===============================================================================
+  eval_r   public static getTrendRateEnum(java.lang.String)
+  toString public toString()
+
+com.infonuascape.osrshelper.utils.grandexchange.Item$ParseException      (com.infonuascape.osrshelper.eval_mb)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.utils.grandexchange.Item$Trend       (com.infonuascape.osrshelper.eval_bd$v)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.utils.grandexchange.Item$TrendRate   (com.infonuascape.osrshelper.eval_bd$w)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.infonuascape.osrshelper.utils.http.HTTPRequest       (com.infonuascape.osrshelper.eval_jc)
+===============================================================================
+  q    private performRequest(java.lang.String,com.infonuascape.osrshelper.utils.http.HTTPRequest$RequestType,java.util.Map)
+  t    public getOutput()
+  v    public getStatusCode()
+
+com.infonuascape.osrshelper.utils.http.HTTPRequest$NullPointerException  (com.infonuascape.osrshelper.eval_xp)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.utils.http.HTTPRequest$RequestType   (com.infonuascape.osrshelper.eval_jc$g)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.infonuascape.osrshelper.utils.http.HTTPRequest$StatusCode    (com.infonuascape.osrshelper.eval_jc$d)
+===============================================================================
+  i        public getStatusCodeValue()
+  u        public static get(int)
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.infonuascape.osrshelper.utils.players.PlayerSkillProgress    (com.infonuascape.osrshelper.eval_lo)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.utils.players.PlayerSkillProgress$ArrayOutOfBoundsException  (com.infonuascape.osrshelper.eval_le)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.utils.players.PlayerSkills   (com.infonuascape.osrshelper.eval_sx)
+===============================================================================
+  a        public static getSkillsInOrderForRSView(com.infonuascape.osrshelper.utils.players.PlayerSkills)
+  eval_d   public setSinceWhen(java.lang.String)
+  n        public static getSkillsInOrder(com.infonuascape.osrshelper.utils.players.PlayerSkills)
+
+com.infonuascape.osrshelper.utils.players.PlayerSkills$Exception (com.infonuascape.osrshelper.eval_nv)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.views.HiscoresDialogFragment (com.infonuascape.osrshelper.eval_mg)
+===============================================================================
+  onClick          public onClick(android.view.View)
+  onCreateDialog   public onCreateDialog(android.os.Bundle)
+  onCreateView     public onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)
+  onResume         public onResume()
+
+com.infonuascape.osrshelper.views.HiscoresDialogFragment$ArrayOutOfBoundsException       (com.infonuascape.osrshelper.eval_gu)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.views.RSViewOnClickListener  (com.infonuascape.osrshelper.eval_k4)
+===============================================================================
+  c        private showDialog(com.infonuascape.osrshelper.utils.Skill)
+  onClick  public onClick(android.view.View)
+
+com.infonuascape.osrshelper.views.RSViewOnClickListener$NullPointerException     (com.infonuascape.osrshelper.eval_cc)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.views.RSViewPopulate (com.infonuascape.osrshelper.eval_sp)
+===============================================================================
+  r    public populate(android.widget.GridView)
+  s    public populate(android.widget.TableLayout)
+
+com.infonuascape.osrshelper.views.RSViewPopulate$IOException     (com.infonuascape.osrshelper.eval__k)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.widget.OSRSAppWidgetProvider
+===============================================================================
+  onReceive    public onReceive(android.content.Context,android.content.Intent)
+  onUpdate     public onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])
+
+com.infonuascape.osrshelper.widget.OSRSAppWidgetProvider$ArrayOutOfBoundsException       (com.infonuascape.osrshelper.eval_dn)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.widget.OSRSWidgetService     (com.infonuascape.osrshelper.eval_mn)
+===============================================================================
+  onGetViewFactory public onGetViewFactory(android.content.Intent)
+
+com.infonuascape.osrshelper.widget.OSRSWidgetService$ParseException      (com.infonuascape.osrshelper.eval_af)
+===============================================================================
+  No methods
+
+com.infonuascape.osrshelper.widget.StackRemoteViewsFactory       (com.infonuascape.osrshelper.eval_wj)
+===============================================================================
+  getCount         public getCount()
+  getItemId        public getItemId(int)
+  getLoadingView   public getLoadingView()
+  getViewAt        public getViewAt(int)
+  getViewTypeCount public getViewTypeCount()
+  hasStableIds     public hasStableIds()
+  onCreate         public onCreate()
+  onDataSetChanged public onDataSetChanged()
+  onDestroy        public onDestroy()
+
+com.infonuascape.osrshelper.widget.StackRemoteViewsFactory$IOException   (com.infonuascape.osrshelper.eval_di)
+===============================================================================
+  No methods
+
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder     (com.infonuascape.osrshelper.eval_eh)
+===============================================================================
+  a        public zoom(int,int,int,int,int,int)
+  b        public translate(int,int,int,int,android.view.animation.Interpolator)
+  eval_w   public rotate(int,int,int,int)
+  m        static access$000(com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder)
+  r        public concatTransformer(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$CanvasTransformer)
+  r        public rotate(int,int,int,int,android.view.animation.Interpolator)
+  t        private initTransformer()
+  u        public zoom(int,int,int,int,int,int,android.view.animation.Interpolator)
+  x        public translate(int,int,int,int)
+
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$1   (com.infonuascape.osrshelper.eval_eh$1)
+===============================================================================
+  getInterpolation public getInterpolation(float)
+
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$2   (com.infonuascape.osrshelper.eval_eh$2)
+===============================================================================
+  q    public transformCanvas(android.graphics.Canvas,float)
+
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$3   (com.infonuascape.osrshelper.eval_eh$3)
+===============================================================================
+  q    public transformCanvas(android.graphics.Canvas,float)
+
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$4   (com.infonuascape.osrshelper.eval_eh$4)
+===============================================================================
+  q    public transformCanvas(android.graphics.Canvas,float)
+
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$5   (com.infonuascape.osrshelper.eval_eh$5)
+===============================================================================
+  q    public transformCanvas(android.graphics.Canvas,float)
+
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$6   (com.infonuascape.osrshelper.eval_eh$6)
+===============================================================================
+  q    public transformCanvas(android.graphics.Canvas,float)
+
+com.jeremyfeinstein.slidingmenu.lib.CanvasTransformerBuilder$NullPointerException        (com.infonuascape.osrshelper.eval_j5)
+===============================================================================
+  No methods
+
+com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove      (com.infonuascape.osrshelper.eval_uj)
+===============================================================================
+  a                        private getRightBound()
+  a                        private determineDrag(android.view.MotionEvent)
+  a                        public setAboveOffset(int)
+  b                        public getContentLeft()
+  c                        private getLeftBound()
+  c                        public setCurrentItem(int,boolean)
+  d                        public getTouchMode()
+  d                        public setContent(android.view.View)
+  d                        static access$000(com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove)
+  d                        setInternalPageChangeListener(com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$OnPageChangeListener)
+  e                        private thisTouchAllowed(android.view.MotionEvent)
+  eval_g                   pageLeft()
+  eval_k                   pageRight()
+  eval_l                   public getContent()
+  eval_x                   public isSlidingEnabled()
+  f                        private completeScroll()
+  g                        public clearIgnoredViews()
+  h                        public getBehindWidth()
+  h                        public executeKeyEvent(android.view.KeyEvent)
+  i                        public isMenuOpen()
+  i                        private getPointerIndex(android.view.MotionEvent,int)
+  i                        public setOnClosedListener(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnClosedListener)
+  k                        protected getPercentOpen()
+  l                        public getCurrentItem()
+  l                        smoothScrollTo(int,int)
+  m                        public setOnPageChangeListener(com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$OnPageChangeListener)
+  n                        private endDrag()
+  n                        public setSlidingEnabled(boolean)
+  n                        public setOnOpenedListener(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnOpenedListener)
+  o                        private onSecondaryPointerUp(android.view.MotionEvent)
+  o                        private setScrollingCacheEnabled(boolean)
+  o                        public setCustomViewBehind(com.jeremyfeinstein.slidingmenu.lib.CustomViewBehind)
+  o                        public setTouchMode(int)
+  p                        setCurrentItemInternal(int,boolean,boolean,int)
+  q                        private startDrag()
+  q                        public addIgnoredView(android.view.View)
+  q                        public getChildWidth(int)
+  q                        smoothScrollTo(int,int,int)
+  r                        public setCurrentItem(int)
+  s                        private pageScrolled(int)
+  t                        public removeIgnoredView(android.view.View)
+  t                        distanceInfluenceForSnapDuration(float)
+  u                        public arrowScroll(int)
+  v                        private isInIgnoredView(android.view.MotionEvent)
+  v                        protected onPageScrolled(int,float,int)
+  w                        protected canScroll(android.view.View,boolean,int,int,int)
+  w                        private thisSlideAllowed(float)
+  w                        private determineTargetPage(float,int,int)
+  w                        public getDestScrollX(int)
+  y                        setCurrentItemInternal(int,boolean,boolean)
+  z                        initCustomViewAbove()
+  computeScroll            public computeScroll()
+  dispatchDraw             protected dispatchDraw(android.graphics.Canvas)
+  dispatchKeyEvent         public dispatchKeyEvent(android.view.KeyEvent)
+  onInterceptTouchEvent    public onInterceptTouchEvent(android.view.MotionEvent)
+  onLayout                 protected onLayout(boolean,int,int,int,int)
+  onMeasure                protected onMeasure(int,int)
+  onSizeChanged            protected onSizeChanged(int,int,int,int)
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+  scrollTo                 public scrollTo(int,int)
+
+com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$1    (com.infonuascape.osrshelper.eval_uj$1)
+===============================================================================
+  getInterpolation public getInterpolation(float)
+
+com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$2    (com.infonuascape.osrshelper.eval_uj$2)
+===============================================================================
+  j    public onPageSelected(int)
+
+com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$ArrayOutOfBoundsException    (com.infonuascape.osrshelper.eval_d9)
+===============================================================================
+  No methods
+
+com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$OnPageChangeListener (com.infonuascape.osrshelper.eval_uj$t)
+===============================================================================
+  j    public abstract onPageSelected(int)
+  y    public abstract onPageScrolled(int,float,int)
+
+com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove$SimpleOnPageChangeListener   (com.infonuascape.osrshelper.eval_uj$k)
+===============================================================================
+  j    public onPageSelected(int)
+  p    public onPageScrollStateChanged(int)
+  y    public onPageScrolled(int,float,int)
+
+com.jeremyfeinstein.slidingmenu.lib.CustomViewBehind     (com.infonuascape.osrshelper.eval_og)
+===============================================================================
+  b                        public getAbsLeftBound(android.view.View)
+  b                        public scrollBehindTo(android.view.View,int,int)
+  c                        public getContent()
+  d                        public marginTouchAllowed(android.view.View,int)
+  e                        public setScrollScale(float)
+  eval_e                   public setShadowDrawable(android.graphics.drawable.Drawable)
+  eval_i                   public getScrollScale()
+  f                        public getMode()
+  f                        public setSecondaryContent(android.view.View)
+  f                        public menuOpenSlideAllowed(float)
+  g                        public setSecondaryShadowDrawable(android.graphics.drawable.Drawable)
+  g                        public drawShadow(android.view.View,android.graphics.Canvas)
+  h                        public getAbsRightBound(android.view.View)
+  h                        public setTouchMode(int)
+  i                        public setChildrenEnabled(boolean)
+  j                        public getMenuLeft(android.view.View,int)
+  j                        public setFadeEnabled(boolean)
+  k                        public getSecondaryContent()
+  k                        public setFadeDegree(float)
+  k                        public getMenuPage(int)
+  l                        public menuOpenTouchAllowed(android.view.View,int,float)
+  m                        public menuClosedSlideAllowed(float)
+  n                        public getMarginThreshold()
+  p                        public setWidthOffset(int)
+  q                        public getBehindWidth()
+  q                        public setSelectorBitmap(android.graphics.Bitmap)
+  q                        public setSelectedView(android.view.View)
+  q                        public setShadowWidth(int)
+  s                        public drawFade(android.view.View,android.graphics.Canvas,float)
+  u                        public drawSelector(android.view.View,android.graphics.Canvas,float)
+  u                        public setMode(int)
+  v                        public setCanvasTransformer(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$CanvasTransformer)
+  w                        public menuTouchInQuickReturn(android.view.View,int,float)
+  w                        public setCustomViewAbove(com.jeremyfeinstein.slidingmenu.lib.CustomViewAbove)
+  x                        private getSelectorTop()
+  x                        public setMarginThreshold(int)
+  z                        public setContent(android.view.View)
+  z                        public setSelectorEnabled(boolean)
+  dispatchDraw             protected dispatchDraw(android.graphics.Canvas)
+  onInterceptTouchEvent    public onInterceptTouchEvent(android.view.MotionEvent)
+  onLayout                 protected onLayout(boolean,int,int,int,int)
+  onMeasure                protected onMeasure(int,int)
+  onTouchEvent             public onTouchEvent(android.view.MotionEvent)
+  scrollTo                 public scrollTo(int,int)
+
+com.jeremyfeinstein.slidingmenu.lib.CustomViewBehind$ParseException      (com.infonuascape.osrshelper.eval_aq)
+===============================================================================
+  No methods
+
+com.jeremyfeinstein.slidingmenu.lib.MenuInterface        (com.infonuascape.osrshelper.eval_bx)
+===============================================================================
+  b    public abstract scrollBehindTo(int,int,com.jeremyfeinstein.slidingmenu.lib.CustomViewBehind,float)
+  d    public abstract drawSelector(android.view.View,android.graphics.Canvas,float)
+  d    public abstract getAbsRightBound(com.jeremyfeinstein.slidingmenu.lib.CustomViewBehind,android.view.View)
+  g    public abstract menuOpenSlideAllowed(int)
+  h    public abstract drawShadow(android.graphics.Canvas,android.graphics.drawable.Drawable,int)
+  i    public abstract getMenuLeft(com.jeremyfeinstein.slidingmenu.lib.CustomViewBehind,android.view.View)
+  k    public abstract menuTouchInQuickReturn(android.view.View,int,int)
+  k    public abstract getAbsLeftBound(com.jeremyfeinstein.slidingmenu.lib.CustomViewBehind,android.view.View)
+  m    public abstract menuOpenTouchAllowed(android.view.View,int,int)
+  p    public abstract drawFade(android.graphics.Canvas,int,com.jeremyfeinstein.slidingmenu.lib.CustomViewBehind,android.view.View)
+  r    public abstract menuClosedSlideAllowed(int)
+  w    public abstract marginTouchAllowed(android.view.View,int,int)
+
+com.jeremyfeinstein.slidingmenu.lib.MenuInterface$Exception      (com.infonuascape.osrshelper.eval_nl)
+===============================================================================
+  No methods
+
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu
+===============================================================================
+  a                        static access$000(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu)
+  b                        public setStatic(boolean)
+  b                        public setAboveOffsetRes(int)
+  c                        public showContent()
+  d                        public isSecondaryMenuShowing()
+  d                        public attachToActivity(android.app.Activity,int,boolean)
+  d                        public setContent(android.view.View)
+  d                        public setSelectorEnabled(boolean)
+  d                        public setFadeDegree(float)
+  e                        public getBehindScrollScale()
+  e                        public setSecondaryMenu(int)
+  eval_a                   public setShadowWidth(int)
+  eval_b                   public setSecondaryShadowDrawable(android.graphics.drawable.Drawable)
+  eval_b                   public setSelectorDrawable(int)
+  eval_e                   public toggle()
+  eval_f                   public setShadowWidthRes(int)
+  eval_i                   public showMenu()
+  eval_j                   public showContent(boolean)
+  eval_j                   public setTouchmodeMarginThreshold(int)
+  eval_l                   public getBehindOffset()
+  eval_l                   public manageLayers(float)
+  eval_n                   public clearIgnoredViews()
+  eval_v                   public getTouchModeAbove()
+  eval_v                   public setBehindOffset(int)
+  eval_w                   public getTouchmodeMarginThreshold()
+  eval_w                   public setSelectorBitmap(android.graphics.Bitmap)
+  f                        public setShadowDrawable(android.graphics.drawable.Drawable)
+  h                        public showSecondaryMenu()
+  h                        public removeIgnoredView(android.view.View)
+  h                        static access$200(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu)
+  h                        public setOnClosedListener(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnClosedListener)
+  h                        public setBehindWidth(int)
+  i                        static access$100(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu)
+  j                        public isMenuShowing()
+  j                        public setMode(int)
+  k                        public getMenu()
+  k                        public setShadowDrawable(int)
+  l                        static access$400()
+  l                        public setFadeEnabled(boolean)
+  l                        public setContent(int)
+  m                        public setSecondaryOnOpenListner(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnOpenListener)
+  m                        public setOnOpenedListener(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnOpenedListener)
+  m                        public setBehindScrollScale(float)
+  m                        public setAboveOffset(int)
+  n                        public setMenu(android.view.View)
+  o                        public getContent()
+  o                        public setBehindOffsetRes(int)
+  p                        public getMode()
+  p                        public showSecondaryMenu(boolean)
+  p                        public setOnOpenListener(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnOpenListener)
+  q                        public attachToActivity(android.app.Activity,int)
+  q                        public setSelectedView(android.view.View)
+  q                        public setSlidingEnabled(boolean)
+  q                        public setOnCloseListener(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnCloseListener)
+  q                        public setMenu(int)
+  r                        public setTouchModeBehind(int)
+  t                        public getSecondaryMenu()
+  t                        public toggle(boolean)
+  u                        public setSecondaryShadowDrawable(int)
+  v                        public setTouchModeAbove(int)
+  w                        public setSecondaryMenu(android.view.View)
+  w                        public setBehindWidthRes(int)
+  y                        public showMenu(boolean)
+  y                        public setBehindCanvasTransformer(com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$CanvasTransformer)
+  z                        public isSlidingEnabled()
+  z                        public addIgnoredView(android.view.View)
+  fitSystemWindows         protected fitSystemWindows(android.graphics.Rect)
+  onRestoreInstanceState   protected onRestoreInstanceState(android.os.Parcelable)
+  onSaveInstanceState      protected onSaveInstanceState()
+
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$1
+===============================================================================
+  j    public onPageSelected(int)
+  y    public onPageScrolled(int,float,int)
+
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$2
+===============================================================================
+  run  public run()
+
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$CanvasTransformer        (com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$m)
+===============================================================================
+  q    public abstract transformCanvas(android.graphics.Canvas,float)
+
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnCloseListener  (com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$e)
+===============================================================================
+  s    public abstract onClose()
+
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnClosedListener (com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$a)
+===============================================================================
+  h    public abstract onClosed()
+
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnOpenListener   (com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$i)
+===============================================================================
+  w    public abstract onOpen()
+
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$OnOpenedListener (com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$j)
+===============================================================================
+  y    public abstract onOpened()
+
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$ParseException   (com.infonuascape.osrshelper.eval_hd)
+===============================================================================
+  No methods
+
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$SavedState       (com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$s)
+===============================================================================
+  y                public getItem()
+  writeToParcel    public writeToParcel(android.os.Parcel,int)
+
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$SavedState$1     (com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$s$1)
+===============================================================================
+  createFromParcel public createFromParcel(android.os.Parcel)
+  newArray         public newArray(int)
+  createFromParcel public volatile createFromParcel(android.os.Parcel)
+  newArray         public volatile newArray(int)
+
+com.jeremyfeinstein.slidingmenu.lib.SlidingMenu$SavedState$IOException   (com.infonuascape.osrshelper.eval_ur)
+===============================================================================
+  No methods
+
+com.sigseg.android.io.RandomAccessFileInputStream        (com.infonuascape.osrshelper.eval_qo)
+===============================================================================
+  q                public skip(int)
+  available        public available()
+  close            public close()
+  mark             public mark(int)
+  markSupported    public markSupported()
+  read             public read()
+  read             public read(byte[])
+  read             public read(byte[],int,int)
+  reset            public reset()
+
+com.sigseg.android.io.RandomAccessFileInputStream$Exception      (com.infonuascape.osrshelper.eval_yc)
+===============================================================================
+  No methods
+
+com.sigseg.android.map.ImageSurfaceView
+===============================================================================
+  e                static access$100(com.sigseg.android.map.ImageSurfaceView)
+  h                static access$202(com.sigseg.android.map.ImageSurfaceView,long)
+  i                public getLastScaleTime()
+  j                public setInputStream(java.io.InputStream)
+  l                public zoom(float,android.graphics.PointF)
+  m                private init(android.content.Context)
+  n                public getViewport(android.graphics.Point)
+  s                public setViewport(android.graphics.Point)
+  w                public setViewportCenter()
+  onDown           public onDown(android.view.MotionEvent)
+  onFling          public onFling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+  onLongPress      public onLongPress(android.view.MotionEvent)
+  onScroll         public onScroll(android.view.MotionEvent,android.view.MotionEvent,float,float)
+  onShowPress      public onShowPress(android.view.MotionEvent)
+  onSingleTapUp    public onSingleTapUp(android.view.MotionEvent)
+  onTouchEvent     public onTouchEvent(android.view.MotionEvent)
+  surfaceChanged   public surfaceChanged(android.view.SurfaceHolder,int,int,int)
+  surfaceCreated   public surfaceCreated(android.view.SurfaceHolder)
+  surfaceDestroyed public surfaceDestroyed(android.view.SurfaceHolder)
+
+com.sigseg.android.map.ImageSurfaceView$1
+===============================================================================
+  No methods
+
+com.sigseg.android.map.ImageSurfaceView$DrawThread       (com.sigseg.android.map.ImageSurfaceView$_)
+===============================================================================
+  i    public setRunning(boolean)
+  run  public run()
+
+com.sigseg.android.map.ImageSurfaceView$Exception        (com.infonuascape.osrshelper.eval_vw)
+===============================================================================
+  No methods
+
+com.sigseg.android.map.ImageSurfaceView$ScaleListener    (com.sigseg.android.map.ImageSurfaceView$q)
+===============================================================================
+  onScale  public onScale(android.view.ScaleGestureDetector)
+
+com.sigseg.android.map.ImageSurfaceView$Touch    (com.sigseg.android.map.ImageSurfaceView$g)
+===============================================================================
+  d    cancel(android.view.MotionEvent)
+  f    stop()
+  k    move(android.view.MotionEvent)
+  l    fling(android.view.MotionEvent,android.view.MotionEvent,float,float)
+  x    up(android.view.MotionEvent)
+  z    start()
+  z    down(android.view.MotionEvent)
+
+com.sigseg.android.map.ImageSurfaceView$Touch$NullPointerException       (com.infonuascape.osrshelper.eval_n3)
+===============================================================================
+  No methods
+
+com.sigseg.android.map.ImageSurfaceView$Touch$TouchThread        (com.sigseg.android.map.ImageSurfaceView$g$o)
+===============================================================================
+  h    setRunning(boolean)
+  run  public run()
+
+com.sigseg.android.map.ImageSurfaceView$TouchState       (com.sigseg.android.map.ImageSurfaceView$eval_p)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.sigseg.android.view.InputStreamScene (com.infonuascape.osrshelper.eval_j0)
+===============================================================================
+  a    protected calculateCacheWindow(android.graphics.Rect)
+  d    protected fillCache(android.graphics.Rect)
+  e    protected drawComplete(android.graphics.Canvas)
+  k    protected fillCacheOutOfMemoryError(java.lang.OutOfMemoryError)
+  x    protected drawSampleRectIntoBitmap(android.graphics.Bitmap,android.graphics.Rect)
+
+com.sigseg.android.view.InputStreamScene$NullPointerException    (com.infonuascape.osrshelper.eval_jq)
+===============================================================================
+  No methods
+
+com.sigseg.android.view.Scene    (com.infonuascape.osrshelper.eval_mz)
+===============================================================================
+  a    protected abstract calculateCacheWindow(android.graphics.Rect)
+  d    protected abstract fillCache(android.graphics.Rect)
+  e    protected abstract drawComplete(android.graphics.Canvas)
+  f    public initialize()
+  g    public invalidate()
+  i    static access$200(com.sigseg.android.view.Scene)
+  k    public start()
+  k    protected abstract fillCacheOutOfMemoryError(java.lang.OutOfMemoryError)
+  n    public setSceneSize(int,int)
+  o    static access$100(com.sigseg.android.view.Scene)
+  q    static access$300(com.sigseg.android.view.Scene)
+  r    public getSceneSize(android.graphics.Point)
+  r    public setSuspend(boolean)
+  t    public getSceneSize()
+  u    public getViewport()
+  v    public stop()
+  v    public draw(android.graphics.Canvas)
+  x    protected abstract drawSampleRectIntoBitmap(android.graphics.Bitmap,android.graphics.Rect)
+
+com.sigseg.android.view.Scene$1  (com.infonuascape.osrshelper.eval_mz$1)
+===============================================================================
+  No methods
+
+com.sigseg.android.view.Scene$Cache      (com.infonuascape.osrshelper.eval_mz$m)
+===============================================================================
+  eval_y   stop()
+  f        getState()
+  g        start()
+  k        loadBitmapIntoViewport(android.graphics.Bitmap)
+  m        loadSampleIntoViewport()
+  r        setState(com.sigseg.android.view.Scene$CacheState)
+  u        update(com.sigseg.android.view.Scene$Viewport)
+  w        invalidate()
+
+com.sigseg.android.view.Scene$CacheState (com.infonuascape.osrshelper.eval_mz$eval_j)
+===============================================================================
+  valueOf  public static valueOf(java.lang.String)
+  values   public static values()
+
+com.sigseg.android.view.Scene$CacheThread        (com.infonuascape.osrshelper.eval_mz$g)
+===============================================================================
+  h    setRunning(boolean)
+  run  public run()
+
+com.sigseg.android.view.Scene$Exception  (com.infonuascape.osrshelper.eval_lc)
+===============================================================================
+  No methods
+
+com.sigseg.android.view.Scene$Viewport   (com.infonuascape.osrshelper.eval_mz$e)
+===============================================================================
+  a    public zoom(float,android.graphics.PointF)
+  b    public getPhysicalWidth()
+  b    public getSize(android.graphics.Point)
+  c    public getPhysicalSize(android.graphics.Point)
+  f    draw(android.graphics.Canvas)
+  f    public setSize(int,int)
+  n    public getPhysicalHeight()
+  q    public getZoom()
+  q    public setOrigin(int,int)
+  x    public getOrigin(android.graphics.Point)
+
+-------------------------------------------------------------------------------
+Number of Fields : 810
+  Renamed to eval_f :  24 (3.0%)
+  Renamed to eval__ :  23 (2.8%)
+  Renamed to eval_a :  21 (2.6%)
+  Renamed to eval_j :  21 (2.6%)
+  Renamed to eval_t :  21 (2.6%)
+  Renamed to eval_z :  21 (2.6%)
+  Renamed to eval_m :  20 (2.5%)
+  Renamed to eval_s :  20 (2.5%)
+  Renamed to eval_w :  20 (2.5%)
+  Renamed to eval_k :  19 (2.3%)
+
+Number of Methods : 546
+  Renamed to q :  28 (5.1%)
+  Renamed to d :  23 (4.2%)
+  Renamed to n :  18 (3.3%)
+  Renamed to w :  18 (3.3%)
+  Renamed to k :  17 (3.1%)
+  Renamed to a :  16 (2.9%)
+  Renamed to b :  16 (2.9%)
+  Renamed to h :  16 (2.9%)
+  Renamed to i :  14 (2.6%)
+  Renamed to s :  14 (2.6%)
+

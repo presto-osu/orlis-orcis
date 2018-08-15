@@ -1,0 +1,116 @@
+New Name                         Original Name
+-------------------------------------------------------------------------------
+eu.siebeck.sipswitch.i           public final eu.siebeck.sipswitch.BuildConfig
+eu.siebeck.sipswitch.eval_f      public eu.siebeck.sipswitch.R$ParseException
+eu.siebeck.sipswitch.eval_m      public eu.siebeck.sipswitch.SipSwitchActivity$IOException
+eu.siebeck.sipswitch.eval_p      public eu.siebeck.sipswitch.R$1
+eu.siebeck.sipswitch.eval_v      public eu.siebeck.sipswitch.BuildConfig$ParseException
+eu.siebeck.sipswitch.eval_w      public eu.siebeck.sipswitch.BuildConfig$1
+eu.siebeck.sipswitch.eval_z      public final eu.siebeck.sipswitch.R
+eu.siebeck.sipswitch.eval_z$j    public final eu.siebeck.sipswitch.R$id
+eu.siebeck.sipswitch.eval_z$k    public final eu.siebeck.sipswitch.R$layout
+eu.siebeck.sipswitch.eval_z$p    public final eu.siebeck.sipswitch.R$xml
+eu.siebeck.sipswitch.eval_z$r    public final eu.siebeck.sipswitch.R$string
+eu.siebeck.sipswitch.eval_z$s    public final eu.siebeck.sipswitch.R$mipmap
+eu.siebeck.sipswitch.eval_z$t    public final eu.siebeck.sipswitch.R$attr
+eu.siebeck.sipswitch.eval_z$u    public final eu.siebeck.sipswitch.R$drawable
+-------------------------------------------------------------------------------
+
+eu.siebeck.sipswitch.BuildConfig (eu.siebeck.sipswitch.i)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.BuildConfig$1       (eu.siebeck.sipswitch.eval_w)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.BuildConfig$ParseException  (eu.siebeck.sipswitch.eval_v)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.R   (eu.siebeck.sipswitch.eval_z)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.R$1 (eu.siebeck.sipswitch.eval_p)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.R$ParseException    (eu.siebeck.sipswitch.eval_f)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.R$attr      (eu.siebeck.sipswitch.eval_z$t)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.R$drawable  (eu.siebeck.sipswitch.eval_z$u)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.R$id        (eu.siebeck.sipswitch.eval_z$j)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.R$layout    (eu.siebeck.sipswitch.eval_z$k)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.R$mipmap    (eu.siebeck.sipswitch.eval_z$s)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.R$string    (eu.siebeck.sipswitch.eval_z$r)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.R$xml       (eu.siebeck.sipswitch.eval_z$p)
+===============================================================================
+  No methods
+
+eu.siebeck.sipswitch.SipSwitchActivity
+===============================================================================
+  d                            private getModeIndicator(java.lang.String)
+  e                            private getModeToast(java.lang.String)
+  f                            private getSipSettingsIntent()
+  f                            private getRemoteViews(android.content.Context,int)
+  g                            private updateWidgetView(android.content.Context)
+  i                            private getModeImage(java.lang.String)
+  p                            private updateWidget(android.content.Context,android.appwidget.AppWidgetManager,int,android.widget.RemoteViews)
+  s                            private deleteRemoteViews(int)
+  w                            private addRemoteViews(android.content.Context,int,int)
+  w                            private setCallMode(android.content.Context,java.lang.String)
+  x                            private toggleCallMode(java.lang.String)
+  onAppWidgetOptionsChanged    public onAppWidgetOptionsChanged(android.content.Context,android.appwidget.AppWidgetManager,int,android.os.Bundle)
+  onDeleted                    public onDeleted(android.content.Context,int[])
+  onReceive                    public onReceive(android.content.Context,android.content.Intent)
+  onUpdate                     public onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[])
+
+eu.siebeck.sipswitch.SipSwitchActivity$IOException       (eu.siebeck.sipswitch.eval_m)
+===============================================================================
+  No methods
+
+-------------------------------------------------------------------------------
+Number of Fields : 145
+  Renamed to eval__ :   4 (2.8%)
+  Renamed to eval_j :   4 (2.8%)
+  Renamed to eval_p :   4 (2.8%)
+  Renamed to eval_z :   4 (2.8%)
+  Renamed to eval_a :   3 (2.1%)
+  Renamed to eval_b :   3 (2.1%)
+  Renamed to eval_c :   3 (2.1%)
+  Renamed to eval_d :   3 (2.1%)
+  Renamed to eval_e :   3 (2.1%)
+  Renamed to eval_f :   3 (2.1%)
+
+Number of Methods : 15
+  Renamed to f :   2 (13.3%)
+  Renamed to w :   2 (13.3%)
+  Renamed to d :   1 (6.7%)
+  Renamed to e :   1 (6.7%)
+  Renamed to g :   1 (6.7%)
+  Renamed to i :   1 (6.7%)
+  Renamed to p :   1 (6.7%)
+  Renamed to s :   1 (6.7%)
+  Renamed to x :   1 (6.7%)
+
