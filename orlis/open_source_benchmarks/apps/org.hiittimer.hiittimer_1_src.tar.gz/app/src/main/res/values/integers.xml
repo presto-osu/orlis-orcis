@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <integer name="new_training_default_pre_training_countdown">5</integer>
-    <integer name="new_round_duration">20</integer>
-    <integer name="new_round_recover_time">60</integer>
-
-</resources>

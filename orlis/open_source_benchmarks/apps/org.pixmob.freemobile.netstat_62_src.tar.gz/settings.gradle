@@ -1,2 +1,0 @@
-include ':httpclient'
-include ':freemobilenetstat'

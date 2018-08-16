@@ -1,8 +1,0 @@
-*.iml
-build/
-.idea
-local.properties
-.gradle
-gradle/
-gradlew
-gradlew.bat

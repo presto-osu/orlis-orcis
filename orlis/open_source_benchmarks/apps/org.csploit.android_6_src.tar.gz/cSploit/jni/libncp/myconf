@@ -1,2 +1,0 @@
-#! /bin/sh
-./configure --prefix=/usr --mandir=/usr/share/man --sysconfdir=/etc --enable-warnings --enable-ncp-debug "$@"

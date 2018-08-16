@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <attr name="sageColor" format="reference"/>
-    <attr name="marginColor" format="reference"/>
-    <attr name="nameColor" format="reference"/>
-    <attr name="tripcodeColor" format="reference"/>
-    <attr name="isDarkTheme" format="boolean"/>
-    <attr name="quoteColor" format="reference"/>
-</resources>

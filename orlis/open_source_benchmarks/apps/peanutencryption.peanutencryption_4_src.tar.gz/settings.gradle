@@ -1,2 +1,0 @@
-include ':app', ':aes-crypto'
-project(':aes-crypto').projectDir = new File('java-aes-crypto/aes-crypto')

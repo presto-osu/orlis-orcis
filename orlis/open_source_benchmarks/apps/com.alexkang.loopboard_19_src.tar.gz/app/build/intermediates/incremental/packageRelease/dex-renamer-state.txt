@@ -1,4 +1,0 @@
-#Mon Nov 27 16:54:16 EST 2017
-base.0=/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/yan/backup/android-obfuscator/apps/com.alexkang.loopboard_19_src.tar.gz/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

@@ -1,9 +1,0 @@
-
-/bin
-/gen
-build
-*~
-.gradle
-.idea
-*.iml
-local.properties

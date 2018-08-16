@@ -1,1 +1,0 @@
-[Click here](https://github.com/ebraminio/DroidPersianCalendar/blob/master/PersianCalendar/src/main/res/raw/credits.txt)

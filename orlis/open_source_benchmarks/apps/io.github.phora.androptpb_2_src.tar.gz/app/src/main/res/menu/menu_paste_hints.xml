@@ -1,8 +1,0 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:tools="http://schemas.android.com/tools"
-      tools:context="io.github.phora.androptpb.activities.PasteHintsActivity">
-      <item android:id="@+id/action_purge_refresh"
-            android:icon="@drawable/ic_menu_refresh"
-            android:showAsAction="ifRoom"
-            android:title="@string/Action.Refresh"/>
-</menu>

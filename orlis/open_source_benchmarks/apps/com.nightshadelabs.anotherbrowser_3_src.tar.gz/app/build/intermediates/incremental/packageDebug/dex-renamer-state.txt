@@ -1,4 +1,0 @@
-#Mon Nov 27 17:05:36 EST 2017
-base.0=/home/yan/backup/android-obfuscator/apps/com.nightshadelabs.anotherbrowser_3_src.tar.gz/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/yan/backup/android-obfuscator/apps/com.nightshadelabs.anotherbrowser_3_src.tar.gz/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

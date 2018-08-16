@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <dimen name="config_gesture_floating_preview_horizontal_padding">8.0dip</dimen>
-    <dimen name="config_gesture_floating_preview_vertical_padding">8.0dip</dimen>
-    <dimen name="config_gesture_floating_preview_round_radius">2.0dip</dimen>
-
-</resources>

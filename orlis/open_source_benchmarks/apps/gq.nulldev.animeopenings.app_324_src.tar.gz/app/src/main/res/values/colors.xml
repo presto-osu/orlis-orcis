@@ -1,9 +1,0 @@
-<resources>
-
-    <color name="black_overlay">#66000000</color>
-    <color name="btn_trans">#00000000</color>
-    <color name="btn_25">#405A595B</color>
-    <color name="btn_75">#7F5A595B</color>
-    <color name="btn_50">#c05a595b</color>
-
-</resources>

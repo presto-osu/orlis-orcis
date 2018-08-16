@@ -1,5 +1,0 @@
-local.properties
-build/
-.gradle/
-workspace.xml
-tasks.xml

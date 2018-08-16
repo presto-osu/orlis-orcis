@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Preference TextView Style -->
-    <style name="PreferenceTextStyle">
-        <item name="android:textAppearance">@android:style/TextAppearance.Material.Subhead</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:ellipsize">marquee</item>
-    </style>
-</resources>

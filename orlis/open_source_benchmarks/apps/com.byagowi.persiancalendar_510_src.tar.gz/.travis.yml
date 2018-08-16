@@ -1,9 +1,0 @@
-sudo: false # Use Travis docker infrastructure
-language: android
-android:
-  components:
-    - tools
-    - build-tools-23.0.3
-    - android-23
-    - extra-android-support
-    - extra-android-m2repository

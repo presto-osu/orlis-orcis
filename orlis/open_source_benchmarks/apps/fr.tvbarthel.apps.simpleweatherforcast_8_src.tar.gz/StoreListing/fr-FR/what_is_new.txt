@@ -1,8 +1,0 @@
-[1.3.0] Correction de bug & support de Lollipop.
-
-[1.2.0] Tout ce que vous nous avez demandé, toujours gratuit et open-source !
-
-Nouvelle fonctionnalité : un widget coloré !
-La barre de navigation et la barre de status sont maintenant transparentes pour les terminaux en 4.4
-La précision de la géolocalisation est améliorée. 
-Des bugs mineurs ont été corrigés.

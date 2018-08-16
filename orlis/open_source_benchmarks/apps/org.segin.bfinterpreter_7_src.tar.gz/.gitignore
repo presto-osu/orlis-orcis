@@ -1,7 +1,0 @@
-.gradle
-/local.properties
-.DS_Store
-/build
-# /.idea/*
-app/app-release.apk
-app/manifest-merger-release-report.txt

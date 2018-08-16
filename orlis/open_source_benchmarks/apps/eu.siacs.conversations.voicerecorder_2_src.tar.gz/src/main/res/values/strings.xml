@@ -1,6 +1,0 @@
-<resources>
-    <string name="voice_recorder_plugin">Voice Recorder Plugin</string>
-    <string name="voice_recorder">Voice Recorder</string>
-    <string name="cancel">Cancel</string>
-    <string name="share">Share</string>
-</resources>

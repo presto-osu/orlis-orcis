@@ -1,1 +1,0 @@
-  permission:cyanogenmod.permission.PUBLISH_CUSTOM_TILE

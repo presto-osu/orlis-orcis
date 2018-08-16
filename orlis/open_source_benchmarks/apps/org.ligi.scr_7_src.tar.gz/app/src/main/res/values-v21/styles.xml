@@ -1,7 +1,0 @@
-<resources>
-
-    <style name="ShareButton">
-        <item name="android:background">?android:attr/selectableItemBackgroundBorderless</item>
-    </style>
-
-</resources>

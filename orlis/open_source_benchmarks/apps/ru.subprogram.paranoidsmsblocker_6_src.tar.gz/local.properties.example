@@ -1,9 +1,0 @@
-sdk.dir=/home/user/Programs/android-sdk-linux
-ndk.dir=/home/user/Programs/android-ndk-r9d
-
-debugStorePath=/home/user/workspace/debug.keystore
-
-releaseStorePath=/home/user/workspace/release.keystore
-storePassword=pass
-keyAlias=alias
-keyPassword=pass

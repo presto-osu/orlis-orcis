@@ -1,8 +1,0 @@
-<resources>
-    <color name="black_overlay">#66000000</color>
-    <color name="recording">#620808</color>
-    <color name="recorded">#086208</color>
-    <color name="notRecorded">#080862</color>
-    <color name="black">#000000</color>
-    <color name="white">#FFFFFF</color>
-</resources>

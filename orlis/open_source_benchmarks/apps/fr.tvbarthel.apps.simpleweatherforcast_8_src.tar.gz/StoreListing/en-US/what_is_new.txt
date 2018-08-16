@@ -1,8 +1,0 @@
-[1.3.0] Fix few bugs & support Lollipop.
-
-[1.2.0] Everything you asked for, still free and open-source!
- 
-New feature : a colourful widget!
-The navigation bar and the status bar are now translucent for the 4.4 devices.
-The accuracy of the localisation has been improved.
-Some minor bugs have been fixed.

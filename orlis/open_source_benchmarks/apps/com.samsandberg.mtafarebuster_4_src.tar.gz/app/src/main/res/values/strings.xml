@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">MTA Fare Buster</string>
-    <string name="hello_world">MTA Fare Buster - Get rid of those pesky leftovers!</string>
-    <string name="label_amount_on_card">Amount on card:</string>
-    <string name="hint_amount_on_card">0.00</string>
-    <string name="amount_on_card_default_value">0.00</string>
-    <string name="button_go_text">Go</string>
-</resources>

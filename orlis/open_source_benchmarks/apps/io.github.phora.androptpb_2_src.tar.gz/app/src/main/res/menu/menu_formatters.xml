@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/action_purge_refresh"
-          android:icon="@drawable/ic_menu_refresh"
-          android:showAsAction="ifRoom"
-          android:title="@string/Action.Refresh"/>
-</menu>

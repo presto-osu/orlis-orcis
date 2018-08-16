@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-  <dimen name="show_header_image_height">200dp</dimen>
-  <dimen name="show_title_margin">16dp</dimen>
-  <dimen name="show_title_size">24sp</dimen>
-  <dimen name="tab_strip_height">48dp</dimen>
-</resources>

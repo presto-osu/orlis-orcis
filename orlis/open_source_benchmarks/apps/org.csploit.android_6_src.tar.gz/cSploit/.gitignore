@@ -1,8 +1,0 @@
-obj
-libs
-dist
-src/main/jniLibs
-*.so
-*.jks
-*.tar.*
-*.zip
