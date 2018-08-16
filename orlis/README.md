@@ -26,7 +26,7 @@ The output is a list of class pairs in the format of
 ### Apps
 The open-source apps are from F-droid repository. Tha APKs are in the folder
 "./open_source_benchmarks/apks". There is a number with underscore in the
-name of each apk; this number is to distinguish apks when they have the same name.
+name of each apk; this number is to distinguish apks when they have the same package name.
 
 ### Libraries
 The library jar files in this benchmark are in zip file
