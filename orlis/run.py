@@ -317,7 +317,9 @@ if __name__ == "__main__":
   if inputFn.endswith('.apk'):
      libDir = sys.argv[2]
      ret = detect_lib_cls(inputFn,sys.argv[2])     
-     if ret != None:
+     if ret==None or len(ret) == 0:
+       print("Nothing is found.")
+     else:
        show_result(ret)
   elif inputFn.endswith('.jar'):
      gen_lib_fn(inputFn, sys.argv[2])
